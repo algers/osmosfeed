@@ -1,10 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-08T00:26:36.108Z</id>
+    <id>urn:2022-09-09T00:27:43.683Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-08T00:26:36.108Z</updated>
+    <updated>2022-09-09T00:27:43.683Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident with Pull Requests]]></title>
+        <id>https://www.githubstatus.com/incidents/p38y9j23bt7b</id>
+        <link href="https://www.githubstatus.com/incidents/p38y9j23bt7b"/>
+        <updated>2022-09-08T23:41:29.000Z</updated>
+        <summary type="html"><![CDATA[Sep  8, 23:41 UTC
+Update - We are continuing to mitigate the issue impacting some of our customers.
+Sep  8, 22:10 UTC
+Update - We have identified the source of the issue impacting some of our customers. We continue to mitigate the issue.
+Sep  8, 21:04 UTC
+Update - We found an issue that impacts some customers. We are working on a mitigation.
+Sep  8, 19:44 UTC
+Investigating - We are investigating reports of degraded performance for Pull Requests.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Windows Store app users may experience an error when launching Slack]]></title>
+        <id>https://status.slack.com//2022-09/f4273fe54d4adbcb</id>
+        <link href="https://status.slack.com//2022-09/f4273fe54d4adbcb"/>
+        <updated>2022-09-08T22:09:38.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+On September 1st, 2022 from around 6:28 am to September 7th, 2022 around 3:00 pm PDT, some users on the Slack desktop app version 4.28.171 installed via the Windows Store were receiving an error when attempting to connect to Slack. 
+
+
+We determined the cached information typically used to launch the app became corrupted, and subsequently caused the app to not load through a network request, prompting an error instead of re-trying the connection. We then launched a fix that allowed the app to re-attempt a network request, which solved the issue.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some users may experience issues drafting a message that contains a link/hyperlink]]></title>
+        <id>https://status.slack.com//2022-09/80573d91231d5ea0</id>
+        <link href="https://status.slack.com//2022-09/80573d91231d5ea0"/>
+        <updated>2022-09-08T19:46:36.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+On September 8th, 2022 from around 6:44 AM to 7:10 AM PDT some users on desktop clients experienced issues with drafting their messages and saw unexpected character replacements when links with quotes were used. This was caused by an update that was launched and reverting it fixed the issue for all affected users.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident on 2022-09-07 15:04 UTC]]></title>
         <id>https://www.githubstatus.com/incidents/pz0bvrjx9ztp</id>
@@ -26,46 +70,6 @@ Investigating - We are investigating and mitigating intermittent availability is
         <summary type="html"><![CDATA[<p> Incident began at <strong>2022-09-07 16:00</strong> and ended at <strong>2022-09-07 23:34</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><span>  The problem with Gmail has been resolved. We apologize for the inconvenience and thank you for your patience and continued support.  </span><div> <p>The issue with accessing Workspace services has been resolved for the vast majority of affected users as of Wednesday, 2022-09-07 16:28 US/Pacific.</p>
 <p>We will publish an analysis of this incident once we have completed our internal investigation.</p>
 <p>We thank you for your patience while we worked on resolving the issue.</p>
-  </div></div><hr><p>Affected products: Gmail</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UPDATE: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/u1oUmFdFBEzL46WC3SYZ</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/u1oUmFdFBEzL46WC3SYZ"/>
-        <updated>2022-09-07T22:22:19.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2022-09-07 16:00</strong> and ended at <strong>2022-09-07 23:34</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><span>  We are continuing to investigate this issue. We will provide an update by <span>Sep 7, 2022, 11:15 PM UTC</span> detailing when we expect to resolve the problem.  </span><div> <p>Only User accounts which were created after 07 September 2022 09:00 US/Pacific or whose domain policies/subscriptions that have been modified since that time, are believed to be affected by this issue.</p>
-<p>The following is the error users when trying to access Gmail:</p>
-<p>We’re sorry, but your account is temporarily unavailable. We apologize for the inconvenience and suggest trying again in a few minutes.You can view the Google Workspace Status Dashboard for the current status of the service. Numeric Code: 7354</p>
-<p>The affected Users (created after 07 September 2022 09:00 US/Pacific or whose domain policies/subscriptions that have been modified since that time) may experience issues while accessing other Workspace services too.</p>
-  </div><div> <p>No workarounds at this time.</p>
-  </div></div><hr><p>Affected products: Gmail</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UPDATE: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/u1oUmFdFBEzL46WC3SYZ</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/u1oUmFdFBEzL46WC3SYZ"/>
-        <updated>2022-09-07T22:13:28.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2022-09-07 16:00</strong> and ended at <strong>2022-09-07 23:34</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><span>  Our team is continuing to investigate this issue. We will provide an update by <span>Sep 7, 2022, 11:00 PM UTC</span> with more information about this problem. Thank you for your patience.  </span><div> <p>Users see the following error when trying to access Gmail:</p>
-<p>We’re sorry, but your account is temporarily unavailable. We apologize for the inconvenience and suggest trying again in a few minutes.You can view the Google Workspace Status Dashboard for the current status of the service. Numeric Code: 7354</p>
-  </div><div> <p>None at this time</p>
-  </div></div><hr><p>Affected products: Gmail</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UPDATE: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/u1oUmFdFBEzL46WC3SYZ</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/u1oUmFdFBEzL46WC3SYZ"/>
-        <updated>2022-09-07T21:39:08.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2022-09-07 16:00</strong> and ended at <strong>2022-09-07 23:34</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><span>  We're investigating reports of an issue with Gmail. We will provide more information shortly.  </span><div> <p>Users see the following error when trying to access Gmail:</p>
-<p>We’re sorry, but your account is temporarily unavailable. We apologize for the inconvenience and suggest trying again in a few minutes.You can view the Google Workspace Status Dashboard for the current status of the service. Numeric Code: 7354</p>
   </div></div><hr><p>Affected products: Gmail</p>]]></summary>
         <author>
             <name>Google Workspace Status Dashboard Updates</name>
@@ -105,89 +109,6 @@ App Platform users may experience build failures.
 We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: We're aware of a problem with Google Calendar affecting a significant subset of users. We will provide an update by Sep 6, 2022, 7:07 AM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/eUTgyZ1F5JxbhTX6bQAD</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/eUTgyZ1F5JxbhTX6bQAD"/>
-        <updated>2022-09-07T19:55:26.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2022-09-04 04:00</strong> and ended at <strong>2022-09-07 14:39</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
-<p>(All Times US/Pacific)</p>
-<p><strong>Incident Start:</strong> 03 September 2022 21:00</p>
-<p><strong>Incident End:</strong>  07 September 2022 07:39</p>
-<p><strong>Duration:</strong>  3 days, 10 hours, 39 minutes</p>
-<p><strong>Affected Services and Features:</strong></p>
-<p>Google Calendar</p>
-<p><strong>Regions/Zones:</strong> Chile</p>
-<p><strong>Description:</strong></p>
-<p>Google Calendar experienced an issue with a mismatch in daylight savings time in Chile. The issue was caused due to the decision of the Government of Chile to delay the time change by a week from 3 September 2022 to 10 September 2022.</p>
-<p>Following the announcement of the Chilean Government’s decision on 8 August 2022, Google product teams evaluated options to minimize customer impact. After careful analysis, the Calendar product team decided to not roll out an ad-hoc fix due to the number of variables involved with the fix roll out. So, the Google team published an <a href="https://blog.google/intl/es-419/actualizaciones-de-producto/android-chrome-play/chile-preparandonos-para-la-mejor-experiencia-frente-al-cambio-de-hora/">external blog post</a> on 1 September 2022, outlining the Government’s decision to delay the time change and workarounds to prepare the customers in Chile for the best time change experience.</p>
-<p>Upon receiving multiple customer escalations on 5 September 2022, the product team reconvened and decided to roll out the emergency fix to mitigate the impact to our customers.</p>
-<p><strong>Customer Impact:</strong></p>
-<p>Events  in the calendar for the week of 3 September 2022 to 10 September 2022 were not in the right time for users who have events saved in the Chilean time zone or if the user&#39;s calendar is set to Chile time zone.
-Current time displayed on the customers calendars is an hour later than the actual time.</p>
-</div><hr><p>Affected products: Google Calendar</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: We're aware of a problem with Google Calendar affecting a significant subset of users. We will provide an update by Sep 6, 2022, 7:07 AM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/eUTgyZ1F5JxbhTX6bQAD</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/eUTgyZ1F5JxbhTX6bQAD"/>
-        <updated>2022-09-07T19:54:11.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2022-09-04 04:00</strong> and ended at <strong>2022-09-07 14:39</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><span>  The problem with Google Calendar has been resolved. We apologize for the inconvenience and thank you for your patience and continued support.  </span></div><hr><p>Affected products: Google Calendar</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Windows Store app users may experience an error when launching Slack]]></title>
-        <id>https://status.slack.com//2022-09/f4273fe54d4adbcb</id>
-        <link href="https://status.slack.com//2022-09/f4273fe54d4adbcb"/>
-        <updated>2022-09-07T19:01:04.000Z</updated>
-        <summary type="html"><![CDATA[To clear the "Slack cannot connect" message, users should try clearing cache by going to "Help" > "Troubleshooting" > "Clear Cache and Restart".
-
-
-If the issue persists after or if you're unable to open the desktop app, please uninstall the Windows Store version and reinstall the Direct Download version by following these instructions:
-
-
-1. Quit Slack (Ctrl + Q) and make sure there are no Slack.exe or Update.exe processes running in Task Manager.
-
-2. On Windows 10, open the Start menu and head to Settings > Apps & features. Find Slack in the list that appears and click the option to Uninstall.
-
-3. Open a Run dialog (Windows Key + R).
-
-4. Enter the following path: C:\Users\%USERNAME%\AppData\Local\Packages\91750D7E.Slack_8she8kybcnzg4\LocalCache\Roaming
-
-5. Delete the Slack folder from the directory that launches.
-
-6. Reinstall Slack from our website: https://slack.com/downloads/windows]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: We are continuing to investigate this issue. We will provide an update by Sep 7, 2022, 12:00 AM UTC detailing when we expect to resolve the problem.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/wQLkgRjS8NbXiNrV7YcD</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/wQLkgRjS8NbXiNrV7YcD"/>
-        <updated>2022-09-07T17:32:44.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2022-09-06 19:49</strong> and ended at <strong>2022-09-07 02:04</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
-<p>(All Times US/Pacific)</p>
-<p><strong>Incident Start:</strong> 06 September 2022 12:49</p>
-<p><strong>Incident End:</strong> 06 September 2022 19:04</p>
-<p><strong>Duration:</strong> 6 hours, 15 minutes</p>
-<p><strong>Affected Services and Features:</strong></p>
-<p>Google Chat - Smart Reply feature</p>
-<p><strong>Regions/Zones:</strong> Global</p>
-<p><strong>Description:</strong></p>
-<p>Google Chat experienced an issue where Chat Smart Reply features were not available for the users for a duration of 6 hours, 15 minutes.  From preliminary analysis, the root cause of the issue is a regular maintenance activity which inadvertently deleted the backend models supporting the feature. The issue was resolved by restoring the backend models.</p>
-<p><strong>Customer Impact:</strong></p>
-<p>Customers were unable to use Chat Smart Reply features for the duration of the outage. The other functionality of Google Chat including sending and receiving messages were not affected.</p>
-</div><hr><p>Affected products: Google Chat</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
@@ -961,72 +882,6 @@ To fix this, we redistributed the EKM workload to increase capacity, resolving t
 
 
 Note: The wording of this summary has been slightly modified to improve readability.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues viewing or uploading files]]></title>
-        <id>https://status.notion.so/incidents/yrfx4qp0lh44</id>
-        <link href="https://status.notion.so/incidents/yrfx4qp0lh44"/>
-        <updated>2022-08-10T07:08:11.000Z</updated>
-        <summary type="html"><![CDATA[Aug 10, 00:08 PDT
-Resolved - This incident has been resolved.
-Aug  9, 21:21 PDT
-Investigating - We are currently investigating the issue.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Networking Maintenance in TOR1]]></title>
-        <id>https://status.digitalocean.com/incidents/356zy7yq41yq</id>
-        <link href="https://status.digitalocean.com/incidents/356zy7yq41yq"/>
-        <updated>2022-08-10T06:14:54.000Z</updated>
-        <summary type="html"><![CDATA[Aug 10, 06:14 UTC
-Completed - The scheduled maintenance has been completed. If you have any questions or concerns regarding this maintenance, please send us a ticket from your Cloud support page.
-Aug 10, 04:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Aug 10, 03:59 UTC
-Scheduled - Start: 2022-08-10 04:00 UTC
-End: 2022-08-10 08:00 UTC 
-During the above window, we will be performing maintenance in our TOR1 region as part of network upgrades.
-Expected Impact:
-During this period, inbound and outbound traffic between TOR1 and the rest of the DO network may experience a couple of brief (5-10 second) interruptions as traffic is isolated from each TOR1 core switch prior to being upgraded. We will endeavor to keep any such impact to a minimum.
-If you have any questions or concerns regarding this maintenance, please send us a ticket from your Cloud support page.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Actions, API Requests, Pages and Pull Requests]]></title>
-        <id>https://www.githubstatus.com/incidents/8tnqgcg1qkk1</id>
-        <link href="https://www.githubstatus.com/incidents/8tnqgcg1qkk1"/>
-        <updated>2022-08-10T01:30:58.000Z</updated>
-        <summary type="html"><![CDATA[Aug 10, 01:30 UTC
-Resolved - This incident has been resolved.
-Aug 10, 00:53 UTC
-Update - Pages is experiencing degraded performance. We are still investigating and will provide an update when we have one.
-Aug 10, 00:19 UTC
-Update - API Requests is experiencing degraded performance. We are continuing to investigate.
-Aug 10, 00:18 UTC
-Update - Pull Requests is experiencing degraded performance. We are still investigating and will provide an update when we have one.
-Aug 10, 00:17 UTC
-Investigating - We are investigating reports of degraded performance for Actions.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Trouble with uploading and downloading files in Slack]]></title>
-        <id>https://status.slack.com//2022-08/54095e6284732d7b</id>
-        <link href="https://status.slack.com//2022-08/54095e6284732d7b"/>
-        <updated>2022-08-09T15:19:07.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-From August 8 at 10:44 PM PDT until August 9 at 6:23 AM PDT, some customers may have been unable to download files which caused a blurry preview image to appear. 
-
-We traced the issue to one of the file servers which was failing while under high-load. Engineers have updated the affected file server which fixed the issue for all affected customers.]]></summary>
         <author>
             <name>Slack System Status</name>
         </author>
