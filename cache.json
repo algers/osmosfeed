@@ -305,10 +305,10 @@
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/u1oUmFdFBEzL46WC3SYZ",
           "author": null,
-          "description": "<p> Incident began at <strong>2022-09-07 16:00</strong> and ended at <strong>2022-09-07 23:34</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  The problem with Gmail has been resolved. We apologize for the inconvenience and thank you for your patience and continued support.  </span><div> <p>The issue with accessing Workspace services has been resolved for the vast majority of affected users as of Wednesday, 2022-09-07 16:28 US/Pacific.</p>\n<p>We will publish an analysis of this incident once we have completed our internal investigation.</p>\n<p>We thank you for your patience while we worked on resolving the issue.</p>\n  </div></div><hr><p>Affected products: Gmail</p>",
+          "description": "<p> Incident began at <strong>2022-09-07 16:04</strong> and ended at <strong>2022-09-08 06:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article: <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 07 September 2022 09:04</p>\n<p><strong>Incident End:</strong> 07 September 2022 23:29</p>\n<p><strong>Duration:</strong> 14 hours, 25 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Google Workspace - Gmail</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>Newly created Google Workspace users experienced a temporary error while accessing their Gmail account for a total duration of 14 hours, 25 minutes. From preliminary analysis, the root cause of the issue is due to a large number of compilation queue messages in one domain which slowed compilation in other domains for other users.</p>\n<p><strong>Customer Impact:</strong></p>\n<p>New Google Workspace user accounts which were created after 07 September 2022 09:00 US/Pacific or whose domain policies/subscriptions were modified since that time, experienced the following error while trying to access Gmail:</p>\n<p>“ We’re sorry, but your account is temporarily unavailable. We apologize for the inconvenience and suggest trying again in a few minutes. You can view the Google Workspace Status Dashboard for the current status of the service. Numeric Code: 7354 “</p>\n<p>Affected users may have experienced issues while accessing other Workspace services.</p>\n<p><strong>Additional details:</strong></p>\n<p>The issue was resolved once the backlog of queued compilation messages was cleared.</p>\n<hr>\n</div><hr><p>Affected products: Gmail</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/u1oUmFdFBEzL46WC3SYZ",
-          "publishedOn": "2022-09-07T23:34:03.000Z",
-          "wordCount": 589,
+          "publishedOn": "2022-09-09T17:58:38.000Z",
+          "wordCount": 853,
           "title": "RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.",
           "imageUrl": null
         }
@@ -322,10 +322,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/p38y9j23bt7b",
           "author": null,
-          "description": "Sep  8, 23:41 UTC\nUpdate - We are continuing to mitigate the issue impacting some of our customers.\nSep  8, 22:10 UTC\nUpdate - We have identified the source of the issue impacting some of our customers. We continue to mitigate the issue.\nSep  8, 21:04 UTC\nUpdate - We found an issue that impacts some customers. We are working on a mitigation.\nSep  8, 19:44 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests.",
+          "description": "Sep  9, 01:12 UTC\nResolved - This incident has been resolved.\nSep  9, 00:53 UTC\nUpdate - Mitigation efforts are continuing and we are seeing signs of recovery for some affected users.\nSep  8, 23:41 UTC\nUpdate - We are continuing to mitigate the issue impacting some of our customers.\nSep  8, 22:10 UTC\nUpdate - We have identified the source of the issue impacting some of our customers. We continue to mitigate the issue.\nSep  8, 21:04 UTC\nUpdate - We found an issue that impacts some customers. We are working on a mitigation.\nSep  8, 19:44 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests.",
           "link": "https://www.githubstatus.com/incidents/p38y9j23bt7b",
-          "publishedOn": "2022-09-08T23:41:29.000Z",
-          "wordCount": 4045,
+          "publishedOn": "2022-09-09T01:12:28.000Z",
+          "wordCount": 4077,
           "title": "Incident with Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -604,16 +604,6 @@
           "publishedOn": "2022-08-16T03:54:06.000Z",
           "wordCount": 198,
           "title": "Incident: Issues with sending messages with custom emoji",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2022-08/1a58d5714b3ef784",
-          "author": null,
-          "description": "Issue summary:\n\r\nOn August 9, 2022 at 10:59 AM PDT, customers on organizations with Enterprise Key Management (EKM) enabled began experiencing trouble with loading messages, threads, and workflows. The issues were due an update that reduced the capacity across EKM, causing a surge of traffic.\n\r\n\r\nTo fix this, we redistributed the EKM workload to increase capacity, resolving the trouble for customers on August 9, 2022 at 11:49AM PDT. \n\r\n\r\nNote: The wording of this summary has been slightly modified to improve readability.",
-          "link": "https://status.slack.com//2022-08/1a58d5714b3ef784",
-          "publishedOn": "2022-08-10T15:00:57.000Z",
-          "wordCount": 277,
-          "title": "Incident: Trouble with DMs, Threads, and Workflows",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]

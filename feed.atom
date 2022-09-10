@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-09T00:27:43.683Z</id>
+    <id>urn:2022-09-10T00:28:38.680Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-09T00:27:43.683Z</updated>
+    <updated>2022-09-10T00:28:38.680Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/u1oUmFdFBEzL46WC3SYZ</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/u1oUmFdFBEzL46WC3SYZ"/>
+        <updated>2022-09-09T17:58:38.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2022-09-07 16:04</strong> and ended at <strong>2022-09-08 06:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Mini Incident Report</h1>
+<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article: <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
+<p>(All Times US/Pacific)</p>
+<p><strong>Incident Start:</strong> 07 September 2022 09:04</p>
+<p><strong>Incident End:</strong> 07 September 2022 23:29</p>
+<p><strong>Duration:</strong> 14 hours, 25 minutes</p>
+<p><strong>Affected Services and Features:</strong></p>
+<p>Google Workspace - Gmail</p>
+<p><strong>Regions/Zones:</strong> Global</p>
+<p><strong>Description:</strong></p>
+<p>Newly created Google Workspace users experienced a temporary error while accessing their Gmail account for a total duration of 14 hours, 25 minutes. From preliminary analysis, the root cause of the issue is due to a large number of compilation queue messages in one domain which slowed compilation in other domains for other users.</p>
+<p><strong>Customer Impact:</strong></p>
+<p>New Google Workspace user accounts which were created after 07 September 2022 09:00 US/Pacific or whose domain policies/subscriptions were modified since that time, experienced the following error while trying to access Gmail:</p>
+<p>“ We’re sorry, but your account is temporarily unavailable. We apologize for the inconvenience and suggest trying again in a few minutes. You can view the Google Workspace Status Dashboard for the current status of the service. Numeric Code: 7354 “</p>
+<p>Affected users may have experienced issues while accessing other Workspace services.</p>
+<p><strong>Additional details:</strong></p>
+<p>The issue was resolved once the backlog of queued compilation messages was cleared.</p>
+<hr>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident with Pull Requests]]></title>
         <id>https://www.githubstatus.com/incidents/p38y9j23bt7b</id>
         <link href="https://www.githubstatus.com/incidents/p38y9j23bt7b"/>
-        <updated>2022-09-08T23:41:29.000Z</updated>
-        <summary type="html"><![CDATA[Sep  8, 23:41 UTC
+        <updated>2022-09-09T01:12:28.000Z</updated>
+        <summary type="html"><![CDATA[Sep  9, 01:12 UTC
+Resolved - This incident has been resolved.
+Sep  9, 00:53 UTC
+Update - Mitigation efforts are continuing and we are seeing signs of recovery for some affected users.
+Sep  8, 23:41 UTC
 Update - We are continuing to mitigate the issue impacting some of our customers.
 Sep  8, 22:10 UTC
 Update - We have identified the source of the issue impacting some of our customers. We continue to mitigate the issue.
@@ -60,19 +92,6 @@ Sep  7, 15:04 UTC
 Investigating - We are investigating and mitigating intermittent availability issues on some GitHub services.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/u1oUmFdFBEzL46WC3SYZ</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/u1oUmFdFBEzL46WC3SYZ"/>
-        <updated>2022-09-07T23:34:03.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2022-09-07 16:00</strong> and ended at <strong>2022-09-07 23:34</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><span>  The problem with Gmail has been resolved. We apologize for the inconvenience and thank you for your patience and continued support.  </span><div> <p>The issue with accessing Workspace services has been resolved for the vast majority of affected users as of Wednesday, 2022-09-07 16:28 US/Pacific.</p>
-<p>We will publish an analysis of this incident once we have completed our internal investigation.</p>
-<p>We thank you for your patience while we worked on resolving the issue.</p>
-  </div></div><hr><p>Affected products: Gmail</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
@@ -866,24 +885,6 @@ We are also seeing App Platform health checks fail as a result of this issue.
 Our Engineering team is investigating any possible mitigations to work around this upstream issue. We will provide an update as soon as further information is available.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Trouble with DMs, Threads, and Workflows]]></title>
-        <id>https://status.slack.com//2022-08/1a58d5714b3ef784</id>
-        <link href="https://status.slack.com//2022-08/1a58d5714b3ef784"/>
-        <updated>2022-08-10T15:00:57.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-On August 9, 2022 at 10:59 AM PDT, customers on organizations with Enterprise Key Management (EKM) enabled began experiencing trouble with loading messages, threads, and workflows. The issues were due an update that reduced the capacity across EKM, causing a surge of traffic.
-
-
-To fix this, we redistributed the EKM workload to increase capacity, resolving the trouble for customers on August 9, 2022 at 11:49AM PDT. 
-
-
-Note: The wording of this summary has been slightly modified to improve readability.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>
