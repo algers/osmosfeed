@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-10T00:28:38.680Z</id>
+    <id>urn:2022-09-11T00:25:31.327Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-10T00:28:38.680Z</updated>
+    <updated>2022-09-11T00:25:31.327Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -856,35 +856,6 @@ Scheduled - Starting on August 15, 2022, the API will respond with `400 validati
 Please refer to the Content Validation Enforcement changelog for additional details. Link: https://developer.airbnb.com/changelog/new-content-validation-enforcement]]></summary>
         <author>
             <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Email Notifications]]></title>
-        <id>https://status.digitalocean.com/incidents/x0gvb39624ct</id>
-        <link href="https://status.digitalocean.com/incidents/x0gvb39624ct"/>
-        <updated>2022-08-12T01:34:14.000Z</updated>
-        <summary type="html"><![CDATA[Aug 12, 01:34 UTC
-Resolved - Our Engineering team has completed work to identify remaining emails impacted by this incident. At this time, there remains a small subset of emails not being delivered to users, including some billing emails like finalized invoices and billing threshold alerts, App Platform alerts, and DBaaS alerts. Multiple teams are working together to ensure that these emails are able to be sent out correctly and that work will continue. 
-At this time, we are going to resolve the incident due to critical email functionality being restored. If you have any concerns about the remaining emails impacted, or any questions about this incident, please open a support ticket from within your account. 
-Thank you for your patience throughout this process and we apologize for the exten…]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Transit Network connectivity in SGP1 region]]></title>
-        <id>https://status.digitalocean.com/incidents/0t7lvzkd1hv0</id>
-        <link href="https://status.digitalocean.com/incidents/0t7lvzkd1hv0"/>
-        <updated>2022-08-11T15:15:40.000Z</updated>
-        <summary type="html"><![CDATA[Aug 11, 15:15 UTC
-Resolved - Our Engineering team has observed mitigated impact for this issue, due to actions taken upstream. Users should no longer experience any network latency/packet loss on Droplets and Droplet-based services from SGP to the EU region. App Platform health checks should now pass as expected. 
-We apologize for the inconvenience. If you're still experiencing any issues, please open a support ticket.
-Aug 11, 14:26 UTC
-Investigating - Our Engineering team is aware of an upstream issue impacting network connectivity from SGP to the EU region. During this time, users may experience network latency/packet loss on Droplets and Droplet-based services from SGP to the EU region. 
-We are also seeing App Platform health checks fail as a result of this issue.
-Our Engineering team is investigating any possible mitigations to work around this upstream issue. We will provide an update as soon as further information is available.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
