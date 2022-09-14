@@ -1,21 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-13T00:27:47.471Z</id>
+    <id>urn:2022-09-14T00:27:17.360Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-13T00:27:47.471Z</updated>
+    <updated>2022-09-14T00:27:17.360Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Incident: Some users might have trouble with posts]]></title>
         <id>https://status.slack.com//2022-09/29f29ddbaf35791a</id>
         <link href="https://status.slack.com//2022-09/29f29ddbaf35791a"/>
-        <updated>2022-09-12T21:24:40.000Z</updated>
-        <summary type="html"><![CDATA[Some users may be experiencing long delays when creating and editing posts. 
-
-
-We're actively looking into this, and we'll report back as more information becomes available. We apologize for the disruption.]]></summary>
+        <updated>2022-09-13T23:15:14.000Z</updated>
+        <summary type="html"><![CDATA[We're still investigating this issue impacting creating and editing posts. We appreciate your continued patience as we work towards a solution.]]></summary>
         <author>
             <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Direct Messages with three or more people are missing from the Direct Message list for all workspaces]]></title>
+        <id>https://status.slack.com//2022-09/abdf34f4cfab096e</id>
+        <link href="https://status.slack.com//2022-09/abdf34f4cfab096e"/>
+        <updated>2022-09-13T22:55:10.000Z</updated>
+        <summary type="html"><![CDATA[Direct Messages with three or more people are missing from the Direct Message list for all workspaces. We are currently investigating the cause and will update here. We apologize for the inconvenience!]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Issues]]></title>
+        <id>https://www.githubstatus.com/incidents/3z36qpp2c0z1</id>
+        <link href="https://www.githubstatus.com/incidents/3z36qpp2c0z1"/>
+        <updated>2022-09-13T16:08:25.000Z</updated>
+        <summary type="html"><![CDATA[Sep 13, 16:08 UTC
+Resolved - This incident has been resolved.
+Sep 13, 15:10 UTC
+Investigating - We are investigating reports of degraded performance for Issues.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident on 2022-09-13]]></title>
+        <id>https://www.githubstatus.com/incidents/8blgv351d71j</id>
+        <link href="https://www.githubstatus.com/incidents/8blgv351d71j"/>
+        <updated>2022-09-13T15:57:50.000Z</updated>
+        <summary type="html"><![CDATA[Sep 13, 15:57 UTC
+Investigating - We are investigating and mitigating intermittent availability issues on some GitHub services.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Server Errors On Attempt to API-connect Listings]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/8l22crftlsb3</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/8l22crftlsb3"/>
+        <updated>2022-09-13T04:09:19.000Z</updated>
+        <summary type="html"><![CDATA[Sep 12, 21:09 PDT
+Resolved - Some Partners may have encountered 500 Errors on the Listings API when attempting to API-connect listings to their applications earlier today.
+We have identified the cause for which a fix has already been implemented. We are not expecting any further errors of such.
+Thank you for your understanding and apologies for any inconvenience caused!]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -853,22 +897,6 @@ Aug 15, 10:50 UTC
 Investigating - We are investigating reports of degraded performance for Codespaces.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Enforcing Content Validation Policies]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/lml6f9s27wyk</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/lml6f9s27wyk"/>
-        <updated>2022-08-14T16:00:27.000Z</updated>
-        <summary type="html"><![CDATA[Aug 14, 09:00 PDT
-Completed - The scheduled maintenance has been completed.
-Jul 15, 09:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jul 14, 16:01 PDT
-Scheduled - Starting on August 15, 2022, the API will respond with `400 validation` errors all requests that violate our content validation policies. This enforcement affects the entire listing description and the instant book welcome message.
-Please refer to the Content Validation Enforcement changelog for additional details. Link: https://developer.airbnb.com/changelog/new-content-validation-enforcement]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
         </author>
     </entry>
 </feed>
