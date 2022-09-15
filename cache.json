@@ -84,13 +84,44 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://status.twilio.com/incidents/y8kfzsrdfrch",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Sep 15, 05:00 - 13:00 PDT\nSep  8, 20:03 PDT\nScheduled - Our Voice carrier partner in Australia is conducting a planned maintenance from September 15 2022 at 05:00 PDT until September 15 2022 at 13:00 PDT. During the maintenance window, there could be intermittent call failures to and from Australia and New Zealand handsets.",
+          "link": "https://status.twilio.com/incidents/y8kfzsrdfrch",
+          "publishedOn": "2022-09-15T12:00:00.000Z",
+          "wordCount": 6171,
+          "title": "Australia Voice Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/vl9c87td4y8t",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Sep 14, 20:00 PDT  -  Sep 15, 00:00 PDT\nAug 22, 18:40 PDT\nScheduled - Our SMS carrier partner in the US and Canada will be conducting a planned maintenance from 14 September 2022 at 20:00 PDT until 15 September 2022 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from both US and Canada handsets via Toll-free numbers.",
+          "link": "https://status.twilio.com/incidents/vl9c87td4y8t",
+          "publishedOn": "2022-09-15T03:00:00.000Z",
+          "wordCount": 6190,
+          "title": "US and Canada SMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        }
+      ]
     },
     {
       "title": "DigitalOcean Status - Incident History",
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/yhz9frgy4ngl",
+          "author": null,
+          "description": "Sep 14, 20:46 UTC\nResolved - Our engineering team has resolved the issue with LON1 network connectivity, and should now be operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nSep 14, 18:54 UTC\nMonitoring - Our Engineering team has deployed a fix to resolve the issues with network connectivity in our LON1 region. At this time, users should be seeing the restoration of network connectivity to and from the resources in LON1. We are monitoring the situation and will post an update as soon as we confirm the issue is fully resolved.\nSep 14, 17:54 UTC\nIdentified - Our Engineering team has investigated reports of connectivity issues beginning around 15:40 UTC in our LON1 region and has taken action to mitigate the impact. \nUsers may have experienced packet loss/latency, timeouts, and related issues with Droplet-based services in LON1, including Droplets, Managed Kubernetes, and Database clusters. \nWe are seeing some recovery after taking action and are continuing to investigate and monitor the situation.",
+          "link": "https://status.digitalocean.com/incidents/yhz9frgy4ngl",
+          "publishedOn": "2022-09-14T20:46:45.000Z",
+          "wordCount": 4621,
+          "title": "Network Connectivity in LON1",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/lm2sv23vw0bx",
           "author": null,
@@ -283,13 +314,23 @@
       "siteUrl": "https://www.google.com/appsstatus/dashboard/",
       "articles": [
         {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/u1oUmFdFBEzL46WC3SYZ",
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/eUTgyZ1F5JxbhTX6bQAD",
           "author": null,
-          "description": "<p> Incident began at <strong>2022-09-07 16:04</strong> and ended at <strong>2022-09-08 06:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article: <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 07 September 2022 09:04</p>\n<p><strong>Incident End:</strong> 07 September 2022 23:29</p>\n<p><strong>Duration:</strong> 14 hours, 25 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Google Workspace - Gmail</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>Newly created Google Workspace users experienced a temporary error while accessing their Gmail account for a total duration of 14 hours, 25 minutes. From preliminary analysis, the root cause of the issue is due to a large number of compilation queue messages in one domain which slowed compilation in other domains for other users.</p>\n<p><strong>Customer Impact:</strong></p>\n<p>New Google Workspace user accounts which were created after 07 September 2022 09:00 US/Pacific or whose domain policies/subscriptions were modified since that time, experienced the following error while trying to access Gmail:</p>\n<p>“ We’re sorry, but your account is temporarily unavailable. We apologize for the inconvenience and suggest trying again in a few minutes. You can view the Google Workspace Status Dashboard for the current status of the service. Numeric Code: 7354 “</p>\n<p>Affected users may have experienced issues while accessing other Workspace services.</p>\n<p><strong>Additional details:</strong></p>\n<p>The issue was resolved once the backlog of queued compilation messages was cleared.</p>\n<hr>\n</div><hr><p>Affected products: Gmail</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/u1oUmFdFBEzL46WC3SYZ",
-          "publishedOn": "2022-09-09T17:58:38.000Z",
-          "wordCount": 853,
-          "title": "RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.",
+          "description": "<p> Incident began at <strong>2022-09-04 04:00</strong> and ended at <strong>2022-09-07 14:36</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h2>INCIDENT REPORT</h2>\n<p><strong>Summary:</strong></p>\n<p>On Saturday, 03 September 2022 21:00 US/Pacific, Google Calendar experienced an issue with a mismatch in Daylight Savings time in Chile for a duration of 3 days, 22 hours, 36 minutes. The issue was mitigated on Wednesday, 07 September 2022 07:36 US/Pacific. We have conducted an internal investigation and are taking steps to improve our service.</p>\n<p><strong>Root Cause:</strong></p>\n<p>Internet Assigned Numbers Authority (also known as IANA) is a standards organization that oversees global IP address allocation, autonomous system number allocation, root zone management in the Domain Name System (DNS), media types, and other Internet Protocol-related symbols and Internet numbers. As part of its mission, IANA maintains global time zone information [1], commonly known as the time zone database, the Olson time zone database, or just the “tzdb”. This database is not released on a schedule, just when global time zone changes require it.</p>\n<p>Chile had a scheduled time zone change on Sunday, 04 September 2022. However, because of elections occurring around the same time, the government decided to postpone the start date of Daylight Savings time from Sunday, 04 September 2022 to Sunday, 11 September 2022. The Chilean government announced this decision on 08 August 2022, less than a month in advance.</p>\n<p>IANA released version 2022b of the time zone database on Thursday, 11 August 2022, followed by 2022c (to address technical issues) on Tuesday, 16 August 2022. Google integrates new versions of the time zone database as they become available in a multi-step process involving several teams. It takes approximately one month for time zone database changes to roll out for Google Calendar.</p>\n<p>[1] - <a href=\"https://www.iana.org/time-zones\">https://www.iana.org/time-zones</a></p>\n<p><strong>Remediation</strong></p>\n<p>Google engineers expedited a roll out of the new time zone definitions on the morning of Wednesday, 07 September 2022 (local Chilean time). This had the following effects:</p>\n<ul>\n<li>The current time in Calendar (the red bar) would be correct.</li>\n<li>New events would appear at the correct time and be in the correct time zone.</li>\n<li>Appointment schedules would appear at the correct time.</li>\n<li>Modified recurring events would appear at the correct time, but instance-specific data (ie. attendee, attendee status, description, location, time, etc.) which did not match the timezone definition would be deleted and new instances would be created in the correct time zone.</li>\n</ul>\n<p><strong>Prevention</strong></p>\n<p>Google is committed to preventing recurrence by implementing the following action items:</p>\n<ul>\n<li>Implement improvements to the time zone updates rollout process that will reduce the lead time for completion.</li>\n<li>Investigate Calendar interactions with other Workspace products with relation to mismatched time zones to minimize impact in case of a recurrence.</li>\n</ul>\n<p><strong>Detailed Description of Impact:</strong></p>\n<p>From 03 September 2022 21:00 to 07 September 2022 07:36 US/Pacific, Google Calendar events for all customers in Chile were impacted due to the time change event.</p>\n<p>The customer impact included:</p>\n<ul>\n<li>The current time in Calendar (the red bar) was out of sync with actual time and the operating system.</li>\n<li>New and existing events were at the wrong time.</li>\n<li>Appointments were set at the wrong time.</li>\n<li>Appointments created across time zones displayed at the wrong time.</li>\n<li>Updating appointment schedules displayed at the wrong time.</li>\n<li>Mobile applications and devices displayed events at the wrong time.</li>\n</ul>\n<hr>\n</div><hr><p>Affected products: Google Calendar</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/eUTgyZ1F5JxbhTX6bQAD",
+          "publishedOn": "2022-09-14T14:01:01.000Z",
+          "wordCount": 1377,
+          "title": "RESOLVED: We're aware of a problem with Google Calendar affecting a significant subset of users. We will provide an update by Sep 6, 2022, 7:07 AM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/eUTgyZ1F5JxbhTX6bQAD",
+          "author": null,
+          "description": "<p> Incident began at <strong>2022-09-04 04:00</strong> and ended at <strong>2022-09-07 14:36</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h2>MINI INCIDENT REPORT</h2>\n<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 03 September 2022 21:00</p>\n<p><strong>Incident End:</strong>  07 September 2022 07:39</p>\n<p><strong>Duration:</strong>  3 days, 10 hours, 39 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Google Calendar</p>\n<p><strong>Regions/Zones:</strong> Chile</p>\n<p><strong>Description:</strong></p>\n<p>Google Calendar experienced an issue with a mismatch in daylight savings time in Chile. The issue was caused due to the decision of the Government of Chile to delay the time change by a week from 3 September 2022 to 10 September 2022.</p>\n<p>Following the announcement of the Chilean Government’s decision on 8 August 2022, Google product teams evaluated options to minimize customer impact. After careful analysis, the Calendar product team decided to not roll out an ad-hoc fix due to the number of variables involved with the fix roll out. So, the Google team published an <a href=\"https://blog.google/intl/es-419/actualizaciones-de-producto/android-chrome-play/chile-preparandonos-para-la-mejor-experiencia-frente-al-cambio-de-hora/\">external blog post</a> on 1 September 2022, outlining the Government’s decision to delay the time change and workarounds to prepare the customers in Chile for the best time change experience.</p>\n<p>Upon receiving multiple customer escalations on 5 September 2022, the product team reconvened and decided to roll out the emergency fix to mitigate the impact to our customers.</p>\n<p><strong>Customer Impact:</strong></p>\n<p>Events  in the calendar for the week of 3 September 2022 to 10 September 2022 were not in the right time for users who have events saved in the Chilean time zone or if the user&#39;s calendar is set to Chile time zone.\nCurrent time displayed on the customers calendars is an hour later than the actual time.</p>\n</div><hr><p>Affected products: Google Calendar</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/eUTgyZ1F5JxbhTX6bQAD",
+          "publishedOn": "2022-09-14T13:55:17.000Z",
+          "wordCount": 1377,
+          "title": "RESOLVED: We're aware of a problem with Google Calendar affecting a significant subset of users. We will provide an update by Sep 6, 2022, 7:07 AM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change.",
           "imageUrl": null
         }
       ]
@@ -300,6 +341,16 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/8blgv351d71j",
+          "author": null,
+          "description": "Sep 14, 18:05 UTC\nResolved - This incident has been resolved.\nSep 13, 15:57 UTC\nInvestigating - We are investigating and mitigating intermittent availability issues on some GitHub services.",
+          "link": "https://www.githubstatus.com/incidents/8blgv351d71j",
+          "publishedOn": "2022-09-14T18:05:27.000Z",
+          "wordCount": 3979,
+          "title": "Incident on 2022-09-13",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/3z36qpp2c0z1",
           "author": null,
           "description": "Sep 13, 16:08 UTC\nResolved - This incident has been resolved.\nSep 13, 15:10 UTC\nInvestigating - We are investigating reports of degraded performance for Issues.",
@@ -307,16 +358,6 @@
           "publishedOn": "2022-09-13T16:08:25.000Z",
           "wordCount": 3980,
           "title": "Incident with Issues",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/8blgv351d71j",
-          "author": null,
-          "description": "Sep 13, 15:57 UTC\nInvestigating - We are investigating and mitigating intermittent availability issues on some GitHub services.",
-          "link": "https://www.githubstatus.com/incidents/8blgv351d71j",
-          "publishedOn": "2022-09-13T15:57:50.000Z",
-          "wordCount": 3970,
-          "title": "Incident on 2022-09-13",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
         {
@@ -478,16 +519,6 @@
           "wordCount": 4120,
           "title": "Incident with Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/0hkbgpcpbkc6",
-          "author": null,
-          "description": "Aug 15, 13:18 UTC\nResolved - This incident has been resolved.\nAug 15, 10:55 UTC\nUpdate - We are investigating reports of issues with Codespaces in the eu-west region(s). Users in that location may not be able to connect to their Codespaces during this time. We are investigating contributing factors and will update you on progress towards mitigation.\nAug 15, 10:50 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces.",
-          "link": "https://www.githubstatus.com/incidents/0hkbgpcpbkc6",
-          "publishedOn": "2022-08-15T13:18:46.000Z",
-          "wordCount": 4029,
-          "title": "Incident with Codespaces",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -497,22 +528,32 @@
       "siteUrl": "https://status.slack.com/",
       "articles": [
         {
+          "id": "https://status.slack.com//2022-09/c3bf22ba48b2930b",
+          "author": null,
+          "description": "We have found a workaround for users facing the issue where using the workflow tool to add a row to a spreadsheet is inserting incorrect time information. \n\r\n\r\nAs a workaround, highlight the Submission Time column and go to \n\r\nFormat → Number → Custom Number Format and insert: ddd mmm yyyy hh:mm:ss.\n\r\n\r\nGoing forward, we’ll continue working on this as a bug that we’ll track internally. If you’re still experiencing this behaviour, please reach out to us at feedback@slack.com.",
+          "link": "https://status.slack.com//2022-09/c3bf22ba48b2930b",
+          "publishedOn": "2022-09-14T20:17:18.000Z",
+          "wordCount": 217,
+          "title": "Incident: Spreadsheet data added using workflows may be incorrect",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://status.slack.com//2022-09/29f29ddbaf35791a",
           "author": null,
-          "description": "We're still investigating this issue impacting creating and editing posts. We appreciate your continued patience as we work towards a solution.",
+          "description": "Some users may be experiencing delay issues when creating and editing posts. We are investigating and we'll report back as soon as we have more information. Thank you for your patience in the meantime.",
           "link": "https://status.slack.com//2022-09/29f29ddbaf35791a",
-          "publishedOn": "2022-09-13T23:15:14.000Z",
-          "wordCount": 112,
+          "publishedOn": "2022-09-14T14:31:58.000Z",
+          "wordCount": 147,
           "title": "Incident: Some users might have trouble with posts",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
           "id": "https://status.slack.com//2022-09/abdf34f4cfab096e",
           "author": null,
-          "description": "Direct Messages with three or more people are missing from the Direct Message list for all workspaces. We are currently investigating the cause and will update here. We apologize for the inconvenience!",
+          "description": "Issue summary:\n\r\n\r\nOn September 13, 2022 from 10:33 AM PDT to 3:21 PM PDT, some customers were unable to see group direct messages in their sidebars due to a recent update. Reverting the update fixed the issue for all affected customers.",
           "link": "https://status.slack.com//2022-09/abdf34f4cfab096e",
-          "publishedOn": "2022-09-13T22:55:10.000Z",
-          "wordCount": 74,
+          "publishedOn": "2022-09-14T06:21:17.000Z",
+          "wordCount": 161,
           "title": "Incident: Direct Messages with three or more people are missing from the Direct Message list for all workspaces",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
@@ -614,16 +655,6 @@
           "publishedOn": "2022-08-22T17:11:30.000Z",
           "wordCount": 156,
           "title": "Incident: Errors with interactive messages",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2022-08/0418b1f6208d547a",
-          "author": null,
-          "description": "Issue summary:\n\r\nFrom 1:13  PM PDT to 6:56 PM PDT on August 15, 2022 some customers experienced issues in the desktop app when sending messages or reactions with Japanese character emojis.\n\r\n\r\nWe identified the issue was the result of a code change to how emojis were validated. We reverted the change which resolved the issue for all affected users.",
-          "link": "https://status.slack.com//2022-08/0418b1f6208d547a",
-          "publishedOn": "2022-08-16T03:54:06.000Z",
-          "wordCount": 198,
-          "title": "Incident: Issues with sending messages with custom emoji",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
