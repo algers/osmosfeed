@@ -1,32 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-15T00:28:44.385Z</id>
+    <id>urn:2022-09-16T00:28:38.183Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-15T00:28:44.385Z</updated>
+    <updated>2022-09-16T00:28:38.183Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Australia Voice Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/y8kfzsrdfrch</id>
-        <link href="https://status.twilio.com/incidents/y8kfzsrdfrch"/>
-        <updated>2022-09-15T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 15, 05:00 - 13:00 PDT
-Sep  8, 20:03 PDT
-Scheduled - Our Voice carrier partner in Australia is conducting a planned maintenance from September 15 2022 at 05:00 PDT until September 15 2022 at 13:00 PDT. During the maintenance window, there could be intermittent call failures to and from Australia and New Zealand handsets.]]></summary>
+        <title type="html"><![CDATA[Network Connectivity in LON1]]></title>
+        <id>https://status.digitalocean.com/incidents/jznrv97h9dsw</id>
+        <link href="https://status.digitalocean.com/incidents/jznrv97h9dsw"/>
+        <updated>2022-09-16T00:17:58.000Z</updated>
+        <summary type="html"><![CDATA[Sep 16, 00:17 UTC
+Resolved - Our engineering team has resolved the issue with networking in LON1, and should now be operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+Sep 15, 23:36 UTC
+Monitoring - Our Engineering team has identified the root cause of the networking issues in LON1. We are monitoring the situation and will post an update once we confirm this incident is fully resolved.
+Sep 15, 22:16 UTC
+Identified - Our Engineering team has identified the source of connectivity issues in our LON1 region, and is working on a fix to mitigate the impact.
+Users may be experiencing packet loss/latency, timeouts, and related issues with Droplet-based services in LON1, including Droplets, Managed Kubernetes, and Database clusters.
+Sep 15, 22:01 UTC
+Investigating - Our Engineering team is investigating reports of networking connectivity issues in our LON1 region. Users have reported packet loss/latency and connectivity errors to resources. We will share an update once we have further information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Megafon]]></title>
+        <id>https://status.twilio.com/incidents/tqlzg171y7nq</id>
+        <link href="https://status.twilio.com/incidents/tqlzg171y7nq"/>
+        <updated>2022-09-16T00:01:37.000Z</updated>
+        <summary type="html"><![CDATA[Sep 15, 17:01 PDT
+Completed - The scheduled maintenance has been completed.
+Sep 15, 13:01 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Sep 12, 04:30 PDT
+Scheduled - The Megafon network in Russia is conducting a planned maintenance from 15 September 2022 at 13:00 PDT until 15 September 2022 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Megafon Russia handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[US and Canada SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/vl9c87td4y8t</id>
-        <link href="https://status.twilio.com/incidents/vl9c87td4y8t"/>
-        <updated>2022-09-15T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 14, 20:00 PDT  -  Sep 15, 00:00 PDT
-Aug 22, 18:40 PDT
-Scheduled - Our SMS carrier partner in the US and Canada will be conducting a planned maintenance from 14 September 2022 at 20:00 PDT until 15 September 2022 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from both US and Canada handsets via Toll-free numbers.]]></summary>
+        <title type="html"><![CDATA[Rippling Devices web application is not confirming the creation of user accounts and not sending temporary passwords]]></title>
+        <id>https://status.rippling.com/incidents/6ks7txt5h14x</id>
+        <link href="https://status.rippling.com/incidents/6ks7txt5h14x"/>
+        <updated>2022-09-15T22:45:33.000Z</updated>
+        <summary type="html"><![CDATA[Sep 15, 22:45 UTC
+Monitoring - A fix has been deployed and is being rolled out.  Please expect the fix to be available to all computers by 6pm PST, some computers may receive the fix earlier.
+Sep 15, 20:17 UTC
+Identified - The issue has been identified and a fix is being implemented.
+Sep 15, 19:52 UTC
+Investigating - We are currently investigating this issue.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Rippling Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Spreadsheet data added using workflows may be incorrect]]></title>
+        <id>https://status.slack.com//2022-09/c3bf22ba48b2930b</id>
+        <link href="https://status.slack.com//2022-09/c3bf22ba48b2930b"/>
+        <updated>2022-09-15T17:32:19.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+
+Starting September 6th, 2022, we identified an issue with the Google Sheet app inside Workflow Builder. This issue caused the app to read the spreadsheet date/time format wrong, inserting the incorrect time value in the timestamp.
+
+
+We discovered this was due to the app processing the workflow step with a single digit value instead of a double digit value.
+
+
+Users can continue highlighting the Submission Time column in the spreadsheet and select Format → Number → Custom Number Format and insert: ddd mmm yyyy hh:mm:ss, as a workaround.
+
+
+We will work to fix this through a bug ticket that has been filed as a result of this incident. Though we have not resolved this issue yet, we will provide further updates through customer support tickets with the impacted users.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Delay with Event Processing in All Regions]]></title>
+        <id>https://status.digitalocean.com/incidents/g4wkfk7jxx6m</id>
+        <link href="https://status.digitalocean.com/incidents/g4wkfk7jxx6m"/>
+        <updated>2022-09-15T15:55:26.000Z</updated>
+        <summary type="html"><![CDATA[Sep 15, 15:55 UTC
+Resolved - From 13:50 - 14:50 UTC, our Engineering team observed issues with event processing in all regions. During this time, users may have experienced delays or failures when attempting to process events, such as creation, deletion, resizing, assigning of Reserved IP's, Snapshots, and other Droplet-based events.
+Our Engineering team has resolved the issue. As of 14:50 UTC, events should not be delayed and should be successful.  We apologize for the inconvenience. If you are still experiencing any problems or have additional questions, please open a support ticket within your account.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Issue Setting PASS_THROUGH_CLEANING_FEE on Pricing Settings Standard Fees Array]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/cvjp3lxj20n0</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/cvjp3lxj20n0"/>
+        <updated>2022-09-15T09:38:05.000Z</updated>
+        <summary type="html"><![CDATA[Sep 15, 02:38 PDT
+Resolved - This incident has been resolved.
+Please retry the PUT pricing_settings requests with the desired Standard Fees if you have not already done so.
+If you have any further queries related to this incident, please submit a ticket via the Partner Support Portal and our team will get back to you as soon as possible.
+Apologies for the inconvenience caused and thank you for your understanding.
+Sep 14, 22:39 PDT
+Monitoring - Please attempt to retry the PUT pricing_settings requests with the desired Standard Fees.
+This should re-populate the listings' Standard Fees array as intended, namely the PASS_THROUGH_CLEANING_FEE fee.
+We are monitoring the situation.
+Sep 14, 22:38 PDT
+Identified - The issue has been identified and mitigated.
+Please attempt to send a PUT pricing_settings request with the desired Standard Fees as required.
+This should re-populate the listings' Standard Fees array as intended.
+Sep 14, 20:45 PDT
+Investigating - We are currently investigating reports where the PASS_THROUGH_CLEANING_FEE standard fee is not being able to be set via the Pricing Settings API.
+We will provide updates as soon as we can. We apologise for the inconvenience caused.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some users might have trouble with posts]]></title>
+        <id>https://status.slack.com//2022-09/29f29ddbaf35791a</id>
+        <link href="https://status.slack.com//2022-09/29f29ddbaf35791a"/>
+        <updated>2022-09-15T00:42:43.000Z</updated>
+        <summary type="html"><![CDATA[Thank you for your patience while we were working on this. For now, we will track this internally as a bug while we continue to find resolution. If you’re still experiencing this behaviour, please reach out to us at feedback@slack.com.]]></summary>
+        <author>
+            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
@@ -47,24 +140,6 @@ We are seeing some recovery after taking action and are continuing to investigat
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Incident: Spreadsheet data added using workflows may be incorrect]]></title>
-        <id>https://status.slack.com//2022-09/c3bf22ba48b2930b</id>
-        <link href="https://status.slack.com//2022-09/c3bf22ba48b2930b"/>
-        <updated>2022-09-14T20:17:18.000Z</updated>
-        <summary type="html"><![CDATA[We have found a workaround for users facing the issue where using the workflow tool to add a row to a spreadsheet is inserting incorrect time information. 
-
-
-As a workaround, highlight the Submission Time column and go to 
-
-Format → Number → Custom Number Format and insert: ddd mmm yyyy hh:mm:ss.
-
-
-Going forward, we’ll continue working on this as a bug that we’ll track internally. If you’re still experiencing this behaviour, please reach out to us at feedback@slack.com.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Incident on 2022-09-13]]></title>
         <id>https://www.githubstatus.com/incidents/8blgv351d71j</id>
         <link href="https://www.githubstatus.com/incidents/8blgv351d71j"/>
@@ -75,16 +150,6 @@ Sep 13, 15:57 UTC
 Investigating - We are investigating and mitigating intermittent availability issues on some GitHub services.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users might have trouble with posts]]></title>
-        <id>https://status.slack.com//2022-09/29f29ddbaf35791a</id>
-        <link href="https://status.slack.com//2022-09/29f29ddbaf35791a"/>
-        <updated>2022-09-14T14:31:58.000Z</updated>
-        <summary type="html"><![CDATA[Some users may be experiencing delay issues when creating and editing posts. We are investigating and we'll report back as soon as we have more information. Thank you for your patience in the meantime.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
@@ -126,32 +191,6 @@ Investigating - We are investigating and mitigating intermittent availability is
 <li>Mobile applications and devices displayed events at the wrong time.</li>
 </ul>
 <hr>
-</div><hr><p>Affected products: Google Calendar</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: We're aware of a problem with Google Calendar affecting a significant subset of users. We will provide an update by Sep 6, 2022, 7:07 AM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/eUTgyZ1F5JxbhTX6bQAD</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/eUTgyZ1F5JxbhTX6bQAD"/>
-        <updated>2022-09-14T13:55:17.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2022-09-04 04:00</strong> and ended at <strong>2022-09-07 14:36</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h2>MINI INCIDENT REPORT</h2>
-<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
-<p>(All Times US/Pacific)</p>
-<p><strong>Incident Start:</strong> 03 September 2022 21:00</p>
-<p><strong>Incident End:</strong>  07 September 2022 07:39</p>
-<p><strong>Duration:</strong>  3 days, 10 hours, 39 minutes</p>
-<p><strong>Affected Services and Features:</strong></p>
-<p>Google Calendar</p>
-<p><strong>Regions/Zones:</strong> Chile</p>
-<p><strong>Description:</strong></p>
-<p>Google Calendar experienced an issue with a mismatch in daylight savings time in Chile. The issue was caused due to the decision of the Government of Chile to delay the time change by a week from 3 September 2022 to 10 September 2022.</p>
-<p>Following the announcement of the Chilean Government’s decision on 8 August 2022, Google product teams evaluated options to minimize customer impact. After careful analysis, the Calendar product team decided to not roll out an ad-hoc fix due to the number of variables involved with the fix roll out. So, the Google team published an <a href="https://blog.google/intl/es-419/actualizaciones-de-producto/android-chrome-play/chile-preparandonos-para-la-mejor-experiencia-frente-al-cambio-de-hora/">external blog post</a> on 1 September 2022, outlining the Government’s decision to delay the time change and workarounds to prepare the customers in Chile for the best time change experience.</p>
-<p>Upon receiving multiple customer escalations on 5 September 2022, the product team reconvened and decided to roll out the emergency fix to mitigate the impact to our customers.</p>
-<p><strong>Customer Impact:</strong></p>
-<p>Events  in the calendar for the week of 3 September 2022 to 10 September 2022 were not in the right time for users who have events saved in the Chilean time zone or if the user&#39;s calendar is set to Chile time zone.
-Current time displayed on the customers calendars is an hour later than the actual time.</p>
 </div><hr><p>Affected products: Google Calendar</p>]]></summary>
         <author>
             <name>Google Workspace Status Dashboard Updates</name>
@@ -934,43 +973,6 @@ Please subscribe for deployment updates. We don't expect any change in behavior,
 Resolved - This incident has been resolved.
 Aug 17, 17:19 UTC
 Investigating - We are investigating reports of degraded performance for Pull Requests.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Control Panel and WWW sites]]></title>
-        <id>https://status.digitalocean.com/incidents/gg754r0r67xv</id>
-        <link href="https://status.digitalocean.com/incidents/gg754r0r67xv"/>
-        <updated>2022-08-16T18:42:35.000Z</updated>
-        <summary type="html"><![CDATA[Aug 16, 18:42 UTC
-Resolved - Our Engineering team has confirmed resolution of the issue with the Cloud Control Panel and DigitalOcean sites. Our team also confirmed API requests were impacted as a result of this incident and users may have seen API failures between 17:53 - 18:03 UTC. All services should now be operating normally. 
-If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
-Aug 16, 18:11 UTC
-Monitoring - As of 17:53 UTC, our Engineering team identified an issue with the Cloud Control Panel and some other DigitalOcean webpages, such as marketplace.digitalocean.com. Users were unable to reach cloud.digitalocean.com and may have seen a maintenance page, as well as have been unable to reach other DigitalOcean sites, like the Marketplace. 
-Our team deployed a fix at 18:03 UTC and are now monitoring the situation. We will post an update once we confirm the issue is fully resolved. We apologize for any inconvenience.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Codespaces]]></title>
-        <id>https://www.githubstatus.com/incidents/bdtztmrydlwz</id>
-        <link href="https://www.githubstatus.com/incidents/bdtztmrydlwz"/>
-        <updated>2022-08-16T16:32:27.000Z</updated>
-        <summary type="html"><![CDATA[Aug 16, 16:32 UTC
-Resolved - This incident has been resolved.
-Aug 16, 16:01 UTC
-Update - We are still verifying our hotfix for Codespaces web client us-east outage.  Note:  Workaround is to use VS Code desktop client.  ETA ~45m
-Aug 16, 15:13 UTC
-Update - We are testing a hotfix for our Codespaces web client us-east outage.  Note:  Workaround is to use VS Code desktop client.  ETA ~1h.
-Aug 16, 14:28 UTC
-Update - We have identified the issue with Codespaces in the us-east region preventing web client use.  Please use the VS Code desktop client as a workaround.   Hotfix is underway, ETA 1h.
-Aug 16, 13:51 UTC
-Update - We identified an issue that impacts some Codespaces customers and are working on mitigation.We will continue to keep you updated on progress.
-The VS Code desktop client can be used as a workaround.
-Aug 16, 13:38 UTC
-Investigating - We are investigating reports of degraded performance for Codespaces.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
