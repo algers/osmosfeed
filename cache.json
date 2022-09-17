@@ -77,16 +77,6 @@
           "wordCount": 3303,
           "title": "Issues Loading Listings and Images on Airbnb.com",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/s0xq759f69m5",
-          "author": null,
-          "description": "Aug 18, 00:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJul 19, 00:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 18, 15:13 PDT\nScheduled - We are currently rolling out improvements to the backend of our Set Listing endpoint for amenities. This will be done in phases over the course of the next month. \nPlease subscribe for deployment updates. We don't expect any change in behavior, but if you come across any issues, please submit an API support request through your Partner Support Portal and link this post.",
-          "link": "https://airbnbapi.statuspage.io/incidents/s0xq759f69m5",
-          "publishedOn": "2022-08-18T07:00:14.000Z",
-          "wordCount": 3287,
-          "title": "Listing Amenities Improvements",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -94,18 +84,7 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": [
-        {
-          "id": "https://status.twilio.com/incidents/tqlzg171y7nq",
-          "author": null,
-          "description": "Sep 15, 17:01 PDT\nCompleted - The scheduled maintenance has been completed.\nSep 15, 13:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep 12, 04:30 PDT\nScheduled - The Megafon network in Russia is conducting a planned maintenance from 15 September 2022 at 13:00 PDT until 15 September 2022 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Megafon Russia handsets.",
-          "link": "https://status.twilio.com/incidents/tqlzg171y7nq",
-          "publishedOn": "2022-09-16T00:01:37.000Z",
-          "wordCount": 6200,
-          "title": "Russia SMS Carrier Maintenance - Megafon",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "DigitalOcean Status - Incident History",
@@ -289,10 +268,10 @@
         {
           "id": "https://status.rippling.com/incidents/6ks7txt5h14x",
           "author": null,
-          "description": "Sep 15, 22:45 UTC\nMonitoring - A fix has been deployed and is being rolled out.  Please expect the fix to be available to all computers by 6pm PST, some computers may receive the fix earlier.\nSep 15, 20:17 UTC\nIdentified - The issue has been identified and a fix is being implemented.\nSep 15, 19:52 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Sep 16, 00:00 UTC\nResolved - This incident has been resolved.\nSep 15, 22:45 UTC\nMonitoring - A fix has been deployed and is being rolled out.  Please expect the fix to be available to all computers by 6pm PST, some computers may receive the fix earlier.\nSep 15, 20:17 UTC\nIdentified - The issue has been identified and a fix is being implemented.\nSep 15, 19:52 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://status.rippling.com/incidents/6ks7txt5h14x",
-          "publishedOn": "2022-09-15T22:45:33.000Z",
-          "wordCount": 4059,
+          "publishedOn": "2022-09-16T00:00:24.000Z",
+          "wordCount": 4068,
           "title": "Rippling Devices web application is not confirming the creation of user accounts and not sending temporary passwords",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         },
@@ -334,13 +313,23 @@
       "siteUrl": "https://www.google.com/appsstatus/dashboard/",
       "articles": [
         {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/eUTgyZ1F5JxbhTX6bQAD",
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/qNcKhzaPQskm45XZZUqG",
           "author": null,
-          "description": "<p> Incident began at <strong>2022-09-04 04:00</strong> and ended at <strong>2022-09-07 14:36</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h2>INCIDENT REPORT</h2>\n<p><strong>Summary:</strong></p>\n<p>On Saturday, 03 September 2022 21:00 US/Pacific, Google Calendar experienced an issue with a mismatch in Daylight Savings time in Chile for a duration of 3 days, 22 hours, 36 minutes. The issue was mitigated on Wednesday, 07 September 2022 07:36 US/Pacific. We have conducted an internal investigation and are taking steps to improve our service.</p>\n<p><strong>Root Cause:</strong></p>\n<p>Internet Assigned Numbers Authority (also known as IANA) is a standards organization that oversees global IP address allocation, autonomous system number allocation, root zone management in the Domain Name System (DNS), media types, and other Internet Protocol-related symbols and Internet numbers. As part of its mission, IANA maintains global time zone information [1], commonly known as the time zone database, the Olson time zone database, or just the “tzdb”. This database is not released on a schedule, just when global time zone changes require it.</p>\n<p>Chile had a scheduled time zone change on Sunday, 04 September 2022. However, because of elections occurring around the same time, the government decided to postpone the start date of Daylight Savings time from Sunday, 04 September 2022 to Sunday, 11 September 2022. The Chilean government announced this decision on 08 August 2022, less than a month in advance.</p>\n<p>IANA released version 2022b of the time zone database on Thursday, 11 August 2022, followed by 2022c (to address technical issues) on Tuesday, 16 August 2022. Google integrates new versions of the time zone database as they become available in a multi-step process involving several teams. It takes approximately one month for time zone database changes to roll out for Google Calendar.</p>\n<p>[1] - <a href=\"https://www.iana.org/time-zones\">https://www.iana.org/time-zones</a></p>\n<p><strong>Remediation</strong></p>\n<p>Google engineers expedited a roll out of the new time zone definitions on the morning of Wednesday, 07 September 2022 (local Chilean time). This had the following effects:</p>\n<ul>\n<li>The current time in Calendar (the red bar) would be correct.</li>\n<li>New events would appear at the correct time and be in the correct time zone.</li>\n<li>Appointment schedules would appear at the correct time.</li>\n<li>Modified recurring events would appear at the correct time, but instance-specific data (ie. attendee, attendee status, description, location, time, etc.) which did not match the timezone definition would be deleted and new instances would be created in the correct time zone.</li>\n</ul>\n<p><strong>Prevention</strong></p>\n<p>Google is committed to preventing recurrence by implementing the following action items:</p>\n<ul>\n<li>Implement improvements to the time zone updates rollout process that will reduce the lead time for completion.</li>\n<li>Investigate Calendar interactions with other Workspace products with relation to mismatched time zones to minimize impact in case of a recurrence.</li>\n</ul>\n<p><strong>Detailed Description of Impact:</strong></p>\n<p>From 03 September 2022 21:00 to 07 September 2022 07:36 US/Pacific, Google Calendar events for all customers in Chile were impacted due to the time change event.</p>\n<p>The customer impact included:</p>\n<ul>\n<li>The current time in Calendar (the red bar) was out of sync with actual time and the operating system.</li>\n<li>New and existing events were at the wrong time.</li>\n<li>Appointments were set at the wrong time.</li>\n<li>Appointments created across time zones displayed at the wrong time.</li>\n<li>Updating appointment schedules displayed at the wrong time.</li>\n<li>Mobile applications and devices displayed events at the wrong time.</li>\n</ul>\n<hr>\n</div><hr><p>Affected products: Google Calendar</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/eUTgyZ1F5JxbhTX6bQAD",
-          "publishedOn": "2022-09-14T14:01:01.000Z",
-          "wordCount": 1377,
-          "title": "RESOLVED: We're aware of a problem with Google Calendar affecting a significant subset of users. We will provide an update by Sep 6, 2022, 7:07 AM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change.",
+          "description": "<p> Incident began at <strong>2022-09-13 04:02</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We expect to resolve the problem affecting a significant subset of users of Google Workspace Support at <span>Sep 17, 2022, 1:30 AM UTC</span>. Please note that this time frame is an estimate and may change.  </span><div> <p>Issue is affecting all case updates and interrupting the following functions:</p>\n<ul>\n<li>Unable to send emails/ save drafts from case detail page.</li>\n<li>Support team unable to change case ownership.</li>\n<li>Customers are unable to update affected cases from the portal.</li>\n</ul>\n  </div></div><hr><p>Affected products: Google Workspace Support</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/qNcKhzaPQskm45XZZUqG",
+          "publishedOn": "2022-09-16T23:13:45.000Z",
+          "wordCount": 463,
+          "title": "UPDATE: We're experiencing an issue affecting less than an estimated 30% of the Google Workspace Support user base. We will provide an update by Sep 16, 2022, 8:00 PM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change. The affected users are able to access Google Workspace Support, but are seeing error messages, high latency, and/or other unexpected behavior.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/qNcKhzaPQskm45XZZUqG",
+          "author": null,
+          "description": "<p> Incident began at <strong>2022-09-13 04:02</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We're experiencing an issue affecting less than an estimated <span>30</span>% of the Google Workspace Support user base. We will provide an update by <span>Sep 16, 2022, 8:00 PM UTC</span> detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change.  </span>The affected users are able to access Google Workspace Support, but are seeing error messages, high latency, and/or other unexpected behavior.<div> <p>Issue is affecting all vector cases updates and interrupting the following functions:</p>\n<ul>\n<li>Unable to send emails/ save drafts from case detail page.</li>\n<li>Support team unable to change case ownership.</li>\n<li>Customers are unable to update affected cases from the portal.</li>\n</ul>\n  </div><div> <p>Retry after some time after the error is seen</p>\n  </div></div><hr><p>Affected products: Google Workspace Support</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/qNcKhzaPQskm45XZZUqG",
+          "publishedOn": "2022-09-16T18:59:43.000Z",
+          "wordCount": 463,
+          "title": "UPDATE: We're experiencing an issue affecting less than an estimated 30% of the Google Workspace Support user base. We will provide an update by Sep 16, 2022, 8:00 PM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change. The affected users are able to access Google Workspace Support, but are seeing error messages, high latency, and/or other unexpected behavior.",
           "imageUrl": null
         }
       ]
@@ -508,16 +497,6 @@
           "publishedOn": "2022-08-18T17:36:32.000Z",
           "wordCount": 4066,
           "title": "Incident with Actions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/2nd6fyb4drjx",
-          "author": null,
-          "description": "Aug 17, 17:27 UTC\nResolved - This incident has been resolved.\nAug 17, 17:19 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests.",
-          "link": "https://www.githubstatus.com/incidents/2nd6fyb4drjx",
-          "publishedOn": "2022-08-17T17:27:24.000Z",
-          "wordCount": 3985,
-          "title": "Incident with Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
