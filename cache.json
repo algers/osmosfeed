@@ -34,16 +34,6 @@
           "wordCount": 479,
           "title": "[New feature] Brand new Dashboard section to easily manage your daily tasks from Smily 🚀",
           "imageUrl": "//cloud.headwayapp.co/changelogs_images/images/big/000/094/521-62e4c3d0e54a8c9d7ed3edb2994d82994e26fd1b.png"
-        },
-        {
-          "id": "241989",
-          "author": "Yannick, Customer Care Team Leader - Pro Team",
-          "description": "New!\n  \nAt BookingSync, we are here to make you Save time and Book more. That's why we are always thrilled to announce more and more features.\nThis time the new feature concerns the reviews management, you can now manage all your reviews on BookingSync. Yes ! all the reviews posted on the biggest channels : Airbnb, Booking.com plus your direct bookings.\nWhen accessing the Reviews section, you will see 2 different sub-menus:\nGuest Reviews: This section will allow you to see the different reviews posted by the guests for each property, the rating plus the message posted by the guest, if you need more detail you can click on the review, a new page will appear with the Review details, the Booking details, the complete guest review message, and the host review if it’s already posted, and you have the possibility to reply to the review message.\n\n\nHost Reviews: This section will allow you to evaluate your guest and share a detailed rating and a review message.\n\n\nFor each of these section you will be able to filter the reviews by Rating, Rentals and Source.\nPlease find here the video demo explaining step by step the feature.\nWe invite you to discover all these new features, and hope it will help you to have a better management of your reviews, save more time, and have a better ranking and visibility on the channels !\nDon’t hesitate to contact our customer care if you have any questions.",
-          "link": "https://changelog.bookingsync.com/new-feature-manage-all-your-reviews-from-your-bookingsync-account-!-241989",
-          "publishedOn": "2022-08-25T13:49:11.000Z",
-          "wordCount": 488,
-          "title": "[New feature] Manage all your reviews from your BookingSync Account !",
-          "imageUrl": null
         }
       ]
     },
@@ -210,16 +200,6 @@
           "wordCount": 4514,
           "title": "App Platform Deployments",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/798hgn4bv6dh",
-          "author": null,
-          "description": "Aug 25, 20:04 UTC\nResolved - Our Engineering team has resolved the issue with Block Storage Volumes. All the operations including creation, deletion, and listing should now be succeeding. We appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.\nAug 25, 18:59 UTC\nMonitoring - Our engineering team has implemented a fix to resolve the issue with Block Storage Volumes. We are currently monitoring the results and will post an update as soon as the matter is resolved completely.\nAug 25, 17:35 UTC\nInvestigating - Our engineering team is investigating an issue with Block Storage Volumes. During this time users may experience issues while creating, listing, and deleting the Block Storage Volumes in all regions. We apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/798hgn4bv6dh",
-          "publishedOn": "2022-08-25T20:04:47.000Z",
-          "wordCount": 4586,
-          "title": "Block Storage Volumes",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -277,16 +257,6 @@
           "description": "<p> Incident began at <strong>2022-09-16 17:23</strong> and ended at <strong>2022-09-17 00:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h2>Full Incident Report</h2>\n<p><strong>SUMMARY:</strong></p>\n<p>On Friday, 16 September at 10:23 US/Pacific, Cloud Support Systems, which utilizes a 3rd party product, experienced row-lock errors while updating cases. This preventedSupport agents from being able to update or make changes to some Support cases. Additionally, the send email to customers action was unavailable for some Support cases. Some customers may have seen an error when updating cases from the customer portal. As a workaround, customers and Support agents could successfully update their cases by retrying the action. The issue was mitigated at 17:27 US/Pacific and service was fully restored for both the Support agents and customers. The total duration of the service disruption was 7 hours and 4 minutes.</p>\n<p><strong>ROOT CAUSE:</strong></p>\n<p>Cloud Support Systems experienced a large backlog of case field update actions pending in the SLO timed actions queue. These timed actions were running in large batches, with updates running in the queue every few minutes. This caused the cases to be locked down from any other update actions while that job was running.</p>\n<p>This backlog was caused by the following:</p>\n<ul>\n<li>There was an increase in the limit of cases being processed every hour by the SLO time queue job.</li>\n<li>There was a rollback issue with the 3rd party product while processing time based tasks which caused multiple processing requests of the same tasks.</li>\n<li>There was a configuration in the case trigger which created a backlog on large batches which triggered the above bug with the 3rd party product.</li>\n</ul>\n<p><strong>REMEDIATION AND PREVENTION:</strong></p>\n<p>Our engineers were alerted to the issue by an internal support agent&#39;s case on Monday, 12 September 2022. Engineering began investigating and working on a solution. On Tuesday, September 13 there was one report of external impact. The issue progressed and impact became visible externally on Friday, 16 September 2022 at 10:23 US/Pacific, and the row lock issue was confirmed to have widespread external impact. Once the nature and scope of the issue became clear, Google engineers filed a case with the 3rd party product support to address the issue with Cloud Systems. The  backlog actions were purged manually using the 3rd party setup UI which brought the backlog in the queue down by 80%, the issue was completely resolved for the end user on Friday, 16 September at 17:27 US/Pacific.</p>\n<p>Google is committed to preventing recurrence by implementing the following action items:</p>\n<ul>\n<li>Implement a code enhancement with the 3rd party vendor to confirm the error handling code which triggered the issue is fixed.</li>\n</ul>\n</div><hr><p>Affected products: Google Workspace Support</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/qNcKhzaPQskm45XZZUqG",
           "publishedOn": "2022-09-23T23:02:17.000Z",
-          "wordCount": 1178,
-          "title": "RESOLVED: We're experiencing an issue affecting less than an estimated 30% of the Google Workspace Support user base. We will provide an update by Sep 16, 2022, 8:00 PM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change. The affected users are able to access Google Workspace Support, but are seeing error messages, high latency, and/or other unexpected behavior.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/qNcKhzaPQskm45XZZUqG",
-          "author": null,
-          "description": "<p> Incident began at <strong>2022-09-16 17:23</strong> and ended at <strong>2022-09-17 00:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h2>Mini Incident Report</h2>\n<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out  to Google Workspace Support using the help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 12 September 2022 21:02</p>\n<p><strong>Incident End:</strong> 16 September 2022 17:22</p>\n<p><strong>Duration:</strong> 3 days, 20 hours, 20 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Google Cloud Support systems</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>Google Cloud Support Systems experienced an intermittent issue where case updates from the portal were failing for a brief period. Retrying the same update may have succeeded in some cases. From preliminary analysis, the root cause of the issue is a large backlog of update actions that built up in the entitlement process.</p>\n<p><strong>Customer Impact:</strong></p>\n<ul>\n<li>\n<p>Less than 0.1% of Google Cloud and Google Workspace customers experienced delays in contacting, providing and getting updates to and from Google Support Agents.  The issue impacted support’s ability to send updates to customers via the case management system. Following are the scenarios in which errors were received.</p>\n<ul>\n<li>While sending emails to customers, the send action is unavailable due to errors.</li>\n<li>Error while changing case ownership.</li>\n<li>Error while posting comments on the case.</li>\n</ul>\n</li>\n<li>\n<p>Some customers experienced an error “There was an error adding your comment. Please try again” while updating cases from the support portal.</p>\n</li>\n</ul>\n</div><hr><p>Affected products: Google Workspace Support</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/qNcKhzaPQskm45XZZUqG",
-          "publishedOn": "2022-09-23T22:56:59.000Z",
           "wordCount": 1178,
           "title": "RESOLVED: We're experiencing an issue affecting less than an estimated 30% of the Google Workspace Support user base. We will provide an update by Sep 16, 2022, 8:00 PM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change. The affected users are able to access Google Workspace Support, but are seeing error messages, high latency, and/or other unexpected behavior.",
           "imageUrl": null
@@ -427,26 +397,6 @@
           "wordCount": 4266,
           "title": "Incident with Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/qjf5mzdcp335",
-          "author": null,
-          "description": "Aug 25, 23:35 UTC\nResolved - This incident has been resolved.\nAug 25, 23:32 UTC\nUpdate - Pages is operating normally.\nAug 25, 23:11 UTC\nUpdate - Pages is experiencing degraded performance. We are continuing to investigate.\nAug 25, 23:11 UTC\nInvestigating - We are investigating reports of degraded performance for Actions.",
-          "link": "https://www.githubstatus.com/incidents/qjf5mzdcp335",
-          "publishedOn": "2022-08-25T23:35:05.000Z",
-          "wordCount": 4013,
-          "title": "Incident with Actions and Pages",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/v7x4r4mplb4t",
-          "author": null,
-          "description": "Aug 25, 15:29 UTC\nResolved - This incident has been resolved.\nAug 25, 15:12 UTC\nUpdate - We've applied a mitigation to resolve the identified issue. Will update further when confirmed that this has resolved the issue.\nAug 25, 14:45 UTC\nUpdate - GitHub Actions is experiencing degraded job execution throughput for a subset of users. We are working to resolve this as quickly as possible.\nAug 25, 14:10 UTC\nInvestigating - We are investigating reports of degraded performance for Actions.",
-          "link": "https://www.githubstatus.com/incidents/v7x4r4mplb4t",
-          "publishedOn": "2022-08-25T15:29:45.000Z",
-          "wordCount": 4036,
-          "title": "Incident with Actions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -455,6 +405,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://status.slack.com/",
       "articles": [
+        {
+          "id": "https://status.slack.com//2022-09/1858cb1fccf03b42",
+          "author": null,
+          "description": "We're continuing to investigate this issue, but we don't have any new information to share at this time. Thanks for sticking with us as we continue to work towards a fix.",
+          "link": "https://status.slack.com//2022-09/1858cb1fccf03b42",
+          "publishedOn": "2022-09-24T14:00:00.000Z",
+          "wordCount": 129,
+          "title": "Incident: Issues downloading files on Slack Android app version 22.09.30",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://status.slack.com//2022-09/c3bf22ba48b2930b",
           "author": null,
@@ -543,16 +503,6 @@
           "publishedOn": "2022-08-31T02:40:16.000Z",
           "wordCount": 275,
           "title": "Incident: Mark as Read preferences not being respected",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2022-08/1afbcbaeecc2f6a8",
-          "author": null,
-          "description": "Issue Summary: \n\r\nOn August 25, 2022 between 11:31 AM PDT and 12:37 PM PDT, some customers experienced trouble loading the Workflow Builder screen.\n\r\n\r\nWe traced the problem to a change in the front-end Workflow Builder components which prevented the Workflow Builder from starting up successfully. We reverted this, resolving the issue for all affected customers.",
-          "link": "https://status.slack.com//2022-08/1afbcbaeecc2f6a8",
-          "publishedOn": "2022-08-25T23:06:37.000Z",
-          "wordCount": 146,
-          "title": "Incident: Workflow Builder screen not loading",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]

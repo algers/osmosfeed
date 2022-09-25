@@ -22,6 +22,52 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-24 datetime="2022-09-24T14:00:00.000Z">2022-09-24</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-24 datetime="2022-09-24T14:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Slack System Status</button>
+                  <a class="source-heading__link" href="https://status.slack.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.slack.com//2022-09/1858cb1fccf03b42"
+                        open
+                      >
+                        <summary class="article-expander__title">Incident: Issues downloading files on Slack Android app version 22.09.30</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.slack.com//2022-09/1858cb1fccf03b42">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>We&#x27;re continuing to investigate this issue, but we don&#x27;t have any new information to share at this time. Thanks for sticking with us as we continue to work towards a fix.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-23 datetime="2022-09-23T23:02:17.000Z">2022-09-23</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-23 datetime="2022-09-23T23:02:17.000Z"></time>
           </button>
@@ -64,45 +110,6 @@ REMEDIATION AND PREVENTION:
 Our engineers were alerted to the issue by an internal support agent&#x27;s case on Monday, 12 September 2022. Engineering began investigating and working on a solution. On Tuesday, September 13 there was one report of external impact. The issue progressed and impact became visible externally on Friday, 16 September 2022 at 10:23 US/Pacific, and the row lock issue was confirmed to have widespread external impact. Once the nature and scope of the issue became clear, Google engineers filed a case with the 3rd party product support to address the issue with Cloud Systems. The  backlog actions were purged manually using the 3rd party setup UI which brought the backlog in the queue down by 80%, the issue was completely resolved for the end user on Friday, 16 September at 17:27 US/Pacific.
 Google is committed to preventing recurrence by implementing the following action items:
 Implement a code enhancement with the 3rd party vendor to confirm the error handling code which triggered the issue is fixed.
-
-Affected products: Google Workspace Support</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/qNcKhzaPQskm45XZZUqG"
-                        open
-                      >
-                        <summary class="article-expander__title">RESOLVED: We&#x27;re experiencing an issue affecting less than an estimated 30% of the Google Workspace Support user base. We will provide an update by Sep 16, 2022, 8:00 PM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change. The affected users are able to access Google Workspace Support, but are seeing error messages, high latency, and/or other unexpected behavior.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/qNcKhzaPQskm45XZZUqG">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Incident began at 2022-09-16 17:23 and ended at 2022-09-17 00:27 (times are in Coordinated Universal Time (UTC)).
-
-Mini Incident Report
-We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out  to Google Workspace Support using the help article https://support.google.com/a/answer/1047213.
-(All Times US/Pacific)
-Incident Start: 12 September 2022 21:02
-Incident End: 16 September 2022 17:22
-Duration: 3 days, 20 hours, 20 minutes
-Affected Services and Features:
-Google Cloud Support systems
-Regions/Zones: Global
-Description:
-Google Cloud Support Systems experienced an intermittent issue where case updates from the portal were failing for a brief period. Retrying the same update may have succeeded in some cases. From preliminary analysis, the root cause of the issue is a large backlog of update actions that built up in the entitlement process.
-Customer Impact:
-Less than 0.1% of Google Cloud and Google Workspace customers experienced delays in contacting, providing and getting updates to and from Google Support Agents.  The issue impacted support’s ability to send updates to customers via the case management system. Following are the scenarios in which errors were received.
-While sending emails to customers, the send action is unavailable due to errors.
-Error while changing case ownership.
-Error while posting comments on the case.
-Some customers experienced an error “There was an error adding your comment. Please try again” while updating cases from the support portal.
 
 Affected products: Google Workspace Support</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;4
@@ -1978,215 +1985,10 @@ Resolved - Beginning 14:21 UTC, App Platform deployments in all regions were deg
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-08-25 datetime="2022-08-25T23:35:05.000Z">2022-08-25</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-08-25 datetime="2022-08-25T23:35:05.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >GitHub Status - Incident History</button>
-                  <a class="source-heading__link" href="https://www.githubstatus.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.githubstatus.com/incidents/qjf5mzdcp335"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident with Actions and Pages</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.githubstatus.com/incidents/qjf5mzdcp335">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aug 25, 23:35 UTC
-Resolved - This incident has been resolved.
-Aug 25, 23:32 UTC
-Update - Pages is operating normally.
-Aug 25, 23:11 UTC
-Update - Pages is experiencing degraded performance. We are continuing to investigate.
-Aug 25, 23:11 UTC
-Investigating - We are investigating reports of degraded performance for Actions.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.githubstatus.com/incidents/v7x4r4mplb4t"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident with Actions</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.githubstatus.com/incidents/v7x4r4mplb4t">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aug 25, 15:29 UTC
-Resolved - This incident has been resolved.
-Aug 25, 15:12 UTC
-Update - We&#x27;ve applied a mitigation to resolve the identified issue. Will update further when confirmed that this has resolved the issue.
-Aug 25, 14:45 UTC
-Update - GitHub Actions is experiencing degraded job execution throughput for a subset of users. We are working to resolve this as quickly as possible.
-Aug 25, 14:10 UTC
-Investigating - We are investigating reports of degraded performance for Actions.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Slack System Status</button>
-                  <a class="source-heading__link" href="https://status.slack.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.slack.com//2022-08/1afbcbaeecc2f6a8"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident: Workflow Builder screen not loading</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.slack.com//2022-08/1afbcbaeecc2f6a8">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Issue Summary: 
-
-On August 25, 2022 between 11:31 AM PDT and 12:37 PM PDT, some customers experienced trouble loading the Workflow Builder screen.
-
-
-We traced the problem to a change in the front-end Workflow Builder components which prevented the Workflow Builder from starting up successfully. We reverted this, resolving the issue for all affected customers.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >DigitalOcean Status - Incident History</button>
-                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/798hgn4bv6dh"
-                        open
-                      >
-                        <summary class="article-expander__title">Block Storage Volumes</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/798hgn4bv6dh">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aug 25, 20:04 UTC
-Resolved - Our Engineering team has resolved the issue with Block Storage Volumes. All the operations including creation, deletion, and listing should now be succeeding. We appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.
-Aug 25, 18:59 UTC
-Monitoring - Our engineering team has implemented a fix to resolve the issue with Block Storage Volumes. We are currently monitoring the results and will post an update as soon as the matter is resolved completely.
-Aug 25, 17:35 UTC
-Investigating - Our engineering team is investigating an issue with Block Storage Volumes. During this time users may experience issues while creating, listing, and deleting the Block Storage Volumes in all regions. We apologize for the inconvenience and will share an update once we have more information.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;15
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >BookingSync.com news</button>
-                  <a class="source-heading__link" href="https://changelog.bookingsync.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="241989"
-                        open
-                      >
-                        <summary class="article-expander__title">[New feature] Manage all your reviews from your BookingSync Account !</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://changelog.bookingsync.com/new-feature-manage-all-your-reviews-from-your-bookingsync-account-!-241989">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>New!
-  
-At BookingSync, we are here to make you Save time and Book more. That&#x27;s why we are always thrilled to announce more and more features.
-This time the new feature concerns the reviews management, you can now manage all your reviews on BookingSync. Yes ! all the reviews posted on the biggest channels : Airbnb, Booking.com plus your direct bookings.
-When accessing the Reviews section, you will see 2 different sub-menus:
-Guest Reviews: This section will allow you to see the different reviews posted by the guests for each property, the rating plus the message posted by the guest, if you need more detail you can click on the review, a new page will appear with the Review details, the Booking details, the complete guest review message, and the host review if it’s already posted, and you have the possibility to reply to the review message.
-
-
-Host Reviews: This section will allow you to evaluate your guest and share a detailed rating and a review message.
-
-
-For each of these section you will be able to filter the reviews by Rating, Rentals and Source.
-Please find here the video demo explaining step by step the feature.
-We invite you to discover all these new features, and hope it will help you to have a better management of your reviews, save more time, and have a better ranking and visibility on the channels !
-Don’t hesitate to contact our customer care if you have any questions.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/3116436945">
-        <time id="build-timestamp" datetime="2022-09-24T00:31:09.186Z">2022-09-24T00:31:09.186Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/3120317536">
+        <time id="build-timestamp" datetime="2022-09-25T00:27:00.842Z">2022-09-25T00:27:00.842Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
