@@ -102,6 +102,16 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/70pbywnkt5fp",
+          "author": null,
+          "description": "Sep 27, 01:59 UTC\nResolved - Our engineering team has fully resolved the issue with console access for new Droplets. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nSep 27, 01:39 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue with Droplet console access for new Debian and Ubuntu Droplets. New Droplets will now be able to access the console normally. \nNo action is needed to restore console access for Droplets created during this incident. \nIf you continue to see issues, please contact our support team for assistance.\nSep 27, 00:42 UTC\nInvestigating - Our Engineering team is investigating an issue with Droplet console access for new Debian and Ubuntu Droplets. \nAny new Droplets created using Debian or Ubuntu operating systems will not have access to the Droplet console. This impacts only the standard Droplet console - the recovery console will still function normally.  \nWe apologize for the inconvenience and will share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/70pbywnkt5fp",
+          "publishedOn": "2022-09-27T01:59:22.000Z",
+          "wordCount": 4621,
+          "title": "Droplet Console for New Droplets",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/jznrv97h9dsw",
           "author": null,
           "description": "Sep 16, 00:17 UTC\nResolved - Our engineering team has resolved the issue with networking in LON1, and should now be operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nSep 15, 23:36 UTC\nMonitoring - Our Engineering team has identified the root cause of the networking issues in LON1. We are monitoring the situation and will post an update once we confirm this incident is fully resolved.\nSep 15, 22:16 UTC\nIdentified - Our Engineering team has identified the source of connectivity issues in our LON1 region, and is working on a fix to mitigate the impact.\nUsers may be experiencing packet loss/latency, timeouts, and related issues with Droplet-based services in LON1, including Droplets, Managed Kubernetes, and Database clusters.\nSep 15, 22:01 UTC\nInvestigating - Our Engineering team is investigating reports of networking connectivity issues in our LON1 region. Users have reported packet loss/latency and connectivity errors to resources. We will share an update once we have further information.",
@@ -259,6 +269,16 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/nbhb2lxyh9bb",
+          "author": null,
+          "description": "Sep 27, 15:06 UTC\nResolved - This incident has been resolved.\nSep 27, 15:00 UTC\nUpdate - We've applied a mitigation to resolve delayed job updates for running Actions.\nSep 27, 14:33 UTC\nInvestigating - We are investigating reports of degraded performance for Actions.",
+          "link": "https://www.githubstatus.com/incidents/nbhb2lxyh9bb",
+          "publishedOn": "2022-09-27T15:06:02.000Z",
+          "wordCount": 3997,
+          "title": "Incident with Actions",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/2n0tnk7tt6q9",
           "author": null,
           "description": "Sep 22, 22:23 UTC\nResolved - This incident has been resolved.\nSep 22, 19:44 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nSep 22, 19:04 UTC\nInvestigating - We are investigating reports of degraded performance for Issues.",
@@ -396,6 +416,16 @@
       "siteUrl": "https://status.slack.com/",
       "articles": [
         {
+          "id": "https://status.slack.com//2022-09/ca18055bcf82c232",
+          "author": null,
+          "description": "We’ve resolved the issue with legacy message attachments for all impacted users. Please try force reloading Slack (press Command/Control + Shift + R) and let us know if you are still running into any issues. We’re sorry for the disruption we brought to your day.",
+          "link": "https://status.slack.com//2022-09/ca18055bcf82c232",
+          "publishedOn": "2022-09-27T07:54:19.000Z",
+          "wordCount": 205,
+          "title": "Incident: Issues with legacy message attachments",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://status.slack.com//2022-09/1858cb1fccf03b42",
           "author": null,
           "description": "We've fixed this issue, which is reflected in app version 22.09.40. This version will be gradually made available to users in the Google Play Store through Wednesday, September 28.",
@@ -408,10 +438,10 @@
         {
           "id": "https://status.slack.com//2022-09/5c0916c535d67cec",
           "author": null,
-          "description": "We have rolled out a fix and notifications via Salesforce for Slack app should be are now working as expected. We appreciate your patience.",
+          "description": "We have rolled out a fix and notifications via Salesforce for Slack app should be now working as expected. We appreciate your patience.",
           "link": "https://status.slack.com//2022-09/5c0916c535d67cec",
           "publishedOn": "2022-09-26T19:57:43.000Z",
-          "wordCount": 164,
+          "wordCount": 163,
           "title": "Incident: Some customers may not be receiving notifications via the Salesforce for Slack app.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
@@ -504,6 +534,103 @@
           "wordCount": 275,
           "title": "Incident: Mark as Read preferences not being respected",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        }
+      ]
+    },
+    {
+      "title": "Make Status - Incident History",
+      "feedUrl": "https://status.make.com/history.rss",
+      "siteUrl": "https://status.make.com",
+      "articles": [
+        {
+          "id": "https://status.make.com/incidents/hvlj74k8s60q",
+          "author": null,
+          "description": "Sep 27, 16:59 CEST\nUpdate - Please note the issue with Slack webhook has been addressed, these webhooks are being processed properly now. The team continues implementing further technical measures to mitigate the overall ongoing incident and fully restore the service.\nSep 27, 12:53 CEST\nUpdate - At this point, users may not be able to log in and manage their scenarios. However, our Customer Care team can help you with your scenarios and you can reach out to them via helpdesk.urgent@make.com\nSep 27, 11:35 CEST\nUpdate - We continue to experience intermittent technical issues that affect our customers’ ability to access the home page, login to Make and perform certain operations. Our team is actively working on mitigating the issues and restoring the service.\nSep 27, 01:20 CEST\nIdentified - T…",
+          "link": "https://status.make.com/incidents/hvlj74k8s60q",
+          "publishedOn": "2022-09-27T14:59:50.000Z",
+          "wordCount": 3677,
+          "title": "Website functionality might be degraded",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.make.com/incidents/wq984gqy4lwc",
+          "author": null,
+          "description": "Sep 21, 07:30 CEST\nCompleted - The scheduled maintenance has been completed.\nSep 21, 05:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep 13, 16:58 CEST\nScheduled - Please note that we will be undergoing scheduled infrastructure maintenance on Wednesday September 21st between 05:00 AM and 07:00 AM CEST on eu1.make.celonis.com and eu1.make.com. During this maintenance you can expect few short service interruptions.\nDuring the maintenance the eu1.make.celonis.com and eu1.make.com website login might be temporarily affected.\nSome webhooks and shared hooks processed at that time might be temporarily affected as well.\nThere will be no impact on us1.make.com and us1.make.celonis.com.\nWe do not expect any data loss.",
+          "link": "https://status.make.com/incidents/wq984gqy4lwc",
+          "publishedOn": "2022-09-21T05:30:36.000Z",
+          "wordCount": 3304,
+          "title": "Scheduled infrastructure maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.make.com/incidents/sjxjlyjy4b7c",
+          "author": null,
+          "description": "Sep 20, 12:00 CEST\nCompleted - The scheduled maintenance has been completed.\nSep 20, 10:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep 13, 16:51 CEST\nScheduled - Please note that we will be undergoing scheduled infrastructure maintenance on Tuesday September 20th between 10:00 AM and 12:00 PM CEST on us1.make.celonis.com and us1.make.com. During this maintenance you can expect few short service interruptions.\nDuring the maintenance the us1.make.celonis.com and us1.make.com website login might be temporarily affected.\nSome webhooks and shared hooks processed at that time might be temporarily affected as well.\nThere will be no impact on eu1.make.com and eu1.make.celonis.com.\nWe do not expect any data loss.",
+          "link": "https://status.make.com/incidents/sjxjlyjy4b7c",
+          "publishedOn": "2022-09-20T10:00:33.000Z",
+          "wordCount": 3304,
+          "title": "Scheduled infrastructure maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.make.com/incidents/v21whxj91l62",
+          "author": null,
+          "description": "Sep 20, 11:22 CEST\nResolved - This incident was resolved. Plugin is live once again!\nSep  5, 10:45 CEST\nMonitoring - Hello, we are having issues with Wordpress plugin. The issue is being worked on and will be resolved shortly once Wordpress approves our plugin currently being under review process.",
+          "link": "https://status.make.com/incidents/v21whxj91l62",
+          "publishedOn": "2022-09-20T09:22:43.000Z",
+          "wordCount": 3236,
+          "title": "Wordpress plugin - temporary not available",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.make.com/incidents/cycp8kwzzx7q",
+          "author": null,
+          "description": "Sep 13, 06:00 CEST\nCompleted - The scheduled maintenance has been completed.\nSep 13, 05:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep  7, 16:12 CEST\nScheduled - Please note there is scheduled infrastructure maintenance on Tuesday 13th of September, between 5 AM and 6 AM CEST, when you can expect few short service interruptions. During this maintenance following services will be affected:\n- Migrations will not be available\n- Shared hooks created within maintenance will not be accepted nor processed\n- Logins to platform might be affected\n- Registration of new subscribers won’t be possible\n- Invitations of new team members won’t be possible\n- E-mails and notifications might be delayed\n- Password reset won’t be possible\n- Payments for subscription plans won’t be accepted  \nWe will inform you once the maintenance is completed.",
+          "link": "https://status.make.com/incidents/cycp8kwzzx7q",
+          "publishedOn": "2022-09-13T04:00:42.000Z",
+          "wordCount": 3326,
+          "title": "Scheduled infrastructure maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.make.com/incidents/x51vhf4cwzzt",
+          "author": null,
+          "description": "Sep  7, 11:00 CEST\nCompleted - The scheduled maintenance has been completed.\nSep  7, 10:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 25, 12:16 CEST\nUpdate - We will be undergoing scheduled maintenance during this time.\nAug 25, 12:05 CEST\nUpdate - We will be undergoing scheduled maintenance during this time.\nAug 25, 11:57 CEST\nScheduled - Please note that we will be undergoing scheduled infrastructure maintenance on Wednesday September 7th between 10:00 AM and 11:00 AM CEST on us1.make.com.  During this maintenance you can expect few short service interruptions.\nDuring the maintenance the us1.make.com website login will not work.\nAll webhooks and shared hooks processed at that time will be rejected.\nThere will be no impact on eu1.make.com, eu1.make.celonis.com and us1.make.celonis.com.\nWe do not expect any data loss.",
+          "link": "https://status.make.com/incidents/x51vhf4cwzzt",
+          "publishedOn": "2022-09-07T09:00:25.000Z",
+          "wordCount": 3329,
+          "title": "Scheduled infrastructure maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.make.com/incidents/ccwj75wldsk7",
+          "author": null,
+          "description": "Sep  6, 06:00 CEST\nCompleted - The scheduled maintenance has been completed.\nSep  6, 04:01 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep  1, 11:13 CEST\nUpdate - We will be undergoing scheduled maintenance during this time.\nAug 25, 11:55 CEST\nScheduled - Please note that we will be undergoing scheduled infrastructure maintenance on Tuesday September 6th between 04:00 AM and 06:00 AM CEST on eu1.make.com and eu1.make.celonis.com.  During this maintenance you can expect few short service interruptions.\nDuring the maintenance the eu1.make.com eu1.make.celonis.com website login will not work.\nAll webhooks and shared hooks processed at that time will be rejected.\nThere will be no impact on us1.make.com, us1.make.celonis.com.\nWe do not expect any data loss.",
+          "link": "https://status.make.com/incidents/ccwj75wldsk7",
+          "publishedOn": "2022-09-06T04:00:29.000Z",
+          "wordCount": 3315,
+          "title": "Scheduled infrastructure maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.make.com/incidents/tqzjj4r7p8nr",
+          "author": null,
+          "description": "Aug 31, 11:01 CEST\nCompleted - The scheduled maintenance has been completed.\nAug 31, 10:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 24, 09:20 CEST\nScheduled - Please note that we will be undergoing scheduled infrastructure maintenance on Wednesday August 31st between 10:00 AM and 11:00 AM CEST on  us1.make.celonis.com.  During this maintenance you can expect few short service interruptions.\nDuring the maintenance the us1.make.celonis.com website login will not work.\nAll webhooks and shared hooks processed at that time will be rejected.\nThere will be no impact on eu1.make.com, us1.make.com and eu1.make.celonis.com.\nWe do not expect any data loss.",
+          "link": "https://status.make.com/incidents/tqzjj4r7p8nr",
+          "publishedOn": "2022-08-31T09:01:42.000Z",
+          "wordCount": 3295,
+          "title": "Scheduled infrastructure maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.make.com/incidents/nkh919v1zwpl",
+          "author": null,
+          "description": "Aug 30, 11:00 CEST\nCompleted - The scheduled maintenance has been completed.\nAug 30, 10:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 23, 14:40 CEST\nScheduled - Please note that we will be undergoing scheduled infrastructure maintenance on Tuesday August 30th between 10:00 AM and 11:00 AM CEST on us1.make.com expecting up to 15 minutes downtime during this window.\nDuring the maintenance the us1.make.com website login will not work.\nAll webhooks and shared hooks processed at that time will be rejected. \nThere will be no impact on us1.make.celonis.com , eu1.make.com and eu1.make.celonis.com.\nWe do not expect any data loss.",
+          "link": "https://status.make.com/incidents/nkh919v1zwpl",
+          "publishedOn": "2022-08-30T09:00:35.000Z",
+          "wordCount": 3296,
+          "title": "Scheduled infrastructure maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     }
