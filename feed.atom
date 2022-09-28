@@ -1,10 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-27T15:32:44.518Z</id>
+    <id>urn:2022-09-28T00:34:27.880Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-27T15:32:44.518Z</updated>
+    <updated>2022-09-28T00:34:27.880Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[US SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/7gfccvhklrdn</id>
+        <link href="https://status.twilio.com/incidents/7gfccvhklrdn"/>
+        <updated>2022-09-28T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 27, 23:00 PDT  -  Sep 28, 02:00 PDT
+Sep 20, 20:44 PDT
+Scheduled - Our SMS carrier partner in the US is conducting a planned maintenance from 27 September 2022 at 23:00 PDT until 28 September 2022 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US handsets via a subset of US shortcode.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some Enterprise Grid users are unable to retrieve channel lists when building workflows and webhooks]]></title>
+        <id>https://status.slack.com//2022-09/0555cbd5e9833fe3</id>
+        <link href="https://status.slack.com//2022-09/0555cbd5e9833fe3"/>
+        <updated>2022-09-27T21:51:01.000Z</updated>
+        <summary type="html"><![CDATA[Enterprise Grid users should no longer be experiencing any trouble using workflows or webhooks. Apologies for the trouble today and thank you for your patience.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Droplet Creation in AMS3]]></title>
+        <id>https://status.digitalocean.com/incidents/089vkllnb4gw</id>
+        <link href="https://status.digitalocean.com/incidents/089vkllnb4gw"/>
+        <updated>2022-09-27T20:45:32.000Z</updated>
+        <summary type="html"><![CDATA[Sep 27, 20:45 UTC
+Resolved - As of 19:32 UTC we have confirmed the issue with creation of Droplets and Droplet-based products is fully resolved. Thank you for your patience. If you continue to experience any problems, please open a support ticket from within your account.
+Sep 27, 19:46 UTC
+Monitoring - Our Engineering team identified the root cause and implemented a fix to resolve the issue with Droplet creation in our AMS3 region. Users should now be able to create Droplets and Droplet-based services in the region. We are monitoring the situation closely and will post an update once the matter is completely resolved.
+Sep 27, 19:31 UTC
+Investigating - Our Engineering team is investigating an issue with Droplet creation in our AMS3 region. As of 19:15 UTC, users may see latency or errors when creating Droplets and Droplet-based services like Load Balancers, Managed Databases, and Kubernetes clusters, via both our Cloud Control Panel and API. We will provide an update as soon as possible.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Issues with legacy message attachments]]></title>
+        <id>https://status.slack.com//2022-09/ca18055bcf82c232</id>
+        <link href="https://status.slack.com//2022-09/ca18055bcf82c232"/>
+        <updated>2022-09-27T19:09:39.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+
+On September 26, 2022 from 12:00 PM PDT to 11:48 PM PDT, link formatting was broken for all Slack apps.
+
+
+Some messages were showing the URL and not a link itself. We determined that this issue was caused by a recent code change that altered how attachment links in the app were formatted.
+
+
+We reverted this change which fixed the issue for all users after a force reload of Slack.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Website functionality might be degraded]]></title>
+        <id>https://status.make.com/incidents/hvlj74k8s60q</id>
+        <link href="https://status.make.com/incidents/hvlj74k8s60q"/>
+        <updated>2022-09-27T18:11:20.000Z</updated>
+        <summary type="html"><![CDATA[Sep 27, 20:11 CEST
+Update - Make home page has been disabled temporarily, Slack webhooks processing is currently affected as well, the team continues working on the restoration.
+Sep 27, 18:40 CEST
+Update - Our Make home page has just been reenabled, you can now continue using it to sing in and sign up. We continue on the overall incident mitigation and full service restoration.
+Sep 27, 16:59 CEST
+Update - Please note the issue with Slack webhook has been addressed, these webhooks are being processed properly now. The team continues implementing further technical measures to mitigate the overall ongoing incident and fully restore the service.
+Sep 27, 12:53 CEST
+Update - At this point, users may not be able to log in and manage their scenarios. However, our Customer Care team can help you wi…]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident with Actions]]></title>
         <id>https://www.githubstatus.com/incidents/nbhb2lxyh9bb</id>
@@ -18,33 +91,6 @@ Sep 27, 14:33 UTC
 Investigating - We are investigating reports of degraded performance for Actions.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Website functionality might be degraded]]></title>
-        <id>https://status.make.com/incidents/hvlj74k8s60q</id>
-        <link href="https://status.make.com/incidents/hvlj74k8s60q"/>
-        <updated>2022-09-27T14:59:50.000Z</updated>
-        <summary type="html"><![CDATA[Sep 27, 16:59 CEST
-Update - Please note the issue with Slack webhook has been addressed, these webhooks are being processed properly now. The team continues implementing further technical measures to mitigate the overall ongoing incident and fully restore the service.
-Sep 27, 12:53 CEST
-Update - At this point, users may not be able to log in and manage their scenarios. However, our Customer Care team can help you with your scenarios and you can reach out to them via helpdesk.urgent@make.com
-Sep 27, 11:35 CEST
-Update - We continue to experience intermittent technical issues that affect our customers’ ability to access the home page, login to Make and perform certain operations. Our team is actively working on mitigating the issues and restoring the service.
-Sep 27, 01:20 CEST
-Identified - T…]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Issues with legacy message attachments]]></title>
-        <id>https://status.slack.com//2022-09/ca18055bcf82c232</id>
-        <link href="https://status.slack.com//2022-09/ca18055bcf82c232"/>
-        <updated>2022-09-27T07:54:19.000Z</updated>
-        <summary type="html"><![CDATA[We’ve resolved the issue with legacy message attachments for all impacted users. Please try force reloading Slack (press Command/Control + Shift + R) and let us know if you are still running into any issues. We’re sorry for the disruption we brought to your day.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
