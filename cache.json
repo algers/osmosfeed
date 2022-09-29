@@ -51,10 +51,10 @@
         {
           "id": "https://airbnbapi.statuspage.io/incidents/xjrh0byz8tlt",
           "author": null,
-          "description": "Sep 21, 14:46 PDT\nUpdate - We are actively working to find a solution to this issue. In the meantime, we have backfilled all the missed reservation webhook notifications since September 15. We will post more updates as soon as we have them.\nSep 21, 10:51 PDT\nIdentified - We have identified an issue affecting the sending of reservation related webhooks starting on September 15th, we are actively working on it and will post more updates when we have them. This incident does not affect all reservations, only a limited number of them. If you notice that some of your Hosts' reservations webhooks are missing, for example when you accept a make_reservation SAC, but you did not receive a confirmation webhook afterwards, use the GET reservations API to retrieve the reservation status.",
+          "description": "Sep 28, 15:36 PDT\nResolved - This incident was resolved on September 21st at 1:00 p.m. PDT. If you still see reservations missing webhook notifications, don't hesitate to reach back out.\nSep 21, 14:46 PDT\nUpdate - We are actively working to find a solution to this issue. In the meantime, we have backfilled all the missed reservation webhook notifications since September 15. We will post more updates as soon as we have them.\nSep 21, 10:51 PDT\nIdentified - We have identified an issue affecting the sending of reservation related webhooks starting on September 15th, we are actively working on it and will post more updates when we have them. This incident does not affect all reservations, only a limited number of them. If you notice that some of your Hosts' reservations webhooks are missing, for example when you accept a make_reservation SAC, but you did not receive a confirmation webhook afterwards, use the GET reservations API to retrieve the reservation status.",
           "link": "https://airbnbapi.statuspage.io/incidents/xjrh0byz8tlt",
-          "publishedOn": "2022-09-21T21:46:08.000Z",
-          "wordCount": 3326,
+          "publishedOn": "2022-09-28T22:36:44.000Z",
+          "wordCount": 3359,
           "title": "Issue Affecting Reservation Related Webhooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -64,7 +64,7 @@
           "description": "Sep 15, 02:38 PDT\nResolved - This incident has been resolved.\nPlease retry the PUT pricing_settings requests with the desired Standard Fees if you have not already done so.\nIf you have any further queries related to this incident, please submit a ticket via the Partner Support Portal and our team will get back to you as soon as possible.\nApologies for the inconvenience caused and thank you for your understanding.\nSep 14, 22:39 PDT\nMonitoring - Please attempt to retry the PUT pricing_settings requests with the desired Standard Fees.\nThis should re-populate the listings' Standard Fees array as intended, namely the PASS_THROUGH_CLEANING_FEE fee.\nWe are monitoring the situation.\nSep 14, 22:38 PDT\nIdentified - The issue has been identified and mitigated.\nPlease attempt to send a PUT pricing_settings request with the desired Standard Fees as required.\nThis should re-populate the listings' Standard Fees array as intended.\nSep 14, 20:45 PDT\nInvestigating - We are currently investigating reports where the PASS_THROUGH_CLEANING_FEE standard fee is not being able to be set via the Pricing Settings API.\nWe will provide updates as soon as we can. We apologise for the inconvenience caused.",
           "link": "https://airbnbapi.statuspage.io/incidents/cvjp3lxj20n0",
           "publishedOn": "2022-09-15T09:38:05.000Z",
-          "wordCount": 3388,
+          "wordCount": 3392,
           "title": "Issue Setting PASS_THROUGH_CLEANING_FEE on Pricing Settings Standard Fees Array",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -74,7 +74,7 @@
           "description": "Sep 12, 21:09 PDT\nResolved - Some Partners may have encountered 500 Errors on the Listings API when attempting to API-connect listings to their applications earlier today.\nWe have identified the cause for which a fix has already been implemented. We are not expecting any further errors of such.\nThank you for your understanding and apologies for any inconvenience caused!",
           "link": "https://airbnbapi.statuspage.io/incidents/8l22crftlsb3",
           "publishedOn": "2022-09-13T04:09:19.000Z",
-          "wordCount": 3252,
+          "wordCount": 3256,
           "title": "Server Errors On Attempt to API-connect Listings",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -84,7 +84,7 @@
           "description": "Sep  1, 02:46 PDT\nResolved - This incident has been resolved.\nIf required, please re-push any Pricing Settings Standard Fees updates that may have failed during the incident.\nApologies for any inconvenience caused and thank you for your understanding.\nAug 31, 19:24 PDT\nMonitoring - The cause has been identified and mitigated; the errors should no longer be thrown.\nWe are monitoring the situation.\nApologies for any inconvenience caused.\nAug 30, 23:33 PDT\nInvestigating - We have noticed an elevated rate of 400 Errors on the Pricing Settings endpoint when attempting to update Standard Fees.\nWe are investigating the issue.",
           "link": "https://airbnbapi.statuspage.io/incidents/ll2yf40bkbfr",
           "publishedOn": "2022-09-01T09:46:48.000Z",
-          "wordCount": 3302,
+          "wordCount": 3306,
           "title": "400 Error on Pricing Settings Endpoint When Updating Standard Fees",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
@@ -96,13 +96,73 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/7gfccvhklrdn",
+          "id": "https://status.twilio.com/incidents/7zsz4f7ys2zb",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Sep 27, 23:00 PDT  -  Sep 28, 02:00 PDT\nSep 20, 20:44 PDT\nScheduled - Our SMS carrier partner in the US is conducting a planned maintenance from 27 September 2022 at 23:00 PDT until 28 September 2022 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US handsets via a subset of US shortcode.",
-          "link": "https://status.twilio.com/incidents/7gfccvhklrdn",
-          "publishedOn": "2022-09-28T06:00:00.000Z",
-          "wordCount": 6179,
-          "title": "US SMS Carrier Partner Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Sep 28, 22:00 PDT  -  Sep 29, 04:00 PDT\nSep 27, 08:08 PDT\nScheduled - The AT&T network in Mexico is conducting an emergency maintenance from 28 September 2022 at 22:00 PDT until 29 September 2022 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.",
+          "link": "https://status.twilio.com/incidents/7zsz4f7ys2zb",
+          "publishedOn": "2022-09-29T05:00:00.000Z",
+          "wordCount": 6184,
+          "title": "Mexico SMS Carrier Maintenance - AT&T Mexico",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/ks2zhz3c64w1",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Sep 28, 20:00 PDT  -  Sep 29, 00:00 PDT\nAug 22, 18:45 PDT\nScheduled - Our SMS carrier partner in the US and Canada will be conducting a planned maintenance from 28 September 2022 at 20:00 PDT until 29 September 2022 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from both US and Canada handsets via Toll-free numbers.",
+          "link": "https://status.twilio.com/incidents/ks2zhz3c64w1",
+          "publishedOn": "2022-09-29T03:00:00.000Z",
+          "wordCount": 6191,
+          "title": "US and Canada SMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/qx2mvtntjgs6",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Sep 28, 20:00 PDT  -  Sep 29, 00:00 PDT\nAug 22, 18:44 PDT\nScheduled - Our MMS carrier partner in the US is conducting a planned maintenance from 28 September 2022 at 20:00 PDT until 29 September 2022 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from US handsets via US Toll-free numbers.",
+          "link": "https://status.twilio.com/incidents/qx2mvtntjgs6",
+          "publishedOn": "2022-09-29T03:00:00.000Z",
+          "wordCount": 6178,
+          "title": "US MMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/wwzn9d3dy3gt",
+          "author": null,
+          "description": "Sep 28, 17:08 PDT\nUpdate - We are still experiencing SMS delivery failures sending to Indonesia XL Axiata Network . Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nSep 28, 16:09 PDT\nInvestigating - We are experiencing SMS delivery failures sending to Indonesia XL Axiata Network . Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/wwzn9d3dy3gt",
+          "publishedOn": "2022-09-29T00:08:53.000Z",
+          "wordCount": 6222,
+          "title": "SMS Delivery Failures on XL Axiata Network",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/zkvm46y0s5w6",
+          "author": null,
+          "description": "Sep 28, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nSep 28, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep  2, 09:26 PDT\nScheduled - The Tele2 network in Russia is conducting a planned maintenance from 28 Sep 2022 at 13:00 PDT until 28 Sep 2022 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Tele2 Russia handsets.",
+          "link": "https://status.twilio.com/incidents/zkvm46y0s5w6",
+          "publishedOn": "2022-09-29T00:00:50.000Z",
+          "wordCount": 6201,
+          "title": "Russia SMS Carrier Maintenance - Tele2",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/nhfs0llcv3ns",
+          "author": null,
+          "description": "Sep 28, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nSep 28, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 30, 04:08 PDT\nScheduled - The Megafon network in Russia is conducting a planned maintenance from 28 September 2022 at 13:00 PDT until 28 September 2022 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Megafon Russia handsets.",
+          "link": "https://status.twilio.com/incidents/nhfs0llcv3ns",
+          "publishedOn": "2022-09-29T00:00:29.000Z",
+          "wordCount": 6201,
+          "title": "Russia SMS Carrier Maintenance - Megafon",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/d5k6cjbphhbh",
+          "author": null,
+          "description": "Sep 28, 15:09 PDT\nResolved - The delay issues with Voice Transcriptions have been resolved and and Voice Transcriptions are operating normally at this time. This incident has been resolved.\nSep 28, 14:45 PDT\nMonitoring - Voice Transcriptions are now operating normally. We will continue to monitor for system stability. We’ll provide another update in 30 minutes or as soon as more information becomes available.\nSep 28, 13:59 PDT\nIdentified - Our engineers have identified the issue causing delays with voice transcriptions and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.\nSep 28, 12:31 PDT\nUpdate - We are continuing to actively investigate delays with voice transcriptions.  We expect to provide another update in 2 hours or as soon as more information becomes available.\nSep 28, 11:30 PDT\nUpdate - We are investigating delays with voice transcriptions.  Our engineering team has been alerted and is actively investigating. We expect to provide another update in 1 hour or as soon as more information becomes available\nSep 28, 11:21 PDT\nInvestigating - Our monitoring systems have detected a potential issue with voice transcriptions. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/d5k6cjbphhbh",
+          "publishedOn": "2022-09-28T22:09:42.000Z",
+          "wordCount": 6338,
+          "title": "Delays for Voice Transcription",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -118,7 +178,7 @@
           "description": "Sep 27, 20:45 UTC\nResolved - As of 19:32 UTC we have confirmed the issue with creation of Droplets and Droplet-based products is fully resolved. Thank you for your patience. If you continue to experience any problems, please open a support ticket from within your account.\nSep 27, 19:46 UTC\nMonitoring - Our Engineering team identified the root cause and implemented a fix to resolve the issue with Droplet creation in our AMS3 region. Users should now be able to create Droplets and Droplet-based services in the region. We are monitoring the situation closely and will post an update once the matter is completely resolved.\nSep 27, 19:31 UTC\nInvestigating - Our Engineering team is investigating an issue with Droplet creation in our AMS3 region. As of 19:15 UTC, users may see latency or errors when creating Droplets and Droplet-based services like Load Balancers, Managed Databases, and Kubernetes clusters, via both our Cloud Control Panel and API. We will provide an update as soon as possible.",
           "link": "https://status.digitalocean.com/incidents/089vkllnb4gw",
           "publishedOn": "2022-09-27T20:45:32.000Z",
-          "wordCount": 4610,
+          "wordCount": 4614,
           "title": "Droplet Creation in AMS3",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -128,7 +188,7 @@
           "description": "Sep 27, 01:59 UTC\nResolved - Our engineering team has fully resolved the issue with console access for new Droplets. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nSep 27, 01:39 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue with Droplet console access for new Debian and Ubuntu Droplets. New Droplets will now be able to access the console normally. \nNo action is needed to restore console access for Droplets created during this incident. \nIf you continue to see issues, please contact our support team for assistance.\nSep 27, 00:42 UTC\nInvestigating - Our Engineering team is investigating an issue with Droplet console access for new Debian and Ubuntu Droplets. \nAny new Droplets created using Debian or Ubuntu operating systems will not have access to the Droplet console. This impacts only the standard Droplet console - the recovery console will still function normally.  \nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/70pbywnkt5fp",
           "publishedOn": "2022-09-27T01:59:22.000Z",
-          "wordCount": 4621,
+          "wordCount": 4625,
           "title": "Droplet Console for New Droplets",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -138,7 +198,7 @@
           "description": "Sep 16, 00:17 UTC\nResolved - Our engineering team has resolved the issue with networking in LON1, and should now be operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nSep 15, 23:36 UTC\nMonitoring - Our Engineering team has identified the root cause of the networking issues in LON1. We are monitoring the situation and will post an update once we confirm this incident is fully resolved.\nSep 15, 22:16 UTC\nIdentified - Our Engineering team has identified the source of connectivity issues in our LON1 region, and is working on a fix to mitigate the impact.\nUsers may be experiencing packet loss/latency, timeouts, and related issues with Droplet-based services in LON1, including Droplets, Managed Kubernetes, and Database clusters.\nSep 15, 22:01 UTC\nInvestigating - Our Engineering team is investigating reports of networking connectivity issues in our LON1 region. Users have reported packet loss/latency and connectivity errors to resources. We will share an update once we have further information.",
           "link": "https://status.digitalocean.com/incidents/jznrv97h9dsw",
           "publishedOn": "2022-09-16T00:17:58.000Z",
-          "wordCount": 4613,
+          "wordCount": 4617,
           "title": "Network Connectivity in LON1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -148,7 +208,7 @@
           "description": "Sep 15, 15:55 UTC\nResolved - From 13:50 - 14:50 UTC, our Engineering team observed issues with event processing in all regions. During this time, users may have experienced delays or failures when attempting to process events, such as creation, deletion, resizing, assigning of Reserved IP's, Snapshots, and other Droplet-based events.\nOur Engineering team has resolved the issue. As of 14:50 UTC, events should not be delayed and should be successful.  We apologize for the inconvenience. If you are still experiencing any problems or have additional questions, please open a support ticket within your account.",
           "link": "https://status.digitalocean.com/incidents/g4wkfk7jxx6m",
           "publishedOn": "2022-09-15T15:55:26.000Z",
-          "wordCount": 4534,
+          "wordCount": 4538,
           "title": "Delay with Event Processing in All Regions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -158,7 +218,7 @@
           "description": "Sep 14, 20:46 UTC\nResolved - Our engineering team has resolved the issue with LON1 network connectivity, and should now be operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nSep 14, 18:54 UTC\nMonitoring - Our Engineering team has deployed a fix to resolve the issues with network connectivity in our LON1 region. At this time, users should be seeing the restoration of network connectivity to and from the resources in LON1. We are monitoring the situation and will post an update as soon as we confirm the issue is fully resolved.\nSep 14, 17:54 UTC\nIdentified - Our Engineering team has investigated reports of connectivity issues beginning around 15:40 UTC in our LON1 region and has taken action to mitigate the impact. \nUsers may have experienced packet loss/latency, timeouts, and related issues with Droplet-based services in LON1, including Droplets, Managed Kubernetes, and Database clusters. \nWe are seeing some recovery after taking action and are continuing to investigate and monitor the situation.",
           "link": "https://status.digitalocean.com/incidents/yhz9frgy4ngl",
           "publishedOn": "2022-09-14T20:46:45.000Z",
-          "wordCount": 4618,
+          "wordCount": 4622,
           "title": "Network Connectivity in LON1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -168,7 +228,7 @@
           "description": "Sep  7, 20:49 UTC\nResolved - Our Engineering team has confirmed that the issue affecting the creation of Mongo Managed Database clusters has been fully resolved. We appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.\nSep  7, 20:27 UTC\nMonitoring - Our Engineering team has identified the root cause of the issue with creation of Mongo Managed Database clusters and a fix has been deployed as of 20:07 UTC. We are monitoring the situation and will post an update once we confirm this incident is fully resolved.\nSep  7, 19:50 UTC\nInvestigating - Our Engineering team is investigating an issue with creation of Mongo Managed Database clusters. At this time, users may experience errors in creating clusters, both via Cloud Control Panel and API requests.\nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/lm2sv23vw0bx",
           "publishedOn": "2022-09-07T20:49:46.000Z",
-          "wordCount": 4599,
+          "wordCount": 4603,
           "title": "Mongo Managed Databases Creation",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -178,7 +238,7 @@
           "description": "Sep  7, 20:30 UTC\nResolved - Our engineering team has confirmed that the issue affecting DigitalOcean Container Registry has been fully resolved. We appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.\nSep  7, 19:55 UTC\nMonitoring - As of 19:18 UTC, our Engineering team has implemented a fix to resolve the issue with DigitalOcean Container Registry. Users should no longer experience errors while interacting and authenticating with the DigitalOcean Container Registry, creating new container registries, and pushing/deleting images to/from registries.\nApp Platform builds should now be succeeding. \nDuring this time users may have experienced errors while creating Spaces keys.\nWe are continuing to monitor the situation for stability and will post an update once we confirm the issue is fully resolved. Thank you for your patience.\nSep  7, 19:20 UTC\nInvestigating - As of 17:20 UTC, our Engineering team is investigating an issue with DigitalOcean Container Registry. At this time, users may experience errors while interacting and authenticating with the DigitalOcean Container Registry, creating new container registries, and pushing/deleting images to/from registries.\nApp Platform users may experience build failures.\nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/hq7fylkxs9f3",
           "publishedOn": "2022-09-07T20:30:01.000Z",
-          "wordCount": 4647,
+          "wordCount": 4651,
           "title": "Container Registry Errors",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -188,7 +248,7 @@
           "description": "Sep  7, 16:52 UTC\nCompleted - The scheduled maintenance has been completed. If you have any questions or concerns regarding this maintenance, please send us a ticket from your Cloud support page.\nSep  7, 16:01 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep  7, 15:11 UTC\nScheduled - Start: 2022-09-07 16:00 UTC\nEnd: 2022-09-07 17:00 UTC\nDuring the above window, upstream maintenance will take place that may impact DigitalOcean App Platform.\nExpected Impact:\nDuring this period, App Platform users may experience new App creation failing or being delayed, as well as domain updates to existing Apps failing or being delayed. Our Engineering team will be monitoring throughout the maintenance window for any issues.\nIf you have any questions or concerns regarding this maintenance, please send us a ticket from your Cloud support page.",
           "link": "https://status.digitalocean.com/incidents/rsj14bmv86q8",
           "publishedOn": "2022-09-07T16:52:15.000Z",
-          "wordCount": 4586,
+          "wordCount": 4590,
           "title": "Upstream Maintenance Impacting App Platform",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -198,7 +258,7 @@
           "description": "Sep  6, 16:34 UTC\nResolved - Our Engineering team has confirmed full resolution of the issue with networking in our LON1 region. From 12:57 - 15:33 UTC, a subset of Droplet-based services in LON1 experienced network connectivity issues. All services are now operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nSep  6, 15:14 UTC\nMonitoring - Our Engineering team was able to take action to mitigate the issue with network connectivity in our LON1 region. At this time, users should be seeing restoration of network connectivity to and from Droplet-based resources in LON1. We are monitoring the situation and will post an update as soon as we confirm the issue is fully resolved.\nSep  6, 13:42 UTC\nInvestigating - Our Engineering team is investigating reports of connectivity issues in our LON1 region. At this time, users may see timeouts and/or errors with connectivity to and from Droplet-based resources in LON1, including Droplets, Managed Databases, and Kubernetes clusters. We will post an update with further information as soon as possible.",
           "link": "https://status.digitalocean.com/incidents/kp648z6hmzjp",
           "publishedOn": "2022-09-06T16:34:23.000Z",
-          "wordCount": 4622,
+          "wordCount": 4626,
           "title": "Networking in LON1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -208,7 +268,7 @@
           "description": "Sep  2, 09:13 UTC\nResolved - Our engineering team has confirmed that the issues affecting access to the Cloud Control Panel have been fully resolved. We appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.\nSep  2, 08:42 UTC\nMonitoring - Our engineering team has implemented a fix to resolve the issue with accessing our Cloud Control Panel and is monitoring the situation. We will post an update as soon as the issue is fully resolved.\nSep  2, 06:36 UTC\nIdentified - Our Engineering team has identified the cause of the issue with accessing the Cloud Control Panel and is actively working on a fix. During this time, users in India might face issues with receiving the authorization code to login to the Cloud Control Panel. We will post an update as soon as additional information is available\nSep  2, 05:19 UTC\nInvestigating - Beginning 04:00 UTC, our Engineering team is investigating an issue with accessing our Cloud Control Panel. During this time, users may experience intermittent errors while trying to login and receive authorization codes to the phone. We apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/sgz90cmyw28j",
           "publishedOn": "2022-09-02T09:13:46.000Z",
-          "wordCount": 4653,
+          "wordCount": 4657,
           "title": "Cloud Control Panel",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -218,7 +278,7 @@
           "description": "Sep  1, 19:09 UTC\nResolved - Our engineering team has confirmed that the issues affecting access to the Cloud Control Panel have been fully resolved. We appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.\nSep  1, 17:40 UTC\nMonitoring - Our engineering team has completed the rollback and we can confirm that the Cloud Control Panel is now accessible. We are continuing to monitor the situation for stability and will post an update once we confirm the issue is fully resolved. Thank you for your patience.\nSep  1, 17:10 UTC\nIdentified - Our engineering team has identified an issue with accessing our Cloud Control Panel. During this time, users may experience intermittent errors while trying to login or interact with the Cloud Control Panel. Our team has initiated a rollback to mitigate the issue and we will post an update as soon as possible. We apologize for the inconvenience.",
           "link": "https://status.digitalocean.com/incidents/z7z5dn5grkf2",
           "publishedOn": "2022-09-01T19:09:15.000Z",
-          "wordCount": 4604,
+          "wordCount": 4608,
           "title": "Cloud Control Panel",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
@@ -228,7 +288,18 @@
       "title": "Notion Status - Incident History",
       "feedUrl": "https://status.notion.so/history.rss",
       "siteUrl": "https://status.notion.so",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://status.notion.so/incidents/k8c9l3h1s7kj",
+          "author": null,
+          "description": "Sep 28, 14:42 PDT\nResolved - The AWS issue has been resolved, and external integrations in Notion affecting link previews and database syncs are functioning normally again.\nSep 28, 10:58 PDT\nIdentified - An AWS service degradation has resulted in users unable to authenticate external integrations in Notion, affecting link previews and database syncs. We are investigating potential mitigations while AWS works to resolve the issue.",
+          "link": "https://status.notion.so/incidents/k8c9l3h1s7kj",
+          "publishedOn": "2022-09-28T21:42:57.000Z",
+          "wordCount": 2795,
+          "title": "AWS service degradation affecting Notion integrations",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        }
+      ]
     },
     {
       "title": "Rippling Status - Incident History",
@@ -241,7 +312,7 @@
           "description": "Sep 23, 22:00 UTC\nResolved - This incident has been resolved.\nSep 23, 18:24 UTC\nIdentified - The issue has been identified and a fix is being implemented.\nSep 23, 16:43 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://status.rippling.com/incidents/zwvh0cbvpd5c",
           "publishedOn": "2022-09-23T22:00:52.000Z",
-          "wordCount": 4000,
+          "wordCount": 4004,
           "title": "Issue with device actions completing on Mac computers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         },
@@ -251,7 +322,7 @@
           "description": "Sep 16, 00:00 UTC\nResolved - This incident has been resolved.\nSep 15, 22:45 UTC\nMonitoring - A fix has been deployed and is being rolled out.  Please expect the fix to be available to all computers by 6pm PST, some computers may receive the fix earlier.\nSep 15, 20:17 UTC\nIdentified - The issue has been identified and a fix is being implemented.\nSep 15, 19:52 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://status.rippling.com/incidents/6ks7txt5h14x",
           "publishedOn": "2022-09-16T00:00:24.000Z",
-          "wordCount": 4065,
+          "wordCount": 4069,
           "title": "Rippling Devices web application is not confirming the creation of user accounts and not sending temporary passwords",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         },
@@ -261,7 +332,7 @@
           "description": "Sep  6, 23:22 UTC\nResolved - This incident has been resolved.\nSep  6, 22:48 UTC\nIdentified - The issue has been identified and a fix is being implemented.",
           "link": "https://status.rippling.com/incidents/5lqwzddl4s93",
           "publishedOn": "2022-09-06T23:22:27.000Z",
-          "wordCount": 3974,
+          "wordCount": 3978,
           "title": "Devices page not accessible",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         }
@@ -290,12 +361,32 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/m574010k9c5l",
+          "author": null,
+          "description": "Sep 28, 19:56 UTC\nResolved - This incident has been resolved.\nSep 28, 19:29 UTC\nUpdate - We are investigating issues with Codespaces in eu-west region. The origin issue is resolved, however customers may experience delays in creation and resumption as we process the backlog of requests.\nSep 28, 18:52 UTC\nUpdate - Codespaces is now experiencing degraded performance. We are still investigating and will provide an update when we have one.\nSep 28, 18:35 UTC\nUpdate - We are investigating issues with Codespaces in all regions due to VMs not coming online. We have applied a mitigation that resolved the underlying issue, and we are processing the backlog of requests.\nSep 28, 17:56 UTC\nUpdate - We are investigating reports of issues with Codespaces in eu-west and se-asia regions. Users may not be able to connect to Codespaces during this time. We will update on progress towards mitigation.\nSep 28, 17:22 UTC\nInvestigating - We are investigating reports of degraded availability for Codespaces.",
+          "link": "https://www.githubstatus.com/incidents/m574010k9c5l",
+          "publishedOn": "2022-09-28T19:56:47.000Z",
+          "wordCount": 4127,
+          "title": "Incident with Codespaces",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
+          "id": "https://www.githubstatus.com/incidents/w29zg5h2chkp",
+          "author": null,
+          "description": "Sep 28, 05:09 UTC\nResolved - This incident has been resolved.\nSep 28, 04:42 UTC\nUpdate - We have identified an issue that impacts port forwarding in the Codespaces web client. We are working on mitigation. As a workaround, you can use VS Code Desktop.\nSep 28, 03:53 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces.",
+          "link": "https://www.githubstatus.com/incidents/w29zg5h2chkp",
+          "publishedOn": "2022-09-28T05:09:41.000Z",
+          "wordCount": 4017,
+          "title": "Incident with Codespaces",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/nbhb2lxyh9bb",
           "author": null,
           "description": "Sep 27, 15:06 UTC\nResolved - This incident has been resolved.\nSep 27, 15:00 UTC\nUpdate - We've applied a mitigation to resolve delayed job updates for running Actions.\nSep 27, 14:33 UTC\nInvestigating - We are investigating reports of degraded performance for Actions.",
           "link": "https://www.githubstatus.com/incidents/nbhb2lxyh9bb",
           "publishedOn": "2022-09-27T15:06:02.000Z",
-          "wordCount": 3997,
+          "wordCount": 4001,
           "title": "Incident with Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -305,7 +396,7 @@
           "description": "Sep 22, 22:23 UTC\nResolved - This incident has been resolved.\nSep 22, 19:44 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nSep 22, 19:04 UTC\nInvestigating - We are investigating reports of degraded performance for Issues.",
           "link": "https://www.githubstatus.com/incidents/2n0tnk7tt6q9",
           "publishedOn": "2022-09-22T22:23:36.000Z",
-          "wordCount": 4005,
+          "wordCount": 4009,
           "title": "Incident with Issues and Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -315,7 +406,7 @@
           "description": "Sep 20, 14:15 UTC\nResolved - Audit log API is operating normally\nSep 20, 12:10 UTC\nInvestigating - Audit log REST API requests for organizations are currently disabled. We are actively investigating and working on a fix.",
           "link": "https://www.githubstatus.com/incidents/v5bcd4pzckky",
           "publishedOn": "2022-09-20T14:15:08.000Z",
-          "wordCount": 3987,
+          "wordCount": 3991,
           "title": "An update from GitHub",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -325,7 +416,7 @@
           "description": "Sep 20, 08:04 UTC\nResolved - This incident has been resolved.\nSep 20, 08:03 UTC\nInvestigating - We are investigating reports of degraded performance for Actions.",
           "link": "https://www.githubstatus.com/incidents/6mdt263cpf9q",
           "publishedOn": "2022-09-20T08:04:12.000Z",
-          "wordCount": 3977,
+          "wordCount": 3981,
           "title": "Incident with Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -335,7 +426,7 @@
           "description": "Sep 14, 18:05 UTC\nResolved - This incident has been resolved.\nSep 13, 15:57 UTC\nInvestigating - We are investigating and mitigating intermittent availability issues on some GitHub services.",
           "link": "https://www.githubstatus.com/incidents/8blgv351d71j",
           "publishedOn": "2022-09-14T18:05:27.000Z",
-          "wordCount": 3976,
+          "wordCount": 3980,
           "title": "Incident on 2022-09-13",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -345,7 +436,7 @@
           "description": "Sep 13, 16:08 UTC\nResolved - This incident has been resolved.\nSep 13, 15:10 UTC\nInvestigating - We are investigating reports of degraded performance for Issues.",
           "link": "https://www.githubstatus.com/incidents/3z36qpp2c0z1",
           "publishedOn": "2022-09-13T16:08:25.000Z",
-          "wordCount": 3977,
+          "wordCount": 3981,
           "title": "Incident with Issues",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -355,7 +446,7 @@
           "description": "Sep  9, 01:12 UTC\nResolved - This incident has been resolved.\nSep  9, 00:53 UTC\nUpdate - Mitigation efforts are continuing and we are seeing signs of recovery for some affected users.\nSep  8, 23:41 UTC\nUpdate - We are continuing to mitigate the issue impacting some of our customers.\nSep  8, 22:10 UTC\nUpdate - We have identified the source of the issue impacting some of our customers. We continue to mitigate the issue.\nSep  8, 21:04 UTC\nUpdate - We found an issue that impacts some customers. We are working on a mitigation.\nSep  8, 19:44 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests.",
           "link": "https://www.githubstatus.com/incidents/p38y9j23bt7b",
           "publishedOn": "2022-09-09T01:12:28.000Z",
-          "wordCount": 4074,
+          "wordCount": 4078,
           "title": "Incident with Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -365,7 +456,7 @@
           "description": "Sep  8, 00:00 UTC\nResolved - This incident has been resolved.\nSep  7, 15:04 UTC\nInvestigating - We are investigating and mitigating intermittent availability issues on some GitHub services.",
           "link": "https://www.githubstatus.com/incidents/pz0bvrjx9ztp",
           "publishedOn": "2022-09-08T00:00:10.000Z",
-          "wordCount": 3982,
+          "wordCount": 3986,
           "title": "Incident on 2022-09-07 15:04 UTC",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -375,7 +466,7 @@
           "description": "Sep  7, 16:16 UTC\nResolved - This incident has been resolved.\nSep  7, 15:02 UTC\nInvestigating - We are investigating reports of degraded performance for Actions.",
           "link": "https://www.githubstatus.com/incidents/sqcs1d0yk16q",
           "publishedOn": "2022-09-07T16:16:19.000Z",
-          "wordCount": 3977,
+          "wordCount": 3981,
           "title": "Incident with Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -385,7 +476,7 @@
           "description": "Sep  7, 12:21 UTC\nResolved - This incident has been resolved.\nSep  7, 11:55 UTC\nInvestigating - We are investigating reports of degraded performance for Issues.",
           "link": "https://www.githubstatus.com/incidents/1nyvf21q5dn7",
           "publishedOn": "2022-09-07T12:21:11.000Z",
-          "wordCount": 3977,
+          "wordCount": 3981,
           "title": "Incident with Issues",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -395,7 +486,7 @@
           "description": "Sep  7, 08:45 UTC\nResolved - This incident has been resolved.\nSep  7, 07:59 UTC\nUpdate - We continuing to identify an issue that impacts Package customers using Actions and are working on mitigation. We will continue to keep you updated on progress.\nSep  7, 07:16 UTC\nUpdate - Packages is still experiencing degraded availability. We are continuing to investigate.\nSep  7, 06:39 UTC\nUpdate - We are investigating reports of issues with service(s): Packages accessed from GitHub Actions. We will continue to keep users updated on progress towards mitigation.\nSep  7, 05:56 UTC\nInvestigating - We are investigating reports of degraded performance for Packages.",
           "link": "https://www.githubstatus.com/incidents/d181frs643d4",
           "publishedOn": "2022-09-07T08:45:22.000Z",
-          "wordCount": 4062,
+          "wordCount": 4066,
           "title": "Incident with Packages",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -405,7 +496,7 @@
           "description": "Sep  7, 00:08 UTC\nResolved - Everything is operating normally.\nSep  6, 22:56 UTC\nInvestigating - We are investigating reports of degraded performance for all GitHub Services.",
           "link": "https://www.githubstatus.com/incidents/wl09fvhb20x8",
           "publishedOn": "2022-09-07T00:08:33.000Z",
-          "wordCount": 4002,
+          "wordCount": 4006,
           "title": "Incident on 2022-09-06 22:56 UTC",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -415,18 +506,8 @@
           "description": "Sep  6, 22:20 UTC\nResolved - Everything is operating normally.\nSep  6, 22:05 UTC\nInvestigating - We are investigating reports of degraded performance for all GitHub Services.",
           "link": "https://www.githubstatus.com/incidents/cwp52gsftl5n",
           "publishedOn": "2022-09-06T22:20:01.000Z",
-          "wordCount": 4002,
+          "wordCount": 4006,
           "title": "Incident on 2022-09-06 22:05 UTC",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/hjxtlk3fvr09",
-          "author": null,
-          "description": "Aug 29, 18:31 UTC\nResolved - This incident has been resolved.\nAug 29, 18:24 UTC\nUpdate - We identified an issue that impacts most Codespaces customers. We have fully deployed a mitigation and are observing improved success rates for Codespaces creation and resumption operations.\nAug 29, 18:21 UTC\nUpdate - Codespaces is now experiencing degraded performance. We are continuing to investigate.\nAug 29, 17:48 UTC\nUpdate - We identified an issue that impacts most Codespaces customers. We have authored a mitigation that will be deployed within 30 minutes. We will continue to keep you updated on progress.\nAug 29, 17:16 UTC\nUpdate - We identified an issue that impacts most Codespaces customers. We are authoring a mitigation that will be deployed within one hour. We will continue to keep you updated on progress.\nAug 29, 16:34 UTC\nUpdate - We identified an issue that impacts most Codespaces customers. We are authoring a mitigation that will be deployed within 90 minutes. We will continue to keep you updated on progress.\nAug 29, 16:02 UTC\nUpdate - We identified an issue that impacts most Codespaces customers. We are authoring a mitigation that will be deployed within two hours. We will continue to keep you updated on progress.\nAug 29, 15:21 UTC\nUpdate - We continuing to identify an issue that impacts most Codespaces customers and are working on mitigation. We will continue to keep you updated on progress.\nAug 29, 14:19 UTC\nUpdate - Codespaces is now experiencing degraded availability. We are continuing to investigate.\nAug 29, 13:37 UTC\nUpdate - We identified an issue that impacts many Codespaces customers and are working on mitigation. We will continue to keep you updated on progress.\nAug 29, 12:51 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces.",
-          "link": "https://www.githubstatus.com/incidents/hjxtlk3fvr09",
-          "publishedOn": "2022-08-29T18:31:33.000Z",
-          "wordCount": 4266,
-          "title": "Incident with Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
@@ -437,12 +518,22 @@
       "siteUrl": "https://status.slack.com/",
       "articles": [
         {
+          "id": "https://status.slack.com//2022-09/1858cb1fccf03b42",
+          "author": null,
+          "description": "Issue summary:\n\r\n\r\nStarting September 21st around 1:00 PM PDT until September 28th 3:00 PM PDT, users experienced trouble downloading files on Slack's Android app version: 22.09.30. We traced the problem to a permissions check error which caused file downloads to not execute.\n\r\n\r\nWe corrected the permissions check error in the latest version of the Android app: 22.09.40, and the file download functionality was restored. Some impacted users may need to update their Slack app to version 22.09.40 from the Google Play Store.",
+          "link": "https://status.slack.com//2022-09/1858cb1fccf03b42",
+          "publishedOn": "2022-09-28T22:57:00.000Z",
+          "wordCount": 265,
+          "title": "Incident: Issues downloading files on Slack Android app version 22.09.30",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://status.slack.com//2022-09/0555cbd5e9833fe3",
           "author": null,
-          "description": "Enterprise Grid users should no longer be experiencing any trouble using workflows or webhooks. Apologies for the trouble today and thank you for your patience.",
+          "description": "Issue summary:\n\r\nFrom September 26, 2022 at 7:00 AM PDT until September 27, 2022 at 12:40 PM PDT, some Enterprise Grid users were not able to create new webhooks, share posts to a channel, or select a channel from the dropdown menu in Workflow Builder. We traced this problem to a change that was made to improve how channel objects are loaded into Slack. We disabled this change, restoring functionality to impacted users.",
           "link": "https://status.slack.com//2022-09/0555cbd5e9833fe3",
-          "publishedOn": "2022-09-27T21:51:01.000Z",
-          "wordCount": 195,
+          "publishedOn": "2022-09-28T20:10:35.000Z",
+          "wordCount": 269,
           "title": "Incident: Some Enterprise Grid users are unable to retrieve channel lists when building workflows and webhooks",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
@@ -454,16 +545,6 @@
           "publishedOn": "2022-09-27T19:09:39.000Z",
           "wordCount": 278,
           "title": "Incident: Issues with legacy message attachments",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2022-09/1858cb1fccf03b42",
-          "author": null,
-          "description": "We've fixed this issue, which is reflected in app version 22.09.40. This version will be gradually made available to users in the Google Play Store through Wednesday, September 28.",
-          "link": "https://status.slack.com//2022-09/1858cb1fccf03b42",
-          "publishedOn": "2022-09-26T22:52:23.000Z",
-          "wordCount": 182,
-          "title": "Incident: Issues downloading files on Slack Android app version 22.09.30",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
@@ -576,10 +657,10 @@
         {
           "id": "https://status.make.com/incidents/hvlj74k8s60q",
           "author": null,
-          "description": "Sep 27, 20:11 CEST\nUpdate - Make home page has been disabled temporarily, Slack webhooks processing is currently affected as well, the team continues working on the restoration.\nSep 27, 18:40 CEST\nUpdate - Our Make home page has just been reenabled, you can now continue using it to sing in and sign up. We continue on the overall incident mitigation and full service restoration.\nSep 27, 16:59 CEST\nUpdate - Please note the issue with Slack webhook has been addressed, these webhooks are being processed properly now. The team continues implementing further technical measures to mitigate the overall ongoing incident and fully restore the service.\nSep 27, 12:53 CEST\nUpdate - At this point, users may not be able to log in and manage their scenarios. However, our Customer Care team can help you wi…",
+          "description": "Sep 28, 15:22 CEST\nMonitoring - A fix has been implemented and the service is now stable. The team continues to monitor and proactively manage any potential issues.\nSep 28, 10:39 CEST\nIdentified - Our engineers are working on restoring the website functionality. Scenario executions and webhooks continue running normally.\nSep 28, 05:19 CEST\nUpdate - Users are currently not able to access make home page . Slack webhooks and scenarios are still operational . Our team is working on restoring the service.\nSep 28, 03:51 CEST\nMonitoring - All services have been restored. Some users may observe degraded performance of the web site. The team continues to monitor and evaluate the situation on an ongoing basis.\nSep 27, 20:11 CEST\nUpdate - Make home page has been disabled temporarily, Slack webhooks p…",
           "link": "https://status.make.com/incidents/hvlj74k8s60q",
-          "publishedOn": "2022-09-27T18:11:20.000Z",
-          "wordCount": 3746,
+          "publishedOn": "2022-09-28T13:22:09.000Z",
+          "wordCount": 3875,
           "title": "Website functionality might be degraded",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -589,7 +670,7 @@
           "description": "Sep 21, 07:30 CEST\nCompleted - The scheduled maintenance has been completed.\nSep 21, 05:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep 13, 16:58 CEST\nScheduled - Please note that we will be undergoing scheduled infrastructure maintenance on Wednesday September 21st between 05:00 AM and 07:00 AM CEST on eu1.make.celonis.com and eu1.make.com. During this maintenance you can expect few short service interruptions.\nDuring the maintenance the eu1.make.celonis.com and eu1.make.com website login might be temporarily affected.\nSome webhooks and shared hooks processed at that time might be temporarily affected as well.\nThere will be no impact on us1.make.com and us1.make.celonis.com.\nWe do not expect any data loss.",
           "link": "https://status.make.com/incidents/wq984gqy4lwc",
           "publishedOn": "2022-09-21T05:30:36.000Z",
-          "wordCount": 3304,
+          "wordCount": 3308,
           "title": "Scheduled infrastructure maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -599,7 +680,7 @@
           "description": "Sep 20, 12:00 CEST\nCompleted - The scheduled maintenance has been completed.\nSep 20, 10:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep 13, 16:51 CEST\nScheduled - Please note that we will be undergoing scheduled infrastructure maintenance on Tuesday September 20th between 10:00 AM and 12:00 PM CEST on us1.make.celonis.com and us1.make.com. During this maintenance you can expect few short service interruptions.\nDuring the maintenance the us1.make.celonis.com and us1.make.com website login might be temporarily affected.\nSome webhooks and shared hooks processed at that time might be temporarily affected as well.\nThere will be no impact on eu1.make.com and eu1.make.celonis.com.\nWe do not expect any data loss.",
           "link": "https://status.make.com/incidents/sjxjlyjy4b7c",
           "publishedOn": "2022-09-20T10:00:33.000Z",
-          "wordCount": 3304,
+          "wordCount": 3308,
           "title": "Scheduled infrastructure maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -609,7 +690,7 @@
           "description": "Sep 20, 11:22 CEST\nResolved - This incident was resolved. Plugin is live once again!\nSep  5, 10:45 CEST\nMonitoring - Hello, we are having issues with Wordpress plugin. The issue is being worked on and will be resolved shortly once Wordpress approves our plugin currently being under review process.",
           "link": "https://status.make.com/incidents/v21whxj91l62",
           "publishedOn": "2022-09-20T09:22:43.000Z",
-          "wordCount": 3236,
+          "wordCount": 3240,
           "title": "Wordpress plugin - temporary not available",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -619,7 +700,7 @@
           "description": "Sep 13, 06:00 CEST\nCompleted - The scheduled maintenance has been completed.\nSep 13, 05:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep  7, 16:12 CEST\nScheduled - Please note there is scheduled infrastructure maintenance on Tuesday 13th of September, between 5 AM and 6 AM CEST, when you can expect few short service interruptions. During this maintenance following services will be affected:\n- Migrations will not be available\n- Shared hooks created within maintenance will not be accepted nor processed\n- Logins to platform might be affected\n- Registration of new subscribers won’t be possible\n- Invitations of new team members won’t be possible\n- E-mails and notifications might be delayed\n- Password reset won’t be possible\n- Payments for subscription plans won’t be accepted  \nWe will inform you once the maintenance is completed.",
           "link": "https://status.make.com/incidents/cycp8kwzzx7q",
           "publishedOn": "2022-09-13T04:00:42.000Z",
-          "wordCount": 3326,
+          "wordCount": 3330,
           "title": "Scheduled infrastructure maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -629,7 +710,7 @@
           "description": "Sep  7, 11:00 CEST\nCompleted - The scheduled maintenance has been completed.\nSep  7, 10:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 25, 12:16 CEST\nUpdate - We will be undergoing scheduled maintenance during this time.\nAug 25, 12:05 CEST\nUpdate - We will be undergoing scheduled maintenance during this time.\nAug 25, 11:57 CEST\nScheduled - Please note that we will be undergoing scheduled infrastructure maintenance on Wednesday September 7th between 10:00 AM and 11:00 AM CEST on us1.make.com.  During this maintenance you can expect few short service interruptions.\nDuring the maintenance the us1.make.com website login will not work.\nAll webhooks and shared hooks processed at that time will be rejected.\nThere will be no impact on eu1.make.com, eu1.make.celonis.com and us1.make.celonis.com.\nWe do not expect any data loss.",
           "link": "https://status.make.com/incidents/x51vhf4cwzzt",
           "publishedOn": "2022-09-07T09:00:25.000Z",
-          "wordCount": 3329,
+          "wordCount": 3333,
           "title": "Scheduled infrastructure maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -639,7 +720,7 @@
           "description": "Sep  6, 06:00 CEST\nCompleted - The scheduled maintenance has been completed.\nSep  6, 04:01 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep  1, 11:13 CEST\nUpdate - We will be undergoing scheduled maintenance during this time.\nAug 25, 11:55 CEST\nScheduled - Please note that we will be undergoing scheduled infrastructure maintenance on Tuesday September 6th between 04:00 AM and 06:00 AM CEST on eu1.make.com and eu1.make.celonis.com.  During this maintenance you can expect few short service interruptions.\nDuring the maintenance the eu1.make.com eu1.make.celonis.com website login will not work.\nAll webhooks and shared hooks processed at that time will be rejected.\nThere will be no impact on us1.make.com, us1.make.celonis.com.\nWe do not expect any data loss.",
           "link": "https://status.make.com/incidents/ccwj75wldsk7",
           "publishedOn": "2022-09-06T04:00:29.000Z",
-          "wordCount": 3315,
+          "wordCount": 3319,
           "title": "Scheduled infrastructure maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -649,17 +730,7 @@
           "description": "Aug 31, 11:01 CEST\nCompleted - The scheduled maintenance has been completed.\nAug 31, 10:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 24, 09:20 CEST\nScheduled - Please note that we will be undergoing scheduled infrastructure maintenance on Wednesday August 31st between 10:00 AM and 11:00 AM CEST on  us1.make.celonis.com.  During this maintenance you can expect few short service interruptions.\nDuring the maintenance the us1.make.celonis.com website login will not work.\nAll webhooks and shared hooks processed at that time will be rejected.\nThere will be no impact on eu1.make.com, us1.make.com and eu1.make.celonis.com.\nWe do not expect any data loss.",
           "link": "https://status.make.com/incidents/tqzjj4r7p8nr",
           "publishedOn": "2022-08-31T09:01:42.000Z",
-          "wordCount": 3295,
-          "title": "Scheduled infrastructure maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/nkh919v1zwpl",
-          "author": null,
-          "description": "Aug 30, 11:00 CEST\nCompleted - The scheduled maintenance has been completed.\nAug 30, 10:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 23, 14:40 CEST\nScheduled - Please note that we will be undergoing scheduled infrastructure maintenance on Tuesday August 30th between 10:00 AM and 11:00 AM CEST on us1.make.com expecting up to 15 minutes downtime during this window.\nDuring the maintenance the us1.make.com website login will not work.\nAll webhooks and shared hooks processed at that time will be rejected. \nThere will be no impact on us1.make.celonis.com , eu1.make.com and eu1.make.celonis.com.\nWe do not expect any data loss.",
-          "link": "https://status.make.com/incidents/nkh919v1zwpl",
-          "publishedOn": "2022-08-30T09:00:35.000Z",
-          "wordCount": 3296,
+          "wordCount": 3299,
           "title": "Scheduled infrastructure maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
