@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-02T00:36:13.466Z</id>
+    <id>urn:2022-10-03T00:30:11.029Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-02T00:36:13.466Z</updated>
+    <updated>2022-10-03T00:30:11.029Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Spaces Availability in AMS3]]></title>
+        <id>https://status.digitalocean.com/incidents/ntwyqc66xbfw</id>
+        <link href="https://status.digitalocean.com/incidents/ntwyqc66xbfw"/>
+        <updated>2022-10-02T19:42:28.000Z</updated>
+        <summary type="html"><![CDATA[Oct  2, 19:42 UTC
+Resolved - Our Engineering team has resolved the issue with Spaces availability in our AMS3 region. Spaces should now be operating normally. If you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel.
+Oct  2, 18:37 UTC
+Monitoring - Our Engineering team has implemented a fix to resolve the issue impacting Spaces API availability for a subset of users in our AMS3 region. We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
+Oct  2, 17:56 UTC
+Investigating - Our Engineering team is currently investigating an issue impacting Spaces API availability in our AMS3 region. During this time, a subset of users may experience timeouts or failures while uploading or deleting the data to their existing spaces in the AMS3 region. We apologize for the inconvenience and will share an update once we have further information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DDoS attack mitigated]]></title>
         <id>https://status.make.com/incidents/hvlj74k8s60q</id>
@@ -911,21 +926,6 @@ There will be no impact on us1.make.com, us1.make.celonis.com.
 We do not expect any data loss.]]></summary>
         <author>
             <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Issues with the Slack interface]]></title>
-        <id>https://status.slack.com//2022-08/aeda713fb0151d46</id>
-        <link href="https://status.slack.com//2022-08/aeda713fb0151d46"/>
-        <updated>2022-09-03T00:22:32.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-From August 31, 2022 at 7:24 PM PDT to September 1, 2022 at 12:15 AM PDT, some customers experienced visual trouble with the Slack interface. Multiple message attachments overlapped, making them inaccessible. 
-
-
-We traced this to a recent code change, which we reversed — resolving trouble for all affected users.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>

@@ -92,6 +92,16 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/ntwyqc66xbfw",
+          "author": null,
+          "description": "Oct  2, 19:42 UTC\nResolved - Our Engineering team has resolved the issue with Spaces availability in our AMS3 region. Spaces should now be operating normally. If you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel.\nOct  2, 18:37 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue impacting Spaces API availability for a subset of users in our AMS3 region. We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.\nOct  2, 17:56 UTC\nInvestigating - Our Engineering team is currently investigating an issue impacting Spaces API availability in our AMS3 region. During this time, a subset of users may experience timeouts or failures while uploading or deleting the data to their existing spaces in the AMS3 region. We apologize for the inconvenience and will share an update once we have further information.",
+          "link": "https://status.digitalocean.com/incidents/ntwyqc66xbfw",
+          "publishedOn": "2022-10-02T19:42:28.000Z",
+          "wordCount": 4605,
+          "title": "Spaces Availability in AMS3",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/089vkllnb4gw",
           "author": null,
           "description": "Sep 27, 20:45 UTC\nResolved - As of 19:32 UTC we have confirmed the issue with creation of Droplets and Droplet-based products is fully resolved. Thank you for your patience. If you continue to experience any problems, please open a support ticket from within your account.\nSep 27, 19:46 UTC\nMonitoring - Our Engineering team identified the root cause and implemented a fix to resolve the issue with Droplet creation in our AMS3 region. Users should now be able to create Droplets and Droplet-based services in the region. We are monitoring the situation closely and will post an update once the matter is completely resolved.\nSep 27, 19:31 UTC\nInvestigating - Our Engineering team is investigating an issue with Droplet creation in our AMS3 region. As of 19:15 UTC, users may see latency or errors when creating Droplets and Droplet-based services like Load Balancers, Managed Databases, and Kubernetes clusters, via both our Cloud Control Panel and API. We will provide an update as soon as possible.",
@@ -514,16 +524,6 @@
           "publishedOn": "2022-09-06T20:05:21.000Z",
           "wordCount": 104,
           "title": "Notice: Email ticket creation may not be working.",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2022-08/aeda713fb0151d46",
-          "author": null,
-          "description": "Issue summary:\n\r\nFrom August 31, 2022 at 7:24 PM PDT to September 1, 2022 at 12:15 AM PDT, some customers experienced visual trouble with the Slack interface. Multiple message attachments overlapped, making them inaccessible. \n\r\n\r\nWe traced this to a recent code change, which we reversed — resolving trouble for all affected users.",
-          "link": "https://status.slack.com//2022-08/aeda713fb0151d46",
-          "publishedOn": "2022-09-03T00:22:32.000Z",
-          "wordCount": 216,
-          "title": "Incident: Issues with the Slack interface",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]

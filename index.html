@@ -22,6 +22,59 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-10-02 datetime="2022-10-02T19:42:28.000Z">2022-10-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-10-02 datetime="2022-10-02T19:42:28.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >DigitalOcean Status - Incident History</button>
+                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.digitalocean.com/incidents/ntwyqc66xbfw"
+                        open
+                      >
+                        <summary class="article-expander__title">Spaces Availability in AMS3</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/ntwyqc66xbfw">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Oct  2, 19:42 UTC
+Resolved - Our Engineering team has resolved the issue with Spaces availability in our AMS3 region. Spaces should now be operating normally. If you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel.
+Oct  2, 18:37 UTC
+Monitoring - Our Engineering team has implemented a fix to resolve the issue impacting Spaces API availability for a subset of users in our AMS3 region. We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
+Oct  2, 17:56 UTC
+Investigating - Our Engineering team is currently investigating an issue impacting Spaces API availability in our AMS3 region. During this time, a subset of users may experience timeouts or failures while uploading or deleting the data to their existing spaces in the AMS3 region. We apologize for the inconvenience and will share an update once we have further information.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-29 datetime="2022-09-29T09:41:51.000Z">2022-09-29</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-29 datetime="2022-09-29T09:41:51.000Z"></time>
           </button>
@@ -2236,63 +2289,10 @@ We do not expect any data loss.</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-09-03 datetime="2022-09-03T00:22:32.000Z">2022-09-03</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-09-03 datetime="2022-09-03T00:22:32.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Slack System Status</button>
-                  <a class="source-heading__link" href="https://status.slack.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.slack.com//2022-08/aeda713fb0151d46"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident: Issues with the Slack interface</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.slack.com//2022-08/aeda713fb0151d46">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Issue summary:
-
-From August 31, 2022 at 7:24 PM PDT to September 1, 2022 at 12:15 AM PDT, some customers experienced visual trouble with the Slack interface. Multiple message attachments overlapped, making them inaccessible. 
-
-
-We traced this to a recent code change, which we reversed — resolving trouble for all affected users.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/3166751127">
-        <time id="build-timestamp" datetime="2022-10-02T00:36:13.443Z">2022-10-02T00:36:13.443Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/3170692880">
+        <time id="build-timestamp" datetime="2022-10-03T00:30:11.005Z">2022-10-03T00:30:11.005Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
