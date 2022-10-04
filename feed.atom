@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-03T00:30:11.029Z</id>
+    <id>urn:2022-10-04T00:36:21.083Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-03T00:30:11.029Z</updated>
+    <updated>2022-10-04T00:36:21.083Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Scheduled maintenance]]></title>
+        <id>https://status.make.com/incidents/1y65tj4y47ny</id>
+        <link href="https://status.make.com/incidents/1y65tj4y47ny"/>
+        <updated>2022-10-04T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 4, 09:00 - 10:00 CEST
+Oct  3, 16:54 CEST
+Scheduled - Please note there is scheduled infrastructure maintenance on us1.make.com. Users may not be able to login into the zone, incoming webhooks may not be accepted and processed. Scheduled scenario executions will not be impacted. Expected downtime is up to 20 minutes.]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scheduled infrastructure maintenance]]></title>
+        <id>https://status.make.com/incidents/yldr3ffg7tph</id>
+        <link href="https://status.make.com/incidents/yldr3ffg7tph"/>
+        <updated>2022-10-04T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 4, 06:00 - 07:00 CEST
+Oct  3, 16:52 CEST
+Scheduled - Please note there is scheduled infrastructure maintenance on eu1.make.com. Users may not be able to login into the zone, incoming webhooks may not be accepted and processed. Scheduled scenario executions will not be impacted. Expected downtime is up to 20 minutes.]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DDoS attack mitigated]]></title>
+        <id>https://status.make.com/incidents/hvlj74k8s60q</id>
+        <link href="https://status.make.com/incidents/hvlj74k8s60q"/>
+        <updated>2022-10-03T08:07:24.000Z</updated>
+        <summary type="html"><![CDATA[Oct  3, 10:07 CEST
+Resolved - This incident has been fully resolved.
+Sep 29, 11:41 CEST
+Update - Due to the DDoS attack, Make servers were unable to receive some webhook requests from our customers and as a result, such data couldn't be delivered to scenarios. In some instances data was redelivered at a later point, but in order to be sure, we advise that you reload any data from the app-list below that was uploaded during the following time frames (times shown in CET):
+26.9.2022 18:00 - 27.9.2022 15:20
+27.9.2022 19:20 - 27.9.2022 23:50
+Our investigation revealed webhooks coming from those apps were affected:
+Slack, Zoom, Facebook Lead Ads, Intercom, Segment, Todoist, Quickbooks, Square, Instagram, and Box
+Sep 28, 15:22 CEST
+Monitoring - A fix has been implemented and the service is now st…]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Spaces Availability in AMS3]]></title>
         <id>https://status.digitalocean.com/incidents/ntwyqc66xbfw</id>
@@ -18,23 +61,6 @@ Oct  2, 17:56 UTC
 Investigating - Our Engineering team is currently investigating an issue impacting Spaces API availability in our AMS3 region. During this time, a subset of users may experience timeouts or failures while uploading or deleting the data to their existing spaces in the AMS3 region. We apologize for the inconvenience and will share an update once we have further information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DDoS attack mitigated]]></title>
-        <id>https://status.make.com/incidents/hvlj74k8s60q</id>
-        <link href="https://status.make.com/incidents/hvlj74k8s60q"/>
-        <updated>2022-09-29T09:41:51.000Z</updated>
-        <summary type="html"><![CDATA[Sep 29, 11:41 CEST
-Update - Due to the DDoS attack, Make servers were unable to receive some webhook requests from our customers and as a result, such data couldn't be delivered to scenarios. In some instances data was redelivered at a later point, but in order to be sure, we advise that you reload any data from the app-list below that was uploaded during the following time frames (times shown in CET):
-26.9.2022 18:00 - 27.9.2022 15:20
-27.9.2022 19:20 - 27.9.2022 23:50
-Our investigation revealed webhooks coming from those apps were affected:
-Slack, Zoom, Facebook Lead Ads, Intercom, Segment, Todoist, Quickbooks, Square, Instagram, and Box
-Sep 28, 15:22 CEST
-Monitoring - A fix has been implemented and the service is now stable. The team continues to monitor and proactively manage any potent…]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
         </author>
     </entry>
     <entry>
