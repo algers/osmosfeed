@@ -67,16 +67,6 @@
           "wordCount": 3359,
           "title": "Issue Affecting Reservation Related Webhooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/cvjp3lxj20n0",
-          "author": null,
-          "description": "Sep 15, 02:38 PDT\nResolved - This incident has been resolved.\nPlease retry the PUT pricing_settings requests with the desired Standard Fees if you have not already done so.\nIf you have any further queries related to this incident, please submit a ticket via the Partner Support Portal and our team will get back to you as soon as possible.\nApologies for the inconvenience caused and thank you for your understanding.\nSep 14, 22:39 PDT\nMonitoring - Please attempt to retry the PUT pricing_settings requests with the desired Standard Fees.\nThis should re-populate the listings' Standard Fees array as intended, namely the PASS_THROUGH_CLEANING_FEE fee.\nWe are monitoring the situation.\nSep 14, 22:38 PDT\nIdentified - The issue has been identified and mitigated.\nPlease attempt to send a PUT pricing_settings request with the desired Standard Fees as required.\nThis should re-populate the listings' Standard Fees array as intended.\nSep 14, 20:45 PDT\nInvestigating - We are currently investigating reports where the PASS_THROUGH_CLEANING_FEE standard fee is not being able to be set via the Pricing Settings API.\nWe will provide updates as soon as we can. We apologise for the inconvenience caused.",
-          "link": "https://airbnbapi.statuspage.io/incidents/cvjp3lxj20n0",
-          "publishedOn": "2022-09-15T09:38:05.000Z",
-          "wordCount": 3392,
-          "title": "Issue Setting PASS_THROUGH_CLEANING_FEE on Pricing Settings Standard Fees Array",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -84,18 +74,7 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": [
-        {
-          "id": "https://status.twilio.com/incidents/scrvwfmgw0lp",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 13, 20:45 - 23:00 PDT\nOct  7, 16:54 PDT\nScheduled - The Telcel network in Mexico is conducting a planned maintenance from 13 Oct 2022 at 20:45 PDT until 13 Oct 2022 at 23:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Telcel Mexico handsets.",
-          "link": "https://status.twilio.com/incidents/scrvwfmgw0lp",
-          "publishedOn": "2022-10-14T03:45:00.000Z",
-          "wordCount": 6177,
-          "title": "Mexico SMS Carrier Maintenance - Telcel",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Notion Status - Incident History",
@@ -105,10 +84,10 @@
         {
           "id": "https://status.notion.so/incidents/rg61f5m0hz0r",
           "author": null,
-          "description": "Oct 13, 16:05 PDT\nIdentified - Some users are continuing to experience issues with template duplication. We have identified the source of the issue and are currently implementing the fix.",
+          "description": "Oct 13, 17:47 PDT\nResolved - This incident has been resolved; users should no longer be experiencing issues with template duplication.\nOct 13, 16:05 PDT\nIdentified - Some users are continuing to experience issues with template duplication. We have identified the source of the issue and are currently implementing the fix.",
           "link": "https://status.notion.so/incidents/rg61f5m0hz0r",
-          "publishedOn": "2022-10-13T23:05:41.000Z",
-          "wordCount": 2752,
+          "publishedOn": "2022-10-14T00:47:31.000Z",
+          "wordCount": 2774,
           "title": "Issue with template duplication",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -332,16 +311,6 @@
           "wordCount": 3981,
           "title": "Incident with Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/8blgv351d71j",
-          "author": null,
-          "description": "Sep 14, 18:05 UTC\nResolved - This incident has been resolved.\nSep 13, 15:57 UTC\nInvestigating - We are investigating and mitigating intermittent availability issues on some GitHub services.",
-          "link": "https://www.githubstatus.com/incidents/8blgv351d71j",
-          "publishedOn": "2022-09-14T18:05:27.000Z",
-          "wordCount": 3980,
-          "title": "Incident on 2022-09-13",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -353,10 +322,10 @@
         {
           "id": "https://status.slack.com//2022-10/d2fb7d99fe53f228",
           "author": null,
-          "description": "We’ve released a fix and all impacted features are up and running once again. If you’re still encountering any trouble, please reload Slack using Command + Shift + R (Mac) or Ctrl + Shift + R (Windows/Linux). We appreciate your patience while we sorted this out.",
+          "description": "Issue summary:\n\r\nOn October 13, 2022 from 3:00 a.m. to 2:00 p.m. PDT, a number of customers had trouble loading and receiving thread notifications. Some customers may have also had trouble with loading channels, adding users to group direct messages, API hyperlink rendering, and missing Saved items.\n\r\n\r\nA mass de-provisioning event inadvertently increased load across our infrastructure, causing issues with Threads for many users. \n\r\n\r\nAs an immediate mitigation strategy, we temporarily deactivated the Threads view for all users. \n\r\n\r\nIn parallel, we ended the long running de-provisioning jobs, and significantly scaled up the systems that handle those jobs. We also made several code changes to reduce the effect a de-provisioning job of this scale would have on our infrastructure, and redistributed some of the load across other parts of the system. \n\r\n\r\nThe optimisation and redistribution work brought error rates down, which resolved most of the issues with channel loading, group direct messages, hyperlinks, and Saved items that users were experiencing. \n\r\n\r\nAt this point, we made the call not to re-enable the Threads view in order to give our recovery efforts more time to restore balance to the system. \n\r\n\r\nOnce the load was appropriately balanced across our infrastructure, and we were able to confirm that our up-scaling systems were prepared to handle any future spikes, we re-enabled the Threads view for all users.",
           "link": "https://status.slack.com//2022-10/d2fb7d99fe53f228",
-          "publishedOn": "2022-10-13T21:40:33.000Z",
-          "wordCount": 518,
+          "publishedOn": "2022-10-14T02:02:31.000Z",
+          "wordCount": 740,
           "title": "Incident: Some users are experiencing issues loading Slack, including the Threads view, Saved items, notifications, API hyperlinks, and group DMs/channels",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
@@ -438,16 +407,6 @@
           "publishedOn": "2022-09-15T17:32:19.000Z",
           "wordCount": 349,
           "title": "Incident: Spreadsheet data added using workflows may be incorrect",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2022-09/29f29ddbaf35791a",
-          "author": null,
-          "description": "Thank you for your patience while we were working on this. For now, we will track this internally as a bug while we continue to find resolution. If you’re still experiencing this behaviour, please reach out to us at feedback@slack.com.",
-          "link": "https://status.slack.com//2022-09/29f29ddbaf35791a",
-          "publishedOn": "2022-09-15T00:42:43.000Z",
-          "wordCount": 188,
-          "title": "Incident: Some users might have trouble with posts",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
