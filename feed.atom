@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-15T00:33:05.762Z</id>
+    <id>urn:2022-10-16T00:35:43.596Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-15T00:33:05.762Z</updated>
+    <updated>2022-10-16T00:35:43.596Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -788,45 +788,6 @@ First of all, we are aware that the calendar is your main tool for managing your
 We separated the planning and the month views into 2 different sections to have a …]]></summary>
         <author>
             <name>Zahra, Product manager, PMS team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rippling Devices web application is not confirming the creation of user accounts and not sending temporary passwords]]></title>
-        <id>https://status.rippling.com/incidents/6ks7txt5h14x</id>
-        <link href="https://status.rippling.com/incidents/6ks7txt5h14x"/>
-        <updated>2022-09-16T00:00:24.000Z</updated>
-        <summary type="html"><![CDATA[Sep 16, 00:00 UTC
-Resolved - This incident has been resolved.
-Sep 15, 22:45 UTC
-Monitoring - A fix has been deployed and is being rolled out.  Please expect the fix to be available to all computers by 6pm PST, some computers may receive the fix earlier.
-Sep 15, 20:17 UTC
-Identified - The issue has been identified and a fix is being implemented.
-Sep 15, 19:52 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>Rippling Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Spreadsheet data added using workflows may be incorrect]]></title>
-        <id>https://status.slack.com//2022-09/c3bf22ba48b2930b</id>
-        <link href="https://status.slack.com//2022-09/c3bf22ba48b2930b"/>
-        <updated>2022-09-15T17:32:19.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-
-Starting September 6th, 2022, we identified an issue with the Google Sheet app inside Workflow Builder. This issue caused the app to read the spreadsheet date/time format wrong, inserting the incorrect time value in the timestamp.
-
-
-We discovered this was due to the app processing the workflow step with a single digit value instead of a double digit value.
-
-
-Users can continue highlighting the Submission Time column in the spreadsheet and select Format → Number → Custom Number Format and insert: ddd mmm yyyy hh:mm:ss, as a workaround.
-
-
-We will work to fix this through a bug ticket that has been filed as a result of this incident. Though we have not resolved this issue yet, we will provide further updates through customer support tickets with the impacted users.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>
