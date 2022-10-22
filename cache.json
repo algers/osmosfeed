@@ -39,6 +39,16 @@
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
         {
+          "id": "https://airbnbapi.statuspage.io/incidents/38xzd1p2437x",
+          "author": null,
+          "description": "Oct 21, 16:03 PDT\nResolved - We have identified an issue with creating room amenity photos. The issue would cause POST requests to fail with either a 404 error or a 500 error. This issue approximately started from last Friday, October 14th, 2022. The photo creations are successful in most cases but the requests fail at a later stage resulting in error responses.\nWe have fixed this issue at 3:30pm PT today, but there can be duplicate photos created for room amenities during this time. We advise you to review room amenity photos and use the DELETE endpoint to remove duplicate photos.\nWe are sorry for the inconvenience.",
+          "link": "https://airbnbapi.statuspage.io/incidents/38xzd1p2437x",
+          "publishedOn": "2022-10-21T23:03:34.000Z",
+          "wordCount": 3316,
+          "title": "Requests to create room amenity photos failing (Listing Photos POST Request)",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://airbnbapi.statuspage.io/incidents/bbst08vxj7y6",
           "author": null,
           "description": "Oct 11, 15:58 PDT\nResolved - This incident has been resolved - it was active between around 11:00 and 11:30 am PDT. While the incident was active, you may have noticed an increase in 500 errors across all our endpoints. Hosts and guests might have been unable to access listings through the Airbnb website. We apologize for the inconvenience. Don't hesitate to contact us via the Support Portal if you need additional information.\nOct 11, 12:26 PDT\nMonitoring - We have implemented a fix for this issue, and we are now monitoring the results.\nOct 11, 11:57 PDT\nInvestigating - We are investigating an issue that is preventing the retrieval of some listings and reservation acceptance.",
@@ -64,94 +74,23 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": [
-        {
-          "id": "https://status.twilio.com/incidents/tg3syr2h0sqn",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 20, 19:00 - 21:00 PDT\nOct 20, 15:36 PDT\nScheduled - The Beeline network in Russia is conducting a planned maintenance from 20 October 2022 at 19:00 PDT until 20 October 2022 at 21:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.",
-          "link": "https://status.twilio.com/incidents/tg3syr2h0sqn",
-          "publishedOn": "2022-10-21T02:00:00.000Z",
-          "wordCount": 6176,
-          "title": "Russia SMS Carrier Maintenance - Beeline",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/mssgyz5fldh5",
-          "author": null,
-          "description": "Oct 20, 17:21 PDT\nMonitoring - Flex Insights dashboard is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nOct 20, 16:39 PDT\nUpdate - We are still experiencing issues with Flex Insights dashboard not loading for a subset of customers. Our engineers are working with our vendor to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nOct 20, 15:32 PDT\nUpdate - We are still experiencing issues with Flex Insights dashboard not loading for a subset of customers. Our engineers are working with our vendor to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nOct 20, 14:28 PDT\nUpdate - We are investigating Flex Insights dashboard not loading for a subset of customers. We expect to provide another update in 1 hour or as soon as more information becomes available.\nOct 20, 14:15 PDT\nInvestigating - Our monitoring systems have detected a potential issue with Flex Insights Dashboard. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/mssgyz5fldh5",
-          "publishedOn": "2022-10-21T00:21:44.000Z",
-          "wordCount": 6349,
-          "title": "Flex Insights Dashboard Not loading for a Subset of Customers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/c3mpr8f44sql",
-          "author": null,
-          "description": "Oct 20, 15:16 PDT\nResolved - Delays has been resolved and Programmable Messaging API is operating normally at this time.\nOct 20, 14:46 PDT\nMonitoring - Delays from Programmable Messaging API for a subset of customers for 16 minutes between 14:02 and 14:18 Pacific Time on 10/20/2022. During this period, customers may have experienced delays on API requests. We will continue to monitor to ensure a full recovery. We expect to provide another update in 30 minutes or as soon as more information becomes available.\nOct 20, 14:20 PDT\nInvestigating - Our monitoring systems have detected a potential issue. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/c3mpr8f44sql",
-          "publishedOn": "2022-10-20T22:16:38.000Z",
-          "wordCount": 6251,
-          "title": "Delays from Programmable Messaging API for a Subset of Customers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/ldxrdwz9zkbs",
-          "author": null,
-          "description": "Oct 20, 14:51 PDT\nResolved - Synchronous and asynchronous Marketplace Add-On data may have been missing between 11:53 AM and 12:14 PM Pacific Time on 10/20/2022. During this period, customers may have experienced missing Marketplace Add-On result data in their callback responses from Twilio. The issue has now been resolved.\nOct 20, 12:40 PDT\nInvestigating - Our monitoring systems have detected a potential issue with Marketplace Add-ons. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/ldxrdwz9zkbs",
-          "publishedOn": "2022-10-20T21:51:54.000Z",
-          "wordCount": 6222,
-          "title": "Synchronous and Asynchronous Marketplace Add-On Data May Have Been Missing",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/ck99tns15n4p",
-          "author": null,
-          "description": "Oct 20, 14:02 PDT\nResolved - The issue affecting inbound calls to a subset of Twilio phone numbers in Brazil has been resolved, and the service is functioning normally at this time.\nOct 20, 11:57 PDT\nMonitoring - We have started seeing recovery for inbound call failures over a subset of Twilio phone numbers in Brazil. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nOct 20, 09:51 PDT\nUpdate - We continue to observe call failures over a subset of Twilio phone numbers in Brazil. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nOct 20, 08:59 PDT\nInvestigating - We are observing a subset of call failures to Twilio Brazil phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/ck99tns15n4p",
-          "publishedOn": "2022-10-20T21:02:02.000Z",
-          "wordCount": 6313,
-          "title": "Call Failures to Subset of Twilio Brazil Phone Numbers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/w34r2pxbxt8f",
-          "author": null,
-          "description": "Oct 20, 13:57 PDT\nResolved - A subset of call logs did not immediately show up when queried from 1:21 - 1:40 PM Pacific Time on 10/20/2022. During this period, customers may have experienced a delay in call logs. These call logs are now available for query.\nOct 20, 13:37 PDT\nInvestigating - Our monitoring systems have detected a potential issue with Programmable Voice. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/w34r2pxbxt8f",
-          "publishedOn": "2022-10-20T20:57:14.000Z",
-          "wordCount": 6199,
-          "title": "Voice Call Logs were Delayed",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/szr3418vwqlf",
-          "author": null,
-          "description": "Oct 20, 12:21 PDT\nResolved - We are no longer experiencing increased latencies and small percentage of failures when sending group media messages. This incident has been resolved.\nOct 20, 11:51 PDT\nMonitoring - Programmable Messaging in is now operating normally. Customers are no longer facing increased latencies and small percentage of failures when sending group media messages. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nOct 20, 02:34 PDT\nUpdate - We are still experiencing issues with Programmable Messaging, where some customers may face increased latencies and small percentage of failures when sending group media messages. Our engineers are working to have a resolution. We expect to provid…",
-          "link": "https://status.twilio.com/incidents/szr3418vwqlf",
-          "publishedOn": "2022-10-20T19:21:53.000Z",
-          "wordCount": 7304,
-          "title": "Experiencing Delays for a Small Subset of Messages That Contain Media",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/9w8kyx6zk37g",
-          "author": null,
-          "description": "Oct 20, 08:11 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Claro Network in Brazil. This incident has been resolved.\nOct 20, 05:53 PDT\nUpdate - We are observing recovery in SMS delivery delays when sending messages to Claro Network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nOct 20, 04:08 PDT\nUpdate - We are observing recovery in SMS delivery delays when sending messages to Claro Network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nOct 20, 02:17 PDT\nUpdate - We are observing recovery in SMS delivery delays when sending messages to Claro Network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nOct 20, 00:20 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Claro Network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nOct 19, 23:31 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Claro Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/9w8kyx6zk37g",
-          "publishedOn": "2022-10-20T15:11:07.000Z",
-          "wordCount": 6404,
-          "title": "SMS Delivery Delays to Claro Network in Brazil",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Notion Status - Incident History",
       "feedUrl": "https://status.notion.so/history.rss",
       "siteUrl": "https://status.notion.so",
       "articles": [
+        {
+          "id": "https://status.notion.so/incidents/d01rgbshld38",
+          "author": null,
+          "description": "Oct 21, 11:31 PDT\nResolved - We have resolved the issue. All import, export and duplication work as expected.\nOct 21, 09:39 PDT\nIdentified - We have implemented a partial fix to unblock key functions, and users should see significant improvement in import, export, and duplication times. We continue to work toward full resolution.\nOct 21, 08:21 PDT\nInvestigating - Some customers may be experiencing high latency when attempting to export or import content, or duplicate blocks or pages. We are investigating.",
+          "link": "https://status.notion.so/incidents/d01rgbshld38",
+          "publishedOn": "2022-10-21T18:31:59.000Z",
+          "wordCount": 2810,
+          "title": "High latency performing certain operations",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.notion.so/incidents/rg61f5m0hz0r",
           "author": null,
@@ -190,6 +129,16 @@
       "siteUrl": "https://status.rippling.com",
       "articles": [
         {
+          "id": "https://status.rippling.com/incidents/krrbdgtdrrg4",
+          "author": null,
+          "description": "Oct 21, 22:34 UTC\nResolved - This incident has been resolved.\nOct 21, 19:45 UTC\nUpdate - We are continuing to monitor for any further issues.\nOct 21, 19:44 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nOct 21, 15:32 UTC\nIdentified - The issue has been identified and a fix has been deployed, we anticipate that pages will be restored soon.",
+          "link": "https://status.rippling.com/incidents/krrbdgtdrrg4",
+          "publishedOn": "2022-10-21T22:34:15.000Z",
+          "wordCount": 4034,
+          "title": "Rippling Devices application is not loading some pages",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
+        },
+        {
           "id": "https://status.rippling.com/incidents/m7wvxtppbkh3",
           "author": null,
           "description": "Oct  6, 17:32 UTC\nResolved - This incident has been resolved.\nOct  6, 17:13 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nOct  6, 16:55 UTC\nIdentified - The issue has been identified and a fix is being implemented. Time Off policies, balances, and leave request history will be restored.",
@@ -225,36 +174,6 @@
           "wordCount": 405,
           "title": "RESOLVED: We're investigating reports of an issue with Google Workspace Support. We will provide more information shortly. The affected users are able to access Google Workspace Support, but are seeing error messages, high latency, and/or other unexpected behavior.",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/NYvcSo9K7yKdKxKM3UNh",
-          "author": null,
-          "description": "<p> Incident began at <strong>2022-10-20 11:29</strong> and ended at <strong>2022-10-20 14:40</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We are continuing to investigate this issue. We will provide an update by <span>Oct 20, 2022, 3:00 PM UTC</span> detailing when we expect to resolve the problem.  </span></div><hr><p>Affected products: Google Workspace Support</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/NYvcSo9K7yKdKxKM3UNh",
-          "publishedOn": "2022-10-20T14:08:19.000Z",
-          "wordCount": 405,
-          "title": "UPDATE: We're investigating reports of an issue with Google Workspace Support. We will provide more information shortly. The affected users are able to access Google Workspace Support, but are seeing error messages, high latency, and/or other unexpected behavior.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/NYvcSo9K7yKdKxKM3UNh",
-          "author": null,
-          "description": "<p> Incident began at <strong>2022-10-20 11:29</strong> and ended at <strong>2022-10-20 14:40</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We expect to resolve the problem affecting a majority of users of Google Workspace Support at <span>Oct 20, 2022, 2:00 PM UTC</span>. Please note that this time frame is an estimate and may change.  </span></div><hr><p>Affected products: Google Workspace Support</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/NYvcSo9K7yKdKxKM3UNh",
-          "publishedOn": "2022-10-20T13:20:57.000Z",
-          "wordCount": 405,
-          "title": "UPDATE: We're investigating reports of an issue with Google Workspace Support. We will provide more information shortly. The affected users are able to access Google Workspace Support, but are seeing error messages, high latency, and/or other unexpected behavior.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/NYvcSo9K7yKdKxKM3UNh",
-          "author": null,
-          "description": "<p> Incident began at <strong>2022-10-20 11:29</strong> and ended at <strong>2022-10-20 14:40</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We're investigating reports of an issue with Google Workspace Support. We will provide more information shortly.  </span>The affected users are able to access Google Workspace Support, but are seeing error messages, high latency, and/or other unexpected behavior.<div> <p>The Google Workspace users may experience errors when trying to contact us via chat. We&#39;re investigating the issue.</p>\n  </div><div> <p>The users may experience &quot;Something went wrong, please try again&quot; error</p>\n  </div></div><hr><p>Affected products: Google Workspace Support</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/NYvcSo9K7yKdKxKM3UNh",
-          "publishedOn": "2022-10-20T13:09:15.000Z",
-          "wordCount": 405,
-          "title": "UPDATE: We're investigating reports of an issue with Google Workspace Support. We will provide more information shortly. The affected users are able to access Google Workspace Support, but are seeing error messages, high latency, and/or other unexpected behavior.",
-          "imageUrl": null
         }
       ]
     },
@@ -263,6 +182,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/5kjgx4x2frkw",
+          "author": null,
+          "description": "Oct 21, 23:59 UTC\nResolved - This incident has been resolved.\nOct 21, 23:40 UTC\nUpdate - We are investigating reports of issues with service(s): Git Operations. We will continue to keep users updated on progress towards mitigation.\nOct 21, 23:06 UTC\nInvestigating - We are investigating reports of degraded performance for Git Operations.",
+          "link": "https://www.githubstatus.com/incidents/5kjgx4x2frkw",
+          "publishedOn": "2022-10-21T23:59:33.000Z",
+          "wordCount": 4015,
+          "title": "Incident with Git Operations",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/4vr2qz8lgdmq",
           "author": null,
