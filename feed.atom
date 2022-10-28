@@ -1,32 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-27T00:29:28.977Z</id>
+    <id>urn:2022-10-28T00:29:52.402Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-27T00:29:28.977Z</updated>
+    <updated>2022-10-28T00:29:52.402Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[US SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/ncpqv0dhhnt8</id>
-        <link href="https://status.twilio.com/incidents/ncpqv0dhhnt8"/>
-        <updated>2022-10-27T05:30:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 26, 22:30 PDT  -  Oct 27, 02:00 PDT
-Oct 25, 23:42 PDT
-Scheduled - Our SMS carrier partner in the US is conducting an emergency maintenance from 26 October 2022 at 22:30 PDT until 27 October 2022 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Verizon handsets from a subset of longcodes.]]></summary>
+        <title type="html"><![CDATA[Emergency Infrastructure Upgrade on EU1]]></title>
+        <id>https://status.make.com/incidents/vb5m7t5l1yps</id>
+        <link href="https://status.make.com/incidents/vb5m7t5l1yps"/>
+        <updated>2022-10-28T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 28, 05:00 - 07:00 CEST
+Oct 27, 12:57 CEST
+Scheduled - Please note that there will be an emergency infrastructure maintenance on 28th of October, between 5 AM and 7 AM CEST on EU1 Instance . 
+During the maintenance some scenarios processed at that time might be temporarily delayed . 
+We do not expect any data loss. We apologise for any inconvenience caused.]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Autopilot Responses Failing for Incoming Calls]]></title>
+        <id>https://status.twilio.com/incidents/5ts7hkzm6jkk</id>
+        <link href="https://status.twilio.com/incidents/5ts7hkzm6jkk"/>
+        <updated>2022-10-28T00:20:30.000Z</updated>
+        <summary type="html"><![CDATA[Oct 27, 17:20 PDT
+Resolved - Incoming calls to Autopilot involving Voice TwiML are recovered and Autopilot is operating normally at this time.
+Oct 27, 16:50 PDT
+Monitoring - Incoming calls to Autopilot involving Voice TwiML are now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+Oct 27, 16:15 PDT
+Identified - Our engineers have identified the issue causing a subset of incoming calls failing with Autopilot when Voice TwiML is used. We are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
+Oct 27, 15:48 PDT
+Update - We are investigating an issue with a subset of incoming calls failing with Autopilot when Voice TwiML is used. Our engineering team is actively investigating. We will update in one hour or as soon as we have more information.
+Oct 27, 15:20 PDT
+Investigating - Our monitoring systems have detected a potential issue with Autopilot. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[US SMS Carrier Maintenance - US Cellular]]></title>
-        <id>https://status.twilio.com/incidents/yb7bqgtpwfvy</id>
-        <link href="https://status.twilio.com/incidents/yb7bqgtpwfvy"/>
-        <updated>2022-10-27T05:30:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 26, 22:30 PDT  -  Oct 27, 02:00 PDT
-Oct 25, 15:48 PDT
-Scheduled - The US Cellular network in the US is conducting a planned maintenance from 26 October 2022 at 22:30 PDT until 27 October 2022 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US Cellular handsets.]]></summary>
+        <title type="html"><![CDATA[GitHub Importer Maintenance]]></title>
+        <id>https://www.githubstatus.com/incidents/lpslbfcw2czs</id>
+        <link href="https://www.githubstatus.com/incidents/lpslbfcw2czs"/>
+        <updated>2022-10-27T16:00:30.000Z</updated>
+        <summary type="html"><![CDATA[Oct 27, 16:00 UTC
+Completed - The scheduled maintenance has been completed.
+Oct 27, 15:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Oct 20, 16:54 UTC
+Scheduled - GitHub Importer—namely the “Import repository” (https://github.com/new/import) UI on GitHub.com and the "Source Imports" (https://docs.github.com/en/rest/migrations/source-imports) REST API—will be undergoing scheduled maintenance. During this time, no new source imports will be processed. You will not be able to start new source imports until the end of the maintenance window.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Pull Requests]]></title>
+        <id>https://www.githubstatus.com/incidents/z9dd32bvfgp3</id>
+        <link href="https://www.githubstatus.com/incidents/z9dd32bvfgp3"/>
+        <updated>2022-10-27T06:31:32.000Z</updated>
+        <summary type="html"><![CDATA[Oct 27, 06:31 UTC
+Resolved - This incident has been resolved.
+Oct 27, 06:08 UTC
+Update - We have identified a potential fix for the issue where users were experiencing unresponsive code blob views.
+Oct 27, 05:36 UTC
+Update - We found an issue that impacts some customers when looking at code blob view. We are currently investigating the root cause.
+Oct 27, 04:59 UTC
+Investigating - We are investigating reports of degraded performance for Pull Requests.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -798,55 +839,6 @@ Sep 28, 17:56 UTC
 Update - We are investigating reports of issues with Codespaces in eu-west and se-asia regions. Users may not be able to connect to Codespaces during this time. We will update on progress towards mitigation.
 Sep 28, 17:22 UTC
 Investigating - We are investigating reports of degraded availability for Codespaces.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Codespaces]]></title>
-        <id>https://www.githubstatus.com/incidents/w29zg5h2chkp</id>
-        <link href="https://www.githubstatus.com/incidents/w29zg5h2chkp"/>
-        <updated>2022-09-28T05:09:41.000Z</updated>
-        <summary type="html"><![CDATA[Sep 28, 05:09 UTC
-Resolved - This incident has been resolved.
-Sep 28, 04:42 UTC
-Update - We have identified an issue that impacts port forwarding in the Codespaces web client. We are working on mitigation. As a workaround, you can use VS Code Desktop.
-Sep 28, 03:53 UTC
-Investigating - We are investigating reports of degraded performance for Codespaces.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Issues with legacy message attachments]]></title>
-        <id>https://status.slack.com//2022-09/ca18055bcf82c232</id>
-        <link href="https://status.slack.com//2022-09/ca18055bcf82c232"/>
-        <updated>2022-09-27T19:09:39.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-
-On September 26, 2022 from 12:00 PM PDT to 11:48 PM PDT, link formatting was broken for all Slack apps.
-
-
-Some messages were showing the URL and not a link itself. We determined that this issue was caused by a recent code change that altered how attachment links in the app were formatted.
-
-
-We reverted this change which fixed the issue for all users after a force reload of Slack.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Actions]]></title>
-        <id>https://www.githubstatus.com/incidents/nbhb2lxyh9bb</id>
-        <link href="https://www.githubstatus.com/incidents/nbhb2lxyh9bb"/>
-        <updated>2022-09-27T15:06:02.000Z</updated>
-        <summary type="html"><![CDATA[Sep 27, 15:06 UTC
-Resolved - This incident has been resolved.
-Sep 27, 15:00 UTC
-Update - We've applied a mitigation to resolve delayed job updates for running Actions.
-Sep 27, 14:33 UTC
-Investigating - We are investigating reports of degraded performance for Actions.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
