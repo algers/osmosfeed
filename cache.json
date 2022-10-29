@@ -57,16 +57,6 @@
           "wordCount": 3315,
           "title": "Airbnb.com Listing and Payment page Degradation",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/xjrh0byz8tlt",
-          "author": null,
-          "description": "Sep 28, 15:36 PDT\nResolved - This incident was resolved on September 21st at 1:00 p.m. PDT. If you still see reservations missing webhook notifications, don't hesitate to reach back out.\nSep 21, 14:46 PDT\nUpdate - We are actively working to find a solution to this issue. In the meantime, we have backfilled all the missed reservation webhook notifications since September 15. We will post more updates as soon as we have them.\nSep 21, 10:51 PDT\nIdentified - We have identified an issue affecting the sending of reservation related webhooks starting on September 15th, we are actively working on it and will post more updates when we have them. This incident does not affect all reservations, only a limited number of them. If you notice that some of your Hosts' reservations webhooks are missing, for example when you accept a make_reservation SAC, but you did not receive a confirmation webhook afterwards, use the GET reservations API to retrieve the reservation status.",
-          "link": "https://airbnbapi.statuspage.io/incidents/xjrh0byz8tlt",
-          "publishedOn": "2022-09-28T22:36:44.000Z",
-          "wordCount": 3359,
-          "title": "Issue Affecting Reservation Related Webhooks",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -74,18 +64,7 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": [
-        {
-          "id": "https://status.twilio.com/incidents/5ts7hkzm6jkk",
-          "author": null,
-          "description": "Oct 27, 17:20 PDT\nResolved - Incoming calls to Autopilot involving Voice TwiML are recovered and Autopilot is operating normally at this time.\nOct 27, 16:50 PDT\nMonitoring - Incoming calls to Autopilot involving Voice TwiML are now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nOct 27, 16:15 PDT\nIdentified - Our engineers have identified the issue causing a subset of incoming calls failing with Autopilot when Voice TwiML is used. We are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.\nOct 27, 15:48 PDT\nUpdate - We are investigating an issue with a subset of incoming calls failing with Autopilot when Voice TwiML is used. Our engineering team is actively investigating. We will update in one hour or as soon as we have more information.\nOct 27, 15:20 PDT\nInvestigating - Our monitoring systems have detected a potential issue with Autopilot. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/5ts7hkzm6jkk",
-          "publishedOn": "2022-10-28T00:20:30.000Z",
-          "wordCount": 6319,
-          "title": "Autopilot Responses Failing for Incoming Calls",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Notion Status - Incident History",
@@ -121,16 +100,6 @@
           "wordCount": 2824,
           "title": "Issue with template duplication",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/k8c9l3h1s7kj",
-          "author": null,
-          "description": "Sep 28, 14:42 PDT\nResolved - The AWS issue has been resolved, and external integrations in Notion affecting link previews and database syncs are functioning normally again.\nSep 28, 10:58 PDT\nIdentified - An AWS service degradation has resulted in users unable to authenticate external integrations in Notion, affecting link previews and database syncs. We are investigating potential mitigations while AWS works to resolve the issue.",
-          "link": "https://status.notion.so/incidents/k8c9l3h1s7kj",
-          "publishedOn": "2022-09-28T21:42:57.000Z",
-          "wordCount": 2795,
-          "title": "AWS service degradation affecting Notion integrations",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -139,6 +108,26 @@
       "feedUrl": "https://status.rippling.com/history.rss",
       "siteUrl": "https://status.rippling.com",
       "articles": [
+        {
+          "id": "https://status.rippling.com/incidents/mt8g5lsc611x",
+          "author": null,
+          "description": "Oct 28, 20:27 UTC\nResolved - This incident has been resolved.\nOct 28, 20:23 UTC\nUpdate - We are continuing to monitor for any further issues.\nOct 28, 20:15 UTC\nUpdate - We are continuing to monitor for any further issues\nOct 28, 19:55 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nOct 28, 19:55 UTC\nUpdate - We are continuing to investigate this issue.\nOct 28, 19:38 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://status.rippling.com/incidents/mt8g5lsc611x",
+          "publishedOn": "2022-10-28T20:27:45.000Z",
+          "wordCount": 4040,
+          "title": "Issues signing in to Rippling",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
+        },
+        {
+          "id": "https://status.rippling.com/incidents/1mfc8wyjff17",
+          "author": null,
+          "description": "Oct 28, 19:21 UTC\nResolved - This incident has been resolved.\nOct 28, 18:46 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nOct 28, 17:27 UTC\nIdentified - The issue has been identified and a fix is being implemented.",
+          "link": "https://status.rippling.com/incidents/1mfc8wyjff17",
+          "publishedOn": "2022-10-28T19:21:08.000Z",
+          "wordCount": 4009,
+          "title": "Windows computers are being displayed as Apple computers",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
+        },
         {
           "id": "https://status.rippling.com/incidents/hs6bzfm17lh7",
           "author": null,
@@ -362,16 +351,6 @@
           "wordCount": 3981,
           "title": "Incident with Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/m574010k9c5l",
-          "author": null,
-          "description": "Sep 28, 19:56 UTC\nResolved - This incident has been resolved.\nSep 28, 19:29 UTC\nUpdate - We are investigating issues with Codespaces in eu-west region. The origin issue is resolved, however customers may experience delays in creation and resumption as we process the backlog of requests.\nSep 28, 18:52 UTC\nUpdate - Codespaces is now experiencing degraded performance. We are still investigating and will provide an update when we have one.\nSep 28, 18:35 UTC\nUpdate - We are investigating issues with Codespaces in all regions due to VMs not coming online. We have applied a mitigation that resolved the underlying issue, and we are processing the backlog of requests.\nSep 28, 17:56 UTC\nUpdate - We are investigating reports of issues with Codespaces in eu-west and se-asia regions. Users may not be able to connect to Codespaces during this time. We will update on progress towards mitigation.\nSep 28, 17:22 UTC\nInvestigating - We are investigating reports of degraded availability for Codespaces.",
-          "link": "https://www.githubstatus.com/incidents/m574010k9c5l",
-          "publishedOn": "2022-09-28T19:56:47.000Z",
-          "wordCount": 4127,
-          "title": "Incident with Codespaces",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -380,6 +359,26 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://status.slack.com/",
       "articles": [
+        {
+          "id": "https://status.slack.com//2022-10/7044d8ee169bde14",
+          "author": null,
+          "description": "We’ve resolved the issue impacting the ability to send messages, load threads, and save bookmarks. Thank you very much for your patience while we worked on getting this fix out the door.",
+          "link": "https://status.slack.com//2022-10/7044d8ee169bde14",
+          "publishedOn": "2022-10-28T21:55:35.000Z",
+          "wordCount": 136,
+          "title": "Incident: Some users may be experiencing issues sending messages, loading threads, and saving bookmarks",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://status.slack.com//2022-10/b9c4899413601fcc",
+          "author": null,
+          "description": "We've resolved the issue involving emoji codes not appearing properly when an emoji is sent as a standalone message. If you're still encountering any trouble, please reload Slack using Command + Shift + R (Mac) or Ctrl + Shift + R (Windows/Linux). Thank you for your patience while we sorted out this issue.",
+          "link": "https://status.slack.com//2022-10/b9c4899413601fcc",
+          "publishedOn": "2022-10-28T16:56:33.000Z",
+          "wordCount": 141,
+          "title": "Incident: For an emoji sent as a standalone message, the emoji code is not displayed on hover",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://status.slack.com//2022-10/98da79c75137b53e",
           "author": null,
@@ -429,26 +428,6 @@
           "wordCount": 155,
           "title": "Incident: Issues with login confirmation codes",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2022-09/1858cb1fccf03b42",
-          "author": null,
-          "description": "Issue summary:\n\r\n\r\nStarting September 21st around 1:00 PM PDT until September 28th 3:00 PM PDT, users experienced trouble downloading files on Slack's Android app version: 22.09.30. We traced the problem to a permissions check error which caused file downloads to not execute.\n\r\n\r\nWe corrected the permissions check error in the latest version of the Android app: 22.09.40, and the file download functionality was restored. Some impacted users may need to update their Slack app to version 22.09.40 from the Google Play Store.",
-          "link": "https://status.slack.com//2022-09/1858cb1fccf03b42",
-          "publishedOn": "2022-09-28T22:57:00.000Z",
-          "wordCount": 265,
-          "title": "Incident: Issues downloading files on Slack Android app version 22.09.30",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2022-09/0555cbd5e9833fe3",
-          "author": null,
-          "description": "Issue summary:\n\r\nFrom September 26, 2022 at 7:00 AM PDT until September 27, 2022 at 12:40 PM PDT, some Enterprise Grid users were not able to create new webhooks, share posts to a channel, or select a channel from the dropdown menu in Workflow Builder. We traced this problem to a change that was made to improve how channel objects are loaded into Slack. We disabled this change, restoring functionality to impacted users.",
-          "link": "https://status.slack.com//2022-09/0555cbd5e9833fe3",
-          "publishedOn": "2022-09-28T20:10:35.000Z",
-          "wordCount": 269,
-          "title": "Incident: Some Enterprise Grid users are unable to retrieve channel lists when building workflows and webhooks",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
     },
@@ -460,10 +439,10 @@
         {
           "id": "https://status.make.com/incidents/vb5m7t5l1yps",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 28, 05:00 - 07:00 CEST\nOct 27, 12:57 CEST\nScheduled - Please note that there will be an emergency infrastructure maintenance on 28th of October, between 5 AM and 7 AM CEST on EU1 Instance . \nDuring the maintenance some scenarios processed at that time might be temporarily delayed . \nWe do not expect any data loss. We apologise for any inconvenience caused.",
+          "description": "Oct 28, 06:29 CEST\nCompleted - The scheduled maintenance has been completed.\nOct 28, 05:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 27, 12:57 CEST\nScheduled - Please note that there will be an emergency infrastructure maintenance on 28th of October, between 5 AM and 7 AM CEST on EU1 Instance . \nDuring the maintenance some scenarios processed at that time might be temporarily delayed . \nWe do not expect any data loss. We apologise for any inconvenience caused.",
           "link": "https://status.make.com/incidents/vb5m7t5l1yps",
-          "publishedOn": "2022-10-28T03:00:00.000Z",
-          "wordCount": 3258,
+          "publishedOn": "2022-10-28T04:29:11.000Z",
+          "wordCount": 3286,
           "title": "Emergency Infrastructure Upgrade on EU1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
