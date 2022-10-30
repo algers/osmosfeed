@@ -166,13 +166,13 @@
       "siteUrl": "https://www.google.com/appsstatus/dashboard/",
       "articles": [
         {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/NYvcSo9K7yKdKxKM3UNh",
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/vN4yeqQrDCyy9ViYT96Q",
           "author": null,
-          "description": "<p> Incident began at <strong>2022-10-20 11:29</strong> and ended at <strong>2022-10-20 14:40</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  The problem with Google Workspace Support has been resolved. We apologize for the inconvenience and thank you for your patience and continued support.  </span></div><hr><p>Affected products: Google Workspace Support</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/NYvcSo9K7yKdKxKM3UNh",
-          "publishedOn": "2022-10-20T14:49:30.000Z",
-          "wordCount": 405,
-          "title": "RESOLVED: We're investigating reports of an issue with Google Workspace Support. We will provide more information shortly. The affected users are able to access Google Workspace Support, but are seeing error messages, high latency, and/or other unexpected behavior.",
+          "description": "<p> Incident began at <strong>2022-10-29 07:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We're aware of a problem with Google Calendar affecting a significant subset of users. We will provide an update by <span>Nov 3, 2022, 12:00 AM UTC</span> detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change.  </span>The affected users are able to access Google Calendar, but are seeing error messages, high latency, and/or other unexpected behavior.<div> <p>Due to time zone changes in Mexico taking effect from 2022-10-30 (<strong>Chihuahua specifically</strong>), your Google Calendar may:</p>\n<ul>\n<li>Show the wrong time with the red bar on Calendar Web;</li>\n<li>Have the wrong times for single events, recurring events, or appointments</li>\n<li>Affect RSVP responses for recurring events**</li>\n</ul>\n  </div><div> <p><strong>Mitigation</strong></p>\n<ul>\n<li>If single events appear at the wrong time, manually move the events to the right time.</li>\n<li>If recurring events appear at the wrong time, you can make nearly any modification to the series, like adding a space to the summary, and it should fix the events that appear at the wrong time after the transition.</li>\n</ul>\n<p><strong>Important:</strong> Making a modification will also reset any event in the series that had specific changes so that it matches the original event. Some examples of one-off changes that will reset include single events that:</p>\n<ul>\n<li>were moved to a different time</li>\n<li>included other attendees</li>\n<li>had a different summary</li>\n</ul>\n<p>Attendees of recurring events may also see that events they accepted are no longer accepted or that events they declined are no longer declined.</p>\n<p>If recurring events appear at the wrong time for some guests, any update to the original event should fix the series for the owner and all of the guests.</p>\n  </div></div><hr><p>Affected products: Google Calendar</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/vN4yeqQrDCyy9ViYT96Q",
+          "publishedOn": "2022-10-29T07:23:54.000Z",
+          "wordCount": 528,
+          "title": "UPDATE: We're aware of a problem with Google Calendar affecting a significant subset of users. We will provide an update by Nov 3, 2022, 12:00 AM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change. The affected users are able to access Google Calendar, but are seeing error messages, high latency, and/or other unexpected behavior.",
           "imageUrl": null
         }
       ]
@@ -362,10 +362,10 @@
         {
           "id": "https://status.slack.com//2022-10/7044d8ee169bde14",
           "author": null,
-          "description": "We’ve resolved the issue impacting the ability to send messages, load threads, and save bookmarks. Thank you very much for your patience while we worked on getting this fix out the door.",
+          "description": "Issue summary:\n\r\nOn October 28, 2022 from about 1:06 PM PDT to 1:17 PM PDT, some customers experienced trouble loading threads, sending messages, and saving bookmarks.\n\r\n\r\nThis issue occurred when we deployed a web app change resulting in an increased database load. We have since rolled back the deploy, restoring functionality for all affected users.",
           "link": "https://status.slack.com//2022-10/7044d8ee169bde14",
-          "publishedOn": "2022-10-28T21:55:35.000Z",
-          "wordCount": 136,
+          "publishedOn": "2022-10-29T00:23:15.000Z",
+          "wordCount": 192,
           "title": "Incident: Some users may be experiencing issues sending messages, loading threads, and saving bookmarks",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
