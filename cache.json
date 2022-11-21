@@ -46,16 +46,6 @@
           "wordCount": 3267,
           "title": "500 Error Across All APIs",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/38xzd1p2437x",
-          "author": null,
-          "description": "Oct 21, 16:03 PDT\nResolved - We have identified an issue with creating room amenity photos. The issue would cause POST requests to fail with either a 404 error or a 500 error. This issue approximately started from last Friday, October 14th, 2022. The photo creations are successful in most cases but the requests fail at a later stage resulting in error responses.\nWe have fixed this issue at 3:30pm PT today, but there can be duplicate photos created for room amenities during this time. We advise you to review room amenity photos and use the DELETE endpoint to remove duplicate photos.\nWe are sorry for the inconvenience.",
-          "link": "https://airbnbapi.statuspage.io/incidents/38xzd1p2437x",
-          "publishedOn": "2022-10-21T23:03:34.000Z",
-          "wordCount": 3316,
-          "title": "Requests to create room amenity photos failing (Listing Photos POST Request)",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -65,53 +55,53 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/99z8t2vvz0sw",
+          "id": "https://status.twilio.com/incidents/vjj153qxn557",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 19, 19:00 PST  -  Nov 20, 02:00 PST\nOct 21, 10:04 PDT\nScheduled - Twilio is conducting a planned maintenance from 19 November 2022 at 19:00 PST until 20 November at 02:00 PST. During the maintenance window, Interconnects in Ashburn US1 will be disconnected for up to 15 minutes.",
-          "link": "https://status.twilio.com/incidents/99z8t2vvz0sw",
-          "publishedOn": "2022-11-20T03:00:00.000Z",
-          "wordCount": 6157,
-          "title": "Twilio Interconnect Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Nov 20, 19:00 PST  -  Nov 21, 01:00 PST\nNov 19, 07:40 PST\nScheduled - The Mobifone network in Vietnam is conducting a planned maintenance from 20 November 2022 at 19:00 PST until 21 November 2022 at 01:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Mobifone handsets.",
+          "link": "https://status.twilio.com/incidents/vjj153qxn557",
+          "publishedOn": "2022-11-21T03:00:00.000Z",
+          "wordCount": 6178,
+          "title": "Vietnam SMS Carrier Maintenance - Mobifone",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/xc8987nfr58s",
+          "author": null,
+          "description": "Nov 20, 13:26 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Movitel in Mozambique. This incident has been resolved.\nNov 20, 11:31 PST\nMonitoring - We are observing recovery in SMS delivery delays to Movitel in Mozambique. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 19, 23:53 PST\nUpdate - We are still experiencing SMS delivery delays to Movitel in Mozambique. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.\nNov 19, 16:36 PST\nUpdate - We are still experiencing SMS delivery delays to Movitel in Mozambique. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nNov 19, 12:40 PST\nUpdate - We are still experiencing SMS delivery delays to Movitel in Mozambique. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nNov 19, 10:40 PST\nUpdate - We are still experiencing SMS delivery delays to Movitel in Mozambique. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 19, 09:44 PST\nInvestigating - We are experiencing SMS delivery delays to Movitel in Mozambique. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/xc8987nfr58s",
+          "publishedOn": "2022-11-20T21:26:57.000Z",
+          "wordCount": 6432,
+          "title": "SMS Delivery Delays to Movitel network in Mozambique",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/jttmbjch38hr",
+          "author": null,
+          "description": "Nov 20, 12:00 PST\nCompleted - The scheduled maintenance has been completed.\nNov 20, 10:01 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 24, 21:37 PDT\nScheduled - Our Voice carrier partner in Japan is conducting a planned maintenance from 20 November 2022 at 10:00 PST until 20 November 2022 at 12:00 PST. During the maintenance window, there could be intermittent call failures or disconnections to and from Japan handset.",
+          "link": "https://status.twilio.com/incidents/jttmbjch38hr",
+          "publishedOn": "2022-11-20T20:00:24.000Z",
+          "wordCount": 6198,
+          "title": "Japan Voice Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/3pdbf4gsj89q",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 19, 19:00 PST  -  Nov 20, 02:00 PST\nOct 21, 09:58 PDT\nScheduled - Twilio is conducting a planned maintenance from 19 November 2022 at 19:00 PST until 20 November at 02:00 PST. During the maintenance window, for an expected period of 15 minutes, SMS Commands may fail or be delayed.",
+          "description": "Nov 20, 02:00 PST\nCompleted - The scheduled maintenance has been completed.\nNov 19, 19:01 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 21, 09:58 PDT\nScheduled - Twilio is conducting a planned maintenance from 19 November 2022 at 19:00 PST until 20 November at 02:00 PST. During the maintenance window, for an expected period of 15 minutes, SMS Commands may fail or be delayed.",
           "link": "https://status.twilio.com/incidents/3pdbf4gsj89q",
-          "publishedOn": "2022-11-20T03:00:00.000Z",
-          "wordCount": 6166,
+          "publishedOn": "2022-11-20T10:00:41.000Z",
+          "wordCount": 6191,
           "title": "Twilio Programmable Wireless Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/tctdhxnvjvvm",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 19, 19:00 PST  -  Nov 20, 02:00 PST\nOct 21, 09:08 PDT\nScheduled - Twilio is conducting a planned maintenance from 19 November 2022 at 19:00 PST until 20 November at 02:00 PST. During the maintenance window, for an expected period of 15 minutes, new Super SIM connections or updates to existing connections may fail causing devices to disconnect. SMS Commands may fail or be delayed.",
+          "description": "Nov 20, 02:00 PST\nCompleted - The scheduled maintenance has been completed.\nNov 19, 19:01 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 21, 09:08 PDT\nScheduled - Twilio is conducting a planned maintenance from 19 November 2022 at 19:00 PST until 20 November at 02:00 PST. During the maintenance window, for an expected period of 15 minutes, new Super SIM connections or updates to existing connections may fail causing devices to disconnect. SMS Commands may fail or be delayed.",
           "link": "https://status.twilio.com/incidents/tctdhxnvjvvm",
-          "publishedOn": "2022-11-20T03:00:00.000Z",
-          "wordCount": 6181,
+          "publishedOn": "2022-11-20T10:00:31.000Z",
+          "wordCount": 6206,
           "title": "Twilio Super SIM Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/zsvf8k9nj7yk",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 19, 19:00 PST  -  Nov 20, 02:00 PST\nOct 21, 03:50 PDT\nScheduled - Twilio is conducting a planned maintenance from 19 November 2022 at 19:00 PST until 20 November at 02:00 PST. During the maintenance window, there could be intermittent call failures to and from Twilio.",
-          "link": "https://status.twilio.com/incidents/zsvf8k9nj7yk",
-          "publishedOn": "2022-11-20T03:00:00.000Z",
-          "wordCount": 6171,
-          "title": "Twilio Voice Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/2dsfdlyxm9xw",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 19, 19:00 PST  -  Nov 20, 02:00 PST\nOct 21, 03:42 PDT\nScheduled - Twilio is conducting a planned maintenance from 19 November 2022 at 19:00 PST until 20 November at 02:00 PST. During the maintenance window, there could be intermittent message delivery failures and delivery delays to and from Twilio.",
-          "link": "https://status.twilio.com/incidents/2dsfdlyxm9xw",
-          "publishedOn": "2022-11-20T03:00:00.000Z",
-          "wordCount": 6218,
-          "title": "Twilio Messaging Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -129,16 +119,6 @@
           "publishedOn": "2022-11-15T01:40:55.000Z",
           "wordCount": 2809,
           "title": "Uploading Images",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/d01rgbshld38",
-          "author": null,
-          "description": "Oct 21, 11:31 PDT\nResolved - We have resolved the issue. All import, export and duplication work as expected.\nOct 21, 09:39 PDT\nIdentified - We have implemented a partial fix to unblock key functions, and users should see significant improvement in import, export, and duplication times. We continue to work toward full resolution.\nOct 21, 08:21 PDT\nInvestigating - Some customers may be experiencing high latency when attempting to export or import content, or duplicate blocks or pages. We are investigating.",
-          "link": "https://status.notion.so/incidents/d01rgbshld38",
-          "publishedOn": "2022-10-21T18:31:59.000Z",
-          "wordCount": 2810,
-          "title": "High latency performing certain operations",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -217,16 +197,6 @@
           "wordCount": 4059,
           "title": "Rippling Devices Agent will not install/update 3rd party software on Windows computers when a 3rd party Anti-Virus program is present.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
-        },
-        {
-          "id": "https://status.rippling.com/incidents/krrbdgtdrrg4",
-          "author": null,
-          "description": "Oct 21, 22:34 UTC\nResolved - This incident has been resolved.\nOct 21, 19:45 UTC\nUpdate - We are continuing to monitor for any further issues.\nOct 21, 19:44 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nOct 21, 15:32 UTC\nIdentified - The issue has been identified and a fix has been deployed, we anticipate that pages will be restored soon.",
-          "link": "https://status.rippling.com/incidents/krrbdgtdrrg4",
-          "publishedOn": "2022-10-21T22:34:15.000Z",
-          "wordCount": 4034,
-          "title": "Rippling Devices application is not loading some pages",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         }
       ]
     },
@@ -252,6 +222,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/svd79g61q1wf",
+          "author": null,
+          "description": "Nov 20, 19:55 UTC\nResolved - This incident has been resolved.\nNov 20, 19:23 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces.",
+          "link": "https://www.githubstatus.com/incidents/svd79g61q1wf",
+          "publishedOn": "2022-11-20T19:55:50.000Z",
+          "wordCount": 3981,
+          "title": "Incident with Codespaces",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/9p9d329r7291",
           "author": null,
@@ -430,16 +410,6 @@
           "publishedOn": "2022-10-23T17:36:09.000Z",
           "wordCount": 4075,
           "title": "Incident with Codespaces",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/5kjgx4x2frkw",
-          "author": null,
-          "description": "Oct 21, 23:59 UTC\nResolved - This incident has been resolved.\nOct 21, 23:40 UTC\nUpdate - We are investigating reports of issues with service(s): Git Operations. We will continue to keep users updated on progress towards mitigation.\nOct 21, 23:06 UTC\nInvestigating - We are investigating reports of degraded performance for Git Operations.",
-          "link": "https://www.githubstatus.com/incidents/5kjgx4x2frkw",
-          "publishedOn": "2022-10-21T23:59:33.000Z",
-          "wordCount": 4015,
-          "title": "Incident with Git Operations",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
