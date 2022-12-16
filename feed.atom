@@ -1,18 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-15T00:23:45.268Z</id>
+    <id>urn:2022-12-16T00:22:21.796Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-15T00:23:45.268Z</updated>
+    <updated>2022-12-16T00:22:21.796Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[US and Canada SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/17bz5mjp6btf</id>
-        <link href="https://status.twilio.com/incidents/17bz5mjp6btf"/>
-        <updated>2022-12-15T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Dec 14, 20:00 PST  -  Dec 15, 00:00 PST
-Nov 23, 16:40 PST
-Scheduled - Our SMS carrier partner in the US and Canada will be conducting planned maintenance from 14 December 2022 at 20:00 PDT until 15 December 2022 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from both US and Canada handsets via Toll-free numbers]]></summary>
+        <title type="html"><![CDATA[Incident: Messages on iOS are automatically marked as read]]></title>
+        <id>https://status.slack.com//2022-12/4db4ec459abdd159</id>
+        <link href="https://status.slack.com//2022-12/4db4ec459abdd159"/>
+        <updated>2022-12-16T00:17:54.000Z</updated>
+        <summary type="html"><![CDATA[We are working on a permanent fix for this issue. In the meantime, as a workaround, we've found that affected users can avoid this issue by switching back to the channel list in their iOS app prior to exiting the app. We'll be back with another update as soon as possible.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Beeline]]></title>
+        <id>https://status.twilio.com/incidents/89v53wlmgktl</id>
+        <link href="https://status.twilio.com/incidents/89v53wlmgktl"/>
+        <updated>2022-12-16T00:00:39.000Z</updated>
+        <summary type="html"><![CDATA[Dec 15, 16:00 PST
+Completed - The scheduled maintenance has been completed.
+Dec 15, 13:01 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Dec 13, 13:16 PST
+Scheduled - The Beeline network in Russia is conducting a planned maintenance from 15 December 2022 at 13:00 PST until 15 December 2022 at 16:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to MLT Network in Tajikistan]]></title>
+        <id>https://status.twilio.com/incidents/7cmdwpv99ybg</id>
+        <link href="https://status.twilio.com/incidents/7cmdwpv99ybg"/>
+        <updated>2022-12-15T23:53:40.000Z</updated>
+        <summary type="html"><![CDATA[Dec 15, 15:53 PST
+Update - We continue to observe SMS delivery delays when sending messages to MLT Network in Tajikistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Dec 15, 15:01 PST
+Investigating - We are experiencing SMS delivery delays when sending messages to MLT Network in Tajikistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 60 minutes or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flex Insights RealTime]]></title>
+        <id>https://status.twilio.com/incidents/cwt0sx9hqjk6</id>
+        <link href="https://status.twilio.com/incidents/cwt0sx9hqjk6"/>
+        <updated>2022-12-15T23:36:21.000Z</updated>
+        <summary type="html"><![CDATA[Dec 15, 15:36 PST
+Update - Our engineering team continues to run the data fix. The estimated completion time for correcting the data for all affected customers is the end of today. We will provide another update in 16 hours or as soon as more information becomes available.
+Dec 15, 07:36 PST
+Update - Our engineer team is running a fix of data. The estimated completion time for correcting the data for all affected customers is the end of today. We will provide another update in 8 hours or as soon as more information becomes available.
+Dec 15, 05:35 PST
+Update - Our engineer team is running a fix of data with about 50% of data fixed. The estimated completion time for correcting the data for all affected customers is the end of today. We will provide another update in 4 hours or as soon as more information becomes available.
+Dec 15, 03:34 PST
+Identified - We have identified what is causing the Flex Insights Real Time stats showing the incorrect stats. We are working on the resolution. We will provide another update in 2 hours or as soon as more information becomes available.
+Dec 15, 02:40 PST
+Investigating - We are experiencing issues where Flex Insights Real Time stats are showing incorrect stats to some customers due to workers unassignment from all queues on workers.attribute.update event. Our engineering team has been alerted and is actively investigating. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Interconnect Page Loading Issues]]></title>
+        <id>https://status.twilio.com/incidents/9gyvjtsn6pk0</id>
+        <link href="https://status.twilio.com/incidents/9gyvjtsn6pk0"/>
+        <updated>2022-12-15T21:25:08.000Z</updated>
+        <summary type="html"><![CDATA[Dec 15, 13:25 PST
+Resolved - Interconnect was degraded for 168 hours and 8 minutes between 14:52 on 12/06/2022  and 15:00 on 12/13/2022 Pacific Time. During this period, customers may not able to load the Interconnect app within the Twilio console, as such customers were not able to reference their connections and provision VPNs. The issue has now been resolved.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Indonesia SMS carrier maintenance - XL Axiata (Axis)]]></title>
+        <id>https://status.twilio.com/incidents/3q23rhjty0c3</id>
+        <link href="https://status.twilio.com/incidents/3q23rhjty0c3"/>
+        <updated>2022-12-15T21:00:30.000Z</updated>
+        <summary type="html"><![CDATA[Dec 15, 13:00 PST
+Completed - The scheduled maintenance has been completed.
+Dec 15, 08:00 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Dec 13, 07:13 PST
+Scheduled - The XL Axiata (Axis) network in Indonesia is conducting an emergency maintenance from 15 December 2022 at 08:00 PST until 15 December 2022 at 13:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from XL Axiata (Axis) Indonesia handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Investigating reports of degraded performance.]]></title>
+        <id>https://www.githubstatus.com/incidents/d5158f5wh1ly</id>
+        <link href="https://www.githubstatus.com/incidents/d5158f5wh1ly"/>
+        <updated>2022-12-15T20:37:42.000Z</updated>
+        <summary type="html"><![CDATA[Dec 15, 20:37 UTC
+Resolved - This incident has been resolved.
+Dec 15, 20:31 UTC
+Update - We are working on mitigating the issues loading content from raw.github.com
+Dec 15, 20:00 UTC
+Update - We are investigating issues loading content from raw.github.com
+Dec 15, 20:00 UTC
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with API Requests]]></title>
+        <id>https://www.githubstatus.com/incidents/pkbqcn8dp6dy</id>
+        <link href="https://www.githubstatus.com/incidents/pkbqcn8dp6dy"/>
+        <updated>2022-12-15T20:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Dec 15, 20:00 UTC
+Resolved - This incident has been resolved.
+Dec 15, 19:47 UTC
+Update - We are investigating issues loading content from raw.github.com
+Dec 15, 19:42 UTC
+Investigating - We are investigating reports of degraded performance for API Requests.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are able to access Google Meet, but are seeing error messages, high latency, and/or other unexpected behavior.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/bVq3DHMPJjg2tUrnetmf</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/bVq3DHMPJjg2tUrnetmf"/>
+        <updated>2022-12-15T19:01:28.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2022-12-13 05:30</strong> and ended at <strong>2022-12-13 17:50</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Mini Incident Report</h1>
+<p>We apologize for the inconvenience this service disruption may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
+<p>(All Times US/Pacific)</p>
+<p><strong>Incident Start:</strong> 12 December 2022 21:30</p>
+<p><strong>Incident End:</strong> 13 December 2022 09:50</p>
+<p><strong>Duration:</strong> 12 hours, 20 minutes</p>
+<p><strong>Affected Services and Features:</strong> Google Meet</p>
+<p><strong>Regions/Zones:</strong> Global</p>
+<p><strong>Description:</strong></p>
+<p>Some Google Meet users experienced issues joining Live Streams globally for a duration of 12 hours and 20 minutes. The issue did not impact iOS users of Meet.</p>
+<p>From preliminary analysis, the root cause of the issue was due to an experimental rollout of the video player, which stopped recognizing Meet Live Streams. The issue was fully mitigated once a rollback was completed.</p>
+<p><strong>Customer Impact:</strong></p>
+<p>Some customers were unable to join Meet Live Streams during the period of the outage.</p>
+</div><hr><p>Affected products: Google Meet</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some users having trouble playing videos]]></title>
+        <id>https://status.slack.com//2022-12/ddd9879de59fd9d1</id>
+        <link href="https://status.slack.com//2022-12/ddd9879de59fd9d1"/>
+        <updated>2022-12-15T18:39:01.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary: From December 13, 2022 at 11:46 AM PST to December 14, 2022 at 7:30 AM PST some customers may have experienced issues while playing videos.
+
+
+We determined this issue was caused by a recent frontend change that caused a failure to load videos via the streaming protocol HLS (Hypertext Live Streaming), for which no fallback existed. 
+
+
+To resolve this issue, we introduced a fallback to HLS allowing users to play video files with a slightly degraded experience, such as longer load times. 
+
+
+Additionally, we disabled a code optimization technique which fully restored HLS functionality for all users.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recent update on Flex showing incorrect statistics]]></title>
+        <id>https://status.twilio.com/incidents/xjsw9w7bt20m</id>
+        <link href="https://status.twilio.com/incidents/xjsw9w7bt20m"/>
+        <updated>2022-12-15T10:30:53.000Z</updated>
+        <summary type="html"><![CDATA[Dec 15, 02:30 PST
+Resolved - We are no longer experiencing incorrect statistics, the service is functioning normally at this time. This incident has been resolved.
+Dec 15, 02:01 PST
+Update - We have potential issue with Flex where a recent release is causing workers unassignment from all queues on workers.attribute.update event, resulting customer experiencing is incorrect statistics. Our engineering team has been alerted and is actively investigating. We will provide another update in 30 minutes or as soon as more information becomes available.
+Dec 15, 01:50 PST
+Update - Our monitoring systems have detected a potential issue with Flex where a recent release is causing workers unassignment from all queues on workers.attribute.update event. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
+Dec 15, 01:42 PST
+Investigating - Our monitoring systems have detected a potential issue with Flex. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -21,10 +183,64 @@ Scheduled - Our SMS carrier partner in the US and Canada will be conducting plan
         <title type="html"><![CDATA[US MMS Carrier Partner Maintenance]]></title>
         <id>https://status.twilio.com/incidents/m3bct3chl913</id>
         <link href="https://status.twilio.com/incidents/m3bct3chl913"/>
-        <updated>2022-12-15T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Dec 14, 20:00 PST  -  Dec 15, 00:00 PST
+        <updated>2022-12-15T08:00:52.000Z</updated>
+        <summary type="html"><![CDATA[Dec 15, 00:00 PST
+Completed - The scheduled maintenance has been completed.
+Dec 14, 20:00 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Nov 23, 16:37 PST
 Scheduled - Our MMS carrier partner in the US is conducting planned maintenance from 14 December 2022 at 20:00 PDT until 15 December 2022 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from US handsets via US Toll-free numbers.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US and Canada SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/17bz5mjp6btf</id>
+        <link href="https://status.twilio.com/incidents/17bz5mjp6btf"/>
+        <updated>2022-12-15T08:00:27.000Z</updated>
+        <summary type="html"><![CDATA[Dec 15, 00:00 PST
+Completed - The scheduled maintenance has been completed.
+Dec 14, 20:00 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Nov 23, 16:40 PST
+Scheduled - Our SMS carrier partner in the US and Canada will be conducting planned maintenance from 14 December 2022 at 20:00 PDT until 15 December 2022 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from both US and Canada handsets via Toll-free numbers]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Super SIM Network Connectivity Issues]]></title>
+        <id>https://status.twilio.com/incidents/66dh7jgx4gys</id>
+        <link href="https://status.twilio.com/incidents/66dh7jgx4gys"/>
+        <updated>2022-12-15T05:20:35.000Z</updated>
+        <summary type="html"><![CDATA[Dec 14, 21:20 PST
+Resolved - We are no longer experiencing connectivity issue, the service is functioning normally at this time. This incident has been resolved.
+Dec 14, 20:54 PST
+Monitoring - We are now seeing recovery of the connectivity issue. We are continuing to monitor for service stability. We will provide another update in 30 minutes or as soon as more information becomes available.
+Dec 14, 20:41 PST
+Update - We are continuing to work on a fix for this issue.
+Dec 14, 20:38 PST
+Identified - Beginning at 8:05 PM PT, we observed ~6% of active data sessions on Super SIM being dropped. Devices that attempted to reconnect immediately after losing connectivity should have been able to successfully reconnect to the redundant instances while the impacted one recovered. We will continue to monitor. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inbound Call Failures to a Subset of Twilio Poland Numbers]]></title>
+        <id>https://status.twilio.com/incidents/v4mb8v2wk6dp</id>
+        <link href="https://status.twilio.com/incidents/v4mb8v2wk6dp"/>
+        <updated>2022-12-15T05:05:56.000Z</updated>
+        <summary type="html"><![CDATA[Dec 14, 21:05 PST
+Resolved - The issue affecting inbound calls to subsets of Twilio Poland phone numbers has been resolved and the service is functioning normally at this time.
+Dec 14, 19:05 PST
+Update - We are seeing recovery for inbound calls to subsets of Twilio Poland phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Dec 14, 18:35 PST
+Monitoring - We have started seeing recovery for inbound calls to subsets of Twilio Poland phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+Dec 14, 18:12 PST
+Update - Our monitoring systems have detected a potential issue with Inbound Call Failures to subsets of Twilio Poland phone numbers. Our engineering team has been alerted and is actively investigating. We will provide an update in 2 hours or as soon as we have more information.
+Dec 14, 17:11 PST
+Investigating - Our monitoring systems have detected a potential issue with Inbound Call Failures to subsets of Twilio Poland phone numbers. Our engineering team has been alerted and is actively investigating. We will provide an update in one hour or as soon as we have more information.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -33,11 +249,64 @@ Scheduled - Our MMS carrier partner in the US is conducting planned maintenance 
         <title type="html"><![CDATA[SMS Delivery Delays to Telefonica Network in United Kingdom]]></title>
         <id>https://status.twilio.com/incidents/lwj7pqx6rbyd</id>
         <link href="https://status.twilio.com/incidents/lwj7pqx6rbyd"/>
-        <updated>2022-12-15T00:13:59.000Z</updated>
-        <summary type="html"><![CDATA[Dec 14, 16:13 PST
+        <updated>2022-12-15T05:04:55.000Z</updated>
+        <summary type="html"><![CDATA[Dec 14, 21:04 PST
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Telefonica Network in United Kingdom. This incident has been resolved.
+Dec 14, 18:57 PST
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Telefonica Network in United Kingdom. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Dec 14, 18:13 PST
+Update - We are experiencing SMS delivery delays when sending messages to Telefonica Network in United Kingdom. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+Dec 14, 16:13 PST
 Update - We are experiencing SMS delivery delays when sending messages to Telefonica Network in United Kingdom. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
 Dec 14, 15:13 PST
 Investigating - We are experiencing SMS delivery delays when sending messages to Telefonica Network in United Kingdom. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 60 minutes or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some users not receiving 2FA codes via SMS]]></title>
+        <id>https://status.slack.com//2022-12/7e95e869e43429ae</id>
+        <link href="https://status.slack.com//2022-12/7e95e869e43429ae"/>
+        <updated>2022-12-15T01:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Issue Summary:
+
+
+From December 14, 2022 at 04:30 PST to December 14, 2022 at 09:00 PST, we received reports from customers who were unable to receive SMS 2FA codes to login, we discovered that the Slack Twilio queue on the Twilio services was growing at a high rate and the outgoing SMS message error rate began to grow. Customers who had enabled 2FA via SMS were affected in at least India, China, US, Brazil, and Argentina. It was discovered that a majority of this traffic was coming from nefarious acting workspaces issuing too many app download link SMS requests to the Twilio service. With thousands of workspaces doing this at the same time, our queue became overloaded. The disposable email domains used to create these teams were added to a Total Ban blocklist preventing any users using the domains from accessing Slack — stopping team creation and further SMS pumping. Twilio was also able to drop the messages specific to app download links based on a content filter. With these actions, the queue was able to catch back up.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Beeline]]></title>
+        <id>https://status.twilio.com/incidents/c8ljlny6cjwb</id>
+        <link href="https://status.twilio.com/incidents/c8ljlny6cjwb"/>
+        <updated>2022-12-15T01:00:34.000Z</updated>
+        <summary type="html"><![CDATA[Dec 14, 17:00 PST
+Completed - The scheduled maintenance has been completed.
+Dec 14, 12:00 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Dec 13, 03:35 PST
+Scheduled - The Beeline network in Russia is conducting an emergency maintenance from 14 December 2022 at 12:00 PST until 14 December 2022 at 17:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to MTN Network in Benin]]></title>
+        <id>https://status.twilio.com/incidents/pf5dwknx1rz7</id>
+        <link href="https://status.twilio.com/incidents/pf5dwknx1rz7"/>
+        <updated>2022-12-15T00:30:33.000Z</updated>
+        <summary type="html"><![CDATA[Dec 14, 16:30 PST
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to MTN Network in Benin. This incident has been resolved.
+Dec 14, 14:33 PST
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to MTN network in Benin. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Dec 14, 09:07 PST
+Update - We continue experiencing SMS delivery delays when sending messages to MTN network in Benin. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+Dec 14, 07:11 PST
+Update - We are still experiencing SMS delivery delays when sending messages to MTN network in Benin. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Dec 14, 06:16 PST
+Investigating - We are experiencing SMS delivery delays when sending messages to MTN network in Benin. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -53,33 +322,6 @@ Dec 14, 14:14 PST
 Update - URL Shortening Service on the Promotional Messaging is not working. Users are seeing the message delivered with the original long links rather than the shortened links. Our engineering team is actively investigating. We will update in 1 hour or as soon as we have more information.
 Dec 14, 14:06 PST
 Investigating - Our monitoring systems have detected a potential issue with with Programmable Messaging. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users having trouble playing videos]]></title>
-        <id>https://status.slack.com//2022-12/ddd9879de59fd9d1</id>
-        <link href="https://status.slack.com//2022-12/ddd9879de59fd9d1"/>
-        <updated>2022-12-14T22:45:25.000Z</updated>
-        <summary type="html"><![CDATA[We’ve resolved the issue concerning video playback quality affecting some users. You may need to reload Slack (Command/Ctrl + Shift + R) in order for this fix to be reflected on your end. We’re sorry for the disruption we brought to your day.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to MTN Network in Benin]]></title>
-        <id>https://status.twilio.com/incidents/pf5dwknx1rz7</id>
-        <link href="https://status.twilio.com/incidents/pf5dwknx1rz7"/>
-        <updated>2022-12-14T22:33:22.000Z</updated>
-        <summary type="html"><![CDATA[Dec 14, 14:33 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to MTN network in Benin. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 14, 09:07 PST
-Update - We continue experiencing SMS delivery delays when sending messages to MTN network in Benin. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Dec 14, 07:11 PST
-Update - We are still experiencing SMS delivery delays when sending messages to MTN network in Benin. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 14, 06:16 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to MTN network in Benin. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -115,19 +357,6 @@ Scheduled - The Beeline network in Kazakhstan is conducting an emergency mainten
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Beeline]]></title>
-        <id>https://status.twilio.com/incidents/c8ljlny6cjwb</id>
-        <link href="https://status.twilio.com/incidents/c8ljlny6cjwb"/>
-        <updated>2022-12-14T20:00:34.000Z</updated>
-        <summary type="html"><![CDATA[Dec 14, 12:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Dec 13, 03:35 PST
-Scheduled - The Beeline network in Russia is conducting an emergency maintenance from 14 December 2022 at 12:00 PST until 14 December 2022 at 17:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Delay and failures in SMS delivery to Beeline network, Tajikistan]]></title>
         <id>https://status.twilio.com/incidents/41yr9fj8n587</id>
         <link href="https://status.twilio.com/incidents/41yr9fj8n587"/>
@@ -142,16 +371,6 @@ Dec 14, 06:00 PST
 Update - W…]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users not receiving 2FA codes via SMS]]></title>
-        <id>https://status.slack.com//2022-12/7e95e869e43429ae</id>
-        <link href="https://status.slack.com//2022-12/7e95e869e43429ae"/>
-        <updated>2022-12-14T19:36:09.000Z</updated>
-        <summary type="html"><![CDATA[The issue with two-factor authentication codes via SMS has been resolved. We apologize for any inconvenience.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
@@ -173,141 +392,6 @@ Dec 14, 08:26 PST
 Investigating - Our monitoring systems have detected a potential issue with multiple trunking failures with Voice. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Call Engineers Are Investigating a Potential Issue With Timeout on API.TWILIO.COM]]></title>
-        <id>https://status.twilio.com/incidents/tsmbl18j7svg</id>
-        <link href="https://status.twilio.com/incidents/tsmbl18j7svg"/>
-        <updated>2022-12-14T17:35:21.000Z</updated>
-        <summary type="html"><![CDATA[Dec 14, 09:35 PST
-Resolved - We have fully investigated the issue with timeout on api.twilio.com, and it was determined that it was related to an active post we already have. Please relate to the following link for new updates: https://status.twilio.com/incidents/tmxh0lcbqg3w.
-Dec 14, 09:19 PST
-Investigating - We've become aware of a potential issue with timeout on api.twilio.com. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delay in SMS delivery to Jawwal network, Palestine]]></title>
-        <id>https://status.twilio.com/incidents/894f8l7zwp47</id>
-        <link href="https://status.twilio.com/incidents/894f8l7zwp47"/>
-        <updated>2022-12-14T12:58:08.000Z</updated>
-        <summary type="html"><![CDATA[Dec 14, 04:58 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Jawwal network, Palestine. This incident has been resolved.
-Dec 14, 03:10 PST
-Monitoring - We are observing recovery in SMS delivery delays to Jawwal network, Palestine. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 14, 01:20 PST
-Update - We are still experiencing delay in SMS delivery to Jawwal network, Palestine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2hrs or as soon as more information becomes available.
-Dec 14, 00:26 PST
-Investigating - We are experiencing Delay in SMS delivery to Jawwal network, Palestine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1hr or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Brazil Voice Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/7c815b735vw0</id>
-        <link href="https://status.twilio.com/incidents/7c815b735vw0"/>
-        <updated>2022-12-14T07:00:34.000Z</updated>
-        <summary type="html"><![CDATA[Dec 13, 23:00 PST
-Completed - The scheduled maintenance has been completed.
-Dec 13, 19:01 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Dec  8, 22:16 PST
-Scheduled - Our Voice carrier partner in Brazil is conducting a planned maintenance from 13 December 2022 at 19:00 PDT until 13 December 2022 at 23:00 PDT. During the maintenance window, there could be call disconnections to and from a subset of Brazil phone numbers.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Devices Using Super SIM May Have Experienced Degraded Connectivity]]></title>
-        <id>https://status.twilio.com/incidents/3c9b9ncwjcpd</id>
-        <link href="https://status.twilio.com/incidents/3c9b9ncwjcpd"/>
-        <updated>2022-12-14T06:15:41.000Z</updated>
-        <summary type="html"><![CDATA[Dec 13, 22:15 PST
-Resolved - Super SIM connectivity was degraded for 18 minutes between 21:24 and 21:42 PT on 12/13/2022. During this period, customers may have experienced delays in getting connected to the network. At the same time we noticed that 2.2% of devices lost data connectivity. Devices that attempted to reconnect immediately after losing connectivity should have been able to successfully reconnect to the redundant instances while the impacted one recovered. The issue has now been resolved.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Airtel Network in Congo]]></title>
-        <id>https://status.twilio.com/incidents/gss3rqbb4dj0</id>
-        <link href="https://status.twilio.com/incidents/gss3rqbb4dj0"/>
-        <updated>2022-12-14T04:41:56.000Z</updated>
-        <summary type="html"><![CDATA[Dec 13, 20:41 PST
-Resolved - We are no longer experiencing SMS delivery failures to Airtel Network in Congo. This incident has been resolved.
-Dec 13, 18:39 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Airtel Network in Congo. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 13, 17:45 PST
-Update - We are experiencing SMS delivery delays when sending messages to Airtel Network in Congo. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 13, 16:47 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to Airtel Network in Congo. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delay and failures in SMS delivery to Beeline network, Kyrgyzstan]]></title>
-        <id>https://status.twilio.com/incidents/hy1bhrhrt5dt</id>
-        <link href="https://status.twilio.com/incidents/hy1bhrhrt5dt"/>
-        <updated>2022-12-14T04:41:54.000Z</updated>
-        <summary type="html"><![CDATA[Dec 13, 20:41 PST
-Resolved - We are no longer experiencing SMS delivery delay and failures to Beeline Network in Kyrgyzstan. This incident has been resolved.
-Dec 13, 18:38 PST
-Monitoring - We are observing successful SMS delivery to Beeline network, Kyrgyzstan.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Dec 13, 17:27 PST
-Update - We are experiencing Delay and failures in SMS delivery to Beeline network, Kyrgyzstan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Dec 13, 16:27 PST
-Update - We are experiencing Delay and failures in SMS delivery to Beeline network, Kyrgyzstan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
-Dec 13, 16:20 PST
-Investigating - Our monitoring systems have detected a potential issue with SMS Delivery Delay to Beeline Network in Kyrgyzstan. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Beeline]]></title>
-        <id>https://status.twilio.com/incidents/jw5fqmc7k7v8</id>
-        <link href="https://status.twilio.com/incidents/jw5fqmc7k7v8"/>
-        <updated>2022-12-14T04:40:45.000Z</updated>
-        <summary type="html"><![CDATA[Dec 13, 20:40 PST
-Completed - The scheduled maintenance has been completed.
-Dec 13, 13:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Dec 12, 00:46 PST
-Scheduled - The Beeline network in Russia is conducting a planned maintenance from 13 December 2022 at 13:00 PST until 13 December 2022 at 20:40 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - MTS]]></title>
-        <id>https://status.twilio.com/incidents/99mj89l56pqs</id>
-        <link href="https://status.twilio.com/incidents/99mj89l56pqs"/>
-        <updated>2022-12-14T03:01:38.000Z</updated>
-        <summary type="html"><![CDATA[Dec 13, 19:01 PST
-Completed - The scheduled maintenance has been completed.
-Dec 13, 14:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Dec 13, 07:16 PST
-Scheduled - The MTS network in Russia is conducting an emergency maintenance from 13 December 2022 at 14:00 PST until 13 December 2022 at 19:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from MTS Russia handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: We are experiencing an issue with Gmail, Google Chat, Google Voice. Our engineering team continues to investigate the issue. We will provide an update by Tuesday, 2022-12-13 10:30 US/Pacific with current details.
-Users may be facing unavailability for Gmail, Google Chat and Google Voice]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/tLjnxF7DdVTCicccdQtj</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/tLjnxF7DdVTCicccdQtj"/>
-        <updated>2022-12-14T00:07:30.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2022-12-13 15:34</strong> and ended at <strong>2022-12-13 18:04</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>Upon further investigation, our engineering teams believe that the scope is very limited and/or no customers of Gmail were impacted.</p>
-<p>The Mini Incident Report impacting Google Voice and Google Chat is available on the <a href="https://www.google.com/appsstatus/dashboard/incidents/AzeVS1iCHxhtzgi8r3mc">https://www.google.com/appsstatus/dashboard/incidents/AzeVS1iCHxhtzgi8r3mc</a> while we prepare a full Issue Summary Report.</p>
-</div><hr><p>Affected products: Gmail</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
@@ -754,23 +838,6 @@ Monitoring - There was an incident that caused permission errors to be thrown fo
 Resolved - This incident has been resolved.
 Nov 18, 03:59 UTC
 Investigating - We are investigating reports of degraded performance for Actions.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Codespaces]]></title>
-        <id>https://www.githubstatus.com/incidents/pk3y4xdscdc2</id>
-        <link href="https://www.githubstatus.com/incidents/pk3y4xdscdc2"/>
-        <updated>2022-11-15T15:53:55.000Z</updated>
-        <summary type="html"><![CDATA[Nov 15, 15:53 UTC
-Resolved - This incident has been resolved.
-Nov 15, 15:22 UTC
-Update - We are continuing to investigate issues creating Codespaces in our southeast Asia region.
-Nov 15, 14:50 UTC
-Update - We are investigating issues with Codespace creation in our southeast Asia region
-Nov 15, 14:32 UTC
-Investigating - We are investigating reports of degraded performance for Codespaces.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
