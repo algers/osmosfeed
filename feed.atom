@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-18T00:21:21.868Z</id>
+    <id>urn:2022-12-19T00:19:44.696Z</id>
     <title>osmos::feed</title>
-    <updated>2022-12-18T00:21:21.868Z</updated>
+    <updated>2022-12-19T00:19:44.696Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Voice Carrier Partner Maintenance - Multiple Europe countries]]></title>
+        <id>https://status.twilio.com/incidents/kj7qw3ftvwbl</id>
+        <link href="https://status.twilio.com/incidents/kj7qw3ftvwbl"/>
+        <updated>2022-12-19T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Dec 19, 01:00 - 04:00 PST
+Dec 14, 08:17 PST
+Scheduled - Our Voice carrier partner for Europe is conducting a planned maintenance from 19 December 2022 at 1:00 PST until 19 December 2022 at 4:00 PST. During the maintenance window, there could be intermittent voice quality issues, delayed audio for calls from Europe to Europe phone numbers.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Nextel Network in Chile]]></title>
+        <id>https://status.twilio.com/incidents/m4yc72p4yrj5</id>
+        <link href="https://status.twilio.com/incidents/m4yc72p4yrj5"/>
+        <updated>2022-12-18T23:11:34.000Z</updated>
+        <summary type="html"><![CDATA[Dec 18, 15:11 PST
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Nextel Network in Chile. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Dec 18, 14:17 PST
+Investigating - We are experiencing SMS delivery delays when sending messages to Nextel Network in Chile. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Singapore SMS Carrier Maintenance - StarHub]]></title>
         <id>https://status.twilio.com/incidents/x7vvvs6g3gsl</id>
@@ -393,25 +418,6 @@ Dec 14, 20:41 PST
 Update - We are continuing to work on a fix for this issue.
 Dec 14, 20:38 PST
 Identified - Beginning at 8:05 PM PT, we observed ~6% of active data sessions on Super SIM being dropped. Devices that attempted to reconnect immediately after losing connectivity should have been able to successfully reconnect to the redundant instances while the impacted one recovered. We will continue to monitor. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inbound Call Failures to a Subset of Twilio Poland Numbers]]></title>
-        <id>https://status.twilio.com/incidents/v4mb8v2wk6dp</id>
-        <link href="https://status.twilio.com/incidents/v4mb8v2wk6dp"/>
-        <updated>2022-12-15T05:05:56.000Z</updated>
-        <summary type="html"><![CDATA[Dec 14, 21:05 PST
-Resolved - The issue affecting inbound calls to subsets of Twilio Poland phone numbers has been resolved and the service is functioning normally at this time.
-Dec 14, 19:05 PST
-Update - We are seeing recovery for inbound calls to subsets of Twilio Poland phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Dec 14, 18:35 PST
-Monitoring - We have started seeing recovery for inbound calls to subsets of Twilio Poland phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 30 minutes or as soon as more information becomes available.
-Dec 14, 18:12 PST
-Update - Our monitoring systems have detected a potential issue with Inbound Call Failures to subsets of Twilio Poland phone numbers. Our engineering team has been alerted and is actively investigating. We will provide an update in 2 hours or as soon as we have more information.
-Dec 14, 17:11 PST
-Investigating - Our monitoring systems have detected a potential issue with Inbound Call Failures to subsets of Twilio Poland phone numbers. Our engineering team has been alerted and is actively investigating. We will provide an update in one hour or as soon as we have more information.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
