@@ -21,28 +21,7 @@
       "title": "Security Bulletins on Tailscale",
       "feedUrl": "https://tailscale.com/security-bulletins/index.xml",
       "siteUrl": "https://tailscale.com/security-bulletins/",
-      "articles": [
-        {
-          "id": "https://tailscale.com/security-bulletins/#critical/",
-          "author": null,
-          "description": "Reference: CVE-2022-41924\nSeverity: Critical\nCVSS vector string: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:H\nDescription: A vulnerability identified in the Tailscale Windows client allows a malicious website to reconfigure the Tailscale daemon tailscaled, which can then be used to remotely execute code.\nAffected platforms: Windows\nPatched Tailscale client versions: v1.32.3 or later, v1.33.257 or later (unstable)\nWhat happened?\nIn the Tailscale Windows client, the local API was bound to a local TCP socket, and communicated with the Windows client GUI in cleartext with no Host header verification. This allowed an attacker-controlled website visited by the node to rebind DNS to an attacker-controlled DNS server, and then make local API requests in the client, including changing the coordination server to an attacker-controlled coordination server.\nWho is affected?\nAll Windows clients prior to version v1.32.3 are affected.\nWhat should I do?\nIf you are running Tailscale on Windows, upgrade to v1.32.3 or later to remediate the issue.\nWhat is the impact?\nAn attacker-controlled coordination server can send malicious URL responses to the client, including pushing executables or installing an SMB share. These allow the attacker to remotely execute code on the node.\nReviewing all logs confirms this vulnerability was not triggered or exploited.\nCredits\nWe would like to thank Emily Trau and Jamie McClymont (CyberCX) for reporting this issue. Further detail is available in their blog post.",
-          "link": "https://tailscale.com/security-bulletins/#critical/",
-          "publishedOn": "2022-11-21T00:00:00.000Z",
-          "wordCount": 1806,
-          "title": "TS-2022-004",
-          "imageUrl": "https://tailscale.com/files/images/og-image.png"
-        },
-        {
-          "id": "https://tailscale.com/security-bulletins/#low/",
-          "author": null,
-          "description": "Reference: CVE-2022-41925\nSeverity: Low\nCVSS vector string: CVSS:3.0/AV:A/AC:L/PR:N/UI:R/S:C/C:L/I:N/A:N\nDescription: A vulnerability identified in the Tailscale client allows a malicious website to access the peer API, which can then be used to access Tailscale environment variables.\nAffected platforms: All\nPatched Tailscale client versions: v1.32.3 or later, v1.33.257 or later (unstable)\nWhat happened?\nIn the Tailscale client, the peer API was vulnerable to DNS rebinding. This allowed an attacker-controlled website visited by the node to rebind DNS for the peer API to an attacker-controlled DNS server, and then making peer API requests in the client, including accessing the node’s Tailscale environment variables.\nWho is affected?\nAll Tailscale clients prior to version v1.32.3 are affected.\nWhat should I do?\nUpgrade to v1.32.3 or later to remediate the issue.\nWhat is the impact?\nAn attacker with access to the peer API on a node could use that access to read the node’s environment variables, including any credentials or secrets stored in environment variables. This may include Tailscale authentication keys, which could then be used to add new nodes to the user’s tailnet. The peer API access could also be used to learn of other nodes in the tailnet or send files via Taildrop.\nAn attacker with access to the peer API who sent a malicious file via Taildrop which was accessed while it was loading could use this to gain access to the local API, and remotely execute code.\nThere is no evidence of this vulnerability being purposefully triggered or exploited.\nCredits\nWe would like to thank Emily Trau and Jamie McClymont (CyberCX) for reporting this issue. Further detail is available in their blog post.",
-          "link": "https://tailscale.com/security-bulletins/#low/",
-          "publishedOn": "2022-11-21T00:00:00.000Z",
-          "wordCount": 1806,
-          "title": "TS-2022-005",
-          "imageUrl": "https://tailscale.com/files/images/og-image.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Airbnb API Status - Incident History",
@@ -58,16 +37,6 @@
           "wordCount": 3251,
           "title": "500 Errors Across Reservations and Listings Endpoints",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/g25l2xvrv7c0",
-          "author": null,
-          "description": "Nov 20, 23:05 PST\nResolved - This incident has been resolved.\nIf you encounter any further technical issues, please open a case via the Support Dashboard which our team will pick up and respond to in good time.\nApologies for the inconvenience caused due to this incident and thank you for your patience and understanding.\nNov 20, 21:38 PST\nMonitoring - The cause of the errors has been identified and a fix has been implemented.\nAs such, error rates have already decreased to normal levels.\nWe are monitoring the situation and will resolve the incident soon.\nPlease retry any requests that may have failed with 500 Errors.\nNov 20, 20:48 PST\nInvestigating - We are currently investigating elevated rates of 500 Errors when attempting to update Async Calendars API.",
-          "link": "https://airbnbapi.statuspage.io/incidents/g25l2xvrv7c0",
-          "publishedOn": "2022-11-21T07:05:37.000Z",
-          "wordCount": 3329,
-          "title": "Elevated Server Error Rates on Async Calendars API",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -77,12 +46,52 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
+          "id": "https://status.twilio.com/incidents/gd59p6n41fpc",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Dec 20, 18:00 - 18:10 PST\nDec 19, 05:43 PST\nScheduled - The Beeline network in Russia is conducting an emergency maintenance from 20 December 2022 at 18:00 PST until 20 December 2022 at 18:10 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.",
+          "link": "https://status.twilio.com/incidents/gd59p6n41fpc",
+          "publishedOn": "2022-12-21T02:00:00.000Z",
+          "wordCount": 6172,
+          "title": "Russia SMS Carrier Maintenance - Beeline",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/xs8p2xynw7b6",
+          "author": null,
+          "description": "Dec 20, 16:18 PST\nInvestigating - We've become aware of a potential issue with Voice Delayed Transcriptions. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/xs8p2xynw7b6",
+          "publishedOn": "2022-12-21T00:18:42.000Z",
+          "wordCount": 6175,
+          "title": "On Call Engineers Are Investigating a Potential Issue With Voice Delayed Transcriptions",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/bnjsfpxyzsmf",
+          "author": null,
+          "description": "Dec 20, 14:00 PST\nCompleted - The scheduled maintenance has been completed.\nDec 20, 10:01 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nDec 12, 15:15 PST\nScheduled - Our SMS carrier partner in Malaysia is conducting a planned maintenance from 20 December 2022 at 10:00 PST until 20 December 2022 at 14:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Malaysia handsets via subset of Shortcodes.",
+          "link": "https://status.twilio.com/incidents/bnjsfpxyzsmf",
+          "publishedOn": "2022-12-20T22:00:30.000Z",
+          "wordCount": 6205,
+          "title": "Malaysia SMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/2cjcw03f83kc",
+          "author": null,
+          "description": "Dec 20, 13:17 PST\nResolved - The issue with failed API requests through our video APIs has been resolved, and Twilio Video is operating normally at this time.\nDec 20, 11:01 PST\nMonitoring - Our video APIs are now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.\nDec 20, 10:10 PST\nUpdate - Our monitoring systems have detected failed API requests with regards to our video APIs. Our engineering team has been alerted and is actively investigating. We will provide another update in 1 hour or as soon as more information becomes available.\nDec 20, 09:57 PST\nInvestigating - Our monitoring systems have detected a potential issue with our video APIs. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/2cjcw03f83kc",
+          "publishedOn": "2022-12-20T21:17:05.000Z",
+          "wordCount": 6265,
+          "title": "Video API Failures",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.twilio.com/incidents/ctjxfr243mnm",
           "author": null,
-          "description": "Dec 19, 12:50 PST\nUpdate - We continue to experience SMS delivery delays when sending messages to Zain Network in Jordan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nDec 19, 08:50 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to Zain Network In Jordan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nDec 19, 06:54 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to Zain Network In Jordan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 19, 05:56 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to Zain Network In Jordan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "description": "Dec 20, 04:17 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Zain Network In Jordan. This incident has been resolved.\nDec 20, 02:30 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Zain Network In Jordan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 19, 20:50 PST\nUpdate - We continue to experience SMS delivery delays when sending messages to Zain Network in Jordan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.\nDec 19, 12:50 PST\nUpdate - We continue to experience SMS delivery delays when sending messages to Zain Network in Jordan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nDec 19, 08:50 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to Zain Network In Jordan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nDec 19, 06:54 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to Zain Network In Jordan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 19, 05:56 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to Zain Network In Jordan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
           "link": "https://status.twilio.com/incidents/ctjxfr243mnm",
-          "publishedOn": "2022-12-20T00:08:29.000Z",
-          "wordCount": 6328,
+          "publishedOn": "2022-12-20T12:17:36.000Z",
+          "wordCount": 6455,
           "title": "SMS Delivery Delays to Zain Network in Jordan",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -235,36 +244,6 @@
           "wordCount": 6758,
           "title": "Flex Insights RealTime",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/7cmdwpv99ybg",
-          "author": null,
-          "description": "Dec 15, 22:13 PST\nResolved - We are no longer experiencing SMS delivery failures to MLT Network in Tajikistan. This incident has been resolved.\nDec 15, 21:30 PST\nUpdate - We are observing recovery in SMS delivery delays when sending messages to MLT Network in Tajikistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 15, 19:29 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to MLT Network in Tajikistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 15, 17:47 PST\nUpdate - We continue to observe SMS delivery delays when sending messages to MLT Network in Tajikistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nDec 15, 15:53 PST\nUpdate - We continue to observe SMS delivery delays when sending messages to MLT Network in Tajikistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 15, 15:01 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to MLT Network in Tajikistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 60 minutes or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/7cmdwpv99ybg",
-          "publishedOn": "2022-12-16T06:13:44.000Z",
-          "wordCount": 6400,
-          "title": "SMS Delivery Delays to MLT Network in Tajikistan",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/t3np9kpxtjk3",
-          "author": null,
-          "description": "Dec 15, 21:49 PST\nResolved - Our engineers have reported historical call deletion is processing in real-time now and operating normally.\nDec 15, 21:41 PST\nUpdate - Our engineers have reported historical call deletion is processing in real-time now. Historical deletes are being processed manually. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nDec 15, 21:12 PST\nUpdate - Our engineers have reported historical call deletion is processing in real-time now. Historical deletes are being processed manually. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nDec 15, 20:36 PST\nUpdate - Our engineers have reported …",
-          "link": "https://status.twilio.com/incidents/t3np9kpxtjk3",
-          "publishedOn": "2022-12-16T05:49:23.000Z",
-          "wordCount": 7073,
-          "title": "Deleting Historical Calls Not Being Registered in Database",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/89v53wlmgktl",
-          "author": null,
-          "description": "Dec 15, 16:00 PST\nCompleted - The scheduled maintenance has been completed.\nDec 15, 13:01 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nDec 13, 13:16 PST\nScheduled - The Beeline network in Russia is conducting a planned maintenance from 15 December 2022 at 13:00 PST until 15 December 2022 at 16:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.",
-          "link": "https://status.twilio.com/incidents/89v53wlmgktl",
-          "publishedOn": "2022-12-16T00:00:39.000Z",
-          "wordCount": 6200,
-          "title": "Russia SMS Carrier Maintenance - Beeline",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -308,13 +287,13 @@
       "siteUrl": "https://www.google.com/appsstatus/dashboard/",
       "articles": [
         {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/fUoeMVUu4mVDY4Wyg8Cf",
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/bVq3DHMPJjg2tUrnetmf",
           "author": null,
-          "description": "<p> Incident began at <strong>2022-12-10 13:29</strong> and ended at <strong>2022-12-10 17:52</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Incident Report</h1>\n<h2>Background</h2>\n<p>Gmail&#39;s delivery system is responsible for routing, classifying, and enhancing emails. Emails are placed in a queue and are processed by a set of backend services (e.g. spam classification). If everything goes well, the mail delivery system sends the emails. However, when a failure occurs, the system keeps the emails in the queue and retries delivering them later.</p>\n<h2>Summary</h2>\n<p>On 10 December 2022 at 05:29 PT, some Gmail users observed email delivery delays of 60 minutes on average, as well as email bounce backs (i.e. senders received a delivery failure notification).</p>\n<h2>Root Cause</h2>\n<p>An email campaign from a single domain triggered a latent bug in one of the dependencies of the email delivery service, which crashed and then became overloaded. These emails contained dynamic mail content triggering service instance failures.  Due to this failure and a latent bug validation feature configuration, 80% of tasks crashed, which overloaded the remaining tasks.</p>\n<h2>Remediation and Prevention</h2>\n<p>On 10 December 2022 at 05:29 PT, Google Engineering was alerted to an issue via internal monitoring that Gmail delivery was impacted. Google Engineering began investigating and identified the following actions to mitigate the issue:</p>\n<ul>\n<li>Increase the memory of the affected dependency.</li>\n<li>Disable the feature that triggered the issue.</li>\n</ul>\n<p>The backlog of emails were then able to to be processed without any additional issues.</p>\n<p>Google is committed preventing a repeat of this issue in the future and is completing the following actions:</p>\n<ul>\n<li>Audit Gmail delivery dependencies.</li>\n<li>Optimize the email validation feature configuration.</li>\n<li>Implement automatic threshold protection against backlog overload.</li>\n</ul>\n</div><hr><p>Affected products: Gmail</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/fUoeMVUu4mVDY4Wyg8Cf",
-          "publishedOn": "2022-12-16T22:49:54.000Z",
-          "wordCount": 850,
-          "title": "RESOLVED: We are experiencing an issue with Gmail. Users may experience delays in email delivery. Our engineering team continues to investigate the issue. We will provide an update by Saturday, 2022-12-10 08:30 US/Pacific with current details.",
+          "description": "<p> Incident began at <strong>2022-12-13 05:30</strong> and ended at <strong>2022-12-13 17:50</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Incident Report</h1>\n<h2>Summary</h2>\n<p>On Monday, 12 December 2022 at 21:30 US/Pacific, some Google Meet users experienced issues joining livestreams globally for a duration of 12 hours and 20 minutes. The issue did not impact iOS users of Meet. To our Google Workspace customers who were impacted during this disruption, we sincerely apologize. This is not the level of quality and reliability we strive to offer you, and we have conducted an internal investigation and are taking immediate steps to improve the resiliency of our service.</p>\n<h2>Root Cause</h2>\n<p>Google Meet livestream allows Meet customers to stream meetings to a large number of viewers. It relies on the YouTube streaming infrastructure and the YouTube player to view livestreams in the browser.</p>\n<p>The trigger of the incident was a recent software update, which introduced an issue that resulted in the video player failing to recognize Meet livestreams and failing to start live playbacks. The change was initially pushed to 1% of users, and after monitoring for a period of time with no issues observed, Google engineers followed established practices and pushed the change to 100% of users in production.</p>\n<p>Errors that occurred during this period, however, were missed during the initial rollout, because our monitoring did not properly incorporate signals from Meet&#39;s player. Once the change was pushed to 100%, the issue&#39;s frequency increased. The errors that occurred due to the change also led to additional internal API traffic due to retry behaviors, which overloaded our servers.</p>\n<h2>Remediation and Prevention</h2>\n<p>Google engineers were notified of the issue through a customer support case on Tuesday, 13 December at 03:12 US/Pacific and immediately began an investigation. Once the scope of the issue became clear, the incident was escalated at 04:53. The incident was further escalated to the YouTube team at 07:44. At 09:20, the root cause was identified, and engineers initiated a rollback of the software update. The incident was fully mitigated at 09:50, once the rollback completed.</p>\n<p>Google is committed preventing a repeat of this issue in the future and is completing the following actions:</p>\n<ul>\n<li>Implement a fix for the video player retry loop in the Meet player to prevent request overload.</li>\n<li>Implement monitoring and alerting to detect failures to connect to livestreams in Meet and reduce mitigation time for issues of this type.</li>\n<li>Investigate an alternative live streaming platform for Meet and remove dependency on YouTube.</li>\n<li>Enhance testing in the staging environment to identify and prevent regressions before rollout progresses.</li>\n</ul>\n<h2>Detailed Description of Impact</h2>\n<p>On Monday, 12 December 2022 from 21:30 to Tuesday, 13 December at 09:50 PT, some Google Meet users experienced issues joining livestreams globally.</p>\n<h3>Google Meet</h3>\n<ul>\n<li>Android and Web Google Meet clients experienced errors, which resulted in a retry loop behavior for the Meet broadcast players.</li>\n<li>Some users would continue to see the error after the rollback completed, as a browser refresh would be required.</li>\n</ul>\n<hr>\n</div><hr><p>Affected products: Google Meet</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/bVq3DHMPJjg2tUrnetmf",
+          "publishedOn": "2022-12-20T16:41:14.000Z",
+          "wordCount": 1193,
+          "title": "RESOLVED: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are able to access Google Meet, but are seeing error messages, high latency, and/or other unexpected behavior.",
           "imageUrl": null
         }
       ]
@@ -325,12 +304,22 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/cb6ljbzhktxd",
+          "author": null,
+          "description": "Dec 20, 07:58 UTC\nResolved - This incident has been resolved.\nDec 20, 07:23 UTC\nUpdate - We are seeing delayed workflow job status updates for Actions. We are seeing the status update events being backed up and have applied a mitigation. We continue to monitor the delay.\nDec 20, 06:55 UTC\nInvestigating - We are investigating reports of degraded performance for Actions.",
+          "link": "https://www.githubstatus.com/incidents/cb6ljbzhktxd",
+          "publishedOn": "2022-12-20T07:58:09.000Z",
+          "wordCount": 4020,
+          "title": "Incident with Actions",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/3y3y8nnbyt2d",
           "author": null,
-          "description": "Dec 20, 00:09 UTC\nInvestigating - We are investigating reports of degraded performance for Actions.",
+          "description": "Dec 20, 01:38 UTC\nResolved - This incident has been resolved.\nDec 20, 01:02 UTC\nUpdate - We have identified the issue with manual workflow invocations from the UI. A mitigation will be deployed shortly.\nDec 20, 00:09 UTC\nInvestigating - We are investigating reports of degraded performance for Actions.",
           "link": "https://www.githubstatus.com/incidents/3y3y8nnbyt2d",
-          "publishedOn": "2022-12-20T00:09:27.000Z",
-          "wordCount": 3972,
+          "publishedOn": "2022-12-20T01:38:23.000Z",
+          "wordCount": 4007,
           "title": "Incident with Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -453,16 +442,6 @@
           "wordCount": 4049,
           "title": "Incident with Copilot",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/svd79g61q1wf",
-          "author": null,
-          "description": "Nov 20, 19:55 UTC\nResolved - This incident has been resolved.\nNov 20, 19:23 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces.",
-          "link": "https://www.githubstatus.com/incidents/svd79g61q1wf",
-          "publishedOn": "2022-11-20T19:55:50.000Z",
-          "wordCount": 3981,
-          "title": "Incident with Codespaces",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -474,10 +453,10 @@
         {
           "id": "https://status.slack.com//2022-12/4db4ec459abdd159",
           "author": null,
-          "description": "We've identified the cause of this issue and we're rolling out a fix to all as quickly as possible. We'll report back once it is fully released.",
+          "description": "Issue summary:\n\r\nFrom Monday December 12, 2022 at 10:27 AM PST to Monday December 19, 2022 at 1:30 PM PST, we began investigating reports of messages being marked as read when backgrounding the iOS app while in a conversation. As a result, the sidebar would not show unread messages next to the DM/Channel/Threads view. \n\r\n\r\nWe have now made a change on our end that resolved the issue and released a fix on iOS app version 22.12.21. Users on the iOS app should now be able to receive messages without them being marked as read automatically.",
           "link": "https://status.slack.com//2022-12/4db4ec459abdd159",
-          "publishedOn": "2022-12-19T22:53:13.000Z",
-          "wordCount": 247,
+          "publishedOn": "2022-12-20T14:36:43.000Z",
+          "wordCount": 406,
           "title": "Incident: Messages on iOS are automatically marked as read",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
