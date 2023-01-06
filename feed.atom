@@ -1,18 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-05T00:22:25.938Z</id>
+    <id>urn:2023-01-06T00:23:24.750Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-05T00:22:25.938Z</updated>
+    <updated>2023-01-06T00:23:24.750Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[US SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/lv7g5ss15l01</id>
-        <link href="https://status.twilio.com/incidents/lv7g5ss15l01"/>
-        <updated>2023-01-05T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jan 4, 21:00 PST  -  Jan 5, 05:00 PST
-Jan  2, 06:18 PST
-Scheduled - Our SMS carrier partner in the US is conducting an emergency maintenance from 04 January 2023 at 21:00 PST until 05 Jan 2023 at 05:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from US handsets via a subset of US long codes]]></summary>
+        <title type="html"><![CDATA[Multilingual Inbound SMS are Parsed Incorrectly, Corrupting the Text]]></title>
+        <id>https://status.twilio.com/incidents/mwl35sx2v87d</id>
+        <link href="https://status.twilio.com/incidents/mwl35sx2v87d"/>
+        <updated>2023-01-05T23:12:01.000Z</updated>
+        <summary type="html"><![CDATA[Jan  5, 15:12 PST
+Update - Our engineers are continuing to investigate an issue with multilingual inbound sms being parsed incorrectly, corrupting the text. Our engineering team is actively investigating. We will update in 8 hours or as soon as we have more information.
+Jan  5, 11:10 PST
+Update - Our engineers are continuing to investigate an issue with multilingual inbound sms being parsed incorrectly, corrupting the text. Our engineering team has been alerted and is actively investigating. We will update within 4 hours or as soon as we have more information.
+Jan  5, 09:02 PST
+Update - Our engineers are continuing to investigate an issue with multilingual inbound sms being parsed incorrectly, corrupting the text. Our engineering team has been alerted and is actively investigating. We will update within 2 hours or as soon as we have more information.
+Jan  5, 08:02 PST
+Identified - Our engineers have identified an issue with multilingual inbound sms being parsed incorrectly, corrupting the text. Our engineering team has been alerted and is actively investigating. We will update within 1 hour or as soon as we have more information.
+Jan  5, 06:57 PST
+Investigating - We've become aware of a potential issue with Flex conversations not recognizing utf-8 encoding for inbound messages. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Switzerland SMS Carrier Maintenance - Sunrise]]></title>
+        <id>https://status.twilio.com/incidents/x462rfz5khb0</id>
+        <link href="https://status.twilio.com/incidents/x462rfz5khb0"/>
+        <updated>2023-01-05T23:00:32.000Z</updated>
+        <summary type="html"><![CDATA[Jan  5, 15:00 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Jan  3, 11:19 PST
+Scheduled - The Sunrise network in Switzerland is conducting an emergency maintenance from 05 January 2023 at 15:00 PST until 05 January 2023  at 17:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Sunrise Switzerland handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Trimob Network]]></title>
+        <id>https://status.twilio.com/incidents/d7zr2ffpwnfh</id>
+        <link href="https://status.twilio.com/incidents/d7zr2ffpwnfh"/>
+        <updated>2023-01-05T22:50:05.000Z</updated>
+        <summary type="html"><![CDATA[Jan  5, 14:50 PST
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Trimob network in Ukraine. This incident has been resolved.
+Jan  5, 12:52 PST
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Trimob network in Ukraine. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Jan  5, 10:04 PST
+Update - We are continuing to experience SMS delivery delays when sending messages to Trimob network in Ukraine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+Jan  5, 08:06 PST
+Update - We are continuing to experience SMS delivery delays when sending messages to Trimob network in Ukraine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Jan  5, 07:10 PST
+Investigating - We are experiencing SMS delivery delays when sending messages to Trimob network in Ukraine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -21,8 +60,18 @@ Scheduled - Our SMS carrier partner in the US is conducting an emergency mainten
         <title type="html"><![CDATA[Delay in email delivery due to third-party outage]]></title>
         <id>https://status.rippling.com/incidents/mbk89dt1vc41</id>
         <link href="https://status.rippling.com/incidents/mbk89dt1vc41"/>
-        <updated>2023-01-05T00:17:40.000Z</updated>
-        <summary type="html"><![CDATA[Jan  5, 00:17 UTC
+        <updated>2023-01-05T15:49:25.000Z</updated>
+        <summary type="html"><![CDATA[Jan  5, 15:49 UTC
+Resolved - This incident has been resolved.
+Jan  5, 02:25 UTC
+Monitoring - A fix has been implemented and we are monitoring the results.
+Jan  5, 01:45 UTC
+Update - We are continuing to monitor our third-party service provider for updates. Service has not been restored by the third-party email provider. Once service is restored, the majority of emails that were not sent during the outage will be resent.
+Jan  5, 01:14 UTC
+Update - We are continuing to monitor our third-party service provider for updates. Service has not been restored by the third-party email provider. Once service is restored, the majority of emails that were not sent during the outage will be resent.
+Jan  5, 00:38 UTC
+Update - Service has not been restored by the third-party email provider. Once service is restored, the majority of emails that were not sent during the outage will be resent.
+Jan  5, 00:17 UTC
 Identified - A fix has been implemented by the third-party service. We are working to confirm service has been restored.
 Jan  4, 23:31 UTC
 Investigating - Our third-party email delivery provider has been experiencing an outage since Jan 4th, 2:10 PM PST, causing a delay in notification delivery for all Rippling emails (including password resets). We are investigating this issue with the third-party provider.]]></summary>
@@ -31,11 +80,53 @@ Investigating - Our third-party email delivery provider has been experiencing an
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[US SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/lv7g5ss15l01</id>
+        <link href="https://status.twilio.com/incidents/lv7g5ss15l01"/>
+        <updated>2023-01-05T13:00:08.000Z</updated>
+        <summary type="html"><![CDATA[Jan  5, 05:00 PST
+Completed - The scheduled maintenance has been completed.
+Jan  4, 21:01 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Jan  2, 06:18 PST
+Scheduled - Our SMS carrier partner in the US is conducting an emergency maintenance from 04 January 2023 at 21:00 PST until 05 Jan 2023 at 05:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from US handsets via a subset of US long codes]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays To Mobifone Vietnam]]></title>
+        <id>https://status.twilio.com/incidents/n4gprnxt3kk6</id>
+        <link href="https://status.twilio.com/incidents/n4gprnxt3kk6"/>
+        <updated>2023-01-05T09:38:05.000Z</updated>
+        <summary type="html"><![CDATA[Jan  5, 01:38 PST
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Mobifone Vietnam. This incident has been resolved.
+Jan  5, 01:23 PST
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Mobifone Vietnam. We will continue monitoring the service to ensure a full recovery. We will provide another update in 15 minutes or as soon as more information becomes available.
+Jan  4, 18:34 PST
+Update - We are continuing to experience SMS delivery delays when sending messages to Mobifone Vietnam. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
+Jan  4, 10:29 PST
+Update - We are continuing to experience SMS delivery delays when sending messages to Mobifone Vietnam. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+Jan  4, 06:32 PST
+Update - We are continuing to experience SMS delivery delays when sending messages to Mobifone Vietnam. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+Jan  4, 04:36 PST
+Update - We are continuing to experience SMS delivery delays when sending messages to Mobifone Vietnam. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Jan  4, 03:36 PST
+Investigating - We are experiencing SMS delivery delays when sending messages to Mobifone Vietnam. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[SMS Delivery Failures on K-Telecom]]></title>
         <id>https://status.twilio.com/incidents/0wy5l677sd4g</id>
         <link href="https://status.twilio.com/incidents/0wy5l677sd4g"/>
-        <updated>2023-01-04T22:50:25.000Z</updated>
-        <summary type="html"><![CDATA[Jan  4, 14:50 PST
+        <updated>2023-01-05T02:40:48.000Z</updated>
+        <summary type="html"><![CDATA[Jan  4, 18:40 PST
+Resolved - We are no longer experiencing SMS delivery failures to K-Telecom network in Russian Federation. This incident has been resolved.
+Jan  4, 16:50 PST
+Update - We are continuing to observe recovery from the issue causing SMS delivery failures when sending to the K-Telecom network in the Russian Federation.  We expect to provide another update in 2 hours or as soon as more information becomes available.
+Jan  4, 14:50 PST
 Monitoring - We are observing successful SMS delivery to the K-Telecom network in the Russian Federation.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
 Jan  4, 12:50 PST
 Update - We are continuing to work with our carrier partner to resolve the issue causing SMS delivery failures when sending to the K-Telecom network in the Russian Federation. We expect to provide another update in 2 hours or as soon as more information becomes available.
@@ -62,23 +153,6 @@ Jan  4, 03:57 PST
 Update - We are continuing to experience SMS delivery delays when sending messages to Airtel Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
 Jan  4, 02:57 PST
 Investigating - We are experiencing SMS delivery delays when sending messages to Airtel Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays To Mobifone Vietnam]]></title>
-        <id>https://status.twilio.com/incidents/n4gprnxt3kk6</id>
-        <link href="https://status.twilio.com/incidents/n4gprnxt3kk6"/>
-        <updated>2023-01-04T18:29:37.000Z</updated>
-        <summary type="html"><![CDATA[Jan  4, 10:29 PST
-Update - We are continuing to experience SMS delivery delays when sending messages to Mobifone Vietnam. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
-Jan  4, 06:32 PST
-Update - We are continuing to experience SMS delivery delays when sending messages to Mobifone Vietnam. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Jan  4, 04:36 PST
-Update - We are continuing to experience SMS delivery delays when sending messages to Mobifone Vietnam. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Jan  4, 03:36 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to Mobifone Vietnam. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -276,42 +350,6 @@ Investigating - Our monitoring systems have detected a potential issue with SMS 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Inbound SMS Delays From Subset of Australia Phone Numbers]]></title>
-        <id>https://status.twilio.com/incidents/9h01k697ykw5</id>
-        <link href="https://status.twilio.com/incidents/9h01k697ykw5"/>
-        <updated>2022-12-31T21:35:03.000Z</updated>
-        <summary type="html"><![CDATA[Dec 31, 13:35 PST
-Resolved - The issue affecting inbound SMS delays when receiving messages from a subset of phone numbers in Australia has been resolved, and the service is functioning normally at this time.
-Dec 31, 11:40 PST
-Monitoring - We have started seeing recovery for the issue causing inbound SMS delays when receiving messages from a subset of phone numbers in Australia. Our engineers are working with the carrier to ensure service stability. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 31, 10:49 PST
-Update - We continue experiencing inbound SMS delays when receiving messages from a subset of phone numbers in Australia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
-Dec 31, 06:51 PST
-Update - We are still experiencing inbound SMS delays when receiving messages from a subset of phone numbers in Australia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Dec 31, 04:52 PST
-Investigating - We are experiencing Inbound SMS Delays when receiving messages from a subset of Australia phone numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Africell Network in Multiple Countries]]></title>
-        <id>https://status.twilio.com/incidents/jyjyg441wylh</id>
-        <link href="https://status.twilio.com/incidents/jyjyg441wylh"/>
-        <updated>2022-12-31T13:52:37.000Z</updated>
-        <summary type="html"><![CDATA[Dec 31, 05:52 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Africell Network in Multiple Countries. This incident has been resolved.
-Dec 31, 03:58 PST
-Update - We are observing recovery in SMS delivery delays when sending messages to Africell Network in Multiple Countries. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 31, 02:03 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Africell Network in Multiple Countries. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 31, 00:10 PST
-U…]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Incident with Codespaces]]></title>
         <id>https://www.githubstatus.com/incidents/1whd66ydswnx</id>
         <link href="https://www.githubstatus.com/incidents/1whd66ydswnx"/>
@@ -416,6 +454,27 @@ Investigating - We are investigating reports of degraded performance for Actions
 Resolved - From approximately 5pm Pacific time yesterday to 8:30am today, Notion experienced an issue that caused some search results to fail. This issue has been resolved.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New feature - Check-in types !]]></title>
+        <id>253029</id>
+        <link href="https://changelog.bookingsync.com/new-feature-check-in-types-!-253029"/>
+        <updated>2022-12-16T14:02:14.000Z</updated>
+        <summary type="html"><![CDATA[New!
+  
+At Smily, we are here to help you Save time and Book more! That's why we are always thrilled to announce new features 🎉
+Over the past few years, more and more channels have allowed you to set the check-in instructions, to coordinate a smooth and seamless arrival with your guests.
+The check-in types were not synchronized with Smily, preventing you from adding this critical information to your listings.
+After several requests and feedback, we created a new field on the rental base where you can add your check-in type. 
+
+This feature is now synchronized with your website and our top partners, Airbnb, Booking.com, VRBO, and Expedia.
+Add your check-in types in Smily and provide your guests with a smoother check-in experience!
+For more details please follow the steps in this article
+We invite you to discover all these new features, and we hope it will help you manage better your bookings, save time, and book more!
+Wishing you all a pleasant day!]]></summary>
+        <author>
+            <name>Zahra, Product manager, PMS team</name>
         </author>
     </entry>
     <entry>
@@ -545,42 +604,6 @@ Investigating - We are investigating reports of degraded performance for Issues 
 From December 8, 2022 at 03:15 PST to December 8, 2022 at 05:10 PST, some customers may have experienced issues with exports failing. This was due to a lack of disk space on one of the hosts running export jobs. We fixed this issue by terminating the host which resolved the problem for all affected customers.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[500 Errors Across Reservations and Listings Endpoints]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/yg9s36qmf80z</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/yg9s36qmf80z"/>
-        <updated>2022-12-06T21:03:24.000Z</updated>
-        <summary type="html"><![CDATA[Dec  6, 13:03 PST
-Resolved - This incident has been resolved.
-Dec  6, 09:13 PST
-Monitoring - We have identified and resolved an issue of increased 500 errors across the Reservations and Listings endpoints. The increase occurred between 08:25 and 08:55 AM PT. We'll post updates as we have more information.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Codespaces]]></title>
-        <id>https://www.githubstatus.com/incidents/by950fpm0xlg</id>
-        <link href="https://www.githubstatus.com/incidents/by950fpm0xlg"/>
-        <updated>2022-12-06T20:58:48.000Z</updated>
-        <summary type="html"><![CDATA[Dec  6, 20:58 UTC
-Resolved - This incident has been resolved.
-Dec  6, 20:34 UTC
-Update - We are continuing to investigate issues affecting some Codespaces customers in the westus2 region.
-Dec  6, 19:51 UTC
-Update - We are continuing to investigate issues affecting some Codespaces customers.
-Dec  6, 19:15 UTC
-Update - We are continuing to investigate issues affecting customers connecting to and starting Codespaces.
-Dec  6, 18:41 UTC
-Update - We are continuing to investigate issues affecting customers connecting to and starting Codespaces.
-Dec  6, 18:06 UTC
-Update - We are investigating issues preventing customers from starting and connecting to existing Codespaces. Creating a new Codespaces is one possible workaround for those affected.
-Dec  6, 17:53 UTC
-Investigating - We are investigating reports of degraded performance for Codespaces.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
