@@ -28,7 +28,7 @@
           "description": "Description: An issue in the Tailscale coordination server allowed a malicious individual to share nodes from other tailnets to themselves, if they knew the node ID of the target.\nWhat happened?\nA bug in Tailscale’s node sharing logic allowed the creation of sharing invitations by unauthorized users. A malicious individual who knew a target node’s database ID could generate and accept a sharing invite for that node without being an admin of the target node’s tailnet.\nThis was possible for any node in any tailnet, as long as the individual knew the target’s node ID. The node ID is an integer used in the admin panel’s database, and is not related to the node “StableID” that is visible to Tailscale clients. A node’s ID is only visible in the API or admin console, by admins of either the node’s tailnet or a tailnet to which that node has already been shared. IDs are random 64-bit numbers that are not sequential or otherwise easily guessable.\nThe bug was introduced on 2022-09-14, reported to us on 2023-01-11, and remediated on 2023-01-12.\nWho is affected?\nAll tailnets with nodes are affected.\nWhat is the impact?\nThis vulnerability was not triggered or exploited. Analysis of tailnet logs shows that no unauthorized shares were created or accepted while the vulnerability was present, except as part of the proof of concept from the individual who reported the vulnerability.\nAdmins of a tailnet can review nodes that are shared out of their tailnet in the admin console. Sharing invites are logged as events in configuration audit logs. Admins can also review invites created and accepted in their configuration audit logs in the admin console.\nWhat do I need to do?\nNo action is required. Tailscale has deployed a fix to the coordination server as of 2023-01-12, and verified that the vulnerability was not exploited.\nCredits\nWe would like to thank Benjamin Roberts (tsujamin) for reporting this issue.",
           "link": "https://tailscale.com/security-bulletins/#ts-2023-001/",
           "publishedOn": "2023-01-17T00:00:00.000Z",
-          "wordCount": 2127,
+          "wordCount": 2128,
           "title": "TS-2023-001",
           "imageUrl": "https://tailscale.com/files/images/og-image.png"
         }
@@ -55,88 +55,7 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": [
-        {
-          "id": "https://status.twilio.com/incidents/673qn9qzys69",
-          "author": null,
-          "description": "Jan 23, 16:13 PST\nResolved - New account creation for Frontline in Twilio console is operating normally at this time. This incident is resolved.\nJan 23, 15:47 PST\nMonitoring - New account creation for Frontline in Twilio console is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nJan 23, 14:39 PST\nIdentified - Our engineers have identified the issue causing problems creating new Frontline instances on Twilio Accounts and are working to deploy a fix. \nCurrent workaround to create new Frontline instances is to use the following URL:\nhttps://console.twilio.com/us1/develop/frontline?frameUrl=%2Fconsole%2Ffrontline%2Foverview%3Fx-target-region%3Dus1. \nWe expect to provide another update in 2 hours or as soon as more information becomes available.\nJan 23, 13:40 PST\nUpdate - We are continuing to investigate customer reports of issues creating new Frontline instances on Twilio accounts. We expect to provide another update in 1 hour or as soon as more information becomes available.\nWhile we investigate, a workaround to create new Frontline instances is to use the following URL:\nhttps://console.twilio.com/us1/develop/frontline?frameUrl=%2Fconsole%2Ffrontline%2Foverview%3Fx-target-region%3Dus1\nJan 23, 13:24 PST\nUpdate - We are investigating customer reports of issues creating new Frontline instances on Twilio accounts. We expect to provide another update in 30 minutes or as soon as more information becomes available.\nJan 23, 13:14 PST\nInvestigating - We've become aware of a potential issue with creation of new accounts in console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/673qn9qzys69",
-          "publishedOn": "2023-01-24T00:13:25.000Z",
-          "wordCount": 6383,
-          "title": "Issues Creating New Frontline Instances on Twilio Accounts",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/7g55lf667clf",
-          "author": null,
-          "description": "Jan 23, 16:00 PST\nCompleted - The scheduled maintenance has been completed.\nJan 23, 12:03 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJan 19, 01:39 PST\nScheduled - The Megafon network in Russia is conducting a planned maintenance from 23 January 2023 at 12:00 PST until 23 January 2023 at 16:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Megafon Russia handsets.",
-          "link": "https://status.twilio.com/incidents/7g55lf667clf",
-          "publishedOn": "2023-01-24T00:00:29.000Z",
-          "wordCount": 6204,
-          "title": "Russia SMS Carrier Maintenance - Megafon",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/nvd9z317snx5",
-          "author": null,
-          "description": "Jan 23, 14:08 PST\nUpdate - We are continuing to observe a subset of call failures to Twilio Argentina phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nJan 23, 12:11 PST\nUpdate - We are continuing to observe a subset of call failures to Twilio Argentina phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJan 23, 11:13 PST\nInvestigating - We are observing a subset of call failures to Twilio Argentina phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/nvd9z317snx5",
-          "publishedOn": "2023-01-23T22:08:33.000Z",
-          "wordCount": 6288,
-          "title": "Inbound Call Failures to a Subset of Twilio Argentina Phone Numbers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/lj5wljh7jsh3",
-          "author": null,
-          "description": "Jan 23, 14:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nDec 23, 21:27 PST\nScheduled - The Bouygues Telecom network in France is conducting a planned maintenance from 23 January 2023 at 14:00 PST until 23 January 2023 at 21:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Bouygues Telecom handsets.",
-          "link": "https://status.twilio.com/incidents/lj5wljh7jsh3",
-          "publishedOn": "2023-01-23T22:00:27.000Z",
-          "wordCount": 6197,
-          "title": "France SMS Carrier Maintenance - Bouygues Telecom",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/7m2cr5ylx4jg",
-          "author": null,
-          "description": "Jan 23, 13:10 PST\nResolved - Our monitoring systems have detected a potential issue with New Account creation. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.\n**************************Please delete before using************************\nDo your best to associate a component (in Operational state) and include the affected product or problem symptom in the alerted posting. This way we can ensure that customers get meaningful updates/notifications from us. \n**************************Please delete before using************************",
-          "link": "https://status.twilio.com/incidents/7m2cr5ylx4jg",
-          "publishedOn": "2023-01-23T21:10:14.000Z",
-          "wordCount": 6202,
-          "title": "On Call Engineers are Investigating Issues With Creation of New Accounts",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/4fxbr0807kdl",
-          "author": null,
-          "description": "Jan 23, 12:02 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJan 17, 00:20 PST\nScheduled - The Etisalat network in United Arab Emirates is conducting a planned maintenance from 23 January 2023 at 12:00 PST until 23 January 2023 at 18:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from United Arab Emirates handsets.",
-          "link": "https://status.twilio.com/incidents/4fxbr0807kdl",
-          "publishedOn": "2023-01-23T20:02:58.000Z",
-          "wordCount": 6206,
-          "title": "United Arab Emirates SMS Carrier Maintenance - Etisalat",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/tvr3v0wt5j77",
-          "author": null,
-          "description": "Jan 23, 09:16 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to XL network in Indonesia. This incident has been resolved.\nJan 23, 06:59 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to XL network in Indonesia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available\nJan 23, 06:18 PST\nInvestigating - After a couple of minutes monitoring, we are still experiencing SMS delivery delays when sending messages XL network in Indonesia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJan 23, 06:01 PST\nMonitoring - We are experiencing SMS delivery delays when sending messages XL network in Indonesia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJan 23, 05:42 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages XL network in Indonesia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/tvr3v0wt5j77",
-          "publishedOn": "2023-01-23T17:16:47.000Z",
-          "wordCount": 6370,
-          "title": "SMS Delivery Receipt Delays To XL network in Indonesia over Registered Sender ID",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/cnrhythqf4sz",
-          "author": null,
-          "description": "Jan 23, 08:32 PST\nResolved - The issue affecting inbound SMS delivery delays when sending messages to a subset of Chile phone numbers has been resolved, and the service is functioning normally at this time.\nJan 23, 06:20 PST\nMonitoring - We are observing recovery in inbound SMS delivery delays when sending messages to a subset of Chile phone numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJan 22, 23:15 PST\nUpdate - We currently observe an issue in preserving sender IDs when sending SMS to all networks in Chile from a subset of Twilio Chile phone numbers resulting to Inbound SMS failures. Our engineers are working with our carrier partner to resolve the issue. We will prov…",
-          "link": "https://status.twilio.com/incidents/cnrhythqf4sz",
-          "publishedOn": "2023-01-23T16:32:30.000Z",
-          "wordCount": 6646,
-          "title": "Unable to Preserve Sender ID to All networks in Chile resulting to Inbound SMS failures to a Subset of Twilio Chile Phone Numbers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Notion Status - Incident History",
@@ -332,22 +251,42 @@
       "siteUrl": "https://status.slack.com/",
       "articles": [
         {
+          "id": "https://status.slack.com//2023-01/70633bef2f8b2fd1",
+          "author": null,
+          "description": "Issue summary:\n\r\nOn January 24, 2023, from 5:50 AM to 9:30 AM PST, some customers experienced errors when opening threads and saw blank channels and direct message histories.\n\r\n\r\nWe traced this issue to an unexpected spike in a database load. We made a configuration change that restored full functionality to threads and conversations for all impacted users.\n\r\n\r\nWe are investigating ways to prevent this from occurring in the future.\n\r\n\r\nYou may need to reload Slack (Command/Ctrl + Shift + R) in order for the fix to be reflected on your end. We're sorry for the disruption we brought to your day.",
+          "link": "https://status.slack.com//2023-01/70633bef2f8b2fd1",
+          "publishedOn": "2023-01-24T22:37:25.000Z",
+          "wordCount": 266,
+          "title": "Incident: Threads, direct messages, and channels are currently not loading",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://status.slack.com//2023-01/b5ecc9f98de10873",
+          "author": null,
+          "description": "Issue Summary:\n\r\nFrom January 23, 2023 at 3:00 PM PST to January 24, 2023 at 7:02 AM PST some customers encountered an error when opening a workflow in a new window.\n\r\n\r\nWe determined this issue was caused by a recent change to how Slack handles additional windows. This change was reverted and the issue was corrected.",
+          "link": "https://status.slack.com//2023-01/b5ecc9f98de10873",
+          "publishedOn": "2023-01-24T16:08:53.000Z",
+          "wordCount": 318,
+          "title": "Incident: Some customers may be encountering an error code when opening a workflow in a new window",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://status.slack.com//2023-01/9090b27a5ea06bce",
           "author": null,
-          "description": "We feel confident that affected users should no longer experience issues with workflows. Thank you for your patience while we looked into this.",
+          "description": "Issue summary: \n\r\nOn January 23, 2023 from 12:41 PM to 1:15 PM PST, some customers may have experienced issues executing workflows. \n\r\n\r\nA planned upgrade to part of our infrastructure caused an unexpected spike in database load. Our load-balancing system kicked in automatically, restoring normal workflow functionality.",
           "link": "https://status.slack.com//2023-01/9090b27a5ea06bce",
-          "publishedOn": "2023-01-23T23:12:20.000Z",
-          "wordCount": 138,
+          "publishedOn": "2023-01-24T02:34:29.000Z",
+          "wordCount": 185,
           "title": "Incident: Some users may be experiencing issues with workflows",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
           "id": "https://status.slack.com//2023-01/bd2fc67bb1474e78",
           "author": null,
-          "description": "We're seeing signs of recovery and feel confident that this issue is now resolved. Affected users should be see normal rates of responsiveness when loading channels and threads. Thank you for your patience while we looked into this.",
+          "description": "Issue summary:\n\r\nOn January 23, 2023 from around 12:41 PM to 1:15 PM PST, some customers may have experienced delays when opening channels and threads. \n\r\n\r\nWe made a scheduled improvement to part of our infrastructure which inadvertently caused an increase in database load. Our automated recovery system intervened, balancing the load and resolving the issue for all affected customers.",
           "link": "https://status.slack.com//2023-01/bd2fc67bb1474e78",
-          "publishedOn": "2023-01-23T23:06:14.000Z",
-          "wordCount": 105,
+          "publishedOn": "2023-01-24T02:32:38.000Z",
+          "wordCount": 165,
           "title": "Incident: A small percentage of users may see a delayed response when loading channels and threads",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
@@ -384,10 +323,10 @@
         {
           "id": "https://status.slack.com//2023-01/86830b419c5578aa",
           "author": null,
-          "description": "From January 6th at 8:42 AM PST to January 15th at 10:00 PM PST, some users were running into issues when completing their SSO configuration. In the SSO settings the \"Test Configuration\" button led to an error message page.\n\r\nWe identified a recent code change as the cause of the issue and a fix was launched to correct it.",
+          "description": "Issue summary:\n\r\nFrom January 6th at 8:42 AM PST to January 15th at 10:00 PM PST, some users were running into issues when completing their SSO configuration. In the SSO settings the \"Test Configuration\" button led to an error message page.\n\r\n\r\nWe identified a recent code change as the cause of the issue and a fix was launched to correct it.",
           "link": "https://status.slack.com//2023-01/86830b419c5578aa",
           "publishedOn": "2023-01-16T09:47:49.000Z",
-          "wordCount": 369,
+          "wordCount": 371,
           "title": "Incident: Some customers may be unable to complete SSO configuration",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }

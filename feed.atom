@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-24T00:23:34.515Z</id>
+    <id>urn:2023-01-25T00:22:47.716Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-24T00:23:34.515Z</updated>
+    <updated>2023-01-25T00:22:47.716Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Issues Creating New Frontline Instances on Twilio Accounts]]></title>
-        <id>https://status.twilio.com/incidents/673qn9qzys69</id>
-        <link href="https://status.twilio.com/incidents/673qn9qzys69"/>
-        <updated>2023-01-24T00:13:25.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 16:13 PST
-Resolved - New account creation for Frontline in Twilio console is operating normally at this time. This incident is resolved.
-Jan 23, 15:47 PST
-Monitoring - New account creation for Frontline in Twilio console is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
-Jan 23, 14:39 PST
-Identified - Our engineers have identified the issue causing problems creating new Frontline instances on Twilio Accounts and are working to deploy a fix. 
-Current workaround to create new Frontline instances is to use the following URL:
-https://console.twilio.com/us1/develop/frontline?frameUrl=%2Fconsole%2Ffrontline%2Foverview%3Fx-target-region%3Dus1. 
-We expect to provide another update in 2 hours or as soon as more information becomes available.
-Jan 23, 13:40 PST
-Update - We are continuing to investigate customer reports of issues creating new Frontline instances on Twilio accounts. We expect to provide another update in 1 hour or as soon as more information becomes available.
-While we investigate, a workaround to create new Frontline instances is to use the following URL:
-https://console.twilio.com/us1/develop/frontline?frameUrl=%2Fconsole%2Ffrontline%2Foverview%3Fx-target-region%3Dus1
-Jan 23, 13:24 PST
-Update - We are investigating customer reports of issues creating new Frontline instances on Twilio accounts. We expect to provide another update in 30 minutes or as soon as more information becomes available.
-Jan 23, 13:14 PST
-Investigating - We've become aware of a potential issue with creation of new accounts in console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <title type="html"><![CDATA[Incident: Threads, direct messages, and channels are currently not loading]]></title>
+        <id>https://status.slack.com//2023-01/70633bef2f8b2fd1</id>
+        <link href="https://status.slack.com//2023-01/70633bef2f8b2fd1"/>
+        <updated>2023-01-24T22:37:25.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+On January 24, 2023, from 5:50 AM to 9:30 AM PST, some customers experienced errors when opening threads and saw blank channels and direct message histories.
+
+
+We traced this issue to an unexpected spike in a database load. We made a configuration change that restored full functionality to threads and conversations for all impacted users.
+
+
+We are investigating ways to prevent this from occurring in the future.
+
+
+You may need to reload Slack (Command/Ctrl + Shift + R) in order for the fix to be reflected on your end. We're sorry for the disruption we brought to your day.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Megafon]]></title>
-        <id>https://status.twilio.com/incidents/7g55lf667clf</id>
-        <link href="https://status.twilio.com/incidents/7g55lf667clf"/>
-        <updated>2023-01-24T00:00:29.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 16:00 PST
-Completed - The scheduled maintenance has been completed.
-Jan 23, 12:03 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jan 19, 01:39 PST
-Scheduled - The Megafon network in Russia is conducting a planned maintenance from 23 January 2023 at 12:00 PST until 23 January 2023 at 16:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Megafon Russia handsets.]]></summary>
+        <title type="html"><![CDATA[Incident: Some customers may be encountering an error code when opening a workflow in a new window]]></title>
+        <id>https://status.slack.com//2023-01/b5ecc9f98de10873</id>
+        <link href="https://status.slack.com//2023-01/b5ecc9f98de10873"/>
+        <updated>2023-01-24T16:08:53.000Z</updated>
+        <summary type="html"><![CDATA[Issue Summary:
+
+From January 23, 2023 at 3:00 PM PST to January 24, 2023 at 7:02 AM PST some customers encountered an error when opening a workflow in a new window.
+
+
+We determined this issue was caused by a recent change to how Slack handles additional windows. This change was reverted and the issue was corrected.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Some users may be experiencing issues with workflows]]></title>
         <id>https://status.slack.com//2023-01/9090b27a5ea06bce</id>
         <link href="https://status.slack.com//2023-01/9090b27a5ea06bce"/>
-        <updated>2023-01-23T23:12:20.000Z</updated>
-        <summary type="html"><![CDATA[We feel confident that affected users should no longer experience issues with workflows. Thank you for your patience while we looked into this.]]></summary>
+        <updated>2023-01-24T02:34:29.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary: 
+
+On January 23, 2023 from 12:41 PM to 1:15 PM PST, some customers may have experienced issues executing workflows. 
+
+
+A planned upgrade to part of our infrastructure caused an unexpected spike in database load. Our load-balancing system kicked in automatically, restoring normal workflow functionality.]]></summary>
         <author>
             <name>Slack System Status</name>
         </author>
@@ -60,99 +60,15 @@ Scheduled - The Megafon network in Russia is conducting a planned maintenance fr
         <title type="html"><![CDATA[Incident: A small percentage of users may see a delayed response when loading channels and threads]]></title>
         <id>https://status.slack.com//2023-01/bd2fc67bb1474e78</id>
         <link href="https://status.slack.com//2023-01/bd2fc67bb1474e78"/>
-        <updated>2023-01-23T23:06:14.000Z</updated>
-        <summary type="html"><![CDATA[We're seeing signs of recovery and feel confident that this issue is now resolved. Affected users should be see normal rates of responsiveness when loading channels and threads. Thank you for your patience while we looked into this.]]></summary>
+        <updated>2023-01-24T02:32:38.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+On January 23, 2023 from around 12:41 PM to 1:15 PM PST, some customers may have experienced delays when opening channels and threads. 
+
+
+We made a scheduled improvement to part of our infrastructure which inadvertently caused an increase in database load. Our automated recovery system intervened, balancing the load and resolving the issue for all affected customers.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inbound Call Failures to a Subset of Twilio Argentina Phone Numbers]]></title>
-        <id>https://status.twilio.com/incidents/nvd9z317snx5</id>
-        <link href="https://status.twilio.com/incidents/nvd9z317snx5"/>
-        <updated>2023-01-23T22:08:33.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 14:08 PST
-Update - We are continuing to observe a subset of call failures to Twilio Argentina phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
-Jan 23, 12:11 PST
-Update - We are continuing to observe a subset of call failures to Twilio Argentina phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Jan 23, 11:13 PST
-Investigating - We are observing a subset of call failures to Twilio Argentina phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[France SMS Carrier Maintenance - Bouygues Telecom]]></title>
-        <id>https://status.twilio.com/incidents/lj5wljh7jsh3</id>
-        <link href="https://status.twilio.com/incidents/lj5wljh7jsh3"/>
-        <updated>2023-01-23T22:00:27.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 14:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Dec 23, 21:27 PST
-Scheduled - The Bouygues Telecom network in France is conducting a planned maintenance from 23 January 2023 at 14:00 PST until 23 January 2023 at 21:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Bouygues Telecom handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Call Engineers are Investigating Issues With Creation of New Accounts]]></title>
-        <id>https://status.twilio.com/incidents/7m2cr5ylx4jg</id>
-        <link href="https://status.twilio.com/incidents/7m2cr5ylx4jg"/>
-        <updated>2023-01-23T21:10:14.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 13:10 PST
-Resolved - Our monitoring systems have detected a potential issue with New Account creation. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.
-**************************Please delete before using************************
-Do your best to associate a component (in Operational state) and include the affected product or problem symptom in the alerted posting. This way we can ensure that customers get meaningful updates/notifications from us. 
-**************************Please delete before using************************]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United Arab Emirates SMS Carrier Maintenance - Etisalat]]></title>
-        <id>https://status.twilio.com/incidents/4fxbr0807kdl</id>
-        <link href="https://status.twilio.com/incidents/4fxbr0807kdl"/>
-        <updated>2023-01-23T20:02:58.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 12:02 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jan 17, 00:20 PST
-Scheduled - The Etisalat network in United Arab Emirates is conducting a planned maintenance from 23 January 2023 at 12:00 PST until 23 January 2023 at 18:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from United Arab Emirates handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Receipt Delays To XL network in Indonesia over Registered Sender ID]]></title>
-        <id>https://status.twilio.com/incidents/tvr3v0wt5j77</id>
-        <link href="https://status.twilio.com/incidents/tvr3v0wt5j77"/>
-        <updated>2023-01-23T17:16:47.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 09:16 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to XL network in Indonesia. This incident has been resolved.
-Jan 23, 06:59 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to XL network in Indonesia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available
-Jan 23, 06:18 PST
-Investigating - After a couple of minutes monitoring, we are still experiencing SMS delivery delays when sending messages XL network in Indonesia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
-Jan 23, 06:01 PST
-Monitoring - We are experiencing SMS delivery delays when sending messages XL network in Indonesia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Jan 23, 05:42 PST
-Investigating - We are experiencing SMS delivery delays when sending messages XL network in Indonesia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unable to Preserve Sender ID to All networks in Chile resulting to Inbound SMS failures to a Subset of Twilio Chile Phone Numbers]]></title>
-        <id>https://status.twilio.com/incidents/cnrhythqf4sz</id>
-        <link href="https://status.twilio.com/incidents/cnrhythqf4sz"/>
-        <updated>2023-01-23T16:32:30.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 08:32 PST
-Resolved - The issue affecting inbound SMS delivery delays when sending messages to a subset of Chile phone numbers has been resolved, and the service is functioning normally at this time.
-Jan 23, 06:20 PST
-Monitoring - We are observing recovery in inbound SMS delivery delays when sending messages to a subset of Chile phone numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jan 22, 23:15 PST
-Update - We currently observe an issue in preserving sender IDs when sending SMS to all networks in Chile from a subset of Twilio Chile phone numbers resulting to Inbound SMS failures. Our engineers are working with our carrier partner to resolve the issue. We will prov…]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -386,7 +302,10 @@ Investigating - We are investigating reports of degraded performance for Actions
         <id>https://status.slack.com//2023-01/86830b419c5578aa</id>
         <link href="https://status.slack.com//2023-01/86830b419c5578aa"/>
         <updated>2023-01-16T09:47:49.000Z</updated>
-        <summary type="html"><![CDATA[From January 6th at 8:42 AM PST to January 15th at 10:00 PM PST, some users were running into issues when completing their SSO configuration. In the SSO settings the "Test Configuration" button led to an error message page.
+        <summary type="html"><![CDATA[Issue summary:
+
+From January 6th at 8:42 AM PST to January 15th at 10:00 PM PST, some users were running into issues when completing their SSO configuration. In the SSO settings the "Test Configuration" button led to an error message page.
+
 
 We identified a recent code change as the cause of the issue and a fix was launched to correct it.]]></summary>
         <author>
