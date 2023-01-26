@@ -23,12 +23,22 @@
       "siteUrl": "https://tailscale.com/security-bulletins/",
       "articles": [
         {
+          "id": "https://tailscale.com/security-bulletins/#ts-2023-002/",
+          "author": null,
+          "description": "Description: An issue in the Tailscale coordination server allowed nodes with expired node keys to continue communicating with other nodes in a tailnet.\nWhat happened?\nThere was a flaw in Tailscale’s logic for expiring node keys. If the set of nodes that can connect in a tailnet (the netmap) didn’t have any changes, then expired node keys were not immediately removed from the netmap. The longest delay in removal was 19 days, from 2022-12-20 to 2023-01-09.\nWho is affected?\nAll tailnets with nodes whose node keys expired prior to 2023-01-12 may have been affected. Admins of a tailnet can view nodes with expired node keys in the admin console.\nWhat is the impact?\nConnections between nodes could continue after a node key expired, both when the expired node key was the source or when it was the destination of a connection. Connections to nodes with expired node keys would only be possible if they met all of the following criteria:\nThe peer node was in the same tailnet as, or shared into a tailnet with the node with the expired node key;\nThe peer node and the node with the expired node key were allowed to connect based on the access rules in the tailnet policy file at the time of expiry of the node key;\nThe tailnet’s netmap, including access rules, nodes added or removed from the tailnet, or connectivity of nodes in the tailnet did not change since the node key expiry; and\nTailscale had not deployed a change to the coordination server since the node key expiry.\nWhat do I need to do?\nNo action is required. Tailscale has deployed a fix to the coordination server as of 2023-01-11.\nUpgrade clients to v1.36 or later for an additional mitigation. In conjunction with the coordination server fix, this mitigation prevents nodes from connecting to nodes with expired node keys if the Tailscale coordination server is offline or unreachable.\nCredits\nWe would like to thank Derek Ellis and Alex Eiser for reporting this issue.",
+          "link": "https://tailscale.com/security-bulletins/#ts-2023-002/",
+          "publishedOn": "2023-01-24T00:00:00.000Z",
+          "wordCount": 2467,
+          "title": "TS-2023-002",
+          "imageUrl": "https://tailscale.com/files/images/og-image.png"
+        },
+        {
           "id": "https://tailscale.com/security-bulletins/#ts-2023-001/",
           "author": null,
           "description": "Description: An issue in the Tailscale coordination server allowed a malicious individual to share nodes from other tailnets to themselves, if they knew the node ID of the target.\nWhat happened?\nA bug in Tailscale’s node sharing logic allowed the creation of sharing invitations by unauthorized users. A malicious individual who knew a target node’s database ID could generate and accept a sharing invite for that node without being an admin of the target node’s tailnet.\nThis was possible for any node in any tailnet, as long as the individual knew the target’s node ID. The node ID is an integer used in the admin panel’s database, and is not related to the node “StableID” that is visible to Tailscale clients. A node’s ID is only visible in the API or admin console, by admins of either the node’s tailnet or a tailnet to which that node has already been shared. IDs are random 64-bit numbers that are not sequential or otherwise easily guessable.\nThe bug was introduced on 2022-09-14, reported to us on 2023-01-11, and remediated on 2023-01-12.\nWho is affected?\nAll tailnets with nodes are affected.\nWhat is the impact?\nThis vulnerability was not triggered or exploited. Analysis of tailnet logs shows that no unauthorized shares were created or accepted while the vulnerability was present, except as part of the proof of concept from the individual who reported the vulnerability.\nAdmins of a tailnet can review nodes that are shared out of their tailnet in the admin console. Sharing invites are logged as events in configuration audit logs. Admins can also review invites created and accepted in their configuration audit logs in the admin console.\nWhat do I need to do?\nNo action is required. Tailscale has deployed a fix to the coordination server as of 2023-01-12, and verified that the vulnerability was not exploited.\nCredits\nWe would like to thank Benjamin Roberts (tsujamin) for reporting this issue.",
           "link": "https://tailscale.com/security-bulletins/#ts-2023-001/",
           "publishedOn": "2023-01-17T00:00:00.000Z",
-          "wordCount": 2128,
+          "wordCount": 2467,
           "title": "TS-2023-001",
           "imageUrl": "https://tailscale.com/files/images/og-image.png"
         }
@@ -129,10 +139,10 @@
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/3U9C1tA43Nd5E3nWhDDY",
           "author": null,
-          "description": "<p> Incident began at <strong>2023-01-18 07:45</strong> and ended at <strong>2023-01-18 14:35</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Cloud Support using <a href=\"https://cloud.google.com/support\">https://cloud.google.com/support</a>  or to Google Workspace Support using help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 17 January 2023 23:45</p>\n<p><strong>Incident End:</strong> 18 January 2023 06:35</p>\n<p><strong>Duration:</strong> 6 hours, 50 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Google Meet - Live stream</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>Google Meet experienced an issue in which users trying to watch livestreams received errors for 6 hours and 50 minutes. From preliminary analysis, the root cause of the issue was identified as a recent rollout to the live stream player. Google will be completing a full IR in the following days that will provide a full root cause.</p>\n<p><strong>Customer Impact:</strong></p>\n<ul>\n<li>Users who accessed Meet livestreams from clients other than iOS, Android, or Safari received an error “This video format is not supported” instead of a stream.</li>\n</ul>\n</div><hr><p>Affected products: Google Meet</p>",
+          "description": "<p> Incident began at <strong>2023-01-18 07:45</strong> and ended at <strong>2023-01-18 14:35</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Incident Report</h1>\n<h2>Summary</h2>\n<p>On Tuesday, 17 January 2023 23:45 US/Pacific, Google Meet experienced an issue in which some users trying to watch livestreams globally received errors for 6 hours and 50 minutes. We have conducted an internal investigation and are taking steps to improve our service.</p>\n<h2>Root Cause</h2>\n<p>The investigation into this incident revealed that a recent rollout to the livestream player affected the playback mechanism, impacting Google Meet users on desktop web clients (except for Safari).</p>\n<p>Google engineers investigated the code changes in the rollout submitted on 17 January 2023 23:45 US/Pacific and confirmed that it directly affected the Google Meet and YouTube integrations required for livestream functionality.</p>\n<p>The issue caused Meet users to receive an error “This video format is not supported” when the Meet livestreams were accessed on desktop web clients. The issue did not affect Meet users who accessed the livestreams on iOS or Android device platforms and on Safari browsers.</p>\n<h2>Remediation and Prevention</h2>\n<p>Google engineers were alerted to the issue via an automated alert for viewer playtime on 18 January 2023 at 03:46 US/Pacific and immediately started an investigation. They identified the specific rollout affecting the livestream feature. The roll back of the identified code changes were completed on 18 January 2023 at 06:35 US/Pacific and successfully mitigated customer impact.</p>\n<p>Google is committed preventing a future recurrence repeat of this issue by taking following actions:</p>\n<ul>\n<li>Launch system probers that regularly test the data pathway and collect configuration analysis.</li>\n<li>Create a centralized integration behavior model to help prevent Meet inconsistencies.</li>\n<li>Implement monitoring automation, including a metric dashboard to filter data for proactive alert triggering, identifying failures and discrepancies, ensuring alerting quality.</li>\n</ul>\n<p>We would like to apologize for the length and severity of this incident. We are taking immediate steps to prevent a recurrence and improve reliability in the future.</p>\n<h2>Detailed Description of Impact</h2>\n<p>On 17 January 2023 from 23:45 US/Pacific to 18 January 2023 06:35 US/Pacific Google Meet users had the following impact:</p>\n<ul>\n<li>Users were unable to connect to livestreams from desktop web clients, except for Safari.</li>\n<li>Users trying to connect to livestreams from desktop web clients received the error message - &quot;This video format is not supported.&quot;</li>\n<li>Users were able to connect to livestreams on iOS and Android devices.</li>\n</ul>\n</div><hr><p>Affected products: Google Meet</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/3U9C1tA43Nd5E3nWhDDY",
-          "publishedOn": "2023-01-18T19:03:22.000Z",
-          "wordCount": 754,
+          "publishedOn": "2023-01-25T23:34:09.000Z",
+          "wordCount": 1134,
           "title": "RESOLVED: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are able to access Google Meet, but are seeing error messages, high latency, and/or other unexpected behavior.",
           "imageUrl": null
         }
@@ -143,6 +153,36 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/gbtkj97xtb9n",
+          "author": null,
+          "description": "Jan 25, 23:59 UTC\nInvestigating - We are investigating reports of degraded performance for API Requests and Pull Requests.",
+          "link": "https://www.githubstatus.com/incidents/gbtkj97xtb9n",
+          "publishedOn": "2023-01-25T23:59:26.000Z",
+          "wordCount": 3992,
+          "title": "Incident with API Requests and Pull Requests",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
+          "id": "https://www.githubstatus.com/incidents/4hzj8r2jm0mn",
+          "author": null,
+          "description": "Jan 25, 10:39 UTC\nResolved - This incident has been resolved.\nJan 25, 10:13 UTC\nUpdate - We are investigating reports of issues with Actions. This looks related to Azure networking issue which is impacting multiple regions. We are seeing improvements and will continue to monitor this.\nJan 25, 09:14 UTC\nInvestigating - We are investigating reports of degraded performance for Actions.",
+          "link": "https://www.githubstatus.com/incidents/4hzj8r2jm0mn",
+          "publishedOn": "2023-01-25T10:39:03.000Z",
+          "wordCount": 4019,
+          "title": "Incident with Actions",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
+          "id": "https://www.githubstatus.com/incidents/9c941kssjk0q",
+          "author": null,
+          "description": "Jan 25, 09:10 UTC\nResolved - This incident has been resolved.\nJan 25, 08:30 UTC\nUpdate - We are investigating reports of issues with service(s): multiple services. We will continue to keep users updated on progress towards mitigation.\nJan 25, 08:04 UTC\nUpdate - Actions is experiencing degraded performance. We are still investigating and will provide an update when we have one.\nJan 25, 07:54 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nJan 25, 07:53 UTC\nUpdate - API Requests is experiencing degraded performance. We are still investigating and will provide an update when we have one.\nJan 25, 07:53 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot.",
+          "link": "https://www.githubstatus.com/incidents/9c941kssjk0q",
+          "publishedOn": "2023-01-25T09:10:21.000Z",
+          "wordCount": 4101,
+          "title": "Incident with Actions, API Requests, Codespaces and Copilot",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/n18j5g7wpg0s",
           "author": null,
@@ -250,6 +290,26 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://status.slack.com/",
       "articles": [
+        {
+          "id": "https://status.slack.com//2023-01/eea83e5208c66a72",
+          "author": null,
+          "description": "Issue summary: On January 25, 2023 from 7:20 AM PDT to 7:46 AM PDT, some users experienced problems loading messages and threads, previewing files and sending messages in Slack. We traced this issue to a recent internal change and started reverting it immediately. Once this was reverted, the issue was resolved for all impacted users.\n\r\n\r\nNote: We've edited the times in this summary to correct an error made in the initial version posted.",
+          "link": "https://status.slack.com//2023-01/eea83e5208c66a72",
+          "publishedOn": "2023-01-25T17:00:35.000Z",
+          "wordCount": 191,
+          "title": "Outage: Users having issues loading Slack",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://status.slack.com//2023-01/a3aa541342db6be3",
+          "author": null,
+          "description": "Issue summary:\n\r\nFrom January 24, 2023 at 5:30 PM PST until January 24, 2023 at 10:20 PM PST, some customers who were using Slack in Japanese experienced a failure when using the \"Send message to a thread\" workflow step. \n\r\n\r\nWe identified that this was caused by an earlier change we made to workflows and fixed the issue by reverting the earlier change.",
+          "link": "https://status.slack.com//2023-01/a3aa541342db6be3",
+          "publishedOn": "2023-01-25T14:26:23.000Z",
+          "wordCount": 171,
+          "title": "Incident: Workflows using 'Message thread' are failing for Japanese users.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://status.slack.com//2023-01/70633bef2f8b2fd1",
           "author": null,

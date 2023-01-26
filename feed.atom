@@ -1,10 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-01-25T00:22:47.716Z</id>
+    <id>urn:2023-01-26T00:22:08.364Z</id>
     <title>osmos::feed</title>
-    <updated>2023-01-25T00:22:47.716Z</updated>
+    <updated>2023-01-26T00:22:08.364Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident with API Requests and Pull Requests]]></title>
+        <id>https://www.githubstatus.com/incidents/gbtkj97xtb9n</id>
+        <link href="https://www.githubstatus.com/incidents/gbtkj97xtb9n"/>
+        <updated>2023-01-25T23:59:26.000Z</updated>
+        <summary type="html"><![CDATA[Jan 25, 23:59 UTC
+Investigating - We are investigating reports of degraded performance for API Requests and Pull Requests.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are able to access Google Meet, but are seeing error messages, high latency, and/or other unexpected behavior.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/3U9C1tA43Nd5E3nWhDDY</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/3U9C1tA43Nd5E3nWhDDY"/>
+        <updated>2023-01-25T23:34:09.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2023-01-18 07:45</strong> and ended at <strong>2023-01-18 14:35</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Incident Report</h1>
+<h2>Summary</h2>
+<p>On Tuesday, 17 January 2023 23:45 US/Pacific, Google Meet experienced an issue in which some users trying to watch livestreams globally received errors for 6 hours and 50 minutes. We have conducted an internal investigation and are taking steps to improve our service.</p>
+<h2>Root Cause</h2>
+<p>The investigation into this incident revealed that a recent rollout to the livestream player affected the playback mechanism, impacting Google Meet users on desktop web clients (except for Safari).</p>
+<p>Google engineers investigated the code changes in the rollout submitted on 17 January 2023 23:45 US/Pacific and confirmed that it directly affected the Google Meet and YouTube integrations required for livestream functionality.</p>
+<p>The issue caused Meet users to receive an error “This video format is not supported” when the Meet livestreams were accessed on desktop web clients. The issue did not affect Meet users who accessed the livestreams on iOS or Android device platforms and on Safari browsers.</p>
+<h2>Remediation and Prevention</h2>
+<p>Google engineers were alerted to the issue via an automated alert for viewer playtime on 18 January 2023 at 03:46 US/Pacific and immediately started an investigation. They identified the specific rollout affecting the livestream feature. The roll back of the identified code changes were completed on 18 January 2023 at 06:35 US/Pacific and successfully mitigated customer impact.</p>
+<p>Google is committed preventing a future recurrence repeat of this issue by taking following actions:</p>
+<ul>
+<li>Launch system probers that regularly test the data pathway and collect configuration analysis.</li>
+<li>Create a centralized integration behavior model to help prevent Meet inconsistencies.</li>
+<li>Implement monitoring automation, including a metric dashboard to filter data for proactive alert triggering, identifying failures and discrepancies, ensuring alerting quality.</li>
+</ul>
+<p>We would like to apologize for the length and severity of this incident. We are taking immediate steps to prevent a recurrence and improve reliability in the future.</p>
+<h2>Detailed Description of Impact</h2>
+<p>On 17 January 2023 from 23:45 US/Pacific to 18 January 2023 06:35 US/Pacific Google Meet users had the following impact:</p>
+<ul>
+<li>Users were unable to connect to livestreams from desktop web clients, except for Safari.</li>
+<li>Users trying to connect to livestreams from desktop web clients received the error message - &quot;This video format is not supported.&quot;</li>
+<li>Users were able to connect to livestreams on iOS and Android devices.</li>
+</ul>
+</div><hr><p>Affected products: Google Meet</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Outage: Users having issues loading Slack]]></title>
+        <id>https://status.slack.com//2023-01/eea83e5208c66a72</id>
+        <link href="https://status.slack.com//2023-01/eea83e5208c66a72"/>
+        <updated>2023-01-25T17:00:35.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary: On January 25, 2023 from 7:20 AM PDT to 7:46 AM PDT, some users experienced problems loading messages and threads, previewing files and sending messages in Slack. We traced this issue to a recent internal change and started reverting it immediately. Once this was reverted, the issue was resolved for all impacted users.
+
+
+Note: We've edited the times in this summary to correct an error made in the initial version posted.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Workflows using 'Message thread' are failing for Japanese users.]]></title>
+        <id>https://status.slack.com//2023-01/a3aa541342db6be3</id>
+        <link href="https://status.slack.com//2023-01/a3aa541342db6be3"/>
+        <updated>2023-01-25T14:26:23.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+From January 24, 2023 at 5:30 PM PST until January 24, 2023 at 10:20 PM PST, some customers who were using Slack in Japanese experienced a failure when using the "Send message to a thread" workflow step. 
+
+
+We identified that this was caused by an earlier change we made to workflows and fixed the issue by reverting the earlier change.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Actions]]></title>
+        <id>https://www.githubstatus.com/incidents/4hzj8r2jm0mn</id>
+        <link href="https://www.githubstatus.com/incidents/4hzj8r2jm0mn"/>
+        <updated>2023-01-25T10:39:03.000Z</updated>
+        <summary type="html"><![CDATA[Jan 25, 10:39 UTC
+Resolved - This incident has been resolved.
+Jan 25, 10:13 UTC
+Update - We are investigating reports of issues with Actions. This looks related to Azure networking issue which is impacting multiple regions. We are seeing improvements and will continue to monitor this.
+Jan 25, 09:14 UTC
+Investigating - We are investigating reports of degraded performance for Actions.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Actions, API Requests, Codespaces and Copilot]]></title>
+        <id>https://www.githubstatus.com/incidents/9c941kssjk0q</id>
+        <link href="https://www.githubstatus.com/incidents/9c941kssjk0q"/>
+        <updated>2023-01-25T09:10:21.000Z</updated>
+        <summary type="html"><![CDATA[Jan 25, 09:10 UTC
+Resolved - This incident has been resolved.
+Jan 25, 08:30 UTC
+Update - We are investigating reports of issues with service(s): multiple services. We will continue to keep users updated on progress towards mitigation.
+Jan 25, 08:04 UTC
+Update - Actions is experiencing degraded performance. We are still investigating and will provide an update when we have one.
+Jan 25, 07:54 UTC
+Update - Codespaces is experiencing degraded performance. We are continuing to investigate.
+Jan 25, 07:53 UTC
+Update - API Requests is experiencing degraded performance. We are still investigating and will provide an update when we have one.
+Jan 25, 07:53 UTC
+Investigating - We are investigating reports of degraded performance for Copilot.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Threads, direct messages, and channels are currently not loading]]></title>
         <id>https://status.slack.com//2023-01/70633bef2f8b2fd1</id>
@@ -69,6 +177,31 @@ On January 23, 2023 from around 12:41 PM to 1:15 PM PST, some customers may have
 We made a scheduled improvement to part of our infrastructure which inadvertently caused an increase in database load. Our automated recovery system intervened, balancing the load and resolving the issue for all affected customers.]]></summary>
         <author>
             <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TS-2023-002]]></title>
+        <id>https://tailscale.com/security-bulletins/#ts-2023-002/</id>
+        <link href="https://tailscale.com/security-bulletins/#ts-2023-002/"/>
+        <updated>2023-01-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Description: An issue in the Tailscale coordination server allowed nodes with expired node keys to continue communicating with other nodes in a tailnet.
+What happened?
+There was a flaw in Tailscale’s logic for expiring node keys. If the set of nodes that can connect in a tailnet (the netmap) didn’t have any changes, then expired node keys were not immediately removed from the netmap. The longest delay in removal was 19 days, from 2022-12-20 to 2023-01-09.
+Who is affected?
+All tailnets with nodes whose node keys expired prior to 2023-01-12 may have been affected. Admins of a tailnet can view nodes with expired node keys in the admin console.
+What is the impact?
+Connections between nodes could continue after a node key expired, both when the expired node key was the source or when it was the destination of a connection. Connections to nodes with expired node keys would only be possible if they met all of the following criteria:
+The peer node was in the same tailnet as, or shared into a tailnet with the node with the expired node key;
+The peer node and the node with the expired node key were allowed to connect based on the access rules in the tailnet policy file at the time of expiry of the node key;
+The tailnet’s netmap, including access rules, nodes added or removed from the tailnet, or connectivity of nodes in the tailnet did not change since the node key expiry; and
+Tailscale had not deployed a change to the coordination server since the node key expiry.
+What do I need to do?
+No action is required. Tailscale has deployed a fix to the coordination server as of 2023-01-11.
+Upgrade clients to v1.36 or later for an additional mitigation. In conjunction with the coordination server fix, this mitigation prevents nodes from connecting to nodes with expired node keys if the Tailscale coordination server is offline or unreachable.
+Credits
+We would like to thank Derek Ellis and Alex Eiser for reporting this issue.]]></summary>
+        <author>
+            <name>Security Bulletins on Tailscale</name>
         </author>
     </entry>
     <entry>
@@ -176,31 +309,6 @@ Jan 18, 18:16 UTC
 Investigating - We are investigating reports of degraded performance for Copilot.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are able to access Google Meet, but are seeing error messages, high latency, and/or other unexpected behavior.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/3U9C1tA43Nd5E3nWhDDY</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/3U9C1tA43Nd5E3nWhDDY"/>
-        <updated>2023-01-18T19:03:22.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2023-01-18 07:45</strong> and ended at <strong>2023-01-18 14:35</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Mini Incident Report</h1>
-<p>We apologize for the inconvenience this service disruption may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Cloud Support using <a href="https://cloud.google.com/support">https://cloud.google.com/support</a>  or to Google Workspace Support using help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
-<p>(All Times US/Pacific)</p>
-<p><strong>Incident Start:</strong> 17 January 2023 23:45</p>
-<p><strong>Incident End:</strong> 18 January 2023 06:35</p>
-<p><strong>Duration:</strong> 6 hours, 50 minutes</p>
-<p><strong>Affected Services and Features:</strong></p>
-<p>Google Meet - Live stream</p>
-<p><strong>Regions/Zones:</strong> Global</p>
-<p><strong>Description:</strong></p>
-<p>Google Meet experienced an issue in which users trying to watch livestreams received errors for 6 hours and 50 minutes. From preliminary analysis, the root cause of the issue was identified as a recent rollout to the live stream player. Google will be completing a full IR in the following days that will provide a full root cause.</p>
-<p><strong>Customer Impact:</strong></p>
-<ul>
-<li>Users who accessed Meet livestreams from clients other than iOS, Android, or Safari received an error “This video format is not supported” instead of a stream.</li>
-</ul>
-</div><hr><p>Affected products: Google Meet</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
