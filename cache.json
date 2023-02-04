@@ -28,7 +28,7 @@
           "description": "Description: An issue in the Tailscale coordination server allowed nodes with expired node keys to continue communicating with other nodes in a tailnet.\nWhat happened?\nThere was a flaw in Tailscale’s logic for expiring node keys. If the set of nodes that can connect in a tailnet (the netmap) didn’t have any changes, then expired node keys were not immediately removed from the netmap. The longest delay in removal was 19 days, from 2022-12-20 to 2023-01-09.\nWho is affected?\nAll tailnets with nodes whose node keys expired prior to 2023-01-12 may have been affected. Admins of a tailnet can view nodes with expired node keys in the admin console.\nWhat is the impact?\nConnections between nodes could continue after a node key expired, both when the expired node key was the source or when it was the destination of a connection. Connections to nodes with expired node keys would only be possible if they met all of the following criteria:\nThe peer node was in the same tailnet as, or shared into a tailnet with the node with the expired node key;\nThe peer node and the node with the expired node key were allowed to connect based on the access rules in the tailnet policy file at the time of expiry of the node key;\nThe tailnet’s netmap, including access rules, nodes added or removed from the tailnet, or connectivity of nodes in the tailnet did not change since the node key expiry; and\nTailscale had not deployed a change to the coordination server since the node key expiry.\nWhat do I need to do?\nNo action is required. Tailscale has deployed a fix to the coordination server as of 2023-01-11.\nUpgrade clients to v1.36 or later for an additional mitigation. In conjunction with the coordination server fix, this mitigation prevents nodes from connecting to nodes with expired node keys if the Tailscale coordination server is offline or unreachable.\nCredits\nWe would like to thank Derek Ellis and Alex Eiser for reporting this issue.",
           "link": "https://tailscale.com/security-bulletins/#ts-2023-002/",
           "publishedOn": "2023-01-24T00:00:00.000Z",
-          "wordCount": 2467,
+          "wordCount": 2469,
           "title": "TS-2023-002",
           "imageUrl": "https://tailscale.com/files/images/og-image.png"
         },
@@ -38,7 +38,7 @@
           "description": "Description: An issue in the Tailscale coordination server allowed a malicious individual to share nodes from other tailnets to themselves, if they knew the node ID of the target.\nWhat happened?\nA bug in Tailscale’s node sharing logic allowed the creation of sharing invitations by unauthorized users. A malicious individual who knew a target node’s database ID could generate and accept a sharing invite for that node without being an admin of the target node’s tailnet.\nThis was possible for any node in any tailnet, as long as the individual knew the target’s node ID. The node ID is an integer used in the admin panel’s database, and is not related to the node “StableID” that is visible to Tailscale clients. A node’s ID is only visible in the API or admin console, by admins of either the node’s tailnet or a tailnet to which that node has already been shared. IDs are random 64-bit numbers that are not sequential or otherwise easily guessable.\nThe bug was introduced on 2022-09-14, reported to us on 2023-01-11, and remediated on 2023-01-12.\nWho is affected?\nAll tailnets with nodes are affected.\nWhat is the impact?\nThis vulnerability was not triggered or exploited. Analysis of tailnet logs shows that no unauthorized shares were created or accepted while the vulnerability was present, except as part of the proof of concept from the individual who reported the vulnerability.\nAdmins of a tailnet can review nodes that are shared out of their tailnet in the admin console. Sharing invites are logged as events in configuration audit logs. Admins can also review invites created and accepted in their configuration audit logs in the admin console.\nWhat do I need to do?\nNo action is required. Tailscale has deployed a fix to the coordination server as of 2023-01-12, and verified that the vulnerability was not exploited.\nCredits\nWe would like to thank Benjamin Roberts (tsujamin) for reporting this issue.",
           "link": "https://tailscale.com/security-bulletins/#ts-2023-001/",
           "publishedOn": "2023-01-17T00:00:00.000Z",
-          "wordCount": 2467,
+          "wordCount": 2469,
           "title": "TS-2023-001",
           "imageUrl": "https://tailscale.com/files/images/og-image.png"
         }
@@ -67,33 +67,13 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/3c004zjxcfvn",
+          "id": "https://status.twilio.com/incidents/b8tjtl5n99yq",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Feb 2, 23:00 PST  -  Feb 3, 03:00 PST\nJan 26, 06:08 PST\nScheduled - Our Service Provider is conducting a planned maintenance from 2 February 2023 at 23:00 PST until 3 February 2023 at 03:00 PST. During the maintenance window, there could be intermittent API request failures for the following destination: Canada.\nImpacted Products: Silent Network Authentication (SNA), Lookup SIM Swap, Identity Match",
-          "link": "https://status.twilio.com/incidents/3c004zjxcfvn",
-          "publishedOn": "2023-02-03T07:00:00.000Z",
-          "wordCount": 6198,
-          "title": "Canada Account Security Service Provider Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/xdbns5sjf84b",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Feb 2, 17:00 - 19:00 PST\nJan 30, 06:47 PST\nScheduled - The Beeline network in Russia is conducting a planned maintenance from 02 February 2023 at 17:00 PST until 02 January 2023 at 19:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.",
-          "link": "https://status.twilio.com/incidents/xdbns5sjf84b",
-          "publishedOn": "2023-02-03T01:00:00.000Z",
-          "wordCount": 6184,
-          "title": "Russia SMS Carrier Maintenance - Beeline",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/zvgnmpqqd59w",
-          "author": null,
-          "description": "Feb  2, 16:01 PST\nCompleted - The scheduled maintenance has been completed.\nFeb  2, 12:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJan 27, 05:01 PST\nScheduled - The Megafon network in Russia is conducting a planned maintenance from 02 February 2023 at 12:00 PST until 02 February 2023 at 16:00 PST . During the maintenance window, there could be intermittent delays delivering SMS to and from Megafon Russia handsets.",
-          "link": "https://status.twilio.com/incidents/zvgnmpqqd59w",
-          "publishedOn": "2023-02-03T00:01:51.000Z",
-          "wordCount": 6213,
-          "title": "Russia SMS Carrier Maintenance - Megafon",
+          "description": "Feb  3, 13:53 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to all Brazil networks using subset of short-codes and registered Sender ID's. This incident has been resolved.\nFeb  3, 12:23 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to all Brazil networks using subset of short-codes and registered Sender ID's. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nFeb  3, 08:51 PST\nUpdate - We continue to experience SMS delivery delays when sending messages to all Brazil networks using subset of short-codes and registered Sender ID's. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nFeb  3, 06:51 PST\nUpdate - We continue to experience SMS delivery delays when sending messages to all Brazil networks using subset of short-codes and registered Sender ID's. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nFeb  3, 05:58 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to all Brazil networks using subset of short-codes and registered Sender ID's. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/b8tjtl5n99yq",
+          "publishedOn": "2023-02-03T21:53:57.000Z",
+          "wordCount": 6417,
+          "title": "SMS Delivery Delay to All Brazil Networks Using Subset of Short-Codes and Registered Sender ID's",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -170,9 +150,9 @@
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/Aw6shMkjkSKk3d64BY1Z",
           "author": null,
-          "description": "<p> Incident began at <strong>2023-01-26 14:20</strong> and ended at <strong>2023-01-26 16:08</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Incident Report</h1>\n<h2>Background</h2>\n<p>Google’s back end SMTP Gmail delivery system allows customers accessing Gmail through third party email clients to send and receive email. To verify the identity of users, our SMTP delivery system uses an internal authentication framework to validate their account credentials before they are allowed to send email.</p>\n<h2>Summary</h2>\n<p>On Thursday, 26 January 2023 at 06:20 PT, some customers using third party email clients may have experienced errors and/or retry latency when attempting to send mail through our SMTP Gmail delivery system for a period of 1 hour and 48 minutes. We sincerely apologize to our Google Workspace customers who were impacted during this disruption. This is not the level of quality and reliability we strive to offer you. We have conducted an internal investigation and are taking immediate steps to improve the resiliency of our service.</p>\n<h2>Root Cause</h2>\n<p>After a detailed investigation, Engineers determined this issue was caused by memory limitations caused by unanticipated organic growth in one of the back end databases used by our internal authentication framework. This resulted in errors and/or latency experienced by customers using 3rd party email clients as they attempted to send emails to Gmail endpoint.</p>\n<h2>Remediation and Prevention</h2>\n<p>Google engineers were alerted to this issue through automated monitoring for errors and   immediately began an investigation. At 06:45 PT, engineers determined that components of the authentication framework had run out of memory and started to scale up instances at 07:45 PT.  The issue was completely resolved by 08:08 PT.</p>\n<p>Google is committed preventing a repeat of this issue in the future and is completing the following actions:\nDeploying automatic scaling for unanticipated database growth.\nDeploying proactive detection and alerting capabilities for monitoring memory limits in our authentication framework.</p>\n<p>We appreciate your patience and apologize again for the impact to your organization. We thank you for your business.</p>\n<h2>Detailed Description of Impact</h2>\n<p>On Thursday, 26 January 2023 between 06:20 and 08:08 PT, third party email clients connecting to Gmail’s SMTP services would have experienced errors or latency when attempting to send mail. Depending on the third party email client being used, this could have resulted in errors propagated to the end user or retries.</p>\n</div><hr><p>Affected products: Gmail</p>",
+          "description": "<p> Incident began at <strong>2023-01-26 14:20</strong> and ended at <strong>2023-01-26 16:08</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Incident Report</h1>\n<h2>Background</h2>\n<p>Google’s back end SMTP Gmail delivery system allows customers accessing Gmail through third party email clients to send and receive email. To verify the identity of users, our SMTP delivery system uses an internal authentication framework to validate their account credentials before they are allowed to send email.</p>\n<h2>Summary</h2>\n<p>On Thursday, 26 January 2023 at 06:20 PT, some customers using third party email clients may have experienced errors and/or retry latency when attempting to send mail through our SMTP Gmail delivery system for a period of 1 hour and 48 minutes. We sincerely apologize to our Google Workspace customers who were impacted during this disruption. This is not the level of quality and reliability we strive to offer you. We have conducted an internal investigation and are taking immediate steps to improve the resiliency of our service.</p>\n<h2>Root Cause</h2>\n<p>After a detailed investigation, Engineers determined this issue was caused by memory limitations caused by unanticipated organic growth in one of the back end databases used by our internal authentication framework. This resulted in errors and/or latency experienced by customers using 3rd party email clients as they attempted to send emails to Gmail endpoint.</p>\n<h2>Remediation and Prevention</h2>\n<p>Google engineers were alerted to this issue through automated monitoring for errors and   immediately began an investigation. At 06:45 PT, engineers determined that components of the authentication framework had run out of memory and started to scale up instances at 07:45 PT.  The issue was completely resolved by 08:08 PT.</p>\n<p>Google is committed preventing a repeat of this issue in the future and is completing the following actions:</p>\n<ul>\n<li>Deploying automatic scaling for unanticipated database growth.</li>\n<li>Deploying proactive detection and alerting capabilities for monitoring memory limits in our authentication framework.</li>\n</ul>\n<p>We appreciate your patience and apologize again for the impact to your organization. We thank you for your business.</p>\n<h2>Detailed Description of Impact</h2>\n<p>On Thursday, 26 January 2023 between 06:20 and 08:08 PT, third party email clients connecting to Gmail’s SMTP services would have experienced errors or latency when attempting to send mail. Depending on the third party email client being used, this could have resulted in errors propagated to the end user or retries.</p>\n</div><hr><p>Affected products: Gmail</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/Aw6shMkjkSKk3d64BY1Z",
-          "publishedOn": "2023-02-02T22:18:38.000Z",
+          "publishedOn": "2023-02-03T18:26:02.000Z",
           "wordCount": 843,
           "title": "RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.",
           "imageUrl": null
@@ -381,6 +361,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://status.slack.com/",
       "articles": [
+        {
+          "id": "https://status.slack.com//2023-02/8e717c690db78d06",
+          "author": null,
+          "description": "Issue summary:\n\r\nOn February 2, 2023, from 3:00 PM PST to 6:00 PM PST, some customers may have received a Server Error when attempting to view the Slack App Developer page. \n\r\n\r\nWe traced the failures back to a recent infrastructure change. When we rolled back the change, the problem was resolved for all affected customers.",
+          "link": "https://status.slack.com//2023-02/8e717c690db78d06",
+          "publishedOn": "2023-02-03T03:18:45.000Z",
+          "wordCount": 175,
+          "title": "Incident: Some customers may be receiving a server error when viewing our Slack App Developer page",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://status.slack.com//2023-01/ebf9da8220a6b05c",
           "author": null,
