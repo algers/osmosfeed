@@ -1,30 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-02-16T00:23:55.062Z</id>
+    <id>urn:2023-02-17T00:25:30.799Z</id>
     <title>osmos::feed</title>
-    <updated>2023-02-16T00:23:55.062Z</updated>
+    <updated>2023-02-17T00:25:30.799Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[US MMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/8fhf2dvfwnm2</id>
-        <link href="https://status.twilio.com/incidents/8fhf2dvfwnm2"/>
-        <updated>2023-02-16T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Feb 15, 22:00 PST  -  Feb 16, 06:00 PST
-Feb 15, 06:22 PST
-Scheduled - Our MMS carrier partner in the US is conducting a planned maintenance from 15 February 2023 at 22:00 PST until 16 February 2023 at 05:00 PST. During the maintenance window, there could be intermittent delays delivering MMS to and from US T-Mobile handsets via Subset of Long code and Short code.]]></summary>
+        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Beeline]]></title>
+        <id>https://status.twilio.com/incidents/vnks366pllj7</id>
+        <link href="https://status.twilio.com/incidents/vnks366pllj7"/>
+        <updated>2023-02-17T00:00:06.000Z</updated>
+        <summary type="html"><![CDATA[Feb 16, 16:00 PST
+Completed - The scheduled maintenance has been completed.
+Feb 16, 13:01 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Feb 15, 05:33 PST
+Scheduled - The Beeline network in Russia is conducting a planned maintenance from 16 February 2023 at 13:00 PST until 16 February 2023 at 16:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[US and Canada SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/x90x408c59sc</id>
-        <link href="https://status.twilio.com/incidents/x90x408c59sc"/>
-        <updated>2023-02-16T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Feb 15, 20:00 PST  -  Feb 16, 00:00 PST
-Jan 24, 00:58 PST
-Scheduled - Our SMS carrier partner in the US and Canada will be conducting planned maintenance from 15 February 2022 at 20:00 PDT until 16 February 2022 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from both US and Canada handsets via Toll-free numbers]]></summary>
+        <title type="html"><![CDATA[UK SMS Carrier Maintenance - O2 UK]]></title>
+        <id>https://status.twilio.com/incidents/y5fvpn76ptnd</id>
+        <link href="https://status.twilio.com/incidents/y5fvpn76ptnd"/>
+        <updated>2023-02-16T22:00:23.000Z</updated>
+        <summary type="html"><![CDATA[Feb 16, 14:00 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Feb 15, 05:30 PST
+Scheduled - The O2 network in UK is conducting an emergency maintenance from 16 February 2023 at 14:00 PST until 16 February 2023 at 22:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from O2 UK handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays To Multiple Networks In Mexico Via Registered Sender ID]]></title>
+        <id>https://status.twilio.com/incidents/0441nfrpvxdp</id>
+        <link href="https://status.twilio.com/incidents/0441nfrpvxdp"/>
+        <updated>2023-02-16T21:44:55.000Z</updated>
+        <summary type="html"><![CDATA[Feb 16, 13:44 PST
+Resolved - We are no longer experiencing MMS/SMS delivery delays when sending messages to multiple networks In Mexico Via Registered Sender ID. This incident has been resolved.
+Feb 16, 11:50 PST
+Monitoring - We are observing an improvement on SMS delivery delays when sending messages to multiple networks In Mexico Via Registered Sender ID. Our engineers are monitoring the issue. We will provide another update in 2 hours or as soon as more information is available
+Feb 16, 11:03 PST
+Investigating - We are experiencing SMS delivery delays when sending messages to multiple networks In Mexico Via Registered Sender ID. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Quick Deploy is Failing on CodeExchange]]></title>
+        <id>https://status.twilio.com/incidents/1rrqv2k83cps</id>
+        <link href="https://status.twilio.com/incidents/1rrqv2k83cps"/>
+        <updated>2023-02-16T19:10:12.000Z</updated>
+        <summary type="html"><![CDATA[Feb 16, 11:10 PST
+Resolved - We are no longer experiencing issues when QuickDeploying Applications from CodeExchange. This incident is now resolved.
+Feb 16, 10:23 PST
+Monitoring - Our Engineering Team has identified the issue causing failures in Quick Deploy on CodeExchange. We will provide another update in 1 hour or as soon as more information becomes available.
+Feb 16, 09:49 PST
+Update - The Engineering Team is investigating an issue where some customers experienced failures when Quick Deploying applications from Code Exchange. We will provide an update in 1 hour or as more information becomes available.
+Feb 16, 09:15 PST
+Investigating - We are currently investigating an issue where End to end tests of code exchange fail on "Deploy application".]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Vodafone Network in the Australia]]></title>
+        <id>https://status.twilio.com/incidents/9s90tfk3zgrx</id>
+        <link href="https://status.twilio.com/incidents/9s90tfk3zgrx"/>
+        <updated>2023-02-16T16:31:24.000Z</updated>
+        <summary type="html"><![CDATA[Feb 16, 08:31 PST
+Resolved - We are no longer experiencing SMS Delivery Delays to Vodafone Network in the Australia. This Incident is now resolved.
+Feb 16, 06:40 PST
+Monitoring - We are observing an improvement on SMS Delivery Delays to Vodafone Network in the Australia. Our engineers are monitoring the issue. We will provide another update in 2 hours or as soon as more information is available
+Feb 16, 05:47 PST
+Investigating - We are experiencing SMS Delivery Delays to Vodafone Network in the Australia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US MMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/8fhf2dvfwnm2</id>
+        <link href="https://status.twilio.com/incidents/8fhf2dvfwnm2"/>
+        <updated>2023-02-16T14:00:29.000Z</updated>
+        <summary type="html"><![CDATA[Feb 16, 06:00 PST
+Completed - The scheduled maintenance has been completed.
+Feb 15, 22:00 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Feb 15, 06:22 PST
+Scheduled - Our MMS carrier partner in the US is conducting a planned maintenance from 15 February 2023 at 22:00 PST until 16 February 2023 at 05:00 PST. During the maintenance window, there could be intermittent delays delivering MMS to and from US T-Mobile handsets via Subset of Long code and Short code.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -33,10 +99,28 @@ Scheduled - Our SMS carrier partner in the US and Canada will be conducting plan
         <title type="html"><![CDATA[US MMS Carrier Partner Maintenance]]></title>
         <id>https://status.twilio.com/incidents/q5qd7z325pt3</id>
         <link href="https://status.twilio.com/incidents/q5qd7z325pt3"/>
-        <updated>2023-02-16T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Feb 15, 20:00 PST  -  Feb 16, 00:00 PST
+        <updated>2023-02-16T08:00:51.000Z</updated>
+        <summary type="html"><![CDATA[Feb 16, 00:00 PST
+Completed - The scheduled maintenance has been completed.
+Feb 15, 20:00 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Jan 24, 00:57 PST
 Scheduled - Our MMS carrier partner in the US is conducting planned maintenance from 15 February 2022 at 20:00 PDT until 16 February  2022 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from US handsets via US Toll-free numbers.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US and Canada SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/x90x408c59sc</id>
+        <link href="https://status.twilio.com/incidents/x90x408c59sc"/>
+        <updated>2023-02-16T08:00:03.000Z</updated>
+        <summary type="html"><![CDATA[Feb 16, 00:00 PST
+Completed - The scheduled maintenance has been completed.
+Feb 15, 20:00 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Jan 24, 00:58 PST
+Scheduled - Our SMS carrier partner in the US and Canada will be conducting planned maintenance from 15 February 2022 at 20:00 PDT until 16 February 2022 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from both US and Canada handsets via Toll-free numbers]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -45,136 +129,15 @@ Scheduled - Our MMS carrier partner in the US is conducting planned maintenance 
         <title type="html"><![CDATA[SMS Delivery Delays to Lycamobile Network in the United Kingdom]]></title>
         <id>https://status.twilio.com/incidents/spj8bylbny32</id>
         <link href="https://status.twilio.com/incidents/spj8bylbny32"/>
-        <updated>2023-02-16T00:04:13.000Z</updated>
-        <summary type="html"><![CDATA[Feb 15, 16:04 PST
+        <updated>2023-02-16T04:00:05.000Z</updated>
+        <summary type="html"><![CDATA[Feb 15, 20:00 PST
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Lycamobile Network in the United Kingdom. This incident has been resolved.
+Feb 15, 18:04 PST
+Monitoring - We are observing recovery in MMS/SMS delivery delays when sending messages to Lycamobile Network in the United Kingdom. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Feb 15, 16:04 PST
 Update - We are experiencing SMS delivery delays when sending messages to Lycamobile Network in the United Kingdom. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
 Feb 15, 15:07 PST
 Investigating - We are experiencing SMS delivery delays when sending messages to Lycamobile Network in the United Kingdom. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Yota]]></title>
-        <id>https://status.twilio.com/incidents/cg5dkc56v56v</id>
-        <link href="https://status.twilio.com/incidents/cg5dkc56v56v"/>
-        <updated>2023-02-16T00:00:38.000Z</updated>
-        <summary type="html"><![CDATA[Feb 15, 16:00 PST
-Completed - The scheduled maintenance has been completed.
-Feb 15, 12:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Feb 15, 05:23 PST
-Scheduled - The Yota Network in Russia is conducting a planned maintenance From 15 February 2023 at 12:00 PST until 15 February 2023 at 16:00 PST. During the maintenance window. There could be intermittent delays delivering SMS to and from Yota handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Megafon]]></title>
-        <id>https://status.twilio.com/incidents/lkn2jk1ywlls</id>
-        <link href="https://status.twilio.com/incidents/lkn2jk1ywlls"/>
-        <updated>2023-02-16T00:00:18.000Z</updated>
-        <summary type="html"><![CDATA[Feb 15, 16:00 PST
-Completed - The scheduled maintenance has been completed.
-Feb 15, 12:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Feb 15, 05:20 PST
-Scheduled - The Megafon Network in Russia is conducting a planned maintenance From 15 February 2023 at 12:00 PST until 15 February 2023 at 16:00 PST. During the maintenance window. There could be intermittent delays delivering SMS to and from Megafon handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Our Engineers are Investigating an Issue with Account Sign Ups for Console]]></title>
-        <id>https://status.twilio.com/incidents/lv4rkyfnffxs</id>
-        <link href="https://status.twilio.com/incidents/lv4rkyfnffxs"/>
-        <updated>2023-02-15T21:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Feb 15, 13:30 PST
-Resolved - Our engineers are currently investigating the customer impact of a retroactive issue with Account Sign Ups and was degraded for 15 minutes between 1:37 and 1:52pm Pacific Time on 02/15/2023.  During this period, customers may have experienced issues with Sign Up. We will follow up and provide customer impact details within 2 hours.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Multiple Networks In USA Over Small Carriers]]></title>
-        <id>https://status.twilio.com/incidents/f7b85zmt7k9d</id>
-        <link href="https://status.twilio.com/incidents/f7b85zmt7k9d"/>
-        <updated>2023-02-15T19:35:22.000Z</updated>
-        <summary type="html"><![CDATA[Feb 15, 11:35 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Multiple Networks in USA Over Small Carriers. This incident is now resolved.
-Feb 15, 09:47 PST
-Monitoring - We are observing an improvement on SMS delivery delays when sending messages to Multiple Networks in USA Over Small Carriers. Our engineers are monitoring the issue. We will provide another update in 2 hours or as soon as more information is available.
-Feb 15, 08:17 PST
-Update - We continue experiencing SMS delivery delays when sending messages to Multiple Networks in USA Over Small Carriers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Feb 15, 07:26 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to Multiple Networks in USA Over Small Carriers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inbound SMS delivery failures to Twilio Israel Phone Numbers]]></title>
-        <id>https://status.twilio.com/incidents/ptj2b5cbgd29</id>
-        <link href="https://status.twilio.com/incidents/ptj2b5cbgd29"/>
-        <updated>2023-02-15T15:45:41.000Z</updated>
-        <summary type="html"><![CDATA[Feb 15, 07:45 PST
-Resolved - We are no longer experiencing SMS delivery failures to Twilio Israel Phone Numbers. This incident is now resolved.
-Feb 15, 05:55 PST
-Update - We are still observing successful SMS delivery to Twilio Israel Phone Numbers.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Feb 15, 04:27 PST
-Monitoring - We are observing successful SMS delivery to Twilio Israel Phone Numbers.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Feb 15, 01:38 PST
-Update - We are still experiencing SMS delivery failures to Twilio Israel Phone Numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
-Feb 15, 00:00 PST
-Update - We are experiencing SMS delivery failures to Twilio Israel Phone Numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Feb 14, 23:05 PST
-Investigating - We are experiencing SMS delivery failures to Twilio Israel Phone Numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delay To Mobilis Network In Algeria]]></title>
-        <id>https://status.twilio.com/incidents/xcx9n08gh4jq</id>
-        <link href="https://status.twilio.com/incidents/xcx9n08gh4jq"/>
-        <updated>2023-02-15T09:44:34.000Z</updated>
-        <summary type="html"><![CDATA[Feb 15, 01:44 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Mobilis Network in Algeria. This incident has been resolved.
-Feb 14, 23:55 PST
-Update - We are observing recovery in SMS delivery delays when sending messages to Mobilis Network. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Feb 14, 22:35 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Mobilis Network. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Feb 14, 21:47 PST
-Update - We are still experiencing SMS delivery delays when sending messages to Mobilis Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Feb 14, 19:47 PST
-Update - We continue to experience SMS delivery delays when sending messages to Mobilis Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Feb 14, 18:49 PST
-Update - We are continuing to investigate this issue.
-Feb 14, 18:47 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to Mobilis Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Moov Network in Ivory Coast]]></title>
-        <id>https://status.twilio.com/incidents/n6xvwngjx70n</id>
-        <link href="https://status.twilio.com/incidents/n6xvwngjx70n"/>
-        <updated>2023-02-15T08:57:42.000Z</updated>
-        <summary type="html"><![CDATA[Feb 15, 00:57 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to to Moov Network in Ivory Coast. This incident has been resolved.
-Feb 14, 23:16 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to to Moov Network in Ivory Coast. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Feb 14, 22:28 PST
-Update - We continue to experience SMS delivery delays when sending messages to Moov Network in Ivory Coast. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
-Feb 14, 14:28 PST
-Update - We are still experiencing SMS delivery delays when sending messages to Moov Network in Ivory Coast. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
-Feb 14, 10:30 PST
-Update - We are still experiencing SMS delivery delays when sending messages to Moov Network in Ivory Coast. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Feb 14, 08:45 PST
-Update - We are still experiencing SMS delivery delays when sending messages to Moov Network in Ivory Coast. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Feb 14, 07:53 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to Moov Network in Ivory Coast. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -1107,36 +1070,6 @@ Jan 18, 18:16 UTC
 Investigating - We are investigating reports of degraded performance for Copilot.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some users are receiving incorrect block and member limit warnings]]></title>
-        <id>https://status.notion.so/incidents/g2jhynfpdlxj</id>
-        <link href="https://status.notion.so/incidents/g2jhynfpdlxj"/>
-        <updated>2023-01-18T01:25:46.000Z</updated>
-        <summary type="html"><![CDATA[Jan 17, 17:25 PST
-Resolved - We have implemented a fix and confirmed the issue is resolved. Users should no longer be receiving incorrect member and block limit warnings. You may need to refresh Notion to see the fixed version.
-Jan 17, 16:29 PST
-Update - We are continuing to work on a fix for this issue.
-Jan 17, 16:29 PST
-Identified - There is currently an issue where some users are incorrectly receiving block and member limit warnings. We have identified the root cause and a fix is in progress.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Users may experience issues accessing or loading Slack, have trouble creating posts, and using Workflow Builder.]]></title>
-        <id>https://status.slack.com//2023-01/592b7776e9a7fdfa</id>
-        <link href="https://status.slack.com//2023-01/592b7776e9a7fdfa"/>
-        <updated>2023-01-17T23:06:59.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-From January 16th, 2023 04:59 to 08:38 AM PST, some users experienced issues creating Posts, using workflows, and trouble accessing Slack.  
-
-
-We traced this back to an issue with our internal DNS configuration. Once this was identified and resolved, functionality was restored to all impacted users.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>
