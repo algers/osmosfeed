@@ -1,66 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-10T00:24:09.924Z</id>
+    <id>urn:2023-03-11T00:20:32.524Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-10T00:24:09.924Z</updated>
+    <updated>2023-03-11T00:20:32.524Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
-    <entry>
-        <title type="html"><![CDATA[SMS Carrier Partner Maintenance - Small US Regional Carriers]]></title>
-        <id>https://status.twilio.com/incidents/nt642v2vrj7q</id>
-        <link href="https://status.twilio.com/incidents/nt642v2vrj7q"/>
-        <updated>2023-03-10T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 9, 21:00 PST  -  Mar 10, 01:00 PST
-Mar  1, 19:22 PST
-Scheduled - Our SMS carrier partner in the US is conducting a planned maintenance from 09 March 2023 at 21:00 PST until 10 March 2022 at 01:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from below carriers via a subset of US Shortcode and US Longcode.
-
-Bluegrass Cellular
-Bravado Wireless (Cross Wireless)
-Carolina West Wireless
-CellCom (New Cell)
-Cellular One (MTPCS)
-Chat Mobility
-Copper Valley
-Cordova Wireless
-GCI Communications (Alaska DigiTel & ACS Wireless)
-Illinois Valley Cellular
-Inland Cellular
-Mid-Rivers Cellular (Cable & Cellular Communications)
-NewCore (ASTAC / PTCI / Standing Rock)
-Nex-Tech Wireless
-NorthwestCell (Northwest Missouri Cellular)
-Pine Belt Cellular
-Rural Independent Network Alliance (RINA)
-Southern LINC
-Thumb Cellular
-Union Cellular
-Viaero Wireless
-West Central Cellular]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Beeline]]></title>
-        <id>https://status.twilio.com/incidents/2t831kst3t47</id>
-        <link href="https://status.twilio.com/incidents/2t831kst3t47"/>
-        <updated>2023-03-10T00:00:18.000Z</updated>
-        <summary type="html"><![CDATA[Mar  9, 16:00 PST
-Completed - The scheduled maintenance has been completed.
-Mar  9, 13:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar  7, 06:40 PST
-Scheduled - The Beeline network in Russia is conducting a planned maintenance from 09 March 2023 at 13:00 PST until 09 March 2023 at 16:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Device actions are slow and the Rippling Admin account may temporarily be out of sync]]></title>
         <id>https://status.rippling.com/incidents/k4qyh9s92rw1</id>
         <link href="https://status.rippling.com/incidents/k4qyh9s92rw1"/>
-        <updated>2023-03-09T23:05:53.000Z</updated>
-        <summary type="html"><![CDATA[Mar  9, 23:05 UTC
+        <updated>2023-03-10T23:50:52.000Z</updated>
+        <summary type="html"><![CDATA[Mar 10, 23:50 UTC
+Resolved - This incident has been resolved.
+Mar 10, 19:13 UTC
+Update - A fix has been deployed, recovery efforts are underway.  ETA for resolution is today.
+Mar  9, 23:05 UTC
 Identified - The issue has been identified and a fix is being implemented.
 Mar  9, 18:10 UTC
 Investigating - We are currently investigating this issue.]]></summary>
@@ -69,27 +23,66 @@ Investigating - We are currently investigating this issue.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Egypt SMS Carrier Maintenance - Vodafone]]></title>
-        <id>https://status.twilio.com/incidents/vvbxf2ljrzjy</id>
-        <link href="https://status.twilio.com/incidents/vvbxf2ljrzjy"/>
-        <updated>2023-03-09T23:01:11.000Z</updated>
-        <summary type="html"><![CDATA[Mar  9, 15:01 PST
+        <title type="html"><![CDATA[Banking partner delay]]></title>
+        <id>https://status.rippling.com/incidents/yhm54z3b1wqg</id>
+        <link href="https://status.rippling.com/incidents/yhm54z3b1wqg"/>
+        <updated>2023-03-10T23:13:28.000Z</updated>
+        <summary type="html"><![CDATA[Mar 10, 23:13 UTC
+Update - All payments with a check date of March 10th have been successfully submitted. Some have been completed, and others will complete between Saturday, March 11th and Monday, March 13th.
+This morning, Rippling was assured by SVB that all payments would be processed today. However, when SVB fell into receivership with the FDIC, we immediately began working with JPMorgan Chase to find an alternative means to send funds to employees. 
+As a result of the actions we took, all employees will receive their payments between today and Monday morning, depending on which bank they use. Rippling has extended our own capital to fund these payments while client funds are locked up with SVB.
+When will employees with a March 10, 2023 check date be paid?
+- Employees with Chase bank a…]]></summary>
+        <author>
+            <name>Rippling Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some customers are seeing errors when attempting to connect Google Drive]]></title>
+        <id>https://status.slack.com//2023-03/452b13772c8c8b7d</id>
+        <link href="https://status.slack.com//2023-03/452b13772c8c8b7d"/>
+        <updated>2023-03-10T20:12:45.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+
+On March 9, 2023 from 8:28 PM to March 10, 2023 8:40 AM PST, some users that were signed into multiple workspaces experienced a redirect issue when signing into the Google Drive app from Slack. 
+
+
+After the sign-in button was clicked, the user was redirected to a different Slack workspace they were signed into, causing a 400 Bad Request response.
+
+
+We made a code change to ensure the user was redirected to the proper workspace, fixing the authentication error and resolving the issue.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United Kingdom Account Security Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/81t7f95lzh81</id>
+        <link href="https://status.twilio.com/incidents/81t7f95lzh81"/>
+        <updated>2023-03-10T19:00:11.000Z</updated>
+        <summary type="html"><![CDATA[Mar 10, 11:00 PST
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar  1, 02:56 PST
-Scheduled - The Vodafone network in Egypt is conducting a planned maintenance from 09 March 2023 at 15:00 PST until 09 March 2023 at 20:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Vodafone Egypt handsets.]]></summary>
+Mar  2, 04:46 PST
+Scheduled - Our Carrier Partner Three UK is conducting a planned maintenance from 10 March 2023 at 11:00 PST until 13 March 2023 at 16:59 PST. During the maintenance window, there could be intermittent API request failures for UK.
+Impacted Products: Lookup SIM Swap and Identity Match]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[United Kingdom SMS Carrier Maintenance - Hutchison 3G]]></title>
-        <id>https://status.twilio.com/incidents/90l91hph70vq</id>
-        <link href="https://status.twilio.com/incidents/90l91hph70vq"/>
-        <updated>2023-03-09T23:00:31.000Z</updated>
-        <summary type="html"><![CDATA[Mar  9, 15:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar  8, 06:50 PST
-Scheduled - The Hutchison 3G network in United Kingdom is conducting an emergency maintenance from 9 March 2023 at 15:00 PST until 9 March 2023 at 21:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Hutchison 3G United Kingdom handsets.]]></summary>
+        <title type="html"><![CDATA[SMS Delivery Delays to Zain network]]></title>
+        <id>https://status.twilio.com/incidents/lq6ynf3b420q</id>
+        <link href="https://status.twilio.com/incidents/lq6ynf3b420q"/>
+        <updated>2023-03-10T11:27:01.000Z</updated>
+        <summary type="html"><![CDATA[Mar 10, 03:27 PST
+Resolved - We are no longer experiencing MMS/SMS delivery delays when sending messages to Zain network. This incident has been resolved.
+Mar 10, 02:24 PST
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Zain network. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Mar 10, 00:20 PST
+Update - We are experiencing Outbound SMS delivery delays when sending messages to Zain network in Jordan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hour or as soon as more information becomes available.
+Mar  9, 23:23 PST
+Investigating - We are experiencing Outbound SMS delivery delays when sending messages to Zain network in Jordan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -182,16 +175,6 @@ Mar  9, 14:34 UTC
 Investigating - We are investigating reports of degraded performance for Webhooks.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: Our team is continuing to investigate this issue. We will provide an update by Mar 9, 2023, 12:00 AM UTC with more information about this problem. Thank you for your patience.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/PveZwKACdwUHgsRVazR4</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/PveZwKACdwUHgsRVazR4"/>
-        <updated>2023-03-09T13:27:50.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2023-03-07 15:00</strong> and ended at <strong>2023-03-09 09:03</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><span>  The problem with Admin Console has been resolved. We apologize for the inconvenience and thank you for your patience and continued support.  </span></div><hr><p>Affected products: Admin Console</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
@@ -886,58 +869,6 @@ We will provide further updates as we learn more.
 Apologies for the inconvenience caused.]]></summary>
         <author>
             <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Planned maintenance on GitHub Package Registry]]></title>
-        <id>https://www.githubstatus.com/incidents/53t2nlxs8016</id>
-        <link href="https://www.githubstatus.com/incidents/53t2nlxs8016"/>
-        <updated>2023-02-09T09:09:50.000Z</updated>
-        <summary type="html"><![CDATA[Feb  9, 09:09 UTC
-Completed - The scheduled maintenance has been completed.
-Feb  8, 22:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Feb  7, 11:52 UTC
-Update - Due to planned maintenance on our infrastructure, we expect an interruption to GitHub Packages Registry that will last two minutes at an unconfirmed time during this 15 hour time window. If you experience interruption, please wait two minutes then try again.
-Thank you for your patience while we complete this critical work.
-Feb  7, 10:08 UTC
-Scheduled - We will be undergoing scheduled maintenance during this time.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Searches are failing for some users]]></title>
-        <id>https://status.slack.com//2023-02/afc6a0fd015ea625</id>
-        <link href="https://status.slack.com//2023-02/afc6a0fd015ea625"/>
-        <updated>2023-02-09T02:32:52.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-On February 8, 2023, from 12:09 PM to 4:56 PM PST, customers on the Free, Pro, and Business+ plans may have experienced issues searching for messages in Slack.
-
-
-We made a recent update that unintentionally prevented search results from populating correctly. We reverted the change, resolving the issue for all affected customers.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Codespaces]]></title>
-        <id>https://www.githubstatus.com/incidents/cmsz976yn1km</id>
-        <link href="https://www.githubstatus.com/incidents/cmsz976yn1km"/>
-        <updated>2023-02-08T17:05:03.000Z</updated>
-        <summary type="html"><![CDATA[Feb  8, 17:05 UTC
-Resolved - This incident has been resolved.
-Feb  8, 16:54 UTC
-Update - We continue to work to mitigate issues with Codespaces in Southeast Asia. Users may not be able to resume Codespaces created before the incident. Newly created Codespaces are working.
-Feb  8, 16:18 UTC
-Update - We continue to work to mitigate issues with Codespaces in Southeast Asia. Users may not be able to resume Codespaces created before the incident. Newly created Codespaces are working.
-Feb  8, 15:40 UTC
-Update - We continue to work to mitigate issues with Codespaces in Southeast Asia. Users may not be able to resume Codespaces created before the incident. Newly created Codespaces are working.
-Feb  8, 15:04 UTC
-Update - We continue to work to mitigate issues with Codespaces in Southeast Asia. User…]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
