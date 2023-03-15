@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-03-14T00:21:20.399Z</id>
+    <id>urn:2023-03-15T00:23:21.585Z</id>
     <title>osmos::feed</title>
-    <updated>2023-03-14T00:21:20.399Z</updated>
+    <updated>2023-03-15T00:23:21.585Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[United Kingdom Account Security Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/w1yr3xlbxdb3</id>
-        <link href="https://status.twilio.com/incidents/w1yr3xlbxdb3"/>
-        <updated>2023-03-14T01:30:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 13, 18:30 PDT  -  Mar 14, 00:58 PDT
-Mar 13, 15:27 PDT
-Scheduled - Our Carrier Partner Three UK is conducting a planned maintenance from 13 March 2023 at 18:30 PDT until 14 March 2023 at 01:00 PDT. During the maintenance window, there could be intermittent API request failures for UK.
-Impacted Products: Lookup SIM Swap and Identity Match]]></summary>
+        <title type="html"><![CDATA[Incident: Some users may experience issues accessing api.slack.com]]></title>
+        <id>https://status.slack.com//2023-03/9011b8a984a74042</id>
+        <link href="https://status.slack.com//2023-03/9011b8a984a74042"/>
+        <updated>2023-03-14T16:57:07.000Z</updated>
+        <summary type="html"><![CDATA[We appreciate your patience while we've continued to investigate this issue. Some customers may still be impacted by the SSL certificate changes, however we will closely monitor reports and provide further updates through customer support tickets with the impacted users. Please reach out to our team at feedback@slack.com for further assistance.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Enterprise users see slowness or error messages when signing in on mobile]]></title>
         <id>https://status.slack.com//2023-03/1da534dc3612b14f</id>
         <link href="https://status.slack.com//2023-03/1da534dc3612b14f"/>
-        <updated>2023-03-13T23:00:41.000Z</updated>
-        <summary type="html"><![CDATA[Only a small subset of Enterprise users using Mobile Device Management with specific settings disabled have been impacted. We've released a fix for all current reports and are working on a permanent fix.
+        <updated>2023-03-14T06:21:18.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary: 
+
+On March 13th, 2023 from 2:00 PM to 5:00 PM PDT, some Enterprise Grid customers using the Slack for Intune mobile app may have experienced errors or latency when logging in to Slack.
 
 
-Thank you for your patience. If you're still experiencing any issues, please let us know at feedback@slack.com.]]></summary>
+We identified that this issue was caused by a conflict between Slack functionality and a Slack for Intune preference. We deployed a manual fix, resolving the issue for all impacted users.]]></summary>
         <author>
             <name>Slack System Status</name>
         </author>
@@ -844,19 +843,6 @@ Feb 13, 08:17 PST
 Investigating - Notion users may experience general performance slowness. Engineering is currently investigating and implementing mitigations.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Issues and Pull Requests]]></title>
-        <id>https://www.githubstatus.com/incidents/3n3gqvfnj0np</id>
-        <link href="https://www.githubstatus.com/incidents/3n3gqvfnj0np"/>
-        <updated>2023-02-13T03:34:21.000Z</updated>
-        <summary type="html"><![CDATA[Feb 13, 03:34 UTC
-Resolved - This incident has been resolved.
-Feb 13, 03:09 UTC
-Investigating - We are investigating reports of degraded performance for Issues and Pull Requests.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
