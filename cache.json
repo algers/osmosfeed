@@ -6,6 +6,16 @@
       "siteUrl": "https://changelog.bookingsync.com",
       "articles": [
         {
+          "id": "260094",
+          "author": "Yannick, Customer Care Team Leader - Pro Team",
+          "description": "Action required\n  \nAs we are doing some improvements on our infrastructure, we have some modifications that are necessary on the way some of your website domains are configured.\nTo ensure that you have the best configuration, we invite you to review the settings on your registrar to make sure that you have the correct configuration.\nWhat is needed?\nYour main domain should be under a **Cname **record with **www **and point to dns1.happystay.com. (the \"dot\" at the end may be required depending on your domain).\n(example for your main domain: www.yourwebsite.com)\nYou can also add an addon domain without using www if you want your website to be reachable this way, (example: yourwebsite.com).\nIn order to do that, you can configure an A record (Aname) in your DNS zone pointing to one of the following IP addresses:\n13.248.140.34\n\n\n76.223.14.214\n\n\nThese are the new addresses that are replacing the previous address: (52.210.201.133)\nImportant note, If you are using 52.210.201.133, you need to change to one of the new IP address as we will not be able to keep supporting this one on March 29th 2023.\nIf you need assistance doing this change, please contact our support team and we will be happy to assist you with the modifications. Please make sure to have access to your registrar (Gandi, OVH, Godaddy…) so we can assist you in performing this change. \nThe details are also available on our manual.\nThanks,",
+          "link": "https://changelog.bookingsync.com/follow-up-important-information-regarding-your-website-domain!-260094",
+          "publishedOn": "2023-03-15T08:17:43.000Z",
+          "wordCount": 475,
+          "title": "Follow up - Important information regarding your website domain!",
+          "imageUrl": null
+        },
+        {
           "id": "259586",
           "author": "Yannick, Customer Care Team Leader - Pro Team",
           "description": "Communications\n  \nWe will be doing some improvements on our website infrastructure which may temporarily affect your websites.\nThe maintenance will take place on tuesday March 14, 2023 at 06:00am CET and will have a duration of 3 hours max.\nWhat will be the impact?\n· Websites may not be unreachable for up to 10 minutes at maintenance time.\n· SSL may be unavailable from the beginning of the maintenance for up to 3 hours (website will still be reachable without https)\nDo I need to do anything?\nThis maintenance will impact the DNS zone we are using to link your website to our infrastructure, therefore some changes will be required in the 2 weeks following this update if you are using your own domain name with A records.\nWe will send a second communication with the information and update our manual to help you with this transition.\nOf course our support team will be there to assist you.\nThank you for your comprehension,",
@@ -33,38 +43,7 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": [
-        {
-          "id": "https://status.twilio.com/incidents/vv2gqgjx2w8r",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Mar 15, 23:00 PDT  -  Mar 16, 00:00 PDT\nMar  9, 11:29 PST\nScheduled - Our Voice carrier partner in France is conducting a planned maintenance from 15 March 2023 at 23:00 PDT until 16 March 2023 at 00:00 PDT. During the maintenance window, there could be intermittent call failures to and from a subset of Twilio's France phone numbers.",
-          "link": "https://status.twilio.com/incidents/vv2gqgjx2w8r",
-          "publishedOn": "2023-03-16T06:00:00.000Z",
-          "wordCount": 6184,
-          "title": "France Voice Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/2qz1v5s72g13",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Mar 15, 22:00 PDT  -  Mar 16, 02:00 PDT\nMar  9, 11:00 PST\nScheduled - Our MMS carrier partner in the US is conducting a planned maintenance from 15 March 2023 at 22:00 PDT until 16 March 2023 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from US handsets via a Subset of Shortcodes and Longcodes.",
-          "link": "https://status.twilio.com/incidents/2qz1v5s72g13",
-          "publishedOn": "2023-03-16T05:00:00.000Z",
-          "wordCount": 6191,
-          "title": "US MMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/6wl5l0l3fx57",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Mar 15, 18:30 PDT  -  Mar 16, 01:00 PDT\nMar 13, 15:30 PDT\nScheduled - Our Carrier Partner Three UK is conducting a planned maintenance from 15 March 2023 at 18:30 PDT until 16 March 2023 at 01:00 PDT. During the maintenance window, there could be intermittent API request failures for UK. \nImpacted Products: Lookup SIM Swap and Identity Match",
-          "link": "https://status.twilio.com/incidents/6wl5l0l3fx57",
-          "publishedOn": "2023-03-16T01:30:00.000Z",
-          "wordCount": 6194,
-          "title": "United Kingdom Account Security Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Notion Status - Incident History",
@@ -351,26 +330,6 @@
           "wordCount": 3992,
           "title": "Incident with Git Operations",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/ytnkrdx2ssjr",
-          "author": null,
-          "description": "Feb 15, 00:17 UTC\nResolved - This incident has been resolved.\nFeb 15, 00:09 UTC\nUpdate - We are investigating issues with Codespaces in the US West geographic area. Users in that location may not be able to create or connect to a codespace during this time. We will provide updates.\nFeb 15, 00:04 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces.",
-          "link": "https://www.githubstatus.com/incidents/ytnkrdx2ssjr",
-          "publishedOn": "2023-02-15T00:17:19.000Z",
-          "wordCount": 4029,
-          "title": "Incident with Codespaces",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/qfxsh2sgz70d",
-          "author": null,
-          "description": "Feb 14, 19:16 UTC\nResolved - This incident has been resolved.\nFeb 14, 19:00 UTC\nInvestigating - We are investigating reports of degraded performance for Git Operations.",
-          "link": "https://www.githubstatus.com/incidents/qfxsh2sgz70d",
-          "publishedOn": "2023-02-14T19:16:01.000Z",
-          "wordCount": 3992,
-          "title": "Incident with Git Operations",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -528,16 +487,6 @@
           "wordCount": 225,
           "title": "Incident: Some customers are having issues loading the admin page",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-02/f735b7262fd0efc2",
-          "author": null,
-          "description": "Issue summary:\n\r\n\r\nOn Tuesday February 14th, 2023 from 1:19 AM PST to 3:50 AM PST some customers reported an issue where the API method files.upload created a new message instead of uploading files in a thread.\n\r\n\r\nOur team identified that the cause of the issue was linked to a recent update. This change was rolled back which fixed the issue. \n\r\n\r\nNote: This summary has been edited since its initial posting to better align with Slack's communication guidelines.",
-          "link": "https://status.slack.com//2023-02/f735b7262fd0efc2",
-          "publishedOn": "2023-02-14T12:25:18.000Z",
-          "wordCount": 149,
-          "title": "Incident: Files upload API not uploading files to thread",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
     },
@@ -564,16 +513,6 @@
           "publishedOn": "2023-02-23T19:35:13.000Z",
           "wordCount": 3309,
           "title": "User experience may be degraded, API timing out. Scenario executions not affected.",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/ygzy24sk44qg",
-          "author": null,
-          "description": "Feb 15, 08:00 CET\nCompleted - The scheduled maintenance has been completed.\nFeb 15, 05:00 CET\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb  3, 13:19 CET\nScheduled - Please note we will be undergoing infrastructure maintenance on 15.02.2023 between 05:00 AM and 08:00 AM CET on eu1.make.com . During the maintenance you may experience short service interruption, however we are not expecting any data loss. \nThank you for your understanding.",
-          "link": "https://status.make.com/incidents/ygzy24sk44qg",
-          "publishedOn": "2023-02-15T07:00:15.000Z",
-          "wordCount": 3277,
-          "title": "Scheduled infrastructure maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
