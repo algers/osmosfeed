@@ -31,7 +31,18 @@
       "title": "Security Bulletins on Tailscale",
       "feedUrl": "https://tailscale.com/security-bulletins/index.xml",
       "siteUrl": "https://tailscale.com/security-bulletins/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://tailscale.com/security-bulletins/#ts-2023-003/",
+          "author": null,
+          "description": "Reference: CVE-2023-28436\nSeverity: Medium\nCVSS vector string: CVSS:3.0/AV:A/AC:L/PR:H/UI:R/S:C/C:H/I:N/A:N\nDescription: A vulnerability identified in the implementation of Tailscale SSH in FreeBSD allowed commands to be run with a higher privilege group ID than that specified by Tailscale SSH access rules.\nAffected platforms: FreeBSD\nPatched Tailscale client versions: v1.38.2 or later\nWhat happened?\nA difference in the behavior of the FreeBSD setgroups system call from POSIX meant that the Tailscale client running on a FreeBSD-based operating system did not appropriately restrict groups on the host when using Tailscale SSH. When accessing a FreeBSD host over Tailscale SSH, the egid of the tailscaled process was used instead of that of the user specified in Tailscale SSH access rules.\nWho is affected?\n9 tailnets with 22 FreeBSD nodes running Tailscale SSH since Tailscale v1.34 (released on 2022-12-04) may have had Tailscale SSH sessions with a higher privilege group ID than that specified in Tailscale SSH access rules.\nWe have notified affected organizations where we have security contacts.\nWhat is the impact?\nTailscale SSH commands may have been run with a higher privilege group ID than that specified in Tailscale SSH access rules if they met all of the following criteria:\nThe destination node was a FreeBSD device with Tailscale SSH enabled;\nTailscale SSH access rules permitted access for non-root users; and\nA non-interactive SSH session was used.\nWhat do I need to do?\nIf you are running Tailscale on FreeBSD, upgrade to v1.38.2 or later to remediate the issue. Admins of a tailnet can view FreeBSD nodes with unpatched versions in the admin console.\nTo update the local ports tree in advance of what’s available upstream, you can:\ncd /usr/ports/security/tailscale\nedit the Makefile to set PORTVERSION to 1.38.2\nmake makesum\nmake install\nTailscale SSH on other platforms is not affected.\nCredits\nWe would like to thank Ryan Belgrave for reporting this issue.",
+          "link": "https://tailscale.com/security-bulletins/#ts-2023-003/",
+          "publishedOn": "2023-03-22T00:00:00.000Z",
+          "wordCount": 2794,
+          "title": "TS-2023-003",
+          "imageUrl": "https://tailscale.com/files/images/og-image.png"
+        }
+      ]
     },
     {
       "title": "Airbnb API Status - Incident History",
@@ -43,7 +54,88 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://status.twilio.com/incidents/6j6slv4tn3lc",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Mar 23, 01:00 - 02:00 PDT\nMar 16, 13:47 PDT\nScheduled - Our Global Carrier Partner 3ID is conducting an emergency maintenance from 23 March 2023 at 1:00 PDT until 23 March 2023 at 2:00 PDT. During the maintenance window, there could be intermittent API request failures for the following destinations: Indonesia.\nImpacted Products - Carrier\nSilent Network Authentication (SNA) - 3 Indonesia.",
+          "link": "https://status.twilio.com/incidents/6j6slv4tn3lc",
+          "publishedOn": "2023-03-23T08:00:00.000Z",
+          "wordCount": 6196,
+          "title": "Global Account Security Carrier Partner Maintenance - 3ID",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/v941jwb6gwgy",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Mar 22, 22:00 PDT  -  Mar 23, 04:00 PDT\nMar 21, 10:59 PDT\nScheduled - The T-Mobile network in the US is conducting an emergency maintenance from 22 March 2023 at 22:00 PDT until 23 March 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
+          "link": "https://status.twilio.com/incidents/v941jwb6gwgy",
+          "publishedOn": "2023-03-23T05:00:00.000Z",
+          "wordCount": 6210,
+          "title": "US SMS Carrier Maintenance - T-Mobile",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/93vq4bm2msw1",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Mar 22, 22:00 PDT  -  Mar 23, 04:00 PDT\nMar  9, 01:49 PST\nScheduled - Our Voice carrier partner in the US is conducting a planned maintenance from 22 March 2023 at 22:00 PDT until 23 March 2023 at 04:00 PDT. During the maintenance window, there could be intermittent call failures to and from Twilio US phone numbers.",
+          "link": "https://status.twilio.com/incidents/93vq4bm2msw1",
+          "publishedOn": "2023-03-23T05:00:00.000Z",
+          "wordCount": 6183,
+          "title": "US Voice Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/nfjr8xtm104z",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Mar 22, 22:00 - 23:30 PDT\nMar  3, 04:02 PST\nScheduled - Our SMS carrier partner in Germany is conducting a planned maintenance from March 22 2023 at 22:00 PDT until March 22 2023 at 23:30 PDT . During the maintenance window, there could be intermittent delays delivering SMS to Germany handsets via Germany shortcodes.",
+          "link": "https://status.twilio.com/incidents/nfjr8xtm104z",
+          "publishedOn": "2023-03-23T05:00:00.000Z",
+          "wordCount": 6179,
+          "title": "Germany SMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/nd4vm8rvn7gd",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Mar 22, 21:00 PDT  -  Mar 23, 02:00 PDT\nMar 16, 16:07 PDT\nScheduled - A Subset of Small US networks in the US is conducting a planned maintenance from 22 March 2023 at 21:00 PDT until 23 March 2023 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US Carriers.",
+          "link": "https://status.twilio.com/incidents/nd4vm8rvn7gd",
+          "publishedOn": "2023-03-23T04:00:00.000Z",
+          "wordCount": 6196,
+          "title": "US SMS Carriers Maintenance - Small US Networks",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/8mn5n4f7951g",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Mar 22, 18:00 - 22:00 PDT\nMar  6, 15:53 PST\nScheduled - The Tigo network in Senegal is conducting a planned maintenance from 22 March 2023 at 18:00 PDT until 22 March 2023 at 22:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from a subset of handset in Senegal.",
+          "link": "https://status.twilio.com/incidents/8mn5n4f7951g",
+          "publishedOn": "2023-03-23T01:00:00.000Z",
+          "wordCount": 6190,
+          "title": "Senegal SMS Carrier Maintenance - Tigo",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/lncjh1d1h8cv",
+          "author": null,
+          "description": "Mar 22, 17:11 PDT\nResolved - We are no longer experiencing SMS delivery delays to Cameroon Orange network. This incident has been resolved.\nMar 22, 15:19 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Cameroon Orange network. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMar 22, 11:18 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Cameroon Orange network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMar 22, 09:17 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to Cameroon Orange network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMar 22, 08:16 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Cameroon Orange network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/lncjh1d1h8cv",
+          "publishedOn": "2023-03-23T00:11:38.000Z",
+          "wordCount": 6351,
+          "title": "SMS Delivery Delays to Cameroon Orange Network",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/d88n78qrr7lf",
+          "author": null,
+          "description": "Mar 22, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMar 22, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 20, 07:24 PDT\nScheduled - The Megafon network in Russia is conducting an emergency maintenance from 22 March 2023 at 13:00 PDT until 22 March 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Megafon Russia handsets.",
+          "link": "https://status.twilio.com/incidents/d88n78qrr7lf",
+          "publishedOn": "2023-03-23T00:00:24.000Z",
+          "wordCount": 6208,
+          "title": "Russia SMS Carrier Maintenance - Megafon",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        }
+      ]
     },
     {
       "title": "Notion Status - Incident History",
@@ -171,6 +263,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/rzqm3bfcn80x",
+          "author": null,
+          "description": "Mar 22, 22:41 UTC\nResolved - This incident has been resolved.\nMar 22, 22:26 UTC\nUpdate - We are continuing to investigate issues with Codespaces in the US West region.\nMar 22, 21:03 UTC\nUpdate - Some customers are currently unable to resume Codespaces created in the US West region. We are working to restore Codespaces to full functionality for those customers.\nMar 22, 20:31 UTC\nUpdate - We are investigating reports of degraded performance for Codespaces created in our US West 3 cluster.\nMar 22, 20:23 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces.",
+          "link": "https://www.githubstatus.com/incidents/rzqm3bfcn80x",
+          "publishedOn": "2023-03-22T22:41:58.000Z",
+          "wordCount": 4066,
+          "title": "Incident with Codespaces",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/8095qt814fr4",
           "author": null,
@@ -319,6 +421,16 @@
       "siteUrl": "https://status.slack.com/",
       "articles": [
         {
+          "id": "https://status.slack.com//2023-03/851ee18978dd79cc",
+          "author": null,
+          "description": "We've resolved the issue impacting the \"Time when workflow started\" variable on Workflow Builder. If you notice a missing timestamp in an affected spreadsheet for previously impacted workflows, you'll need to open the workflow in the Workflow Builder to get the timestamps from the activity tab and enter them into the sheet manually.\n\r\n\r\nYou can see detailed steps from our Help Center here: https://slack.com/help/articles/360055655493-View-workflow-activity-in-Workflow-Builder\n\r\n\r\nThanks for bearing with us and we apologize for or the disruption we brought to your day.",
+          "link": "https://status.slack.com//2023-03/851ee18978dd79cc",
+          "publishedOn": "2023-03-22T16:54:15.000Z",
+          "wordCount": 489,
+          "title": "Incident: “Time when workflow started” variable is missing from Workflow Builder steps",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://status.slack.com//2023-03/9011b8a984a74042",
           "author": null,
           "description": "We appreciate your patience while we've continued to investigate this issue. Some customers may still be impacted by the SSL certificate changes, however we will closely monitor reports and provide further updates through customer support tickets with the impacted users. Please reach out to our team at feedback@slack.com for further assistance.",
@@ -456,16 +568,6 @@
           "publishedOn": "2023-02-21T19:41:06.000Z",
           "wordCount": 193,
           "title": "Incident: Issues with mobile notifications for Enterprise Grid customers",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-02/a262a4178e42e17e",
-          "author": null,
-          "description": "Issue summary:\n\r\nFrom February 14th, 2023 at 10:49AM PST until February 20th, 2023 at 1:16 AM PST some customers were unable to load their workspace's admin page. We traced this issue to a recent code change, which resulted in the workspace token being invalidated when visiting the admin page from a browser. Reverting this code change fixed the issue for all affected customers.",
-          "link": "https://status.slack.com//2023-02/a262a4178e42e17e",
-          "publishedOn": "2023-02-20T21:19:37.000Z",
-          "wordCount": 225,
-          "title": "Incident: Some customers are having issues loading the admin page",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
