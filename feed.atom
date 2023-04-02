@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-01T00:22:59.877Z</id>
+    <id>urn:2023-04-02T00:23:40.189Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-01T00:22:59.877Z</updated>
+    <updated>2023-04-02T00:23:40.189Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Philippines SMS Carrier Maintenance - Smart Communications]]></title>
-        <id>https://status.twilio.com/incidents/3mgsntsyqh4l</id>
-        <link href="https://status.twilio.com/incidents/3mgsntsyqh4l"/>
-        <updated>2023-03-31T22:00:17.000Z</updated>
-        <summary type="html"><![CDATA[Mar 31, 15:00 PDT
-Completed - The scheduled maintenance has been completed.
-Mar 31, 12:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 29, 13:32 PDT
-Scheduled - The Smart network in the Philippines is conducting an emergency maintenance from 31 March 2023 at 12:00 PDT until 31 March 2023 at 15:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Smart Philippines handsets]]></summary>
+        <title type="html"><![CDATA[Incident: Some users are unable to sign-in using the Continue with Google feature on the Android and iOS app]]></title>
+        <id>https://status.slack.com//2023-04/7c6ac904c99e5234</id>
+        <link href="https://status.slack.com//2023-04/7c6ac904c99e5234"/>
+        <updated>2023-04-01T19:22:15.000Z</updated>
+        <summary type="html"><![CDATA[We've restored full functionality to sign-in with Continue with Google feature on the iOS and Android app. We appreciate your patience while we sorted this out.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inbound Call Failures to Twilio Jamaica Phone Numbers]]></title>
+        <id>https://status.twilio.com/incidents/yyb4qs74d0jn</id>
+        <link href="https://status.twilio.com/incidents/yyb4qs74d0jn"/>
+        <updated>2023-04-01T19:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Apr  1, 12:01 PDT
+Resolved - The issue affecting inbound call failures to Twilio Jamaica phone numbers has been resolved, and the service is functioning normally at this time.
+Apr  1, 08:04 PDT
+Monitoring - We have started seeing recovery for inbound call failures to Twilio Jamaica phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Mar 31, 23:52 PDT
+Update - We continue investigating inbound call failures to Twilio Jamaica phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 24 hours or as soon as more information becomes available.
+Mar 31, 06:25 PDT
+Update - We continue investigating inbound call failur…]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -60,23 +72,6 @@ Mar 31, 08:49 PDT
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Report Delays to the Chunghwa Network in Taiwan]]></title>
-        <id>https://status.twilio.com/incidents/gf7mbfx1x8tq</id>
-        <link href="https://status.twilio.com/incidents/gf7mbfx1x8tq"/>
-        <updated>2023-03-31T08:32:15.000Z</updated>
-        <summary type="html"><![CDATA[Mar 31, 01:32 PDT
-Resolved - We are no longer experiencing SMS delivery report delays to Chunghwa network in Taiwan. This incident has been resolved.
-Mar 30, 23:41 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to the Chunghwa network in Taiwan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Mar 30, 20:52 PDT
-Update - We continue to experience SMS delivery report delays when sending messages to the Chunghwa network in Taiwan. Our Engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
-Mar 29, 20:52 PDT
-Update - We continue to experienc…]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -841,57 +836,6 @@ On March 3rd, 2023 from 9:03 AM PST to 9:13 AM PST, some users had trouble loggi
 The cause of this issue was in relation to a planned exercise where we removed traffic from an isolated location to simulate failure of a single data center. In our investigation, we discovered that one database experienced an issue causing the exercise to fail. We were able to quickly identify the failure and apply a manual fix which resolved the issue. We determined less than 1% of our customers were affected.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Actions and Pages]]></title>
-        <id>https://www.githubstatus.com/incidents/qfby3shb6r3w</id>
-        <link href="https://www.githubstatus.com/incidents/qfby3shb6r3w"/>
-        <updated>2023-03-03T01:55:53.000Z</updated>
-        <summary type="html"><![CDATA[Mar  3, 01:55 UTC
-Resolved - This incident has been resolved.
-Mar  3, 01:40 UTC
-Update - Pages is operating normally.
-Mar  3, 01:11 UTC
-Update - We are still working on mitigating the issue
-Mar  3, 00:35 UTC
-Update - We are actively working on mitigating the issue
-Mar  3, 00:27 UTC
-Update - Pages is experiencing degraded availability. We are still investigating and will provide an update when we have one.
-Mar  3, 00:06 UTC
-Update - We have identified the issue and are attempting to mitigate it.
-Mar  2, 23:37 UTC
-Investigating - We are investigating reports of degraded availability for Actions.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users may experience issues accessing api.slack.com]]></title>
-        <id>https://status.slack.com//2023-03/27c0f9229399a532</id>
-        <link href="https://status.slack.com//2023-03/27c0f9229399a532"/>
-        <updated>2023-03-02T21:46:59.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-On March 2nd, 2023 from 4:00 AM PST to 7:00 AM PST, some users were receiving errors related to an invalid date on their SSL certificate when calling Slack's APIs.
-
-
-We discovered that an update we released on our SSL certificate was causing the issues. We've rolled back the update and the issue was resolved.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Git Operations]]></title>
-        <id>https://www.githubstatus.com/incidents/z0kj7nzrhrn5</id>
-        <link href="https://www.githubstatus.com/incidents/z0kj7nzrhrn5"/>
-        <updated>2023-03-02T18:43:46.000Z</updated>
-        <summary type="html"><![CDATA[Mar  2, 18:43 UTC
-Resolved - This incident has been resolved.
-Mar  2, 18:26 UTC
-Investigating - We are investigating reports of degraded performance for Git Operations.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
