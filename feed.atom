@@ -1,35 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-02T00:23:40.189Z</id>
+    <id>urn:2023-04-03T00:21:57.990Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-02T00:23:40.189Z</updated>
+    <updated>2023-04-03T00:21:57.991Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Claro Network in Colombia From  a Subset of Short Codes]]></title>
+        <id>https://status.twilio.com/incidents/m7z9dn2hwjk8</id>
+        <link href="https://status.twilio.com/incidents/m7z9dn2hwjk8"/>
+        <updated>2023-04-02T21:54:23.000Z</updated>
+        <summary type="html"><![CDATA[Apr  2, 14:54 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Claro network in Colombia from a subset of Short codes. This incident has been resolved.
+Apr  2, 12:51 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Claro network in Colombia from a subset of Short codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Apr  2, 11:16 PDT
+Update - We are experiencing SMS delivery delays when sending messages to Claro Network in Colombia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Apr  2, 10:57 PDT
+Update - We are experiencing SMS delivery delays (original notification incorrectly noted failures) when sending messages to Claro Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Apr  2, 10:36 PDT
+Investigating - We are investigating MMS/SMS delivery failures sending to Claro Network in Colombia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 30 minutes or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Some users are unable to sign-in using the Continue with Google feature on the Android and iOS app]]></title>
         <id>https://status.slack.com//2023-04/7c6ac904c99e5234</id>
         <link href="https://status.slack.com//2023-04/7c6ac904c99e5234"/>
-        <updated>2023-04-01T19:22:15.000Z</updated>
-        <summary type="html"><![CDATA[We've restored full functionality to sign-in with Continue with Google feature on the iOS and Android app. We appreciate your patience while we sorted this out.]]></summary>
+        <updated>2023-04-02T03:27:35.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary: 
+
+From March 31st, 2023 at 7:18 PM PDT to April 1st, 2023 at 11:30 AM PDT, some customers may not have been able to sign in to Slack with the 'Continue with Google' feature. 
+
+
+During a routine cleanup process, we made some changes to the project behind the 'Continue with Google' feature. This change inadvertently prevented the Slack mobile apps from confirming the validity of customer Google accounts during login. 
+
+
+We reverted this change, restoring normal login behaviour for all affected customers, and we're working to ensure it does not happen again. We apologize for any disruption to your work.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inbound Call Failures to Twilio Jamaica Phone Numbers]]></title>
-        <id>https://status.twilio.com/incidents/yyb4qs74d0jn</id>
-        <link href="https://status.twilio.com/incidents/yyb4qs74d0jn"/>
-        <updated>2023-04-01T19:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Apr  1, 12:01 PDT
-Resolved - The issue affecting inbound call failures to Twilio Jamaica phone numbers has been resolved, and the service is functioning normally at this time.
-Apr  1, 08:04 PDT
-Monitoring - We have started seeing recovery for inbound call failures to Twilio Jamaica phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Mar 31, 23:52 PDT
-Update - We continue investigating inbound call failures to Twilio Jamaica phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 24 hours or as soon as more information becomes available.
-Mar 31, 06:25 PDT
-Update - We continue investigating inbound call failur…]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -805,37 +815,6 @@ Mar  6, 08:39 UTC
 Investigating - We are investigating reports of degraded performance for Codespaces.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Investigating reports of degraded performance.]]></title>
-        <id>https://www.githubstatus.com/incidents/sr7zptjd0b07</id>
-        <link href="https://www.githubstatus.com/incidents/sr7zptjd0b07"/>
-        <updated>2023-03-03T21:14:20.000Z</updated>
-        <summary type="html"><![CDATA[Mar  3, 21:14 UTC
-Resolved - This incident has been resolved.
-Mar  3, 17:32 UTC
-Update - Due to a GitHub Actions outage yesterday, users may see inconsistent or stale workflow runs while the data is fixed. Customers are not being billed for these runs and new runs are not affected.
-Mar  3, 17:32 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Users are experiencing issues connecting to Slack]]></title>
-        <id>https://status.slack.com//2023-03/2231b440c182cfde</id>
-        <link href="https://status.slack.com//2023-03/2231b440c182cfde"/>
-        <updated>2023-03-03T19:47:53.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-
-On March 3rd, 2023 from 9:03 AM PST to 9:13 AM PST, some users had trouble logging into Slack, sending messages and completing API requests.
-
-
-The cause of this issue was in relation to a planned exercise where we removed traffic from an isolated location to simulate failure of a single data center. In our investigation, we discovered that one database experienced an issue causing the exercise to fail. We were able to quickly identify the failure and apply a manual fix which resolved the issue. We determined less than 1% of our customers were affected.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>
