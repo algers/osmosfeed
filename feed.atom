@@ -1,10 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-05T00:18:59.380Z</id>
+    <id>urn:2023-04-06T00:20:42.019Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-05T00:18:59.380Z</updated>
+    <updated>2023-04-06T00:20:42.019Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[US SMS Carriers Maintenance - Small US Carriers]]></title>
+        <id>https://status.twilio.com/incidents/gh56tt5d9t1y</id>
+        <link href="https://status.twilio.com/incidents/gh56tt5d9t1y"/>
+        <updated>2023-04-06T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 5, 20:00 PDT  -  Apr 6, 01:00 PDT
+Apr  5, 14:02 PDT
+Scheduled - A subset of Small US networks in the US is conducting an emergency maintenance from 05 April 2023 at 20:00 PDT until 06 April 2023 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Small US Carriers.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US SMS Carrier Maintenance - AT&T]]></title>
+        <id>https://status.twilio.com/incidents/8xngn926ngb0</id>
+        <link href="https://status.twilio.com/incidents/8xngn926ngb0"/>
+        <updated>2023-04-06T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 5, 20:00 PDT  -  Apr 6, 04:00 PDT
+Mar 29, 13:11 PDT
+Scheduled - The AT&T network in US is conducting an emergency maintenance from 05 April 2023 at 20:00 PDT until 06 April 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T US handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US and Canada SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/0k1t85f4f19g</id>
+        <link href="https://status.twilio.com/incidents/0k1t85f4f19g"/>
+        <updated>2023-04-06T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 5, 20:00 PDT  -  Apr 6, 00:00 PDT
+Mar 16, 17:20 PDT
+Scheduled - Our SMS carrier partner in the US and Canada will be conducting planned maintenance from 05 April 2023 at 20:00 PDT until 06 April 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from both US and Canada handsets via Toll-free numbers]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US MMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/t245r9j31ykf</id>
+        <link href="https://status.twilio.com/incidents/t245r9j31ykf"/>
+        <updated>2023-04-06T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 5, 20:00 PDT  -  Apr 6, 00:00 PDT
+Mar 16, 17:13 PDT
+Scheduled - Our MMS carrier partner in the US is conducting planned maintenance from 05 April 2023 at 20:00 PDT until 06 April 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from US handsets via US Toll-free numbers.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[403 and 404 Errors Across Multiple Endpoints]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/3v91lr711bpb</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/3v91lr711bpb"/>
+        <updated>2023-04-05T09:01:07.000Z</updated>
+        <summary type="html"><![CDATA[Apr  5, 02:01 PDT
+Resolved - We have identified and resolved an internal issue that resulted in 403 and 404 errors across multiple API endpoints. The incident was active between April 4th 20:00 PDT and April 5th 00:00 PDT. You can retry any failed requests at this point, and if you keep experiencing issues, please contact the API integration team for additional help.
+We apologize for the inconvenience caused.
+Apr  5, 00:51 PDT
+Monitoring - A fix has been implemented and we are monitoring the results.
+Apr  4, 23:15 PDT
+Identified - The issue has been identified and a fix is being implemented.
+Apr  4, 21:57 PDT
+Investigating - We are currently investigating an issue related to 403 and 404 Errors across multiple endpoints. We'll post updates as we have more information.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XML Migration Enforcement]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/g18hcjbzzsfk</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/g18hcjbzzsfk"/>
+        <updated>2023-04-05T08:46:06.000Z</updated>
+        <summary type="html"><![CDATA[Apr  5, 01:46 PDT
+Completed - The scheduled maintenance has been completed.
+Jul  5, 13:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Jun 30, 10:55 PDT
+Scheduled - As announced on July 5, 2021 we are deprecating our XML API connection.
+XML listings can no longer be activated: this means that new XML listings will remain unlisted even if you set 
+true
+. The same is valid for existing listing that are deactivated (i.e. you will not be able to reactivate a XML listing if it gets unlisted).
+More information about this enforcement here: https://developer.airbnb.com/docs/enforcement]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[500 Errors Across Multiple Endpoints]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/flsz0qg3ysj6</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/flsz0qg3ysj6"/>
+        <updated>2023-04-05T02:03:23.000Z</updated>
+        <summary type="html"><![CDATA[Apr  4, 19:03 PDT
+Resolved - We have identified and resolved an internal issue that resulted in 500 errors across multiple API endpoints. The incident was active between 17:30 and 19:00 PDT on April 4th. You can retry any failed requests at this point, and if you keep experiencing issues, please contact the API integration team for additional help.
+We apologize for the inconvenience.
+Apr  4, 18:30 PDT
+Monitoring - A fix has been implemented and we are monitoring the results.
+Apr  4, 18:06 PDT
+Investigating - We are currently investigating an issue related to 500 errors across multiple endpoints. We'll post updates as we have more information.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[500 Errors on Price Quote and Reservation Endpoints]]></title>
         <id>https://airbnbapi.statuspage.io/incidents/s6nclwbgvrb3</id>
@@ -864,38 +965,6 @@ Mar  7, 11:07 CET
 Investigating - We are currently investigating the issues.]]></summary>
         <author>
             <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delay in email delivery due to third-party outage]]></title>
-        <id>https://status.rippling.com/incidents/m11k5897z9ld</id>
-        <link href="https://status.rippling.com/incidents/m11k5897z9ld"/>
-        <updated>2023-03-06T22:38:00.000Z</updated>
-        <summary type="html"><![CDATA[Mar  6, 22:38 UTC
-Resolved - This incident has been resolved.
-Mar  6, 17:49 UTC
-Monitoring - A fix has been implemented and we are monitoring the results.
-Mar  6, 17:45 UTC
-Investigating - We're seeing elevated errors from our email provider and are working with them to restore service.]]></summary>
-        <author>
-            <name>Rippling Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Codespaces]]></title>
-        <id>https://www.githubstatus.com/incidents/00ymkms22sz7</id>
-        <link href="https://www.githubstatus.com/incidents/00ymkms22sz7"/>
-        <updated>2023-03-06T16:14:15.000Z</updated>
-        <summary type="html"><![CDATA[Mar  6, 16:14 UTC
-Resolved - This incident has been resolved.
-Mar  6, 15:54 UTC
-Update - We are working to mitigate issues with Codespaces in the Europe West geographic area. Some users may not be able to connect to their Codespaces at this time.
-Mar  6, 15:16 UTC
-Update - We are investigating issues with Codespaces in the Europe West geographic area. Some users may not be able to resume Codespaces at this time. We will update you on mitigation progress.
-Mar  6, 14:43 UTC
-Investigating - We are investigating reports of degraded performance for Codespaces.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
