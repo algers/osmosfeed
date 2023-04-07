@@ -6,6 +6,16 @@
       "siteUrl": "https://changelog.bookingsync.com",
       "articles": [
         {
+          "id": "262029",
+          "author": "Yannick, Customer Care Team Leader - Pro Team",
+          "description": "Action required\n  \nFollowing our recent messages concerning the changes needed for your website domains, we would like to inform you that we have extended the support for the previous configuration until April 10 2023.\nIf you have not made the needeed changes yet, please consult our manual article here.\nIf you need assistance doing the changes, please contact our support team and we will be happy to assist you with the modifications. Please make sure to have access to your registrar (Gandi, OVH, Godaddy…) so we can assist you in performing this change.\nThanks,",
+          "link": "https://changelog.bookingsync.com/reminder-important-information-regarding-your-website-domain!-262029",
+          "publishedOn": "2023-04-06T07:36:35.000Z",
+          "wordCount": 330,
+          "title": "Reminder - Important information regarding your website domain!",
+          "imageUrl": null
+        },
+        {
           "id": "260094",
           "author": "Yannick, Customer Care Team Leader - Pro Team",
           "description": "Action required\n  \nAs we are doing some improvements on our infrastructure, we have some modifications that are necessary on the way some of your website domains are configured.\nTo ensure that you have the best configuration, we invite you to review the settings on your registrar to make sure that you have the correct configuration.\nWhat is needed?\nYour main domain should be under a **Cname **record with **www **and point to dns1.happystay.com. (the \"dot\" at the end may be required depending on your domain).\n(example for your main domain: www.yourwebsite.com)\nYou can also add an addon domain without using www if you want your website to be reachable this way, (example: yourwebsite.com).\nIn order to do that, you can configure an A record (Aname) in your DNS zone pointing to one of the following IP addresses:\n13.248.140.34\n\n\n76.223.14.214\n\n\nThese are the new addresses that are replacing the previous address: (52.210.201.133)\nImportant note, If you are using 52.210.201.133, you need to change to one of the new IP address as we will not be able to keep supporting this one on March 29th 2023.\nIf you need assistance doing this change, please contact our support team and we will be happy to assist you with the modifications. Please make sure to have access to your registrar (Gandi, OVH, Godaddy…) so we can assist you in performing this change. \nThe details are also available on our manual.\nThanks,",
@@ -33,6 +43,16 @@
       "siteUrl": "https://tailscale.com/security-bulletins/",
       "articles": [
         {
+          "id": "https://tailscale.com/security-bulletins/#ts-2023-004/",
+          "author": null,
+          "description": "Description: An issue in the Tailscale coordination server allowed tailnets created by GitHub organizations which were subsequently renamed to be associated with a new GitHub organization with the previous name.\nWhat happened?\nTailscale mapped tailnets created by GitHub organizations to their organization name, rather than to their organization ID. This meant that if a GitHub organization was renamed, and the previous name taken over by a new GitHub organization, the existing tailnet would be tied to the new GitHub organization instead of the original one.\nWho is affected?\nUp to 1,305 tailnets created by GitHub organizations may have been affected, if those GitHub organizations were renamed between 2021-06-18 and 2023-03-30 and fully relinquished the old GitHub organization name. Additiona…",
+          "link": "https://tailscale.com/security-bulletins/#ts-2023-004/",
+          "publishedOn": "2023-04-04T00:00:00.000Z",
+          "wordCount": 3187,
+          "title": "TS-2023-004",
+          "imageUrl": "https://tailscale.com/files/images/og-image.png"
+        },
+        {
           "id": "https://tailscale.com/security-bulletins/#ts-2023-003/",
           "author": null,
           "description": "Reference: CVE-2023-28436\nSeverity: Medium\nCVSS vector string: CVSS:3.0/AV:A/AC:L/PR:H/UI:R/S:C/C:H/I:N/A:N\nDescription: A vulnerability identified in the implementation of Tailscale SSH in FreeBSD allowed commands to be run with a higher privilege group ID than that specified by Tailscale SSH access rules.\nAffected platforms: FreeBSD\nPatched Tailscale client versions: v1.38.2 or later\nWhat happened?\nA difference in the behavior of the FreeBSD setgroups system call from POSIX meant that the Tailscale client running on a FreeBSD-based operating system did not appropriately restrict groups on the host when using Tailscale SSH. When accessing a FreeBSD host over Tailscale SSH, the egid of the tailscaled process was used instead of that of the user specified in Tailscale SSH access rules.\nWho is affected?\n9 tailnets with 22 FreeBSD nodes running Tailscale SSH since Tailscale v1.34 (released on 2022-12-04) may have had Tailscale SSH sessions with a higher privilege group ID than that specified in Tailscale SSH access rules.\nWe have notified affected organizations where we have security contacts.\nWhat is the impact?\nTailscale SSH commands may have been run with a higher privilege group ID than that specified in Tailscale SSH access rules if they met all of the following criteria:\nThe destination node was a FreeBSD device with Tailscale SSH enabled;\nTailscale SSH access rules permitted access for non-root users; and\nA non-interactive SSH session was used.\nWhat do I need to do?\nIf you are running Tailscale on FreeBSD, upgrade to v1.38.2 or later to remediate the issue. Admins of a tailnet can view FreeBSD nodes with unpatched versions in the admin console.\nTo update the local ports tree in advance of what’s available upstream, you can:\ncd /usr/ports/security/tailscale\nedit the Makefile to set PORTVERSION to 1.38.2\nmake makesum\nmake install\nTailscale SSH on other platforms is not affected.\nCredits\nWe would like to thank Ryan Belgrave for reporting this issue.",
@@ -40,16 +60,6 @@
           "publishedOn": "2023-03-22T00:00:00.000Z",
           "wordCount": 3187,
           "title": "TS-2023-003",
-          "imageUrl": "https://tailscale.com/files/images/og-image.png"
-        },
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2023-004/",
-          "author": null,
-          "description": "Description: An issue in the Tailscale coordination server allowed tailnets created by GitHub organizations which were subsequently renamed to be associated with a new GitHub organization with the previous name.\nWhat happened?\nTailscale mapped tailnets created by GitHub organizations to their organization name, rather than to their organization ID. This meant that if a GitHub organization was renamed, and the previous name taken over by a new GitHub organization, the existing tailnet would be tied to the new GitHub organization instead of the original one.\nWho is affected?\nUp to 1,305 tailnets created by GitHub organizations may have been affected, if those GitHub organizations were renamed between 2021-06-18 and 2023-03-30 and fully relinquished the old GitHub organization name. Additiona…",
-          "link": "https://tailscale.com/security-bulletins/#ts-2023-004/",
-          "publishedOn": "2023-03-22T00:00:00.000Z",
-          "wordCount": 3187,
-          "title": "TS-2023-004",
           "imageUrl": "https://tailscale.com/files/images/og-image.png"
         }
       ]
@@ -117,43 +127,83 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/gh56tt5d9t1y",
+          "id": "https://status.twilio.com/incidents/c34hn344k362",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Apr 5, 20:00 PDT  -  Apr 6, 01:00 PDT\nApr  5, 14:02 PDT\nScheduled - A subset of Small US networks in the US is conducting an emergency maintenance from 05 April 2023 at 20:00 PDT until 06 April 2023 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Small US Carriers.",
-          "link": "https://status.twilio.com/incidents/gh56tt5d9t1y",
-          "publishedOn": "2023-04-06T03:00:00.000Z",
-          "wordCount": 6200,
-          "title": "US SMS Carriers Maintenance - Small US Carriers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/8xngn926ngb0",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Apr 5, 20:00 PDT  -  Apr 6, 04:00 PDT\nMar 29, 13:11 PDT\nScheduled - The AT&T network in US is conducting an emergency maintenance from 05 April 2023 at 20:00 PDT until 06 April 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T US handsets.",
-          "link": "https://status.twilio.com/incidents/8xngn926ngb0",
-          "publishedOn": "2023-04-06T03:00:00.000Z",
+          "description": "THIS IS A SCHEDULED EVENT Apr 6, 20:00 PDT  -  Apr 7, 04:00 PDT\nMar 31, 15:27 PDT\nScheduled - The AT&T network in US is conducting an emergency maintenance from 06 April 2023 at 20:00 PDT until 07 April 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T US handsets.",
+          "link": "https://status.twilio.com/incidents/c34hn344k362",
+          "publishedOn": "2023-04-07T03:00:00.000Z",
           "wordCount": 6195,
           "title": "US SMS Carrier Maintenance - AT&T",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/0k1t85f4f19g",
+          "id": "https://status.twilio.com/incidents/51vlmtxgypzm",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Apr 5, 20:00 PDT  -  Apr 6, 00:00 PDT\nMar 16, 17:20 PDT\nScheduled - Our SMS carrier partner in the US and Canada will be conducting planned maintenance from 05 April 2023 at 20:00 PDT until 06 April 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from both US and Canada handsets via Toll-free numbers",
-          "link": "https://status.twilio.com/incidents/0k1t85f4f19g",
-          "publishedOn": "2023-04-06T03:00:00.000Z",
-          "wordCount": 6201,
-          "title": "US and Canada SMS Carrier Partner Maintenance",
+          "description": "Apr  6, 17:01 PDT\nCompleted - The scheduled maintenance has been completed.\nApr  6, 14:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr  4, 13:51 PDT\nScheduled - The Beeline network in Russia is conducting a planned maintenance from 06 April 2023 at 14:00 PDT until 06 April 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.",
+          "link": "https://status.twilio.com/incidents/51vlmtxgypzm",
+          "publishedOn": "2023-04-07T00:01:17.000Z",
+          "wordCount": 6208,
+          "title": "Russia SMS Carrier Maintenance - Beeline",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/t245r9j31ykf",
+          "id": "https://status.twilio.com/incidents/x3hbx90vmjr8",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Apr 5, 20:00 PDT  -  Apr 6, 00:00 PDT\nMar 16, 17:13 PDT\nScheduled - Our MMS carrier partner in the US is conducting planned maintenance from 05 April 2023 at 20:00 PDT until 06 April 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from US handsets via US Toll-free numbers.",
-          "link": "https://status.twilio.com/incidents/t245r9j31ykf",
-          "publishedOn": "2023-04-06T03:00:00.000Z",
-          "wordCount": 6190,
-          "title": "US MMS Carrier Partner Maintenance",
+          "description": "Apr  6, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nApr  6, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr  3, 09:20 PDT\nScheduled - The Megafon network in Russian Federation is conducting an emergency maintenance from 06 April 2023 at 13:00 PDT until 06 April 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Megafon handsets.",
+          "link": "https://status.twilio.com/incidents/x3hbx90vmjr8",
+          "publishedOn": "2023-04-07T00:00:09.000Z",
+          "wordCount": 6211,
+          "title": "Russia SMS Carrier Maintenance - Megafon",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/xqj9pbwf5110",
+          "author": null,
+          "description": "Apr  6, 15:02 PDT\nResolved - Twilio Programmable Video was degraded for 5 minutes between 4/6 4:37 pm and 4:42 pm Pacific Time. During this period of time customers may have experienced failed requests on video compositions. The issue has now been resolved.",
+          "link": "https://status.twilio.com/incidents/xqj9pbwf5110",
+          "publishedOn": "2023-04-06T22:02:37.000Z",
+          "wordCount": 6151,
+          "title": "Programmable Video Affected",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/lh2hygzqrwsn",
+          "author": null,
+          "description": "Apr  6, 05:53 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Africell Network in Democratic Republic of the Congo and Sierra Leone. This incident has been resolved.\nApr  6, 04:17 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Africell Network in Democratic Republic of the Congo and Sierra Leone. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nApr  6, 03:41 PDT\nUpdate - We are still experiencing SMS delivery delay when sending messages to Africell Network in Democratic Republic of the Congo and Sierra Leone. Our engineers are working with our carrier partner to resolve the issue. We will provide …",
+          "link": "https://status.twilio.com/incidents/lh2hygzqrwsn",
+          "publishedOn": "2023-04-06T12:53:22.000Z",
+          "wordCount": 6648,
+          "title": "SMS Delivery Delay to Africell Network in Democratic Republic of the Congo and Sierra Leone",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/8xngn926ngb0",
+          "author": null,
+          "description": "Apr  6, 04:00 PDT\nCompleted - The scheduled maintenance has been completed.\nApr  5, 20:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 29, 13:11 PDT\nScheduled - The AT&T network in US is conducting an emergency maintenance from 05 April 2023 at 20:00 PDT until 06 April 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T US handsets.",
+          "link": "https://status.twilio.com/incidents/8xngn926ngb0",
+          "publishedOn": "2023-04-06T11:00:20.000Z",
+          "wordCount": 6220,
+          "title": "US SMS Carrier Maintenance - AT&T",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/bv05l0gbgb9q",
+          "author": null,
+          "description": "Apr  6, 03:46 PDT\nResolved - We are no longer experiencing delivery report delays for Multiple Networks in US from Subset of Twilio Short Codes. This incident has been resolved.\nApr  6, 02:01 PDT\nMonitoring - We are observing recovery in delivery report delays for Multiple Networks in US from Subset of Twilio Short Codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nApr  6, 01:14 PDT\nInvestigating - We are experiencing delays in receiving message delivery reports for Multiple Networks in US from Subset of Twilio Short Codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/bv05l0gbgb9q",
+          "publishedOn": "2023-04-06T10:46:30.000Z",
+          "wordCount": 6298,
+          "title": "Delay in Receiving Delivery Report for Multiple Networks US From Subset of Short Code",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/8n9xh36qr22y",
+          "author": null,
+          "description": "Apr  6, 03:30 PDT\nResolved - We observed SMS Delivery Failure and Delay to Bouygues Telecom and Free Mobile France Networks for 46 minutes between 02:21 and 03:07 Pacific Time on 04/06/2023. During this period of time customers may have experienced SMS Delivery Failure and Delay to the affected Networks. The issue has now been resolved.",
+          "link": "https://status.twilio.com/incidents/8n9xh36qr22y",
+          "publishedOn": "2023-04-06T10:30:00.000Z",
+          "wordCount": 6194,
+          "title": "SMS Delivery Failure and Delay to Bouygues Telecom and Free Mobile France Networks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -453,16 +503,6 @@
           "wordCount": 4037,
           "title": "Incident with Webhooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/71v1ws5dkyhx",
-          "author": null,
-          "description": "Mar  7, 18:54 UTC\nResolved - This incident has been resolved.\nMar  7, 18:20 UTC\nInvestigating - We are investigating reports of degraded performance for Git Operations.",
-          "link": "https://www.githubstatus.com/incidents/71v1ws5dkyhx",
-          "publishedOn": "2023-03-07T18:54:08.000Z",
-          "wordCount": 3992,
-          "title": "Incident with Git Operations",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -570,16 +610,6 @@
           "wordCount": 215,
           "title": "Incident: Slowness searching in Slack",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-03/089dc62cc1ce000a",
-          "author": null,
-          "description": "Issue Summary:\n\r\nOn Sunday March 5, 2023 from 4:00pm PST to March 6, 2023 1:51pm PST, some users weren't receiving sign-in codes, or the codes were delivered to their spam folder. \n\r\n\r\nOur team determined this wasn't an issue caused by Slack, but a third-party email provider. \n\r\n\r\nTo ensure emails from Slack are successfully routed to the appropriate inbox, impacted users should add the domains @slack.com and @slack-mail.com, to their trusted senders list.",
-          "link": "https://status.slack.com//2023-03/089dc62cc1ce000a",
-          "publishedOn": "2023-03-07T20:26:55.000Z",
-          "wordCount": 457,
-          "title": "Incident: Some users are not receiving emails from Slack",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
     },
@@ -606,16 +636,6 @@
           "publishedOn": "2023-03-24T11:04:31.000Z",
           "wordCount": 3262,
           "title": "Increased delay in scenarios executions for users on eu1.make.com since 10:00 CET",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/fj3k6x4509bb",
-          "author": null,
-          "description": "Mar  7, 14:09 CET\nResolved - This incident has been resolved.\nMar  7, 11:52 CET\nMonitoring - Issue was resolved and platform is fully operational.\nMar  7, 11:07 CET\nInvestigating - We are currently investigating the issues.",
-          "link": "https://status.make.com/incidents/fj3k6x4509bb",
-          "publishedOn": "2023-03-07T13:09:31.000Z",
-          "wordCount": 3263,
-          "title": "Increased web latency and some webhooks might return error for users on eu1.make.com",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
