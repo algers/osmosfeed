@@ -115,7 +115,28 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://status.twilio.com/incidents/s8w6x965fmb9",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Apr 12, 22:00 PDT  -  Apr 13, 06:00 PDT\nApr  6, 22:48 PDT\nScheduled - Our SMS carrier partner in the US is conducting a planned maintenance from 12 April 2023 at 22:00 PDT until 13 April 2023 at 06:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US handsets via subset of US shortcode and US longcode.",
+          "link": "https://status.twilio.com/incidents/s8w6x965fmb9",
+          "publishedOn": "2023-04-13T05:00:00.000Z",
+          "wordCount": 6197,
+          "title": "US SMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/4gc9z2vgxdpy",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Apr 12, 20:00 PDT  -  Apr 13, 00:00 PDT\nMar 16, 17:21 PDT\nScheduled - Our SMS carrier partner in the US and Canada will be conducting planned maintenance from 12 April 2023 at 20:00 PDT until 13 April 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from both US and Canada handsets via Toll-free numbers",
+          "link": "https://status.twilio.com/incidents/4gc9z2vgxdpy",
+          "publishedOn": "2023-04-13T03:00:00.000Z",
+          "wordCount": 6201,
+          "title": "US and Canada SMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        }
+      ]
     },
     {
       "title": "Notion Status - Incident History",
@@ -351,12 +372,22 @@
       "siteUrl": "https://status.slack.com/",
       "articles": [
         {
+          "id": "https://status.slack.com//2023-04/ac28ceabd64fe276",
+          "author": null,
+          "description": "This issue has now been resolved, please reload Slack to restore functionality to the direct messages view. Thank you for your patience while we worked on this.",
+          "link": "https://status.slack.com//2023-04/ac28ceabd64fe276",
+          "publishedOn": "2023-04-12T22:55:00.000Z",
+          "wordCount": 131,
+          "title": "Incident: Direct messages view failing to load",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://status.slack.com//2023-04/d105ce7854fc93d2",
           "author": null,
-          "description": "Thank you for your patience while we investigated this issue with images loading slowly. This issue should now be resolved. Please reach out to feedback@slack.com if the issue persists.",
+          "description": "Issue summary:\n\r\nOn April 10, 2023 at 7:30 PM PDT, some customers began experiencing delays when uploading files. We traced the issue back to a recent update made to how some file uploads are handled. Reverting this change fixed the issue, and customers were no longer experiencing it as of April 11, 2023 at 7:33 AM PDT. \n\r\n\r\nThank you so much for your patience as our team actively worked on this.",
           "link": "https://status.slack.com//2023-04/d105ce7854fc93d2",
-          "publishedOn": "2023-04-11T15:16:05.000Z",
-          "wordCount": 104,
+          "publishedOn": "2023-04-12T14:38:53.000Z",
+          "wordCount": 176,
           "title": "Incident: Images slow to upload",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
@@ -418,16 +449,6 @@
           "publishedOn": "2023-03-14T16:57:07.000Z",
           "wordCount": 161,
           "title": "Incident: Some users may experience issues accessing api.slack.com",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-03/1da534dc3612b14f",
-          "author": null,
-          "description": "Issue summary: \n\r\nOn March 13th, 2023 from 2:00 PM to 5:00 PM PDT, some Enterprise Grid customers using the Slack for Intune mobile app may have experienced errors or latency when logging in to Slack.\n\r\n\r\nWe identified that this issue was caused by a conflict between Slack functionality and a Slack for Intune preference. We deployed a manual fix, resolving the issue for all impacted users.",
-          "link": "https://status.slack.com//2023-03/1da534dc3612b14f",
-          "publishedOn": "2023-03-14T06:21:18.000Z",
-          "wordCount": 206,
-          "title": "Incident: Enterprise users see slowness or error messages when signing in on mobile",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]

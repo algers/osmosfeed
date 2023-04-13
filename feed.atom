@@ -1,16 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-12T00:20:39.428Z</id>
+    <id>urn:2023-04-13T00:19:53.495Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-12T00:20:39.428Z</updated>
+    <updated>2023-04-13T00:19:53.495Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[US SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/s8w6x965fmb9</id>
+        <link href="https://status.twilio.com/incidents/s8w6x965fmb9"/>
+        <updated>2023-04-13T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 12, 22:00 PDT  -  Apr 13, 06:00 PDT
+Apr  6, 22:48 PDT
+Scheduled - Our SMS carrier partner in the US is conducting a planned maintenance from 12 April 2023 at 22:00 PDT until 13 April 2023 at 06:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US handsets via subset of US shortcode and US longcode.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US and Canada SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/4gc9z2vgxdpy</id>
+        <link href="https://status.twilio.com/incidents/4gc9z2vgxdpy"/>
+        <updated>2023-04-13T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 12, 20:00 PDT  -  Apr 13, 00:00 PDT
+Mar 16, 17:21 PDT
+Scheduled - Our SMS carrier partner in the US and Canada will be conducting planned maintenance from 12 April 2023 at 20:00 PDT until 13 April 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from both US and Canada handsets via Toll-free numbers]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Direct messages view failing to load]]></title>
+        <id>https://status.slack.com//2023-04/ac28ceabd64fe276</id>
+        <link href="https://status.slack.com//2023-04/ac28ceabd64fe276"/>
+        <updated>2023-04-12T22:55:00.000Z</updated>
+        <summary type="html"><![CDATA[This issue has now been resolved, please reload Slack to restore functionality to the direct messages view. Thank you for your patience while we worked on this.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Images slow to upload]]></title>
         <id>https://status.slack.com//2023-04/d105ce7854fc93d2</id>
         <link href="https://status.slack.com//2023-04/d105ce7854fc93d2"/>
-        <updated>2023-04-11T15:16:05.000Z</updated>
-        <summary type="html"><![CDATA[Thank you for your patience while we investigated this issue with images loading slowly. This issue should now be resolved. Please reach out to feedback@slack.com if the issue persists.]]></summary>
+        <updated>2023-04-12T14:38:53.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+On April 10, 2023 at 7:30 PM PDT, some customers began experiencing delays when uploading files. We traced the issue back to a recent update made to how some file uploads are handled. Reverting this change fixed the issue, and customers were no longer experiencing it as of April 11, 2023 at 7:33 AM PDT. 
+
+
+Thank you so much for your patience as our team actively worked on this.]]></summary>
         <author>
             <name>Slack System Status</name>
         </author>
@@ -693,21 +732,6 @@ Thanks,]]></summary>
         <link href="https://status.slack.com//2023-03/9011b8a984a74042"/>
         <updated>2023-03-14T16:57:07.000Z</updated>
         <summary type="html"><![CDATA[We appreciate your patience while we've continued to investigate this issue. Some customers may still be impacted by the SSL certificate changes, however we will closely monitor reports and provide further updates through customer support tickets with the impacted users. Please reach out to our team at feedback@slack.com for further assistance.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Enterprise users see slowness or error messages when signing in on mobile]]></title>
-        <id>https://status.slack.com//2023-03/1da534dc3612b14f</id>
-        <link href="https://status.slack.com//2023-03/1da534dc3612b14f"/>
-        <updated>2023-03-14T06:21:18.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary: 
-
-On March 13th, 2023 from 2:00 PM to 5:00 PM PDT, some Enterprise Grid customers using the Slack for Intune mobile app may have experienced errors or latency when logging in to Slack.
-
-
-We identified that this issue was caused by a conflict between Slack functionality and a Slack for Intune preference. We deployed a manual fix, resolving the issue for all impacted users.]]></summary>
         <author>
             <name>Slack System Status</name>
         </author>
