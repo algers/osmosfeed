@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-13T00:19:53.495Z</id>
+    <id>urn:2023-04-14T00:20:13.337Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-13T00:19:53.495Z</updated>
+    <updated>2023-04-14T00:20:13.337Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[US SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/s8w6x965fmb9</id>
-        <link href="https://status.twilio.com/incidents/s8w6x965fmb9"/>
-        <updated>2023-04-13T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 12, 22:00 PDT  -  Apr 13, 06:00 PDT
-Apr  6, 22:48 PDT
-Scheduled - Our SMS carrier partner in the US is conducting a planned maintenance from 12 April 2023 at 22:00 PDT until 13 April 2023 at 06:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US handsets via subset of US shortcode and US longcode.]]></summary>
+        <title type="html"><![CDATA[US SMS and MMS Carriers Maintenance - Verizon]]></title>
+        <id>https://status.twilio.com/incidents/y686n03gjq29</id>
+        <link href="https://status.twilio.com/incidents/y686n03gjq29"/>
+        <updated>2023-04-14T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 13, 22:00 PDT  -  Apr 14, 03:00 PDT
+Apr 12, 14:46 PDT
+Scheduled - The Verizon network in the US is conducting an emergency maintenance from 13 April 2023 at 22:00 PDT until 14 April 2023 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from Verizon US handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[US and Canada SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/4gc9z2vgxdpy</id>
-        <link href="https://status.twilio.com/incidents/4gc9z2vgxdpy"/>
-        <updated>2023-04-13T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 12, 20:00 PDT  -  Apr 13, 00:00 PDT
-Mar 16, 17:21 PDT
-Scheduled - Our SMS carrier partner in the US and Canada will be conducting planned maintenance from 12 April 2023 at 20:00 PDT until 13 April 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from both US and Canada handsets via Toll-free numbers]]></summary>
+        <title type="html"><![CDATA[Russia SMS Carrier Maintenance -  Megafon]]></title>
+        <id>https://status.twilio.com/incidents/mjdw4x4s5hph</id>
+        <link href="https://status.twilio.com/incidents/mjdw4x4s5hph"/>
+        <updated>2023-04-14T00:00:29.000Z</updated>
+        <summary type="html"><![CDATA[Apr 13, 17:00 PDT
+Completed - The scheduled maintenance has been completed.
+Apr 13, 13:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Apr 11, 05:28 PDT
+Scheduled - The Megafon network in Russia is conducting a planned maintenance from 13 April 2023 at 13:00 PDT until 13 April 2023 at 17:00 PDT.
+During the maintenance window, there could be intermittent delays delivering SMS to and from Megafon Russia handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -695,45 +699,6 @@ Mar 15, 14:07 UTC
 Investigating - We are investigating reports of degraded performance for Pages.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Follow up - Important information regarding your website domain!]]></title>
-        <id>260094</id>
-        <link href="https://changelog.bookingsync.com/follow-up-important-information-regarding-your-website-domain!-260094"/>
-        <updated>2023-03-15T08:17:43.000Z</updated>
-        <summary type="html"><![CDATA[Action required
-  
-As we are doing some improvements on our infrastructure, we have some modifications that are necessary on the way some of your website domains are configured.
-To ensure that you have the best configuration, we invite you to review the settings on your registrar to make sure that you have the correct configuration.
-What is needed?
-Your main domain should be under a **Cname **record with **www **and point to dns1.happystay.com. (the "dot" at the end may be required depending on your domain).
-(example for your main domain: www.yourwebsite.com)
-You can also add an addon domain without using www if you want your website to be reachable this way, (example: yourwebsite.com).
-In order to do that, you can configure an A record (Aname) in your DNS zone pointing to one of the following IP addresses:
-13.248.140.34
-
-
-76.223.14.214
-
-
-These are the new addresses that are replacing the previous address: (52.210.201.133)
-Important note, If you are using 52.210.201.133, you need to change to one of the new IP address as we will not be able to keep supporting this one on March 29th 2023.
-If you need assistance doing this change, please contact our support team and we will be happy to assist you with the modifications. Please make sure to have access to your registrar (Gandi, OVH, Godaddy…) so we can assist you in performing this change. 
-The details are also available on our manual.
-Thanks,]]></summary>
-        <author>
-            <name>Yannick, Customer Care Team Leader - Pro Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users may experience issues accessing api.slack.com]]></title>
-        <id>https://status.slack.com//2023-03/9011b8a984a74042</id>
-        <link href="https://status.slack.com//2023-03/9011b8a984a74042"/>
-        <updated>2023-03-14T16:57:07.000Z</updated>
-        <summary type="html"><![CDATA[We appreciate your patience while we've continued to investigate this issue. Some customers may still be impacted by the SSL certificate changes, however we will closely monitor reports and provide further updates through customer support tickets with the impacted users. Please reach out to our team at feedback@slack.com for further assistance.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>
