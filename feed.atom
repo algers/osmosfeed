@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-04-16T00:22:15.317Z</id>
+    <id>urn:2023-04-17T00:21:30.934Z</id>
     <title>osmos::feed</title>
-    <updated>2023-04-16T00:22:15.317Z</updated>
+    <updated>2023-04-17T00:21:30.934Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[v2021.12.31 Migration Enforcement]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/ymym186bx049</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/ymym186bx049"/>
+        <updated>2023-04-17T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 17, 00:00 PDT  -  Apr 18, 00:00 PDT
+Apr 14, 10:19 PDT
+Scheduled - The deprecation date for API Version 2021.12.31 is on March 31, 2023. Starting on April 17th, 2023, any applications that have not fully migrated will be automatically migrated to a newer version, which can result in application breakage.
+Automatic migration will occur in phases as detailed in https://developer.airbnb.com/docs/versioning-enforcement
+Phase 1 begins April 17, 2023 for the following endpoints: Transactions, Resolutions, Users, Opportunities]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Channels are missing for Android users]]></title>
+        <id>https://status.slack.com//2023-04/6091d7559163f33c</id>
+        <link href="https://status.slack.com//2023-04/6091d7559163f33c"/>
+        <updated>2023-04-16T23:40:54.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+
+On April 16rd, 2023 from 12:11 PM PDT until 14:39 PM PDT, certain Android users on the Free plan reported issues with loading channels in the Android app.  
+
+
+Upon investigation, this was attributed to the implementation of a data optimization feature, intended to improve app performance. We have rolled back this feature temporarily, which has corrected the observed issue.  A full investigation and remedy will take place prior to reimplementation. 
+
+
+Thank you for your patience while we worked through this.  We apologize for any disruption to your work.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Direct messages view failing to load]]></title>
         <id>https://status.slack.com//2023-04/ac28ceabd64fe276</id>
@@ -625,21 +658,6 @@ Mar 20, 15:56 UTC
 Investigating - We are investigating reports of degraded performance for API Requests, Git Operations, Issues and Pull Requests.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Performance degradation]]></title>
-        <id>https://status.notion.so/incidents/rk7qmfsdj1kb</id>
-        <link href="https://status.notion.so/incidents/rk7qmfsdj1kb"/>
-        <updated>2023-03-17T20:36:09.000Z</updated>
-        <summary type="html"><![CDATA[Mar 17, 13:36 PDT
-Resolved - This issue has been resolved. Users should be able to successfully load Notion pages now.
-Mar 17, 12:13 PDT
-Update - We are continuing to work on mitigation and resolution for slow loading times.
-Mar 17, 10:52 PDT
-Identified - Some users are experiencing slow load times. We have identified the root cause and are working on resolving it.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
         </author>
     </entry>
 </feed>

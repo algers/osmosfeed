@@ -50,6 +50,16 @@
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
         {
+          "id": "https://airbnbapi.statuspage.io/incidents/ymym186bx049",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Apr 17, 00:00 PDT  -  Apr 18, 00:00 PDT\nApr 14, 10:19 PDT\nScheduled - The deprecation date for API Version 2021.12.31 is on March 31, 2023. Starting on April 17th, 2023, any applications that have not fully migrated will be automatically migrated to a newer version, which can result in application breakage.\nAutomatic migration will occur in phases as detailed in https://developer.airbnb.com/docs/versioning-enforcement\nPhase 1 begins April 17, 2023 for the following endpoints: Transactions, Resolutions, Users, Opportunities",
+          "link": "https://airbnbapi.statuspage.io/incidents/ymym186bx049",
+          "publishedOn": "2023-04-17T07:00:00.000Z",
+          "wordCount": 3265,
+          "title": "v2021.12.31 Migration Enforcement",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://airbnbapi.statuspage.io/incidents/3v91lr711bpb",
           "author": null,
           "description": "Apr  5, 02:01 PDT\nResolved - We have identified and resolved an internal issue that resulted in 403 and 404 errors across multiple API endpoints. The incident was active between April 4th 20:00 PDT and April 5th 00:00 PDT. You can retry any failed requests at this point, and if you keep experiencing issues, please contact the API integration team for additional help.\nWe apologize for the inconvenience caused.\nApr  5, 00:51 PDT\nMonitoring - A fix has been implemented and we are monitoring the results.\nApr  4, 23:15 PDT\nIdentified - The issue has been identified and a fix is being implemented.\nApr  4, 21:57 PDT\nInvestigating - We are currently investigating an issue related to 403 and 404 Errors across multiple endpoints. We'll post updates as we have more information.",
@@ -140,16 +150,6 @@
           "publishedOn": "2023-03-27T15:53:19.000Z",
           "wordCount": 2789,
           "title": "High latency",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/rk7qmfsdj1kb",
-          "author": null,
-          "description": "Mar 17, 13:36 PDT\nResolved - This issue has been resolved. Users should be able to successfully load Notion pages now.\nMar 17, 12:13 PDT\nUpdate - We are continuing to work on mitigation and resolution for slow loading times.\nMar 17, 10:52 PDT\nIdentified - Some users are experiencing slow load times. We have identified the root cause and are working on resolving it.",
-          "link": "https://status.notion.so/incidents/rk7qmfsdj1kb",
-          "publishedOn": "2023-03-17T20:36:09.000Z",
-          "wordCount": 2787,
-          "title": "Performance degradation",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -330,6 +330,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://status.slack.com/",
       "articles": [
+        {
+          "id": "https://status.slack.com//2023-04/6091d7559163f33c",
+          "author": null,
+          "description": "Issue summary:\n\r\n\r\nOn April 16rd, 2023 from 12:11 PM PDT until 14:39 PM PDT, certain Android users on the Free plan reported issues with loading channels in the Android app.  \n\r\n\r\nUpon investigation, this was attributed to the implementation of a data optimization feature, intended to improve app performance. We have rolled back this feature temporarily, which has corrected the observed issue.  A full investigation and remedy will take place prior to reimplementation. \n\r\n\r\nThank you for your patience while we worked through this.  We apologize for any disruption to your work.",
+          "link": "https://status.slack.com//2023-04/6091d7559163f33c",
+          "publishedOn": "2023-04-16T23:40:54.000Z",
+          "wordCount": 223,
+          "title": "Incident: Channels are missing for Android users",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://status.slack.com//2023-04/ac28ceabd64fe276",
           "author": null,
