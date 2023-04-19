@@ -38,7 +38,7 @@
           "description": "Description: An issue in the Tailscale coordination server allowed tailnets created by GitHub organizations which were subsequently renamed to be associated with a new GitHub organization with the previous name.\nWhat happened?\nTailscale mapped tailnets created by GitHub organizations to their organization name, rather than to their organization ID. This meant that if a GitHub organization was renamed, and the previous name taken over by a new GitHub organization, the existing tailnet would be tied to the new GitHub organization instead of the original one.\nWho is affected?\nUp to 1,305 tailnets created by GitHub organizations may have been affected, if those GitHub organizations were renamed between 2021-06-18 and 2023-03-30 and fully relinquished the old GitHub organization name. Additiona…",
           "link": "https://tailscale.com/security-bulletins/#ts-2023-004/",
           "publishedOn": "2023-04-04T00:00:00.000Z",
-          "wordCount": 3186,
+          "wordCount": 3293,
           "title": "TS-2023-004",
           "imageUrl": "https://tailscale.com/files/images/og-image.png"
         },
@@ -48,7 +48,7 @@
           "description": "Reference: CVE-2023-28436\nSeverity: Medium\nCVSS vector string: CVSS:3.0/AV:A/AC:L/PR:H/UI:R/S:C/C:H/I:N/A:N\nDescription: A vulnerability identified in the implementation of Tailscale SSH in FreeBSD allowed commands to be run with a higher privilege group ID than that specified by Tailscale SSH access rules.\nAffected platforms: FreeBSD\nPatched Tailscale client versions: v1.38.2 or later\nWhat happened?\nA difference in the behavior of the FreeBSD setgroups system call from POSIX meant that the Tailscale client running on a FreeBSD-based operating system did not appropriately restrict groups on the host when using Tailscale SSH. When accessing a FreeBSD host over Tailscale SSH, the egid of the tailscaled process was used instead of that of the user specified in Tailscale SSH access rules.\nWho is affected?\n9 tailnets with 22 FreeBSD nodes running Tailscale SSH since Tailscale v1.34 (released on 2022-12-04) may have had Tailscale SSH sessions with a higher privilege group ID than that specified in Tailscale SSH access rules.\nWe have notified affected organizations where we have security contacts.\nWhat is the impact?\nTailscale SSH commands may have been run with a higher privilege group ID than that specified in Tailscale SSH access rules if they met all of the following criteria:\nThe destination node was a FreeBSD device with Tailscale SSH enabled;\nTailscale SSH access rules permitted access for non-root users; and\nA non-interactive SSH session was used.\nWhat do I need to do?\nIf you are running Tailscale on FreeBSD, upgrade to v1.38.2 or later to remediate the issue. Admins of a tailnet can view FreeBSD nodes with unpatched versions in the admin console.\nTo update the local ports tree in advance of what’s available upstream, you can:\ncd /usr/ports/security/tailscale\nedit the Makefile to set PORTVERSION to 1.38.2\nmake makesum\nmake install\nTailscale SSH on other platforms is not affected.\nCredits\nWe would like to thank Ryan Belgrave for reporting this issue.",
           "link": "https://tailscale.com/security-bulletins/#ts-2023-003/",
           "publishedOn": "2023-03-22T00:00:00.000Z",
-          "wordCount": 3186,
+          "wordCount": 3293,
           "title": "TS-2023-003",
           "imageUrl": "https://tailscale.com/files/images/og-image.png"
         }
@@ -62,10 +62,10 @@
         {
           "id": "https://airbnbapi.statuspage.io/incidents/ymym186bx049",
           "author": null,
-          "description": "Apr 17, 00:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 14, 10:19 PDT\nScheduled - The deprecation date for API Version 2021.12.31 is on March 31, 2023. Starting on April 17th, 2023, any applications that have not fully migrated will be automatically migrated to a newer version, which can result in application breakage.\nAutomatic migration will occur in phases as detailed in https://developer.airbnb.com/docs/versioning-enforcement\nPhase 1 begins April 17, 2023 for the following endpoints: Transactions, Resolutions, Users, Opportunities",
+          "description": "Apr 18, 00:00 PDT\nCompleted - The scheduled maintenance has been completed.\nApr 17, 00:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 14, 10:19 PDT\nScheduled - The deprecation date for API Version 2021.12.31 is on March 31, 2023. Starting on April 17th, 2023, any applications that have not fully migrated will be automatically migrated to a newer version, which can result in application breakage.\nAutomatic migration will occur in phases as detailed in https://developer.airbnb.com/docs/versioning-enforcement\nPhase 1 begins April 17, 2023 for the following endpoints: Transactions, Resolutions, Users, Opportunities",
           "link": "https://airbnbapi.statuspage.io/incidents/ymym186bx049",
-          "publishedOn": "2023-04-17T07:00:43.000Z",
-          "wordCount": 3281,
+          "publishedOn": "2023-04-18T07:00:39.000Z",
+          "wordCount": 3291,
           "title": "v2021.12.31 Migration Enforcement",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -189,21 +189,11 @@
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/ubuv1bKMuStaemGtqLb5",
           "author": null,
-          "description": "<p> Incident began at <strong>2023-04-17 18:43</strong> and ended at <strong>2023-04-17 20:54</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  The problem with Google Docs has been resolved. We apologize for the inconvenience and thank you for your patience and continued support.  </span></div><hr><p>Affected products: Google Docs</p>",
+          "description": "<p> Incident began at <strong>2023-04-17 18:43</strong> and ended at <strong>2023-04-17 20:54</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 17 April 2023 11:43</p>\n<p><strong>Incident End:</strong> 17 April 2023 13:47</p>\n<p><strong>Duration:</strong> 2 hours, 4 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Google Docs, Google Slides</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>Google Docs and Google Slides experienced issues with actions involving images for a duration of 2 hours, 4 minutes. From preliminary analysis, the root cause of the issue was a recent change to a back-end storage policy. Google will complete a full Incident Report in the following days that will provide a full root cause.</p>\n<p><strong>Customer Impact:</strong></p>\n<p>Users may have experienced issues when performing actions involving images, including:</p>\n<ul>\n<li>Uploaded images failing to render and displaying an exclamation mark</li>\n<li>500 errors when creating new documents from templates that included images</li>\n</ul>\n<p>There was no impact to already existing Docs or Slides.</p>\n<p><strong>Additional details:</strong></p>\n<p>The issue was mitigated by rolling back the back-end storage policy changes at 13:47 PDT. Images uploaded while the issue was ongoing would remain broken and need to be reinserted.</p>\n</div><hr><p>Affected products: Google Docs</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/ubuv1bKMuStaemGtqLb5",
-          "publishedOn": "2023-04-17T21:07:42.000Z",
-          "wordCount": 291,
+          "publishedOn": "2023-04-18T20:23:08.000Z",
+          "wordCount": 530,
           "title": "RESOLVED: We're investigating reports of an issue with Google Docs. We will provide more information shortly.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/ubuv1bKMuStaemGtqLb5",
-          "author": null,
-          "description": "<p> Incident began at <strong>2023-04-17 18:43</strong> and ended at <strong>2023-04-17 20:54</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We're investigating reports of an issue with Google Docs. We will provide more information shortly.  </span><div> <p>Users could take any action involving images in Docs and Slides including uploading images or creating a new document from a template that has images would see the errors.</p>\n  </div></div><hr><p>Affected products: Google Docs</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/ubuv1bKMuStaemGtqLb5",
-          "publishedOn": "2023-04-17T20:59:51.000Z",
-          "wordCount": 291,
-          "title": "UPDATE: We're investigating reports of an issue with Google Docs. We will provide more information shortly.",
           "imageUrl": null
         }
       ]
@@ -213,6 +203,26 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/g8mb319cqjsp",
+          "author": null,
+          "description": "Apr 18, 15:29 UTC\nResolved - This incident has been resolved.\nApr 18, 15:29 UTC\nUpdate - Issues is operating normally.\nApr 18, 15:29 UTC\nUpdate - Webhooks is operating normally.\nApr 18, 15:27 UTC\nUpdate - Actions is operating normally.\nApr 18, 15:12 UTC\nUpdate - We have identified the cause for latency issues affecting Pull Requests and Issues UI experiences and Actions jobs being delayed to process. We have deployed a fix and are monitoring closely.\nApr 18, 14:56 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nApr 18, 14:35 UTC\nUpdate - Issues and Pull Requests are experiencing degraded performance. We are still investigating and will provide an update when we have one.\nApr 18, 14:35 UTC\nInvestigating - We are investigating reports of degraded performance for Webhooks.",
+          "link": "https://www.githubstatus.com/incidents/g8mb319cqjsp",
+          "publishedOn": "2023-04-18T15:29:30.000Z",
+          "wordCount": 4129,
+          "title": "Incident with Actions, Issues, Pull Requests and Webhooks",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
+          "id": "https://www.githubstatus.com/incidents/k1qts16jgtcp",
+          "author": null,
+          "description": "Apr 18, 09:51 UTC\nResolved - This incident has been resolved.\nApr 18, 09:45 UTC\nUpdate - Git Operations is operating normally.\nApr 18, 09:43 UTC\nUpdate - Issues is operating normally.\nApr 18, 09:30 UTC\nUpdate - Git Operations is experiencing degraded performance. We are continuing to investigate.\nApr 18, 09:28 UTC\nInvestigating - We are investigating reports of degraded availability for Issues and Pull Requests.",
+          "link": "https://www.githubstatus.com/incidents/k1qts16jgtcp",
+          "publishedOn": "2023-04-18T09:51:53.000Z",
+          "wordCount": 4054,
+          "title": "Incident with Git Operations, Issues and Pull Requests",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/5w7lb9j98x96",
           "author": null,
