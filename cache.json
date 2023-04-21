@@ -41,16 +41,6 @@
           "wordCount": 3293,
           "title": "TS-2023-004",
           "imageUrl": "https://tailscale.com/files/images/og-image.png"
-        },
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2023-003/",
-          "author": null,
-          "description": "Reference: CVE-2023-28436\nSeverity: Medium\nCVSS vector string: CVSS:3.0/AV:A/AC:L/PR:H/UI:R/S:C/C:H/I:N/A:N\nDescription: A vulnerability identified in the implementation of Tailscale SSH in FreeBSD allowed commands to be run with a higher privilege group ID than that specified by Tailscale SSH access rules.\nAffected platforms: FreeBSD\nPatched Tailscale client versions: v1.38.2 or later\nWhat happened?\nA difference in the behavior of the FreeBSD setgroups system call from POSIX meant that the Tailscale client running on a FreeBSD-based operating system did not appropriately restrict groups on the host when using Tailscale SSH. When accessing a FreeBSD host over Tailscale SSH, the egid of the tailscaled process was used instead of that of the user specified in Tailscale SSH access rules.\nWho is affected?\n9 tailnets with 22 FreeBSD nodes running Tailscale SSH since Tailscale v1.34 (released on 2022-12-04) may have had Tailscale SSH sessions with a higher privilege group ID than that specified in Tailscale SSH access rules.\nWe have notified affected organizations where we have security contacts.\nWhat is the impact?\nTailscale SSH commands may have been run with a higher privilege group ID than that specified in Tailscale SSH access rules if they met all of the following criteria:\nThe destination node was a FreeBSD device with Tailscale SSH enabled;\nTailscale SSH access rules permitted access for non-root users; and\nA non-interactive SSH session was used.\nWhat do I need to do?\nIf you are running Tailscale on FreeBSD, upgrade to v1.38.2 or later to remediate the issue. Admins of a tailnet can view FreeBSD nodes with unpatched versions in the admin console.\nTo update the local ports tree in advance of what’s available upstream, you can:\ncd /usr/ports/security/tailscale\nedit the Makefile to set PORTVERSION to 1.38.2\nmake makesum\nmake install\nTailscale SSH on other platforms is not affected.\nCredits\nWe would like to thank Ryan Belgrave for reporting this issue.",
-          "link": "https://tailscale.com/security-bulletins/#ts-2023-003/",
-          "publishedOn": "2023-03-22T00:00:00.000Z",
-          "wordCount": 3293,
-          "title": "TS-2023-003",
-          "imageUrl": "https://tailscale.com/files/images/og-image.png"
         }
       ]
     },
@@ -127,33 +117,53 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/ft3fqg7ml6gg",
+          "id": "https://status.twilio.com/incidents/w8yw4k5nv8gm",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Apr 20, 03:00 - 04:00 PDT\nApr 13, 13:16 PDT\nScheduled - Twilio is conducting a planned SMS maintenance for all Networks in Mexico from 20 April at 03:00 PDT until 20 April at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Mexico handsets via dedicated short codes.",
-          "link": "https://status.twilio.com/incidents/ft3fqg7ml6gg",
-          "publishedOn": "2023-04-20T10:00:00.000Z",
-          "wordCount": 6182,
-          "title": "Twilio Mexico SMS maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Apr 20, 22:00 PDT  -  Apr 21, 03:00 PDT\nApr 19, 17:58 PDT\nScheduled - The US Cellular network in the USA is conducting a planned maintenance from 20 April 2023 at 22:00 PDT until 21 April 2023 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US Cellular handsets via US longcode, US shortcode and US toll-free numbers.",
+          "link": "https://status.twilio.com/incidents/w8yw4k5nv8gm",
+          "publishedOn": "2023-04-21T05:00:00.000Z",
+          "wordCount": 6213,
+          "title": "US SMS Carrier Maintenance - US Cellular",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/t1nvrt5g5qcf",
+          "id": "https://status.twilio.com/incidents/srycvr431zyr",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Apr 19, 20:00 PDT  -  Apr 20, 01:00 PDT\nApr  7, 06:03 PDT\nScheduled - Our Carrier Partner Three UK is conducting a planned maintenance from 19 April 2023 at 20:00 PDT until 20 April 2023 at 01:00 PDT. During the maintenance window, there could be intermittent API request failures for UK.\nImpacted Products: Lookup SIM Swap Identity Match and SNA",
-          "link": "https://status.twilio.com/incidents/t1nvrt5g5qcf",
-          "publishedOn": "2023-04-20T03:00:00.000Z",
-          "wordCount": 6199,
+          "description": "Apr 20, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nApr 20, 13:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 19, 09:34 PDT\nScheduled - Our Carrier Partner Three UK is conducting an emergency maintenance from 20 April 2023 at 13:00 PDT until 20 April 2023 at 17:00 PDT. During the maintenance window, there could be intermittent API request failures for UK.\nImpacted Products: Lookup SIM Swap Identity Match and SNA.",
+          "link": "https://status.twilio.com/incidents/srycvr431zyr",
+          "publishedOn": "2023-04-21T00:00:38.000Z",
+          "wordCount": 6224,
           "title": "United Kingdom Account Security Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/hgmr260t0q03",
+          "id": "https://status.twilio.com/incidents/phdqvxj33fjc",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Apr 19, 20:00 PDT  -  Apr 20, 00:00 PDT\nMar 16, 17:22 PDT\nScheduled - Our SMS carrier partner in the US and Canada will be conducting planned maintenance from 19 April 2023 at 20:00 PDT until 20 April 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from both US and Canada handsets via Toll-free numbers",
-          "link": "https://status.twilio.com/incidents/hgmr260t0q03",
-          "publishedOn": "2023-04-20T03:00:00.000Z",
-          "wordCount": 6201,
-          "title": "US and Canada SMS Carrier Partner Maintenance",
+          "description": "Apr 20, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nApr 20, 14:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 14, 16:17 PDT\nScheduled - The Motiv network in Russia is conducting a planned maintenance from 20 April 2023 at 14:00 PDT until 20 April 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Motiv Russia handsets.",
+          "link": "https://status.twilio.com/incidents/phdqvxj33fjc",
+          "publishedOn": "2023-04-21T00:00:29.000Z",
+          "wordCount": 6208,
+          "title": "Russia SMS Carrier Maintenance - Motiv",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/3tw1jlrnsf2l",
+          "author": null,
+          "description": "Apr 20, 16:41 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Atlan Redes Network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/3tw1jlrnsf2l",
+          "publishedOn": "2023-04-20T23:41:58.000Z",
+          "wordCount": 6192,
+          "title": "Outbound SMS Delivery Delays to Altan Redes Network in Mexico",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/4bmbcmf0v5vh",
+          "author": null,
+          "description": "Apr 20, 15:45 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 14, 15:49 PDT\nScheduled - The Vodafone network in United Kingdom is conducting a planned maintenance from 20 April 2023 at 15:45 PDT until 20 April 2023 at 22:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Vodafone United Kingdom handsets.",
+          "link": "https://status.twilio.com/incidents/4bmbcmf0v5vh",
+          "publishedOn": "2023-04-20T22:45:18.000Z",
+          "wordCount": 6203,
+          "title": "United Kingdom SMS Carrier Maintenance - Vodafone",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -218,103 +228,63 @@
       "siteUrl": "https://www.google.com/appsstatus/dashboard/",
       "articles": [
         {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/17yVRt1dxPg9L7WZHfXw",
-          "author": null,
-          "description": "<p> Incident began at <strong>2023-04-19 02:04</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We are continuing to investigate this issue. We will provide an update by <span>Apr 20, 2023, 7:00 PM UTC</span> detailing when we expect to resolve the problem.  </span>The affected users are unable to access Classroom, but we&#39;ve provided a workaround below.<div> <p>Our engineering team has identified the root cause and currently working on releasing the fix for the Classroom application on Play Store.</p>\n  </div><div> <p>Affected users should:</p>\n<ul>\n<li>Check the Play Store for an update and install the new version of Classroom app.</li>\n<li>If not, try again later or uninstall/reinstall or use Classroom Web.</li>\n</ul>\n  </div></div><hr><p>Affected products: Classroom</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/17yVRt1dxPg9L7WZHfXw",
-          "publishedOn": "2023-04-19T23:57:27.000Z",
-          "wordCount": 546,
-          "title": "UPDATE: We're aware of a problem with Classroom affecting a significant subset of users. We will provide an update by Apr 19, 2023, 4:00 PM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change. The affected users are unable to access Classroom, but we've provided a workaround below.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/17yVRt1dxPg9L7WZHfXw",
-          "author": null,
-          "description": "<p> Incident began at <strong>2023-04-19 02:04</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We are continuing to investigate this issue. We will provide an update by <span>Apr 18, 2023, 1:00 AM UTC</span> detailing when we expect to resolve the problem.  </span>The affected users are unable to access Classroom, but we&#39;ve provided a workaround below.<div> <p>Mitigation work is currently underway by our engineering team,\nwe believe the root cause has been identified and we are now validating the fix.</p>\n  </div><div> <p>Affected users should:</p>\n<ul>\n<li>Delete and reinstall the Classroom application via Google Play store to mitigate the issue.</li>\n<li>Users can also use Classroom Web</li>\n</ul>\n  </div></div><hr><p>Affected products: Classroom</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/17yVRt1dxPg9L7WZHfXw",
-          "publishedOn": "2023-04-19T23:36:48.000Z",
-          "wordCount": 546,
-          "title": "UPDATE: We're aware of a problem with Classroom affecting a significant subset of users. We will provide an update by Apr 19, 2023, 4:00 PM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change. The affected users are unable to access Classroom, but we've provided a workaround below.",
-          "imageUrl": null
-        },
-        {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
           "author": null,
-          "description": "<p> Incident began at <strong>2023-04-14 07:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Our engineering team investigation has revealed that the root cause of the issue is related to sensitivity of network availability during bootup and are currently working on a fix for the retry logic.</p>\n<p>Our engineering team has also identified a workaround for devices that are not able to get past the &quot;Waiting for application window&quot; screen after a reboot. Please refer to the workaround section for details.</p>\n<p>We will provide an update by Thursday, 2023-04-20 06:00 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption</p>\n<p><strong>Workaround</strong></p>\n<p>Customers affected with this issue may try the following steps for mitigation if the reboot does not fix the issue.\nSteps:</p>\n<ol>\n<li>Unplug network cable on the Meet Hardware device.</li>\n<li>Reboot the device.</li>\n<li>Wait until it shows the network connectivity screen (this is the screen that prompts the user to select a wifi connection).</li>\n<li>Plug in network cable back into the Meet hardware device.</li>\n<li>Device should recover after this step is completed.</li>\n</ol>\n</div><hr><p>Affected products: Google Meet</p>",
+          "description": "<p> Incident began at <strong>2023-04-14 07:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The fix has now been deployed to the Beta release channel and available to customers. Customers wishing to expedite the update can switch impacted rooms to the Beta release channel which typically takes 2-4 hours to propagate after which time the subsequent reboots of the device should not experience the issue.</p>\n<p>We plan to release this fix to the Stable release channel the week of April 24th after we have ensured a successful roll out to Beta.</p>\n<p>We request any customers that opt to switch their rooms to the Beta channel should switch them back to Stable channel after the update to ensure the devices remain on the stable release track.</p>\n<p>More information on how to change between Beta and Stable channels is available here : <a href=\"https://support.google.com/a/answer/4618201?hl=en&amp;ref_topic=3341450&amp;visit_id=638176138740742021-1958539996&amp;rd=1#settings&amp;zippy=%2Cchange-settings-for-all-devices\">https://support.google.com/a/answer/4618201?hl=en&amp;ref_topic=3341450&amp;visit_id=638176138740742021-1958539996&amp;rd=1#settings&amp;zippy=%2Cchange-settings-for-all-devices</a></p>\n<p>We will provide more information by Friday, 2023-04-21 14:00 US/Pacific</p>\n<p><strong>Workaround :</strong></p>\n<p>Customers affected with this issue may try the following steps for mitigation if the reboot does not fix the issue.</p>\n<ol>\n<li>Unplug network cable on the Meet Hardware device.</li>\n<li>Reboot the device.</li>\n<li>Wait until it shows the network connectivity screen (this is the screen that prompts the user to select a wifi connection).</li>\n<li>Plug in network cable back into the Meet hardware device.</li>\n<li>Device should recover after this step is completed.</li>\n</ol>\n</div><hr><p>Affected products: Google Meet</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "publishedOn": "2023-04-19T22:08:31.000Z",
-          "wordCount": 946,
-          "title": "UPDATE: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are unable to access Google Meet, but we've provided a workaround below.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "author": null,
-          "description": "<p> Incident began at <strong>2023-04-14 07:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Google Meet Hardware devices are displaying the &quot;Waiting for application window&quot; notification upon reboot.</p>\n<p>Our engineering team believes the issue is related to local network availability post reboot following an OS update and has determined that stable network availability is needed during the initial boot post OS update. Further investigation is required to mitigate the issue under all network conditions.</p>\n<p>Our engineering team is actively working on verifying the root-cause and resolving the issue. Meanwhile, we have also paused the pending OS updates and expect this to not impact any more devices.</p>\n<p>We will provide an update by Wednesday, 2023-04-19 15:30 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption</p>\n<p>Workaround : Customers may try rebooting their devices to see if this resolves the issue</p>\n</div><hr><p>Affected products: Google Meet</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "publishedOn": "2023-04-19T20:25:34.000Z",
-          "wordCount": 946,
-          "title": "UPDATE: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are unable to access Google Meet, but we've provided a workaround below.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "author": null,
-          "description": "<p> Incident began at <strong>2023-04-14 07:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Google Meet Hardware devices are displaying the &quot;Waiting for application window&quot; notification upon reboot.</p>\n<p>Our engineering team believes the issue is related to networking issue surfacing post rebooting following an OS update and has determined that further investigation is required to mitigate the issue.</p>\n<p>Our engineering team is actively working on root-causing and resolving the issue.</p>\n<p>We will provide an update by Wednesday, 2023-04-19 13:30 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption</p>\n<p>Workaround : Customers may try rebooting their devices to see if this resolves the issue</p>\n</div><hr><p>Affected products: Google Meet</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "publishedOn": "2023-04-19T18:33:10.000Z",
-          "wordCount": 946,
-          "title": "UPDATE: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are unable to access Google Meet, but we've provided a workaround below.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "author": null,
-          "description": "<p> Incident began at <strong>2023-04-14 07:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Chromebox for Meet devices are displaying the &quot;Waiting for application window&quot; notification upon reboot.</p>\n<p>Our engineering team believes some devices may have gone to sleep due to Chrome OS policies and has determined that further investigation is required to mitigate the issue.</p>\n<p>Our engineering team is actively working on root-causing and resolving the issue.</p>\n<p>We will provide an update by Wednesday, 2023-04-19 11:30 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption</p>\n<p>Workaround : Customers may try rebooting their devices to see if this resolves the issue</p>\n</div><hr><p>Affected products: Google Meet</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "publishedOn": "2023-04-19T17:23:10.000Z",
-          "wordCount": 946,
-          "title": "UPDATE: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are unable to access Google Meet, but we've provided a workaround below.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "author": null,
-          "description": "<p> Incident began at <strong>2023-04-14 07:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Our engineering team believes some devices may have gone to sleep due to Chrome OS policies and has determined that further investigation is required to mitigate the issue.</p>\n<p>We will provide an update by Wednesday, 2023-04-19 10:30 US/Pacific with current details.</p>\n<p>Chromebox for Meet devices are displaying the &quot;Waiting for application window&quot; notification upon reboot.</p>\n<p>Workaround : Customers may try rebooting their devices to see if this  resolves the issue</p>\n</div><hr><p>Affected products: Google Meet</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "publishedOn": "2023-04-19T16:31:49.000Z",
-          "wordCount": 946,
-          "title": "UPDATE: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are unable to access Google Meet, but we've provided a workaround below.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "author": null,
-          "description": "<p> Incident began at <strong>2023-04-14 07:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  Our team is continuing to investigate this issue. We will provide an update by <span>Apr 19, 2023, 4:30 PM UTC</span> with more information about this problem. Thank you for your patience.  </span>The affected users are unable to access Google Meet, but we&#39;ve provided a workaround below.<div> <p>Chromebox for Meet devices is displaying the &quot;Waiting for application window&quot; upon reboot.</p>\n<p>Our engineering team is actively working on root-causing and resolving the issue.</p>\n  </div><div> <p>Workaround: For some devices a reboot resolved the issue</p>\n  </div></div><hr><p>Affected products: Google Meet</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "publishedOn": "2023-04-19T14:20:01.000Z",
-          "wordCount": 946,
-          "title": "UPDATE: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are unable to access Google Meet, but we've provided a workaround below.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "author": null,
-          "description": "<p> Incident began at <strong>2023-04-14 07:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We're investigating reports of an issue with Google Meet. We will provide more information shortly.  </span>The affected users are unable to access Google Meet, but we&#39;ve provided a workaround below.<div> <p>All Chromebox for Meet devices are displaying the &quot;Waiting for application window&quot; upon reboot.</p>\n  </div><div> <p>Workaround: For some devices a reboot resolved the issue</p>\n  </div></div><hr><p>Affected products: Google Meet</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "publishedOn": "2023-04-19T13:26:36.000Z",
-          "wordCount": 946,
+          "publishedOn": "2023-04-20T23:03:18.000Z",
+          "wordCount": 1845,
           "title": "UPDATE: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are unable to access Google Meet, but we've provided a workaround below.",
           "imageUrl": null
         },
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/17yVRt1dxPg9L7WZHfXw",
           "author": null,
-          "description": "<p> Incident began at <strong>2023-04-19 02:04</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We're aware of a problem with Classroom affecting a significant subset of users. We will provide an update by <span>Apr 19, 2023, 4:00 PM UTC</span> detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change.  </span>The affected users are unable to access Classroom, but we&#39;ve provided a workaround below.<div> <p>Google engineer have localised the issue to the Android App for Google Classroom version 8.0.141.20.90.2</p>\n  </div><div> <p>Affected users should:-</p>\n<ul>\n<li>Delete and reinstall the Classroom application via Google Play store to mitigate the issue.</li>\n<li>Users can also use Classroom Web</li>\n</ul>\n  </div></div><hr><p>Affected products: Classroom</p>",
+          "description": "<p> Incident began at <strong>2023-04-19 02:04</strong> and ended at <strong>2023-04-20 15:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 18 April 2023 19:04</p>\n<p><strong>Incident End:</strong> 20 April 2023 7:56</p>\n<p><strong>Duration:</strong> 1 day, 12 hours, 52 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Classroom Android Mobile App</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>Google Classroom application was unavailable for some Android users for a period of 1 day, 12 hours, 52 minutes. From preliminary analysis, the root cause is identified as an unintended release misconfiguration.</p>\n<p><strong>Customer Impact:</strong>\nAn estimated ~2.5% of users could not use the Android Classroom app (latest version). ~2M users were believed to be impacted.</p>\n<ul>\n<li>Version Name: 8.0.141.20.90.2</li>\n<li>Version Code: 213051414</li>\n</ul>\n<p><strong>Additional details:</strong></p>\n<p>The following workaround steps were provided to users during the incident:</p>\n<ul>\n<li>Delete/reinstall the app</li>\n<li>Use Classroom Web</li>\n</ul>\n</div><hr><p>Affected products: Classroom</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/17yVRt1dxPg9L7WZHfXw",
-          "publishedOn": "2023-04-19T09:57:43.000Z",
-          "wordCount": 546,
-          "title": "UPDATE: We're aware of a problem with Classroom affecting a significant subset of users. We will provide an update by Apr 19, 2023, 4:00 PM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change. The affected users are unable to access Classroom, but we've provided a workaround below.",
+          "publishedOn": "2023-04-20T21:34:36.000Z",
+          "wordCount": 813,
+          "title": "RESOLVED: We're aware of a problem with Classroom affecting a significant subset of users. We will provide an update by Apr 19, 2023, 4:00 PM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change. The affected users are unable to access Classroom, but we've provided a workaround below.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
+          "author": null,
+          "description": "<p> Incident began at <strong>2023-04-14 07:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Mitigation work is currently underway by our engineering team. We have a fix that is currently being tested by our team, and plan to release it to the Beta channel by Thursday, 2023-04-20 18:00 US/Pacific. Customers wishing to expedite the update can switch impacted  rooms to the Beta release channel. This update typically takes 2-4 hours to update after the switch to the Beta release channel, and would require a restart after this time period.</p>\n<p>We plan to release this fix to the Stable release channel the week of April 24th after we have ensured a successful roll out to Beta.</p>\n<p>We request any customers who opt to switch their rooms to the Beta channel to switch them back to Stable channel after the update, to ensure the devices remain back on the stable release process</p>\n<p>More information on how to change between Beta and Stable channels is available here : <a href=\"https://support.google.com/a/answer/4618201?hl=en&amp;ref_topic=3341450&amp;visit_id=638176138740742021-1958539996&amp;rd=1#settings&amp;zippy=%2Cchange-settings-for-all-devices\">https://support.google.com/a/answer/4618201?hl=en&amp;ref_topic=3341450&amp;visit_id=638176138740742021-1958539996&amp;rd=1#settings&amp;zippy=%2Cchange-settings-for-all-devices</a></p>\n<p>Our engineering team has also identified a workaround for devices that are not able to get past the &quot;Waiting for application window&quot; screen after a reboot. Please refer to the workaround section for details.</p>\n<p>We will provide more information by Thursday, 2023-04-20 18:00 US/Pacific</p>\n<p>We apologize to all who are affected by the disruption</p>\n<p><strong>Workaround :</strong></p>\n<p>Customers affected with this issue may try the following steps for mitigation if the reboot does not fix the issue.</p>\n<ol>\n<li>Unplug network cable on the Meet Hardware device.</li>\n<li>Reboot the device.</li>\n<li>Wait until it shows the network connectivity screen (this is the screen that prompts the user to select a wifi connection).</li>\n<li>Plug in network cable back into the Meet hardware device.</li>\n<li>Device should recover after this step is completed.</li>\n</ol>\n</div><hr><p>Affected products: Google Meet</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
+          "publishedOn": "2023-04-20T20:42:41.000Z",
+          "wordCount": 1845,
+          "title": "UPDATE: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are unable to access Google Meet, but we've provided a workaround below.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/17yVRt1dxPg9L7WZHfXw",
+          "author": null,
+          "description": "<p> Incident began at <strong>2023-04-19 02:04</strong> and ended at <strong>2023-04-20 15:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The issue has been mitigated and a new application update has rolled out to a majority of impacted users as of Thursday, 2023-04-20 08:00 US/Pacific.</p>\n<p>Users should look for an update in the Play Store in the next few days. If users continue to experience the original issue, please use Classroom Web.</p>\n<p>We thank you for your patience while we worked on resolving the issue.</p>\n</div><hr><p>Affected products: Classroom</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/17yVRt1dxPg9L7WZHfXw",
+          "publishedOn": "2023-04-20T16:41:20.000Z",
+          "wordCount": 813,
+          "title": "RESOLVED: We're aware of a problem with Classroom affecting a significant subset of users. We will provide an update by Apr 19, 2023, 4:00 PM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change. The affected users are unable to access Classroom, but we've provided a workaround below.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
+          "author": null,
+          "description": "<p> Incident began at <strong>2023-04-14 07:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Mitigation work is currently underway by our engineering team. We have a fix that is currently being tested by our team, and plan to release it to the Beta channel by the end of the day. Customers will be able to switch any critical rooms that need to receive the update to the Beta release channel.</p>\n<p>We request any customers that do opt to switch their rooms to the Beta channel to switch them back to Stable after the update, thereby ensuring they remain back on the stable release process.</p>\n<p>We plan to release this fix to the Stable release channel the week of April 24th after we have ensured a successful roll out to Beta.</p>\n<p>Our engineering team has also identified a workaround for devices that are not able to get past the &quot;Waiting for application window&quot; screen after a reboot. Please refer to the workaround section for details.</p>\n<p>We will provide more information by Thursday, 2023-04-20 18:00 US/Pacific.</p>\n<p><strong>Workaround</strong></p>\n<p>Customers affected with this issue may try the following steps for mitigation if the reboot does not fix the issue.</p>\n<ol>\n<li>Unplug network cable on the Meet Hardware device.</li>\n<li>Reboot the device.</li>\n<li>Wait until it shows the network connectivity screen (this is the screen that prompts the user to select a wifi connection).</li>\n<li>Plug in network cable back into the Meet hardware device.</li>\n<li>Device should recover after this step is completed.</li>\n</ol>\n</div><hr><p>Affected products: Google Meet</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
+          "publishedOn": "2023-04-20T16:25:34.000Z",
+          "wordCount": 1845,
+          "title": "UPDATE: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are unable to access Google Meet, but we've provided a workaround below.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
+          "author": null,
+          "description": "<p> Incident began at <strong>2023-04-14 07:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Mitigation work is currently underway by our engineering team. A fix has been developed and it is currently being validated.</p>\n<p>We do not have an ETA for mitigation at this point.</p>\n<p>Our engineering team has also identified a workaround for devices that are not able to get past the &quot;Waiting for application window&quot; screen after a reboot. Please refer to the workaround section for details.</p>\n<p>We will provide more information by Thursday, 2023-04-20 09:00 US/Pacific.</p>\n<p>We apologize to all who are affected by the disruption</p>\n<p><strong>Workaround</strong></p>\n<p>Customers affected with this issue may try the following steps for mitigation if the reboot does not fix the issue.\nSteps:</p>\n<ol>\n<li>Unplug network cable on the Meet Hardware device.</li>\n<li>Reboot the device.</li>\n<li>Wait until it shows the network connectivity screen (this is the screen that prompts the user to select a wifi connection).</li>\n<li>Plug in network cable back into the Meet hardware device.</li>\n<li>Device should recover after this step is completed.</li>\n</ol>\n</div><hr><p>Affected products: Google Meet</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
+          "publishedOn": "2023-04-20T13:00:19.000Z",
+          "wordCount": 1845,
+          "title": "UPDATE: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are unable to access Google Meet, but we've provided a workaround below.",
           "imageUrl": null
         }
       ]
@@ -483,16 +453,6 @@
           "wordCount": 4066,
           "title": "Incident with Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/8095qt814fr4",
-          "author": null,
-          "description": "Mar 21, 17:43 UTC\nResolved - This incident has been resolved.\nMar 21, 17:22 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces.",
-          "link": "https://www.githubstatus.com/incidents/8095qt814fr4",
-          "publishedOn": "2023-03-21T17:43:25.000Z",
-          "wordCount": 3987,
-          "title": "Incident with Codespaces",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -501,6 +461,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://status.slack.com/",
       "articles": [
+        {
+          "id": "https://status.slack.com//2023-04/9a270de38235b921",
+          "author": null,
+          "description": "Issue Summary:\n\r\nOn April 20th, 2023 from 6:00 AM PDT until 7:45 AM PDT, a small number of users experienced latency issues when using Slack. Users reported a delay in loading threads, channels, direct messages, marking messages as read, and executing workflows. \n\r\n\r\nThe issue resulted from an increased database load on one of our data center regions. We made a change in order manage the larger load and return to normal response times. \n\r\n\r\nOur team is continuing to look into what causes some queries to run slower than others to prevent degraded performance in the future.\n\r\n\r\nThank you for your patience while we worked through this. We apologize for any disruption to your work.",
+          "link": "https://status.slack.com//2023-04/9a270de38235b921",
+          "publishedOn": "2023-04-20T18:38:26.000Z",
+          "wordCount": 268,
+          "title": "Incident: A small percentage of users may be experiencing slowness in Slack.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://status.slack.com//2023-04/6091d7559163f33c",
           "author": null,
