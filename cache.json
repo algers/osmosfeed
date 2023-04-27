@@ -108,16 +108,6 @@
           "wordCount": 3376,
           "title": "500 Errors on Price Quote and Reservation Endpoints",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/k6xc09dvz8r5",
-          "author": null,
-          "description": "Mar 27, 15:42 PDT\nResolved - We have identified and resolved an internal issue that resulted in reservation webhook notifications being sent with $0 price. The incident was active between 13:40 and 14:20 PDT. Reservations payments were processed correctly, but nightly prices and fees appeared as $0 within the webhooks. Please use the GET Reservations API to retrieve the correct reservations prices. Alternatively, please contact the API Integrations team for additional help.\nApologies for the inconvenience.",
-          "link": "https://airbnbapi.statuspage.io/incidents/k6xc09dvz8r5",
-          "publishedOn": "2023-03-27T22:42:56.000Z",
-          "wordCount": 3270,
-          "title": "Reservation webhooks with $0 price",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -127,73 +117,103 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/cv72sfhvzrxd",
+          "id": "https://status.twilio.com/incidents/xcnkbscc133s",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Apr 25, 23:00 PDT  -  Apr 26, 00:00 PDT\nApr 18, 14:30 PDT\nScheduled - Twilio is conducting a planned maintenance from 25 April 2023 at 23:00 PDT until 26 April 2023 at 00:00 PDT. During this maintenance window, customers will not be able to add/delete senders or delete a messaging service. Please avoid adding or removing senders or deleting messaging services during this maintenance period. Messages sent with existing messaging services configuration will still function normally.",
-          "link": "https://status.twilio.com/incidents/cv72sfhvzrxd",
-          "publishedOn": "2023-04-26T06:00:00.000Z",
-          "wordCount": 6200,
-          "title": "Twilio Messaging Services Scheduled Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Apr 26, 22:00 PDT  -  Apr 27, 04:00 PDT\nApr 21, 15:18 PDT\nScheduled - Regional Small Carriers in the US are conducting a planned maintenance from 26 April 2023 at 22:00 PDT until 27 April 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from below carriers via a subset of US Shortcode, US Longcode and Toll-Free numbers,\nInterop USA\nBluegrass Cellular\nBravado Wireless (Cross Wireless)\nCarolina West Wireless\nCellCom (New Cell)\nCellular One (MTPCS)\nChat Mobility\nCopper Valley\nCordova Wireless\nGCI Communications (Alaska DigiTel & ACS Wireless)\nIllinois Valley Cellular\nInland Cellular\nMid-Rivers Cellular (Cable & Cellular Communications)\nNewCore (ASTAC / PTCI / Standing Rock)\nNex-Tech Wireless\nNorthwestCell (Northwest Missouri Cellular)\nPine Belt Cellular\nRural Independent Network Alliance (RINA)\nSouthern LINC\nThumb Cellular\nUnion Cellular\nViaero Wireless\nWest Central Cellular",
+          "link": "https://status.twilio.com/incidents/xcnkbscc133s",
+          "publishedOn": "2023-04-27T05:00:00.000Z",
+          "wordCount": 6249,
+          "title": "US Small Regional Carriers Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/xm4cmmstsk2c",
+          "id": "https://status.twilio.com/incidents/1by66wxkwx5l",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Apr 25, 23:00 PDT  -  Apr 26, 03:00 PDT\nApr 18, 09:23 PDT\nScheduled - Our Service Partner is conducting a planned maintenance from 25 April 2023 at 23:00 PDT until 26 April 2023 at 03:00 PDT. During the maintenance window, there could be intermittent API request failures for the following destination: Canada\nImpacted Products: Silent Network Authentication (SNA), Lookup SIM Swap, Identity Match",
-          "link": "https://status.twilio.com/incidents/xm4cmmstsk2c",
-          "publishedOn": "2023-04-26T06:00:00.000Z",
-          "wordCount": 6199,
-          "title": "Canada Account Security Service Partner Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Apr 26, 20:00 PDT  -  Apr 27, 00:00 PDT\nMar 16, 17:23 PDT\nScheduled - Our SMS carrier partner in the US and Canada will be conducting planned maintenance from 26 April 2023 at 20:00 PDT until 27 April 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from both US and Canada handsets via Toll-free numbers",
+          "link": "https://status.twilio.com/incidents/1by66wxkwx5l",
+          "publishedOn": "2023-04-27T03:00:00.000Z",
+          "wordCount": 6201,
+          "title": "US and Canada SMS Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/g9zg1yvlsr2z",
+          "id": "https://status.twilio.com/incidents/wrbgmxlcjdcf",
           "author": null,
-          "description": "Apr 25, 17:14 PDT\nInvestigating - We are observing voice quality issues to Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/g9zg1yvlsr2z",
-          "publishedOn": "2023-04-26T00:14:25.000Z",
-          "wordCount": 6177,
+          "description": "THIS IS A SCHEDULED EVENT Apr 26, 20:00 PDT  -  Apr 27, 00:00 PDT\nMar 16, 17:17 PDT\nScheduled - Our MMS carrier partner in the US is conducting planned maintenance from 26 April 2023 at 20:00 PDT until 27 April 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from US handsets via US Toll-free numbers.",
+          "link": "https://status.twilio.com/incidents/wrbgmxlcjdcf",
+          "publishedOn": "2023-04-27T03:00:00.000Z",
+          "wordCount": 6190,
+          "title": "US MMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/vslvch3ymzty",
+          "author": null,
+          "description": "Apr 26, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nApr 26, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 24, 08:23 PDT\nScheduled - The Megafon network in Russia is conducting a planned maintenance from 26 April 2023 at 13:00 PDT until 26 April 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Megafon Russia handsets",
+          "link": "https://status.twilio.com/incidents/vslvch3ymzty",
+          "publishedOn": "2023-04-27T00:00:41.000Z",
+          "wordCount": 6208,
+          "title": "Russia SMS Carrier Maintenance - Megafon",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/vpch23p7rvtw",
+          "author": null,
+          "description": "Apr 26, 17:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 22, 13:11 PDT\nScheduled - The BT network in UK is conducting a planned maintenance from 26 April 2023 at 17:00 PDT until 27 April 2023 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from BT UK handsets",
+          "link": "https://status.twilio.com/incidents/vpch23p7rvtw",
+          "publishedOn": "2023-04-27T00:00:18.000Z",
+          "wordCount": 6198,
+          "title": "UK SMS Carrier Maintenance - BT",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/l28ptsqrqm2s",
+          "author": null,
+          "description": "Apr 26, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nApr  3, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 20, 09:15 PDT\nScheduled - The Tele2 network in Russia is conducting a planned maintenance from 03 April 2023 at 13:00 PDT until 26 April 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Tele2 Russia handsets\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n03  April 2023 at 13:00 PDT until 03 April 2023 at 17:00 PDT\n\n05  April 2023 at 13:00 PDT until 05 April 2023 at 17:00 PDT\n\n10  April 2023 at 13:00 PDT until 10 April 2023 at 17:00 PDT\n\n12  April 2023 at 13:00 PDT until 12 April 2023 at 17:00 PDT\n\n17  April 2023 at 13:00 PDT until 17 April 2023 at 17:00 PDT\n\n19  April 2023 at 13:00 PDT until 19 April 2023 at 17:00 PDT\n\n24  April 2023 at 13:00 PDT until 24 April 2023 at 17:00 PDT\n\n26  April 2023 at 13:00 PDT until 26 April 2023 at 17:00 PDT",
+          "link": "https://status.twilio.com/incidents/l28ptsqrqm2s",
+          "publishedOn": "2023-04-27T00:00:03.000Z",
+          "wordCount": 6318,
+          "title": "Russia SMS Carrier Maintenance - Tele2",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/17mxx45h7vp5",
+          "author": null,
+          "description": "Apr 26, 14:36 PDT\nUpdate - We are still observing call quality issues to Twilio Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nApr 26, 12:39 PDT\nUpdate - We are still observing call quality issues to Twilio Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nApr 26, 11:44 PDT\nInvestigating - We are observing call quality issue to Twilio Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/17mxx45h7vp5",
+          "publishedOn": "2023-04-26T21:36:08.000Z",
+          "wordCount": 6276,
           "title": "Voice Quality Issue to Ecuador Phone Numbers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/3m6xr69xnwvj",
+          "id": "https://status.twilio.com/incidents/1tl307ttj0lk",
           "author": null,
-          "description": "Apr 25, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nApr 25, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 14, 16:19 PDT\nScheduled - The Motiv network in Russia is conducting a planned maintenance from 25 April 2023 at 14:00 PDT until 25 April 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Motiv Russia handsets.",
-          "link": "https://status.twilio.com/incidents/3m6xr69xnwvj",
-          "publishedOn": "2023-04-26T00:00:19.000Z",
-          "wordCount": 6208,
-          "title": "Russia SMS Carrier Maintenance - Motiv",
+          "description": "Apr 26, 14:07 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Cellular Corp network in the US over a subset of short codes. This incident has been resolved.\nApr 26, 12:15 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Cellular Corp network in the US over a subset of short codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nApr 26, 11:55 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Cellular Corp network in the US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nApr 26, 10:51 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Cellular Corp network in the US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/1tl307ttj0lk",
+          "publishedOn": "2023-04-26T21:07:14.000Z",
+          "wordCount": 6365,
+          "title": "SMS Delivery Delays to Cellular Corp Network in US Over a Subset of Short codes",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/1rlfdkkbrk9j",
+          "id": "https://status.twilio.com/incidents/5pf3fzmrv4ff",
           "author": null,
-          "description": "Apr 25, 15:50 PDT\nResolved - We have fully investigated the issue with a subset of our voice APIs triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.\nApr 25, 15:14 PDT\nInvestigating - Our monitoring systems have detected a potential issue with a subset of our voice APIs. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/1rlfdkkbrk9j",
-          "publishedOn": "2023-04-25T22:50:06.000Z",
-          "wordCount": 6223,
-          "title": "On Call Engineers are Investigating an issue with a subset of our voice APIs",
+          "description": "Apr 26, 12:30 PDT\nCompleted - The scheduled maintenance has been completed.\nApr 26, 12:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 22, 11:29 PDT\nScheduled - Our SMS carrier partner in Guyana, Tunisia, and Iraq is conducting a planned maintenance from 26 April 2023 at 12:00 PDT until 26 April 2023 at 12:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Digicel – Guyana, Tunisia Telecom – Tunisia and Asia Cell – Iraq handsets.",
+          "link": "https://status.twilio.com/incidents/5pf3fzmrv4ff",
+          "publishedOn": "2023-04-26T19:30:18.000Z",
+          "wordCount": 6231,
+          "title": "Guyana Tunisia Iraq SMS Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/fp9pww1z1g7c",
+          "id": "https://status.twilio.com/incidents/3nybc6ljsm33",
           "author": null,
-          "description": "Apr 25, 15:45 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to the Camtel network in Cameroon. This incident has been resolved.\nApr 25, 14:34 PDT\nUpdate - After monitoring for some time, we are still seeing degradation of the service. We're experiencing SMS delivery delays when sending messages to the Camtel network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours, or as soon as more information becomes available.\nApr 25, 12:49 PDT\nUpdate - After monitoring for some time, we are still seeing degradation of the service. We're experiencing SMS delivery delays when sending messages to the Camtel network in Cameroon. Our engineers are working with our carrier partner to …",
-          "link": "https://status.twilio.com/incidents/fp9pww1z1g7c",
-          "publishedOn": "2023-04-25T22:45:19.000Z",
-          "wordCount": 7036,
-          "title": "SMS Delivery Failures sending to Camtel Network in Cameroon",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/cm11b0rzj7v9",
-          "author": null,
-          "description": "Apr 25, 15:00 PDT\nCompleted - The scheduled maintenance has been completed.\nApr 25, 09:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 24, 08:14 PDT\nScheduled - The Mobifone network in Vietnam is conducting an emergency maintenance from 25 April 2023 at 9:00 PDT until 25 April 2023 at 15:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Mobifone Vietnam handsets.",
-          "link": "https://status.twilio.com/incidents/cm11b0rzj7v9",
-          "publishedOn": "2023-04-25T22:00:43.000Z",
-          "wordCount": 6208,
-          "title": "Vietnam SMS Carrier Maintenance - Mobifone",
+          "description": "Apr 26, 08:54 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Zain network in Sudan. This incident has been resolved.\nApr 26, 06:59 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Zain network in Sudan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nApr 25, 17:06 PDT\nUpdate - We continue to observe SMS delivery delays when sending messages to Zain Network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.\nApr 24, 17:06 PDT\nUpdate - We continue to observe SMS delivery delays…",
+          "link": "https://status.twilio.com/incidents/3nybc6ljsm33",
+          "publishedOn": "2023-04-26T15:54:15.000Z",
+          "wordCount": 6738,
+          "title": "SMS Delivery Delays to Zain Network in Sudan",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -221,16 +241,6 @@
           "publishedOn": "2023-03-31T16:29:51.000Z",
           "wordCount": 2779,
           "title": "Degradation of database performance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/5wgctrsfk12z",
-          "author": null,
-          "description": "Mar 27, 08:53 PDT\nResolved - We have confirmed this issue has been resolved, and Notion should load normally for all users.\nMar 27, 08:42 PDT\nMonitoring - We have implemented a fix that has restored normal loading times for most users, and are continuing to monitor.\nMar 27, 07:40 PDT\nInvestigating - Notion is loading slowly or not at all for some users. We are investigating.",
-          "link": "https://status.notion.so/incidents/5wgctrsfk12z",
-          "publishedOn": "2023-03-27T15:53:19.000Z",
-          "wordCount": 2789,
-          "title": "High latency",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -266,16 +276,6 @@
           "wordCount": 2782,
           "title": "RESOLVED: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are unable to access Google Meet, but we've provided a workaround below.",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "author": null,
-          "description": "<p> Incident began at <strong>2023-04-17 16:00</strong> and ended at <strong>2023-04-25 14:38</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Our engineering team has completed the mitigation, and the fix has been deployed to 100% of the Stable release channel as of Tuesday, 2023-04-25 07:38 US/Pacific. We expect that after devices have been updated, subsequent reboots of the device should not experience the issue.</p>\n<p>Customers on the Stable release channel will automatically receive this update. However, devices must be rebooted for the changes to take effect. This may take up to 7 days, depending on the maintenance window.</p>\n<p>We kindly ask customers who have switched their rooms to the Beta channel to switch them back to the Stable channel.</p>\n<p>For more information on the best practices and how to change between Beta and Stable channels is available here : <a href=\"https://support.google.com/a/answer/4618201?hl=en&amp;ref_topic=3341450&amp;visit_id=638176138740742021-1958539996&amp;rd=1#settings&amp;zippy=%2Cchange-settings-for-all-devices\">https://support.google.com/a/answer/4618201?hl=en&amp;ref_topic=3341450&amp;visit_id=638176138740742021-1958539996&amp;rd=1#settings&amp;zippy=%2Cchange-settings-for-all-devices</a></p>\n<p>We apologize to all who were affected by the disruption</p>\n</div><hr><p>Affected products: Google Meet</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
-          "publishedOn": "2023-04-25T16:26:17.000Z",
-          "wordCount": 2782,
-          "title": "RESOLVED: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are unable to access Google Meet, but we've provided a workaround below.",
-          "imageUrl": null
         }
       ]
     },
@@ -287,10 +287,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/y9cw6kf9pn72",
           "author": null,
-          "description": "Apr 26, 00:15 UTC\nUpdate - Copilot is experiencing an increase in error rates. Customers may see slower completions or errors until this is resolved.\nApr 25, 23:52 UTC\nUpdate - Copilot is now experiencing degraded performance. We are still investigating and will provide an update when we have one.\nApr 25, 23:47 UTC\nUpdate - Copilot is now experiencing degraded availability. We are continuing to investigate.\nApr 25, 23:26 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot.",
+          "description": "Apr 26, 00:29 UTC\nResolved - This incident has been resolved.\nApr 26, 00:15 UTC\nUpdate - Copilot is experiencing an increase in error rates. Customers may see slower completions or errors until this is resolved.\nApr 25, 23:52 UTC\nUpdate - Copilot is now experiencing degraded performance. We are still investigating and will provide an update when we have one.\nApr 25, 23:47 UTC\nUpdate - Copilot is now experiencing degraded availability. We are continuing to investigate.\nApr 25, 23:26 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot.",
           "link": "https://www.githubstatus.com/incidents/y9cw6kf9pn72",
-          "publishedOn": "2023-04-26T00:15:29.000Z",
-          "wordCount": 4051,
+          "publishedOn": "2023-04-26T00:29:59.000Z",
+          "wordCount": 4060,
           "title": "Incident with Copilot",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -412,16 +412,6 @@
           "publishedOn": "2023-03-28T17:07:30.000Z",
           "wordCount": 4062,
           "title": "Incident with Actions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/52z0j6phhnjs",
-          "author": null,
-          "description": "Mar 27, 13:29 UTC\nResolved - This incident has been resolved.\nMar 27, 13:27 UTC\nUpdate - We’ve identified an infrastructure change that has been rolled back and we are monitoring recovery.\nMar 27, 13:22 UTC\nUpdate - Codespaces, Git Operations, Issues and Pull Requests are now experiencing degraded performance. We are still investigating and will provide an update when we have one.\nMar 27, 13:08 UTC\nUpdate - We are investigating reports of issues with service(s): multiple services. We will continue to keep users updated on progress towards mitigation.\nMar 27, 12:56 UTC\nUpdate - Issues and Pull Requests are now experiencing degraded availability. We are continuing to investigate.\nMar 27, 12:51 UTC\nUpdate - Pages is experiencing degraded performance. We are continuing to investigate.\nMar 27, 12:50 UTC\nUpdate - Codespaces is now experiencing degraded availability. We are continuing to investigate.\nMar 27, 12:50 UTC\nUpdate - Git Operations is now experiencing degraded availability. We are still investigating and will provide an update when we have one.\nMar 27, 12:35 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nMar 27, 12:33 UTC\nUpdate - API Requests is experiencing degraded performance. We are still investigating and will provide an update when we have one.\nMar 27, 12:26 UTC\nUpdate - Actions is experiencing degraded performance. We are still investigating and will provide an update when we have one.\nMar 27, 12:25 UTC\nUpdate - Issues and Pull Requests are experiencing degraded performance. We are still investigating and will provide an update when we have one.\nMar 27, 12:25 UTC\nInvestigating - We are investigating reports of degraded performance for Git Operations.",
-          "link": "https://www.githubstatus.com/incidents/52z0j6phhnjs",
-          "publishedOn": "2023-03-27T13:29:09.000Z",
-          "wordCount": 4300,
-          "title": "Incident with Actions, API Requests, Codespaces, Git Operations, Issues, Pages and Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
