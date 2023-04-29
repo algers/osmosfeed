@@ -33,12 +33,22 @@
       "siteUrl": "https://tailscale.com/security-bulletins/",
       "articles": [
         {
+          "id": "https://tailscale.com/security-bulletins/#ts-2023-005/",
+          "author": null,
+          "description": "Description: An issue in the Tailscale coordination server in device\nreauthentication logic caused previously authenticated and tagged devices to\nlose their ACL tags upon reauthentication.\nWhat happened?\nThe logic that handles the reauthentication to a new identity on an\nalready-authenticated device with tags had a bug: instead of updating the\ndevice’s logged-in identity to the newly authenticated user, the device’s\nidentity became that of the user who originally added it to the tailnet, without\nany tags.\nThe bug was introduced on 2022-10-26, and discovered and remediated on\n2023-04-21. The bug was discovered when troubleshooting a user-reported issue.\nWho is affected?\n189 tailnets triggered this bug in the course of normal use of Tailscale, either\ndirectly by explicitly re-authenticating a device, or indirectly by using fast\nuser switching to switch between multiple\ntailnets.\nWe have notified affected organizations where we have security\ncontacts.\nWhat is the impact?\nDevices that encountered the bug had their tags removed, which reverted the\ndevice’s identity to that of the user who originally authenticated the device,\nor the owner of the auth key that was originally used to authenticate the\ndevice. In either case, this is the user listed as “Creator” in the Machines tab\nof the admin panel. Depending on access rules in the tailnet policy file, this\ncould change the device’s network permissions.\nWe have analyzed the audit logs for affected tailnets, and found no evidence of\ndeliberate exploitation. In most instances, device owners noticed the incorrect\noutcome of reauthentication, and corrected the device’s state themselves.\nWhat do I need to do?\nIf you were not contacted by Tailscale, no action is required.  If you were\ncontacted by Tailscale, reapply the desired tags to affected devices in the\nadmin console, or by reauthenticating the devices. Tailscale has deployed a fix\nto the coordination server as of 2023-04-21, and notified affected\norganizations.",
+          "link": "https://tailscale.com/security-bulletins/#ts-2023-005/",
+          "publishedOn": "2023-04-28T00:00:00.000Z",
+          "wordCount": 3604,
+          "title": "TS-2023-005",
+          "imageUrl": "https://tailscale.com/files/images/og-image.png"
+        },
+        {
           "id": "https://tailscale.com/security-bulletins/#ts-2023-004/",
           "author": null,
           "description": "Description: An issue in the Tailscale coordination server allowed tailnets created by GitHub organizations which were subsequently renamed to be associated with a new GitHub organization with the previous name.\nWhat happened?\nTailscale mapped tailnets created by GitHub organizations to their organization name, rather than to their organization ID. This meant that if a GitHub organization was renamed, and the previous name taken over by a new GitHub organization, the existing tailnet would be tied to the new GitHub organization instead of the original one.\nWho is affected?\nUp to 1,305 tailnets created by GitHub organizations may have been affected, if those GitHub organizations were renamed between 2021-06-18 and 2023-03-30 and fully relinquished the old GitHub organization name. Additiona…",
           "link": "https://tailscale.com/security-bulletins/#ts-2023-004/",
           "publishedOn": "2023-04-04T00:00:00.000Z",
-          "wordCount": 3293,
+          "wordCount": 3604,
           "title": "TS-2023-004",
           "imageUrl": "https://tailscale.com/files/images/og-image.png"
         }
@@ -117,113 +127,63 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/hb10cbg8lxbw",
+          "id": "https://status.twilio.com/incidents/mvf3w6spd8qk",
           "author": null,
-          "description": "Apr 27, 17:11 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Yettel Network in Serbia from pre-registered Sender IDs. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nApr 27, 16:15 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Yettel Network in Serbia from pre-registered Sender IDs. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/hb10cbg8lxbw",
-          "publishedOn": "2023-04-28T00:11:42.000Z",
-          "wordCount": 6253,
-          "title": "SMS Delivery Delays to Yettel Network in Serbia From Pre-Registered Sender IDs",
+          "description": "Apr 28, 16:43 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to WE Network in Egypt. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nApr 28, 13:14 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to WE Network in Egypt. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nApr 28, 09:20 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to WE Network in Egypt. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nApr 28, 07:24 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to WE Network in Egypt. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nApr 28, 06:29 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to WE Network in Egypt. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/mvf3w6spd8qk",
+          "publishedOn": "2023-04-28T23:43:24.000Z",
+          "wordCount": 6388,
+          "title": "SMS Delivery Delays to WE Network in Egypt",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/5xxdcw6w3qjz",
+          "id": "https://status.twilio.com/incidents/grmlg1w4wpg1",
           "author": null,
-          "description": "Apr 27, 16:48 PDT\nResolved - The issue affecting inbound calls to Twilio Jamaica phone numbers has been resolved, and the service is functioning normally at this time.\nApr 27, 15:26 PDT\nMonitoring - We have started seeing recovery for inbound calls to Twilio Jamaica phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nApr 27, 13:04 PDT\nUpdate - We are still observing call failures to Twilio Jamaica phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nApr 27, 11:06 PDT\nUpdate - We continue observing call failures to Twilio Jamaica phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nApr 27, 10:08 PDT\nInvestigating - We are observing call failures to Twilio Jamaica phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/5xxdcw6w3qjz",
-          "publishedOn": "2023-04-27T23:48:45.000Z",
-          "wordCount": 6346,
-          "title": "Inbound Call Failures to Jamaica Phone Numbers",
+          "description": "Apr 28, 15:47 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Sudani One Network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available\nApr 28, 13:54 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Sudani One Network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nApr 28, 13:03 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Sudani One Network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/grmlg1w4wpg1",
+          "publishedOn": "2023-04-28T22:47:58.000Z",
+          "wordCount": 6293,
+          "title": "SMS Delivery Delays to Sudani One Network in Sudan",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/218252lbjzyb",
+          "author": null,
+          "description": "Apr 28, 11:38 PDT\nUpdate - We continue experiencing sender ID preservation issues while sending SMS to Telenor Serbia using registered sender ID's. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nApr 28, 09:41 PDT\nUpdate - We have mitigated the SMS delivery issue, however, we are experiencing sender ID preservation issues while sending SMS to Telenor Serbia using registered sender ID's. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nApr 28, 07:41 PDT\nUpdate - We have mitigated the SMS delivery issue, however, we are experiencing sender ID preservation issues while sending SMS to Telenor Serbia using registered sender ID's. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nApr 28, 06:49 PDT\nInvestigating - We are experiencing SMS delivery delay to Telenor Serbia using registered sender ID's. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/218252lbjzyb",
+          "publishedOn": "2023-04-28T18:38:35.000Z",
+          "wordCount": 6356,
+          "title": "SMS Sender ID Preservation Failures to Telenor Serbia",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/2vnv38h55681",
           "author": null,
-          "description": "Apr 27, 16:46 PDT\nUpdate - We are still observing call quality issue to Twilio Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nApr 27, 14:53 PDT\nUpdate - We are still observing call quality issue to Twilio Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nApr 27, 13:47 PDT\nInvestigating - We are observing call quality issue to Twilio Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "description": "Apr 28, 08:21 PDT\nResolved - The issue affecting inbound calls quality to Twilio Ecuador phone numbers has been resolved, and the service is functioning normally at this time.\nApr 28, 06:17 PDT\nUpdate - We are seeing recovery for inbound calls to Twilio Ecuador phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nApr 28, 04:24 PDT\nMonitoring - We have started seeing recovery for inbound calls to Twilio Ecuador phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nApr 27, 20:46 PDT\nUpdate - We are still observing call quality issue to Twilio Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.\nApr 27, 16:46 PDT\nUpdate - We are still observing call quality issue to Twilio Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nApr 27, 14:53 PDT\nUpdate - We are still observing call quality issue to Twilio Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nApr 27, 13:47 PDT\nInvestigating - We are observing call quality issue to Twilio Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
           "link": "https://status.twilio.com/incidents/2vnv38h55681",
-          "publishedOn": "2023-04-27T23:46:54.000Z",
-          "wordCount": 6276,
+          "publishedOn": "2023-04-28T15:21:52.000Z",
+          "wordCount": 6447,
           "title": "Voice Quality Issue to Ecuador Phone Numbers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/ws252qbqbfnt",
+          "id": "https://status.twilio.com/incidents/ld6v97qjqkc7",
           "author": null,
-          "description": "Apr 27, 16:09 PDT\nResolved - Error with Phone Numbers where a Not Found error is displayed when purchasing a phone number has been resolved and Phone Numbers is operating normally at this time.\nApr 27, 14:37 PDT\nMonitoring - Phone Numbers is now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.\nApr 27, 13:39 PDT\nInvestigating - We are investigating an error with Phone Numbers where a Not Found error is displayed when purchasing a phone number. The error displays while the number purchase does complete and the number is added to your Active Numbers page. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/ws252qbqbfnt",
-          "publishedOn": "2023-04-27T23:09:45.000Z",
-          "wordCount": 6263,
-          "title": "Error Not Found While Purchasing a Phone Number",
+          "description": "Apr 28, 05:24 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to the Movilnet network in Venezuela. This incident has been resolved.\nApr 28, 03:30 PDT\nUpdate - We are continuing to observe recovery in SMS delivery delays when sending messages to the Movilnet network in Venezuela. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours, or as soon as more information becomes available.\nApr 28, 01:33 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to the Movilnet network in Venezuela. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours, or as soon as more information becomes available.\nApr 28, 00:35 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to the Movilnet network in Venezuela. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour, or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/ld6v97qjqkc7",
+          "publishedOn": "2023-04-28T12:24:22.000Z",
+          "wordCount": 6310,
+          "title": "SMS Delivery Delays to Movilnet Venezuela",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/ln90hw802xw2",
+          "id": "https://status.twilio.com/incidents/6s47t58my0v2",
           "author": null,
-          "description": "Apr 27, 14:30 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 26, 13:46 PDT\nScheduled - The Vodafone network in Egypt is conducting a planned maintenance from 27 April 2023 at 14:30 PDT until 27 March 2023 at 18:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Vodafone Egypt handsets.",
-          "link": "https://status.twilio.com/incidents/ln90hw802xw2",
-          "publishedOn": "2023-04-27T21:30:13.000Z",
-          "wordCount": 6201,
-          "title": "Egypt SMS Carrier Maintenance – Vodafone",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/rv2ktvbgj3ms",
-          "author": null,
-          "description": "Apr 27, 12:39 PDT\nResolved - We are no longer experiencing MMS/SMS delivery delays when sending messages to the Glo network in Nigeria. This incident has been resolved.\nApr 27, 10:51 PDT\nUpdate - We continue observing recovery in SMS delivery delays when sending messages to the Glo network in Nigeria. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nApr 27, 08:55 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to the Glo network in Nigeria. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nApr 27, 06:57 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to the Glo network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours, or as soon as more information becomes available.\nApr 27, 05:47 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to the Glo network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour, or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/rv2ktvbgj3ms",
-          "publishedOn": "2023-04-27T19:39:34.000Z",
-          "wordCount": 6368,
-          "title": "SMS Delivery Delays to Glo Network in Nigeria",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/hw02p6rtzklp",
-          "author": null,
-          "description": "Apr 27, 11:41 PDT\nUpdate - We are continuing our investigation and have discovered we are expiring SMS delivery delays and DLR when sending to Zain network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.\nApr 27, 10:31 PDT\nUpdate - We continue experiencing delays in receiving message delivery reports when sending to Zain network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nApr 27, 08:33 PDT\nUpdate - We are still experiencing delays in receiving message delivery reports when sending to Zain network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nApr 27, 07:33 PDT\nInvestigating - We are experiencing delays in receiving message delivery reports when sending to Zain network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/hw02p6rtzklp",
-          "publishedOn": "2023-04-27T18:41:19.000Z",
-          "wordCount": 6367,
-          "title": "SMS Delivery Delays and DLRs When Sending to Zain Network in Sudan",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/94y5n2p2xwy5",
-          "author": null,
-          "description": "Apr 27, 11:00 PDT\nCompleted - The scheduled maintenance has been completed.\nApr 27, 09:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 20, 12:46 PDT\nScheduled - The KDDI Corporation in Japan is conducting a planned maintenance from 27 April 2023 at 09:00 PDT until 27 April 2023 at 11:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from KDDI handsets. (edited)",
-          "link": "https://status.twilio.com/incidents/94y5n2p2xwy5",
-          "publishedOn": "2023-04-27T18:00:09.000Z",
-          "wordCount": 6208,
-          "title": "Japan SMS Carrier Maintenance - KDDI",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/xk988mfctq00",
-          "author": null,
-          "description": "Apr 27, 09:36 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to the MTN network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours, or as soon as more information becomes available.\nApr 27, 05:38 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to the MTN network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours, or as soon as more information becomes available.\nApr 27, 03:42 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to the MTN network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours, or as soon as more information becomes available.\nApr 27, 02:44 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to the MTN network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour, or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/xk988mfctq00",
-          "publishedOn": "2023-04-27T16:36:06.000Z",
-          "wordCount": 6339,
-          "title": "SMS Delivery Delays to MTN Sudan",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/xcnkbscc133s",
-          "author": null,
-          "description": "Apr 27, 04:02 PDT\nCompleted - The scheduled maintenance has been completed.\nApr 26, 22:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 21, 15:18 PDT\nScheduled - Regional Small Carriers in the US are conducting a planned maintenance from 26 April 2023 at 22:00 PDT until 27 April 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from below carriers via a subset of US Shortcode, US Longcode and Toll-Free numbers,\nInterop USA\nBluegrass Cellular\nBravado Wireless (Cross Wireless)\nCarolina West Wireless\nCellCom (New Cell)\nCellular One (MTPCS)\nChat Mobility\nCopper Valley\nCordova Wireless\nGCI Communications (Alaska DigiTel & ACS Wireless)\nIllinois Valley Cellular\nInland Cellular\nMid-Rivers Cellular (Cable & Cellular Communications)\nNewCore (ASTAC / PTCI / Standing Rock)\nNex-Tech Wireless\nNorthwestCell (Northwest Missouri Cellular)\nPine Belt Cellular\nRural Independent Network Alliance (RINA)\nSouthern LINC\nThumb Cellular\nUnion Cellular\nViaero Wireless\nWest Central Cellular",
-          "link": "https://status.twilio.com/incidents/xcnkbscc133s",
-          "publishedOn": "2023-04-27T11:02:12.000Z",
-          "wordCount": 6274,
-          "title": "US Small Regional Carriers Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/17mxx45h7vp5",
-          "author": null,
-          "description": "Apr 27, 03:44 PDT\nResolved - The issue affecting the call quality of calls to Twilio Ecuador phone numbers has been resolved, and the service is functioning normally at this time.\nApr 27, 01:53 PDT\nUpdate - Voice Quality to Ecuador Phone Numbers has been restored. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.\nApr 26, 23:55 PDT\nMonitoring - Voice Quality to Ecuador Phone Numbers has been restored. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.\nApr 26, 18:35 PDT\nUpdate - We are still observing call quality issues to Twilio Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.\nApr 26, 14:36 PDT\nUpdate - We are still observing call quality issues to Twilio Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nApr 26, 12:39 PDT\nUpdate - We are still observing call quality issues to Twilio Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nApr 26, 11:44 PDT\nInvestigating - We are observing call quality issue to Twilio Ecuador phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/17mxx45h7vp5",
-          "publishedOn": "2023-04-27T10:44:32.000Z",
-          "wordCount": 6434,
-          "title": "Voice Quality Issue to Ecuador Phone Numbers",
+          "description": "Apr 28, 05:05 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Movistar Network in Mexico. This incident has been resolved.\nApr 28, 03:28 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to the Movistar Network in Mexico. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nApr 28, 02:01 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Movistar Network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours, or as soon as more information becomes available.\nApr 28, 00:02 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Movistar Network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours, or as soon as more information becomes available.\nApr 27, 23:05 PDT\nInvestigating - We are experiencing MMS/SMS delivery delays when sending messages to Movistar Network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/6s47t58my0v2",
+          "publishedOn": "2023-04-28T12:05:26.000Z",
+          "wordCount": 6364,
+          "title": "SMS Delivery Delays to Movistar Network in Mexico",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -283,7 +243,7 @@
           "description": "<p> Incident began at <strong>2023-04-17 16:00</strong> and ended at <strong>2023-04-25 14:38</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Cloud Support using <a href=\"https://cloud.google.com/support\">https://cloud.google.com/support</a>  or to Google Workspace Support using help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 17 April 2023 at 09:00</p>\n<p><strong>Incident End:</strong> 25 April 2023 at 07:38</p>\n<p><strong>Duration:</strong> 7 days, 22 hours, 38 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Google Meet</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>After an Operating System (OS) update, some Google Meet Hardware units were unable to boot into Meet reliably for a duration of 7 days, 22 hours and 38 minutes.</p>\n<p>From preliminary analysis, the root cause of the issue was a latent issue that manifested due to specific network conditions on customer networks following an upgrade to the OS. Affected OS versions were those  greater than 14816.84.1 but lower than 14816.84.35.</p>\n<p>Google will complete a full IR in the following days that will provide a full root cause.</p>\n<p><strong>Customer Impact:</strong></p>\n<p>Impacted Google Meet hardware devices failed to launch the Meet app. Devices displayed a “Waiting for application window” message that never resolved, eventually went to sleep, and were shown as offline in the Google Admin Console. Some customers had to perform a manual reboot (occasionally several times), to overcome this issue.</p>\n<p><strong>Additional details:</strong></p>\n<p>Customers were provided with a temporary workaround with specific steps to overcome the issue. Google engineers also released a fix to the Beta channel on 21 April 2023 at 07:24 US/Pacific, while the workaround was being fully tested and rolled out to Stable fleet.</p>\n</div><hr><p>Affected products: Google Meet</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/8M5Hsx4d2Y9SFYUCqjyj",
           "publishedOn": "2023-04-25T21:52:28.000Z",
-          "wordCount": 2782,
+          "wordCount": 2783,
           "title": "RESOLVED: We're investigating reports of an issue with Google Meet. We will provide more information shortly. The affected users are unable to access Google Meet, but we've provided a workaround below.",
           "imageUrl": null
         }
@@ -294,6 +254,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/5h6hwm15zt11",
+          "author": null,
+          "description": "Apr 28, 12:45 UTC\nResolved - This incident has been resolved.\nApr 28, 12:26 UTC\nInvestigating - We are investigating reports of degraded availability for Codespaces.",
+          "link": "https://www.githubstatus.com/incidents/5h6hwm15zt11",
+          "publishedOn": "2023-04-28T12:45:06.000Z",
+          "wordCount": 3987,
+          "title": "Incident with Codespaces",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/vsc464zj7gv4",
           "author": null,
@@ -413,16 +383,6 @@
           "wordCount": 4058,
           "title": "Incident with Git Operations, Issues and Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/z3c6q056q332",
-          "author": null,
-          "description": "Mar 29, 19:03 UTC\nResolved - This incident has been resolved.\nMar 29, 18:18 UTC\nUpdate - Codespaces is operating normally.\nMar 29, 18:13 UTC\nUpdate - We are still working towards full recovery. Actions jobs still experience delays when being queued.\nMar 29, 18:10 UTC\nUpdate - Pages is operating normally.\nMar 29, 17:41 UTC\nUpdate - We are still working towards full recovery. Actions jobs still experience delays when being queued.\nMar 29, 17:29 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nMar 29, 16:56 UTC\nUpdate - Actions workflows have started running again. We're continuing to work towards full recovery.\nMar 29, 16:47 UTC\nUpdate - Actions is now experiencing degraded performance. We are still investigating and will provide an update when we have one.\nMar 29, 16:22 UTC\nUpdate - We are seeing signs of recovery for Actions and continue to monitor closely. We will continue to post updates about progress as soon as we have them.\nMar 29, 15:42 UTC\nUpdate - We continue to work on mitigating the problems with Actions and Pages with high urgency. We will continue to post updates about our progress.\nMar 29, 15:29 UTC\nUpdate - Pages is experiencing degraded performance. We are continuing to investigate.\nMar 29, 14:56 UTC\nUpdate - We are still investigating the cause of Actions degradation, we will provide an update when we have one.\nMar 29, 14:43 UTC\nUpdate - Actions is now experiencing degraded availability. We are still investigating and will provide an update when we have one.\nMar 29, 14:21 UTC\nInvestigating - We are investigating reports of degraded performance for Actions.",
-          "link": "https://www.githubstatus.com/incidents/z3c6q056q332",
-          "publishedOn": "2023-03-29T19:03:08.000Z",
-          "wordCount": 4273,
-          "title": "Incident with Actions, Codespaces and Pages",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -431,6 +391,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://status.slack.com/",
       "articles": [
+        {
+          "id": "https://status.slack.com//2023-04/aacc14003e92c232",
+          "author": null,
+          "description": "Some users on Enterprise Grid are reporting incorrect routing when accessing https://slack.com/ links. Users are finding themselves at an incorrect landing page. We're looking into this and will share an update once we have more information.\n\r\n\r\nThank you for your patience.",
+          "link": "https://status.slack.com//2023-04/aacc14003e92c232",
+          "publishedOn": "2023-04-29T00:01:32.000Z",
+          "wordCount": 76,
+          "title": "Incident: Slack.com links are broken for some users on Enterprise Grid",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://status.slack.com//2023-04/51a77ae8a06c6717",
           "author": null,
