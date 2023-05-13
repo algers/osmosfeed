@@ -28,7 +28,7 @@
           "description": "Description: An issue in the Tailscale coordination server in device\nreauthentication logic caused previously authenticated and tagged devices to\nlose their ACL tags upon reauthentication.\nWhat happened?\nThe logic that handles the reauthentication to a new identity on an\nalready-authenticated device with tags had a bug: instead of updating the\ndevice’s logged-in identity to the newly authenticated user, the device’s\nidentity became that of the user who originally added it to the tailnet, without\nany tags.\nThe bug was introduced on 2022-10-26, and discovered and remediated on\n2023-04-21. The bug was discovered when troubleshooting a user-reported issue.\nWho is affected?\n189 tailnets triggered this bug in the course of normal use of Tailscale, either\ndirectly by explicitly re-authenticating a device, or indirectly by using fast\nuser switching to switch between multiple\ntailnets.\nWe have notified affected organizations where we have security\ncontacts.\nWhat is the impact?\nDevices that encountered the bug had their tags removed, which reverted the\ndevice’s identity to that of the user who originally authenticated the device,\nor the owner of the auth key that was originally used to authenticate the\ndevice. In either case, this is the user listed as “Creator” in the Machines tab\nof the admin panel. Depending on access rules in the tailnet policy file, this\ncould change the device’s network permissions.\nWe have analyzed the audit logs for affected tailnets, and found no evidence of\ndeliberate exploitation. In most instances, device owners noticed the incorrect\noutcome of reauthentication, and corrected the device’s state themselves.\nWhat do I need to do?\nIf you were not contacted by Tailscale, no action is required.  If you were\ncontacted by Tailscale, reapply the desired tags to affected devices in the\nadmin console, or by reauthenticating the devices. Tailscale has deployed a fix\nto the coordination server as of 2023-04-21, and notified affected\norganizations.",
           "link": "https://tailscale.com/security-bulletins/#ts-2023-005/",
           "publishedOn": "2023-04-28T00:00:00.000Z",
-          "wordCount": 3604,
+          "wordCount": 3590,
           "title": "TS-2023-005",
           "imageUrl": "https://tailscale.com/files/images/og-image.png"
         }
@@ -107,83 +107,43 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/n24n22cx3w4w",
+          "id": "https://status.twilio.com/incidents/mfg2fvzpqf2w",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 11, 23:00 PDT  -  May 12, 03:00 PDT\nMay 11, 01:07 PDT\nScheduled - Our Service Partner is conducting an emergency maintenance from 11 May 2023 at 23:00 PDT until 12 May 2023 at 03:00 PDT. During the maintenance window, there could be intermittent API request failures for the following destination: Canada\n\nImpacted Products: Lookup SIM Swap, Legacy Identity MatchAndAttributes",
-          "link": "https://status.twilio.com/incidents/n24n22cx3w4w",
-          "publishedOn": "2023-05-12T06:00:00.000Z",
-          "wordCount": 6252,
-          "title": "Canada Account Security Service Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/z6dtl8dn6x20",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 11, 21:30 PDT  -  May 12, 01:00 PDT\nMay 11, 08:01 PDT\nScheduled - The MTS network in Russia is conducting an emergency maintenance from 11 May 2023 at 21:30 PDT until 12 May 2023 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from MTS Russia handsets.",
-          "link": "https://status.twilio.com/incidents/z6dtl8dn6x20",
-          "publishedOn": "2023-05-12T04:30:00.000Z",
+          "description": "THIS IS A SCHEDULED EVENT May 13, 02:00 - 03:00 PDT\nMay 11, 18:48 PDT\nScheduled - The AT&T network in Mexico is conducting planned maintenance from 13 May 2023 at 02:00 PDT until 13 May 2023 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.",
+          "link": "https://status.twilio.com/incidents/mfg2fvzpqf2w",
+          "publishedOn": "2023-05-13T09:00:00.000Z",
           "wordCount": 6244,
-          "title": "Russia SMS Carrier Maintenance - MTS",
+          "title": "Mexico SMS Carrier Maintenance - AT&T Mexico",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/yztz9knh6kdd",
+          "id": "https://status.twilio.com/incidents/vj6lk9t30cnv",
           "author": null,
-          "description": "May 11, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 11, 12:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 11, 08:01 PDT\nScheduled - The Tele2 and Altel networks in Kazakhstan is conducting an emergency maintenance from 11 May 2023 at 12:00 PDT until 11 May 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Tele2 and Altel Kazakhstan handsets.",
-          "link": "https://status.twilio.com/incidents/yztz9knh6kdd",
-          "publishedOn": "2023-05-12T00:00:33.000Z",
-          "wordCount": 6281,
-          "title": "Kazakhstan SMS Carrier Maintenance - Tele2 and Altel",
+          "description": "May 12, 16:26 PDT\nMonitoring - We are observing recovery in SMS delivery delays and failures when sending messages to UTS Network in Curacao. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 12, 14:48 PDT\nUpdate - We are experiencing MMS/SMS delivery delays and failure when sending messages to UTS Network in Curacao. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 12, 13:49 PDT\nInvestigating - We are experiencing MMS/SMS delivery delays and failure when sending messages to UTS Network in Curacao. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/vj6lk9t30cnv",
+          "publishedOn": "2023-05-12T23:26:27.000Z",
+          "wordCount": 6356,
+          "title": "SMS Delivery Delays and failure to UTS Network in Curacao",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/2nm02rc4475v",
+          "id": "https://status.twilio.com/incidents/464t96154vft",
           "author": null,
-          "description": "May 11, 15:30 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay  9, 00:25 PDT\nScheduled - The AT&T network in the US is conducting an emergency maintenance from 11 May 2023 at 15:30 PDT until 12 May 2023 at 04:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T US handsets.",
-          "link": "https://status.twilio.com/incidents/2nm02rc4475v",
-          "publishedOn": "2023-05-11T22:30:17.000Z",
-          "wordCount": 6272,
-          "title": "US SMS Carrier Maintenance - AT&T",
+          "description": "May 12, 13:22 PDT\nResolved - Flex Insights Queue Stat is now operating normally. This incidence has been resolved.\nMay 12, 13:01 PDT\nUpdate - Flex Insights Queue Stat is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nMay 12, 12:25 PDT\nUpdate - Flex Insights Queue Stat is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nMay 12, 11:49 PDT\nMonitoring - Flex Insights Queue Stat is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nMay 12, 11:19 PDT\nUpdate - We are investigating delays in Flex Insights Queue Stat. We expect to provide another update in 30 minutes or as soon as more information becomes available\nMay 12, 11:11 PDT\nInvestigating - Our monitoring systems have detected a potential issue with flex insights. Our engineering team has been alerted and is actively investigating. We will update as soon as we have additional information.",
+          "link": "https://status.twilio.com/incidents/464t96154vft",
+          "publishedOn": "2023-05-12T20:22:40.000Z",
+          "wordCount": 6390,
+          "title": "Flex Insights Queue Stat Delays",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/qq455fpjqg0s",
+          "id": "https://status.twilio.com/incidents/xjhgn0qcpsl0",
           "author": null,
-          "description": "May 11, 14:15 PDT\nResolved - We have fully investigated the authentication issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.\nMay 11, 14:02 PDT\nInvestigating - Our monitoring systems have detected a potential issue with authentication for Programmable Voice. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/qq455fpjqg0s",
-          "publishedOn": "2023-05-11T21:15:48.000Z",
-          "wordCount": 6261,
-          "title": "On Call Engineers are Investigating an issue",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/3bhnrgdnx1dd",
-          "author": null,
-          "description": "May 11, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 10, 07:21 PDT\nScheduled - The A1, MTS and Life Network in Belarus is conducting an emergency maintenance From 11 May 2023 at 14:00 PDT until 11 May 2023 at 19:00 PDT. During the maintenance window. There could be intermittent delays delivering SMS to and from A1, MTS and Life handsets.",
-          "link": "https://status.twilio.com/incidents/3bhnrgdnx1dd",
-          "publishedOn": "2023-05-11T21:00:17.000Z",
-          "wordCount": 6273,
-          "title": "Belarus SMS Carrier Maintenance - A1, MTS , Life",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/phgdhvmjs4x0",
-          "author": null,
-          "description": "May 11, 13:34 PDT\nResolved - Our engineering team has identified the the root cause of the service restart to be a side effect of an internal tool used for capturing packet traces to help support customers. We have suspended use of this tool until a fix for this issue is deployed. There should not be anymore connectivity interruptions for Super SIM.\nMay 11, 12:17 PDT\nUpdate - At 11:13 AM PST, approximately 4% of data sessions connected through the super or us1.super APNs were dropped causing devices to disconnect. This was due to one of the services responsible for routing data traffic between devices and the internet restarting unexpectedly. Devices that lost connectivity should have been able to immediately reconnect to one of the other instances of the same service. The impacted service was recovered within 30 seconds and resumed handling traffic. This issue was not a result of any issues at our downstream connectivity partners.\nOur engineering team has been alerted and is actively investigating. We will update in 1 hour or as soon as we have additional information.\nMay 11, 12:02 PDT\nInvestigating - Our monitoring systems have detected a potential issue with super sim connectivity issues in the US. Our engineering team has been alerted and is actively investigating. We will update as soon as we have additional information.",
-          "link": "https://status.twilio.com/incidents/phgdhvmjs4x0",
-          "publishedOn": "2023-05-11T20:34:54.000Z",
-          "wordCount": 6406,
-          "title": "Super SIM Connectivity Interruption",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/khbllpbx2yng",
-          "author": null,
-          "description": "May 11, 13:21 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to the Econet Network in Zimbabwe. This incident has been resolved.\nMay 11, 11:22 PDT\nMonitoring - We are observing recovery in MMS/SMS delivery delays when sending messages to the Econet Network in Zimbabwe. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 11, 10:16 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to the Econet Network in Zimbabwe. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/khbllpbx2yng",
-          "publishedOn": "2023-05-11T20:21:31.000Z",
-          "wordCount": 6328,
-          "title": "SMS Delivery Delays to the Econet Network in Zimbabwe",
+          "description": "May 12, 13:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 12, 07:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 11, 21:21 PDT\nScheduled - Our Voice carrier partner in Philippines is conducting an emergency maintenance from 12 May 2023 at 07:00 PDT until 12 May 2023 at 13:00 PDT. During the maintenance window, there could be intermittent call disconnects and call failures for calls to and from subset of Twilio Philippines phone numbers.",
+          "link": "https://status.twilio.com/incidents/xjhgn0qcpsl0",
+          "publishedOn": "2023-05-12T20:00:29.000Z",
+          "wordCount": 6274,
+          "title": "Philippines Voice Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -193,6 +153,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/qbszx5q5dd19",
+          "author": null,
+          "description": "May 12, 16:52 UTC\nIdentified - Due to the ongoing subsea fiber faults in the APAC region, our Engineering team is observing a recurrence of packet loss and increased latency between Singapore and Europe/North American regions, during peak hours in Asia. \nWe've received reports of users experiencing degraded performance for Droplets and Droplet-based services, as well as with pushes to Container Registry, and deployments of App Platform apps. \nOur team is actively engaged in attempting to re-route traffic where possible to improve performance. Until the cable cuts are fully resolved, users may continue to experience intermittent periods of degraded service. \nYou can see our previous post on this incident here: https://status.digitalocean.com/incidents/4w1yx5p58p1t",
+          "link": "https://status.digitalocean.com/incidents/qbszx5q5dd19",
+          "publishedOn": "2023-05-12T16:52:50.000Z",
+          "wordCount": 5017,
+          "title": "Subsea Fiber Faults in the APAC region",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/zcbjf2dm7wqk",
           "author": null,
@@ -342,16 +312,6 @@
           "wordCount": 5164,
           "title": "Managed Databases Creation",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/bpkxgkxcqz66",
-          "author": null,
-          "description": "Apr 13, 10:45 UTC\nResolved - Impact: minor;\nOur Engineering team has confirmed that the issue impacting our Help Center has been fully resolved. If you continue to experience any issues in relation to this incident please open a ticket with our support team. Thank you for your patience.\nAffected Components: Services - Support Center Regions - Global \nStatus: resolved\n2023-04-13 17:02 UTC\n-\nOur Engineering team has deployed a fix for the issue impacting our Help Center.\nAs of 14:10 UTC, all impact has been mitigated and users should no longer experience any issues with updating existing tickets. We are monitoring the situation and will post an update once the incident is completely resolved.\nThank you for your patience and we apologize for the inconvenience.\nAffected Components: Services - Support Center Regions - Global \nStatus: monitoring\n2023-04-13 15:45 UTC\n-\nOur Engineering team is investigating an issue with customers being unable to update existing tickets on our help center at https://cloudsupport.digitalocean.com/\nAt this time, a subset of users may observe an error on the page. As a temporary workaround, users may still create a new ticket at https://cloudsupport.digitalocean.com/s/\nWe apologize for the inconvenience and will post an update as soon as further information is available.\nAffected Components: Services - Support Center Regions - Global \nStatus: investigating\n2023-04-13 10:45 UTC\n-\nIncident Created at: 2023-04-13 10:45 UTC Resolved at: 2023-04-13 17:02 UTC",
-          "link": "https://status.digitalocean.com/incidents/bpkxgkxcqz66",
-          "publishedOn": "2023-04-13T10:45:47.000Z",
-          "wordCount": 5094,
-          "title": "Customer Support Help Center",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -360,6 +320,16 @@
       "feedUrl": "https://status.notion.so/history.rss",
       "siteUrl": "https://status.notion.so",
       "articles": [
+        {
+          "id": "https://status.notion.so/incidents/mxzyk8yx32b5",
+          "author": null,
+          "description": "May 12, 15:16 PDT\nResolved - The issue has been resolved. Affected users should update their Notion Android app to the latest version.\nMay 12, 11:54 PDT\nIdentified - The issue has been identified and we are working on a fix.\nMay 12, 11:42 PDT\nInvestigating - We are investigating an issue causing the Notion Android app to crash for many users.",
+          "link": "https://status.notion.so/incidents/mxzyk8yx32b5",
+          "publishedOn": "2023-05-12T22:16:34.000Z",
+          "wordCount": 2848,
+          "title": "Notion Android app crashing",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.notion.so/incidents/pyrhq77wmg6p",
           "author": null,
@@ -625,26 +595,6 @@
           "publishedOn": "2023-04-16T23:40:54.000Z",
           "wordCount": 223,
           "title": "Incident: Channels are missing for Android users",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-04/ac28ceabd64fe276",
-          "author": null,
-          "description": "This issue has now been resolved, please reload Slack to restore functionality to the direct messages view. Thank you for your patience while we worked on this.",
-          "link": "https://status.slack.com//2023-04/ac28ceabd64fe276",
-          "publishedOn": "2023-04-12T22:55:00.000Z",
-          "wordCount": 131,
-          "title": "Incident: Direct messages view failing to load",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-04/d105ce7854fc93d2",
-          "author": null,
-          "description": "Issue summary:\n\r\nOn April 10, 2023 at 7:30 PM PDT, some customers began experiencing delays when uploading files. We traced the issue back to a recent update made to how some file uploads are handled. Reverting this change fixed the issue, and customers were no longer experiencing it as of April 11, 2023 at 7:33 AM PDT. \n\r\n\r\nThank you so much for your patience as our team actively worked on this.",
-          "link": "https://status.slack.com//2023-04/d105ce7854fc93d2",
-          "publishedOn": "2023-04-12T14:38:53.000Z",
-          "wordCount": 176,
-          "title": "Incident: Images slow to upload",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
