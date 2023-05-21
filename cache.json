@@ -31,10 +31,10 @@
         {
           "id": "https://airbnbapi.statuspage.io/incidents/jfj0pfxnz17q",
           "author": null,
-          "description": "May 15, 00:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 10, 09:58 PDT\nScheduled - The deprecation date for API Version 2021.12.31 was March 31, 2023. Any applications that have not fully migrated will be automatically migrated to a newer version, which can result in application breakage.\nAutomatic migration will occur in phases as detailed in https://developer.airbnb.com/docs/versioning-enforcement\nPhase 5 is the last phase and begins on May 15, 2023 for the following endpoints: Listings, Listing Permits, Async Calendars",
+          "description": "May 20, 00:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 15, 00:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 10, 09:58 PDT\nScheduled - The deprecation date for API Version 2021.12.31 was March 31, 2023. Any applications that have not fully migrated will be automatically migrated to a newer version, which can result in application breakage.\nAutomatic migration will occur in phases as detailed in https://developer.airbnb.com/docs/versioning-enforcement\nPhase 5 is the last phase and begins on May 15, 2023 for the following endpoints: Listings, Listing Permits, Async Calendars",
           "link": "https://airbnbapi.statuspage.io/incidents/jfj0pfxnz17q",
-          "publishedOn": "2023-05-15T18:41:22.000Z",
-          "wordCount": 3352,
+          "publishedOn": "2023-05-20T07:00:08.000Z",
+          "wordCount": 3362,
           "title": "v2021.12.31 Migration Enforcement - Phase 5",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -96,6 +96,36 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
+          "id": "https://status.twilio.com/incidents/9114v8wdqmsz",
+          "author": null,
+          "description": "May 20, 14:19 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Claro Colombia. This incident has been resolved.\nMay 20, 12:20 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Claro Colombia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 20, 10:22 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Claro Colombia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 20, 09:16 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Claro Colombia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/9114v8wdqmsz",
+          "publishedOn": "2023-05-20T21:19:26.000Z",
+          "wordCount": 6357,
+          "title": "SMS Delivery Delays to Claro Colombia",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/kysssl59lvd8",
+          "author": null,
+          "description": "May 20, 04:17 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Etisalat network in Niger. This incident has been resolved.\nMay 20, 02:19 PDT\nUpdate - We are observing recovery in SMS delivery delays when sending messages to the Etisalat network in Niger. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 19, 14:20 PDT\nUpdate - During monitoring we observing degraded performance and continued issues with SMS delivery delays when sending messages to the Etisalat network in Niger, so we are reverting the status of this incident back to investigating.  Our engineers are working with our carrier partner to resolve the issue. We expect to provid…",
+          "link": "https://status.twilio.com/incidents/kysssl59lvd8",
+          "publishedOn": "2023-05-20T11:17:19.000Z",
+          "wordCount": 7124,
+          "title": "SMS Delivery Delays to Etisalat Network in Niger",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/n8xk1szlx88w",
+          "author": null,
+          "description": "May 19, 17:49 PDT\nResolved - The issue with Programmable Voice where application SID is removed when updating messaging config in Twilio console has been resolved.\nMay 19, 17:34 PDT\nMonitoring - We have started seeing recovery for the issue with Programmable Voice where application SID is removed when updating messaging config in Twilio console. We will continue to monitor to ensure a full recovery. We expect to provide another update in 30 minutes or as soon as more information becomes available.\nMay 19, 13:48 PDT\nUpdate - Our engineers have identified the issue with Programmable Voice where application SID is removed when updating messaging config in Twilio console, and are working to deploy a fix. Customers can still use the API. We expect to provide another update in 4 hours or as soon…",
+          "link": "https://status.twilio.com/incidents/n8xk1szlx88w",
+          "publishedOn": "2023-05-20T00:49:08.000Z",
+          "wordCount": 6727,
+          "title": "Voice Application SID is Removed When Updating Phone Number Config in Twilio Console",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.twilio.com/incidents/yjnv5ck11454",
           "author": null,
           "description": "May 19, 15:35 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to the Movistar network in Nicaragua. This incident has been resolved.\nMay 19, 13:28 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to the Movistar network in Nicaragua. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 19, 11:44 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to Movistar network in Nicaragua. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 19, 10:39 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Movistar network in Nicaragua. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
@@ -113,16 +143,6 @@
           "publishedOn": "2023-05-19T20:55:13.000Z",
           "wordCount": 6527,
           "title": "SMS Delivery Delays to Movicel Network in Angola",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/n8xk1szlx88w",
-          "author": null,
-          "description": "May 19, 13:48 PDT\nUpdate - Our engineers have identified the issue with Programmable Voice where application SID is removed when updating messaging config in Twilio console, and are working to deploy a fix. Customers can still use the API. We expect to provide another update in 4 hours or as soon as more information becomes available.\nMay 19, 11:48 PDT\nUpdate - Our engineers have identified the issue with Programmable Voice where application SID is removed when updating messaging config in Twilio console, and are working to deploy a fix. Customers can still use the API. We expect to provide another update in 2 hours or as soon as more information becomes available.\nMay 19, 10:50 PDT\nIdentified - Our engineers have identified the issue with Programmable Voice where application SID is remove…",
-          "link": "https://status.twilio.com/incidents/n8xk1szlx88w",
-          "publishedOn": "2023-05-19T20:48:16.000Z",
-          "wordCount": 6645,
-          "title": "Voice Application SID is Removed When Updating Phone Number Config in Twilio Console",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
@@ -184,46 +204,6 @@
           "wordCount": 6277,
           "title": "Mexico SMS Carrier Maintenance - AT&T",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/h1dkc9lfjg3b",
-          "author": null,
-          "description": "May 19, 03:08 PDT\nResolved - The issue with Super SIM data sessions has been resolved and services are operating normally at this time. This incident has now been resolved\nMay 19, 02:48 PDT\nMonitoring - Devices that attempted to reconnect immediately after losing connectivity should have been able to successfully reconnect to the redundant instances while the impacted one recovered. We will continue to monitor. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 19, 01:55 PDT\nUpdate - Beginning at 08:18 UTC we observed 4% of active data sessions on Super SIM being dropped. We are investigating an issue where devices using Super SIM may experience the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nMay 19, 01:47 PDT\nInvestigating - Beginning at 08:18 UTC we observed 4% of active data sessions on Super SIM being dropped. We are investigating an issue where devices using Super SIM may experience the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/h1dkc9lfjg3b",
-          "publishedOn": "2023-05-19T10:08:13.000Z",
-          "wordCount": 6384,
-          "title": "Connectivity Lost on 4% of Super SIM Devices",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/yx8v3tp16xl3",
-          "author": null,
-          "description": "May 19, 01:09 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Ooredoo Network in Kuwait. This incident has been resolved.\nMay 18, 23:18 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Ooredoo Network in Kuwait. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 18, 20:57 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Ooredoo Network in Kuwait. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 18, 19:57 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Ooredoo Network in Kuwait. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/yx8v3tp16xl3",
-          "publishedOn": "2023-05-19T08:09:35.000Z",
-          "wordCount": 6373,
-          "title": "SMS Delivery Delays to Ooredoo Network in Kuwait",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/9jrr76mjyjxp",
-          "author": null,
-          "description": "May 19, 01:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 18, 21:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 11, 00:11 PDT\nScheduled - Our MMS carrier partner in the US is conducting a planned maintenance from 18 May 2023 at 21:00 PDT until 19 May 2023 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from US handsets via subset of US shortcodes.",
-          "link": "https://status.twilio.com/incidents/9jrr76mjyjxp",
-          "publishedOn": "2023-05-19T08:00:12.000Z",
-          "wordCount": 6275,
-          "title": "US MMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/4k7btcxbkkbq",
-          "author": null,
-          "description": "May 19, 01:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 18, 21:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 11, 00:09 PDT\nScheduled - Our SMS carrier partner in the US is conducting a planned maintenance from 18 May 2023 at 21:00 PDT until 19 May 2023 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US handsets via subset of US shortcodes.",
-          "link": "https://status.twilio.com/incidents/4k7btcxbkkbq",
-          "publishedOn": "2023-05-19T08:00:01.000Z",
-          "wordCount": 6275,
-          "title": "US SMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -232,6 +212,26 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/m32tbckd7mgh",
+          "author": null,
+          "description": "May 20, 14:55 UTC\nResolved - Our Engineering team has confirmed full resolution of this incident. \nFrom 12:24 - 13:26 UTC, we experienced an issue that impacted our DNS API services. During this time, customer deployments to App Platform will have failed to process, and managing domains and DNS records through both the Cloud Control Panel and API would have been unavailable. \nIf you continue to experience problems with either of these services please open a ticket with our support team from within your Cloud Control Panel. Thank you for your patience.\nMay 20, 13:57 UTC\nMonitoring - Our Engineering team identified that the root cause of the issues impacting App Platform deployments was a wider issue involving our DNS API. Along with the App Platform deployment errors, customers would have experienced trouble viewing and editing domains and their DNS records through both the Cloud Control Panel and the API. \nA fix has been rolled out and as of 13:26 UTC customers should no longer be experiencing any issues involving the services listed above. Our team will continue to monitor the situation to ensure stability and provide a final update as soon as we confirm the issue has been fully resolved. \nThank you for your patience.\nMay 20, 12:46 UTC\nInvestigating - As of 12:24 UTC, Our Engineering team is investigating a global issue with our App Platform service. During this time, users may experience issues while performing any operations for new, updated and deleting deployments. \nAt this time, previously deployed running Apps are not impacted. We will provide an update as soon as possible.",
+          "link": "https://status.digitalocean.com/incidents/m32tbckd7mgh",
+          "publishedOn": "2023-05-20T14:55:05.000Z",
+          "wordCount": 5230,
+          "title": "DNS Services and App Platform Deployments",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/tsb7y4bqyg1d",
+          "author": null,
+          "description": "May 20, 11:19 UTC\nResolved - Our Engineering team has confirmed full resolution of this incident. From 07:01 UTC - 11:00 UTC, we have verified that there is no further risk to event processing in the FRA1 region, and we will now mark this issue as Resolved. Thank you for your patience and understanding throughout this process. If you should encounter any further issues at all, then please open a ticket with our Support team.\nMay 20, 08:43 UTC\nMonitoring - Our Engineering team was able to take action to mitigate the impact of this incident and allow events to process normally. We will post an update as soon as the issue is fully resolved. Please note that while the situation has improved, there may still be a backlog of older events that are in the process of being resolved. We kindly ask for your patience as our team works diligently to address these remaining events. We apologize for any inconvenience caused and assure you that we are committed to resolving all outstanding issues.\nMay 20, 08:20 UTC\nIdentified - Our Engineering team has identified the cause of the issue with event processing in the FRA1 region and is actively working on a fix. During this time, only a subset of users may experience delays during creates, destroys, and power events in the cloud panel. We will post an update as soon as additional information is available.\nMay 20, 07:59 UTC\nInvestigating - Our Engineering team is investigating an issue with event processing in the FRA1 region. Beginning 07:01 UTC, users may experience delays during creates, destroys, and power events. We apologize for the inconvenience and will share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/tsb7y4bqyg1d",
+          "publishedOn": "2023-05-20T11:19:41.000Z",
+          "wordCount": 5252,
+          "title": "Event processing in FRA1 region",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/qbszx5q5dd19",
           "author": null,
@@ -400,16 +400,6 @@
           "publishedOn": "2023-04-21T12:58:23.000Z",
           "wordCount": 5284,
           "title": "TOR1 Network Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/21nlhkf47jlg",
-          "author": null,
-          "description": "Apr 20, 12:30 UTC\nResolved - Resolved\nAs of 07:28 UTC, our Engineering team has resolved the issue with Droplet creation events across all regions. The Droplet creations should now be operating normally. If you continue to experience problems, please open a ticket with our Support team. We apologize for any inconvenience\nApr 20, 2023 - 08:26 UTC\n-\nMonitoring\nOur Engineering team has implemented a fix to resolve the issue with processing Droplet creation events across all regions and is monitoring the situation. We will post an update as soon as the issue is fully resolved.\nApr 20, 2023 - 07:52 UTC\n-\nIdentified\nOur Engineering team has identified the cause of the issue with processing Droplet creation events across all regions and is actively working on a fix. During this time users may experience latencies or failed events when creating Droplets. We will post an update as soon as additional information is available.\nApr 20, 2023 - 07:14 UTC\n-\nInvestigating\nAs of 05:00 UTC, our Engineering team is investigating an issue with processing Droplet creation events across all regions. During this time users may experience latencies or failed events when creating Droplets. We apologize for the inconvenience and will share an update once we have more information.\nApr 20, 2023 - 05:57 UTC",
-          "link": "https://status.digitalocean.com/incidents/21nlhkf47jlg",
-          "publishedOn": "2023-04-20T12:30:00.000Z",
-          "wordCount": 5148,
-          "title": "Global Droplet creation",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -684,16 +674,6 @@
           "publishedOn": "2023-04-24T23:29:34.000Z",
           "wordCount": 219,
           "title": "Incident: Users are not able to send, shuffle or cancel gifs with Giphy.",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-04/9a270de38235b921",
-          "author": null,
-          "description": "Issue Summary:\n\r\nOn April 20th, 2023 from 6:00 AM PDT until 7:45 AM PDT, a small number of users experienced latency issues when using Slack. Users reported a delay in loading threads, channels, direct messages, marking messages as read, and executing workflows. \n\r\n\r\nThe issue resulted from an increased database load on one of our data center regions. We made a change in order manage the larger load and return to normal response times. \n\r\n\r\nOur team is continuing to look into what causes some queries to run slower than others to prevent degraded performance in the future.\n\r\n\r\nThank you for your patience while we worked through this. We apologize for any disruption to your work.",
-          "link": "https://status.slack.com//2023-04/9a270de38235b921",
-          "publishedOn": "2023-04-20T18:38:26.000Z",
-          "wordCount": 268,
-          "title": "Incident: A small percentage of users may be experiencing slowness in Slack.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
