@@ -10,18 +10,7 @@
       "title": "Security Bulletins on Tailscale",
       "feedUrl": "https://tailscale.com/security-bulletins/index.xml",
       "siteUrl": "https://tailscale.com/security-bulletins/",
-      "articles": [
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2023-005/",
-          "author": null,
-          "description": "Description: An issue in the Tailscale coordination server in device\nreauthentication logic caused previously authenticated and tagged devices to\nlose their ACL tags upon reauthentication.\nWhat happened?\nThe logic that handles the reauthentication to a new identity on an\nalready-authenticated device with tags had a bug: instead of updating the\ndevice’s logged-in identity to the newly authenticated user, the device’s\nidentity became that of the user who originally added it to the tailnet, without\nany tags.\nThe bug was introduced on 2022-10-26, and discovered and remediated on\n2023-04-21. The bug was discovered when troubleshooting a user-reported issue.\nWho is affected?\n189 tailnets triggered this bug in the course of normal use of Tailscale, either\ndirectly by explicitly re-authenticating a device, or indirectly by using fast\nuser switching to switch between multiple\ntailnets.\nWe have notified affected organizations where we have security\ncontacts.\nWhat is the impact?\nDevices that encountered the bug had their tags removed, which reverted the\ndevice’s identity to that of the user who originally authenticated the device,\nor the owner of the auth key that was originally used to authenticate the\ndevice. In either case, this is the user listed as “Creator” in the Machines tab\nof the admin panel. Depending on access rules in the tailnet policy file, this\ncould change the device’s network permissions.\nWe have analyzed the audit logs for affected tailnets, and found no evidence of\ndeliberate exploitation. In most instances, device owners noticed the incorrect\noutcome of reauthentication, and corrected the device’s state themselves.\nWhat do I need to do?\nIf you were not contacted by Tailscale, no action is required.  If you were\ncontacted by Tailscale, reapply the desired tags to affected devices in the\nadmin console, or by reauthenticating the devices. Tailscale has deployed a fix\nto the coordination server as of 2023-04-21, and notified affected\norganizations.",
-          "link": "https://tailscale.com/security-bulletins/#ts-2023-005/",
-          "publishedOn": "2023-04-28T00:00:00.000Z",
-          "wordCount": 3590,
-          "title": "TS-2023-005",
-          "imageUrl": "https://tailscale.com/files/images/og-image.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Airbnb API Status - Incident History",
@@ -96,53 +85,53 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/m8yhl0rxzbbs",
+          "id": "https://status.twilio.com/incidents/hxj1wd9f870l",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 26, 18:30 PDT  -  May 29, 10:00 PDT\nMay 16, 03:00 PDT\nScheduled - Our Carrier Partner Three UK is conducting a planned maintenance from 26 May 2023 at 18:30 PDT until 29 May 2023 at 10:00 PDT. During the maintenance window, there could be intermittent API request failures for UK.\nImpacted Products: Lookup SIM Swap Identity Match and SNA",
-          "link": "https://status.twilio.com/incidents/m8yhl0rxzbbs",
-          "publishedOn": "2023-05-27T01:30:00.000Z",
-          "wordCount": 6264,
-          "title": "United Kingdom Account Security Carrier Partner Maintenance",
+          "description": "May 27, 15:54 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Claro Colombia. This incident has been resolved.\nMay 27, 14:00 PDT\nMonitoring - We are observing successful SMS delivery delays when sending messages to Claro Colombia.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nMay 27, 12:07 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Claro Colombia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 27, 10:39 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Claro Colombia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/hxj1wd9f870l",
+          "publishedOn": "2023-05-27T22:54:06.000Z",
+          "wordCount": 6356,
+          "title": "SMS Delivery Delays to Claro Colombia",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/1nj1yzqlm43x",
+          "id": "https://status.twilio.com/incidents/0ywbq4pnpsfk",
           "author": null,
-          "description": "May 26, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay  3, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 28, 07:48 PDT\nScheduled - The Tele2 network in Russia is conducting a planned maintenance from 03 May 2023 at 13:00 PDT until 26 May 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Tele2 Russia handsets.\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n03 May 2023 at 13:00 PDT until 03 May 2023 at 17:00 PDT\n\n10 May 2023 at 13:00 PDT until 10 May 2023 at 17:00 PDT\n\n12 May 2023 at 13:00 PDT until 12 May 2023 at 17:00 PDT\n\n17 May 2023 at 13:00 PDT until 17 May 2023 at 17:00 PDT\n\n19 May 2023 at 13:00 PDT until 19 May 2023 at 17:00 PDT\n\n24 May 2023 at 13:00 PDT until 24 May 2023 at 17:00 PDT\n\n26 May 2023 at 13:00 PDT until 26 May 2023 at 17:00 PDT",
-          "link": "https://status.twilio.com/incidents/1nj1yzqlm43x",
-          "publishedOn": "2023-05-27T00:00:02.000Z",
-          "wordCount": 6367,
-          "title": "Russia SMS Carrier Maintenance - Tele2",
+          "description": "May 27, 10:24 PDT\nResolved - After investigating, we identified that the incident causing SMS delivery failures when sending messages to DU Network in UAE was only impacting non-registered IDs. We’re resolving this incident because the issue was impacting a small subset of customers who shouldn’t present any delivery failures.\nMay 27, 08:54 PDT\nUpdate - We are experiencing outbound SMS delivery failures when sending messages to DU Network in UAE. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMay 27, 06:59 PDT\nUpdate - We are still experiencing outbound SMS delivery failures when sending messages to DU Network in UAE. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 27, 06:00 PDT\nInvestigating - We are experiencing outbound SMS delivery failures when sending messages to DU Network in UAE. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/0ywbq4pnpsfk",
+          "publishedOn": "2023-05-27T17:24:41.000Z",
+          "wordCount": 6398,
+          "title": "Outbound SMS Delivery Failures to DU Network in UAE",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/xcz5ycg5d818",
+          "author": null,
+          "description": "May 27, 10:00 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to MPT network in Myanmar. This incident has been resolved.\nMay 27, 07:46 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to MPT network in Myanmar. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 27, 07:39 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to MPT network in Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nMay 27, 03:27 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to MPT network in Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMay 27, 01:27 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to MPT network in Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 27, 00:32 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to MPT network in Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/xcz5ycg5d818",
+          "publishedOn": "2023-05-27T17:00:49.000Z",
+          "wordCount": 6472,
+          "title": "SMS Delivery Delays to MPT Network in Myanmar",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/gd1hnnxhlwk1",
+          "author": null,
+          "description": "May 27, 05:16 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Safaricom Network in Kenya. This incident has been resolved.\nMay 27, 04:51 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Safaricom Network in Kenya. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 27, 02:56 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Safaricom Network in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMay 27, 00:59 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Safaricom Network in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 27, 00:00 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Safaricom Network in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/gd1hnnxhlwk1",
+          "publishedOn": "2023-05-27T12:16:18.000Z",
+          "wordCount": 6424,
+          "title": "SMS Delivery Delays to Safaricom Network in Kenya",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/mr2pfxs1zbrg",
           "author": null,
-          "description": "May 26, 16:02 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 25, 14:07 PDT\nScheduled - The Etisalat network in Egypt is conducting an emergency maintenance from 26 May 2023 at 16:00 PDT until 26 May 2023 at 21:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Etisalat Egypt handsets.",
+          "description": "May 26, 21:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 26, 16:02 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 25, 14:07 PDT\nScheduled - The Etisalat network in Egypt is conducting an emergency maintenance from 26 May 2023 at 16:00 PDT until 26 May 2023 at 21:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Etisalat Egypt handsets.",
           "link": "https://status.twilio.com/incidents/mr2pfxs1zbrg",
-          "publishedOn": "2023-05-26T23:02:25.000Z",
-          "wordCount": 6262,
+          "publishedOn": "2023-05-27T04:00:29.000Z",
+          "wordCount": 6272,
           "title": "Egypt SMS Carrier Maintenance - Etisalat",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/86cm39974h11",
-          "author": null,
-          "description": "May 26, 16:02 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Meteor network in Ireland. This incident has been resolved.\nMay 26, 14:50 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Meteor network in Ireland. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 26, 11:29 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Meteor network in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMay 26, 09:32 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Meteor network in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 26, 08:32 PDT\nInvestigating - We are again experiencing SMS delivery delays when sending messages to Meteor network in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/86cm39974h11",
-          "publishedOn": "2023-05-26T23:02:20.000Z",
-          "wordCount": 6422,
-          "title": "SMS Delivery Delays to Meteor Network in Ireland",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/nxykt3jykftf",
-          "author": null,
-          "description": "May 26, 15:28 PDT\nResolved - We will close the post on Twilio’s Status Page. If you have been impacted by this incident and wish to continue to receive updates, please open a ticket with customer support.\nMay 26, 13:30 PDT\nMonitoring - We are now seeing recovery of the previously reported connectivity issue. We are continuing to monitor for service stability. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 26, 12:50 PDT\nUpdate - We are still experiencing Super SIM connectivity issues where we're observing ~7.7% of active data sessions on Super SIM being dropped. Devices that attempted to reconnect immediately after losing connectivity should have been able to successfully reconnect to the redundant instances while the impacted one recovered. Our engineering team is actively working with the affected network provider to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 26, 11:55 PDT\nUpdate - Beginning at 6:32PM UTC, we observed ~7.7% of active data sessions on Super SIM being dropped. Devices that attempted to reconnect immediately after losing connectivity should have been able to successfully reconnect to the redundant instances while the impacted one recovered. Our engineering team is actively working with the affected network provider to resolve the issue. We will provide another update in 1 hour or sooner once more information becomes available.\nMay 26, 11:48 PDT\nInvestigating - Our monitoring systems have detected a potential issue with Super SIM. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/nxykt3jykftf",
-          "publishedOn": "2023-05-26T22:28:04.000Z",
-          "wordCount": 6475,
-          "title": "Connectivity Lost on ~7.7% of Super SIM Devices",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -370,16 +359,6 @@
           "publishedOn": "2023-04-30T19:12:14.000Z",
           "wordCount": 5165,
           "title": "TOR1 Network Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/yhlz9y8mzcb3",
-          "author": null,
-          "description": "Apr 27, 19:42 UTC\nResolved - Impact: minor;\nAs of 21:34 UTC, Our Engineering team has confirmed that the issue with our App Platform and Container Registry services has been fully resolved. All operations should now be operating normally with these services. If you continue to experience any trouble with these services please open a ticket with our support team. Thank you for your patience and we apologize for the inconvenience.\nAffected Components: Services - App Platform Services - Container Registry Regions - Global \nStatus: resolved\n2023-04-27 21:57 UTC\n-\nAs of 20:44 UTC, Our engineering team has implemented a fix to resolve the issue with our App Platform and Container Registry services and is monitoring the situation closely. \nUsers should no longer see any issues while pushing their images to their container registries and App Platform users shouldn't experience any build failures.\nWe are going to continue to monitor the situation and will post an update once we are confident this issue will not recur.\nAffected Components: Services - App Platform Services - Container Registry Regions - Global \nStatus: monitoring\n2023-04-27 21:08 UTC\n-\nAs of 19:09 UTC, our Engineering team has identified an issue with DigitalOcean Container Registry and App Platform. At this time, users may experience slow responses or errors while interacting and authenticating with the DigitalOcean Container Registry, creating new container registries, and pushing/deleting images to/from registries. Users may also experience issues with App Platform deploys and creates failing. \nWe apologize for the inconvenience and will share an update once we have more information.\nAffected Components: Services - App Platform Services - Container Registry Regions - Global \nStatus: identified\n2023-04-27 19:42 UTC\n-\nIncident Created at: 2023-04-27 19:42 UTC Resolved at: 2023-04-27 21:57 UTC",
-          "link": "https://status.digitalocean.com/incidents/yhlz9y8mzcb3",
-          "publishedOn": "2023-04-27T19:42:45.000Z",
-          "wordCount": 5226,
-          "title": "App Platform and Container Registry",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
