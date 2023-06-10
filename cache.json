@@ -18,6 +18,16 @@
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
         {
+          "id": "https://airbnbapi.statuspage.io/incidents/qn4kgtck381x",
+          "author": null,
+          "description": "Jun  9, 00:12 PDT\nIdentified - The issue has been identified and we are working on a fix.\nMeanwhile, please attempt GET reservations requests for any reservations that did not include the guest names in full within the webhooks.\nJun  8, 19:36 PDT\nInvestigating - We are currently investigating an issue where guest names are not returned in full within webhooks - namely the reservation acceptance confirmation webhooks. This is not a widespread issue and is only affecting a small percentage of webhooks.\nAlternatively, you may be able to retrieve the details with GET reservations requests.\nWe will post updates as soon as we know more.\nApologies for the inconvenience caused and thank you for your understanding.",
+          "link": "https://airbnbapi.statuspage.io/incidents/qn4kgtck381x",
+          "publishedOn": "2023-06-09T07:12:58.000Z",
+          "wordCount": 3381,
+          "title": "Issues Affecting Guest Name Parameters in Webhooks",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://airbnbapi.statuspage.io/incidents/xccq5r4gm6c5",
           "author": null,
           "description": "Jun  2, 08:35 PDT\nResolved - This issue is now resolved. The incident that occurred yesterday (June 1, 2023) resulted in an elevated amount of 500 errors across multiple endpoints, for approximately 1 hour. If you are still encountering a high volume of 500 errors, please reach out to us through the Support Portal so we can assist you further.\nWe apologize for any inconvenience this may have caused.\nJun  1, 13:34 PDT\nMonitoring - We have implemented a fix for the issue, and the error rate has dropped significantly. We will continue to monitor the results\nJun  1, 12:51 PDT\nIdentified - We are actively investigating an increased number of 500 errors across multiple endpoints. These errors started today (June 1, 2023) around 12:20 PM PDT. Please know our engineering and operations teams are working hard to get everything up and running again, and we will update you with the latest information as soon as possible",
@@ -46,16 +56,6 @@
           "wordCount": 3362,
           "title": "v2021.12.31 Migration Enforcement - Phase 5",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/23mgd6f1r30h",
-          "author": null,
-          "description": "May 10, 18:42 PDT\nResolved - This incident has been resolved.\nIf you encounter further errors, please reach out via the Support Portal.\nApologies for the inconvenience caused and thank you for your patience and understanding.\nMay 10, 10:24 PDT\nMonitoring - The error rate has dropped and the issue is mitigated.\nMay 10, 07:52 PDT\nInvestigating - We are actively investigating an increased number of 500 errors across multiple endpoints. These errors started around 7:20 AM PDT. Please know our engineering and operations teams are working hard to get everything up and running again, and we will update you with the latest information as soon as possible",
-          "link": "https://airbnbapi.statuspage.io/incidents/23mgd6f1r30h",
-          "publishedOn": "2023-05-11T01:42:33.000Z",
-          "wordCount": 3366,
-          "title": "500 Errors Across Multiple Endpoints",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -65,43 +65,33 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/8xkz0trqnz2g",
+          "id": "https://status.twilio.com/incidents/mcmppys71khq",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 8, 23:00 PDT  -  Jun 9, 03:00 PDT\nMay 26, 14:41 PDT\nScheduled - Our Service Partner is conducting a planned maintenance from 08 June 2023 at 23:00 PDT until 09 June 2023 at 03:00 PDT. During the maintenance window, there could be intermittent API request failures for the following destination: Canada\nImpacted Products: Silent Network Authentication (SNA), Lookup SIM Swap, Identity Match.",
-          "link": "https://status.twilio.com/incidents/8xkz0trqnz2g",
-          "publishedOn": "2023-06-09T06:00:00.000Z",
-          "wordCount": 6259,
-          "title": "Canada Account Security Service Partner Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Jun 10, 01:00 - 04:00 PDT\nJun  1, 02:35 PDT\nScheduled - The Flex Insights Historical Reporting dashboards visualisation partner in the US is conducting a planned maintenance on Saturday, June 10th, 2023, at 1:00 AM Pacific Daylight Time. The maintenance window is planned to take up to 3 hours. During the maintenance window Flex Insights Historical Reporting access will be unavailable.",
+          "link": "https://status.twilio.com/incidents/mcmppys71khq",
+          "publishedOn": "2023-06-10T08:00:00.000Z",
+          "wordCount": 6252,
+          "title": "Planned Maintenance for Flex Insights Historical Reporting",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/3v8pl664f4xj",
+          "id": "https://status.twilio.com/incidents/nvgvscvg6r79",
           "author": null,
-          "description": "Jun  8, 14:42 PDT\nResolved - We continue facing issues where the regulatory compliance drop-downs for bundle SID or address SID are not allowing selection of compliant regulatory items, taking into consideration the impact of this incident, we are closing this incident post and will reach the impacted customers individually for further follow ups.\nJun  7, 14:35 PDT\nUpdate - We are continuing to investigate an error with Phone Numbers where the regulatory compliance drop-downs for bundle SID or address SID are not allowing selection of compliant regulatory items. We expect to provide another update in 24 hours or as soon as more information becomes available.\nJun  6, 14:37 PDT\nUpdate - We are continuing to investigate an error with Phone Numbers where the regulatory compliance drop-downs fo…",
-          "link": "https://status.twilio.com/incidents/3v8pl664f4xj",
-          "publishedOn": "2023-06-08T21:42:07.000Z",
-          "wordCount": 6565,
-          "title": "Unable to Select Regulatory Compliance SIDs When Purchasing a Number",
+          "description": "Jun  9, 16:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun  3, 17:11 PDT\nScheduled - The Etisalat network in Egypt is conducting a planned maintenance from 09 Jun 2023 at 16:00 PDT until 09 Jun 2023 at 21:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Etisalat Egypt handsets.",
+          "link": "https://status.twilio.com/incidents/nvgvscvg6r79",
+          "publishedOn": "2023-06-09T23:00:38.000Z",
+          "wordCount": 6262,
+          "title": "Egypt SMS Carrier Maintenance - Etisalat",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/tk1r3vwxm6mp",
+          "id": "https://status.twilio.com/incidents/lkzyjw4wn8gw",
           "author": null,
-          "description": "Jun  8, 14:00 PDT\nResolved - We continue facing SMS delivery delay and failure sending messages to TNM network in Malawi, taking into consideration the impact of this incident, we are closing this incident post and will reach the impacted customers individually for further follow ups.\nJun  8, 05:12 PDT\nUpdate - We continue to experience SMS delivery delays and failures when sending messages to TNM network in Malawi. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 24 hours or as soon as more information becomes available.\nJun  7, 05:13 PDT\nUpdate - We continue to experience SMS delivery delays and failures when sending messages to TNM network in Malawi. Our engineers are working with our carrier partner to resolve the issue. We…",
-          "link": "https://status.twilio.com/incidents/tk1r3vwxm6mp",
-          "publishedOn": "2023-06-08T21:00:10.000Z",
-          "wordCount": 6893,
-          "title": "SMS Delivery Delay and Failures on TNM Network in Malawi",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/cmg0rxl8yhsp",
-          "author": null,
-          "description": "Jun  8, 13:32 PDT\nResolved - The delays with Brand Creation have been resolved and are operating normally at this time.\nJun  8, 13:06 PDT\nMonitoring - Brand Creation is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nJun  8, 11:05 PDT\nUpdate - We are still experiencing delays for brand creation. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun  8, 09:59 PDT\nInvestigating - We are experiencing delays for brand creation. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/cmg0rxl8yhsp",
-          "publishedOn": "2023-06-08T20:32:19.000Z",
-          "wordCount": 6323,
-          "title": "Delays for Brand Creation",
+          "description": "Jun  9, 15:43 PDT\nResolved - SMS delivery failures to Cablecom Network in Switzerland has been resolved and is operating normally at this time.\nJun  9, 13:35 PDT\nUpdate - We are observing successful SMS delivery in Switzerland to Cablecom Network. We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJun  9, 11:22 PDT\nMonitoring - We are observing successful SMS delivery in Switzerland to Cablecom Network. We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJun  9, 09:23 PDT\nInvestigating - We continue to experience SMS delivery failures to Cablecom Network in Switzerland. Our engine…",
+          "link": "https://status.twilio.com/incidents/lkzyjw4wn8gw",
+          "publishedOn": "2023-06-09T22:43:29.000Z",
+          "wordCount": 6548,
+          "title": "SMS Delivery Failures to Cablecom Network in Switzerland",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -310,16 +300,6 @@
           "wordCount": 5126,
           "title": "NYC2 Network Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/zcbjf2dm7wqk",
-          "author": null,
-          "description": "May 10, 15:48 UTC\nCompleted - Status page maintenance is now complete. Thank you for your patience throughout this process. If you encounter any issues with the new status page please let us know by opening a Support ticket through the Cloud Support page at https://cloudsupport.digitalocean.com/s/createticket.\nIf you have any general feedback regarding the redesigned status page, we encourage you to share your thoughts in our Ideas forum at the following URL: https://ideas.digitalocean.com/interfaces/p/status-page-redesign-may-2023\nMay 10, 14:01 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 10, 01:46 UTC\nScheduled - During the above window, we will be updating the DigitalOcean Status page with a fresh design and some exciting new features. During the maintenance window, our status page at https://status.digitalocean.com may show outdated content. Users will still see up-to-date notices in their Cloud Control Panel for any ongoing incidents. \nWe’re thrilled to bring our customers a fresh look and improved experience with our redesigned status page. If you have any questions or concerns about this maintenance window, please open a Support ticket through the Cloud Support page at https://cloudsupport.digitalocean.com/s/createticket.",
-          "link": "https://status.digitalocean.com/incidents/zcbjf2dm7wqk",
-          "publishedOn": "2023-05-10T15:48:07.000Z",
-          "wordCount": 5137,
-          "title": "Status Page Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -410,6 +390,16 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/0csnqhwzxp1m",
+          "author": null,
+          "description": "Jun  9, 23:17 UTC\nResolved - This incident has been resolved.\nJun  9, 22:46 UTC\nUpdate - We are investigating elevated error rates on Pull Requests. We will continue to keep users updated on progress towards mitigation.\nJun  9, 22:18 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests.",
+          "link": "https://www.githubstatus.com/incidents/0csnqhwzxp1m",
+          "publishedOn": "2023-06-09T23:17:57.000Z",
+          "wordCount": 4081,
+          "title": "Incident with Pull Requests",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/17c40y7spfgl",
           "author": null,
           "description": "Jun  8, 12:55 UTC\nResolved - This incident has been resolved.\nJun  8, 12:55 UTC\nUpdate - Our team continues to mitigate the impacted search results however we are going to status to green due to impact on overall service. We will continue to post updates on the status page as we mitigate\nJun  8, 12:23 UTC\nUpdate - We are aware search results for PRs are returning incomplete results in certain scenarios. This is impacting most users. No other search results are impacted. All other PR functionality is working.\nJun  8, 11:58 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests.",
@@ -467,16 +457,6 @@
           "publishedOn": "2023-05-11T19:00:31.000Z",
           "wordCount": 4551,
           "title": "Incident with Actions, API Requests, Codespaces, Git Operations, Issues, Pages, Pull Requests and Webhooks",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/pr3498h3qkfy",
-          "author": null,
-          "description": "May 11, 00:34 UTC\nResolved - This incident has been resolved.\nMay 11, 00:34 UTC\nUpdate - API Requests is operating normally.\nMay 11, 00:06 UTC\nUpdate - GitHub App token creation and write load has recovered. Actions, Codespaces, and Pull Requests are within SLOs again. Suspended Apps are being re-enabled while we monitor the recovery.\nMay 10, 23:27 UTC\nUpdate - Token creation for GitHub Apps is failing in 11% of requests due to high write load, impacting core GitHub.com operations. High-traffic Apps are being temporarily disabled to aid system recovery.\nMay 10, 23:09 UTC\nUpdate - We are continuing to investigate ongoing issues with delayed Actions runs, Codespace connections, and PR creation. We are performing a series of steps to mitigate the impact.\nMay 10, 21:12 UTC\nUpdate - We are cont…",
-          "link": "https://www.githubstatus.com/incidents/pr3498h3qkfy",
-          "publishedOn": "2023-05-11T00:34:42.000Z",
-          "wordCount": 4615,
-          "title": "Incident with Actions, API Requests, Codespaces, Git Operations, Pages and Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
