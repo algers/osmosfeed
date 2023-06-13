@@ -18,12 +18,22 @@
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
         {
+          "id": "https://airbnbapi.statuspage.io/incidents/bf02v30139sd",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Jun 13, 00:00 PDT  -  Jun 17, 00:00 PDT\nJun 12, 11:00 PDT\nScheduled - The deprecation date for API Webhook Version 2021.12.31 was May 31, 2023. Any applications that have not fully migrated webhooks will be automatically migrated to a newer version, which can result in application breakage.\nAutomatic webhook migration will occur in phases as detailed in https://developer.airbnb.com/docs/versioning-enforcement\nPhase 1 will occur during the week of June 12th, 2023 and will automatically migrate all async webhooks (except Messaging, Reviews and Reservations).",
+          "link": "https://airbnbapi.statuspage.io/incidents/bf02v30139sd",
+          "publishedOn": "2023-06-13T07:00:00.000Z",
+          "wordCount": 3344,
+          "title": "v2021.12.31 Webhook Migration Enforcement - Phase 1",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://airbnbapi.statuspage.io/incidents/qn4kgtck381x",
           "author": null,
-          "description": "Jun  9, 00:12 PDT\nIdentified - The issue has been identified and we are working on a fix.\nMeanwhile, please attempt GET reservations requests for any reservations that did not include the guest names in full within the webhooks.\nJun  8, 19:36 PDT\nInvestigating - We are currently investigating an issue where guest names are not returned in full within webhooks - namely the reservation acceptance confirmation webhooks. This is not a widespread issue and is only affecting a small percentage of webhooks.\nAlternatively, you may be able to retrieve the details with GET reservations requests.\nWe will post updates as soon as we know more.\nApologies for the inconvenience caused and thank you for your understanding.",
+          "description": "Jun 12, 08:41 PDT\nMonitoring - We have implemented a fix for this issue and are monitoring the results. Apologies for the inconvenience caused.\nJun  9, 00:12 PDT\nIdentified - The issue has been identified and we are working on a fix.\nMeanwhile, please attempt GET reservations requests for any reservations that did not include the guest names in full within the webhooks.\nJun  8, 19:36 PDT\nInvestigating - We are currently investigating an issue where guest names are not returned in full within webhooks - namely the reservation acceptance confirmation webhooks. This is not a widespread issue and is only affecting a small percentage of webhooks.\nAlternatively, you may be able to retrieve the details with GET reservations requests.\nWe will post updates as soon as we know more.\nApologies for the inconvenience caused and thank you for your understanding.",
           "link": "https://airbnbapi.statuspage.io/incidents/qn4kgtck381x",
-          "publishedOn": "2023-06-09T07:12:58.000Z",
-          "wordCount": 3381,
+          "publishedOn": "2023-06-12T15:41:37.000Z",
+          "wordCount": 3407,
           "title": "Issues Affecting Guest Name Parameters in Webhooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -65,33 +75,63 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/dd72gvyppgvg",
+          "id": "https://status.twilio.com/incidents/p0g1gf9g5wmp",
           "author": null,
-          "description": "Jun 11, 10:35 PDT\nResolved - The issue affecting call failures to/from a Subset of Twilio Brazil Phone Numbers has been resolved, and the service is functioning normally at this time.\nJun 11, 06:51 PDT\nUpdate - We continue seeing recovery for call failures to/from a Subset of Twilio Brazil Phone Numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 3 hours or as soon as more information becomes available.\nJun 11, 04:47 PDT\nMonitoring - We have started seeing recovery for call failures to/from a Subset of Twilio Brazil Phone Numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJun 11, 00:47 PDT\nUpdate - We continue to observe call failures to/from a Subset of Twilio Brazil Phone Numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nJun 10, 22:47 PDT\nInvestigating - We continue to observe call failures to/from a Subset of Twilio Brazil Phone Numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJun 10, 21:47 PDT\nIdentified - The issue causing call failures to/from a Subset of Twilio Brazil Phone Numbers has been identified. We are actively working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/dd72gvyppgvg",
-          "publishedOn": "2023-06-11T17:35:12.000Z",
-          "wordCount": 6494,
-          "title": "Voice Call Failures To and From a Subset of Twilio Brazil Phone Numbers",
+          "description": "THIS IS A SCHEDULED EVENT Jun 13, 02:00 - 04:00 PDT\nJun  1, 19:04 PDT\nScheduled - A subset of small US networks in the US is conducting a planned maintenance from 13 June 2023 at 02:00 PDT until 13 June 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers.",
+          "link": "https://status.twilio.com/incidents/p0g1gf9g5wmp",
+          "publishedOn": "2023-06-13T09:00:00.000Z",
+          "wordCount": 6263,
+          "title": "US SMS Carrier Maintenance - Small US Carriers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/dgmj2b3py0js",
+          "id": "https://status.twilio.com/incidents/twq2fn2p2s3z",
           "author": null,
-          "description": "Jun 11, 00:22 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Movilnet Network in Venezuela. This incident has been resolved\nJun 10, 22:24 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Movilnet Network in Venezuela. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 10, 20:24 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Movilnet Network in Venezuela. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 10, 19:24 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Movilnet Network in Venezuela. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/dgmj2b3py0js",
-          "publishedOn": "2023-06-11T07:22:07.000Z",
-          "wordCount": 6371,
-          "title": "SMS Delivery Delays to Movilnet Network in Venezuela",
+          "description": "THIS IS A SCHEDULED EVENT Jun 12, 21:00 - 23:00 PDT\nJun 12, 11:27 PDT\nScheduled - Our Carrier Partner Telus CA is conducting a planned maintenance from 12 June 2023 at 21:00 PDT until 12 June 2023 at 23:00 PDT. During the maintenance window, there could be intermittent API request failures for Telus CA customers.\nImpacted Products: Silent Network Authentication (SNA), Lookup SIM Swap, Identity Match",
+          "link": "https://status.twilio.com/incidents/twq2fn2p2s3z",
+          "publishedOn": "2023-06-13T04:00:00.000Z",
+          "wordCount": 6257,
+          "title": "Canada Account Security Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/4l6fvqrt57z6",
+          "id": "https://status.twilio.com/incidents/7rpdkx5cpxw2",
           "author": null,
-          "description": "Jun 10, 12:36 PDT\nResolved - We are no longer experiencing SMS delivery failures to Nigeria 9mobile. This incident has been resolved.\nJun 10, 10:28 PDT\nMonitoring - We are observing recovery in SMS delivery delays and failures to 9mobile network in Nigeria. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 10, 08:41 PDT\nUpdate - We are still experiencing SMS delivery delays and failures to 9mobile network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 10, 07:30 PDT\nInvestigating - We are experiencing SMS delivery delays and failures to 9mobile network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/4l6fvqrt57z6",
-          "publishedOn": "2023-06-10T19:36:17.000Z",
-          "wordCount": 6371,
-          "title": "SMS Delivery Delays and Failures to 9mobile Network in Nigeria",
+          "description": "THIS IS A SCHEDULED EVENT Jun 12, 21:00 - 23:20 PDT\nJun  7, 19:34 PDT\nScheduled - The Telcel network in Mexico is conducting a Planned maintenance from 12 June 2023 at 21:00 PDT until 12 June 2023 at 23:20 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Telcel Mexico handsets.",
+          "link": "https://status.twilio.com/incidents/7rpdkx5cpxw2",
+          "publishedOn": "2023-06-13T04:00:00.000Z",
+          "wordCount": 6249,
+          "title": "Mexico SMS Carrier Maintenance - Telcel",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/zzr1ndmpb9g3",
+          "author": null,
+          "description": "Jun 12, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 12, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun  1, 04:17 PDT\nScheduled - The Tele2 Network in Russia is conducting a planned maintenance From 12 June 2023 at 13:00 PDT until 12 June 2023 at 17:00 PDT. During the maintenance window. There could be intermittent delays delivering SMS to and from Tele2 Russia handsets",
+          "link": "https://status.twilio.com/incidents/zzr1ndmpb9g3",
+          "publishedOn": "2023-06-13T00:00:23.000Z",
+          "wordCount": 6269,
+          "title": "Russia SMS Carrier Maintenance - Tele2",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/f8cbyc80jrxk",
+          "author": null,
+          "description": "Jun 12, 16:28 PDT\nUpdate - Beginning at [22:10 UTC], we observed 17% of active data sessions on Super SIM being dropped. After the initial drop we detected two additional session drops after the system has partially recovered. We are still missing ~17% of sessions. We are actively working to identify and resolve the issue. We will provide another update in 2 hours or sooner once more information becomes available.\nJun 12, 15:37 PDT\nUpdate - We are continuing to work on a fix for this issue.\nJun 12, 15:28 PDT\nIdentified - Beginning at [22:10 UTC], we observed 17% of active data sessions on Super SIM being dropped. We observe that some of the devices have recovered. We are actively working to identify and resolve the issue. We will provide another update in 1 hour or sooner once more information becomes available.",
+          "link": "https://status.twilio.com/incidents/f8cbyc80jrxk",
+          "publishedOn": "2023-06-12T23:28:15.000Z",
+          "wordCount": 6343,
+          "title": "Connectivity Lost on 17% of Super SIM Devices",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/fhwx9d7k90d4",
+          "author": null,
+          "description": "Jun 12, 15:40 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to multiple networks in Jordan. This incident has been resolved and any impacted customer will be reached out to directly.\nJun 12, 15:24 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to multiple networks in Jordan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/fhwx9d7k90d4",
+          "publishedOn": "2023-06-12T22:40:58.000Z",
+          "wordCount": 6281,
+          "title": "SMS delivery to the multiple networks in Jordan",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -101,6 +141,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/rptq6jh8ljd7",
+          "author": null,
+          "description": "Jun 12, 17:44 UTC\nResolved - From 04:30 to 09:30 UTC, our Engineering team observed issues with DigitalOcean Container Registry in SGP1 and FRA1 regions. During this time, users might have experienced errors while interacting with their registries in SGP1 and FRA1 regions. Users might also have experienced latency in pushing/pulling images to/from registries.\nOur Engineering team has observed that the impact has been mitigated. As of 17:20 UTC, users should no longer experience any issues with pushing/pulling images to/from their registries in SGP1 and FRA1 regions. We apologize for the inconvenience. If you are still experiencing any problems or have additional questions, please open a support ticket within your account.",
+          "link": "https://status.digitalocean.com/incidents/rptq6jh8ljd7",
+          "publishedOn": "2023-06-12T17:44:00.000Z",
+          "wordCount": 5065,
+          "title": "Container Registry in FRA1 and SGP1",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/5jvv4xltnbk7",
           "author": null,
@@ -380,6 +430,16 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/csnbwc85chp2",
+          "author": null,
+          "description": "Jun 13, 00:17 UTC\nResolved - This incident has been resolved.\nJun 13, 00:09 UTC\nUpdate - We have applied a mitigation and are seeing signs of recovery. We will post another update shortly.\nJun 12, 23:39 UTC\nUpdate - We are investigating reports of degraded performance for Actions. We have identified the root cause and have begun applying a mitigation.\nJun 12, 22:48 UTC\nUpdate - Pages is experiencing degraded performance. We are still investigating and will provide an update when we have one.\nJun 12, 22:43 UTC\nInvestigating - We are investigating reports of degraded performance for Actions.",
+          "link": "https://www.githubstatus.com/incidents/csnbwc85chp2",
+          "publishedOn": "2023-06-13T00:17:05.000Z",
+          "wordCount": 4136,
+          "title": "Incident with Actions and Pages",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/0csnqhwzxp1m",
           "author": null,
           "description": "Jun  9, 23:17 UTC\nResolved - This incident has been resolved.\nJun  9, 22:46 UTC\nUpdate - We are investigating elevated error rates on Pull Requests. We will continue to keep users updated on progress towards mitigation.\nJun  9, 22:18 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests.",
@@ -449,10 +509,10 @@
         {
           "id": "https://status.slack.com//2023-06/1bd97a73cb7874f1",
           "author": null,
-          "description": "The fix we rolled out resolved the issue and customers should no longer be experiencing any trouble with connecting to Slack. Apologies for the trouble today and thank you for your patience.",
+          "description": "On June 11, 2023 from 10:57 AM PDT to 12:10 PM PDT, some users may have experienced difficulties when trying to access Slack due to a database issue.\n\r\n\r\nThe underlying cause has since been determined and remediation steps were applied. This resolved the above for all impacted users.",
           "link": "https://status.slack.com//2023-06/1bd97a73cb7874f1",
-          "publishedOn": "2023-06-11T20:02:32.000Z",
-          "wordCount": 164,
+          "publishedOn": "2023-06-12T14:56:48.000Z",
+          "wordCount": 262,
           "title": "Incident: Small number of users might be experiencing connectivity issues",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
