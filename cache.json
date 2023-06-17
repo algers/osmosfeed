@@ -18,12 +18,22 @@
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
         {
+          "id": "https://airbnbapi.statuspage.io/incidents/l4t3crp7lr61",
+          "author": null,
+          "description": "Jun 16, 16:38 PDT\nMonitoring - An issue has been deployed and we are monitoring the results - the 500 error rate has significantly dropped.\nJun 16, 15:44 PDT\nIdentified - We are actively investigating an increased number of 500 errors and an increase in latency across multiple endpoints. These errors started today (June 16, 2023) around 14:20 PDT. If your API requests fail with a 500, please retry them. Our engineering teams are working to get everything up and running again and we will update you with the latest information as soon as possible.",
+          "link": "https://airbnbapi.statuspage.io/incidents/l4t3crp7lr61",
+          "publishedOn": "2023-06-16T23:38:29.000Z",
+          "wordCount": 3357,
+          "title": "500 Errors Across Multiple Endpoints",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://airbnbapi.statuspage.io/incidents/620bns7c4y3p",
           "author": null,
-          "description": "Jun 15, 14:38 PDT\nMonitoring - We are currently addressing a bug that affects the bedroom, bathroom, and bed count on our Listings API. Due to a change in behavior of how bedrooms, bathrooms and beds interact with the Listing Rooms API, you might come across the following issues:\n* On the Listings API, some listings might have the fields `bedrooms`,`bathrooms` and/or `beds` set to 0.\n* On the Listings Rooms API, some rooms might have been created/deleted.\nAs of today, we have reverted the problematic behavior and are working diligently to restore the correct bedrooms, bathrooms, and beds values on the Listings API. To ensure that your Listing Rooms are accurately set, we kindly ask you to re-sync your data.\nWe apologize for any inconvenience this may cause and appreciate your understanding as we resolve this issue.",
+          "description": "Jun 15, 20:37 PDT\nUpdate - We have implemented a fix to restore the correct bedrooms, bathrooms and bed values on the Listings API and will continue to monitor this incident.\nWe apologize for any inconvenience this may cause and appreciate your understanding as we resolve this issue.\nJun 15, 14:38 PDT\nMonitoring - We are currently addressing a bug that affects the bedroom, bathroom, and bed count on our Listings API. Due to a change in behavior of how bedrooms, bathrooms and beds interact with the Listing Rooms API, you might come across the following issues:\n* On the Listings API, some listings might have the fields `bedrooms`,`bathrooms` and/or `beds` set to 0.\n* On the Listings Rooms API, some rooms might have been created/deleted.\nAs of today, we have reverted the problematic behavior and are working diligently to restore the correct bedrooms, bathrooms, and beds values on the Listings API. To ensure that your Listing Rooms are accurately set, we kindly ask you to re-sync your data.\nWe apologize for any inconvenience this may cause and appreciate your understanding as we resolve this issue.",
           "link": "https://airbnbapi.statuspage.io/incidents/620bns7c4y3p",
-          "publishedOn": "2023-06-15T21:38:31.000Z",
-          "wordCount": 3400,
+          "publishedOn": "2023-06-16T03:37:33.000Z",
+          "wordCount": 3449,
           "title": "Issue affecting listings bedrooms, bathrooms and beds",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -85,93 +95,33 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/st9ptfbpkhnv",
+          "id": "https://status.twilio.com/incidents/c1k05pcqfc1d",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 16, 01:00 - 02:00 PDT\nJun  8, 22:55 PDT\nScheduled - The Verizon network in US is conducting a Planned maintenance from 16 June 2023 at 01:00 PDT until 16 June 2023 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from Verizon US handsets.",
-          "link": "https://status.twilio.com/incidents/st9ptfbpkhnv",
-          "publishedOn": "2023-06-16T08:00:00.000Z",
-          "wordCount": 6244,
-          "title": "US MMS Carrier Maintenance - Verizon",
+          "description": "Jun 16, 15:57 PDT\nResolved - We are no longer experiencing intermittent issues with Lookup SIM Swap and Identity Match API due to API Errors to Networks Wind (Tre) Italy, Three UK and 3 Austria, 3 Indonesia. This incident has been resolved.\nJun 16, 13:38 PDT\nMonitoring - We are observing recovery with the Lookup SIM Swap and Identity Match API due to API Errors to Networks Wind (Tre) Italy, Three UK and 3 Austria, 3 Indonesia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 16, 09:34 PDT\nUpdate - We continue to observe intermittent issues with the Lookup SIM Swap and Identity Match API due to API Errors to Networks Wind (Tre) Italy, Three UK and 3 Austria, 3 Indonesia. Our eng…",
+          "link": "https://status.twilio.com/incidents/c1k05pcqfc1d",
+          "publishedOn": "2023-06-16T22:57:09.000Z",
+          "wordCount": 6568,
+          "title": "Lookup Identity Match and SIM Swap Failures",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/4m2rxl5mzr1v",
+          "id": "https://status.twilio.com/incidents/4bzyx80w7n1k",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 16, 00:00 - 03:00 PDT\nJun 14, 23:42 PDT\nScheduled - The T-Mobile network in the US is conducting an emergency maintenance from 16 June 2023 at 00:00 PDT until 16 June 2023 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
-          "link": "https://status.twilio.com/incidents/4m2rxl5mzr1v",
-          "publishedOn": "2023-06-16T07:00:00.000Z",
-          "wordCount": 6241,
-          "title": "US SMS Carrier Maintenance - T-Mobile",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/g9b8vjd2p7fn",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 15, 23:00 PDT  -  Jun 16, 05:00 PDT\nJun 14, 10:26 PDT\nScheduled - The AT&T network in Mexico is conducting a planned maintenance from 15 June 2023 at 23:00 PDT until 16 June 2023 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.",
-          "link": "https://status.twilio.com/incidents/g9b8vjd2p7fn",
-          "publishedOn": "2023-06-16T06:00:00.000Z",
-          "wordCount": 6259,
-          "title": "Mexico SMS Carrier Maintenance - AT&T Mexico",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/wfcjqmlcn24g",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 15, 23:00 PDT  -  Jun 16, 05:00 PDT\nJun 13, 18:18 PDT\nScheduled - The AT&T network in Mexico is conducting a planned maintenance from 15 June 2023 at 23:00 PDT until 16 June 2023 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.",
-          "link": "https://status.twilio.com/incidents/wfcjqmlcn24g",
-          "publishedOn": "2023-06-16T06:00:00.000Z",
-          "wordCount": 6245,
-          "title": "Mexico SMS Carrier Maintenance - AT&T",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/2s35h2hh7ykq",
-          "author": null,
-          "description": "Jun 15, 16:36 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Brazil from short codes and registered sender IDs. This incident has been resolved.\nJun 15, 15:08 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Brazil from short codes and registered sender IDs. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 15, 13:01 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to Brazil from short codes and registered sender IDs. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 15, 11:50 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Brazil from short codes and registered sender IDs. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nJun 15, 11:42 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS delivery delays to Brazil from short codes and registered sender IDs. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/2s35h2hh7ykq",
-          "publishedOn": "2023-06-15T23:36:42.000Z",
-          "wordCount": 6447,
-          "title": "SMS delivery Delays to Brazil from Short Codes and Registered Sender IDs",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/45xxth0d9pbc",
-          "author": null,
-          "description": "Jun 15, 16:23 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Brazil CTBC Network. This incident has been resolved.\nJun 15, 14:37 PDT\nUpdate - We are observing recovery in SMS delivery delays when sending messages to Brazil CTBC Network. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 15, 12:30 PDT\nUpdate - We are observing recovery in SMS delivery delays when sending messages to Brazil CTBC Network. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 15, 10:30 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Brazil CTBC Network. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 15, 08:41 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Brazil CTBC Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 15, 07:43 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Brazil CTBC Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/45xxth0d9pbc",
-          "publishedOn": "2023-06-15T23:23:27.000Z",
-          "wordCount": 6465,
-          "title": "SMS Delivery Delays to Brazil CTBC Network",
+          "description": "Jun 16, 15:53 PDT\nResolved - Twilio TaskRouter was degraded for 40 minutes between 3:50 and 4:30 Pacific Time. During this period of time customers may have experienced an increase in timed out TaskRouter Reservations. The issue has now been resolved.\nJun 16, 14:36 PDT\nMonitoring - Our engineers are currently investigating the customer impact of a retroactive issue with TaskRouter being degraded on June 14th, 3:50 AM PT for about an hour.  During this period, customers may have experienced an increase in timed out TaskRouter Reservations. We will follow up and provide customer impact details within 2 hours.",
+          "link": "https://status.twilio.com/incidents/4bzyx80w7n1k",
+          "publishedOn": "2023-06-16T22:53:33.000Z",
+          "wordCount": 6267,
+          "title": "TaskRouter affected",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/mv0wxrd8q5zw",
           "author": null,
-          "description": "Jun 15, 14:31 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to MTN Network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nJun 15, 12:21 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to MTN Network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 15, 11:20 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to MTN Network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "description": "Jun 16, 14:44 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to MTN Network in Cameroon. This incident has been resolved.\nJun 16, 12:42 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to MTN Network in Cameroon. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 16, 02:31 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to MTN Network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.\nJun 15, 18:31 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to MTN Network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nJun 15, 14:31 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to MTN Network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nJun 15, 12:21 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to MTN Network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 15, 11:20 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to MTN Network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
           "link": "https://status.twilio.com/incidents/mv0wxrd8q5zw",
-          "publishedOn": "2023-06-15T21:31:32.000Z",
-          "wordCount": 6346,
+          "publishedOn": "2023-06-16T21:44:45.000Z",
+          "wordCount": 6522,
           "title": "SMS Delivery delays to MTN Network in Cameroon",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/7s20z75gf18r",
-          "author": null,
-          "description": "Jun 15, 13:01 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 15, 10:06 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun  8, 18:21 PDT\nScheduled - Our Voice carrier partner is conducting an emergency maintenance from 15 June 2023 at 10:05 PDT until 15 June 2023 at 13:00 PDT. During the maintenance window, there could be intermittent call disconnects and failures for calls to and from a subset of Twilio Indonesia phone numbers.",
-          "link": "https://status.twilio.com/incidents/7s20z75gf18r",
-          "publishedOn": "2023-06-15T20:01:11.000Z",
-          "wordCount": 6272,
-          "title": "Indonesia Voice Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/88j70s2wfb8n",
-          "author": null,
-          "description": "Jun 15, 09:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 15, 02:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun  7, 16:03 PDT\nScheduled - Our Carrier Partner Telekom is conducting a planned maintenance from 15 June 2023 at 02:00 PDT until 15 June 2023 at 09:00 PDT. During the maintenance window, there could be intermittent API request failures for Telekom customers.\nImpacted Products: SNA, Lookup SIM Swap and Identity Match",
-          "link": "https://status.twilio.com/incidents/88j70s2wfb8n",
-          "publishedOn": "2023-06-15T16:00:14.000Z",
-          "wordCount": 6284,
-          "title": "Germany Account Security Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -181,6 +131,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/7dgq9yz9ch1n",
+          "author": null,
+          "description": "Jun 16, 19:00 UTC\nResolved - From 19:12 - 19:40 UTC, we experienced an issue with Volumes and Snapshots endpoints. During that time, we saw elevated 500 errors and a subset of users experienced latency or errors while loading the Volumes or Images tab in the Cloud Control Panel. A subset of users also experienced errors in both the Cloud Control Panel and the API for CRUD (create, read, update, and delete) operations on Volumes and Snapshots. \nOur Engineering team was able to identify the root cause and quickly deployed a configuration fix to resolve the situation.  \nWe apologize for the inconvenience. If you are still experiencing any problems or have additional questions, please open a support ticket within your account.",
+          "link": "https://status.digitalocean.com/incidents/7dgq9yz9ch1n",
+          "publishedOn": "2023-06-16T19:00:00.000Z",
+          "wordCount": 5079,
+          "title": "Elevated Error Rate for Volumes and Snapshots",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/1d5qv6pmsv6b",
           "author": null,
@@ -450,6 +410,16 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/psdymfgt6p7q",
+          "author": null,
+          "description": "Jun 16, 23:59 UTC\nResolved - This incident has been resolved.\nJun 16, 23:46 UTC\nUpdate - Users may be unable to access org-owned resources in GitHub-owned client apps such as VS Code, GitHub Desktop, GitHub Mobile, and the CLI. We are working on reverting a change that is causing this\nJun 16, 23:46 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/psdymfgt6p7q",
+          "publishedOn": "2023-06-16T23:59:23.000Z",
+          "wordCount": 4089,
+          "title": "Investigating reports of degraded performance.",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/6tfr2b2s2073",
           "author": null,
           "description": "Jun 15, 19:36 UTC\nResolved - This incident has been resolved.\nJun 15, 19:22 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot.",
@@ -516,6 +486,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://status.slack.com/",
       "articles": [
+        {
+          "id": "https://status.slack.com//2023-06/4edd40b2f4290679",
+          "author": null,
+          "description": "Issue summary:\n\r\nFrom June 13, 2023 at 12:30 PM PDT until June 15, 2023 at 2:30 AM PDT, some users may have experienced issues with statuses, reminders and agendas failing to sync from their Google Calendar and Outlook Calendar apps.\n\r\n\r\nThese issues were due to an outage from an upstream service provider which affected many services. The provider actively worked to remediate those issues, which then fully resolved the reported failures for impacted Slack users.",
+          "link": "https://status.slack.com//2023-06/4edd40b2f4290679",
+          "publishedOn": "2023-06-16T12:00:18.000Z",
+          "wordCount": 184,
+          "title": "Incident: Trouble with Google Calendar and Outlook Calendar App",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://status.slack.com//2023-06/7363f55dbcde89c1",
           "author": null,
@@ -654,26 +634,6 @@
           "publishedOn": "2023-05-23T06:16:18.000Z",
           "wordCount": 145,
           "title": "Incident: Some users from Indonesia are having trouble connecting to Slack",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-05/72e5e8644f160e6a",
-          "author": null,
-          "description": "Issue Summary:\n\r\n\r\nOn May 17, 2023 from 11:28 AM to 11:55 AM PDT some users encountered error messages while connecting to Slack.\n\r\n\r\nThis issue was a result of an operational change made in error, which caused our databases to become inaccessible. We rolled back this change, fixing the problem for all impacted users.",
-          "link": "https://status.slack.com//2023-05/72e5e8644f160e6a",
-          "publishedOn": "2023-05-17T22:40:00.000Z",
-          "wordCount": 136,
-          "title": "Incident: Slack is not loading properly for some users",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-05/f2b711ba48d8803a",
-          "author": null,
-          "description": "Our engineering team deployed a minor technical change to the handling of cryptographic operations, such as API token validation.\n\r\nDuring this redirection we saw a higher than anticipated volume of failed API requests which resulted in an impact to the Slack service. As a result, Slack was down between 1:56 PM PDT - 2:03 PM PDT.\n\r\nThis was resolved when these changes were rolled back by infrastructure teams.",
-          "link": "https://status.slack.com//2023-05/f2b711ba48d8803a",
-          "publishedOn": "2023-05-17T14:58:25.000Z",
-          "wordCount": 98,
-          "title": "Outage: Users having issues loading Slack",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
