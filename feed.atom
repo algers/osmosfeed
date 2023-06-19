@@ -1,21 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-06-18T00:26:24.017Z</id>
+    <id>urn:2023-06-19T00:24:53.960Z</id>
     <title>osmos::feed</title>
-    <updated>2023-06-18T00:26:24.017Z</updated>
+    <updated>2023-06-19T00:24:53.960Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Indonesia SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/dshblflk1nrp</id>
-        <link href="https://status.twilio.com/incidents/dshblflk1nrp"/>
-        <updated>2023-06-17T17:51:15.000Z</updated>
-        <summary type="html"><![CDATA[Jun 17, 10:51 PDT
-Completed - The scheduled maintenance has been completed.
-Jun 17, 09:50 PDT
+        <title type="html"><![CDATA[v2021.12.31 Webhook Migration Enforcement - Phase 2]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/vl5ppdvchsjb</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/vl5ppdvchsjb"/>
+        <updated>2023-06-19T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jun 19, 00:00 PDT  -  Jun 24, 00:00 PDT
+Jun 16, 14:55 PDT
+Scheduled - The deprecation date for API Webhook Version 2021.12.31 was May 31, 2023. Any applications that have not fully migrated webhooks will be automatically migrated to a newer version, which can result in application breakage.
+Automatic webhook migration will occur in phases as detailed in https://developer.airbnb.com/docs/versioning-enforcement
+Phase 2 will occur during the week of June 19th, 2023 and will automatically migrate all Messaging, Reviews, and Reservations webhooks.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Global Account Security Carrier Partner Maintenance - Three UK]]></title>
+        <id>https://status.twilio.com/incidents/2y7sycyfmvqx</id>
+        <link href="https://status.twilio.com/incidents/2y7sycyfmvqx"/>
+        <updated>2023-06-19T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jun 18, 22:00 - 23:00 PDT
+Jun 12, 07:53 PDT
+Scheduled - Our Global Carrier Partner Three UK is conducting a planned maintenance from 18 June 2023 at 22:00 PDT until 18 June 2023 at 23:00 PDT. During the maintenance window, there could be intermittent API request failures for the following destinations: Austria, Indonesia, Italy, UK
+Impacted Products - Carrier
+Silent Network Authentication (SNA) - 3 Indonesia, Wind (Tre) Italy, Three UK
+Lookup SIM Swap - 3 Austria, Wind (Tre) Italy, Three UK
+Identity Match - Wind (Tre) Italy, Three UK]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Latvia SMS Carrier Maintenance - LMT GSM]]></title>
+        <id>https://status.twilio.com/incidents/ttnb2pw9r7nb</id>
+        <link href="https://status.twilio.com/incidents/ttnb2pw9r7nb"/>
+        <updated>2023-06-19T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jun 18, 21:00 - 21:30 PDT
+Jun 15, 15:46 PDT
+Scheduled - The LMT GSM network in Latvia is conducting a planned maintenance from 18 June 2023 at 21:00 PDT until 18 June 2023 at 21:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from LMT GSM handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Grameenphone Network in Bangladesh]]></title>
+        <id>https://status.twilio.com/incidents/67tgxw8js79y</id>
+        <link href="https://status.twilio.com/incidents/67tgxw8js79y"/>
+        <updated>2023-06-18T23:24:24.000Z</updated>
+        <summary type="html"><![CDATA[Jun 18, 16:15 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Grameenphone Network in Bangladesh. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Jun 18, 14:35 PDT
+Update - We are continuing to experience SMS delivery delays when sending messages to Grameenphone Network in Bangladesh. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Jun 18, 13:48 PDT
+Update - We are experiencing SMS delivery delays when sending messages to Grameenphone Network in Bangladesh. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+Jun 18, 13:12 PDT
+Investigating - Our monitoring systems have detected a potential issue with SMS delivery delays to grameenphone network in Bangladesh. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Glomobile Network in Nigeria]]></title>
+        <id>https://status.twilio.com/incidents/s3sxpbwt4n8w</id>
+        <link href="https://status.twilio.com/incidents/s3sxpbwt4n8w"/>
+        <updated>2023-06-18T23:09:38.000Z</updated>
+        <summary type="html"><![CDATA[Jun 18, 16:09 PDT
+Update - We continue to experience MMS/SMS delivery delays when sending messages to Glomobile Network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hour or as soon as more information becomes available.
+Jun 18, 15:22 PDT
+Update - We are experiencing MMS/SMS delivery delays when sending messages to Glomobile Network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+Jun 18, 15:13 PDT
+Investigating - Our monitoring systems have detected a potential issue with SMS delivery delays to Glomobile Network in Nigeria. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spain SMS Carrier Maintenance - Yoigo]]></title>
+        <id>https://status.twilio.com/incidents/kg1nnwf35vk1</id>
+        <link href="https://status.twilio.com/incidents/kg1nnwf35vk1"/>
+        <updated>2023-06-18T22:02:43.000Z</updated>
+        <summary type="html"><![CDATA[Jun 18, 15:02 PDT
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jun 15, 03:34 PDT
-Scheduled - Our SMS carrier partner in Indonesia is conducting a planned maintenance from 17 June 2023 at 09:50 PDT until 17 June 2023 at 10:50 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Indonesia handsets using Domestic sender ID's .]]></summary>
+Jun 13, 20:43 PDT
+Scheduled - The Yoigo network in Spain is conducting a planned maintenance from 18 June 2023 at 15:00 PDT until 18 June 2023 at 22:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Yoigo Spain handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -35,51 +107,6 @@ Automatic webhook migration will occur in phases as detailed in https://develope
 Phase 1 will occur during the week of June 12th, 2023 and will automatically migrate all async webhooks (except Messaging, Reviews and Reservations).]]></summary>
         <author>
             <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Iraq SMS Carrier Maintenance - Zain]]></title>
-        <id>https://status.twilio.com/incidents/1lqw77wsvjyc</id>
-        <link href="https://status.twilio.com/incidents/1lqw77wsvjyc"/>
-        <updated>2023-06-17T05:00:16.000Z</updated>
-        <summary type="html"><![CDATA[Jun 16, 22:00 PDT
-Completed - The scheduled maintenance has been completed.
-Jun  5, 18:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jun  4, 23:17 PDT
-Scheduled - The Zain network in Iraq is conducting a planned maintenance from 05 June 2023 at 18:00 PDT until 16 June 2023 at 22:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Zain Iraq handsets.
-
-Note, the maintenance will be carried out on each of the following dates and times:
-
-05 June 2023 at 18:00 PDT until 05 June 2023 at 22:00 PDT
-07 June 2023 at 18:00 PDT until 07 June 2023 at 22:00 PDT
-10 June 2023 at 18:00 PDT until 10 June 2023 at 22:00 PDT
-12 June 2023 at 18:00 PDT until 12 June 2023 at 22:00 PDT
-14 June 2023 at 18:00 PDT until 14 June 2023 at 22:00 PDT
-16 June 2023 at 18:00 PDT until 16 June 2023 at 22:00 PDT]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Orange Network in Cameroon]]></title>
-        <id>https://status.twilio.com/incidents/zbmdp7z4tm0q</id>
-        <link href="https://status.twilio.com/incidents/zbmdp7z4tm0q"/>
-        <updated>2023-06-17T04:45:18.000Z</updated>
-        <summary type="html"><![CDATA[Jun 16, 21:45 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Orange Network in Cameroon. This incident has been resolved.
-Jun 16, 19:45 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Orange Network in Cameroon. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jun 16, 19:00 PDT
-Update - We continue to experience SMS delivery delays when sending messages to Orange Network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
-Jun 16, 15:00 PDT
-Update - We continue experiencing SMS delivery delays when sending messages to Orange Network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Jun 16, 13:10 PDT
-Update - We continue experiencing SMS delivery delays when sending messages to Orange Network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Jun 16, 12:15 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Orange in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1079,40 +1106,6 @@ Investigating - As of 12:24 UTC, Our Engineering team is investigating a global 
 At this time, previously deployed running Apps are not impacted. We will provide an update as soon as possible.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Event processing in FRA1 region]]></title>
-        <id>https://status.digitalocean.com/incidents/tsb7y4bqyg1d</id>
-        <link href="https://status.digitalocean.com/incidents/tsb7y4bqyg1d"/>
-        <updated>2023-05-20T11:19:41.000Z</updated>
-        <summary type="html"><![CDATA[May 20, 11:19 UTC
-Resolved - Our Engineering team has confirmed full resolution of this incident. From 07:01 UTC - 11:00 UTC, we have verified that there is no further risk to event processing in the FRA1 region, and we will now mark this issue as Resolved. Thank you for your patience and understanding throughout this process. If you should encounter any further issues at all, then please open a ticket with our Support team.
-May 20, 08:43 UTC
-Monitoring - Our Engineering team was able to take action to mitigate the impact of this incident and allow events to process normally. We will post an update as soon as the issue is fully resolved. Please note that while the situation has improved, there may still be a backlog of older events that are in the process of being resolved. We kindly ask for your patience as our team works diligently to address these remaining events. We apologize for any inconvenience caused and assure you that we are committed to resolving all outstanding issues.
-May 20, 08:20 UTC
-Identified - Our Engineering team has identified the cause of the issue with event processing in the FRA1 region and is actively working on a fix. During this time, only a subset of users may experience delays during creates, destroys, and power events in the cloud panel. We will post an update as soon as additional information is available.
-May 20, 07:59 UTC
-Investigating - Our Engineering team is investigating an issue with event processing in the FRA1 region. Beginning 07:01 UTC, users may experience delays during creates, destroys, and power events. We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v2021.12.31 Migration Enforcement - Phase 5]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/jfj0pfxnz17q</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/jfj0pfxnz17q"/>
-        <updated>2023-05-20T07:00:08.000Z</updated>
-        <summary type="html"><![CDATA[May 20, 00:00 PDT
-Completed - The scheduled maintenance has been completed.
-May 15, 00:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-May 10, 09:58 PDT
-Scheduled - The deprecation date for API Version 2021.12.31 was March 31, 2023. Any applications that have not fully migrated will be automatically migrated to a newer version, which can result in application breakage.
-Automatic migration will occur in phases as detailed in https://developer.airbnb.com/docs/versioning-enforcement
-Phase 5 is the last phase and begins on May 15, 2023 for the following endpoints: Listings, Listing Permits, Async Calendars]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
         </author>
     </entry>
 </feed>
