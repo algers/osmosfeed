@@ -18,6 +18,16 @@
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
         {
+          "id": "https://airbnbapi.statuspage.io/incidents/620bns7c4y3p",
+          "author": null,
+          "description": "Jun 20, 14:10 PDT\nResolved - This incident has been resolved. We have restored the correct bedroom, bathroom and bed count on the Listings API.\nJun 15, 20:37 PDT\nUpdate - We have implemented a fix to restore the correct bedrooms, bathrooms and bed values on the Listings API and will continue to monitor this incident.\nWe apologize for any inconvenience this may cause and appreciate your understanding as we resolve this issue.\nJun 15, 14:38 PDT\nMonitoring - We are currently addressing a bug that affects the bedroom, bathroom, and bed count on our Listings API. Due to a change in behavior of how bedrooms, bathrooms and beds interact with the Listing Rooms API, you might come across the following issues:\n* On the Listings API, some listings might have the fields `bedrooms`,`bathrooms` and/or `beds` set to 0.\n* On the Listings Rooms API, some rooms might have been created/deleted.\nAs of today, we have reverted the problematic behavior and are working diligently to restore the correct bedrooms, bathrooms, and beds values on the Listings API. To ensure that your Listing Rooms are accurately set, we kindly ask you to re-sync your data.\nWe apologize for any inconvenience this may cause and appreciate your understanding as we resolve this issue.",
+          "link": "https://airbnbapi.statuspage.io/incidents/620bns7c4y3p",
+          "publishedOn": "2023-06-20T21:10:48.000Z",
+          "wordCount": 3472,
+          "title": "Issue affecting listings bedrooms, bathrooms and beds",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://airbnbapi.statuspage.io/incidents/qn4kgtck381x",
           "author": null,
           "description": "Jun 19, 07:46 PDT\nResolved - This incident has been resolved. However, there remains a minor possibility that reservation acceptance confirmation webhooks may be sent without the guest's last name due to an Airbnb race condition. In case you encounter this issue, please  you can retrieve the missing information with the GET Reservations API.\nWe apologize for the inconvenience this may have caused and don't hesitate to reach out if you have any questions, or require further assistance.\nJun 14, 16:46 PDT\nIdentified - Unfortunately, the mitigation did not resolve the issue and we are still seeing reservation acceptance confirmation webhooks missing the guest last name. Please know our engineering teams are working to get this issue resolved, and we will update you with the latest information as soon as possible. Meanwhile, please use the GET reservations API for any reservations that did not include the guest last name within the webhooks. We apologize for the inconvenience.\nJun 12, 08:41 PDT\nMonitoring - We have implemented a fix for this issue and are monitoring the results. Apologies for the inconvenience caused.\nJun  9, 00:12 PDT\nIdentified - The issue has been identified and we are working on a fix.\nMeanwhile, please attempt GET reservations requests for any reservations that did not include the guest names in full within the webhooks.\nJun  8, 19:36 PDT\nInvestigating - We are currently investigating an issue where guest names are not returned in full within webhooks - namely the reservation acceptance confirmation webhooks. This is not a widespread issue and is only affecting a small percentage of webhooks.\nAlternatively, you may be able to retrieve the details with GET reservations requests.\nWe will post updates as soon as we know more.\nApologies for the inconvenience caused and thank you for your understanding.",
@@ -58,16 +68,6 @@
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://airbnbapi.statuspage.io/incidents/620bns7c4y3p",
-          "author": null,
-          "description": "Jun 15, 20:37 PDT\nUpdate - We have implemented a fix to restore the correct bedrooms, bathrooms and bed values on the Listings API and will continue to monitor this incident.\nWe apologize for any inconvenience this may cause and appreciate your understanding as we resolve this issue.\nJun 15, 14:38 PDT\nMonitoring - We are currently addressing a bug that affects the bedroom, bathroom, and bed count on our Listings API. Due to a change in behavior of how bedrooms, bathrooms and beds interact with the Listing Rooms API, you might come across the following issues:\n* On the Listings API, some listings might have the fields `bedrooms`,`bathrooms` and/or `beds` set to 0.\n* On the Listings Rooms API, some rooms might have been created/deleted.\nAs of today, we have reverted the problematic behavior and are working diligently to restore the correct bedrooms, bathrooms, and beds values on the Listings API. To ensure that your Listing Rooms are accurately set, we kindly ask you to re-sync your data.\nWe apologize for any inconvenience this may cause and appreciate your understanding as we resolve this issue.",
-          "link": "https://airbnbapi.statuspage.io/incidents/620bns7c4y3p",
-          "publishedOn": "2023-06-16T03:37:33.000Z",
-          "wordCount": 3449,
-          "title": "Issue affecting listings bedrooms, bathrooms and beds",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
           "id": "https://airbnbapi.statuspage.io/incidents/xccq5r4gm6c5",
           "author": null,
           "description": "Jun  2, 08:35 PDT\nResolved - This issue is now resolved. The incident that occurred yesterday (June 1, 2023) resulted in an elevated amount of 500 errors across multiple endpoints, for approximately 1 hour. If you are still encountering a high volume of 500 errors, please reach out to us through the Support Portal so we can assist you further.\nWe apologize for any inconvenience this may have caused.\nJun  1, 13:34 PDT\nMonitoring - We have implemented a fix for the issue, and the error rate has dropped significantly. We will continue to monitor the results\nJun  1, 12:51 PDT\nIdentified - We are actively investigating an increased number of 500 errors across multiple endpoints. These errors started today (June 1, 2023) around 12:20 PM PDT. Please know our engineering and operations teams are working hard to get everything up and running again, and we will update you with the latest information as soon as possible",
@@ -95,113 +95,123 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/qcp9fkvkq9ss",
+          "id": "https://status.twilio.com/incidents/602syxbm19s8",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 19, 22:00 - 23:00 PDT\nJun 13, 07:07 PDT\nScheduled - Our Global Carrier Partner Three UK is conducting a planned maintenance from 19 June 2023 at 22:00 PDT until 19 June 2023 at 23:00 PDT. During the maintenance window, there could be intermittent API request failures for the following destinations: Austria, Indonesia, Italy, UK\nImpacted Products - Carrier\nSilent Network Authentication (SNA) - 3 Indonesia, Wind (Tre) Italy, Three UK\nLookup SIM Swap - 3 Austria, Wind (Tre) Italy, Three UK\nIdentity Match - Wind (Tre) Italy, Three UK",
-          "link": "https://status.twilio.com/incidents/qcp9fkvkq9ss",
-          "publishedOn": "2023-06-20T05:00:00.000Z",
-          "wordCount": 6292,
-          "title": "Global Account Security Carrier Partner Maintenance - Three UK",
+          "description": "THIS IS A SCHEDULED EVENT Jun 20, 22:00 PDT  -  Jun 21, 00:00 PDT\nJun 19, 12:42 PDT\nScheduled - The Verizon network in US is conducting a Planned maintenance from 20 June 2023 at 22:00 PDT until 21 June 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from Verizon US handsets.",
+          "link": "https://status.twilio.com/incidents/602syxbm19s8",
+          "publishedOn": "2023-06-21T05:00:00.000Z",
+          "wordCount": 6258,
+          "title": "US MMS Carrier Maintenance - Verizon",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/c9129glqgb0t",
+          "id": "https://status.twilio.com/incidents/mp4ysn91np9c",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 19, 21:00 - 22:00 PDT\nJun 12, 12:10 PDT\nScheduled - Our SMS carrier partner in Spain is conducting a planned maintenance from 19 June 2023 at 21:00 PDT until 19 June 2023 at 22:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Spain handsets.",
-          "link": "https://status.twilio.com/incidents/c9129glqgb0t",
-          "publishedOn": "2023-06-20T04:00:00.000Z",
-          "wordCount": 6235,
-          "title": "SMS Carrier Partner Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Jun 20, 21:00 PDT  -  Jun 21, 03:00 PDT\nJun 16, 16:36 PDT\nScheduled - The T-Mobile network in the US is conducting a planned maintenance from 20 June 2023 at 21:00 PDT until 21 June 2023 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
+          "link": "https://status.twilio.com/incidents/mp4ysn91np9c",
+          "publishedOn": "2023-06-21T04:00:00.000Z",
+          "wordCount": 6277,
+          "title": "US SMS Carrier Maintenance - T-Mobile",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/7jcl4xgsd3r9",
+          "id": "https://status.twilio.com/incidents/sh431zvdkwxx",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 19, 21:00 PDT  -  Jun 22, 21:00 PDT\nJun  5, 16:48 PDT\nScheduled - Our carrier partner in the US is conducting a planned maintenance from 19 June 2023 at 21:00 PDT until 06 July 2023 at 21:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from Verizon US handsets when sending via US shortcode\n\nNote, the maintenance will be carried out on each of the following dates and times:\n19 June 2023 at 21:00 PDT until 20 June 2023 at 21:00 PDT\n\n27 June 2023 at 21:00 PDT until 28 June 2023 at 21:00 PDT\n\n05 July 2023 at 21:00 PDT until 06 July 2023 at 21:00 PDT",
-          "link": "https://status.twilio.com/incidents/7jcl4xgsd3r9",
-          "publishedOn": "2023-06-20T04:00:00.000Z",
-          "wordCount": 6310,
-          "title": "US SMS and MMS Carrier Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Jun 20, 21:00 PDT  -  Jun 21, 04:00 PDT\nJun 16, 16:03 PDT\nScheduled - The AT&T network in the US is conducting a planned maintenance from 20 June 2023 at 21:00 PDT until 21 June 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from AT&T US handsets.",
+          "link": "https://status.twilio.com/incidents/sh431zvdkwxx",
+          "publishedOn": "2023-06-21T04:00:00.000Z",
+          "wordCount": 6285,
+          "title": "US SMS and MMS Carrier Maintenance - AT&T",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/rjmkxd7zghkd",
+          "id": "https://status.twilio.com/incidents/3w3ws675pnhs",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 19, 19:00 - 23:00 PDT\nJun 19, 14:41 PDT\nScheduled - Our carrier partner Verizon Wireless US is conducting an emergency maintenance from 19 June 2023 at 19:00 PDT until 19 June 2023 at 23:00 PDT. During the maintenance window, there could be intermittent API request failures for Verizon Wireless US customers.\nImpacted Products: SNA, Lookup SIM Swap and Identity Match.",
-          "link": "https://status.twilio.com/incidents/rjmkxd7zghkd",
-          "publishedOn": "2023-06-20T02:00:00.000Z",
-          "wordCount": 6260,
-          "title": "United States Account Security Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/jpqswvqdh7vq",
-          "author": null,
-          "description": "Jun 19, 17:21 PDT\nMonitoring - We are seeing recovery on the issue where customers experience lag when integrating Flex and WFM. We will continue monitoring the service to ensure a full recovery. We will provide another update in 30 minutes or as soon as more information becomes available.\nJun 19, 16:21 PDT\nUpdate - Customers experiencing lag when integrating Flex and WFM. Our engineers are internally working to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nJun 19, 14:43 PDT\nInvestigating - Our monitoring systems have detected a potential issue with Flex. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/jpqswvqdh7vq",
-          "publishedOn": "2023-06-20T00:21:53.000Z",
-          "wordCount": 6319,
-          "title": "Consumer Lag in Flex WFM Aggregator Role",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/7sy3k0jhl8dg",
-          "author": null,
-          "description": "Jun 19, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 19, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 15, 07:34 PDT\nScheduled - The Beeline network in Russia is conducting a planned maintenance from 19 June 2023 at 14:00 PDT until 19 June 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.",
-          "link": "https://status.twilio.com/incidents/7sy3k0jhl8dg",
-          "publishedOn": "2023-06-20T00:00:19.000Z",
-          "wordCount": 6272,
-          "title": "Russia SMS Carrier Maintenance - Beeline",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/4075b954ht31",
-          "author": null,
-          "description": "Jun 19, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 19, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun  2, 04:48 PDT\nScheduled - The Tele2 Network in Russia is conducting a planned maintenance From 19 June 2023 at 13:00 PDT until 19 June 2023 at 17:00 PDT. During the maintenance window. There could be intermittent delays delivering SMS to and from Tele2 Russia handsets",
-          "link": "https://status.twilio.com/incidents/4075b954ht31",
-          "publishedOn": "2023-06-20T00:00:05.000Z",
-          "wordCount": 6269,
+          "description": "Jun 20, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 20, 13:03 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 20, 07:59 PDT\nScheduled - The Tele2 network in Russia is conducting an emergency maintenance from 20 June 2023 at 13:00 PDT until 20 June 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Tele2 Russia handsets",
+          "link": "https://status.twilio.com/incidents/3w3ws675pnhs",
+          "publishedOn": "2023-06-21T00:00:30.000Z",
+          "wordCount": 6275,
           "title": "Russia SMS Carrier Maintenance - Tele2",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/191b73vlryrz",
+          "id": "https://status.twilio.com/incidents/tpk3c65wq3xt",
           "author": null,
-          "description": "Jun 19, 16:57 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Movistar network in Costa Rica. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 19, 15:57 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Movistar network in Costa Rica. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/191b73vlryrz",
-          "publishedOn": "2023-06-19T23:57:04.000Z",
-          "wordCount": 6300,
-          "title": "SMS Delivery Delays to Movistar Network in Costa Rica",
+          "description": "Jun 20, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 19, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 16, 01:43 PDT\nScheduled - The MTS network in Russia is conducting a planned maintenance from 19 June 2023 at 14:00 PDT until 20 June 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from MTS Russia handsets.\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n19 June 2023 at 14:00 PDT until 19 June 2023 at 16:00 PDT\n\n20 June 2023 at 14:00 PDT until 20 June 2023 at 17:00 PDT",
+          "link": "https://status.twilio.com/incidents/tpk3c65wq3xt",
+          "publishedOn": "2023-06-21T00:00:20.000Z",
+          "wordCount": 6313,
+          "title": "Russia SMS Carrier Maintenance - MTS",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/7f2x37lwsk8p",
+          "id": "https://status.twilio.com/incidents/9xg2c3gxrv2m",
           "author": null,
-          "description": "Jun 19, 15:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 15, 16:17 PDT\nScheduled - The A1, MTS and Life Network in Belarus is conducting a planned maintenance from 19 June 2023 at 15:00 PDT until 19 June 2023 at 20:00 PDT. During the maintenance window. There could be intermittent delays delivering SMS to and from A1, MTS and Life handsets.",
-          "link": "https://status.twilio.com/incidents/7f2x37lwsk8p",
-          "publishedOn": "2023-06-19T22:00:24.000Z",
-          "wordCount": 6270,
-          "title": "Belarus SMS Carrier Maintenance - A1, MTS, Life",
+          "description": "Jun 20, 15:58 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to multiple networks in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 20, 12:27 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to multiple networks in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nJun 20, 10:33 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to multiple networks in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 20, 09:26 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to multiple networks in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/9xg2c3gxrv2m",
+          "publishedOn": "2023-06-20T22:58:00.000Z",
+          "wordCount": 6403,
+          "title": "SMS Delivery Delays to Multiple Networks in Brazil",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/462k7gl22pvz",
+          "id": "https://status.twilio.com/incidents/92h7wvb4rf16",
           "author": null,
-          "description": "Jun 19, 14:01 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 19, 10:30 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 17, 15:35 PDT\nScheduled - Our Global Carrier Partner 3ID is conducting an emergency maintenance from 19 June 2023 at 10:30 PDT until 19 June 2023 at 14:00 PDT. During the maintenance window, there could be intermittent API request failures for the following destinations: Indonesia.\nImpacted Products - Carrier\nSilent Network Authentication (SNA) - 3 Indonesia.",
-          "link": "https://status.twilio.com/incidents/462k7gl22pvz",
-          "publishedOn": "2023-06-19T21:01:12.000Z",
-          "wordCount": 6285,
-          "title": "Global Account Security Carrier Partner Maintenance - 3ID",
+          "description": "Jun 20, 15:52 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Bouygues Telecom network in France. This incident has been resolved.\nJun 20, 13:45 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Bouygues Telecom network in France. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 20, 11:52 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Bouygues Telecom network in France. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 20, 10:47 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Bouygues Telecom network in France. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/92h7wvb4rf16",
+          "publishedOn": "2023-06-20T22:52:02.000Z",
+          "wordCount": 6383,
+          "title": "SMS Delivery Delays to Bouygues Telecom Network in France",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/c9wr61y0ht7z",
+          "id": "https://status.twilio.com/incidents/fj6p8xwnj48n",
           "author": null,
-          "description": "Jun 19, 14:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 19, 10:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 18, 23:19 PDT\nScheduled - The Viettel network in the Vietnam is conducting a planned maintenance from 19 June 2023 at 10:00 PDT until 19 June 2023 at 14:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Viettel Vietnam handsets.",
-          "link": "https://status.twilio.com/incidents/c9wr61y0ht7z",
-          "publishedOn": "2023-06-19T21:00:54.000Z",
-          "wordCount": 6274,
-          "title": "Vietnam SMS Carrier Maintenance - Viettel",
+          "description": "Jun 20, 15:13 PDT\nResolved - We have fully investigated the issue with SMS delivery delays to Tigo Network in Colombia over a subset of short codes, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.\nJun 20, 14:41 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS delivery delays to Tigo Network in Colombia over a subset of short codes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/fj6p8xwnj48n",
+          "publishedOn": "2023-06-20T22:13:47.000Z",
+          "wordCount": 6332,
+          "title": "Automated Alert: Minimal Customer Impact - SMS Delivery Delays to Tigo Network in Colombia Over a Subset of Short Codes",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/fytwx4947yzf",
+          "author": null,
+          "description": "Jun 20, 15:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 20, 13:02 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 19, 02:18 PDT\nScheduled - The Beeline network in Russia is conducting an emergency maintenance from 20 June 2023 at 13:00 PDT until 20 June 2023 at 15:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.",
+          "link": "https://status.twilio.com/incidents/fytwx4947yzf",
+          "publishedOn": "2023-06-20T22:00:44.000Z",
+          "wordCount": 6275,
+          "title": "Russia SMS Carrier Maintenance - Beeline",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/kskyf5qzqh0j",
+          "author": null,
+          "description": "Jun 20, 11:15 PDT\nResolved - Call drops and failures are operating normally at this time. Therefore, we're resolving this incident post.\nJun 20, 10:43 PDT\nMonitoring - We have identified the issue with call drops and failures, and have started to see recovery. Customers using the  instruction in their call flow may have experienced issues including call drops and failures to bridge calls. We expect to provide another update in 30 minutes or as soon as more information becomes available.\nJun 20, 09:14 PDT\nUpdate - We are investigating dequeue calls drop issues. Customers may experience calls dropped very shortly after connecting. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJun 20, 08:47 PDT\nInvestigating - Our monitoring systems have detected a potential issue with dequeue calls. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/kskyf5qzqh0j",
+          "publishedOn": "2023-06-20T18:15:29.000Z",
+          "wordCount": 6350,
+          "title": "Intermittent Dequeue Call Drops Issues",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/0fgyfkgzr13c",
+          "author": null,
+          "description": "Jun 20, 10:17 PDT\nResolved - We continue investigating intermittent call initiation failures with conference calls in Flex. However, since we’ve already created a report, we’ll resolve this post, and we’ll continue to provide updates at https://status.twilio.com/incidents/kskyf5qzqh0j.\nJun 20, 09:01 PDT\nUpdate - We are investigating intermittent call initiation failures with conference calls in Flex. We expect to provide another update in 1 hour or as soon as more information becomes available\nJun 20, 08:44 PDT\nInvestigating - Our monitoring systems have detected a potential issue with Conference calls in Flex services. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/0fgyfkgzr13c",
+          "publishedOn": "2023-06-20T17:17:06.000Z",
+          "wordCount": 6301,
+          "title": "Intermittent Conference Calls Failures",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/7t7pyztvlzf0",
+          "author": null,
+          "description": "Jun 20, 09:05 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to AmericaNet network in Brazil. This incident has been resolved.\nJun 20, 07:04 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to AmericaNet network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 20, 06:08 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to AmericaNet network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/7t7pyztvlzf0",
+          "publishedOn": "2023-06-20T16:05:01.000Z",
+          "wordCount": 6326,
+          "title": "SMS Delivery Delays to AmericaNet Network in Brazil",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -217,7 +227,7 @@
           "description": "Jun 16, 19:00 UTC\nResolved - From 19:12 - 19:40 UTC, we experienced an issue with Volumes and Snapshots endpoints. During that time, we saw elevated 500 errors and a subset of users experienced latency or errors while loading the Volumes or Images tab in the Cloud Control Panel. A subset of users also experienced errors in both the Cloud Control Panel and the API for CRUD (create, read, update, and delete) operations on Volumes and Snapshots. \nOur Engineering team was able to identify the root cause and quickly deployed a configuration fix to resolve the situation.  \nWe apologize for the inconvenience. If you are still experiencing any problems or have additional questions, please open a support ticket within your account.",
           "link": "https://status.digitalocean.com/incidents/7dgq9yz9ch1n",
           "publishedOn": "2023-06-16T19:00:00.000Z",
-          "wordCount": 5079,
+          "wordCount": 5085,
           "title": "Elevated Error Rate for Volumes and Snapshots",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -227,7 +237,7 @@
           "description": "Jun 15, 03:37 UTC\nResolved - Our Engineering team has confirmed the full resolution of the issue impacting networking in our European regions.\nFrom 16:40 UTC to 02:10 UTC, Users may have experienced network timeouts, packet loss, and/or increased latency interacting with the resources in these regions (AMS2/3, FRA1 & LON1).\nIf you continue to experience problems, please open a ticket with our Support team. Thank you for your patience and we apologize for the inconvenience.\nJun 15, 02:40 UTC\nMonitoring - The network issues affecting our European regions have been mitigated. Users should no longer experience packet loss/latency, timeouts, and related issues with Droplet-based services in those regions, including Droplets, Managed Kubernetes, and Managed Database.\nWe will continue to monitor network conditions for a period of time to establish a return to pre-incident conditions.\nJun 15, 01:26 UTC\nUpdate - Our engineering team continues to investigate the ongoing issues impacting the networking in our European data centres including AMS2/3, FRA1 & LON1 regions. During this time, you may experience intermittent packet loss or increased latency while interacting with the resources in these regions. We apologize for the inconvenience and will share an update once we have more information.\nJun 14, 20:06 UTC\nInvestigating - From 16:40 UTC our Engineering team is investigating an issue impacting the networking in our European data centers including AMS2/3, FRA1 & LON1 regions. During this time, you may experience intermittent packet loss or increased latency while interacting with the resources in these regions.\nAt the moment, all the droplet-based services appear to be impacted and the users can expect to see brief connectivity issues and interrupted traffic flows. This will also be impacting services including Spaces and Managed Databases. \nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/1d5qv6pmsv6b",
           "publishedOn": "2023-06-15T03:37:51.000Z",
-          "wordCount": 5268,
+          "wordCount": 5274,
           "title": "Networking in Europe Datacenters (AMS, FRA, LON)",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -237,7 +247,7 @@
           "description": "Jun 12, 17:44 UTC\nResolved - From 04:30 to 09:30 UTC, our Engineering team observed issues with DigitalOcean Container Registry in SGP1 and FRA1 regions. During this time, users might have experienced errors while interacting with their registries in SGP1 and FRA1 regions. Users might also have experienced latency in pushing/pulling images to/from registries.\nOur Engineering team has observed that the impact has been mitigated. As of 17:20 UTC, users should no longer experience any issues with pushing/pulling images to/from their registries in SGP1 and FRA1 regions. We apologize for the inconvenience. If you are still experiencing any problems or have additional questions, please open a support ticket within your account.",
           "link": "https://status.digitalocean.com/incidents/rptq6jh8ljd7",
           "publishedOn": "2023-06-12T17:44:00.000Z",
-          "wordCount": 5065,
+          "wordCount": 5071,
           "title": "Container Registry in FRA1 and SGP1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -247,7 +257,7 @@
           "description": "Jun  8, 22:53 UTC\nResolved - Our Engineering team has confirmed that the issue impacting the modification of the DNS records for the existing domains via the Cloud Control Panel is fully resolved. \nIf you continue to experience problems please open a ticket with our support team. Thank you for your patience and we apologize for the inconvenience.\nJun  8, 22:31 UTC\nMonitoring - Our engineering team has implemented a fix to resolve the issue that affected the modification of the DNS records for the existing domains via the Cloud Control Panel. Users should now be able to modify or create new DNS records for the domains within their Cloud Control Panel.\nWe are monitoring the situation and will post another update once we confirm it is fully resolved.\nJun  8, 21:56 UTC\nInvestigating - Our Engineering team is investigating an issue with modifying or creating new DNS records in our Cloud Control Panel for the existing domains. \nDuring this time, some users may experience issues editing the DNS records from within the Cloud Control Panel and also when navigating through the tabs available in the domain section. Users should be able to modify or add new DNS records to the existing domains using the API.\nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/5jvv4xltnbk7",
           "publishedOn": "2023-06-08T22:53:00.000Z",
-          "wordCount": 5187,
+          "wordCount": 5193,
           "title": "Modifying DNS records via Cloud Control Panel",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -257,7 +267,7 @@
           "description": "Jun  8, 08:00 UTC\nCompleted - The scheduled maintenance has been completed.\nJun  8, 04:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun  8, 03:08 UTC\nScheduled - Start time: 2023-06-08 04:00 UTC\nEnd time: 2023-06-08 08:00 UTC\nDuring the above window, our Networking team will be performing maintenance on core switches in our NYC3 datacenter as a part of network upgrades.\nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of connectivity. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket .",
           "link": "https://status.digitalocean.com/incidents/tw85s4rhwpqm",
           "publishedOn": "2023-06-08T08:00:22.000Z",
-          "wordCount": 5111,
+          "wordCount": 5117,
           "title": "NYC3 Network Maintenance 2023-06-08 04:00 UTC",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -267,7 +277,7 @@
           "description": "Jun  1, 03:01 UTC\nCompleted - The scheduled maintenance has been completed.\nJun  1, 01:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 31, 23:11 UTC\nScheduled - Start: 2023-06-01 01:00 UTC\nEnd: 2023-06-01 05:00 UTC\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the SFO2 region. This will be the second of the two maintenance activities performed by our team in the region on consecutive days.\nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket .",
           "link": "https://status.digitalocean.com/incidents/r8yz7801sh9w",
           "publishedOn": "2023-06-01T03:01:07.000Z",
-          "wordCount": 5139,
+          "wordCount": 5145,
           "title": "SFO2 Network Maintenance 2023-06-01 01:00 UTC Phase 2",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -277,7 +287,7 @@
           "description": "May 31, 04:04 UTC\nCompleted - The scheduled maintenance has been completed.\nMay 31, 01:30 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 31, 01:26 UTC\nScheduled - Start: 2023-05-31 01:00 UTC\nEnd: 2023-05-31 05:00 UTC\n\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the SFO2 region. This maintenance will occur in two parts on consecutive days and we will send another maintenance notice for the second phase. \nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket .",
           "link": "https://status.digitalocean.com/incidents/4rf2j2dmc382",
           "publishedOn": "2023-05-31T04:04:49.000Z",
-          "wordCount": 5126,
+          "wordCount": 5132,
           "title": "SFO2 Network Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -287,7 +297,7 @@
           "description": "May 31, 02:25 UTC\nResolved - Our Engineering team has confirmed the full resolution of the issue impacting Spaces performance and availability in our NYC3 region.\nFrom 00:20 to 00:57 UTC, users may have experienced slowness or timeouts when trying to access or manage their Spaces resources in NYC3, static site assets in NYC, or App Platform bandwidth insights.\nSpaces should now be operating normally. If you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel. We apologize for any inconvenience.\nMay 31, 01:47 UTC\nMonitoring - Our Engineering team has observed recovery of availability for Spaces in our NYC3 region. \nAvailability returned to 100% at 00:57 UTC and since then, users should not be experiencing any issues with Spaces or App Platform. \nWe'll now monitor the situation for a period of time and post a final update once we confirm the incident is resolved.\nMay 31, 01:05 UTC\nInvestigating - Our Engineering team is investigating a drop in availability for Spaces in our NYC region. During this time, some users may experience errors with API or object requests, be unable to create new buckets in NYC3, and/or see issues with loading Spaces in the Cloud Control Panel. \nAdditionally, users of App Platform will be unable to see bandwidth insights in their dashboards and static site users may notice errors fetching assets from Spaces buckets in NYC3. \nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/vmxnj2vv4k9k",
           "publishedOn": "2023-05-31T02:25:35.000Z",
-          "wordCount": 5212,
+          "wordCount": 5218,
           "title": "Spaces API Availability in NYC3",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -297,7 +307,7 @@
           "description": "May 28, 19:16 UTC\nResolved - Our Engineering team has continued to actively monitor the situation resulting from multiple subsea fiber faults in the APAC region. Over the last few days, our team has continued to make routing changes where possible. \nCrews have been able to complete some cable repairs and we expect to see our network routing stabilize once the repair of a few more cables are completed in the coming weeks. Until then, we expect to see intermittent periods of packet loss and latency on network routes between Singapore and New York City, as well as Singapore and Toronto. These are normally short-lived and happen during Singapore business hours when traffic is heavy. \nGiven the relative stability of routes, we will now close out this incident and provide any needed updates sepa…",
           "link": "https://status.digitalocean.com/incidents/qbszx5q5dd19",
           "publishedOn": "2023-05-28T19:16:27.000Z",
-          "wordCount": 5518,
+          "wordCount": 5524,
           "title": "Subsea Fiber Faults in the APAC region",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -307,7 +317,7 @@
           "description": "May 26, 02:38 UTC\nResolved - As of 02:10 UTC, Our Engineering team has confirmed that the issue with our Container Registry services in the SFO3 region has been fully resolved. \nAll operations should now be operating normally with our Container Registry services. If you continue to experience any trouble with these services please open a ticket with our support team. \nThank you for your patience and we apologize for the inconvenience.\nMay 25, 23:31 UTC\nMonitoring - As of 22:10 UTC, Our engineering team has implemented a fix to resolve the issue with our Container Registry services in the SFO3 region and is monitoring the situation closely. \nUsers should no longer see 500-type errors when uploading/pushing/deleting images, slow cleanup operations, creation failures for new registries, or other errors when interacting with registries in the SFO3 region. \nWe are going to continue to monitor the situation and will post an update once we are confident this issue will not recur.\nMay 25, 16:20 UTC\nInvestigating - We are observing some customer reports for issues with DigitalOcean Container Registries in the SFO3 region. Our Engineering team is investigating any potential issues that are causing these reports. This seems to be a reoccurrence of the incident mentioned in the below link:\nhttps://status.digitalocean.com/incidents/mmngtxzmm6gs  \nAt this time, users may see 500 type errors when uploading/pushing/deleting images, slow cleanup operations, creation failures for new registries, or other errors when interacting with registries in SFO3. \nWe will post an update as soon as we have further information. Thank you for your patience.",
           "link": "https://status.digitalocean.com/incidents/93nbbqq83slf",
           "publishedOn": "2023-05-26T02:38:56.000Z",
-          "wordCount": 5214,
+          "wordCount": 5220,
           "title": "Container Registry in SFO3",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -317,7 +327,7 @@
           "description": "May 25, 09:45 UTC\nResolved - Our Engineering team has confirmed the full resolution of this incident.\nFrom 06:00 - 08:00 UTC, users were unable to create and deploy new Apps and experienced errors when updating, and deploying existing Apps. The App deployments should now be operating normally.\nIf you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel.\nMay 25, 09:20 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue with App deployments in the SFO region and is monitoring the situation. We will post an update as soon as the issue is fully resolved.\nMay 25, 08:47 UTC\nIdentified - Our Engineering team has identified the cause of the issue with network latency that is impacting the management and creation of Apps in the SFO region and is actively working on a fix. During this time, a subset of users might see errors when updating and deploying new/existing Apps. We will post an update as soon as additional information is available.\nMay 25, 08:30 UTC\nInvestigating - Our Engineering team is investigating an issue with network latency that is impacting the management and creation of Apps in the SFO region. As of 06:00 UTC, users are unable to create and deploy new Apps and may see errors when updating, and deploying existing Apps. At this time, previously deployed running Apps are not impacted. We apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/kg0b7wl8mshl",
           "publishedOn": "2023-05-25T09:45:27.000Z",
-          "wordCount": 5220,
+          "wordCount": 5226,
           "title": "App Platform Deployments in SFO region",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -327,7 +337,7 @@
           "description": "May 25, 02:49 UTC\nResolved - Our Engineering team has identified the root cause of the incident to be multiple DB calls causing DB contention. During this time, users might have experienced issues interacting and authenticating with the DigitalOcean Container Registry, creating new container registries, and pushing/deleting images to/from registries.\nAs of 00:10 UTC, we have confirmed the full resolution of the issue affecting the DigitalOcean Container Registry in the SFO3 region. We appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.\nMay 24, 22:53 UTC\nUpdate - Our Engineering team continues to investigate the root cause of this incident but has observed a reduction in the error rate with DigitalOcean Container Registry in the SFO3 region.\nAt this time, users should no longer experience errors while interacting and authenticating with the DigitalOcean Container Registry, creating new container registries, and pushing/deleting images to/from registries.\nWe will post an update as soon as we have further information. Thank you for your patience.\nMay 24, 19:28 UTC\nInvestigating - Following an uptick in customer reports of issues with DigitalOcean Container Registries in SFO3, our Engineering team is investigating any potential issues that are causing these reports. \nAt this time, users may see 500 type errors when uploading/pushing/deleting images, slow cleanup operations, creation failures for new registries, or other errors when interacting with  registries in SFO3. \nWe will post an update as soon as we have further information. Thank you for your patience.",
           "link": "https://status.digitalocean.com/incidents/mmngtxzmm6gs",
           "publishedOn": "2023-05-25T02:49:34.000Z",
-          "wordCount": 5211,
+          "wordCount": 5217,
           "title": "Container Registry in SFO3",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -337,7 +347,7 @@
           "description": "May 24, 21:30 UTC\nResolved - As of 21:15 UTC, Our Engineering team has confirmed the full resolution of this incident. We have verified that the Snapshot and Backup events in the SGP1 region are processing without any failures and we will now mark this issue as resolved. \nThank you for your patience and understanding throughout this process. If you should encounter any further issues at all, then please open a ticket with our Support team.\nMay 24, 21:05 UTC\nUpdate - We are continuing to monitor for any further issues.\nMay 24, 20:44 UTC\nMonitoring - As of 19:30 UTC, Our Engineering team was able to take action to mitigate the impact of this incident and allow Snapshot and Backup events to process normally in the SGP1 region. We will post an update as soon as the issue is fully resolved. \nPlease note that while the situation has improved, there may still be a backlog of older events that are in the process of being resolved. We kindly ask for your patience as our team works diligently to address these remaining events. \nWe apologize for any inconvenience caused and assure you that we are committed to resolving all outstanding issues.\nMay 24, 19:20 UTC\nInvestigating - As of 13:30 UTC our Engineering team is investigating an issue with intermittent Snapshot and Backup failures in our SGP1 region. Users may experience errors when performing Snapshots, but may eventually see retries succeed. \nAny Backup failures are automatically being retried within the Backup window for individual Droplets. \nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/y3033ln7n73w",
           "publishedOn": "2023-05-24T21:30:01.000Z",
-          "wordCount": 5237,
+          "wordCount": 5243,
           "title": "Snapshots and Backups Failure in SGP1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -347,7 +357,7 @@
           "description": "May 24, 18:35 UTC\nCompleted - The scheduled maintenance has been completed.\nMay 24, 16:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 24, 15:05 UTC\nScheduled - Start: 2023-05-24 16:00 UTC\nEnd:  2023-05-24 20:00 UTC\n\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the AMS3 region. This will be the final phase of the three maintenance activities performed by our team in AMS3 on consecutive days.\nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket .",
           "link": "https://status.digitalocean.com/incidents/gqtn5dtkstzg",
           "publishedOn": "2023-05-24T18:35:49.000Z",
-          "wordCount": 5130,
+          "wordCount": 5136,
           "title": "AMS3 Network Maintenance Phase 3",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -357,7 +367,7 @@
           "description": "May 24, 11:10 UTC\nResolved - Our engineering team has confirmed the full resolution of this issue. From approximately 09:05 UTC - 10:40 UTC, users were seeing errors when attempting to create new Functions, invoking or updating existing deploys. Functions should now be operating normally. If you continue to experience problems, please open a ticket with our support team. Thank you for your patience and we apologize for any inconvenience.\nMay 24, 10:50 UTC\nMonitoring - Our Engineering team has deployed a fix to resolve an issue with Serverless Functions in the NYC1 region. All users should be able to create new Functions, invoking or updating existing deploys should be operational. We are monitoring the situation closely and will share an update once the issue is resolved completely.\nMay 24, 10:34 UTC\nIdentified - Our Engineering team has identified the cause of the issue with Serverless Functions in the NYC1 region and is actively working on a fix. During this time users may see errors when attempting to create new Functions, as well as when invoking or updating existing deploys. We will post an update as soon as additional information is available.\nMay 24, 10:09 UTC\nInvestigating - As of 09:05 UTC, our Engineering team is investigating an issue with Serverless Functions in the NYC1 region. Users may see errors when attempting to create new Functions, as well as when invoking or updating existing deploys in the NYC1 region. We apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/6z8tp8bvmpkj",
           "publishedOn": "2023-05-24T11:10:47.000Z",
-          "wordCount": 5217,
+          "wordCount": 5223,
           "title": "Creates on Functions in NYC1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -367,7 +377,7 @@
           "description": "May 23, 19:11 UTC\nCompleted - The scheduled maintenance has been completed.\nMay 23, 16:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 23, 15:20 UTC\nScheduled - Start: 2023-05-23 16:00 UTC\nEnd: 2023-05-23 20:00 UTC\n\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the AMS3 region. This will be the second of three maintenance activities performed by our team in AMS3 on consecutive days.\nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket .",
           "link": "https://status.digitalocean.com/incidents/xhrg6p90g0yv",
           "publishedOn": "2023-05-23T19:11:07.000Z",
-          "wordCount": 5137,
+          "wordCount": 5143,
           "title": "AMS3 Network Maintenance 2023-05-23 16:00 UTC Phase 2",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -377,7 +387,7 @@
           "description": "May 22, 19:30 UTC\nCompleted - The scheduled maintenance has been completed.\nMay 22, 16:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 22, 15:20 UTC\nScheduled - Start: 2023-05-22 16:00 UTC\nEnd: 2023-05-22 20:00 UTC\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the AMS3 region. This maintenance will occur in three parts on consecutive days, and we will send other maintenance notices for the second and third phases. \nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket .",
           "link": "https://status.digitalocean.com/incidents/6gkqfc6j4jq5",
           "publishedOn": "2023-05-22T19:30:09.000Z",
-          "wordCount": 5143,
+          "wordCount": 5149,
           "title": "AMS3 Network Maintenance 2023-05-22 16:00 UTC Phase 1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
@@ -431,7 +441,7 @@
           "description": "Jun  7, 13:43 UTC\nResolved - This incident has been resolved.\nJun  6, 20:27 UTC\nUpdate - We are continuing to monitor for any further issues.\nJun  6, 18:43 UTC\nMonitoring - Google has implemented a fix and we are monitoring the results. Customers should be able to add new licenses and transfer subscriptions via the Google Workspace App in Rippling.\nJun  5, 22:07 UTC\nIdentified - We are continuing to work with Google to resolve an issue that is affecting our integration.\nJun  5, 17:32 UTC\nInvestigating - Customers are currently unable to add new licenses and transfer subscriptions via the Google Workspace App in Rippling. We are currently working with Google to resolve this issue.",
           "link": "https://status.rippling.com/incidents/tvr7l7344y0y",
           "publishedOn": "2023-06-07T13:43:53.000Z",
-          "wordCount": 4146,
+          "wordCount": 4152,
           "title": "Issues with the Google Workspace integration",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         }
@@ -749,16 +759,6 @@
           "description": "May 25, 09:00 CEST\nCompleted - The scheduled maintenance has been completed.\nMay 25, 08:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 23, 15:00 CEST\nScheduled - We would like to inform you about a scheduled maintenance window that will be taking place on 25th May between 08:00 CEST - 09:00 CEST.\nDuring this maintenance period, there will be a short interruption resulting in the unavailability of the login page and organizations page. \nHowever, we assure you that there will be no data loss and all scenarios will continue running properly.\nWe apologize for any inconvenience caused and appreciate your understanding.",
           "link": "https://status.make.com/incidents/zgjx54wdw2y9",
           "publishedOn": "2023-05-25T07:00:25.000Z",
-          "wordCount": 3365,
-          "title": "Scheduled maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/drg7g8lyvk6c",
-          "author": null,
-          "description": "May 22, 10:00 CEST\nCompleted - The scheduled maintenance has been completed.\nMay 22, 09:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 18, 13:23 CEST\nScheduled - We would like to inform you about a scheduled maintenance window that will be taking place on 22nd May between 09:00 CEST - 10:00 CEST.\nDuring this maintenance period, there will be a short interruption resulting in the unavailability of the login page and organizations page. \nHowever, we assure you that there will be no data loss and all scenarios will continue running properly.\nWe apologize for any inconvenience caused and appreciate your understanding.",
-          "link": "https://status.make.com/incidents/drg7g8lyvk6c",
-          "publishedOn": "2023-05-22T08:00:25.000Z",
           "wordCount": 3365,
           "title": "Scheduled maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
