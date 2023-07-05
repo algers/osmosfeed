@@ -1,111 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-07-04T00:27:03.937Z</id>
+    <id>urn:2023-07-05T00:27:38.502Z</id>
     <title>osmos::feed</title>
-    <updated>2023-07-04T00:27:03.937Z</updated>
+    <updated>2023-07-05T00:27:38.502Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Kazakhstan SMS Carrier Maintenance - Tele2 and Altel]]></title>
-        <id>https://status.twilio.com/incidents/l59njxw2xgrf</id>
-        <link href="https://status.twilio.com/incidents/l59njxw2xgrf"/>
-        <updated>2023-07-04T00:00:34.000Z</updated>
-        <summary type="html"><![CDATA[Jul  3, 17:00 PDT
-Completed - The scheduled maintenance has been completed.
-Jul  3, 13:02 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jun 30, 04:40 PDT
-Scheduled - The Tele2 and Altel networks in Kazakhstan is conducting a Planned maintenance from 03 July 2023 at 13:00 PDT until 03 July 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Tele2 and Altel Kazakhstan handsets.]]></summary>
+        <title type="html"><![CDATA[FRA1 Power Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/ydd314cpt9fk</id>
+        <link href="https://status.digitalocean.com/incidents/ydd314cpt9fk"/>
+        <updated>2023-07-05T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jul 5, 10:00 - 14:00 UTC
+Jul  4, 16:53 UTC
+Scheduled - Start: 2023-07-05  10:00 AM UTC
+End: 2023-07-05   14:00 PM UTC 
+Hello, 
+During the above window, our Engineering team will be performing maintenance on redundant upstream electrical systems in order to improve reliability in our FRA1 region.
+Expected Impact:
+We don't expect to see any downtime as the power to hypervisors are redundant. In a highly unlikely situation, where we lose power to both the supplies, the Droplets in FRA1 may experience downtime for a brief period. We will endeavor to keep this to a minimum for the duration of the change.
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket
+Thank you,
+Team DigitalOcean]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mexico SMS Carrier Maintenance - AT&T]]></title>
+        <id>https://status.twilio.com/incidents/m27rz0kf5kdx</id>
+        <link href="https://status.twilio.com/incidents/m27rz0kf5kdx"/>
+        <updated>2023-07-05T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jul 4, 23:00 PDT  -  Jul 5, 05:00 PDT
+Jul  4, 15:06 PDT
+Scheduled - The AT&T network in Mexico is conducting a planned maintenance from 04 July 2023 at 23:00 PDT until 05 July 2023 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Tele2]]></title>
-        <id>https://status.twilio.com/incidents/c745b3p5zlyd</id>
-        <link href="https://status.twilio.com/incidents/c745b3p5zlyd"/>
-        <updated>2023-07-04T00:00:10.000Z</updated>
-        <summary type="html"><![CDATA[Jul  3, 17:00 PDT
-Completed - The scheduled maintenance has been completed.
-Jul  3, 13:01 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jun 29, 06:00 PDT
-Scheduled - The Tele2 network in Russia is conducting a series of planned maintenances from 03 July 2023 at 13:00 PDT until 31 July 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Tele2 Russia handsets.
+        <title type="html"><![CDATA[Mexico SMS Carrier Maintenance - AT&T Mexico]]></title>
+        <id>https://status.twilio.com/incidents/v3xp5z2zbxhc</id>
+        <link href="https://status.twilio.com/incidents/v3xp5z2zbxhc"/>
+        <updated>2023-07-05T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jul 4, 23:00 PDT  -  Jul 5, 05:00 PDT
+Jul  3, 22:02 PDT
+Scheduled - The AT&T network in Mexico is conducting an emergency maintenance from 04 July 2023 at 23:00 PDT until 05 July 2023 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Global Account Security Carrier Partner Maintenance - Three UK]]></title>
+        <id>https://status.twilio.com/incidents/djdwvwczw02r</id>
+        <link href="https://status.twilio.com/incidents/djdwvwczw02r"/>
+        <updated>2023-07-05T04:30:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jul 4, 21:30 PDT  -  Jul 7, 10:30 PDT
+Jul  4, 05:45 PDT
+Scheduled - Our Global Carrier Partner Three UK is conducting a planned maintenance 04 July 2023 at 21:30 PDT until 07 July 2023 at 10:30 PDT. During the maintenance window, there could be intermittent API request failures for Three UK customers.
+Impacted Products: Silent Network Authentication (SNA), Lookup SIM Swap, Identity Match
 
 Note, the maintenance will be carried out on each of the following dates and times:
 
-03 July 2023 at 13:00 PDT until 03 July 2023 at 17:00 PDT
+04 July 2023 at 21:30 PDT until 05 July 2023 at 10:30 PDT
 
-05 July 2023 at 13:00 PDT until 05 July 2023 at 17:00 PDT
+05 July 2023 at 21:30 PDT until 06 July 2023 at 10:30 PDT
 
-10 July 2023 at 13:00 PDT until 10 July 2023 at 17:00 PDT
-
-12 July 2023 at 13:00 PDT until 12 July 2023 at 17:00 PDT
-
-17 July 2023 at 13:00 PDT until 17 July 2023 at 17:00 PDT
-
-19 July 2023 at 13:00 PDT until 19 July 2023 at 17:00 PDT
-
-24 July 2023 at 13:00 PDT until 24 July 2023 at 17:00 PDT
-
-26 July 2023 at 13:00 PDT until 26 July 2023 at 17:00 PDT
-
-31 July 2023 at 13:00 PDT until 31 July 2023 at 17:00 PDT]]></summary>
+06 July 2023 at 21:30 PDT until 07 July 2023 at 10:30 PDT]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Auto-Recharge Triggering Incorrectly]]></title>
-        <id>https://status.twilio.com/incidents/7xvvrz8wdh54</id>
-        <link href="https://status.twilio.com/incidents/7xvvrz8wdh54"/>
-        <updated>2023-07-03T21:59:49.000Z</updated>
-        <summary type="html"><![CDATA[Jul  3, 14:59 PDT
-Resolved - We continue facing an issue with Auto-Recharge triggering firing incorrectly, starting June 13th and are continuing to work to deploy a fix. Taking into consideration the impact of this incident, we are closing this incident post and will reach the impacted customers individually for further follow-ups.
-Jul  2, 17:00 PDT
-Update - Our engineers have identified the issue Auto-Recharge triggers firing incorrectly, starting June 13th and are continuing to work to deploy a fix. As our engineers are continue to monitor the logs, we will provide another update in 24 hours or as soon as more information becomes available.
-Jul  1, 17:00 PDT
-Update - Our engineers have identified the issue Auto-Recharge triggers firing incorrectly, starting June 13th and are working to d…]]></summary>
+        <title type="html"><![CDATA[MMS Delivery Delays or Failures From US Subscribers to a Subset of Twilio's Short Codes]]></title>
+        <id>https://status.twilio.com/incidents/mtncw592t3zc</id>
+        <link href="https://status.twilio.com/incidents/mtncw592t3zc"/>
+        <updated>2023-07-04T22:37:55.000Z</updated>
+        <summary type="html"><![CDATA[Jul  4, 15:37 PDT
+Update - We continue experiencing MMS delivery delays or failures from/to US subscribers to a subset of Twilio short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+Jul  4, 13:44 PDT
+Update - We are continuing our investigation and have discovered MMS delivery delays or fails from/to US subscribers to a subset of Twilio short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Jul  4, 13:05 PDT
+Investigating - We are experiencing MMS delivery delays or failures from US subscribers to a subset of Twilio short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays To Orange Network In Cameroon]]></title>
-        <id>https://status.twilio.com/incidents/xj4wnc45djvp</id>
-        <link href="https://status.twilio.com/incidents/xj4wnc45djvp"/>
-        <updated>2023-07-03T21:57:53.000Z</updated>
-        <summary type="html"><![CDATA[Jul  3, 14:57 PDT
-Resolved - We are no longer experiencing SMS Delivery Delays To Orange Network In Cameroon. This incident has been resolved.
-Jul  3, 13:03 PDT
-Monitoring - We are observing recovery in SMS Delivery Delays To Orange Network In Cameroon.. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jul  3, 07:35 PDT
-Update - We are still experiencing SMS Delivery Delays To Orange Network In Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
-Jul  2, 22:55 PDT
-Update - We are experiencing SMS Delivery Delays To Orange Network In Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
-Jul  2, 19:05 PDT
-Update - We are experiencing SMS Delivery Delays To Orange Network In Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Jul  2, 16:53 PDT
-Update - We continue to experience SMS Delivery Delays To Orange Network In Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Jul  2, 15:53 PDT
-Investigating - We are experiencing SMS Delivery Delays To Orange Network In Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <title type="html"><![CDATA[Iran SMS Carrier Maintenance - Rightel]]></title>
+        <id>https://status.twilio.com/incidents/z0dqs7rkxvxn</id>
+        <link href="https://status.twilio.com/incidents/z0dqs7rkxvxn"/>
+        <updated>2023-07-04T22:32:24.000Z</updated>
+        <summary type="html"><![CDATA[Jul  4, 15:32 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Jul  4, 08:02 PDT
+Scheduled - The Rightel network in Iran is conducting an emergency maintenance from 4 July 2023 at 15:30 PDT until 4 July 2023 at 17:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Rightel Iran handsets when sending via Long code, Alphanumeric, and Registered Sender IDs.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Brazil CTBC Network]]></title>
-        <id>https://status.twilio.com/incidents/1kp07373fnwk</id>
-        <link href="https://status.twilio.com/incidents/1kp07373fnwk"/>
-        <updated>2023-07-03T19:15:48.000Z</updated>
-        <summary type="html"><![CDATA[Jul  3, 12:15 PDT
-Resolved - We are no longer experiencing MS delivery delays when sending messages to Brazil CTBC Network. This incident has been resolved.
-Jul  3, 11:53 PDT
-Update - We are still monitoring the recovery in SMS delivery delays when sending messages to Brazil CTBC Network. We will continue monitoring the service to ensure a full recovery. We will provide another update in 4 hours or as soon as more information becomes available.
-Jul  3, 09:52 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Brazil CTBC Network. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jul  3, 08:52 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Brazil CTBC Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <title type="html"><![CDATA[Issue With Twilio's Status Page Portal where the Internet of Things Section Was Removed]]></title>
+        <id>https://status.twilio.com/incidents/h10f0sqw6j06</id>
+        <link href="https://status.twilio.com/incidents/h10f0sqw6j06"/>
+        <updated>2023-07-04T21:34:04.000Z</updated>
+        <summary type="html"><![CDATA[Jul  4, 14:34 PDT
+Resolved - We have sent notifications to impacted customers subscribed to the “Internet of things” components to recreate any previous subscriptions they had for IoT products.
+Jul  4, 05:38 PDT
+Update - We're still continuing to investigate with our provider if the deleted subscriptions can be restored. In case those subscriptions cannot be restored, you should recreate your subscriptions to Status Page updates for Internet of Things products. We'll give another update in the next 8 hours or so.
+Jul  4, 01:47 PDT
+Update - We're still investigating with our provider if the deleted subscriptions can be restored. In case those subscriptions cannot be restored, you should recreate your subscriptions to Status Page updates for Internet of Things products. We'll give another update in the next 4 hours or so.
+Jul  3, 23:56 PDT
+Update - We're still investigating with our provider if the deleted subscriptions can be restored. In case those subscriptions cannot be restored, you should recreate your subscriptions to Status Page updates for Internet of Things products. We'll give another update in 2 hours.
+Jul  3, 23:52 PDT
+Update - We are continuing to investigate this issue.
+Jul  3, 22:56 PDT
+Investigating - Around 21:00 UTC, the Internet of Things section was removed from the Twilio Status Page. When it was removed, if you were subscribed to Status Page updates for Super SIM & Programmable Wireless, you may have received an email saying you were automatically unsubscribed. We have added the Internet of Things section back to the Status Page; however, subscriptions to Status Page updates were not restored. We are investigating with our provider if the deleted subscriptions can be restored. In case those subscriptions cannot be restored, you should recreate your subscriptions to Status Page updates for Internet of Things products.
+We will give you an update in 1 hour.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Carrier Maintenance - Multiple Countries]]></title>
+        <id>https://status.twilio.com/incidents/1zx1x2zd0fhg</id>
+        <link href="https://status.twilio.com/incidents/1zx1x2zd0fhg"/>
+        <updated>2023-07-04T20:00:29.000Z</updated>
+        <summary type="html"><![CDATA[Jul  4, 13:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Jul  4, 03:02 PDT
+Scheduled - The Etisalat network is conducting an emergency maintenance from 4 July 2023 at 13:00 PDT until 4 July 2023 at 19:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to multiple countries as shown below.
+
+
+Afghanistan
+
+Egypt
+
+United Arab Emirates]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Canada Account Security Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/vpzkj6qprk2j</id>
+        <link href="https://status.twilio.com/incidents/vpzkj6qprk2j"/>
+        <updated>2023-07-04T11:00:04.000Z</updated>
+        <summary type="html"><![CDATA[Jul  4, 04:00 PDT
+Completed - The scheduled maintenance has been completed.
+Jun  7, 22:02 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Jun  6, 09:10 PDT
+Scheduled - Our Carrier Partner Telus CA is conducting a planned maintenance from 07 June 2023 at 22:00 PDT until 04 July 2023 at 04:00 PDT. During the maintenance window, there could be intermittent API request failures for Telus CA customers.
+Impacted Products: Silent Network Authentication (SNA), Lookup SIM Swap, Identity Match
+
+Note, the maintenance will be carried out on each of the following dates and times:
+
+07 June 2023 at 22:00 PDT until 08 June 2023 at 04:00 PDT
+
+14 June 2023 at 22:00 PDT until 15 June 2023 at 04:00 PDT
+
+20 June 2023 at 22:00 PDT until 21 June 2023 at 04:00 PDT
+
+03 July 2023 at 22:00 PDT until 04 July 2023 at 04:00 PDT]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -125,21 +181,6 @@ At the moment, all Droplet-based services appear to be impacted and users can ex
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to a Subset of Twilio France Phone Numbers]]></title>
-        <id>https://status.twilio.com/incidents/pg7mtbzk7lq1</id>
-        <link href="https://status.twilio.com/incidents/pg7mtbzk7lq1"/>
-        <updated>2023-07-03T16:22:34.000Z</updated>
-        <summary type="html"><![CDATA[Jul  3, 09:22 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to a subset of Twilio France Phone Numbers. This incident has been resolved.
-Jul  3, 07:25 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to a subset of Twilio France Phone Numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jul  3, 06:29 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Subset of Twilio France Phone Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Incident: Users may experience slow-to-load threads]]></title>
         <id>https://status.slack.com//2023-06/838a7ee19a81940e</id>
         <link href="https://status.slack.com//2023-06/838a7ee19a81940e"/>
@@ -155,19 +196,6 @@ We stopped the tasks that caused the strain — which resolved the problem for i
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[On Call Engineers Are Investigating an Issue With Voice Overbilling for Use of Agent Conference]]></title>
-        <id>https://status.twilio.com/incidents/v2jf4wc0s2gm</id>
-        <link href="https://status.twilio.com/incidents/v2jf4wc0s2gm"/>
-        <updated>2023-07-03T15:47:06.000Z</updated>
-        <summary type="html"><![CDATA[Jul  3, 08:47 PDT
-Resolved - We have fully investigated the potential issue with Voice overbilling for use of Agent Conference triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
-Jul  3, 08:38 PDT
-Investigating - Our monitoring systems have detected a potential issue with Voice overbilling for use of Agent Conference. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Incident: Trouble with Slack API Website]]></title>
         <id>https://status.slack.com//2023-06/469a7534a9fd990a</id>
         <link href="https://status.slack.com//2023-06/469a7534a9fd990a"/>
@@ -177,25 +205,6 @@ Investigating - Our monitoring systems have detected a potential issue with Voic
 On June 29, 2023 between 12:12 PM PDT and 1:47 PM PDT some users had trouble loading api.slack.com and API documentation was unavailable. This issue was caused due to a code change that resulted in api.slack.com to be broken for users that were not logged in. We quickly reverted the change — resolving the issue for all impacted users.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inbound Call Failures to Spain Phone Numbers]]></title>
-        <id>https://status.twilio.com/incidents/c2nttgc8gyb4</id>
-        <link href="https://status.twilio.com/incidents/c2nttgc8gyb4"/>
-        <updated>2023-07-03T14:31:43.000Z</updated>
-        <summary type="html"><![CDATA[Jul  3, 07:31 PDT
-Resolved - The issue affecting inbound calls to Twilio Spain phone numbers has been resolved, and the service is functioning normally at this time.
-Jul  3, 05:48 PDT
-Monitoring - We have started seeing recovery for inbound calls to Twilio Twilio Spain phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Jul  3, 04:11 PDT
-Update - We are still experiencing call failures to Twilio Spain phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Jul  3, 03:37 PDT
-Update - We are continuing to investigate this issue.
-Jul  3, 03:14 PDT
-Investigating - We are observing call failures to Twilio Spain phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hours or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -229,23 +238,6 @@ We stopped the tasks that caused that strain, which resolved the problem for imp
 Thank you for your patience while we fixed this issue.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Jersey Telecom Network in Jersey]]></title>
-        <id>https://status.twilio.com/incidents/zggy3zc127sm</id>
-        <link href="https://status.twilio.com/incidents/zggy3zc127sm"/>
-        <updated>2023-07-03T09:44:31.000Z</updated>
-        <summary type="html"><![CDATA[Jul  3, 02:44 PDT
-Resolved - We are no longer experiencing SMS delivery delays to Jersey Telecom Network in Jersey. This incident has been resolved.
-Jul  3, 00:55 PDT
-Monitoring - We are observing recovery in SMS delivery delays to Jersey Telecom Network in Jersey. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 or as soon as more information becomes available.
-Jul  2, 23:58 PDT
-Update - We are experiencing SMS delivery delays to Jersey Telecom Network in Jersey. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Jul  2, 23:03 PDT
-Investigating - We are experiencing SMS delivery delays to Jersey Telecom Network in Jersey. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1235,25 +1227,6 @@ Investigating - The notion.so site is down for some users, we are investigating.
 Resolved - Notion was down from around 9:25am - 9:40am Pacific time.  We are still investigating an issue that may be preventing some users from accessing notion.so while not logged in.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Issues with Workflow Builder]]></title>
-        <id>https://status.slack.com//2023-06/f7c5d1e455e95466</id>
-        <link href="https://status.slack.com//2023-06/f7c5d1e455e95466"/>
-        <updated>2023-06-05T09:01:22.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-
-On June 02, 2023 from 3:28 PM PDT to around 5:29 PM PDT, some customers may have experienced large empty spaces in the Workflow Builder UI and issues with publishing/adding or editing steps in a workflow. 
-
-
-We traced the issue to a recent code change which caused the channel selector to appear out of view, resulting in the inability to take certain actions while editing a workflow. 
-
-
-We reverted the change which solved the issue for all customers.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>
