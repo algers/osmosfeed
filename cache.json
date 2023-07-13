@@ -6,6 +6,16 @@
       "siteUrl": "https://changelog.bookingsync.com",
       "articles": [
         {
+          "id": "269393",
+          "author": "Yannick, Customer Care Team Leader - Pro Team",
+          "description": "Improvement\n  \nWe would like to inform you that we will deploy a nice improvement to your websites.\nStarting today, all Smily websites will be under SSL certificates.\nThere is nothing you have to do on your side, this change will be automatic and shall not impact your website’s accessibility.\nWhat does it mean ?\nYour website’s URL will be starting with https:// and no longer http://.\nWhat are the benefits of this change ?\nWebsites are more secured\nBetter user experience\nUsers stay longer and buy more on secured websites\nSites with HTTPS load faster\nHTTPS leads to accurate SEO reporting\nBetter SEO : SSL is a positive ranking factor for Google. Google’s team has expressed the need for HTTPS time and time again. So much so that they’ve released an algorithm update based on it—causing sites without HTTPS security to struggle on their quest to rank highly in the search engines results.\nFeel free to reach out to us if you have any question !",
+          "link": "https://changelog.bookingsync.com/websites-security-improvement-269393",
+          "publishedOn": "2023-07-12T08:31:36.000Z",
+          "wordCount": 393,
+          "title": "Websites security improvement",
+          "imageUrl": null
+        },
+        {
           "id": "269321",
           "author": "Ella, Head of Customer Care and OnBoarding team",
           "description": "Communications\n  \nAs the temperature rises and your guests start packing, the Smily team wanted to take a moment to wish you a wonderful summer season. Our dedicated team is here to support you at every step during the 2023 summer season! 🎉\nAt Smily, we value your partnership and understand the challenges that come with managing vacation rentals. As we enter this busy period together, we would like to share some last-minute tips that can help ensure a successful season for all.\nEmbrace multidiffusion:\nAs many of you may have noticed, the number of reservations received from Airbnb has been on the decline recently. This trend has been noticed by many in the industry. To counter this we highly recommend taking advantage of our integrations with Holidu, Maeva, Locasun/Leboncoin, Cdiscount, a…",
@@ -38,6 +48,16 @@
       "feedUrl": "https://airbnbapi.statuspage.io/history.rss",
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
+        {
+          "id": "https://airbnbapi.statuspage.io/incidents/l6f622b5k1t3",
+          "author": null,
+          "description": "Jul 12, 12:25 PDT\nIdentified - We have identified an issue that caused reservations to be created without associated threads. This occurred between 10:15 PM and 11:29 PM on July 12th (PST), so notifications for reservations created during that time were sent with a null `thread_id` value.\nWe are actively working on creating threads for reservations that do not have them, and will update here afterwards.\nOnce this is done, you will be able to retrieve the `thread_id` value for a reservation using the Reservations API.",
+          "link": "https://airbnbapi.statuspage.io/incidents/l6f622b5k1t3",
+          "publishedOn": "2023-07-12T19:25:20.000Z",
+          "wordCount": 3344,
+          "title": "Reservations Missing Thread Id Values",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://airbnbapi.statuspage.io/incidents/3f2h5b7dp3vj",
           "author": null,
@@ -126,53 +146,83 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/gdk6tznmk337",
+          "id": "https://status.twilio.com/incidents/cq80txvd21rz",
           "author": null,
-          "description": "Jul 11, 16:37 PDT\nInvestigating - We are experiencing MMS delivery delays when sending messages to AT&T in the US from a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/gdk6tznmk337",
-          "publishedOn": "2023-07-11T23:37:18.000Z",
+          "description": "THIS IS A SCHEDULED EVENT Jul 13, 02:00 - 04:00 PDT\nJun 27, 12:00 PDT\nScheduled - A subset of small US networks in the US is conducting a planned maintenance from 13 July 2023 at 02:00 PDT until 13 July 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers.",
+          "link": "https://status.twilio.com/incidents/cq80txvd21rz",
+          "publishedOn": "2023-07-13T09:00:00.000Z",
+          "wordCount": 6258,
+          "title": "US SMS Carrier Maintenance - Small US Carriers",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/ddj73cf5lpbj",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Jul 12, 23:00 PDT  -  Jul 13, 05:00 PDT\nJul  9, 17:24 PDT\nScheduled - The AT&T network in Mexico is conducting a planned maintenance from 12 July 2023 at 23:00 PDT until 13 July 2023 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.",
+          "link": "https://status.twilio.com/incidents/ddj73cf5lpbj",
+          "publishedOn": "2023-07-13T06:00:00.000Z",
+          "wordCount": 6251,
+          "title": "Mexico SMS Carrier Maintenance - AT&T",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/gvn4ndztvwp3",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Jul 12, 21:30 - 22:30 PDT\nJul 11, 15:52 PDT\nScheduled - The MTS network in Russia is conducting a planned maintenance from 12 July 2023 at 21:30 PDT until 12 July 2023 at 22:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from MTS Russia handsets.",
+          "link": "https://status.twilio.com/incidents/gvn4ndztvwp3",
+          "publishedOn": "2023-07-13T04:30:00.000Z",
+          "wordCount": 6247,
+          "title": "Russia SMS Carrier Maintenance - MTS",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/chgzcb6zyyc1",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Jul 12, 21:00 PDT  -  Jul 13, 01:00 PDT\nJul 11, 19:47 PDT\nScheduled - A subset of small US networks in the US is conducting an emergency maintenance from 12 July 2023 at 21:00 PDT until 13 July 2023 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US Carriers.",
+          "link": "https://status.twilio.com/incidents/chgzcb6zyyc1",
+          "publishedOn": "2023-07-13T04:00:00.000Z",
           "wordCount": 6272,
-          "title": "MMS Delivery Delays to AT&T in the US From a Subset of Shortcodes",
+          "title": "US SMS Carrier Maintenance - Small US Carriers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/fvsfdphyr8dr",
+          "id": "https://status.twilio.com/incidents/qq87pcxtwvpm",
           "author": null,
-          "description": "Jul 11, 16:19 PDT\nResolved - The potential issue with TF Verizon traffic billing showing as Standard SMS billing has been resolved.\nJul 11, 16:05 PDT\nUpdate - We are still observing a potential issue with TF Verizon traffic billing showing as Standard SMS billing. Our engineering team has been alerted and is actively investigating. We will update in 2 hours or as soon as we have more information.\nJul 11, 15:05 PDT\nUpdate - Our monitoring systems have detected a potential issue with TF Verizon traffic billing showing as Standard SMS billing. Our engineering team has been alerted and is actively investigating. We will update in 1 hour or as soon as we have more information.\nJul 11, 14:35 PDT\nInvestigating - Our monitoring systems have detected a potential issue with toll free Verizon traffic billed as standard long code traffic. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/fvsfdphyr8dr",
-          "publishedOn": "2023-07-11T23:19:57.000Z",
-          "wordCount": 6367,
-          "title": "Potential Issue With Verizon Traffic Billed as Standard Long Code Traffic",
+          "description": "THIS IS A SCHEDULED EVENT Jul 12, 20:00 PDT  -  Jul 13, 00:00 PDT\nJun 28, 13:23 PDT\nScheduled - Our SMS and MMS carrier partner in the US and Canada is conducting planned maintenance from 12 July 2023 at 20:00 PDT until 13 July 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets via Toll-free numbers.",
+          "link": "https://status.twilio.com/incidents/qq87pcxtwvpm",
+          "publishedOn": "2023-07-13T03:00:00.000Z",
+          "wordCount": 6276,
+          "title": "US and Canada SMS and MMS Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/v8tjqml9s3lj",
+          "id": "https://status.twilio.com/incidents/lldkpnsqlshr",
           "author": null,
-          "description": "Jul 11, 13:04 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to small networks USA over a subset of shortcodes. This incident has been resolved.\nJul 11, 11:04 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Small Networks. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJul 11, 10:18 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Small Networks In USA Over A Subset Of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nJul 11, 10:10 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS Delivery Delays to Small Networks In USA Over A Subset Of Shortcodes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/v8tjqml9s3lj",
-          "publishedOn": "2023-07-11T20:04:11.000Z",
-          "wordCount": 6404,
-          "title": "SMS Delivery Delays to Small Networks In USA Over A Subset Of Shortcodes",
+          "description": "Jul 12, 17:24 PDT\nResolved - The issue affecting inbound calls to Twilio Trinidad and Tobago phone numbers has been resolved, and the service is functioning normally at this time.\nJul 12, 15:35 PDT\nUpdate - We have started seeing recovery for inbound calls to Twilio Trinidad and Tobago phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJul 12, 13:35 PDT\nMonitoring - We have started seeing recovery for inbound calls to Twilio Trinidad and Tobago phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJul 11, 14:07 PDT\nUpdate - We are continuing to observe inbound call…",
+          "link": "https://status.twilio.com/incidents/lldkpnsqlshr",
+          "publishedOn": "2023-07-13T00:24:12.000Z",
+          "wordCount": 6799,
+          "title": "Inbound Call Failures to Twilio Trinidad and Tobago Phone Numbers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/gscrgvvrl6tt",
+          "id": "https://status.twilio.com/incidents/sy775q4b83c3",
           "author": null,
-          "description": "Jul 11, 12:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJul 11, 09:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 10, 05:08 PDT\nScheduled - The MobiFone network in Viet Nam is conducting a planned maintenance from 11 July 2023 at 09:00 PDT until 11 July 2023 at 12:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from MobiFone Viet Nam handsets.",
-          "link": "https://status.twilio.com/incidents/gscrgvvrl6tt",
-          "publishedOn": "2023-07-11T19:00:11.000Z",
-          "wordCount": 6277,
-          "title": "Vietnam SMS Carrier Maintenance - MobiFone",
+          "description": "Jul 12, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJul 12, 13:03 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 10, 04:27 PDT\nScheduled - The Megafon network in Russia is conducting a planned maintenance from 12 July 2023 at 13:00 PDT until 12 July 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Megafon Russia handsets.",
+          "link": "https://status.twilio.com/incidents/sy775q4b83c3",
+          "publishedOn": "2023-07-13T00:00:18.000Z",
+          "wordCount": 6275,
+          "title": "Russia SMS Carrier Maintenance - Megafon",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/2gbwv1bn37yt",
+          "id": "https://status.twilio.com/incidents/dfm2f3642n9z",
           "author": null,
-          "description": "Jul 11, 08:19 PDT\nResolved - Multiple service API degraded with Super SIM were degraded between 02:43:40 pm to 02:47:20 pm, on July 7 2023, and 08:23:30 pm - 08:26:30 pm, on July 9 2023 Pacific Time. During this period of time customers may have seen 500 errors. The issue has now been resolved.\nJul 11, 07:51 PDT\nMonitoring - Our engineers are currently investigating the customer impact of a retroactive issue with Super SIM. We will follow up and provide customer impact details within 2 hours.",
-          "link": "https://status.twilio.com/incidents/2gbwv1bn37yt",
-          "publishedOn": "2023-07-11T15:19:20.000Z",
-          "wordCount": 6287,
-          "title": "Multiple APIs Were Degraded for Super SIM Product",
+          "description": "Jul 12, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJul 12, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul  7, 12:24 PDT\nScheduled - The Beeline network in Russia is conducting a planned maintenance from 12 July 2023 at 14:00 PDT until 12 July 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.",
+          "link": "https://status.twilio.com/incidents/dfm2f3642n9z",
+          "publishedOn": "2023-07-13T00:00:16.000Z",
+          "wordCount": 6275,
+          "title": "Russia SMS Carrier Maintenance - Beeline",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -311,16 +361,6 @@
           "wordCount": 5274,
           "title": "Networking in Europe Datacenters (AMS, FRA, LON)",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/rptq6jh8ljd7",
-          "author": null,
-          "description": "Jun 12, 17:44 UTC\nResolved - From 04:30 to 09:30 UTC, our Engineering team observed issues with DigitalOcean Container Registry in SGP1 and FRA1 regions. During this time, users might have experienced errors while interacting with their registries in SGP1 and FRA1 regions. Users might also have experienced latency in pushing/pulling images to/from registries.\nOur Engineering team has observed that the impact has been mitigated. As of 17:20 UTC, users should no longer experience any issues with pushing/pulling images to/from their registries in SGP1 and FRA1 regions. We apologize for the inconvenience. If you are still experiencing any problems or have additional questions, please open a support ticket within your account.",
-          "link": "https://status.digitalocean.com/incidents/rptq6jh8ljd7",
-          "publishedOn": "2023-06-12T17:44:00.000Z",
-          "wordCount": 5071,
-          "title": "Container Registry in FRA1 and SGP1",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -390,6 +430,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/x4llkxfv8kn4",
+          "author": null,
+          "description": "Jul 12, 18:08 UTC\nResolved - This incident has been resolved.\nJul 12, 17:59 UTC\nUpdate - We have identified a problematic configuration change that caused Codespaces creations and resumes to fail. The change has been reverted and users should start seeing improvements soon.\nJul 12, 17:38 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces.",
+          "link": "https://www.githubstatus.com/incidents/x4llkxfv8kn4",
+          "publishedOn": "2023-07-12T18:08:00.000Z",
+          "wordCount": 4083,
+          "title": "Incident with Codespaces",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/hz717kx2gsvq",
           "author": null,
@@ -508,16 +558,6 @@
           "publishedOn": "2023-06-15T16:57:15.000Z",
           "wordCount": 4073,
           "title": "Incident with Pages",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/csnbwc85chp2",
-          "author": null,
-          "description": "Jun 13, 00:17 UTC\nResolved - This incident has been resolved.\nJun 13, 00:09 UTC\nUpdate - We have applied a mitigation and are seeing signs of recovery. We will post another update shortly.\nJun 12, 23:39 UTC\nUpdate - We are investigating reports of degraded performance for Actions. We have identified the root cause and have begun applying a mitigation.\nJun 12, 22:48 UTC\nUpdate - Pages is experiencing degraded performance. We are still investigating and will provide an update when we have one.\nJun 12, 22:43 UTC\nInvestigating - We are investigating reports of degraded performance for Actions.",
-          "link": "https://www.githubstatus.com/incidents/csnbwc85chp2",
-          "publishedOn": "2023-06-13T00:17:05.000Z",
-          "wordCount": 4136,
-          "title": "Incident with Actions and Pages",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
@@ -665,16 +705,6 @@
           "publishedOn": "2023-06-14T03:06:22.000Z",
           "wordCount": 317,
           "title": "Incident: Trouble with workflows and clips transcripts",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-06/1bd97a73cb7874f1",
-          "author": null,
-          "description": "On June 11, 2023 from 10:57 AM PDT to 12:10 PM PDT, some users may have experienced difficulties when trying to access Slack due to a database issue.\n\r\n\r\nThe underlying cause has since been determined and remediation steps were applied. This resolved the above for all impacted users.",
-          "link": "https://status.slack.com//2023-06/1bd97a73cb7874f1",
-          "publishedOn": "2023-06-12T14:56:48.000Z",
-          "wordCount": 262,
-          "title": "Incident: Small number of users might be experiencing connectivity issues",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
