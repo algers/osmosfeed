@@ -51,10 +51,10 @@
         {
           "id": "https://airbnbapi.statuspage.io/incidents/l6f622b5k1t3",
           "author": null,
-          "description": "Jul 12, 12:25 PDT\nIdentified - We have identified an issue that caused reservations to be created without associated threads. This occurred between 10:15 PM and 11:29 PM on July 12th (PST), so notifications for reservations created during that time were sent with a null `thread_id` value.\nWe are actively working on creating threads for reservations that do not have them, and will update here afterwards.\nOnce this is done, you will be able to retrieve the `thread_id` value for a reservation using the Reservations API.",
+          "description": "Jul 13, 09:22 PDT\nResolved - We have backfilled message threads for the reservations that were affected during this time window. You should now be able to retrieve the `thread_id` associated with a reservation using the Reservations API. Apologies for the inconvenience.\nIf you have any further queries related to this incident, please submit a ticket via the Partner Support Portal and our team will get back to you as soon as possible.\nJul 12, 12:25 PDT\nIdentified - We have identified an issue that caused reservations to be created without associated threads. This occurred between 10:15 PM and 11:29 PM on July 12th (PST), so notifications for reservations created during that time were sent with a null `thread_id` value.\nWe are actively working on creating threads for reservations that do not have them, and will update here afterwards.\nOnce this is done, you will be able to retrieve the `thread_id` value for a reservation using the Reservations API.",
           "link": "https://airbnbapi.statuspage.io/incidents/l6f622b5k1t3",
-          "publishedOn": "2023-07-12T19:25:20.000Z",
-          "wordCount": 3344,
+          "publishedOn": "2023-07-13T16:22:18.000Z",
+          "wordCount": 3414,
           "title": "Reservations Missing Thread Id Values",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -146,83 +146,73 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/cq80txvd21rz",
+          "id": "https://status.twilio.com/incidents/983ftd8w4k7d",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jul 13, 02:00 - 04:00 PDT\nJun 27, 12:00 PDT\nScheduled - A subset of small US networks in the US is conducting a planned maintenance from 13 July 2023 at 02:00 PDT until 13 July 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers.",
-          "link": "https://status.twilio.com/incidents/cq80txvd21rz",
-          "publishedOn": "2023-07-13T09:00:00.000Z",
-          "wordCount": 6258,
-          "title": "US SMS Carrier Maintenance - Small US Carriers",
+          "description": "Jul 13, 17:26 PDT\nMonitoring - We are observing successful SMS delivery failures to Africell network in Sierra Leone. We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJul 13, 15:26 PDT\nUpdate - We are still experiencing SMS delivery failures to Africell network in Sierra Leone. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJul 13, 14:26 PDT\nInvestigating - We are experiencing SMS delivery failures to Africell network in Sierra Leone. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/983ftd8w4k7d",
+          "publishedOn": "2023-07-14T00:26:35.000Z",
+          "wordCount": 6352,
+          "title": "SMS Delivery Failures to Africell Network in Sierra Leone",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/ddj73cf5lpbj",
+          "id": "https://status.twilio.com/incidents/kh5pdpcx2ncn",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jul 12, 23:00 PDT  -  Jul 13, 05:00 PDT\nJul  9, 17:24 PDT\nScheduled - The AT&T network in Mexico is conducting a planned maintenance from 12 July 2023 at 23:00 PDT until 13 July 2023 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.",
-          "link": "https://status.twilio.com/incidents/ddj73cf5lpbj",
-          "publishedOn": "2023-07-13T06:00:00.000Z",
-          "wordCount": 6251,
-          "title": "Mexico SMS Carrier Maintenance - AT&T",
+          "description": "Jul 13, 17:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 10, 00:56 PDT\nScheduled - The Vodafone network in Egypt is conducting a planned maintenance from 13 July 2023 at 17:00 PDT until 13 July 2023 at 20:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Vodafone Egypt handsets.",
+          "link": "https://status.twilio.com/incidents/kh5pdpcx2ncn",
+          "publishedOn": "2023-07-14T00:00:20.000Z",
+          "wordCount": 6268,
+          "title": "Egypt SMS Carrier Maintenance – Vodafone",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/gvn4ndztvwp3",
+          "id": "https://status.twilio.com/incidents/knb8r4k38yqv",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jul 12, 21:30 - 22:30 PDT\nJul 11, 15:52 PDT\nScheduled - The MTS network in Russia is conducting a planned maintenance from 12 July 2023 at 21:30 PDT until 12 July 2023 at 22:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from MTS Russia handsets.",
-          "link": "https://status.twilio.com/incidents/gvn4ndztvwp3",
-          "publishedOn": "2023-07-13T04:30:00.000Z",
-          "wordCount": 6247,
-          "title": "Russia SMS Carrier Maintenance - MTS",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/chgzcb6zyyc1",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jul 12, 21:00 PDT  -  Jul 13, 01:00 PDT\nJul 11, 19:47 PDT\nScheduled - A subset of small US networks in the US is conducting an emergency maintenance from 12 July 2023 at 21:00 PDT until 13 July 2023 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US Carriers.",
-          "link": "https://status.twilio.com/incidents/chgzcb6zyyc1",
-          "publishedOn": "2023-07-13T04:00:00.000Z",
-          "wordCount": 6272,
-          "title": "US SMS Carrier Maintenance - Small US Carriers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/qq87pcxtwvpm",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jul 12, 20:00 PDT  -  Jul 13, 00:00 PDT\nJun 28, 13:23 PDT\nScheduled - Our SMS and MMS carrier partner in the US and Canada is conducting planned maintenance from 12 July 2023 at 20:00 PDT until 13 July 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets via Toll-free numbers.",
-          "link": "https://status.twilio.com/incidents/qq87pcxtwvpm",
-          "publishedOn": "2023-07-13T03:00:00.000Z",
-          "wordCount": 6276,
-          "title": "US and Canada SMS and MMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/lldkpnsqlshr",
-          "author": null,
-          "description": "Jul 12, 17:24 PDT\nResolved - The issue affecting inbound calls to Twilio Trinidad and Tobago phone numbers has been resolved, and the service is functioning normally at this time.\nJul 12, 15:35 PDT\nUpdate - We have started seeing recovery for inbound calls to Twilio Trinidad and Tobago phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJul 12, 13:35 PDT\nMonitoring - We have started seeing recovery for inbound calls to Twilio Trinidad and Tobago phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJul 11, 14:07 PDT\nUpdate - We are continuing to observe inbound call…",
-          "link": "https://status.twilio.com/incidents/lldkpnsqlshr",
-          "publishedOn": "2023-07-13T00:24:12.000Z",
-          "wordCount": 6799,
-          "title": "Inbound Call Failures to Twilio Trinidad and Tobago Phone Numbers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/sy775q4b83c3",
-          "author": null,
-          "description": "Jul 12, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJul 12, 13:03 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 10, 04:27 PDT\nScheduled - The Megafon network in Russia is conducting a planned maintenance from 12 July 2023 at 13:00 PDT until 12 July 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Megafon Russia handsets.",
-          "link": "https://status.twilio.com/incidents/sy775q4b83c3",
-          "publishedOn": "2023-07-13T00:00:18.000Z",
+          "description": "Jul 13, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJul 13, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul  7, 10:48 PDT\nScheduled - The Beeline network in Russia is conducting a planned maintenance from 13 July 2023 at 14:00 PDT until 13 July 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.",
+          "link": "https://status.twilio.com/incidents/knb8r4k38yqv",
+          "publishedOn": "2023-07-14T00:00:18.000Z",
           "wordCount": 6275,
-          "title": "Russia SMS Carrier Maintenance - Megafon",
+          "title": "Russia SMS Carrier Maintenance -  Beeline",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/dfm2f3642n9z",
+          "id": "https://status.twilio.com/incidents/rh67jmhtfx66",
           "author": null,
-          "description": "Jul 12, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJul 12, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul  7, 12:24 PDT\nScheduled - The Beeline network in Russia is conducting a planned maintenance from 12 July 2023 at 14:00 PDT until 12 July 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.",
-          "link": "https://status.twilio.com/incidents/dfm2f3642n9z",
-          "publishedOn": "2023-07-13T00:00:16.000Z",
-          "wordCount": 6275,
-          "title": "Russia SMS Carrier Maintenance - Beeline",
+          "description": "Jul 13, 16:57 PDT\nResolved - We are no longer experiencing SMS delivery reports delay to AT&T US over subset of shortcodes. This incident has been resolved.\nJul 13, 15:07 PDT\nMonitoring - We are observing recovery in SMS delivery reports delay to AT&T US over subset of shortcodes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJul 13, 07:44 PDT\nUpdate - We continue experiencing SMS delivery reports delay to AT&T US over subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.\nJul 12, 23:41 PDT\nUpdate - We continue experiencing SMS delivery reports delay to AT&T US over subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nJul 12, 19:45 PDT\nUpdate - We continue experiencing SMS delivery reports delay to AT&T US over subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nJul 12, 17:50 PDT\nUpdate - We continue experiencing SMS delivery reports delay to AT&T US over subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJul 12, 16:50 PDT\nInvestigating - We are experiencing SMS delivery reports delay to AT&T US over subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/rh67jmhtfx66",
+          "publishedOn": "2023-07-13T23:57:32.000Z",
+          "wordCount": 6537,
+          "title": "SMS Delivery Reports Delay to AT&T US Over Subset of Shortcodes",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/4zdfp3789186",
+          "author": null,
+          "description": "Jul 13, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 12, 21:05 PDT\nScheduled - Our SMS carrier partner in South Africa is conducting an emergency maintenance from 13 July 2023 at 14:00 PDT until 14 July 2023 at 20:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from South Africa handsets.",
+          "link": "https://status.twilio.com/incidents/4zdfp3789186",
+          "publishedOn": "2023-07-13T21:00:05.000Z",
+          "wordCount": 6270,
+          "title": "South Africa SMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/tkzr8d3wv8z2",
+          "author": null,
+          "description": "Jul 13, 12:02 PDT\nCompleted - The scheduled maintenance has been completed.\nJul 13, 11:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 11, 03:21 PDT\nScheduled - The XL network in Indonesia is conducting a planned maintenance from 13 July 2023 at 11:00 PDT until 13 July 2023 at 12:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from XL Indonesia handsets.",
+          "link": "https://status.twilio.com/incidents/tkzr8d3wv8z2",
+          "publishedOn": "2023-07-13T19:02:14.000Z",
+          "wordCount": 6279,
+          "title": "Indonesia SMS Carrier Maintenance - XL",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/ntplwjythkwg",
+          "author": null,
+          "description": "Jul 13, 09:58 PDT\nResolved - We have fully investigated the Inbound Call Failures to a Subset of Twilio UK Numbers issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.\nJul 13, 09:31 PDT\nInvestigating - Our monitoring systems have detected a potential issue with Voice product. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/ntplwjythkwg",
+          "publishedOn": "2023-07-13T16:58:30.000Z",
+          "wordCount": 6281,
+          "title": "Automated Alert: Minimal Customer Impact",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -232,6 +222,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/k6db523qf5gw",
+          "author": null,
+          "description": "Jul 13, 02:33 UTC\nResolved - Our engineering team has resolved the issue with the Billing page for Team accounts in the Cloud Control Panel. \nThank you for your patience. If you continue to experience any problems, please open a support ticket from within your account.\nJul 13, 01:33 UTC\nMonitoring - As of 01:20 UTC, Our Engineering team has implemented a fix regarding the issue with the Billing page for Team accounts in the Cloud Control Panel. We are monitoring the situation to ensure there is no recurrence. \nWe will post another update once we confirm the issue is fully resolved.\nJul 13, 01:27 UTC\nInvestigating - As of 01:05 UTC, Our Engineering team is investigating an issue with the Billing page for Teams on the Cloud Control Panel. During this time, users on Team accounts may experience errors while accessing the Billing page. \nWe apologize for the inconvenience and will share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/k6db523qf5gw",
+          "publishedOn": "2023-07-13T02:33:27.000Z",
+          "wordCount": 5133,
+          "title": "Billing page on the Cloud Panel",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/m4nw5210sd5t",
           "author": null,
@@ -387,6 +387,16 @@
       "siteUrl": "https://status.rippling.com",
       "articles": [
         {
+          "id": "https://status.rippling.com/incidents/nxj258xcyfmh",
+          "author": null,
+          "description": "Jul 13, 20:31 UTC\nResolved - This incident has been resolved.\nJul 13, 18:45 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nJul 13, 18:31 UTC\nIdentified - Select customers have received an email with subject \"Domain Verification failed\". This email was sent erroneously and isn't applicable to any customer who has received it, and it can be ignored.",
+          "link": "https://status.rippling.com/incidents/nxj258xcyfmh",
+          "publishedOn": "2023-07-13T20:31:10.000Z",
+          "wordCount": 4098,
+          "title": "Email sent erroneously regarding work email domain verification",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
+        },
+        {
           "id": "https://status.rippling.com/incidents/r0c40mv4dpzs",
           "author": null,
           "description": "Jun 29, 22:25 UTC\nResolved - Service is operating normally\nJun 29, 22:15 UTC\nMonitoring - We are rolling out the fix to production and normal operation is resuming.\nJun 29, 20:33 UTC\nIdentified - The issue has been identified and a fix is being implemented.\nJun 29, 20:31 UTC\nInvestigating - Existing agents will be slow to update app.rippling.com when Find My Mac is enabled",
@@ -414,13 +424,23 @@
       "siteUrl": "https://www.google.com/appsstatus/dashboard/",
       "articles": [
         {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/aw35PEC9zRoTE8rNHWL6",
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/i9yJ37aV9yTk21B2DusS",
           "author": null,
-          "description": "<p> Incident began at <strong>2023-07-06 22:15</strong> and ended at <strong>2023-07-06 23:47</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced an impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 6 July 2023 at 15:15</p>\n<p><strong>Incident End:</strong> 6 July 2023 at 16:47</p>\n<p><strong>Duration:</strong> 1 hour, 32 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Gmail</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>Some Gmail users experienced elevated latency and intermittent unavailability for a period of 1 hour and 32 minutes. This was due to an unexpected resource usage increase in backend servers.</p>\n<p>From the preliminary analysis, the issue was triggered during validation of a configuration change. This triggered an increase in the number of background tasks, which resulted in elevated memory pressure. Google engineers quickly started to work on containing the issue and mitigated the impact by disabling the background tasks and returning the memory usage to normal levels.</p>\n<p><strong>Customer Impact:</strong></p>\n<p>Impacted users may have experienced elevated latency and errors while syncing their Gmail accounts to clients. Users may have also experienced intermittent failures in the page load on the web and latency in email delivery.</p>\n</div><hr><p>Affected products: Gmail</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/aw35PEC9zRoTE8rNHWL6",
-          "publishedOn": "2023-07-07T21:29:14.000Z",
-          "wordCount": 618,
-          "title": "RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly. The affected users are able to access Gmail, but are seeing error messages, high latency, and/or other unexpected behavior.",
+          "description": "<p> Incident began at <strong>2023-06-29 12:37</strong> and ended at <strong>2023-07-06 13:42</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 29 June 2023 at 05:37</p>\n<p><strong>Incident End:</strong> 06 July 2023 at 06:42</p>\n<p><strong>Duration:</strong> 7 days, 1 hour, 5 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Google Meet - Group Calls</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>All Google Meet group calling users experienced degraded audio quality for a duration of 7 days, 1 hour and 5 minutes. During this time, customers were unable to understand the audio.</p>\n<p>From preliminary analysis, the root cause of the issue was an incorrect configuration change that handles parsing of audio from the source. Google engineers mitigated the issue by fixing the incorrect configuration.</p>\n<p>Google will complete a full incident report in the following days that will provide a full root cause.</p>\n<p><strong>Customer Impact:</strong></p>\n<p>Google Meet group calling users may have heard metallic noise in the background, resulting in the inability to understand the audio. Impact was observed across all platforms (iOS, Android, Web). There was no impact to customers using 1:1 calls.</p>\n<p><strong>Additional Details:</strong></p>\n<p>Wherever possible, customers were advised to use Google Meet as an alternate workaround.</p>\n</div><hr><p>Affected products: Google Meet</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/i9yJ37aV9yTk21B2DusS",
+          "publishedOn": "2023-07-13T13:33:56.000Z",
+          "wordCount": 1322,
+          "title": "RESOLVED: We're aware of a problem with Google Meet affecting a majority of users. We will provide an update by Jul 6, 2023, 12:30 PM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change. The affected users are able to access Google Meet, but are seeing error messages, high latency, and/or other unexpected behavior.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/i9yJ37aV9yTk21B2DusS",
+          "author": null,
+          "description": "<p> Incident began at <strong>2023-06-29 12:37</strong> and ended at <strong>2023-07-06 13:42</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Incident Report</h1>\n<h2>Summary</h2>\n<p>On Thursday, 29 June 2023 at 05:37 US/Pacific, Google Meet group calling users experienced degraded audio quality for a duration of 7 days, 1 hour, 5 minutes. During this time, customers were unable to understand the audio.</p>\n<p>To our Google Workspace customers who were impacted during this disruption, we sincerely apologize. This is not the level of quality and reliability we strive to offer you. We have conducted an internal investigation and are taking immediate steps to improve the resiliency of our service.</p>\n<h2>Root Cause</h2>\n<p>Google Meet leverages legacy Google Duo backend services (AKA Duo) for 1:1 calling and group calling functions. During their operations, these services determine the duration of audio packets. When the backend service detects two audio packets overlapping in duration, the second one is dropped.</p>\n<p>The trigger for this incident was a change on those backends that overlooked an experimental configuration for Duo, causing the duration of audio packets for Duo to be determined incorrectly. This resulted in ‘random’ audio durations and audio packets that looked like they overlapped in time. Overlapping packets were dropped, and the client had to reconstruct audio from only a few packets it received.</p>\n<h2>Remediation and Prevention</h2>\n<p>Google engineers were alerted to the regression in a non production environment via internal monitoring on Saturday, 24 June. However, due to an issue in the monitoring system the alert did not trigger. Once the alerting issue was fixed, engineering began to triage the regression, however the change began rolling out to production on Thursday, 29 June at 05:37 US/Pacific. On Friday, 30 June at 09:00, Google engineers identified the root cause of the regression previously discovered in the non production environment and began creating a fix. At 14:06, user reports of audio quality issues on Google Meet group calls increased. The fix began rolling out to production on Tuesday, 04 July at 09:44 US/Pacific and the issue was escalated on Thursday, 06 July at  03:11 US/Pacific. The incident was fully mitigated on Thursday, 06 July at 06:42, once engineers fully rolled out the fix.</p>\n<p>Google is committed to preventing a repeat of this issue in the future and is completing the following actions:</p>\n<ul>\n<li>Improve monitoring and alerting to detect audio quality failures in Google Meet and reduce mitigation time for issues of this type.</li>\n<li>Enhance testing in the staging environment to identify and prevent regressions before rollout progresses.</li>\n</ul>\n<h2>Detailed Description of Impact</h2>\n<p>From Thursday, 29 June 2023 at 05:37 to Thursday, 06 July 2023 at 06:42 US/Pacific, Google Meet group calling users experienced degraded audio quality globally.</p>\n<h4>Google Meet</h4>\n<p>Google Meet group calling users may have heard metallic noise in the background, resulting in the inability to understand the audio.</p>\n<ul>\n<li>Impact was observed across all platforms (iOS, Android, Web).</li>\n<li>There was no impact to customers using 1:1 calls.</li>\n</ul>\n<hr>\n</div><hr><p>Affected products: Google Meet</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/i9yJ37aV9yTk21B2DusS",
+          "publishedOn": "2023-07-13T13:31:00.000Z",
+          "wordCount": 1322,
+          "title": "RESOLVED: We're aware of a problem with Google Meet affecting a majority of users. We will provide an update by Jul 6, 2023, 12:30 PM UTC detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change. The affected users are able to access Google Meet, but are seeing error messages, high latency, and/or other unexpected behavior.",
           "imageUrl": null
         }
       ]
@@ -568,6 +588,16 @@
       "siteUrl": "https://status.slack.com/",
       "articles": [
         {
+          "id": "https://status.slack.com//2023-07/c77cf2eeb9a222df",
+          "author": null,
+          "description": "Issue Summary:\n\r\nOn July 13, 2023 between 12:19 PM PDT and 12:36 PM PDT, some users encountered errors which led to being unable to load threads, send DMs, joining channels, and accessing Slack overall.\n\r\n\r\nThis issue was a result of a failed host in our database infrastructure. We quickly replaced this host, fixing the problem for all impacted users.\n\r\n\r\nUsers should no longer be experiencing any trouble accessing Slack.",
+          "link": "https://status.slack.com//2023-07/c77cf2eeb9a222df",
+          "publishedOn": "2023-07-13T21:25:19.000Z",
+          "wordCount": 101,
+          "title": "Incident: Trouble with loading threads and accessing Slack",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://status.slack.com//2023-07/0f34cdaa00a02b51",
           "author": null,
           "description": "Issue summary:\n\r\nOn July 10, 2023 from 7:08 PM PDT to 7:58 PM PDT, some customers may have experienced various errors while using Slack.\n\r\n\r\nA code change inadvertently added extra load to our server infrastructure. We increased our server capacity to handle this extra load and error rates returned to normal.",
@@ -696,16 +726,6 @@
           "wordCount": 397,
           "title": "Incident: Trouble with workflows, loading channels and accessing Slack",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-06/a0c185e5ad5eac55",
-          "author": null,
-          "description": "Issue summary: \n\r\nOn June 13, 2023 from 11:55 AM PDT to around 3:47 PM PDT, some users may have experienced failure with clips transcribing and transcoding, execution of workflows with custom functions, new deployments of apps with hosted functions, and some delay when using canvases in Slack. \n\r\n\r\nThese issues were due to an outage from an upstream service provider which affected many services. The provider actively worked to remediate those issues, which then fully resolved the reported failures for impacted Slack users.",
-          "link": "https://status.slack.com//2023-06/a0c185e5ad5eac55",
-          "publishedOn": "2023-06-14T03:06:22.000Z",
-          "wordCount": 317,
-          "title": "Incident: Trouble with workflows and clips transcripts",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
     },
@@ -714,6 +734,26 @@
       "feedUrl": "https://status.make.com/history.rss",
       "siteUrl": "https://status.make.com",
       "articles": [
+        {
+          "id": "https://status.make.com/incidents/ym8fpgs8rb0j",
+          "author": null,
+          "description": "Jul 13, 18:08 CEST\nResolved - This incident has been resolved.\nJul 13, 15:45 CEST\nMonitoring - We have applied the fix to reactivate the affected scenarios. \nPlease note that this reactivation will not be visible in the scenario logs.\nCurrently the platfrom is fully operational but we will continue to monitor situation for the next couple of hours.\nJul 13, 13:11 CEST\nIdentified - The issue has been identified and we are currently working on implementing the fix to reactivate the affected scenarios.\nWe'll post the next update once the fix is rolled out.\nJul 13, 12:10 CEST\nUpdate - We have identified the cause of the issue. Any newly executed scenarios and scheduled scenarios should work correctly. However, as part of the investigation we noticed the issue affected other zones: us1.make.com and eu2.make.com. \nWe are currently working on reactivating the affected scenarios.\nJul 13, 11:22 CEST\nInvestigating - We are facing issues with scenario execution affecting users on eu1.make.com. Scenarios might unexpectedly fail, users might receive notification about scenarios being stopped, We are currently investigating the cause of the issue, we will provide more details within the next hour.",
+          "link": "https://status.make.com/incidents/ym8fpgs8rb0j",
+          "publishedOn": "2023-07-13T16:08:31.000Z",
+          "wordCount": 3451,
+          "title": "Issues with executing scenarios",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.make.com/incidents/lpshgnkxkz7n",
+          "author": null,
+          "description": "Jul 13, 15:39 CEST\nInvestigating - We are currently investigating this issue.",
+          "link": "https://status.make.com/incidents/lpshgnkxkz7n",
+          "publishedOn": "2023-07-13T13:52:57.000Z",
+          "wordCount": 3281,
+          "title": "Issues with Facebook Lead Ads - New Event instant trigger",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.make.com/incidents/xg8t6gl5shmp",
           "author": null,
@@ -732,16 +772,6 @@
           "publishedOn": "2023-06-28T05:00:03.000Z",
           "wordCount": 3376,
           "title": "Scheduled infrastructure maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/413nrl6rvmsx",
-          "author": null,
-          "description": "Jun 14, 13:00 CEST\nCompleted - The scheduled maintenance has been completed.\nJun 14, 11:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 13, 15:02 CEST\nScheduled - We would like to inform you about a scheduled maintenance window that will be taking place on 14th June between 11:00 CEST - 13:00 CEST.\nDuring this maintenance period, there will be a short interruption resulting in the unavailability of the login page and organisations page. \nIf you experience a blank page , clearing your browser cache might resolve the issue . If not please reach out to our customer care team.\nHowever, we assure you that there will be no data loss and all scenarios will continue running properly.\nWe apologize for any inconvenience caused and appreciate your understanding.",
-          "link": "https://status.make.com/incidents/413nrl6rvmsx",
-          "publishedOn": "2023-06-14T11:00:40.000Z",
-          "wordCount": 3390,
-          "title": "Scheduled Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
