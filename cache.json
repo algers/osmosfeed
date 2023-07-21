@@ -97,16 +97,6 @@
           "wordCount": 3336,
           "title": "500 Errors Across Multiple Endpoints",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/620bns7c4y3p",
-          "author": null,
-          "description": "Jun 20, 14:10 PDT\nResolved - This incident has been resolved. We have restored the correct bedroom, bathroom and bed count on the Listings API.\nJun 15, 20:37 PDT\nUpdate - We have implemented a fix to restore the correct bedrooms, bathrooms and bed values on the Listings API and will continue to monitor this incident.\nWe apologize for any inconvenience this may cause and appreciate your understanding as we resolve this issue.\nJun 15, 14:38 PDT\nMonitoring - We are currently addressing a bug that affects the bedroom, bathroom, and bed count on our Listings API. Due to a change in behavior of how bedrooms, bathrooms and beds interact with the Listing Rooms API, you might come across the following issues:\n* On the Listings API, some listings might have the fields `bedrooms`,`bathrooms` and/or `beds` set to 0.\n* On the Listings Rooms API, some rooms might have been created/deleted.\nAs of today, we have reverted the problematic behavior and are working diligently to restore the correct bedrooms, bathrooms, and beds values on the Listings API. To ensure that your Listing Rooms are accurately set, we kindly ask you to re-sync your data.\nWe apologize for any inconvenience this may cause and appreciate your understanding as we resolve this issue.",
-          "link": "https://airbnbapi.statuspage.io/incidents/620bns7c4y3p",
-          "publishedOn": "2023-06-20T21:10:48.000Z",
-          "wordCount": 3472,
-          "title": "Issue affecting listings bedrooms, bathrooms and beds",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -116,143 +106,73 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/g4sxnghy8tkj",
+          "id": "https://status.twilio.com/incidents/5nxk6kgmwyv1",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jul 19, 20:00 PDT  -  Jul 20, 00:00 PDT\nJun 28, 13:25 PDT\nScheduled - Our SMS and MMS carrier partner in the US and Canada is conducting planned maintenance from 19 July 2023 at 20:00 PDT until 20 July 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets via Toll-free numbers.",
-          "link": "https://status.twilio.com/incidents/g4sxnghy8tkj",
-          "publishedOn": "2023-07-20T03:00:00.000Z",
-          "wordCount": 6276,
-          "title": "US and Canada SMS and MMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/ftbkgp79r8h1",
-          "author": null,
-          "description": "Jul 19, 18:32 PDT\nMonitoring - There was an issue with WhatsApp that lead to messaging delivery delays. It is now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.\nJul 19, 16:27 PDT\nUpdate - Our engineers have identified the issue with WhatsApp leading to message delivery delays. Messaging services are working as expected for the majority of customers but we are still investigating an issue that is impacting a subset of customers. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJul 19, 15:33 PDT\nIdentified - Our engineers have identified the issue with WhatsApp leading to message delivery delays. Messaging services are working as expected for the majority of customers but we are still investigating an issue that is impacting a subset of customers. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJul 19, 14:33 PDT\nUpdate - We are experiencing an issue with WhatsApp leading to message delivery delays. We are seeing recovery, but are continuing to investigate with WhatsApp. We will provide another update in 1 hour or as soon as more information becomes available.\nJul 19, 14:05 PDT\nUpdate - We are experiencing an issue with WhatsApp causing Twilio requests to fail. Our engineers are working with our partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nJul 19, 13:49 PDT\nInvestigating - We are experiencing an issue with WhatsApp downstream causing Twilio requests to fail. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/ftbkgp79r8h1",
-          "publishedOn": "2023-07-20T01:32:27.000Z",
-          "wordCount": 6493,
-          "title": "WhatsApp is Down",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/6th9x1hlms12",
-          "author": null,
-          "description": "Jul 19, 18:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 19, 10:33 PDT\nScheduled - The T-Mobile network in the US is conducting an emergency maintenance from 19 July 2023 at 18:00 PDT until 20 July 2023 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
-          "link": "https://status.twilio.com/incidents/6th9x1hlms12",
-          "publishedOn": "2023-07-20T01:01:02.000Z",
-          "wordCount": 6267,
-          "title": "US SMS Carrier Maintenance - T-Mobile",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/6n350wy24j05",
-          "author": null,
-          "description": "Jul 19, 18:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 18, 20:28 PDT\nScheduled - The T-Mobile network in US is conducting an emergency maintenance from 19 July 2023 at 18:00 PDT until 20 July 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
-          "link": "https://status.twilio.com/incidents/6n350wy24j05",
-          "publishedOn": "2023-07-20T01:00:34.000Z",
-          "wordCount": 6264,
-          "title": "US SMS Carrier Maintenance - T-Mobile",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/yngh67n9wyxr",
-          "author": null,
-          "description": "Jul 19, 18:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 18, 16:10 PDT\nScheduled - Our carrier partner Three UK is conducting a planned maintenance from 19 July 2023 at 18:00 PDT until 20 July 2023 at 08:00 PDT. During the maintenance window, there could be intermittent API request failures for Three UK customers.\n\nImpacted Products: Lookup SIM Swap, Lookup Identity Match",
-          "link": "https://status.twilio.com/incidents/yngh67n9wyxr",
-          "publishedOn": "2023-07-20T01:00:32.000Z",
-          "wordCount": 6286,
-          "title": "United Kingdom Account Security Carrier Partner Maintenance - Three UK",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/w3k2n78cqv4h",
-          "author": null,
-          "description": "Jul 19, 17:01 PDT\nCompleted - The scheduled maintenance has been completed.\nJul 19, 15:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 19, 00:06 PDT\nScheduled - The Vodafone network in Qatar is conducting an emergency maintenance from 19 July 2023 at 15:00 PDT until 19 July 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Vodafone Qatar handsets.",
-          "link": "https://status.twilio.com/incidents/w3k2n78cqv4h",
-          "publishedOn": "2023-07-20T00:01:36.000Z",
+          "description": "Jul 20, 18:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 19, 19:12 PDT\nScheduled - The T-Mobile network in the US is conducting an emergency maintenance from 20 July 2023 at 18:00 PDT until 21 July 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
+          "link": "https://status.twilio.com/incidents/5nxk6kgmwyv1",
+          "publishedOn": "2023-07-21T01:01:08.000Z",
           "wordCount": 6278,
-          "title": "Qatar SMS Carrier Maintenance - Vodafone",
+          "title": "US SMS Carrier Maintenance - T-Mobile",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/3cf0n4hgq2q8",
+          "author": null,
+          "description": "Jul 20, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJul 20, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 12, 07:10 PDT\nScheduled - The Beeline network in Russia is conducting a planned maintenance from 20 July 2023 at 14:00 PDT until 20 July 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Beeline Russia handsets.",
+          "link": "https://status.twilio.com/incidents/3cf0n4hgq2q8",
+          "publishedOn": "2023-07-21T00:00:08.000Z",
+          "wordCount": 6279,
+          "title": "Russia SMS Carrier Maintenance - Beeline",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/p0jzt8whws74",
+          "author": null,
+          "description": "Jul 20, 16:08 PDT\nResolved - The intermittent page load failures for Twilio Console has been resolved and our services are operating normally at this time.\nJul 20, 15:43 PDT\nMonitoring - We are seeing recovery with the intermittent page load failures for Twilio Console users. We continue to work to resolve the issue. We expect to provide another update in 30 minutes or as soon as more information becomes available.\nJul 20, 14:46 PDT\nIdentified - The issue causing intermittent page load failures for Twilio Console users has been identified. We are actively working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJul 20, 14:07 PDT\nUpdate - We continue to see intermittent page load failures for Twilio Console users. Engineers are investigating the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJul 20, 13:17 PDT\nUpdate - We are seeing intermittent page load failures for Twilio Console users. Engineers are investigating the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJul 20, 13:06 PDT\nInvestigating - Our monitoring systems have detected a potential issue with Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/p0jzt8whws74",
+          "publishedOn": "2023-07-20T23:08:45.000Z",
+          "wordCount": 6434,
+          "title": "Intermittent Page Load Failures for Twilio Console",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/tmxxxtgcpd0x",
+          "author": null,
+          "description": "Jul 20, 15:17 PDT\nResolved - The issue with onboarding new hosted numbers to the Hosted SMS product has been resolved and is operating normally at this time.\nJul 20, 13:22 PDT\nUpdate - We are investigating an issue with onboarding new hosted numbers to the Hosted SMS product. Customers are unable to onboard new hosted numbers. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJul 20, 12:22 PDT\nUpdate - We are investigating an issue with onboarding new hosted numbers to the Hosted SMS product. Customers are unable to onboard new hosted numbers. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJul 20, 12:00 PDT\nInvestigating - Our monitoring systems have detected a potential issue with onboard new hosted numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/tmxxxtgcpd0x",
+          "publishedOn": "2023-07-20T22:17:49.000Z",
+          "wordCount": 6348,
+          "title": "Onboard Hosted Number Failures",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/jbrp0n7sg3wb",
+          "author": null,
+          "description": "Jul 20, 12:48 PDT\nResolved - We are no longer experiencing MMS delivery delays when sending messages to AT&T over a subset of short-codes in the US. This incident has been resolved.\nJul 20, 11:01 PDT\nMonitoring - We are observing recovery in MMS delivery delays when sending messages to AT&T over a subset of short-codes in the US. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJul 20, 10:12 PDT\nUpdate - We are continuing our investigation and have discovered MMS Short Code, North America component is affected by this incident and SMS Short Code is currently operational. We will provide another update in 1 hour or as soon as more information becomes available.\nJul 20, 10:05 PDT\nInvestigating - We are experiencing MMS delivery delays when sending messages to AT&T over a subset of short-codes in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/jbrp0n7sg3wb",
+          "publishedOn": "2023-07-20T19:48:52.000Z",
+          "wordCount": 6408,
+          "title": "MMS Delivery Delays to AT&T Over a Subset of Short-Codes in the US",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/6818tc63vl06",
           "author": null,
-          "description": "Jul 19, 17:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 19, 08:32 PDT\nScheduled - Our carrier partner Three UK is conducting an emergency maintenance from 19 July 2023 at 17:00 PDT until 21 July 2023 at 17:00 PDT. During the maintenance window, there could be intermittent API request failures for Three UK customers between 18:30 PDT to 01:00 PDT on both days.\n\nImpacted Products: Lookup SIM Swap, Lookup Identity Match",
+          "description": "Jul 20, 09:21 PDT\nCompleted - The scheduled maintenance has been completed.\nJul 19, 17:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 19, 08:32 PDT\nScheduled - Our carrier partner Three UK is conducting an emergency maintenance from 19 July 2023 at 17:00 PDT until 21 July 2023 at 17:00 PDT. During the maintenance window, there could be intermittent API request failures for Three UK customers between 18:30 PDT to 01:00 PDT on both days.\n\nImpacted Products: Lookup SIM Swap, Lookup Identity Match",
           "link": "https://status.twilio.com/incidents/6818tc63vl06",
-          "publishedOn": "2023-07-20T00:00:23.000Z",
-          "wordCount": 6295,
+          "publishedOn": "2023-07-20T16:21:00.000Z",
+          "wordCount": 6305,
           "title": "United Kingdom Account Security Carrier Partner Maintenance - Three UK",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/2p7pt3ctkd1y",
+          "id": "https://status.twilio.com/incidents/yy9jvc0mljv6",
           "author": null,
-          "description": "Jul 19, 15:46 PDT\nResolved - The issue with reports of customers who do not yet need to have their Twilio account linked to a KORE account due to their previous contract structure being unable to access SIMs on their subaccounts has been resolved.\nJul 19, 15:07 PDT\nUpdate - We are investigating reports of customers who do not yet need to have their Twilio account linked to a KORE account due to their previous contract structure being unable to access SIMs on their subaccounts. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJul 19, 14:58 PDT\nInvestigating - Our monitoring systems have detected a potential issue with customers that are flagged as \"billed by Twilio\" not being able to use the Twilio console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/2p7pt3ctkd1y",
-          "publishedOn": "2023-07-19T22:46:28.000Z",
-          "wordCount": 6397,
-          "title": "IoT Customers Who Do Not Need to Link Their Twilio Account to a KORE Account Yet Unable to Access SIMs on Subaccounts",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/qrw965kdtwcl",
-          "author": null,
-          "description": "Jul 19, 15:44 PDT\nResolved - The issue with stuck tasks in Flex TeamsView has been resolved and Flex TeamsView is operating normally at this time.\nJul 19, 15:16 PDT\nUpdate - We continue to investigate stuck tasks in Flex TeamsView. Some customers can see tasks that have been already completed, still showing up on the dashboard. We expect to provide another update in 8 hours or as soon as more information becomes available.\nJul 19, 11:19 PDT\nUpdate - We continue to investigate stuck tasks in Flex TeamsView. Some customers can see tasks that have been already completed, still showing up on the dashboard. We expect to provide another update in 4 hours or as soon as more information becomes available.\nJul 19, 09:13 PDT\nUpdate - We are still investigating stuck tasks in Flex TeamsView. Some customers can see tasks that have been already completed, still showing up on the dashboard. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJul 19, 08:17 PDT\nUpdate - We are investigating stuck tasks in Flex TeamsView. Some customers can see tasks that have been already completed, still showing up on the dashboard. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJul 19, 08:11 PDT\nInvestigating - Our monitoring systems have detected a potential issue with TeamsView calls. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/qrw965kdtwcl",
-          "publishedOn": "2023-07-19T22:44:04.000Z",
-          "wordCount": 6449,
-          "title": "Stuck Tasks in TeamsView",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/f51z873b3c26",
-          "author": null,
-          "description": "Jul 19, 13:01 PDT\nCompleted - The scheduled maintenance has been completed.\nJul 19, 12:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 18, 20:28 PDT\nScheduled - The China Telecom network in China is conducting an emergency maintenance from 19 July at 12:00 PDT until 19 July at 13:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from China Telecom China handsets.",
-          "link": "https://status.twilio.com/incidents/f51z873b3c26",
-          "publishedOn": "2023-07-19T20:01:43.000Z",
-          "wordCount": 6278,
-          "title": "China SMS Carrier Maintenance - China Telecom",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/dgpnwgwhkdkr",
-          "author": null,
-          "description": "Jul 19, 08:30 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Econet network in Zimbabwe. This incident has been resolved.\nJul 19, 06:29 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Econet network in Zimbabwe. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJul 18, 21:18 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to Econet network in Zimbabwe. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.\nJul 18, 13:18 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to Econet network in Zimbabwe. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nJul 18, 09:25 PDT\nUpdate - We are continue experiencing SMS delivery delays when sending messages to Econet network in Zimbabwe. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nJul 18, 07:31 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Econet network in Zimbabwe. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJul 18, 06:30 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Econet network in Zimbabwe. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/dgpnwgwhkdkr",
-          "publishedOn": "2023-07-19T15:30:07.000Z",
-          "wordCount": 6533,
-          "title": "SMS Message Delivery Delays to Econet Network in Zimbabwe",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/c0r0bg410xsp",
-          "author": null,
-          "description": "Jul 19, 05:37 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to the Mobilis network in Algeria. This incident has been resolved.\nJul 19, 03:51 PDT\nMonitoring - We are observing recovery in SMS delivery delays, when sending messages to the Mobilis network in Algeria. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours, or as soon as more information becomes available.\nJul 19, 03:19 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to the Mobilis network in Algeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour, or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/c0r0bg410xsp",
-          "publishedOn": "2023-07-19T12:37:56.000Z",
-          "wordCount": 6325,
-          "title": "SMS Delivery Delays to Mobilis Algeria",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/j87w3r0mwxnr",
-          "author": null,
-          "description": "Jul 19, 04:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJul 18, 22:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 12, 08:03 PDT\nScheduled - Our MMS carrier partner in US and Canada is conducting a planned maintenance from 18 July 2023 at 22:00 PDT until 19 July 2023 at 4:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from US and Canada handsets.",
-          "link": "https://status.twilio.com/incidents/j87w3r0mwxnr",
-          "publishedOn": "2023-07-19T11:00:25.000Z",
-          "wordCount": 6294,
-          "title": "US and Canada MMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/7jqpqr98n3mh",
-          "author": null,
-          "description": "Jul 18, 20:49 PDT\nResolved - We are no longer experiencing SMS delivery delays and failures when sending messages to Mobilis Network in Algeria. This incident has been resolved.\nJul 18, 18:49 PDT\nMonitoring - We are observing recovery in SMS delivery delays and failures when sending messages to Mobilis Network in Algeria. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJul 18, 17:48 PDT\nInvestigating - We are experiencing SMS delivery delays and failures when sending messages to Mobilis Network in Algeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/7jqpqr98n3mh",
-          "publishedOn": "2023-07-19T03:49:24.000Z",
-          "wordCount": 6340,
-          "title": "SMS Delivery Delays and Failures to Mobilis Network in Algeria",
+          "description": "Jul 20, 08:25 PDT\nResolved - The incident with German customers attempting to validate their one time passcode during the phone number verification step during signup has been resolved and service is operating normally at this time.\nJul 19, 19:12 PDT\nUpdate - We have started seeing recovery for when German customers attempt to validate their one time passcode during the phone number verification step during signup. We will continue to monitor to ensure a full recovery. We expect to provide another update in 14 hours or as soon as more information becomes available.\nJul 19, 17:03 PDT\nUpdate - We have started seeing recovery for when German customers attempt to validate their one time passcode during the phone number verification step during signup. We will continue to monitor to ensure a fu…",
+          "link": "https://status.twilio.com/incidents/yy9jvc0mljv6",
+          "publishedOn": "2023-07-20T15:25:35.000Z",
+          "wordCount": 6896,
+          "title": "Verification Errors for German Customers During Signup",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -262,6 +182,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/hwy11pmr6hgl",
+          "author": null,
+          "description": "Jul 20, 22:31 UTC\nResolved - As of 21:52 UTC, our Engineering team has confirmed the full resolution of the issue impacting the creation of directories/folders/files in Spaces buckets via the Cloud Control Panel. \nIf you continue to experience problems, please open a ticket with our Support team. Thank you for your patience and we apologize for the inconvenience.\nJul 20, 22:05 UTC\nMonitoring - As of 21:32 UTC, our Engineering team has implemented a fix for the issue impacting the creation of directories/folders/files in Spaces buckets in the Cloud Control Panel.\nWe're now monitoring the situation closely. We will post an update as soon as the issue is fully resolved.\nJul 20, 21:39 UTC\nUpdate - Our Engineering team is investigating an issue with creating directories/folders/files in Spaces buckets using the Cloud Control Panel.\nDuring this time, users should still be able to create the Spaces Bucket using Control Panel and API.\nWe will share an update as soon as possible.\nJul 20, 21:38 UTC\nInvestigating - Our Engineering team is investigating an issue with creating directories/folders/files in Spaces buckets using the Cloud Control Panel.\nDuring this time, users should still be able to create the Spaces Bucket using Control Panel and API.\nWe will share an update as soon as possible.",
+          "link": "https://status.digitalocean.com/incidents/hwy11pmr6hgl",
+          "publishedOn": "2023-07-20T22:31:03.000Z",
+          "wordCount": 5176,
+          "title": "Spaces directories creation",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/04y93nmb1blj",
           "author": null,
@@ -399,6 +329,26 @@
       "feedUrl": "https://status.notion.so/history.rss",
       "siteUrl": "https://status.notion.so",
       "articles": [
+        {
+          "id": "https://status.notion.so/incidents/ps6b5r9s5sfk",
+          "author": null,
+          "description": "Jul 20, 16:05 PDT\nResolved - This incident has been resolved.\nJul 20, 15:30 PDT\nMonitoring - We published a fix and validating the problem is fixed\nJul 20, 14:46 PDT\nIdentified - A change to request cookie consent is preventing users from accessing Notion. We have identified the issue and are working on a fix.",
+          "link": "https://status.notion.so/incidents/ps6b5r9s5sfk",
+          "publishedOn": "2023-07-20T23:05:12.000Z",
+          "wordCount": 2869,
+          "title": "Some users prevented from accessing Notion due to change in request cookie consent",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.notion.so/incidents/g2ywgyryp910",
+          "author": null,
+          "description": "Jul 20, 15:07 PDT\nResolved - This incident has been resolved.\nJul 20, 14:57 PDT\nInvestigating - Users are unable to export workspace and page files. We are currently investigating the issue",
+          "link": "https://status.notion.so/incidents/g2ywgyryp910",
+          "publishedOn": "2023-07-20T22:07:47.000Z",
+          "wordCount": 2834,
+          "title": "Users cannot access any exported files from pages or workspaces",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.notion.so/incidents/zqrrhnc8xcpb",
           "author": null,
