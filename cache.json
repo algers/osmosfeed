@@ -54,7 +54,7 @@
           "description": "Jul 28, 11:28 PDT\nResolved - [False alarm] This incident was a false alarm—the LOS Records API is working as expected. Apologies for the inconvenience.\nJul 28, 10:02 PDT\nIdentified - Starting today (July 28, 2023), we identified an issue affecting the LOS Records API. Records for 180 days from today (beyond Jan 24, 2024) are being ignored, and the dates are marked as unavailable on Airbnb, although requests to set those records are not failing. We are actively working to find the root cause, and mitigate this issue. We will post more information as soon as possible.",
           "link": "https://airbnbapi.statuspage.io/incidents/9ydjrhv3dwh2",
           "publishedOn": "2023-07-28T18:28:33.000Z",
-          "wordCount": 3434,
+          "wordCount": 3436,
           "title": "Incident Affecting LOS Records API",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -64,7 +64,7 @@
           "description": "Jul 27, 12:13 PDT\nResolved - We have resolved this incident.\nJul 27, 00:02 PDT\nMonitoring - There has been an increase in confirmed reservation notifications not including guest details in full since 2023-07-24.\nThe issue worsened significantly earlier today on 2023-07-27.\nThe root cause has been identified and a fix has been implemented.\nWe are monitoring the situation.\nWe recommend to retrieve the details with GET reservations requests.\nApologies for the inconvenience caused.",
           "link": "https://airbnbapi.statuspage.io/incidents/fg9fy7k4mhk4",
           "publishedOn": "2023-07-27T19:13:44.000Z",
-          "wordCount": 3411,
+          "wordCount": 3413,
           "title": "Issues Affecting Guest Details in Reservation Webhooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -74,7 +74,7 @@
           "description": "Jul 25, 13:03 PDT\nResolved - We resolved the incident. Please retry any request that failed during the incident, and don't hesitate to contact us if you need support.\nJul 25, 11:50 PDT\nMonitoring - We have deployed a fix for this issue around 11:00 AM (PDT), and are monitoring the results.\nJul 25, 09:49 PDT\nInvestigating - We are actively investigating an increased number of 500 errors on the PUT Pricing Settings endpoint. These errors started today (July 25, 2023) around 05:00 AM (PDT). Our engineering teams are working to get everything up and running again, and we will update you with the latest information as soon as possible.",
           "link": "https://airbnbapi.statuspage.io/incidents/ysvh24l8l9w1",
           "publishedOn": "2023-07-25T20:03:48.000Z",
-          "wordCount": 3454,
+          "wordCount": 3456,
           "title": "500 Error on PUT Pricing Settings API",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -84,7 +84,7 @@
           "description": "Jul 24, 15:37 PDT\nResolved - We resolved the incident around 03:00 PM (PDT). Please retry any request that failed during the incident, and don't hesitate to contact us if you need support.\nJul 24, 14:16 PDT\nInvestigating - We are actively investigating an increased number of 500 errors across multiple endpoints, as well as timeout errors on the Partner Portal. These errors started today (July 24, 2023) around 02:00 PM PDT. Our engineering teams are working to get everything up and running again, and we will update you with the latest information as soon as possible.",
           "link": "https://airbnbapi.statuspage.io/incidents/qj19z52zmnqj",
           "publishedOn": "2023-07-24T22:37:04.000Z",
-          "wordCount": 3442,
+          "wordCount": 3444,
           "title": "500 Error Across Multiple Endpoints and Support Tools",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -94,7 +94,7 @@
           "description": "Jul 13, 09:22 PDT\nResolved - We have backfilled message threads for the reservations that were affected during this time window. You should now be able to retrieve the `thread_id` associated with a reservation using the Reservations API. Apologies for the inconvenience.\nIf you have any further queries related to this incident, please submit a ticket via the Partner Support Portal and our team will get back to you as soon as possible.\nJul 12, 12:25 PDT\nIdentified - We have identified an issue that caused reservations to be created without associated threads. This occurred between 10:15 PM and 11:29 PM on July 12th (PST), so notifications for reservations created during that time were sent with a null `thread_id` value.\nWe are actively working on creating threads for reservations that do not have them, and will update here afterwards.\nOnce this is done, you will be able to retrieve the `thread_id` value for a reservation using the Reservations API.",
           "link": "https://airbnbapi.statuspage.io/incidents/l6f622b5k1t3",
           "publishedOn": "2023-07-13T16:22:18.000Z",
-          "wordCount": 3492,
+          "wordCount": 3494,
           "title": "Reservations Missing Thread Id Values",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
@@ -106,22 +106,72 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
+          "id": "https://status.twilio.com/incidents/ndgkfw6bgzgd",
+          "author": null,
+          "description": "Aug  7, 17:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 26, 08:12 PDT\nScheduled - Our Voice carrier partner in Germany and Austria is conducting a planned maintenance from 7 August 2023 at 17:00 PDT until 7 August 2023 at 18:00 PDT. During the maintenance window there could be intermittent call failures to a subset of Germany and Austria phone numbers.",
+          "link": "https://status.twilio.com/incidents/ndgkfw6bgzgd",
+          "publishedOn": "2023-08-08T00:00:26.000Z",
+          "wordCount": 6470,
+          "title": "Germany and Austria Voice Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/5ll91bm2gzhn",
+          "author": null,
+          "description": "Aug  7, 16:01 PDT\nCompleted - The scheduled maintenance has been completed.\nAug  7, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug  4, 08:08 PDT\nScheduled - The Megafon and Yota networks in Russia is conducting a planned maintenance from 07 August 2023 at 13:00 PDT until 07 August 2023 at 16:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Megafon and Yota Russia handsets.",
+          "link": "https://status.twilio.com/incidents/5ll91bm2gzhn",
+          "publishedOn": "2023-08-07T23:01:30.000Z",
+          "wordCount": 6480,
+          "title": "Russia SMS Carrier Maintenance - Megafon and Yota",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/v56vpp3l37gr",
+          "author": null,
+          "description": "Aug  7, 15:00 PDT\nUpdate - We continue to experience SMS delivery failures sending to Evatis Network in Djibouti. Our engineers are working with our carrier partner to resolve this issue. We will provide another update in 8 hours or as soon as more information becomes available.\nAug  7, 11:14 PDT\nUpdate - We continue to experience SMS delivery failures sending to Evatis Network in Djibouti. Our engineers are working with our carrier partner to resolve this issue. We will provide another update in 4 hours or as soon as more information becomes available.\nAug  7, 09:14 PDT\nUpdate - We continue to experience SMS delivery failures sending to Evatis Network in Djibouti. Our engineers are working with our carrier partner to resolve this issue. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  7, 08:14 PDT\nInvestigating - We are experiencing SMS delivery failures sending to Evatis Network in Djibouti. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/v56vpp3l37gr",
+          "publishedOn": "2023-08-07T22:00:37.000Z",
+          "wordCount": 6598,
+          "title": "SMS Delivery Failures Sending to Evatis Network in Djibouti",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/9tj4zdlxzrn3",
+          "author": null,
+          "description": "Aug  7, 14:00 PDT\nUpdate - We continue to experience a problem with a subset of customers unable to comment on tickets they opened. We expect to provide another update in 4 hours or as soon as more information becomes available.\nAug  7, 12:10 PDT\nUpdate - We continue to experience a problem with a subset of customers unable to comment on tickets they opened. We expect to provide another update in 2 hours or as soon as more information becomes available.\nAug  7, 11:22 PDT\nInvestigating - We are investigating a problem with a subset of customers unable to comment on tickets they opened. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/9tj4zdlxzrn3",
+          "publishedOn": "2023-08-07T21:00:42.000Z",
+          "wordCount": 6534,
+          "title": "A Subset of Customers Experiencing Problems to Comment on Tickets Opened",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/z25wb23q738r",
+          "author": null,
+          "description": "Aug  7, 12:16 PDT\nResolved - We are no longer experiencing issue with customers provisioning trial phone numbers in UK. This incident has been resolved.\nAug  7, 12:00 PDT\nMonitoring - The problem with customer provisioning trial phone numbers in UK is now operating normally. We will continue to monitor for service stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nAug  7, 11:06 PDT\nInvestigating - We are investigating an issue where users cannot provision trial phone numbers in UK. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/z25wb23q738r",
+          "publishedOn": "2023-08-07T19:16:28.000Z",
+          "wordCount": 6504,
+          "title": "Issues With Users Provisioning Trial Phone Numbers in UK",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.twilio.com/incidents/h0nh43kp6flh",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Aug 7, 03:00 - 04:00 PDT\nAug  4, 14:06 PDT\nScheduled - The AT&T network in Mexico is conducting a planned maintenance from 07 August 2023 at 03:00 PST until 07 August 2023 at 04:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.",
+          "description": "Aug  7, 04:00 PDT\nCompleted - The scheduled maintenance has been completed.\nAug  7, 03:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug  4, 14:06 PDT\nScheduled - The AT&T network in Mexico is conducting a planned maintenance from 07 August 2023 at 03:00 PST until 07 August 2023 at 04:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.",
           "link": "https://status.twilio.com/incidents/h0nh43kp6flh",
-          "publishedOn": "2023-08-07T10:00:00.000Z",
-          "wordCount": 6441,
+          "publishedOn": "2023-08-07T11:00:32.000Z",
+          "wordCount": 6473,
           "title": "Mexico SMS Carrier Maintenance - AT&T",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/n9gfrwq8trcg",
           "author": null,
-          "description": "Aug  6, 16:03 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to the MTN network in Congo. Our engineers are working with our carrier partner to resolve this issue. We will provide another update in 4 hours or as soon as more information becomes available.\nAug  6, 14:16 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to the MTN network in Congo. Our engineers are working with our carrier partner to resolve this issue. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  6, 13:12 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to the MTN network in Congo. Our engineers are working with our carrier partner to resolve this issue. We will provide another update in 1 hour or as soon as more information becomes available.\nAug  6, 13:08 PDT\nInvestigating - Our monitoring system has detected a potential issue with SMS delivery delays to the MTN network in Congo. Our engineering team has been alerted and is actively investigating. We will update you as soon as we have more information.",
+          "description": "Aug  7, 03:51 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to the MTN network in Congo. Our engineers are working with our carrier partner to resolve this issue. We will provide another update in 16 hours or as soon as more information becomes available.\nAug  6, 19:55 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to the MTN network in Congo. Our engineers are working with our carrier partner to resolve this issue. We will provide another update in 8 hours or as soon as more information becomes available.\nAug  6, 16:03 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to the MTN network in Congo. Our engineers are working with our carrier partner to resolve this issue. We will provide another update in 4 hours or as soon as more information becomes available.\nAug  6, 14:16 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to the MTN network in Congo. Our engineers are working with our carrier partner to resolve this issue. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  6, 13:12 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to the MTN network in Congo. Our engineers are working with our carrier partner to resolve this issue. We will provide another update in 1 hour or as soon as more information becomes available.\nAug  6, 13:08 PDT\nInvestigating - Our monitoring system has detected a potential issue with SMS delivery delays to the MTN network in Congo. Our engineering team has been alerted and is actively investigating. We will update you as soon as we have more information.",
           "link": "https://status.twilio.com/incidents/n9gfrwq8trcg",
-          "publishedOn": "2023-08-06T23:03:21.000Z",
-          "wordCount": 6597,
+          "publishedOn": "2023-08-07T10:51:13.000Z",
+          "wordCount": 6705,
           "title": "SMS Delivery Delays to MTN Network in Congo",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -131,7 +181,7 @@
           "description": "Aug  6, 16:00 PDT\nCompleted - The scheduled maintenance has been completed.\nAug  3, 15:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 21, 08:00 PDT\nScheduled - Our carrier partner Three UK is conducting a planned maintenance from 03 August 2023 at 15:00 PDT until 06 August 2023 at 16:00 PDT. During the maintenance window, there could be intermittent API request failures for Three UK customers.\n\nImpacted Products: Lookup SIM Swap, Lookup Identity Match and Verify Silent Network Authentication",
           "link": "https://status.twilio.com/incidents/bgmf59kggf15",
           "publishedOn": "2023-08-06T23:00:08.000Z",
-          "wordCount": 6498,
+          "wordCount": 6502,
           "title": "United Kingdom Account Security Carrier Partner Maintenance - Three UK",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -141,7 +191,7 @@
           "description": "Aug  5, 14:15 PDT\nResolved - We are no longer experiencing SMS delivery failures to the Touch network in Lebanon. This incident has been resolved.\nAug  5, 12:20 PDT\nMonitoring - We are observing successful SMS delivery to the Touch network in Lebanon.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 12:24 PDT\nUpdate - We continue to experience SMS delivery failures when sending messages to the Touch network in Lebanon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.\nAug  4, 06:33 PDT\nUpdate - We are continuing our investigation, and have confirmed that SMS, …",
           "link": "https://status.twilio.com/incidents/8g2hk1gs58m3",
           "publishedOn": "2023-08-05T21:15:10.000Z",
-          "wordCount": 6801,
+          "wordCount": 6805,
           "title": "SMS Delivery Failures to Touch Network in Lebanon",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -151,7 +201,7 @@
           "description": "Aug  5, 06:59 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Ethio Telecom in Ethiopia. This incident has been resolved.\nAug  5, 05:00 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Ethio Telecom in Ethiopia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 23:02 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Ethio Telecom in Ethiopia. Our engineers are still working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nAug  4, 19:03 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Ethio Telecom in Ethiopia. Our engineers are still working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nAug  4, 17:03 PDT\nUpdate - We continue to experiencing SMS delivery delays when sending messages to Ethio Telecom in Ethiopia. Our engineers are still working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 16:03 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Ethio Telecom in Ethiopia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
           "link": "https://status.twilio.com/incidents/jtqp7jmd6qtx",
           "publishedOn": "2023-08-05T13:59:02.000Z",
-          "wordCount": 6678,
+          "wordCount": 6682,
           "title": "SMS Delivery Delays to Ethio Telecom in Ethiopia",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -161,7 +211,7 @@
           "description": "Aug  5, 02:01 PDT\nResolved - We are no longer experiencing SMS delivery delays to Beeline Network in Russia. This incident has been resolved.\nAug  5, 01:01 PDT\nUpdate - We are observing recovery in SMS delivery delay to Beeline Network in Russia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 23:33 PDT\nMonitoring - We are observing recovery in SMS delivery delay to Beeline Network in Russia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 22:02 PDT\nUpdate - We continue to experience SMS delivery delay to Beeline Network in Russia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nAug  4, 20:02 PDT\nUpdate - We are continuing SMS delivery delay to Beeline Network in Russia . Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 19:12 PDT\nInvestigating - We are experiencing SMS delivery delay to Beeline Network in Russia . Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
           "link": "https://status.twilio.com/incidents/pzqtq6hj51hz",
           "publishedOn": "2023-08-05T09:01:58.000Z",
-          "wordCount": 6654,
+          "wordCount": 6658,
           "title": "SMS Delivery Delay To Beeline Network In Russia",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -171,7 +221,7 @@
           "description": "Aug  4, 22:34 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Ooredoo Network in Myanmar. This incident has been resolved.\nAug  4, 20:41 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Ooredoo Network in Myanmar. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 18:46 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Ooredoo Network in Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 17:46 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Ooredoo Network in Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
           "link": "https://status.twilio.com/incidents/gfjr9fg5yzcz",
           "publishedOn": "2023-08-05T05:34:17.000Z",
-          "wordCount": 6569,
+          "wordCount": 6573,
           "title": "SMS Delivery Delay to Ooredoo Network in Myanmar",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -181,7 +231,7 @@
           "description": "Aug  4, 20:50 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Brazil from registered sender IDs and Short codes. This incident has been resolved.\nAug  4, 17:14 PDT\nUpdate - We are observing recovery in SMS delivery delays when sending messages to Brazil from registered sender IDs and Short codes. We still need to continue monitoring the service to ensure a full recovery. We will provide another update in 4 hours or as soon as more information becomes available.\nAug  4, 15:15 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Brazil from registered sender IDs and Short codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 13:25 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Brazil from registered sender IDs and Short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 12:26 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Brazil from registered sender IDs and Short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
           "link": "https://status.twilio.com/incidents/ymhgyd3t1307",
           "publishedOn": "2023-08-05T03:50:36.000Z",
-          "wordCount": 6652,
+          "wordCount": 6656,
           "title": "SMS Delivery Delays to Brazil From Registered Sender IDs and Short-codes",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -191,7 +241,7 @@
           "description": "Aug  4, 16:38 PDT\nResolved - This incident has been resolved.\nAug  4, 14:59 PDT\nMonitoring - We are observing recovery in MMS delivery delays when sending messages to AT&T network in the US over a subset of short codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 13:50 PDT\nUpdate - We are still experiencing MMS delivery delays when sending messages to AT&T network in the US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nAug  4, 11:58 PDT\nUpdate - We are still experiencing MMS delivery delays when sending messages to AT&T network in the US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 11:04 PDT\nUpdate - We are continuing our investigation and have discovered that SMS is not impacted but MMS is affected by this issue.\nAug  4, 10:58 PDT\nInvestigating - We are experiencing MMS delivery delays when sending messages to AT&T network in the US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
           "link": "https://status.twilio.com/incidents/0jj8wcdgzd2r",
           "publishedOn": "2023-08-04T23:38:34.000Z",
-          "wordCount": 6666,
+          "wordCount": 6670,
           "title": "MMS Delivery Delays to AT&T Network in the US",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -201,7 +251,7 @@
           "description": "Aug  4, 14:05 PDT\nResolved - This incident has been resolved.\nAug  4, 12:00 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to NUR Telecom network in Kyrgyzstan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 08:37 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to NUR Telecom network in Kyrgyzstan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nAug  4, 06:39 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to NUR Telecom network in Kyrgyzstan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 05:38 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to the NUR Telecom network in Kyrgyzstan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
           "link": "https://status.twilio.com/incidents/8ykvhj83dp5n",
           "publishedOn": "2023-08-04T21:05:17.000Z",
-          "wordCount": 6612,
+          "wordCount": 6616,
           "title": "SMS Delivery Delays to NUR Telecom Network in Kyrgyzstan",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -211,7 +261,7 @@
           "description": "Aug  4, 05:53 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to the Orange network in the Democratic Republic of the Congo. This incident has been resolved.\nAug  4, 04:13 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to the Orange network in the Democratic Republic of the Congo. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 01:06 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to the Orange network in the Democratic Republic of the Congo. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nAug  3, 21:20 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to the Orange network in the Democratic Republic of the Congo. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nAug  3, 19:35 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to the Orange network in the Democratic Republic of the Congo. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  3, 18:40 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to the Orange network in Congo. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
           "link": "https://status.twilio.com/incidents/1dwlqtwrvczt",
           "publishedOn": "2023-08-04T12:53:31.000Z",
-          "wordCount": 6723,
+          "wordCount": 6727,
           "title": "SMS Delivery Delays to the Orange Network in the Democratic Republic of the Congo",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -221,7 +271,7 @@
           "description": "Aug  4, 02:47 PDT\nResolved - The issue with intermittent API Lookup service timeouts to multiple countries has been resolved and the service is operating normally at this time.\nAug  4, 00:56 PDT\nUpdate - We are still experiencing intermittent API Lookup service timeouts to multiple countries. Our engineers are working with our carrier partner on resolving the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nAug  4, 00:01 PDT\nUpdate - We are experiencing intermittent API Lookup service timeouts to multiple countries. Our engineers are working with our carrier partner on resolving the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nAug  3, 23:19 PDT\nInvestigating - Our monitoring systems have detected a potential issue with API Lookup Service. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
           "link": "https://status.twilio.com/incidents/tc3762rv98md",
           "publishedOn": "2023-08-04T09:47:23.000Z",
-          "wordCount": 6561,
+          "wordCount": 6565,
           "title": "Intermittent API Lookup Service Timeouts to Multiple Countries",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -231,68 +281,8 @@
           "description": "Aug  4, 02:01 PDT\nResolved - The issue with delays and failures in provisioning 10DLCs within the US carrier ecosystem has been resolved and the service is operating normally at this time.\nAug  4, 00:18 PDT\nMonitoring - We have observed an improvement from the delays and failures in provisioning 10DLCs within the US carrier ecosystem. We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nAug  3, 23:35 PDT\nUpdate - We continue to experience delays and failures in provisioning 10DLCs within the US carrier ecosystem. We are also investigating the potential impact with 10DLC campaign registrations. We expect to provide another update in 2 hours or as soon as more information becomes available.\nAug  3, 22:43 PDT\nUpdate - We are experiencing delays and failures in provisioning 10DLCs within the US carrier ecosystem. We are also investigating the potential impact with 10DLC campaign registrations. We expect to provide another update in 1 hour or as soon as more information becomes available.\nAug  3, 22:29 PDT\nInvestigating - Our monitoring systems have detected a potential issue with phone numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
           "link": "https://status.twilio.com/incidents/ftczy24r5snt",
           "publishedOn": "2023-08-04T09:01:17.000Z",
-          "wordCount": 6613,
+          "wordCount": 6617,
           "title": "Delays and Failures Provisioning 10DLCs With US Carriers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/jdpt5nh4rxrs",
-          "author": null,
-          "description": "Aug  4, 01:18 PDT\nResolved - The issue with WhatsApp Business API causing messages to fail and customers to encounter 63020 Business Manager Account Error in the delivery receipts due to a Meta disruption has been resolved. The service is operating normally at this time.\nAug  4, 00:53 PDT\nMonitoring - WhatsApp Business API messages are now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nAug  4, 00:24 PDT\nUpdate - Meta is having major disruptions with WhatsApp Business API causing messages to fail, and customers may encounter 63020 Business Manager Account Error in the delivery receipts. We will provide another update in 30 minutes or as soon as more information becomes available.\nAug  4, 00:12 PDT\nUpdate - Meta is having major disruptions with WhatsApp Business API causing messages to fail, and customers may encounter 63020 errors when trying to send messages. We will provide another update in 30 minutes or as soon as more information becomes available.\nAug  3, 23:42 PDT\nInvestigating - Our monitoring systems have detected a potential issue regarding sending WhatsApp Messages. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/jdpt5nh4rxrs",
-          "publishedOn": "2023-08-04T08:18:04.000Z",
-          "wordCount": 6603,
-          "title": "WhatsApp Business API Major Disruptions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/xddygs0m0hjf",
-          "author": null,
-          "description": "Aug  3, 20:00 PDT\nCompleted - The scheduled maintenance has been completed.\nAug  3, 12:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug  2, 16:10 PDT\nScheduled - The MTS networks in Russia is conducting an emergency maintenance from 03 August 2023 at 12:00 PDT until 03 August 2023 at 20:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to MTS Russia handsets.",
-          "link": "https://status.twilio.com/incidents/xddygs0m0hjf",
-          "publishedOn": "2023-08-04T03:00:21.000Z",
-          "wordCount": 6469,
-          "title": "Russia SMS Carrier Maintenance - MTS",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/btnvj1wsdb45",
-          "author": null,
-          "description": "Aug  3, 20:00 PDT\nCompleted - The scheduled maintenance has been completed.\nAug  3, 16:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 27, 08:04 PDT\nScheduled - The Vodafone network in Egypt is conducting a planned maintenance from 3 August 2023 at 16:00 PDT until 3 August 2023 at 20:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Vodafone Egypt handsets.",
-          "link": "https://status.twilio.com/incidents/btnvj1wsdb45",
-          "publishedOn": "2023-08-04T03:00:11.000Z",
-          "wordCount": 6469,
-          "title": "Egypt SMS Carrier Maintenance – Vodafone",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/80b4jwsnmcvg",
-          "author": null,
-          "description": "Aug  3, 16:00 PDT\nCompleted - The scheduled maintenance has been completed.\nAug  3, 12:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug  3, 00:41 PDT\nScheduled - The Tele2 and Altel networks in Kazakhstan is conducting an emergency maintenance from 03 August 2023 at 12:00 PDT until 03 August 2023 at 16:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Tele2 and Altel Kazakhstan handsets.",
-          "link": "https://status.twilio.com/incidents/80b4jwsnmcvg",
-          "publishedOn": "2023-08-03T23:00:16.000Z",
-          "wordCount": 6476,
-          "title": "Kazakhstan SMS Carrier Maintenance - Tele2 and Altel",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/z0v0ly4c5jh5",
-          "author": null,
-          "description": "Aug  3, 14:30 PDT\nResolved - We are no longer experiencing issues with WhatsApp Senders unable to send or receive messages. This incident has been resolved.\nAug  3, 14:04 PDT\nMonitoring - Our engineers have deployed a fix and we have started seeing recovery for the issue causing WhatsApp Senders unable to send or receive messages. We will provide another update in 30 minutes or as soon as more information becomes available.\nAug  3, 12:35 PDT\nUpdate - Our engineers have identified the issue with less than 1% of WhatsApp Senders may be unable to send or receive messages at the moment. We are working to deploy a fix. We expect to provide another update in 4 hours or as soon as more information becomes available.\nAug  3, 10:35 PDT\nUpdate - Our engineers have identified the issue with less than 1% of WhatsApp Senders may be unable to send or receive messages at the moment. We are working to deploy a fix. We expect to provide another update in 2 hours or as soon as more information becomes available.\nAug  3, 09:42 PDT\nIdentified - Our engineers have identified the issue with less than 1% of WhatsApp Senders may be unable to send or receive messages at the moment. We are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.\nAug  3, 09:28 PDT\nInvestigating - Our monitoring systems have detected a potential issue with WhatsApp. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/z0v0ly4c5jh5",
-          "publishedOn": "2023-08-03T21:30:51.000Z",
-          "wordCount": 6670,
-          "title": "WhatsApp Senders Unable to Send or Receive Messages",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/s4g17tflr658",
-          "author": null,
-          "description": "Aug  3, 12:55 PDT\nResolved - We have fully investigated the SMS Delivery Delays To Subset of Twilio Short Code In Mexico issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.\nAug  3, 12:48 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS Delivery Delays To Subset of Twilio Short Code In Mexico. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/s4g17tflr658",
-          "publishedOn": "2023-08-03T19:55:07.000Z",
-          "wordCount": 6515,
-          "title": "On Call Engineers are Investigating an issue with SMS Delivery Delays To Subset of Twilio Short Code In Mexico",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -308,7 +298,7 @@
           "description": "Jul 27, 03:20 UTC\nCompleted - The scheduled maintenance has been completed.\nJul 27, 01:02 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 26, 23:08 UTC\nScheduled - Start: 2023-07-27 01:00 UTC\nEnd: 2023-07-27 05:00 UTC\n\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the SFO3 region. This will be the second of the two maintenance activities performed by our team in the region on consecutive days.\nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavour to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.",
           "link": "https://status.digitalocean.com/incidents/szklqql7y77c",
           "publishedOn": "2023-07-27T03:20:54.000Z",
-          "wordCount": 5292,
+          "wordCount": 5296,
           "title": "SFO3 Network Maintenance Phase 2",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -318,7 +308,7 @@
           "description": "Jul 26, 03:45 UTC\nCompleted - The scheduled maintenance has been completed.\nJul 26, 01:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 25, 23:09 UTC\nScheduled - Start: 2023-07-26 01:00 UTC\nEnd: 2023-07-26 05:00 UTC\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the SFO3 region. This maintenance will occur in two parts on consecutive days and we will send another maintenance notice for the second phase. \nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.",
           "link": "https://status.digitalocean.com/incidents/d750rzt8dtgw",
           "publishedOn": "2023-07-26T03:45:04.000Z",
-          "wordCount": 5288,
+          "wordCount": 5292,
           "title": "SFO3 Network Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -328,7 +318,7 @@
           "description": "Jul 20, 22:31 UTC\nResolved - As of 21:52 UTC, our Engineering team has confirmed the full resolution of the issue impacting the creation of directories/folders/files in Spaces buckets via the Cloud Control Panel. \nIf you continue to experience problems, please open a ticket with our Support team. Thank you for your patience and we apologize for the inconvenience.\nJul 20, 22:05 UTC\nMonitoring - As of 21:32 UTC, our Engineering team has implemented a fix for the issue impacting the creation of directories/folders/files in Spaces buckets in the Cloud Control Panel.\nWe're now monitoring the situation closely. We will post an update as soon as the issue is fully resolved.\nJul 20, 21:39 UTC\nUpdate - Our Engineering team is investigating an issue with creating directories/folders/files in Spaces buckets using the Cloud Control Panel.\nDuring this time, users should still be able to create the Spaces Bucket using Control Panel and API.\nWe will share an update as soon as possible.\nJul 20, 21:38 UTC\nInvestigating - Our Engineering team is investigating an issue with creating directories/folders/files in Spaces buckets using the Cloud Control Panel.\nDuring this time, users should still be able to create the Spaces Bucket using Control Panel and API.\nWe will share an update as soon as possible.",
           "link": "https://status.digitalocean.com/incidents/hwy11pmr6hgl",
           "publishedOn": "2023-07-20T22:31:03.000Z",
-          "wordCount": 5330,
+          "wordCount": 5334,
           "title": "Spaces directories creation",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -338,7 +328,7 @@
           "description": "Jul 14, 15:25 UTC\nResolved - From 14:53 - 15:26 UTC, we experienced an issue with Kubernetes clusters and our Kubernetes API. During that time, users would have experienced errors while communicating with their clusters , as well as seen errors while sending requests to API endpoints. Errors to the API manifested as 404's on /v2/kubernetes/clusters endpoints. \nOur Engineering team was able to take swift action to roll back a breaking change, remediating the incident. \nWe apologize for the disruption in service. If you are still experiencing any problems or have additional questions, then please open a support ticket within your account.",
           "link": "https://status.digitalocean.com/incidents/04y93nmb1blj",
           "publishedOn": "2023-07-14T15:25:24.000Z",
-          "wordCount": 5205,
+          "wordCount": 5209,
           "title": "Kubernetes Clusters",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -348,7 +338,7 @@
           "description": "Jul 13, 02:33 UTC\nResolved - Our engineering team has resolved the issue with the Billing page for Team accounts in the Cloud Control Panel. \nThank you for your patience. If you continue to experience any problems, please open a support ticket from within your account.\nJul 13, 01:33 UTC\nMonitoring - As of 01:20 UTC, Our Engineering team has implemented a fix regarding the issue with the Billing page for Team accounts in the Cloud Control Panel. We are monitoring the situation to ensure there is no recurrence. \nWe will post another update once we confirm the issue is fully resolved.\nJul 13, 01:27 UTC\nInvestigating - As of 01:05 UTC, Our Engineering team is investigating an issue with the Billing page for Teams on the Cloud Control Panel. During this time, users on Team accounts may experience errors while accessing the Billing page. \nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/k6db523qf5gw",
           "publishedOn": "2023-07-13T02:33:27.000Z",
-          "wordCount": 5287,
+          "wordCount": 5291,
           "title": "Billing page on the Cloud Panel",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
@@ -365,7 +355,7 @@
           "description": "Aug  1, 10:10 PDT\nResolved - This incident has been resolved.\nAug  1, 10:10 PDT\nInvestigating - Between 7/26 and 8/1, Notion experienced an issue which prevented users from receiving push notifications on mobile devices. The issue was resolved today, at approximately 9:45 am PDT.",
           "link": "https://status.notion.so/incidents/56mkzzfczbws",
           "publishedOn": "2023-08-01T17:10:44.000Z",
-          "wordCount": 2904,
+          "wordCount": 2906,
           "title": "Mobile Push Notifications",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -375,7 +365,7 @@
           "description": "Jul 26, 17:22 PDT\nResolved - This incident is resolved for all customers.\nJul 26, 12:39 PDT\nInvestigating - We are currently investigating an issue with relations experiencing degraded performance",
           "link": "https://status.notion.so/incidents/jxbwzkjpwvph",
           "publishedOn": "2023-07-27T00:22:18.000Z",
-          "wordCount": 2889,
+          "wordCount": 2891,
           "title": "Relations degraded performance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -385,7 +375,7 @@
           "description": "Jul 20, 16:05 PDT\nResolved - This incident has been resolved.\nJul 20, 15:30 PDT\nMonitoring - We published a fix and validating the problem is fixed\nJul 20, 14:46 PDT\nIdentified - A change to request cookie consent is preventing users from accessing Notion. We have identified the issue and are working on a fix.",
           "link": "https://status.notion.so/incidents/ps6b5r9s5sfk",
           "publishedOn": "2023-07-20T23:05:12.000Z",
-          "wordCount": 2947,
+          "wordCount": 2949,
           "title": "Some users prevented from accessing Notion due to change in request cookie consent",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -395,7 +385,7 @@
           "description": "Jul 20, 15:07 PDT\nResolved - This incident has been resolved.\nJul 20, 14:57 PDT\nInvestigating - Users are unable to export workspace and page files. We are currently investigating the issue",
           "link": "https://status.notion.so/incidents/g2ywgyryp910",
           "publishedOn": "2023-07-20T22:07:47.000Z",
-          "wordCount": 2912,
+          "wordCount": 2914,
           "title": "Users cannot access any exported files from pages or workspaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
@@ -407,12 +397,22 @@
       "siteUrl": "https://status.rippling.com",
       "articles": [
         {
+          "id": "https://status.rippling.com/incidents/s4g3w61q9lsr",
+          "author": null,
+          "description": "Aug  7, 17:35 UTC\nResolved - This incident has been resolved. Site performance should be back to normal.\nAug  7, 16:26 UTC\nMonitoring - We've stopped a data migration job that is believed to be contributing, and we're now seeing site latency return back to baseline numbers. The site latency should now be back to normal, but we are continuing to monitor.\nAug  7, 16:01 UTC\nInvestigating - There is degraded performance across the Rippling application, with certain pages loading slowly. We are investigating the issue.",
+          "link": "https://status.rippling.com/incidents/s4g3w61q9lsr",
+          "publishedOn": "2023-08-07T17:35:47.000Z",
+          "wordCount": 4262,
+          "title": "Increased site latency",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
+        },
+        {
           "id": "https://status.rippling.com/incidents/dg5nlq85bkk3",
           "author": null,
           "description": "Jul 28, 15:44 UTC\nResolved - The incident is now resolved\nJul 28, 15:15 UTC\nMonitoring - The third party provider has resumed service. We are closely monitoring the status of all outgoing emails\nJul 28, 15:01 UTC\nInvestigating - Our third-party email delivery provider has been experiencing an intermittent outage since Jul 28th, 7:45 AM PST, causing a delay in notification delivery for all Rippling emails (including password resets). We are investigating this issue with the third-party provider.",
           "link": "https://status.rippling.com/incidents/dg5nlq85bkk3",
           "publishedOn": "2023-07-28T15:44:02.000Z",
-          "wordCount": 4266,
+          "wordCount": 4270,
           "title": "Delay in email delivery due to third-party outage",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         },
@@ -422,7 +422,7 @@
           "description": "Jul 27, 15:51 UTC\nResolved - This incident has been resolved.\nJul 27, 15:30 UTC\nUpdate - A fix has been implemented and product functionality has been restored.\nJul 27, 14:58 UTC\nIdentified - The issue has been identified and a fix is being implemented.\nJul 27, 14:52 UTC\nUpdate - Users are reporting missing values on the payroll tab in the employee profile. This will be fixed momentarily. This does not impact any processing of payroll.\nJul 27, 14:20 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nJul 27, 14:18 UTC\nIdentified - The issue has been identified and a fix is being implemented.\nJul 27, 14:13 UTC\nInvestigating - Users are reporting issues with signing in to apps that they use Rippling as the identity provider. Our recommended workaround is to sign in to Rippling first and then navigate to the app using the SSO navigation bar. We are currently investigating this issue.",
           "link": "https://status.rippling.com/incidents/5b7jz0d5pc9s",
           "publishedOn": "2023-07-27T15:51:21.000Z",
-          "wordCount": 4361,
+          "wordCount": 4365,
           "title": "Issues with the employee profile payroll tab",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         },
@@ -432,7 +432,7 @@
           "description": "Jul 13, 20:31 UTC\nResolved - This incident has been resolved.\nJul 13, 18:45 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nJul 13, 18:31 UTC\nIdentified - Select customers have received an email with subject \"Domain Verification failed\". This email was sent erroneously and isn't applicable to any customer who has received it, and it can be ignored.",
           "link": "https://status.rippling.com/incidents/nxj258xcyfmh",
           "publishedOn": "2023-07-13T20:31:10.000Z",
-          "wordCount": 4252,
+          "wordCount": 4256,
           "title": "Email sent erroneously regarding work email domain verification",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         }
@@ -466,7 +466,7 @@
           "description": "Aug  1, 20:28 UTC\nResolved - This incident has been resolved.\nAug  1, 20:12 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot",
           "link": "https://www.githubstatus.com/incidents/s9scz41r9wkx",
           "publishedOn": "2023-08-01T20:28:01.000Z",
-          "wordCount": 4202,
+          "wordCount": 4206,
           "title": "Incident with Copilot",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -476,7 +476,7 @@
           "description": "Jul 28, 15:45 UTC\nResolved - This incident has been resolved.\nJul 28, 15:38 UTC\nUpdate - We are actively mitigating delays in commits showing on pull requests.\nJul 28, 15:13 UTC\nUpdate - We are investigating an issue which is causing a delay in the time it takes new commits to show up on a pull request.\nJul 28, 14:51 UTC\nUpdate - We are investigating an issue which is causing a delay in the time it takes new commits to show up on a pull request.\nJul 28, 14:49 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests.",
           "link": "https://www.githubstatus.com/incidents/l59z35rhzdky",
           "publishedOn": "2023-07-28T15:45:36.000Z",
-          "wordCount": 4290,
+          "wordCount": 4294,
           "title": "Incident with Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -486,7 +486,7 @@
           "description": "Jul 28, 10:00 UTC\nResolved - This incident has been resolved.\nJul 28, 09:31 UTC\nInvestigating - We are investigating reports of degraded performance for Issues.",
           "link": "https://www.githubstatus.com/incidents/9f8dkxjg67qq",
           "publishedOn": "2023-07-28T10:00:49.000Z",
-          "wordCount": 4202,
+          "wordCount": 4206,
           "title": "Incident with Issues",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -496,7 +496,7 @@
           "description": "Jul 28, 01:08 UTC\nResolved - This incident has been resolved.\nJul 28, 00:50 UTC\nUpdate - We have identified a problem causing an issue with Pull Requests for some users. We are working on a mitigation.\nJul 28, 00:07 UTC\nUpdate - We have identified a problem causing an issue with Pull Requests for some users. We are working on a mitigation.\nJul 27, 23:35 UTC\nUpdate - We have identified a problem causing an issue with Pull Requests for some users. We are working on a mitigation.\nJul 27, 22:56 UTC\nUpdate - We are still investigating an issue with Pull Requests. We will continue to keep users updated on progress towards mitigation.\nJul 27, 22:18 UTC\nUpdate - We found an issue with repos that affects ability of some of the customers to merge pull requests. We are working on mitigation.\nJul 27, 22:04 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests.",
           "link": "https://www.githubstatus.com/incidents/xfmyxxhcknvj",
           "publishedOn": "2023-07-28T01:08:39.000Z",
-          "wordCount": 4350,
+          "wordCount": 4354,
           "title": "Incident with Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -506,7 +506,7 @@
           "description": "Jul 26, 15:04 UTC\nResolved - This incident has been resolved.\nJul 26, 14:09 UTC\nUpdate - For a small subset of customers some pull requests may not show up as mergeable. We are investigating the cause of the issue and will post an update as we have more information.\nJul 26, 13:50 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests.",
           "link": "https://www.githubstatus.com/incidents/mbvjmqbcb1xk",
           "publishedOn": "2023-07-26T15:04:05.000Z",
-          "wordCount": 4248,
+          "wordCount": 4252,
           "title": "Incident with Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -516,7 +516,7 @@
           "description": "Jul 25, 22:43 UTC\nResolved - This incident has been resolved.\nJul 25, 22:33 UTC\nUpdate - We found an issue that impacts a small subset of customers Jul 25, 22:33 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/98fs1552d2nw",
           "publishedOn": "2023-07-25T22:43:47.000Z",
-          "wordCount": 4244,
+          "wordCount": 4248,
           "title": "Investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -526,7 +526,7 @@
           "description": "Jul 21, 14:01 UTC\nResolved - This incident has been resolved.\nJul 21, 14:01 UTC\nUpdate - Actions is operating normally.\nJul 21, 14:01 UTC\nUpdate - Packages is operating normally.\nJul 21, 14:01 UTC\nUpdate - API Requests is operating normally.\nJul 21, 14:01 UTC\nUpdate - Git Operations is operating normally.\nJul 21, 14:01 UTC\nUpdate - Pages is operating normally.\nJul 21, 14:00 UTC\nUpdate - Networking issues are fully mitigated and service operation is restored. We will continue to work on follow ups internally but all services are operating normally.\nJul 21, 13:45 UTC\nUpdate - We have mitigated the network power issue and are watching services recover. We will continue to monitor recovery and return status to green when the issue is fully mitigated.\nJul 21, 13:36 UTC\nUpdate - API Requests is experiencing degraded performance. We are continuing to investigate.\nJul 21, 13:34 UTC\nUpdate - We are experiencing a power failure at a datacenter related to our networking infrastructure that is impacting a subset of customers using our services. We are working on mitigating the issue.\nJul 21, 13:27 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are still investigating and will provide an update when we have one.\nJul 21, 13:22 UTC\nUpdate - Pages is experiencing degraded performance. We are still investigating and will provide an update when we have one.\nJul 21, 13:21 UTC\nUpdate - Packages is experiencing degraded performance. We are still investigating and will provide an update when we have one.\nJul 21, 13:15 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nJul 21, 13:12 UTC\nInvestigating - We are investigating reports of degraded performance for Git Operations.",
           "link": "https://www.githubstatus.com/incidents/6503rcn8s34s",
           "publishedOn": "2023-07-21T14:01:48.000Z",
-          "wordCount": 4526,
+          "wordCount": 4530,
           "title": "Incident with Actions, API Requests, Git Operations, Packages, Pages and Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -536,7 +536,7 @@
           "description": "Jul 18, 16:44 UTC\nResolved - This incident has been resolved.\nJul 18, 16:43 UTC\nUpdate - Pull Requests is operating normally.\nJul 18, 16:34 UTC\nUpdate - We have mitigated the issue causing slow git operations for some customers and operations should now be performing normally.\nJul 18, 16:05 UTC\nUpdate - Some customers may be experiencing slow git operations. We have identified the cause of the issue and are working on a mitigation.\nJul 18, 15:51 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are still investigating and will provide an update when we have one.\nJul 18, 15:44 UTC\nInvestigating - We are investigating reports of degraded performance for Git Operations.",
           "link": "https://www.githubstatus.com/incidents/shbq71s0g00z",
           "publishedOn": "2023-07-18T16:44:11.000Z",
-          "wordCount": 4316,
+          "wordCount": 4320,
           "title": "Incident with Git Operations and Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -546,7 +546,7 @@
           "description": "Jul 12, 18:08 UTC\nResolved - This incident has been resolved.\nJul 12, 17:59 UTC\nUpdate - We have identified a problematic configuration change that caused Codespaces creations and resumes to fail. The change has been reverted and users should start seeing improvements soon.\nJul 12, 17:38 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces.",
           "link": "https://www.githubstatus.com/incidents/x4llkxfv8kn4",
           "publishedOn": "2023-07-12T18:08:00.000Z",
-          "wordCount": 4237,
+          "wordCount": 4241,
           "title": "Incident with Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
@@ -557,6 +557,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://status.slack.com/",
       "articles": [
+        {
+          "id": "https://status.slack.com//2023-08/5f97959abbaeeaa1",
+          "author": null,
+          "description": "Issue Summary:\n\r\n\r\nOn August 7, 2023, customers may have experienced issues with loading images, creating canvases, and workflow modals being delayed. A small number of customers may have been impacted as early as 5:50 AM PDT, with larger impact seen between 7:03AM PDT to 7:14AM PDT.\n\r\n\r\nWe traced the issue to a change that caused our server infrastructure to be overloaded. We rolled back this change, resolving the issue for all impacted users.",
+          "link": "https://status.slack.com//2023-08/5f97959abbaeeaa1",
+          "publishedOn": "2023-08-07T17:39:42.000Z",
+          "wordCount": 173,
+          "title": "Incident: Users may be experiencing issues uploading images and creating canvases.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://status.slack.com//2023-08/8fd09ebe40c64df0",
           "author": null,
@@ -680,7 +690,7 @@
           "description": "Jul 23, 16:00 CEST\nResolved - Executions of scheduled scenarios in the EU1 zone are delayed.",
           "link": "https://status.make.com/incidents/b17vq1m1ztj4",
           "publishedOn": "2023-07-23T14:00:00.000Z",
-          "wordCount": 3350,
+          "wordCount": 3352,
           "title": "Delayed scenario executions in the EU1 zone",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -690,7 +700,7 @@
           "description": "Jul 14, 06:49 CEST\nResolved - This incident was resolved by hotfix.\nJul 13, 15:39 CEST\nInvestigating - We are currently investigating this issue.",
           "link": "https://status.make.com/incidents/lpshgnkxkz7n",
           "publishedOn": "2023-07-14T04:49:33.000Z",
-          "wordCount": 3387,
+          "wordCount": 3389,
           "title": "Issues with Facebook Lead Ads - New Event instant trigger",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -700,7 +710,7 @@
           "description": "Jul 13, 18:08 CEST\nResolved - This incident has been resolved.\nJul 13, 15:45 CEST\nMonitoring - We have applied the fix to reactivate the affected scenarios. \nPlease note that this reactivation will not be visible in the scenario logs.\nCurrently the platfrom is fully operational but we will continue to monitor situation for the next couple of hours.\nJul 13, 13:11 CEST\nIdentified - The issue has been identified and we are currently working on implementing the fix to reactivate the affected scenarios.\nWe'll post the next update once the fix is rolled out.\nJul 13, 12:10 CEST\nUpdate - We have identified the cause of the issue. Any newly executed scenarios and scheduled scenarios should work correctly. However, as part of the investigation we noticed the issue affected other zones: us1.make.com and eu2.make.com. \nWe are currently working on reactivating the affected scenarios.\nJul 13, 11:22 CEST\nInvestigating - We are facing issues with scenario execution affecting users on eu1.make.com. Scenarios might unexpectedly fail, users might receive notification about scenarios being stopped, We are currently investigating the cause of the issue, we will provide more details within the next hour.",
           "link": "https://status.make.com/incidents/ym8fpgs8rb0j",
           "publishedOn": "2023-07-13T16:08:31.000Z",
-          "wordCount": 3529,
+          "wordCount": 3531,
           "title": "Issues with executing scenarios",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
