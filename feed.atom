@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-12T00:18:36.972Z</id>
+    <id>urn:2023-08-13T00:20:30.046Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-12T00:18:36.972Z</updated>
+    <updated>2023-08-13T00:20:30.046Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Bangladesh SMS Carrier Maintenance - Banglalink]]></title>
+        <id>https://status.twilio.com/incidents/9lh5xw6ndly4</id>
+        <link href="https://status.twilio.com/incidents/9lh5xw6ndly4"/>
+        <updated>2023-08-12T21:01:12.000Z</updated>
+        <summary type="html"><![CDATA[Aug 12, 14:01 PDT
+Completed - The scheduled maintenance has been completed.
+Aug 12, 12:01 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Aug  9, 11:24 PDT
+Scheduled - The Banglalink network in Bangladesh is conducting a planned maintenance from 12 August 2023 at 12:00 PST until 12 August 2023 at 14:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Banglalink handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Container Registry in Multiple Regions]]></title>
+        <id>https://status.digitalocean.com/incidents/45pv9lj0zj1v</id>
+        <link href="https://status.digitalocean.com/incidents/45pv9lj0zj1v"/>
+        <updated>2023-08-12T04:27:09.000Z</updated>
+        <summary type="html"><![CDATA[Aug 12, 04:27 UTC
+Resolved - From 23:16 - 04:00, updates to DigitalOcean Container Registry images were not displayed correctly in the UI (Cloud Control Panel), due to a lapsed internal authorization token. Our Engineering team was able to issue a new token and rolled out the change regionally in order to not disrupt multiple data planes at once. 
+This issue is fully resolved. If you continue to experience problems, please open a ticket with our Support team. Thank you for your patience and we apologize for the inconvenience.
+Aug 12, 03:54 UTC
+Monitoring - Our Engineering team has confirmed the root cause of the issue with updates to the UI for DigitalOcean Container Registry and a fix is now rolling out regionally. 
+As this rolls out, we expect users to once again be able to see updates to Container Registry images in the UI (Cloud Control Panel). 
+We will post another update once the fix finishes rolling out in all regions.
+Aug 12, 02:09 UTC
+Identified - From 23:16 UTC, our Engineering team has identified an issue with DigitalOcean Container Registry and is actively working on a fix. During this time, customers will not be able to see changes on UI for new DOCR Images in multiple regions. We will post an update as soon as additional information is available.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We are investigating reports of degraded performance.]]></title>
         <id>https://www.githubstatus.com/incidents/sz8pjjhzcy3t</id>
@@ -265,36 +298,6 @@ Aug 10, 17:35 UTC
 Investigating - We are investigating reports of degraded performance for Webhooks]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Orange Network in Egypt]]></title>
-        <id>https://status.twilio.com/incidents/pcshg4mnb3sx</id>
-        <link href="https://status.twilio.com/incidents/pcshg4mnb3sx"/>
-        <updated>2023-08-10T17:46:29.000Z</updated>
-        <summary type="html"><![CDATA[Aug 10, 10:46 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Orange Network in Egypt. This incident has been resolved.
-Aug 10, 08:54 PDT
-Monitoring - We are observing recovery in delivery report delays when sending messages to Orange Network in Egypt. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Aug 10, 08:34 PDT
-Update - We continue to experience SMS delivery delays when sending messages to Orange Network in Egypt. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Aug 10, 07:34 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Orange Network in Egypt. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MMS Delivery Delays To AT&T Network In US Via Subset Of Shortcode]]></title>
-        <id>https://status.twilio.com/incidents/6k2q5cgrxzvq</id>
-        <link href="https://status.twilio.com/incidents/6k2q5cgrxzvq"/>
-        <updated>2023-08-10T17:31:58.000Z</updated>
-        <summary type="html"><![CDATA[Aug 10, 10:31 PDT
-Resolved - We are continuing to experience MMS intermittent delivery delays to AT&T network in the US via subset of short codes. However, we’re resolving this incident posts since the impact was limited to a set of customers, who have been contacted individually to address any concerns. All systems are operational.
-Aug 10, 10:02 PDT
-Investigating - We are experiencing MMS delivery delays to AT&T network in US via subset of shortcode. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -939,91 +942,6 @@ Our Engineering team was able to take swift action to roll back a breaking chang
 We apologize for the disruption in service. If you are still experiencing any problems or have additional questions, then please open a support ticket within your account.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues with Facebook Lead Ads - New Event instant trigger]]></title>
-        <id>https://status.make.com/incidents/lpshgnkxkz7n</id>
-        <link href="https://status.make.com/incidents/lpshgnkxkz7n"/>
-        <updated>2023-07-14T04:49:33.000Z</updated>
-        <summary type="html"><![CDATA[Jul 14, 06:49 CEST
-Resolved - This incident was resolved by hotfix.
-Jul 13, 15:39 CEST
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Trouble with loading threads and accessing Slack]]></title>
-        <id>https://status.slack.com//2023-07/c77cf2eeb9a222df</id>
-        <link href="https://status.slack.com//2023-07/c77cf2eeb9a222df"/>
-        <updated>2023-07-13T21:25:19.000Z</updated>
-        <summary type="html"><![CDATA[Issue Summary:
-
-On July 13, 2023 between 12:19 PM PDT and 12:36 PM PDT, some users encountered errors which led to being unable to load threads, send DMs, joining channels, and accessing Slack overall.
-
-
-This issue was a result of a failed host in our database infrastructure. We quickly replaced this host, fixing the problem for all impacted users.
-
-
-Users should no longer be experiencing any trouble accessing Slack.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Email sent erroneously regarding work email domain verification]]></title>
-        <id>https://status.rippling.com/incidents/nxj258xcyfmh</id>
-        <link href="https://status.rippling.com/incidents/nxj258xcyfmh"/>
-        <updated>2023-07-13T20:31:10.000Z</updated>
-        <summary type="html"><![CDATA[Jul 13, 20:31 UTC
-Resolved - This incident has been resolved.
-Jul 13, 18:45 UTC
-Monitoring - A fix has been implemented and we are monitoring the results.
-Jul 13, 18:31 UTC
-Identified - Select customers have received an email with subject "Domain Verification failed". This email was sent erroneously and isn't applicable to any customer who has received it, and it can be ignored.]]></summary>
-        <author>
-            <name>Rippling Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reservations Missing Thread Id Values]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/l6f622b5k1t3</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/l6f622b5k1t3"/>
-        <updated>2023-07-13T16:22:18.000Z</updated>
-        <summary type="html"><![CDATA[Jul 13, 09:22 PDT
-Resolved - We have backfilled message threads for the reservations that were affected during this time window. You should now be able to retrieve the `thread_id` associated with a reservation using the Reservations API. Apologies for the inconvenience.
-If you have any further queries related to this incident, please submit a ticket via the Partner Support Portal and our team will get back to you as soon as possible.
-Jul 12, 12:25 PDT
-Identified - We have identified an issue that caused reservations to be created without associated threads. This occurred between 10:15 PM and 11:29 PM on July 12th (PST), so notifications for reservations created during that time were sent with a null `thread_id` value.
-We are actively working on creating threads for reservations that do not have them, and will update here afterwards.
-Once this is done, you will be able to retrieve the `thread_id` value for a reservation using the Reservations API.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues with executing scenarios]]></title>
-        <id>https://status.make.com/incidents/ym8fpgs8rb0j</id>
-        <link href="https://status.make.com/incidents/ym8fpgs8rb0j"/>
-        <updated>2023-07-13T16:08:31.000Z</updated>
-        <summary type="html"><![CDATA[Jul 13, 18:08 CEST
-Resolved - This incident has been resolved.
-Jul 13, 15:45 CEST
-Monitoring - We have applied the fix to reactivate the affected scenarios. 
-Please note that this reactivation will not be visible in the scenario logs.
-Currently the platfrom is fully operational but we will continue to monitor situation for the next couple of hours.
-Jul 13, 13:11 CEST
-Identified - The issue has been identified and we are currently working on implementing the fix to reactivate the affected scenarios.
-We'll post the next update once the fix is rolled out.
-Jul 13, 12:10 CEST
-Update - We have identified the cause of the issue. Any newly executed scenarios and scheduled scenarios should work correctly. However, as part of the investigation we noticed the issue affected other zones: us1.make.com and eu2.make.com. 
-We are currently working on reactivating the affected scenarios.
-Jul 13, 11:22 CEST
-Investigating - We are facing issues with scenario execution affecting users on eu1.make.com. Scenarios might unexpectedly fail, users might receive notification about scenarios being stopped, We are currently investigating the cause of the issue, we will provide more details within the next hour.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
         </author>
     </entry>
 </feed>

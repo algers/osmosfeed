@@ -22,6 +22,101 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-12 datetime="2023-08-12T21:01:12.000Z">2023-08-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-12 datetime="2023-08-12T21:01:12.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Twilio Status - Incident History</button>
+                  <a class="source-heading__link" href="https://status.twilio.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.twilio.com/incidents/9lh5xw6ndly4"
+                        open
+                      >
+                        <summary class="article-expander__title">Bangladesh SMS Carrier Maintenance - Banglalink</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/9lh5xw6ndly4">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Aug 12, 14:01 PDT
+Completed - The scheduled maintenance has been completed.
+Aug 12, 12:01 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Aug  9, 11:24 PDT
+Scheduled - The Banglalink network in Bangladesh is conducting a planned maintenance from 12 August 2023 at 12:00 PST until 12 August 2023 at 14:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Banglalink handsets.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;22
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >DigitalOcean Status - Incident History</button>
+                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.digitalocean.com/incidents/45pv9lj0zj1v"
+                        open
+                      >
+                        <summary class="article-expander__title">Container Registry in Multiple Regions</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/45pv9lj0zj1v">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Aug 12, 04:27 UTC
+Resolved - From 23:16 - 04:00, updates to DigitalOcean Container Registry images were not displayed correctly in the UI (Cloud Control Panel), due to a lapsed internal authorization token. Our Engineering team was able to issue a new token and rolled out the change regionally in order to not disrupt multiple data planes at once. 
+This issue is fully resolved. If you continue to experience problems, please open a ticket with our Support team. Thank you for your patience and we apologize for the inconvenience.
+Aug 12, 03:54 UTC
+Monitoring - Our Engineering team has confirmed the root cause of the issue with updates to the UI for DigitalOcean Container Registry and a fix is now rolling out regionally. 
+As this rolls out, we expect users to once again be able to see updates to Container Registry images in the UI (Cloud Control Panel). 
+We will post another update once the fix finishes rolling out in all regions.
+Aug 12, 02:09 UTC
+Identified - From 23:16 UTC, our Engineering team has identified an issue with DigitalOcean Container Registry and is actively working on a fix. During this time, customers will not be able to see changes on UI for new DOCR Images in multiple regions. We will post an update as soon as additional information is available.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-11 datetime="2023-08-11T21:41:56.000Z">2023-08-11</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-11 datetime="2023-08-11T21:41:56.000Z"></time>
           </button>
@@ -369,56 +464,6 @@ Monitoring - We are observing recovery in SMS delivery delays when sending messa
 Aug  9, 20:36 PDT
 Update - We are still experiencing outbound SM…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;23
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/pcshg4mnb3sx"
-                        open
-                      >
-                        <summary class="article-expander__title">SMS Delivery Delays to Orange Network in Egypt</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/pcshg4mnb3sx">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aug 10, 10:46 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Orange Network in Egypt. This incident has been resolved.
-Aug 10, 08:54 PDT
-Monitoring - We are observing recovery in delivery report delays when sending messages to Orange Network in Egypt. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Aug 10, 08:34 PDT
-Update - We continue to experience SMS delivery delays when sending messages to Orange Network in Egypt. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Aug 10, 07:34 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Orange Network in Egypt. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;22
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/6k2q5cgrxzvq"
-                        open
-                      >
-                        <summary class="article-expander__title">MMS Delivery Delays To AT&amp;T Network In US Via Subset Of Shortcode</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/6k2q5cgrxzvq">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aug 10, 10:31 PDT
-Resolved - We are continuing to experience MMS intermittent delivery delays to AT&amp;T network in the US via subset of short codes. However, we’re resolving this incident posts since the impact was limited to a set of customers, who have been contacted individually to address any concerns. All systems are operational.
-Aug 10, 10:02 PDT
-Investigating - We are experiencing MMS delivery delays to AT&amp;T network in US via subset of shortcode. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;22
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2314,229 +2359,12 @@ We apologize for the disruption in service. If you are still experiencing any pr
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Make Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.make.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.make.com/incidents/lpshgnkxkz7n"
-                        open
-                      >
-                        <summary class="article-expander__title">Issues with Facebook Lead Ads - New Event instant trigger</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.make.com/incidents/lpshgnkxkz7n">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Jul 14, 06:49 CEST
-Resolved - This incident was resolved by hotfix.
-Jul 13, 15:39 CEST
-Investigating - We are currently investigating this issue.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-13 datetime="2023-07-13T21:25:19.000Z">2023-07-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-13 datetime="2023-07-13T21:25:19.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Slack System Status</button>
-                  <a class="source-heading__link" href="https://status.slack.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.slack.com//2023-07/c77cf2eeb9a222df"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident: Trouble with loading threads and accessing Slack</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.slack.com//2023-07/c77cf2eeb9a222df">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Issue Summary:
-
-On July 13, 2023 between 12:19 PM PDT and 12:36 PM PDT, some users encountered errors which led to being unable to load threads, send DMs, joining channels, and accessing Slack overall.
-
-
-This issue was a result of a failed host in our database infrastructure. We quickly replaced this host, fixing the problem for all impacted users.
-
-
-Users should no longer be experiencing any trouble accessing Slack.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Rippling Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.rippling.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.rippling.com/incidents/nxj258xcyfmh"
-                        open
-                      >
-                        <summary class="article-expander__title">Email sent erroneously regarding work email domain verification</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.rippling.com/incidents/nxj258xcyfmh">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Jul 13, 20:31 UTC
-Resolved - This incident has been resolved.
-Jul 13, 18:45 UTC
-Monitoring - A fix has been implemented and we are monitoring the results.
-Jul 13, 18:31 UTC
-Identified - Select customers have received an email with subject &quot;Domain Verification failed&quot;. This email was sent erroneously and isn&#x27;t applicable to any customer who has received it, and it can be ignored.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Airbnb API Status - Incident History</button>
-                  <a class="source-heading__link" href="https://airbnbapi.statuspage.io">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://airbnbapi.statuspage.io/incidents/l6f622b5k1t3"
-                        open
-                      >
-                        <summary class="article-expander__title">Reservations Missing Thread Id Values</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://airbnbapi.statuspage.io/incidents/l6f622b5k1t3">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Jul 13, 09:22 PDT
-Resolved - We have backfilled message threads for the reservations that were affected during this time window. You should now be able to retrieve the &#x60;thread_id&#x60; associated with a reservation using the Reservations API. Apologies for the inconvenience.
-If you have any further queries related to this incident, please submit a ticket via the Partner Support Portal and our team will get back to you as soon as possible.
-Jul 12, 12:25 PDT
-Identified - We have identified an issue that caused reservations to be created without associated threads. This occurred between 10:15 PM and 11:29 PM on July 12th (PST), so notifications for reservations created during that time were sent with a null &#x60;thread_id&#x60; value.
-We are actively working on creating threads for reservations that do not have them, and will update here afterwards.
-Once this is done, you will be able to retrieve the &#x60;thread_id&#x60; value for a reservation using the Reservations API.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Make Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.make.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.make.com/incidents/ym8fpgs8rb0j"
-                        open
-                      >
-                        <summary class="article-expander__title">Issues with executing scenarios</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.make.com/incidents/ym8fpgs8rb0j">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Jul 13, 18:08 CEST
-Resolved - This incident has been resolved.
-Jul 13, 15:45 CEST
-Monitoring - We have applied the fix to reactivate the affected scenarios. 
-Please note that this reactivation will not be visible in the scenario logs.
-Currently the platfrom is fully operational but we will continue to monitor situation for the next couple of hours.
-Jul 13, 13:11 CEST
-Identified - The issue has been identified and we are currently working on implementing the fix to reactivate the affected scenarios.
-We&#x27;ll post the next update once the fix is rolled out.
-Jul 13, 12:10 CEST
-Update - We have identified the cause of the issue. Any newly executed scenarios and scheduled scenarios should work correctly. However, as part of the investigation we noticed the issue affected other zones: us1.make.com and eu2.make.com. 
-We are currently working on reactivating the affected scenarios.
-Jul 13, 11:22 CEST
-Investigating - We are facing issues with scenario execution affecting users on eu1.make.com. Scenarios might unexpectedly fail, users might receive notification about scenarios being stopped, We are currently investigating the cause of the issue, we will provide more details within the next hour.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;12
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/5838175958">
-        <time id="build-timestamp" datetime="2023-08-12T00:18:36.948Z">2023-08-12T00:18:36.948Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/5844210722">
+        <time id="build-timestamp" datetime="2023-08-13T00:20:30.023Z">2023-08-13T00:20:30.023Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

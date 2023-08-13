@@ -77,16 +77,6 @@
           "wordCount": 3444,
           "title": "500 Error Across Multiple Endpoints and Support Tools",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/l6f622b5k1t3",
-          "author": null,
-          "description": "Jul 13, 09:22 PDT\nResolved - We have backfilled message threads for the reservations that were affected during this time window. You should now be able to retrieve the `thread_id` associated with a reservation using the Reservations API. Apologies for the inconvenience.\nIf you have any further queries related to this incident, please submit a ticket via the Partner Support Portal and our team will get back to you as soon as possible.\nJul 12, 12:25 PDT\nIdentified - We have identified an issue that caused reservations to be created without associated threads. This occurred between 10:15 PM and 11:29 PM on July 12th (PST), so notifications for reservations created during that time were sent with a null `thread_id` value.\nWe are actively working on creating threads for reservations that do not have them, and will update here afterwards.\nOnce this is done, you will be able to retrieve the `thread_id` value for a reservation using the Reservations API.",
-          "link": "https://airbnbapi.statuspage.io/incidents/l6f622b5k1t3",
-          "publishedOn": "2023-07-13T16:22:18.000Z",
-          "wordCount": 3494,
-          "title": "Reservations Missing Thread Id Values",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -95,6 +85,16 @@
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
       "articles": [
+        {
+          "id": "https://status.twilio.com/incidents/9lh5xw6ndly4",
+          "author": null,
+          "description": "Aug 12, 14:01 PDT\nCompleted - The scheduled maintenance has been completed.\nAug 12, 12:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug  9, 11:24 PDT\nScheduled - The Banglalink network in Bangladesh is conducting a planned maintenance from 12 August 2023 at 12:00 PST until 12 August 2023 at 14:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Banglalink handsets.",
+          "link": "https://status.twilio.com/incidents/9lh5xw6ndly4",
+          "publishedOn": "2023-08-12T21:01:12.000Z",
+          "wordCount": 6471,
+          "title": "Bangladesh SMS Carrier Maintenance - Banglalink",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.twilio.com/incidents/ltv6vvv8ysgh",
           "author": null,
@@ -194,26 +194,6 @@
           "wordCount": 6788,
           "title": "Outbound SMS Delivery Delays to Glo Network in Nigeria",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/pcshg4mnb3sx",
-          "author": null,
-          "description": "Aug 10, 10:46 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Orange Network in Egypt. This incident has been resolved.\nAug 10, 08:54 PDT\nMonitoring - We are observing recovery in delivery report delays when sending messages to Orange Network in Egypt. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nAug 10, 08:34 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Orange Network in Egypt. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nAug 10, 07:34 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Orange Network in Egypt. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/pcshg4mnb3sx",
-          "publishedOn": "2023-08-10T17:46:29.000Z",
-          "wordCount": 6577,
-          "title": "SMS Delivery Delays to Orange Network in Egypt",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/6k2q5cgrxzvq",
-          "author": null,
-          "description": "Aug 10, 10:31 PDT\nResolved - We are continuing to experience MMS intermittent delivery delays to AT&T network in the US via subset of short codes. However, we’re resolving this incident posts since the impact was limited to a set of customers, who have been contacted individually to address any concerns. All systems are operational.\nAug 10, 10:02 PDT\nInvestigating - We are experiencing MMS delivery delays to AT&T network in US via subset of shortcode. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/6k2q5cgrxzvq",
-          "publishedOn": "2023-08-10T17:31:58.000Z",
-          "wordCount": 6515,
-          "title": "MMS Delivery Delays To AT&T Network In US Via Subset Of Shortcode",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -222,6 +202,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/45pv9lj0zj1v",
+          "author": null,
+          "description": "Aug 12, 04:27 UTC\nResolved - From 23:16 - 04:00, updates to DigitalOcean Container Registry images were not displayed correctly in the UI (Cloud Control Panel), due to a lapsed internal authorization token. Our Engineering team was able to issue a new token and rolled out the change regionally in order to not disrupt multiple data planes at once. \nThis issue is fully resolved. If you continue to experience problems, please open a ticket with our Support team. Thank you for your patience and we apologize for the inconvenience.\nAug 12, 03:54 UTC\nMonitoring - Our Engineering team has confirmed the root cause of the issue with updates to the UI for DigitalOcean Container Registry and a fix is now rolling out regionally. \nAs this rolls out, we expect users to once again be able to see updates to Container Registry images in the UI (Cloud Control Panel). \nWe will post another update once the fix finishes rolling out in all regions.\nAug 12, 02:09 UTC\nIdentified - From 23:16 UTC, our Engineering team has identified an issue with DigitalOcean Container Registry and is actively working on a fix. During this time, customers will not be able to see changes on UI for new DOCR Images in multiple regions. We will post an update as soon as additional information is available.",
+          "link": "https://status.digitalocean.com/incidents/45pv9lj0zj1v",
+          "publishedOn": "2023-08-12T04:27:09.000Z",
+          "wordCount": 5352,
+          "title": "Container Registry in Multiple Regions",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/xh9qhhhvcl77",
           "author": null,
@@ -374,16 +364,6 @@
           "publishedOn": "2023-07-27T15:51:21.000Z",
           "wordCount": 4365,
           "title": "Issues with the employee profile payroll tab",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
-        },
-        {
-          "id": "https://status.rippling.com/incidents/nxj258xcyfmh",
-          "author": null,
-          "description": "Jul 13, 20:31 UTC\nResolved - This incident has been resolved.\nJul 13, 18:45 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nJul 13, 18:31 UTC\nIdentified - Select customers have received an email with subject \"Domain Verification failed\". This email was sent erroneously and isn't applicable to any customer who has received it, and it can be ignored.",
-          "link": "https://status.rippling.com/incidents/nxj258xcyfmh",
-          "publishedOn": "2023-07-13T20:31:10.000Z",
-          "wordCount": 4256,
-          "title": "Email sent erroneously regarding work email domain verification",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         }
       ]
@@ -636,16 +616,6 @@
           "wordCount": 142,
           "title": "Incident: Some user unable to load profiles",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-07/c77cf2eeb9a222df",
-          "author": null,
-          "description": "Issue Summary:\n\r\nOn July 13, 2023 between 12:19 PM PDT and 12:36 PM PDT, some users encountered errors which led to being unable to load threads, send DMs, joining channels, and accessing Slack overall.\n\r\n\r\nThis issue was a result of a failed host in our database infrastructure. We quickly replaced this host, fixing the problem for all impacted users.\n\r\n\r\nUsers should no longer be experiencing any trouble accessing Slack.",
-          "link": "https://status.slack.com//2023-07/c77cf2eeb9a222df",
-          "publishedOn": "2023-07-13T21:25:19.000Z",
-          "wordCount": 101,
-          "title": "Incident: Trouble with loading threads and accessing Slack",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
     },
@@ -662,26 +632,6 @@
           "publishedOn": "2023-07-23T14:00:00.000Z",
           "wordCount": 3352,
           "title": "Delayed scenario executions in the EU1 zone",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/lpshgnkxkz7n",
-          "author": null,
-          "description": "Jul 14, 06:49 CEST\nResolved - This incident was resolved by hotfix.\nJul 13, 15:39 CEST\nInvestigating - We are currently investigating this issue.",
-          "link": "https://status.make.com/incidents/lpshgnkxkz7n",
-          "publishedOn": "2023-07-14T04:49:33.000Z",
-          "wordCount": 3389,
-          "title": "Issues with Facebook Lead Ads - New Event instant trigger",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/ym8fpgs8rb0j",
-          "author": null,
-          "description": "Jul 13, 18:08 CEST\nResolved - This incident has been resolved.\nJul 13, 15:45 CEST\nMonitoring - We have applied the fix to reactivate the affected scenarios. \nPlease note that this reactivation will not be visible in the scenario logs.\nCurrently the platfrom is fully operational but we will continue to monitor situation for the next couple of hours.\nJul 13, 13:11 CEST\nIdentified - The issue has been identified and we are currently working on implementing the fix to reactivate the affected scenarios.\nWe'll post the next update once the fix is rolled out.\nJul 13, 12:10 CEST\nUpdate - We have identified the cause of the issue. Any newly executed scenarios and scheduled scenarios should work correctly. However, as part of the investigation we noticed the issue affected other zones: us1.make.com and eu2.make.com. \nWe are currently working on reactivating the affected scenarios.\nJul 13, 11:22 CEST\nInvestigating - We are facing issues with scenario execution affecting users on eu1.make.com. Scenarios might unexpectedly fail, users might receive notification about scenarios being stopped, We are currently investigating the cause of the issue, we will provide more details within the next hour.",
-          "link": "https://status.make.com/incidents/ym8fpgs8rb0j",
-          "publishedOn": "2023-07-13T16:08:31.000Z",
-          "wordCount": 3531,
-          "title": "Issues with executing scenarios",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
