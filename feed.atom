@@ -1,22 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-08-20T00:20:36.873Z</id>
+    <id>urn:2023-08-21T00:20:07.709Z</id>
     <title>osmos::feed</title>
-    <updated>2023-08-20T00:20:36.873Z</updated>
+    <updated>2023-08-21T00:20:07.709Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[US SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/dpdhln7fkk50</id>
+        <link href="https://status.twilio.com/incidents/dpdhln7fkk50"/>
+        <updated>2023-08-21T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 20, 23:00 PDT  -  Aug 21, 03:00 PDT
+Aug  7, 08:52 PDT
+Scheduled - Our SMS carrier partner in the US is conducting a planned maintenance from 20 August 2023 at 23:00 PDT until 21 August 2023 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US handsets via a subset of US short code.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays To Cell C Network In South Africa over Subset of Domestic longcodes]]></title>
+        <id>https://status.twilio.com/incidents/tjnpnd91kvpm</id>
+        <link href="https://status.twilio.com/incidents/tjnpnd91kvpm"/>
+        <updated>2023-08-20T22:52:31.000Z</updated>
+        <summary type="html"><![CDATA[Aug 20, 15:47 PDT
+Update - We continue to experience delivery delays when sending SMS to Cell C Network in South Africa over a subset of Domestic longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Aug 20, 14:43 PDT
+Update - We are continuing to investigate this issue.
+Aug 20, 14:41 PDT
+Update - We are continuing to investigate this issue.
+Aug 20, 14:38 PDT
+Investigating - We are experiencing MMS/SMS delivery delays when sending messages to South Africa. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Canada Account Security Service Partner Maintenance]]></title>
         <id>https://status.twilio.com/incidents/cqq8m98sj043</id>
         <link href="https://status.twilio.com/incidents/cqq8m98sj043"/>
-        <updated>2023-08-20T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 19, 21:00 PDT  -  Aug 20, 08:00 PDT
+        <updated>2023-08-20T15:00:20.000Z</updated>
+        <summary type="html"><![CDATA[Aug 20, 08:00 PDT
+Completed - The scheduled maintenance has been completed.
+Aug 19, 21:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Aug 17, 20:33 PDT
 Scheduled - Our service partner is conducting a planned maintenance from 19 August 2023 at 21:00 PDT until 20 August 2023 at 08:00 PDT. During the maintenance window, there could be intermittent API request failures for the following destination: Canada 
 
 Impacted Products: 
 Lookup SIM Swap 
 Legacy Identity MatchAndAttributes]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Multiple Network's in South Africa]]></title>
+        <id>https://status.twilio.com/incidents/s9z5kw4d2hm3</id>
+        <link href="https://status.twilio.com/incidents/s9z5kw4d2hm3"/>
+        <updated>2023-08-20T12:14:30.000Z</updated>
+        <summary type="html"><![CDATA[Aug 20, 05:14 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to multiple networks in South Africa using domestic long codes. This incident has been resolved.
+Aug 20, 03:25 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to multiple networks in South Africa using domestic long codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Aug 20, 02:31 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to multiple networks in South Africa using domestic long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -193,40 +240,6 @@ Aug 18, 06:15 PDT
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Aug 18, 06:14 PDT
 Scheduled - We are announcing a maintenance window for the Super SIM Data Insights product between 18th of August at 6:00 am PDT and 18th of August at 9:00 am PDT. During this time, the results returned from the Super SIM /UsageRecords API and Super SIM data usage reported in Console may experience delays reflecting new usage for up to 1 hour.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delays for Adding and Removing Numbers to A2P Campaigns]]></title>
-        <id>https://status.twilio.com/incidents/snw350q591lv</id>
-        <link href="https://status.twilio.com/incidents/snw350q591lv"/>
-        <updated>2023-08-18T15:32:21.000Z</updated>
-        <summary type="html"><![CDATA[Aug 18, 08:32 PDT
-Resolved - Delays for Adding and Removing Numbers to A2P Campaigns have been resolved, and Phone Numbers are operating normally at this time.
-Aug 18, 08:07 PDT
-Monitoring - Adding and Removing Numbers to A2P Campaigns now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
-Aug 18, 07:07 PDT
-Update - Upon further investigation, we have confirmed that Carrier Network - SMS Long Code, North America is not affected by the ongoing incident. We are actively investigating the Delays for Adding and Removing Numbers to A2P Campaigns and will provide another update as soon as possible.
-Aug 18, 06:54 PDT
-Update - We are investigating delays for adding and removing numbers to A2P Campaigns. We expect to provide another update in 1 hour or as soon as more information becomes available
-Aug 18, 06:45 PDT
-Investigating - Our monitoring systems have detected a potential issue with adding and removing numbers to A2P Campaigns. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mexico SMS Carrier Maintenance - AT&T]]></title>
-        <id>https://status.twilio.com/incidents/v1r2cg4zrbq9</id>
-        <link href="https://status.twilio.com/incidents/v1r2cg4zrbq9"/>
-        <updated>2023-08-18T12:00:25.000Z</updated>
-        <summary type="html"><![CDATA[Aug 18, 05:00 PDT
-Completed - The scheduled maintenance has been completed.
-Aug 17, 23:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Aug 16, 20:01 PDT
-Scheduled - The AT&T network in Mexico is conducting an emergency maintenance from 17 August 2023 at 23:00 PDT until 18 August 2023 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -997,55 +1010,6 @@ We determined that a recent code change caused this issue. We reverted the code 
 Resolved - Executions of scheduled scenarios in the EU1 zone are delayed.]]></summary>
         <author>
             <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some user unable to load profiles]]></title>
-        <id>https://status.slack.com//2023-07/ca6b134d9fd2d5a4</id>
-        <link href="https://status.slack.com//2023-07/ca6b134d9fd2d5a4"/>
-        <updated>2023-07-21T16:12:39.000Z</updated>
-        <summary type="html"><![CDATA[We’ve identified the cause of this issue. Any users encountering a REB9FC2A4F43 error can reload Slack (Command/Ctrl + Shift + R) in order to resolve this error. Thank you for your patience while we sorted out this issue.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Actions, API Requests, Git Operations, Packages, Pages and Pull Requests]]></title>
-        <id>https://www.githubstatus.com/incidents/6503rcn8s34s</id>
-        <link href="https://www.githubstatus.com/incidents/6503rcn8s34s"/>
-        <updated>2023-07-21T14:01:48.000Z</updated>
-        <summary type="html"><![CDATA[Jul 21, 14:01 UTC
-Resolved - This incident has been resolved.
-Jul 21, 14:01 UTC
-Update - Actions is operating normally.
-Jul 21, 14:01 UTC
-Update - Packages is operating normally.
-Jul 21, 14:01 UTC
-Update - API Requests is operating normally.
-Jul 21, 14:01 UTC
-Update - Git Operations is operating normally.
-Jul 21, 14:01 UTC
-Update - Pages is operating normally.
-Jul 21, 14:00 UTC
-Update - Networking issues are fully mitigated and service operation is restored. We will continue to work on follow ups internally but all services are operating normally.
-Jul 21, 13:45 UTC
-Update - We have mitigated the network power issue and are watching services recover. We will continue to monitor recovery and return status to green when the issue is fully mitigated.
-Jul 21, 13:36 UTC
-Update - API Requests is experiencing degraded performance. We are continuing to investigate.
-Jul 21, 13:34 UTC
-Update - We are experiencing a power failure at a datacenter related to our networking infrastructure that is impacting a subset of customers using our services. We are working on mitigating the issue.
-Jul 21, 13:27 UTC
-Update - Pull Requests is experiencing degraded performance. We are still investigating and will provide an update when we have one.
-Jul 21, 13:22 UTC
-Update - Pages is experiencing degraded performance. We are still investigating and will provide an update when we have one.
-Jul 21, 13:21 UTC
-Update - Packages is experiencing degraded performance. We are still investigating and will provide an update when we have one.
-Jul 21, 13:15 UTC
-Update - Actions is experiencing degraded performance. We are continuing to investigate.
-Jul 21, 13:12 UTC
-Investigating - We are investigating reports of degraded performance for Git Operations.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
