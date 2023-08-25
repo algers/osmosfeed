@@ -57,16 +57,6 @@
           "wordCount": 3413,
           "title": "Issues Affecting Guest Details in Reservation Webhooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/ysvh24l8l9w1",
-          "author": null,
-          "description": "Jul 25, 13:03 PDT\nResolved - We resolved the incident. Please retry any request that failed during the incident, and don't hesitate to contact us if you need support.\nJul 25, 11:50 PDT\nMonitoring - We have deployed a fix for this issue around 11:00 AM (PDT), and are monitoring the results.\nJul 25, 09:49 PDT\nInvestigating - We are actively investigating an increased number of 500 errors on the PUT Pricing Settings endpoint. These errors started today (July 25, 2023) around 05:00 AM (PDT). Our engineering teams are working to get everything up and running again, and we will update you with the latest information as soon as possible.",
-          "link": "https://airbnbapi.statuspage.io/incidents/ysvh24l8l9w1",
-          "publishedOn": "2023-07-25T20:03:48.000Z",
-          "wordCount": 3456,
-          "title": "500 Error on PUT Pricing Settings API",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -76,43 +66,93 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/9kvdkv7fjqfs",
+          "id": "https://status.twilio.com/incidents/jhpwvtms80zg",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Aug 23, 22:00 - 23:00 PDT\nAug 10, 08:50 PDT\nScheduled - Our voice carrier partner in France is conducting a planned maintenance from 23 August 2023 at 22:00 PDT until 23 August 2023 at 23:00 PDT. During the maintenance window, there could be intermittent call failures to and from a subset of Twilio France phone numbers.",
-          "link": "https://status.twilio.com/incidents/9kvdkv7fjqfs",
-          "publishedOn": "2023-08-24T05:00:00.000Z",
-          "wordCount": 6445,
-          "title": "France Voice Carrier Partner Maintenance",
+          "description": "Aug 24, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nAug 24, 15:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 24, 08:38 PDT\nScheduled - The Voentelecom network in Russia is conducting an emergency maintenance from 24 August 2023 at 15:00 PDT until 24 August 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Voentelecom Russia handsets.",
+          "link": "https://status.twilio.com/incidents/jhpwvtms80zg",
+          "publishedOn": "2023-08-25T00:00:26.000Z",
+          "wordCount": 6701,
+          "title": "Russia SMS Carrier Maintenance - Voentelecom",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/5jzs7dzvg5jk",
+          "author": null,
+          "description": "Aug 24, 16:23 PDT\nMonitoring - The creation and retrieval of debug events are now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.\nAug 24, 16:17 PDT\nUpdate - We are investigating delays in the creation and retrieval of debug events. We expect to provide another update in 1 hour or as soon as more information becomes available\nAug 24, 16:11 PDT\nInvestigating - Our monitoring systems have detected a potential issue with the debugger causing a delay in the creation of debug events. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/5jzs7dzvg5jk",
+          "publishedOn": "2023-08-24T23:23:30.000Z",
+          "wordCount": 6758,
+          "title": "Delays in the Creation and Retrieval of Debug Events",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/dkbk9jm904hx",
+          "author": null,
+          "description": "Aug 24, 16:00 PDT\nCompleted - The scheduled maintenance has been completed.\nAug 24, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 22, 17:14 PDT\nScheduled - The Megafon network in Russia is conducting a planned maintenance from 24 August 2023 at 13:00 PDT/PST until 24 August 2023 at 16:00 PDT/PST. During the maintenance window, there could be intermittent delays delivering messaging to and from Megafon Russia handsets when sending via longcode.",
+          "link": "https://status.twilio.com/incidents/dkbk9jm904hx",
+          "publishedOn": "2023-08-24T23:00:25.000Z",
+          "wordCount": 6707,
+          "title": "Russian Messaging Carrier Maintenance - Megafon",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/97kfljcz1qt9",
+          "author": null,
+          "description": "Aug 24, 11:34 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Telefonica in Mexico. This incident has been resolved.\nAug 24, 09:07 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Telefonica in Mexico. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nAug 24, 06:37 PDT\nUpdate - We continue to experience SMS delivery delays when sending or receiving messages to and from Telefonica in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.\nAug 23, 22:40 PDT\nUpdate - We continue to exper…",
+          "link": "https://status.twilio.com/incidents/97kfljcz1qt9",
+          "publishedOn": "2023-08-24T18:34:18.000Z",
+          "wordCount": 7033,
+          "title": "SMS Delivery Delays and Failures to and from Telefonica in Mexico",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/r0wxnxprrkrd",
+          "author": null,
+          "description": "Aug 24, 09:57 PDT\nResolved - Twilio Lookup API was degraded between 4:34 AM and 8:35 AM Pacific Time on 08/24/2023. During this period of time customers may have experienced 5005 errors on line-type-intelligence queries. The issue has now been resolved.\nAug 24, 08:53 PDT\nInvestigating - Our monitoring systems have detected a potential issue with Line Type queries when using our Lookup API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/r0wxnxprrkrd",
+          "publishedOn": "2023-08-24T16:57:21.000Z",
+          "wordCount": 6689,
+          "title": "Lookup Line-Type-Intelligence Errors",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/v16bg29p1pg7",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Aug 23, 21:00 PDT  -  Aug 24, 03:00 PDT\nAug 10, 21:48 PDT\nScheduled - Our Voice carrier partner in USA is conducting a planned maintenance from 23 August 2023 at 21:00 PDT until 24 August 2023 at 03:00 PDT. During the maintenance window, there could be intermittent call failures to and from Twilio US phone numbers.",
+          "description": "Aug 24, 03:00 PDT\nCompleted - The scheduled maintenance has been completed.\nAug 23, 21:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 10, 21:48 PDT\nScheduled - Our Voice carrier partner in USA is conducting a planned maintenance from 23 August 2023 at 21:00 PDT until 24 August 2023 at 03:00 PDT. During the maintenance window, there could be intermittent call failures to and from Twilio US phone numbers.",
           "link": "https://status.twilio.com/incidents/v16bg29p1pg7",
-          "publishedOn": "2023-08-24T04:00:00.000Z",
-          "wordCount": 6446,
+          "publishedOn": "2023-08-24T10:00:05.000Z",
+          "wordCount": 6702,
           "title": "US Voice Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/ss7zb2lwsbgy",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Aug 23, 20:00 PDT  -  Aug 24, 02:00 PDT\nAug 21, 07:49 PDT\nScheduled - A subset of small US networks in the US is conducting a planned maintenance from 23 August 2023 at 20:00 PDT until 24 August 2023 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers.",
+          "description": "Aug 24, 02:00 PDT\nCompleted - The scheduled maintenance has been completed.\nAug 23, 20:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 21, 07:49 PDT\nScheduled - A subset of small US networks in the US is conducting a planned maintenance from 23 August 2023 at 20:00 PDT until 24 August 2023 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers.",
           "link": "https://status.twilio.com/incidents/ss7zb2lwsbgy",
-          "publishedOn": "2023-08-24T03:00:00.000Z",
-          "wordCount": 6483,
+          "publishedOn": "2023-08-24T09:00:27.000Z",
+          "wordCount": 6739,
           "title": "US SMS Carrier Maintenance - Small US Carriers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/97kfljcz1qt9",
+          "id": "https://status.twilio.com/incidents/9kvdkv7fjqfs",
           "author": null,
-          "description": "Aug 23, 16:55 PDT\nUpdate - We continue to experience SMS delivery delays when sending or receiving messages to and from Telefonica in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hour or as soon as more information becomes available.\nAug 23, 15:39 PDT\nUpdate - We are experiencing SMS delivery delays when sending or receiving messages to and from Telefonica in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nAug 23, 15:33 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS Delivery Delays and Failures to and from Telefonica in Mexico when using a short code. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/97kfljcz1qt9",
-          "publishedOn": "2023-08-23T23:55:26.000Z",
-          "wordCount": 6566,
-          "title": "SMS Delivery Delays and Failures to and from Telefonica in Mexico",
+          "description": "Aug 23, 23:00 PDT\nCompleted - The scheduled maintenance has been completed.\nAug 23, 22:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 10, 08:50 PDT\nScheduled - Our voice carrier partner in France is conducting a planned maintenance from 23 August 2023 at 22:00 PDT until 23 August 2023 at 23:00 PDT. During the maintenance window, there could be intermittent call failures to and from a subset of Twilio France phone numbers.",
+          "link": "https://status.twilio.com/incidents/9kvdkv7fjqfs",
+          "publishedOn": "2023-08-24T06:00:21.000Z",
+          "wordCount": 6704,
+          "title": "France Voice Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/yhgl4205lsp1",
+          "author": null,
+          "description": "Aug 23, 20:00 PDT\nCompleted - The scheduled maintenance has been completed.\nAug 23, 12:02 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 21, 08:52 PDT\nScheduled - The Vivacom network in Bulgaria is conducting a planned maintenance from 23 August 2023 at 12:00 PDT until 23 August 2023 at 20:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Vivacom handsets.",
+          "link": "https://status.twilio.com/incidents/yhgl4205lsp1",
+          "publishedOn": "2023-08-24T03:00:29.000Z",
+          "wordCount": 6700,
+          "title": "Bulgaria SMS Carrier Maintenance - Vivacom",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
@@ -121,78 +161,8 @@
           "description": "Aug 23, 14:00 PDT\nCompleted - The scheduled maintenance has been completed.\nAug 23, 11:20 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 22, 04:12 PDT\nScheduled - The Motiv network in Russia is conducting an emergency maintenance from 23 August 2023 at 11:20 PDT until 23 August 2023 at 14:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Motiv Russia handsets.",
           "link": "https://status.twilio.com/incidents/w3v2z919mgp5",
           "publishedOn": "2023-08-23T21:00:22.000Z",
-          "wordCount": 6470,
+          "wordCount": 6701,
           "title": "Russia SMS Carrier Maintenance - Motiv",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/yhgl4205lsp1",
-          "author": null,
-          "description": "Aug 23, 12:02 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 21, 08:52 PDT\nScheduled - The Vivacom network in Bulgaria is conducting a planned maintenance from 23 August 2023 at 12:00 PDT until 23 August 2023 at 20:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Vivacom handsets.",
-          "link": "https://status.twilio.com/incidents/yhgl4205lsp1",
-          "publishedOn": "2023-08-23T19:02:17.000Z",
-          "wordCount": 6459,
-          "title": "Bulgaria SMS Carrier Maintenance - Vivacom",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/87fcrp0xq8t7",
-          "author": null,
-          "description": "Aug 23, 10:31 PDT\nResolved - Due to an internal error that occurred from 12:28 PST 8/18 through 12:58 PST 8/23, malformed incoming multi-segment SMS messages were not logged. These messages are normally logged with Twilio error 30009:\n- https://www.twilio.com/docs/api/errors/30009\nThe issue has now been resolved, and malformed incoming messages are now being logged.\nAug 23, 08:10 PDT\nMonitoring - Our engineers are currently investigating the customer impact of a retroactive issue that affected logging of incoming messages. Note this is specific to incomplete multi-segment messages, which are typically logged with Twilio error 30009. We will follow up and provide customer impact details within 2 hours.",
-          "link": "https://status.twilio.com/incidents/87fcrp0xq8t7",
-          "publishedOn": "2023-08-23T17:31:11.000Z",
-          "wordCount": 6490,
-          "title": "Malformed Multi-Segment Incoming SMS Messages Not Logged",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/jsyyhdt0rjdk",
-          "author": null,
-          "description": "Aug 23, 00:44 PDT\nResolved - The issue with the way we report usage billing for Programmable Wireless has been resolved and the service is operating normally at this time.\nAug 23, 00:22 PDT\nMonitoring - Usage billing reports for Programmable Wireless are now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nAug 22, 19:57 PDT\nUpdate - We have identified an issue with the way we report usage billing for Programmable Wireless. Our engineering team is continuing to work towards a resolution. We will provide an update in 16 hours or as soon as more information is available.\nAug 22, 11:54 PDT\nUpdate - We have identified an issue with the way we report usage billing for Programmable Wireless. Our engineering team is continuing to work towards a resolution. We will provide an update in 8 hours or as soon as more information is available.\nAug 22, 08:07 PDT\nUpdate - We have identified an issue with the way we report usage billing for Programmable Wireless. Our engineering team is continuing to work towards a resolution. We will provide an update in 4 hours or as soon as more information is available.\nAug 22, 06:12 PDT\nIdentified - We have identified an issue with the way we report usage billing for Programmable Wireless. Our engineering team is working towards a resolution. We will provide an update in 2 hours or as soon as more information is available.\nAug 22, 05:18 PDT\nInvestigating - We have identified an issue with the way report usage billing for Programmable Wireless. The team is working to identify the root cause and to resolve the issue. We will provide an update in 1 hour or as soon as more information is available.",
-          "link": "https://status.twilio.com/incidents/jsyyhdt0rjdk",
-          "publishedOn": "2023-08-23T07:44:26.000Z",
-          "wordCount": 6706,
-          "title": "SIM Usage Reports Amount Billed Incorrectly",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/xfv7266cmgzq",
-          "author": null,
-          "description": "Aug 23, 00:30 PDT\nCompleted - The scheduled maintenance has been completed.\nAug 22, 20:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 15, 16:29 PDT\nScheduled - A subset of small US networks in the US are conducting a planned maintenance from 22 August 2023 at 20:00 PDT until 23 August 2023 at 12:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US Carriers.",
-          "link": "https://status.twilio.com/incidents/xfv7266cmgzq",
-          "publishedOn": "2023-08-23T07:30:04.000Z",
-          "wordCount": 6472,
-          "title": "US SMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/4kkqx2v0ch6c",
-          "author": null,
-          "description": "Aug 23, 00:01 PDT\nCompleted - The scheduled maintenance has been completed.\nAug 22, 22:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 21, 20:27 PDT\nScheduled - The Telefonica Moviles (Movistar) network in Peru is conducting an emergency maintenance from 22 August 2023 at 22:00 PDT until 23 August 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Telefonica Moviles (Movistar) Peru handsets.",
-          "link": "https://status.twilio.com/incidents/4kkqx2v0ch6c",
-          "publishedOn": "2023-08-23T07:01:09.000Z",
-          "wordCount": 6483,
-          "title": "Peru SMS Carrier Maintenance - Telefonica Moviles (Movistar)",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/8vbptpk5dy7p",
-          "author": null,
-          "description": "Aug 22, 23:35 PDT\nResolved - All WhatsApp template statuses are up-to-date. Sending WhatsApp messages using a template is operating normally at this time.\nAug 22, 09:32 PDT\nUpdate - Some WhatsApp template statuses may be outdated. As a result, sending WhatsApp messages using a template with an outdated status may fail until the status is updated. Any new template status updates are correctly being captured. Our engineering team has identified the cause for outdated statuses and is working on a fix to ensure all template statuses are up-to-date. Previously incorrect WhatsApp template categories have been synced and are now accurate. Any onboarding issues for new WhatsApp senders have been mitigated. There is also no impact to receiving WhatsApp messages. We will provide an update in 24 hour…",
-          "link": "https://status.twilio.com/incidents/8vbptpk5dy7p",
-          "publishedOn": "2023-08-23T06:35:27.000Z",
-          "wordCount": 7529,
-          "title": "WhatsApp Registration and Template Status Issues",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/c4v57mp6vqg4",
-          "author": null,
-          "description": "Aug 22, 20:28 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Telkomsel Indonesia. This incident has been resolved.\nAug 22, 18:28 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Telkomsel Indonesia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nAug 22, 17:34 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Telkomsel Indonesia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nAug 22, 17:26 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS Delivery Delays To Telkomsel Indonesia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/c4v57mp6vqg4",
-          "publishedOn": "2023-08-23T03:28:14.000Z",
-          "wordCount": 6553,
-          "title": "SMS Delivery Delays To Telkomsel Indonesia",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -203,12 +173,22 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/2z768rr0lytf",
+          "author": null,
+          "description": "Aug 24, 17:14 UTC\nResolved - Our Engineering team identified an issue with the DigitalOcean Docs site (https://docs.digitalocean.com), resulting in all users attempting to view the main site or any docs pages seeing 500 errors. \nBeginning around 16:55 UTC, the Docs site became unavailable following a complication with a deploy. At 17:16, our Engineering team triggered a new deploy and the site came back online. \nWe apologize for the disruption. If you have any questions or concerns, please reach out through a Support ticket from within your account.",
+          "link": "https://status.digitalocean.com/incidents/2z768rr0lytf",
+          "publishedOn": "2023-08-24T17:14:15.000Z",
+          "wordCount": 5432,
+          "title": "DigitalOcean Docs (https://docs.digitalocean.com) Unavailable",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/fwqxkfl5glc1",
           "author": null,
           "description": "Aug 17, 01:23 UTC\nResolved - Our Engineering team has confirmed full resolution of the issue impacting VPC network connectivity in NYC3. As of 23:58 UTC, users should now be able to place resources correctly into VPC's in NYC3 via API create requests, and VPC connectivity between NYC3 resources should now be restored.\nIf you continue to experience problems, please open a ticket with our support team from your Cloud Control Panel.\nThank you for your patience and we apologize for any inconvenience.\nAug 17, 00:44 UTC\nMonitoring - The mitigation performed by our Engineering team has been confirmed as resolving customer impact for the issue with VPC's in NYC3. \nWe'll continue to monitor for a short period and will post an update once we confirm this issue is fully resolved.\nAug 17, 00:22 UTC\nIdentified - Our Engineering team identified an issue with VPC Connectivity for resources in our NYC3 region. \nUsers creating new resources were not able to place them correctly into VPC's in NYC3 via API create requests. Users also saw network connectivity errors between members of NYC3 VPC's. This issue impacted Droplet-based products like Load Balances and Managed Kubernetes clusters as well, manifesting in various VPC-related errors.\nOur team was able to mitigate this issue and we're currently monitoring the situation. As of 00:00 UTC, users should see normal VPC behavior in NYC3. \nWe apologize for the disruption and will post another update shortly.",
           "link": "https://status.digitalocean.com/incidents/fwqxkfl5glc1",
           "publishedOn": "2023-08-17T01:23:39.000Z",
-          "wordCount": 5360,
+          "wordCount": 5591,
           "title": "VPC Connectivity Disruption in NYC3",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -218,7 +198,7 @@
           "description": "Aug 16, 06:05 UTC\nResolved - As of 05:55, our Engineering team has resolved the issue impacting Python builds for the App platform. The users will not be experiencing the error \"Requested runtime 'python-3.11.3' is not available for this stack (heroku-18)\" during the build deployment. \nWe appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our Support team for further review.\nAug 16, 05:28 UTC\nMonitoring - As of 05:18 UTC, our Engineering team has deployed a fix to resolve the issue impacting Python builds for App platform. We are actively monitoring the situation to ensure stability and will provide an update once the incident has been fully resolved. Thank you for your patience and we apologize for the inconvenience.\nAug 16, 01:30 UTC\nUpdate - Our Engineering team continues work on the rollout with the fix for Python builds failing in App Platform. \nWe've identified that a very small number of Apps are impacted by this issue - less than 1% of users have encountered this issue. \nWe will post an update once the rollout completes.\nAug 15, 20:27 UTC\nIdentified - Our Engineering team has investigated and identified an issue impacting Python builds for App Platform. Beginning approximately 17:30 UTC, users will see the error \"Requested runtime 'python-3.11.3' is not available for this stack (heroku-18)\". \nThe team is in the process of rolling out a fix. \nIn the meantime as a workaround, users may update their Apps to use the Ubuntu 22.04-based stack. This stack is in beta, but provides dependency upgrades, and removes support for PHP version 8.0 and earlier. To update, users will need to specify the new stack in the app spec by adding: \n\"features:\n    - buildpack-stack=ubuntu-22\"\nWe will post another update once the fix has completed rolling out.",
           "link": "https://status.digitalocean.com/incidents/cst5jm8gwzsz",
           "publishedOn": "2023-08-16T06:05:59.000Z",
-          "wordCount": 5424,
+          "wordCount": 5655,
           "title": "App Platform Deployments",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -228,7 +208,7 @@
           "description": "Aug 15, 20:59 UTC\nCompleted - The scheduled maintenance has been completed.\nAug 15, 18:02 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 15, 17:06 UTC\nScheduled - Start: 2023-08-15 18:00 UTC\nEnd: 2023-08-15 22:00 UTC\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the FRA1 region. This will be the second of the two maintenance activities performed by our team in the region on consecutive days.\nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.",
           "link": "https://status.digitalocean.com/incidents/y7tbd8m83pzj",
           "publishedOn": "2023-08-15T20:59:32.000Z",
-          "wordCount": 5296,
+          "wordCount": 5527,
           "title": "FRA1 Network Maintenance Phase 2",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -238,7 +218,7 @@
           "description": "Aug 14, 22:23 UTC\nCompleted - The scheduled maintenance has been completed.\nAug 14, 20:12 UTC\nUpdate - Our Engineering team has completed the rollback and VPC connectivity for all Droplets and Droplet-based services is restored. \nWe'll now continue this maintenance as scheduled. \nWe apologize for the brief interruption.\nAug 14, 20:03 UTC\nVerifying - Our Engineering team has identified an issue stemming from this maintenance, which impacts approximately 1-3% of Droplets and Droplet-based services in our FRA1 region. \nAt this time, a small percentage of customers will experience VPC network connectivity issues. An emergency rollback is already underway to mitigate this issue. \nWe will update this post with further information as soon as possible.\nAug 14, 18:42 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 14, 18:41 UTC\nScheduled - Start: 2023-08-14 18:00 UTC\nEnd: 2023-08-14 22:00 UTC\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the FRA1 region. This maintenance will occur in two parts on consecutive days and we will send another maintenance notice for the second phase. \nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.",
           "link": "https://status.digitalocean.com/incidents/jqpf8zhmx2j3",
           "publishedOn": "2023-08-14T22:23:29.000Z",
-          "wordCount": 5405,
+          "wordCount": 5636,
           "title": "FRA1 Network Maintenance Phase 1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -248,7 +228,7 @@
           "description": "Aug 12, 04:27 UTC\nResolved - From 23:16 - 04:00, updates to DigitalOcean Container Registry images were not displayed correctly in the UI (Cloud Control Panel), due to a lapsed internal authorization token. Our Engineering team was able to issue a new token and rolled out the change regionally in order to not disrupt multiple data planes at once. \nThis issue is fully resolved. If you continue to experience problems, please open a ticket with our Support team. Thank you for your patience and we apologize for the inconvenience.\nAug 12, 03:54 UTC\nMonitoring - Our Engineering team has confirmed the root cause of the issue with updates to the UI for DigitalOcean Container Registry and a fix is now rolling out regionally. \nAs this rolls out, we expect users to once again be able to see updates to Container Registry images in the UI (Cloud Control Panel). \nWe will post another update once the fix finishes rolling out in all regions.\nAug 12, 02:09 UTC\nIdentified - From 23:16 UTC, our Engineering team has identified an issue with DigitalOcean Container Registry and is actively working on a fix. During this time, customers will not be able to see changes on UI for new DOCR Images in multiple regions. We will post an update as soon as additional information is available.",
           "link": "https://status.digitalocean.com/incidents/45pv9lj0zj1v",
           "publishedOn": "2023-08-12T04:27:09.000Z",
-          "wordCount": 5352,
+          "wordCount": 5583,
           "title": "Container Registry in Multiple Regions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -258,7 +238,7 @@
           "description": "Aug 10, 23:24 UTC\nCompleted - The scheduled maintenance has been completed.\nAug 10, 20:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug  6, 14:39 UTC\nScheduled - Start: 2023-08-10 20:00 UTC\nEnd:  2023-08-11 00:00 UTC\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the SGP1 region. \nExpected impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
           "link": "https://status.digitalocean.com/incidents/xh9qhhhvcl77",
           "publishedOn": "2023-08-10T23:24:53.000Z",
-          "wordCount": 5272,
+          "wordCount": 5503,
           "title": "SGP1 Network Maintenance - Phase 2",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -268,7 +248,7 @@
           "description": "Aug  9, 22:46 UTC\nCompleted - The scheduled maintenance has been completed.\nAug  9, 20:01 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug  6, 14:36 UTC\nScheduled - Start: 2023-08-09 20:00 UTC\nEnd:  2023-08-10 00:00 UTC\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the SGP1 region. This maintenance will occur in two parts on consecutive days and we will send another maintenance notice for the second phase.\nExpected impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
           "link": "https://status.digitalocean.com/incidents/k65k44vxwr9j",
           "publishedOn": "2023-08-09T22:46:01.000Z",
-          "wordCount": 5292,
+          "wordCount": 5523,
           "title": "SGP1 Network Maintenance - Phase 1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -278,7 +258,7 @@
           "description": "Aug  9, 16:01 UTC\nResolved - Our Engineering team has confirmed full resolution of the issue impacting network connectivity in multiple regions. The impact has been completely subsided and the network connectivity is back to normal for all the impacted services. Users should now be able to process events normally for Droplets and Droplet-based services like Load Balancers, Kubernetes or Database clusters, etc.\nIf you continue to experience problems, please open a ticket with our support team from your Cloud Control Panel.\nThank you for your patience and we apologize for any inconvenience.\nAug  9, 14:58 UTC\nMonitoring - The rollout of the fix to redundant networking equipment is fully completed, meaning all networking devices in AMS3, LON1, and SFO2 have been patched. Our Engineering team s…",
           "link": "https://status.digitalocean.com/incidents/q4b09b022nmh",
           "publishedOn": "2023-08-09T16:01:48.000Z",
-          "wordCount": 6595,
+          "wordCount": 6826,
           "title": "Networking in AMS3, LON1, and SFO2",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -288,18 +268,8 @@
           "description": "Jul 27, 03:20 UTC\nCompleted - The scheduled maintenance has been completed.\nJul 27, 01:02 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 26, 23:08 UTC\nScheduled - Start: 2023-07-27 01:00 UTC\nEnd: 2023-07-27 05:00 UTC\n\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the SFO3 region. This will be the second of the two maintenance activities performed by our team in the region on consecutive days.\nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavour to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.",
           "link": "https://status.digitalocean.com/incidents/szklqql7y77c",
           "publishedOn": "2023-07-27T03:20:54.000Z",
-          "wordCount": 5296,
+          "wordCount": 5527,
           "title": "SFO3 Network Maintenance Phase 2",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/d750rzt8dtgw",
-          "author": null,
-          "description": "Jul 26, 03:45 UTC\nCompleted - The scheduled maintenance has been completed.\nJul 26, 01:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 25, 23:09 UTC\nScheduled - Start: 2023-07-26 01:00 UTC\nEnd: 2023-07-26 05:00 UTC\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the SFO3 region. This maintenance will occur in two parts on consecutive days and we will send another maintenance notice for the second phase. \nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.",
-          "link": "https://status.digitalocean.com/incidents/d750rzt8dtgw",
-          "publishedOn": "2023-07-26T03:45:04.000Z",
-          "wordCount": 5292,
-          "title": "SFO3 Network Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -352,7 +322,7 @@
           "description": "Aug 15, 23:10 UTC\nResolved - This incident has been resolved.\nAug 15, 23:06 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nAug 15, 23:04 UTC\nIdentified - The issue has been identified and a fix is being implemented.",
           "link": "https://status.rippling.com/incidents/233zk80cc63v",
           "publishedOn": "2023-08-15T23:10:30.000Z",
-          "wordCount": 4242,
+          "wordCount": 4473,
           "title": "Users authenticating to networks utilizing RADIUS are experiencing timeouts",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         },
@@ -362,7 +332,7 @@
           "description": "Aug  7, 17:35 UTC\nResolved - This incident has been resolved. Site performance should be back to normal.\nAug  7, 16:26 UTC\nMonitoring - We've stopped a data migration job that is believed to be contributing, and we're now seeing site latency return back to baseline numbers. The site latency should now be back to normal, but we are continuing to monitor.\nAug  7, 16:01 UTC\nInvestigating - There is degraded performance across the Rippling application, with certain pages loading slowly. We are investigating the issue.",
           "link": "https://status.rippling.com/incidents/s4g3w61q9lsr",
           "publishedOn": "2023-08-07T17:35:47.000Z",
-          "wordCount": 4262,
+          "wordCount": 4493,
           "title": "Increased site latency",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         },
@@ -372,7 +342,7 @@
           "description": "Jul 28, 15:44 UTC\nResolved - The incident is now resolved\nJul 28, 15:15 UTC\nMonitoring - The third party provider has resumed service. We are closely monitoring the status of all outgoing emails\nJul 28, 15:01 UTC\nInvestigating - Our third-party email delivery provider has been experiencing an intermittent outage since Jul 28th, 7:45 AM PST, causing a delay in notification delivery for all Rippling emails (including password resets). We are investigating this issue with the third-party provider.",
           "link": "https://status.rippling.com/incidents/dg5nlq85bkk3",
           "publishedOn": "2023-07-28T15:44:02.000Z",
-          "wordCount": 4270,
+          "wordCount": 4501,
           "title": "Delay in email delivery due to third-party outage",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         },
@@ -382,7 +352,7 @@
           "description": "Jul 27, 15:51 UTC\nResolved - This incident has been resolved.\nJul 27, 15:30 UTC\nUpdate - A fix has been implemented and product functionality has been restored.\nJul 27, 14:58 UTC\nIdentified - The issue has been identified and a fix is being implemented.\nJul 27, 14:52 UTC\nUpdate - Users are reporting missing values on the payroll tab in the employee profile. This will be fixed momentarily. This does not impact any processing of payroll.\nJul 27, 14:20 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nJul 27, 14:18 UTC\nIdentified - The issue has been identified and a fix is being implemented.\nJul 27, 14:13 UTC\nInvestigating - Users are reporting issues with signing in to apps that they use Rippling as the identity provider. Our recommended workaround is to sign in to Rippling first and then navigate to the app using the SSO navigation bar. We are currently investigating this issue.",
           "link": "https://status.rippling.com/incidents/5b7jz0d5pc9s",
           "publishedOn": "2023-07-27T15:51:21.000Z",
-          "wordCount": 4365,
+          "wordCount": 4596,
           "title": "Issues with the employee profile payroll tab",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         }
@@ -416,7 +386,7 @@
           "description": "Aug 23, 16:23 UTC\nResolved - This incident has been resolved.\nAug 23, 15:56 UTC\nUpdate - We are investigating and working towards mitigating slight delays in Webhook deliveries.\nAug 23, 15:38 UTC\nInvestigating - We are investigating reports of degraded performance for Webhooks",
           "link": "https://www.githubstatus.com/incidents/w86r7g2x32j1",
           "publishedOn": "2023-08-23T16:23:11.000Z",
-          "wordCount": 4226,
+          "wordCount": 4457,
           "title": "Incident with Webhooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -426,7 +396,7 @@
           "description": "Aug 22, 17:01 UTC\nResolved - This incident has been resolved.\nAug 22, 16:14 UTC\nUpdate - Actions Larger Runners are experiencing delayed queue times. A mitigation is being worked on and will be applied shortly.\nAug 22, 15:59 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
           "link": "https://www.githubstatus.com/incidents/smms25d68d09",
           "publishedOn": "2023-08-22T17:01:49.000Z",
-          "wordCount": 4233,
+          "wordCount": 4464,
           "title": "Incident with Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -436,7 +406,7 @@
           "description": "Aug 21, 18:41 UTC\nResolved - This incident has been resolved.\nAug 21, 18:23 UTC\nUpdate - Mitigation is in place for delays in Actions workflows and should be fully recovered in the next 30 minutes.\nAug 21, 17:41 UTC\nUpdate - We’re currently investigating reports of delays in Actions workflows.\nAug 21, 17:27 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
           "link": "https://www.githubstatus.com/incidents/q8swpy90g6pp",
           "publishedOn": "2023-08-21T18:41:06.000Z",
-          "wordCount": 4250,
+          "wordCount": 4481,
           "title": "Incident with Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -446,7 +416,7 @@
           "description": "Aug 17, 19:28 UTC\nResolved - This incident has been resolved.\nAug 17, 19:12 UTC\nUpdate - Intermittent large runners and self hosted runners issue has been mitigated\nAug 17, 19:12 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/nj39bg7wbgdq",
           "publishedOn": "2023-08-17T19:28:50.000Z",
-          "wordCount": 4230,
+          "wordCount": 4461,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -456,7 +426,7 @@
           "description": "Aug 17, 19:09 UTC\nResolved - This incident has been resolved.\nAug 17, 18:44 UTC\nUpdate - Customers using large runners and self hosted runners may see delays over 10 minutes for actions runs. We are working on mitigating. This effects approximately 1% of customers.\nAug 17, 18:36 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
           "link": "https://www.githubstatus.com/incidents/jg4xwzwflb3r",
           "publishedOn": "2023-08-17T19:09:11.000Z",
-          "wordCount": 4242,
+          "wordCount": 4473,
           "title": "Incident with Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -466,7 +436,7 @@
           "description": "Aug 15, 21:46 UTC\nResolved - The backlog of webhook deliveries has been processed and delivery times have returned to normal.\nAug 15, 20:33 UTC\nUpdate - We are continuing to process our backlog of webhook deliveries and our estimated time to clear the backlog is 2 hours.\nAug 15, 19:24 UTC\nUpdate - We are processing our backlog of webhook deliveries and estimate that it will take 3 hours to clear. Webhook deliveries will be delayed during this time.\nAug 15, 18:20 UTC\nUpdate - We are continuing to investigate the degraded performance of Webhooks and will provide further updates as we continue to investigate.  The current impact is delayed delivery of webhooks.\nAug 15, 18:05 UTC\nUpdate - We are continuing to investigate the degraded performance of Webhooks. The current impact is delayed delivery of hooks.\nAug 15, 17:24 UTC\nInvestigating - We are investigating reports of degraded performance for Webhooks",
           "link": "https://www.githubstatus.com/incidents/ljhhhw2tplqp",
           "publishedOn": "2023-08-15T21:46:57.000Z",
-          "wordCount": 4341,
+          "wordCount": 4572,
           "title": "Incident with Webhooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -476,7 +446,7 @@
           "description": "Aug 15, 17:41 UTC\nResolved - This incident has been resolved.\nAug 15, 17:24 UTC\nInvestigating - We are investigating reports of degraded performance for Webhooks",
           "link": "https://www.githubstatus.com/incidents/fjj29dxw0m7c",
           "publishedOn": "2023-08-15T17:41:34.000Z",
-          "wordCount": 4206,
+          "wordCount": 4437,
           "title": "Incident with Webhooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -486,7 +456,7 @@
           "description": "Aug 11, 21:41 UTC\nResolved - This issue has been resolved.\nAug 11, 20:44 UTC\nUpdate - From 16:45-20:01 UTC, OAuth App and GitHub App user auth tokens created with OAuth flow were not SAML authorized as expected. App authorizations created during this time may need to be reauthorized.\nAug 11, 20:44 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/sz8pjjhzcy3t",
           "publishedOn": "2023-08-11T21:41:56.000Z",
-          "wordCount": 4251,
+          "wordCount": 4482,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -496,7 +466,7 @@
           "description": "Aug 10, 21:20 UTC\nResolved - This incident has been resolved.\nAug 10, 21:07 UTC\nUpdate - Webhooks delivery latency has recovered, and we will continue to monitor.\nAug 10, 20:56 UTC\nUpdate - Actions is operating normally.\nAug 10, 20:21 UTC\nUpdate - We have applied mitigations and are seeing improvements in webhooks delivery latency. We continue to monitor for full recovery. We are also working to mitigate unrelated issues with Actions.\nAug 10, 19:47 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nAug 10, 19:33 UTC\nUpdate - We are still working to resolve high webhooks delivery latency.\nAug 10, 18:54 UTC\nUpdate - We are still seeing high latency in webhook delivery and are actively working to resolve the issue.\nAug 10, 18:12 UTC\nUpdate - Webhooks deliveries are experiencing high latency. We are actively investigating and working to mitigate.\nAug 10, 17:35 UTC\nInvestigating - We are investigating reports of degraded performance for Webhooks",
           "link": "https://www.githubstatus.com/incidents/rk1918knvr0w",
           "publishedOn": "2023-08-10T21:20:23.000Z",
-          "wordCount": 4365,
+          "wordCount": 4596,
           "title": "Incident with Webhooks and Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -506,7 +476,7 @@
           "description": "Aug  9, 20:14 UTC\nResolved - This incident has been resolved.\nAug  9, 20:02 UTC\nUpdate - Git Operations is operating normally.\nAug  9, 19:54 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nAug  9, 19:42 UTC\nInvestigating - We are investigating reports of degraded performance for Git Operations",
           "link": "https://www.githubstatus.com/incidents/nwb8m3ppfxw6",
           "publishedOn": "2023-08-09T20:14:05.000Z",
-          "wordCount": 4250,
+          "wordCount": 4481,
           "title": "Incident with Git Operations and Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -516,7 +486,7 @@
           "description": "Aug  1, 20:28 UTC\nResolved - This incident has been resolved.\nAug  1, 20:12 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot",
           "link": "https://www.githubstatus.com/incidents/s9scz41r9wkx",
           "publishedOn": "2023-08-01T20:28:01.000Z",
-          "wordCount": 4206,
+          "wordCount": 4437,
           "title": "Incident with Copilot",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -526,7 +496,7 @@
           "description": "Jul 28, 15:45 UTC\nResolved - This incident has been resolved.\nJul 28, 15:38 UTC\nUpdate - We are actively mitigating delays in commits showing on pull requests.\nJul 28, 15:13 UTC\nUpdate - We are investigating an issue which is causing a delay in the time it takes new commits to show up on a pull request.\nJul 28, 14:51 UTC\nUpdate - We are investigating an issue which is causing a delay in the time it takes new commits to show up on a pull request.\nJul 28, 14:49 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests.",
           "link": "https://www.githubstatus.com/incidents/l59z35rhzdky",
           "publishedOn": "2023-07-28T15:45:36.000Z",
-          "wordCount": 4294,
+          "wordCount": 4525,
           "title": "Incident with Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -536,7 +506,7 @@
           "description": "Jul 28, 10:00 UTC\nResolved - This incident has been resolved.\nJul 28, 09:31 UTC\nInvestigating - We are investigating reports of degraded performance for Issues.",
           "link": "https://www.githubstatus.com/incidents/9f8dkxjg67qq",
           "publishedOn": "2023-07-28T10:00:49.000Z",
-          "wordCount": 4206,
+          "wordCount": 4437,
           "title": "Incident with Issues",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -546,7 +516,7 @@
           "description": "Jul 28, 01:08 UTC\nResolved - This incident has been resolved.\nJul 28, 00:50 UTC\nUpdate - We have identified a problem causing an issue with Pull Requests for some users. We are working on a mitigation.\nJul 28, 00:07 UTC\nUpdate - We have identified a problem causing an issue with Pull Requests for some users. We are working on a mitigation.\nJul 27, 23:35 UTC\nUpdate - We have identified a problem causing an issue with Pull Requests for some users. We are working on a mitigation.\nJul 27, 22:56 UTC\nUpdate - We are still investigating an issue with Pull Requests. We will continue to keep users updated on progress towards mitigation.\nJul 27, 22:18 UTC\nUpdate - We found an issue with repos that affects ability of some of the customers to merge pull requests. We are working on mitigation.\nJul 27, 22:04 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests.",
           "link": "https://www.githubstatus.com/incidents/xfmyxxhcknvj",
           "publishedOn": "2023-07-28T01:08:39.000Z",
-          "wordCount": 4354,
+          "wordCount": 4585,
           "title": "Incident with Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -556,18 +526,8 @@
           "description": "Jul 26, 15:04 UTC\nResolved - This incident has been resolved.\nJul 26, 14:09 UTC\nUpdate - For a small subset of customers some pull requests may not show up as mergeable. We are investigating the cause of the issue and will post an update as we have more information.\nJul 26, 13:50 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests.",
           "link": "https://www.githubstatus.com/incidents/mbvjmqbcb1xk",
           "publishedOn": "2023-07-26T15:04:05.000Z",
-          "wordCount": 4252,
+          "wordCount": 4483,
           "title": "Incident with Pull Requests",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/98fs1552d2nw",
-          "author": null,
-          "description": "Jul 25, 22:43 UTC\nResolved - This incident has been resolved.\nJul 25, 22:33 UTC\nUpdate - We found an issue that impacts a small subset of customers Jul 25, 22:33 UTC\nInvestigating - We are currently investigating this issue.",
-          "link": "https://www.githubstatus.com/incidents/98fs1552d2nw",
-          "publishedOn": "2023-07-25T22:43:47.000Z",
-          "wordCount": 4248,
-          "title": "Investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
@@ -577,6 +537,26 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://status.slack.com/",
       "articles": [
+        {
+          "id": "https://status.slack.com//2023-08/dd4ce480d5ff7e49",
+          "author": null,
+          "description": "Missing channel sections should now be restored for all affected users. You may need to reload Slack (Command/Control + R) for the fix to take effect. Thank you your continued patience while we worked to resolve this issue, and we apologize again for the disruption.",
+          "link": "https://status.slack.com//2023-08/dd4ce480d5ff7e49",
+          "publishedOn": "2023-08-24T23:53:00.000Z",
+          "wordCount": 187,
+          "title": "Incident: Some users may be missing sidebar sections in Slack",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://status.slack.com//2023-08/414e590c93cb5636",
+          "author": null,
+          "description": "We're currently investigating reports that some users are unable to post to the #general channel. We apologize for the disruption and will provide an update once we have more details to share.",
+          "link": "https://status.slack.com//2023-08/414e590c93cb5636",
+          "publishedOn": "2023-08-24T22:20:46.000Z",
+          "wordCount": 66,
+          "title": "Incident: Users are unable to post to the #general channel",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://status.slack.com//2023-08/cecb6f52bb0ace68",
           "author": null,
@@ -686,16 +666,6 @@
           "wordCount": 284,
           "title": "Outage: Slack Systemwide Issues",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-07/1633ff35517d83b8",
-          "author": null,
-          "description": "Issue summary:\n\r\nOn July 25th, 2023 from 3:00 PM PDT to 6:00 PM PDT we received reports of existing members unable to invite new members to workspaces. We traced the cause of issue to a recent code change which prevented emails from being sent. This also impacted logins, workspace creation and potentially other email-based processes. We’ve reverted this change, and the issue was resolved for all customers.",
-          "link": "https://status.slack.com//2023-07/1633ff35517d83b8",
-          "publishedOn": "2023-07-26T06:46:27.000Z",
-          "wordCount": 269,
-          "title": "Incident: Email service is failing across Slack",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
     },
@@ -703,7 +673,18 @@
       "title": "Make Status - Incident History",
       "feedUrl": "https://status.make.com/history.rss",
       "siteUrl": "https://status.make.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://status.make.com/incidents/l2625994sxpw",
+          "author": null,
+          "description": "Aug 24, 12:12 CEST\nResolved - The incident has been resolved.\nAug 24, 11:39 CEST\nMonitoring - A fix was applied and webhook response time is back at expected level. We are closely monitoring the situation.\nAug 24, 11:16 CEST\nInvestigating - Webhook response time might be delayed on eu1.make.com. Our team is currently investigating the issue.",
+          "link": "https://status.make.com/incidents/l2625994sxpw",
+          "publishedOn": "2023-08-24T10:12:34.000Z",
+          "wordCount": 3400,
+          "title": "delayed webhook response time on eu1.make.com",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"
