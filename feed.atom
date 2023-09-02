@@ -1,21 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-01T00:21:45.052Z</id>
+    <id>urn:2023-09-02T00:19:07.084Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-01T00:21:45.052Z</updated>
+    <updated>2023-09-02T00:19:07.084Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Megafon and Yota]]></title>
-        <id>https://status.twilio.com/incidents/n8lxzxls9728</id>
-        <link href="https://status.twilio.com/incidents/n8lxzxls9728"/>
-        <updated>2023-09-01T00:00:15.000Z</updated>
-        <summary type="html"><![CDATA[Aug 31, 17:00 PDT
+        <title type="html"><![CDATA[SMS Delivery delays for a Subset of Small Networks in the US for a Subset of Short Codes]]></title>
+        <id>https://status.twilio.com/incidents/bwf95bpx46jh</id>
+        <link href="https://status.twilio.com/incidents/bwf95bpx46jh"/>
+        <updated>2023-09-01T22:51:48.000Z</updated>
+        <summary type="html"><![CDATA[Sep  1, 15:51 PDT
+Monitoring - We are observing recovery in SMS delivery delays for a subset of small networks in the US for a subset of short codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Sep  1, 12:37 PDT
+Update - We are continuing to investigate an issue causing SMS delivery delays for a subset of small networks in the US for a subset of short codes. We will provide another update in 4 hours or as soon as more information becomes available.
+Sep  1, 10:37 PDT
+Update - We are continuing to investigate an issue causing SMS delivery delays for a subset of small networks in the US for a subset of short codes. We will provide another update in 2 hour or as soon as more information becomes available.
+Sep  1, 09:38 PDT
+Investigating - We are experiencing SMS delivery delays for a subset of small networks in the US for a subset of short codes. Our engineers are working with our carrier partners to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Indonesia Voice Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/fhlx4ybm0q3h</id>
+        <link href="https://status.twilio.com/incidents/fhlx4ybm0q3h"/>
+        <updated>2023-09-01T22:01:03.000Z</updated>
+        <summary type="html"><![CDATA[Sep  1, 15:01 PDT
 Completed - The scheduled maintenance has been completed.
-Aug 31, 13:00 PDT
+Aug 28, 06:00 PDT
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Aug 28, 08:42 PDT
-Scheduled - The Megafon and Yota networks in Russia is conducting a planned maintenance from 31 August 2023 at 13:00 PDT until 31 August 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Megafon and Yota Russia handsets.]]></summary>
+Aug 25, 16:48 PDT
+Scheduled - Our Voice carrier partner is conducting an emergency maintenance from 28 August 2023 at 06:00 PDT until 01 September 2023 at 15:00 PDT. During the maintenance window, there could be intermittent call disconnects and failures for calls to and from a subset of Twilio Indonesia phone numbers.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Programmable Voice Self-service CPS Billing Failed Attempts]]></title>
+        <id>https://status.twilio.com/incidents/f0195chqq85k</id>
+        <link href="https://status.twilio.com/incidents/f0195chqq85k"/>
+        <updated>2023-09-01T21:45:39.000Z</updated>
+        <summary type="html"><![CDATA[Sep  1, 14:45 PDT
+Resolved - The issue regarding degraded performance on our account portal via Programmable Voice Calls Outbound API CPS has been resolved, and the service is functioning normally at this time.
+Sep  1, 14:21 PDT
+Monitoring - We have started seeing recovery for degraded performance on our account portal via Programmable Voice Calls Outbound API CPS. We will continue to monitor to ensure a full recovery. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+Sep  1, 13:33 PDT
+Update - We continue experiencing degraded performance on our account portal via Programmable Voice Calls Outbound API CPS. Our engineering team is looking into the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Sep  1, 12:40 PDT
+Update - We are currently seeing degraded performance on our account portal via Programmable Voice Calls Outbound API CPS. Our engineering team is looking into the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
+Sep  1, 12:29 PDT
+Investigating - Our monitoring systems have detected a potential issue with Programmable Voice CPS. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Users are unable to post to the #general channel]]></title>
+        <id>https://status.slack.com//2023-08/414e590c93cb5636</id>
+        <link href="https://status.slack.com//2023-08/414e590c93cb5636"/>
+        <updated>2023-09-01T18:36:44.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+On August 23, 2023 from 4:30 PM PDT to August 31, 2023 11:26 PM PDT, some users experienced an issue posting messages in the designated #general channel of their workspace. 
+
+
+Our team identified that recent changes in our code broke some conditional logic and deprecated the preference that allows users to post in the #general channel.
+
+
+We pushed out a fix and asked affected users to reload their Slack apps. This combination of steps resolved the issue.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twilio Identity Match to Canada API Errors]]></title>
+        <id>https://status.twilio.com/incidents/yrw60q895705</id>
+        <link href="https://status.twilio.com/incidents/yrw60q895705"/>
+        <updated>2023-09-01T16:49:13.000Z</updated>
+        <summary type="html"><![CDATA[Sep  1, 09:49 PDT
+Resolved - API issue with Lookup Identity Match to Canada has been resolved and is operating normally at this time.
+Sep  1, 07:49 PDT
+Monitoring - API Lookup Identity Match to Canada is now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.
+Sep  1, 07:10 PDT
+Update - We are continuing to investigate an intermittent API issue with Lookup Identity Match to Canada. Our engineering team is actively working on the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+Sep  1, 03:10 PDT
+Update - We are continuing to investigate an intermittent API issue with Lookup Identity Match to Canada. Our engineering team is actively working on the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+Sep  1, 01:15 PDT
+Update - We are currently investigating an intermittent API issue with Lookup Identity Match to Canada. Our engineering team is actively working on the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Sep  1, 00:18 PDT
+Investigating - Our monitoring systems have detected an intermittent API issue with Lookup Identity Match to Canada. Our engineering team has been alerted and is actively investigating. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -24,13 +99,97 @@ Scheduled - The Megafon and Yota networks in Russia is conducting a planned main
         <title type="html"><![CDATA[SMS Delivery Delays to CTBC Celular Network in Brazil]]></title>
         <id>https://status.twilio.com/incidents/1jlkv03wh37y</id>
         <link href="https://status.twilio.com/incidents/1jlkv03wh37y"/>
-        <updated>2023-08-31T23:48:47.000Z</updated>
-        <summary type="html"><![CDATA[Aug 31, 16:48 PDT
-Investigating - We continue to experience an issue with SMS delivery delays when sending messages to CTBC Celular network in Brazil. Our engineers are working with our carrier partner to resolve the incident. We will provide another update in 1 hour or as soon as more information becomes available.
-Aug 31, 16:34 PDT
-Update - We are observing recovery in SMS delivery delays when sending messages to  CTBC Celular network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Aug 31, 14:43 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to  CTBC Celular network in Brazil. We will continue monitoring the service to ensure a…]]></summary>
+        <updated>2023-09-01T16:28:31.000Z</updated>
+        <summary type="html"><![CDATA[Sep  1, 09:28 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to CTBC Celular network in Brazil. This incident has been resolved.
+Sep  1, 07:29 PDT
+Monitoring - We are observing recovery in MMS/SMS delivery delays when sending messages to CTBC Celular network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Aug 31, 23:38 PDT
+Update - We continue to experience an issue with SMS delivery delays when sending messages to CTBC Celular network in Brazil. Our engineers are working with our carrier partner to resolve the incident. We will provide another update in 8 hours or as soon as more information becomes available.
+Aug 31, 19:38 PDT
+U…]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Codespaces]]></title>
+        <id>https://www.githubstatus.com/incidents/wz41ffzj8937</id>
+        <link href="https://www.githubstatus.com/incidents/wz41ffzj8937"/>
+        <updated>2023-09-01T15:06:06.000Z</updated>
+        <summary type="html"><![CDATA[Sep  1, 15:06 UTC
+Resolved - This incident has been resolved.
+Sep  1, 14:51 UTC
+Update - A limited number of users in the UK and Western Europe are experiencing issues starting or reconnecting to GitHub Codespaces. We are investigating the issue.
+Sep  1, 14:35 UTC
+Investigating - We are investigating reports of degraded performance for Codespaces]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delay and Failure to SCO Mobile Pakistan]]></title>
+        <id>https://status.twilio.com/incidents/znh26mbj4gml</id>
+        <link href="https://status.twilio.com/incidents/znh26mbj4gml"/>
+        <updated>2023-09-01T13:50:07.000Z</updated>
+        <summary type="html"><![CDATA[Sep  1, 06:50 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to SCO Mobile in Pakistan. This incident has been resolved.
+Sep  1, 04:50 PDT
+Monitoring - We are observing recovery in SMS delivery delays and failures to SCO Mobile in Pakistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Sep  1, 03:06 PDT
+Update - We continue to experience SMS delivery delays and failures to SCO Mobile in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Sep  1, 02:11 PDT
+Investigating - We are experiencing SMS delivery delays and failures to SCO Mobile in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US SMS and MMS Carrier Maintenance - AT&T]]></title>
+        <id>https://status.twilio.com/incidents/vx8864hz1b05</id>
+        <link href="https://status.twilio.com/incidents/vx8864hz1b05"/>
+        <updated>2023-09-01T09:01:16.000Z</updated>
+        <summary type="html"><![CDATA[Sep  1, 02:01 PDT
+Completed - The scheduled maintenance has been completed.
+Aug 27, 20:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Aug 25, 15:46 PDT
+Scheduled - The AT&T network in the US is conducting a series of planned maintenances from 27 August 2023 at 20:00 PDT until 01 September 2023 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from AT&T US handsets.
+
+Note, the maintenance will be carried out on each of the following dates and times:
+
+27 August 2023 at 20:00 PDT until 28 August 2023 at 02:00 PDT
+
+28 August 2023 at 20:00 PDT until 29 August 2023 at 02:00 PDT
+
+29 August 2023 at 20:00 PDT until 30 August 2023 at 02:00 PDT
+
+30 August 2023 at 20:00 PDT until 31 August 2023 at 02:00 PDT
+
+31 August 2023 at 20:00 PDT until 01 September 2023 at 02:00 PDT]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays To Orange Network In Cameroon]]></title>
+        <id>https://status.twilio.com/incidents/n3019h1bg622</id>
+        <link href="https://status.twilio.com/incidents/n3019h1bg622"/>
+        <updated>2023-09-01T08:37:17.000Z</updated>
+        <summary type="html"><![CDATA[Sep  1, 01:37 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Orange network in Cameroon. This incident has been resolved.
+Aug 31, 23:52 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Orange network in Cameroon. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Aug 31, 18:46 PDT
+Update - We continue to experience SMS delivery delays when sending messages to Orange network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
+Aug 31, 10:46 PDT
+Update - We continue to experience SMS delivery delays when sending messages to Orange network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+Aug 31, 06:45 PDT
+Update - We continue to experience SMS delivery delays when sending messages to Orange network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+Aug 31, 04:45 PDT
+Update - We continue to experience SMS delivery delays when sending messages to Orange network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Aug 31, 03:48 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to Orange network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -39,8 +198,16 @@ Monitoring - We are observing recovery in SMS delivery delays when sending messa
         <title type="html"><![CDATA[Failure In Updating Programmable Voice CPS Value Within Twilio Console]]></title>
         <id>https://status.twilio.com/incidents/jb9hgb80scgd</id>
         <link href="https://status.twilio.com/incidents/jb9hgb80scgd"/>
-        <updated>2023-08-31T23:39:59.000Z</updated>
-        <summary type="html"><![CDATA[Aug 31, 16:39 PDT
+        <updated>2023-09-01T03:49:10.000Z</updated>
+        <summary type="html"><![CDATA[Aug 31, 20:49 PDT
+Resolved - We are no longer experiencing issue with updating Programmable Voice CPS value within Twilio Console. This incident has been resolved.
+Aug 31, 20:19 PDT
+Monitoring - We are observing recovery in updating Programmable Voice CPS value within Twilio Console. We will continue monitoring the service to ensure a full recovery. We will provide another update in 30 minutes or as soon as more information becomes available.
+Aug 31, 19:39 PDT
+Update - We continue to experience failure to update Programmable Voice CPS value within Twilio Console. Our engineering team is looking into the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
+Aug 31, 17:39 PDT
+Update - We continue to experience failure to update Programmable Voice CPS value within Twilio Console. Our engineering team is looking into the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Aug 31, 16:39 PDT
 Update - We are currently seeing failure to update Programmable Voice CPS value within Twilio Console. Our engineering team is looking into the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
 Aug 31, 15:49 PDT
 Investigating - We've become aware of a potential issue with failure to update CPS value within Twilio Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
@@ -52,28 +219,13 @@ Investigating - We've become aware of a potential issue with failure to update C
         <title type="html"><![CDATA[Active Numbers Page Fails to Fetch when Region IE1 is Active]]></title>
         <id>https://status.twilio.com/incidents/1cw03045bvyk</id>
         <link href="https://status.twilio.com/incidents/1cw03045bvyk"/>
-        <updated>2023-08-31T20:47:10.000Z</updated>
-        <summary type="html"><![CDATA[Aug 31, 13:47 PDT
-Update - We are continuing to investigate errors seen in the console when using IE1 routing. The Active Numbers page may fail to load with an "Internal Server Error" or an "Oppose Something Went Wrong" error. As a workaround, try refreshing the page. Some users may not be able to configure numbers during this time or see the incorrect number configurations when viewing their numbers. We expect to provide another update in 4 hours or as soon as more information becomes available.
-Aug 31, 11:56 PDT
-Update - We are continuing to investigate errors seen in the console when using IE1 routing. The Active Numbers page may fail to load with an "Internal Server Error" or an "Oppose Something Went Wrong" error. As a workaround, try refreshing the page. Some users may not be able to configure numbers during this time or see the incorrect number configurations when viewing their numbers. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Aug 31, 10:56 PDT
-Update - We are investigating errors seen in the console when using IE1 routing. The Active Numbers page may fail to load with an "Internal Server Error" or an "Oppose Something Went Wrong" error. As a workaround, try refreshing the page. Some users may not be able to configure numbers during this time or see the incorrect number configurations when viewing their numbers. We expect to provide another update in 1 hour or as soon as more information becomes available.
-Aug 31, 10:43 PDT
-Investigating - Our monitoring systems have detected a potential issue with the active numbers console page for Region IE1. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automated Alert: Minimal Customer Impact For Outbound HTTP Failure on Twilio Studio]]></title>
-        <id>https://status.twilio.com/incidents/lcqb10ptxszv</id>
-        <link href="https://status.twilio.com/incidents/lcqb10ptxszv"/>
-        <updated>2023-08-31T20:39:58.000Z</updated>
-        <summary type="html"><![CDATA[Aug 31, 13:39 PDT
-Resolved - We have fully investigated the outbound HTTP failure issue from Twilio Studio, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
-Aug 31, 13:01 PDT
-Investigating - We've become aware of a potential issue with outbound HTTP failures on Twilio Studio. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <updated>2023-09-01T02:40:38.000Z</updated>
+        <summary type="html"><![CDATA[Aug 31, 19:40 PDT
+Resolved - We are no longer experiencing issue with the active numbers console page for Region IE1. This incident has been resolved.
+Aug 31, 19:10 PDT
+Monitoring - We are observing recovery with the active numbers console page for Region IE1. We will continue monitoring the service to ensure a full recovery. We will provide another update in 30 minutes or as soon as more information becomes available.
+Aug 31, 17:45 PDT
+Update - We are continuing to investigate errors seen in the console when using IE1 routing. The Active Numbers page may fail to load with an "Internal Server Error" or an "Oppose Something Went Wrong" error. As a workaround, try refreshing the page. Some users may not be able to configure numbers during this time or see the incorrect number configurations …]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -122,69 +274,6 @@ T…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays To Orange Network In Cameroon]]></title>
-        <id>https://status.twilio.com/incidents/n3019h1bg622</id>
-        <link href="https://status.twilio.com/incidents/n3019h1bg622"/>
-        <updated>2023-08-31T17:46:55.000Z</updated>
-        <summary type="html"><![CDATA[Aug 31, 10:46 PDT
-Update - We continue to experience SMS delivery delays when sending messages to Orange network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
-Aug 31, 06:45 PDT
-Update - We continue to experience SMS delivery delays when sending messages to Orange network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Aug 31, 04:45 PDT
-Update - We continue to experience SMS delivery delays when sending messages to Orange network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Aug 31, 03:48 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Orange network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays To Jazz Network In Pakistan]]></title>
-        <id>https://status.twilio.com/incidents/jbk5qtty86d4</id>
-        <link href="https://status.twilio.com/incidents/jbk5qtty86d4"/>
-        <updated>2023-08-31T14:20:20.000Z</updated>
-        <summary type="html"><![CDATA[Aug 31, 07:20 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Jazz network in Pakistan. This incident has been resolved.
-Aug 31, 05:20 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Jazz network in Pakistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Aug 31, 04:25 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Jazz network in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Status Notification Failures]]></title>
-        <id>https://status.twilio.com/incidents/q26t80y3fmtc</id>
-        <link href="https://status.twilio.com/incidents/q26t80y3fmtc"/>
-        <updated>2023-08-31T14:00:03.000Z</updated>
-        <summary type="html"><![CDATA[Aug 31, 07:00 PDT
-Resolved - Issue with SMS delivery status has been resolved and is operating normally at this time.
-Aug 31, 06:31 PDT
-Monitoring - Outbound SMS where messages will remain in SENT status and consequently move to DELIVERY_UNKNOWN status is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
-Aug 31, 05:41 PDT
-Investigating - Our monitoring systems have detected a potential issue with Outbound SMS where messages will remain in SENT status and consequently move to DELIVERY_UNKNOWN status. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Customers Are Not Able to Configure Voice Recording Encryption & Voice Recording External Storage Settings via Console]]></title>
-        <id>https://status.twilio.com/incidents/yq9pd2xry2vw</id>
-        <link href="https://status.twilio.com/incidents/yq9pd2xry2vw"/>
-        <updated>2023-08-31T13:51:38.000Z</updated>
-        <summary type="html"><![CDATA[Aug 31, 06:51 PDT
-Resolved - Issue with Voice Recording Encryption & Voice Recording External Storage settings via Console has been resolved and is operating normally at this time.
-Aug 31, 06:22 PDT
-Monitoring - Voice Recording Encryption & Voice Recording External Storage settings via Console is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes minutes or as soon as more information becomes available.
-Aug 31, 05:33 PDT
-Investigating - Currently customers are not able to edit their Voice Recording Encryption & Voice Recording External Storage settings via Console. When interacting with these controls within the Voice -> Settings -> General webpage, they will see error messages displayed next to these components.
-Our engineering team is actively investigating the issue and we will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Subsea Fiber Faults]]></title>
         <id>https://status.digitalocean.com/incidents/0yj0wwt12hfc</id>
         <link href="https://status.digitalocean.com/incidents/0yj0wwt12hfc"/>
@@ -201,85 +290,6 @@ Additionally, we've identified this issue is impacting App Platform builds and d
 We do not have a firm ETA for resolution time but we will provide updates as needed.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US and Canada SMS and MMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/gbqsbkthy7hh</id>
-        <link href="https://status.twilio.com/incidents/gbqsbkthy7hh"/>
-        <updated>2023-08-31T07:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Aug 31, 00:00 PDT
-Completed - The scheduled maintenance has been completed.
-Aug  2, 20:01 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jul 21, 16:01 PDT
-Scheduled - Our SMS and MMS carrier partner in the US and Canada is conducting a series of planned maintenance from 02 August 2023 at 20:00 PDT until 31 August 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets via Toll-free numbers.
-
-Note, the maintenance will be carried out on each of the following dates and times:
-
-02 August 2023 at 20:00 PDT until 03 August 2023 at 00:00 PDT
-09 August 2023 at 20:00 PDT until 10 August 2023 at 00:00 PDT
-16 August 2023 at 20:00 PDT until 17 August 2023 at 00:00 PDT
-23 August 2023 at 20:00 PDT until 24 August 2023 at 00:00 PDT
-30 August 2023 at 20:00 PDT until 31 August 2023 at 00:00 PDT]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[France Voice Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/s68zp3mlqkg4</id>
-        <link href="https://status.twilio.com/incidents/s68zp3mlqkg4"/>
-        <updated>2023-08-31T06:00:13.000Z</updated>
-        <summary type="html"><![CDATA[Aug 30, 23:00 PDT
-Completed - The scheduled maintenance has been completed.
-Aug 30, 22:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Aug 22, 12:27 PDT
-Scheduled - Our Voice carrier partner in France is conducting a planned maintenance from 30 August 2023 at 22:00 PDT until 30 August 2023 at 23:00 PDT. During the maintenance window, there could be intermittent call failures to and from a subset of Twilio's France phone numbers]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Germany SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/vmx61d7n82kr</id>
-        <link href="https://status.twilio.com/incidents/vmx61d7n82kr"/>
-        <updated>2023-08-31T05:00:50.000Z</updated>
-        <summary type="html"><![CDATA[Aug 30, 22:00 PDT
-Completed - The scheduled maintenance has been completed.
-Aug 30, 20:30 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Aug 29, 16:50 PDT
-Scheduled - Our SMS carrier partner in Germany is conducting an emergency maintenance from 30 August 2023 at 20:30 PDT until 30 August 2023 at 22:00 PDT.
-During the maintenance window, there could be intermittent delays delivering SMS from Germany handsets to Subset of Shortcode.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bulgaria SMS Carrier Maintenance - Vivacom]]></title>
-        <id>https://status.twilio.com/incidents/3g34v57nqyrl</id>
-        <link href="https://status.twilio.com/incidents/3g34v57nqyrl"/>
-        <updated>2023-08-31T03:00:12.000Z</updated>
-        <summary type="html"><![CDATA[Aug 30, 20:00 PDT
-Completed - The scheduled maintenance has been completed.
-Aug 30, 12:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Aug 21, 08:53 PDT
-Scheduled - The Vivacom network in Bulgaria is conducting a planned maintenance from 30 August 2023 at 12:00 PDT until 30 August 2023 at 20:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Vivacom handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Users are unable to post to the #general channel]]></title>
-        <id>https://status.slack.com//2023-08/414e590c93cb5636</id>
-        <link href="https://status.slack.com//2023-08/414e590c93cb5636"/>
-        <updated>2023-08-30T22:38:55.000Z</updated>
-        <summary type="html"><![CDATA[We’re still actively investigating this issue, but we don’t have any new information to share at this time. Thanks for your patience as we continue to work towards a fix.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
@@ -1092,27 +1102,6 @@ Aug  7, 16:01 UTC
 Investigating - There is degraded performance across the Rippling application, with certain pages loading slowly. We are investigating the issue.]]></summary>
         <author>
             <name>Rippling Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Users may be experiencing issues connecting to Slack]]></title>
-        <id>https://status.slack.com//2023-08/8ec13e4962a9bf43</id>
-        <link href="https://status.slack.com//2023-08/8ec13e4962a9bf43"/>
-        <updated>2023-08-03T02:32:16.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-On August 2, 2023 from 9:01 AM PDT to 11:00 AM PDT, customers may have experienced issues with blurry images in Slack, as well as trouble uploading files. A small percentage of customers may have also experienced errors or slowness when loading channels, sending messages, accessing admin pages, and connecting to Slack.
-
-
-An issue with a routine database cluster migration inadvertently caused a decrease in capacity. Unfortunately, this coincided with a scheduled job to process a large number of custom status requests, an activity that commonly occurs at the top of each hour. The number of incoming requests exceeded the unintentionally reduced capacity of the database cluster, leading to errors and sluggishness for some actions in Slack. As these requests piled up, other Slack services began to experience issues as well, including a small number of users being unable to connect.
-
-
-We paused the scheduled custom status job to immediately mitigate the load on the affected database cluster. This resolved some of the errors affecting Slack services. Once we established we had sufficient capacity to handle the scheduled job, we resumed processing the custom status requests, fully restoring normal service for all affected users.
-
-
-Once the load was balanced and custom status processing had returned to normal, we deployed a fix to correct the issue with the database cluster migration, bringing capacity back to the expected level.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>
