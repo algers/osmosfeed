@@ -1,21 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-09-09T00:19:34.875Z</id>
+    <id>urn:2023-09-10T00:21:53.720Z</id>
     <title>osmos::feed</title>
-    <updated>2023-09-09T00:19:34.875Z</updated>
+    <updated>2023-09-10T00:21:53.720Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Issues with Loading Insights Graphs]]></title>
+        <id>https://status.digitalocean.com/incidents/l2szqpvkw4s1</id>
+        <link href="https://status.digitalocean.com/incidents/l2szqpvkw4s1"/>
+        <updated>2023-09-09T06:41:14.000Z</updated>
+        <summary type="html"><![CDATA[Sep  9, 06:41 UTC
+Resolved - Our Engineering team has confirmed full resolution of the issue with loading the Insights graphs. As of 06.23 UTC, users should be able to access the Insights graphs, and these graphs will display the expected data. 
+If you continue to experience problems, please open a ticket with our support team. 
+Thank you for your patience and we apologize for any inconvenience.
+Sep  9, 06:23 UTC
+Monitoring - Our Engineering team has implemented a fix to resolve the issue with loading the Insights graphs. Users should now be able to access the Insights graphs, and these graphs will display the expected data. We are monitoring the situation closely and will share an update once the issue is resolved completely.
+Sep  9, 06:10 UTC
+Identified - Our Engineering team has identified the cause of the issue with loading the Insights graphs and is actively working on a fix. During this time, you might encounter errors when trying to access Insights graphs, and the graphs may not display any data. We will post an update as soon as additional information is available.
+Sep  9, 05:52 UTC
+Investigating - As of 05.15 UTC, our Engineering team is investigating issues with viewing Insights graphs. During this time, you might encounter errors when trying to access Insights graphs, and the graphs may not display any data. We regret any inconvenience this may cause and will provide further information as soon as we have more details.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Super SIM Connectivity Issues Detected]]></title>
         <id>https://status.twilio.com/incidents/6mpxqsz9vj1j</id>
         <link href="https://status.twilio.com/incidents/6mpxqsz9vj1j"/>
-        <updated>2023-09-08T23:42:51.000Z</updated>
-        <summary type="html"><![CDATA[Sep  8, 16:42 PDT
+        <updated>2023-09-09T01:30:37.000Z</updated>
+        <summary type="html"><![CDATA[Sep  8, 18:30 PDT
+Resolved - Super SIM Connectivity Issue has been resolved and [product][service] is operating normally at this time.
+Sep  8, 16:42 PDT
 Update - Our engineers are still monitoring the network connectivity. We’ll provide another update in 2 hours or as soon as more information becomes available.
 Sep  8, 14:42 PDT
 Monitoring - We are now seeing recovery of the network connectivity issue. We are continuing to monitor for service stability. We will provide another update in 2 hours or as soon as more information becomes available.
 Sep  8, 12:26 PDT
-Update - Since ~14:25 AM UTC we observed ~30% of active data sessions on Super SIM being dropped. At this moment, devices that attempted to reconnect immediately after losing connectivity should have been able to successfully reconnect to the redundant instances and backup networks. Currently, we are still monitoring the situation as approximately 12% of devices ma…]]></summary>
+Update - Since ~14:25 AM UTC we observed ~30% of active data sessions on Super SIM being dropped. At this moment, devices that attempted to reconnect immediately after losing connectivity should have been able to successfully reconn…]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Surf Telecom and American Net in Brazil From Registered Sender IDs and Short Codes]]></title>
+        <id>https://status.twilio.com/incidents/qycgklw7yt8w</id>
+        <link href="https://status.twilio.com/incidents/qycgklw7yt8w"/>
+        <updated>2023-09-09T01:26:26.000Z</updated>
+        <summary type="html"><![CDATA[Sep  8, 18:26 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Surf Telecom in Brazil from registered sender IDs and Short Codes. This incident has been resolved.
+Sep  8, 16:30 PDT
+Update - Our engineers are still monitoring SMS delivery to Surf Telecom and American Net in Brazil from registered sender IDs and Short Codes. We’ll provide another update in 2 hours or as soon as more information becomes available.
+Sep  8, 14:26 PDT
+Monitoring - SMS delivery to Surf Telecom in Brazil from registered sender IDs and Short Codes are starting to recover.  American Net is not showing improvement. Our engineers are working with our carrier partner to resolve the issue. We’ll provide another update in 4 hours or as soon as more information becomes available.
+Sep  8, 12:26 PDT
+Update - We are experiencing SMS delivery delays when sending messages to Surf Telecom and American Net in Brazil from registered sender IDs and Short Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+Sep  8, 11:26 PDT
+Update - We are experiencing SMS delivery delays when sending messages to Surf Telecom in Brazil from registered sender IDs and Short Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+Sep  8, 10:48 PDT
+Investigating - Our monitoring systems have detected a potential issue with SMS delivery delays to Surf Telecom in Brazil from registered sender IDs and Short Codes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -38,25 +80,6 @@ Investigating - Our monitoring systems have detected a potential issue with SMS 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Surf Telecom and American Net in Brazil From Registered Sender IDs and Short Codes]]></title>
-        <id>https://status.twilio.com/incidents/qycgklw7yt8w</id>
-        <link href="https://status.twilio.com/incidents/qycgklw7yt8w"/>
-        <updated>2023-09-08T23:30:08.000Z</updated>
-        <summary type="html"><![CDATA[Sep  8, 16:30 PDT
-Update - Our engineers are still monitoring SMS delivery to Surf Telecom and American Net in Brazil from registered sender IDs and Short Codes. We’ll provide another update in 2 hours or as soon as more information becomes available.
-Sep  8, 14:26 PDT
-Monitoring - SMS delivery to Surf Telecom in Brazil from registered sender IDs and Short Codes are starting to recover.  American Net is not showing improvement. Our engineers are working with our carrier partner to resolve the issue. We’ll provide another update in 4 hours or as soon as more information becomes available.
-Sep  8, 12:26 PDT
-Update - We are experiencing SMS delivery delays when sending messages to Surf Telecom and American Net in Brazil from registered sender IDs and Short Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
-Sep  8, 11:26 PDT
-Update - We are experiencing SMS delivery delays when sending messages to Surf Telecom in Brazil from registered sender IDs and Short Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
-Sep  8, 10:48 PDT
-Investigating - Our monitoring systems have detected a potential issue with SMS delivery delays to Surf Telecom in Brazil from registered sender IDs and Short Codes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Loop in Notifications for US Landline Porting and US Toll Free Porting]]></title>
         <id>https://status.twilio.com/incidents/td0zdncx0hht</id>
         <link href="https://status.twilio.com/incidents/td0zdncx0hht"/>
@@ -69,21 +92,6 @@ Sep  8, 12:53 PDT
 Update - Notifications for US Landline Porting and US Toll Free Porting process are starting to recover. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.
 Sep  8, 10:45 PDT
 Update - Notifications for US Landline Porting and US Toll Free Porting process are starting to recover.…]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Call Failures to China Phone Numbers]]></title>
-        <id>https://status.twilio.com/incidents/77zpq9p4lcs8</id>
-        <link href="https://status.twilio.com/incidents/77zpq9p4lcs8"/>
-        <updated>2023-09-08T21:20:28.000Z</updated>
-        <summary type="html"><![CDATA[Sep  8, 14:20 PDT
-Update - Calls to China phone numbers are still facing some rejections, we are working close with our carrier partners in China in order to obtain more information about this performance, and we will continue monitoring stability of the route. We will provide another update on September 11 at 14:00 PDT Time, or a soon as more information becomes available
-Sep  8, 12:35 PDT
-Update - Calls to China phone numbers are starting to recover. We will continue to monitor for system stability on an extended basis. We’ll provide another update in 2 hours or as soon as more information becomes available.
-Sep  8, 10:32 PDT
-Update - Calls to China phone numbers are starting to recover. We will continue to monitor for system stability on an extended basis. We’ll provide another update i…]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -111,59 +119,6 @@ Investigating - We are investigating an error while creating LOA in console - Er
         <summary type="html"><![CDATA[We've determined this issue impacts a small subset of admins on Enterprise Grid. We'll work to fix this internally, and provide further updates through customer support tickets. We apologize for any disruptions to your day.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US SMS Carrier Maintenance - AT&T]]></title>
-        <id>https://status.twilio.com/incidents/4rnvljfk1xqx</id>
-        <link href="https://status.twilio.com/incidents/4rnvljfk1xqx"/>
-        <updated>2023-09-08T09:00:01.000Z</updated>
-        <summary type="html"><![CDATA[Sep  8, 02:00 PDT
-Completed - The scheduled maintenance has been completed.
-Sep  7, 19:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Aug 24, 16:22 PDT
-Scheduled - The AT&T network in the US is conducting a planned maintenance from 07 September 2023 at 19:00 PDT until 08 September 2023 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T US handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Address Creation Issue]]></title>
-        <id>https://status.twilio.com/incidents/zn8l9bkpx6jx</id>
-        <link href="https://status.twilio.com/incidents/zn8l9bkpx6jx"/>
-        <updated>2023-09-08T08:44:29.000Z</updated>
-        <summary type="html"><![CDATA[Sep  8, 01:44 PDT
-Resolved - We are no longer experiencing issue adding emergency addresses to phone numbers in console. This incident has been resolved.
-Sep  8, 01:26 PDT
-Monitoring - We are observing recovery in issue of adding emergency addresses to phone numbers which was resulting in console error. We will continue monitoring the service to ensure a full recovery. We will provide another update in 30 minutes or as soon as more information becomes available.
-Sep  7, 23:53 PDT
-Update - We continue to experience failure with the address creation in Twilio Console. Our engineering team is looking into the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Sep  7, 22:53 PDT
-Investigating - We continue to experience failure with the address creation in Twilio Console. Our engineering team is looking into the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
-Sep  7, 22:26 PDT
-Monitoring - We have started seeing recovery for address creation in Twilio Console. We will continue to monitor to ensure a full recovery. We expect to provide another update in 30 minutes or as soon as more information becomes available.
-Sep  7, 21:31 PDT
-Update - We’ve become aware of an issue with the address creation in Twilio Console. Although addresses were created successfully we are seeing failures when fetching them. Our engineering team has been alerted and is actively investigating. We expect to provide another update in 1 hour, or as soon more information becomes available.
-Sep  7, 20:44 PDT
-Investigating - Our monitoring systems have detected a potential issue with address creation. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Egypt SMS Carrier Maintenance - Etisalat]]></title>
-        <id>https://status.twilio.com/incidents/0v9yxy6zksg9</id>
-        <link href="https://status.twilio.com/incidents/0v9yxy6zksg9"/>
-        <updated>2023-09-08T04:00:16.000Z</updated>
-        <summary type="html"><![CDATA[Sep  7, 21:00 PDT
-Completed - The scheduled maintenance has been completed.
-Sep  7, 16:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Sep  5, 21:04 PDT
-Scheduled - The Etisalat network in Egypt is conducting a planned maintenance from 07 September 2023 at 16:00 PDT until 07 September 2023 at 21:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Etisalat Egypt handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1160,83 +1115,6 @@ Aug 11, 20:44 UTC
 Update - From 16:45-20:01 UTC, OAuth App and GitHub App user auth tokens created with OAuth flow were not SAML authorized as expected. App authorizations created during this time may need to be reauthorized.
 Aug 11, 20:44 UTC
 Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SGP1 Network Maintenance - Phase 2]]></title>
-        <id>https://status.digitalocean.com/incidents/xh9qhhhvcl77</id>
-        <link href="https://status.digitalocean.com/incidents/xh9qhhhvcl77"/>
-        <updated>2023-08-10T23:24:53.000Z</updated>
-        <summary type="html"><![CDATA[Aug 10, 23:24 UTC
-Completed - The scheduled maintenance has been completed.
-Aug 10, 20:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Aug  6, 14:39 UTC
-Scheduled - Start: 2023-08-10 20:00 UTC
-End:  2023-08-11 00:00 UTC
-During the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the SGP1 region. 
-Expected impact:
-These upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.
-If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Support tickets submission issue]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/6c9mb4kd3fy7</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/6c9mb4kd3fy7"/>
-        <updated>2023-08-10T22:27:41.000Z</updated>
-        <summary type="html"><![CDATA[Aug 10, 15:27 PDT
-Resolved - This incident has been resolved.
-Aug 10, 05:08 PDT
-Investigating - We are currently investigating an issue that prevents partners from creating Support Tickets. For critical issues that require escalation, kindly contact your Airbnb Connectivity Partner Manager. 
-Please see ticket priority guidelines - https://developer.airbnb.com/docs/create-and-manage-support-cases#ticket-priority
-Our engineering teams are working to get everything up and running again, and we will update you with the latest information as soon as possible.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Trouble signing into the desktop app for some Enterprise Grid customers]]></title>
-        <id>https://status.slack.com//2023-08/c68673e38899ac38</id>
-        <link href="https://status.slack.com//2023-08/c68673e38899ac38"/>
-        <updated>2023-08-10T21:28:27.000Z</updated>
-        <summary type="html"><![CDATA[Issue Summary:
-
-On August 9, 2023 from 9:00 AM PDT to August 10th 2023, 8:00 AM PDT, some Enterprise Grid users experienced a failure to redirect from browser to app during login - focus was moved to the app, but the sign in process did not complete.
-
-
-We made a change to some logging functions and introduced a fix that mitigated the issue. This fix is permanent and will keep this issue from happening again.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Webhooks and Actions]]></title>
-        <id>https://www.githubstatus.com/incidents/rk1918knvr0w</id>
-        <link href="https://www.githubstatus.com/incidents/rk1918knvr0w"/>
-        <updated>2023-08-10T21:20:23.000Z</updated>
-        <summary type="html"><![CDATA[Aug 10, 21:20 UTC
-Resolved - This incident has been resolved.
-Aug 10, 21:07 UTC
-Update - Webhooks delivery latency has recovered, and we will continue to monitor.
-Aug 10, 20:56 UTC
-Update - Actions is operating normally.
-Aug 10, 20:21 UTC
-Update - We have applied mitigations and are seeing improvements in webhooks delivery latency. We continue to monitor for full recovery. We are also working to mitigate unrelated issues with Actions.
-Aug 10, 19:47 UTC
-Update - Actions is experiencing degraded performance. We are continuing to investigate.
-Aug 10, 19:33 UTC
-Update - We are still working to resolve high webhooks delivery latency.
-Aug 10, 18:54 UTC
-Update - We are still seeing high latency in webhook delivery and are actively working to resolve the issue.
-Aug 10, 18:12 UTC
-Update - Webhooks deliveries are experiencing high latency. We are actively investigating and working to mitigate.
-Aug 10, 17:35 UTC
-Investigating - We are investigating reports of degraded performance for Webhooks]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
