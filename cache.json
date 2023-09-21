@@ -31,18 +31,7 @@
       "title": "Security Bulletins on Tailscale",
       "feedUrl": "https://tailscale.com/security-bulletins/index.xml",
       "siteUrl": "https://tailscale.com/security-bulletins/",
-      "articles": [
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2023-006/",
-          "author": null,
-          "description": "Description: An issue in the Tailscale client, combined with a behavior\nof the UPnP implementations in some routers, could expose all UDP ports of a\nnode to external networks (usually the internet).\nAs of 2023-08-22 2:30 AM UTC, we have changed the Tailscale coordination server\nto advise nodes to stop using UPnP for port mapping. In some cases this can\ndegrade NAT traversal and may cause some connections to route through DERP.\nThis may increase node-to-node latency and decrease throughput. Version 1.48.1\nresolves the issue and re-enables port mapping via UPnP.\nWhat happened?\nTailscale nodes use UPnP as one of the mechanisms to open UDP port forwarding\nin routers to help with NAT traversal. Tailscale picks a node port and an\nexternal router port and requests forwarding between them. On firs…",
-          "link": "https://tailscale.com/security-bulletins/#ts-2023-006/",
-          "publishedOn": "2023-08-22T00:00:00.000Z",
-          "wordCount": 4069,
-          "title": "TS-2023-006",
-          "imageUrl": "https://tailscale.com/files/images/og-image.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Airbnb API Status - Incident History",
@@ -67,133 +56,133 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
+          "id": "https://status.twilio.com/incidents/11j70pr97b7l",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Sep 20, 22:00 PDT  -  Sep 21, 00:00 PDT\nSep 14, 12:30 PDT\nScheduled - Our carrier partners Three UK, H3G Austria, and Wind (Tre) Italy are conducting a planned maintenance from 20 September 2023 at 22:00 PDT until 21 September 2023 at 00:00 PDT. During the maintenance window, there could be intermittent API request failures for Three UK, H3G Austria and Wind (Tre) Italy customers.Impacted Products:\nVerify Silent Network Auth - Three UK, H3G Austria, Wind (Tre) Italy\nLookup SIM Swap - Three UK, H3G Austria, Wind (Tre) Italy\nLookup Identity Match - Three UK, Wind (Tre) Italy",
+          "link": "https://status.twilio.com/incidents/11j70pr97b7l",
+          "publishedOn": "2023-09-21T05:00:00.000Z",
+          "wordCount": 7044,
+          "title": "Account Security Carrier Partner Maintenance - Multiple Countries",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/pkvg2kp1mt5z",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Sep 20, 21:30 PDT  -  Sep 21, 01:30 PDT\nSep 18, 07:15 PDT\nScheduled - The US Cellular network in the US is conducting an emergency maintenance from 20 September 2023 at 21:30 PDT until 21 September 2023 at 01:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US Cellular US handsets.",
+          "link": "https://status.twilio.com/incidents/pkvg2kp1mt5z",
+          "publishedOn": "2023-09-21T04:30:00.000Z",
+          "wordCount": 6999,
+          "title": "US SMS Carrier Maintenance - US Cellular",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/l2xbmr18fvf0",
+          "author": null,
+          "description": "Sep 20, 15:27 PDT\nUpdate - We are investigating an issue with retrieving Voice SIP Domains in the Console. Customers may experience an error when requesting the data list in the Voice SIP Domain section.\nWe expect to provide another update in 2 hours or as soon as more information becomes available\nSep 20, 14:34 PDT\nUpdate - We are investigating an issue with retrieving Voice SIP Domains in the Console. Customers may experience an error when requesting the data list.\nWe expect to provide another update in 1 hour or as soon as more information becomes available\nSep 20, 14:03 PDT\nInvestigating - Our monitoring systems have detected a potential issue with retrieving Voice SIP Domains in the Console and API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/l2xbmr18fvf0",
+          "publishedOn": "2023-09-20T22:32:22.000Z",
+          "wordCount": 7091,
+          "title": "SIP Domain List Data Cannot be Retrieved in the Console",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/4q55wtl302vn",
+          "author": null,
+          "description": "Sep 20, 15:25 PDT\nMonitoring - We are observing recovery in MMS/SMS delivery delays when sending messages to Movilnet Network in Venezuela. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nSep 20, 14:21 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Movilnet Network in Venezuela. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nSep 20, 13:28 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Movilnet Network in Venezuela. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/4q55wtl302vn",
+          "publishedOn": "2023-09-20T22:25:37.000Z",
+          "wordCount": 7091,
+          "title": "SMS Delivery Delays to Movilnet Network in Venezuela",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/mvxzt1nmy77f",
+          "author": null,
+          "description": "Sep 20, 14:39 PDT\nUpdate - We are investigating an issue with billing for a subset of customers. Customers may receive 500 errors in the Console after completing payments successfully through PayPal payment method. We expect to provide another update in 4 hours or as soon as more information becomes available.\nSep 20, 12:40 PDT\nUpdate - We are investigating an issue with billing for a subset of customers. Customers may receive 500 errors in the Console after completing payments successfully through PayPal payment method. We expect to provide another update in 2 hours or as soon as more information becomes available.\nSep 20, 11:45 PDT\nUpdate - We are investigating an issue with billing for a subset of customers. Customers may receive 500 errors in the Console after completing payments successfully through PayPal payment method. We expect to provide another update in 1 hour or as soon as more information becomes available.\nSep 20, 10:53 PDT\nInvestigating - Our monitoring systems have detected a potential issue with the console potentially showing 5xx errors. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/mvxzt1nmy77f",
+          "publishedOn": "2023-09-20T21:39:58.000Z",
+          "wordCount": 7143,
+          "title": "500 Errors in the Console After Completing Payments Successfully",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/4b1cyyhcr1yn",
+          "author": null,
+          "description": "Sep 20, 14:21 PDT\nCompleted - The scheduled maintenance has been completed.\nSep 20, 11:20 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep 19, 07:18 PDT\nScheduled - The Motiv network in Russia is conducting an emergency maintenance from 20 September 2023 at 11:20 PDT until 20 September 2023 at 14:20 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Motiv Russia handsets.",
+          "link": "https://status.twilio.com/incidents/4b1cyyhcr1yn",
+          "publishedOn": "2023-09-20T21:21:11.000Z",
+          "wordCount": 7013,
+          "title": "Russia SMS Carrier Maintenance - Motiv",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/9mbz4j5qvt87",
+          "author": null,
+          "description": "Sep 20, 12:59 PDT\nResolved - Event streams status change webhook has been resolved for Toll Free verification subscription and is operating normally at this time.\nSep 20, 11:42 PDT\nMonitoring - Event streams status change webhook for Toll Free verification subscription is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nSep 20, 10:38 PDT\nUpdate - We are investigating an issue with event streams status change webhook for Toll Free verification subscription. Customers can still receive email notifications of toll-free verification” status changes and retrieve a toll-free verification’s status via the Messaging Compliance API. We expect to provide another update in 1 hour or as soon as more information becomes available\nSep 20, 10:19 PDT\nInvestigating - Our monitoring systems have detected a potential issue webhooks notifications of TrustProduct status changes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/9mbz4j5qvt87",
+          "publishedOn": "2023-09-20T19:59:40.000Z",
+          "wordCount": 7119,
+          "title": "Issues With Toll-free Verification Status Change Webhooks in Event Streams",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/p9jj5ddjvwf1",
+          "author": null,
+          "description": "Sep 20, 11:40 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Tele2 Network in Kazakhstan. This incident has been resolved.\nSep 20, 09:41 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Tele2 Network in Kazakhstan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nSep 20, 07:41 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to Tele2 Network in Kazakhstan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nSep 20, 06:34 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Tele2 Network in Kazakhstan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/p9jj5ddjvwf1",
+          "publishedOn": "2023-09-20T18:40:23.000Z",
+          "wordCount": 7115,
+          "title": "SMS Delivery Delays to Tele2 Network in Kazakhstan",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/ntj3tsfvcmtg",
+          "author": null,
+          "description": "Sep 20, 05:00 PDT\nCompleted - The scheduled maintenance has been completed.\nSep 19, 19:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep 18, 20:07 PDT\nScheduled - The T-Mobile network in the US is conducting an emergency maintenance from 19 September 2023 at 19:00 PDT until 20 September 2023 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
+          "link": "https://status.twilio.com/incidents/ntj3tsfvcmtg",
+          "publishedOn": "2023-09-20T12:00:14.000Z",
+          "wordCount": 7035,
+          "title": "US SMS Carrier Maintenance - T-Mobile",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.twilio.com/incidents/0q6bqyhx9hzf",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Sep 20, 00:30 - 03:30 PDT\nSep 15, 21:24 PDT\nScheduled - The AT&T network in the US is conducting a planned maintenance from 20 September 2023 at 00:30 PDT until 20 September 2023 at 03:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T US handsets.",
+          "description": "Sep 20, 03:30 PDT\nCompleted - The scheduled maintenance has been completed.\nSep 20, 00:30 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep 15, 21:24 PDT\nScheduled - The AT&T network in the US is conducting a planned maintenance from 20 September 2023 at 00:30 PDT until 20 September 2023 at 03:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T US handsets.",
           "link": "https://status.twilio.com/incidents/0q6bqyhx9hzf",
-          "publishedOn": "2023-09-20T07:30:00.000Z",
-          "wordCount": 7003,
+          "publishedOn": "2023-09-20T10:30:11.000Z",
+          "wordCount": 7031,
           "title": "US SMS Carrier Partner Maintenance - AT&T",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/rsgxr53rf3lw",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Sep 19, 22:00 - 23:00 PDT\nSep  7, 08:11 PDT\nScheduled - Our Voice carrier partner in France is conducting a planned maintenance from 19 September 2023 at 22:00 PDT until 19 September 2023 at 23:00 PDT. During the maintenance window, there could be intermittent call failures to and from a subset of Twilio's France phone numbers.",
+          "description": "Sep 19, 23:01 PDT\nCompleted - The scheduled maintenance has been completed.\nSep 19, 22:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep  7, 08:11 PDT\nScheduled - Our Voice carrier partner in France is conducting a planned maintenance from 19 September 2023 at 22:00 PDT until 19 September 2023 at 23:00 PDT. During the maintenance window, there could be intermittent call failures to and from a subset of Twilio's France phone numbers.",
           "link": "https://status.twilio.com/incidents/rsgxr53rf3lw",
-          "publishedOn": "2023-09-20T05:00:00.000Z",
-          "wordCount": 6988,
+          "publishedOn": "2023-09-20T06:01:12.000Z",
+          "wordCount": 7016,
           "title": "France Voice Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/ntj3tsfvcmtg",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Sep 19, 19:00 PDT  -  Sep 20, 05:00 PDT\nSep 18, 20:07 PDT\nScheduled - The T-Mobile network in the US is conducting an emergency maintenance from 19 September 2023 at 19:00 PDT until 20 September 2023 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
-          "link": "https://status.twilio.com/incidents/ntj3tsfvcmtg",
-          "publishedOn": "2023-09-20T02:00:00.000Z",
-          "wordCount": 7010,
-          "title": "US SMS Carrier Maintenance - T-Mobile",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/prv095z98s9f",
-          "author": null,
-          "description": "Sep 19, 17:15 PDT\nMonitoring - SMS delivery delays when sending messages to Orange Network in Burkina Faso are now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.\nSep 19, 15:29 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Orange Network in Burkina Faso. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available\nSep 19, 14:32 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Orange Network in Burkina Faso. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available",
-          "link": "https://status.twilio.com/incidents/prv095z98s9f",
-          "publishedOn": "2023-09-20T00:19:56.000Z",
-          "wordCount": 7094,
-          "title": "SMS Delivery Delays to Orange Network in Burkina Faso",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/bd4rw7mnygqr",
           "author": null,
-          "description": "Sep 19, 15:35 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Rogers and Telus Networks in Canada. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nSep 19, 13:43 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Rogers and Telus Networks in Canada. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nSep 19, 12:59 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Rogers and Telus in Canada. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nSep 19, 12:53 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Rogers and Telus in Canada. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "description": "Sep 19, 21:35 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Rogers and Telus Networks in Canada. This incident has been resolved.\nSep 19, 19:35 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Rogers and Telus Networks in Canada. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nSep 19, 15:35 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Rogers and Telus Networks in Canada. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nSep 19, 13:43 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Rogers and Telus Networks in Canada. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nSep 19, 12:59 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Rogers and Telus in Canada. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nSep 19, 12:53 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Rogers and Telus in Canada. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
           "link": "https://status.twilio.com/incidents/bd4rw7mnygqr",
-          "publishedOn": "2023-09-19T22:35:13.000Z",
-          "wordCount": 7154,
+          "publishedOn": "2023-09-20T04:35:09.000Z",
+          "wordCount": 7234,
           "title": "SMS Delivery Delays to Rogers and Telus Networks in Canada",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/x9n829pcfpd7",
+          "id": "https://status.twilio.com/incidents/prv095z98s9f",
           "author": null,
-          "description": "Sep 19, 15:02 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Moov Network in Gabon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nSep 19, 11:13 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Moov Network in Gabon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nSep 19, 09:01 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Moov Network in Gabon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nSep 19, 08:01 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Moov Network in Gabon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/x9n829pcfpd7",
-          "publishedOn": "2023-09-19T22:02:50.000Z",
-          "wordCount": 7145,
-          "title": "SMS Delivery Delays to Moov Network in Gabon",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/138g0mcrsfkv",
-          "author": null,
-          "description": "Sep 19, 13:58 PDT\nResolved - The issue affecting intermittent 500 errors with Lookup has been resolved, and the service is functioning normally at this time.\nSep 19, 13:28 PDT\nMonitoring - We have started seeing recovery for intermittent 500 errors with Lookup. We will continue to monitor to ensure a full recovery. \nWe expect to provide another update in 30 minutes or as soon as more information becomes available.\nSep 19, 13:15 PDT\nIdentified - Our engineers have identified the issue with Lookup and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.\nSep 19, 13:06 PDT\nInvestigating - Our monitoring systems have detected a potential issue with Lookup. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/138g0mcrsfkv",
-          "publishedOn": "2023-09-19T20:58:48.000Z",
-          "wordCount": 7089,
-          "title": "On Call Engineers are Monitoring an issue with Lookup",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/jykjr15hv2pw",
-          "author": null,
-          "description": "Sep 19, 10:00 PDT\nCompleted - The scheduled maintenance has been completed.\nSep 19, 09:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep 14, 02:19 PDT\nScheduled - The XL network in Indonesia is conducting a planned maintenance from 19 September 2023 at 09:00 PDT until 19 September 2023 at 10:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from XL Indonesia handsets.",
-          "link": "https://status.twilio.com/incidents/jykjr15hv2pw",
-          "publishedOn": "2023-09-19T17:00:36.000Z",
-          "wordCount": 7015,
-          "title": "Indonesia SMS Carrier Maintenance - XL",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/2sw1jl6p088w",
-          "author": null,
-          "description": "Sep 19, 09:00 PDT\nCompleted - The scheduled maintenance has been completed.\nSep  4, 06:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 29, 22:46 PDT\nScheduled - Our Voice carrier partner in Japan is conducting a series of planned maintenances from 04 September 2023 at 06:00 PDT until 11 September 2023 at 11:00 PDT. During the maintenance window, there could be intermittent call disconnects and failures to and from Twilio Japan phone numbers.\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n04 September 2023 at 06:00 PDT until 04 September 2023 at 07:00 PDT\n04 September 2023 at 08:00 PDT until 04 September 2023 at 09:00 PDT\n\n05 September 2023 at 06:00 PDT until 05 September 2023 at 07:00 PDT\n05 September 2023 at 08:00 PDT until 05 September 2023 at 09:00 PDT\n\n11 September 2023 at 06:00 PDT until 11 September 2023 at 07:00 PDT\n11 September 2023 at 08:00 PDT until 11 September 2023 at 09:00 PDT\n\n12 September 2023 at 06:00 PDT until 12 September 2023 at 07:00 PDT\n12 September 2023 at 08:00 PDT until 12 September 2023 at 09:00 PDT\n\n19 September 2023 at 06:00 PDT until 19 September 2023 at 07:00 PDT\n19 September 2023 at 08:00 PDT until 19 September 2023 at 09:00 PDT",
-          "link": "https://status.twilio.com/incidents/2sw1jl6p088w",
-          "publishedOn": "2023-09-19T16:00:03.000Z",
-          "wordCount": 7151,
-          "title": "Japan Voice Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/jnhjb1k1dcqj",
-          "author": null,
-          "description": "Sep 19, 04:00 PDT\nCompleted - The scheduled maintenance has been completed.\nSep 19, 02:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep  8, 16:39 PDT\nScheduled - A subset of small US networks in the US are conducting a planned maintenance from 19 September 2023 at 02:00 PDT until 19 September 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US Carriers.",
-          "link": "https://status.twilio.com/incidents/jnhjb1k1dcqj",
-          "publishedOn": "2023-09-19T11:00:05.000Z",
-          "wordCount": 7028,
-          "title": "US SMS Carrier Maintenance - Small US Carriers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/8dv8bcrnq02y",
-          "author": null,
-          "description": "Sep 19, 03:00 PDT\nCompleted - The scheduled maintenance has been completed.\nSep 18, 21:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep 18, 16:54 PDT\nScheduled - Our service partner is conducting an emergency maintenance from 18 September 2023 at 21:00 PDT until 19 September 2023 at 03:00 PDT. During the maintenance window, there could be intermittent API request failures for the following country and carrier: Rogers Canada \n\nImpacted Products: \nLookup SIM Swap \nLegacy Identity MatchAndAttributes",
-          "link": "https://status.twilio.com/incidents/8dv8bcrnq02y",
-          "publishedOn": "2023-09-19T10:00:29.000Z",
-          "wordCount": 7027,
-          "title": "Canada Account Security Service Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/g5nc2hgm9ft2",
-          "author": null,
-          "description": "Sep 19, 02:46 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Bangalink Network. This incident has been resolved.\nSep 19, 02:26 PDT\nUpdate - We continue to observe recovery in SMS delivery delays when sending messages to Bangalink Network in Bangladesh. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nSep 19, 00:24 PDT\nUpdate - We continue to observe recovery in SMS delivery delays when sending messages to Bangalink Network in Bangladesh. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nSep 18, 22:27 PDT\nMonitoring - We are observin…",
-          "link": "https://status.twilio.com/incidents/g5nc2hgm9ft2",
-          "publishedOn": "2023-09-19T09:46:47.000Z",
-          "wordCount": 7363,
-          "title": "SMS Delivery Delays to Bangalink Network in Bangladesh",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/bfgb7l2lg139",
-          "author": null,
-          "description": "Sep 19, 02:00 PDT\nCompleted - The scheduled maintenance has been completed.\nSep 11, 20:02 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep  8, 16:09 PDT\nScheduled - The AT&T network in the US is conducting a series of planned maintenances from 11 September 2023 at 20:00 PDT until 19 September 2023 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from AT&T US handsets.\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n11 September 2023 at 20:00 PDT until 12 September2023 at 02:00 PDT\n\n13 September 2023 at 20:00 PDT until 14 September 2023 at 02:00 PDT\n\n17 September 2023 at 20:00 PDT until 18 September 2023 at 02:00 PDT\n\n18 September 2023 at 20:00 PDT until 19 September 2023 at 02:00 PDT",
-          "link": "https://status.twilio.com/incidents/bfgb7l2lg139",
-          "publishedOn": "2023-09-19T09:00:10.000Z",
-          "wordCount": 7113,
-          "title": "US SMS and MMS Carrier Maintenance - AT&T",
+          "description": "Sep 19, 19:15 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Orange Network in Burkina Faso. This incident has been resolved.\nSep 19, 17:15 PDT\nMonitoring - SMS delivery delays when sending messages to Orange Network in Burkina Faso are now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.\nSep 19, 15:29 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Orange Network in Burkina Faso. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available\nSep 19, 14:32 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Orange Network in Burkina Faso. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available",
+          "link": "https://status.twilio.com/incidents/prv095z98s9f",
+          "publishedOn": "2023-09-20T02:15:16.000Z",
+          "wordCount": 7120,
+          "title": "SMS Delivery Delays to Orange Network in Burkina Faso",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -291,6 +280,16 @@
       "siteUrl": "https://status.notion.so",
       "articles": [
         {
+          "id": "https://status.notion.so/incidents/sj01vbq7vgb4",
+          "author": null,
+          "description": "Sep 20, 14:03 PDT\nResolved - This incident has been resolved. Users are not able to change their payment method.\nSep 20, 13:52 PDT\nIdentified - The issue has been identified and a fix is being implemented",
+          "link": "https://status.notion.so/incidents/sj01vbq7vgb4",
+          "publishedOn": "2023-09-20T21:03:28.000Z",
+          "wordCount": 3163,
+          "title": "Users are unable to change their payment method",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.notion.so/incidents/5xq6jc04sf0b",
           "author": null,
           "description": "Sep 14, 11:31 PDT\nResolved - This incident has been resolved. Formulas and checkboxes should now work for all public API users.\nSep 14, 11:24 PDT\nMonitoring - At 11:00 AM PT on September 13th, 2023, some API calls for formulas and checkboxes were failing. \nA server rollback has been sent. We are currently monitoring the results.",
@@ -342,26 +341,6 @@
           "wordCount": 557,
           "title": "RESOLVED: We are experiencing an issue with Google Groups.\nGroups member names are not displaying correctly.\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2023-09-19 11:38 US/Pacific.",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/z7uFcigrMs4YYMxJyLfW",
-          "author": null,
-          "description": "<p> Incident began at <strong>2023-09-19 11:43</strong> and ended at <strong>2023-09-19 17:44</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The issue with Google Groups for Business has been resolved for all affected users as of Tuesday, 2023-09-19 10:43 US/Pacific.</p>\n<p>We will publish an analysis of this incident once we have completed our internal investigation.</p>\n<p>We thank you for your patience while we worked on resolving the issue.</p>\n</div><hr><p>Affected products: Google Groups</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/z7uFcigrMs4YYMxJyLfW",
-          "publishedOn": "2023-09-19T17:44:06.000Z",
-          "wordCount": 557,
-          "title": "RESOLVED: We are experiencing an issue with Google Groups.\nGroups member names are not displaying correctly.\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2023-09-19 11:38 US/Pacific.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/z7uFcigrMs4YYMxJyLfW",
-          "author": null,
-          "description": "<p> Incident began at <strong>2023-09-19 11:43</strong> and ended at <strong>2023-09-19 17:44</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>We are experiencing an issue with Google Groups.\nGroups member names are not displaying correctly.</p>\n<p>Mitigation work is currently underway by our engineering team.</p>\n<p>We do not have an ETA for mitigation at this point.</p>\n<p>We will provide more information by Tuesday, 2023-09-19 11:38 US/Pacific.</p>\n</div><hr><p>Affected products: Google Groups</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/z7uFcigrMs4YYMxJyLfW",
-          "publishedOn": "2023-09-19T17:40:07.000Z",
-          "wordCount": 557,
-          "title": "UPDATE: We are experiencing an issue with Google Groups.\nGroups member names are not displaying correctly.\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2023-09-19 11:38 US/Pacific.",
-          "imageUrl": null
         }
       ]
     },
@@ -371,12 +350,32 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/c85syxc7gnbx",
+          "author": null,
+          "description": "Sep 20, 21:05 UTC\nResolved - This incident has been resolved.\nSep 20, 21:05 UTC\nUpdate - Creates and resumes in US West are working normally\nSep 20, 20:47 UTC\nUpdate - Codespace resumes in US West are currently impacted. New Codespaces are working normally.\nSep 20, 20:21 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces",
+          "link": "https://www.githubstatus.com/incidents/c85syxc7gnbx",
+          "publishedOn": "2023-09-20T21:05:57.000Z",
+          "wordCount": 4787,
+          "title": "Incident with Codespaces",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
+          "id": "https://www.githubstatus.com/incidents/ctr28sphxc4c",
+          "author": null,
+          "description": "Sep 20, 09:33 UTC\nResolved - This incident has been resolved.\nSep 20, 09:31 UTC\nUpdate - We have mitigated the Actions notifications and the service is recovering.\nSep 20, 09:21 UTC\nUpdate - Actions notifications are experiencing degraded performance. We are currently investigating.\nSep 20, 09:20 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
+          "link": "https://www.githubstatus.com/incidents/ctr28sphxc4c",
+          "publishedOn": "2023-09-20T09:33:57.000Z",
+          "wordCount": 4786,
+          "title": "Incident with Actions",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/zjchv3zvfg50",
           "author": null,
-          "description": "Sep 20, 00:04 UTC\nUpdate - We continue restoring access to Project data. We do not have an estimated time to full restoration at this time, and are working to provide that.\nSep 19, 23:33 UTC\nUpdate - We continue working on restoring access to Projects data, along with an estimated time to full restoration.\nSep 19, 23:00 UTC\nUpdate - API Requests is operating normally.\nSep 19, 22:59 UTC\nUpdate - Git Operations is operating normally.\nSep 19, 22:55 UTC\nUpdate - Git operations, API requests, and Issues are recovering after restoring data replication, and we continue working on restoring access to Projects data.\nSep 19, 22:23 UTC\nUpdate - Git Operations is experiencing degraded performance. We are continuing to investigate.\nSep 19, 22:21 UTC\nUpdate - * We are actively working on restoring access to Projects data. \n* Issues and APIs are experiencing degraded performance. We are working on mitigating the issue.\nSep 19, 21:48 UTC\nUpdate - API Requests is experiencing degraded performance. We are continuing to investigate.\nSep 19, 21:29 UTC\nUpdate - We have identified the issue and are actively working to restore missing project items\nSep 19, 21:10 UTC\nUpdate - Issues is experiencing degraded availability. We are continuing to investigate.\nSep 19, 21:01 UTC\nUpdate - We are currently investigating an issue with project items not loading\nSep 19, 20:57 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Sep 20, 04:28 UTC\nResolved - This incident has been resolved.\nSep 20, 04:02 UTC\nUpdate - Issues is operating normally.\nSep 20, 04:01 UTC\nUpdate - We experienced an incident causing missing Project item data. We have restored all data from before the incident, up to 19 Sep 20:36 UTC. Project data modified between 20:36 UTC and 20 Sep 00:06 UTC was partially restored.\nWe will publish a root cause analysis for this issue by Sep 29.\nSep 20, 03:17 UTC\nUpdate - Projects data has been restored to the state prior to the incident (19 Sep 20:57 UTC). We are continuing to restore the last of Project metadata updated since 20:57 UTC.\nSep 20, 02:35 UTC\nUpdate - Projects data has been restored to the state prior to the incident (19 Sep 20:57 UTC). We are continuing to restore the last of Project metadat…",
           "link": "https://www.githubstatus.com/incidents/zjchv3zvfg50",
-          "publishedOn": "2023-09-20T00:04:55.000Z",
-          "wordCount": 5003,
+          "publishedOn": "2023-09-20T04:28:09.000Z",
+          "wordCount": 5278,
           "title": "Incident with Issues, API Requests and Git Operations",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -599,26 +598,6 @@
           "wordCount": 4769,
           "title": "Incident with Webhooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/smms25d68d09",
-          "author": null,
-          "description": "Aug 22, 17:01 UTC\nResolved - This incident has been resolved.\nAug 22, 16:14 UTC\nUpdate - Actions Larger Runners are experiencing delayed queue times. A mitigation is being worked on and will be applied shortly.\nAug 22, 15:59 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
-          "link": "https://www.githubstatus.com/incidents/smms25d68d09",
-          "publishedOn": "2023-08-22T17:01:49.000Z",
-          "wordCount": 4776,
-          "title": "Incident with Actions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/q8swpy90g6pp",
-          "author": null,
-          "description": "Aug 21, 18:41 UTC\nResolved - This incident has been resolved.\nAug 21, 18:23 UTC\nUpdate - Mitigation is in place for delays in Actions workflows and should be fully recovered in the next 30 minutes.\nAug 21, 17:41 UTC\nUpdate - We’re currently investigating reports of delays in Actions workflows.\nAug 21, 17:27 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
-          "link": "https://www.githubstatus.com/incidents/q8swpy90g6pp",
-          "publishedOn": "2023-08-21T18:41:06.000Z",
-          "wordCount": 4793,
-          "title": "Incident with Actions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -736,36 +715,6 @@
           "wordCount": 318,
           "title": "Incident: Login issues for Android customers using Intune and Edge",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-08/91459fdf86fd71f7",
-          "author": null,
-          "description": "Issue summary:\n\r\nOn August 21, 2023 from 11:30 AM PDT to August 22, 2023 around 2:30 AM PDT, customers may have noticed the workspace name appearing beside the channel names.\n\r\n\r\nThe issue was caused by a product change that impacted our channel name display logic, causing workspace names to appear next to the channel names in the sidebar. \n\r\n\r\nWe identified and introduced a fix, resolving the issue for all affected customers.",
-          "link": "https://status.slack.com//2023-08/91459fdf86fd71f7",
-          "publishedOn": "2023-08-22T11:57:59.000Z",
-          "wordCount": 190,
-          "title": "Incident: Workspace name appearing next to channel names",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-08/0e77cc5cab99dd94",
-          "author": null,
-          "description": "Issue summary: \n\r\nOn August 21, 2023 from 3:33 PM PDT to around 5:41 PM PDT, customers using the iOS app may have experienced issues sending messages. \n\r\n\r\nA code change inadvertently introduced an error in our message validation logic, preventing the iOS app from sending messages on a first attempt. Some customers may have been able to resend messages successfully.\n\r\n\r\nWe identified and reverted the culprit code change, resolving the issue for all affected customers.",
-          "link": "https://status.slack.com//2023-08/0e77cc5cab99dd94",
-          "publishedOn": "2023-08-22T04:22:28.000Z",
-          "wordCount": 175,
-          "title": "Incident: Some iOS users are experiencing errors when sending messages",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-08/d67213498dd5cc16",
-          "author": null,
-          "description": "Issue summary:\n\r\nOn August 21, 2023 from 8:00 AM PDT to 8:51 AM PDT, less than 1% of users experienced trouble loading Slack.\n\r\n\r\nWe determined that a recent code change on our back end was resulting in a higher than expected memory footprint, and that this combined with high traffic loads was causing these issues.\n\r\n\r\nWe immediately rolled back this change, which resolved the issue for all affected users.",
-          "link": "https://status.slack.com//2023-08/d67213498dd5cc16",
-          "publishedOn": "2023-08-21T23:07:59.000Z",
-          "wordCount": 209,
-          "title": "Incident: Users may be having trouble loading Slack.",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
     },
@@ -777,10 +726,10 @@
         {
           "id": "https://status.make.com/incidents/5r55sspmpx14",
           "author": null,
-          "description": "Sep 19, 14:30 CEST\nUpdate - We have identified an issue with the \"Update a Record\" module in the Data store app. In the period of September 18th 7:16pm CET until September 19th 12:00pm, the module might have produced incorrect output and data store records that were updated during this period may have been incorrectly stored (only the updated values for a given record were stored while other values were cleared). We are investigating the scope of impact and will provide more information in the next update.\nSep 19, 11:14 CEST\nIdentified - The issue has been identified and a fix has been implemented. We appreciate your patience and understanding during this time.\nSep 19, 10:16 CEST\nInvestigating - \"We have detected an issue specifically with the 'Update a Record' module in the datastore app. For the time being, we kindly request that you refrain from using scenarios associated with this module until the matter is resolved. Thank you for your understanding and patience.\"",
+          "description": "Sep 20, 18:40 CEST\nUpdate - We have now completed our investigation and identified that the issue affected a small percentage of Make users and their organizations. We are preparing to update all impacted customers with information about the scenarios and particular executions that may have produced incorrect data in the Data Store. We expect to update all impacted customers in the next 24 hours.\nSep 20, 14:50 CEST\nUpdate - We have confirmed that this issue did not impact private and OEM instances. We are currently working to identify all affected customers in Make multi-tenant zones (eu1.make.com, eu2.make.com, eu1.make.celonis.com, us1.make.com, us1.make.celonis.com). Once we have identified these customers, we will contact them and post an update here to explain the issue and any ongoing impact. We will share the next update as soon as we can.\nSep 20, 12:10 CEST\nUpdate - We are currently in the process of locating impacted scenarios. Once the full list is obtained further communications will be sent.\nSep 19, 14:30 CEST\nUpdate - We have identified an issue with the \"Update a Record\" module in the Data store app. In the period of September 18th 7:16pm CET until September 19th 12:00pm, the module might have produced incorrect output and data store records that were updated during this period may have been incorrectly stored (only the updated values for a given record were stored while other values were cleared). We are investigating the scope of impact and will provide more information in the next update.\nSep 19, 11:14 CEST\nIdentified - The issue has been identified and a fix has been implemented. We appreciate your patience and understanding during this time.\nSep 19, 10:16 CEST\nInvestigating - \"We have detected an issue specifically with the 'Update a Record' module in the datastore app. For the time being, we kindly request that you refrain from using scenarios associated with this module until the matter is resolved. Thank you for your understanding and patience.\"",
           "link": "https://status.make.com/incidents/5r55sspmpx14",
-          "publishedOn": "2023-09-19T12:30:21.000Z",
-          "wordCount": 3788,
+          "publishedOn": "2023-09-20T16:40:37.000Z",
+          "wordCount": 3957,
           "title": "Data Store application Issue",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
