@@ -1,45 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-10-13T00:21:17.022Z</id>
+    <id>urn:2023-10-14T00:19:52.131Z</id>
     <title>osmos::feed</title>
-    <updated>2023-10-13T00:21:17.022Z</updated>
+    <updated>2023-10-14T00:19:52.131Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[UK SMS Carrier Partner Maintenance- O2 UK]]></title>
-        <id>https://status.twilio.com/incidents/qtm42nxf3dbh</id>
-        <link href="https://status.twilio.com/incidents/qtm42nxf3dbh"/>
-        <updated>2023-10-13T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 12, 22:00 PDT  -  Oct 13, 00:00 PDT
-Oct 12, 09:23 PDT
-Scheduled - Our SMS carrier partner in UK is conducting an emergency maintenance from 12 October 2023 at 22:00 PDT until 13 October 2023 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from multiple network's UK handsets.]]></summary>
+        <title type="html"><![CDATA[Colombia Voice Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/nv8lctrn8xj8</id>
+        <link href="https://status.twilio.com/incidents/nv8lctrn8xj8"/>
+        <updated>2023-10-14T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 13, 21:00 - 23:00 PDT
+Oct  6, 08:22 PDT
+Scheduled - Our Voice carrier partner in Colombia is conducting a planned maintenance from 13 October 2023 at 21:00 PDT until 13 October 2023 at 23:00 PDT. During the maintenance window, there could be intermittent call failures to a subset of Twilio’s Colombia phone numbers]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[US SMS Carrier Maintenance - T-Mobile]]></title>
-        <id>https://status.twilio.com/incidents/v317qsdcdx3v</id>
-        <link href="https://status.twilio.com/incidents/v317qsdcdx3v"/>
-        <updated>2023-10-13T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 12, 22:00 PDT  -  Oct 13, 04:00 PDT
-Oct 11, 22:16 PDT
-Scheduled - The T-Mobile network in the US is conducting a planned maintenance from 12 October 2023 at 22:00 PDT until 13 October 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delays Creating Calls With Programmable Voice]]></title>
-        <id>https://status.twilio.com/incidents/dt06y8gzycpd</id>
-        <link href="https://status.twilio.com/incidents/dt06y8gzycpd"/>
-        <updated>2023-10-13T00:04:25.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 17:04 PDT
-Resolved - We are no longer experiencing delays in creating calls with Programmable Voice. This incident has been resolved.
-Oct 12, 16:34 PDT
-Monitoring - We observed delays in creating calls with Programmable Voice between 3:56 PM PST - 4:23 PM PST, and are now observing recovery. Our engineering team will continue to monitor the situation to ensure a full recovery, and we will provide another update in 30 minutes.
-Oct 12, 16:10 PDT
-Investigating - Our monitoring systems have detected a potential issue Programmable Voice. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <title type="html"><![CDATA[MMS Delivery Delays to Multiple Networks in the US From a Subset of Short-Codes]]></title>
+        <id>https://status.twilio.com/incidents/6vxvlpdb78vw</id>
+        <link href="https://status.twilio.com/incidents/6vxvlpdb78vw"/>
+        <updated>2023-10-13T22:11:32.000Z</updated>
+        <summary type="html"><![CDATA[Oct 13, 15:11 PDT
+Resolved - We are no longer experiencing MMS delivery delays when sending messages from a subset of short-codes to ATT, Verizon and TMobile Networks in the US. This incident is resolved.
+Oct 13, 13:15 PDT
+Monitoring - We are observing recovery with MMS delivery delays when sending messages from a subset of short-codes to ATT, Verizon and TMobile Networks in the US. Our engineers will continue to monitor the situation to ensure a full recovery, and we will provide another update in 2 hours or as soon as more information is available.
+Oct 13, 11:24 PDT
+Update - We are continuing to investigate an issue with MMS delivery delays when sending messages from a subset of short-codes to ATT, Verizon and TMobile Networks in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Oct 13, 10:17 PDT
+Investigating - We are experiencing MMS delivery delays when sending messages from a subset of short-codes to ATT, Verizon and TMobile Networks in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -48,8 +38,10 @@ Investigating - Our monitoring systems have detected a potential issue Programma
         <title type="html"><![CDATA[South Africa SMS Carrier Maintenance - MTN]]></title>
         <id>https://status.twilio.com/incidents/llf97nzx7z90</id>
         <link href="https://status.twilio.com/incidents/llf97nzx7z90"/>
-        <updated>2023-10-13T00:00:29.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 17:00 PDT
+        <updated>2023-10-13T22:00:20.000Z</updated>
+        <summary type="html"><![CDATA[Oct 13, 15:00 PDT
+Completed - The scheduled maintenance has been completed.
+Oct 12, 17:00 PDT
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Oct 12, 15:36 PDT
 Scheduled - The MTN network in South Africa is conducting an emergency maintenance from 12 October 2023 at 19:00 PDT until 13 October 2023 at 16:59 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from MTN  South Africa handsets.]]></summary>
@@ -58,82 +50,50 @@ Scheduled - The MTN network in South Africa is conducting an emergency maintenan
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[United Kingdom Account Security Carrier Partner Maintenance - Vodafone]]></title>
-        <id>https://status.twilio.com/incidents/ddb4knmgy7cw</id>
-        <link href="https://status.twilio.com/incidents/ddb4knmgy7cw"/>
-        <updated>2023-10-13T00:00:16.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 17:00 PDT
-Completed - The scheduled maintenance has been completed.
-Oct 12, 15:31 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Oct  4, 07:54 PDT
-Scheduled - Our carrier partner Vodafone UK is conducting a planned maintenance from 12 October 2023 at 15:30 PDT until 12 October 2023 at 17:00 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone UK customers.
-
-Impacted Products: Verify Silent Network Auth, Lookup Identity Match, Lookup SIM Swap, Legacy Identity MatchAndAttributes]]></summary>
+        <title type="html"><![CDATA[MMS Delivery Delays to OpenMarket-MMS In the US For A Subset of Shortcodes]]></title>
+        <id>https://status.twilio.com/incidents/h13q6frlr90j</id>
+        <link href="https://status.twilio.com/incidents/h13q6frlr90j"/>
+        <updated>2023-10-13T19:38:22.000Z</updated>
+        <summary type="html"><![CDATA[Oct 13, 12:38 PDT
+Resolved - We are still experiencing MMS Delivery Delays to OpenMarket-US for a subset of Shortcodes, but have consolidated this incident into one incident. You can follow the status of this here: https://status.twilio.com/incidents/6vxvlpdb78vw
+Oct 13, 12:14 PDT
+Update - We are experiencing MMS Delivery Delays to OpenMarket-MMS in the US for a subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will share another update in 1 hour or as soon as more information is available.
+Oct 13, 12:05 PDT
+Investigating - Our monitoring systems have detected a potential issue with MMS Delivery Delays to OpenMarket-MMS in the US. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Failures To/From E-Lux Mobile in Luxembourg]]></title>
-        <id>https://status.twilio.com/incidents/r5qqc04d5xlc</id>
-        <link href="https://status.twilio.com/incidents/r5qqc04d5xlc"/>
-        <updated>2023-10-12T23:39:34.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 16:39 PDT
-Update - We continue to experience SMS Delivery Failures to/from E-Lux Mobile in Luxembourg. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information is available.
-Oct 12, 15:39 PDT
-Update - We are continuing to investigate this issue.
-Oct 12, 15:36 PDT
-Update - We are experiencing SMS Delivery Failures to/from E-Lux Mobile in Luxembourg. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information is available.
-Oct 12, 15:16 PDT
-Investigating - Our monitoring systems have detected a potential issue with SMS Delivery Failures to/from E-Lux Mobile in Luxembourg. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <title type="html"><![CDATA[Delays in Voice Insights Events and Metrics for SDKs]]></title>
+        <id>https://status.twilio.com/incidents/80d2x4fx8gtx</id>
+        <link href="https://status.twilio.com/incidents/80d2x4fx8gtx"/>
+        <updated>2023-10-13T17:53:24.000Z</updated>
+        <summary type="html"><![CDATA[Oct 13, 10:53 PDT
+Resolved - Twilio Voice Insights events and metrics for SDKs were degraded for about 2 hours between 2:00 AM and 4:08 AM Pacific Time on 10/13/2023. During this period of time customers may have experienced call summaries for client calls without details, such as browser info, client names etc.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Italy Account Security Carrier Partner Maintenance - Wind (Tre)]]></title>
-        <id>https://status.twilio.com/incidents/l3rw7hrgb3yy</id>
-        <link href="https://status.twilio.com/incidents/l3rw7hrgb3yy"/>
-        <updated>2023-10-12T23:00:31.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 16:00 PDT
-Completed - The scheduled maintenance has been completed.
-Oct 12, 14:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Oct 11, 08:14 PDT
-Scheduled - Our carrier partner Wind (Tre) Italy is conducting a planned maintenance from 12 October 2023 at 14:00 PDT until 12 October 2023 at 16:00 PDT. During the maintenance window, there could be intermittent API request failures for Wind (Tre) Italy customers.
-
-Impacted Products: Lookup Identity Match, Lookup SIM Swap, Verify Silent Network Auth]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[On Call Engineers are Investigating an issue]]></title>
-        <id>https://status.twilio.com/incidents/lfxbfkwvhmyx</id>
-        <link href="https://status.twilio.com/incidents/lfxbfkwvhmyx"/>
-        <updated>2023-10-12T21:42:50.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 14:42 PDT
-Resolved - We have fully investigated the Flex WebChat issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
-Oct 12, 14:27 PDT
-Investigating - Our monitoring systems have detected a potential issue with Flex WebChat. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to CTBC Celular Network in Brazil]]></title>
-        <id>https://status.twilio.com/incidents/l5dp930x0g6x</id>
-        <link href="https://status.twilio.com/incidents/l5dp930x0g6x"/>
-        <updated>2023-10-12T20:29:19.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 13:29 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to CTBC Celular network in Brazil. This incident has been resolved.
-Oct 11, 14:24 PDT
-Monitoring - We are observing recovery with SMS delivery delays when sending messages to CTBC Celular network in Brazil. We will continue to monitor the situation for ensure a full recovery, and provide another update in 24 hours or as soon as more information becomes available.
-Oct 11, 10:01 PDT
-Update - We continue experiencing SMS delivery delays when sending messages to CTBC Celular network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
-Oct 10, 10:00 PDT
-Update - We are stil…]]></summary>
+        <title type="html"><![CDATA[Issues Navigating Between Subaccounts in Console]]></title>
+        <id>https://status.twilio.com/incidents/00nbfqhx5svg</id>
+        <link href="https://status.twilio.com/incidents/00nbfqhx5svg"/>
+        <updated>2023-10-13T17:12:30.000Z</updated>
+        <summary type="html"><![CDATA[Oct 13, 10:12 PDT
+Resolved - Issue with a subset of users not being able to navigate into subaccounts on the Twilio Console  has been resolved and the is operating normally at this time. If the issue persists customers should delete all time cache and cookies or try using the browser's incognito mode.
+Oct 13, 09:07 PDT
+Update - We have identified the issue where a subset of users are unable to navigate into subaccounts on the Twilio Console. Our engineering team is actively investigating this issue. We will provide another update in 16 hours or as soon as more information is available.
+Oct 13, 01:06 PDT
+Update - We have identified the issue wherein subset of users are unable to navigate into subaccounts on the Twilio Console. Our engineering team is actively investigating this issue. We will provide another update in 8 hours or as soon as more information is available.
+Oct 12, 21:09 PDT
+Update - We have identified the issue wherein users are unable to navigate into subaccounts on the Twilio Console. Our engineering team is actively investigating this issue. We will provide another update in 4 hour or as soon as more information is available.
+Oct 12, 19:08 PDT
+Identified - We have identified the issue wherein users are unable to navigate into subaccounts on the Twilio Console. Our engineering team is actively investigating this issue. We will provide another update in 2 hour or as soon as more information is available.
+Oct 12, 18:08 PDT
+Update - We are observing issues when navigating between subaccounts in Twilio Console. Our engineering team has been alerted and is actively investigating. We will provide another update in 1 hour or as soon as more information is available.
+Oct 12, 17:57 PDT
+Investigating - We've become aware of a potential issue with switching between subaccounts in Twilio Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -153,23 +113,6 @@ Update - After our upstream provider implemented a remediation step to resolve t
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Failures to Karabakh Telecom Network in Armenia]]></title>
-        <id>https://status.twilio.com/incidents/7w5q8v24xvk6</id>
-        <link href="https://status.twilio.com/incidents/7w5q8v24xvk6"/>
-        <updated>2023-10-12T18:56:35.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 11:56 PDT
-Resolved - We are no longer experiencing SMS delivery failures to Karabakh Telecom network in Armenia. All traffic has been migrated to Beeline network. This incident has been resolved.
-Oct 11, 10:50 PDT
-Identified - Our engineers have identified the issue causing SMS delivery failures to Karabakh Telecom Network in Armenia and are still working with our carrier partner to deploy a fix. We’ll provide an update on 10/18/2023 at 10:50 am PT, or as soon as more information becomes available.
-Oct 10, 20:19 PDT
-Update - We continue to investigate the issue with SMS delivery failures to Karabakh Telecom Network in Armenia. We will provide another update in 1 day or as soon as more information becomes available.
-Oct  9, 20:19 PDT
-Update - We continue to investigate the issue wit…]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Notion is experiencing an issue with SAML SSO login]]></title>
         <id>https://status.notion.so/incidents/55frj2c42yvq</id>
         <link href="https://status.notion.so/incidents/55frj2c42yvq"/>
@@ -182,25 +125,6 @@ Oct 12, 11:05 PDT
 Investigating - We are experiencing an issue with SAML SSO and we are investigating the cause.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Telenor Network In Pakistan]]></title>
-        <id>https://status.twilio.com/incidents/38vxv625fc1s</id>
-        <link href="https://status.twilio.com/incidents/38vxv625fc1s"/>
-        <updated>2023-10-12T18:07:17.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 11:07 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Telenor Network In Pakistan. This incident has been resolved.
-Oct 12, 08:47 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Telenor Network In Pakistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Oct 12, 08:35 PDT
-Update - We are continuing to investigate an issue causing SMS delivery delays when sending messages to Telenor Network In Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Oct 12, 06:32 PDT
-Update - We are continuing to investigate an issue causing SMS delivery delays when sending messages to Telenor Network In Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Oct 12, 05:31 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Telenor Network In Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in an hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1133,61 +1057,6 @@ Monitoring - At 11:00 AM PT on September 13th, 2023, some API calls for formulas
 A server rollback has been sent. We are currently monitoring the results.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Codespaces]]></title>
-        <id>https://www.githubstatus.com/incidents/8rwpr0c6hvbc</id>
-        <link href="https://www.githubstatus.com/incidents/8rwpr0c6hvbc"/>
-        <updated>2023-09-14T10:21:49.000Z</updated>
-        <summary type="html"><![CDATA[Sep 14, 10:21 UTC
-Resolved - This incident has been resolved.
-Sep 14, 10:01 UTC
-Update - We have applied a mitigation to handle elevated errors in a provider. Customers will see increased latency creating and resuming Codespaces instead of failures.
-Sep 14, 09:35 UTC
-Investigating - We are investigating reports of degraded performance for Codespaces]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[App Platform in NYC1 Region]]></title>
-        <id>https://status.digitalocean.com/incidents/5w2hdj0bnc08</id>
-        <link href="https://status.digitalocean.com/incidents/5w2hdj0bnc08"/>
-        <updated>2023-09-14T09:00:37.000Z</updated>
-        <summary type="html"><![CDATA[Sep 14, 09:00 UTC
-Resolved - Our Engineering team has confirmed that the problem affecting the App Platform in the NYC1 region has been completely resolved. Users should now be able to access their apps as usual.
-If you continue to experience problems, please open a ticket with our support team.
-Thank you for your patience and we apologize for any inconvenience.
-Sep 14, 07:18 UTC
-Monitoring - Our Engineering team has deployed a fix to resolve the issue with App Platform in the NYC1 region. Users should now have access to their apps. We are monitoring the situation closely and will share an update once the issue is resolved completely.
-Sep 14, 05:47 UTC
-Identified - As of 05:06 UTC, our Engineering team has observed a reoccurrence of the issues that were impacting the App Platform in the NYC1 region. As a result, a subset of our customers may still intermittently experience problems with reaching their apps. Our team is actively investigating the issue and is in the process of implementing a solution. We apologize for any inconvenience caused and will provide updates as the situation progresses.
-Sep 14, 04:42 UTC
-Monitoring - Our Engineering team has implemented a fix to resolve the issue with App Platform in the NYC1 region. Users should now have the capability to reach their apps. We are monitoring the situation closely and will share an update once the issue is resolved completely.
-Sep 14, 04:22 UTC
-Investigating - As of 2:30 UTC, our Engineering team is actively investigating issues with App Platform in the NYC1 region. During this time a subset of our customers may intermittently experience problems with reaching apps. We apologize for the inconvenience and will share an update once we have more information]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Networking - Multiple Regions]]></title>
-        <id>https://status.digitalocean.com/incidents/tymj4w28h54w</id>
-        <link href="https://status.digitalocean.com/incidents/tymj4w28h54w"/>
-        <updated>2023-09-14T03:18:13.000Z</updated>
-        <summary type="html"><![CDATA[Sep 14, 03:18 UTC
-Resolved - Our Engineering team has confirmed full resolution of the issue impacting network connectivity in multiple regions. The impact has been completely subsided and the network connectivity is back to normal for all the impacted services. 
-If you continue to experience problems, please open a ticket with our support team from your Cloud Control Panel.
-Thank you for your patience and we apologize for any inconvenience.
-Sep 14, 00:53 UTC
-Monitoring - At this time, all services and regions impacted by this incident are recovered. 
-We're now monitoring to ensure stability. 
-If you are still experiencing any issues, please let our Support team know.
-Sep 13, 21:56 UTC
-Update - Our Engineering team has confirmed that additional network routes are impacted, alongside the im…]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
