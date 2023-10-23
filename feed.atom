@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-10-22T00:22:40.648Z</id>
+    <id>urn:2023-10-23T00:21:06.051Z</id>
     <title>osmos::feed</title>
-    <updated>2023-10-22T00:22:40.648Z</updated>
+    <updated>2023-10-23T00:21:06.051Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident with Git Operations]]></title>
+        <id>https://www.githubstatus.com/incidents/lw4dvwltm025</id>
+        <link href="https://www.githubstatus.com/incidents/lw4dvwltm025"/>
+        <updated>2023-10-22T16:07:58.000Z</updated>
+        <summary type="html"><![CDATA[Oct 22, 16:07 UTC
+Resolved - This incident has been resolved.
+Oct 22, 15:58 UTC
+Update - We have mitigated the cause of the issue and are awaiting positive confirmation from impacted customers that the issue is fully resolved.
+Oct 22, 15:34 UTC
+Update - We are currently investigating reports from some customers encountering errors when cloning repositories via workflows or via the command line. We do not currently have an ETA for resolution. Next update in 30 minutes.
+Oct 22, 15:16 UTC
+Investigating - We are investigating reports of degraded performance for Git Operations]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Notion is experiencing service degradation related to notifications]]></title>
         <id>https://status.notion.so/incidents/d38fkw0dxb29</id>
@@ -859,62 +876,6 @@ Investigating - As of 08.45 UTC, our Engineering team is investigating an issue 
 We apologize for the inconvenience and will provide an update as soon as possible.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managed Databases Creation]]></title>
-        <id>https://status.digitalocean.com/incidents/99c30sdym613</id>
-        <link href="https://status.digitalocean.com/incidents/99c30sdym613"/>
-        <updated>2023-09-22T18:32:09.000Z</updated>
-        <summary type="html"><![CDATA[Sep 22, 18:32 UTC
-Resolved - Our Engineering team has confirmed full resolution of the issue with creation of Managed Database clusters.
-If you continue to experience problems, please open a ticket with our support team.
-Sep 22, 17:58 UTC
-Monitoring - Our Engineering team is continuing to investigate the root cause of this incident, but creation of Managed Database clusters has remained stable. 
-We will continue to monitor this incident to ensure the issue does not recur and will provide an update when we have more information, or we are confident this is resolved. Thank you.
-Sep 22, 17:04 UTC
-Update - Our Engineering team continues to investigate the root cause of this issue, but we are now seeing previously created clusters coming online and creations going through correctly. At this time, users should be able to access clusters previously stuck in the creation state and create new clusters.
-Sep 22, 16:40 UTC
-Investigating - Our Engineering team is investigating an issue with creation of Managed Database clusters not completing. At this time, users may see cluster creation for Postgres, MySQL, Redis, and Kafka clusters taking a long time and/or not completing. 
-We will provide another update as soon as we have further information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Slack Connect invitations page not loading]]></title>
-        <id>https://status.slack.com//2023-09/798ffab066d9a5d6</id>
-        <link href="https://status.slack.com//2023-09/798ffab066d9a5d6"/>
-        <updated>2023-09-22T17:48:18.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-On September 21, 2023 from 8:00 PM PDT to 1:30 PM PDT, some users encountered a message stating "Something went wrong" when accessing the Slack Connect invites page.
-
-
-We determined that rate limits set for querying invites were the cause of the "Something went wrong" message. These limits were set prior to the  product decision to include these in the Activity view. Because use of this view has increased, the limits are reached much sooner than originally expected.
-
-
-These limits were lifted for the invites page, resolving the issue for users. We appreciate your patience while we sorted this out and apologize for any inconvenience this may have caused.
-
-
-Note: Due to an internal tooling error, we initially reported the times in this summary in UTC, but labeled with PDT. We have corrected this mistake and apologize for any confusion caused.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Pages]]></title>
-        <id>https://www.githubstatus.com/incidents/4ypqyv8zbrck</id>
-        <link href="https://www.githubstatus.com/incidents/4ypqyv8zbrck"/>
-        <updated>2023-09-22T17:39:54.000Z</updated>
-        <summary type="html"><![CDATA[Sep 22, 17:39 UTC
-Resolved - This incident has been resolved.
-Sep 22, 17:27 UTC
-Update - We have identified the issue with Pages deploys and are actively working to mitigate the issue.
-Sep 22, 17:10 UTC
-Investigating - We are investigating reports of degraded performance for Pages]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>

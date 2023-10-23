@@ -249,16 +249,6 @@
           "wordCount": 6100,
           "title": "New customer signups",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/99c30sdym613",
-          "author": null,
-          "description": "Sep 22, 18:32 UTC\nResolved - Our Engineering team has confirmed full resolution of the issue with creation of Managed Database clusters.\nIf you continue to experience problems, please open a ticket with our support team.\nSep 22, 17:58 UTC\nMonitoring - Our Engineering team is continuing to investigate the root cause of this incident, but creation of Managed Database clusters has remained stable. \nWe will continue to monitor this incident to ensure the issue does not recur and will provide an update when we have more information, or we are confident this is resolved. Thank you.\nSep 22, 17:04 UTC\nUpdate - Our Engineering team continues to investigate the root cause of this issue, but we are now seeing previously created clusters coming online and creations going through correctly. At this time, users should be able to access clusters previously stuck in the creation state and create new clusters.\nSep 22, 16:40 UTC\nInvestigating - Our Engineering team is investigating an issue with creation of Managed Database clusters not completing. At this time, users may see cluster creation for Postgres, MySQL, Redis, and Kafka clusters taking a long time and/or not completing. \nWe will provide another update as soon as we have further information.",
-          "link": "https://status.digitalocean.com/incidents/99c30sdym613",
-          "publishedOn": "2023-09-22T18:32:09.000Z",
-          "wordCount": 6135,
-          "title": "Managed Databases Creation",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -399,6 +389,16 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/lw4dvwltm025",
+          "author": null,
+          "description": "Oct 22, 16:07 UTC\nResolved - This incident has been resolved.\nOct 22, 15:58 UTC\nUpdate - We have mitigated the cause of the issue and are awaiting positive confirmation from impacted customers that the issue is fully resolved.\nOct 22, 15:34 UTC\nUpdate - We are currently investigating reports from some customers encountering errors when cloning repositories via workflows or via the command line. We do not currently have an ETA for resolution. Next update in 30 minutes.\nOct 22, 15:16 UTC\nInvestigating - We are investigating reports of degraded performance for Git Operations",
+          "link": "https://www.githubstatus.com/incidents/lw4dvwltm025",
+          "publishedOn": "2023-10-22T16:07:58.000Z",
+          "wordCount": 5081,
+          "title": "Incident with Git Operations",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/gkrfrz6r7flc",
           "author": null,
           "description": "Oct 17, 13:49 UTC\nResolved - From 10:59 UTC to 13:48 UTC, GitHub Codespaces service was down or degraded due to an outage in our authentication service.This issue impacted 67% of users over this time period.\nOur service auth layer experienced throttling with our third party dependencies due to higher load. This impacted all user facing scenarios for Codespaces service. Our automated regional failover kicked in, but it failed to mitigate as this issue impacted the service globally. We mitigated manually by reducing load on external dependency.\nWith the incident mitigated, we are working to assess and implement scaling improvements to make our service more resilient with increasing load.\nOct 17, 13:46 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nOct 17, 13:24 UTC\nUpdate - We are continuing with efforts to mitigate Codespaces issues   and are beginning to see some Codespace creations succeed.\nOct 17, 12:18 UTC\nUpdate - We have identified an issue impacting most Codespaces operations and are working on a mitigation.\nOct 17, 11:18 UTC\nUpdate - Codespaces is experiencing degraded availability. We are continuing to investigate.\nOct 17, 11:14 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces",
@@ -446,16 +446,6 @@
           "publishedOn": "2023-09-27T00:58:42.000Z",
           "wordCount": 5178,
           "title": "Incident with Actions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/4ypqyv8zbrck",
-          "author": null,
-          "description": "Sep 22, 17:39 UTC\nResolved - This incident has been resolved.\nSep 22, 17:27 UTC\nUpdate - We have identified the issue with Pages deploys and are actively working to mitigate the issue.\nSep 22, 17:10 UTC\nInvestigating - We are investigating reports of degraded performance for Pages",
-          "link": "https://www.githubstatus.com/incidents/4ypqyv8zbrck",
-          "publishedOn": "2023-09-22T17:39:54.000Z",
-          "wordCount": 5028,
-          "title": "Incident with Pages",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
@@ -553,16 +543,6 @@
           "publishedOn": "2023-09-26T20:28:49.000Z",
           "wordCount": 468,
           "title": "Incident: Trouble with custom emoji",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-09/798ffab066d9a5d6",
-          "author": null,
-          "description": "Issue summary:\n\r\nOn September 21, 2023 from 8:00 PM PDT to 1:30 PM PDT, some users encountered a message stating \"Something went wrong\" when accessing the Slack Connect invites page.\n\r\n\r\nWe determined that rate limits set for querying invites were the cause of the \"Something went wrong\" message. These limits were set prior to the  product decision to include these in the Activity view. Because use of this view has increased, the limits are reached much sooner than originally expected.\n\r\n\r\nThese limits were lifted for the invites page, resolving the issue for users. We appreciate your patience while we sorted this out and apologize for any inconvenience this may have caused.\n\r\n\r\nNote: Due to an internal tooling error, we initially reported the times in this summary in UTC, but labeled with PDT. We have corrected this mistake and apologize for any confusion caused.",
-          "link": "https://status.slack.com//2023-09/798ffab066d9a5d6",
-          "publishedOn": "2023-09-22T17:48:18.000Z",
-          "wordCount": 232,
-          "title": "Incident: Slack Connect invitations page not loading",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
