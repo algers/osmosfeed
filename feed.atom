@@ -1,74 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-10-24T00:20:56.432Z</id>
+    <id>urn:2023-10-25T00:20:31.513Z</id>
     <title>osmos::feed</title>
-    <updated>2023-10-24T00:20:56.432Z</updated>
+    <updated>2023-10-25T00:20:31.513Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[US SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/j2vgdq92vdz2</id>
-        <link href="https://status.twilio.com/incidents/j2vgdq92vdz2"/>
-        <updated>2023-10-24T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 24, 02:00 - 06:00 PDT
-Oct  8, 08:45 PDT
-Scheduled - Our SMS carrier partner in the US is conducting a planned maintenance from 24 October 2023 at 02:00 PDT until 24 October 2023 at 06:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US handsets via a subset of US short code.]]></summary>
+        <title type="html"><![CDATA[Canada Account Security Service Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/sc000w48mqb4</id>
+        <link href="https://status.twilio.com/incidents/sc000w48mqb4"/>
+        <updated>2023-10-25T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 24, 23:00 PDT  -  Oct 25, 03:00 PDT
+Sep 27, 15:54 PDT
+Scheduled - Our service partner is conducting a planned maintenance from 24 October 2023 at 23:00 PDT until 25 October 2023 at 03:00 PDT. During the maintenance window, there could be intermittent API request failures for the following destination: Canada.
+
+Impacted Products: 
+Verify Silent Network Auth 
+Lookup Identity Match 
+Lookup Line Type Intelligence [Twilio API] 
+Lookup SIM Swap 
+Legacy Identity MatchAndAttributes]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Yota]]></title>
-        <id>https://status.twilio.com/incidents/7x2c8n1q7d8n</id>
-        <link href="https://status.twilio.com/incidents/7x2c8n1q7d8n"/>
-        <updated>2023-10-24T00:00:37.000Z</updated>
-        <summary type="html"><![CDATA[Oct 23, 17:00 PDT
+        <title type="html"><![CDATA[Canada SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/p4pthx70zjsf</id>
+        <link href="https://status.twilio.com/incidents/p4pthx70zjsf"/>
+        <updated>2023-10-25T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 24, 22:00 PDT  -  Oct 25, 01:00 PDT
+Oct 20, 07:14 PDT
+Scheduled - Our SMS carrier partner in Canada is conducting a planned maintenance from 24 October 2023 at 22:00 PDT until 25 October 2023 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Canada handsets via Canada short codes.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US MMS Carrier Maintenance - Verizon]]></title>
+        <id>https://status.twilio.com/incidents/tzb7b69y1sxm</id>
+        <link href="https://status.twilio.com/incidents/tzb7b69y1sxm"/>
+        <updated>2023-10-25T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 24, 21:00 PDT  -  Oct 25, 03:00 PDT
+Oct 17, 16:04 PDT
+Scheduled - The Verizon network in the US is conducting an emergency maintenance from 24 October 2023 at 21:00 PDT until 25 October 2023 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from Verizon US handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US SMS Carrier Partner Maintenance - Verizon]]></title>
+        <id>https://status.twilio.com/incidents/62qqygfh4x6j</id>
+        <link href="https://status.twilio.com/incidents/62qqygfh4x6j"/>
+        <updated>2023-10-25T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 24, 21:00 - 22:00 PDT
+Oct  9, 17:17 PDT
+Scheduled - Our SMS carrier partner in the United States is conducting a planned maintenance from from 24 October 2023 at 21:00 PDT until 24 October 2023 at 22:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Verizon network in the US when sending via shortcode.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Core Infrastructure Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/y5rwfhsl0gqw</id>
+        <link href="https://status.digitalocean.com/incidents/y5rwfhsl0gqw"/>
+        <updated>2023-10-24T23:00:07.000Z</updated>
+        <summary type="html"><![CDATA[Oct 24, 23:00 UTC
 Completed - The scheduled maintenance has been completed.
-Oct 23, 13:00 PDT
+Oct 24, 21:00 UTC
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Oct 19, 08:13 PDT
-Scheduled - The Yota network in Russia is conducting a planned maintenance from 23 October 2023 at 13:00 PDT until 23 October 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Yota Russia handsets.]]></summary>
+Oct 20, 19:40 UTC
+Update - After a thorough review by the team performing this maintenance, we have determined that our initial messaging does not convey the complete scope and potential impact of this event. Existing infrastructure will continue running without issue during this maintenance window. However, users may experience increased latency with some platform operations, including: 
+Cloud Control Panel and API operations
+Event processing
+Droplet creates, resizes, rebuilds, and power events
+Managed Kubernetes reconciliation and scaling
+Load Balancer operations
+Container Registry operations
+App …]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Megafon]]></title>
-        <id>https://status.twilio.com/incidents/52pztc7qzrzs</id>
-        <link href="https://status.twilio.com/incidents/52pztc7qzrzs"/>
-        <updated>2023-10-24T00:00:13.000Z</updated>
-        <summary type="html"><![CDATA[Oct 23, 17:00 PDT
-Completed - The scheduled maintenance has been completed.
-Oct 23, 13:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Oct 19, 07:21 PDT
-Scheduled - The Megafon network in Russia is conducting a planned maintenance from 23 October 2023 at 13:00 PDT until 23 October 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Megafon Russia handsets.]]></summary>
+        <title type="html"><![CDATA[Issues with single sign-on from Rippling to third-party applications]]></title>
+        <id>https://status.rippling.com/incidents/vlnmlxcw85r8</id>
+        <link href="https://status.rippling.com/incidents/vlnmlxcw85r8"/>
+        <updated>2023-10-24T22:51:30.000Z</updated>
+        <summary type="html"><![CDATA[Oct 24, 22:51 UTC
+Resolved - This incident has been resolved.
+Oct 24, 22:08 UTC
+Update - We are continuing to monitor for any further issues.
+Oct 24, 22:07 UTC
+Monitoring - A fix has been implemented and we are monitoring the results.
+Oct 24, 21:58 UTC
+Identified - The issue has been identified and a fix is being implemented.
+Oct 24, 21:57 UTC
+Investigating - Customers are experiencing intermittent issues using single sign-on from Rippling (IdP-initiated SAML) to third-party applications. We are investigating this issue.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Rippling Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[On Call Engineers are Investigating an Issue with Service Assets]]></title>
-        <id>https://status.twilio.com/incidents/6n958r5bbjdx</id>
-        <link href="https://status.twilio.com/incidents/6n958r5bbjdx"/>
-        <updated>2023-10-23T23:58:59.000Z</updated>
-        <summary type="html"><![CDATA[Oct 23, 16:58 PDT
-Investigating - Our monitoring systems have detected a potential issue with services assets. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <title type="html"><![CDATA[Incident: A small number of users are having problems loading Slack.]]></title>
+        <id>https://status.slack.com//2023-10/2ef86432e31615ea</id>
+        <link href="https://status.slack.com//2023-10/2ef86432e31615ea"/>
+        <updated>2023-10-24T21:08:02.000Z</updated>
+        <summary type="html"><![CDATA[Customers should no longer be experiencing any connection issues with Slack. Apologies for the trouble today and thank you for your patience.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Belarus SMS Carrier Maintenance - A1, MTS and Life]]></title>
-        <id>https://status.twilio.com/incidents/nwrb7gc80ydg</id>
-        <link href="https://status.twilio.com/incidents/nwrb7gc80ydg"/>
-        <updated>2023-10-23T22:01:20.000Z</updated>
-        <summary type="html"><![CDATA[Oct 23, 15:01 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Oct 19, 00:54 PDT
-Scheduled - The A1, MTS and Life networks in Belarus are conducting a planned maintenance from 23 October 2023 at 15:00 PDT until 23 October 2023 at 20:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to A1, MTS, Life Belarus handsets.]]></summary>
+        <title type="html"><![CDATA[Networking in multiple regions.]]></title>
+        <id>https://status.digitalocean.com/incidents/gp9bzm1hnlk4</id>
+        <link href="https://status.digitalocean.com/incidents/gp9bzm1hnlk4"/>
+        <updated>2023-10-24T09:15:10.000Z</updated>
+        <summary type="html"><![CDATA[Oct 24, 09:15 UTC
+Resolved - Our Engineering team has confirmed the full resolution of the issue impacting network connectivity in multiple regions. The impact has been completely subsided and the network connectivity is back to normal for all the impacted services.
+If you continue to experience problems, please open a ticket with our support team from your Cloud Control Panel.
+Thank you for your patience and we apologize for any inconvenience.
+Oct 24, 09:03 UTC
+Monitoring - Our Engineering team has received communication from the upstream provider that a fix to resolve the networking issue has been implemented. We are currently monitoring the situation closely and will share an update as soon as the issue is fully resolved.
+Oct 24, 07:41 UTC
+Identified - Our Engineering team has identified the cause of issues impacting networking in multiple regions. The issues are a direct result of traffic congestion from our upstream providers, which is in the process of being repaired.
+At this time, a subset of users will continue to experience intermittent packet loss or increased latency while interacting with the resources in the affected regions.
+We apologize for the inconvenience and will share an update once we have more information.
+Oct 24, 06:11 UTC
+Investigating - As of 05:30 UTC, our Engineering team is investigating an issue impacting the networking in multiple regions. During this time, users may experience intermittent packet loss or increased latency while interacting with the resources in the affected regions.
+At the moment, all the droplet-based services appear to be impacted and the users can expect to see brief connectivity issues and interrupted traffic flows. 
+We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -78,6 +141,9 @@ Scheduled - The A1, MTS and Life networks in Belarus are conducting a planned ma
         <updated>2023-10-22T16:07:58.000Z</updated>
         <summary type="html"><![CDATA[Oct 22, 16:07 UTC
 Resolved - This incident has been resolved.
+From 11:21 to 16:07 UTC some GitHub customers experienced errors cloning via workflows or via the command line.
+A third-party configuration change resulted in an unexpected behavior to our systems that resulted in Git clone failures. Once we detected the change we were able to disable it, and our systems started operating normally.
+With the incident mitigated, we are working with our third-party provider to improve subsequent configuration change rollouts.
 Oct 22, 15:58 UTC
 Update - We have mitigated the cause of the issue and are awaiting positive confirmation from impacted customers that the issue is fully resolved.
 Oct 22, 15:34 UTC
@@ -892,38 +958,6 @@ Sep 20, 14:50 CEST
 Update - We have confirmed that …]]></summary>
         <author>
             <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[500 Errors Across Multiple Endpoints]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/lpxzhxccln48</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/lpxzhxccln48"/>
-        <updated>2023-09-25T03:22:05.000Z</updated>
-        <summary type="html"><![CDATA[Sep 24, 20:22 PDT
-Resolved - This incident has been resolved.
-Error rates have returned to normal levels. Please retry any failed requests.
-We apologize for the inconvenience caused and thank you for your patience and understanding.
-Sep 22, 10:43 PDT
-Monitoring - The issue has been mitigated at 10:30AM PDT. Please apply any failed requests during the incident.
-Sep 22, 10:10 PDT
-Investigating - We are actively investigating an increased number of 500 errors across multiple endpoints. These errors started today (Sept 22, 2023) around 09:45 AM PDT. Our engineering teams are working to get everything up and running again and we will update you with the latest information as soon as possible.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sep 24 2023 Notion is down]]></title>
-        <id>https://status.notion.so/incidents/lmy95r4d97sq</id>
-        <link href="https://status.notion.so/incidents/lmy95r4d97sq"/>
-        <updated>2023-09-25T01:04:53.000Z</updated>
-        <summary type="html"><![CDATA[Sep 24, 18:04 PDT
-Resolved - The issue has been resolved, and notion.so is available to all users.
-Sep 24, 18:03 PDT
-Update - The issue has been resolved, and notion.so is available to all users.
-Sep 24, 17:56 PDT
-Investigating - Notion.so is currently down for some users. We are actively investigating.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
         </author>
     </entry>
 </feed>
