@@ -23,12 +23,22 @@
       "siteUrl": "https://tailscale.com/security-bulletins/",
       "articles": [
         {
+          "id": "https://tailscale.com/security-bulletins/#ts-2023-008/",
+          "author": null,
+          "description": "Description: Privilege escalation bugs in the Tailscale\nKubernetes operator’s API proxy allowed authenticated tailnet clients\nto send Kubernetes API requests as the operator’s service account.\nTailscale Kubernetes operator version v1.53.37 fixes the issue and\nusers of the operator who enable the API proxy functionality should\nupdate as described below.\nWhat happened?\nThe Tailscale Kubernetes operator can optionally act as an API server\nproxy\nfor the cluster’s Kubernetes API. This proxy allows authenticated\ntailnet users to use their tailnet identity in Kubernetes\nauthentication and RBAC rules. The API server proxy uses\nimpersonation\nheaders\nto translate tailnet identities to Kubernetes identities.\nThe operator prior to v1.53.37 has two bugs in the forwarding logic,\nwhich affects different …",
+          "link": "https://tailscale.com/security-bulletins/#ts-2023-008/",
+          "publishedOn": "2023-11-01T00:00:00.000Z",
+          "wordCount": 4677,
+          "title": "TS-2023-008",
+          "imageUrl": "https://tailscale.com/files/images/og-image.png"
+        },
+        {
           "id": "https://tailscale.com/security-bulletins/#ts-2023-007/",
           "author": null,
           "description": "Description: Microsoft Defender is flagging Tailscale 1.46.1 as malware.\nThese classifications are false positives, and we are working with Microsoft to\nresolve the situation.\nAs of 2023-10-27 1:05 AM UTC, we have confirmed that Microsoft have addressed\nthe false positive, meaning Defender no longer flags Tailscale 1.46.1 as\nmalware. A rescan of tailscaled.exe 1.46.1 on VirusTotal confirms this.\nWhat happened?\nMicrosoft Defender was flagging Tailscale 1.46.1 as malware. This caused\nDefender to quarantine the binaries, meaning they could not run.\nWe submitted Tailscale 1.46.1 to Microsoft to investigate the false positive,\nwho then updated Defender to avoid flagging this release as malware at\n2023-10-27 1:05 AM UTC.\nWho is affected?\nPeople using Defender and Tailscale 1.46.1.\nWhat is the impact?\nTailscale will not run on affected machines.\nWhat do I need to do?\nTo resolve this issue on your own tailnet, you can take either or both of 2\napproaches:\nUpdate to a newer version of Tailscale. Newer versions are not affected by this problem.\nCreate an exception in Microsoft Defender. Microsoft has published instructions explaining how to do this.\nUpdate Microsoft Defender.",
           "link": "https://tailscale.com/security-bulletins/#ts-2023-007/",
           "publishedOn": "2023-10-26T00:00:00.000Z",
-          "wordCount": 4261,
+          "wordCount": 4677,
           "title": "TS-2023-007",
           "imageUrl": "https://tailscale.com/files/images/og-image.png"
         }
@@ -58,36 +68,6 @@
           "wordCount": 3872,
           "title": "500 Error on GET Opportunities API",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/rhkqlr25pfcs",
-          "author": null,
-          "description": "Oct  3, 10:21 PDT\nResolved - This incident has been resolved.\nOct  2, 10:44 PDT\nMonitoring - We're currently investigating an issue that's causing spikes in our delivery timelines for asynchronous webhook notifications. It began around 5PM PST on Friday, September 29, and briefly reoccured on both Saturday and Sunday afternoon. We've mitigated the issue for now, but will continue to monitor this over the next few days.",
-          "link": "https://airbnbapi.statuspage.io/incidents/rhkqlr25pfcs",
-          "publishedOn": "2023-10-03T17:21:45.000Z",
-          "wordCount": 3875,
-          "title": "Issue Delaying Webhook Deliveries",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/6zcksbcfmvsb",
-          "author": null,
-          "description": "Oct  3, 10:21 PDT\nResolved - This incident has been resolved.\nOct  2, 14:30 PDT\nMonitoring - There was an issue with the generation of Basic Auth headers for synchronous availability checks and asynchronous webhook notifications between 11:45 AM and 2:00 PM PDT today. This resulted in errors for both availability checks and webhooks.\nThe issue has been resolved, and our team will be monitoring any further errors.",
-          "link": "https://airbnbapi.statuspage.io/incidents/6zcksbcfmvsb",
-          "publishedOn": "2023-10-03T17:21:27.000Z",
-          "wordCount": 3892,
-          "title": "Basic Auth Errors for Synchronous Availability Checks and Webhook Notifications",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/7d87njvtk91g",
-          "author": null,
-          "description": "Oct  3, 10:20 PDT\nResolved - This incident has been resolved. Error rates have returned to normal levels. Please retry any failed requests.\nOct  2, 19:51 PDT\nMonitoring - We have mitigated the issue and will continue monitoring it. The time window for the errors was between 5:45 PM and 7:00 PM PDT.\nOct  2, 18:34 PDT\nInvestigating - We are currently investigating elevated error rates when processing the Async Calendars API update requests.",
-          "link": "https://airbnbapi.statuspage.io/incidents/7d87njvtk91g",
-          "publishedOn": "2023-10-03T17:20:56.000Z",
-          "wordCount": 3895,
-          "title": "Elevated Server Error Rates on Async Calendars API",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -97,93 +77,123 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/gq7qrx4tcs21",
+          "id": "https://status.twilio.com/incidents/0bvzxnrr8t9j",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 2, 00:30 - 03:30 PDT\nOct 31, 16:08 PDT\nScheduled - Our SMS carrier partner in United States is conducting a planned maintenance from 02 November 2023 00:30 PDT until 02 November 2023 03:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Network in United States handsets via short code.",
-          "link": "https://status.twilio.com/incidents/gq7qrx4tcs21",
-          "publishedOn": "2023-11-02T07:30:00.000Z",
+          "description": "THIS IS A SCHEDULED EVENT Nov 2, 22:00 PDT  -  Nov 3, 04:00 PDT\nNov  1, 16:10 PDT\nScheduled - The T-Mobile network in United States is conducting an emergency maintenance from 02 November 2023 at 22:00 PDT until 03 November 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile United States handsets.",
+          "link": "https://status.twilio.com/incidents/0bvzxnrr8t9j",
+          "publishedOn": "2023-11-03T05:00:00.000Z",
+          "wordCount": 7276,
+          "title": "United States SMS Carrier Maintenance - T-Mobile",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/dp48fhh07cwt",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Nov 2, 21:00 PDT  -  Nov 3, 03:00 PDT\nNov  1, 17:03 PDT\nScheduled - Our service partner is conducting a planned maintenance from 02 November at 21:00 PM PDT until 03 November at 03:00 AM PDT. During the maintenance window, there could be intermittent API request failures for the following country and carrier: Rogers Canada.\n\nImpacted Products:\nLookup SIM Swap\nLegacy Identity MatchandAttributes",
+          "link": "https://status.twilio.com/incidents/dp48fhh07cwt",
+          "publishedOn": "2023-11-03T04:00:00.000Z",
+          "wordCount": 7250,
+          "title": "Canada Account Security Service Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/vb9tbrys3crm",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Nov 2, 18:00 - 18:30 PDT\nNov  2, 13:17 PDT\nScheduled - Our carrier partner Vodaphone is conducting a planned maintenance from 02 October 2023 at 18:00 PDT until 02 October 2023 at 18:30 PDT. During the maintenance window, there could be intermittent API request failures for Vodaphone customers\n\nImpacted Products:\nVerify Silent Network Auth\nLookup Identity Match\nLookup SIM Swap\nLegacy Identity MatchAndAttributes",
+          "link": "https://status.twilio.com/incidents/vb9tbrys3crm",
+          "publishedOn": "2023-11-03T01:00:00.000Z",
           "wordCount": 7257,
-          "title": "United States SMS Carrier Partner Maintenance - AT&T",
+          "title": "United Kingdom Account Security Carrier Partner Maintenance - Vodaphone",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/wjk7klxrwjcs",
+          "id": "https://status.twilio.com/incidents/p9gcy0m0dcrr",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 1, 21:00 PDT  -  Nov 2, 01:30 PDT\nOct 31, 16:08 PDT\nScheduled - A subset of small US networks in the US is conducting an emergency maintenance from 01 November 2023 at 21:00 PDT until 02 November 2023 at 01:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers.",
-          "link": "https://status.twilio.com/incidents/wjk7klxrwjcs",
-          "publishedOn": "2023-11-02T04:00:00.000Z",
-          "wordCount": 7267,
-          "title": "US SMS Carrier Maintenance - Small US Carriers",
+          "description": "Nov  2, 16:30 PDT\nUpdate - We are currently observing an issue with the Regulatory Compliance section under Messaging in the Console. Customers are seeing pages that do not render correctly. Our engineering team is looking into the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nNov  2, 15:49 PDT\nInvestigating - We've become aware of a potential issue with the Regulatory Compliance section under Messaging in the Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/p9gcy0m0dcrr",
+          "publishedOn": "2023-11-02T23:37:08.000Z",
+          "wordCount": 7308,
+          "title": "Regulatory Compliance Pages under Messaging in the Console are Failing to Load",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/vtxsrhyf3pr7",
+          "id": "https://status.twilio.com/incidents/488k16dmsdqc",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 1, 20:00 PDT  -  Nov 2, 04:00 PDT\nOct 30, 18:28 PDT\nUpdate - We will be undergoing scheduled maintenance during this time.\nOct 30, 18:25 PDT\nUpdate - The T-Mobile network in the US is conducting an emergency maintenance from 01 November 2023 at 20:00 PDT until 02 November 2023 at 06:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.\nOct 30, 17:11 PDT\nScheduled - The T-Mobile network in the US is conducting an emergency maintenance from 01 November 2023 at 20:00 PDT until 02 November 2023 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
-          "link": "https://status.twilio.com/incidents/vtxsrhyf3pr7",
-          "publishedOn": "2023-11-02T03:00:00.000Z",
-          "wordCount": 7321,
-          "title": "US SMS Carrier Maintenance - T-Mobile",
+          "description": "Nov  2, 16:31 PDT\nMonitoring - We have started seeing recovery from the issue causing failures of inbound calls from a subset of AT&T subscribers in the Texas area to Twilio. We will continue to monitor to ensure a full recovery. We expect to provide another update in 24 hours or as soon as more information becomes available.\nNov  2, 15:00 PDT\nUpdate - The issue causing call failures from a subset of AT&T subscribers in the Texas area to Twilio has been identified. We continue to work with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nNov  2, 14:00 PDT\nIdentified - The issue causing call failures from a subset of AT&T subscribers in the Texas area to Twilio has been identified. We are actively working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nNov  2, 13:41 PDT\nUpdate - We are observing an issue with AT&T calls failing to Twilio, where callers are receiving a message reporting \"all circuits are busy\". We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 30 minutes or as soon as more information becomes available.\nNov  2, 13:22 PDT\nInvestigating - We've become aware of a potential issue with inbound calls from AT&T subscribers failing. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/488k16dmsdqc",
+          "publishedOn": "2023-11-02T23:31:49.000Z",
+          "wordCount": 7476,
+          "title": "Call Failures from a Subset of AT&T Numbers to Twilio",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/0rszfg8l82nb",
+          "id": "https://status.twilio.com/incidents/4ky9xlbhmnys",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 1, 20:00 PDT  -  Nov 30, 00:00 PST\nOct 27, 18:41 PDT\nScheduled - Our SMS and MMS carrier partner in the US and Canada is conducting a series of planned maintenance from 01 November 2023 at 20:00 PST until 30 November 2023 at 00:00 PST. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets via Toll-free numbers.\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n01 November 2023 at 20:00 PST until 02 November 2023 at 00:00 PST\n08 November 2023 at 20:00 PST until 09 November 2023 at 00:00 PST\n15 November 2023 at 20:00 PST until 16 November 2023 at 00:00 PST\n29 November 2023 at 20:00 PST until 30 November 2023 at 00:00 PST",
-          "link": "https://status.twilio.com/incidents/0rszfg8l82nb",
-          "publishedOn": "2023-11-02T03:00:00.000Z",
-          "wordCount": 7341,
-          "title": "US and Canada SMS and MMS Carrier partner Maintenance",
+          "description": "Nov  2, 16:21 PDT\nResolved - The issue causing inbound call failures from a subset of France numbers has been resolved, and the service is functioning normally at this time.\nNov  1, 16:27 PDT\nMonitoring - We have started seeing recovery for call failures from a subset of France numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 24 hours or as soon as more information becomes available.\nNov  1, 12:24 PDT\nUpdate - We are continuing to investigate the issue causing call failures from a subset of France numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nNov  1, 10:24 PDT\nUpdate - We are still observing call failures from a subset of France numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nNov  1, 09:22 PDT\nInvestigating - We are observing call failures from a subset of France numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/4ky9xlbhmnys",
+          "publishedOn": "2023-11-02T23:21:00.000Z",
+          "wordCount": 7421,
+          "title": "Call Failures From a Subset of France Numbers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/yvyj0cshm6bj",
+          "id": "https://status.twilio.com/incidents/chtv2fsxrqvc",
           "author": null,
-          "description": "Nov  1, 16:22 PDT\nUpdate - We are investigating an issue with Interconnect with customers unable to submit bandwidth change request in the console. Customers can workaround this issue by submitting the change request manually via support ticket or your account rep. We expect to provide another update in 1 hour or as soon as more information becomes available.\nNov  1, 16:05 PDT\nInvestigating - We've become aware of a potential issue with Interconnect bandwidth change request functionality in the console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/yvyj0cshm6bj",
-          "publishedOn": "2023-11-01T23:24:35.000Z",
-          "wordCount": 7300,
-          "title": "Interconnect Bandwidth Change Requests Failing in the Console",
+          "description": "Nov  2, 15:07 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Bouygues Telecom Network in France. This incident has been resolved.\nNov  2, 13:07 PDT\nUpdate - We continue to observe recovery in SMS delivery delays when sending messages to Bouygues Telecom Network in France. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov  2, 11:04 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Bouygues Telecom Network in France. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov  2, 07:41 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Bouygues Telecom Network in France. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nNov  2, 06:03 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Bouygues Telecom Network in France. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov  2, 05:16 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Bouygues Telecom Network in France. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/chtv2fsxrqvc",
+          "publishedOn": "2023-11-02T22:07:18.000Z",
+          "wordCount": 7483,
+          "title": "SMS Delivery Delays to Bouygues Telecom Network in France",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/s588zpck360r",
+          "id": "https://status.twilio.com/incidents/q8xsrmstrsdq",
           "author": null,
-          "description": "Nov  1, 15:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 30, 06:13 PDT\nScheduled - Our carrier partner Vodafone UK is conducting a planned maintenance from 01 November 2023 at 15:00 PDT until 01 November 2023 at 20:25 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone UK customers.\nImpacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes",
-          "link": "https://status.twilio.com/incidents/s588zpck360r",
-          "publishedOn": "2023-11-01T22:00:48.000Z",
-          "wordCount": 7278,
-          "title": "United Kingdom Account Security Carrier Partner Maintenance - Vodafone",
+          "description": "Nov  2, 15:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov  1, 22:57 PDT\nScheduled - Our SMS carrier partner in Germany is conducting an emergency maintenance from 02 November 2023 at 15:00 PDT until 02 November 2023 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Germany handsets.",
+          "link": "https://status.twilio.com/incidents/q8xsrmstrsdq",
+          "publishedOn": "2023-11-02T22:00:23.000Z",
+          "wordCount": 7257,
+          "title": "Germany SMS Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/xcw6rqbck9tp",
+          "id": "https://status.twilio.com/incidents/3l2t152x6hb7",
           "author": null,
-          "description": "Nov  1, 14:13 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to the Claro network in Brazil. This incident has been resolved.\nNov  1, 12:13 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to the Claro network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov  1, 09:18 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to Claro network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nNov  1, 07:12 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Claro network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov  1, 06:12 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Claro network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/xcw6rqbck9tp",
-          "publishedOn": "2023-11-01T21:13:46.000Z",
-          "wordCount": 7424,
-          "title": "SMS Delivery Delays to Claro Network in Brazil",
+          "description": "Nov  2, 15:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 24, 15:00 PDT\nScheduled - Our carrier partner Three UK is conducting a planned maintenance from 02 November 2023 at 15:00 PDT until 05 November 2023 at 16:00 PDT. During the maintenance window, there could be intermittent API request failures for Three UK customers.\n\n\nImpacted Products: \nLookup SIM Swap. \nLookup Identity Match. \nLegacy Identity MatchAndAttributes.",
+          "link": "https://status.twilio.com/incidents/3l2t152x6hb7",
+          "publishedOn": "2023-11-02T22:00:05.000Z",
+          "wordCount": 7287,
+          "title": "United Kingdom Account Security Carrier Partner Maintenance - Three UK",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/8qmyqgn6pcyy",
+          "id": "https://status.twilio.com/incidents/g13gzvr3z4ml",
           "author": null,
-          "description": "Nov  1, 14:01 PDT\nCompleted - The scheduled maintenance has been completed.\nNov  1, 10:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 31, 23:45 PDT\nScheduled - Our SMS carrier partner in Australia is conducting an emergency maintenance from 01 November 2023 at 10:00 PDT until 01 November 2023 at 14:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to a subset of Twilio Australia phone numbers.",
-          "link": "https://status.twilio.com/incidents/8qmyqgn6pcyy",
-          "publishedOn": "2023-11-01T21:01:25.000Z",
-          "wordCount": 7270,
-          "title": "Australia SMS Carrier Partner Maintenance",
+          "description": "Nov  2, 14:46 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov  1, 09:39 PDT\nScheduled - United Kingdom Account Security Carrier Partner Maintenance - EE\nOur carrier partner EE UK is conducting a planned maintenance from 02 November 2023 at 14:50 PDT until 02 November 2023 at 19:15 PDT. During the maintenance window, there could be intermittent API request failures for EE UK customers.\n\nImpacted Products: Verify Silent Network Auth, Lookup SIM Swap, Legacy Identity MatchAndAttributes",
+          "link": "https://status.twilio.com/incidents/g13gzvr3z4ml",
+          "publishedOn": "2023-11-02T21:46:16.000Z",
+          "wordCount": 7294,
+          "title": "United Kingdom Account Security Carrier Partner Maintenance - EE",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/f3mnf3ns67jl",
+          "id": "https://status.twilio.com/incidents/z4cxxy4t5gq5",
           "author": null,
-          "description": "Nov  1, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 24, 02:47 PDT\nScheduled - The Tele2 network in Russia is conducting a series of planned maintenances from 01 November 2023 at 13:00 PDT until 29 November 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Tele2 Russia handsets.\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n01 November 2023 at 13:00 PDT until 01 November 2023 at 17:00 PDT\n\n06 November 2023 at 13:00 PDT until 06 November 2023 at 17:00 PDT\n\n08 November 2023 at 13:00 PDT until 08 November 2023 at 17:00 PDT\n\n13 November 2023 at 13:00 PDT until 13 November 2023 at 17:00 PDT\n\n15 November 2023 at 13:00 PDT until 15 November 2023 at 17:00 PDT\n\n20 November 2023 at 13:00 PDT until 20 November 2023 at 17:00 PDT\n\n22 November 2023 at 13:00 PDT until 22 November 2023 at 17:00 PDT\n\n27 November 2023 at 13:00 PDT until 27 November 2023 at 17:00 PDT\n\n29 November 2023 at 13:00 PDT until 29 November 2023 at 17:00 PDT",
-          "link": "https://status.twilio.com/incidents/f3mnf3ns67jl",
-          "publishedOn": "2023-11-01T20:00:14.000Z",
-          "wordCount": 7388,
-          "title": "Russia SMS Carrier Maintenance - Tele2",
+          "description": "Nov  2, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 27, 16:39 PDT\nScheduled - Our Voice carrier partner in France is conducting a planned maintenance from 02 November 2023 at 14:00 PDT until 02 November 2023 at 18:00 PDT. During the maintenance window, there could be call failures to and from a subset of France phone numbers.",
+          "link": "https://status.twilio.com/incidents/z4cxxy4t5gq5",
+          "publishedOn": "2023-11-02T21:00:17.000Z",
+          "wordCount": 7259,
+          "title": "France Voice Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/xvypjq8gc3jr",
+          "author": null,
+          "description": "Nov  2, 12:46 PDT\nResolved - We are no longer observing delays in event delivery with the Event Streams product. The issue has been resolved and Event Streams is operating normally at this time.\nNov  2, 12:15 PDT\nMonitoring - We are seeing recovery from the delays in event delivery with the Event Streams product. Event Streams is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nNov  2, 10:15 PDT\nUpdate - We are investigating delays in event delivery with event streams. We expect to provide another update in 2 hours or as soon as more information becomes available.\nNov  2, 09:03 PDT\nInvestigating - We are investigating delays in event delivery with event streams. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/xvypjq8gc3jr",
+          "publishedOn": "2023-11-02T19:46:47.000Z",
+          "wordCount": 7345,
+          "title": "Event Streams Experiencing Delays in Event Delivery",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -193,6 +203,26 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/bw3r3j9b5ph5",
+          "author": null,
+          "description": "Nov  2, 17:43 UTC\nUpdate - As per the recent update from our Upstream provider, they are continuing to work on a fix and are seeing some progress. From our end, we are monitoring the App deployments that are in the queued state to see if there is any positive trend in the success rate of the deployments.\nWe will keep you posted with any updates we receive from them.\nNov  2, 15:42 UTC\nIdentified - Our Engineering team has confirmed that an issue on our upstream provider's end is causing the App deployment delays on our platform. \nWe will share an update as soon as we have any information from our upstream provider.\nNov  2, 12:40 UTC\nInvestigating - As of 12:30 UTC, our Engineering team is investigating reports of an issue with our App Platform service. At this time, our App Platform users may experience delays when deploying new apps or when deploying updates to existing Apps. \nWe will provide an update as soon as we have additional information.",
+          "link": "https://status.digitalocean.com/incidents/bw3r3j9b5ph5",
+          "publishedOn": "2023-11-02T17:43:14.000Z",
+          "wordCount": 6092,
+          "title": "App Platform Deployments",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/y3q3gh220jyj",
+          "author": null,
+          "description": "Nov  2, 11:50 UTC\nResolved - Our Engineering team has confirmed the full resolution of the issue impacting the Cloud Control Panel, API, and multiple services.\nFrom 05:05 - 08:40 UTC, users may have encountered errors with the Cloud Control Panel and public API while attempting to create new user registrations, or while making payments. Users also may have experienced issues with processing Droplet and Managed Kubernetes cluster creations along with Droplet-based events and experienced latencies while accessing our Cloud Control Panel along with the DigitalOcean Container Registry. Our Upstream provider and the Engineering team closely worked together to resolve the issues. \nThe impact has been completely subsided and users should no longer see any issues with the impacted services.\nIf you…",
+          "link": "https://status.digitalocean.com/incidents/y3q3gh220jyj",
+          "publishedOn": "2023-11-02T11:50:30.000Z",
+          "wordCount": 6571,
+          "title": "Multiple services down and API availability",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/nwm1sn0gjfc3",
           "author": null,
@@ -501,10 +531,10 @@
         {
           "id": "https://status.slack.com//2023-10/8c886b57284762b6",
           "author": null,
-          "description": "We have resolved the connectivity issue for all affected customers. Everyone should be able to connect as normal once again. \n\r\n\r\nThank you for your patience while we addressed this.",
+          "description": "Issue summary:\n\r\nFrom 4:00PM PDT on October 31, 2023 to around 10:00PM PDT, customers with international data residency in the Paris, France region, experienced issues connecting to Slack and sending messages.\n\r\n\r\nA routine credential rotation caused database sync issues for the Paris, France data residency region. We reverted this code change and restarted the affected databases, resolving the issue for all impacted customers. \n\r\n\r\nOnce we had mitigated the immediate impact and restored connectivity for customers in the Paris, France data residency region, we reviewed the credential rotation for all other data residency regions to ensure the same issue would not occur anywhere else.",
           "link": "https://status.slack.com//2023-10/8c886b57284762b6",
-          "publishedOn": "2023-11-01T02:43:33.000Z",
-          "wordCount": 287,
+          "publishedOn": "2023-11-02T03:45:50.000Z",
+          "wordCount": 391,
           "title": "Outage: Issues for customers enrolled in the French data region",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
