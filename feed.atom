@@ -1,35 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-11-10T00:21:03.701Z</id>
+    <id>urn:2023-11-11T00:20:45.243Z</id>
     <title>osmos::feed</title>
-    <updated>2023-11-10T00:21:03.701Z</updated>
+    <updated>2023-11-11T00:20:45.243Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Beeline (VimpelCom)]]></title>
-        <id>https://status.twilio.com/incidents/sj3qysg5hkbq</id>
-        <link href="https://status.twilio.com/incidents/sj3qysg5hkbq"/>
-        <updated>2023-11-10T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Nov 9, 18:00 - 19:00 PST
-Nov  8, 21:10 PST
-Scheduled - The Beeline network in Russia is conducting an emergency maintenance from 09 November 2023 at 18:00 PST until 09 November 2023 at 19:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to Beeline Russia handsets.]]></summary>
+        <title type="html"><![CDATA[Spain SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/b7x07g9vfx6m</id>
+        <link href="https://status.twilio.com/incidents/b7x07g9vfx6m"/>
+        <updated>2023-11-11T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Nov 10, 21:00 - 22:00 PST
+Nov  2, 08:49 PDT
+Scheduled - Our SMS carrier partner in Spain is conducting a planned maintenance from 10 November 2023 at 21:00 PST until 10 November 2023 at 22:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Spain handsets via a subset of long codes.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Voice Calls Stuck in Queue for a Subset of Customers]]></title>
-        <id>https://status.twilio.com/incidents/q7prtv3bmgxp</id>
-        <link href="https://status.twilio.com/incidents/q7prtv3bmgxp"/>
-        <updated>2023-11-09T23:52:35.000Z</updated>
-        <summary type="html"><![CDATA[Nov  9, 15:52 PST
-Monitoring - Our Voice product is now operating normally, and no calls are stuck in queue. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
-Nov  9, 15:23 PST
-Update - We are investigating an issue with our Voice product as some calls are currently stuck in queue for a small group of customers. New calls are processed correctly at this time. We expect to provide another update in 1 hour or as soon as more information becomes available.
-Nov  9, 15:02 PST
-Investigating - Our monitoring systems have detected a potential issue with our Voice product. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <title type="html"><![CDATA[Issues loading Rippling]]></title>
+        <id>https://status.rippling.com/incidents/54s1f3rs3n56</id>
+        <link href="https://status.rippling.com/incidents/54s1f3rs3n56"/>
+        <updated>2023-11-10T23:59:07.000Z</updated>
+        <summary type="html"><![CDATA[Nov 10, 23:59 UTC
+Resolved - This incident has been resolved.
+Nov  9, 19:56 UTC
+Monitoring - A fix has been implemented and we are monitoring the results.
+Nov  9, 18:41 UTC
+Update - We are continuing to investigate this issue.
+Nov  9, 18:39 UTC
+Update - We are continuing to investigate this issue.
+Nov  9, 18:34 UTC
+Investigating - We are currently investigating this issue.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Rippling Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: User presence is unexpectedly changing]]></title>
+        <id>https://status.slack.com//2023-11/16fed44d7948cf49</id>
+        <link href="https://status.slack.com//2023-11/16fed44d7948cf49"/>
+        <updated>2023-11-10T23:12:00.000Z</updated>
+        <summary type="html"><![CDATA[We resolved the issue with user presence unexpectedly changing for some users. Affected users may need to complete a hard refresh of their Slack app (Cmd/Ctrl + Shift + R) to capture the fix.
+
+
+We apologize for any inconvenience this has caused and appreciate your patience while we sorted this out.]]></summary>
+        <author>
+            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
@@ -43,110 +60,6 @@ Nov  8, 10:38 PST
 Identified - We have observed a higher number of intermittent 500 errors on the GET Resolutions API. We are actively working on resolving this issue and plan to deploy a fix tomorrow (Nov 9, 2023). Thank you for your understanding and patience as we work to rectify this situation.]]></summary>
         <author>
             <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Romania Messaging Carrier Maintenance - Orange]]></title>
-        <id>https://status.twilio.com/incidents/p4dpm09tprkh</id>
-        <link href="https://status.twilio.com/incidents/p4dpm09tprkh"/>
-        <updated>2023-11-09T22:02:13.000Z</updated>
-        <summary type="html"><![CDATA[Nov  9, 14:02 PST
-Completed - The scheduled maintenance has been completed.
-Nov  9, 13:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Nov  8, 11:32 PST
-Scheduled - The Orange network in Romania is conducting a planned maintenance from 09 November 2023 at 13:00 PST until 09 November 2023 at 14:00 PST. During the maintenance window, there could be intermittent delays delivering messaging to Orange Romania handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twilio Flex and TaskRouter Voice Traffic Failures]]></title>
-        <id>https://status.twilio.com/incidents/vhv2s25kf5ks</id>
-        <link href="https://status.twilio.com/incidents/vhv2s25kf5ks"/>
-        <updated>2023-11-09T21:16:24.000Z</updated>
-        <summary type="html"><![CDATA[Nov  9, 13:16 PST
-Resolved - Twilio Flex and TaskRouter voice traffic was degraded for 18 minutes between 12:52 PM and 1:10 PM Pacific Time on 11/09/2023. During this period of time customers may have experienced failures in voice traffic. The issue has now been resolved. If you are still experiencing any ongoing issues with calls and notice stuck tasks, we recommend you complete any existing or stuck tasks via the API and try again. You may follow this path: https://taskrouter.twilio.com/v1/Workspaces/WSxxx/Tasks/WTxxx -d AssignmentStatus=Completed.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: User presence is unexpectedly changing]]></title>
-        <id>https://status.slack.com//2023-11/16fed44d7948cf49</id>
-        <link href="https://status.slack.com//2023-11/16fed44d7948cf49"/>
-        <updated>2023-11-09T21:02:00.000Z</updated>
-        <summary type="html"><![CDATA[We’re still actively investigating the issue with user presence, but we don’t have any new information to share at this time. Thanks for sticking with us as we continue to work towards a fix.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Lycamobile Network in Germany]]></title>
-        <id>https://status.twilio.com/incidents/nj2592cl3bnl</id>
-        <link href="https://status.twilio.com/incidents/nj2592cl3bnl"/>
-        <updated>2023-11-09T20:55:51.000Z</updated>
-        <summary type="html"><![CDATA[Nov  9, 12:55 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Lycamobile network in Germany. This incident has been resolved.
-Nov  9, 10:57 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Lycamobile network in Germany. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Nov  9, 09:59 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to Lycamobile network in Germany. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Failures from Denmark Mobile Networks to a Subset of Twilio's Denmark Long Codes]]></title>
-        <id>https://status.twilio.com/incidents/stpkw7sdfz0t</id>
-        <link href="https://status.twilio.com/incidents/stpkw7sdfz0t"/>
-        <updated>2023-11-09T20:34:40.000Z</updated>
-        <summary type="html"><![CDATA[Nov  9, 12:34 PST
-Resolved - We are no longer experiencing SMS delivery failures from Denmark mobile networks to a subset of Twilio's Denmark long codes. This incident has been resolved.
-Nov  8, 15:04 PST
-Monitoring - We have started seeing recovery in SMS delivery failures from Denmark mobile networks to the subset of Twilio's Denmark long codes that were experiencing issues. We will continue to monitor to ensure full service recovery. We expect to provide another update in 24 hours or as soon as more information becomes available.
-Nov  8, 13:14 PST
-Update - We are still experiencing SMS delivery failures from Denmark mobile networks to a subset of Twilio's Denmark long codes. Our engineers continue to work with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.
-Nov  8, 09:01 PST
-Update - We continue experiencing SMS delivery failures from Denmark mobile networks to a subset of Twilio's Denmark long codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
-Nov  8, 06:45 PST
-Update - We are still experiencing SMS delivery failures from Denmark mobile networks to a subset of Twilio's Denmark long codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Nov  8, 05:25 PST
-Investigating - We are experiencing SMS delivery failures from Denmark Mobile Networks to a subset of Twilio's Denmark long codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Receipt Delays to Multiple Networks in the United States Over a Subset of Short Codes]]></title>
-        <id>https://status.twilio.com/incidents/bjhby50v2p3x</id>
-        <link href="https://status.twilio.com/incidents/bjhby50v2p3x"/>
-        <updated>2023-11-09T20:26:22.000Z</updated>
-        <summary type="html"><![CDATA[Nov  9, 12:26 PST
-Resolved - We are no longer experiencing delays in receiving message delivery reports when sending SMS messages to multiple networks in the United States over a subset of short codes. This incident has been resolved.
-Nov  9, 10:27 PST
-Monitoring - We are observing recovery in delivery reports when sending SMS messages to multiple networks in the United States over a subset of short codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Nov  9, 08:35 PST
-Update - We are still experiencing delays in receiving message delivery reports when sending SMS messages to multiple networks in the United States over a subset of short codes. Our engineers are working with our …]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues loading Rippling]]></title>
-        <id>https://status.rippling.com/incidents/54s1f3rs3n56</id>
-        <link href="https://status.rippling.com/incidents/54s1f3rs3n56"/>
-        <updated>2023-11-09T19:56:52.000Z</updated>
-        <summary type="html"><![CDATA[Nov  9, 19:56 UTC
-Monitoring - A fix has been implemented and we are monitoring the results.
-Nov  9, 18:41 UTC
-Update - We are continuing to investigate this issue.
-Nov  9, 18:39 UTC
-Update - We are continuing to investigate this issue.
-Nov  9, 18:34 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>Rippling Status - Incident History</name>
         </author>
     </entry>
     <entry>
