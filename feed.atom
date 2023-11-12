@@ -1,20 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-11-11T00:20:45.243Z</id>
+    <id>urn:2023-11-12T00:23:01.424Z</id>
     <title>osmos::feed</title>
-    <updated>2023-11-11T00:20:45.243Z</updated>
+    <updated>2023-11-12T00:23:01.424Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Spain SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/b7x07g9vfx6m</id>
-        <link href="https://status.twilio.com/incidents/b7x07g9vfx6m"/>
-        <updated>2023-11-11T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Nov 10, 21:00 - 22:00 PST
-Nov  2, 08:49 PDT
-Scheduled - Our SMS carrier partner in Spain is conducting a planned maintenance from 10 November 2023 at 21:00 PST until 10 November 2023 at 22:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Spain handsets via a subset of long codes.]]></summary>
+        <title type="html"><![CDATA[Israel SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/2z12pkxrmljp</id>
+        <link href="https://status.twilio.com/incidents/2z12pkxrmljp"/>
+        <updated>2023-11-12T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Nov 11, 21:00 PST  -  Nov 12, 05:00 PST
+Nov  9, 04:10 PST
+Scheduled - Our SMS carrier partner in Israel is conducting a planned maintenance from 11 November 2023 at 21:00 PST until 12 November 2023 at 05:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from a subset of Israel handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays To Altan Network In Mexico Via A Subset Twilio Numbers]]></title>
+        <id>https://status.twilio.com/incidents/ynnl67wnpb48</id>
+        <link href="https://status.twilio.com/incidents/ynnl67wnpb48"/>
+        <updated>2023-11-11T23:52:54.000Z</updated>
+        <summary type="html"><![CDATA[Nov 11, 15:52 PST
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Altan Network In Mexico Via A Subset Twilio Numbers. This incident has been resolved.
+Nov 11, 14:14 PST
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Altan Network In Mexico Via A Subset Twilio Numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Nov 11, 10:47 PST
+Update - We are experiencing SMS delivery delays when sending messages to Altan Network In Mexico Via A Subset Twilio Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hour or as soon as more information becomes available.
+Nov 11, 08:40 PST
+Update - We are experiencing SMS delivery delays when sending messages to Altan Network In Mexico Via A Subset Twilio Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hour or as soon as more information becomes available.
+Nov 11, 07:40 PST
+Investigating - We are experiencing SMS delivery delays when sending messages to Altan Network In Mexico Via A Subset Twilio Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Pages, Webhooks and Actions]]></title>
+        <id>https://www.githubstatus.com/incidents/wyk0ns67krlz</id>
+        <link href="https://www.githubstatus.com/incidents/wyk0ns67krlz"/>
+        <updated>2023-11-11T02:14:08.000Z</updated>
+        <summary type="html"><![CDATA[Nov 11, 02:14 UTC
+Resolved - This incident has been resolved.
+Nov 11, 02:14 UTC
+Update - Pages is operating normally.
+Nov 11, 02:13 UTC
+Update - Actions is operating normally.
+Nov 11, 01:53 UTC
+Update - Rebalancing completed and job queues are improving.  We continue to monitor for full recovery of Webhooks, Actions, and Pages workflows.
+Nov 11, 01:42 UTC
+Update - Actions is experiencing degraded performance. We are continuing to investigate.
+Nov 11, 01:41 UTC
+Update - Webhooks is experiencing degraded performance. We are continuing to investigate.
+Nov 11, 01:40 UTC
+Update - Pages builds, webhooks, and other workflows were delayed starting at 1:00 UTC.  We have failed over the service that was contributing to the delays and see successful processing.  We are continuing to monitor for full recovery
+Nov 11, 01:26 UTC
+Investigating - We are investigating reports of degraded performance for Pages]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -694,97 +738,6 @@ Oct 14, 09:12 UTC
 Investigating - As of 8:30 UTC, our Engineering team is investigating an issue with networking in our SFO regions. During this time, users may experience timeouts or latency with network connections going in or out of the SFO regions. We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spaces CDN in Multiple Regions]]></title>
-        <id>https://status.digitalocean.com/incidents/lh3j71zp57hx</id>
-        <link href="https://status.digitalocean.com/incidents/lh3j71zp57hx"/>
-        <updated>2023-10-12T19:17:29.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 19:17 UTC
-Resolved - Our Engineering team has confirmed the resolution of the issue that impacted the Spaces CDN. Objects should be accessible over the CDN endpoint without any issues. However, HTTP/2 is temporarily unavailable due to upstream issues, and due to this HTTP/2 requests should automatically be re-negotiated to 1.1, but in case you experience failures please open a ticket with our support team.
-Thank you for your patience and we apologize for any inconvenience.
-Oct 12, 16:10 UTC
-Update - After our upstream provider implemented a remediation step to resolve the issue with the Spaces CDN, the Spaces CDN is serving the objects stored in the Spaces bucket without any errors or performance issues. However, we are still monitoring the situation closely and we'll share more in…]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notion is experiencing an issue with SAML SSO login]]></title>
-        <id>https://status.notion.so/incidents/55frj2c42yvq</id>
-        <link href="https://status.notion.so/incidents/55frj2c42yvq"/>
-        <updated>2023-10-12T18:14:45.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 11:14 PDT
-Resolved - Users were unable to log in using the Notion mobile and desktop apps to enterprise workspaces requiring SAML SSO login. This issue is resolved now.
-Oct 12, 11:10 PDT
-Update - We are experiencing an issue with SAML SSO login in the Notion mobile and desktop apps, and we are investigating the cause.
-Oct 12, 11:05 PDT
-Investigating - We are experiencing an issue with SAML SSO and we are investigating the cause.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NEW - Plum Guide is now available on Smily! 🎉]]></title>
-        <id>276591</id>
-        <link href="https://changelog.bookingsync.com/new-plum-guide-is-now-available-on-smily!-276591"/>
-        <updated>2023-10-12T16:07:05.000Z</updated>
-        <summary type="html"><![CDATA[New!
-  
-We are delighted to announce our new partnership with Plum Guide. 🥳
-Plum Guide is a curated online travel agency that showcases the world’s best homes - they're like the Michelin Guide, but for homes.
-They do this by independently vetting every home and property manager in each market and selecting only the best to feature in our collection.
-They were recently named ‘Best OTA’ as the 2023 Shortyz awards. 🏆
-
-
-
-
-
-💡 How can Plum Guide help you?
-Incremental revenue thanks to unique guests
-Editorial style listings built by their Merchandising team
-Dedicated functions for individual Hosts & Property Management Companies
-
-
-
-🤩 Benefits:
-2.1x longer stays than on Airbnb
-Over 50% of bookings occur outside of high season
-Dedicated AM, Sales & Onboarding teams for both individual Hosts and Property Management Companies
-Majority of Plum Guide Guests have never booked on other OTAs
-High Quality Guests (avg. age is 45)
-Guest Cancellation Rate is <0.5%
-
-
-
-Interested in advertising your properties on Plum Guide?
-👉 Install the app here
-
-dedicated manual page or book a call with your Account Manager here.  
-We hope that this new channel will help you get more bookings from travelers around the world!
-Don’t hesitate to contact the Plum Guide team supply@plumguide.com or our support team for any questions.
-
-
-Best regards,]]></summary>
-        <author>
-            <name>Maud , Partnership Manager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Users cannot clone nor move scenarios]]></title>
-        <id>https://status.make.com/incidents/2c52p236t4rp</id>
-        <link href="https://status.make.com/incidents/2c52p236t4rp"/>
-        <updated>2023-10-12T15:40:47.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 17:40 CEST
-Resolved - This incident has been resolved.
-Oct 12, 16:21 CEST
-Monitoring - We implemented workaround and we are currently monitoring the issue.
-Oct 12, 16:09 CEST
-Investigating - We are experiencing issues within our scenario features i.e. users cannot clone scenario nor move it to a folder inside list of scenarios. This is still possible when user open particular scenario.
-We are currently working on implementing a quick workaround, we should publish the relevant steps within the next 30 minutes.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
         </author>
     </entry>
 </feed>
