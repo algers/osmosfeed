@@ -66,13 +66,23 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/y5n68fh4nvnf",
+          "id": "https://status.twilio.com/incidents/6kwzbwqrrk8r",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 17, 23:00 PST  -  Nov 18, 07:00 PST\nNov 14, 14:31 PST\nScheduled - The MTS network in Russia is conducting an emergency maintenance from 17 November 2023 at 23:00 PST until 18 November 2023 at 07:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from MTS Russia handsets.",
-          "link": "https://status.twilio.com/incidents/y5n68fh4nvnf",
-          "publishedOn": "2023-11-18T07:00:00.000Z",
+          "description": "THIS IS A SCHEDULED EVENT Nov 18, 20:00 - 23:00 PST\nNov 16, 03:11 PST\nScheduled - Our SMS carrier partner in Israel is conducting a planned maintenance from 18 November 2023 at 20:00 PST until 18 November 2023 at 23:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from a subset of Israel handsets.",
+          "link": "https://status.twilio.com/incidents/6kwzbwqrrk8r",
+          "publishedOn": "2023-11-19T04:00:00.000Z",
           "wordCount": 7245,
-          "title": "Russia SMS Carrier Maintenance - MTS",
+          "title": "Israel SMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/z4j5yrxskfg0",
+          "author": null,
+          "description": "Nov 18, 15:43 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to Vodafone Network in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nNov 18, 15:30 PST\nInvestigating - Our monitoring systems have detected a potential issue with SMS delivery delays to Vodafone Network in Ireland. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/z4j5yrxskfg0",
+          "publishedOn": "2023-11-18T23:55:09.000Z",
+          "wordCount": 7289,
+          "title": "SMS Delivery Delays to Vodafone Network in Ireland",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -282,10 +292,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/mnv0g944fncw",
           "author": null,
-          "description": "Nov 15, 11:34 UTC\nResolved - This incident has been resolved.\nNov 15, 11:33 UTC\nUpdate - Error rates and performance have returned to normal.\nNov 15, 11:21 UTC\nUpdate - We have identified the source of the issue and have removed the additional load from the service. Sporadic delays in pull request experiences and intermittent 500s are still occurring and impacting a very small percentage of traffic. Next update is expected within 30 minutes.\nNov 15, 11:04 UTC\nUpdate - We are seeing connectivity issues between some of our systems and git backend services. This is causing intermittent error responses and delays in pull request experiences for a very small percentage of traffic. We are investigating mitigations and expect to provide another update within 30 minutes.\nNov 15, 09:50 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Nov 15, 11:34 UTC\nResolved - On 2023-11-15, from 09:44 to 10:42 UTC, some GitHub customers experienced increased latency or errors accessing repo data.\nHigh concurrent access to a specific git object exposed a bug that forced a backend service to perform excessive calculations, overloading the service. Access to this repo was paused while load was re-rerouted, mitigating the problem.\nThe conditions that triggered the expensive operations have been identified and refactored.\nNov 15, 11:33 UTC\nUpdate - Error rates and performance have returned to normal.\nNov 15, 11:21 UTC\nUpdate - We have identified the source of the issue and have removed the additional load from the service. Sporadic delays in pull request experiences and intermittent 500s are still occurring and impacting a very small percentage of traffic. Next update is expected within 30 minutes.\nNov 15, 11:04 UTC\nUpdate - We are seeing connectivity issues between some of our systems and git backend services. This is causing intermittent error responses and delays in pull request experiences for a very small percentage of traffic. We are investigating mitigations and expect to provide another update within 30 minutes.\nNov 15, 09:50 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/mnv0g944fncw",
           "publishedOn": "2023-11-15T11:34:14.000Z",
-          "wordCount": 5131,
+          "wordCount": 5190,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },

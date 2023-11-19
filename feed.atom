@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-11-18T00:21:08.630Z</id>
+    <id>urn:2023-11-19T00:23:44.524Z</id>
     <title>osmos::feed</title>
-    <updated>2023-11-18T00:21:08.630Z</updated>
+    <updated>2023-11-19T00:23:44.524Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - MTS]]></title>
-        <id>https://status.twilio.com/incidents/y5n68fh4nvnf</id>
-        <link href="https://status.twilio.com/incidents/y5n68fh4nvnf"/>
-        <updated>2023-11-18T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Nov 17, 23:00 PST  -  Nov 18, 07:00 PST
-Nov 14, 14:31 PST
-Scheduled - The MTS network in Russia is conducting an emergency maintenance from 17 November 2023 at 23:00 PST until 18 November 2023 at 07:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from MTS Russia handsets.]]></summary>
+        <title type="html"><![CDATA[Israel SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/6kwzbwqrrk8r</id>
+        <link href="https://status.twilio.com/incidents/6kwzbwqrrk8r"/>
+        <updated>2023-11-19T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Nov 18, 20:00 - 23:00 PST
+Nov 16, 03:11 PST
+Scheduled - Our SMS carrier partner in Israel is conducting a planned maintenance from 18 November 2023 at 20:00 PST until 18 November 2023 at 23:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from a subset of Israel handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Vodafone Network in Ireland]]></title>
+        <id>https://status.twilio.com/incidents/z4j5yrxskfg0</id>
+        <link href="https://status.twilio.com/incidents/z4j5yrxskfg0"/>
+        <updated>2023-11-18T23:55:09.000Z</updated>
+        <summary type="html"><![CDATA[Nov 18, 15:43 PST
+Update - We are experiencing SMS delivery delays when sending messages to Vodafone Network in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+Nov 18, 15:30 PST
+Investigating - Our monitoring systems have detected a potential issue with SMS delivery delays to Vodafone Network in Ireland. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -81,7 +94,9 @@ Resolved - Due to a configuration error, some scenarios in the eu1.make.com, eu2
         <link href="https://www.githubstatus.com/incidents/mnv0g944fncw"/>
         <updated>2023-11-15T11:34:14.000Z</updated>
         <summary type="html"><![CDATA[Nov 15, 11:34 UTC
-Resolved - This incident has been resolved.
+Resolved - On 2023-11-15, from 09:44 to 10:42 UTC, some GitHub customers experienced increased latency or errors accessing repo data.
+High concurrent access to a specific git object exposed a bug that forced a backend service to perform excessive calculations, overloading the service. Access to this repo was paused while load was re-rerouted, mitigating the problem.
+The conditions that triggered the expensive operations have been identified and refactored.
 Nov 15, 11:33 UTC
 Update - Error rates and performance have returned to normal.
 Nov 15, 11:21 UTC
