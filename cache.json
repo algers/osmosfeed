@@ -4,7 +4,18 @@
       "title": "BookingSync.com news",
       "feedUrl": "https://changelog.bookingsync.com/rss",
       "siteUrl": "https://changelog.bookingsync.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "279856",
+          "author": "Megan, Product Manager",
+          "description": "New!\n \nImprovement\n \nAction required\n  \nWe're thrilled to share some fantastic updates on our Stripe integration, aiming to improve your Smily experience. 🎉\nWhat's New?\nEffortless Stripe Account Addition: managing multiple payment gateways just got easier! We've streamlined the process of adding new Stripe accounts for flexibility and convenience. \n\n\nImproved Customer Support Access: your satisfaction is our top priority. Now, our customer support is better equipped to assist you with any questions or issues related to your Stripe integration.\n\n\nWhy Does This Matter?\nThis upgrade is designed with your convenience in mind, offering the following benefits:\nTime Saving: adding new Stripe accounts is now a few clicks away, eliminating lengthy back-and-forth communications.\n\n\nReduced Frustration: improved support ensures prompt resolution of queries or issues.\n\n\nMaintained Control: you retain complete control over your Stripe accounts, payouts, and settings, experiencing no change in usage or payment reception.\n\n\nWhat's Next?\nReady to unlock the enhanced Stripe Integration? Go to Settings > Payments in your Smily account, click connect on any unconnected Stripe payment gateways, and enjoy seamless transactions. \nRest assured, these improvements maintain the highest security standards for your financial transactions.\nFor detailed information on connecting your Stripe account, check our FAQ.\nWe're here to support you every step of the way. If you have questions or need assistance, reach out to us. \nLet's embark on this journey together to make your vacation rental dreams a reality 🚀",
+          "link": "https://changelog.bookingsync.com/introducing-our-enhanced-stripe-integration-279856",
+          "publishedOn": "2023-11-24T13:25:46.000Z",
+          "wordCount": 461,
+          "title": "Introducing our enhanced Stripe integration 🚀",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Security Bulletins on Tailscale",
@@ -19,16 +30,6 @@
           "publishedOn": "2023-11-01T00:00:00.000Z",
           "wordCount": 4677,
           "title": "TS-2023-008",
-          "imageUrl": "https://tailscale.com/files/images/og-image.png"
-        },
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2023-007/",
-          "author": null,
-          "description": "Description: Microsoft Defender is flagging Tailscale 1.46.1 as malware.\nThese classifications are false positives, and we are working with Microsoft to\nresolve the situation.\nAs of 2023-10-27 1:05 AM UTC, we have confirmed that Microsoft have addressed\nthe false positive, meaning Defender no longer flags Tailscale 1.46.1 as\nmalware. A rescan of tailscaled.exe 1.46.1 on VirusTotal confirms this.\nWhat happened?\nMicrosoft Defender was flagging Tailscale 1.46.1 as malware. This caused\nDefender to quarantine the binaries, meaning they could not run.\nWe submitted Tailscale 1.46.1 to Microsoft to investigate the false positive,\nwho then updated Defender to avoid flagging this release as malware at\n2023-10-27 1:05 AM UTC.\nWho is affected?\nPeople using Defender and Tailscale 1.46.1.\nWhat is the impact?\nTailscale will not run on affected machines.\nWhat do I need to do?\nTo resolve this issue on your own tailnet, you can take either or both of 2\napproaches:\nUpdate to a newer version of Tailscale. Newer versions are not affected by this problem.\nCreate an exception in Microsoft Defender. Microsoft has published instructions explaining how to do this.\nUpdate Microsoft Defender.",
-          "link": "https://tailscale.com/security-bulletins/#ts-2023-007/",
-          "publishedOn": "2023-10-26T00:00:00.000Z",
-          "wordCount": 4677,
-          "title": "TS-2023-007",
           "imageUrl": "https://tailscale.com/files/images/og-image.png"
         }
       ]
@@ -76,103 +77,93 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/qbhk6g6vz30c",
+          "id": "https://status.twilio.com/incidents/5dmdhf7366yq",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 24, 00:00 - 02:00 PST\nNov 15, 16:26 PST\nScheduled - Our service partner is conducting a planned maintenance from 24 November 2023 at 00:00 PST until 24 November 2023 at 02:00 PST. During the maintenance window, there could be intermittent API request failures for the following destination: Canada.\nImpacted Products: Lookup Identity Match, Lookup Line Type Intelligence (Twilio API), Lookup SIM Swap, Legacy Identity MatchAndAttributes",
-          "link": "https://status.twilio.com/incidents/qbhk6g6vz30c",
-          "publishedOn": "2023-11-24T08:00:00.000Z",
-          "wordCount": 7268,
-          "title": "Canada Account Security Service Partner Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Nov 24, 23:00 PST  -  Nov 25, 03:00 PST\nNov 23, 14:13 PST\nScheduled - The U.S. Cellular network in the US is conducting a planned maintenance from 24 November 2023 at 23:00 PST until 25 November 2023 at 03:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from U.S. Cellular US handsets.",
+          "link": "https://status.twilio.com/incidents/5dmdhf7366yq",
+          "publishedOn": "2023-11-25T07:00:00.000Z",
+          "wordCount": 7259,
+          "title": "US SMS Carrier Maintenance - U.S. Cellular",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/3d384mtdrzjr",
+          "id": "https://status.twilio.com/incidents/zk7r1l2hkqcs",
           "author": null,
-          "description": "Nov 23, 15:18 PST\nUpdate - We are still investigating the issue with the Billing overview page. Customers may be received errors while trying to load balance in the overview page. We expect to provide another update in 4 hours or as soon as more information becomes available\nNov 23, 13:18 PST\nUpdate - We keep investigating an issue with the Billing overview page. Customers may be received errors while trying to load balance in the overview page. We expect to provide another update in 2 hours or as soon as more information becomes available\nNov 23, 12:24 PST\nInvestigating - We are investigating an issue with the Billing overview page. Customers may be receive errors while trying to load balance in the overview page. We expect to provide another update in 1 hour or as soon as more information becomes available",
-          "link": "https://status.twilio.com/incidents/3d384mtdrzjr",
-          "publishedOn": "2023-11-23T23:18:08.000Z",
-          "wordCount": 7335,
-          "title": "Billing Overview Page Balance Not Loading",
+          "description": "Nov 24, 15:52 PST\nResolved - We are no longer experiencing MMS delivery from Twilio short-code numbers at this time. This incident has been resolved.\nNov 24, 14:28 PST\nMonitoring - Our monitoring shows overall improvement in carrier-side traffic congestion, and we are observing instant MMS delivery from Twilio short-code numbers at this time. We will continue monitoring the overall US carrier networks to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 13:58 PST\nUpdate - Please find the current MMS delivery delays status from Twilio short-code numbers for the major carriers below:\nAT&T (status - Operational)\nT-Mobile (status - Delayed)\nVerizon (status - Delayed)\nMetroPCS (status - Delayed)\nUS Cellular (status - Oper…",
+          "link": "https://status.twilio.com/incidents/zk7r1l2hkqcs",
+          "publishedOn": "2023-11-24T23:52:23.000Z",
+          "wordCount": 7574,
+          "title": "MMS Delivery Delays From Twilio Short Codes in the US",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/q10r3vnmwb47",
+          "id": "https://status.twilio.com/incidents/10b1syzpl0xp",
           "author": null,
-          "description": "Nov 23, 15:01 PST\nInvestigating - Due to increased traffic demand on mobile communication networks, we will expect potential congestion for US carrier networks during the Black Friday and Cyber Monday period. Customers may experience intermittent SMS and MMS delivery delays. Please refer to our Black Friday / Cyber Monday FAQ page, in the Help Center on Twilio.com, for more information.",
-          "link": "https://status.twilio.com/incidents/q10r3vnmwb47",
-          "publishedOn": "2023-11-23T23:01:59.000Z",
-          "wordCount": 7244,
-          "title": "Black Friday / Cyber Monday Alert",
+          "description": "Nov 24, 15:41 PST\nUpdate - Our monitoring shows overall improvement in carrier-side traffic congestion, and we are observing instant SMS delivery from Twilio toll-free numbers at this time. We will continue monitoring the overall US carrier networks to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 13:45 PST\nMonitoring - Our monitoring shows overall improvement in carrier-side traffic congestion, and we are observing instant SMS delivery from Twilio toll-free numbers at this time. We will continue monitoring the overall CA and US carrier networks to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 11:43 PST\nUpdate - Please find the current …",
+          "link": "https://status.twilio.com/incidents/10b1syzpl0xp",
+          "publishedOn": "2023-11-24T23:43:13.000Z",
+          "wordCount": 7587,
+          "title": "SMS Delivery Delays From Twilio Toll-Free Numbers to CA and US Carriers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/3l094yp5mf06",
+          "id": "https://status.twilio.com/incidents/85gmnldq8h8d",
           "author": null,
-          "description": "Nov 23, 14:40 PST\nResolved - We are no longer experiencing MMS delivery delays when sending messages to Verizon network over a subset of Short-Codes in the US. This incident has been resolved.\nNov 23, 14:32 PST\nUpdate - We are observing recovery in MMS delivery delays when sending messages to Verizon network over a subset of Short-Codes in the US. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 23, 12:31 PST\nMonitoring - We are observing recovery in MMS delivery delays when sending messages to Verizon network over a subset of Short-Codes in the US. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 23, 10:44 PST\nUpdate - We continue experiencing MMS delivery delays when sending messages to Verizon network over a subset of Short-Codes in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nNov 23, 08:43 PST\nUpdate - We are still experiencing MMS delivery delays when sending messages to Verizon network over a subset of Short-Codes in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 23, 07:41 PST\nInvestigating - We are experiencing MMS delivery delays when sending messages to Verizon network over a subset of Short-Codes in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/3l094yp5mf06",
-          "publishedOn": "2023-11-23T22:40:13.000Z",
-          "wordCount": 7529,
-          "title": "MMS Delivery Delays to Verizon Network Over a Subset of Short-Codes in the US",
+          "description": "Nov 24, 15:41 PST\nUpdate - Our monitoring shows overall improvement in carrier-side traffic congestion, and we are observing instant SMS delivery from Twilio short-code numbers at this time. We will continue monitoring the overall US carrier networks to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 14:06 PST\nMonitoring - Our monitoring shows overall improvement in carrier-side traffic congestion, and we are observing instant SMS delivery from Twilio short-code numbers at this time. We will continue monitoring the overall US carrier networks to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 13:50 PST\nInvestigating - Please find the curren…",
+          "link": "https://status.twilio.com/incidents/85gmnldq8h8d",
+          "publishedOn": "2023-11-24T23:41:44.000Z",
+          "wordCount": 7633,
+          "title": "SMS Delivery Delays From Twilio Short-Code Numbers to US Carriers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/ftv298gzjjt4",
+          "id": "https://status.twilio.com/incidents/j4gdfnrtqgrj",
           "author": null,
-          "description": "Nov 23, 13:00 PST\nCompleted - The scheduled maintenance has been completed.\nNov 23, 12:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 21, 05:48 PST\nScheduled - The Gazprom Bank Mobile network in Russia is conducting a planned maintenance from 23 November 2023 at 12:00 PST until 23 November 2023 at 13:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to Gazprom Bank Mobile Russia handsets.",
-          "link": "https://status.twilio.com/incidents/ftv298gzjjt4",
-          "publishedOn": "2023-11-23T21:00:23.000Z",
-          "wordCount": 7272,
-          "title": "Russia SMS Carrier Maintenance - GazpromBankMobile",
+          "description": "Nov 24, 15:41 PST\nUpdate - Our monitoring shows overall improvement in carrier-side traffic congestion, and we are observing instant SMS delivery from Twilio long-code numbers at this time. We will continue monitoring the overall US carrier networks to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 13:44 PST\nMonitoring - Our monitoring shows overall improvement in carrier-side traffic congestion, and we are observing instant SMS delivery from Twilio long-code numbers at this time. We will continue monitoring the overall US carrier networks to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 11:44 PST\nUpdate - Please find the current delivery status for the major carriers below:\nAT&T (status - Operational)\nT-Mobile (status - Operational)\nVerizon (status - Operational)\nMetroPCS (status - Operational)\nUS Cellular (status - Operational)\nAppalachian Wireless  (status - Delayed)\nWe are actively working with our carrier partners to resolve the issue, and we will provide another update in 2 hours or as soon as we have any new information to share.\nNov 24, 09:21 PST\nInvestigating - Due to sustained high traffic on the US carrier networks, we are currently experiencing SMS delivery delays from Twilio long-code numbers. Messages are queued due to capacity shortage, and customers may see delays when sending to certain US carriers.\nPlease find the current delivery status for the major carriers below:\nAT&T (status - Operational)\nT-Mobile (status - Operational)\nVerizon (status - Operational)\nMetroPCS (status - Operational)\nUS Cellular (status - Operational)\nAppalachian Wireless  (status - Delayed)\nWe are actively working with our carrier partners to resolve the issue, and we will provide another update in 2 hours or as soon as we have any new information to share.",
+          "link": "https://status.twilio.com/incidents/j4gdfnrtqgrj",
+          "publishedOn": "2023-11-24T23:41:41.000Z",
+          "wordCount": 7503,
+          "title": "SMS Delivery Delays From Twilio Long-Code Numbers to US Carriers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/cpd8z6rb26wc",
+          "id": "https://status.twilio.com/incidents/wz4pr9w24n2t",
           "author": null,
-          "description": "Nov 23, 13:00 PST\nCompleted - The scheduled maintenance has been completed.\nNov 23, 12:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 17, 04:38 PST\nScheduled - The Beeline network in Russia is conducting a planned maintenance from 23 November 2023 at 12:00 PST until 23 November 2023 at 13:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to Beeline Russia handsets.",
-          "link": "https://status.twilio.com/incidents/cpd8z6rb26wc",
-          "publishedOn": "2023-11-23T21:00:17.000Z",
-          "wordCount": 7268,
-          "title": "Russia SMS Carrier Maintenance - Beeline",
+          "description": "Nov 24, 11:57 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to IER Network in Ireland. This incident has been resolved.\nNov 24, 11:34 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to IER Network in Ireland. We will continue monitoring the service to ensure a full recovery. We will provide another update in 30 minutes or as soon as more information becomes available.\nNov 24, 07:24 PST\nUpdate - We continue experiencing SMS delivery delays when sending messages to IER Network in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nNov 24, 05:30 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to IER Network In Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 04:27 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to IER Network In Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/wz4pr9w24n2t",
+          "publishedOn": "2023-11-24T19:57:14.000Z",
+          "wordCount": 7420,
+          "title": "SMS Delivery Delays to IER Network in Ireland",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/5mrlkgsb9bv8",
+          "id": "https://status.twilio.com/incidents/r0m2ypkb88sx",
           "author": null,
-          "description": "Nov 23, 11:41 PST\nUpdate - For customers who are requesting historical data about messages, that have been sent during the past 7 hours, via the Console or API, there is a small probability that the data could be delayed. The root cause has been identified and eliminated. We have started to process the queued messages and expect to provide another update in 8 hours or as soon as more information becomes available.\nNov 23, 07:50 PST\nUpdate - For customers who are requesting historical data about messages, that have been sent during the past 7 hours, via the Console or API, there is a small probability that the data could be delayed.  The root cause has been identified and eliminated. We have started to process the queued messages and expect to provide another update in 4 hours or as soon as…",
-          "link": "https://status.twilio.com/incidents/5mrlkgsb9bv8",
-          "publishedOn": "2023-11-23T19:41:59.000Z",
-          "wordCount": 7655,
-          "title": "Delays in Retrieving Some Historical Messaging Data",
+          "description": "Nov 24, 11:23 PST\nResolved - We're continuing to experience SMS delivery delays from Twilio toll-free numbers in the US. Since we're also experiencing SMS delivery delays from Twilio toll-free numbers in CA, we'll resolve this post and continue to give updates for both regions at https://status.twilio.com/incidents/10b1syzpl0xp.\nNov 24, 09:21 PST\nInvestigating - Due to sustained high traffic on the US carrier networks, we are currently experiencing SMS delivery delays from Twilio toll-free numbers. Messages are queued due to capacity shortage, and customers may see delays when sending to certain US carriers.\nPlease find the current delivery status for the major carriers below:\nAT&T (status - Operational)\nT-Mobile (status - Operational)\nVerizon (status - Operational)\nMetroPCS (status - Operational)\nUS Cellular (status - Operational)\nAppalachian Wireless  (status - Delayed)\nWe are actively working with our carrier partners to resolve the issue, and we will provide another update in 2 hours or as soon as we have any new information to share.",
+          "link": "https://status.twilio.com/incidents/r0m2ypkb88sx",
+          "publishedOn": "2023-11-24T19:23:07.000Z",
+          "wordCount": 7355,
+          "title": "SMS Delivery Delays From Twilio Toll-Free Numbers to US Carriers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/lc2mdb3b9t05",
+          "id": "https://status.twilio.com/incidents/71vd0vqtgsyz",
           "author": null,
-          "description": "Nov 23, 10:38 PST\nResolved - We have fully investigated the Billing Overview Page issue triggered by our automated alert, and it was determined that this is related to an active incident post. Find all details at https://status.twilio.com/incidents/w79nz44bxfh5. We’ll proceed to resolve this alert.\nNov 23, 10:17 PST\nInvestigating - Our monitoring systems have detected a potential issue the billing overview page. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/lc2mdb3b9t05",
-          "publishedOn": "2023-11-23T18:38:51.000Z",
-          "wordCount": 7260,
-          "title": "Automated Alert: Billing Overview Page",
+          "description": "Nov 24, 09:11 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Econet network in Burundi. This incident has been resolved.\nNov 24, 07:15 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Econet network in Burundi. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 05:06 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to Econet network in Burundi. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nNov 24, 03:06 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to Econet network in Burundi. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 02:10 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to Econet network in Burundi. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/71vd0vqtgsyz",
+          "publishedOn": "2023-11-24T17:11:50.000Z",
+          "wordCount": 7423,
+          "title": "SMS Delivery Delays to Econet Network in Burundi",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/5hhy31890z84",
+          "id": "https://status.twilio.com/incidents/fcvn2102jt0q",
           "author": null,
-          "description": "Nov 23, 03:31 PST\nResolved - Twilio Messaging callbacks were degraded between 18:00 UTC and 23:00 UTC on 22nd November. During this period of time customers may have experienced failed callbacks.  This incident has now been resolved.",
-          "link": "https://status.twilio.com/incidents/5hhy31890z84",
-          "publishedOn": "2023-11-23T11:31:30.000Z",
-          "wordCount": 7207,
-          "title": "Failed Messaging Callbacks",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/8tg0crh4clm6",
-          "author": null,
-          "description": "Nov 23, 02:13 PST\nResolved - The authorization flow in connected-apps is operating normally at this time.\nNov 23, 01:31 PST\nMonitoring - The authorization flow in connected-apps is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nNov 23, 00:18 PST\nIdentified - Our engineers have identified the issue with the authorization flow in connected-apps and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.\nNov 23, 00:05 PST\nInvestigating - Our monitoring systems have detected a potential issue with connect-apps authorize flow shadow route mapping is not working correctly. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/8tg0crh4clm6",
-          "publishedOn": "2023-11-23T10:13:18.000Z",
-          "wordCount": 7343,
-          "title": "The Authorization Flow in Connected-Apps Is Not Working Correctly",
+          "description": "Nov 24, 05:34 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Vodafone network in New Zealand.. This incident has been resolved.\nNov 24, 03:44 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to the Vodafone network in New Zealand. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 23, 23:30 PST\nUpdate - We continue to experience SMS delivery delays when sending messages to the Vodafone network in New Zealand. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nNov 23, 21:40 PST\nUpdate - We continue to experience SMS delivery delays when sending messages to the Vodafone network in New Zealand. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 23, 20:40 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to the Vodafone network in New Zealand. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nNov 23, 20:25 PST\nInvestigating - Our monitoring systems have detected a potential issue related to SMS delivery delays. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/fcvn2102jt0q",
+          "publishedOn": "2023-11-24T13:34:06.000Z",
+          "wordCount": 7472,
+          "title": "SMS Delivery Delays to Vodafone in New Zealand",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -345,16 +336,6 @@
           "wordCount": 5077,
           "title": "Admin account not visible in the account dropdown for Super Admins",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
-        },
-        {
-          "id": "https://status.rippling.com/incidents/vnm5lc6f0b91",
-          "author": null,
-          "description": "Oct 25, 21:10 UTC\nResolved - This incident has been resolved.\nOct 25, 21:02 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nOct 25, 20:52 UTC\nIdentified - An issue has been identified and we are working on a fix.\nOct 25, 20:46 UTC\nUpdate - We are continuing to monitor for any further issues.\nOct 25, 20:22 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nOct 25, 20:17 UTC\nIdentified - The issue has been identified and a fix is being implemented.\nOct 25, 20:14 UTC\nInvestigating - We are currently investigating this issue.",
-          "link": "https://status.rippling.com/incidents/vnm5lc6f0b91",
-          "publishedOn": "2023-10-25T21:10:01.000Z",
-          "wordCount": 5089,
-          "title": "Issues loading Rippling",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         }
       ]
     },
@@ -438,26 +419,6 @@
           "publishedOn": "2023-11-03T19:21:48.000Z",
           "wordCount": 5723,
           "title": "Incident with Git Operations, Issues, Pull Requests, Actions, API Requests, Codespaces, Packages, Pages and Webhooks",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/sbjdwn6mvht7",
-          "author": null,
-          "description": "Oct 25, 22:15 UTC\nResolved - Copilot completions are currently hosted in 4 regions globally: Central US, France, Switzerland and Japan. Users are typically routed to the nearest geographic region, but may be routed to other regions when the nearest region is unhealthy.\nBeginning at 2023-10-25 09:13 UTC, Copilot began experiencing outages of individual regions, lasting 12 minutes per region. These outages were due to the nodes hosting the completion model getting unhealthy due to a recent upgrade. There were intermittent outages in multiple regions with a subset of Copilot users experiencing completion errors. The outages were partial and varied across the different regions.\nIn order to prevent similar incidents from occurring in the future, we are focusing on improving our global load balancing of completion traffic during regional failures, in addition to determining and preventing the root cause of these outages.\nOct 25, 21:37 UTC\nUpdate - The observed Copilot API error rate is around 5% of the requests. As a result, some of the Copilot code suggestions are skipped or not delivered on time.\nOct 25, 21:19 UTC\nUpdate - We are seeing an impact in the US region as well. We continue the investigation.\nOct 25, 20:53 UTC\nUpdate - Copilot is experiencing intermittent issues in our Japan region. Engineers are currently investigating.\nOct 25, 20:50 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot",
-          "link": "https://www.githubstatus.com/incidents/sbjdwn6mvht7",
-          "publishedOn": "2023-10-25T22:15:54.000Z",
-          "wordCount": 5213,
-          "title": "Incident with Copilot",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/p351mbywbp0t",
-          "author": null,
-          "description": "Oct 25, 13:02 UTC\nResolved - Copilot completions are currently hosted in 4 regions globally: Central US, France, Switzerland and Japan. Users are typically routed to the nearest geographic region, but may be routed to other regions when the nearest region is unhealthy.\nBeginning at 2023-10-25 09:13 UTC, Copilot began experiencing outages of individual regions, lasting 12 minutes per region. These outages were due to the nodes hosting the completion model getting unhealthy due to a recent upgrade. There were intermittent outages in multiple regions with a subset of Copilot users experiencing completion errors. The outages were partial and varied across the different regions.\nIn order to prevent similar incidents from occurring in the future, we are focusing on improving our global load balancing of completion traffic during regional failures, in addition to determining and preventing the root cause of these outages.\nOct 25, 12:56 UTC\nUpdate - We have applied a fix to help with Copilot performance. Initial signals show good recovery. We will continue to monitor for the time being and resolve when confident the issue has been resolved.\nOct 25, 12:29 UTC\nUpdate - We are investigating degraded performance in Europe for Copilot. We will continue to keep users updated on progress towards mitigation.\nOct 25, 12:10 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot",
-          "link": "https://www.githubstatus.com/incidents/p351mbywbp0t",
-          "publishedOn": "2023-10-25T13:02:51.000Z",
-          "wordCount": 5202,
-          "title": "Incident with Copilot",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
