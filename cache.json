@@ -21,18 +21,7 @@
       "title": "Security Bulletins on Tailscale",
       "feedUrl": "https://tailscale.com/security-bulletins/index.xml",
       "siteUrl": "https://tailscale.com/security-bulletins/",
-      "articles": [
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2023-008/",
-          "author": null,
-          "description": "Description: Privilege escalation bugs in the Tailscale\nKubernetes operator’s API proxy allowed authenticated tailnet clients\nto send Kubernetes API requests as the operator’s service account.\nTailscale Kubernetes operator version v1.53.37 fixes the issue and\nusers of the operator who enable the API proxy functionality should\nupdate as described below.\nWhat happened?\nThe Tailscale Kubernetes operator can optionally act as an API server\nproxy\nfor the cluster’s Kubernetes API. This proxy allows authenticated\ntailnet users to use their tailnet identity in Kubernetes\nauthentication and RBAC rules. The API server proxy uses\nimpersonation\nheaders\nto translate tailnet identities to Kubernetes identities.\nThe operator prior to v1.53.37 has two bugs in the forwarding logic,\nwhich affects different …",
-          "link": "https://tailscale.com/security-bulletins/#ts-2023-008/",
-          "publishedOn": "2023-11-01T00:00:00.000Z",
-          "wordCount": 4677,
-          "title": "TS-2023-008",
-          "imageUrl": "https://tailscale.com/files/images/og-image.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Airbnb API Status - Incident History",
@@ -58,16 +47,6 @@
           "wordCount": 3883,
           "title": "Intermittent 500 errors on the GET Resolutions API",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/875yz70rnb1p",
-          "author": null,
-          "description": "Oct 31, 10:00 PDT\nResolved - This incident has been resolved.\nOct 30, 18:14 PDT\nMonitoring - Today (Oct 30, 2023) between 1:00 PM and 3:00 PM PDT we encountered an incident that impacted our webhooks functionality. As a result, some reservations may have been missing webhooks during this time period. The issue has been resolved, and our team is actively monitoring the results to ensure the stability of our systems. If you have noticed any reservations missing webhooks, we recommend using the GET Reservations API to retrieve the details of those reservations. Alternatively, you can contact us with a list of affected reservations, and we will assist you in backfilling the missing information.\nWe apologize for any inconvenience this may have caused and appreciate your understanding.",
-          "link": "https://airbnbapi.statuspage.io/incidents/875yz70rnb1p",
-          "publishedOn": "2023-10-31T17:00:19.000Z",
-          "wordCount": 3930,
-          "title": "Issue Affecting Webhooks",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -77,83 +56,83 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/24x7np7ndtk0",
+          "id": "https://status.twilio.com/incidents/6q0ckl5dtqn4",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 29, 21:00 PST  -  Nov 30, 05:00 PST\nNov 16, 06:03 PST\nScheduled - Our MMS carrier partner in US and Canada is conducting a planned maintenance from 29 November 2023 at 21:00 PST until 30 November 2023 at 05:00 PST. During the maintenance window, there could be intermittent delays delivering MMS to and from US and Canada handsets via Shortcodes and Longcodes.",
-          "link": "https://status.twilio.com/incidents/24x7np7ndtk0",
-          "publishedOn": "2023-11-30T05:00:00.000Z",
-          "wordCount": 7264,
-          "title": "US and Canada MMS Carrier Partner Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Nov 30, 22:00 PST  -  Dec 1, 04:00 PST\nNov 28, 14:21 PST\nScheduled - The AT&T network in Mexico is conducting an emergency maintenance from 30 November 2023 at 22:00 PST until 01 December 2023 at 04:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.",
+          "link": "https://status.twilio.com/incidents/6q0ckl5dtqn4",
+          "publishedOn": "2023-12-01T06:00:00.000Z",
+          "wordCount": 7249,
+          "title": "Mexico SMS Carrier Maintenance - AT&T Mexico",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/5jj4rbnx27nn",
+          "id": "https://status.twilio.com/incidents/8n0wmt1l2s0m",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 29, 19:00 - 20:00 PST\nNov 27, 05:16 PST\nScheduled - The Vodafone network in Germany is conducting a planned maintenance from 29 November 2023 at 19:00 PST until 29 November 2023 at 20:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Vodafone Germany handsets.",
-          "link": "https://status.twilio.com/incidents/5jj4rbnx27nn",
-          "publishedOn": "2023-11-30T03:00:00.000Z",
-          "wordCount": 7242,
-          "title": "Germany SMS Carrier Maintenance - Vodafone",
+          "description": "THIS IS A SCHEDULED EVENT Nov 30, 17:00 - 19:00 PST\nNov 23, 22:30 PST\nScheduled - Our Voice carrier partner in the UK is conducting a planned maintenance from 30 November 2023 at 17:00 PST until 30 November 2023 at 19:00 PST. During the maintenance window, there could be call failures from a subset of UK phone numbers.",
+          "link": "https://status.twilio.com/incidents/8n0wmt1l2s0m",
+          "publishedOn": "2023-12-01T01:00:00.000Z",
+          "wordCount": 7246,
+          "title": "United Kingdom Voice Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/kc3x0zqxnfvs",
+          "id": "https://status.twilio.com/incidents/dh4wxt4chd9c",
           "author": null,
-          "description": "Nov 29, 16:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 28, 15:02 PST\nScheduled - The Lifecell network in Ukraine is conducting a planned maintenance from 29 November 2023 at 16:00 PST until 29 November 2023 at 20:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to Lifecell Ukraine handsets.",
-          "link": "https://status.twilio.com/incidents/kc3x0zqxnfvs",
-          "publishedOn": "2023-11-30T00:00:28.000Z",
-          "wordCount": 7258,
-          "title": "Ukraine SMS Carrier Maintenance - Lifecell",
+          "description": "Nov 30, 16:01 PST\nCompleted - The scheduled maintenance has been completed.\nNov 30, 10:01 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 29, 03:34 PST\nScheduled - The AT&T network in Mexico is conducting an emergency maintenance from 30 November 2023 at 10:00 PST until 30 November 2023 at 16:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.",
+          "link": "https://status.twilio.com/incidents/dh4wxt4chd9c",
+          "publishedOn": "2023-12-01T00:01:09.000Z",
+          "wordCount": 7276,
+          "title": "Mexico SMS Carrier Maintenance - AT&T Mexico",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/1mwwq2412cr8",
+          "id": "https://status.twilio.com/incidents/g2bsz0mvjwn1",
           "author": null,
-          "description": "Nov 29, 15:50 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to Vodafone Network in Greece. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 29, 14:58 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to Vodafone Network in Greece. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/1mwwq2412cr8",
-          "publishedOn": "2023-11-29T23:50:34.000Z",
-          "wordCount": 7294,
-          "title": "SMS Delivery Delays to Vodafone Network in Greece",
+          "description": "Nov 30, 13:06 PST\nResolved - SMS delivery failures to Zain network in Saudi Arabia has been resolved and  is operating normally at this time.\nNov 30, 11:10 PST\nMonitoring - We are observing successful SMS delivery to Zain network in Saudi Arabia.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nNov 30, 09:58 PST\nInvestigating - We are experiencing SMS delivery failures sending to Zain network in Saudi Arabia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/g2bsz0mvjwn1",
+          "publishedOn": "2023-11-30T21:06:02.000Z",
+          "wordCount": 7320,
+          "title": "SMS Delivery Failures on  Zain Network in Saudi Arabia",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/vthdyzjr2y6w",
+          "id": "https://status.twilio.com/incidents/fh91mmfvfbc8",
           "author": null,
-          "description": "Nov 29, 14:47 PST\nResolved - SMS delivery failures for a subset of short code and long code numbers across Claro Network in Puerto Rico has been resolved and is operating normally at this time.\nNov 29, 13:59 PST\nUpdate - We are observing successful SMS delivery for a subset of short code and long code numbers sending to Claro network in Puerto Rico.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nNov 29, 11:54 PST\nMonitoring - We are observing successful SMS delivery for a subset of short code and long code numbers sending to Claro network in Puerto Rico.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nNov 29, 10:53 PST\nInvestigating - We are experiencing SMS delivery failures for a subset of short code and long code numbers sending to Claro network in Puerto Rico. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/vthdyzjr2y6w",
-          "publishedOn": "2023-11-29T22:47:08.000Z",
-          "wordCount": 7414,
-          "title": "SMS Delivery Failures to Claro Network in Puerto Rico",
+          "description": "Nov 30, 13:00 PST\nCompleted - The scheduled maintenance has been completed.\nNov 30, 12:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 21, 04:55 PST\nScheduled - The Beeline network in Russia is conducting a planned maintenance from 30 November 2023 at 12:00 PST until 30 November 2023 at 13:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to Beeline Russia handsets.",
+          "link": "https://status.twilio.com/incidents/fh91mmfvfbc8",
+          "publishedOn": "2023-11-30T21:00:13.000Z",
+          "wordCount": 7268,
+          "title": "Russia SMS Carrier Maintenance - Beeline",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/1r4p9g135lw4",
+          "id": "https://status.twilio.com/incidents/3cfq686xk90h",
           "author": null,
-          "description": "Nov 29, 12:01 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 27, 17:53 PST\nScheduled - The Megafon network in Russia is conducting a planned maintenance from 29 November 2023 at 12:00 PST until 29 November 2023 at 17:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to Megafon Russia handsets.",
-          "link": "https://status.twilio.com/incidents/1r4p9g135lw4",
-          "publishedOn": "2023-11-29T20:01:30.000Z",
+          "description": "Nov 30, 12:39 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Vodacom network in South Africa. This incident has been resolved.\nNov 30, 10:42 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Vodacom network in South Africa. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 30, 09:36 PST\nUpdate - We continue to experience SMS delivery delays when sending messages to Vodacom network in South Africa using domestic long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nNov 30, 07:20 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to Vodacom network in South Africa using domestic long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 30, 06:18 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to Vodacom network in South Africa using domestic long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/3cfq686xk90h",
+          "publishedOn": "2023-11-30T20:39:01.000Z",
+          "wordCount": 7453,
+          "title": "SMS Delivery Delays to Vodacom Network in South Africa Using Domestic Longcodes",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/wl1v66r67sn7",
+          "author": null,
+          "description": "Nov 30, 12:19 PST\nResolved - Twilio Console in getting started with Messaging in a new account errors has been resolved and Twilio Console is operating normally at this time.\nNov 30, 11:48 PST\nMonitoring - Twilio Console in getting started with Messaging in a new account is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes\n or as soon as more information becomes available.\nNov 30, 10:44 PST\nUpdate - We are currently investigating errors when getting started with Messaging in a new account in the Twilio Console. Our engineers are working on the issue, and we will provide another update in 1 hour or as soon as more information becomes available.\nNov 30, 10:34 PST\nInvestigating - Our monitoring systems have detected a potential issue Twilio Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/wl1v66r67sn7",
+          "publishedOn": "2023-11-30T20:19:41.000Z",
+          "wordCount": 7346,
+          "title": "SMS Onboarding in Console Issues",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/hvlhh7q2x1j4",
+          "author": null,
+          "description": "Nov 30, 12:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 27, 17:56 PST\nScheduled - The Megafon network in Russia is conducting a planned maintenance from 30 November 2023 at 12:00 PST until 30 November 2023 at 17:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to Megafon Russia handsets.",
+          "link": "https://status.twilio.com/incidents/hvlhh7q2x1j4",
+          "publishedOn": "2023-11-30T20:00:32.000Z",
           "wordCount": 7264,
           "title": "Russia SMS Carrier Maintenance - Megafon",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/2tdny944z6m7",
-          "author": null,
-          "description": "Nov 29, 11:02 PST\nResolved - Hosted or ported numbers issues have been resolved, and Inventory management is operating normally at this time.\nNov 29, 10:28 PST\nMonitoring - Hosted or ported numbers weren’t able to be added, the inventory management was impacted. Phone numbers inventory is now operating normally. We will continue to monitor for system stability. We’ll provide another update in 30 minutes or as soon as more information becomes available.\nNov 29, 10:09 PST\nInvestigating - Our monitoring systems have detected a potential issue with phone numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/2tdny944z6m7",
-          "publishedOn": "2023-11-29T19:02:01.000Z",
-          "wordCount": 7292,
-          "title": "Phone Numbers Inventory Issues",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/4s7v7kwf5hmx",
-          "author": null,
-          "description": "Nov 29, 11:01 PST\nCompleted - The scheduled maintenance has been completed.\nNov 29, 05:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 28, 23:09 PST\nScheduled - Our Voice carrier partner in Australia is conducting an emergency maintenance from 29 November at 05:00 PST until 29 November at 11:00 PST. During the maintenance window, there could be intermittent call disconnects and call failures for calls to and from Twilio Australia phone numbers.",
-          "link": "https://status.twilio.com/incidents/4s7v7kwf5hmx",
-          "publishedOn": "2023-11-29T19:01:10.000Z",
-          "wordCount": 7271,
-          "title": "Australia Voice Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -163,6 +142,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/1n8mgx97nfb0",
+          "author": null,
+          "description": "Nov 30, 18:12 UTC\nResolved - Beginning around 16:48 UTC, our Engineering team identified an issue impacting a subset of Droplets in our BLR1 region. From 16:48 UTC to 17:45 UTC, impacted Droplets did not have correctly functioning networking capabilities. Additionally, users were unable to perform any events (such as power off, recycle, resize, etc) and any changes to the Cloud Firewalls for impacted Droplets were not being applied.\nOur Engineering team has resolved the issue and networking and the Cloud Firewalls on all Droplets should be functioning normally.  \nWe apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.",
+          "link": "https://status.digitalocean.com/incidents/1n8mgx97nfb0",
+          "publishedOn": "2023-11-30T18:12:21.000Z",
+          "wordCount": 6047,
+          "title": "Networking in BLR1 for a Subset of Droplets",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/wpz7gdly2p32",
           "author": null,
@@ -315,13 +304,73 @@
       "siteUrl": "https://www.google.com/appsstatus/dashboard/",
       "articles": [
         {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/xW79o92ggzV3QyUm7rDh",
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/Hjq8CpkhWroicw7R1wSh",
           "author": null,
-          "description": "<p> Incident began at <strong>2023-11-21 06:29</strong> and ended at <strong>2023-11-21 08:14</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The issue with Google Workspace Support has been resolved for all affected users as of Tuesday, 2023-11-21 00:14 US/Pacific. We thank you for your patience while we worked on resolving the issue.</p>\n</div><hr><p>Affected products: Google Workspace Support</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/xW79o92ggzV3QyUm7rDh",
-          "publishedOn": "2023-11-22T05:50:58.000Z",
-          "wordCount": 383,
-          "title": "RESOLVED: We are experiencing an issue with Google Workspace Support beginning at Monday, 2023-11-20 22:29 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Tuesday, 2023-11-21 02:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\nCustomers impacted by this issue would not be able to attach files in the support chat within Google Workspace Admin consoles.",
+          "description": "<p> Incident began at <strong>2023-11-30 16:30</strong> and ended at <strong>2023-11-30 21:15</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The issue with email delays was mitigated for the majority of affected users at 11:45 US/Pacific.</p>\n<p>A few users may have observed delays until the full mitigation was done at 13:15 US/Pacific.</p>\n<p>We will publish an analysis of this incident once we have completed our internal investigation.</p>\n<p>We thank you for your patience while we worked on resolving the issue.</p>\n</div><hr><p>Affected products: Gmail</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/Hjq8CpkhWroicw7R1wSh",
+          "publishedOn": "2023-11-30T22:03:26.000Z",
+          "wordCount": 747,
+          "title": "RESOLVED: We are experiencing an issue with Gmail beginning on Thursday, 2023-11-30 08:30 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Thursday, 2023-11-30 10:30 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\nCustomer Symptoms :\nCustomers impacted by this issue may see delay in sending the emails.\nWorkaround:\nNone at this time.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/Hjq8CpkhWroicw7R1wSh",
+          "author": null,
+          "description": "<p> Incident began at <strong>2023-11-30 16:30</strong> and ended at <strong>2023-11-30 21:15</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Google engineers have taken required mitigation measures.</p>\n<p>New emails should generally not be seeing any issues. However older emails will be auto retried and should be delivered within the next couple of hours.</p>\n<p>Our engineers continue to monitor the issue until full recovery.</p>\n<p>We will provide more information by Thursday, 2023-11-30 13:45 US/Pacific.</p>\n<p>Customer Symptoms:\nCustomers impacted by this issue may see delay while sending the emails.</p>\n<p>Workaround:\nCustomers can retry sending the email.</p>\n</div><hr><p>Affected products: Gmail</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/Hjq8CpkhWroicw7R1wSh",
+          "publishedOn": "2023-11-30T20:46:53.000Z",
+          "wordCount": 747,
+          "title": "UPDATE: We are experiencing an issue with Gmail beginning on Thursday, 2023-11-30 08:30 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Thursday, 2023-11-30 10:30 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\nCustomer Symptoms :\nCustomers impacted by this issue may see delay in sending the emails.\nWorkaround:\nNone at this time.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/Hjq8CpkhWroicw7R1wSh",
+          "author": null,
+          "description": "<p> Incident began at <strong>2023-11-30 16:30</strong> and ended at <strong>2023-11-30 21:15</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Google engineers have taken required mitigation measures.</p>\n<p>New emails should generally not be seeing any issues. However older emails will be auto retried and should be delivered within the next couple of hours.</p>\n<p>Our engineers continue to monitor the issue until full recovery.</p>\n<p>We will provide more information by Thursday, 2023-11-30 12:45 US/Pacific.</p>\n<p>Customer Symptoms:\nCustomers impacted by this issue may see delay for a few mins while sending the emails.</p>\n<p>Workaround:\nCustomers can retry sending the email.</p>\n</div><hr><p>Affected products: Gmail</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/Hjq8CpkhWroicw7R1wSh",
+          "publishedOn": "2023-11-30T20:04:58.000Z",
+          "wordCount": 747,
+          "title": "UPDATE: We are experiencing an issue with Gmail beginning on Thursday, 2023-11-30 08:30 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Thursday, 2023-11-30 10:30 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\nCustomer Symptoms :\nCustomers impacted by this issue may see delay in sending the emails.\nWorkaround:\nNone at this time.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/Hjq8CpkhWroicw7R1wSh",
+          "author": null,
+          "description": "<p> Incident began at <strong>2023-11-30 16:30</strong> and ended at <strong>2023-11-30 21:15</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Mitigation work is currently underway by our engineering team.</p>\n<p>Our engineers have taken a few mitigation steps at the highest priority and are actively validating the results.</p>\n<p>We will provide more information by Thursday, 2023-11-30 12:00 US/Pacific.</p>\n<p>Customer Symptoms:\nCustomers impacted by this issue may see delay for a few mins while sending the emails.</p>\n<p>Workaround:\nCustomers can retry sending the email.</p>\n</div><hr><p>Affected products: Gmail</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/Hjq8CpkhWroicw7R1wSh",
+          "publishedOn": "2023-11-30T19:13:05.000Z",
+          "wordCount": 747,
+          "title": "UPDATE: We are experiencing an issue with Gmail beginning on Thursday, 2023-11-30 08:30 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Thursday, 2023-11-30 10:30 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\nCustomer Symptoms :\nCustomers impacted by this issue may see delay in sending the emails.\nWorkaround:\nNone at this time.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/Hjq8CpkhWroicw7R1wSh",
+          "author": null,
+          "description": "<p> Incident began at <strong>2023-11-30 16:30</strong> and ended at <strong>2023-11-30 21:15</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Mitigation work is currently underway by our engineering team.</p>\n<p>We do not have an ETA for mitigation at this point.</p>\n<p>We will provide more information by Thursday, 2023-11-30 11:15 US/Pacific.</p>\n<p>Customer Symptoms:\nCustomers impacted by this issue may see delay for a few mins while sending the emails.</p>\n<p>Workaround:\nCustomers can retry sending the email.</p>\n</div><hr><p>Affected products: Gmail</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/Hjq8CpkhWroicw7R1wSh",
+          "publishedOn": "2023-11-30T18:22:55.000Z",
+          "wordCount": 747,
+          "title": "UPDATE: We are experiencing an issue with Gmail beginning on Thursday, 2023-11-30 08:30 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Thursday, 2023-11-30 10:30 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\nCustomer Symptoms :\nCustomers impacted by this issue may see delay in sending the emails.\nWorkaround:\nNone at this time.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/Hjq8CpkhWroicw7R1wSh",
+          "author": null,
+          "description": "<p> Incident began at <strong>2023-11-30 16:30</strong> and ended at <strong>2023-11-30 21:15</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Mitigation work is currently underway by our engineering team.</p>\n<p>We do not have an ETA for mitigation at this point.</p>\n<p>We will provide more information by Thursday, 2023-11-30 10:30 US/Pacific.</p>\n<p>Customer Symptoms:\nCustomers impacted by this issue may see delay in sending the emails.</p>\n<p>Workaround:\nNone at this time.</p>\n</div><hr><p>Affected products: Gmail</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/Hjq8CpkhWroicw7R1wSh",
+          "publishedOn": "2023-11-30T17:41:17.000Z",
+          "wordCount": 747,
+          "title": "UPDATE: We are experiencing an issue with Gmail beginning on Thursday, 2023-11-30 08:30 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Thursday, 2023-11-30 10:30 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\nCustomer Symptoms :\nCustomers impacted by this issue may see delay in sending the emails.\nWorkaround:\nNone at this time.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/Hjq8CpkhWroicw7R1wSh",
+          "author": null,
+          "description": "<p> Incident began at <strong>2023-11-30 16:30</strong> and ended at <strong>2023-11-30 21:15</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>We are experiencing an issue with Gmail beginning on Thursday, 2023-11-30 08:30 US/Pacific.</p>\n<p>Our engineering team continues to investigate the issue.</p>\n<p>We will provide an update by Thursday, 2023-11-30 10:30 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption.</p>\n<p>Customer Symptoms :\nCustomers impacted by this issue may see delay in sending the emails.</p>\n<p>Workaround:\nNone at this time.</p>\n</div><hr><p>Affected products: Gmail</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/Hjq8CpkhWroicw7R1wSh",
+          "publishedOn": "2023-11-30T17:31:53.000Z",
+          "wordCount": 747,
+          "title": "UPDATE: We are experiencing an issue with Gmail beginning on Thursday, 2023-11-30 08:30 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Thursday, 2023-11-30 10:30 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\nCustomer Symptoms :\nCustomers impacted by this issue may see delay in sending the emails.\nWorkaround:\nNone at this time.",
           "imageUrl": null
         }
       ]
@@ -344,10 +393,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/dsb3kn1zfdl7",
           "author": null,
-          "description": "Nov 28, 17:59 UTC\nResolved - This incident has been resolved.\nNov 28, 17:59 UTC\nUpdate - Actions is operating normally.\nNov 28, 17:36 UTC\nUpdate - Customers saw pull requests push event deliveries for Actions and Webhooks fail between 16:23 and 17:12 (UTC). We fixed the issue, and we are working to re-process push events for the affected time period.\nNov 28, 17:24 UTC\nInvestigating - We are investigating reports of degraded performance for Actions and Webhooks",
+          "description": "Nov 28, 17:59 UTC\nResolved - This incident has been resolved. An interaction between two feature flag rollouts caused us to suppress delivery of push webhooks between 16:23 and 17:11 UTC in a manner that evaded our existing observability. This affected 71,000 repositories whose users will have noted missing webhook deliveries and/or experienced Actions jobs with push triggers failing to start. During this period, around 25% of new Actions jobs were impacted. The issues were resolved by disabling one of the feature flags in question.\nAfter weighing various options for retroactively dispatching old push webhooks, we concluded that the risk of delivering stale data to customers with these redeliveries outweighed the possible benefit.\nAs follow up to this incident, we are working to improve monitoring of webhook throughput and to document a policy around webhook redelivery timelines.\nNov 28, 17:59 UTC\nUpdate - Actions is operating normally.\nNov 28, 17:36 UTC\nUpdate - Customers saw pull requests push event deliveries for Actions and Webhooks fail between 16:23 and 17:12 (UTC). We fixed the issue, and we are working to re-process push events for the affected time period.\nNov 28, 17:24 UTC\nInvestigating - We are investigating reports of degraded performance for Actions and Webhooks",
           "link": "https://www.githubstatus.com/incidents/dsb3kn1zfdl7",
           "publishedOn": "2023-11-28T17:59:15.000Z",
-          "wordCount": 5068,
+          "wordCount": 5192,
           "title": "Incident with Actions and Webhooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
