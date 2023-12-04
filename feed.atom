@@ -1,19 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-12-03T00:23:41.624Z</id>
+    <id>urn:2023-12-04T00:22:34.002Z</id>
     <title>osmos::feed</title>
-    <updated>2023-12-03T00:23:41.624Z</updated>
+    <updated>2023-12-04T00:22:34.002Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Airtel Network in Zambia]]></title>
-        <id>https://status.twilio.com/incidents/66s2fj9qm4pj</id>
-        <link href="https://status.twilio.com/incidents/66s2fj9qm4pj"/>
-        <updated>2023-12-02T23:58:24.000Z</updated>
-        <summary type="html"><![CDATA[Dec  2, 15:58 PST
-Update - We are continuing to investigate SMS delivery delays when sending messages to to Airtel Network in Zambia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec  2, 14:55 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to to Airtel Network in Zambia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <title type="html"><![CDATA[France SMS Carrier Maintenance - SFR]]></title>
+        <id>https://status.twilio.com/incidents/fmhbqyw5hbj8</id>
+        <link href="https://status.twilio.com/incidents/fmhbqyw5hbj8"/>
+        <updated>2023-12-04T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Dec 3, 21:00 PST  -  Dec 4, 00:00 PST
+Dec  3, 01:03 PST
+Scheduled - The SFR network in France is conducting an emergency maintenance from 03 December 2023 at 21:00 PST until 04 December 2023 at 00:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from SFR France handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United Kingdom Account Security Carrier Partner Maintenance - Vodafone UK]]></title>
+        <id>https://status.twilio.com/incidents/cq6mcjv8pcpp</id>
+        <link href="https://status.twilio.com/incidents/cq6mcjv8pcpp"/>
+        <updated>2023-12-03T22:15:14.000Z</updated>
+        <summary type="html"><![CDATA[Dec  3, 14:15 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Nov 28, 15:51 PST
+Scheduled - Our carrier partner Vodafone UK is conducting a planned maintenance from 03 December 2023 at 14:15 PST until 03 December 2023 at 20:15 PST. During the maintenance window, there could be intermittent API request failures for Vodafone UK customers.
+Impacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Malaysia SMS Carrier Maintenance - Celcom]]></title>
+        <id>https://status.twilio.com/incidents/j4kgdwvd1m1q</id>
+        <link href="https://status.twilio.com/incidents/j4kgdwvd1m1q"/>
+        <updated>2023-12-03T22:00:26.000Z</updated>
+        <summary type="html"><![CDATA[Dec  3, 14:00 PST
+Completed - The scheduled maintenance has been completed.
+Dec  3, 08:00 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Dec  1, 14:41 PST
+Scheduled - The Celcom network in Malaysia is conducting a planned maintenance from 03 December 2023 at 08:00 PST until 03 December 2023 at 14:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to Celcom Malaysia handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US, Canada and Puerto Rico SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/6s8s6kr13644</id>
+        <link href="https://status.twilio.com/incidents/6s8s6kr13644"/>
+        <updated>2023-12-03T21:30:12.000Z</updated>
+        <summary type="html"><![CDATA[Dec  3, 13:30 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Nov 30, 07:01 PST
+Scheduled - Our SMS carrier partner in US, Canada and Puerto Rico is conducting a planned maintenance from 3 December 2023 at 13:30 PST until 3 December 2023 at 16:30 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from US, Canada and Puerto Rico handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -662,55 +703,6 @@ Nov  6, 17:25 UTC
 Investigating - There are issues loading Rippling. We are working on a fix.]]></summary>
         <author>
             <name>Rippling Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[App Platform Deployments]]></title>
-        <id>https://status.digitalocean.com/incidents/bw3r3j9b5ph5</id>
-        <link href="https://status.digitalocean.com/incidents/bw3r3j9b5ph5"/>
-        <updated>2023-11-04T08:18:05.000Z</updated>
-        <summary type="html"><![CDATA[Nov  4, 08:18 UTC
-Resolved - Our Engineering team has confirmed the full resolution of the issue impacting App Platform Deployments. 
-From 11:54 on Nov 2nd to 06:42 on Nov 4th UTC, App Platform users may have experienced delays when deploying new apps or when deploying updates to existing Apps. Our Upstream provider and the Engineering team closely worked together to resolve the issue. 
-The impact has been completely subsided and users should no longer see any issues with the impacted services.
-If you continue to experience problems, please open a ticket with our support team from your Cloud Control Panel. Thank you for your patience and we apologize for any inconvenience.
-Nov  4, 06:53 UTC
-Update - As per the recent update from our Upstream provider, they fully recovered the services used…]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Networking in SFO Regions]]></title>
-        <id>https://status.digitalocean.com/incidents/nz33vs0sjhqy</id>
-        <link href="https://status.digitalocean.com/incidents/nz33vs0sjhqy"/>
-        <updated>2023-11-03T23:14:12.000Z</updated>
-        <summary type="html"><![CDATA[Nov  3, 23:14 UTC
-Resolved - Our Engineering team has confirmed the full resolution of issue impacting network connectivity in our SFO regions. 
-Users should no longer experience any latency or timeout issue with any of the Droplet based services. 
-If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
-Nov  3, 20:58 UTC
-Monitoring - As of 19:55 UTC, our Engineering team has confirmed that a fix has been implemented by our upstream carrier to mitigate the cause of the issue impacting network connectivity in our SFO region. 
-We are closely monitoring the situation and will update as soon as we have more information from the provider.
-Nov  3, 19:43 UTC
-Identified - Our Engineering team has identified the cause of the issue impacting network connectivity in our SFO region. Upstream congestion with a network provider between Los Angeles and Dallas is impacting traffic traversing out of our SFO datacentres.
-A case has been opened by our team with the provider. Our team has attempted to shift traffic to improve the situation, but unfortunately, we continue to see approximately 10% of customer traffic impacted by this issue.
-Our team is working on an option to shift to an alternate provider if this issue is not able to be resolved by the provider in a timely manner. We will share another update once we have further information from the provider or we have an update from our Engineering team.
-Nov  3, 19:27 UTC
-Investigating - As of 17:40 UTC, our Engineering team is investigating an issue impacting networking in the SFO regions. During this time, a subset of users may experience packet loss/latency and timeouts with Droplet based services in these regions, including Droplets, Managed Kubernetes, and Managed Database. We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Git Operations, Issues, Pull Requests, Actions, API Requests, Codespaces, Packages, Pages and Webhooks]]></title>
-        <id>https://www.githubstatus.com/incidents/xb30mby9fs5x</id>
-        <link href="https://www.githubstatus.com/incidents/xb30mby9fs5x"/>
-        <updated>2023-11-03T19:21:48.000Z</updated>
-        <summary type="html"><![CDATA[Nov  3, 19:21 UTC
-Resolved - A performance and resilience optimization to the authorization microservice contained a memory leak that was exposed under high traffic. This resulted in a number of pages returning 404’s that should not have. Testing the build in our canary ring did not expose the service to sufficient traffic to discover the leak, allowing it to graduate to production at 6:37 PM UTC.  The memory leak under high load caused pods to crash repeatedly starting at 6:42 PM UTC, failing authorization checks. These failures triggered alerts at 6:44 PM UTC. Rolling back the authorization service change was delayed as parts of the deployment infrastructure relied on the authorization service and required manual intervention to complete. Rollback completed at 7:08 PM UTC and all impacte…]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
