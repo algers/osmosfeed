@@ -1,18 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2023-12-21T00:21:57.174Z</id>
+    <id>urn:2023-12-22T00:22:20.109Z</id>
     <title>osmos::feed</title>
-    <updated>2023-12-21T00:21:57.174Z</updated>
+    <updated>2023-12-22T00:22:20.109Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Ukraine SMS Carrier Maintenance - Lifecell]]></title>
+        <id>https://status.twilio.com/incidents/fpwtnv1bs240</id>
+        <link href="https://status.twilio.com/incidents/fpwtnv1bs240"/>
+        <updated>2023-12-22T00:01:18.000Z</updated>
+        <summary type="html"><![CDATA[Dec 21, 16:01 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Dec 18, 15:11 PST
+Scheduled - The Lifecell network in Ukraine is conducting a planned maintenance from 21 December 2023 at 16:00 PST until 21 December 2023 at 20:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to Lifecell Ukraine handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spaces Availability in SGP1]]></title>
+        <id>https://status.digitalocean.com/incidents/vvypqsr1n2vf</id>
+        <link href="https://status.digitalocean.com/incidents/vvypqsr1n2vf"/>
+        <updated>2023-12-21T21:04:56.000Z</updated>
+        <summary type="html"><![CDATA[Dec 21, 21:04 UTC
+Resolved - Our engineering team has identified the root cause of the issue impacting Spaces in our SGP1 region and is continuing long-term mitigation work. From approximately 05:10 UTC - 08:00 UTC, users may have encountered errors with API or object requests, experienced difficulties in creating new buckets in SGP1, or faced issues with loading Spaces in the Cloud Control Panel. Spaces should now be operating normally.
+If you continue to experience problems, please open a ticket with our support team. Thank you for your patience and we apologize for any inconvenience.
+Dec 21, 08:27 UTC
+Monitoring - Our Engineering team has implemented a fix to resolve the issue impacting Spaces in our SGP1 region and is monitoring the situation closely. Users should no longer experience slowness or timeouts when trying to create or access their Spaces resources in the SGP1 region. We will post an update as soon as the issue is fully resolved.
+Dec 21, 07:56 UTC
+Identified - Our Engineering team has identified the cause of the issue impacting Object Storage in our SGP1 region and is actively working on a fix. During this time, users may encounter difficulties accessing Spaces, creating new buckets, deleting Spaces, and uploading files to and from Spaces buckets.
+We will post an update as soon as additional information is available.
+Dec 21, 05:34 UTC
+Investigating - As of 05:10 UTC, our Engineering team is investigating an issue with Object Storage in our SGP1 region. During this time, users may encounter difficulties accessing Spaces, creating new buckets, deleting Spaces, and uploading files to and from Spaces buckets.
+We apologize for the inconvenience and will share an update once we have more information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mexico SMS Carrier Maintenance - AT&T]]></title>
+        <id>https://status.twilio.com/incidents/wkb8vzj3cs4y</id>
+        <link href="https://status.twilio.com/incidents/wkb8vzj3cs4y"/>
+        <updated>2023-12-21T16:00:24.000Z</updated>
+        <summary type="html"><![CDATA[Dec 21, 08:00 PST
+Completed - The scheduled maintenance has been completed.
+Dec 21, 07:00 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Dec 20, 15:52 PST
+Scheduled - The AT&T network in Mexico is conducting an emergency maintenance from 21 December 2023 at 07:00 PST until 21 December 2023 at 08:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from  AT&T Mexico handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Verify Affected]]></title>
+        <id>https://status.twilio.com/incidents/twptxr7mw1kl</id>
+        <link href="https://status.twilio.com/incidents/twptxr7mw1kl"/>
+        <updated>2023-12-21T15:16:04.000Z</updated>
+        <summary type="html"><![CDATA[Dec 21, 07:16 PST
+Resolved - On December 21st between 02:17 UTC and 02:54 UTC, Verify experienced an increase in 5xx errors when creating verifications, as a cluster containing rules for a limited set of customers exceeded its network bandwidth, causing requests to be throttled.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flex, Conversations and Sync Products Affected in the US Region]]></title>
+        <id>https://status.twilio.com/incidents/dx7fjjmnqkns</id>
+        <link href="https://status.twilio.com/incidents/dx7fjjmnqkns"/>
+        <updated>2023-12-21T13:50:26.000Z</updated>
+        <summary type="html"><![CDATA[Dec 21, 05:50 PST
+Resolved - Issues with Twilio Conversations, Flex and Sync products that might lead to increased latencies and occasional 500 errors on public APIs in the US region due to increased traffic on the system has been resolved and is operating normally at this time.
+Dec 21, 03:59 PST
+Monitoring - We are observing recovery in  issues with Twilio Conversations, Flex and Sync products that might lead to increased latencies and occasional 500 errors on public APIs in the US region due to increased traffic on the system. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.
+Dec 21, 03:02 PST
+Update - We are experiencing issues with Twilio Conversations, Flex and Sync products that might lead to increased latencies and occasional 500 errors on public APIs in the US region due to increased traffic on the system.
+Dec 21, 02:48 PST
+Investigating - Our monitoring systems have detected a potential issue with Conversations, Flex and Sync. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Ooredoo Network in Myanmar]]></title>
+        <id>https://status.twilio.com/incidents/lp99nccytwwm</id>
+        <link href="https://status.twilio.com/incidents/lp99nccytwwm"/>
+        <updated>2023-12-21T10:23:49.000Z</updated>
+        <summary type="html"><![CDATA[Dec 21, 02:23 PST
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Ooredoo network in Myanmar. This incident has been resolved.
+Dec 21, 00:26 PST
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Ooredoo network in Myanmar. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Dec 20, 22:27 PST
+Update - We continue to experience SMS delivery delays when sending messages to Ooredoo network in Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Dec 20, 21:37 PST
+Investigating - We are experiencing SMS delivery delays when sending messages to Ooredoo network in Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Russia SMS Carrier Maintenance - MTN]]></title>
         <id>https://status.twilio.com/incidents/ccrg7d1t0swb</id>
         <link href="https://status.twilio.com/incidents/ccrg7d1t0swb"/>
-        <updated>2023-12-21T04:30:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Dec 20, 20:30 - 22:30 PST
+        <updated>2023-12-21T06:31:04.000Z</updated>
+        <summary type="html"><![CDATA[Dec 20, 22:31 PST
+Completed - The scheduled maintenance has been completed.
+Dec 20, 20:30 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Dec 16, 08:25 PST
 Scheduled - The MTN network in Russia is conducting a planned maintenance from 20 December 2023 at 20:30 PST until 20 December 2023 at 22:30 PST. During the maintenance window, there could be intermittent delays delivering SMS to MTN Russia handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - MTS]]></title>
+        <id>https://status.twilio.com/incidents/q94bdfqbw4qy</id>
+        <link href="https://status.twilio.com/incidents/q94bdfqbw4qy"/>
+        <updated>2023-12-21T03:00:13.000Z</updated>
+        <summary type="html"><![CDATA[Dec 20, 19:00 PST
+Completed - The scheduled maintenance has been completed.
+Dec 20, 11:01 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Dec 19, 14:37 PST
+Scheduled - The MTS network in Russia is conducting an emergency maintenance from 20 December 2023 at 11:00 PST until 20 December 2023 at 19:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to MTS Russia handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -21,11 +132,32 @@ Scheduled - The MTN network in Russia is conducting a planned maintenance from 2
         <title type="html"><![CDATA[SMS Delivery Delays to Telenor Network in Myanmar]]></title>
         <id>https://status.twilio.com/incidents/5zwgppqd8fcg</id>
         <link href="https://status.twilio.com/incidents/5zwgppqd8fcg"/>
-        <updated>2023-12-21T00:03:57.000Z</updated>
-        <summary type="html"><![CDATA[Dec 20, 15:55 PST
+        <updated>2023-12-21T02:53:55.000Z</updated>
+        <summary type="html"><![CDATA[Dec 20, 18:53 PST
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Telenor Network in Myanmar. This incident has been resolved.
+Dec 20, 17:10 PST
+Monitoring - We are observing recovery with SMS delivery delays when sending messages to Telenor Network in Myanmar. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Dec 20, 15:55 PST
 Investigating - We are experiencing SMS delivery delays when sending messages to Telenor Network in Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Users seeing blurred file unfurls]]></title>
+        <id>https://status.slack.com//2023-12/7f05f584fa98cf7c</id>
+        <link href="https://status.slack.com//2023-12/7f05f584fa98cf7c"/>
+        <updated>2023-12-21T02:01:15.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+From 1:43 PM PST on December 19, 2023 to 10:25 AM PST on December 20, 2023, a small number of users experienced seeing blurred file previews. We discovered that this affected users with international data residency enabled in their workspace.
+
+
+A change was made to our file storage, resulting in unexpected behaviour with file previews. We promptly identified the problematic code and reverted back the change in an effort to prevent file previews from becoming blurred. 
+
+We later ran a script to fix affected files to display with clear previews, resolving the issue for all affected users.]]></summary>
+        <author>
+            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
@@ -66,35 +198,6 @@ Dec 20, 09:14 PST
 Investigating - We are observing inbound call failures to Twilio Spain phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - MTS]]></title>
-        <id>https://status.twilio.com/incidents/q94bdfqbw4qy</id>
-        <link href="https://status.twilio.com/incidents/q94bdfqbw4qy"/>
-        <updated>2023-12-20T19:01:41.000Z</updated>
-        <summary type="html"><![CDATA[Dec 20, 11:01 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Dec 19, 14:37 PST
-Scheduled - The MTS network in Russia is conducting an emergency maintenance from 20 December 2023 at 11:00 PST until 20 December 2023 at 19:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to MTS Russia handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Users seeing blurred file unfurls]]></title>
-        <id>https://status.slack.com//2023-12/7f05f584fa98cf7c</id>
-        <link href="https://status.slack.com//2023-12/7f05f584fa98cf7c"/>
-        <updated>2023-12-20T18:51:00.000Z</updated>
-        <summary type="html"><![CDATA[We've resolved the issue with blurred file previews in Slack. Previously uploaded files should no longer display a blurred preview.
-
-
-It's recommended for anyone still seeing the issue to hard refresh their Slack app by pressing Cmd/Ctrl + Shift + R.
-
-
-We apologize for the trouble this may have caused and appreciate your patience while we sorted things out.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
@@ -365,38 +468,6 @@ Investigating - We are experiencing SMS delivery delays when sending messages to
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Germany Account Security Carrier Partner Maintenance - Deutsche Telekom]]></title>
-        <id>https://status.twilio.com/incidents/65lxjhk236q4</id>
-        <link href="https://status.twilio.com/incidents/65lxjhk236q4"/>
-        <updated>2023-12-19T02:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Dec 18, 18:00 PST
-Completed - The scheduled maintenance has been completed.
-Dec 18, 16:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Dec 18, 07:03 PST
-Scheduled - Our carrier partner Deutsche Telekom is conducting an emergency maintenance from 18 December 2023 at 16:00 PST until 18 December 2023 at 18:00 PST. During the maintenance window, there could be intermittent API request failures for Deutsche Telekom customers.
-
-Impacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Beeline]]></title>
-        <id>https://status.twilio.com/incidents/9zzpc12gb9gc</id>
-        <link href="https://status.twilio.com/incidents/9zzpc12gb9gc"/>
-        <updated>2023-12-19T00:00:16.000Z</updated>
-        <summary type="html"><![CDATA[Dec 18, 16:00 PST
-Completed - The scheduled maintenance has been completed.
-Dec 18, 13:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Dec 11, 06:22 PST
-Scheduled - The Beeline network in Russia is conducting a planned maintenance from 18 December 2023 at 13:00 PST until 18 December 2023 at 16:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to Beeline Russia handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Incident with Git Operations and Pull Requests]]></title>
         <id>https://www.githubstatus.com/incidents/476y2pqmb3hc</id>
         <link href="https://www.githubstatus.com/incidents/476y2pqmb3hc"/>
@@ -412,23 +483,6 @@ Dec 18, 21:17 UTC
 Investigating - We are investigating reports of degraded performance for Git Operations and Pull Requests]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Call Failures to Indonesia Twilio Phone Numbers]]></title>
-        <id>https://status.twilio.com/incidents/54x5g5h6tmsd</id>
-        <link href="https://status.twilio.com/incidents/54x5g5h6tmsd"/>
-        <updated>2023-12-18T20:11:55.000Z</updated>
-        <summary type="html"><![CDATA[Dec 18, 12:11 PST
-Resolved - The issue affecting inbound calls to Twilio Indonesia phone numbers has been resolved, and the service is functioning normally at this time.
-Dec 18, 10:29 PST
-Monitoring - We have started seeing recovery for calls to Twilio Indonesia phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Dec 18, 08:34 PST
-Update - We are still experiencing call failures to Indonesia Twilio phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Dec 18, 07:31 PST
-Investigating - We are observing call failures to Indonesia Twilio phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -868,23 +922,6 @@ Nov 22, 17:37 UTC
 Investigating - Customers are experiencing issues with the assignment of Adobe licenses to users. We are investigating this issue.]]></summary>
         <author>
             <name>Rippling Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notion AI is down]]></title>
-        <id>https://status.notion.so/incidents/69628qhdf41j</id>
-        <link href="https://status.notion.so/incidents/69628qhdf41j"/>
-        <updated>2023-11-22T02:00:20.000Z</updated>
-        <summary type="html"><![CDATA[Nov 21, 18:00 PST
-Resolved - This is resolved.
-Nov 21, 16:50 PST
-Update - Provider calls are more stable. We are monitoring our provider.
-Nov 21, 16:43 PST
-Monitoring - A fix has been implemented and we are monitoring the results.
-Nov 21, 16:42 PST
-Identified - Notion AI is partially not working as one of our service providers is down]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
         </author>
     </entry>
 </feed>
