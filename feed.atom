@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-01-04T00:22:23.846Z</id>
+    <id>urn:2024-01-05T00:22:04.170Z</id>
     <title>osmos::feed</title>
-    <updated>2024-01-04T00:22:23.846Z</updated>
+    <updated>2024-01-05T00:22:04.170Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Erroneous emails being sent to IT admins about user account privileges on Windows devices]]></title>
+        <id>https://status.rippling.com/incidents/5qwcw06j2w1b</id>
+        <link href="https://status.rippling.com/incidents/5qwcw06j2w1b"/>
+        <updated>2024-01-04T22:53:03.000Z</updated>
+        <summary type="html"><![CDATA[Jan  4, 22:53 UTC
+Resolved - This incident has been resolved.
+Jan  4, 22:45 UTC
+Monitoring - A fix has been implemented and we are monitoring the results.
+Jan  4, 19:22 UTC
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>Rippling Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Issues Affecting the Partner Portal]]></title>
         <id>https://airbnbapi.statuspage.io/incidents/g0r1ty50zxsz</id>
         <link href="https://airbnbapi.statuspage.io/incidents/g0r1ty50zxsz"/>
-        <updated>2024-01-04T00:00:04.000Z</updated>
-        <summary type="html"><![CDATA[Jan  3, 16:00 PST
+        <updated>2024-01-04T16:53:53.000Z</updated>
+        <summary type="html"><![CDATA[Jan  4, 08:53 PST
+Update - We are still working on this issue, apologies for the inconvenience.
+Jan  3, 16:00 PST
 Identified - We are investigating an issue affecting our Diagnostic tools in the Partner Portal that started today Jan 3, 2024 around 12:00PM PST. Currently, you might not see any API-connected listings on the Listings dashboard, and in a listing's overview page, you might see the following message "The listing is not API connected". Please note that no listings were disconnected due to this incident; this issue affects the Partner Portal view only.
 We are actively working to resolve this issue, and will post more updates as soon as possible.]]></summary>
         <author>
@@ -18,48 +35,22 @@ We are actively working to resolve this issue, and will post more updates as soo
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Moov Network in Niger]]></title>
-        <id>https://status.twilio.com/incidents/90v8jw9sb217</id>
-        <link href="https://status.twilio.com/incidents/90v8jw9sb217"/>
-        <updated>2024-01-03T23:48:31.000Z</updated>
-        <summary type="html"><![CDATA[Jan  3, 15:48 PST
-Update - We continue observing recovery in SMS delivery delays when sending messages to Moov Network in Niger. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jan  3, 13:47 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Moov Network in Niger. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jan  3, 12:51 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to Moov Network in Niger. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <title type="html"><![CDATA[Settings in Cloud Control Panel Unavailable]]></title>
+        <id>https://status.digitalocean.com/incidents/1pbm98zxkh8w</id>
+        <link href="https://status.digitalocean.com/incidents/1pbm98zxkh8w"/>
+        <updated>2024-01-04T15:59:14.000Z</updated>
+        <summary type="html"><![CDATA[Jan  4, 15:59 UTC
+Resolved - From approximately 15:00 - 15:35 UTC, users saw a 404 error when navigating to the Settings page in our Cloud Control Panel. 
+Our Engineering team has confirmed full resolution of the issue. 
+If you continue to experience issues, please open a Support ticket from within your account.
+Jan  4, 15:39 UTC
+Monitoring - Our Engineering team has identified the root cause of the issue with the Settings portion of our Cloud Control Panel throwing a 404 and has implemented a fix. At this time, users should be able to navigate to the Settings tab or directly to https://cloud.digitalocean.com/account/team normally. 
+We are monitoring the fix and will post a final update once we confirm full resolution.
+Jan  4, 15:24 UTC
+Investigating - Our Engineering team is investigating an issue with the Settings portion of our Cloud Control Panel. At this time, users navigating to the Settings tab or directly to https://cloud.digitalocean.com/account/team will see a 404 error. 
+We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Cubacel in Cuba]]></title>
-        <id>https://status.twilio.com/incidents/9jfsj7trzdfm</id>
-        <link href="https://status.twilio.com/incidents/9jfsj7trzdfm"/>
-        <updated>2024-01-03T22:17:58.000Z</updated>
-        <summary type="html"><![CDATA[Jan  3, 14:17 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Cubacel network in Cuba. This incident has been resolved.
-Jan  3, 12:22 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Cubacel network in Cuba. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jan  3, 11:22 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to the Cubecel network in Cuba. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vietnam SMS Carrier Maintenance - VinaPhone]]></title>
-        <id>https://status.twilio.com/incidents/3196mmschk31</id>
-        <link href="https://status.twilio.com/incidents/3196mmschk31"/>
-        <updated>2024-01-03T17:31:19.000Z</updated>
-        <summary type="html"><![CDATA[Jan  3, 09:31 PST
-Completed - The scheduled maintenance has been completed.
-Jan  3, 09:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Dec 30, 23:39 PST
-Scheduled - The VinaPhone network in Vietnam is conducting a planned maintenance from 03 January 2024 at 09:00 PST until 03 January 2024 at 09:30 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from VinaPhone Vietnam handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
+            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -87,190 +78,6 @@ Jan  3, 12:42 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Celcom Network in Malaysia Using Domestic Longcodes]]></title>
-        <id>https://status.twilio.com/incidents/kvhx7jyb4jlt</id>
-        <link href="https://status.twilio.com/incidents/kvhx7jyb4jlt"/>
-        <updated>2024-01-03T04:58:55.000Z</updated>
-        <summary type="html"><![CDATA[Jan  2, 20:58 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Celcom Network in Malaysia using Domestic Longcodes. This incident has been resolved.
-Jan  2, 19:11 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Celcom Network in Malaysia using Domestic Longcodes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jan  2, 18:18 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to Celcom Network in Malaysia using Domestic Longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Celcom Network in Malaysia]]></title>
-        <id>https://status.twilio.com/incidents/52dn4j2rnk4k</id>
-        <link href="https://status.twilio.com/incidents/52dn4j2rnk4k"/>
-        <updated>2024-01-02T11:43:11.000Z</updated>
-        <summary type="html"><![CDATA[Jan  2, 03:43 PST
-Resolved - This incident has been resolved.
-Jan  2, 03:40 PST
-Update - We are no longer experiencing SMS delivery delays when sending messages to Celcom Network in Malaysia. This incident has been resolved.
-Jan  2, 01:56 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Celcom Network in Malaysia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jan  1, 22:07 PST
-Update - We continue to experience SMS delivery delays when sending messages to Celcom Network in Malaysia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Jan  1, 20:07 PST
-Update - We continue to experience SMS delivery delays when sending messages to Celcom Network in Malaysia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Jan  1, 19:07 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to Celcom Network in Malaysia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to MTN Network in Sudan]]></title>
-        <id>https://status.twilio.com/incidents/w7sl2wsb776h</id>
-        <link href="https://status.twilio.com/incidents/w7sl2wsb776h"/>
-        <updated>2024-01-01T19:10:51.000Z</updated>
-        <summary type="html"><![CDATA[Jan  1, 11:10 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to MTN Network in Sudan. This incident has been resolved.
-Jan  1, 09:21 PST
-Update - We are continuing to observing recovery in MMS/SMS delivery delays when sending messages to MTN Network in Sudan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jan  1, 07:21 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to MTN Network in Sudan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jan  1, 03:55 PST
-Update - We are still experiencing SM…]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to America Net Network in Brazil]]></title>
-        <id>https://status.twilio.com/incidents/yfvf2c09m393</id>
-        <link href="https://status.twilio.com/incidents/yfvf2c09m393"/>
-        <updated>2024-01-01T18:46:25.000Z</updated>
-        <summary type="html"><![CDATA[Jan  1, 10:46 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to America Net Network in Brazil. This incident has been resolved.
-Jan  1, 09:00 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to America Net Network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jan  1, 01:00 PST
-Update - We are continuing to experience SMS delivery delays when sending messages America Net Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
-Dec 31, 21:02 PST
-Update - We are continuing to experience SMS delivery delays when sending messages America Net Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Dec 31, 19:02 PST
-Update - We are continuing to experience SMS delivery delays when sending messages America Net Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 31, 18:02 PST
-Investigating - We are experiencing SMS delivery delays when sending messages America Net Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Failure To Etisalat Network In Egypt]]></title>
-        <id>https://status.twilio.com/incidents/yh67v36pt7wk</id>
-        <link href="https://status.twilio.com/incidents/yh67v36pt7wk"/>
-        <updated>2024-01-01T12:08:18.000Z</updated>
-        <summary type="html"><![CDATA[Jan  1, 04:08 PST
-Resolved - We are no longer experiencing SMS delivery failures sending to Etisalat Network In Egypt. This incident has been resolved.
-Jan  1, 02:10 PST
-Monitoring - We are observing recovery in SMS delivery failures sending to Etisalat Network In Egypt. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 31, 22:13 PST
-Update - We are continuing to experience SMS delivery failures sending to Etisalat Network In Egypt. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
-Dec 31, 20:13 PST
-Update - We are continuing to experience SMS delivery failures sending to Etisalat Network In Egypt. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Dec 31, 19:13 PST
-Investigating - We are experiencing SMS delivery failures sending to Etisalat Network In Egypt. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twilio Recordings Affected]]></title>
-        <id>https://status.twilio.com/incidents/n5b1k3xtr2sp</id>
-        <link href="https://status.twilio.com/incidents/n5b1k3xtr2sp"/>
-        <updated>2023-12-31T22:06:24.000Z</updated>
-        <summary type="html"><![CDATA[Dec 31, 14:06 PST
-Resolved - Twilio Recordings were degraded for 60 minutes between 11:30 and 12:30 Pacific Time on 31/12/2023. During this period of time customers may have experienced 500 errors when using the API. The issue has now been resolved.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delay to Twilio Phone Numbers in the US Over a Subset of Shortcode]]></title>
-        <id>https://status.twilio.com/incidents/0c5rdtj4nz4m</id>
-        <link href="https://status.twilio.com/incidents/0c5rdtj4nz4m"/>
-        <updated>2023-12-31T15:28:52.000Z</updated>
-        <summary type="html"><![CDATA[Dec 31, 07:28 PST
-Resolved - We are no longer experiencing SMS Delivery Delay To Twilio Phone Numbers In US Over A Subset Of Shortcode. This incident has been resolved.
-Dec 31, 05:51 PST
-Monitoring - We are observing recovery in SMS delivery delays to Twilio Phone Numbers in US over a subset of short codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 30, 22:23 PST
-Update - We continue to experience SMS delivery delays to Twilio Phone Numbers in US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
-Dec 30, 14:29 PST
-Investigating -…]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Receipt Delays to IAM Network in Morocco]]></title>
-        <id>https://status.twilio.com/incidents/t0ss3njxjvkq</id>
-        <link href="https://status.twilio.com/incidents/t0ss3njxjvkq"/>
-        <updated>2023-12-31T02:48:14.000Z</updated>
-        <summary type="html"><![CDATA[Dec 30, 18:48 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to IAM network in Morocco. This incident has been resolved.
-Dec 30, 16:53 PST
-Update - We are observing recovery in SMS delivery delays when sending messages to IAM in Morocco. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 30, 16:34 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to IAM in Morocco. We will continue monitoring the service to ensure a full recovery. We will provide another update in 30 minutes or as soon as more information becomes available.
-Dec 30, 15:48 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to IAM network in Morocco. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Tigo Network in Senegal]]></title>
-        <id>https://status.twilio.com/incidents/ccq3gmg0009g</id>
-        <link href="https://status.twilio.com/incidents/ccq3gmg0009g"/>
-        <updated>2023-12-31T01:00:53.000Z</updated>
-        <summary type="html"><![CDATA[Dec 30, 17:00 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Tigo Network in Senegal. This incident has been resolved.
-Dec 30, 15:32 PST
-Update - We are observing recovery in SMS delivery delays when sending messages to Tigo Network in Senegal. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 30, 15:07 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Tigo Network in Senegal. We will continue monitoring the service to ensure a full recovery. We will provide another update in 30 minutes or as soon as more information becomes available.
-Dec 30, 12:16 PST
-Update - We continue experiencing SMS delivery delays when sending messages to Tigo Network in Senegal. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
-Dec 30, 08:16 PST
-Update - We continue experiencing SMS delivery delays when sending messages to Tigo Network in Senegal. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Dec 30, 06:20 PST
-Update - We are still experiencing SMS delivery delays when sending messages to Tigo Network in Senegal. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 30, 05:24 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to Tigo Network in Senegal. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Failures on MTN Network in Sudan]]></title>
-        <id>https://status.twilio.com/incidents/1z7fqgqhymry</id>
-        <link href="https://status.twilio.com/incidents/1z7fqgqhymry"/>
-        <updated>2023-12-30T20:43:36.000Z</updated>
-        <summary type="html"><![CDATA[Dec 30, 12:43 PST
-Resolved - We are no longer experiencing SMS delivery failures to MTN Network in Sudan. This incident has been resolved.
-Dec 30, 10:54 PST
-Monitoring - We are observing recovery in SMS delivery failures sending to MTN Network in Sudan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 30, 04:13 PST
-Update - We are still experiencing SMS delivery failures sending to MTN Network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 16 hours or as soon as more information becomes available.
-Dec 29, 20:53 PST
-Update - We are still experiencing SMS delivery failures sending to MTN Network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.
-Dec 29, 16:36 PST
-Update - We are still experiencing SMS delivery failures sending to MTN Network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
-Dec 29, 14:30 PST
-Update - We continue experiencing SMS delivery failures sending to MTN Network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Dec 29, 13:30 PST
-Investigating - We are experiencing SMS delivery failures sending to MTN Network in Sudan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -716,21 +523,6 @@ Identified - As of 07:45 UTC, our Engineering team has been made aware of an iss
 We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SSO Log-In Issues for Windows]]></title>
-        <id>https://status.notion.so/incidents/9jymy8sknh0f</id>
-        <link href="https://status.notion.so/incidents/9jymy8sknh0f"/>
-        <updated>2023-12-05T21:22:51.000Z</updated>
-        <summary type="html"><![CDATA[Dec  5, 13:22 PST
-Resolved - The team will be investigating this incident as bug.
-Dec  5, 12:16 PST
-Monitoring - The incident has been identified as a bug and the team is actively monitoring reports and the issue
-Dec  5, 11:08 PST
-Investigating - We are currently investigating an issue where Notion users are unable to log-in via SSO on the Windows Desktop App]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
         </author>
     </entry>
 </feed>
