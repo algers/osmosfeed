@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-01-07T00:24:37.540Z</id>
+    <id>urn:2024-01-08T00:23:18.529Z</id>
     <title>osmos::feed</title>
-    <updated>2024-01-07T00:24:37.540Z</updated>
+    <updated>2024-01-08T00:23:18.529Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes Clusters - Authentication Errors]]></title>
+        <id>https://status.digitalocean.com/incidents/x0l7xgm3bc91</id>
+        <link href="https://status.digitalocean.com/incidents/x0l7xgm3bc91"/>
+        <updated>2024-01-08T00:01:29.000Z</updated>
+        <summary type="html"><![CDATA[Jan  8, 00:01 UTC
+Monitoring - Our Engineering team has confirmed that the action taken to mitigate the impact of this incident is successful and customers are no longer seeing issues accessing or performing actions on Managed Kubernetes Clusters. 
+We'll monitor the situation for a short while and will post a final update once we confirm full resolution.
+Jan  7, 23:32 UTC
+Identified - Our Engineering team has taken action to mitigate the impact of this incident and internal tests on impacted clusters are now passing. At this time, users should start to see recovery and be able to access clusters normally. 
+We are still investigating root cause and ensuring this mitigation will continue to be successful. We'll provide another update as soon as possible.
+Jan  7, 22:02 UTC
+Investigating - Our Engineering team is investigating customer reports of errors when trying to perform actions on Managed Kubernetes Clusters using kubectl. At this time, customers may see errors indicating that the API token is unauthorized or missing credentials. We will provide an update as soon as we have more information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Issues Affecting the Partner Portal]]></title>
         <id>https://airbnbapi.statuspage.io/incidents/g0r1ty50zxsz</id>
@@ -516,35 +533,6 @@ We can't wait to hear your thoughts on this fantastic new feature!]]></summary>
 Resolved - Between 6:45 PST - 7:30 PST, users may have encountered errors while saving their changes. This issue has now been resolved.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Network Connectivity in BLR1]]></title>
-        <id>https://status.digitalocean.com/incidents/1hv33vh6sf2l</id>
-        <link href="https://status.digitalocean.com/incidents/1hv33vh6sf2l"/>
-        <updated>2023-12-08T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Dec  8, 18:00 UTC
-Resolved - From 17:53 - 18:22 UTC, we experienced an issue impacting networking in our BLR1 region, with an impact to internal DigitalOcean services.
-During that time, public networking for customer services like Droplets and Droplet-based products was not impacted. However, users experienced issues with CRUD (create, read, update, delete) operations for services in BLR1, such as creating Droplets, managing Spaces Buckets, etc. Additionally, Cloud Firewalls were unable to be applied to services in BLR1 during that timeframe.
-Our Engineering team has resolved the issue and all services should be functioning normally.
-We apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spaces CDN in SGP1]]></title>
-        <id>https://status.digitalocean.com/incidents/y557k86bkdts</id>
-        <link href="https://status.digitalocean.com/incidents/y557k86bkdts"/>
-        <updated>2023-12-08T14:33:52.000Z</updated>
-        <summary type="html"><![CDATA[Dec  8, 14:33 UTC
-Resolved - As of 09:18 UTC, our Engineering team has confirmed the resolution of the issue impacting Spaces CDN in our SGP1 region. Users should no longer experience issues when accessing their Spaces resources over the CDN endpoint in the SGP1 region. 
-If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
-Dec  8, 09:47 UTC
-Identified - As of 07:45 UTC, our Engineering team has been made aware of an issue with the Spaces CDN in the SGP1 region. During this time, users may experience errors for objects served over the CDN. 
-We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>

@@ -63,6 +63,16 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/x0l7xgm3bc91",
+          "author": null,
+          "description": "Jan  8, 00:01 UTC\nMonitoring - Our Engineering team has confirmed that the action taken to mitigate the impact of this incident is successful and customers are no longer seeing issues accessing or performing actions on Managed Kubernetes Clusters. \nWe'll monitor the situation for a short while and will post a final update once we confirm full resolution.\nJan  7, 23:32 UTC\nIdentified - Our Engineering team has taken action to mitigate the impact of this incident and internal tests on impacted clusters are now passing. At this time, users should start to see recovery and be able to access clusters normally. \nWe are still investigating root cause and ensuring this mitigation will continue to be successful. We'll provide another update as soon as possible.\nJan  7, 22:02 UTC\nInvestigating - Our Engineering team is investigating customer reports of errors when trying to perform actions on Managed Kubernetes Clusters using kubectl. At this time, customers may see errors indicating that the API token is unauthorized or missing credentials. We will provide an update as soon as we have more information.",
+          "link": "https://status.digitalocean.com/incidents/x0l7xgm3bc91",
+          "publishedOn": "2024-01-08T00:01:29.000Z",
+          "wordCount": 6117,
+          "title": "Kubernetes Clusters - Authentication Errors",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/1pbm98zxkh8w",
           "author": null,
           "description": "Jan  4, 15:59 UTC\nResolved - From approximately 15:00 - 15:35 UTC, users saw a 404 error when navigating to the Settings page in our Cloud Control Panel. \nOur Engineering team has confirmed full resolution of the issue. \nIf you continue to experience issues, please open a Support ticket from within your account.\nJan  4, 15:39 UTC\nMonitoring - Our Engineering team has identified the root cause of the issue with the Settings portion of our Cloud Control Panel throwing a 404 and has implemented a fix. At this time, users should be able to navigate to the Settings tab or directly to https://cloud.digitalocean.com/account/team normally. \nWe are monitoring the fix and will post a final update once we confirm full resolution.\nJan  4, 15:24 UTC\nInvestigating - Our Engineering team is investigating an issue with the Settings portion of our Cloud Control Panel. At this time, users navigating to the Settings tab or directly to https://cloud.digitalocean.com/account/team will see a 404 error. \nWe apologize for the inconvenience and will share an update once we have more information.",
@@ -90,26 +100,6 @@
           "publishedOn": "2023-12-21T21:04:56.000Z",
           "wordCount": 6203,
           "title": "Spaces Availability in SGP1",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/1hv33vh6sf2l",
-          "author": null,
-          "description": "Dec  8, 18:00 UTC\nResolved - From 17:53 - 18:22 UTC, we experienced an issue impacting networking in our BLR1 region, with an impact to internal DigitalOcean services.\nDuring that time, public networking for customer services like Droplets and Droplet-based products was not impacted. However, users experienced issues with CRUD (create, read, update, delete) operations for services in BLR1, such as creating Droplets, managing Spaces Buckets, etc. Additionally, Cloud Firewalls were unable to be applied to services in BLR1 during that timeframe.\nOur Engineering team has resolved the issue and all services should be functioning normally.\nWe apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.",
-          "link": "https://status.digitalocean.com/incidents/1hv33vh6sf2l",
-          "publishedOn": "2023-12-08T18:00:00.000Z",
-          "wordCount": 6029,
-          "title": "Network Connectivity in BLR1",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/y557k86bkdts",
-          "author": null,
-          "description": "Dec  8, 14:33 UTC\nResolved - As of 09:18 UTC, our Engineering team has confirmed the resolution of the issue impacting Spaces CDN in our SGP1 region. Users should no longer experience issues when accessing their Spaces resources over the CDN endpoint in the SGP1 region. \nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nDec  8, 09:47 UTC\nIdentified - As of 07:45 UTC, our Engineering team has been made aware of an issue with the Spaces CDN in the SGP1 region. During this time, users may experience errors for objects served over the CDN. \nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/y557k86bkdts",
-          "publishedOn": "2023-12-08T14:33:52.000Z",
-          "wordCount": 6040,
-          "title": "Spaces CDN in SGP1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
