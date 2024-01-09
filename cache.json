@@ -6,6 +6,16 @@
       "siteUrl": "https://changelog.bookingsync.com",
       "articles": [
         {
+          "id": "282774",
+          "author": "Ella, Chief Customer Officer (CCO) & Cofounder",
+          "description": "Communications\n  \n\nAs we step into this new year, we want to take a moment to express our heartfelt gratitude for your trust and partnership. Your journey is at the heart of everything we do, and it's been an incredible experience growing alongside each of you.\nThis past year has been filled with challenges but also triumphs, and through it all, our Property Managers and Owners have always been our main inspiration. We're honored to be a part of your story, helping you manage and grow your vacation rental business.\nLooking ahead, we're excited to continue our journey together. With every challenge comes an opportunity, and we're here to support you every step of the way. Let's make this year one of progress, success, and shared smiles!\nHereby some of Smily's milestones and snapshot of our 2023 key achievements:\nIncrease efficient communication: enhanced Inbox filters for efficient guest communication, enabling quick searches by conversation status, assignee, guest, booking stage, and more.\nPowerful partnerships: Collaborations with Maeva and PlumGuide have opened new horizons and more OTA distribution channels!\nGuest experience & security: From synchronized check-in types to robust website https updates, we're elevating the guest journey.\nSustainable visibility: Synchronization of our eco-amenities to Holidu to boost visibility and conversion rates!\nReviewed payment processes: With easier Stripe account onboarding and better integration but also by streamlining our billing system, managing finances should be smoother than ever.\nReview management made easy: Our AI-powered Review Response and Automated Guest Reviews are setting new standards in reputation management.\nTech Marvels: Our focus on modernization and security has supercharged system stability and performance. Don't miss the insights on our new Tech Blog.\nOnce again, here's to a year filled with happiness, health, and prosperity. Let's keep building dreams and sharing smiles with every soul.\nHappy New Year! 🌟\nWith love and warmth,\nYour Smily Team",
+          "link": "https://changelog.bookingsync.com/2024-here-we-are!-happy-new-year-from-all-of-us-at-smily!-282774",
+          "publishedOn": "2024-01-08T09:34:22.000Z",
+          "wordCount": 556,
+          "title": "2024, here we are! Happy New Year from all of us at Smily! 🎉",
+          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/120/521-ab80fc2159e2f0d70a2ae0f84b447500ce6e3763.jpg"
+        },
+        {
           "id": "281231",
           "author": "Maud , Partnership Manager",
           "description": "New!\n  \nExciting news! \nIntroducing Host Review Automation on Smily – a game-changer for hosts like you! 🚀\nNow, with just a few clicks, you can automate the process of posting reviews about your guests on Airbnb.\n\n💙 Why you'll love it:\nSave Time: Say goodbye to the hassle of manually posting reviews. Our automation feature streamlines the process, allowing you to focus on what matters most – creating unforgettable guest experiences.\n​\nConsistency: Don’t miss any opportunity to provide a 5-star review. It encourages positive behavior from your guests, enhances your guest experience, and fosters a sense of appreciation and satisfaction.\n​\nEnhanced Communication: Strengthen your host profile, posting a review encourages your guest to review their experience with you. Timely feedback benefits future guests and contributes to building a trustworthy host reputation.\n​\nBoost your visibility: Help your property shine bright in search results! Airbnb loves hosts with high review rates – the more, the merrier. Your listing gets pushed to the top, ensuring more eyes on your amazing space.\n\n\n\n🌟 Activate the Host Review Automation feature today through your Smily account by navigating to Reviews ⏩ Host Reviews ⏩ Automation\n\n\n\n💡 For more detailed information, simply click here and follow the easy setup instructions.\nWe can't wait to hear your thoughts on this fantastic new feature!",
@@ -23,12 +33,22 @@
       "siteUrl": "https://tailscale.com/security-bulletins/",
       "articles": [
         {
+          "id": "https://tailscale.com/security-bulletins/#ts-2024-001",
+          "author": null,
+          "description": "Description: On Windows before Tailscale version 1.52 and on Linux before\nTailscale 1.54, the tailscale serve and tailscale funnel features allowed\nusers to serve the contents of directories that their user account could not\naccess, but which the tailscaled service process could.\nWhat happened?\nA user could escalate their own file read access by running, for example,\ntailscale.exe serve http / C:\\, and then browsing to the local HTTP endpoint.\nThe issue can also occur on Linux if the local administrator enabled an operator\nuser ID with tailscale up --operator=$USER, as the $USER account could\nserve itself files that it could not normally read.\nWho is affected?\nOwners of Windows deployments for which the users of Tailscale nodes do not also\nhave OS-level administrative access, and owners of Linux deployments where the\nadministrator enabled non-root --operator access.\nThis issue can only be triggered by a local user and cannot be triggered\nremotely.\nWhat is the impact?\nThis issue enables local privilege escalation (file read access). Access to\ncertain system files (such as /etc/shadow on Linux) can then be used to obtain\nfull administrative control over the host.\nWhat do I need to do?\nOn Windows 10 and later, upgrade to Tailscale 1.52 (released 30 October\n2023) or later, which resolves the issue.\nOn Windows 7 and 8, upgrade to Tailscale 1.44.3 (released 8 Jan\n2024), which resolves the issue.\nOn Linux, upgrade to 1.54 (released 15 November 2023) or later,\nwhich resolves the issue.\nThe best practice is to run the latest stable version, which as of this writing\nis 1.56.1. Consider turning on automatic updates.\nUse Tailscale ACLs to control the availability of Funnel.",
+          "link": "https://tailscale.com/security-bulletins/#ts-2024-001",
+          "publishedOn": "2024-01-08T00:00:00.000Z",
+          "wordCount": 10094,
+          "title": "TS-2024-001",
+          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
+        },
+        {
           "id": "https://tailscale.com/security-bulletins/#ts-2023-009",
           "author": null,
           "description": "Description: The OAuth implementation of Google Workspace allows for the creation of Google accounts associated with a given Workspace domain that are not actually controlled by that workspace, e.g. alice+foo@example.com. As a result, these accounts may be used to retain access to systems that use Google Workspace SSO login even after the original account has been deactivated or removed.\nWhat happened?\nTailscale uses Google as one of the possible identity providers for creating and joining a tailnet. Users who have emails with the same domain name can automatically sign in using SSO and be added to the corresponding tailnet (unless user approval is turned on for the tailnet)​​. The OAuth vulnerability reported by Truffle Security means that it is possible for an attacker to create a new pe…",
           "link": "https://tailscale.com/security-bulletins/#ts-2023-009",
           "publishedOn": "2023-12-22T00:00:00.000Z",
-          "wordCount": 9564,
+          "wordCount": 10094,
           "title": "TS-2023-009",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -63,12 +83,22 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/88sl0dldq6dh",
+          "author": null,
+          "description": "Jan  8, 15:57 UTC\nResolved - As of 15:00 UTC, Our engineering team has resolved the issue impacting Container Registry  and App platform builds in various regions including AMS3, LON1 and FRA1 regions. \nEverything should now be functioning normally. We appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.\nJan  8, 15:13 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue impacting Container Registry App platform builds in AMS3, LON1 and FRA1 regions. User should not be facing any issues while interacting with their Container registries and also while building their Apps. \nWe are actively monitoring the situation to ensure stability and will provide an update once the incident has been fully resolved. \nThank you for your patience and we apologize for the inconvenience.\nJan  8, 14:15 UTC\nInvestigating - Our Engineering team is investigating an issue with DigitalOcean Container Registry service in our AMS3 and LON1 regions. \nDuring this time a subset of customers may experience latency while interacting with the Container Registries. This is also impacting App Platform builds and users may encounter delays in while building their Apps and could potentially experience timeout errors in builds as a result. \nWe apologize for the inconvenience and will share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/88sl0dldq6dh",
+          "publishedOn": "2024-01-08T15:57:06.000Z",
+          "wordCount": 6166,
+          "title": "Container Registry and App Platform in Multiple Regions",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/x0l7xgm3bc91",
           "author": null,
-          "description": "Jan  8, 00:01 UTC\nMonitoring - Our Engineering team has confirmed that the action taken to mitigate the impact of this incident is successful and customers are no longer seeing issues accessing or performing actions on Managed Kubernetes Clusters. \nWe'll monitor the situation for a short while and will post a final update once we confirm full resolution.\nJan  7, 23:32 UTC\nIdentified - Our Engineering team has taken action to mitigate the impact of this incident and internal tests on impacted clusters are now passing. At this time, users should start to see recovery and be able to access clusters normally. \nWe are still investigating root cause and ensuring this mitigation will continue to be successful. We'll provide another update as soon as possible.\nJan  7, 22:02 UTC\nInvestigating - Our Engineering team is investigating customer reports of errors when trying to perform actions on Managed Kubernetes Clusters using kubectl. At this time, customers may see errors indicating that the API token is unauthorized or missing credentials. We will provide an update as soon as we have more information.",
+          "description": "Jan  8, 00:32 UTC\nResolved - Our Engineering team has confirmed the full resolution of the issue with authentication failures on Managed Kubernetes Clusters.\nFrom 19:26 - 23:29 UTC, users saw errors accessing and performing actions on Managed Kubernetes Clusters, due to authentication failures. All services are now operating normally.  \nIf you continue to experience problems, please open a ticket with our support team. Thank you for your patience throughout this incident!\nJan  8, 00:01 UTC\nMonitoring - Our Engineering team has confirmed that the action taken to mitigate the impact of this incident is successful and customers are no longer seeing issues accessing or performing actions on Managed Kubernetes Clusters. \nWe'll monitor the situation for a short while and will post a final update once we confirm full resolution.\nJan  7, 23:32 UTC\nIdentified - Our Engineering team has taken action to mitigate the impact of this incident and internal tests on impacted clusters are now passing. At this time, users should start to see recovery and be able to access clusters normally. \nWe are still investigating root cause and ensuring this mitigation will continue to be successful. We'll provide another update as soon as possible.\nJan  7, 22:02 UTC\nInvestigating - Our Engineering team is investigating customer reports of errors when trying to perform actions on Managed Kubernetes Clusters using kubectl. At this time, customers may see errors indicating that the API token is unauthorized or missing credentials. We will provide an update as soon as we have more information.",
           "link": "https://status.digitalocean.com/incidents/x0l7xgm3bc91",
-          "publishedOn": "2024-01-08T00:01:29.000Z",
-          "wordCount": 6117,
+          "publishedOn": "2024-01-08T00:32:13.000Z",
+          "wordCount": 6186,
           "title": "Kubernetes Clusters - Authentication Errors",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -128,16 +158,6 @@
           "wordCount": 3377,
           "title": "Degenerated iOS mobile App Performance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/r1ppwpszz0bv",
-          "author": null,
-          "description": "Dec  9, 19:56 PST\nResolved - Between 6:45 PST - 7:30 PST, users may have encountered errors while saving their changes. This issue has now been resolved.",
-          "link": "https://status.notion.so/incidents/r1ppwpszz0bv",
-          "publishedOn": "2023-12-10T03:56:56.000Z",
-          "wordCount": 3324,
-          "title": "High Latency Errors",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -146,6 +166,16 @@
       "feedUrl": "https://status.rippling.com/history.rss",
       "siteUrl": "https://status.rippling.com",
       "articles": [
+        {
+          "id": "https://status.rippling.com/incidents/crg2qtnbmb1t",
+          "author": null,
+          "description": "Jan  8, 18:26 UTC\nResolved - The Rippling application was inaccessible from 9:39am to 10:06am PST; it has recovered and is now performing normally. The root cause is an incident with Cloudflare: https://www.cloudflarestatus.com/\nJan  8, 18:11 UTC\nMonitoring - The issue accessing Rippling has been mitigated, and we are monitoring the results.\nJan  8, 17:56 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://status.rippling.com/incidents/crg2qtnbmb1t",
+          "publishedOn": "2024-01-08T18:26:01.000Z",
+          "wordCount": 5038,
+          "title": "Issues loading Rippling",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
+        },
         {
           "id": "https://status.rippling.com/incidents/5qwcw06j2w1b",
           "author": null,
@@ -190,6 +220,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/35pgg0gc75nv",
+          "author": null,
+          "description": "Jan  8, 23:41 UTC\nResolved - This incident has been resolved.\nJan  8, 22:37 UTC\nUpdate - The initial mitigation we attempted did not fully resolve this issue.  We are continuing to investigate and will provide an update as soon as possible.\nJan  8, 21:55 UTC\nUpdate - We are engaged on the issue and continuing to work toward a mitigation. Please continue to fallback to VS Code desktop for port forwarding workflows.\nJan  8, 21:03 UTC\nUpdate - Mitigation of degraded Codespaces port forwarding in is progress.  In the meantime, please continue to use VS Code Desktop for port forwarding.\nJan  8, 20:22 UTC\nUpdate - We are actively mitigating degraded performance of Codespaces port forwarding in the web and GitHub CLI.  Codespaces port forwarding on VS Code Desktop is unaffected.\nJan  8, 20:22 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces",
+          "link": "https://www.githubstatus.com/incidents/35pgg0gc75nv",
+          "publishedOn": "2024-01-08T23:41:03.000Z",
+          "wordCount": 5133,
+          "title": "Incident with Codespaces",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/zzy7pdshgqk0",
           "author": null,
