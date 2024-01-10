@@ -1,10 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-01-09T00:22:52.630Z</id>
+    <id>urn:2024-01-10T00:22:28.715Z</id>
     <title>osmos::feed</title>
-    <updated>2024-01-09T00:22:52.630Z</updated>
+    <updated>2024-01-10T00:22:28.715Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident with Issues, API Requests, Pull Requests, Actions, Pages, Git Operations, Webhooks, Packages and Codespaces]]></title>
+        <id>https://www.githubstatus.com/incidents/pxg3dz4yg7lp</id>
+        <link href="https://www.githubstatus.com/incidents/pxg3dz4yg7lp"/>
+        <updated>2024-01-09T14:40:45.000Z</updated>
+        <summary type="html"><![CDATA[Jan  9, 14:40 UTC
+Resolved - This incident has been resolved.
+Jan  9, 14:38 UTC
+Update - Pull Requests is operating normally.
+Jan  9, 14:37 UTC
+Update - Packages is operating normally.
+Jan  9, 14:32 UTC
+Update - Git Operations is operating normally.
+Jan  9, 14:27 UTC
+Update - Codespaces is operating normally.
+Jan  9, 14:25 UTC
+Update - Actions is operating normally.
+Jan  9, 14:24 UTC
+Update - API Requests is operating normally.
+Jan  9, 14:24 UTC
+Update - Issues is operating normally.
+Jan  9, 14:20 UTC
+Update - Webhooks is operating normally.
+Jan  9, 14:16 UTC
+Update - Pages is operating normally.
+Jan  9, 14:15 UTC
+Update - API Requests is experiencing degraded performance. We are continuing to investigate.
+Jan  9, 14:15 UTC
+Update - 5xx error rates remain elevated but are seeing a downward…]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Managed Database Operations]]></title>
+        <id>https://status.digitalocean.com/incidents/8fm83lgfsdhm</id>
+        <link href="https://status.digitalocean.com/incidents/8fm83lgfsdhm"/>
+        <updated>2024-01-09T12:55:23.000Z</updated>
+        <summary type="html"><![CDATA[Jan  9, 12:55 UTC
+Resolved - As of 12:30  UTC, our Engineering team has resolved the issue impacting CRUD (create, read, update, delete) operations for Managed Database Clusters in all the regions.
+Everything should now be functioning normally. We appreciate your patience throughout the process.
+If you continue to experience problems, please open a ticket with our support team.
+Jan  9, 10:17 UTC
+Monitoring - Our Engineering team has confirmed that the action taken to mitigate the recurrence of the issue is successful. Users should no longer experience errors in CRUD (create, read, update, delete) operations for Managed Database Clusters in all regions, via both the Cloud Control Panel and API requests.
+We are actively monitoring the situation to ensure stability and will provide an update …]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We are investigating reports of degraded performance.]]></title>
+        <id>https://www.githubstatus.com/incidents/dxthh9653wkk</id>
+        <link href="https://www.githubstatus.com/incidents/dxthh9653wkk"/>
+        <updated>2024-01-09T05:44:37.000Z</updated>
+        <summary type="html"><![CDATA[Jan  9, 05:44 UTC
+Resolved - This incident has been resolved.
+Jan  9, 05:40 UTC
+Update - Audit logs streaming is currently unavailable due to a misconfiguration issue. The root cause is understood and our engineers will be updating the broken configuration shortly.
+Jan  9, 04:59 UTC
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident with Codespaces]]></title>
         <id>https://www.githubstatus.com/incidents/35pgg0gc75nv</id>
@@ -224,23 +288,9 @@ We apologize for the inconvenience and will share an update once we have more in
         <link href="https://www.githubstatus.com/incidents/zzy7pdshgqk0"/>
         <updated>2024-01-03T17:05:05.000Z</updated>
         <summary type="html"><![CDATA[Jan  3, 17:05 UTC
-Resolved - This incident has been resolved.
-Jan  3, 16:51 UTC
-Update - The /settings/email page remains slow, but we are continuing to see improvements.
-Jan  3, 16:08 UTC
-Update - We have resolved the timeouts on our end, but customers will still see slow load times on the /settings/email page.
-Jan  3, 15:13 UTC
-Update - We have identified a potential mitigation for the issue and are rolling it out. Additionally, we are still working with our external provider for a mitigation from them.
-Jan  3, 14:07 UTC
-Update - We are continuing to investigate reports of issues with the /settings/emails page. We are working with the provider to get a mitigation and are exploring options to mitigate on our end.
-Jan  3, 13:23 UTC
-Update - We're seeing issues related to a provider and are engaging them to investigate the issue.
-Jan  3, 12:59 UTC
-Update - We are continuing to investigate reports of issues with the /settings/emails page. We will continue to keep users updated on progress towards mitigation.
-Jan  3, 12:42 UTC
-Update - We're seeing problems loading the /settings/emails page.
-Jan  3, 12:42 UTC
-Investigating - We are currently investigating this issue.]]></summary>
+Resolved - From 10:30 to 16:15 UTC on January 3rd, our `/settings/emails` page experienced downtime due to an outage in our contact permissions system. During this time customers were unable to update their email subscription preferences.
+This system plays a crucial role in managing email subscriptions and the contactability of GitHub customers by our marketing and sales teams. Unfortunately, the outage prevented the generation of links for managing email subscriptions, resulting in the `/settings/emails` page timing out. Consequently, customers were unable to update their email subscription preferences during this period.
+During the incident we implemented graceful degradation on the `/settings/email` page to enable certain functionality, albeit with slower response time…]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>

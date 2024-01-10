@@ -83,6 +83,16 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/8fm83lgfsdhm",
+          "author": null,
+          "description": "Jan  9, 12:55 UTC\nResolved - As of 12:30  UTC, our Engineering team has resolved the issue impacting CRUD (create, read, update, delete) operations for Managed Database Clusters in all the regions.\nEverything should now be functioning normally. We appreciate your patience throughout the process.\nIf you continue to experience problems, please open a ticket with our support team.\nJan  9, 10:17 UTC\nMonitoring - Our Engineering team has confirmed that the action taken to mitigate the recurrence of the issue is successful. Users should no longer experience errors in CRUD (create, read, update, delete) operations for Managed Database Clusters in all regions, via both the Cloud Control Panel and API requests.\nWe are actively monitoring the situation to ensure stability and will provide an update …",
+          "link": "https://status.digitalocean.com/incidents/8fm83lgfsdhm",
+          "publishedOn": "2024-01-09T12:55:23.000Z",
+          "wordCount": 6289,
+          "title": "Managed Database Operations",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/88sl0dldq6dh",
           "author": null,
           "description": "Jan  8, 15:57 UTC\nResolved - As of 15:00 UTC, Our engineering team has resolved the issue impacting Container Registry  and App platform builds in various regions including AMS3, LON1 and FRA1 regions. \nEverything should now be functioning normally. We appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.\nJan  8, 15:13 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue impacting Container Registry App platform builds in AMS3, LON1 and FRA1 regions. User should not be facing any issues while interacting with their Container registries and also while building their Apps. \nWe are actively monitoring the situation to ensure stability and will provide an update once the incident has been fully resolved. \nThank you for your patience and we apologize for the inconvenience.\nJan  8, 14:15 UTC\nInvestigating - Our Engineering team is investigating an issue with DigitalOcean Container Registry service in our AMS3 and LON1 regions. \nDuring this time a subset of customers may experience latency while interacting with the Container Registries. This is also impacting App Platform builds and users may encounter delays in while building their Apps and could potentially experience timeout errors in builds as a result. \nWe apologize for the inconvenience and will share an update once we have more information.",
@@ -221,6 +231,26 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/pxg3dz4yg7lp",
+          "author": null,
+          "description": "Jan  9, 14:40 UTC\nResolved - This incident has been resolved.\nJan  9, 14:38 UTC\nUpdate - Pull Requests is operating normally.\nJan  9, 14:37 UTC\nUpdate - Packages is operating normally.\nJan  9, 14:32 UTC\nUpdate - Git Operations is operating normally.\nJan  9, 14:27 UTC\nUpdate - Codespaces is operating normally.\nJan  9, 14:25 UTC\nUpdate - Actions is operating normally.\nJan  9, 14:24 UTC\nUpdate - API Requests is operating normally.\nJan  9, 14:24 UTC\nUpdate - Issues is operating normally.\nJan  9, 14:20 UTC\nUpdate - Webhooks is operating normally.\nJan  9, 14:16 UTC\nUpdate - Pages is operating normally.\nJan  9, 14:15 UTC\nUpdate - API Requests is experiencing degraded performance. We are continuing to investigate.\nJan  9, 14:15 UTC\nUpdate - 5xx error rates remain elevated but are seeing a downward…",
+          "link": "https://www.githubstatus.com/incidents/pxg3dz4yg7lp",
+          "publishedOn": "2024-01-09T14:40:45.000Z",
+          "wordCount": 5480,
+          "title": "Incident with Issues, API Requests, Pull Requests, Actions, Pages, Git Operations, Webhooks, Packages and Codespaces",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
+          "id": "https://www.githubstatus.com/incidents/dxthh9653wkk",
+          "author": null,
+          "description": "Jan  9, 05:44 UTC\nResolved - This incident has been resolved.\nJan  9, 05:40 UTC\nUpdate - Audit logs streaming is currently unavailable due to a misconfiguration issue. The root cause is understood and our engineers will be updating the broken configuration shortly.\nJan  9, 04:59 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/dxthh9653wkk",
+          "publishedOn": "2024-01-09T05:44:37.000Z",
+          "wordCount": 5043,
+          "title": "We are investigating reports of degraded performance.",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/35pgg0gc75nv",
           "author": null,
           "description": "Jan  8, 23:41 UTC\nResolved - This incident has been resolved.\nJan  8, 22:37 UTC\nUpdate - The initial mitigation we attempted did not fully resolve this issue.  We are continuing to investigate and will provide an update as soon as possible.\nJan  8, 21:55 UTC\nUpdate - We are engaged on the issue and continuing to work toward a mitigation. Please continue to fallback to VS Code desktop for port forwarding workflows.\nJan  8, 21:03 UTC\nUpdate - Mitigation of degraded Codespaces port forwarding in is progress.  In the meantime, please continue to use VS Code Desktop for port forwarding.\nJan  8, 20:22 UTC\nUpdate - We are actively mitigating degraded performance of Codespaces port forwarding in the web and GitHub CLI.  Codespaces port forwarding on VS Code Desktop is unaffected.\nJan  8, 20:22 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces",
@@ -233,10 +263,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/zzy7pdshgqk0",
           "author": null,
-          "description": "Jan  3, 17:05 UTC\nResolved - This incident has been resolved.\nJan  3, 16:51 UTC\nUpdate - The /settings/email page remains slow, but we are continuing to see improvements.\nJan  3, 16:08 UTC\nUpdate - We have resolved the timeouts on our end, but customers will still see slow load times on the /settings/email page.\nJan  3, 15:13 UTC\nUpdate - We have identified a potential mitigation for the issue and are rolling it out. Additionally, we are still working with our external provider for a mitigation from them.\nJan  3, 14:07 UTC\nUpdate - We are continuing to investigate reports of issues with the /settings/emails page. We are working with the provider to get a mitigation and are exploring options to mitigate on our end.\nJan  3, 13:23 UTC\nUpdate - We're seeing issues related to a provider and are engaging them to investigate the issue.\nJan  3, 12:59 UTC\nUpdate - We are continuing to investigate reports of issues with the /settings/emails page. We will continue to keep users updated on progress towards mitigation.\nJan  3, 12:42 UTC\nUpdate - We're seeing problems loading the /settings/emails page.\nJan  3, 12:42 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Jan  3, 17:05 UTC\nResolved - From 10:30 to 16:15 UTC on January 3rd, our `/settings/emails` page experienced downtime due to an outage in our contact permissions system. During this time customers were unable to update their email subscription preferences.\nThis system plays a crucial role in managing email subscriptions and the contactability of GitHub customers by our marketing and sales teams. Unfortunately, the outage prevented the generation of links for managing email subscriptions, resulting in the `/settings/emails` page timing out. Consequently, customers were unable to update their email subscription preferences during this period.\nDuring the incident we implemented graceful degradation on the `/settings/email` page to enable certain functionality, albeit with slower response time…",
           "link": "https://www.githubstatus.com/incidents/zzy7pdshgqk0",
           "publishedOn": "2024-01-03T17:05:05.000Z",
-          "wordCount": 5201,
+          "wordCount": 5366,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
