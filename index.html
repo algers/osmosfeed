@@ -169,30 +169,8 @@ Your Smily team :)</span>
                               <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Jan  9, 14:40 UTC
-Resolved - This incident has been resolved.
-Jan  9, 14:38 UTC
-Update - Pull Requests is operating normally.
-Jan  9, 14:37 UTC
-Update - Packages is operating normally.
-Jan  9, 14:32 UTC
-Update - Git Operations is operating normally.
-Jan  9, 14:27 UTC
-Update - Codespaces is operating normally.
-Jan  9, 14:25 UTC
-Update - Actions is operating normally.
-Jan  9, 14:24 UTC
-Update - API Requests is operating normally.
-Jan  9, 14:24 UTC
-Update - Issues is operating normally.
-Jan  9, 14:20 UTC
-Update - Webhooks is operating normally.
-Jan  9, 14:16 UTC
-Update - Pages is operating normally.
-Jan  9, 14:15 UTC
-Update - API Requests is experiencing degraded performance. We are continuing to investigate.
-Jan  9, 14:15 UTC
-Update - 5xx error rates remain elevated but are seeing a downward…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
+Resolved - On January 9 between 12:45 and 13:56 UTC, services in one of our three sites experienced elevated latency for connections. This led to a sustained period of timed out requests across a number of services, including but not limited to our git backend. First, those requests that eventually timed out were starving out other requests from executing, leading to broader failed requests.  Second, the git backend services are critical dependencies of many GitHub features, which led to broader impact to other jobs and requests. An average of 5% and max of 10% of requests failed with a 5xx response or timed out during this period. We are actively working to identify all contributing factors of this incident, including opportunities to improve resiliency across all impact…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;19
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1708,8 +1686,8 @@ Investigating - We are currently experiencing issues with increased scenario exe
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/7482444754">
-        <time id="build-timestamp" datetime="2024-01-11T00:22:19.747Z">2024-01-11T00:22:19.747Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/7496170908">
+        <time id="build-timestamp" datetime="2024-01-12T00:22:22.481Z">2024-01-12T00:22:22.481Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

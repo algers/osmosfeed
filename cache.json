@@ -243,10 +243,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/pxg3dz4yg7lp",
           "author": null,
-          "description": "Jan  9, 14:40 UTC\nResolved - This incident has been resolved.\nJan  9, 14:38 UTC\nUpdate - Pull Requests is operating normally.\nJan  9, 14:37 UTC\nUpdate - Packages is operating normally.\nJan  9, 14:32 UTC\nUpdate - Git Operations is operating normally.\nJan  9, 14:27 UTC\nUpdate - Codespaces is operating normally.\nJan  9, 14:25 UTC\nUpdate - Actions is operating normally.\nJan  9, 14:24 UTC\nUpdate - API Requests is operating normally.\nJan  9, 14:24 UTC\nUpdate - Issues is operating normally.\nJan  9, 14:20 UTC\nUpdate - Webhooks is operating normally.\nJan  9, 14:16 UTC\nUpdate - Pages is operating normally.\nJan  9, 14:15 UTC\nUpdate - API Requests is experiencing degraded performance. We are continuing to investigate.\nJan  9, 14:15 UTC\nUpdate - 5xx error rates remain elevated but are seeing a downward…",
+          "description": "Jan  9, 14:40 UTC\nResolved - On January 9 between 12:45 and 13:56 UTC, services in one of our three sites experienced elevated latency for connections. This led to a sustained period of timed out requests across a number of services, including but not limited to our git backend. First, those requests that eventually timed out were starving out other requests from executing, leading to broader failed requests.  Second, the git backend services are critical dependencies of many GitHub features, which led to broader impact to other jobs and requests. An average of 5% and max of 10% of requests failed with a 5xx response or timed out during this period. We are actively working to identify all contributing factors of this incident, including opportunities to improve resiliency across all impact…",
           "link": "https://www.githubstatus.com/incidents/pxg3dz4yg7lp",
           "publishedOn": "2024-01-09T14:40:45.000Z",
-          "wordCount": 5480,
+          "wordCount": 5601,
           "title": "Incident with Issues, API Requests, Pull Requests, Actions, Pages, Git Operations, Webhooks, Packages and Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
