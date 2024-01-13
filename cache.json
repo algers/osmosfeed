@@ -160,6 +160,16 @@
       "siteUrl": "https://status.notion.so",
       "articles": [
         {
+          "id": "https://status.notion.so/incidents/qbkb93dwrm9r",
+          "author": null,
+          "description": "Jan 11, 22:56 PST\nResolved - This incident has been resolved.\nJan 11, 20:52 PST\nIdentified - We are experiencing issues with MFA  login method. The team has identified the cause and is working on the fix.",
+          "link": "https://status.notion.so/incidents/qbkb93dwrm9r",
+          "publishedOn": "2024-01-12T06:56:42.000Z",
+          "wordCount": 3344,
+          "title": "Issue with MFA Login",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.notion.so/incidents/4kbzwnzxc4df",
           "author": null,
           "description": "Jan  4, 18:06 PST\nResolved - This incident has been resolved. \nTime of incident was approximately from 5pm PDT - 6pm PDT.\nJan  4, 17:32 PST\nInvestigating - We are experiencing latency issues with our collections service, so users may experience issues loading databases. \nWe're actively looking into this, and we'll provide updates when we get more information.",
@@ -222,18 +232,7 @@
       "title": "Google Workspace Status Dashboard Updates",
       "feedUrl": "https://www.google.com/appsstatus/dashboard/en/feed.atom",
       "siteUrl": "https://www.google.com/appsstatus/dashboard/",
-      "articles": [
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/jPWZ4p7bTSq65P1b9Gfn",
-          "author": null,
-          "description": "<p> Incident began at <strong>2023-12-07 18:00</strong> and ended at <strong>2023-12-07 20:32</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Incident Report</h1>\n<h2>Summary</h2>\n<p>On 07 December 2023, various Google Workspace and Google Cloud customers experienced intermittent authentication issues when routed to one of our data centers in the US East region. As a result, a limited number of users could not sign-up, login, or re-authenticate for a duration of 1 hour and 32 minutes.</p>\n<p>To our Google Workspace and Google Cloud customers who were impacted during this issue, we sincerely apologize – this is not the level of quality and reliability we strive to offer you.</p>\n<h2>Root Cause</h2>\n<p>Google’s authentication stack is broad and deep, running across every region and zone to provide functionality globally across all Google products. This particular issue was scoped to a single microservice&#39;s serving jobs within a single data center; this microservice handles serving some of the user-facing pages involved in sign-up, login, and re-authentication flows.</p>\n<p>To improve resource usage efficiency, engineers had been implementing more advanced autoscaling algorithms across these serving jobs globally. These changes were rolled out gradually over a period of several weeks without any issues.</p>\n<p>On 7 December, the rollout kicked off rolling restarts across the individual tasks within the serving jobs in a single data center in the US East region. Due to internal network routing at the time, this data center was serving traffic from the US East area as well as South America. These factors placed additional demand on each task&#39;s thread pool, both overloading some tasks and affecting those tasks&#39; ability to report metrics back to load-balancers. This caused requests to be intermittently dropped between the load-balancer and the individual serving tasks; these dropped requests led to user-facing 500 error pages.</p>\n<h2>Remediation and Prevention</h2>\n<p>Google engineers were alerted by our internal monitoring system on 07 December at 11:16 US/Pacific and immediately started investigating the issue. Once the nature and scope of the issue became clear, Google engineers worked to confirm that traffic could be safely re-routed away from the impacted serving jobs as a mitigation strategy. Traffic was rerouted to other data centers, and the customer impact was mitigated by 12:32 US/Pacific. Our engineers then reviewed and tuned the stability and performance of both this and related serving jobs globally before declaring the incident fully resolved.</p>\n<p>Google is committed to quickly and continually improving our technology and operations to prevent service disruptions. We appreciate your patience and apologize again for the impact to your organization. We thank you for your business. We are committed to preventing a repeat of this issue in the future and are completing the following actions:</p>\n<ul>\n<li>Enhance metrics and dashboards to make these complex load-balancing dynamics more legible to engineers, reducing the time to mitigate similar future issues.</li>\n<li>Improve performance-testing of resource-allocation profiles for each individual serving job</li>\n</ul>\n<h2>Detailed Description of Impact</h2>\n<p><strong>Google Workspace:</strong></p>\n<ul>\n<li>During the issue, a limited number Google Workspace users served from this data center had issues with log-in and sign-up for part of unauthenticated traffic, including some users going through &quot;Sign in with Google &#39;&#39; interactive flows using their Google Workspace account</li>\n<li>Multiple Google Workspace product log-in attempts, reauthentication attempts, and some new account creation requests from users routed to this data center failed with error 502s.</li>\n<li>Users that were already logged in were not affected by the issue.</li>\n</ul>\n<p><strong>Google OAuth:</strong></p>\n<ul>\n<li>Some users served from this data center intermittently experienced error 502s when attempting to &quot;Sign in with Google&quot; and encountering interactive sign-in or re-authentication flows.</li>\n</ul>\n<p><strong>Google Cloud Console:</strong></p>\n<ul>\n<li>A limited number of  users served from this data center experienced error 502s intermittently when attempting to log-in to the Cloud Console.</li>\n</ul>\n<hr>\n</div><hr><p>Affected products: Classroom</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/jPWZ4p7bTSq65P1b9Gfn",
-          "publishedOn": "2023-12-14T00:45:03.000Z",
-          "wordCount": 1136,
-          "title": "RESOLVED: We're investigating reports of an issue with Classroom. We will provide more information shortly.",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "GitHub Status - Incident History",
@@ -243,10 +242,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/pxg3dz4yg7lp",
           "author": null,
-          "description": "Jan  9, 14:40 UTC\nResolved - On January 9 between 12:45 and 13:56 UTC, services in one of our three sites experienced elevated latency for connections. This led to a sustained period of timed out requests across a number of services, including but not limited to our git backend. First, those requests that eventually timed out were starving out other requests from executing, leading to broader failed requests.  Second, the git backend services are critical dependencies of many GitHub features, which led to broader impact to other jobs and requests. An average of 5% and max of 10% of requests failed with a 5xx response or timed out during this period. We are actively working to identify all contributing factors of this incident, including opportunities to improve resiliency across all impact…",
+          "description": "Jan  9, 14:40 UTC\nResolved - On January 9 between 12:45 and 13:56 UTC, services in one of our three sites experienced elevated latency for connections.  This led to a sustained period of timed out requests across a number of services, including but not limited to our git backend.  An average of 5% and max of 10% of requests failed with a 5xx response or timed out during this period.  This was caused by a combination of events that led to connection limits being hit in load balancer proxies in that site.  An upgrade of hosts was in flight, which meant a subset of proxy hosts were draining and coming offline as the upgrade rolled through the fleet.  A config change event also triggered a connection reset across all services in that site.  These events are commonplace, but led to a spike in c…",
           "link": "https://www.githubstatus.com/incidents/pxg3dz4yg7lp",
           "publishedOn": "2024-01-09T14:40:45.000Z",
-          "wordCount": 5601,
+          "wordCount": 5675,
           "title": "Incident with Issues, API Requests, Pull Requests, Actions, Pages, Git Operations, Webhooks, Packages and Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -402,16 +401,6 @@
           "publishedOn": "2023-12-20T16:44:01.000Z",
           "wordCount": 4113,
           "title": "Unresponsive shared hooks",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/671c34fz9z5z",
-          "author": null,
-          "description": "Dec 13, 14:18 CET\nResolved - The platform remains stable. The root cause has been identified, and we will actively work on the matter to prevent future reoccurrences.\nDec 12, 15:12 CET\nMonitoring - We have identified delays in scenario executions due to intermittent network issues affecting communication between our platform and one of our third-party services. We are actively working with the provider to investigate this and will share more information as soon as it becomes available.\nDec 12, 14:15 CET\nUpdate - The zone is currently stable. Scenario execution duration times are back to normal. We are still investigating the culprit.\nDec 12, 13:45 CET\nInvestigating - We are currently experiencing issues with increased scenario execution and webhook response times. We are actively investigating the issue and we will provide an update within the next 15 minutes.",
-          "link": "https://status.make.com/incidents/671c34fz9z5z",
-          "publishedOn": "2023-12-13T13:18:17.000Z",
-          "wordCount": 3960,
-          "title": "Delay in scenario executions on eu1.make.celonis.com",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
