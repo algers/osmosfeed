@@ -160,6 +160,16 @@
       "siteUrl": "https://status.notion.so",
       "articles": [
         {
+          "id": "https://status.notion.so/incidents/wn8zmpphxwr9",
+          "author": null,
+          "description": "Jan 15, 11:19 PST\nResolved - We've pushed a fix for this issue now and users can move pages in bulk again without errors. We apologize for the earlier disruption and thank you for bearing with us through this. \nPlease open Notion and press Cmd/Ctrl + Shift + R to reload the latest changes before trying to move pages again.\nJan 15, 10:24 PST\nIdentified - Our team has identified the cause of problems when moving pages in bulk across Notion databases and is working on a fix. We will share further updates as soon as the problem is resolved.\nJan 15, 07:53 PST\nInvestigating - Users may be experiencing degraded behavior when moving pages in bulk across Notion databases. We are investigating this issue and will share an update as soon as possible.",
+          "link": "https://status.notion.so/incidents/wn8zmpphxwr9",
+          "publishedOn": "2024-01-15T19:19:20.000Z",
+          "wordCount": 3452,
+          "title": "Degraded behavior when moving pages in bulk",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.notion.so/incidents/qbkb93dwrm9r",
           "author": null,
           "description": "Jan 11, 22:56 PST\nResolved - This incident has been resolved.\nJan 11, 20:52 PST\nIdentified - We are experiencing issues with MFA  login method. The team has identified the cause and is working on the fix.",
@@ -367,6 +377,16 @@
       "siteUrl": "https://status.slack.com/",
       "articles": [
         {
+          "id": "https://status.slack.com//2024-01/9301a4fb7cc577ea",
+          "author": null,
+          "description": "Issue summary:\n\r\nFrom 11:26 AM PST on January 12, 2024 to 10:04 AM PST on January 15, 2024, some users were unable to configure 2FA on their accounts. We were made aware of this after a spike in reports early in the morning of Monday, January 15.\n\r\n\r\nUpon investigation, this issue was traced back to a recent code change which we discovered was preventing users from being redirected back to the 2FA configuration page after entering their password during the 2FA setup process. We immediately reverted this change which fully resolved the issue.",
+          "link": "https://status.slack.com//2024-01/9301a4fb7cc577ea",
+          "publishedOn": "2024-01-15T23:51:07.000Z",
+          "wordCount": 242,
+          "title": "Incident: Some users may not be able to configure 2FA",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://status.slack.com//2023-12/7f05f584fa98cf7c",
           "author": null,
           "description": "Issue summary:\n\r\nFrom 1:43 PM PST on December 19, 2023 to 10:25 AM PST on December 20, 2023, a small number of users experienced seeing blurred file previews. We discovered that this affected users with international data residency enabled in their workspace.\n\r\n\r\nA change was made to our file storage, resulting in unexpected behaviour with file previews. We promptly identified the problematic code and reverted back the change in an effort to prevent file previews from becoming blurred. \n\r\nWe later ran a script to fix affected files to display with clear previews, resolving the issue for all affected users.",
@@ -383,6 +403,16 @@
       "feedUrl": "https://status.make.com/history.rss",
       "siteUrl": "https://status.make.com",
       "articles": [
+        {
+          "id": "https://status.make.com/incidents/h3gvmlbldj1q",
+          "author": null,
+          "description": "Jan 15, 16:18 CET\nResolved - We have reactivated the affected scenarios. Please note that this reactivation will not be visible in the scenario logs. Currently, the Monday app is fully operational.\nJan 15, 11:42 CET\nUpdate - A fix has been rolled and we are investigating options to re-enable affected scenarios automatically.\nJan 15, 10:27 CET\nMonitoring - A fix has been implemented and we are monitoring the results.\nJan 15, 09:47 CET\nIdentified - The issue has been identified and a fix is being implemented.",
+          "link": "https://status.make.com/incidents/h3gvmlbldj1q",
+          "publishedOn": "2024-01-15T15:18:40.000Z",
+          "wordCount": 3892,
+          "title": "Monday app not working",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.make.com/incidents/y8fk51rrxg9q",
           "author": null,

@@ -1,10 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-01-15T00:24:03.832Z</id>
+    <id>urn:2024-01-16T00:22:30.258Z</id>
     <title>osmos::feed</title>
-    <updated>2024-01-15T00:24:03.832Z</updated>
+    <updated>2024-01-16T00:22:30.258Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some users may not be able to configure 2FA]]></title>
+        <id>https://status.slack.com//2024-01/9301a4fb7cc577ea</id>
+        <link href="https://status.slack.com//2024-01/9301a4fb7cc577ea"/>
+        <updated>2024-01-15T23:51:07.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+From 11:26 AM PST on January 12, 2024 to 10:04 AM PST on January 15, 2024, some users were unable to configure 2FA on their accounts. We were made aware of this after a spike in reports early in the morning of Monday, January 15.
+
+
+Upon investigation, this issue was traced back to a recent code change which we discovered was preventing users from being redirected back to the 2FA configuration page after entering their password during the 2FA setup process. We immediately reverted this change which fully resolved the issue.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Degraded behavior when moving pages in bulk]]></title>
+        <id>https://status.notion.so/incidents/wn8zmpphxwr9</id>
+        <link href="https://status.notion.so/incidents/wn8zmpphxwr9"/>
+        <updated>2024-01-15T19:19:20.000Z</updated>
+        <summary type="html"><![CDATA[Jan 15, 11:19 PST
+Resolved - We've pushed a fix for this issue now and users can move pages in bulk again without errors. We apologize for the earlier disruption and thank you for bearing with us through this. 
+Please open Notion and press Cmd/Ctrl + Shift + R to reload the latest changes before trying to move pages again.
+Jan 15, 10:24 PST
+Identified - Our team has identified the cause of problems when moving pages in bulk across Notion databases and is working on a fix. We will share further updates as soon as the problem is resolved.
+Jan 15, 07:53 PST
+Investigating - Users may be experiencing degraded behavior when moving pages in bulk across Notion databases. We are investigating this issue and will share an update as soon as possible.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Monday app not working]]></title>
+        <id>https://status.make.com/incidents/h3gvmlbldj1q</id>
+        <link href="https://status.make.com/incidents/h3gvmlbldj1q"/>
+        <updated>2024-01-15T15:18:40.000Z</updated>
+        <summary type="html"><![CDATA[Jan 15, 16:18 CET
+Resolved - We have reactivated the affected scenarios. Please note that this reactivation will not be visible in the scenario logs. Currently, the Monday app is fully operational.
+Jan 15, 11:42 CET
+Update - A fix has been rolled and we are investigating options to re-enable affected scenarios automatically.
+Jan 15, 10:27 CET
+Monitoring - A fix has been implemented and we are monitoring the results.
+Jan 15, 09:47 CET
+Identified - The issue has been identified and a fix is being implemented.]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Issue with MFA Login]]></title>
         <id>https://status.notion.so/incidents/qbkb93dwrm9r</id>

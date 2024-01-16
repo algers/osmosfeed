@@ -22,6 +22,140 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-15 datetime="2024-01-15T23:51:07.000Z">2024-01-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-15 datetime="2024-01-15T23:51:07.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Slack System Status</button>
+                  <a class="source-heading__link" href="https://status.slack.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.slack.com//2024-01/9301a4fb7cc577ea"
+                        open
+                      >
+                        <summary class="article-expander__title">Incident: Some users may not be able to configure 2FA</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.slack.com//2024-01/9301a4fb7cc577ea">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Issue summary:
+
+From 11:26 AM PST on January 12, 2024 to 10:04 AM PST on January 15, 2024, some users were unable to configure 2FA on their accounts. We were made aware of this after a spike in reports early in the morning of Monday, January 15.
+
+
+Upon investigation, this issue was traced back to a recent code change which we discovered was preventing users from being redirected back to the 2FA configuration page after entering their password during the 2FA setup process. We immediately reverted this change which fully resolved the issue.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Notion Status - Incident History</button>
+                  <a class="source-heading__link" href="https://status.notion.so">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.notion.so/incidents/wn8zmpphxwr9"
+                        open
+                      >
+                        <summary class="article-expander__title">Degraded behavior when moving pages in bulk</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.notion.so/incidents/wn8zmpphxwr9">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Jan 15, 11:19 PST
+Resolved - We&#x27;ve pushed a fix for this issue now and users can move pages in bulk again without errors. We apologize for the earlier disruption and thank you for bearing with us through this. 
+Please open Notion and press Cmd/Ctrl + Shift + R to reload the latest changes before trying to move pages again.
+Jan 15, 10:24 PST
+Identified - Our team has identified the cause of problems when moving pages in bulk across Notion databases and is working on a fix. We will share further updates as soon as the problem is resolved.
+Jan 15, 07:53 PST
+Investigating - Users may be experiencing degraded behavior when moving pages in bulk across Notion databases. We are investigating this issue and will share an update as soon as possible.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;12
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Make Status - Incident History</button>
+                  <a class="source-heading__link" href="https://status.make.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.make.com/incidents/h3gvmlbldj1q"
+                        open
+                      >
+                        <summary class="article-expander__title">Monday app not working</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.make.com/incidents/h3gvmlbldj1q">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Jan 15, 16:18 CET
+Resolved - We have reactivated the affected scenarios. Please note that this reactivation will not be visible in the scenario logs. Currently, the Monday app is fully operational.
+Jan 15, 11:42 CET
+Update - A fix has been rolled and we are investigating options to re-enable affected scenarios automatically.
+Jan 15, 10:27 CET
+Monitoring - A fix has been implemented and we are monitoring the results.
+Jan 15, 09:47 CET
+Identified - The issue has been identified and a fix is being implemented.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-12 datetime="2024-01-12T06:56:42.000Z">2024-01-12</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-12 datetime="2024-01-12T06:56:42.000Z"></time>
           </button>
@@ -1557,8 +1691,8 @@ Investigating - We are investigating reports of degraded performance for Git Ope
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/7522681925">
-        <time id="build-timestamp" datetime="2024-01-15T00:24:03.814Z">2024-01-15T00:24:03.814Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/7535330740">
+        <time id="build-timestamp" datetime="2024-01-16T00:22:30.240Z">2024-01-16T00:22:30.240Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
