@@ -22,6 +22,65 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-17 datetime="2024-01-17T09:34:03.000Z">2024-01-17</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-17 datetime="2024-01-17T09:34:03.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >DigitalOcean Status - Incident History</button>
+                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.digitalocean.com/incidents/x0f8bvr688rs"
+                        open
+                      >
+                        <summary class="article-expander__title">Droplet rebuild</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/x0f8bvr688rs">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Jan 17, 09:34 UTC
+Resolved - As of 09:17 UTC, our Engineering team has confirmed the full resolution of the issue impacting the Droplet rebuild via the Cloud Control Panel.
+We appreciate your patience throughout the process. If you continue to experience problems, please open a ticket with our support team.
+Jan 17, 09:22 UTC
+Monitoring - Our Engineering team has taken actions to mitigate the issue impacting the Droplet rebuild via Cloud Control Panel and is monitoring the situation.
+The impact has been subsided and the users should no longer experience issues when rebuilding Droplets from the Cloud Control Panel. We apologize for the inconvenience and we will post an update once we confirm this incident is fully resolved.
+Jan 17, 08:26 UTC
+Identified - Our Engineering team has identified the cause of the issue impacting the Droplet rebuild via the Cloud Control Panel and is actively working on a fix. During this time, users may get an error response when trying to rebuild the Droplet via the Cloud Control Panel. We will post an update as soon as additional information is available.
+Jan 17, 07:15 UTC
+Investigating - As of 06:50 UTC, our Engineering team is investigating an issue impacting the Droplet rebuild via the Cloud Control Panel.
+During this time, users may get an error response when trying to rebuild the Droplet via the Cloud Control Panel.
+We apologize for the inconvenience and will share an update once we have more information.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;21
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-16 datetime="2024-01-16T13:34:24.000Z">2024-01-16</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-16 datetime="2024-01-16T13:34:24.000Z"></time>
           </button>
@@ -1792,66 +1851,10 @@ Investigating - We are investigating reports of degraded performance for Package
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-12-18 datetime="2023-12-18T21:26:18.000Z">2023-12-18</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-12-18 datetime="2023-12-18T21:26:18.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >GitHub Status - Incident History</button>
-                  <a class="source-heading__link" href="https://www.githubstatus.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.githubstatus.com/incidents/476y2pqmb3hc"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident with Git Operations and Pull Requests</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.githubstatus.com/incidents/476y2pqmb3hc">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Dec 18, 21:26 UTC
-Resolved - At 2023-12-18 20:03 UTC, our monitoring flagged an increase in GitRPC response errors that resulted from a change that was made that caused backend replicas to temporarily become out of sync while the change was deployed. During this time, approximately 2,500 users across 8,200 repos would have seen the merge button disabled or received failures from the merge API endpoint.
-Upon discovering the failures, our engineers assessed that the shortest path to resolution was to roll forward and manually deploy to the remaining hosts, which resolved the issue at 2023-12-18 21:26.
-Dec 18, 21:26 UTC
-Update - Git Operations is operating normally.
-Dec 18, 21:19 UTC
-Update - We&#x27;re seeing issues related to Pull Requests impacting a small number of users. We are aware deploying a fix and expect to resolve within the next 60 minutes.
-Dec 18, 21:17 UTC
-Investigating - We are investigating reports of degraded performance for Git Operations and Pull Requests</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/7549215955">
-        <time id="build-timestamp" datetime="2024-01-17T00:22:34.756Z">2024-01-17T00:22:34.756Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/7563485072">
+        <time id="build-timestamp" datetime="2024-01-18T00:22:12.931Z">2024-01-18T00:22:12.931Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

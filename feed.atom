@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-01-17T00:22:34.781Z</id>
+    <id>urn:2024-01-18T00:22:12.949Z</id>
     <title>osmos::feed</title>
-    <updated>2024-01-17T00:22:34.781Z</updated>
+    <updated>2024-01-18T00:22:12.949Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Droplet rebuild]]></title>
+        <id>https://status.digitalocean.com/incidents/x0f8bvr688rs</id>
+        <link href="https://status.digitalocean.com/incidents/x0f8bvr688rs"/>
+        <updated>2024-01-17T09:34:03.000Z</updated>
+        <summary type="html"><![CDATA[Jan 17, 09:34 UTC
+Resolved - As of 09:17 UTC, our Engineering team has confirmed the full resolution of the issue impacting the Droplet rebuild via the Cloud Control Panel.
+We appreciate your patience throughout the process. If you continue to experience problems, please open a ticket with our support team.
+Jan 17, 09:22 UTC
+Monitoring - Our Engineering team has taken actions to mitigate the issue impacting the Droplet rebuild via Cloud Control Panel and is monitoring the situation.
+The impact has been subsided and the users should no longer experience issues when rebuilding Droplets from the Cloud Control Panel. We apologize for the inconvenience and we will post an update once we confirm this incident is fully resolved.
+Jan 17, 08:26 UTC
+Identified - Our Engineering team has identified the cause of the issue impacting the Droplet rebuild via the Cloud Control Panel and is actively working on a fix. During this time, users may get an error response when trying to rebuild the Droplet via the Cloud Control Panel. We will post an update as soon as additional information is available.
+Jan 17, 07:15 UTC
+Investigating - As of 06:50 UTC, our Engineering team is investigating an issue impacting the Droplet rebuild via the Cloud Control Panel.
+During this time, users may get an error response when trying to rebuild the Droplet via the Cloud Control Panel.
+We apologize for the inconvenience and will share an update once we have more information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Spaces Functionality]]></title>
         <id>https://status.digitalocean.com/incidents/j4jwmwl3szxz</id>
@@ -723,24 +744,6 @@ Dec 19, 21:42 UTC
 Update - Issues is experiencing degraded performance. We are continuing to investigate.
 Dec 19, 21:12 UTC
 Investigating - We are investigating reports of degraded performance for Packages]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Git Operations and Pull Requests]]></title>
-        <id>https://www.githubstatus.com/incidents/476y2pqmb3hc</id>
-        <link href="https://www.githubstatus.com/incidents/476y2pqmb3hc"/>
-        <updated>2023-12-18T21:26:18.000Z</updated>
-        <summary type="html"><![CDATA[Dec 18, 21:26 UTC
-Resolved - At 2023-12-18 20:03 UTC, our monitoring flagged an increase in GitRPC response errors that resulted from a change that was made that caused backend replicas to temporarily become out of sync while the change was deployed. During this time, approximately 2,500 users across 8,200 repos would have seen the merge button disabled or received failures from the merge API endpoint.
-Upon discovering the failures, our engineers assessed that the shortest path to resolution was to roll forward and manually deploy to the remaining hosts, which resolved the issue at 2023-12-18 21:26.
-Dec 18, 21:26 UTC
-Update - Git Operations is operating normally.
-Dec 18, 21:19 UTC
-Update - We're seeing issues related to Pull Requests impacting a small number of users. We are aware deploying a fix and expect to resolve within the next 60 minutes.
-Dec 18, 21:17 UTC
-Investigating - We are investigating reports of degraded performance for Git Operations and Pull Requests]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>

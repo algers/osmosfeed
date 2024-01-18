@@ -93,6 +93,16 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/x0f8bvr688rs",
+          "author": null,
+          "description": "Jan 17, 09:34 UTC\nResolved - As of 09:17 UTC, our Engineering team has confirmed the full resolution of the issue impacting the Droplet rebuild via the Cloud Control Panel.\nWe appreciate your patience throughout the process. If you continue to experience problems, please open a ticket with our support team.\nJan 17, 09:22 UTC\nMonitoring - Our Engineering team has taken actions to mitigate the issue impacting the Droplet rebuild via Cloud Control Panel and is monitoring the situation.\nThe impact has been subsided and the users should no longer experience issues when rebuilding Droplets from the Cloud Control Panel. We apologize for the inconvenience and we will post an update once we confirm this incident is fully resolved.\nJan 17, 08:26 UTC\nIdentified - Our Engineering team has identified the cause of the issue impacting the Droplet rebuild via the Cloud Control Panel and is actively working on a fix. During this time, users may get an error response when trying to rebuild the Droplet via the Cloud Control Panel. We will post an update as soon as additional information is available.\nJan 17, 07:15 UTC\nInvestigating - As of 06:50 UTC, our Engineering team is investigating an issue impacting the Droplet rebuild via the Cloud Control Panel.\nDuring this time, users may get an error response when trying to rebuild the Droplet via the Cloud Control Panel.\nWe apologize for the inconvenience and will share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/x0f8bvr688rs",
+          "publishedOn": "2024-01-17T09:34:03.000Z",
+          "wordCount": 6170,
+          "title": "Droplet rebuild",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/j4jwmwl3szxz",
           "author": null,
           "description": "Jan 16, 13:34 UTC\nResolved - Our Engineering team has resolved the issue impacting multiple spaces-related functionalities. From approximately 10:30 UTC - 13:30 UTC, users may have experienced issues while trying to perform multiple actions on Spaces via the Cloud Control Panel and API. Spaces-related functionalities should now be operating normally.\nIf you continue to experience problems, please open a ticket with our Support team. Thank you for your patience and we apologize for any inconvenience.\nJan 16, 12:51 UTC\nMonitoring - Our Engineering team has taken actions to mitigate the issue affecting multiple Spaces-related functionalities and is monitoring the situation.\nThe impact has been subsided and the users should no longer experience issues with Spaces-related functionalities. \nWe apologize for the inconvenience and we will post an update once we confirm this incident is fully resolved.\nJan 16, 12:03 UTC\nIdentified - Our Engineering team has identified the issue affecting multiple Spaces-related functionalities and is actively working on a fix.\nDuring this time, users may experience issues while trying to perform multiple actions on Spaces via the Cloud Control Panel and API.\nAdditionally, this may also impact Container Registry creation and issues with transferring images between regions. \nWe apologize for the inconvenience and will share an update once we have more information.\nJan 16, 10:54 UTC\nInvestigating - As of 10:30 UTC, our Engineering team is investigating an issue with multiple Spaces functionalities via the Cloud Control Panel. \nDuring this time, users may experience errors when attempting to delete objects via the Cloud Control Panel. At this moment we are investigating the exact impact and will share more information as soon as we have it.\nWe apologize for the inconvenience.",
@@ -387,16 +397,6 @@
           "publishedOn": "2023-12-19T22:50:31.000Z",
           "wordCount": 5173,
           "title": "Incident with Packages, Issues, Pull Requests and Webhooks",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/476y2pqmb3hc",
-          "author": null,
-          "description": "Dec 18, 21:26 UTC\nResolved - At 2023-12-18 20:03 UTC, our monitoring flagged an increase in GitRPC response errors that resulted from a change that was made that caused backend replicas to temporarily become out of sync while the change was deployed. During this time, approximately 2,500 users across 8,200 repos would have seen the merge button disabled or received failures from the merge API endpoint.\nUpon discovering the failures, our engineers assessed that the shortest path to resolution was to roll forward and manually deploy to the remaining hosts, which resolved the issue at 2023-12-18 21:26.\nDec 18, 21:26 UTC\nUpdate - Git Operations is operating normally.\nDec 18, 21:19 UTC\nUpdate - We're seeing issues related to Pull Requests impacting a small number of users. We are aware deploying a fix and expect to resolve within the next 60 minutes.\nDec 18, 21:17 UTC\nInvestigating - We are investigating reports of degraded performance for Git Operations and Pull Requests",
-          "link": "https://www.githubstatus.com/incidents/476y2pqmb3hc",
-          "publishedOn": "2023-12-18T21:26:18.000Z",
-          "wordCount": 5158,
-          "title": "Incident with Git Operations and Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
