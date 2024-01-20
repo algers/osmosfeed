@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-01-19T00:22:36.761Z</id>
+    <id>urn:2024-01-20T00:22:03.354Z</id>
     <title>osmos::feed</title>
-    <updated>2024-01-19T00:22:36.761Z</updated>
+    <updated>2024-01-20T00:22:03.354Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -542,7 +542,7 @@ Investigating - We are investigating reports of degraded performance for API Req
         <link href="https://www.githubstatus.com/incidents/1h37j1mb9xnx"/>
         <updated>2023-12-29T02:04:44.000Z</updated>
         <summary type="html"><![CDATA[Dec 29, 02:04 UTC
-Resolved - This incident has been resolved.
+Resolved - On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/
 Dec 29, 01:41 UTC
 Update - Users without an existing valid session are unable to login and will see an error page.  We are working on a mitigation.
 Dec 29, 01:41 UTC
@@ -557,7 +557,7 @@ Investigating - We are currently investigating this issue.]]></summary>
         <link href="https://www.githubstatus.com/incidents/lt4kyp4tgx45"/>
         <updated>2023-12-28T06:57:42.000Z</updated>
         <summary type="html"><![CDATA[Dec 28, 06:57 UTC
-Resolved - This incident has been resolved.
+Resolved - On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/
 Dec 28, 06:49 UTC
 Update - We have deployed a fix and email service should be restored shortly.
 Dec 28, 06:48 UTC
@@ -670,51 +670,6 @@ Investigating - As of 05:10 UTC, our Engineering team is investigating an issue 
 We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Users seeing blurred file unfurls]]></title>
-        <id>https://status.slack.com//2023-12/7f05f584fa98cf7c</id>
-        <link href="https://status.slack.com//2023-12/7f05f584fa98cf7c"/>
-        <updated>2023-12-21T02:01:15.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-From 1:43 PM PST on December 19, 2023 to 10:25 AM PST on December 20, 2023, a small number of users experienced seeing blurred file previews. We discovered that this affected users with international data residency enabled in their workspace.
-
-
-A change was made to our file storage, resulting in unexpected behaviour with file previews. We promptly identified the problematic code and reverted back the change in an effort to prevent file previews from becoming blurred. 
-
-We later ran a script to fix affected files to display with clear previews, resolving the issue for all affected users.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unresponsive shared hooks]]></title>
-        <id>https://status.make.com/incidents/y8fk51rrxg9q</id>
-        <link href="https://status.make.com/incidents/y8fk51rrxg9q"/>
-        <updated>2023-12-20T16:44:01.000Z</updated>
-        <summary type="html"><![CDATA[Dec 20, 17:44 CET
-Resolved - This incident has been resolved.
-Dec 20, 14:40 CET
-Update - We are continuing to monitor for any further issues.
-Dec 20, 14:32 CET
-Monitoring - The queue of messages has been fully processed and the system has returned back to normal operation. Shared hooks are now delivered without delays. We will now continue to monitor the systems and ensure that there is no regression.
-Dec 20, 13:09 CET
-Update - We have implemented and validated a solution to the underlying problem. The queue of hooks is now being processed at an accelerated pace and we expect to return to normal operation in the following 90 minutes. The average hook processing delay is approximately 3 hours.
-Dec 20, 12:31 CET
-Identified - We have taken the necessary steps to stabilize the situation and started processing the queue of hooks at a faster pace. The main issue still persists and shared hooks are currently being processed with a significant delay.
-Dec 20, 11:08 CET
-Update - Our engineers are currently pursuing two hypotheses with the goal to remediate the issue. We will post another update latest in an hour.
-Dec 20, 09:40 CET
-Investigating - The issue still persists and shared hooks are being processed with a delay. The team is working towards addressing the root cause of the issue.
-Dec 20, 07:15 CET
-Monitoring - We have identified the issue and applied a fix. Currently shared hooks are responding but might be delayed.
-Dec 20, 06:21 CET
-Investigating - We are currently experiencing issues with some of our services responsible for shared hooks on our clusters.
-Shared hooks might currently be unresponsive. We are actively investigating the issue.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
         </author>
     </entry>
 </feed>

@@ -342,20 +342,20 @@
         {
           "id": "https://www.githubstatus.com/incidents/1h37j1mb9xnx",
           "author": null,
-          "description": "Dec 29, 02:04 UTC\nResolved - This incident has been resolved.\nDec 29, 01:41 UTC\nUpdate - Users without an existing valid session are unable to login and will see an error page.  We are working on a mitigation.\nDec 29, 01:41 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Dec 29, 02:04 UTC\nResolved - On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/\nDec 29, 01:41 UTC\nUpdate - Users without an existing valid session are unable to login and will see an error page.  We are working on a mitigation.\nDec 29, 01:41 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/1h37j1mb9xnx",
           "publishedOn": "2023-12-29T02:04:44.000Z",
-          "wordCount": 5039,
+          "wordCount": 5108,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
         {
           "id": "https://www.githubstatus.com/incidents/lt4kyp4tgx45",
           "author": null,
-          "description": "Dec 28, 06:57 UTC\nResolved - This incident has been resolved.\nDec 28, 06:49 UTC\nUpdate - We have deployed a fix and email service should be restored shortly.\nDec 28, 06:48 UTC\nUpdate - We are experiencing issues sending some pull request, actions and other notification emails. Some emails may not be received as the result of activity on GitHub. Web and mobile push notifications are not affected.\nDec 28, 06:43 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Dec 28, 06:57 UTC\nResolved - On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/\nDec 28, 06:49 UTC\nUpdate - We have deployed a fix and email service should be restored shortly.\nDec 28, 06:48 UTC\nUpdate - We are experiencing issues sending some pull request, actions and other notification emails. Some emails may not be received as the result of activity on GitHub. Web and mobile push notifications are not affected.\nDec 28, 06:43 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/lt4kyp4tgx45",
           "publishedOn": "2023-12-28T06:57:42.000Z",
-          "wordCount": 5071,
+          "wordCount": 5140,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -405,16 +405,6 @@
           "wordCount": 242,
           "title": "Incident: Some users may not be able to configure 2FA",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2023-12/7f05f584fa98cf7c",
-          "author": null,
-          "description": "Issue summary:\n\r\nFrom 1:43 PM PST on December 19, 2023 to 10:25 AM PST on December 20, 2023, a small number of users experienced seeing blurred file previews. We discovered that this affected users with international data residency enabled in their workspace.\n\r\n\r\nA change was made to our file storage, resulting in unexpected behaviour with file previews. We promptly identified the problematic code and reverted back the change in an effort to prevent file previews from becoming blurred. \n\r\nWe later ran a script to fix affected files to display with clear previews, resolving the issue for all affected users.",
-          "link": "https://status.slack.com//2023-12/7f05f584fa98cf7c",
-          "publishedOn": "2023-12-21T02:01:15.000Z",
-          "wordCount": 521,
-          "title": "Incident: Users seeing blurred file unfurls",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
     },
@@ -431,16 +421,6 @@
           "publishedOn": "2024-01-15T15:18:40.000Z",
           "wordCount": 3892,
           "title": "Monday app not working",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/y8fk51rrxg9q",
-          "author": null,
-          "description": "Dec 20, 17:44 CET\nResolved - This incident has been resolved.\nDec 20, 14:40 CET\nUpdate - We are continuing to monitor for any further issues.\nDec 20, 14:32 CET\nMonitoring - The queue of messages has been fully processed and the system has returned back to normal operation. Shared hooks are now delivered without delays. We will now continue to monitor the systems and ensure that there is no regression.\nDec 20, 13:09 CET\nUpdate - We have implemented and validated a solution to the underlying problem. The queue of hooks is now being processed at an accelerated pace and we expect to return to normal operation in the following 90 minutes. The average hook processing delay is approximately 3 hours.\nDec 20, 12:31 CET\nIdentified - We have taken the necessary steps to stabilize the situation and started processing the queue of hooks at a faster pace. The main issue still persists and shared hooks are currently being processed with a significant delay.\nDec 20, 11:08 CET\nUpdate - Our engineers are currently pursuing two hypotheses with the goal to remediate the issue. We will post another update latest in an hour.\nDec 20, 09:40 CET\nInvestigating - The issue still persists and shared hooks are being processed with a delay. The team is working towards addressing the root cause of the issue.\nDec 20, 07:15 CET\nMonitoring - We have identified the issue and applied a fix. Currently shared hooks are responding but might be delayed.\nDec 20, 06:21 CET\nInvestigating - We are currently experiencing issues with some of our services responsible for shared hooks on our clusters.\nShared hooks might currently be unresponsive. We are actively investigating the issue.",
-          "link": "https://status.make.com/incidents/y8fk51rrxg9q",
-          "publishedOn": "2023-12-20T16:44:01.000Z",
-          "wordCount": 4113,
-          "title": "Unresponsive shared hooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
