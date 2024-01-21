@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-01-20T00:22:03.354Z</id>
+    <id>urn:2024-01-21T00:25:09.301Z</id>
     <title>osmos::feed</title>
-    <updated>2024-01-20T00:22:03.354Z</updated>
+    <updated>2024-01-21T00:25:09.301Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -638,38 +638,6 @@ Dec 27, 02:51 UTC
 Investigating - We are investigating reports of degraded performance for Codespaces and API Requests]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TS-2023-009]]></title>
-        <id>https://tailscale.com/security-bulletins/#ts-2023-009</id>
-        <link href="https://tailscale.com/security-bulletins/#ts-2023-009"/>
-        <updated>2023-12-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Description: The OAuth implementation of Google Workspace allows for the creation of Google accounts associated with a given Workspace domain that are not actually controlled by that workspace, e.g. alice+foo@example.com. As a result, these accounts may be used to retain access to systems that use Google Workspace SSO login even after the original account has been deactivated or removed.
-What happened?
-Tailscale uses Google as one of the possible identity providers for creating and joining a tailnet. Users who have emails with the same domain name can automatically sign in using SSO and be added to the corresponding tailnet (unless user approval is turned on for the tailnet)​​. The OAuth vulnerability reported by Truffle Security means that it is possible for an attacker to create a new pe…]]></summary>
-        <author>
-            <name>Security Bulletins on Tailscale</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spaces Availability in SGP1]]></title>
-        <id>https://status.digitalocean.com/incidents/vvypqsr1n2vf</id>
-        <link href="https://status.digitalocean.com/incidents/vvypqsr1n2vf"/>
-        <updated>2023-12-21T21:04:56.000Z</updated>
-        <summary type="html"><![CDATA[Dec 21, 21:04 UTC
-Resolved - Our engineering team has identified the root cause of the issue impacting Spaces in our SGP1 region and is continuing long-term mitigation work. From approximately 05:10 UTC - 08:00 UTC, users may have encountered errors with API or object requests, experienced difficulties in creating new buckets in SGP1, or faced issues with loading Spaces in the Cloud Control Panel. Spaces should now be operating normally.
-If you continue to experience problems, please open a ticket with our support team. Thank you for your patience and we apologize for any inconvenience.
-Dec 21, 08:27 UTC
-Monitoring - Our Engineering team has implemented a fix to resolve the issue impacting Spaces in our SGP1 region and is monitoring the situation closely. Users should no longer experience slowness or timeouts when trying to create or access their Spaces resources in the SGP1 region. We will post an update as soon as the issue is fully resolved.
-Dec 21, 07:56 UTC
-Identified - Our Engineering team has identified the cause of the issue impacting Object Storage in our SGP1 region and is actively working on a fix. During this time, users may encounter difficulties accessing Spaces, creating new buckets, deleting Spaces, and uploading files to and from Spaces buckets.
-We will post an update as soon as additional information is available.
-Dec 21, 05:34 UTC
-Investigating - As of 05:10 UTC, our Engineering team is investigating an issue with Object Storage in our SGP1 region. During this time, users may encounter difficulties accessing Spaces, creating new buckets, deleting Spaces, and uploading files to and from Spaces buckets.
-We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
