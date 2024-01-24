@@ -1,16 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-01-23T00:22:53.365Z</id>
+    <id>urn:2024-01-24T00:22:58.546Z</id>
     <title>osmos::feed</title>
-    <updated>2024-01-23T00:22:53.365Z</updated>
+    <updated>2024-01-24T00:22:58.546Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Managed Kubernetes Cluster in FRA1]]></title>
+        <id>https://status.digitalocean.com/incidents/s4kt15q6xq19</id>
+        <link href="https://status.digitalocean.com/incidents/s4kt15q6xq19"/>
+        <updated>2024-01-23T22:50:40.000Z</updated>
+        <summary type="html"><![CDATA[Jan 23, 22:50 UTC
+Resolved - Our Engineering team has completed mitigation efforts for the issue impacting Managed Kubernetes in the FRA1 region and we are marking this incident as Resolved. 
+At this time, functionality to impacted clusters has been restored but customers may need to reconfigure some Kubernetes resources. Customer Support is contacting impacted customers directly with further instructions. 
+If you have any questions or concerns regarding this incident, please open a ticket with our support team.
+Jan 23, 18:44 UTC
+Update - Our Engineering team continues to work on mitigation efforts. An additional small bug has been discovered and remediated. About 10% of clusters have had accessibility restored and restoration efforts are ongoing. 
+We will post another update as soon as we have new developments.
+Thank you for your patience and we apologize for any inconvenience.
+Jan 23, 15:12 UTC
+Identified - Our Engineering team has identified the cause of the issue with Managed Kubernetes clusters in the FRA1 region. 200 clusters are impacted by the issue and remain inaccessible to users at this time. 
+Our Engineering team is engaged in remediating these clusters to restore accessibility. As soon as we are able to provide an estimated time to restore, we will provide an update.
+Jan 23, 13:02 UTC
+Investigating - As of 12:18 UTC, our Engineering team is investigating an issue with Kubernetes clusters in the FRA1 region. During this time, users may experience errors while communicating with their clusters in the FRA1 region. 
+We apologize for the inconvenience and will share an update once we have more information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some users are unable to upload, download, and view files in Slack.]]></title>
+        <id>https://status.slack.com//2024-01/f39851209d6c471a</id>
+        <link href="https://status.slack.com//2024-01/f39851209d6c471a"/>
+        <updated>2024-01-23T22:42:00.000Z</updated>
+        <summary type="html"><![CDATA[We are still seeing signs of improvement but are closely monitoring the issue as we work to identify the cause. We'll be back with another update once we have more news to share.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We are investigating reports of degraded performance.]]></title>
+        <id>https://www.githubstatus.com/incidents/bsk6hmj0d7nv</id>
+        <link href="https://www.githubstatus.com/incidents/bsk6hmj0d7nv"/>
+        <updated>2024-01-23T18:53:29.000Z</updated>
+        <summary type="html"><![CDATA[Jan 23, 18:53 UTC
+Resolved - This incident has been resolved.
+Jan 23, 18:53 UTC
+Update - Live updates have been restored and the system is operating normally.
+Jan 23, 18:14 UTC
+Update - We have identified and are beginning to roll out a potential fix for issues with live updates to our Web UI that power automatic page updates such as the merge box on Pull Requests and updates to Projects.
+Users will see actions spinning on the PR merge box for example. As a work around, please refresh the page to get the page updated while we work to fix the issue. We will provide further updates as we continue resolving the issue.
+Jan 23, 17:17 UTC
+Update - We are continuing to investigate issues with live updates to our Web UI that power automatic page updates such as the merge box on Pull Requests and updates to Projects.
+Users will see actions spinning on the PR merge box for example. As a work around, please refresh the page to get the page updated while we work to fix the issue. We will provide further updates as we continue resolving the issue.
+Jan 23, 16:37 UTC
+Update - We are continuing to investigate intermittent issues with live updates to our Web UI that power automatic page updates such as the merge box on Pull Requests and updates to Projects. Users will see actions spinning on the PR merge box for example. As a work around, please refresh the page to get the page updated while we work to fix the issue. We will provide further updates as we continue resolving the issue.
+Jan 23, 15:59 UTC
+Update - We are investigating intermittent issues with live updates to our Web UI that power automatic page updates such as the merge box on Pull Requests. Users will intermittently see actions spinning on the PR merge box for example. As a work around, please refresh the page to get the page updated while we work to fix the issue. We will provide further updates as we continue resolving the issue.
+Jan 23, 15:50 UTC
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Some Enterprise Grid users may be seeing unexpected Slackbot responses]]></title>
         <id>https://status.slack.com//2024-01/166eb312bd134031</id>
         <link href="https://status.slack.com//2024-01/166eb312bd134031"/>
-        <updated>2024-01-22T23:14:04.000Z</updated>
-        <summary type="html"><![CDATA[We've completed rolling back the code which cause this issue, and users should no longer be seeing these Slackbot responses. Thank you for bearing with us on this one, and we apologize for the disruption to your day.]]></summary>
+        <updated>2024-01-23T03:06:24.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+From 12:20pm PST until 3:00pm PST on January 22, 2024, some Enterprise Grid users noticed multiple Slackbot responses being triggered unexpectedly.
+
+
+We determined that the rollout of a fix for an older bug report pertaining to Slackbot responses not working in org-wide or multi-workspace channels, was the root cause. 
+
+
+Whilst the fix for the bug was intended to improve this features behaviour, ensuring that Slackbot custom responses would work in these channel types, our wider team concluded that the fixed behaviour might not function well for organizations with potentially thousands of custom Slackbot responses.
+
+
+We rolled back the deployment which caused this behaviour. Customers will no longer see these Slackbot custom responses being triggered unexpectedly.
+
+
+A discussion is underway about the long-term future of Slackbot custom response behaviour within large organizations.
+
+
+Thank you for your patience whilst we resolved this.]]></summary>
         <author>
             <name>Slack System Status</name>
         </author>
@@ -404,7 +479,7 @@ We are actively monitoring the situation to ensure stability and will provide an
         <link href="https://www.githubstatus.com/incidents/dxthh9653wkk"/>
         <updated>2024-01-09T05:44:37.000Z</updated>
         <summary type="html"><![CDATA[Jan  9, 05:44 UTC
-Resolved - On January 9th, audit log streaming experienced performance degradation for several hours. The issue was identified and resolved by the team. Audit log streaming is now operating at its full capacity.
+Resolved - On January 9 between 1:06 and 5:43 UTC, no audit log events were streamed for customers that have that enabled. All events that happened during this time were delivered after the issue was mitigated. The event delivery was failing due to a data shape issue, with a streaming configuration linked to a soft-deleted Enterprise causing a runtime error for a backend service.  This was mitigated by removing that configuration.  Since the incident, we have improved our detection of these errors and ensured support for similar scenarios.
 Jan  9, 05:40 UTC
 Update - Audit logs streaming is currently unavailable due to a misconfiguration issue. The root cause is understood and our engineers will be updating the broken configuration shortly.
 Jan  9, 04:59 UTC
@@ -419,7 +494,7 @@ Investigating - We are currently investigating this issue.]]></summary>
         <link href="https://www.githubstatus.com/incidents/35pgg0gc75nv"/>
         <updated>2024-01-08T23:41:03.000Z</updated>
         <summary type="html"><![CDATA[Jan  8, 23:41 UTC
-Resolved - This incident has been resolved.
+Resolved - From January 5th to January 8th, Codespaces experienced issues with port forwarding when connecting from a web browser. During this incident 100% of operations to forward ports and connect to a forwarded port failed for customers located in US West and Australia. The cause was due to a cross origin API change in our port forwarding service. After detecting the issue, we mitigated the impact by rolling back the change that caused the discrepancy in the cross origin rules. We have improved the way we are detecting issues like this one including implementing automated alerts during and after the rollout process so that we get signals as early as possible.
 Jan  8, 22:37 UTC
 Update - The initial mitigation we attempted did not fully resolve this issue.  We are continuing to investigate and will provide an update as soon as possible.
 Jan  8, 21:55 UTC
