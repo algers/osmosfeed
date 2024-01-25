@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-01-24T00:22:58.546Z</id>
+    <id>urn:2024-01-25T00:23:01.303Z</id>
     <title>osmos::feed</title>
-    <updated>2024-01-24T00:22:58.546Z</updated>
+    <updated>2024-01-25T00:23:01.303Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some latency with Slack]]></title>
+        <id>https://status.slack.com//2024-01/0a000b0ad09623a0</id>
+        <link href="https://status.slack.com//2024-01/0a000b0ad09623a0"/>
+        <updated>2024-01-24T20:37:29.000Z</updated>
+        <summary type="html"><![CDATA[We're seeing signs of recovery, but are still investigating the root cause of the issue. We'll be back with an update as soon as we have more info to share.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Service wide connection issues]]></title>
+        <id>https://status.slack.com//2024-01/8b623c0b5640c28f</id>
+        <link href="https://status.slack.com//2024-01/8b623c0b5640c28f"/>
+        <updated>2024-01-24T17:43:25.000Z</updated>
+        <summary type="html"><![CDATA[We’ve implemented a fix and all impacted features are up and running once again. We appreciate your patience while we sorted this out. If you’re still encountering any trouble, please reload Slack using Command + Shift + R (Mac) or Ctrl + Shift + R (Windows/Linux). Thank you for your patience while we sorted out this issue.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some users are unable to upload, download, and view files in Slack.]]></title>
+        <id>https://status.slack.com//2024-01/f39851209d6c471a</id>
+        <link href="https://status.slack.com//2024-01/f39851209d6c471a"/>
+        <updated>2024-01-24T01:28:00.000Z</updated>
+        <summary type="html"><![CDATA[The issue that some users experienced when uploading, downloading, and viewing files in Slack should no longer be affecting users. We will share a summary of the issue that will include additional details and findings once available. We apologize for any disruptions to your day.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Managed Kubernetes Cluster in FRA1]]></title>
         <id>https://status.digitalocean.com/incidents/s4kt15q6xq19</id>
@@ -29,36 +59,17 @@ We apologize for the inconvenience and will share an update once we have more in
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Incident: Some users are unable to upload, download, and view files in Slack.]]></title>
-        <id>https://status.slack.com//2024-01/f39851209d6c471a</id>
-        <link href="https://status.slack.com//2024-01/f39851209d6c471a"/>
-        <updated>2024-01-23T22:42:00.000Z</updated>
-        <summary type="html"><![CDATA[We are still seeing signs of improvement but are closely monitoring the issue as we work to identify the cause. We'll be back with another update once we have more news to share.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[We are investigating reports of degraded performance.]]></title>
         <id>https://www.githubstatus.com/incidents/bsk6hmj0d7nv</id>
         <link href="https://www.githubstatus.com/incidents/bsk6hmj0d7nv"/>
         <updated>2024-01-23T18:53:29.000Z</updated>
         <summary type="html"><![CDATA[Jan 23, 18:53 UTC
-Resolved - This incident has been resolved.
+Resolved - On January 23, 2024 at 14:36 UTC, our internal metrics began showing an increase in exceptions originating from our live update service. Live updates to Issues, PRs, Actions, and Projects were failing, but refreshing the page successfully updated page content. We resolved the issue by rolling back a problematic dependency update and reenabled live updates at 18:53 UTC. 
+We are working to improve alerting and monitoring of our live update service to reduce our time to detection and mitigation.
 Jan 23, 18:53 UTC
 Update - Live updates have been restored and the system is operating normally.
 Jan 23, 18:14 UTC
-Update - We have identified and are beginning to roll out a potential fix for issues with live updates to our Web UI that power automatic page updates such as the merge box on Pull Requests and updates to Projects.
-Users will see actions spinning on the PR merge box for example. As a work around, please refresh the page to get the page updated while we work to fix the issue. We will provide further updates as we continue resolving the issue.
-Jan 23, 17:17 UTC
-Update - We are continuing to investigate issues with live updates to our Web UI that power automatic page updates such as the merge box on Pull Requests and updates to Projects.
-Users will see actions spinning on the PR merge box for example. As a work around, please refresh the page to get the page updated while we work to fix the issue. We will provide further updates as we continue resolving the issue.
-Jan 23, 16:37 UTC
-Update - We are continuing to investigate intermittent issues with live updates to our Web UI that power automatic page updates such as the merge box on Pull Requests and updates to Projects. Users will see actions spinning on the PR merge box for example. As a work around, please refresh the page to get the page updated while we work to fix the issue. We will provide further updates as we continue resolving the issue.
-Jan 23, 15:59 UTC
-Update - We are investigating intermittent issues with live updates to our Web UI that power automatic page updates such as the merge box on Pull Requests. Users will intermittently see actions spinning on the PR merge box for example. As a work around, please refresh the page to get the page updated while we work to fix the issue. We will provide further updates as we continue resolving the issue.
-Jan 23, 15:50 UTC
-Investigating - We are currently investigating this issue.]]></summary>
+Update - We have identified and are beginning to roll out a potential fix for issues with live updates to our Web UI that power automatic page updates such as…]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
@@ -222,7 +233,9 @@ Investigating - We are investigating reports of degraded performance for Codespa
         <link href="https://www.githubstatus.com/incidents/hmvr5kpgzc45"/>
         <updated>2024-01-21T06:19:52.000Z</updated>
         <summary type="html"><![CDATA[Jan 21, 06:19 UTC
-Resolved - This incident has been resolved.
+Resolved - On 2024-01-21 from 02:05 UTC to 06:19 UTC, GitHub Hosted Runners experienced increased error rates from our main cloud service provider. The errors were initially limited to a single region and we were able to route around the issue by transparently failing over to other regions. However, errors gradually expanded across all regions we deploy to and led to our available compute capacity being exhausted.
+During the incident, up to 35% of Actions jobs using Larger Runners and 2% of Actions jobs using GitHub Hosted Runners overall may have experienced intermittent delays in starting. Once the issue was resolved by our cloud service provider, our systems made a full recovery without intervention.
+We’re working closely with our service provider to understand the cause of the outage and mitigations we can put in place. We’re also working to increase our resilience to outages of this nature by expanding the regions we deploy to beyond the existing set, especially for Larger Runners.
 Jan 21, 05:54 UTC
 Update - We've applied a mitigation to fix the issues with queuing and running Actions jobs. We are seeing improvements in telemetry and are monitoring for full recovery.
 Jan 21, 05:26 UTC
