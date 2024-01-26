@@ -68,7 +68,7 @@
           "description": "Description: On Windows before Tailscale version 1.52 and on Linux before\nTailscale 1.54, the tailscale serve and tailscale funnel features allowed\nusers to serve the contents of directories that their user account could not\naccess, but which the tailscaled service process could.\nWhat happened?\nA user could escalate their own file read access by running, for example,\ntailscale.exe serve http / C:\\, and then browsing to the local HTTP endpoint.\nThe issue can also occur on Linux if the local administrator enabled an operator\nuser ID with tailscale up --operator=$USER, as the $USER account could\nserve itself files that it could not normally read.\nWho is affected?\nOwners of Windows deployments for which the users of Tailscale nodes do not also\nhave OS-level administrative access, and owners of Linux deployments where the\nadministrator enabled non-root --operator access.\nThis issue can only be triggered by a local user and cannot be triggered\nremotely.\nWhat is the impact?\nThis issue enables local privilege escalation (file read access). Access to\ncertain system files (such as /etc/shadow on Linux) can then be used to obtain\nfull administrative control over the host.\nWhat do I need to do?\nOn Windows 10 and later, upgrade to Tailscale 1.52 (released 30 October\n2023) or later, which resolves the issue.\nOn Windows 7 and 8, upgrade to Tailscale 1.44.3 (released 8 Jan\n2024), which resolves the issue.\nOn Linux, upgrade to 1.54 (released 15 November 2023) or later,\nwhich resolves the issue.\nThe best practice is to run the latest stable version, which as of this writing\nis 1.56.1. Consider turning on automatic updates.\nUse Tailscale ACLs to control the availability of Funnel.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-001",
           "publishedOn": "2024-01-08T00:00:00.000Z",
-          "wordCount": 10132,
+          "wordCount": 10150,
           "title": "TS-2024-001",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -102,6 +102,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/2yxmsbx1r89b",
+          "author": null,
+          "description": "Jan 25, 02:56 UTC\nResolved - Our Engineering team has resolved the issue with snapshots taken by customers in the NYC3 and SFO3 regions. If you continue to experience problems, please open a ticket with our support team. Thank you for your patience and we apologize for any inconvenience.\nJan 25, 01:50 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue with snapshots taken by customers in the NYC3 and SFO3 regions and are monitoring the situation closely. \nWe will post another update once we're confident that the issue is fully resolved.\nJan 25, 00:26 UTC\nIdentified - Our Engineering team has identified an issue with snapshots taken by customers in the NYC3 and SFO3 regions and is actively working on a fix. We will post an update as soon as additional information is available.",
+          "link": "https://status.digitalocean.com/incidents/2yxmsbx1r89b",
+          "publishedOn": "2024-01-25T02:56:12.000Z",
+          "wordCount": 6332,
+          "title": "Snapshots are failing in SFO3 and NYC3",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/s4kt15q6xq19",
           "author": null,
@@ -322,10 +332,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/7ck5966p1073",
           "author": null,
-          "description": "Jan 21, 09:34 UTC\nResolved - This incident has been resolved.\nJan 21, 09:32 UTC\nUpdate - We continue to work on mitigating the issues with Codespace resumes in West Europe.\nJan 21, 08:58 UTC\nUpdate - We continue to work on mitigating the issues with Codespace resumes in West Europe.\nJan 21, 08:27 UTC\nUpdate - We continue to work on mitigating the issues with Codespace resumes in West Europe.\nJan 21, 07:55 UTC\nUpdate - Codespace creation has fully recovered in all regions. We are still mitigating issues with Codespace resumes in West Europe.\nJan 21, 07:24 UTC\nUpdate - We continue to see recovery in most regions. We are still working on mitigating the issue impacting customers in West Europe.\nJan 21, 06:50 UTC\nUpdate - We are continuing to monitor recovery in the affected regions.\nJan 21, 06:15 UTC\nUpdate - We are seeing signs of recovery in the affected regions.\nJan 21, 06:15 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nJan 21, 06:00 UTC\nUpdate - We continue to work on mitigating the underlying the issue impacting Codespaces customers.\nJan 21, 05:24 UTC\nUpdate - We continue to work on mitigating the underlying the issue impacting Codespaces customers.\nJan 21, 04:50 UTC\nUpdate - Around 15% of Codespaces customers are unable to create or resume their codespaces. We are continuing efforts to mitigate the issue.\nJan 21, 04:21 UTC\nUpdate - Codespaces is experiencing degraded availability. We are continuing to investigate.\nJan 21, 04:15 UTC\nUpdate - We have identified the issue impacting Codespaces customers in multiple regions and are working on mitigation.\nJan 21, 03:38 UTC\nUpdate - We are experiencing elevated error rates in multiple regions and are currently investigating.\nJan 21, 03:38 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces",
+          "description": "Jan 21, 09:34 UTC\nResolved - On 2024-01-21 at 3:38 UTC, we experienced an incident that affected customers using Codespaces. Customers encountered issues creating and resuming Codespaces in multiple regions due to operational issues with compute and storage resources.\nAround 25% of customers were impacted, primarily in East US and West Europe. We re-routed traffic for Codespace creations to less impacted regions, but existing Codespaces in these regions may have been unable to resume during the incident.\nBy 7:30 UTC, we had recovered connectivity to all regions except West Europe, which had an extended recovery time due to increased load in that particular region. The incident was resolved on 2024-01-21 at 9:34 UTC once Codespace creations and resumes were working normally in all regions.\n…",
           "link": "https://www.githubstatus.com/incidents/7ck5966p1073",
           "publishedOn": "2024-01-21T09:34:34.000Z",
-          "wordCount": 5572,
+          "wordCount": 5683,
           "title": "Incident with Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -428,26 +438,6 @@
           "wordCount": 5430,
           "title": "Incident with Pages",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/rp7669f45fjw",
-          "author": null,
-          "description": "Dec 27, 04:00 UTC\nResolved - On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/\nDec 27, 03:57 UTC\nUpdate - We have applied a fix and most customers should now be seeing recovery.\nDec 27, 03:14 UTC\nUpdate - Customers using Codespaces will be unable to connect to existing codespaces, create new ones, or export. We have identified the issue and are working on a remediation.\nDec 27, 03:09 UTC\nUpdate - Codespaces is experiencing degraded availability. We are continuing to investigate.\nDec 27, 02:53 UTC\nUpdate - Codespace services are experiencing connection issues\nDec 27, 02:53 UTC\nInvestigating - We are investigating reports of degraded availability for Codespaces",
-          "link": "https://www.githubstatus.com/incidents/rp7669f45fjw",
-          "publishedOn": "2023-12-27T04:00:57.000Z",
-          "wordCount": 5419,
-          "title": "Incident with Codespaces",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/xlm9bd5xq5bk",
-          "author": null,
-          "description": "Dec 27, 03:06 UTC\nResolved - On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/\nDec 27, 03:06 UTC\nUpdate - Codespaces is operating normally.\nDec 27, 02:51 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces and API Requests",
-          "link": "https://www.githubstatus.com/incidents/xlm9bd5xq5bk",
-          "publishedOn": "2023-12-27T03:06:56.000Z",
-          "wordCount": 5358,
-          "title": "Incident with Codespaces and API Requests",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -459,10 +449,10 @@
         {
           "id": "https://status.slack.com//2024-01/0a000b0ad09623a0",
           "author": null,
-          "description": "We're seeing signs of recovery, but are still investigating the root cause of the issue. We'll be back with an update as soon as we have more info to share.",
+          "description": "The issue that was causing some users to experience latency with connecting to Slack and loading channels has been resolved.\n\r\nWe apologize for any disruptions to your day.",
           "link": "https://status.slack.com//2024-01/0a000b0ad09623a0",
-          "publishedOn": "2024-01-24T20:37:29.000Z",
-          "wordCount": 114,
+          "publishedOn": "2024-01-25T01:27:35.000Z",
+          "wordCount": 143,
           "title": "Incident: Some latency with Slack",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
