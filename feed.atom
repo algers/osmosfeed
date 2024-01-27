@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-01-26T00:21:30.793Z</id>
+    <id>urn:2024-01-27T00:20:30.976Z</id>
     <title>osmos::feed</title>
-    <updated>2024-01-26T00:21:30.793Z</updated>
+    <updated>2024-01-27T00:20:30.976Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident: Service wide connection issues]]></title>
+        <id>https://status.slack.com//2024-01/8b623c0b5640c28f</id>
+        <link href="https://status.slack.com//2024-01/8b623c0b5640c28f"/>
+        <updated>2024-01-26T14:18:08.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+On January 24, 2024 from 5:40 AM PST to around 9:00 AM PST, a small number of users experienced issues connecting to Slack and running workflows.
+
+
+A change to routing in our servers resulted in requests failing due to a lack of available resources. This change was rolled back and Slack returned to a normal state.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Snapshots are failing in SFO3 and NYC3]]></title>
         <id>https://status.digitalocean.com/incidents/2yxmsbx1r89b</id>
@@ -29,16 +44,6 @@ Identified - Our Engineering team has identified an issue with snapshots taken b
         <summary type="html"><![CDATA[The issue that was causing some users to experience latency with connecting to Slack and loading channels has been resolved.
 
 We apologize for any disruptions to your day.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Service wide connection issues]]></title>
-        <id>https://status.slack.com//2024-01/8b623c0b5640c28f</id>
-        <link href="https://status.slack.com//2024-01/8b623c0b5640c28f"/>
-        <updated>2024-01-24T17:43:25.000Z</updated>
-        <summary type="html"><![CDATA[We’ve implemented a fix and all impacted features are up and running once again. We appreciate your patience while we sorted this out. If you’re still encountering any trouble, please reload Slack using Command + Shift + R (Mac) or Ctrl + Shift + R (Windows/Linux). Thank you for your patience while we sorted out this issue.]]></summary>
         <author>
             <name>Slack System Status</name>
         </author>
@@ -782,59 +787,6 @@ Dec 29, 01:41 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We are investigating reports of degraded performance.]]></title>
-        <id>https://www.githubstatus.com/incidents/lt4kyp4tgx45</id>
-        <link href="https://www.githubstatus.com/incidents/lt4kyp4tgx45"/>
-        <updated>2023-12-28T06:57:42.000Z</updated>
-        <summary type="html"><![CDATA[Dec 28, 06:57 UTC
-Resolved - On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/
-Dec 28, 06:49 UTC
-Update - We have deployed a fix and email service should be restored shortly.
-Dec 28, 06:48 UTC
-Update - We are experiencing issues sending some pull request, actions and other notification emails. Some emails may not be received as the result of activity on GitHub. Web and mobile push notifications are not affected.
-Dec 28, 06:43 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Pages]]></title>
-        <id>https://www.githubstatus.com/incidents/hzd6d6xhjpl6</id>
-        <link href="https://www.githubstatus.com/incidents/hzd6d6xhjpl6"/>
-        <updated>2023-12-27T19:25:23.000Z</updated>
-        <summary type="html"><![CDATA[Dec 27, 19:25 UTC
-Resolved - On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/
-Dec 27, 19:25 UTC
-Update - A recent update to an Action that GitHub Pages deployer service relies on impacted that service, and was corrected and redeployed.
-Dec 27, 19:12 UTC
-Update - We've identified the cause of some Pages errors and are deploying a mitigating fix now.
-Dec 27, 19:01 UTC
-Update - We continue to investigate issues with Pages, and will continue to keep users updated on progress towards mitigation.
-Dec 27, 18:29 UTC
-Update - Pages workflow builds which use the actions actions/upload-pages-artifact@v3 and actions/deploy-pages@v4 are currently failing.
-Dec 27, 18:29 UTC
-Investigating - We are investigating reports of degraded performance for Pages]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Degenerated iOS mobile App Performance]]></title>
-        <id>https://status.notion.so/incidents/mdxnttqpv9z2</id>
-        <link href="https://status.notion.so/incidents/mdxnttqpv9z2"/>
-        <updated>2023-12-27T16:41:14.000Z</updated>
-        <summary type="html"><![CDATA[Dec 27, 08:41 PST
-Resolved - The issue was resolved.
-Dec 27, 07:20 PST
-Identified - We have identified the issue & are implementing a fix.
-Dec 27, 05:30 PST
-Investigating - Some users are receiving an error when trying to re-enter the Notion App on an iOS mobile device after having opened a different App in the meantime. We are actively looking into this.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
         </author>
     </entry>
 </feed>
