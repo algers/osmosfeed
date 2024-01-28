@@ -398,16 +398,6 @@
           "wordCount": 5388,
           "title": "Incident with API Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/1h37j1mb9xnx",
-          "author": null,
-          "description": "Dec 29, 02:04 UTC\nResolved - On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/\nDec 29, 01:41 UTC\nUpdate - Users without an existing valid session are unable to login and will see an error page.  We are working on a mitigation.\nDec 29, 01:41 UTC\nInvestigating - We are currently investigating this issue.",
-          "link": "https://www.githubstatus.com/incidents/1h37j1mb9xnx",
-          "publishedOn": "2023-12-29T02:04:44.000Z",
-          "wordCount": 5366,
-          "title": "We are investigating reports of degraded performance.",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -416,6 +406,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://status.slack.com/",
       "articles": [
+        {
+          "id": "https://status.slack.com//2024-01/f39851209d6c471a",
+          "author": null,
+          "description": "Issue Summary:\n\r\n\r\nFrom 1:00pm PST on January 23, 2024 to 2:30pm PST on January 23, 2024, some users encountered trouble uploading, downloading, and viewing files in Slack.\n\r\n\r\nWe determined that an API call was not functioning correctly, and made a change to mitigate the issue. The upload problems were caused by a slowing down of responses due to a higher than normal volume of API calls due to the malfunction. This issue has been resolved and steps have been taken to avoid it happening in the future.",
+          "link": "https://status.slack.com//2024-01/f39851209d6c471a",
+          "publishedOn": "2024-01-27T00:22:52.000Z",
+          "wordCount": 277,
+          "title": "Incident: Some users are unable to upload, download, and view files in Slack.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://status.slack.com//2024-01/8b623c0b5640c28f",
           "author": null,
@@ -434,16 +434,6 @@
           "publishedOn": "2024-01-25T01:27:35.000Z",
           "wordCount": 143,
           "title": "Incident: Some latency with Slack",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2024-01/f39851209d6c471a",
-          "author": null,
-          "description": "The issue that some users experienced when uploading, downloading, and viewing files in Slack should no longer be affecting users. We will share a summary of the issue that will include additional details and findings once available. We apologize for any disruptions to your day.",
-          "link": "https://status.slack.com//2024-01/f39851209d6c471a",
-          "publishedOn": "2024-01-24T01:28:00.000Z",
-          "wordCount": 189,
-          "title": "Incident: Some users are unable to upload, download, and view files in Slack.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
