@@ -310,6 +310,16 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/g6drnqm54qd4",
+          "author": null,
+          "description": "Jan 28, 14:42 UTC\nResolved - This incident has been resolved.\nJan 28, 14:27 UTC\nUpdate - We have mitigated all customer impact. We are no longer serving fallback avatar icons when loading web pages for some customers. We continue to monitor the results.\nJan 28, 13:57 UTC\nUpdate - A fix has been implemented for customers seeing the default avatar (octocat) when loading web pages and we are monitoring the results.\nJan 28, 13:20 UTC\nUpdate - Some requests for getting the Avatars are returning the fallback response instead of the asked avatar since they are having issues connecting to the Mysql host\nJan 28, 13:20 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/g6drnqm54qd4",
+          "publishedOn": "2024-01-28T14:42:55.000Z",
+          "wordCount": 5366,
+          "title": "We are investigating reports of degraded performance.",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/bsk6hmj0d7nv",
           "author": null,
           "description": "Jan 23, 18:53 UTC\nResolved - On January 23, 2024 at 14:36 UTC, our internal metrics began showing an increase in exceptions originating from our live update service. Live updates to Issues, PRs, Actions, and Projects were failing, but refreshing the page successfully updated page content. We resolved the issue by rolling back a problematic dependency update and reenabled live updates at 18:53 UTC. \nWe are working to improve alerting and monitoring of our live update service to reduce our time to detection and mitigation.\nJan 23, 18:53 UTC\nUpdate - Live updates have been restored and the system is operating normally.\nJan 23, 18:14 UTC\nUpdate - We have identified and are beginning to roll out a potential fix for issues with live updates to our Web UI that power automatic page updates such as…",
@@ -377,26 +387,6 @@
           "publishedOn": "2024-01-03T17:05:05.000Z",
           "wordCount": 5624,
           "title": "We are investigating reports of degraded performance.",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/1ksntt4bk3bq",
-          "author": null,
-          "description": "Dec 29, 21:21 UTC\nResolved - On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/\nDec 29, 21:09 UTC\nUpdate - We are in the process of reverting a change that introduced these failures.\nDec 29, 20:05 UTC\nUpdate - We’re investigating reports of increased failure rates for migrations with GitHub Enterprise Importer and exports using the Organization Migrations REST API.\nDec 29, 20:05 UTC\nInvestigating - We are currently investigating this issue.",
-          "link": "https://www.githubstatus.com/incidents/1ksntt4bk3bq",
-          "publishedOn": "2023-12-29T21:21:38.000Z",
-          "wordCount": 5386,
-          "title": "We are investigating reports of degraded performance.",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/464b7g25n77j",
-          "author": null,
-          "description": "Dec 29, 18:33 UTC\nResolved - On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/\nDec 29, 18:31 UTC\nUpdate - With a mitigation deploying, we see recovery in most API requests and are continuing to monitor full rollout and mitigation.\nDec 29, 18:21 UTC\nUpdate - Secret Scanning and potentially other APIs are returning 500 error responses.  We're working on a mitigation.\nDec 29, 18:17 UTC\nInvestigating - We are investigating reports of degraded performance for API Requests",
-          "link": "https://www.githubstatus.com/incidents/464b7g25n77j",
-          "publishedOn": "2023-12-29T18:33:52.000Z",
-          "wordCount": 5388,
-          "title": "Incident with API Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]

@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-01-28T00:23:12.841Z</id>
+    <id>urn:2024-01-29T00:22:05.504Z</id>
     <title>osmos::feed</title>
-    <updated>2024-01-28T00:23:12.841Z</updated>
+    <updated>2024-01-29T00:22:05.504Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[We are investigating reports of degraded performance.]]></title>
+        <id>https://www.githubstatus.com/incidents/g6drnqm54qd4</id>
+        <link href="https://www.githubstatus.com/incidents/g6drnqm54qd4"/>
+        <updated>2024-01-28T14:42:55.000Z</updated>
+        <summary type="html"><![CDATA[Jan 28, 14:42 UTC
+Resolved - This incident has been resolved.
+Jan 28, 14:27 UTC
+Update - We have mitigated all customer impact. We are no longer serving fallback avatar icons when loading web pages for some customers. We continue to monitor the results.
+Jan 28, 13:57 UTC
+Update - A fix has been implemented for customers seeing the default avatar (octocat) when loading web pages and we are monitoring the results.
+Jan 28, 13:20 UTC
+Update - Some requests for getting the Avatars are returning the fallback response instead of the asked avatar since they are having issues connecting to the Mysql host
+Jan 28, 13:20 UTC
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Some users are unable to upload, download, and view files in Slack.]]></title>
         <id>https://status.slack.com//2024-01/f39851209d6c471a</id>
@@ -744,40 +763,6 @@ The impact has now subsided and users should no longer be experiencing issues wi
 We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We are investigating reports of degraded performance.]]></title>
-        <id>https://www.githubstatus.com/incidents/1ksntt4bk3bq</id>
-        <link href="https://www.githubstatus.com/incidents/1ksntt4bk3bq"/>
-        <updated>2023-12-29T21:21:38.000Z</updated>
-        <summary type="html"><![CDATA[Dec 29, 21:21 UTC
-Resolved - On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/
-Dec 29, 21:09 UTC
-Update - We are in the process of reverting a change that introduced these failures.
-Dec 29, 20:05 UTC
-Update - We’re investigating reports of increased failure rates for migrations with GitHub Enterprise Importer and exports using the Organization Migrations REST API.
-Dec 29, 20:05 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with API Requests]]></title>
-        <id>https://www.githubstatus.com/incidents/464b7g25n77j</id>
-        <link href="https://www.githubstatus.com/incidents/464b7g25n77j"/>
-        <updated>2023-12-29T18:33:52.000Z</updated>
-        <summary type="html"><![CDATA[Dec 29, 18:33 UTC
-Resolved - On December 26, 2023, GitHub received a report through our Bug Bounty Program demonstrating a vulnerability which, if exploited, allowed access to credentials within a production container. We fixed this vulnerability on GitHub.com the same day and began rotating all potentially exposed credentials. Through this process we found some flaws in how we rotate certain credentials and are working on improving our credential rotation process. More detail can be found on our blog: https://github.blog/2024-01-16-rotating-credentials-for-github-com-and-new-ghes-patches/
-Dec 29, 18:31 UTC
-Update - With a mitigation deploying, we see recovery in most API requests and are continuing to monitor full rollout and mitigation.
-Dec 29, 18:21 UTC
-Update - Secret Scanning and potentially other APIs are returning 500 error responses.  We're working on a mitigation.
-Dec 29, 18:17 UTC
-Investigating - We are investigating reports of degraded performance for API Requests]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
