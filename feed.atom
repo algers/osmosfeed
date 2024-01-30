@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-01-29T00:22:05.504Z</id>
+    <id>urn:2024-01-30T00:20:42.373Z</id>
     <title>osmos::feed</title>
-    <updated>2024-01-29T00:22:05.504Z</updated>
+    <updated>2024-01-30T00:20:42.373Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident: Pasting via Cmd/Ctrl + V not working]]></title>
+        <id>https://status.slack.com//2024-01/8ad463b92a084387</id>
+        <link href="https://status.slack.com//2024-01/8ad463b92a084387"/>
+        <updated>2024-01-29T23:38:14.000Z</updated>
+        <summary type="html"><![CDATA[We are currently investigating an issue which is preventing users from pasting via Ctrl + V (Windows/Linux) and Cmd + V (MacOS). We'll be back with another updates as soon as we know more. 
+
+In the meantime, users can workaround this issue by pasting via mouse (right click to open context menu + select Paste).]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DNS Resolution in FRA1, AMS3 and LON1 Regions]]></title>
+        <id>https://status.digitalocean.com/incidents/r9w0yrbyy9ls</id>
+        <link href="https://status.digitalocean.com/incidents/r9w0yrbyy9ls"/>
+        <updated>2024-01-29T18:36:45.000Z</updated>
+        <summary type="html"><![CDATA[Jan 29, 18:36 UTC
+Resolved - Our Engineering team has confirmed the workaround fix is successful and all services should now be operating normally. We will now close this incident and work with the DNS provider separately on the root cause. 
+We appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.
+Jan 29, 18:18 UTC
+Monitoring - Our Engineering team has identified the root cause of the issue with DNS resolution. DigitalOcean resolvers in use in FRA1, AMS3, and LON1 are unable to reach an upstream DNS provider, resulting in resolution for a subset of domain names being unavailable from our resolvers. Our Engineering team is reaching out to the provider for assistance.
+In the meantime, our Engineering team has been able to implement a workaround fix by filtering some incorrectly announced network routes. At this time, we are seeing recovery and resolution of hostnames returning to normal in the impacted regions. We'll continue to await an update from the DNS provider. We're now monitoring the workaround fix for stability and will post an update once we are confident it is successful.
+Jan 29, 17:27 UTC
+Investigating - Our Engineering team is currently investigating issues with DNS resolution in FRA1, AMS3, and LON1. During this time, customers may experience errors trying to resolve domain names from within DigitalOcean services in those regions, including Droplets and Droplet-based services, as well as App Platform. Additionally, App Platform builds may fail or experience delays. 
+We apologize for the inconvenience and will share an update once we have more information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We are investigating reports of degraded performance.]]></title>
         <id>https://www.githubstatus.com/incidents/g6drnqm54qd4</id>
@@ -746,23 +776,6 @@ This system plays a crucial role in managing email subscriptions and the contact
 During the incident we implemented graceful degradation on the `/settings/email` page to enable certain functionality, albeit with slower response time…]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spaces Availability in SGP1]]></title>
-        <id>https://status.digitalocean.com/incidents/p6j21rldnxtl</id>
-        <link href="https://status.digitalocean.com/incidents/p6j21rldnxtl"/>
-        <updated>2023-12-30T12:23:06.000Z</updated>
-        <summary type="html"><![CDATA[Dec 30, 12:23 UTC
-Resolved - Our Engineering team has resolved the issue impacting Spaces Object Storage in our SGP1 region. From approximately 09:20 UTC - 11:31 UTC, users may have experienced an increased error rate and low performance while using the Spaces system. Spaces should now be operating normally. 
-If you continue to experience problems, please open a ticket with our Support team. Thank you for your patience and we apologize for any inconvenience.
-Dec 30, 11:53 UTC
-Monitoring - From 09:20 UTC, our Engineering team observed an issue with Spaces Object Storage availability in the SGP1 region. 
-During this time you may have experienced an increased error rate and low performance while using the Spaces system. 
-The impact has now subsided and users should no longer be experiencing issues with accessing the Spaces Object Storage.
-We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>

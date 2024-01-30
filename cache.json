@@ -103,12 +103,22 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/r9w0yrbyy9ls",
+          "author": null,
+          "description": "Jan 29, 18:36 UTC\nResolved - Our Engineering team has confirmed the workaround fix is successful and all services should now be operating normally. We will now close this incident and work with the DNS provider separately on the root cause. \nWe appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.\nJan 29, 18:18 UTC\nMonitoring - Our Engineering team has identified the root cause of the issue with DNS resolution. DigitalOcean resolvers in use in FRA1, AMS3, and LON1 are unable to reach an upstream DNS provider, resulting in resolution for a subset of domain names being unavailable from our resolvers. Our Engineering team is reaching out to the provider for assistance.\nIn the meantime, our Engineering team has been able to implement a workaround fix by filtering some incorrectly announced network routes. At this time, we are seeing recovery and resolution of hostnames returning to normal in the impacted regions. We'll continue to await an update from the DNS provider. We're now monitoring the workaround fix for stability and will post an update once we are confident it is successful.\nJan 29, 17:27 UTC\nInvestigating - Our Engineering team is currently investigating issues with DNS resolution in FRA1, AMS3, and LON1. During this time, customers may experience errors trying to resolve domain names from within DigitalOcean services in those regions, including Droplets and Droplet-based services, as well as App Platform. Additionally, App Platform builds may fail or experience delays. \nWe apologize for the inconvenience and will share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/r9w0yrbyy9ls",
+          "publishedOn": "2024-01-29T18:36:45.000Z",
+          "wordCount": 6473,
+          "title": "DNS Resolution in FRA1, AMS3 and LON1 Regions",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/2yxmsbx1r89b",
           "author": null,
           "description": "Jan 25, 02:56 UTC\nResolved - Our Engineering team has resolved the issue with snapshots taken by customers in the NYC3 and SFO3 regions. If you continue to experience problems, please open a ticket with our support team. Thank you for your patience and we apologize for any inconvenience.\nJan 25, 01:50 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue with snapshots taken by customers in the NYC3 and SFO3 regions and are monitoring the situation closely. \nWe will post another update once we're confident that the issue is fully resolved.\nJan 25, 00:26 UTC\nIdentified - Our Engineering team has identified an issue with snapshots taken by customers in the NYC3 and SFO3 regions and is actively working on a fix. We will post an update as soon as additional information is available.",
           "link": "https://status.digitalocean.com/incidents/2yxmsbx1r89b",
           "publishedOn": "2024-01-25T02:56:12.000Z",
-          "wordCount": 6332,
+          "wordCount": 6340,
           "title": "Snapshots are failing in SFO3 and NYC3",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -118,7 +128,7 @@
           "description": "Jan 23, 22:50 UTC\nResolved - Our Engineering team has completed mitigation efforts for the issue impacting Managed Kubernetes in the FRA1 region and we are marking this incident as Resolved. \nAt this time, functionality to impacted clusters has been restored but customers may need to reconfigure some Kubernetes resources. Customer Support is contacting impacted customers directly with further instructions. \nIf you have any questions or concerns regarding this incident, please open a ticket with our support team.\nJan 23, 18:44 UTC\nUpdate - Our Engineering team continues to work on mitigation efforts. An additional small bug has been discovered and remediated. About 10% of clusters have had accessibility restored and restoration efforts are ongoing. \nWe will post another update as soon as we have new developments.\nThank you for your patience and we apologize for any inconvenience.\nJan 23, 15:12 UTC\nIdentified - Our Engineering team has identified the cause of the issue with Managed Kubernetes clusters in the FRA1 region. 200 clusters are impacted by the issue and remain inaccessible to users at this time. \nOur Engineering team is engaged in remediating these clusters to restore accessibility. As soon as we are able to provide an estimated time to restore, we will provide an update.\nJan 23, 13:02 UTC\nInvestigating - As of 12:18 UTC, our Engineering team is investigating an issue with Kubernetes clusters in the FRA1 region. During this time, users may experience errors while communicating with their clusters in the FRA1 region. \nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/s4kt15q6xq19",
           "publishedOn": "2024-01-23T22:50:40.000Z",
-          "wordCount": 6444,
+          "wordCount": 6452,
           "title": "Managed Kubernetes Cluster in FRA1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -128,7 +138,7 @@
           "description": "Jan 22, 18:38 UTC\nResolved - As of 18:37 UTC, our Engineering team has confirmed the full resolution of the issue that impacted network reachability in the LON1 region. All services and resources should now be fully reachable.\nIf you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel. \nThank you for your patience and we apologize for any inconvenience.\nJan 22, 13:32 UTC\nMonitoring - The network issues affecting our LON1 region have been mitigated. Users should no longer experience packet loss/latency, timeouts, and related issues with Droplet-based services in this region, including Droplets, LBaas, Managed Kubernetes, and Managed Database. \nWe are currently monitoring the situation closely and will share an update as soon as the issue is fully resolved.\nJan 22, 12:25 UTC\nIdentified - Our Engineering team has identified the cause of the issue impacting networking in the LON1 region and is actively working on a fix.\nDuring this time, users may still experience packet loss/latency, timeouts, and related issues with Droplet-based services in this region, including Droplets, LBaaS, Managed Kubernetes, and Managed Databases.\nWe will post an update as soon as additional information is available\nJan 22, 11:36 UTC\nInvestigating - Our Engineering team is investigating a networking issue in our LON1 region. At this time, you may experience packet loss or dropped connections.\nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/9y133zrfqngf",
           "publishedOn": "2024-01-22T18:38:44.000Z",
-          "wordCount": 6418,
+          "wordCount": 6426,
           "title": "Network connectivity in LON1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -138,7 +148,7 @@
           "description": "Jan 22, 10:32 UTC\nResolved - Our Engineering team has resolved the issue impacting Spaces API availability in our SFO2 region. From approximately 09:00 UTC - 10:00 UTC, users may have experienced latency or timeouts when trying to access or manage their Spaces buckets. Spaces should now be operating normally.\nIf you continue to experience problems, please open a ticket with our Support team. Thank you for your patience and we apologize for any inconvenience.\nJan 22, 10:10 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue impacting SFO2 Spaces API availability and monitoring the situation. We will post an update as soon as the issue is fully resolved.\nJan 22, 09:59 UTC\nIdentified - As of 09:50 UTC, our Engineering team has identified the cause of the issue impacting Spaces API availability in our SFO2 region and is actively working on a fix.\nWe will post an update as soon as additional information is available\nJan 22, 09:13 UTC\nInvestigating - As of 09:00 UTC, Our Engineering team is investigating an issue impacting Spaces API availability in our SFO2 region.\nDuring this time, users may experience slowness or timeouts when trying to access or manage their Spaces resources in SFO2.\nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/299xh1cfs8s5",
           "publishedOn": "2024-01-22T10:32:23.000Z",
-          "wordCount": 6397,
+          "wordCount": 6405,
           "title": "Spaces availability in SFO2",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -148,7 +158,7 @@
           "description": "Jan 17, 09:34 UTC\nResolved - As of 09:17 UTC, our Engineering team has confirmed the full resolution of the issue impacting the Droplet rebuild via the Cloud Control Panel.\nWe appreciate your patience throughout the process. If you continue to experience problems, please open a ticket with our support team.\nJan 17, 09:22 UTC\nMonitoring - Our Engineering team has taken actions to mitigate the issue impacting the Droplet rebuild via Cloud Control Panel and is monitoring the situation.\nThe impact has been subsided and the users should no longer experience issues when rebuilding Droplets from the Cloud Control Panel. We apologize for the inconvenience and we will post an update once we confirm this incident is fully resolved.\nJan 17, 08:26 UTC\nIdentified - Our Engineering team has identified the cause of the issue impacting the Droplet rebuild via the Cloud Control Panel and is actively working on a fix. During this time, users may get an error response when trying to rebuild the Droplet via the Cloud Control Panel. We will post an update as soon as additional information is available.\nJan 17, 07:15 UTC\nInvestigating - As of 06:50 UTC, our Engineering team is investigating an issue impacting the Droplet rebuild via the Cloud Control Panel.\nDuring this time, users may get an error response when trying to rebuild the Droplet via the Cloud Control Panel.\nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/x0f8bvr688rs",
           "publishedOn": "2024-01-17T09:34:03.000Z",
-          "wordCount": 6428,
+          "wordCount": 6436,
           "title": "Droplet rebuild",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -158,7 +168,7 @@
           "description": "Jan 16, 13:34 UTC\nResolved - Our Engineering team has resolved the issue impacting multiple spaces-related functionalities. From approximately 10:30 UTC - 13:30 UTC, users may have experienced issues while trying to perform multiple actions on Spaces via the Cloud Control Panel and API. Spaces-related functionalities should now be operating normally.\nIf you continue to experience problems, please open a ticket with our Support team. Thank you for your patience and we apologize for any inconvenience.\nJan 16, 12:51 UTC\nMonitoring - Our Engineering team has taken actions to mitigate the issue affecting multiple Spaces-related functionalities and is monitoring the situation.\nThe impact has been subsided and the users should no longer experience issues with Spaces-related functionalities. \nWe apologize for the inconvenience and we will post an update once we confirm this incident is fully resolved.\nJan 16, 12:03 UTC\nIdentified - Our Engineering team has identified the issue affecting multiple Spaces-related functionalities and is actively working on a fix.\nDuring this time, users may experience issues while trying to perform multiple actions on Spaces via the Cloud Control Panel and API.\nAdditionally, this may also impact Container Registry creation and issues with transferring images between regions. \nWe apologize for the inconvenience and will share an update once we have more information.\nJan 16, 10:54 UTC\nInvestigating - As of 10:30 UTC, our Engineering team is investigating an issue with multiple Spaces functionalities via the Cloud Control Panel. \nDuring this time, users may experience errors when attempting to delete objects via the Cloud Control Panel. At this moment we are investigating the exact impact and will share more information as soon as we have it.\nWe apologize for the inconvenience.",
           "link": "https://status.digitalocean.com/incidents/j4jwmwl3szxz",
           "publishedOn": "2024-01-16T13:34:24.000Z",
-          "wordCount": 6473,
+          "wordCount": 6481,
           "title": "Spaces Functionality",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -168,7 +178,7 @@
           "description": "Jan 16, 09:30 UTC\nResolved - As of 08:50 UTC, our Engineering team has confirmed the full resolution of the issue impacting the ability to access and manage Functions through the Cloud Control Panel.\nWe appreciate your patience throughout the process. If you continue to experience problems, please open a ticket with our support team.\nJan 16, 08:59 UTC\nMonitoring - Our Engineering team has been able to mitigate the issue related to the access and operations with Functions through the Cloud Control Panel.\nUsers should no longer face any problems in accessing or operating Functions using the Cloud Control Panel. \nWe apologize for the inconvenience. We are monitoring the situation and will post an update once we confirm this incident is fully resolved.\nJan 16, 08:17 UTC\nInvestigating - As of 03:00 AM UTC, our Engineering team is investigating an issue impacting Functions. \nDuring this time, users may experience issues with accessing Functions via the Cloud Control Panel. At this time, API operations shouldn't be impacted and should continue to function as intended. \nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/47dqh6pzqybt",
           "publishedOn": "2024-01-16T09:30:15.000Z",
-          "wordCount": 6364,
+          "wordCount": 6372,
           "title": "Functions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -178,7 +188,7 @@
           "description": "Jan 11, 00:18 UTC\nResolved - Our Engineering team has confirmed full resolution of this incident. \nFrom approximately 20:15 - 21:45 UTC, DigitalOcean experienced a global networking issue that impacted multiple services and products. Users saw increased error rates and latency for event processing, accessing our Cloud Control Panel/API, applying Cloud Firewall policies, accessing www.digitalocean.com and our Community site, and DNS resolution. Additionally, users saw timeouts/increased latency for networking requests to Droplets and Droplet-based services, as well as connections to existing App Platform Apps. \nWe sincerely apologize for the disruption. If you continue to experience issues or have questions, please reach out to our Support team by opening a ticket from within your account. …",
           "link": "https://status.digitalocean.com/incidents/33vqf05m8396",
           "publishedOn": "2024-01-11T00:18:25.000Z",
-          "wordCount": 6738,
+          "wordCount": 6746,
           "title": "Global Networking",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -188,7 +198,7 @@
           "description": "Jan  9, 12:55 UTC\nResolved - As of 12:30  UTC, our Engineering team has resolved the issue impacting CRUD (create, read, update, delete) operations for Managed Database Clusters in all the regions.\nEverything should now be functioning normally. We appreciate your patience throughout the process.\nIf you continue to experience problems, please open a ticket with our support team.\nJan  9, 10:17 UTC\nMonitoring - Our Engineering team has confirmed that the action taken to mitigate the recurrence of the issue is successful. Users should no longer experience errors in CRUD (create, read, update, delete) operations for Managed Database Clusters in all regions, via both the Cloud Control Panel and API requests.\nWe are actively monitoring the situation to ensure stability and will provide an update …",
           "link": "https://status.digitalocean.com/incidents/8fm83lgfsdhm",
           "publishedOn": "2024-01-09T12:55:23.000Z",
-          "wordCount": 6547,
+          "wordCount": 6555,
           "title": "Managed Database Operations",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -198,7 +208,7 @@
           "description": "Jan  8, 15:57 UTC\nResolved - As of 15:00 UTC, Our engineering team has resolved the issue impacting Container Registry  and App platform builds in various regions including AMS3, LON1 and FRA1 regions. \nEverything should now be functioning normally. We appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.\nJan  8, 15:13 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue impacting Container Registry App platform builds in AMS3, LON1 and FRA1 regions. User should not be facing any issues while interacting with their Container registries and also while building their Apps. \nWe are actively monitoring the situation to ensure stability and will provide an update once the incident has been fully resolved. \nThank you for your patience and we apologize for the inconvenience.\nJan  8, 14:15 UTC\nInvestigating - Our Engineering team is investigating an issue with DigitalOcean Container Registry service in our AMS3 and LON1 regions. \nDuring this time a subset of customers may experience latency while interacting with the Container Registries. This is also impacting App Platform builds and users may encounter delays in while building their Apps and could potentially experience timeout errors in builds as a result. \nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/88sl0dldq6dh",
           "publishedOn": "2024-01-08T15:57:06.000Z",
-          "wordCount": 6424,
+          "wordCount": 6432,
           "title": "Container Registry and App Platform in Multiple Regions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -208,7 +218,7 @@
           "description": "Jan  8, 00:32 UTC\nResolved - Our Engineering team has confirmed the full resolution of the issue with authentication failures on Managed Kubernetes Clusters.\nFrom 19:26 - 23:29 UTC, users saw errors accessing and performing actions on Managed Kubernetes Clusters, due to authentication failures. All services are now operating normally.  \nIf you continue to experience problems, please open a ticket with our support team. Thank you for your patience throughout this incident!\nJan  8, 00:01 UTC\nMonitoring - Our Engineering team has confirmed that the action taken to mitigate the impact of this incident is successful and customers are no longer seeing issues accessing or performing actions on Managed Kubernetes Clusters. \nWe'll monitor the situation for a short while and will post a final update once we confirm full resolution.\nJan  7, 23:32 UTC\nIdentified - Our Engineering team has taken action to mitigate the impact of this incident and internal tests on impacted clusters are now passing. At this time, users should start to see recovery and be able to access clusters normally. \nWe are still investigating root cause and ensuring this mitigation will continue to be successful. We'll provide another update as soon as possible.\nJan  7, 22:02 UTC\nInvestigating - Our Engineering team is investigating customer reports of errors when trying to perform actions on Managed Kubernetes Clusters using kubectl. At this time, customers may see errors indicating that the API token is unauthorized or missing credentials. We will provide an update as soon as we have more information.",
           "link": "https://status.digitalocean.com/incidents/x0l7xgm3bc91",
           "publishedOn": "2024-01-08T00:32:13.000Z",
-          "wordCount": 6444,
+          "wordCount": 6452,
           "title": "Kubernetes Clusters - Authentication Errors",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -218,18 +228,8 @@
           "description": "Jan  4, 15:59 UTC\nResolved - From approximately 15:00 - 15:35 UTC, users saw a 404 error when navigating to the Settings page in our Cloud Control Panel. \nOur Engineering team has confirmed full resolution of the issue. \nIf you continue to experience issues, please open a Support ticket from within your account.\nJan  4, 15:39 UTC\nMonitoring - Our Engineering team has identified the root cause of the issue with the Settings portion of our Cloud Control Panel throwing a 404 and has implemented a fix. At this time, users should be able to navigate to the Settings tab or directly to https://cloud.digitalocean.com/account/team normally. \nWe are monitoring the fix and will post a final update once we confirm full resolution.\nJan  4, 15:24 UTC\nInvestigating - Our Engineering team is investigating an issue with the Settings portion of our Cloud Control Panel. At this time, users navigating to the Settings tab or directly to https://cloud.digitalocean.com/account/team will see a 404 error. \nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/1pbm98zxkh8w",
           "publishedOn": "2024-01-04T15:59:14.000Z",
-          "wordCount": 6361,
+          "wordCount": 6369,
           "title": "Settings in Cloud Control Panel Unavailable",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/p6j21rldnxtl",
-          "author": null,
-          "description": "Dec 30, 12:23 UTC\nResolved - Our Engineering team has resolved the issue impacting Spaces Object Storage in our SGP1 region. From approximately 09:20 UTC - 11:31 UTC, users may have experienced an increased error rate and low performance while using the Spaces system. Spaces should now be operating normally. \nIf you continue to experience problems, please open a ticket with our Support team. Thank you for your patience and we apologize for any inconvenience.\nDec 30, 11:53 UTC\nMonitoring - From 09:20 UTC, our Engineering team observed an issue with Spaces Object Storage availability in the SGP1 region. \nDuring this time you may have experienced an increased error rate and low performance while using the Spaces system. \nThe impact has now subsided and users should no longer be experiencing issues with accessing the Spaces Object Storage.\nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/p6j21rldnxtl",
-          "publishedOn": "2023-12-30T12:23:06.000Z",
-          "wordCount": 6327,
-          "title": "Spaces Availability in SGP1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -282,7 +282,7 @@
           "description": "Jan  8, 18:26 UTC\nResolved - The Rippling application was inaccessible from 9:39am to 10:06am PST; it has recovered and is now performing normally. The root cause is an incident with Cloudflare: https://www.cloudflarestatus.com/\nJan  8, 18:11 UTC\nMonitoring - The issue accessing Rippling has been mitigated, and we are monitoring the results.\nJan  8, 17:56 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://status.rippling.com/incidents/crg2qtnbmb1t",
           "publishedOn": "2024-01-08T18:26:01.000Z",
-          "wordCount": 5296,
+          "wordCount": 5304,
           "title": "Issues loading Rippling",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         },
@@ -292,7 +292,7 @@
           "description": "Jan  4, 22:53 UTC\nResolved - This incident has been resolved.\nJan  4, 22:45 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nJan  4, 19:22 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://status.rippling.com/incidents/5qwcw06j2w1b",
           "publishedOn": "2024-01-04T22:53:03.000Z",
-          "wordCount": 5309,
+          "wordCount": 5317,
           "title": "Erroneous emails being sent to IT admins about user account privileges on Windows devices",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         }
@@ -315,7 +315,7 @@
           "description": "Jan 28, 14:42 UTC\nResolved - This incident has been resolved.\nJan 28, 14:27 UTC\nUpdate - We have mitigated all customer impact. We are no longer serving fallback avatar icons when loading web pages for some customers. We continue to monitor the results.\nJan 28, 13:57 UTC\nUpdate - A fix has been implemented for customers seeing the default avatar (octocat) when loading web pages and we are monitoring the results.\nJan 28, 13:20 UTC\nUpdate - Some requests for getting the Avatars are returning the fallback response instead of the asked avatar since they are having issues connecting to the Mysql host\nJan 28, 13:20 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/g6drnqm54qd4",
           "publishedOn": "2024-01-28T14:42:55.000Z",
-          "wordCount": 5366,
+          "wordCount": 5374,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -325,7 +325,7 @@
           "description": "Jan 23, 18:53 UTC\nResolved - On January 23, 2024 at 14:36 UTC, our internal metrics began showing an increase in exceptions originating from our live update service. Live updates to Issues, PRs, Actions, and Projects were failing, but refreshing the page successfully updated page content. We resolved the issue by rolling back a problematic dependency update and reenabled live updates at 18:53 UTC. \nWe are working to improve alerting and monitoring of our live update service to reduce our time to detection and mitigation.\nJan 23, 18:53 UTC\nUpdate - Live updates have been restored and the system is operating normally.\nJan 23, 18:14 UTC\nUpdate - We have identified and are beginning to roll out a potential fix for issues with live updates to our Web UI that power automatic page updates such as…",
           "link": "https://www.githubstatus.com/incidents/bsk6hmj0d7nv",
           "publishedOn": "2024-01-23T18:53:29.000Z",
-          "wordCount": 5687,
+          "wordCount": 5695,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -335,7 +335,7 @@
           "description": "Jan 21, 09:34 UTC\nResolved - On 2024-01-21 at 3:38 UTC, we experienced an incident that affected customers using Codespaces. Customers encountered issues creating and resuming Codespaces in multiple regions due to operational issues with compute and storage resources.\nAround 25% of customers were impacted, primarily in East US and West Europe. We re-routed traffic for Codespace creations to less impacted regions, but existing Codespaces in these regions may have been unable to resume during the incident.\nBy 7:30 UTC, we had recovered connectivity to all regions except West Europe, which had an extended recovery time due to increased load in that particular region. The incident was resolved on 2024-01-21 at 9:34 UTC once Codespace creations and resumes were working normally in all regions.\n…",
           "link": "https://www.githubstatus.com/incidents/7ck5966p1073",
           "publishedOn": "2024-01-21T09:34:34.000Z",
-          "wordCount": 5683,
+          "wordCount": 5691,
           "title": "Incident with Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -345,7 +345,7 @@
           "description": "Jan 21, 06:19 UTC\nResolved - On 2024-01-21 from 02:05 UTC to 06:19 UTC, GitHub Hosted Runners experienced increased error rates from our main cloud service provider. The errors were initially limited to a single region and we were able to route around the issue by transparently failing over to other regions. However, errors gradually expanded across all regions we deploy to and led to our available compute capacity being exhausted.\nDuring the incident, up to 35% of Actions jobs using Larger Runners and 2% of Actions jobs using GitHub Hosted Runners overall may have experienced intermittent delays in starting. Once the issue was resolved by our cloud service provider, our systems made a full recovery without intervention.\nWe’re working closely with our service provider to understand the cause of the outage and mitigations we can put in place. We’re also working to increase our resilience to outages of this nature by expanding the regions we deploy to beyond the existing set, especially for Larger Runners.\nJan 21, 05:54 UTC\nUpdate - We've applied a mitigation to fix the issues with queuing and running Actions jobs. We are seeing improvements in telemetry and are monitoring for full recovery.\nJan 21, 05:26 UTC\nUpdate - We have mitigated the issues impacting Actions Larger Runners. We are still experiencing delays starting normal jobs, and are continuing to investigate.\nJan 21, 04:53 UTC\nUpdate - The team has identified the cause of the issues with Actions Larger Runners and has begun mitigation.\nJan 21, 04:16 UTC\nUpdate - The team continues to investigate issues with some Actions jobs being queued for a long time and a percentage of jobs failing. We will continue providing updates on the progress towards mitigation.\nJan 21, 03:45 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
           "link": "https://www.githubstatus.com/incidents/hmvr5kpgzc45",
           "publishedOn": "2024-01-21T06:19:52.000Z",
-          "wordCount": 5544,
+          "wordCount": 5552,
           "title": "Incident with Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -355,7 +355,7 @@
           "description": "Jan  9, 14:40 UTC\nResolved - On January 9 between 12:45 and 13:56 UTC, services in one of our three sites experienced elevated latency for connections.  This led to a sustained period of timed out requests across a number of services, including but not limited to our git backend.  An average of 5% and max of 10% of requests failed with a 5xx response or timed out during this period.  This was caused by a combination of events that led to connection limits being hit in load balancer proxies in that site.  An upgrade of hosts was in flight, which meant a subset of proxy hosts were draining and coming offline as the upgrade rolled through the fleet.  A config change event also triggered a connection reset across all services in that site.  These events are commonplace, but led to a spike in c…",
           "link": "https://www.githubstatus.com/incidents/pxg3dz4yg7lp",
           "publishedOn": "2024-01-09T14:40:45.000Z",
-          "wordCount": 5933,
+          "wordCount": 5941,
           "title": "Incident with Issues, API Requests, Pull Requests, Actions, Pages, Git Operations, Webhooks, Packages and Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -365,7 +365,7 @@
           "description": "Jan  9, 05:44 UTC\nResolved - On January 9 between 1:06 and 5:43 UTC, no audit log events were streamed for customers that have that enabled. All events that happened during this time were delivered after the issue was mitigated. The event delivery was failing due to a data shape issue, with a streaming configuration linked to a soft-deleted Enterprise causing a runtime error for a backend service.  This was mitigated by removing that configuration.  Since the incident, we have improved our detection of these errors and ensured support for similar scenarios.\nJan  9, 05:40 UTC\nUpdate - Audit logs streaming is currently unavailable due to a misconfiguration issue. The root cause is understood and our engineers will be updating the broken configuration shortly.\nJan  9, 04:59 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/dxthh9653wkk",
           "publishedOn": "2024-01-09T05:44:37.000Z",
-          "wordCount": 5382,
+          "wordCount": 5390,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -375,7 +375,7 @@
           "description": "Jan  8, 23:41 UTC\nResolved - From January 5th to January 8th, Codespaces experienced issues with port forwarding when connecting from a web browser. During this incident 100% of operations to forward ports and connect to a forwarded port failed for customers located in US West and Australia. The cause was due to a cross origin API change in our port forwarding service. After detecting the issue, we mitigated the impact by rolling back the change that caused the discrepancy in the cross origin rules. We have improved the way we are detecting issues like this one including implementing automated alerts during and after the rollout process so that we get signals as early as possible.\nJan  8, 22:37 UTC\nUpdate - The initial mitigation we attempted did not fully resolve this issue.  We are continuing to investigate and will provide an update as soon as possible.\nJan  8, 21:55 UTC\nUpdate - We are engaged on the issue and continuing to work toward a mitigation. Please continue to fallback to VS Code desktop for port forwarding workflows.\nJan  8, 21:03 UTC\nUpdate - Mitigation of degraded Codespaces port forwarding in is progress.  In the meantime, please continue to use VS Code Desktop for port forwarding.\nJan  8, 20:22 UTC\nUpdate - We are actively mitigating degraded performance of Codespaces port forwarding in the web and GitHub CLI.  Codespaces port forwarding on VS Code Desktop is unaffected.\nJan  8, 20:22 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces",
           "link": "https://www.githubstatus.com/incidents/35pgg0gc75nv",
           "publishedOn": "2024-01-08T23:41:03.000Z",
-          "wordCount": 5496,
+          "wordCount": 5504,
           "title": "Incident with Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -385,7 +385,7 @@
           "description": "Jan  3, 17:05 UTC\nResolved - From 10:30 to 16:15 UTC on January 3rd, our `/settings/emails` page experienced downtime due to an outage in our contact permissions system. During this time customers were unable to update their email subscription preferences.\nThis system plays a crucial role in managing email subscriptions and the contactability of GitHub customers by our marketing and sales teams. Unfortunately, the outage prevented the generation of links for managing email subscriptions, resulting in the `/settings/emails` page timing out. Consequently, customers were unable to update their email subscription preferences during this period.\nDuring the incident we implemented graceful degradation on the `/settings/email` page to enable certain functionality, albeit with slower response time…",
           "link": "https://www.githubstatus.com/incidents/zzy7pdshgqk0",
           "publishedOn": "2024-01-03T17:05:05.000Z",
-          "wordCount": 5624,
+          "wordCount": 5632,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
@@ -396,6 +396,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://status.slack.com/",
       "articles": [
+        {
+          "id": "https://status.slack.com//2024-01/8ad463b92a084387",
+          "author": null,
+          "description": "We are currently investigating an issue which is preventing users from pasting via Ctrl + V (Windows/Linux) and Cmd + V (MacOS). We'll be back with another updates as soon as we know more. \n\r\nIn the meantime, users can workaround this issue by pasting via mouse (right click to open context menu + select Paste).",
+          "link": "https://status.slack.com//2024-01/8ad463b92a084387",
+          "publishedOn": "2024-01-29T23:38:14.000Z",
+          "wordCount": 87,
+          "title": "Incident: Pasting via Cmd/Ctrl + V not working",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://status.slack.com//2024-01/f39851209d6c471a",
           "author": null,

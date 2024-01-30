@@ -22,6 +22,96 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-29 datetime="2024-01-29T23:38:14.000Z">2024-01-29</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-29 datetime="2024-01-29T23:38:14.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Slack System Status</button>
+                  <a class="source-heading__link" href="https://status.slack.com/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.slack.com//2024-01/8ad463b92a084387"
+                        open
+                      >
+                        <summary class="article-expander__title">Incident: Pasting via Cmd/Ctrl + V not working</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.slack.com//2024-01/8ad463b92a084387">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>We are currently investigating an issue which is preventing users from pasting via Ctrl + V (Windows/Linux) and Cmd + V (MacOS). We&#x27;ll be back with another updates as soon as we know more. 
+
+In the meantime, users can workaround this issue by pasting via mouse (right click to open context menu + select Paste).</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >DigitalOcean Status - Incident History</button>
+                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.digitalocean.com/incidents/r9w0yrbyy9ls"
+                        open
+                      >
+                        <summary class="article-expander__title">DNS Resolution in FRA1, AMS3 and LON1 Regions</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/r9w0yrbyy9ls">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Jan 29, 18:36 UTC
+Resolved - Our Engineering team has confirmed the workaround fix is successful and all services should now be operating normally. We will now close this incident and work with the DNS provider separately on the root cause. 
+We appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.
+Jan 29, 18:18 UTC
+Monitoring - Our Engineering team has identified the root cause of the issue with DNS resolution. DigitalOcean resolvers in use in FRA1, AMS3, and LON1 are unable to reach an upstream DNS provider, resulting in resolution for a subset of domain names being unavailable from our resolvers. Our Engineering team is reaching out to the provider for assistance.
+In the meantime, our Engineering team has been able to implement a workaround fix by filtering some incorrectly announced network routes. At this time, we are seeing recovery and resolution of hostnames returning to normal in the impacted regions. We&#x27;ll continue to await an update from the DNS provider. We&#x27;re now monitoring the workaround fix for stability and will post an update once we are confident it is successful.
+Jan 29, 17:27 UTC
+Investigating - Our Engineering team is currently investigating issues with DNS resolution in FRA1, AMS3, and LON1. During this time, customers may experience errors trying to resolve domain names from within DigitalOcean services in those regions, including Droplets and Droplet-based services, as well as App Platform. Additionally, App Platform builds may fail or experience delays. 
+We apologize for the inconvenience and will share an update once we have more information.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;22
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-28 datetime="2024-01-28T14:42:55.000Z">2024-01-28</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-28 datetime="2024-01-28T14:42:55.000Z"></time>
           </button>
@@ -316,7 +406,7 @@ Our Engineering team is engaged in remediating these clusters to restore accessi
 Jan 23, 13:02 UTC
 Investigating - As of 12:18 UTC, our Engineering team is investigating an issue with Kubernetes clusters in the FRA1 region. During this time, users may experience errors while communicating with their clusters in the FRA1 region. 
 We apologize for the inconvenience and will share an update once we have more information.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
+                                &ensp;<span class="article-reading-time">(&hairsp;22
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -657,7 +747,7 @@ Jan 21, 04:16 UTC
 Update - The team continues to investigate issues with some Actions jobs being queued for a long time and a percentage of jobs failing. We will continue providing updates on the progress towards mitigation.
 Jan 21, 03:45 UTC
 Investigating - We are investigating reports of degraded performance for Actions</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                &ensp;<span class="article-reading-time">(&hairsp;19
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1462,7 +1552,7 @@ Identified - Our Engineering team has taken action to mitigate the impact of thi
 We are still investigating root cause and ensuring this mitigation will continue to be successful. We&#x27;ll provide another update as soon as possible.
 Jan  7, 22:02 UTC
 Investigating - Our Engineering team is investigating customer reports of errors when trying to perform actions on Managed Kubernetes Clusters using kubectl. At this time, customers may see errors indicating that the API token is unauthorized or missing credentials. We will provide an update as soon as we have more information.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
+                                &ensp;<span class="article-reading-time">(&hairsp;22
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1847,65 +1937,10 @@ During the incident we implemented graceful degradation on the &#x60;/settings/e
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-12-30 datetime="2023-12-30T12:23:06.000Z">2023-12-30</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-12-30 datetime="2023-12-30T12:23:06.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >DigitalOcean Status - Incident History</button>
-                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/p6j21rldnxtl"
-                        open
-                      >
-                        <summary class="article-expander__title">Spaces Availability in SGP1</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/p6j21rldnxtl">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Dec 30, 12:23 UTC
-Resolved - Our Engineering team has resolved the issue impacting Spaces Object Storage in our SGP1 region. From approximately 09:20 UTC - 11:31 UTC, users may have experienced an increased error rate and low performance while using the Spaces system. Spaces should now be operating normally. 
-If you continue to experience problems, please open a ticket with our Support team. Thank you for your patience and we apologize for any inconvenience.
-Dec 30, 11:53 UTC
-Monitoring - From 09:20 UTC, our Engineering team observed an issue with Spaces Object Storage availability in the SGP1 region. 
-During this time you may have experienced an increased error rate and low performance while using the Spaces system. 
-The impact has now subsided and users should no longer be experiencing issues with accessing the Spaces Object Storage.
-We apologize for the inconvenience and will share an update once we have more information.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/7689418907">
-        <time id="build-timestamp" datetime="2024-01-29T00:22:05.486Z">2024-01-29T00:22:05.486Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/7704324209">
+        <time id="build-timestamp" datetime="2024-01-30T00:20:42.346Z">2024-01-30T00:20:42.346Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
