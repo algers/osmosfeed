@@ -103,6 +103,16 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/39r97dl3v2l0",
+          "author": null,
+          "description": "Jan 30, 16:42 UTC\nResolved - Our Engineering team identified and resolved an issue impacting the Snapshots page in our Cloud Control Panel. \nFrom 13:00 - 15:00 UTC, users attempting to navigate to https://cloud.digitalocean.com/images/snapshots (via Images -> Snapshots) were unable to access the page, and instead saw an error page returned. \nWe apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.",
+          "link": "https://status.digitalocean.com/incidents/39r97dl3v2l0",
+          "publishedOn": "2024-01-30T16:42:28.000Z",
+          "wordCount": 6259,
+          "title": "Snapshots Page - Cloud Control Panel",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/r9w0yrbyy9ls",
           "author": null,
           "description": "Jan 29, 18:36 UTC\nResolved - Our Engineering team has confirmed the workaround fix is successful and all services should now be operating normally. We will now close this incident and work with the DNS provider separately on the root cause. \nWe appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.\nJan 29, 18:18 UTC\nMonitoring - Our Engineering team has identified the root cause of the issue with DNS resolution. DigitalOcean resolvers in use in FRA1, AMS3, and LON1 are unable to reach an upstream DNS provider, resulting in resolution for a subset of domain names being unavailable from our resolvers. Our Engineering team is reaching out to the provider for assistance.\nIn the meantime, our Engineering team has been able to implement a workaround fix by filtering some incorrectly announced network routes. At this time, we are seeing recovery and resolution of hostnames returning to normal in the impacted regions. We'll continue to await an update from the DNS provider. We're now monitoring the workaround fix for stability and will post an update once we are confident it is successful.\nJan 29, 17:27 UTC\nInvestigating - Our Engineering team is currently investigating issues with DNS resolution in FRA1, AMS3, and LON1. During this time, customers may experience errors trying to resolve domain names from within DigitalOcean services in those regions, including Droplets and Droplet-based services, as well as App Platform. Additionally, App Platform builds may fail or experience delays. \nWe apologize for the inconvenience and will share an update once we have more information.",
@@ -312,10 +322,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/g6drnqm54qd4",
           "author": null,
-          "description": "Jan 28, 14:42 UTC\nResolved - This incident has been resolved.\nJan 28, 14:27 UTC\nUpdate - We have mitigated all customer impact. We are no longer serving fallback avatar icons when loading web pages for some customers. We continue to monitor the results.\nJan 28, 13:57 UTC\nUpdate - A fix has been implemented for customers seeing the default avatar (octocat) when loading web pages and we are monitoring the results.\nJan 28, 13:20 UTC\nUpdate - Some requests for getting the Avatars are returning the fallback response instead of the asked avatar since they are having issues connecting to the Mysql host\nJan 28, 13:20 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Jan 28, 14:42 UTC\nResolved - On January 28, 2024, between 01:00 UTC and 14:00 UTC the Avatars service was degraded and could not return all avatar images requested by users, instead it would return a default, fallback avatar image. This incident impacted, at peak time 6% of the requests for viewing Avatars. Requests that were impacted did not prevent the users from continuing to use any GitHub services. This was due to an issue with the Avatars service connecting to a database host.\n We mitigated the incident by restarting the malfunctioning hosts that were not able to return the user avatar images.\n We are working to improve alerting and monitoring of our services to reduce our time to detection and mitigation.\nJan 28, 14:27 UTC\nUpdate - We have mitigated all customer impact. We are no longer serving fallback avatar icons when loading web pages for some customers. We continue to monitor the results.\nJan 28, 13:57 UTC\nUpdate - A fix has been implemented for customers seeing the default avatar (octocat) when loading web pages and we are monitoring the results.\nJan 28, 13:20 UTC\nUpdate - Some requests for getting the Avatars are returning the fallback response instead of the asked avatar since they are having issues connecting to the Mysql host\nJan 28, 13:20 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/g6drnqm54qd4",
           "publishedOn": "2024-01-28T14:42:55.000Z",
-          "wordCount": 5374,
+          "wordCount": 5485,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -397,12 +407,22 @@
       "siteUrl": "https://status.slack.com/",
       "articles": [
         {
+          "id": "https://status.slack.com//2024-01/0a000b0ad09623a0",
+          "author": null,
+          "description": "From 11:37 AM PST to 11:48 AM PST on January 24, 2024, we experienced an unexpected amount of API calls to our servers that occurred within a short window of time. The volume of API calls resulted in some users experiencing latency loading channels and general difficulties connecting to Slack. We investigated the impact with a broad lens and began to observe signs of recovery around 12:09 PM PST.\n\r\n\r\nDuring this time, we cautiously observed our health metrics to ensure our servers were accurately recovering. As a result of our thorough monitoring, there was a delay before we could confirm the issue was fully resolved. Our teams have also put in measures to help reduce the likelihood of this occurring again in the future.",
+          "link": "https://status.slack.com//2024-01/0a000b0ad09623a0",
+          "publishedOn": "2024-01-30T17:58:00.000Z",
+          "wordCount": 268,
+          "title": "Incident: Some latency with Slack",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://status.slack.com//2024-01/8ad463b92a084387",
           "author": null,
-          "description": "We are currently investigating an issue which is preventing users from pasting via Ctrl + V (Windows/Linux) and Cmd + V (MacOS). We'll be back with another updates as soon as we know more. \n\r\nIn the meantime, users can workaround this issue by pasting via mouse (right click to open context menu + select Paste).",
+          "description": "Issue summary: \n\r\nFrom 11:45 AM PST to around 5:20 PM PST on January 29, 2024, some customers experienced problems using keyboard shortcuts to paste text into Slack. \n\r\n\r\nA code change inadvertently introduced an issue that prevented the use of Cmd/Ctrl + V to paste text into Slack. We reverted this change, then deployed a fix to fully resolve the issue.",
           "link": "https://status.slack.com//2024-01/8ad463b92a084387",
-          "publishedOn": "2024-01-29T23:38:14.000Z",
-          "wordCount": 87,
+          "publishedOn": "2024-01-30T03:44:32.000Z",
+          "wordCount": 194,
           "title": "Incident: Pasting via Cmd/Ctrl + V not working",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
@@ -424,16 +444,6 @@
           "publishedOn": "2024-01-26T14:18:08.000Z",
           "wordCount": 231,
           "title": "Incident: Service wide connection issues",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2024-01/0a000b0ad09623a0",
-          "author": null,
-          "description": "The issue that was causing some users to experience latency with connecting to Slack and loading channels has been resolved.\n\r\nWe apologize for any disruptions to your day.",
-          "link": "https://status.slack.com//2024-01/0a000b0ad09623a0",
-          "publishedOn": "2024-01-25T01:27:35.000Z",
-          "wordCount": 143,
-          "title": "Incident: Some latency with Slack",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {

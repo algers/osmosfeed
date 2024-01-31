@@ -1,18 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-01-30T00:20:42.373Z</id>
+    <id>urn:2024-01-31T00:21:50.394Z</id>
     <title>osmos::feed</title>
-    <updated>2024-01-30T00:20:42.373Z</updated>
+    <updated>2024-01-31T00:21:50.394Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some latency with Slack]]></title>
+        <id>https://status.slack.com//2024-01/0a000b0ad09623a0</id>
+        <link href="https://status.slack.com//2024-01/0a000b0ad09623a0"/>
+        <updated>2024-01-30T17:58:00.000Z</updated>
+        <summary type="html"><![CDATA[From 11:37 AM PST to 11:48 AM PST on January 24, 2024, we experienced an unexpected amount of API calls to our servers that occurred within a short window of time. The volume of API calls resulted in some users experiencing latency loading channels and general difficulties connecting to Slack. We investigated the impact with a broad lens and began to observe signs of recovery around 12:09 PM PST.
+
+
+During this time, we cautiously observed our health metrics to ensure our servers were accurately recovering. As a result of our thorough monitoring, there was a delay before we could confirm the issue was fully resolved. Our teams have also put in measures to help reduce the likelihood of this occurring again in the future.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Snapshots Page - Cloud Control Panel]]></title>
+        <id>https://status.digitalocean.com/incidents/39r97dl3v2l0</id>
+        <link href="https://status.digitalocean.com/incidents/39r97dl3v2l0"/>
+        <updated>2024-01-30T16:42:28.000Z</updated>
+        <summary type="html"><![CDATA[Jan 30, 16:42 UTC
+Resolved - Our Engineering team identified and resolved an issue impacting the Snapshots page in our Cloud Control Panel. 
+From 13:00 - 15:00 UTC, users attempting to navigate to https://cloud.digitalocean.com/images/snapshots (via Images -> Snapshots) were unable to access the page, and instead saw an error page returned. 
+We apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Pasting via Cmd/Ctrl + V not working]]></title>
         <id>https://status.slack.com//2024-01/8ad463b92a084387</id>
         <link href="https://status.slack.com//2024-01/8ad463b92a084387"/>
-        <updated>2024-01-29T23:38:14.000Z</updated>
-        <summary type="html"><![CDATA[We are currently investigating an issue which is preventing users from pasting via Ctrl + V (Windows/Linux) and Cmd + V (MacOS). We'll be back with another updates as soon as we know more. 
+        <updated>2024-01-30T03:44:32.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary: 
 
-In the meantime, users can workaround this issue by pasting via mouse (right click to open context menu + select Paste).]]></summary>
+From 11:45 AM PST to around 5:20 PM PST on January 29, 2024, some customers experienced problems using keyboard shortcuts to paste text into Slack. 
+
+
+A code change inadvertently introduced an issue that prevented the use of Cmd/Ctrl + V to paste text into Slack. We reverted this change, then deployed a fix to fully resolve the issue.]]></summary>
         <author>
             <name>Slack System Status</name>
         </author>
@@ -41,7 +70,9 @@ We apologize for the inconvenience and will share an update once we have more in
         <link href="https://www.githubstatus.com/incidents/g6drnqm54qd4"/>
         <updated>2024-01-28T14:42:55.000Z</updated>
         <summary type="html"><![CDATA[Jan 28, 14:42 UTC
-Resolved - This incident has been resolved.
+Resolved - On January 28, 2024, between 01:00 UTC and 14:00 UTC the Avatars service was degraded and could not return all avatar images requested by users, instead it would return a default, fallback avatar image. This incident impacted, at peak time 6% of the requests for viewing Avatars. Requests that were impacted did not prevent the users from continuing to use any GitHub services. This was due to an issue with the Avatars service connecting to a database host.
+ We mitigated the incident by restarting the malfunctioning hosts that were not able to return the user avatar images.
+ We are working to improve alerting and monitoring of our services to reduce our time to detection and mitigation.
 Jan 28, 14:27 UTC
 Update - We have mitigated all customer impact. We are no longer serving fallback avatar icons when loading web pages for some customers. We continue to monitor the results.
 Jan 28, 13:57 UTC
@@ -99,18 +130,6 @@ Jan 25, 00:26 UTC
 Identified - Our Engineering team has identified an issue with snapshots taken by customers in the NYC3 and SFO3 regions and is actively working on a fix. We will post an update as soon as additional information is available.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some latency with Slack]]></title>
-        <id>https://status.slack.com//2024-01/0a000b0ad09623a0</id>
-        <link href="https://status.slack.com//2024-01/0a000b0ad09623a0"/>
-        <updated>2024-01-25T01:27:35.000Z</updated>
-        <summary type="html"><![CDATA[The issue that was causing some users to experience latency with connecting to Slack and loading channels has been resolved.
-
-We apologize for any disruptions to your day.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>

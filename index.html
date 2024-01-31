@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-29 datetime="2024-01-29T23:38:14.000Z">2024-01-29</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-29 datetime="2024-01-29T23:38:14.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-30 datetime="2024-01-30T17:58:00.000Z">2024-01-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-30 datetime="2024-01-30T17:58:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -42,6 +42,29 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.slack.com//2024-01/0a000b0ad09623a0"
+                        open
+                      >
+                        <summary class="article-expander__title">Incident: Some latency with Slack</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.slack.com//2024-01/0a000b0ad09623a0">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>From 11:37 AM PST to 11:48 AM PST on January 24, 2024, we experienced an unexpected amount of API calls to our servers that occurred within a short window of time. The volume of API calls resulted in some users experiencing latency loading channels and general difficulties connecting to Slack. We investigated the impact with a broad lens and began to observe signs of recovery around 12:09 PM PST.
+
+
+During this time, we cautiously observed our health metrics to ensure our servers were accurately recovering. As a result of our thorough monitoring, there was a delay before we could confirm the issue was fully resolved. Our teams have also put in measures to help reduce the likelihood of this occurring again in the future.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://status.slack.com//2024-01/8ad463b92a084387"
                         open
                       >
@@ -50,9 +73,14 @@
                           <div class="article-summary-box-inner media-object">
                               <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>We are currently investigating an issue which is preventing users from pasting via Ctrl + V (Windows/Linux) and Cmd + V (MacOS). We&#x27;ll be back with another updates as soon as we know more. 
+                              <span>Issue summary: 
 
-In the meantime, users can workaround this issue by pasting via mouse (right click to open context menu + select Paste).</span>
+From 11:45 AM PST to around 5:20 PM PST on January 29, 2024, some customers experienced problems using keyboard shortcuts to paste text into Slack. 
+
+
+A code change inadvertently introduced an issue that prevented the use of Cmd/Ctrl + V to paste text into Slack. We reverted this change, then deployed a fix to fully resolve the issue.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -61,6 +89,57 @@ In the meantime, users can workaround this issue by pasting via mouse (right cli
                 </section>
               </section>
             </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >DigitalOcean Status - Incident History</button>
+                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.digitalocean.com/incidents/39r97dl3v2l0"
+                        open
+                      >
+                        <summary class="article-expander__title">Snapshots Page - Cloud Control Panel</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/39r97dl3v2l0">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Jan 30, 16:42 UTC
+Resolved - Our Engineering team identified and resolved an issue impacting the Snapshots page in our Cloud Control Panel. 
+From 13:00 - 15:00 UTC, users attempting to navigate to https://cloud.digitalocean.com/images/snapshots (via Images -&gt; Snapshots) were unable to access the page, and instead saw an error page returned. 
+We apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;21
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-29 datetime="2024-01-29T18:36:45.000Z">2024-01-29</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-29 datetime="2024-01-29T18:36:45.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -141,7 +220,9 @@ We apologize for the inconvenience and will share an update once we have more in
                               <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Jan 28, 14:42 UTC
-Resolved - This incident has been resolved.
+Resolved - On January 28, 2024, between 01:00 UTC and 14:00 UTC the Avatars service was degraded and could not return all avatar images requested by users, instead it would return a default, fallback avatar image. This incident impacted, at peak time 6% of the requests for viewing Avatars. Requests that were impacted did not prevent the users from continuing to use any GitHub services. This was due to an issue with the Avatars service connecting to a database host.
+ We mitigated the incident by restarting the malfunctioning hosts that were not able to return the user avatar images.
+ We are working to improve alerting and monitoring of our services to reduce our time to detection and mitigation.
 Jan 28, 14:27 UTC
 Update - We have mitigated all customer impact. We are no longer serving fallback avatar icons when loading web pages for some customers. We continue to monitor the results.
 Jan 28, 13:57 UTC
@@ -313,40 +394,6 @@ Jan 25, 00:26 UTC
 Identified - Our Engineering team has identified an issue with snapshots taken by customers in the NYC3 and SFO3 regions and is actively working on a fix. We will post an update as soon as additional information is available.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;21
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Slack System Status</button>
-                  <a class="source-heading__link" href="https://status.slack.com/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.slack.com//2024-01/0a000b0ad09623a0"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident: Some latency with Slack</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.slack.com//2024-01/0a000b0ad09623a0">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The issue that was causing some users to experience latency with connecting to Slack and loading channels has been resolved.
-
-We apologize for any disruptions to your day.</span>
                             </span>
                           </div>
                         </a>
@@ -1939,8 +1986,8 @@ During the incident we implemented graceful degradation on the &#x60;/settings/e
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/7704324209">
-        <time id="build-timestamp" datetime="2024-01-30T00:20:42.346Z">2024-01-30T00:20:42.346Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/7719246395">
+        <time id="build-timestamp" datetime="2024-01-31T00:21:50.376Z">2024-01-31T00:21:50.376Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
