@@ -68,7 +68,7 @@
           "description": "Description: On Windows before Tailscale version 1.52 and on Linux before\nTailscale 1.54, the tailscale serve and tailscale funnel features allowed\nusers to serve the contents of directories that their user account could not\naccess, but which the tailscaled service process could.\nWhat happened?\nA user could escalate their own file read access by running, for example,\ntailscale.exe serve http / C:\\, and then browsing to the local HTTP endpoint.\nThe issue can also occur on Linux if the local administrator enabled an operator\nuser ID with tailscale up --operator=$USER, as the $USER account could\nserve itself files that it could not normally read.\nWho is affected?\nOwners of Windows deployments for which the users of Tailscale nodes do not also\nhave OS-level administrative access, and owners of Linux deployments where the\nadministrator enabled non-root --operator access.\nThis issue can only be triggered by a local user and cannot be triggered\nremotely.\nWhat is the impact?\nThis issue enables local privilege escalation (file read access). Access to\ncertain system files (such as /etc/shadow on Linux) can then be used to obtain\nfull administrative control over the host.\nWhat do I need to do?\nOn Windows 10 and later, upgrade to Tailscale 1.52 (released 30 October\n2023) or later, which resolves the issue.\nOn Windows 7 and 8, upgrade to Tailscale 1.44.3 (released 8 Jan\n2024), which resolves the issue.\nOn Linux, upgrade to 1.54 (released 15 November 2023) or later,\nwhich resolves the issue.\nThe best practice is to run the latest stable version, which as of this writing\nis 1.56.1. Consider turning on automatic updates.\nUse Tailscale ACLs to control the availability of Funnel.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-001",
           "publishedOn": "2024-01-08T00:00:00.000Z",
-          "wordCount": 10150,
+          "wordCount": 10079,
           "title": "TS-2024-001",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -102,6 +102,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/swc8grzsb33n",
+          "author": null,
+          "description": "Jan 31, 15:26 UTC\nResolved - Our team has confirmed the full resolution for the problem with our support portal at https://cloudsupport.digitalocean.com/s/ where customers were unable to create tickets with 'Billing' ticket type. \nWe sincerely apologize and thank you for your patience as we worked through this issue. \nIn case of any questions or concerns, please open a ticket with our Support team.\nJan 31, 15:12 UTC\nMonitoring - Our Engineering team has identified the cause of the issue and implemented a fix to resolve the problem with the Support Portal. Users should now be able to create the tickets in the Support portal with Billing ticket type. \nWe are monitoring the situation now and will post an update as soon as the issue is fully resolved.\nJan 31, 14:26 UTC\nInvestigating - Our Engineering team is investigating an issue with customers being unable to create the support tickets to our support portal for Ticket type \"Billing\" at https://cloudsupport.digitalocean.com. \nAs a temporary workaround, users may still contact us via the form here: https://www.digitalocean.com/company/contact/support\nWe apologize for the inconvenience and will post an update as soon as further information is available.",
+          "link": "https://status.digitalocean.com/incidents/swc8grzsb33n",
+          "publishedOn": "2024-01-31T15:26:00.000Z",
+          "wordCount": 6375,
+          "title": "Customer Support Ticket Portal",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/39r97dl3v2l0",
           "author": null,
@@ -250,6 +260,16 @@
       "siteUrl": "https://status.notion.so",
       "articles": [
         {
+          "id": "https://status.notion.so/incidents/t93zz4ynglj2",
+          "author": null,
+          "description": "Jan 31, 15:01 PST\nResolved - This incident has been resolved.\nJan 31, 15:00 PST\nUpdate - We are continuing to work on a fix for this issue.\nJan 31, 13:41 PST\nIdentified - We identified the root cause and are preparing a hotfix.\nJan 31, 11:05 PST\nUpdate - We are continuing to investigate this issue.\nJan 31, 11:05 PST\nInvestigating - As of 12:35 AM PT the /search endpoint (https://api.notion.com/v1/search) has been down. \nWe are currently investigating the issue and will share an update once the issue has been identified.",
+          "link": "https://status.notion.so/incidents/t93zz4ynglj2",
+          "publishedOn": "2024-01-31T23:01:16.000Z",
+          "wordCount": 3408,
+          "title": "Search API endpoint is down",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.notion.so/incidents/wn8zmpphxwr9",
           "author": null,
           "description": "Jan 15, 11:19 PST\nResolved - We've pushed a fix for this issue now and users can move pages in bulk again without errors. We apologize for the earlier disruption and thank you for bearing with us through this. \nPlease open Notion and press Cmd/Ctrl + Shift + R to reload the latest changes before trying to move pages again.\nJan 15, 10:24 PST\nIdentified - Our team has identified the cause of problems when moving pages in bulk across Notion databases and is working on a fix. We will share further updates as soon as the problem is resolved.\nJan 15, 07:53 PST\nInvestigating - Users may be experiencing degraded behavior when moving pages in bulk across Notion databases. We are investigating this issue and will share an update as soon as possible.",
@@ -319,6 +339,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/5y8b8lsqbbyq",
+          "author": null,
+          "description": "Jan 31, 14:57 UTC\nResolved - This incident has been resolved.\nJan 31, 14:56 UTC\nUpdate - We have resolved the issue and confirmed all regions are now operating as expected.\nJan 31, 14:49 UTC\nUpdate - The fix for ip allow lists is currently rolling out; and we are awaiting confirmation from specific geographic regions.\nJan 31, 14:33 UTC\nUpdate - We are rolling out a fix to resolve the issues with IP allow lists. This should be resolved shortly.\nJan 31, 14:14 UTC\nUpdate - Some customers are experiencing issues with IP allow lists.\nJan 31, 14:14 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/5y8b8lsqbbyq",
+          "publishedOn": "2024-01-31T14:57:16.000Z",
+          "wordCount": 5368,
+          "title": "We are investigating reports of degraded performance.",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/g6drnqm54qd4",
           "author": null,
@@ -406,6 +436,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://status.slack.com/",
       "articles": [
+        {
+          "id": "https://status.slack.com//2024-01/8e9a7cb95549d34c",
+          "author": null,
+          "description": "Issue Summary:\n\r\n\r\nOn January 31, 2024 between 7:43 AM PST and 8:27 AM PST, some users were unable to load threads and send messages.\n\r\n\r\nWe traced the issue to a backend failure and immediately implemented a change which fixed the issue for all affected users.\n\r\n\r\nWe apologize for any disruption to your work day and appreciate your patience while we resolved the issue.",
+          "link": "https://status.slack.com//2024-01/8e9a7cb95549d34c",
+          "publishedOn": "2024-01-31T18:14:04.000Z",
+          "wordCount": 180,
+          "title": "Incident: Users may be experiencing issues loading threads and sending mesages.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://status.slack.com//2024-01/0a000b0ad09623a0",
           "author": null,
