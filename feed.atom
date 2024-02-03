@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-02-02T00:21:08.441Z</id>
+    <id>urn:2024-02-03T00:21:31.533Z</id>
     <title>osmos::feed</title>
-    <updated>2024-02-02T00:21:08.441Z</updated>
+    <updated>2024-02-03T00:21:31.533Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Joining or creating a workspace from sidebar is broken]]></title>
+        <id>https://status.notion.so/incidents/q9j3jvg634lx</id>
+        <link href="https://status.notion.so/incidents/q9j3jvg634lx"/>
+        <updated>2024-02-02T19:52:46.000Z</updated>
+        <summary type="html"><![CDATA[Feb  2, 11:52 PST
+Monitoring - As of 11:44 AM PT, a fix has been implemented and we are monitoring the results.
+Feb  2, 11:42 PST
+Update - We are continuing to investigate this issue.
+Feb  2, 11:42 PST
+Update - Users cannot join and create a workspace from their sidebar. In addition, users may experience increased latency across search, viewing and editing content, and syncing content.
+We are actively investigating these issues and will follow up here with an update.
+Feb  2, 11:36 PST
+Investigating - Currently, the "Join or create a workspace" button from the workspace sidebar is broken.
+We are actively investigating the issue and will follow up here with an update.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Users in Germany having trouble receiving 2FA SMS codes]]></title>
         <id>https://status.slack.com//2024-02/30dfe547672802a4</id>
@@ -113,7 +132,13 @@ We apologize for the inconvenience and will post an update as soon as further in
         <link href="https://www.githubstatus.com/incidents/5y8b8lsqbbyq"/>
         <updated>2024-01-31T14:57:16.000Z</updated>
         <summary type="html"><![CDATA[Jan 31, 14:57 UTC
-Resolved - This incident has been resolved.
+Resolved - This incident was the result of an infrastructure change that was made to our load balancers to prepare us for IPv6 enablement of GitHub.com. This change was deployed to a subset of our global edge sites.
+The change had the unintended consequence of causing IPv4 addresses to start being passed as an IPv4-mapped IPv6-compatible address to our IP Allow List functionality.
+For example 10.1.2.3 became ::ffff:10.1.2.3. While our IP Allow List functionality was developed with IPv6 in mind, it wasn't developed to handle these mapped addresses, and hence started blocking requests as it deemed these to be not in the defined list of allowed addresses. Request error rates peaked at 0.23% of all requests.
+We have so far identified three remediation items here:
+- Update the IP Allow List functionality to handle IPv4-mapped addresses.
+- Audit the rest of our stack to confirm there are no further places this IPv4-mapped IPv6 addresses flaw exists.
+- Improve our testing and monitoring processes to better catch these issues in the future.
 Jan 31, 14:56 UTC
 Update - We have resolved the issue and confirmed all regions are now operating as expected.
 Jan 31, 14:49 UTC
@@ -167,6 +192,49 @@ From 11:45 AM PST to around 5:20 PM PST on January 29, 2024, some customers expe
 A code change inadvertently introduced an issue that prevented the use of Cmd/Ctrl + V to paste text into Slack. We reverted this change, then deployed a fix to fully resolve the issue.]]></summary>
         <author>
             <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TS-2024-002]]></title>
+        <id>https://tailscale.com/security-bulletins/#ts-2024-002</id>
+        <link href="https://tailscale.com/security-bulletins/#ts-2024-002"/>
+        <updated>2024-01-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Description: We resolved an information disclosure vulnerability in the
+hello.ts.net service.
+What happened?
+On January 15 2024, we became aware of a potential information disclosure
+vulnerability in the hello.ts.net service, which could show the identity of a
+different Tailscale user when loaded. The hello.ts.net service receives
+identity information and public keys of nodes tied to their IP address. On
+November 28 2023, we made a change to how IPs are assigned to
+Tailscale nodes, making them globally non-unique. When the Tailscale service
+assigned the same IP to multiple nodes, hello.ts.net would receive identity
+information for one of the nodes at random. We confirmed on January 26 2024
+that, if one of the other nodes with that IP loaded hello.ts.net, they would
+see another user's name, email, and hostname.
+The Tailscale Security Team immediately took hello.ts.net offline while the
+fix was in progress. The issue has been fixed and the hello.ts.net service
+was restored on January 29 2024.
+Who was affected?
+The incident was isolated to 10 users across 9 tailnets who could have had
+their information leaked to other Tailscale users. We notified the tailnet
+security contacts directly in accordance with our obligations under applicable
+data privacy laws. Due to the random nature of the vulnerability, we cannot
+confirm that all of those users were indeed affected.
+Regular shared nodes always see unique node IPs and were not
+vulnerable in a manner similar to hello.ts.net.
+What was the impact?
+A small number of users had their name, email, and hostname potentially exposed
+to other Tailscale users that had nodes sharing the same IP.
+In addition, the hello.ts.net service was offline between January 26-29
+2024. Several users reported being negatively impacted by this.
+What do I need to do?
+No action is needed at this time.
+If you have a dependency on hello.ts.net as a probing target for Tailscale
+connectivity, consider using a different probing
+mechanism.]]></summary>
+        <author>
+            <name>Security Bulletins on Tailscale</name>
         </author>
     </entry>
     <entry>
@@ -905,19 +973,6 @@ Investigating - Our Engineering team is investigating an issue with the Settings
 We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We are investigating reports of degraded performance.]]></title>
-        <id>https://www.githubstatus.com/incidents/zzy7pdshgqk0</id>
-        <link href="https://www.githubstatus.com/incidents/zzy7pdshgqk0"/>
-        <updated>2024-01-03T17:05:05.000Z</updated>
-        <summary type="html"><![CDATA[Jan  3, 17:05 UTC
-Resolved - From 10:30 to 16:15 UTC on January 3rd, our `/settings/emails` page experienced downtime due to an outage in our contact permissions system. During this time customers were unable to update their email subscription preferences.
-This system plays a crucial role in managing email subscriptions and the contactability of GitHub customers by our marketing and sales teams. Unfortunately, the outage prevented the generation of links for managing email subscriptions, resulting in the `/settings/emails` page timing out. Consequently, customers were unable to update their email subscription preferences during this period.
-During the incident we implemented graceful degradation on the `/settings/email` page to enable certain functionality, albeit with slower response time…]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>

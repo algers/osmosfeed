@@ -63,12 +63,22 @@
       "siteUrl": "https://tailscale.com/security-bulletins/",
       "articles": [
         {
+          "id": "https://tailscale.com/security-bulletins/#ts-2024-002",
+          "author": null,
+          "description": "Description: We resolved an information disclosure vulnerability in the\nhello.ts.net service.\nWhat happened?\nOn January 15 2024, we became aware of a potential information disclosure\nvulnerability in the hello.ts.net service, which could show the identity of a\ndifferent Tailscale user when loaded. The hello.ts.net service receives\nidentity information and public keys of nodes tied to their IP address. On\nNovember 28 2023, we made a change to how IPs are assigned to\nTailscale nodes, making them globally non-unique. When the Tailscale service\nassigned the same IP to multiple nodes, hello.ts.net would receive identity\ninformation for one of the nodes at random. We confirmed on January 26 2024\nthat, if one of the other nodes with that IP loaded hello.ts.net, they would\nsee another user's name, email, and hostname.\nThe Tailscale Security Team immediately took hello.ts.net offline while the\nfix was in progress. The issue has been fixed and the hello.ts.net service\nwas restored on January 29 2024.\nWho was affected?\nThe incident was isolated to 10 users across 9 tailnets who could have had\ntheir information leaked to other Tailscale users. We notified the tailnet\nsecurity contacts directly in accordance with our obligations under applicable\ndata privacy laws. Due to the random nature of the vulnerability, we cannot\nconfirm that all of those users were indeed affected.\nRegular shared nodes always see unique node IPs and were not\nvulnerable in a manner similar to hello.ts.net.\nWhat was the impact?\nA small number of users had their name, email, and hostname potentially exposed\nto other Tailscale users that had nodes sharing the same IP.\nIn addition, the hello.ts.net service was offline between January 26-29\n2024. Several users reported being negatively impacted by this.\nWhat do I need to do?\nNo action is needed at this time.\nIf you have a dependency on hello.ts.net as a probing target for Tailscale\nconnectivity, consider using a different probing\nmechanism.",
+          "link": "https://tailscale.com/security-bulletins/#ts-2024-002",
+          "publishedOn": "2024-01-30T00:00:00.000Z",
+          "wordCount": 10683,
+          "title": "TS-2024-002",
+          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
+        },
+        {
           "id": "https://tailscale.com/security-bulletins/#ts-2024-001",
           "author": null,
           "description": "Description: On Windows before Tailscale version 1.52 and on Linux before\nTailscale 1.54, the tailscale serve and tailscale funnel features allowed\nusers to serve the contents of directories that their user account could not\naccess, but which the tailscaled service process could.\nWhat happened?\nA user could escalate their own file read access by running, for example,\ntailscale.exe serve http / C:\\, and then browsing to the local HTTP endpoint.\nThe issue can also occur on Linux if the local administrator enabled an operator\nuser ID with tailscale up --operator=$USER, as the $USER account could\nserve itself files that it could not normally read.\nWho is affected?\nOwners of Windows deployments for which the users of Tailscale nodes do not also\nhave OS-level administrative access, and owners of Linux deployments where the\nadministrator enabled non-root --operator access.\nThis issue can only be triggered by a local user and cannot be triggered\nremotely.\nWhat is the impact?\nThis issue enables local privilege escalation (file read access). Access to\ncertain system files (such as /etc/shadow on Linux) can then be used to obtain\nfull administrative control over the host.\nWhat do I need to do?\nOn Windows 10 and later, upgrade to Tailscale 1.52 (released 30 October\n2023) or later, which resolves the issue.\nOn Windows 7 and 8, upgrade to Tailscale 1.44.3 (released 8 Jan\n2024), which resolves the issue.\nOn Linux, upgrade to 1.54 (released 15 November 2023) or later,\nwhich resolves the issue.\nThe best practice is to run the latest stable version, which as of this writing\nis 1.56.1. Consider turning on automatic updates.\nUse Tailscale ACLs to control the availability of Funnel.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-001",
           "publishedOn": "2024-01-08T00:00:00.000Z",
-          "wordCount": 10079,
+          "wordCount": 10683,
           "title": "TS-2024-001",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -148,7 +158,7 @@
           "description": "Jan 23, 22:50 UTC\nResolved - Our Engineering team has completed mitigation efforts for the issue impacting Managed Kubernetes in the FRA1 region and we are marking this incident as Resolved. \nAt this time, functionality to impacted clusters has been restored but customers may need to reconfigure some Kubernetes resources. Customer Support is contacting impacted customers directly with further instructions. \nIf you have any questions or concerns regarding this incident, please open a ticket with our support team.\nJan 23, 18:44 UTC\nUpdate - Our Engineering team continues to work on mitigation efforts. An additional small bug has been discovered and remediated. About 10% of clusters have had accessibility restored and restoration efforts are ongoing. \nWe will post another update as soon as we have new developments.\nThank you for your patience and we apologize for any inconvenience.\nJan 23, 15:12 UTC\nIdentified - Our Engineering team has identified the cause of the issue with Managed Kubernetes clusters in the FRA1 region. 200 clusters are impacted by the issue and remain inaccessible to users at this time. \nOur Engineering team is engaged in remediating these clusters to restore accessibility. As soon as we are able to provide an estimated time to restore, we will provide an update.\nJan 23, 13:02 UTC\nInvestigating - As of 12:18 UTC, our Engineering team is investigating an issue with Kubernetes clusters in the FRA1 region. During this time, users may experience errors while communicating with their clusters in the FRA1 region. \nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/s4kt15q6xq19",
           "publishedOn": "2024-01-23T22:50:40.000Z",
-          "wordCount": 6452,
+          "wordCount": 6827,
           "title": "Managed Kubernetes Cluster in FRA1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -260,6 +270,16 @@
       "siteUrl": "https://status.notion.so",
       "articles": [
         {
+          "id": "https://status.notion.so/incidents/q9j3jvg634lx",
+          "author": null,
+          "description": "Feb  2, 11:52 PST\nMonitoring - As of 11:44 AM PT, a fix has been implemented and we are monitoring the results.\nFeb  2, 11:42 PST\nUpdate - We are continuing to investigate this issue.\nFeb  2, 11:42 PST\nUpdate - Users cannot join and create a workspace from their sidebar. In addition, users may experience increased latency across search, viewing and editing content, and syncing content.\nWe are actively investigating these issues and will follow up here with an update.\nFeb  2, 11:36 PST\nInvestigating - Currently, the \"Join or create a workspace\" button from the workspace sidebar is broken.\nWe are actively investigating the issue and will follow up here with an update.",
+          "link": "https://status.notion.so/incidents/q9j3jvg634lx",
+          "publishedOn": "2024-02-02T19:52:46.000Z",
+          "wordCount": 3440,
+          "title": "Joining or creating a workspace from sidebar is broken",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.notion.so/incidents/t93zz4ynglj2",
           "author": null,
           "description": "Jan 31, 15:01 PST\nResolved - This incident has been resolved.\nJan 31, 15:00 PST\nUpdate - We are continuing to work on a fix for this issue.\nJan 31, 13:41 PST\nIdentified - We identified the root cause and are preparing a hotfix.\nJan 31, 11:05 PST\nUpdate - We are continuing to investigate this issue.\nJan 31, 11:05 PST\nInvestigating - As of 12:35 AM PT the /search endpoint (https://api.notion.com/v1/search) has been down. \nWe are currently investigating the issue and will share an update once the issue has been identified.",
@@ -352,10 +372,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/5y8b8lsqbbyq",
           "author": null,
-          "description": "Jan 31, 14:57 UTC\nResolved - This incident has been resolved.\nJan 31, 14:56 UTC\nUpdate - We have resolved the issue and confirmed all regions are now operating as expected.\nJan 31, 14:49 UTC\nUpdate - The fix for ip allow lists is currently rolling out; and we are awaiting confirmation from specific geographic regions.\nJan 31, 14:33 UTC\nUpdate - We are rolling out a fix to resolve the issues with IP allow lists. This should be resolved shortly.\nJan 31, 14:14 UTC\nUpdate - Some customers are experiencing issues with IP allow lists.\nJan 31, 14:14 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Jan 31, 14:57 UTC\nResolved - This incident was the result of an infrastructure change that was made to our load balancers to prepare us for IPv6 enablement of GitHub.com. This change was deployed to a subset of our global edge sites.\nThe change had the unintended consequence of causing IPv4 addresses to start being passed as an IPv4-mapped IPv6-compatible address to our IP Allow List functionality.\nFor example 10.1.2.3 became ::ffff:10.1.2.3. While our IP Allow List functionality was developed with IPv6 in mind, it wasn't developed to handle these mapped addresses, and hence started blocking requests as it deemed these to be not in the defined list of allowed addresses. Request error rates peaked at 0.23% of all requests.\nWe have so far identified three remediation items here:\n- Update the IP Allow List functionality to handle IPv4-mapped addresses.\n- Audit the rest of our stack to confirm there are no further places this IPv4-mapped IPv6 addresses flaw exists.\n- Improve our testing and monitoring processes to better catch these issues in the future.\nJan 31, 14:56 UTC\nUpdate - We have resolved the issue and confirmed all regions are now operating as expected.\nJan 31, 14:49 UTC\nUpdate - The fix for ip allow lists is currently rolling out; and we are awaiting confirmation from specific geographic regions.\nJan 31, 14:33 UTC\nUpdate - We are rolling out a fix to resolve the issues with IP allow lists. This should be resolved shortly.\nJan 31, 14:14 UTC\nUpdate - Some customers are experiencing issues with IP allow lists.\nJan 31, 14:14 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/5y8b8lsqbbyq",
           "publishedOn": "2024-01-31T14:57:16.000Z",
-          "wordCount": 5368,
+          "wordCount": 5526,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -427,16 +447,6 @@
           "publishedOn": "2024-01-08T23:41:03.000Z",
           "wordCount": 5504,
           "title": "Incident with Codespaces",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/zzy7pdshgqk0",
-          "author": null,
-          "description": "Jan  3, 17:05 UTC\nResolved - From 10:30 to 16:15 UTC on January 3rd, our `/settings/emails` page experienced downtime due to an outage in our contact permissions system. During this time customers were unable to update their email subscription preferences.\nThis system plays a crucial role in managing email subscriptions and the contactability of GitHub customers by our marketing and sales teams. Unfortunately, the outage prevented the generation of links for managing email subscriptions, resulting in the `/settings/emails` page timing out. Consequently, customers were unable to update their email subscription preferences during this period.\nDuring the incident we implemented graceful degradation on the `/settings/email` page to enable certain functionality, albeit with slower response time…",
-          "link": "https://www.githubstatus.com/incidents/zzy7pdshgqk0",
-          "publishedOn": "2024-01-03T17:05:05.000Z",
-          "wordCount": 5632,
-          "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
