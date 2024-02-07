@@ -44,16 +44,6 @@
           "wordCount": 362,
           "title": "New fix for your booking.com reservations",
           "imageUrl": null
-        },
-        {
-          "id": "282774",
-          "author": "Ella, Chief Customer Officer (CCO) & Cofounder",
-          "description": "Communications\n  \n\nAs we step into this new year, we want to take a moment to express our heartfelt gratitude for your trust and partnership. Your journey is at the heart of everything we do, and it's been an incredible experience growing alongside each of you.\nThis past year has been filled with challenges but also triumphs, and through it all, our Property Managers and Owners have always been our main inspiration. We're honored to be a part of your story, helping you manage and grow your vacation rental business.\nLooking ahead, we're excited to continue our journey together. With every challenge comes an opportunity, and we're here to support you every step of the way. Let's make this year one of progress, success, and shared smiles!\nHereby some of Smily's milestones and snapshot of our 2023 key achievements:\nIncrease efficient communication: enhanced Inbox filters for efficient guest communication, enabling quick searches by conversation status, assignee, guest, booking stage, and more.\nPowerful partnerships: Collaborations with Maeva and PlumGuide have opened new horizons and more OTA distribution channels!\nGuest experience & security: From synchronized check-in types to robust website https updates, we're elevating the guest journey.\nSustainable visibility: Synchronization of our eco-amenities to Holidu to boost visibility and conversion rates!\nReviewed payment processes: With easier Stripe account onboarding and better integration but also by streamlining our billing system, managing finances should be smoother than ever.\nReview management made easy: Our AI-powered Review Response and Automated Guest Reviews are setting new standards in reputation management.\nTech Marvels: Our focus on modernization and security has supercharged system stability and performance. Don't miss the insights on our new Tech Blog.\nOnce again, here's to a year filled with happiness, health, and prosperity. Let's keep building dreams and sharing smiles with every soul.\nHappy New Year! 🌟\nWith love and warmth,\nYour Smily Team",
-          "link": "https://changelog.bookingsync.com/2024-here-we-are!-happy-new-year-from-all-of-us-at-smily!-282774",
-          "publishedOn": "2024-01-08T09:34:22.000Z",
-          "wordCount": 556,
-          "title": "2024, here we are! Happy New Year from all of us at Smily! 🎉",
-          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/120/521-ab80fc2159e2f0d70a2ae0f84b447500ce6e3763.jpg"
         }
       ]
     },
@@ -71,16 +61,6 @@
           "wordCount": 10683,
           "title": "TS-2024-002",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
-        },
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2024-001",
-          "author": null,
-          "description": "Description: On Windows before Tailscale version 1.52 and on Linux before\nTailscale 1.54, the tailscale serve and tailscale funnel features allowed\nusers to serve the contents of directories that their user account could not\naccess, but which the tailscaled service process could.\nWhat happened?\nA user could escalate their own file read access by running, for example,\ntailscale.exe serve http / C:\\, and then browsing to the local HTTP endpoint.\nThe issue can also occur on Linux if the local administrator enabled an operator\nuser ID with tailscale up --operator=$USER, as the $USER account could\nserve itself files that it could not normally read.\nWho is affected?\nOwners of Windows deployments for which the users of Tailscale nodes do not also\nhave OS-level administrative access, and owners of Linux deployments where the\nadministrator enabled non-root --operator access.\nThis issue can only be triggered by a local user and cannot be triggered\nremotely.\nWhat is the impact?\nThis issue enables local privilege escalation (file read access). Access to\ncertain system files (such as /etc/shadow on Linux) can then be used to obtain\nfull administrative control over the host.\nWhat do I need to do?\nOn Windows 10 and later, upgrade to Tailscale 1.52 (released 30 October\n2023) or later, which resolves the issue.\nOn Windows 7 and 8, upgrade to Tailscale 1.44.3 (released 8 Jan\n2024), which resolves the issue.\nOn Linux, upgrade to 1.54 (released 15 November 2023) or later,\nwhich resolves the issue.\nThe best practice is to run the latest stable version, which as of this writing\nis 1.56.1. Consider turning on automatic updates.\nUse Tailscale ACLs to control the availability of Funnel.",
-          "link": "https://tailscale.com/security-bulletins/#ts-2024-001",
-          "publishedOn": "2024-01-08T00:00:00.000Z",
-          "wordCount": 10683,
-          "title": "TS-2024-001",
-          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
       ]
     },
@@ -88,19 +68,151 @@
       "title": "Airbnb API Status - Incident History",
       "feedUrl": "https://airbnbapi.statuspage.io/history.rss",
       "siteUrl": "https://airbnbapi.statuspage.io",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://airbnbapi.statuspage.io/incidents/dmybzf132ygz",
+          "author": null,
+          "description": "Feb  5, 16:00 PST\nResolved - We've identified spikes in errors across multiple endpoints that have occurred over the past day. The two distinct spikes were:\n- February 5th, 4:10 PM to 4:30 PM (PST)\n- February 6th, 6:30 AM to 7:30 AM (PST)\nThe issue is now resolved, and we don't expect any ongoing impact.",
+          "link": "https://airbnbapi.statuspage.io/incidents/dmybzf132ygz",
+          "publishedOn": "2024-02-06T00:00:00.000Z",
+          "wordCount": 3861,
+          "title": "500 Errors Across Multiple Endpoints",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        }
+      ]
     },
     {
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://status.twilio.com/incidents/0cr7rsqhjp21",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Feb 6, 20:00 PST  -  Feb 8, 03:00 PST\nJan  4, 06:00 PST\nScheduled - Our SMS and MMS carrier partner in US, Canada and Puerto Rico is conducting a planned maintenance from 06 February 2024 at 20:00 PST until 08 February 2024 at 03:00 PST. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US, Canada and Puerto Rico handsets via subset of Shortcodes and Longcodes.",
+          "link": "https://status.twilio.com/incidents/0cr7rsqhjp21",
+          "publishedOn": "2024-02-07T04:00:00.000Z",
+          "wordCount": 7543,
+          "title": "US, Canada and Puerto Rico Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/qmjy9clvmfjl",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Feb 6, 18:00 - 20:30 PST\nFeb  6, 07:29 PST\nScheduled - The Entel network in Chile is conducting an emergency maintenance from 06 February 2024 at 18:00 PST until 06 February 2024 at 20:30 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Entel Chile handsets.",
+          "link": "https://status.twilio.com/incidents/qmjy9clvmfjl",
+          "publishedOn": "2024-02-07T02:00:00.000Z",
+          "wordCount": 7508,
+          "title": "Chile SMS Carrier Maintenance - Entel",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/fjqvmjw5qswy",
+          "author": null,
+          "description": "Feb  6, 16:01 PST\nCompleted - The scheduled maintenance has been completed.\nFeb  6, 14:50 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb  1, 04:30 PST\nScheduled - Our carrier partner Vodafone UK is conducting a planned maintenance from 06 February 2024 at 14:50 PST until 06 February 2024 at 16:01 PST. During the maintenance window, there could be intermittent API request failures for Vodafone UK customers.\n\nImpacted Products: Verify Silent Network Auth.",
+          "link": "https://status.twilio.com/incidents/fjqvmjw5qswy",
+          "publishedOn": "2024-02-07T00:01:56.000Z",
+          "wordCount": 7553,
+          "title": "United Kingdom Account Security Carrier Partner Maintenance - Vodafone UK",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/vjmgqndg89r4",
+          "author": null,
+          "description": "Feb  6, 16:00 PST\nCompleted - The scheduled maintenance has been completed.\nFeb  6, 12:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb  2, 07:57 PST\nScheduled - The Megafon and Yota networks in Russia are conducting an emergency maintenance from 06 February 2024 at 12:00 PST until 06 February 2024 at 16:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to Megafon and Yota Russia handsets.",
+          "link": "https://status.twilio.com/incidents/vjmgqndg89r4",
+          "publishedOn": "2024-02-07T00:00:57.000Z",
+          "wordCount": 7544,
+          "title": "Russia SMS Carrier Maintenance - Megafon and Yota",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/psmzrd31mmv5",
+          "author": null,
+          "description": "Feb  6, 14:43 PST\nResolved - Content Templates created and submitted to WhatsApp were encoded incorrectly for approximately 5 minutes at 17:35:00 UTC on 02/05/2024. During this period of time customers may have experienced non-english characters including emojis and characters containing accents appearing as '?' in sent messages. The issue has now been resolved. Customers will need to re-create the templates created during this time.\nFeb  6, 13:47 PST\nInvestigating - Our monitoring systems have detected a potential issue with Content Templates submitted to WhatsApp. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/psmzrd31mmv5",
+          "publishedOn": "2024-02-06T22:43:00.000Z",
+          "wordCount": 7553,
+          "title": "Content Templates Encoded Incorrectly",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/nclb7bx6qhl4",
+          "author": null,
+          "description": "Feb  6, 14:39 PST\nResolved - The scope of this incident has been found to impact a small percentage of customers. This incident post will be closed out, and we will open communication with these customers individually.\nFeb  6, 14:02 PST\nUpdate - We are still observing call failures to Twilio a subset of Brazil numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nFeb  6, 11:58 PST\nUpdate - We are still observing call failures to Twilio a subset of Brazil numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nFeb  6, 11:05 PST\nInvestigating - We are observing call failures to Twilio a subset of Brazil numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/nclb7bx6qhl4",
+          "publishedOn": "2024-02-06T22:39:14.000Z",
+          "wordCount": 7654,
+          "title": "Inbound Call Failures to a Subset of Brazil Twilio Phone Numbers",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/3kczv2gjq589",
+          "author": null,
+          "description": "Feb  6, 12:42 PST\nResolved - We are no longer experiencing SMS delivery delays to Vinaphone Network in Vietnam. This incident is resolved.\nFeb  6, 10:44 PST\nMonitoring - We are observing successful MMS/SMS delivery Vietnam Vinaphone Network.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nFeb  6, 08:17 PST\nUpdate - We continue to experience SMS delivery delays to Vinaphone Network in Vietnam. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nFeb  6, 04:17 PST\nUpdate - We continue to experience SMS delivery delays to Vinaphone Network in Vietnam. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nFeb  6, 02:32 PST\nUpdate - We continue to experience SMS delivery delays to Vinaphone Network in Vietnam. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nFeb  6, 01:49 PST\nInvestigating - We are experiencing SMS delivery failures sending messages to Vietnam Vinaphone Network. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/3kczv2gjq589",
+          "publishedOn": "2024-02-06T20:42:22.000Z",
+          "wordCount": 7718,
+          "title": "SMS Delivery Failures to Vinaphone Network in Vietnam.",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/bgqdwj7xlx1w",
+          "author": null,
+          "description": "Feb  6, 10:34 PST\nResolved - We have fully investigated the Branded Calling issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.\nFeb  6, 10:03 PST\nInvestigating - Our monitoring systems have detected a potential issue with Branded Calling. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/bgqdwj7xlx1w",
+          "publishedOn": "2024-02-06T18:34:39.000Z",
+          "wordCount": 7536,
+          "title": "On Call Engineers are Investigating an issue",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/d6sh3tnqfg6l",
+          "author": null,
+          "description": "Feb  6, 09:41 PST\nResolved - The issue affecting inbound calls to a subset of Twilio Spain phone numbers has been resolved, and the service is functioning normally at this time.\nFeb  6, 07:44 PST\nMonitoring - We have started seeing recovery for inbound calls to Twilio Spain phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nFeb  6, 06:53 PST\nUpdate - We are observing call failures to a subset of Twilio Spain phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nFeb  6, 06:39 PST\nUpdate - We are continuing to investigate this issue.\nFeb  6, 06:31 PST\nInvestigating - Our monitoring systems have detected a potential issue with inbound call failures to a subset of Spain numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/d6sh3tnqfg6l",
+          "publishedOn": "2024-02-06T17:41:39.000Z",
+          "wordCount": 7651,
+          "title": "Inbound Call Failure To A Subset of Spain Numbers",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/l5fn3qzb2ps1",
+          "author": null,
+          "description": "Feb  6, 08:20 PST\nResolved - We are no longer experiencing SMS delivery failures to TNM Malawi. This incident has been resolved.\nFeb  6, 06:20 PST\nUpdate - We are observing recovery in SMS delivery Failures when sending messages to TNM Malawi. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nFeb  6, 04:20 PST\nMonitoring - We are observing recovery in SMS delivery Failures when sending messages to  TNM Malawi. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nFeb  6, 03:31 PST\nInvestigating - We are experiencing SMS delivery failures sending messages to TNM Malawi. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/l5fn3qzb2ps1",
+          "publishedOn": "2024-02-06T16:20:28.000Z",
+          "wordCount": 7623,
+          "title": "SMS Delivery Failures To TNM Malawi",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/myk9vn1fsbrt",
+          "author": null,
+          "description": "Feb  6, 07:05 PST\nResolved - We have fully investigated the issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.\nFeb  6, 06:47 PST\nInvestigating - Our monitoring systems have detected a potential issue with Transcription. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/myk9vn1fsbrt",
+          "publishedOn": "2024-02-06T15:05:12.000Z",
+          "wordCount": 7518,
+          "title": "Automated Alert: No Customer Impact",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        }
+      ]
     },
     {
       "title": "DigitalOcean Status - Incident History",
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/1jwy0vy3hjfb",
+          "author": null,
+          "description": "Feb  6, 22:21 UTC\nCompleted - The scheduled maintenance has been completed.\nFeb  6, 17:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb  2, 20:23 UTC\nScheduled - Start Time: 17:00 UTC Feb 6, 2024\nEnd Time: 00:00 UTC Feb 7, 2024\nDuring the above time, our Engineering Team will be performing maintenance to failover some internal databases from one cluster to another.\nExtensive testing has been conducted to ensure this maintenance will be successful and result in minimal impact to DigitalOcean users. The actual failover is estimated to take less than 3 seconds.\nExisting infrastructure, including Droplets and Droplet-based services, should continue running without issue. There is no network disruption to existing services expected as part of this maintenance. However, there are dependencies on multiple services. During the failover, there may be customer impacts that should be brief and transitory. The following actions may experience increased latency or failure rates during the maintenance period:\n- API calls to the DigitalOcean public API \n- Events for Droplets and Droplet-based services such as create, delete, power on/off, resize, etc \n- Control operations through the DigitalOcean Cloud Control Panel \nMultiple teams will be engaged to keep downtime to a minimum and mitigate any impact that does occur. We’ll post updates here for any unexpected changes to this scheduled maintenance, as well as progress updates during the maintenance itself.\nIf you have any questions or concerns, please reach out to the Support team from within your account.",
+          "link": "https://status.digitalocean.com/incidents/1jwy0vy3hjfb",
+          "publishedOn": "2024-02-06T22:21:17.000Z",
+          "wordCount": 6438,
+          "title": "Core Infrastructure Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/1q1jhbr85zvv",
           "author": null,
@@ -240,16 +352,6 @@
           "wordCount": 6432,
           "title": "Container Registry and App Platform in Multiple Regions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/x0l7xgm3bc91",
-          "author": null,
-          "description": "Jan  8, 00:32 UTC\nResolved - Our Engineering team has confirmed the full resolution of the issue with authentication failures on Managed Kubernetes Clusters.\nFrom 19:26 - 23:29 UTC, users saw errors accessing and performing actions on Managed Kubernetes Clusters, due to authentication failures. All services are now operating normally.  \nIf you continue to experience problems, please open a ticket with our support team. Thank you for your patience throughout this incident!\nJan  8, 00:01 UTC\nMonitoring - Our Engineering team has confirmed that the action taken to mitigate the impact of this incident is successful and customers are no longer seeing issues accessing or performing actions on Managed Kubernetes Clusters. \nWe'll monitor the situation for a short while and will post a final update once we confirm full resolution.\nJan  7, 23:32 UTC\nIdentified - Our Engineering team has taken action to mitigate the impact of this incident and internal tests on impacted clusters are now passing. At this time, users should start to see recovery and be able to access clusters normally. \nWe are still investigating root cause and ensuring this mitigation will continue to be successful. We'll provide another update as soon as possible.\nJan  7, 22:02 UTC\nInvestigating - Our Engineering team is investigating customer reports of errors when trying to perform actions on Managed Kubernetes Clusters using kubectl. At this time, customers may see errors indicating that the API token is unauthorized or missing credentials. We will provide an update as soon as we have more information.",
-          "link": "https://status.digitalocean.com/incidents/x0l7xgm3bc91",
-          "publishedOn": "2024-01-08T00:32:13.000Z",
-          "wordCount": 6452,
-          "title": "Kubernetes Clusters - Authentication Errors",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -259,12 +361,22 @@
       "siteUrl": "https://status.notion.so",
       "articles": [
         {
+          "id": "https://status.notion.so/incidents/2wtslqc6bv54",
+          "author": null,
+          "description": "Feb  6, 09:58 PST\nResolved - This incident has been resolved.\nFeb  6, 09:16 PST\nUpdate - We are working hard to resolve the issue for you. Thank you for your continuous patience.\nFeb  6, 07:00 PST\nUpdate - We are still working on fixing the issue and appreciate your patience.\nFeb  6, 05:05 PST\nIdentified - We are experiencing an issue with the Notion's database automations service that cause automation actions to fail or experience delays. Our engineers have identified this & are working on a fix.",
+          "link": "https://status.notion.so/incidents/2wtslqc6bv54",
+          "publishedOn": "2024-02-06T17:58:31.000Z",
+          "wordCount": 3395,
+          "title": "Database Automations failing",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.notion.so/incidents/f88y9tn65kl1",
           "author": null,
-          "description": "Feb  5, 16:03 PST\nUpdate - We are continuing to investigate this issue.\nFeb  5, 16:02 PST\nInvestigating - We are currently investigating this issue.",
+          "description": "Feb  5, 16:32 PST\nResolved - This incident has been resolved.\nFeb  5, 16:03 PST\nUpdate - We are continuing to investigate this issue.\nFeb  5, 16:02 PST\nInvestigating - We are currently investigating this issue.",
           "link": "https://status.notion.so/incidents/f88y9tn65kl1",
-          "publishedOn": "2024-02-06T00:03:08.000Z",
-          "wordCount": 3384,
+          "publishedOn": "2024-02-06T00:32:44.000Z",
+          "wordCount": 3396,
           "title": "A number of South Korean users inadvertently banned from using vital APIs in Notion, potentially affecting some functionalities within the app.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -361,10 +473,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/7k5wl5j4f1t4",
           "author": null,
-          "description": "Feb  1, 04:41 UTC\nResolved - This incident has been resolved.\nFeb  1, 04:41 UTC\nUpdate - This issue has been resolved. A reload of your browser window/tab may be required if you continue to experience issues with the collapsable navigation sidebars not loading.\nFeb  1, 04:21 UTC\nUpdate - We are in the process of deploying a remediation, and expect to see restoration of impacted functionality within the next hour.\nFeb  1, 03:55 UTC\nUpdate - We have identified an issue that is preventing some navigation components from loading while browsing GitHub.com, and are testing a remediation prior to deployment.\nFeb  1, 03:14 UTC\nUpdate - We are currently investigating reports of some components of the GitHub.com website not loading for some users.\nFeb  1, 03:13 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Feb  1, 04:41 UTC\nResolved - An update to our design system caused issues loading dynamic content in the global side navigation menu and in other page-specific sidebar navigation elements. Impacted users saw continuous loading spinners in place of dynamic menu content. User impact lasted from 0:55 UTC to 4:41 UTC on February 1st.\nWe are working on a number of improvements in response to this incident. We are adding request volume monitors to sidebar navigation endpoints and making changes to our front end escalation paths to improve our time to detect and time to recovery for incidents of this nature. We have also begun work to improve both automated and manual testing for these types of changes in order to prevent recurrence.\nFeb  1, 04:41 UTC\nUpdate - This issue has been resolved. A reload of your browser window/tab may be required if you continue to experience issues with the collapsable navigation sidebars not loading.\nFeb  1, 04:21 UTC\nUpdate - We are in the process of deploying a remediation, and expect to see restoration of impacted functionality within the next hour.\nFeb  1, 03:55 UTC\nUpdate - We have identified an issue that is preventing some navigation components from loading while browsing GitHub.com, and are testing a remediation prior to deployment.\nFeb  1, 03:14 UTC\nUpdate - We are currently investigating reports of some components of the GitHub.com website not loading for some users.\nFeb  1, 03:13 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/7k5wl5j4f1t4",
           "publishedOn": "2024-02-01T04:41:36.000Z",
-          "wordCount": 5396,
+          "wordCount": 5507,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
