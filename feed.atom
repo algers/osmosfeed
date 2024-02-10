@@ -1,98 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-02-09T00:20:50.055Z</id>
+    <id>urn:2024-02-10T00:20:27.180Z</id>
     <title>osmos::feed</title>
-    <updated>2024-02-09T00:20:50.055Z</updated>
+    <updated>2024-02-10T00:20:27.180Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
-    <entry>
-        <title type="html"><![CDATA[Canada Account Security Service Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/fhwn9b4wh1b8</id>
-        <link href="https://status.twilio.com/incidents/fhwn9b4wh1b8"/>
-        <updated>2024-02-09T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Feb 8, 23:00 PST  -  Feb 9, 03:00 PST
-Feb  1, 15:07 PST
-Scheduled - Our service partner is conducting a planned maintenance from 08 February 2024 at 23:00 PST until 09 February 2024 at 03:00 PST. During the maintenance window, there could be intermittent API request failures for the following country and carriers: Bell Canada, Rogers Canada, Telus Canada.
-Impacted Products: Lookup Identity Match, Verify Silent Network Auth, Lookup Line Type Intelligence [Twilio API], Lookup SIM Swap, Legacy Identity MatchAndAttributes]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mexico SMS Carrier Maintenance - AT&T]]></title>
-        <id>https://status.twilio.com/incidents/sqcg0hjhhj5m</id>
-        <link href="https://status.twilio.com/incidents/sqcg0hjhhj5m"/>
-        <updated>2024-02-09T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Feb 8, 22:00 PST  -  Feb 9, 04:00 PST
-Feb  7, 19:55 PST
-Scheduled - The AT&T network in Mexico is conducting an emergency maintenance from 08 February 2024 at 22:00 PST until 09 February 2024 at 04:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US SMS and MMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/yswqf7vxxm1h</id>
-        <link href="https://status.twilio.com/incidents/yswqf7vxxm1h"/>
-        <updated>2024-02-09T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Feb 8, 21:00 PST  -  Feb 9, 01:00 PST
-Feb  6, 21:52 PST
-Scheduled - Our SMS and MMS carrier partner in the US is conducting an emergency maintenance from 08 February 2024 at 21:00 PST until 09 February 2024 at 01:00 PST. During the maintenance window, there could be intermittent delays delivering SMS/MMS to and from US handsets via subset of US short codes.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays To Eir Network in Ireland]]></title>
-        <id>https://status.twilio.com/incidents/l24wcj5hynwf</id>
-        <link href="https://status.twilio.com/incidents/l24wcj5hynwf"/>
-        <updated>2024-02-09T00:12:02.000Z</updated>
-        <summary type="html"><![CDATA[Feb  8, 16:12 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to Eir Network in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United Kingdom Account Security Carrier Partner Maintenance - Vodafone UK]]></title>
-        <id>https://status.twilio.com/incidents/m4t0b0ldxm9w</id>
-        <link href="https://status.twilio.com/incidents/m4t0b0ldxm9w"/>
-        <updated>2024-02-08T23:00:57.000Z</updated>
-        <summary type="html"><![CDATA[Feb  8, 15:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Feb  6, 08:10 PST
-Scheduled - Our carrier partner Vodafone UK is conducting a planned maintenance from 08 February 2024 at 15:00 PST until 08 February 2024 at 21:45 PST. During the maintenance window, there could be intermittent API request failures for Vodafone UK customers.
-
-Impacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Profile photos aren't displaying properly]]></title>
         <id>https://status.slack.com//2024-02/16aecfd53af7219b</id>
         <link href="https://status.slack.com//2024-02/16aecfd53af7219b"/>
-        <updated>2024-02-08T21:24:54.000Z</updated>
-        <summary type="html"><![CDATA[We've been investigating an ongoing issue where profile photos aren't displaying properly for some of our users. In order to facilitate improved communication and transparency, we'll be sharing any new updates here. 
+        <updated>2024-02-09T20:37:00.000Z</updated>
+        <summary type="html"><![CDATA[A small subset of users may still experience trouble with their profile pictures displaying, though the majority of profile photos should be restored after a hard refresh of their Slack desktop client or after clearing app cache for mobile clients.
 
 
-The cause of the issue has been identified and we're working on getting a fix out as soon as possible. We'll be back once we have another update to share.]]></summary>
+To conduct a hard refresh on your desktop app, you can use Cmd/Ctrl + Shift + R. For affected users on mobile, you may need to follow steps specific to your device to clear your Slack app cache.
+
+
+We'll be back with another update once we have news to share and continue to work on fully resolving this.]]></summary>
         <author>
             <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS and Call issues across Multiple Network In Pakistan]]></title>
-        <id>https://status.twilio.com/incidents/6nh4zyy3wswb</id>
-        <link href="https://status.twilio.com/incidents/6nh4zyy3wswb"/>
-        <updated>2024-02-08T19:44:38.000Z</updated>
-        <summary type="html"><![CDATA[Feb  8, 11:44 PST
-Update - We are currently encountering SMS and Call related issues across multiple networks in Pakistan. This disruption is a result of the Pakistan government suspending phone services due to ongoing elections. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
-Feb  8, 03:51 PST
-Update - We are currently encountering SMS and Call related issues across multiple networks in Pakistan. This disruption is a result of the Pakistan government suspending phone services due to ongoing elections. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
-Feb  7, 2…]]></summary>
+        <title type="html"><![CDATA[Incident with Webhooks]]></title>
+        <id>https://www.githubstatus.com/incidents/my7r3l9lsqnk</id>
+        <link href="https://www.githubstatus.com/incidents/my7r3l9lsqnk"/>
+        <updated>2024-02-09T11:28:59.000Z</updated>
+        <summary type="html"><![CDATA[Feb  9, 11:28 UTC
+Resolved - This incident has been resolved.
+Feb  9, 11:25 UTC
+Update - Webhooks is operating normally.
+Feb  9, 11:11 UTC
+Update - We are investigating latency in processing webhooks. Customers may see a delay of around 5 minutes at this time. We will continue to keep users updated on progress towards mitigation.
+Feb  9, 11:09 UTC
+Investigating - We are investigating reports of degraded performance for Webhooks]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -130,66 +73,6 @@ Investigating - We are currently experiencing issues with some of our services r
 Shared hooks might currently be unresponsive. We are actively investigating the issue.]]></summary>
         <author>
             <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US, Canada and Puerto Rico Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/0cr7rsqhjp21</id>
-        <link href="https://status.twilio.com/incidents/0cr7rsqhjp21"/>
-        <updated>2024-02-08T11:00:56.000Z</updated>
-        <summary type="html"><![CDATA[Feb  8, 03:00 PST
-Completed - The scheduled maintenance has been completed.
-Feb  6, 20:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jan  4, 06:00 PST
-Scheduled - Our SMS and MMS carrier partner in US, Canada and Puerto Rico is conducting a planned maintenance from 06 February 2024 at 20:00 PST until 08 February 2024 at 03:00 PST. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US, Canada and Puerto Rico handsets via subset of Shortcodes and Longcodes.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Receipt Delays to Jazz Network in Pakistan]]></title>
-        <id>https://status.twilio.com/incidents/6hrrrsdf2yqd</id>
-        <link href="https://status.twilio.com/incidents/6hrrrsdf2yqd"/>
-        <updated>2024-02-08T07:50:41.000Z</updated>
-        <summary type="html"><![CDATA[Feb  7, 23:50 PST
-Resolved - We are still encountering delays in receiving delivery reports when sending messages to Multiple Networks in Pakistan. This delay is a result of phone services being temporarily suspended by the Pakistan government due to elections. For the latest updates, please refer to the incident on our Status page: https://status.twilio.com/incidents/6nh4zyy3wswb. Rest assured, we are actively working to resolve this incident.
-Feb  7, 22:43 PST
-Investigating - We are experiencing delays in receiving message delivery reports when sending SMS to Jazz Network in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Czech Republic Voice Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/h0w6vjlkbp3g</id>
-        <link href="https://status.twilio.com/incidents/h0w6vjlkbp3g"/>
-        <updated>2024-02-08T04:30:56.000Z</updated>
-        <summary type="html"><![CDATA[Feb  7, 20:30 PST
-Completed - The scheduled maintenance has been completed.
-Feb  7, 18:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jan 24, 07:40 PST
-Scheduled - Our Voice carrier partner in Czech Republic is conducting a planned maintenance from 07 February 2024 at 18:00 PST until 07 February 2024 at 20:30 PST. During the maintenance window, there could be call failures to and from a subset of Czech Republic phone numbers.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Missing Call Details in Voice Insights for IE1 and AU1]]></title>
-        <id>https://status.twilio.com/incidents/jn20vqd8qfk1</id>
-        <link href="https://status.twilio.com/incidents/jn20vqd8qfk1"/>
-        <updated>2024-02-08T03:40:21.000Z</updated>
-        <summary type="html"><![CDATA[Feb  7, 19:40 PST
-Resolved - Missing Call Details in Voice Insights for IE1 and AU1 has been resolved and is operating normally at this time.
-Feb  7, 19:12 PST
-Monitoring - Missing Call Details in Voice Insights for IE1 and AU1 are now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
-Feb  7, 18:13 PST
-Update - Our monitoring systems have detected missing call-summary records in Voice Insights in IE1 and AU1. Some customers in these regions may be missing call-summary records from calls completed during the last two hours. Call connectivity is not impacted. Our engineering team is investigating and we will have an update in 60 minutes, or as soon as more information becomes available.
-Feb  7, 17:50 PST
-Investigating - Our monitoring systems have detected a potential issue with Voice Insights in IE1 and AU1. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1063,46 +946,6 @@ Jan 11, 20:52 PST
 Identified - We are experiencing issues with MFA  login method. The team has identified the cause and is working on the fix.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Global Networking]]></title>
-        <id>https://status.digitalocean.com/incidents/33vqf05m8396</id>
-        <link href="https://status.digitalocean.com/incidents/33vqf05m8396"/>
-        <updated>2024-01-11T00:18:25.000Z</updated>
-        <summary type="html"><![CDATA[Jan 11, 00:18 UTC
-Resolved - Our Engineering team has confirmed full resolution of this incident. 
-From approximately 20:15 - 21:45 UTC, DigitalOcean experienced a global networking issue that impacted multiple services and products. Users saw increased error rates and latency for event processing, accessing our Cloud Control Panel/API, applying Cloud Firewall policies, accessing www.digitalocean.com and our Community site, and DNS resolution. Additionally, users saw timeouts/increased latency for networking requests to Droplets and Droplet-based services, as well as connections to existing App Platform Apps. 
-We sincerely apologize for the disruption. If you continue to experience issues or have questions, please reach out to our Support team by opening a ticket from within your account. …]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New fix for your booking.com reservations]]></title>
-        <id>283019</id>
-        <link href="https://changelog.bookingsync.com/new-fix-for-your-booking-com-reservations-283019"/>
-        <updated>2024-01-10T17:36:04.000Z</updated>
-        <summary type="html"><![CDATA[New!
- 
-Improvement
-  
-We're thrilled to share a new feature we’ve just released for booking.com properties.
-What's New?
-The rate rule Booking at least 'x' day ahead is now synchronised on booking.com channel;
-Why Does This Matter?
-You were facing the obstacle where Guests were making a booking for the same day or 'x' days (based on your settings) even though the setting to prevent that was activated;
--> It won’t happen anymore.
-What's Next?
-If you face any obstacle with this setting, reach out to us; 
-We are and will be working on more improvements to make your day-to-day easier :)
---
-💡 For more detailed information, simply click here;
-Let's embark on this journey together to make your vacation rental dreams a reality 🚀
-Have a great day,
-Your Smily team :)]]></summary>
-        <author>
-            <name>Basile, Product Manager</name>
         </author>
     </entry>
 </feed>
