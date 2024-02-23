@@ -48,7 +48,7 @@
           "description": "Description: We resolved an information disclosure vulnerability in the\nhello.ts.net service.\nWhat happened?\nOn January 15 2024, we became aware of a potential information disclosure\nvulnerability in the hello.ts.net service, which could show the identity of a\ndifferent Tailscale user when loaded. The hello.ts.net service receives\nidentity information and public keys of nodes tied to their IP address. On\nNovember 28 2023, we made a change to how IPs are assigned to\nTailscale nodes, making them globally non-unique. When the Tailscale service\nassigned the same IP to multiple nodes, hello.ts.net would receive identity\ninformation for one of the nodes at random. We confirmed on January 26 2024\nthat, if one of the other nodes with that IP loaded hello.ts.net, they would\nsee another user's name, email, and hostname.\nThe Tailscale Security Team immediately took hello.ts.net offline while the\nfix was in progress. The issue has been fixed and the hello.ts.net service\nwas restored on January 29 2024.\nWho was affected?\nThe incident was isolated to 10 users across 9 tailnets who could have had\ntheir information leaked to other Tailscale users. We notified the tailnet\nsecurity contacts directly in accordance with our obligations under applicable\ndata privacy laws. Due to the random nature of the vulnerability, we cannot\nconfirm that all of those users were indeed affected.\nRegular shared nodes always see unique node IPs and were not\nvulnerable in a manner similar to hello.ts.net.\nWhat was the impact?\nA small number of users had their name, email, and hostname potentially exposed\nto other Tailscale users that had nodes sharing the same IP.\nIn addition, the hello.ts.net service was offline between January 26-29\n2024. Several users reported being negatively impacted by this.\nWhat do I need to do?\nNo action is needed at this time.\nIf you have a dependency on hello.ts.net as a probing target for Tailscale\nconnectivity, consider using a different probing\nmechanism.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-002",
           "publishedOn": "2024-01-30T00:00:00.000Z",
-          "wordCount": 10683,
+          "wordCount": 10712,
           "title": "TS-2024-002",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -87,143 +87,123 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/w1kzb67pfnt5",
+          "id": "https://status.twilio.com/incidents/r03zs8jz31tj",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Feb 21, 22:00 PST  -  Feb 22, 04:00 PST\nFeb 19, 15:04 PST\nScheduled - The AT&T network in Mexico is conducting a planned maintenance from 21 February 2024 at 22:00 PST until 22 February 2024 at 04:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.",
-          "link": "https://status.twilio.com/incidents/w1kzb67pfnt5",
-          "publishedOn": "2024-02-22T06:00:00.000Z",
-          "wordCount": 7512,
-          "title": "Mexico SMS Carrier Maintenance - AT&T",
+          "description": "THIS IS A SCHEDULED EVENT Feb 22, 22:00 PST  -  Feb 23, 04:00 PST\nFeb 22, 08:35 PST\nScheduled - The T-Mobile network in the US is conducting a planned maintenance from 22 February 2024 at 22:00 PST until 23 February 2024 at 04:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
+          "link": "https://status.twilio.com/incidents/r03zs8jz31tj",
+          "publishedOn": "2024-02-23T06:00:00.000Z",
+          "wordCount": 7524,
+          "title": "US SMS Carrier Maintenance - T-Mobile",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/hn1lrt89stxq",
+          "id": "https://status.twilio.com/incidents/h7206sxjp16f",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Feb 21, 20:30 - 23:00 PST\nFeb 20, 08:41 PST\nScheduled - Our SMS carrier partner in US is conducting an emergency maintenance from 21 February 2024 at 20:30 PST until 21 February 2024 at 23:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from US handsets via a subset of shortcode.",
-          "link": "https://status.twilio.com/incidents/hn1lrt89stxq",
-          "publishedOn": "2024-02-22T04:30:00.000Z",
+          "description": "THIS IS A SCHEDULED EVENT Feb 22, 22:00 PST  -  Feb 23, 00:00 PST\nFeb 21, 00:21 PST\nScheduled - Our SMS carrier partner in Mexico is conducting a planned maintenance from 22 February 2024 at 22:00 PST until 23 February 2024 at 00:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Mexico handsets.",
+          "link": "https://status.twilio.com/incidents/h7206sxjp16f",
+          "publishedOn": "2024-02-23T06:00:00.000Z",
+          "wordCount": 7512,
+          "title": "SMS Carrier Partner Maintenance - Mexico",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/m4lw72m6rsj0",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Feb 22, 19:00 PST  -  Feb 23, 04:00 PST\nFeb 15, 23:13 PST\nScheduled - The AT&T network in the US is conducting a planned maintenance from 22 February 2024 19:00 PST until 23 February 2024 at 04:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T US handsets.",
+          "link": "https://status.twilio.com/incidents/m4lw72m6rsj0",
+          "publishedOn": "2024-02-23T03:00:00.000Z",
+          "wordCount": 7514,
+          "title": "US SMS Carrier Maintenance - AT&T",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/03nqcy1qrknz",
+          "author": null,
+          "description": "Feb 22, 16:16 PST\nResolved - The service interruption with Twilio.com, Twilio.org, the Twilio Blog, and Sendgrid.com has been resolved, and it is operating normally at this time.\nFeb 22, 15:47 PST\nMonitoring - Twilio.com, Twilio.org, the Twilio Blog, and Sendgrid.com are now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nFeb 22, 15:09 PST\nUpdate - Our engineers have identified the issue for the service interruption with Twilio.com, Twilio.org, the Twilio Blog, and Sendgrid.com and are still working to deploy a fix. We expect to provide another update in 2 hours or as soon as more information becomes available.\nFeb 22, 14:09 PST\nIdentified - Our engineers have identified the issue for the service interruption with Twilio.com, Twilio.org, the Twilio Blog, and Sendgrid.com and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.\nFeb 22, 13:30 PST\nUpdate - We continue to investigate a service interruption with Twilio.com, Twilio.org, the Twilio Blog, and Sendgrid.com where there is an intermittent loading delay visible. We expect to provide another update in 1 hour or as soon as more information\nFeb 22, 13:00 PST\nUpdate - We are investigating a service interruption with Twilio.com, Twilio.org, the Twilio Blog, and Sendgrid.com where there is an intermittent loading delay visible. We expect to provide another update in 30 minutes or as soon as more information\nFeb 22, 12:39 PST\nInvestigating - Our monitoring systems have detected a potential issue with Twilio.com and Twilio Blog. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/03nqcy1qrknz",
+          "publishedOn": "2024-02-23T00:16:34.000Z",
+          "wordCount": 7775,
+          "title": "Service Intermittent Interruption When Accessing to Twilio.com, Twilio.org, the Twilio Blog and Sendgrid.com",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/r32my3c4c8bg",
+          "author": null,
+          "description": "Feb 22, 15:45 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to Orange network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/r32my3c4c8bg",
+          "publishedOn": "2024-02-22T23:45:26.000Z",
           "wordCount": 7513,
-          "title": "US SMS Carrier Partner Maintenance",
+          "title": "SMS Delivery Delays to Orange Network in Cameroon",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/7rqfq4kgk24f",
+          "id": "https://status.twilio.com/incidents/rkd1g93xwr8p",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Feb 21, 19:00 PST  -  Feb 22, 00:00 PST\nFeb 20, 00:22 PST\nScheduled - The Nextel network in Chile is conducting a planned maintenance from 21 February 2024 at 19:00 PST until 22 February 2024 at 00:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Nextel Chile handsets.",
-          "link": "https://status.twilio.com/incidents/7rqfq4kgk24f",
-          "publishedOn": "2024-02-22T03:00:00.000Z",
-          "wordCount": 7512,
-          "title": "Chile SMS Carrier Maintenance - Nextel",
+          "description": "Feb 22, 15:36 PST\nUpdate - We continue experiencing SMS delivery receipts delays when sending messages to Altan Redes network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours as soon as more information becomes available.\nFeb 22, 13:36 PST\nUpdate - We are still experiencing SMS delivery receipts delays when sending messages to Altan Redes network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours as soon as more information becomes available.\nFeb 22, 12:37 PST\nInvestigating - We are experiencing SMS delivery receipts delays when sending messages to Altan Redes network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/rkd1g93xwr8p",
+          "publishedOn": "2024-02-22T23:36:43.000Z",
+          "wordCount": 7621,
+          "title": "SMS Delivery Receipts Delay to Altan Redes Network in Mexico",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/gmpy4v61c6rz",
+          "id": "https://status.twilio.com/incidents/5py8w5tx32xv",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Feb 21, 19:00 PST  -  Feb 22, 04:00 PST\nFeb 15, 23:12 PST\nScheduled - The AT&T network in the US is conducting a planned maintenance from 21 February 2024 19:00 PST until 22 February 2024 at 04:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T US handsets.",
-          "link": "https://status.twilio.com/incidents/gmpy4v61c6rz",
-          "publishedOn": "2024-02-22T03:00:00.000Z",
-          "wordCount": 7514,
-          "title": "US SMS Carrier Maintenance - AT&T",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/fnryfpkw9l0n",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Feb 21, 19:00 PST  -  Feb 22, 03:00 PST\nFeb 15, 23:04 PST\nScheduled - The AT&T network in the US is conducting a planned maintenance from 21 February 2024 19:00 PST until 22 February 2024 at 04:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T US handsets.",
-          "link": "https://status.twilio.com/incidents/fnryfpkw9l0n",
-          "publishedOn": "2024-02-22T03:00:00.000Z",
-          "wordCount": 7514,
-          "title": "US SMS Carrier Maintenance - AT&T",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/pq01bgykdk2p",
-          "author": null,
-          "description": "Feb 21, 16:01 PST\nCompleted - The scheduled maintenance has been completed.\nFeb 19, 12:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb 16, 16:53 PST\nScheduled - The MegaFon/Yota network in Russia is conducting a series of planned maintenances from 19 February 2024 at 12:00 PST until 21 February 2024 at 16:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to MegaFon/Yota Russia handsets.\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n19 February 2024 at 12:00 PST until 19 February 2024 at 16:00 PST\n20 February 2024 at 12:00 PST until 20 February 2024 at 16:00 PST\n21 February 2024 at 12:00 PST until 21 February 2024 at 16:00 PST",
-          "link": "https://status.twilio.com/incidents/pq01bgykdk2p",
-          "publishedOn": "2024-02-22T00:01:22.000Z",
-          "wordCount": 7588,
-          "title": "Russia SMS Carrier Maintenance - MegaFon/Yota",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/knwd26yjkn7g",
-          "author": null,
-          "description": "Feb 21, 16:00 PST\nCompleted - The scheduled maintenance has been completed.\nFeb 21, 14:01 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb 14, 15:39 PST\nScheduled - The US Cellular network in the US is conducting a planned maintenance from 21 February 2024 at 14:00 PST until 21 February 2024 at 16:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from US Cellular handsets via short codes.",
-          "link": "https://status.twilio.com/incidents/knwd26yjkn7g",
-          "publishedOn": "2024-02-22T00:00:56.000Z",
-          "wordCount": 7547,
-          "title": "US SMS Carrier Maintenance - US Cellular",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/p94m0jrynd0g",
-          "author": null,
-          "description": "Feb 21, 14:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb  9, 02:54 PST\nScheduled - The 3 (Hutchison 3G UK Ltd) network in the UK is conducting a planned maintenance from 21 February 2024 at 14:00 PST until 21 February 2024 at 22:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from 3 (Hutchison 3G UK Ltd) UK handsets.",
-          "link": "https://status.twilio.com/incidents/p94m0jrynd0g",
-          "publishedOn": "2024-02-21T22:00:56.000Z",
-          "wordCount": 7550,
-          "title": "UK SMS Carrier Maintenance - 3 (Hutchison 3G UK Ltd)",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/l14t92yx09nq",
-          "author": null,
-          "description": "Feb 21, 13:15 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb 20, 08:17 PST\nScheduled - Our carrier partner Vodafone UK is conducting a planned maintenance from 21 February 2024 at 13:15 PST until 21 February 2024 at 23:30 PST. During the maintenance window, there could be intermittent API request failures for Vodafone UK customers.\n\nImpacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes",
-          "link": "https://status.twilio.com/incidents/l14t92yx09nq",
-          "publishedOn": "2024-02-21T21:15:56.000Z",
+          "description": "Feb 22, 15:20 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb 15, 08:15 PST\nScheduled - Our carrier partner Vodafone UK is conducting a planned maintenance from 22 February 2024 at 15:20 PST until 22 February 2024 at 20:00 PST. During the maintenance window, there could be intermittent API request failures for Vodafone UK customers.\nImpacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes",
+          "link": "https://status.twilio.com/incidents/5py8w5tx32xv",
+          "publishedOn": "2024-02-22T23:20:56.000Z",
           "wordCount": 7547,
           "title": "United Kingdom Account Security Carrier Partner Maintenance - Vodafone UK",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/7nf7tgw0mm16",
+          "id": "https://status.twilio.com/incidents/xms819p9q7c1",
           "author": null,
-          "description": "Feb 21, 07:23 PST\nResolved - All SIMs that were affected by this incident and could not be reactivated from status \"deactivated\" are now in status \"active\". Customers that issued a request to activate new SIMs may need to issue the request again since many of those requests were aborted after a day. The incident is now resolved, and the service is operating normally at this time\nFeb 21, 05:19 PST\nUpdate - We are continuing to see recovery, with SIMs successfully activating.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours, or as soon as more information becomes available.\nFeb 21, 03:19 PST\nUpdate - We are continuing to see recovery, with SIMs successfully activating.  We will continue to monitor to ensure full service recovery. We…",
-          "link": "https://status.twilio.com/incidents/7nf7tgw0mm16",
-          "publishedOn": "2024-02-21T15:23:54.000Z",
-          "wordCount": 7918,
-          "title": "Unable to Activate New Programmable Wireless SIMs",
+          "description": "Feb 22, 15:18 PST\nResolved - Delays when getting connected to the network for some Super SIM users in the United States has been resolved and is operating normally at this time.\nFeb 22, 13:22 PST\nMonitoring - We are now seeing recovery in the delays when getting connected to the network for some Super SIM users in the United States. Connectivity is affected by the ongoing AT&T service outage. We will provide another update in 2 hours or as soon as more information becomes available.\nFeb 22, 11:34 PST\nUpdate - We continue to observe delays in getting connected to the network for some Super SIM users in the United States. Connectivity is affected by the ongoing AT&T service outage. Our engineering team is actively investigating the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nFeb 22, 10:33 PST\nInvestigating - We are observing delays in getting connected to the network for some Super SIM users in the United States as of 08:45 UTC. Connectivity is affected by the ongoing AT&T service outage. Our engineering team is actively investigating the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/xms819p9q7c1",
+          "publishedOn": "2024-02-22T23:18:06.000Z",
+          "wordCount": 7672,
+          "title": "Super SIM Network Connectivity Degraded in the US",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/93sfs6dvqm9x",
+          "id": "https://status.twilio.com/incidents/qrxktvl0x4wt",
           "author": null,
-          "description": "Feb 21, 07:00 PST\nResolved - The issue affecting our SMS and MMS incident monitoring services has been resolved, and services are operating normally at this time.\nFeb 20, 07:36 PST\nUpdate - We will continue to observe the SMS and MMS incident monitoring services for up to 24 hours to ensure a full recovery. We expect to provide another update at 7:00 AM Pacific Time on 02/21/2024 or as soon as more information becomes available.\nFeb 20, 07:03 PST\nMonitoring - Our SMS and MMS incident monitoring services are now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nFeb 20, 06:44 PST\nIdentified - Our engineers have identified the issue causing our SMS and MMS incident monitoring services to be unavailable, and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.\nFeb 20, 06:30 PST\nInvestigating - Our engineers have detected a potential issue with our SMS and MMS incident monitoring services. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/93sfs6dvqm9x",
-          "publishedOn": "2024-02-21T15:00:53.000Z",
-          "wordCount": 7669,
-          "title": "SMS and MMS Incident Monitoring Services Temporarily Unavailable",
+          "description": "Feb 22, 12:55 PST\nResolved - We have fully investigated the issue triggered by our automated alert for Flex, and it was determined that there is no noticeable customer impact. All systems are operational.\nFeb 22, 12:00 PST\nInvestigating - Our monitoring systems have detected a potential issue with Flex. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/qrxktvl0x4wt",
+          "publishedOn": "2024-02-22T20:55:59.000Z",
+          "wordCount": 7514,
+          "title": "Automated Alert: No Customer Impact",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/69d7wf1nhmbt",
+          "id": "https://status.twilio.com/incidents/7dr18hk8p1tb",
           "author": null,
-          "description": "Feb 21, 04:04 PST\nResolved - We are no longer experiencing MMS/SMS delivery delays when sending messages to the US Cellular network in the USA. This incident has been resolved.\nFeb 21, 03:09 PST\nUpdate - We continue to observe recovery in MMS/SMS delivery delays when sending messages to the US Cellular network in the USA, from a subset of Twilio short code numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours, or as soon as more information becomes available.\nFeb 21, 02:39 PST\nMonitoring - We are observing recovery in MMS/SMS delivery delays when sending messages to the US Cellular network in the USA, from a subset of Twilio short code numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 30 minutes, or as soon as more information becomes available.\nFeb 21, 02:03 PST\nUpdate - We are continuing to investigate this issue.\nFeb 21, 01:25 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to the US Cellular network in the USA, from a subset of Twilio short code numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours, or as soon as more information becomes available.\nFeb 21, 00:22 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to the US Cellular network in the USA, from a subset of Twilio short code numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour, or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/69d7wf1nhmbt",
-          "publishedOn": "2024-02-21T12:04:57.000Z",
-          "wordCount": 7773,
-          "title": "SMS Delivery Delays to US Cellular via a subset of Twilio short codes",
+          "description": "Feb 22, 10:52 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Telenor Network in Pakistan. This incident has been resolved.\nFeb 22, 08:50 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Telenor Network in Pakistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nFeb 22, 07:34 PST\nUpdate - We are continuing to experience SMS delivery delays when sending messages to the Telenor network in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours, or as soon as more information becomes available.\nFeb 22, 03:29 PST\nUpdate - We are continuing to experience SMS delivery delays when sending messages to the Telnor network in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours, or as soon as more information becomes available.\nFeb 22, 01:35 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to the Telnor network in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours, or as soon as more information becomes available.\nFeb 22, 00:42 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to the Telnor network in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour, or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/7dr18hk8p1tb",
+          "publishedOn": "2024-02-22T18:52:10.000Z",
+          "wordCount": 7738,
+          "title": "SMS Delivery Delays to Telenor Pakistan",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/9b6pvhdqmg7p",
+          "id": "https://status.twilio.com/incidents/c89r190rxhjj",
           "author": null,
-          "description": "Feb 21, 04:01 PST\nCompleted - The scheduled maintenance has been completed.\nFeb 20, 22:01 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb 19, 16:35 PST\nScheduled - The T-Mobile network in the US is conducting a planned maintenance from 20 February 2024 22:00 PST until 21 February 2024 at 04:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
-          "link": "https://status.twilio.com/incidents/9b6pvhdqmg7p",
-          "publishedOn": "2024-02-21T12:01:15.000Z",
-          "wordCount": 7544,
-          "title": "US SMS Carrier Maintenance - T-Mobile",
+          "description": "Feb 22, 09:56 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Etisalat Network in Afghanistan. This incident has been resolved.\nFeb 22, 07:55 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Etisalat network in Afghanistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nFeb 22, 04:34 PST\nUpdate - We are continuing to experience SMS delivery delays when sending messages to the Etisalat network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours, or as soon as more information becomes available.\nFeb 22, 03:40 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to the Etisalat network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour, or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/c89r190rxhjj",
+          "publishedOn": "2024-02-22T17:56:23.000Z",
+          "wordCount": 7634,
+          "title": "SMS Delivery Delays to Etisalat Afghanistan",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/8w8tklnvcf6w",
+          "id": "https://status.twilio.com/incidents/n1ggfq1zlj9h",
           "author": null,
-          "description": "Feb 21, 04:00 PST\nCompleted - The scheduled maintenance has been completed.\nFeb 20, 19:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb 15, 23:04 PST\nScheduled - The AT&T network in the US is conducting a planned maintenance from 20 February 2024 19:00 PST until 21 February 2024 at 04:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T US handsets.",
-          "link": "https://status.twilio.com/incidents/8w8tklnvcf6w",
-          "publishedOn": "2024-02-21T12:00:56.000Z",
-          "wordCount": 7539,
-          "title": "US SMS Carrier Maintenance - AT&T",
+          "description": "Feb 22, 09:14 PST\nResolved - We have fully investigated the Super SIM issue triggered by our automated alert, and it was determined that this is part of an ongoing incident. To better facilitate our communications, we have merged these issues into a single incident here https://status.twilio.com/incidents/2v1vwpg28slg.\nFeb 22, 07:23 PST\nInvestigating - Our monitoring systems have detected a potential issue affecting Super SIM. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/n1ggfq1zlj9h",
+          "publishedOn": "2024-02-22T17:14:09.000Z",
+          "wordCount": 7533,
+          "title": "Automated Alert: Super SIM",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -361,16 +341,6 @@
           "publishedOn": "2024-01-25T02:56:12.000Z",
           "wordCount": 6340,
           "title": "Snapshots are failing in SFO3 and NYC3",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/s4kt15q6xq19",
-          "author": null,
-          "description": "Jan 23, 22:50 UTC\nResolved - Our Engineering team has completed mitigation efforts for the issue impacting Managed Kubernetes in the FRA1 region and we are marking this incident as Resolved. \nAt this time, functionality to impacted clusters has been restored but customers may need to reconfigure some Kubernetes resources. Customer Support is contacting impacted customers directly with further instructions. \nIf you have any questions or concerns regarding this incident, please open a ticket with our support team.\nJan 23, 18:44 UTC\nUpdate - Our Engineering team continues to work on mitigation efforts. An additional small bug has been discovered and remediated. About 10% of clusters have had accessibility restored and restoration efforts are ongoing. \nWe will post another update as soon as we have new developments.\nThank you for your patience and we apologize for any inconvenience.\nJan 23, 15:12 UTC\nIdentified - Our Engineering team has identified the cause of the issue with Managed Kubernetes clusters in the FRA1 region. 200 clusters are impacted by the issue and remain inaccessible to users at this time. \nOur Engineering team is engaged in remediating these clusters to restore accessibility. As soon as we are able to provide an estimated time to restore, we will provide an update.\nJan 23, 13:02 UTC\nInvestigating - As of 12:18 UTC, our Engineering team is investigating an issue with Kubernetes clusters in the FRA1 region. During this time, users may experience errors while communicating with their clusters in the FRA1 region. \nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/s4kt15q6xq19",
-          "publishedOn": "2024-01-23T22:50:40.000Z",
-          "wordCount": 6827,
-          "title": "Managed Kubernetes Cluster in FRA1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -570,16 +540,6 @@
           "wordCount": 5485,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/bsk6hmj0d7nv",
-          "author": null,
-          "description": "Jan 23, 18:53 UTC\nResolved - On January 23, 2024 at 14:36 UTC, our internal metrics began showing an increase in exceptions originating from our live update service. Live updates to Issues, PRs, Actions, and Projects were failing, but refreshing the page successfully updated page content. We resolved the issue by rolling back a problematic dependency update and reenabled live updates at 18:53 UTC. \nWe are working to improve alerting and monitoring of our live update service to reduce our time to detection and mitigation.\nJan 23, 18:53 UTC\nUpdate - Live updates have been restored and the system is operating normally.\nJan 23, 18:14 UTC\nUpdate - We have identified and are beginning to roll out a potential fix for issues with live updates to our Web UI that power automatic page updates such as…",
-          "link": "https://www.githubstatus.com/incidents/bsk6hmj0d7nv",
-          "publishedOn": "2024-01-23T18:53:29.000Z",
-          "wordCount": 5695,
-          "title": "We are investigating reports of degraded performance.",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -588,6 +548,46 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://status.slack.com/",
       "articles": [
+        {
+          "id": "https://status.slack.com//2024-02/548b72776056c03b",
+          "author": null,
+          "description": "Users should no longer be experiencing any issues with viewing threads. Thank you for your patience while we sorted this out.",
+          "link": "https://status.slack.com//2024-02/548b72776056c03b",
+          "publishedOn": "2024-02-22T23:42:07.000Z",
+          "wordCount": 133,
+          "title": "Incident: Threads aren't loading for some users",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://status.slack.com//2024-02/83f4c18fc4d11c93",
+          "author": null,
+          "description": "We've rolled out a fix and screen readers are now working as expected. If you're still encountering any trouble, please reload Slack using Command + Shift + R (Mac) or Ctrl + Shift + R (Windows/Linux). Thank you for your patience while we sorted out this issue.",
+          "link": "https://status.slack.com//2024-02/83f4c18fc4d11c93",
+          "publishedOn": "2024-02-22T17:40:15.000Z",
+          "wordCount": 140,
+          "title": "Incident: Screen readers are not announcing unread messages when using the Ctrl + K command on Windows.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://status.slack.com//2024-02/e04276624660caf9",
+          "author": null,
+          "description": "Issue Summary:\n\r\n\r\nBetween 1:18 AM PST on February 21, 2024, and 5:35 AM PST on February 22, 2024, some users experienced issues resetting their passwords, especially when trying to set up two-factor authentication. \n\r\n\r\nWe traced the issue to a recent backend code change and reverted the change, which fixed the issue for all affected users. \n\r\n\r\nThank you for your patience while we resolved this and we apologize for any disruption to your work day.",
+          "link": "https://status.slack.com//2024-02/e04276624660caf9",
+          "publishedOn": "2024-02-22T14:32:08.000Z",
+          "wordCount": 156,
+          "title": "Incident: Trouble with password resets",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://status.slack.com//2024-01/f39851209d6c471a",
+          "author": null,
+          "description": "Issue Summary:\n\r\n\r\nBetween 1:18 AM PST on February 21, 2024, and 5:35 AM PST on February 22, 2024, some users experienced issues resetting their passwords, especially when trying to set up two-factor authentication. \n\r\n\r\nWe traced the issue to a recent backend code change and reverted the change, which fixed the issue for all affected users. \n\r\n\r\nThank you for your patience while we resolved this and we apologize for any disruption to your work day.",
+          "link": "https://status.slack.com//2024-01/f39851209d6c471a",
+          "publishedOn": "2024-02-22T14:31:13.000Z",
+          "wordCount": 352,
+          "title": "Incident: Some users are unable to upload, download, and view files in Slack.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://status.slack.com//2024-02/16aecfd53af7219b",
           "author": null,
@@ -656,16 +656,6 @@
           "publishedOn": "2024-01-30T03:44:32.000Z",
           "wordCount": 194,
           "title": "Incident: Pasting via Cmd/Ctrl + V not working",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://status.slack.com//2024-01/f39851209d6c471a",
-          "author": null,
-          "description": "Issue Summary:\n\r\n\r\nFrom 1:00pm PST on January 23, 2024 to 2:30pm PST on January 23, 2024, some users encountered trouble uploading, downloading, and viewing files in Slack.\n\r\n\r\nWe determined that an API call was not functioning correctly, and made a change to mitigate the issue. The upload problems were caused by a slowing down of responses due to a higher than normal volume of API calls due to the malfunction. This issue has been resolved and steps have been taken to avoid it happening in the future.",
-          "link": "https://status.slack.com//2024-01/f39851209d6c471a",
-          "publishedOn": "2024-01-27T00:22:52.000Z",
-          "wordCount": 277,
-          "title": "Incident: Some users are unable to upload, download, and view files in Slack.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
