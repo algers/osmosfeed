@@ -6,6 +6,16 @@
       "siteUrl": "https://changelog.bookingsync.com",
       "articles": [
         {
+          "id": "286877",
+          "author": "Ella, Chief Customer Officer (CCO) & Cofounder",
+          "description": "Communications\n  \nIn today’s Smily newsletter, we directly address Vrbo performance optimization, spotlighting essential optimization tips shared by our Partner Vrbo. We also introduce our latest releases, designed to streamline your operations, and preview upcoming events where Smily will be featured. This edition delivers focused insights and recent developments to strengthen your property management strategies. 🙌\n🔍Optimization tips: Enhance your listings on Vrbo\nOur partner Vrbo, has generously provided a selection of their top optimization practices to elevate your overall listing's performance. Below are the main highlights, along with guidance on implementing these strategies through your Smily account:\nOptimize listing content - What makes a Vrbo listing attractive 💙\nKey amenitie…",
+          "link": "https://changelog.bookingsync.com/unlock-your-rental's-potential-expert-vrbo-strategies-smily-innovations-upcomming-events!-286877",
+          "publishedOn": "2024-02-28T10:21:46.000Z",
+          "wordCount": 1004,
+          "title": "Unlock your rental's potential: Expert Vrbo Strategies, Smily Innovations & Upcomming Events! 🗝️",
+          "imageUrl": null
+        },
+        {
           "id": "286647",
           "author": "Basile, Product Manager",
           "description": "New!\n  \nAre you connected to VRBO OTA?\nStarting today at 2pm UTC, we will be fetching guest reviews and ratings from VRBO, and you'll be able to respond to them directly from Smily interface :)\n🚧 Pain Points Addressed:\nNo need to visit VRBO to check and respond to guest reviews.\nPreviously, you couldn't rate a guest.\n🚀 Benefits for you:\nManage all your reviews in one place.\nEasily read and respond to VRBO guest reviews from our Review section on the Smily interface.\nRate guests with ease.\nℹ️ Information and next steps:\nWe will fetch all your past reviews.\n\n\nYou will be able to rate all past bookings matching those criteria:\n--> Bookings without guest review that ended in the last 365 days;\n--> Bookings for which a guest review is already present and 14 days haven’t passed since the guest made the review;\n\n\nMake use of this new feature and ensure to leave reviews for guests. This is an important criterion for VRBO and will impact your property ranking.\n\n\nLastly, you can use our \"automated reviews\" feature, released at the end of last year, for VRBO reviews too.\n\n\nHave a great review day,\nYour Smily team :)",
@@ -51,24 +61,23 @@
       "title": "Security Bulletins on Tailscale",
       "feedUrl": "https://tailscale.com/security-bulletins/index.xml",
       "siteUrl": "https://tailscale.com/security-bulletins/",
-      "articles": [
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2024-002",
-          "author": null,
-          "description": "Description: We resolved an information disclosure vulnerability in the\nhello.ts.net service.\nWhat happened?\nOn January 15 2024, we became aware of a potential information disclosure\nvulnerability in the hello.ts.net service, which could show the identity of a\ndifferent Tailscale user when loaded. The hello.ts.net service receives\nidentity information and public keys of nodes tied to their IP address. On\nNovember 28 2023, we made a change to how IPs are assigned to\nTailscale nodes, making them globally non-unique. When the Tailscale service\nassigned the same IP to multiple nodes, hello.ts.net would receive identity\ninformation for one of the nodes at random. We confirmed on January 26 2024\nthat, if one of the other nodes with that IP loaded hello.ts.net, they would\nsee another user's name, email, and hostname.\nThe Tailscale Security Team immediately took hello.ts.net offline while the\nfix was in progress. The issue has been fixed and the hello.ts.net service\nwas restored on January 29 2024.\nWho was affected?\nThe incident was isolated to 10 users across 9 tailnets who could have had\ntheir information leaked to other Tailscale users. We notified the tailnet\nsecurity contacts directly in accordance with our obligations under applicable\ndata privacy laws. Due to the random nature of the vulnerability, we cannot\nconfirm that all of those users were indeed affected.\nRegular shared nodes always see unique node IPs and were not\nvulnerable in a manner similar to hello.ts.net.\nWhat was the impact?\nA small number of users had their name, email, and hostname potentially exposed\nto other Tailscale users that had nodes sharing the same IP.\nIn addition, the hello.ts.net service was offline between January 26-29\n2024. Several users reported being negatively impacted by this.\nWhat do I need to do?\nNo action is needed at this time.\nIf you have a dependency on hello.ts.net as a probing target for Tailscale\nconnectivity, consider using a different probing\nmechanism.",
-          "link": "https://tailscale.com/security-bulletins/#ts-2024-002",
-          "publishedOn": "2024-01-30T00:00:00.000Z",
-          "wordCount": 10712,
-          "title": "TS-2024-002",
-          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Airbnb API Status - Incident History",
       "feedUrl": "https://airbnbapi.statuspage.io/history.rss",
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
+        {
+          "id": "https://airbnbapi.statuspage.io/incidents/qfy422ht70s1",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Feb 28, 17:00 - 17:05 PST\nFeb 22, 23:23 PST\nScheduled - Please note upcoming maintenance occurring on Wednesday, 2/28/2024 at 5:00 PM PT, that will result in ~30-60 second WRITE downtime to CreateMessage API. Reads will not be affected.\nAlerts and errors pertaining to Messaging on Wednesday, 2/28/2024 around 5:00 PM PT, are to be expected. Please consider any corrective actions needed to mitigate potential data loss during this ~30-60 second period.",
+          "link": "https://airbnbapi.statuspage.io/incidents/qfy422ht70s1",
+          "publishedOn": "2024-02-29T01:00:00.000Z",
+          "wordCount": 3881,
+          "title": "CreateMessage API - WRITE downtime",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://airbnbapi.statuspage.io/incidents/bs3vrsstwjvz",
           "author": null,
@@ -95,94 +104,33 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": [
-        {
-          "id": "https://status.twilio.com/incidents/pfm86ljry96q",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Feb 27, 23:30 PST  -  Feb 28, 05:30 PST\nFeb 26, 17:39 PST\nScheduled - The T-Mobile network in the US is conducting an emergency maintenance from 27 February 2024 at 23:30 PST until 28 February 2024 at 05:30 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
-          "link": "https://status.twilio.com/incidents/pfm86ljry96q",
-          "publishedOn": "2024-02-28T07:30:00.000Z",
-          "wordCount": 7520,
-          "title": "US SMS Carrier Maintenance - T-Mobile",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/2mhjwwj2y28l",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Feb 27, 22:00 - 23:00 PST\nFeb 23, 18:09 PST\nScheduled - A subset of small US networks in the US is conducting a planned maintenance from 27 February 2024 at 22:00 PST until 27 February 2024 at 23:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers.",
-          "link": "https://status.twilio.com/incidents/2mhjwwj2y28l",
-          "publishedOn": "2024-02-28T06:00:00.000Z",
-          "wordCount": 7519,
-          "title": "US SMS Carrier Maintenance - Small US Carriers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/4bgf5kvydpd3",
-          "author": null,
-          "description": "Feb 27, 13:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJan 19, 06:18 PST\nScheduled - Our Voice carrier partner in Czech Republic is conducting a planned maintenance from 27 February 2024 at 13:00 PST until 27 February 2024 at 21:00 PST. During the maintenance window, there could be call failures to and from a subset of Czech Republic phone numbers.",
-          "link": "https://status.twilio.com/incidents/4bgf5kvydpd3",
-          "publishedOn": "2024-02-27T21:00:56.000Z",
-          "wordCount": 7530,
-          "title": "Czech Republic Voice Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/rpp9kjx7hlsc",
-          "author": null,
-          "description": "Feb 27, 09:00 PST\nCompleted - The scheduled maintenance has been completed.\nFeb 27, 05:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb 22, 19:01 PST\nScheduled - The ClearSky Inteliquent (Onvoy) network in the United States is conducting a planned maintenance from 27 February 2024 at 05:00 PST until 27 February 2024 at 09:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from ClearSky Inteliquent (Onvoy) US handsets.",
-          "link": "https://status.twilio.com/incidents/rpp9kjx7hlsc",
-          "publishedOn": "2024-02-27T17:00:56.000Z",
-          "wordCount": 7551,
-          "title": "US SMS Carrier Maintenance - ClearSky Inteliquent (Onvoy)",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/wjm12ybzg0c4",
-          "author": null,
-          "description": "Feb 27, 05:25 PST\nResolved - The issue where a subset of customers were unable to verify the Caller ID via SMS has been resolved and and the service is operating normally at this time.\nFeb 27, 03:37 PST\nUpdate - We continue to observe the issue where a subset of customers are unable to verify the Caller ID via SMS. Our engineering team is actively investigating on this. We expect to provide another update in 2 hours or as soon as more information becomes available.\nFeb 27, 02:38 PST\nInvestigating - We are observing a issue where a subset of customers are unable to verify the Caller IDs via SMS. Our engineering team has been alerted and is actively investigating. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/wjm12ybzg0c4",
-          "publishedOn": "2024-02-27T13:25:17.000Z",
-          "wordCount": 7611,
-          "title": "Subset of Customers are Unable to Verify the Caller IDs via SMS",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/6cyn40bp8zn5",
-          "author": null,
-          "description": "Feb 27, 05:02 PST\nResolved - Twilio Programmable Messaging service was degraded for 7 minutes and 50 seconds between 12:06:00 and 12:14:00 UTC on 2024-02-27. During this period, customers may have experienced issue with Outbound SMS status being stuck in SENT status. The issue has now been resolved.",
-          "link": "https://status.twilio.com/incidents/6cyn40bp8zn5",
-          "publishedOn": "2024-02-27T13:02:49.000Z",
-          "wordCount": 7499,
-          "title": "Twilio Programmable Messaging Service Degraded for Outbound SMS",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/c35v74c6xhbx",
-          "author": null,
-          "description": "Feb 26, 21:00 PST\nCompleted - The scheduled maintenance has been completed.\nFeb 26, 15:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb 19, 04:01 PST\nScheduled - The T-Mobile (Crnogorski Telekom) network in Montenegro is conducting a planned maintenance from 26 February 2024 at 15:00 PST until 26 February 2024 at 21:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to T-Mobile (Crnogorski Telekom) Montenegro handsets.",
-          "link": "https://status.twilio.com/incidents/c35v74c6xhbx",
-          "publishedOn": "2024-02-27T05:00:56.000Z",
-          "wordCount": 7544,
-          "title": "Montenegro SMS Carrier Maintenance - T-Mobile (Crnogorski Telekom)",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/324ygrs1nnjx",
-          "author": null,
-          "description": "Feb 26, 16:00 PST\nCompleted - The scheduled maintenance has been completed.\nFeb 26, 12:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb 21, 15:55 PST\nScheduled - The MegaFon/Yota network in Russia is conducting a planned maintenance from 26 February 2024 at 12:00 PST until 26 February 2024 at 4:00 PDT/PST. During the maintenance window, there could be intermittent delays delivering SMS to MegaFon/Yota Russia handsets.",
-          "link": "https://status.twilio.com/incidents/324ygrs1nnjx",
-          "publishedOn": "2024-02-27T00:00:56.000Z",
-          "wordCount": 7534,
-          "title": "Russia SMS Carrier Maintenance - MegaFon/Yota",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "DigitalOcean Status - Incident History",
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/cd70bby9qynm",
+          "author": null,
+          "description": "Feb 28, 22:53 UTC\nResolved - Our Engineering team has confirmed that creation, forking, and restoration of PostgreSQL clusters on v16 is functioning correctly.\nUpgrades for lower-versioned PostgreSQL clusters to v16 remain unavailable at this time and users will see errors if they attempt to perform that upgrade. Our Engineering team continues to work on making upgrades to v16 available again, but we expect this to take some time.\nIf you continue to experience issues or have any questions, please open a ticket with our support team.\nFeb 28, 20:56 UTC\nMonitoring - After testing, teams have determined that PostgreSQL v16 is safe for new creations, as well as forks and restores for existing clusters. At this time, v16 is re-enabled in our Cloud Control Panel and users creating, forking, or re…",
+          "link": "https://status.digitalocean.com/incidents/cd70bby9qynm",
+          "publishedOn": "2024-02-28T22:53:47.000Z",
+          "wordCount": 6751,
+          "title": "Managed Databases creation - PostgresSQL v16",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/g4sdvwy4z4zm",
+          "author": null,
+          "description": "Feb 28, 22:49 UTC\nResolved - Our Engineering team has confirmed full resolution of the issue with networking in our SFO2 region. \nIf you continue to experience problems, please open a ticket with our support team. Thank you for your patience throughout this incident!\nFeb 28, 22:23 UTC\nMonitoring - Our Engineering team has confirmed that the faulty network hardware component was the cause of this issue. From 21:39 - 22:11 UTC, this component was not functioning correctly, causing networking issues for a subset of customers in our SFO2 region, as well as internal alerts in our SFO1/SFO3 regions. \nAt this time, all services should now be operating normally. We will monitor this incident for a short period of time to confirm full resolution.\nFeb 28, 22:17 UTC\nIdentified - Our Engineering team has identified the cause of the issue with networking in our SFO regions to be related to an issue with a network hardware component in SFO2. They have isolated that component and we're observing error rates returning to pre-incident levels at this time. \nWe are continuing to look into this failure, but users should be seeing recovery on their services. We'll provide another update soon.\nFeb 28, 22:06 UTC\nInvestigating - Our Engineering team is currently investigating internal alerts and customer reports for an increase in networking errors in our SFO regions for Droplets and Droplet-based services. We will provide an update as soon as we have further information.",
+          "link": "https://status.digitalocean.com/incidents/g4sdvwy4z4zm",
+          "publishedOn": "2024-02-28T22:49:41.000Z",
+          "wordCount": 6426,
+          "title": "SFO Networking",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/7rzlkzs0ksqs",
           "author": null,
@@ -191,16 +139,6 @@
           "publishedOn": "2024-02-27T20:00:57.000Z",
           "wordCount": 6327,
           "title": "AMS3 Network Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/cd70bby9qynm",
-          "author": null,
-          "description": "Feb 27, 18:27 UTC\nUpdate - During the course of investigation, our Engineering team has discovered there may be an issue with the image used to create PostgreSQL v16 Database Clusters. Due to this, our team is temporarily removing the option to create v16 clusters from our Cloud Control Panel, while they continue to work on addressing the root cause. Users attempting to create v16 clusters via the API will continue to receive errors. Additionally, users with existing v16 clusters will be unable to fork or restore those clusters until this incident is resolved.\nWe will continue to provide updates as they are available. In the meantime, users are free to create new clusters on versions other than v16.\nFeb 27, 14:45 UTC\nUpdate - Our Engineering team continues to investigate the root cause of this incident. During this time, users are unable to create v16 PostgreSQL Database Clusters. \nWe will provide an update as soon as we have further information.\nFeb 27, 10:40 UTC\nInvestigating - As of 10:18 UTC, our Engineering team is investigating an issue with creating PostgresSQL Managed Database clusters via our Cloud Control Panel. \nDuring this time, users may face issues creating the PostgreSQL Databases from the Cloud Control Panel. The creation of clusters below v16 remains unaffected at the moment.\nWe apologize for the inconvenience and will share an update once we have more information",
-          "link": "https://status.digitalocean.com/incidents/cd70bby9qynm",
-          "publishedOn": "2024-02-27T18:28:53.000Z",
-          "wordCount": 6437,
-          "title": "Managed Databases creation - PostgresSQL v16",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
@@ -311,16 +249,6 @@
           "publishedOn": "2024-01-30T16:42:28.000Z",
           "wordCount": 6259,
           "title": "Snapshots Page - Cloud Control Panel",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/r9w0yrbyy9ls",
-          "author": null,
-          "description": "Jan 29, 18:36 UTC\nResolved - Our Engineering team has confirmed the workaround fix is successful and all services should now be operating normally. We will now close this incident and work with the DNS provider separately on the root cause. \nWe appreciate your patience throughout the process and if you continue to experience problems, please open a ticket with our support team for further review.\nJan 29, 18:18 UTC\nMonitoring - Our Engineering team has identified the root cause of the issue with DNS resolution. DigitalOcean resolvers in use in FRA1, AMS3, and LON1 are unable to reach an upstream DNS provider, resulting in resolution for a subset of domain names being unavailable from our resolvers. Our Engineering team is reaching out to the provider for assistance.\nIn the meantime, our Engineering team has been able to implement a workaround fix by filtering some incorrectly announced network routes. At this time, we are seeing recovery and resolution of hostnames returning to normal in the impacted regions. We'll continue to await an update from the DNS provider. We're now monitoring the workaround fix for stability and will post an update once we are confident it is successful.\nJan 29, 17:27 UTC\nInvestigating - Our Engineering team is currently investigating issues with DNS resolution in FRA1, AMS3, and LON1. During this time, customers may experience errors trying to resolve domain names from within DigitalOcean services in those regions, including Droplets and Droplet-based services, as well as App Platform. Additionally, App Platform builds may fail or experience delays. \nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/r9w0yrbyy9ls",
-          "publishedOn": "2024-01-29T18:36:45.000Z",
-          "wordCount": 6473,
-          "title": "DNS Resolution in FRA1, AMS3 and LON1 Regions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -445,13 +373,153 @@
       "siteUrl": "https://www.google.com/appsstatus/dashboard/",
       "articles": [
         {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/ipDHw6kUSngP2zux2KoP",
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/A4uJ9SvoKy16DvCVgAg1",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-02-26 09:42</strong> and ended at <strong>2024-02-26 21:02</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A mini incident report has been posted on the Google\nWorkspace Status Dashboard.\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/DR1JYH2tW69g9BobX8e6\">https://www.google.com/appsstatus/dashboard/incidents/DR1JYH2tW69g9BobX8e6</a></p>\n</div><hr><p>Affected products: Google Calendar</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/ipDHw6kUSngP2zux2KoP",
-          "publishedOn": "2024-02-26T23:33:25.000Z",
-          "wordCount": 386,
-          "title": "RESOLVED: We are experiencing an Apps Script issue impacting Google Calendar 3rd party video conferencing integrations, Google Forms, Google Docs, and Google Sheets beginning on Monday, 2024-02-26 00:11 US/Pacific.\nFor further details on product impact, please see: https://www.google.com/appsstatus/dashboard/incidents/DR1JYH2tW69g9BobX8e6",
+          "description": "<p> Incident began at <strong>2024-02-13 15:30</strong> and ended at <strong>2024-02-16 19:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A detailed incident report has been posted at\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV\">https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV</a></p>\n</div><hr><p>Affected products: Google Chat</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/A4uJ9SvoKy16DvCVgAg1",
+          "publishedOn": "2024-02-28T17:35:08.000Z",
+          "wordCount": 947,
+          "title": "RESOLVED: We are investigating issues with Google Chat starting at 07:23 PT on 13-February-2024.\nThere is no workaround at this time.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/E6Qpq3HEwLS8R2CTynNi",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-02-13 15:30</strong> and ended at <strong>2024-02-16 19:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A detailed incident report has been posted at\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV\">https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV</a></p>\n</div><hr><p>Affected products: ChromeOS</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/E6Qpq3HEwLS8R2CTynNi",
+          "publishedOn": "2024-02-28T17:34:53.000Z",
+          "wordCount": 846,
+          "title": "RESOLVED: We are investigating issues with ChromeOS starting at 07:23 PT on 13-February-2024",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/LAGEnZ2zTgpMfcoUTBg4",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-02-13 15:30</strong> and ended at <strong>2024-02-16 19:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A detailed incident report has been posted at\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV\">https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV</a></p>\n</div><hr><p>Affected products: Google Calendar</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/LAGEnZ2zTgpMfcoUTBg4",
+          "publishedOn": "2024-02-28T17:34:34.000Z",
+          "wordCount": 947,
+          "title": "RESOLVED: We are investigating issues with Google Calendar starting at 07:23 PT on 13-February-2024.\nThere is no workaround at this time",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/VXeA6EZJzVKE53BAaoae",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-02-13 15:30</strong> and ended at <strong>2024-02-16 19:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A detailed incident report has been posted at\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV\">https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV</a></p>\n</div><hr><p>Affected products: Google Drive</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/VXeA6EZJzVKE53BAaoae",
+          "publishedOn": "2024-02-28T17:34:17.000Z",
+          "wordCount": 867,
+          "title": "RESOLVED: We are investigating issues with Google Drive starting at 07:23 PT on 13-February-2024. There is no workaround at this time.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/Y34LjSscuViZ673o5HT9",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-02-13 15:30</strong> and ended at <strong>2024-02-16 19:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A detailed incident report has been posted at\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV\">https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV</a></p>\n</div><hr><p>Affected products: Google Meet</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/Y34LjSscuViZ673o5HT9",
+          "publishedOn": "2024-02-28T17:34:04.000Z",
+          "wordCount": 947,
+          "title": "RESOLVED: We are investigating issues with Google Meet starting at 07:23 PT on 13-February-2024.\nThere is no workaround at this time",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/aMjTw17JG2FAysbmhTdQ",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-02-13 15:30</strong> and ended at <strong>2024-02-16 19:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A detailed incident report has been posted at\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV\">https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV</a></p>\n</div><hr><p>Affected products: Google Tasks</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/aMjTw17JG2FAysbmhTdQ",
+          "publishedOn": "2024-02-28T17:33:47.000Z",
+          "wordCount": 947,
+          "title": "RESOLVED: We are investigating issues with Google Tasks starting at 07:23 PT on 13-February-2024. There is no workaround at this time.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/cjb5FEny3AJDi6xu9nXu",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-02-13 15:30</strong> and ended at <strong>2024-02-16 19:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A detailed incident report has been posted at\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV\">https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV</a></p>\n</div><hr><p>Affected products: Google Docs</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/cjb5FEny3AJDi6xu9nXu",
+          "publishedOn": "2024-02-28T17:32:31.000Z",
+          "wordCount": 947,
+          "title": "RESOLVED: We are investigating issues with Google Docs starting at 07:23 PT on 13-February-2024.\nThere is no workaround at this time",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/jVNGKzkagzeaN7kWCu37",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-02-13 15:30</strong> and ended at <strong>2024-02-16 19:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A detailed incident report has been posted at\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV\">https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV</a></p>\n</div><hr><p>Affected products: Google Cloud Search</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/jVNGKzkagzeaN7kWCu37",
+          "publishedOn": "2024-02-28T17:31:30.000Z",
+          "wordCount": 955,
+          "title": "RESOLVED: We are investigating issues with Google Cloud Search starting at 07:23 PT on 13-February-2024. There is no workaround at this time.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/mvR44baNg5v3UMTjsYr4",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-02-13 15:30</strong> and ended at <strong>2024-02-16 19:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A detailed incident report has been posted at\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV\">https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV</a></p>\n</div><hr><p>Affected products: Google Voice</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/mvR44baNg5v3UMTjsYr4",
+          "publishedOn": "2024-02-28T17:30:33.000Z",
+          "wordCount": 947,
+          "title": "RESOLVED: We are investigating issues with Google Voice starting at 07:23 PT on 13-February-2024. There is no workaround at this time.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-02-13 15:30</strong> and ended at <strong>2024-02-16 19:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Incident Report</h1>\n<h2>Summary</h2>\n<p>Between 13 February 2024 at 07:30 PT and 16 February 2024 at 11:00 PT, multiple Google Workspace products experienced propagation delays for enterprise customer policy changes for a duration of 3 days, 3 hours, and 30 minutes.</p>\n<p>To our Google Workspace customers who were impacted during this disruption, we sincerely apologize. This is not the level of quality and reliability we strive to offer you, and we are taking immediate steps to improve the platform’s performance and availability.</p>\n<h2>Root Cause</h2>\n<p>Google Workspace products expose settings through the Admin Console that Customer Admins can group together to create policies that govern how their users interact with Workspace products and services.</p>\n<p>When a Customer Admin makes changes to policy settings in Admin Console, those changes are processed by a compilation server, which computes effective settings for the applicable entities. This process includes optimizations to avoid the repeated processing of multiple changes that affect the same set of entities.</p>\n<p>On 13 February 2024 at approximately 07:30 PT, an unusual pattern of policy changes triggered a latent issue where compilation optimizations did not work as intended, resulting in increased resource consumption, eventually leading to resource exhaustion. The diversion of resources away from useful work caused an increasing number of compilations to accumulate in the queue and consume resources, further exacerbating the latency.</p>\n<h2>Remediation and Prevention</h2>\n<p>Google engineers were alerted to the issue via internal alerting on 13 February 2024 at 14:27 PT and immediately started an investigation. Engineers rolled back recent binary changes for the compilation process as a potential mitigation on 14 February 2024 at 15:35 PT, however this did not improve latency.</p>\n<p>Engineers continued to attempt further mitigation steps throughout the day on 15 February 2024, including pausing non-essential processing. Once the cause of the issue was identified at 20:23 PT, engineers put in place temporary measures to increase available memory for compilation while keeping non-essential processing paused, and tuned parameters that drive compilation optimizations. These temporary mitigations allowed compilation processing to begin to recover.</p>\n<p>Compilation processing returned to pre-outage levels by 16 February 2024, at 11:00 PT.</p>\n<p>Google is committed to preventing a repeat of this issue in the future and is completing the following actions:</p>\n<ul>\n<li>We have fixed the underlying issue that caused compilation optimizations to not work as intended as of 21 February 2024.</li>\n<li>Introduce additional optimizations to improve compilation queue processing to better handle scenarios where a large number of changes affect the same set of entities.</li>\n</ul>\n<h2>Detailed Description of Impact</h2>\n<p>Between 13 February 2024 at 07:30 PT and 16 February 2024 at 11:00 PT, Google Workspace policy updates initiated by customer admins via Admin Console would have experienced delays in propagation.</p>\n</div><hr><p>Affected products: Gmail</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/By2PE4BYiuCuJ1wZQ4XV",
+          "publishedOn": "2024-02-28T17:27:36.000Z",
+          "wordCount": 1817,
+          "title": "RESOLVED: We are investigating issues with Gmail starting at 07:23 PT on 13-February-2024.\nThere is no workaround at this time",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/5tY9wqrGbUpMEttzGbeq",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-02-28 12:23</strong> and ended at <strong>2024-02-28 13:41</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  The problem with Google Voice has been resolved. After further investigation, we believe the issue existed outside of Google's infrastructure. No further updates will be added to this dashboard.  </span>The affected users are able to access Google Voice, but are seeing error messages, high latency, and/or other unexpected behavior.</div><hr><p>Affected products: Google Voice</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/5tY9wqrGbUpMEttzGbeq",
+          "publishedOn": "2024-02-28T17:23:05.000Z",
+          "wordCount": 501,
+          "title": "RESOLVED: We're investigating reports of an issue with Google Voice. We will provide more information shortly.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/5tY9wqrGbUpMEttzGbeq",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-02-28 12:23</strong> and ended at <strong>2024-02-28 13:41</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We are continuing to investigate this issue. We will provide an update by <span>Feb 28, 2024, 4:00 PM UTC</span> detailing when we expect to resolve the problem.  </span>The affected users are able to access Google Voice, but are seeing error messages, high latency, and/or other unexpected behavior.<div> <ul>\n<li>Placing and receiving the calls that are external to the caller may fail in France.</li>\n<li>The calls within the customer company network will work.</li>\n</ul>\n  </div></div><hr><p>Affected products: Google Voice</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/5tY9wqrGbUpMEttzGbeq",
+          "publishedOn": "2024-02-28T14:44:20.000Z",
+          "wordCount": 501,
+          "title": "UPDATE: We're investigating reports of an issue with Google Voice. We will provide more information shortly.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/5tY9wqrGbUpMEttzGbeq",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-02-28 12:23</strong> and ended at <strong>2024-02-28 13:41</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  Our team is continuing to investigate this issue. We will provide an update by <span>Feb 28, 2024, 3:00 PM UTC</span> with more information about this problem. Thank you for your patience.  </span>The affected users are able to access Google Voice, but are seeing error messages, high latency, and/or other unexpected behavior.<div> <p>Placing and receiving calls may fail in France.</p>\n  </div></div><hr><p>Affected products: Google Voice</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/5tY9wqrGbUpMEttzGbeq",
+          "publishedOn": "2024-02-28T13:56:38.000Z",
+          "wordCount": 501,
+          "title": "UPDATE: We're investigating reports of an issue with Google Voice. We will provide more information shortly.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/5tY9wqrGbUpMEttzGbeq",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-02-28 12:23</strong> and ended at <strong>2024-02-28 13:41</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We're aware of a problem with Google Voice affecting a significant subset of users. We will provide an update by <span>Feb 28, 2024, 2:00 PM UTC</span> detailing when we expect to resolve the problem. Please note that this resolution time is an estimate and may change.  </span><div> <p>Placing and receiving calls may fail in France.</p>\n  </div></div><hr><p>Affected products: Google Voice</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/5tY9wqrGbUpMEttzGbeq",
+          "publishedOn": "2024-02-28T13:09:47.000Z",
+          "wordCount": 501,
+          "title": "UPDATE: We're investigating reports of an issue with Google Voice. We will provide more information shortly.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/5tY9wqrGbUpMEttzGbeq",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-02-28 12:23</strong> and ended at <strong>2024-02-28 13:41</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We're investigating reports of an issue with Google Voice. We will provide more information shortly.  </span><div> <p>Placing and receiving calls may fail in France.</p>\n  </div></div><hr><p>Affected products: Google Voice</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/5tY9wqrGbUpMEttzGbeq",
+          "publishedOn": "2024-02-28T13:08:36.000Z",
+          "wordCount": 501,
+          "title": "UPDATE: We're investigating reports of an issue with Google Voice. We will provide more information shortly.",
           "imageUrl": null
         }
       ]
@@ -464,20 +532,20 @@
         {
           "id": "https://www.githubstatus.com/incidents/f9ntcnd3fdvs",
           "author": null,
-          "description": "Feb 26, 21:40 UTC\nResolved - This incident has been resolved.\nFeb 26, 21:20 UTC\nUpdate - We are seeing some recovery in NPM and GitHub Container Registry functionality, but are maintaining red status until we are certain issues won’t recur.\nFeb 26, 21:03 UTC\nUpdate - NPM and GitHub Container Registry services are degraded, particularly the upload functionality. Investigation is underway.\nFeb 26, 21:01 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Feb 26, 21:40 UTC\nResolved - On Monday, February 26th, from 20:45 UTC to 21:39 UTC, GitHub Packages reported an outage indicating a degradation in GitHub Container Registry and NPM package upload functionality. Upon investigation, we found a misconfigured observability metric which inadvertently pulled in data from a newly provisioned test environment. All failures being reported were traced back to this test environment. We confirmed that there was no real customer impact to GitHub Packages during this incident. We have since reconfigured our observability metrics to accurately report based on environment.\nFeb 26, 21:20 UTC\nUpdate - We are seeing some recovery in NPM and GitHub Container Registry functionality, but are maintaining red status until we are certain issues won’t recur.\nFeb 26, 21:03 UTC\nUpdate - NPM and GitHub Container Registry services are degraded, particularly the upload functionality. Investigation is underway.\nFeb 26, 21:01 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/f9ntcnd3fdvs",
           "publishedOn": "2024-02-26T21:40:00.000Z",
-          "wordCount": 5330,
+          "wordCount": 5410,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
         {
           "id": "https://www.githubstatus.com/incidents/78qz8zwhx9tj",
           "author": null,
-          "description": "Feb 26, 19:37 UTC\nResolved - This incident has been resolved.\nFeb 26, 19:37 UTC\nUpdate - Actions and Pull Requests are operating normally.\nFeb 26, 19:37 UTC\nUpdate - Webhooks and Issues are operating normally.\nFeb 26, 19:05 UTC\nUpdate - Issues is experiencing degraded performance. We are continuing to investigate.\nFeb 26, 18:57 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nFeb 26, 18:55 UTC\nUpdate - We have deployed a fix for issues affecting Webhooks, Actions, and some other services. We are beginning to see recovery and will continue to monitor and fix as needed.\nFeb 26, 18:55 UTC\nUpdate - Webhooks is experiencing degraded performance. We are continuing to investigate.\nFeb 26, 18:48 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nFeb 26, 18:47 UTC\nInvestigating - We are investigating reports of degraded performance for Webhooks",
+          "description": "Feb 26, 19:37 UTC\nResolved - On February 26, 2024, between 18:34 UTC and 19:37 UTC our background job service was degraded and caused job start delays up to 15 minutes. Users experienced delays in Webhooks, Actions, and some UI updates (e.g. a delay in UI updates on pull requests). This was due to capacity problems with our job queueing service, and a failure of our automated failover system.\nWe mitigated the incident by manually failing over to our secondary cluster.   No data was lost - recovery began at 18:55 UTC, when the backlog of enqueued jobs began to process.\nWe are actively working to repair our failover automation and expand the capacity of our background job queuing service to prevent issues like this in the future.\n\nFeb 26, 19:37 UTC\nUpdate - Actions and Pull Requests are operating normally.\nFeb 26, 19:37 UTC\nUpdate - Webhooks and Issues are operating normally.\nFeb 26, 19:05 UTC\nUpdate - Issues is experiencing degraded performance. We are continuing to investigate.\nFeb 26, 18:57 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nFeb 26, 18:55 UTC\nUpdate - We have deployed a fix for issues affecting Webhooks, Actions, and some other services. We are beginning to see recovery and will continue to monitor and fix as needed.\nFeb 26, 18:55 UTC\nUpdate - Webhooks is experiencing degraded performance. We are continuing to investigate.\nFeb 26, 18:48 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nFeb 26, 18:47 UTC\nInvestigating - We are investigating reports of degraded performance for Webhooks",
           "link": "https://www.githubstatus.com/incidents/78qz8zwhx9tj",
           "publishedOn": "2024-02-26T19:37:32.000Z",
-          "wordCount": 5429,
+          "wordCount": 5543,
           "title": "Incident with Webhooks, Actions, Pull Requests and Issues",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -559,153 +627,153 @@
       "siteUrl": "https://slack-status.com",
       "articles": [
         {
-          "id": "https://slack-status.com/2024-02/01c1babea4aa9c58",
+          "id": "https://slack-status.com/2024-02/2ea2fda2874858b7",
           "author": null,
-          "description": "We've rolled out a fix and the right pane is now working as expected. If you're still encountering any trouble, please reload Slack using Command + Shift + R (Mac) or Ctrl + Shift + R (Windows/Linux). Thank you for your patience while we sorted out this issue.",
-          "link": "https://slack-status.com/2024-02/01c1babea4aa9c58",
-          "publishedOn": "2024-02-27T17:24:02.000Z",
-          "wordCount": 214,
+          "description": "Issue Summary: On February 27, 2024 from around 8:30 PM PST to 10:06 PM PST Workspace Owners and Admins were experiencing issues while setting up two-factor authentication during sign in on iOS devices.\r\nThe issue was caused by a two-factor authentication feature deploy to users on the Pro subscription. After identifying the root cause the feature was was rolled back and this allowed all users to log back into Slack.",
+          "link": "https://slack-status.com/2024-02/2ea2fda2874858b7",
+          "publishedOn": "2024-02-28T12:26:11.000Z",
+          "wordCount": 235,
+          "title": "Incident: Trouble signing in on mobile for some owners and admins",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://slack-status.com/2024-02/cedce965afd47ebb",
+          "author": null,
+          "description": "Issue summary: \r\nOn February 26, 2024, from 9:21 AM PST to 9:16 AM PST on February 27, some users encountered the close button disappearing in the right pane where threads and profiles are viewed.\r\n\r\nWe discovered this was caused by a missing check in the change workspace process that prevented the right pane elements from rendering properly. Once the cause was identified, a change was made to the logic for drawing Slack's interface when switching workspaces. Once the change was rolled out, the issue was resolved.",
+          "link": "https://slack-status.com/2024-02/cedce965afd47ebb",
+          "publishedOn": "2024-02-27T15:41:56.000Z",
+          "wordCount": 303,
           "title": "Incident: Close button for right pane not appearing for some users",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
-          "id": "https://slack-status.com/2024-02/c060611c50058e90",
+          "id": "https://slack-status.com/2024-02/b1389c8cd318a7d1",
           "author": null,
           "description": "Issue summary:\r\nFrom 12:30 PM PST to 1:05 PM PST on February 26, 2024, users were unable to create workflows.\r\n\r\nWe determined that the related API method needed updating in order to eliminate inconsistencies that were causing elevated replication lag.\r\n\r\nWe deployed an update to the API method correcting this issue, and all workflow creation will now work as expected.",
-          "link": "https://slack-status.com/2024-02/c060611c50058e90",
+          "link": "https://slack-status.com/2024-02/b1389c8cd318a7d1",
           "publishedOn": "2024-02-27T02:50:48.000Z",
           "wordCount": 245,
           "title": "Incident: Users are not able to create workflows",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
-          "id": "https://slack-status.com/2024-02/bb325df767635297",
+          "id": "https://slack-status.com/2024-02/4c0af99013428a7a",
           "author": null,
           "description": "Issue summary:\r\nOn February 26, 2024 from 9:00 AM PST to 9:36 AM PST, some users experienced problems sending and loading messages in Slack. Others may have completed these actions successfully but more slowly than expected.\r\n\r\nEarlier today, we deployed a routine update to part of our network infrastructure. During this work, we deprovisioned some of our proxy servers and provisioned a new set. Some of our webapp servers took longer than expected to sync with the new list of proxy servers, resulting in a spike in connection errors. This coincided with the regular 9:00 AM PST increase in traffic to our servers, which may have exacerbated impact.\r\n\r\nBy around 9:36 AM PST, error rates had decreased and user impact had completely subsided, most likely due to our automatic scaling functionality. However, we're continuing to analyze data from this event to fully understand the root cause and prevent similar issues in the future.",
-          "link": "https://slack-status.com/2024-02/bb325df767635297",
+          "link": "https://slack-status.com/2024-02/4c0af99013428a7a",
           "publishedOn": "2024-02-27T01:47:26.000Z",
           "wordCount": 304,
           "title": "Incident: Issues sending and loading messages",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
-          "id": "https://slack-status.com/2024-02/a4b7181c73c6caa4",
+          "id": "https://slack-status.com/2024-02/b4d41d5daac6431c",
           "author": null,
           "description": "Issue Summary:\r\n\r\nFrom 2:58 PM PST on February 22, 2024, until 9:47 PM PST on February 25, 2024, some users were unable to access their workspace billing history.\r\n\r\nWe traced the issue to a recent backend code change and reverted the change, which fixed the issue for all affected users.\r\n\r\nThank you very much for your patience while we resolved this.",
-          "link": "https://slack-status.com/2024-02/a4b7181c73c6caa4",
+          "link": "https://slack-status.com/2024-02/b4d41d5daac6431c",
           "publishedOn": "2024-02-26T14:30:45.000Z",
           "wordCount": 292,
           "title": "Incident: Issues with the billing history page",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
-          "id": "https://slack-status.com/2024-02/59b2a0a3a6f8e7cd",
+          "id": "https://slack-status.com/2024-02/548b72776056c03b",
           "author": null,
           "description": "Issue summary:\r\nFrom 2:54 PM to 2:59 PM PDT on February 22, 2024, some users were having issues loading Threads.\r\n\r\nWe carried out a thorough investigation and observed trends, but found no evidence of an issue on our side. By around 2:59 PM PDT, error rates had already subsided and we received confirmation from several users that they could load Threads again by reloading Slack.\r\n\r\nWhilst no remedial action was taken on our end, we're analyzing data from this event to understand ways to mitigate similar issues that may occur in the future.\r\n\r\nWe're confident that there will be no further impact to users.",
-          "link": "https://slack-status.com/2024-02/59b2a0a3a6f8e7cd",
+          "link": "https://slack-status.com/2024-02/548b72776056c03b",
           "publishedOn": "2024-02-23T03:05:59.000Z",
           "wordCount": 291,
           "title": "Incident: Threads aren't loading for some users",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
-          "id": "https://slack-status.com/2024-02/f764ed39587951ab",
+          "id": "https://slack-status.com/2024-02/83f4c18fc4d11c93",
           "author": null,
           "description": "Issue summary:\r\nOn February 21, 2024 from 6:30 PM PST to 8:00 PM PST, customers using the JAWS or NVDA screen readers on Windows may have experienced issues with announcements for unread messages in the Quick Switcher (Ctrl + K). \r\n\r\nA recent code change inadvertently introduced a conflict with an HTML label for an interactive element.\r\n\r\nWe reverted the code change, fixing the issue and restoring normal announcement behaviour.",
-          "link": "https://slack-status.com/2024-02/f764ed39587951ab",
+          "link": "https://slack-status.com/2024-02/83f4c18fc4d11c93",
           "publishedOn": "2024-02-23T01:46:26.000Z",
           "wordCount": 263,
           "title": "Incident: Screen readers are not announcing unread messages when using the Ctrl + K command on Windows.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
-          "id": "https://slack-status.com/2024-02/44f3db891def9a9d",
+          "id": "https://slack-status.com/2024-02/e04276624660caf9",
           "author": null,
           "description": "Issue Summary:\r\n\r\nBetween 1:18 AM PST on February 21, 2024, and 5:35 AM PST on February 22, 2024, some users experienced issues resetting their passwords, especially when trying to set up two-factor authentication. \r\n\r\nWe traced the issue to a recent backend code change and reverted the change, which fixed the issue for all affected users. \r\n\r\nThank you for your patience while we resolved this and we apologize for any disruption to your work day.",
-          "link": "https://slack-status.com/2024-02/44f3db891def9a9d",
+          "link": "https://slack-status.com/2024-02/e04276624660caf9",
           "publishedOn": "2024-02-22T14:32:08.000Z",
           "wordCount": 207,
           "title": "Incident: Trouble with password resets",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
-          "id": "https://slack-status.com/2024-01/7bbe7a2d4382df73",
+          "id": "https://slack-status.com/2024-01/f39851209d6c471a",
           "author": null,
           "description": "Issue Summary:\r\n\r\nBetween 1:18 AM PST on February 21, 2024, and 5:35 AM PST on February 22, 2024, some users experienced issues resetting their passwords, especially when trying to set up two-factor authentication. \r\n\r\nWe traced the issue to a recent backend code change and reverted the change, which fixed the issue for all affected users. \r\n\r\nThank you for your patience while we resolved this and we apologize for any disruption to your work day.",
-          "link": "https://slack-status.com/2024-01/7bbe7a2d4382df73",
+          "link": "https://slack-status.com/2024-01/f39851209d6c471a",
           "publishedOn": "2024-02-22T14:31:13.000Z",
           "wordCount": 409,
           "title": "Incident: Some users are unable to upload, download, and view files in Slack.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
-          "id": "https://slack-status.com/2024-02/4871e253e6ca2c19",
+          "id": "https://slack-status.com/2024-02/16aecfd53af7219b",
           "author": null,
           "description": "Issue summary:\r\n\r\nStarting around 12:46 PM PST on February 6, 2024, until around 4:06 PM PST on February 9, 2024, some users experienced issues with their profile pictures loading, resulting in the default avatar image displaying instead of their custom image.\r\n\r\nWe identified a bug that caused missing image data from a database cache. We fixed the bug and reset the backend cache to pull new data, which initially fixed the issue around 4:00 PM PST on February 6. However, some users began experiencing the problem again once their Slack client refreshed.\r\n\r\nWe continued investigating the issue, tracing it back to a piece of code that would push older image data to a database that housed profile information, and promptly reverted the incorrect code which resolved the issue for all affected users.",
-          "link": "https://slack-status.com/2024-02/4871e253e6ca2c19",
+          "link": "https://slack-status.com/2024-02/16aecfd53af7219b",
           "publishedOn": "2024-02-15T14:40:11.000Z",
           "wordCount": 453,
           "title": "Incident: Profile photos aren't displaying properly",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
-          "id": "https://slack-status.com/2024-02/9bba9426ec388c9e",
+          "id": "https://slack-status.com/2024-02/804d3a52e234f2fa",
           "author": null,
           "description": "Issue summary:\r\nOn February 12, 2024 from 6:00 AM PST to 8:32 AM PST, some users experienced latency when loading canvases or errors related to editing and saving canvases.\r\n\r\nUpon investigation we determined that this was caused by rate limits put in place by an upstream provider. We restarted the impacted endpoints to mitigate the issue immediately, which resolved the issue for all affected users. We're continuing to partner with our upstream provider to reduce the likelihood of this occurring in the future.",
-          "link": "https://slack-status.com/2024-02/9bba9426ec388c9e",
+          "link": "https://slack-status.com/2024-02/804d3a52e234f2fa",
           "publishedOn": "2024-02-13T22:15:24.000Z",
           "wordCount": 227,
           "title": "Incident: Some users may be experiencing trouble with canvas.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
-          "id": "https://slack-status.com/2024-02/f454b9373e18206b",
+          "id": "https://slack-status.com/2024-02/558e3bb8ce654659",
           "author": null,
           "description": "Issue summary:\r\nOn February 7, 2024 from around 9:23 AM PST to 9:51 AM PST, a small percentage of users may have experienced issues connecting to Slack or searching within Slack. \r\n\r\nOur automated alerting systems detected an unusual spike in traffic to one of our servers. We carried out a thorough investigation, but the load subsided naturally as we worked, resolving the issue for all affected users.\r\n\r\nWhile we did not take any remedial action in this case, we continued our investigation to better understand the problem and potential mitigation strategies for similar issues in future.",
-          "link": "https://slack-status.com/2024-02/f454b9373e18206b",
+          "link": "https://slack-status.com/2024-02/558e3bb8ce654659",
           "publishedOn": "2024-02-08T02:06:20.000Z",
           "wordCount": 300,
           "title": "Incident: Some users may be having trouble connecting to Slack.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
-          "id": "https://slack-status.com/2024-02/02583b67c7878ab2",
+          "id": "https://slack-status.com/2024-02/30dfe547672802a4",
           "author": null,
           "description": "Issue Summary:\r\n\r\nOn February 1, 2024 between 12:57 AM PST and 3:52 AM PST, some users in Germany were having trouble receiving two-factor authentication codes via SMS.\r\n\r\nThis was caused by an issue with a service provider and has now been resolved.\r\n\r\nUsers in Germany should no longer be having trouble and may also choose to use an authentication app to receive their 2FA codes instead of SMS.\r\n\r\nThank you for being patient with us, we appreciate it.",
-          "link": "https://slack-status.com/2024-02/02583b67c7878ab2",
+          "link": "https://slack-status.com/2024-02/30dfe547672802a4",
           "publishedOn": "2024-02-01T14:43:18.000Z",
           "wordCount": 248,
           "title": "Incident: Users in Germany having trouble receiving 2FA SMS codes",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
-          "id": "https://slack-status.com/2024-01/58107d448d93f2e3",
+          "id": "https://slack-status.com/2024-01/8e9a7cb95549d34c",
           "author": null,
           "description": "Issue Summary:\r\n\r\nOn January 31, 2024 between 7:43 AM PST and 8:27 AM PST, some users were unable to load threads and send messages.\r\n\r\nWe traced the issue to a backend failure and immediately implemented a change which fixed the issue for all affected users.\r\n\r\nWe apologize for any disruption to your work day and appreciate your patience while we resolved the issue.",
-          "link": "https://slack-status.com/2024-01/58107d448d93f2e3",
+          "link": "https://slack-status.com/2024-01/8e9a7cb95549d34c",
           "publishedOn": "2024-01-31T18:14:04.000Z",
           "wordCount": 231,
           "title": "Incident: Users may be experiencing issues loading threads and sending mesages.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
-          "id": "https://slack-status.com/2024-01/f675c9433de2f848",
+          "id": "https://slack-status.com/2024-01/0a000b0ad09623a0",
           "author": null,
           "description": "Issue summary:\r\nFrom 11:37 AM PST to 11:48 AM PST on January 24, 2024, we experienced an unexpected amount of API calls to our servers that occurred within a short window of time. The volume of API calls resulted in some users experiencing latency loading channels and general difficulties connecting to Slack. We investigated the impact with a broad lens and began to observe signs of recovery around 12:09 PM PST.\r\n\r\nDuring this time, we cautiously observed our health metrics to ensure our servers were accurately recovering. As a result of our thorough monitoring, there was a delay before we could confirm the issue was fully resolved. Our teams have also put in measures to help reduce the likelihood of this occurring again in the future.",
-          "link": "https://slack-status.com/2024-01/f675c9433de2f848",
+          "link": "https://slack-status.com/2024-01/0a000b0ad09623a0",
           "publishedOn": "2024-01-30T17:58:00.000Z",
           "wordCount": 327,
           "title": "Incident: Some latency with Slack",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-01/64f32c671a86cd6c",
-          "author": null,
-          "description": "Issue summary: \r\nFrom 11:45 AM PST to around 5:20 PM PST on January 29, 2024, some customers experienced problems using keyboard shortcuts to paste text into Slack. \r\n\r\nA code change inadvertently introduced an issue that prevented the use of Cmd/Ctrl + V to paste text into Slack. We reverted this change, then deployed a fix to fully resolve the issue.",
-          "link": "https://slack-status.com/2024-01/64f32c671a86cd6c",
-          "publishedOn": "2024-01-30T03:44:32.000Z",
-          "wordCount": 245,
-          "title": "Incident: Pasting via Cmd/Ctrl + V not working",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
