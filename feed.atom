@@ -1,10 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-04T00:22:00.200Z</id>
+    <id>urn:2024-03-05T00:21:01.159Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-04T00:22:00.200Z</updated>
+    <updated>2024-03-05T00:21:01.159Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[500 Errors Across Multiple Endpoints]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/47y20gmnl3h9</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/47y20gmnl3h9"/>
+        <updated>2024-03-05T00:16:15.000Z</updated>
+        <summary type="html"><![CDATA[Mar  4, 16:16 PST
+Resolved - This incident has been resolved.
+Error rates have returned to normal levels. Please retry any failed requests.
+We apologize for the inconvenience caused and thank you for your patience and understanding.
+Mar  4, 14:10 PST
+Monitoring - The issue has been mitigated at 1:45 PM PDT. Please apply any failed requests during the incident.
+Mar  4, 13:24 PST
+Investigating - We are actively investigating an increased number of 500 errors across multiple endpoints. These errors started today (March 4, 2024) around 12:57 PM PDT. Our engineering teams are working to get everything up and running again and we will update you with the latest information as soon as possible.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Issue with reservation related webhooks]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/5vnndg8lvchr</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/5vnndg8lvchr"/>
+        <updated>2024-03-04T22:25:36.000Z</updated>
+        <summary type="html"><![CDATA[Mar  4, 14:25 PST
+Resolved - This incident has been resolved. Don't hesitate to contact us if you need further assistance.
+Mar  4, 11:17 PST
+Monitoring - We recently experienced an incident that affected all reservation-related webhooks between 9:54 AM and 10:44 AM PT on March 4, 2024. During this time, you may have noticed reservations being requested, confirmed, altered, and canceled on your listings, but no corresponding webhooks were received. The issue has been resolved, and we will be sending all the missing webhooks in the upcoming hours. In the meantime, if you need to retrieve reservation information for your listings, you can use the GET reservations API. Please note that this incident only affected reservation-related webhooks.
+We apologize for the inconvenience, and please don't hesitate to contact us if you need further assistance.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[500 Errors Across Multiple Availability Endpoints]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/5qkdf7vy8v6v</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/5qkdf7vy8v6v"/>
+        <updated>2024-03-04T12:41:02.000Z</updated>
+        <summary type="html"><![CDATA[Mar  4, 04:41 PST
+Monitoring - We've mitigated the issue at 4:10AM PDT and will continue to monitor it.
+Mar  4, 02:49 PST
+Investigating - We are investigating an increased number of 500 errors across multiple availability related endpoints. These errors started on March 01, 2024.
+Our engineering teams are actively working towards a resolution to restore service fully.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Help website is currently unreachable]]></title>
+        <id>https://status.make.com/incidents/1vm1k0hxtbdb</id>
+        <link href="https://status.make.com/incidents/1vm1k0hxtbdb"/>
+        <updated>2024-03-04T10:12:14.000Z</updated>
+        <summary type="html"><![CDATA[Mar  4, 11:12 CET
+Resolved - We are still in contact with our third-party provider to gather more information and prevent this issue from happening again. Meanwhile, the workaround that was implemented has been working as expected. The incident has been resolved.
+Mar  1, 17:44 CET
+Monitoring - We have successfully implemented a workaround, and the content of the affected pages is now accessible. However, we are still awaiting a response from the third-party service and further insight into the issue. Currently, the entire webpage is operational. We will continue to monitor the situation closely until we receive additional information from the third party.
+Mar  1, 16:51 CET
+Update - We are still investigating the issue, and our initial suspicion is that it may be related to one of our third-party services. We anticipate providing the next update within the next 2 hours, or as soon as more information becomes available.
+Mar  1, 16:02 CET
+Investigating - Our Help and API documentation websites are currently unreachable due to unknown reasons. We are currently investigating the root cause. The rest of the platform's functionalities are unaffected. We will provide an update in the next 30 minutes. Sorry for the inconvenience.]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident with API Requests, Copilot, Git Operations, Actions and Pages]]></title>
         <id>https://www.githubstatus.com/incidents/7x5z8plb48t6</id>
@@ -26,21 +88,6 @@ Mar  1, 17:30 UTC
 Investigating - We are investigating reports of degraded performance for API Requests, Copilot, Git Operations and Actions]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Help website is currently unreachable]]></title>
-        <id>https://status.make.com/incidents/1vm1k0hxtbdb</id>
-        <link href="https://status.make.com/incidents/1vm1k0hxtbdb"/>
-        <updated>2024-03-01T16:44:34.000Z</updated>
-        <summary type="html"><![CDATA[Mar  1, 17:44 CET
-Monitoring - We have successfully implemented a workaround, and the content of the affected pages is now accessible. However, we are still awaiting a response from the third-party service and further insight into the issue. Currently, the entire webpage is operational. We will continue to monitor the situation closely until we receive additional information from the third party.
-Mar  1, 16:51 CET
-Update - We are still investigating the issue, and our initial suspicion is that it may be related to one of our third-party services. We anticipate providing the next update within the next 2 hours, or as soon as more information becomes available.
-Mar  1, 16:02 CET
-Investigating - Our Help and API documentation websites are currently unreachable due to unknown reasons. We are currently investigating the root cause. The rest of the platform's functionalities are unaffected. We will provide an update in the next 30 minutes. Sorry for the inconvenience.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
         </author>
     </entry>
     <entry>
