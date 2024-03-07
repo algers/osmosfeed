@@ -79,6 +79,16 @@
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
         {
+          "id": "https://airbnbapi.statuspage.io/incidents/hjdlmbqk7krr",
+          "author": null,
+          "description": "Mar  6, 12:38 PST\nMonitoring - We've identified an increased number of 500 errors across multiple endpoints starting today 11:52 AM PST.This issue has been mitigated at 12:08 AM PST. \nPlease apply any failed requests during the incident.",
+          "link": "https://airbnbapi.statuspage.io/incidents/hjdlmbqk7krr",
+          "publishedOn": "2024-03-06T20:38:42.000Z",
+          "wordCount": 3850,
+          "title": "500 errors across multiple endpoints",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://airbnbapi.statuspage.io/incidents/5qkdf7vy8v6v",
           "author": null,
           "description": "Mar  5, 13:22 PST\nResolved - This incident has been resolved.\nMar  4, 04:41 PST\nMonitoring - We've mitigated the issue at 4:10AM PDT and will continue to monitor it.\nMar  4, 02:49 PST\nInvestigating - We are investigating an increased number of 500 errors across multiple availability related endpoints. These errors started on March 01, 2024.\nOur engineering teams are actively working towards a resolution to restore service fully.",
@@ -127,16 +137,6 @@
           "wordCount": 3891,
           "title": "Issues with Async Request Processing",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/dmybzf132ygz",
-          "author": null,
-          "description": "Feb  5, 16:00 PST\nResolved - We've identified spikes in errors across multiple endpoints that have occurred over the past day. The two distinct spikes were:\n- February 5th, 4:10 PM to 4:30 PM (PST)\n- February 6th, 6:30 AM to 7:30 AM (PST)\nThe issue is now resolved, and we don't expect any ongoing impact.",
-          "link": "https://airbnbapi.statuspage.io/incidents/dmybzf132ygz",
-          "publishedOn": "2024-02-06T00:00:00.000Z",
-          "wordCount": 3861,
-          "title": "500 Errors Across Multiple Endpoints",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -151,6 +151,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/l9d26ggtbw8h",
+          "author": null,
+          "description": "Mar  6, 19:09 UTC\nResolved - Our Engineering team has identified and resolved an issue in the TOR1 region that impacted the network connectivity for a subset of Droplets and Droplet-based services for a brief duration.\nFrom 17:38 - 17:47 UTC, users might have experienced delays or errors while accessing and connecting to their resources in the TOR1 region from the public internet or from other resources in TOR1. Swift action was taken by our Engineering team that restored service and all services in TOR1 are operating correctly. \nWe apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.",
+          "link": "https://status.digitalocean.com/incidents/l9d26ggtbw8h",
+          "publishedOn": "2024-03-06T19:09:05.000Z",
+          "wordCount": 6289,
+          "title": "Network Connectivity in TOR1",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/s5v9qwsvlxjv",
           "author": null,
@@ -337,26 +347,6 @@
           "wordCount": 3395,
           "title": "Database Automations failing",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/f88y9tn65kl1",
-          "author": null,
-          "description": "Feb  5, 16:32 PST\nResolved - This incident has been resolved.\nFeb  5, 16:03 PST\nUpdate - We are continuing to investigate this issue.\nFeb  5, 16:02 PST\nInvestigating - We are currently investigating this issue.",
-          "link": "https://status.notion.so/incidents/f88y9tn65kl1",
-          "publishedOn": "2024-02-06T00:32:44.000Z",
-          "wordCount": 3396,
-          "title": "A number of South Korean users inadvertently banned from using vital APIs in Notion, potentially affecting some functionalities within the app.",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/w7ppqptykrdz",
-          "author": null,
-          "description": "Feb  5, 06:56 PST\nResolved - Between 3:00 UTC - 14:22 UTC, some users may have experienced database automation failures or delays in actions being triggered.\nThis is now resolved, and the affected automations have completed. Database automation services are now running as normal. \nThank you for your patience while we worked through this issue.\nFeb  5, 05:30 PST\nMonitoring - Notion's database automation service began experiencing problems at approximately 3 AM UTC today, which caused a number of automation actions to fail or experience delays. \nOur engineers have identified a fix, and are now retrying automations that failed to trigger during this period. \nWe will continue to monitor the situation and share an update when this is fully resolved.",
-          "link": "https://status.notion.so/incidents/w7ppqptykrdz",
-          "publishedOn": "2024-02-05T14:56:59.000Z",
-          "wordCount": 3422,
-          "title": "Database Automation Failures",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -365,6 +355,16 @@
       "feedUrl": "https://status.rippling.com/history.rss",
       "siteUrl": "https://status.rippling.com",
       "articles": [
+        {
+          "id": "https://status.rippling.com/incidents/j0y55xs3d05q",
+          "author": null,
+          "description": "Mar  6, 22:57 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nMar  6, 16:58 UTC\nUpdate - We are continuing to work on a fix for this issue. This affects users who have their accounts created prior to their start date.\nMar  6, 16:51 UTC\nIdentified - The issue has been identified and a fix is being implemented.",
+          "link": "https://status.rippling.com/incidents/j0y55xs3d05q",
+          "publishedOn": "2024-03-06T22:57:59.000Z",
+          "wordCount": 5321,
+          "title": "Delays creating accounts in third-party apps",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
+        },
         {
           "id": "https://status.rippling.com/incidents/5pv7fqwgvtck",
           "author": null,
@@ -393,6 +393,16 @@
       "siteUrl": "https://www.google.com/appsstatus/dashboard/",
       "articles": [
         {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-03-06 10:50</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Admin Console is experiencing elevated errors with the Chrome setting pages.</p>\n<p><strong>Description:</strong></p>\n<p>Mitigation work is currently underway by our engineering team.</p>\n<p>The mitigation is expected to complete by Wednesday, 2024-03-06 16:15 US/Pacific.</p>\n<p>We will provide more information by Wednesday, 2024-03-06 16:45 US/Pacific.</p>\n<p><strong>Customer Symptoms:</strong></p>\n<p>The impacted customers would encounter a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers would not be able to view or change any policies.</p>\n<p><strong>Workaround:</strong></p>\n<p>None at this time.</p>\n</div><hr><p>Affected products: Admin Console</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW",
+          "publishedOn": "2024-03-07T00:05:57.000Z",
+          "wordCount": 365,
+          "title": "UPDATE: **Summary:**\nAdmin Console is experiencing elevated errors with the Chrome setting pages.\n**Description:**\nMitigation work is currently underway by our engineering team.\nThe mitigation is expected to complete by Wednesday, 2024-03-06 16:15 US/Pacific.\nWe will provide more information by Wednesday, 2024-03-06 16:45 US/Pacific.\n**Customer Symptoms:**\nThe impacted customers would encounter a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers would not be able to view or change any policies.\n**Workaround:**\nNone at this time.",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt",
           "author": null,
           "description": "<p> Incident began at <strong>2024-03-05 15:25</strong> and ended at <strong>2024-03-05 17:22</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced an impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 05 March, 2024 07:25</p>\n<p><strong>Incident End:</strong> 05 March, 2024 09:22</p>\n<p><strong>Duration:</strong> 1 hour, 57 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Gmail</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>Gmail experienced 0.23% UI error rates for 61 minutes, and 1 to 5 minute email delays for just under two hours.</p>\n<p>From preliminary analysis, the trigger of the issue was a sudden and unexpected increase in authentication traffic which was caused by user re-login attempts following device restarts. The device restarts were a result of users attempting to mitigate a third party application issue outside of Google’s infrastructure. This additional load led to elevated errors in our backend authentication service, which in turn impacted Gmail.</p>\n<p>Google engineers responded promptly to the increased error rates and mitigated the issue by adding compute resources to handle the additional load. By 08:26 AM US/Pacific, Gmail UI error rates were largely resolved, and the error rate returned to baseline by 08:51. Delivery delays continued until 09:22 at which point the impact to Gmail was completely mitigated.</p>\n<p><strong>Customer Impact:</strong></p>\n<ul>\n<li>\n<p>Affected customers would have noticed an “oops” error message in the Gmail UI. Customers encountered these errors for various actions on Gmail, including login.</p>\n</li>\n<li>\n<p>Some customers would have experienced delays with email delivery ranging between one and five minutes.</p>\n</li>\n</ul>\n</div><hr><p>Affected products: Gmail</p>",
@@ -400,36 +410,6 @@
           "publishedOn": "2024-03-06T00:19:48.000Z",
           "wordCount": 613,
           "title": "RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-03-05 15:25</strong> and ended at <strong>2024-03-05 17:22</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>We saw a surge in traffic starting around 7:25 AM Pacific Time on March 5, and we scaled up our systems to serve the additional load.</p>\n</div><hr><p>Affected products: Gmail</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt",
-          "publishedOn": "2024-03-05T17:34:26.000Z",
-          "wordCount": 613,
-          "title": "RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-03-05 15:25</strong> and ended at <strong>2024-03-05 17:22</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  Our team is continuing to investigate this issue. We will provide an update by <span>Mar 5, 2024, 5:15 PM UTC</span> with more information about this problem. Thank you for your patience.  </span><div> <p><strong>Symptoms:</strong></p>\n<p>Some Gmail users are experiencing elevated error rates while performing various actions and may also see delays in email delivery</p>\n  </div></div><hr><p>Affected products: Gmail</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt",
-          "publishedOn": "2024-03-05T16:35:18.000Z",
-          "wordCount": 613,
-          "title": "UPDATE: We're investigating reports of an issue with Gmail. We will provide more information shortly.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-03-05 15:25</strong> and ended at <strong>2024-03-05 17:22</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We're investigating reports of an issue with Gmail. We will provide more information shortly.  </span></div><hr><p>Affected products: Gmail</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt",
-          "publishedOn": "2024-03-05T16:25:51.000Z",
-          "wordCount": 613,
-          "title": "UPDATE: We're investigating reports of an issue with Gmail. We will provide more information shortly.",
           "imageUrl": null
         }
       ]
@@ -537,6 +517,26 @@
       "siteUrl": "https://slack-status.com",
       "articles": [
         {
+          "id": "https://slack-status.com/2024-03/a20334cecc6fff7c",
+          "author": null,
+          "description": "Issue summary:\r\nOn March 5, 2024 from 3:36 PM PST until 9:36 PM PST some customers were unable to visit the app detail page in App Directory, instead seeing a page displaying a \"Server Error\" message.\r\n\r\nWe traced the issue to a recent backend code change and reverted the change, which fixed this issue.",
+          "link": "https://slack-status.com/2024-03/a20334cecc6fff7c",
+          "publishedOn": "2024-03-06T07:23:50.000Z",
+          "wordCount": 214,
+          "title": "Incident: Some customers may be unable to access the App Directory",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://slack-status.com/2024-03/9c34d28b9b3f4e7b",
+          "author": null,
+          "description": "Issue summary:\r\nFrom March 1, 2024 at 12:13 PM PST to March 4, 2024 at 7:06 PM PST, Enterprise Grid admins and owners may have experienced issues inviting members to workspaces. \r\n\r\nWe made a code change that inadvertently introduced a logic error, resulting in the incorrect workspaces being listed in the invite modal. We reverted the code change, restoring normal invite functionality for all affected users.",
+          "link": "https://slack-status.com/2024-03/9c34d28b9b3f4e7b",
+          "publishedOn": "2024-03-06T05:00:19.000Z",
+          "wordCount": 280,
+          "title": "Incident: 'Invite people' popup menu in Manage Members page populates name of wrong workspace.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://slack-status.com/2024-03/629a8aa472f5f9c2",
           "author": null,
           "description": "Issue summary:\r\nOn March 4, 2024, from 4:18 PM PST until 10:17 PM PST some users experienced an issue when sharing their screen during a huddle. Attempting to share their screen would fail without any error or warning.\r\n\r\nAn incorrect piece of code was identified as the cause of the screen share issue. We safely reverted the problematic code, resolving the issue that users experienced. To capture the fix, a hard refresh (by pressing Cmd/Ctrl + Shift + R) may be required.",
@@ -544,16 +544,6 @@
           "publishedOn": "2024-03-05T04:32:04.000Z",
           "wordCount": 343,
           "title": "Incident: Some customers are unable to share their screen during a huddle",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-03/9c34d28b9b3f4e7b",
-          "author": null,
-          "description": "Workspace Owners and Admins should no longer be experiencing any trouble inviting new users. Apologies for the trouble and thank you for your patience.",
-          "link": "https://slack-status.com/2024-03/9c34d28b9b3f4e7b",
-          "publishedOn": "2024-03-05T01:14:32.000Z",
-          "wordCount": 211,
-          "title": "Incident: 'Invite people' popup menu in Manage Members page populates name of wrong workspace.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
@@ -602,9 +592,9 @@
           "description": "Issue summary:\r\nFrom 12:30 PM PST to 1:05 PM PST on February 26, 2024, users were unable to create workflows.\r\n\r\nWe determined that the related API method needed updating in order to eliminate inconsistencies that were causing elevated replication lag.\r\n\r\nWe deployed an update to the API method correcting this issue, and all workflow creation will now work as expected.",
           "link": "https://slack-status.com/2024-02/b1389c8cd318a7d1",
           "publishedOn": "2024-02-27T02:50:48.000Z",
-          "wordCount": 245,
+          "wordCount": 1,
           "title": "Incident: Users are not able to create workflows",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+          "imageUrl": null
         },
         {
           "id": "https://slack-status.com/2024-02/4c0af99013428a7a",
