@@ -22,11 +22,50 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-07 datetime="2024-03-07T00:05:57.000Z">2024-03-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-07 datetime="2024-03-07T00:05:57.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-07 datetime="2024-03-07T22:40:08.000Z">2024-03-07</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-07 datetime="2024-03-07T22:40:08.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Airbnb API Status - Incident History</button>
+                  <a class="source-heading__link" href="https://airbnbapi.statuspage.io">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://airbnbapi.statuspage.io/incidents/hjdlmbqk7krr"
+                        open
+                      >
+                        <summary class="article-expander__title">500 Errors Across Multiple Endpoints</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://airbnbapi.statuspage.io/incidents/hjdlmbqk7krr">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Mar  7, 14:40 PST
+Resolved - This incident has been resolved as of March 6th, 2024, 12:08 AM PST. Error rates have returned to normal levels. Please retry any failed requests.
+We apologize for the inconvenience caused and thank you for your patience and understanding.
+Mar  6, 12:38 PST
+Monitoring - We&#x27;ve identified an increased number of 500 errors across multiple endpoints starting today 11:52 AM PST.This issue has been mitigated at 12:08 AM PST. 
+Please apply any failed requests during the incident.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -45,7 +84,7 @@
                         data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW"
                         open
                       >
-                        <summary class="article-expander__title">UPDATE: **Summary:**
+                        <summary class="article-expander__title">RESOLVED: **Summary:**
 Admin Console is experiencing elevated errors with the Chrome setting pages.
 **Description:**
 Mitigation work is currently underway by our engineering team.
@@ -58,21 +97,70 @@ None at this time.</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>Incident began at 2024-03-06 10:50 (times are in Coordinated Universal Time (UTC)).
+                              <span>Incident began at 2024-03-06 22:32 and ended at 2024-03-07 00:29 (times are in Coordinated Universal Time (UTC)).
 
-Summary:
-Admin Console is experiencing elevated errors with the Chrome setting pages.
+Mini Incident Report
+We apologize for the inconvenience this service outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article https://support.google.com/a/answer/1047213.
+(All Times US/Pacific)
+Incident Start: 6 March 2023 14:32
+Incident End: 6 March 2023 16:29
+Duration: 1 hours, 57 minutes
+Affected Services and Features:
+Admin Console Pages for Chrome user settings
+Chrome device settings
+Chrome devices
+Regions/Zones: Global
 Description:
+Google Workspace users attempting to work within the Admin Console encountered an HTTP 500 error when accessing user or device setting pages within the console. From preliminary analysis, the root cause of the issue is a change to the access control setting in a backend authentication service used by the Admin Console. This change resulted in users being unable to access the page.
+Our Engineering team was alerted by our internal monitoring systems and swiftly mitigated the issue by rolling back the change to the access control settings.
+This impacted users ability to view the current user and device policies, change or edit the existing policies and their ability to create new policies.
+Google will complete a full Incident Report (IR) in the following days that will provide a detailed root cause.
+Customer Impact:
+The impacted customers encountered a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console.
+Additionally, customers were unable to view or change any Chrome policies.
+
+Affected products: Admin Console</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW"
+                        open
+                      >
+                        <summary class="article-expander__title">RESOLVED: **Summary:**
+Admin Console is experiencing elevated errors with the Chrome setting pages.
+**Description:**
 Mitigation work is currently underway by our engineering team.
 The mitigation is expected to complete by Wednesday, 2024-03-06 16:15 US/Pacific.
 We will provide more information by Wednesday, 2024-03-06 16:45 US/Pacific.
-Customer Symptoms:
+**Customer Symptoms:**
 The impacted customers would encounter a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers would not be able to view or change any policies.
+**Workaround:**
+None at this time.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Incident began at 2024-03-06 22:32 and ended at 2024-03-07 00:29 (times are in Coordinated Universal Time (UTC)).
+
+Summary:
+Admin Console experienced elevated errors with the setting pages.
+Description:
+The issue with Admin Console has been resolved for all affected users as of Wednesday, 2024-03-06 16:29 US/Pacific.
+We thank you for your patience while we worked on resolving the issue.
+Symptoms:
+The impacted customers would have encountered a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers were unable to view or change any policies.
 Workaround:
-None at this time.
+None at this time...
 
 Affected products: Admin Console</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -82,20 +170,6 @@ Affected products: Admin Console</span>
                 </section>
               </section>
             </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-06 datetime="2024-03-06T22:57:59.000Z">2024-03-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-06 datetime="2024-03-06T22:57:59.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -119,7 +193,9 @@ Affected products: Admin Console</span>
                           <div class="article-summary-box-inner media-object">
                               <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>Mar  6, 22:57 UTC
+                              <span>Mar  7, 18:09 UTC
+Resolved - This incident has been resolved.
+Mar  6, 22:57 UTC
 Monitoring - A fix has been implemented and we are monitoring the results.
 Mar  6, 16:58 UTC
 Update - We are continuing to work on a fix for this issue. This affects users who have their accounts created prior to their start date.
@@ -142,26 +218,27 @@ Identified - The issue has been identified and a fix is being implemented.</span
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Airbnb API Status - Incident History</button>
-                  <a class="source-heading__link" href="https://airbnbapi.statuspage.io">Open</a>
+                  >DigitalOcean Status - Incident History</button>
+                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://airbnbapi.statuspage.io/incidents/hjdlmbqk7krr"
+                        data-accordion-key="https://status.digitalocean.com/incidents/1755wn45yqyw"
                         open
                       >
-                        <summary class="article-expander__title">500 errors across multiple endpoints</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://airbnbapi.statuspage.io/incidents/hjdlmbqk7krr">
+                        <summary class="article-expander__title">Spaces Availability in SFO2</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/1755wn45yqyw">
                           <div class="article-summary-box-inner media-object">
                               <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>Mar  6, 12:38 PST
-Monitoring - We&#x27;ve identified an increased number of 500 errors across multiple endpoints starting today 11:52 AM PST.This issue has been mitigated at 12:08 AM PST. 
-Please apply any failed requests during the incident.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
+                              <span>Mar  7, 12:21 UTC
+Resolved - Our Engineering team identified and resolved an issue that affected Spaces availability in the SFO2 region.
+From 11:38 UTC to 11:58 UTC, users may have encountered errors while accessing Spaces objects and creating new buckets in the SFO2 region.
+If you continue to experience problems, please open a ticket with our support team. Thank you for your patience and we apologize for any inconvenience.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;21
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -171,6 +248,72 @@ Please apply any failed requests during the incident.</span>
                 </section>
               </section>
             </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Slack System Status</button>
+                  <a class="source-heading__link" href="https://slack-status.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://slack-status.com/2024-03/1f506e0a906e75bb"
+                        open
+                      >
+                        <summary class="article-expander__title">Incident: Issues with legacy custom integration configuration pages</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-03/1f506e0a906e75bb">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>We’ve released a fix and all impacted pages are up and running once again. You may need to reload (Command/Ctrl + Shift + R) any affected pages in your web browser in order for this fix to be reflected on your end. We appreciate your patience while we sorted this out.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://slack-status.com/2024-03/b9c8573e14eec256"
+                        open
+                      >
+                        <summary class="article-expander__title">Incident: Huddles not working for some Windows users</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-03/b9c8573e14eec256">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>We’ve rolled out a fix and huddles are now working as expected. If you’re still encountering any trouble, please reload Slack using Command + Shift + R (Mac) or Ctrl + Shift + R (Windows/Linux). Thank you for your patience while we sorted out this issue.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-06 datetime="2024-03-06T19:09:05.000Z">2024-03-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-06 datetime="2024-03-06T19:09:05.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -259,58 +402,6 @@ From March 1, 2024 at 12:13 PM PST to March 4, 2024 at 7:06 PM PST, Enterprise G
 
 We made a code change that inadvertently introduced a logic error, resulting in the incorrect workspaces being listed in the invite modal. We reverted the code change, restoring normal invite functionality for all affected users.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Google Workspace Status Dashboard Updates</button>
-                  <a class="source-heading__link" href="https://www.google.com/appsstatus/dashboard/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt"
-                        open
-                      >
-                        <summary class="article-expander__title">RESOLVED: We&#x27;re investigating reports of an issue with Gmail. We will provide more information shortly.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Incident began at 2024-03-05 15:25 and ended at 2024-03-05 17:22 (times are in Coordinated Universal Time (UTC)).
-
-Mini Incident Report
-We apologize for the inconvenience this service disruption may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced an impact outside of what is listed below, please reach out to Google Workspace Support using the help article https://support.google.com/a/answer/1047213.
-(All Times US/Pacific)
-Incident Start: 05 March, 2024 07:25
-Incident End: 05 March, 2024 09:22
-Duration: 1 hour, 57 minutes
-Affected Services and Features:
-Gmail
-Regions/Zones: Global
-Description:
-Gmail experienced 0.23% UI error rates for 61 minutes, and 1 to 5 minute email delays for just under two hours.
-From preliminary analysis, the trigger of the issue was a sudden and unexpected increase in authentication traffic which was caused by user re-login attempts following device restarts. The device restarts were a result of users attempting to mitigate a third party application issue outside of Google’s infrastructure. This additional load led to elevated errors in our backend authentication service, which in turn impacted Gmail.
-Google engineers responded promptly to the increased error rates and mitigated the issue by adding compute resources to handle the additional load. By 08:26 AM US/Pacific, Gmail UI error rates were largely resolved, and the error rate returned to baseline by 08:51. Delivery delays continued until 09:22 at which point the impact to Gmail was completely mitigated.
-Customer Impact:
-Affected customers would have noticed an “oops” error message in the Gmail UI. Customers encountered these errors for various actions on Gmail, including login.
-Some customers would have experienced delays with email delivery ranging between one and five minutes.
-
-Affected products: Gmail</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1227,6 +1318,7 @@ We discovered this was caused by a missing check in the change workspace process
                         <summary class="article-expander__title">Incident: Users are not able to create workflows</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-02/b1389c8cd318a7d1">
                           <div class="article-summary-box-inner media-object">
+                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Issue summary:
 From 12:30 PM PST to 1:05 PM PST on February 26, 2024, users were unable to create workflows.
@@ -1234,6 +1326,8 @@ From 12:30 PM PST to 1:05 PM PST on February 26, 2024, users were unable to crea
 We determined that the related API method needed updating in order to eliminate inconsistencies that were causing elevated replication lag.
 
 We deployed an update to the API method correcting this issue, and all workflow creation will now work as expected.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -2781,32 +2875,6 @@ We apologize for the inconvenience and will share an update once we have more in
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/y2cm9wm1bvv7"
-                        open
-                      >
-                        <summary class="article-expander__title">Networking in NYC Regions</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/y2cm9wm1bvv7">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Feb  7, 07:21 UTC
-Resolved - Our Engineering team has confirmed the resolution of the issue impacting network latency in our NYC regions.
-The issues were a direct result of traffic congestion from our upstream providers, which has been repaired. Users should no longer experience packet loss or increased latency while interacting with their resources in the NYC regions.
-We sincerely apologize and thank you for your patience as we worked through this issue. In case of any questions or concerns, please open a ticket with our Support team.
-Feb  7, 04:03 UTC
-Investigating - Our Engineering team is investigating multiple reports of network latency when connecting to services in our NYC regions. During this time, users may experience intermittent packet loss or increased latency while interacting with their resources in the NYC regions.
-We apologize for the inconvenience and will share an update once we have more information.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -2850,113 +2918,10 @@ We are still actively monitoring, but are not expecting any ongoing issues at th
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-02-06 datetime="2024-02-06T22:21:17.000Z">2024-02-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-02-06 datetime="2024-02-06T22:21:17.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >DigitalOcean Status - Incident History</button>
-                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/1jwy0vy3hjfb"
-                        open
-                      >
-                        <summary class="article-expander__title">Core Infrastructure Maintenance</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/1jwy0vy3hjfb">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Feb  6, 22:21 UTC
-Completed - The scheduled maintenance has been completed.
-Feb  6, 17:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Feb  2, 20:23 UTC
-Scheduled - Start Time: 17:00 UTC Feb 6, 2024
-End Time: 00:00 UTC Feb 7, 2024
-During the above time, our Engineering Team will be performing maintenance to failover some internal databases from one cluster to another.
-Extensive testing has been conducted to ensure this maintenance will be successful and result in minimal impact to DigitalOcean users. The actual failover is estimated to take less than 3 seconds.
-Existing infrastructure, including Droplets and Droplet-based services, should continue running without issue. There is no network disruption to existing services expected as part of this maintenance. However, there are dependencies on multiple services. During the failover, there may be customer impacts that should be brief and transitory. The following actions may experience increased latency or failure rates during the maintenance period:
-- API calls to the DigitalOcean public API 
-- Events for Droplets and Droplet-based services such as create, delete, power on/off, resize, etc 
-- Control operations through the DigitalOcean Cloud Control Panel 
-Multiple teams will be engaged to keep downtime to a minimum and mitigate any impact that does occur. We’ll post updates here for any unexpected changes to this scheduled maintenance, as well as progress updates during the maintenance itself.
-If you have any questions or concerns, please reach out to the Support team from within your account.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Notion Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.notion.so">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.notion.so/incidents/2wtslqc6bv54"
-                        open
-                      >
-                        <summary class="article-expander__title">Database Automations failing</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.notion.so/incidents/2wtslqc6bv54">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Feb  6, 09:58 PST
-Resolved - This incident has been resolved.
-Feb  6, 09:16 PST
-Update - We are working hard to resolve the issue for you. Thank you for your continuous patience.
-Feb  6, 07:00 PST
-Update - We are still working on fixing the issue and appreciate your patience.
-Feb  6, 05:05 PST
-Identified - We are experiencing an issue with the Notion&#x27;s database automations service that cause automation actions to fail or experience delays. Our engineers have identified this &amp; are working on a fix.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/8180709160">
-        <time id="build-timestamp" datetime="2024-03-07T00:17:28.315Z">2024-03-07T00:17:28.315Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/8196689946">
+        <time id="build-timestamp" datetime="2024-03-08T00:21:43.480Z">2024-03-08T00:21:43.480Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

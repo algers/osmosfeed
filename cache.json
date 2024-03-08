@@ -81,11 +81,11 @@
         {
           "id": "https://airbnbapi.statuspage.io/incidents/hjdlmbqk7krr",
           "author": null,
-          "description": "Mar  6, 12:38 PST\nMonitoring - We've identified an increased number of 500 errors across multiple endpoints starting today 11:52 AM PST.This issue has been mitigated at 12:08 AM PST. \nPlease apply any failed requests during the incident.",
+          "description": "Mar  7, 14:40 PST\nResolved - This incident has been resolved as of March 6th, 2024, 12:08 AM PST. Error rates have returned to normal levels. Please retry any failed requests.\nWe apologize for the inconvenience caused and thank you for your patience and understanding.\nMar  6, 12:38 PST\nMonitoring - We've identified an increased number of 500 errors across multiple endpoints starting today 11:52 AM PST.This issue has been mitigated at 12:08 AM PST. \nPlease apply any failed requests during the incident.",
           "link": "https://airbnbapi.statuspage.io/incidents/hjdlmbqk7krr",
-          "publishedOn": "2024-03-06T20:38:42.000Z",
-          "wordCount": 3850,
-          "title": "500 errors across multiple endpoints",
+          "publishedOn": "2024-03-07T22:40:08.000Z",
+          "wordCount": 3892,
+          "title": "500 Errors Across Multiple Endpoints",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
@@ -151,6 +151,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/1755wn45yqyw",
+          "author": null,
+          "description": "Mar  7, 12:21 UTC\nResolved - Our Engineering team identified and resolved an issue that affected Spaces availability in the SFO2 region.\nFrom 11:38 UTC to 11:58 UTC, users may have encountered errors while accessing Spaces objects and creating new buckets in the SFO2 region.\nIf you continue to experience problems, please open a ticket with our support team. Thank you for your patience and we apologize for any inconvenience.",
+          "link": "https://status.digitalocean.com/incidents/1755wn45yqyw",
+          "publishedOn": "2024-03-07T12:21:18.000Z",
+          "wordCount": 6250,
+          "title": "Spaces Availability in SFO2",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/l9d26ggtbw8h",
           "author": null,
@@ -280,26 +290,6 @@
           "wordCount": 6430,
           "title": "Droplet Resize Events",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/y2cm9wm1bvv7",
-          "author": null,
-          "description": "Feb  7, 07:21 UTC\nResolved - Our Engineering team has confirmed the resolution of the issue impacting network latency in our NYC regions.\nThe issues were a direct result of traffic congestion from our upstream providers, which has been repaired. Users should no longer experience packet loss or increased latency while interacting with their resources in the NYC regions.\nWe sincerely apologize and thank you for your patience as we worked through this issue. In case of any questions or concerns, please open a ticket with our Support team.\nFeb  7, 04:03 UTC\nInvestigating - Our Engineering team is investigating multiple reports of network latency when connecting to services in our NYC regions. During this time, users may experience intermittent packet loss or increased latency while interacting with their resources in the NYC regions.\nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/y2cm9wm1bvv7",
-          "publishedOn": "2024-02-07T07:21:30.000Z",
-          "wordCount": 6332,
-          "title": "Networking in NYC Regions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/1jwy0vy3hjfb",
-          "author": null,
-          "description": "Feb  6, 22:21 UTC\nCompleted - The scheduled maintenance has been completed.\nFeb  6, 17:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nFeb  2, 20:23 UTC\nScheduled - Start Time: 17:00 UTC Feb 6, 2024\nEnd Time: 00:00 UTC Feb 7, 2024\nDuring the above time, our Engineering Team will be performing maintenance to failover some internal databases from one cluster to another.\nExtensive testing has been conducted to ensure this maintenance will be successful and result in minimal impact to DigitalOcean users. The actual failover is estimated to take less than 3 seconds.\nExisting infrastructure, including Droplets and Droplet-based services, should continue running without issue. There is no network disruption to existing services expected as part of this maintenance. However, there are dependencies on multiple services. During the failover, there may be customer impacts that should be brief and transitory. The following actions may experience increased latency or failure rates during the maintenance period:\n- API calls to the DigitalOcean public API \n- Events for Droplets and Droplet-based services such as create, delete, power on/off, resize, etc \n- Control operations through the DigitalOcean Cloud Control Panel \nMultiple teams will be engaged to keep downtime to a minimum and mitigate any impact that does occur. We’ll post updates here for any unexpected changes to this scheduled maintenance, as well as progress updates during the maintenance itself.\nIf you have any questions or concerns, please reach out to the Support team from within your account.",
-          "link": "https://status.digitalocean.com/incidents/1jwy0vy3hjfb",
-          "publishedOn": "2024-02-06T22:21:17.000Z",
-          "wordCount": 6438,
-          "title": "Core Infrastructure Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -337,16 +327,6 @@
           "wordCount": 3349,
           "title": "Notion app experienced a brief outage due to a deployment that didn't function as expected",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/2wtslqc6bv54",
-          "author": null,
-          "description": "Feb  6, 09:58 PST\nResolved - This incident has been resolved.\nFeb  6, 09:16 PST\nUpdate - We are working hard to resolve the issue for you. Thank you for your continuous patience.\nFeb  6, 07:00 PST\nUpdate - We are still working on fixing the issue and appreciate your patience.\nFeb  6, 05:05 PST\nIdentified - We are experiencing an issue with the Notion's database automations service that cause automation actions to fail or experience delays. Our engineers have identified this & are working on a fix.",
-          "link": "https://status.notion.so/incidents/2wtslqc6bv54",
-          "publishedOn": "2024-02-06T17:58:31.000Z",
-          "wordCount": 3395,
-          "title": "Database Automations failing",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -358,10 +338,10 @@
         {
           "id": "https://status.rippling.com/incidents/j0y55xs3d05q",
           "author": null,
-          "description": "Mar  6, 22:57 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nMar  6, 16:58 UTC\nUpdate - We are continuing to work on a fix for this issue. This affects users who have their accounts created prior to their start date.\nMar  6, 16:51 UTC\nIdentified - The issue has been identified and a fix is being implemented.",
+          "description": "Mar  7, 18:09 UTC\nResolved - This incident has been resolved.\nMar  6, 22:57 UTC\nMonitoring - A fix has been implemented and we are monitoring the results.\nMar  6, 16:58 UTC\nUpdate - We are continuing to work on a fix for this issue. This affects users who have their accounts created prior to their start date.\nMar  6, 16:51 UTC\nIdentified - The issue has been identified and a fix is being implemented.",
           "link": "https://status.rippling.com/incidents/j0y55xs3d05q",
-          "publishedOn": "2024-03-06T22:57:59.000Z",
-          "wordCount": 5321,
+          "publishedOn": "2024-03-07T18:09:18.000Z",
+          "wordCount": 5330,
           "title": "Delays creating accounts in third-party apps",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         },
@@ -395,21 +375,21 @@
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-03-06 10:50</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Admin Console is experiencing elevated errors with the Chrome setting pages.</p>\n<p><strong>Description:</strong></p>\n<p>Mitigation work is currently underway by our engineering team.</p>\n<p>The mitigation is expected to complete by Wednesday, 2024-03-06 16:15 US/Pacific.</p>\n<p>We will provide more information by Wednesday, 2024-03-06 16:45 US/Pacific.</p>\n<p><strong>Customer Symptoms:</strong></p>\n<p>The impacted customers would encounter a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers would not be able to view or change any policies.</p>\n<p><strong>Workaround:</strong></p>\n<p>None at this time.</p>\n</div><hr><p>Affected products: Admin Console</p>",
+          "description": "<p> Incident began at <strong>2024-03-06 22:32</strong> and ended at <strong>2024-03-07 00:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 6 March 2023 14:32</p>\n<p><strong>Incident End:</strong> 6 March 2023 16:29</p>\n<p><strong>Duration:</strong> 1 hours, 57 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<ul>\n<li>Admin Console Pages for Chrome user settings</li>\n<li>Chrome device settings</li>\n<li>Chrome devices</li>\n</ul>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>Google Workspace users attempting to work within the Admin Console encountered an HTTP 500 error when accessing user or device setting pages within the console. From preliminary analysis, the root cause of the issue is a change to the access control setting in a backend authentication service used by the Admin Console. This change resulted in users being unable to access the page.</p>\n<p>Our Engineering team was alerted by our internal monitoring systems and swiftly mitigated the issue by rolling back the change to the access control settings.</p>\n<p>This impacted users ability to view the current user and device policies, change or edit the existing policies and their ability to create new policies.</p>\n<p>Google will complete a full Incident Report (IR) in the following days that will provide a detailed root cause.</p>\n<p><strong>Customer Impact:</strong></p>\n<ul>\n<li>The impacted customers encountered a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console.</li>\n<li>Additionally, customers were unable to view or change any Chrome policies.</li>\n</ul>\n<hr>\n</div><hr><p>Affected products: Admin Console</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW",
-          "publishedOn": "2024-03-07T00:05:57.000Z",
-          "wordCount": 365,
-          "title": "UPDATE: **Summary:**\nAdmin Console is experiencing elevated errors with the Chrome setting pages.\n**Description:**\nMitigation work is currently underway by our engineering team.\nThe mitigation is expected to complete by Wednesday, 2024-03-06 16:15 US/Pacific.\nWe will provide more information by Wednesday, 2024-03-06 16:45 US/Pacific.\n**Customer Symptoms:**\nThe impacted customers would encounter a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers would not be able to view or change any policies.\n**Workaround:**\nNone at this time.",
+          "publishedOn": "2024-03-07T21:06:27.000Z",
+          "wordCount": 736,
+          "title": "RESOLVED: **Summary:**\nAdmin Console is experiencing elevated errors with the Chrome setting pages.\n**Description:**\nMitigation work is currently underway by our engineering team.\nThe mitigation is expected to complete by Wednesday, 2024-03-06 16:15 US/Pacific.\nWe will provide more information by Wednesday, 2024-03-06 16:45 US/Pacific.\n**Customer Symptoms:**\nThe impacted customers would encounter a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers would not be able to view or change any policies.\n**Workaround:**\nNone at this time.",
           "imageUrl": null
         },
         {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt",
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-03-05 15:25</strong> and ended at <strong>2024-03-05 17:22</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced an impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 05 March, 2024 07:25</p>\n<p><strong>Incident End:</strong> 05 March, 2024 09:22</p>\n<p><strong>Duration:</strong> 1 hour, 57 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Gmail</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>Gmail experienced 0.23% UI error rates for 61 minutes, and 1 to 5 minute email delays for just under two hours.</p>\n<p>From preliminary analysis, the trigger of the issue was a sudden and unexpected increase in authentication traffic which was caused by user re-login attempts following device restarts. The device restarts were a result of users attempting to mitigate a third party application issue outside of Google’s infrastructure. This additional load led to elevated errors in our backend authentication service, which in turn impacted Gmail.</p>\n<p>Google engineers responded promptly to the increased error rates and mitigated the issue by adding compute resources to handle the additional load. By 08:26 AM US/Pacific, Gmail UI error rates were largely resolved, and the error rate returned to baseline by 08:51. Delivery delays continued until 09:22 at which point the impact to Gmail was completely mitigated.</p>\n<p><strong>Customer Impact:</strong></p>\n<ul>\n<li>\n<p>Affected customers would have noticed an “oops” error message in the Gmail UI. Customers encountered these errors for various actions on Gmail, including login.</p>\n</li>\n<li>\n<p>Some customers would have experienced delays with email delivery ranging between one and five minutes.</p>\n</li>\n</ul>\n</div><hr><p>Affected products: Gmail</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt",
-          "publishedOn": "2024-03-06T00:19:48.000Z",
-          "wordCount": 613,
-          "title": "RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.",
+          "description": "<p> Incident began at <strong>2024-03-06 22:32</strong> and ended at <strong>2024-03-07 00:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Admin Console experienced elevated errors with the setting pages.</p>\n<p><strong>Description:</strong></p>\n<p>The issue with Admin Console has been resolved for all affected users as of Wednesday, 2024-03-06 16:29 US/Pacific.</p>\n<p>We thank you for your patience while we worked on resolving the issue.</p>\n<p><strong>Symptoms:</strong></p>\n<p>The impacted customers would have encountered a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers were unable to view or change any policies.</p>\n<p>Workaround:</p>\n<p>None at this time...</p>\n</div><hr><p>Affected products: Admin Console</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW",
+          "publishedOn": "2024-03-07T00:39:52.000Z",
+          "wordCount": 736,
+          "title": "RESOLVED: **Summary:**\nAdmin Console is experiencing elevated errors with the Chrome setting pages.\n**Description:**\nMitigation work is currently underway by our engineering team.\nThe mitigation is expected to complete by Wednesday, 2024-03-06 16:15 US/Pacific.\nWe will provide more information by Wednesday, 2024-03-06 16:45 US/Pacific.\n**Customer Symptoms:**\nThe impacted customers would encounter a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers would not be able to view or change any policies.\n**Workaround:**\nNone at this time.",
           "imageUrl": null
         }
       ]
@@ -517,6 +497,26 @@
       "siteUrl": "https://slack-status.com",
       "articles": [
         {
+          "id": "https://slack-status.com/2024-03/1f506e0a906e75bb",
+          "author": null,
+          "description": "We’ve released a fix and all impacted pages are up and running once again. You may need to reload (Command/Ctrl + Shift + R) any affected pages in your web browser in order for this fix to be reflected on your end. We appreciate your patience while we sorted this out.",
+          "link": "https://slack-status.com/2024-03/1f506e0a906e75bb",
+          "publishedOn": "2024-03-07T03:59:54.000Z",
+          "wordCount": 170,
+          "title": "Incident: Issues with legacy custom integration configuration pages",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://slack-status.com/2024-03/b9c8573e14eec256",
+          "author": null,
+          "description": "We’ve rolled out a fix and huddles are now working as expected. If you’re still encountering any trouble, please reload Slack using Command + Shift + R (Mac) or Ctrl + Shift + R (Windows/Linux). Thank you for your patience while we sorted out this issue.",
+          "link": "https://slack-status.com/2024-03/b9c8573e14eec256",
+          "publishedOn": "2024-03-07T02:41:36.000Z",
+          "wordCount": 149,
+          "title": "Incident: Huddles not working for some Windows users",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://slack-status.com/2024-03/a20334cecc6fff7c",
           "author": null,
           "description": "Issue summary:\r\nOn March 5, 2024 from 3:36 PM PST until 9:36 PM PST some customers were unable to visit the app detail page in App Directory, instead seeing a page displaying a \"Server Error\" message.\r\n\r\nWe traced the issue to a recent backend code change and reverted the change, which fixed this issue.",
@@ -592,9 +592,9 @@
           "description": "Issue summary:\r\nFrom 12:30 PM PST to 1:05 PM PST on February 26, 2024, users were unable to create workflows.\r\n\r\nWe determined that the related API method needed updating in order to eliminate inconsistencies that were causing elevated replication lag.\r\n\r\nWe deployed an update to the API method correcting this issue, and all workflow creation will now work as expected.",
           "link": "https://slack-status.com/2024-02/b1389c8cd318a7d1",
           "publishedOn": "2024-02-27T02:50:48.000Z",
-          "wordCount": 1,
+          "wordCount": 245,
           "title": "Incident: Users are not able to create workflows",
-          "imageUrl": null
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
           "id": "https://slack-status.com/2024-02/4c0af99013428a7a",
