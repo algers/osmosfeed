@@ -22,6 +22,83 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-08 datetime="2024-03-08T14:35:09.000Z">2024-03-08</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-08 datetime="2024-03-08T14:35:09.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Slack System Status</button>
+                  <a class="source-heading__link" href="https://slack-status.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://slack-status.com/2024-03/1f506e0a906e75bb"
+                        open
+                      >
+                        <summary class="article-expander__title">Incident: Issues with legacy custom integration configuration pages</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-03/1f506e0a906e75bb">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Issue summary:
+
+On March 6, 2024 from 7:45 PM PST to around 9:33 PM PST customers reported that they were receiving a 500 error when viewing the legacy Incoming Webhook custom integration page.
+
+We identified a backend code change that inadvertently changed data that the Incoming Webhook page needed to load which consequently caused the page to respond with an HTTP 500 error.
+
+We rolled back the change, correcting the issue and all customers should now be able to access the Incoming Webhook page as expected.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://slack-status.com/2024-03/b9c8573e14eec256"
+                        open
+                      >
+                        <summary class="article-expander__title">Incident: Huddles not working for some Windows users</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-03/b9c8573e14eec256">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Issue summary:
+On March 5, 2024 from 6:05 PM PST to March 6, 2024 8:17 AM PST customers on the Windows operating systems reported that Huddles were freezing when screen sharing.
+We determined that a recent change that was made to the video codec of Huddles, which may have been moving more of the video encoding to the computer&#x27;s Graphic Processing Unit. This would cause performance problems &amp; freezing during a screen share.
+After narrowing down the exact cause we rolled back the change which restored full functionality to Huddles screen sharing.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-03-07 datetime="2024-03-07T22:40:08.000Z">2024-03-07</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-03-07 datetime="2024-03-07T22:40:08.000Z"></time>
           </button>
@@ -127,46 +204,6 @@ Affected products: Admin Console</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW"
-                        open
-                      >
-                        <summary class="article-expander__title">RESOLVED: **Summary:**
-Admin Console is experiencing elevated errors with the Chrome setting pages.
-**Description:**
-Mitigation work is currently underway by our engineering team.
-The mitigation is expected to complete by Wednesday, 2024-03-06 16:15 US/Pacific.
-We will provide more information by Wednesday, 2024-03-06 16:45 US/Pacific.
-**Customer Symptoms:**
-The impacted customers would encounter a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers would not be able to view or change any policies.
-**Workaround:**
-None at this time.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Incident began at 2024-03-06 22:32 and ended at 2024-03-07 00:29 (times are in Coordinated Universal Time (UTC)).
-
-Summary:
-Admin Console experienced elevated errors with the setting pages.
-Description:
-The issue with Admin Console has been resolved for all affected users as of Wednesday, 2024-03-06 16:29 US/Pacific.
-We thank you for your patience while we worked on resolving the issue.
-Symptoms:
-The impacted customers would have encountered a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers were unable to view or change any policies.
-Workaround:
-None at this time...
-
-Affected products: Admin Console</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -240,58 +277,6 @@ From 11:38 UTC to 11:58 UTC, users may have encountered errors while accessing S
 If you continue to experience problems, please open a ticket with our support team. Thank you for your patience and we apologize for any inconvenience.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;21
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Slack System Status</button>
-                  <a class="source-heading__link" href="https://slack-status.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://slack-status.com/2024-03/1f506e0a906e75bb"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident: Issues with legacy custom integration configuration pages</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-03/1f506e0a906e75bb">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>We’ve released a fix and all impacted pages are up and running once again. You may need to reload (Command/Ctrl + Shift + R) any affected pages in your web browser in order for this fix to be reflected on your end. We appreciate your patience while we sorted this out.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://slack-status.com/2024-03/b9c8573e14eec256"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident: Huddles not working for some Windows users</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-03/b9c8573e14eec256">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>We’ve rolled out a fix and huddles are now working as expected. If you’re still encountering any trouble, please reload Slack using Command + Shift + R (Mac) or Ctrl + Shift + R (Windows/Linux). Thank you for your patience while we sorted out this issue.</span>
                             </span>
                           </div>
                         </a>
@@ -2777,151 +2762,12 @@ Shared hooks might currently be unresponsive. We are actively investigating the 
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Slack System Status</button>
-                  <a class="source-heading__link" href="https://slack-status.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://slack-status.com/2024-02/558e3bb8ce654659"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident: Some users may be having trouble connecting to Slack.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-02/558e3bb8ce654659">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Issue summary:
-On February 7, 2024 from around 9:23 AM PST to 9:51 AM PST, a small percentage of users may have experienced issues connecting to Slack or searching within Slack. 
-
-Our automated alerting systems detected an unusual spike in traffic to one of our servers. We carried out a thorough investigation, but the load subsided naturally as we worked, resolving the issue for all affected users.
-
-While we did not take any remedial action in this case, we continued our investigation to better understand the problem and potential mitigation strategies for similar issues in future.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-02-07 datetime="2024-02-07T20:54:58.000Z">2024-02-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-02-07 datetime="2024-02-07T20:54:58.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >DigitalOcean Status - Incident History</button>
-                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/w1sspyd728kg"
-                        open
-                      >
-                        <summary class="article-expander__title">Droplet Resize Events</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/w1sspyd728kg">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Feb  7, 20:54 UTC
-Resolved - As of 19:37 UTC, our Engineering team has confirmed the full resolution of the problem impacting the Droplet resize events in all regions. All the Droplet resize events should now be succeeding normally. 
-If you continue to experience problems, please open a ticket with our Support team. 
-Thank you for your patience and we apologize for the inconvenience.
-Feb  7, 19:41 UTC
-Monitoring - Our Engineering team has fully deployed the fix for the issue with Droplet resizes and is now monitoring the situation. Users can now retry Droplet resizes and should see them succeed.
-We&#x27;ll post another update once we confirm the fix resolves this incident.
-Feb  7, 15:49 UTC
-Identified - Our Engineering team has identified the root cause of the issue with failed Droplet resizes and a fix is in the process of being deployed. 
-Users attempting to resize Droplets where the image for the Droplet has been deleted or retired (e.g. a user created a Droplet from a Snapshot, but later deleted that Snapshot) will see failures. All other resizes are succeeding normally.
-We&#x27;ll post another update once the fix has completed deployment.
-Feb  7, 15:32 UTC
-Investigating - Our Engineering team is investigating an uptick in failed Droplet resizes, beginning Feb 6, 20:57 UTC. 
-During this time, some users may experience failures when attempting to resize Droplets, in all regions. 
-We apologize for the inconvenience and will share an update once we have more information.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Airbnb API Status - Incident History</button>
-                  <a class="source-heading__link" href="https://airbnbapi.statuspage.io">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://airbnbapi.statuspage.io/incidents/bs3vrsstwjvz"
-                        open
-                      >
-                        <summary class="article-expander__title">Issues with Async Request Processing</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://airbnbapi.statuspage.io/incidents/bs3vrsstwjvz">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Feb  7, 09:48 PST
-Resolved - This incident has been resolved.
-Feb  7, 08:55 PST
-Monitoring - Our Async Request Processing system had an issue this morning, which resulted in increased delays between the time a request was enqueued and when it was processed, and may have resulted in an elevated processing failure rate. This began around 8:10 AM PST, and was resolved by 9:15 AM PST.
-We are still actively monitoring, but are not expecting any ongoing issues at this time.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/8196689946">
-        <time id="build-timestamp" datetime="2024-03-08T00:21:43.480Z">2024-03-08T00:21:43.480Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/8210611987">
+        <time id="build-timestamp" datetime="2024-03-09T00:20:38.269Z">2024-03-09T00:20:38.269Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

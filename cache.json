@@ -127,16 +127,6 @@
           "wordCount": 3910,
           "title": "CreateMessage API - WRITE downtime",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/bs3vrsstwjvz",
-          "author": null,
-          "description": "Feb  7, 09:48 PST\nResolved - This incident has been resolved.\nFeb  7, 08:55 PST\nMonitoring - Our Async Request Processing system had an issue this morning, which resulted in increased delays between the time a request was enqueued and when it was processed, and may have resulted in an elevated processing failure rate. This began around 8:10 AM PST, and was resolved by 9:15 AM PST.\nWe are still actively monitoring, but are not expecting any ongoing issues at this time.",
-          "link": "https://airbnbapi.statuspage.io/incidents/bs3vrsstwjvz",
-          "publishedOn": "2024-02-07T17:48:58.000Z",
-          "wordCount": 3891,
-          "title": "Issues with Async Request Processing",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -280,16 +270,6 @@
           "wordCount": 6363,
           "title": "Managed Kubernetes in NYC3",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/w1sspyd728kg",
-          "author": null,
-          "description": "Feb  7, 20:54 UTC\nResolved - As of 19:37 UTC, our Engineering team has confirmed the full resolution of the problem impacting the Droplet resize events in all regions. All the Droplet resize events should now be succeeding normally. \nIf you continue to experience problems, please open a ticket with our Support team. \nThank you for your patience and we apologize for the inconvenience.\nFeb  7, 19:41 UTC\nMonitoring - Our Engineering team has fully deployed the fix for the issue with Droplet resizes and is now monitoring the situation. Users can now retry Droplet resizes and should see them succeed.\nWe'll post another update once we confirm the fix resolves this incident.\nFeb  7, 15:49 UTC\nIdentified - Our Engineering team has identified the root cause of the issue with failed Droplet resizes and a fix is in the process of being deployed. \nUsers attempting to resize Droplets where the image for the Droplet has been deleted or retired (e.g. a user created a Droplet from a Snapshot, but later deleted that Snapshot) will see failures. All other resizes are succeeding normally.\nWe'll post another update once the fix has completed deployment.\nFeb  7, 15:32 UTC\nInvestigating - Our Engineering team is investigating an uptick in failed Droplet resizes, beginning Feb 6, 20:57 UTC. \nDuring this time, some users may experience failures when attempting to resize Droplets, in all regions. \nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/w1sspyd728kg",
-          "publishedOn": "2024-02-07T20:54:58.000Z",
-          "wordCount": 6430,
-          "title": "Droplet Resize Events",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -378,16 +358,6 @@
           "description": "<p> Incident began at <strong>2024-03-06 22:32</strong> and ended at <strong>2024-03-07 00:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 6 March 2023 14:32</p>\n<p><strong>Incident End:</strong> 6 March 2023 16:29</p>\n<p><strong>Duration:</strong> 1 hours, 57 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<ul>\n<li>Admin Console Pages for Chrome user settings</li>\n<li>Chrome device settings</li>\n<li>Chrome devices</li>\n</ul>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>Google Workspace users attempting to work within the Admin Console encountered an HTTP 500 error when accessing user or device setting pages within the console. From preliminary analysis, the root cause of the issue is a change to the access control setting in a backend authentication service used by the Admin Console. This change resulted in users being unable to access the page.</p>\n<p>Our Engineering team was alerted by our internal monitoring systems and swiftly mitigated the issue by rolling back the change to the access control settings.</p>\n<p>This impacted users ability to view the current user and device policies, change or edit the existing policies and their ability to create new policies.</p>\n<p>Google will complete a full Incident Report (IR) in the following days that will provide a detailed root cause.</p>\n<p><strong>Customer Impact:</strong></p>\n<ul>\n<li>The impacted customers encountered a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console.</li>\n<li>Additionally, customers were unable to view or change any Chrome policies.</li>\n</ul>\n<hr>\n</div><hr><p>Affected products: Admin Console</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW",
           "publishedOn": "2024-03-07T21:06:27.000Z",
-          "wordCount": 736,
-          "title": "RESOLVED: **Summary:**\nAdmin Console is experiencing elevated errors with the Chrome setting pages.\n**Description:**\nMitigation work is currently underway by our engineering team.\nThe mitigation is expected to complete by Wednesday, 2024-03-06 16:15 US/Pacific.\nWe will provide more information by Wednesday, 2024-03-06 16:45 US/Pacific.\n**Customer Symptoms:**\nThe impacted customers would encounter a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers would not be able to view or change any policies.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-03-06 22:32</strong> and ended at <strong>2024-03-07 00:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Admin Console experienced elevated errors with the setting pages.</p>\n<p><strong>Description:</strong></p>\n<p>The issue with Admin Console has been resolved for all affected users as of Wednesday, 2024-03-06 16:29 US/Pacific.</p>\n<p>We thank you for your patience while we worked on resolving the issue.</p>\n<p><strong>Symptoms:</strong></p>\n<p>The impacted customers would have encountered a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers were unable to view or change any policies.</p>\n<p>Workaround:</p>\n<p>None at this time...</p>\n</div><hr><p>Affected products: Admin Console</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW",
-          "publishedOn": "2024-03-07T00:39:52.000Z",
           "wordCount": 736,
           "title": "RESOLVED: **Summary:**\nAdmin Console is experiencing elevated errors with the Chrome setting pages.\n**Description:**\nMitigation work is currently underway by our engineering team.\nThe mitigation is expected to complete by Wednesday, 2024-03-06 16:15 US/Pacific.\nWe will provide more information by Wednesday, 2024-03-06 16:45 US/Pacific.\n**Customer Symptoms:**\nThe impacted customers would encounter a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers would not be able to view or change any policies.\n**Workaround:**\nNone at this time.",
           "imageUrl": null
@@ -499,20 +469,20 @@
         {
           "id": "https://slack-status.com/2024-03/1f506e0a906e75bb",
           "author": null,
-          "description": "We’ve released a fix and all impacted pages are up and running once again. You may need to reload (Command/Ctrl + Shift + R) any affected pages in your web browser in order for this fix to be reflected on your end. We appreciate your patience while we sorted this out.",
+          "description": "Issue summary:\r\n\r\nOn March 6, 2024 from 7:45 PM PST to around 9:33 PM PST customers reported that they were receiving a 500 error when viewing the legacy Incoming Webhook custom integration page.\r\n\r\nWe identified a backend code change that inadvertently changed data that the Incoming Webhook page needed to load which consequently caused the page to respond with an HTTP 500 error.\r\n\r\nWe rolled back the change, correcting the issue and all customers should now be able to access the Incoming Webhook page as expected.",
           "link": "https://slack-status.com/2024-03/1f506e0a906e75bb",
-          "publishedOn": "2024-03-07T03:59:54.000Z",
-          "wordCount": 170,
+          "publishedOn": "2024-03-08T14:35:09.000Z",
+          "wordCount": 259,
           "title": "Incident: Issues with legacy custom integration configuration pages",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
           "id": "https://slack-status.com/2024-03/b9c8573e14eec256",
           "author": null,
-          "description": "We’ve rolled out a fix and huddles are now working as expected. If you’re still encountering any trouble, please reload Slack using Command + Shift + R (Mac) or Ctrl + Shift + R (Windows/Linux). Thank you for your patience while we sorted out this issue.",
+          "description": "Issue summary:\r\nOn March 5, 2024 from 6:05 PM PST to March 6, 2024 8:17 AM PST customers on the Windows operating systems reported that Huddles were freezing when screen sharing.\r\nWe determined that a recent change that was made to the video codec of Huddles, which may have been moving more of the video encoding to the computer's Graphic Processing Unit. This would cause performance problems & freezing during a screen share.\r\nAfter narrowing down the exact cause we rolled back the change which restored full functionality to Huddles screen sharing.",
           "link": "https://slack-status.com/2024-03/b9c8573e14eec256",
-          "publishedOn": "2024-03-07T02:41:36.000Z",
-          "wordCount": 149,
+          "publishedOn": "2024-03-08T10:54:49.000Z",
+          "wordCount": 244,
           "title": "Incident: Huddles not working for some Windows users",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
@@ -674,16 +644,6 @@
           "publishedOn": "2024-02-13T22:15:24.000Z",
           "wordCount": 227,
           "title": "Incident: Some users may be experiencing trouble with canvas.",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-02/558e3bb8ce654659",
-          "author": null,
-          "description": "Issue summary:\r\nOn February 7, 2024 from around 9:23 AM PST to 9:51 AM PST, a small percentage of users may have experienced issues connecting to Slack or searching within Slack. \r\n\r\nOur automated alerting systems detected an unusual spike in traffic to one of our servers. We carried out a thorough investigation, but the load subsided naturally as we worked, resolving the issue for all affected users.\r\n\r\nWhile we did not take any remedial action in this case, we continued our investigation to better understand the problem and potential mitigation strategies for similar issues in future.",
-          "link": "https://slack-status.com/2024-02/558e3bb8ce654659",
-          "publishedOn": "2024-02-08T02:06:20.000Z",
-          "wordCount": 300,
-          "title": "Incident: Some users may be having trouble connecting to Slack.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]

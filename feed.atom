@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-08T00:21:43.509Z</id>
+    <id>urn:2024-03-09T00:20:38.288Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-08T00:21:43.509Z</updated>
+    <updated>2024-03-09T00:20:38.288Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident: Issues with legacy custom integration configuration pages]]></title>
+        <id>https://slack-status.com/2024-03/1f506e0a906e75bb</id>
+        <link href="https://slack-status.com/2024-03/1f506e0a906e75bb"/>
+        <updated>2024-03-08T14:35:09.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+On March 6, 2024 from 7:45 PM PST to around 9:33 PM PST customers reported that they were receiving a 500 error when viewing the legacy Incoming Webhook custom integration page.
+
+We identified a backend code change that inadvertently changed data that the Incoming Webhook page needed to load which consequently caused the page to respond with an HTTP 500 error.
+
+We rolled back the change, correcting the issue and all customers should now be able to access the Incoming Webhook page as expected.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Huddles not working for some Windows users]]></title>
+        <id>https://slack-status.com/2024-03/b9c8573e14eec256</id>
+        <link href="https://slack-status.com/2024-03/b9c8573e14eec256"/>
+        <updated>2024-03-08T10:54:49.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+On March 5, 2024 from 6:05 PM PST to March 6, 2024 8:17 AM PST customers on the Windows operating systems reported that Huddles were freezing when screen sharing.
+We determined that a recent change that was made to the video codec of Huddles, which may have been moving more of the video encoding to the computer's Graphic Processing Unit. This would cause performance problems & freezing during a screen share.
+After narrowing down the exact cause we rolled back the change which restored full functionality to Huddles screen sharing.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[500 Errors Across Multiple Endpoints]]></title>
         <id>https://airbnbapi.statuspage.io/incidents/hjdlmbqk7krr</id>
@@ -91,54 +120,6 @@ From 11:38 UTC to 11:58 UTC, users may have encountered errors while accessing S
 If you continue to experience problems, please open a ticket with our support team. Thank you for your patience and we apologize for any inconvenience.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Issues with legacy custom integration configuration pages]]></title>
-        <id>https://slack-status.com/2024-03/1f506e0a906e75bb</id>
-        <link href="https://slack-status.com/2024-03/1f506e0a906e75bb"/>
-        <updated>2024-03-07T03:59:54.000Z</updated>
-        <summary type="html"><![CDATA[We’ve released a fix and all impacted pages are up and running once again. You may need to reload (Command/Ctrl + Shift + R) any affected pages in your web browser in order for this fix to be reflected on your end. We appreciate your patience while we sorted this out.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Huddles not working for some Windows users]]></title>
-        <id>https://slack-status.com/2024-03/b9c8573e14eec256</id>
-        <link href="https://slack-status.com/2024-03/b9c8573e14eec256"/>
-        <updated>2024-03-07T02:41:36.000Z</updated>
-        <summary type="html"><![CDATA[We’ve rolled out a fix and huddles are now working as expected. If you’re still encountering any trouble, please reload Slack using Command + Shift + R (Mac) or Ctrl + Shift + R (Windows/Linux). Thank you for your patience while we sorted out this issue.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: **Summary:**
-Admin Console is experiencing elevated errors with the Chrome setting pages.
-**Description:**
-Mitigation work is currently underway by our engineering team.
-The mitigation is expected to complete by Wednesday, 2024-03-06 16:15 US/Pacific.
-We will provide more information by Wednesday, 2024-03-06 16:45 US/Pacific.
-**Customer Symptoms:**
-The impacted customers would encounter a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers would not be able to view or change any policies.
-**Workaround:**
-None at this time.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW"/>
-        <updated>2024-03-07T00:39:52.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-03-06 22:32</strong> and ended at <strong>2024-03-07 00:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p><strong>Summary:</strong></p>
-<p>Admin Console experienced elevated errors with the setting pages.</p>
-<p><strong>Description:</strong></p>
-<p>The issue with Admin Console has been resolved for all affected users as of Wednesday, 2024-03-06 16:29 US/Pacific.</p>
-<p>We thank you for your patience while we worked on resolving the issue.</p>
-<p><strong>Symptoms:</strong></p>
-<p>The impacted customers would have encountered a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers were unable to view or change any policies.</p>
-<p>Workaround:</p>
-<p>None at this time...</p>
-</div><hr><p>Affected products: Admin Console</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
@@ -1182,59 +1163,6 @@ Investigating - We are currently experiencing issues with some of our services r
 Shared hooks might currently be unresponsive. We are actively investigating the issue.]]></summary>
         <author>
             <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users may be having trouble connecting to Slack.]]></title>
-        <id>https://slack-status.com/2024-02/558e3bb8ce654659</id>
-        <link href="https://slack-status.com/2024-02/558e3bb8ce654659"/>
-        <updated>2024-02-08T02:06:20.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-On February 7, 2024 from around 9:23 AM PST to 9:51 AM PST, a small percentage of users may have experienced issues connecting to Slack or searching within Slack. 
-
-Our automated alerting systems detected an unusual spike in traffic to one of our servers. We carried out a thorough investigation, but the load subsided naturally as we worked, resolving the issue for all affected users.
-
-While we did not take any remedial action in this case, we continued our investigation to better understand the problem and potential mitigation strategies for similar issues in future.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Droplet Resize Events]]></title>
-        <id>https://status.digitalocean.com/incidents/w1sspyd728kg</id>
-        <link href="https://status.digitalocean.com/incidents/w1sspyd728kg"/>
-        <updated>2024-02-07T20:54:58.000Z</updated>
-        <summary type="html"><![CDATA[Feb  7, 20:54 UTC
-Resolved - As of 19:37 UTC, our Engineering team has confirmed the full resolution of the problem impacting the Droplet resize events in all regions. All the Droplet resize events should now be succeeding normally. 
-If you continue to experience problems, please open a ticket with our Support team. 
-Thank you for your patience and we apologize for the inconvenience.
-Feb  7, 19:41 UTC
-Monitoring - Our Engineering team has fully deployed the fix for the issue with Droplet resizes and is now monitoring the situation. Users can now retry Droplet resizes and should see them succeed.
-We'll post another update once we confirm the fix resolves this incident.
-Feb  7, 15:49 UTC
-Identified - Our Engineering team has identified the root cause of the issue with failed Droplet resizes and a fix is in the process of being deployed. 
-Users attempting to resize Droplets where the image for the Droplet has been deleted or retired (e.g. a user created a Droplet from a Snapshot, but later deleted that Snapshot) will see failures. All other resizes are succeeding normally.
-We'll post another update once the fix has completed deployment.
-Feb  7, 15:32 UTC
-Investigating - Our Engineering team is investigating an uptick in failed Droplet resizes, beginning Feb 6, 20:57 UTC. 
-During this time, some users may experience failures when attempting to resize Droplets, in all regions. 
-We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues with Async Request Processing]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/bs3vrsstwjvz</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/bs3vrsstwjvz"/>
-        <updated>2024-02-07T17:48:58.000Z</updated>
-        <summary type="html"><![CDATA[Feb  7, 09:48 PST
-Resolved - This incident has been resolved.
-Feb  7, 08:55 PST
-Monitoring - Our Async Request Processing system had an issue this morning, which resulted in increased delays between the time a request was enqueued and when it was processed, and may have resulted in an elevated processing failure rate. This began around 8:10 AM PST, and was resolved by 9:15 AM PST.
-We are still actively monitoring, but are not expecting any ongoing issues at this time.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
         </author>
     </entry>
 </feed>
