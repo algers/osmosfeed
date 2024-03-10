@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-09T00:20:38.288Z</id>
+    <id>urn:2024-03-10T00:23:28.665Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-09T00:20:38.288Z</updated>
+    <updated>2024-03-10T00:23:28.665Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1106,63 +1106,6 @@ Enhanced visibility: Through HomeToGo's extensive network of brands.
 If you have any questions, please don't hesitate to contact channel.manager@hometogo.com]]></summary>
         <author>
             <name>Maud , Partnership Manager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Webhooks]]></title>
-        <id>https://www.githubstatus.com/incidents/my7r3l9lsqnk</id>
-        <link href="https://www.githubstatus.com/incidents/my7r3l9lsqnk"/>
-        <updated>2024-02-09T11:28:59.000Z</updated>
-        <summary type="html"><![CDATA[Feb  9, 11:28 UTC
-Resolved - On February 9, 2024 between 10:34 UTC and 11:24 UTC, the Webhooks service was degraded and 63% of webhooks were delayed by up to 16 minutes with an average delay of 5 minutes. No webhook deliveries were lost. This was due to an issue with an overloaded backend data store that was unable to process network requests fast enough.
-We mitigated the incident by manually failing over traffic to healthy hosts.
-We are expanding the capacity of the backing store as well as making the Webhooks service more resilient to this kind of issue. 
-
-Feb  9, 11:25 UTC
-Update - Webhooks is operating normally.
-Feb  9, 11:11 UTC
-Update - We are investigating latency in processing webhooks. Customers may see a delay of around 5 minutes at this time. We will continue to keep users updated on progress towards mitigation.
-Feb  9, 11:09 UTC
-Investigating - We are investigating reports of degraded performance for Webhooks]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Outage on eu2.make.com]]></title>
-        <id>https://status.make.com/incidents/ldktvddm239d</id>
-        <link href="https://status.make.com/incidents/ldktvddm239d"/>
-        <updated>2024-02-08T16:03:02.000Z</updated>
-        <summary type="html"><![CDATA[Feb  8, 17:03 CET
-Resolved - This incident has been resolved.
-Feb  8, 14:41 CET
-Update - We are continuing to monitor for any further issues.
-Feb  8, 14:39 CET
-Monitoring - We have identified and resolved the issue associated with the recent code change. Stability has been restored to eu2.make.com since 14:20 CET. We will continue to monitor the situation for the next several hours.
-Feb  8, 14:21 CET
-Investigating - We are currently experiencing issues with the eu2.make.com zone. Login to the webpage is unreachable, and scenario executions are affected. We are actively investigating the issue and will provide an update within the next 60 minutes.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unresponsive shared hooks]]></title>
-        <id>https://status.make.com/incidents/wtq70l2b2g74</id>
-        <link href="https://status.make.com/incidents/wtq70l2b2g74"/>
-        <updated>2024-02-08T12:52:07.000Z</updated>
-        <summary type="html"><![CDATA[Feb  8, 13:52 CET
-Resolved - This incident has been resolved.
-Feb  8, 10:04 CET
-Update - The fix has been successfully rolled out. Webhooks and mailhooks should now be fully functional for eu1.make.com. We will continue to monitor the situation for the next few hours.
-Feb  8, 09:33 CET
-Update - While monitoring the issue, we observed certain problems with mailhooks and webhooks. We have identified the issue and are working on rolling out the fix. The issue pertains only to eu1.make.com, the remaining zones are functional.
-Feb  8, 01:19 CET
-Monitoring - A fix has been implemented and we are monitoring the current behavior.
-Feb  8, 00:45 CET
-Investigating - We are currently experiencing issues with some of our services responsible for shared hooks on our clusters.
-Shared hooks might currently be unresponsive. We are actively investigating the issue.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
         </author>
     </entry>
 </feed>

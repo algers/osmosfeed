@@ -448,16 +448,6 @@
           "wordCount": 5486,
           "title": "Incident with Copilot",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/my7r3l9lsqnk",
-          "author": null,
-          "description": "Feb  9, 11:28 UTC\nResolved - On February 9, 2024 between 10:34 UTC and 11:24 UTC, the Webhooks service was degraded and 63% of webhooks were delayed by up to 16 minutes with an average delay of 5 minutes. No webhook deliveries were lost. This was due to an issue with an overloaded backend data store that was unable to process network requests fast enough.\nWe mitigated the incident by manually failing over traffic to healthy hosts.\nWe are expanding the capacity of the backing store as well as making the Webhooks service more resilient to this kind of issue. \n\nFeb  9, 11:25 UTC\nUpdate - Webhooks is operating normally.\nFeb  9, 11:11 UTC\nUpdate - We are investigating latency in processing webhooks. Customers may see a delay of around 5 minutes at this time. We will continue to keep users updated on progress towards mitigation.\nFeb  9, 11:09 UTC\nInvestigating - We are investigating reports of degraded performance for Webhooks",
-          "link": "https://www.githubstatus.com/incidents/my7r3l9lsqnk",
-          "publishedOn": "2024-02-09T11:28:59.000Z",
-          "wordCount": 5407,
-          "title": "Incident with Webhooks",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -681,26 +671,6 @@
           "publishedOn": "2024-02-26T07:00:56.000Z",
           "wordCount": 3902,
           "title": "Scheduled infrastructure maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/ldktvddm239d",
-          "author": null,
-          "description": "Feb  8, 17:03 CET\nResolved - This incident has been resolved.\nFeb  8, 14:41 CET\nUpdate - We are continuing to monitor for any further issues.\nFeb  8, 14:39 CET\nMonitoring - We have identified and resolved the issue associated with the recent code change. Stability has been restored to eu2.make.com since 14:20 CET. We will continue to monitor the situation for the next several hours.\nFeb  8, 14:21 CET\nInvestigating - We are currently experiencing issues with the eu2.make.com zone. Login to the webpage is unreachable, and scenario executions are affected. We are actively investigating the issue and will provide an update within the next 60 minutes.",
-          "link": "https://status.make.com/incidents/ldktvddm239d",
-          "publishedOn": "2024-02-08T16:03:02.000Z",
-          "wordCount": 3919,
-          "title": "Outage on eu2.make.com",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/wtq70l2b2g74",
-          "author": null,
-          "description": "Feb  8, 13:52 CET\nResolved - This incident has been resolved.\nFeb  8, 10:04 CET\nUpdate - The fix has been successfully rolled out. Webhooks and mailhooks should now be fully functional for eu1.make.com. We will continue to monitor the situation for the next few hours.\nFeb  8, 09:33 CET\nUpdate - While monitoring the issue, we observed certain problems with mailhooks and webhooks. We have identified the issue and are working on rolling out the fix. The issue pertains only to eu1.make.com, the remaining zones are functional.\nFeb  8, 01:19 CET\nMonitoring - A fix has been implemented and we are monitoring the current behavior.\nFeb  8, 00:45 CET\nInvestigating - We are currently experiencing issues with some of our services responsible for shared hooks on our clusters.\nShared hooks might currently be unresponsive. We are actively investigating the issue.",
-          "link": "https://status.make.com/incidents/wtq70l2b2g74",
-          "publishedOn": "2024-02-08T12:52:07.000Z",
-          "wordCount": 3954,
-          "title": "Unresponsive shared hooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
