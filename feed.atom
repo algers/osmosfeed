@@ -1,51 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-12T00:21:02.617Z</id>
+    <id>urn:2024-03-13T00:21:03.844Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-12T00:21:02.617Z</updated>
+    <updated>2024-03-13T00:21:03.844Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Incident with API Requests, Git Operations, Webhooks and Copilot]]></title>
-        <id>https://www.githubstatus.com/incidents/fr6fgvdn41sw</id>
-        <link href="https://www.githubstatus.com/incidents/fr6fgvdn41sw"/>
-        <updated>2024-03-12T00:14:35.000Z</updated>
-        <summary type="html"><![CDATA[Mar 12, 00:14 UTC
-Update - We're continuing to investigate issues with our authentication service, impacting multiple services
-Mar 11, 23:55 UTC
-Update - Webhooks is experiencing degraded performance. We are continuing to investigate.
-Mar 11, 23:31 UTC
-Update - Webhooks is operating normally.
-Mar 11, 23:21 UTC
-Update - Copilot is experiencing degraded performance. We are continuing to investigate.
-Mar 11, 23:20 UTC
-Update - Git Operations is experiencing degraded performance. We are continuing to investigate.
-Mar 11, 23:09 UTC
-Update - Webhooks is experiencing degraded performance. We are continuing to investigate.
-Mar 11, 23:01 UTC
-Investigating - We are investigating reports of degraded availability for API Requests, Git Operations and Webhooks]]></summary>
+        <title type="html"><![CDATA[Incident with Pull Requests]]></title>
+        <id>https://www.githubstatus.com/incidents/q3gl44chgxwv</id>
+        <link href="https://www.githubstatus.com/incidents/q3gl44chgxwv"/>
+        <updated>2024-03-13T00:12:10.000Z</updated>
+        <summary type="html"><![CDATA[Mar 13, 00:12 UTC
+Update - We're continuing to investigate an elevated number of pull requests that are out of sync on page load.
+Mar 12, 23:39 UTC
+Update - We're seeing an elevated number of pull requests that are out of sync on page load.
+Mar 12, 23:39 UTC
+Investigating - We are investigating reports of degraded performance for Pull Requests]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Issue with focus in workflows]]></title>
-        <id>https://slack-status.com/2024-03/c60bb5e0edd2cd89</id>
-        <link href="https://slack-status.com/2024-03/c60bb5e0edd2cd89"/>
-        <updated>2024-03-12T00:03:38.000Z</updated>
-        <summary type="html"><![CDATA[We are currently investigating an issue that is causing focus within workflow forms to erroneously jump back to the first field when entering text in any other field. We'll let you know as soon as we have another update, and we apologize for the hassle in the meantime.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Trouble loading multiple features in Slack]]></title>
         <id>https://slack-status.com/2024-03/811378903bd22810</id>
         <link href="https://slack-status.com/2024-03/811378903bd22810"/>
-        <updated>2024-03-11T22:04:41.000Z</updated>
-        <summary type="html"><![CDATA[The cause of the issue has been identified. We rolled back a recent change that resolved the issue for affected users. We appreciate your patience while we sorted this out and apologize for any interruption to your day.]]></summary>
+        <updated>2024-03-12T20:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+On March 11, 2024 from 2:43 PM PDT until 3:43 PM PDT some users in workspaces using International Data Residency (IDR) experienced issues with several Slack features, including messages loading or sending, channels appearing blank, canvases loading, huddles connecting, and trouble with some workflows were also noted.
+
+We identified a spike in error rates that was tied to a recent change to a backend service configuration logic. This change resulted in a cache discrepancy between services causing the errors. We rolled back the recent changes which immediately reduced error rates, resolving the issue for affected users. We are working on modifying the service handler in an effort to reduce the likelihood of this occurring in the future.]]></summary>
         <author>
             <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt"/>
+        <updated>2024-03-12T19:52:43.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-03-05 15:25</strong> and ended at <strong>2024-03-05 17:22</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Incident Report</h1>
+<h2>Summary</h2>
+<p>On Tuesday, 5 March 2024, starting at 07:25 US/Pacific, 0.23% of Gmail UI requests were failing for a duration of 61 minutes and 1.1% of email messages experienced up to five minute delays for a duration of 1 hour, 57 minutes.</p>
+<h2>Root Cause</h2>
+<p>This report includes a revised version of root cause for the service issue Gmail customers experienced on 5 March 2024.</p>
+<p>After further investigation, we identified that a sudden and unexpected surge of email traffic initiated the issue, rather than an increase in authentication traffic as shared in the previous report.</p>
+<p>Gmail frontend services HTTP, POP, or IMAP use an internal lookup service to route the requests to the specific backend instances that contain the user data. When this internal lookup service fails, users experience issues with Gmail UI interactions.</p>
+<p>The same internal lookup service is also consulted during email delivery. When the lookup requests fail during email delivery, the requests are retried with an exponential backoff and this would materialize as delayed emails from an end-user perspective.</p>
+<p>On 5 March 2024 at 07:25 US/Pacific, Gmail began experiencing a sudden and unexpected increase in real user traffic that coincided with a third-party service outage outside of Google’s infrastructure. At the time of the traffic increase, the internal lookup service in some geo locations was overloaded, which resulted in errors for a small fraction of Gmail UI requests and delayed email message delivery.</p>
+<h2>Remediation and Prevention</h2>
+<p>Google engineers were alerted to the increase in traffic via internal systems on 5 March 2024 at 07:32 US/Pacific and immediately started an investigation. Once the scope and nature of the issue was identified, at 08:11 US/Pacific, Google engineers redirected traffic away from the affected locations. This immediately stopped the Gmail UI errors, and prevented delivery delays for new messages.</p>
+<p>By 09:22 US/Pacific the backlog of emails in the delivery pipeline had cleared completely.</p>
+<p>If your service or application was affected, we apologize — this is not the level of quality and reliability we strive to offer you. Google is committed to preventing a repeat of this issue in the future and is completing the following actions:</p>
+<ul>
+<li>Enhance Gmail’s lookup server traffic surge protection layer to be able to better handle these kinds of traffic surges.</li>
+</ul>
+<h2>Detailed Description of Impact</h2>
+<p>On 5 March 2024, between 07:25 and 09:22 US/Pacific, Gmail experienced increased error rates and delivery delays. During this time:</p>
+<ul>
+<li>Approximately 0.23% of requests in the Gmail UI resulted in an error message. Affected customers encountered these errors for various actions on Gmail, including login.</li>
+<li>Approximately 1.1% of email messages experienced delivery delays ranging between one and five minutes.</li>
+</ul>
+<hr>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Issue with focus in workflows]]></title>
+        <id>https://slack-status.com/2024-03/c60bb5e0edd2cd89</id>
+        <link href="https://slack-status.com/2024-03/c60bb5e0edd2cd89"/>
+        <updated>2024-03-12T19:21:05.000Z</updated>
+        <summary type="html"><![CDATA[Issue Summary:
+On March 11, 2024 at 3:00 PDT to March 12, 2024 at 12:00 AM PDT, some users had trouble completing workflows that contained either text or drop-down fields due to a bug that caused the cursor to revert to the previous field in the workflow.
+
+Upon investigation, we discovered a recent code change that introduced this bug. We rolled back the change and pushed a fix to all users resolving the issue.
+
+Thank you again for bearing with us in the meantime.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Droplet connectivity and Event processing in multiple regions.]]></title>
+        <id>https://status.digitalocean.com/incidents/65lj1w0mxvmb</id>
+        <link href="https://status.digitalocean.com/incidents/65lj1w0mxvmb"/>
+        <updated>2024-03-12T11:43:59.000Z</updated>
+        <summary type="html"><![CDATA[Mar 12, 11:43 UTC
+Resolved - As of 10:09 UTC, our Engineering team has confirmed the full resolution of the issue impacting Droplet connectivity and Event processing in multiple regions.
+Users should no longer see issues with their Droplets and Droplet-related services.
+If you continue to experience problems, please open a ticket with our support team. Thank you for your patience throughout this incident.
+Mar 12, 10:07 UTC
+Monitoring - Our Engineering team has confirmed that the issue impacting Droplet connectivity in multiple regions has been mitigated.
+At this time, users should no longer see issues when connecting to their Droplet and Droplet-related services.
+We will further monitor this incident and will post an update as soon as the issue is fully resolved.
+Mar 12, 09:29 UTC
+Identifi…]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with API Requests, Git Operations, Webhooks and Copilot]]></title>
+        <id>https://www.githubstatus.com/incidents/fr6fgvdn41sw</id>
+        <link href="https://www.githubstatus.com/incidents/fr6fgvdn41sw"/>
+        <updated>2024-03-12T01:00:51.000Z</updated>
+        <summary type="html"><![CDATA[Mar 12, 01:00 UTC
+Resolved - On March 11, 2024 starting at 22:45 UTC and ending on March 12, 2024 00:48 UTC various GitHub services were degraded and returned intermittent errors for users. During this incident, the following customer impacts occurred: API error rates as high as 1%, Copilot error rates as high as 17%, and Secret Scanning and 2FA using GitHub Mobile error rates as high as 100% followed by a drop in error rates to 30% starting at 22:55 UTC. This elevated error rate was due to a degradation of our centralized authentication service upon which many other services depend.
+The issue was caused by a deployment of network related configuration that was inadvertently applied to the incorrect environment. This error was detected within 4 minutes and a rollback was initiated. While e…]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -122,49 +186,6 @@ Monitoring - We've identified an increased number of 500 errors across multiple 
 Please apply any failed requests during the incident.]]></summary>
         <author>
             <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: **Summary:**
-Admin Console is experiencing elevated errors with the Chrome setting pages.
-**Description:**
-Mitigation work is currently underway by our engineering team.
-The mitigation is expected to complete by Wednesday, 2024-03-06 16:15 US/Pacific.
-We will provide more information by Wednesday, 2024-03-06 16:45 US/Pacific.
-**Customer Symptoms:**
-The impacted customers would encounter a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers would not be able to view or change any policies.
-**Workaround:**
-None at this time.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW"/>
-        <updated>2024-03-07T21:06:27.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-03-06 22:32</strong> and ended at <strong>2024-03-07 00:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Mini Incident Report</h1>
-<p>We apologize for the inconvenience this service outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
-<p>(All Times US/Pacific)</p>
-<p><strong>Incident Start:</strong> 6 March 2023 14:32</p>
-<p><strong>Incident End:</strong> 6 March 2023 16:29</p>
-<p><strong>Duration:</strong> 1 hours, 57 minutes</p>
-<p><strong>Affected Services and Features:</strong></p>
-<ul>
-<li>Admin Console Pages for Chrome user settings</li>
-<li>Chrome device settings</li>
-<li>Chrome devices</li>
-</ul>
-<p><strong>Regions/Zones:</strong> Global</p>
-<p><strong>Description:</strong></p>
-<p>Google Workspace users attempting to work within the Admin Console encountered an HTTP 500 error when accessing user or device setting pages within the console. From preliminary analysis, the root cause of the issue is a change to the access control setting in a backend authentication service used by the Admin Console. This change resulted in users being unable to access the page.</p>
-<p>Our Engineering team was alerted by our internal monitoring systems and swiftly mitigated the issue by rolling back the change to the access control settings.</p>
-<p>This impacted users ability to view the current user and device policies, change or edit the existing policies and their ability to create new policies.</p>
-<p>Google will complete a full Incident Report (IR) in the following days that will provide a detailed root cause.</p>
-<p><strong>Customer Impact:</strong></p>
-<ul>
-<li>The impacted customers encountered a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console.</li>
-<li>Additionally, customers were unable to view or change any Chrome policies.</li>
-</ul>
-<hr>
-</div><hr><p>Affected products: Admin Console</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
@@ -355,7 +376,10 @@ Investigating - Our Help and API documentation websites are currently unreachabl
         <link href="https://www.githubstatus.com/incidents/7x5z8plb48t6"/>
         <updated>2024-03-01T17:42:41.000Z</updated>
         <summary type="html"><![CDATA[Mar  1, 17:42 UTC
-Resolved - This incident has been resolved.
+Resolved - On March 1, 2024, between 17:00 UTC and 17:42 UTC, we saw elevated failure rates (from 1 to 10%) for Copilot, Actions, Pages, and Git for various APIs.
+This incident was triggered by a newly-discovered failure mode of a deployment pipeline to one of our compute clusters when it could not write a specific configuration file. This caused a drop in the amount of resources available in this cluster, which was mitigated by a redeployment.
+We have addressed the specific scenario to ensure resources are properly written and retrieved and added safeguards to ensure the deployment does not proceed if there is an issue of this type.  We are also reviewing our systems to more effectively route traffic toward healthy clusters during an outage and adding more safeguards on cluster resource adjustments.
+
 Mar  1, 17:42 UTC
 Update - Git Operations is operating normally.
 Mar  1, 17:41 UTC
@@ -1146,41 +1170,6 @@ Feb 12, 11:38 UTC
 Investigating - We are investigating reports of degraded performance for Copilot]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You can now publish your listings on HomeToGo! 🎉]]></title>
-        <id>285614</id>
-        <link href="https://changelog.bookingsync.com/you-can-now-publish-your-listings-on-hometogo!-285614"/>
-        <updated>2024-02-12T11:32:13.000Z</updated>
-        <summary type="html"><![CDATA[New!
-  
-
-
-We are excited to announce our new partnership with a popular booking platform among travelers: HomeToGo!
-  
-
-💡What is HomeToGo?
-HomeToGo is a German group founded in 2014 that has become a leader in the vacation rental industry. 
-Thanks to its exponential growth, HomeToGo is now an essential booking platform for property managers worldwide. 🌍
-
-
-
-💡 Why pushing your listings on HomeToGo?
-
-Quality bookings: 7 days of average Length of Stay and a superior average transaction value.
-Access to a broad audience: Particularly from the Germany-Switzerland-Austria region, along with other Northern European countries, guests with high purchasing power.
-Flexibility: Hosts can apply their own cancellation policies and terms and conditions.
-Direct communication channels with guests: Both during and post-stay.
-Enhanced visibility: Through HomeToGo's extensive network of brands.
- 
-👉 Install the HomeToGo app here
- 
-💌 Learn more on how to connect your properties in our dedicated manual page.
-  
-If you have any questions, please don't hesitate to contact channel.manager@hometogo.com]]></summary>
-        <author>
-            <name>Maud , Partnership Manager</name>
         </author>
     </entry>
 </feed>
