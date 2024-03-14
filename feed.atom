@@ -1,16 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-13T00:21:03.844Z</id>
+    <id>urn:2024-03-14T00:20:52.452Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-13T00:21:03.844Z</updated>
+    <updated>2024-03-14T00:20:52.452Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident: Reports of slowness and connectivity issues in Slack]]></title>
+        <id>https://slack-status.com/2024-03/070ad43095b540ab</id>
+        <link href="https://slack-status.com/2024-03/070ad43095b540ab"/>
+        <updated>2024-03-13T23:03:43.000Z</updated>
+        <summary type="html"><![CDATA[Upon investigation we've determined these connectivity problems are isolated to one Enterprise Grid Org. 
+
+We'll closely monitor reports and provide further updates through customer support tickets with the impacted users. We will not be sharing further details on this through our Status Site, so please reach out to our team at feedback@slack.com if you need further assistance.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: **Summary:**
+Admin Console is experiencing elevated errors with the Chrome setting pages.
+**Description:**
+Mitigation work is currently underway by our engineering team.
+The mitigation is expected to complete by Wednesday, 2024-03-06 16:15 US/Pacific.
+We will provide more information by Wednesday, 2024-03-06 16:45 US/Pacific.
+**Customer Symptoms:**
+The impacted customers would encounter a HTTP 500 error while accessing user or device setting pages within Chrome Admin Console. Additionally, customers would not be able to view or change any policies.
+**Workaround:**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/Nr8avWyykjurdUqXYSDW"/>
+        <updated>2024-03-13T21:26:43.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-03-06 22:32</strong> and ended at <strong>2024-03-06 23:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Incident Report</h1>
+<h2>Summary</h2>
+<p>On Wednesday, 06 March 2024, Google Workspace users experienced elevated errors while accessing user or device setting pages within the Chrome Admin Console for a duration of 1 hour, 27 minutes.</p>
+<p>To our Google Workspace customers who were impacted during this disruption, we sincerely apologize. This is not the level of quality and reliability we strive to offer you, and we are taking immediate steps to improve the platform’s performance and availability.</p>
+<h2>Root Cause</h2>
+<p>Google Workspace Admin Console uses a backend authentication service to grant privileged access to internal accounts. As part of ongoing efforts to migrate the account authorization workflow to a new backend authentication service, Google engineers identified and cleaned up invalid account role assignments in the configuration.</p>
+<p>During this clean up effort, engineers identified a privilege which was undefined in the application manifest and removed it from the configuration. Upon further investigation, engineering confirmed the privilege was mapped to an access control setting used by the Admin Console for Chrome. This change resulted in users being unable to access Chrome user and device settings page.</p>
+<h2>Remediation and Prevention</h2>
+<p>Google engineers were alerted to the outage via an internal monitoring alert on Wednesday, 06 March 2024 at 15:04 US/Pacific and immediately started an investigation. Once the nature and scope of the issue became clear, Google engineers initiated a rollback of the configuration change at 15:36 and the incident was fully resolved at 15:59 once the rollback completed.</p>
+<p>Google is committed to preventing a repeat of this issue in the future and is completing the following actions:</p>
+<ul>
+<li>Improve procedural documentation on how to safely cleanup access control settings from authorization configuration.</li>
+<li>Complete thorough investigation of privilege usage for the Admin Console to prevent further issues of this type.</li>
+<li>Identify and register a new owner for this privilege in the application manifest and create permission mapping for faster verification in the future.</li>
+</ul>
+<p>Google is committed to quickly and continually improving our technology and operations to prevent service disruptions. We appreciate your patience and apologize again for the impact to your organization. We thank you for your business.</p>
+<h2>Detailed Description of Impact</h2>
+<p>On Wednesday, 06 March 2024 from 14:32 to 15:59 US/Pacific, Google Workspace users attempting to work within the Admin Console encountered an HTTP 500 error when accessing user or device setting pages within the console.</p>
+<hr>
+</div><hr><p>Affected products: Admin Console</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident with Pull Requests]]></title>
         <id>https://www.githubstatus.com/incidents/q3gl44chgxwv</id>
         <link href="https://www.githubstatus.com/incidents/q3gl44chgxwv"/>
-        <updated>2024-03-13T00:12:10.000Z</updated>
-        <summary type="html"><![CDATA[Mar 13, 00:12 UTC
+        <updated>2024-03-13T01:58:49.000Z</updated>
+        <summary type="html"><![CDATA[Mar 13, 01:58 UTC
+Resolved - From March 12, 2024 23:39 UTC to March 13, 2024 1:58 UTC, some Pull Requests updates were delayed and did not reflect the latest code that had been pushed. On average, 20% of Pull Requests page loads were out of sync and up to 30% of Pull Requests were impacted at peak. An internal component of our job queueing system was incorrectly handling invalid messages, resulting in stalled processing.
+We mitigated the incident by shipping a fix to handle the edge case gracefully and allow processing to continue.
+Once the fix was deployed at 1:47 UTC, our systems fully caught up with pending background jobs at 1:58 UTC.
+We’re working to improve resiliency to invalid messages in our system to prevent future delays for these pull request updates. We are also reviewing our monitoring and observability to identify and remediate these types of failure cases faster.
+
+Mar 13, 01:58 UTC
+Update - Pull Requests is operating normally.
+Mar 13, 01:53 UTC
+Update - We believe we've found a mitigation and are currently monitoring systems for recovery.
+Mar 13, 01:18 UTC
+Update - We're continuing to investigate delays in PR updates. Next update in 30 minutes.
+Mar 13, 00:47 UTC
+Update - We're continuing to investigate an elevated number of pull requests that are out of sync on page load.
+Mar 13, 00:12 UTC
 Update - We're continuing to investigate an elevated number of pull requests that are out of sync on page load.
 Mar 12, 23:39 UTC
 Update - We're seeing an elevated number of pull requests that are out of sync on page load.
@@ -31,39 +95,6 @@ On March 11, 2024 from 2:43 PM PDT until 3:43 PM PDT some users in workspaces us
 We identified a spike in error rates that was tied to a recent change to a backend service configuration logic. This change resulted in a cache discrepancy between services causing the errors. We rolled back the recent changes which immediately reduced error rates, resolving the issue for affected users. We are working on modifying the service handler in an effort to reduce the likelihood of this occurring in the future.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/shD5VvSGTxETw1YLbsCt"/>
-        <updated>2024-03-12T19:52:43.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-03-05 15:25</strong> and ended at <strong>2024-03-05 17:22</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Incident Report</h1>
-<h2>Summary</h2>
-<p>On Tuesday, 5 March 2024, starting at 07:25 US/Pacific, 0.23% of Gmail UI requests were failing for a duration of 61 minutes and 1.1% of email messages experienced up to five minute delays for a duration of 1 hour, 57 minutes.</p>
-<h2>Root Cause</h2>
-<p>This report includes a revised version of root cause for the service issue Gmail customers experienced on 5 March 2024.</p>
-<p>After further investigation, we identified that a sudden and unexpected surge of email traffic initiated the issue, rather than an increase in authentication traffic as shared in the previous report.</p>
-<p>Gmail frontend services HTTP, POP, or IMAP use an internal lookup service to route the requests to the specific backend instances that contain the user data. When this internal lookup service fails, users experience issues with Gmail UI interactions.</p>
-<p>The same internal lookup service is also consulted during email delivery. When the lookup requests fail during email delivery, the requests are retried with an exponential backoff and this would materialize as delayed emails from an end-user perspective.</p>
-<p>On 5 March 2024 at 07:25 US/Pacific, Gmail began experiencing a sudden and unexpected increase in real user traffic that coincided with a third-party service outage outside of Google’s infrastructure. At the time of the traffic increase, the internal lookup service in some geo locations was overloaded, which resulted in errors for a small fraction of Gmail UI requests and delayed email message delivery.</p>
-<h2>Remediation and Prevention</h2>
-<p>Google engineers were alerted to the increase in traffic via internal systems on 5 March 2024 at 07:32 US/Pacific and immediately started an investigation. Once the scope and nature of the issue was identified, at 08:11 US/Pacific, Google engineers redirected traffic away from the affected locations. This immediately stopped the Gmail UI errors, and prevented delivery delays for new messages.</p>
-<p>By 09:22 US/Pacific the backlog of emails in the delivery pipeline had cleared completely.</p>
-<p>If your service or application was affected, we apologize — this is not the level of quality and reliability we strive to offer you. Google is committed to preventing a repeat of this issue in the future and is completing the following actions:</p>
-<ul>
-<li>Enhance Gmail’s lookup server traffic surge protection layer to be able to better handle these kinds of traffic surges.</li>
-</ul>
-<h2>Detailed Description of Impact</h2>
-<p>On 5 March 2024, between 07:25 and 09:22 US/Pacific, Gmail experienced increased error rates and delivery delays. During this time:</p>
-<ul>
-<li>Approximately 0.23% of requests in the Gmail UI resulted in an error message. Affected customers encountered these errors for various actions on Gmail, including login.</li>
-<li>Approximately 1.1% of email messages experienced delivery delays ranging between one and five minutes.</li>
-</ul>
-<hr>
-</div><hr><p>Affected products: Gmail</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
@@ -118,7 +149,10 @@ The issue was caused by a deployment of network related configuration that was i
         <link href="https://www.githubstatus.com/incidents/bgnqgwyj76l4"/>
         <updated>2024-03-11T19:22:16.000Z</updated>
         <summary type="html"><![CDATA[Mar 11, 19:22 UTC
-Resolved - This incident has been resolved.
+Resolved - On March 11, 2024 between at 18:44 UTC and 19:10 UTC, GitHub Actions performance was degraded and some users experienced errors when trying to queue workflows. Approximately 3.7% of runs queued during this time were unable to start.
+The issue was partially caused by a deployment of an internal system Actions relies on to process workflow run events. The pausing of the queue processing during this deployment for about 3 minutes caused a spike in queued workflow runs. When this queue began to be processed, the high number of queued workflows overwhelmed a secret-initialization component of the workflow invocation system. The errors generated by this overwhelmed system ultimately delayed workflow invocation. Through our alerting system, we received initial indications of an issue at approximately 18:44 UTC. However, we did not initially see impact on our run start delays and run queuing availability metrics until approximately 18:52 UTC. As the large queue of workflow run events burned down, we saw recovery in our key customer impact measures by 19:11 UTC, but waited to declare the incident resolved at 19:22 UTC while verifying there was no further customer impact.
+We are working on various measures to reduce spikes in queue build up during deployments of our queueing system, and have scaled up the workers which handle secret generation and storage during the workflow invocation process.
+
 Mar 11, 19:21 UTC
 Update - Actions experienced a period of decreased workflow run throughput, and we are seeing recovery now.  We are in the process of investigating the cause.
 Mar 11, 19:02 UTC
@@ -1125,51 +1159,6 @@ On February 12, 2024 from 6:00 AM PST to 8:32 AM PST, some users experienced lat
 Upon investigation we determined that this was caused by rate limits put in place by an upstream provider. We restarted the impacted endpoints to mitigate the issue immediately, which resolved the issue for all affected users. We're continuing to partner with our upstream provider to reduce the likelihood of this occurring in the future.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notion app experienced a brief outage due to a deployment that didn't function as expected]]></title>
-        <id>https://status.notion.so/incidents/2b5f3nmpht76</id>
-        <link href="https://status.notion.so/incidents/2b5f3nmpht76"/>
-        <updated>2024-02-12T23:34:06.000Z</updated>
-        <summary type="html"><![CDATA[Feb 12, 15:34 PST
-Resolved - This incident has been resolved.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Copilot]]></title>
-        <id>https://www.githubstatus.com/incidents/k0qjh7s64fxk</id>
-        <link href="https://www.githubstatus.com/incidents/k0qjh7s64fxk"/>
-        <updated>2024-02-12T18:14:07.000Z</updated>
-        <summary type="html"><![CDATA[Feb 12, 18:14 UTC
-Resolved - On Monday February 12th, 2024, 03:00 UTC we deployed a code change to a component of Copilot. At 06:00 UTC we observed an increase in timeouts for code completions impacting 55% of Copilot users at peak across Asia and Europe.
-At 12:00 UTC we restarted the nodes, and response durations returned to normal operation until 13:00 UTC when response durations degraded again. At 16:15 UTC we made a configuration change to send traffic to regions that were not exhibiting the errors, which resulted in code completions working fully although completing at a higher latency than normal for some users. At 18:00 UTC we reverted the deploy and response durations returned to normal. 
-We have added better monitoring to components that failed to decrease resolution times to inci…]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Copilot]]></title>
-        <id>https://www.githubstatus.com/incidents/vv6z7v5w80yr</id>
-        <link href="https://www.githubstatus.com/incidents/vv6z7v5w80yr"/>
-        <updated>2024-02-12T12:39:20.000Z</updated>
-        <summary type="html"><![CDATA[Feb 12, 12:39 UTC
-Resolved - On Monday February 12th, 2024, 03:00 UTC we deployed a code change to a component of Copilot. At 06:00 UTC we observed an increase in timeouts for code completions impacting 55% of Copilot users at peak across Asia and Europe.
-At 12:00 UTC we restarted the nodes, and response durations returned to normal operation until 13:00 UTC when response durations degraded again. At 16:15 UTC we made a configuration change to send traffic to regions that were not exhibiting the errors, which resulted in code completions working fully although completing at a higher latency than normal for some users. At 18:00 UTC we reverted the deploy and response durations returned to normal. 
-We have added better monitoring to components that failed to decrease resolution times to incidents like this in the future.
-Feb 12, 12:29 UTC
-Update - We are starting to see recovery based on the signals that the team have been monitoring, following mitigation steps being taken. When confident that recovery is complete, we will resolve this incident.
-Feb 12, 12:00 UTC
-Update - We are continuing to investigate increased failure rates for Copilot code completion for some users in Europe.
-Feb 12, 11:38 UTC
-Update - We are investigating reports that GitHub Copilot code completions are not working for some users in Europe.
-Feb 12, 11:38 UTC
-Investigating - We are investigating reports of degraded performance for Copilot]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
