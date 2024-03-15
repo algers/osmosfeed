@@ -392,10 +392,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/7f4bllnv3h1n",
           "author": null,
-          "description": "Mar 11, 10:20 UTC\nResolved - This incident has been resolved.\nMar 11, 10:02 UTC\nUpdate - We are deploying mitigations for the failures we have been observing in some chat requests for Copilot. We will continue to monitor and update.\nMar 11, 09:03 UTC\nUpdate - We are seeing an elevated failure rate for chat requests for Copilot. We are investigating and will continue to keep users updated on progress towards mitigation.\nMar 11, 08:14 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot",
+          "description": "Mar 11, 10:20 UTC\nResolved - On March 11, 2024, between 06:30 UTC and 11:45 UTC the Copilot Chat service was degraded and customers may have encountered errors or timed out requests for chat interactions. On average, the error rate was 10% and peaked at 45% of requests to the service for short periods of time.\nThis was due to a gap in handling an edge case for messages returned from the underlying language models. We mitigated the incident by applying a fix to the handling of the streaming response.\nWe are working to update monitoring to reduce time to detection and increase resiliency to message format changes.\nMar 11, 10:02 UTC\nUpdate - We are deploying mitigations for the failures we have been observing in some chat requests for Copilot. We will continue to monitor and update.\nMar 11, 09:03 UTC\nUpdate - We are seeing an elevated failure rate for chat requests for Copilot. We are investigating and will continue to keep users updated on progress towards mitigation.\nMar 11, 08:14 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot",
           "link": "https://www.githubstatus.com/incidents/7f4bllnv3h1n",
           "publishedOn": "2024-03-11T10:20:15.000Z",
-          "wordCount": 5336,
+          "wordCount": 5431,
           "title": "Incident with Copilot",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -466,6 +466,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://slack-status.com",
       "articles": [
+        {
+          "id": "https://slack-status.com/2024-03/e954ecf8fbab9711",
+          "author": null,
+          "description": "Issue summary: \r\nOn March 13, 2024 from 5:02 PM PDT until 9:48 PM PDT some users may have encountered \"Something's gone awry\" or \"Slack isn't loading\" errors when attempting to access their certain app configuration pages. \r\n\r\nWe determined that a recent code change caused this issue. We reverted the code change and the issue was resolved.",
+          "link": "https://slack-status.com/2024-03/e954ecf8fbab9711",
+          "publishedOn": "2024-03-14T11:01:37.000Z",
+          "wordCount": 245,
+          "title": "Incident: User are receiving errors when attempting to access certain app configuration pages.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://slack-status.com/2024-03/070ad43095b540ab",
           "author": null,
@@ -664,16 +674,6 @@
           "publishedOn": "2024-02-15T14:40:11.000Z",
           "wordCount": 453,
           "title": "Incident: Profile photos aren't displaying properly",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-02/804d3a52e234f2fa",
-          "author": null,
-          "description": "Issue summary:\r\nOn February 12, 2024 from 6:00 AM PST to 8:32 AM PST, some users experienced latency when loading canvases or errors related to editing and saving canvases.\r\n\r\nUpon investigation we determined that this was caused by rate limits put in place by an upstream provider. We restarted the impacted endpoints to mitigate the issue immediately, which resolved the issue for all affected users. We're continuing to partner with our upstream provider to reduce the likelihood of this occurring in the future.",
-          "link": "https://slack-status.com/2024-02/804d3a52e234f2fa",
-          "publishedOn": "2024-02-13T22:15:24.000Z",
-          "wordCount": 227,
-          "title": "Incident: Some users may be experiencing trouble with canvas.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]

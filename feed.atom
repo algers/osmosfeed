@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-14T00:20:52.452Z</id>
+    <id>urn:2024-03-15T00:21:04.455Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-14T00:20:52.452Z</updated>
+    <updated>2024-03-15T00:21:04.455Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident: User are receiving errors when attempting to access certain app configuration pages.]]></title>
+        <id>https://slack-status.com/2024-03/e954ecf8fbab9711</id>
+        <link href="https://slack-status.com/2024-03/e954ecf8fbab9711"/>
+        <updated>2024-03-14T11:01:37.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary: 
+On March 13, 2024 from 5:02 PM PDT until 9:48 PM PDT some users may have encountered "Something's gone awry" or "Slack isn't loading" errors when attempting to access their certain app configuration pages. 
+
+We determined that a recent code change caused this issue. We reverted the code change and the issue was resolved.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Reports of slowness and connectivity issues in Slack]]></title>
         <id>https://slack-status.com/2024-03/070ad43095b540ab</id>
@@ -167,7 +180,9 @@ Investigating - We are investigating reports of degraded performance for Actions
         <link href="https://www.githubstatus.com/incidents/7f4bllnv3h1n"/>
         <updated>2024-03-11T10:20:15.000Z</updated>
         <summary type="html"><![CDATA[Mar 11, 10:20 UTC
-Resolved - This incident has been resolved.
+Resolved - On March 11, 2024, between 06:30 UTC and 11:45 UTC the Copilot Chat service was degraded and customers may have encountered errors or timed out requests for chat interactions. On average, the error rate was 10% and peaked at 45% of requests to the service for short periods of time.
+This was due to a gap in handling an edge case for messages returned from the underlying language models. We mitigated the incident by applying a fix to the handling of the streaming response.
+We are working to update monitoring to reduce time to detection and increase resiliency to message format changes.
 Mar 11, 10:02 UTC
 Update - We are deploying mitigations for the failures we have been observing in some chat requests for Copilot. We will continue to monitor and update.
 Mar 11, 09:03 UTC
@@ -1146,19 +1161,6 @@ Have a great day,
 Your Smily team :)]]></summary>
         <author>
             <name>Basile, Product Manager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users may be experiencing trouble with canvas.]]></title>
-        <id>https://slack-status.com/2024-02/804d3a52e234f2fa</id>
-        <link href="https://slack-status.com/2024-02/804d3a52e234f2fa"/>
-        <updated>2024-02-13T22:15:24.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-On February 12, 2024 from 6:00 AM PST to 8:32 AM PST, some users experienced latency when loading canvases or errors related to editing and saving canvases.
-
-Upon investigation we determined that this was caused by rate limits put in place by an upstream provider. We restarted the impacted endpoints to mitigate the issue immediately, which resolved the issue for all affected users. We're continuing to partner with our upstream provider to reduce the likelihood of this occurring in the future.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>
