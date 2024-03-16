@@ -1,10 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-15T00:21:04.455Z</id>
+    <id>urn:2024-03-16T00:20:15.986Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-15T00:21:04.455Z</updated>
+    <updated>2024-03-16T00:20:15.986Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Droplet Creation in BLR1]]></title>
+        <id>https://status.digitalocean.com/incidents/2nng21f5nvfn</id>
+        <link href="https://status.digitalocean.com/incidents/2nng21f5nvfn"/>
+        <updated>2024-03-15T23:54:14.000Z</updated>
+        <summary type="html"><![CDATA[Mar 15, 23:54 UTC
+Resolved - Our Engineering team has confirmed full resolution of DNS resolution issue in the BLR1 region. 
+We appreciate your patience throughout this process and if you continue to experience problems, please open a ticket with our support team for further review.
+Mar 15, 23:27 UTC
+Monitoring - Our Engineering team has rolled out a fix for the DNS resolution issue in the BLR1 region. Users should now be able to create Droplets with firewall rules.
+We'll post an update once the incident is fully resolved.
+Mar 15, 23:09 UTC
+Investigating - Our Engineering team is currently investigating issues with DNS resolution in BLR1 region. During this time, customers may experience issues while creating new Droplets with firewall rules in the BLR1 region.
+We apologize for the inconvenience and will share an update once we have more information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Actions and Pages]]></title>
+        <id>https://www.githubstatus.com/incidents/m07hfg0gly20</id>
+        <link href="https://www.githubstatus.com/incidents/m07hfg0gly20"/>
+        <updated>2024-03-15T20:28:06.000Z</updated>
+        <summary type="html"><![CDATA[Mar 15, 20:28 UTC
+Resolved - This incident has been resolved.
+Mar 15, 20:27 UTC
+Update - Actions is operating normally.
+Mar 15, 20:09 UTC
+Update - Pages is experiencing degraded performance. We are continuing to investigate.
+Mar 15, 20:07 UTC
+Investigating - We are investigating reports of degraded performance for Actions]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Codespaces and API Requests]]></title>
+        <id>https://www.githubstatus.com/incidents/9ym5p2sg6w5v</id>
+        <link href="https://www.githubstatus.com/incidents/9ym5p2sg6w5v"/>
+        <updated>2024-03-15T20:24:44.000Z</updated>
+        <summary type="html"><![CDATA[Mar 15, 20:24 UTC
+Resolved - This incident has been resolved.
+Mar 15, 20:21 UTC
+Update - Codespaces is operating normally.
+Mar 15, 20:20 UTC
+Update - API Requests is operating normally.
+Mar 15, 20:17 UTC
+Update - We rolled back the most recent deployment and are seeing improvements across all services, and will continue to monitor for additional impact.
+Mar 15, 20:11 UTC
+Update - API Requests is experiencing degraded performance. We are continuing to investigate.
+Mar 15, 20:03 UTC
+Update - Codespaces is experiencing degraded availability. We are continuing to investigate.
+Mar 15, 20:03 UTC
+Update - API Requests is experiencing degraded availability. We are continuing to investigate.
+Mar 15, 20:00 UTC
+Update - API Requests is experiencing degraded performance. We are continuing to investigate.
+Mar 15, 19:55 UTC
+Investigating - We are investigating reports of degraded performance for Codespaces]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Device management functionality is degraded]]></title>
+        <id>https://status.rippling.com/incidents/b20xb0qlwd48</id>
+        <link href="https://status.rippling.com/incidents/b20xb0qlwd48"/>
+        <updated>2024-03-15T20:18:17.000Z</updated>
+        <summary type="html"><![CDATA[Mar 15, 20:18 UTC
+Resolved - This incident has been resolved.
+Mar 15, 19:51 UTC
+Monitoring - A fix has been implemented and we are monitoring the results.
+Mar 15, 18:55 UTC
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>Rippling Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Reports of slowness and connectivity issues in Slack]]></title>
+        <id>https://slack-status.com/2024-03/070ad43095b540ab</id>
+        <link href="https://slack-status.com/2024-03/070ad43095b540ab"/>
+        <updated>2024-03-15T01:35:34.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary: 
+From 12:40 PM to 4:55 PM PDT on March 13, 2024, users from one Enterprise Grid organization may have experienced slowness or connectivity issues when using Slack.
+
+A routine infrastructure process inadvertently caused an increase in requests to the database hosting the affected Enterprise Grid organization. This resulted in slower than usual response times for user actions in Slack, and some connectivity failures. 
+
+We identified the cause of the problem and manually increased the database capacity, restoring normal functionality for impacted users. 
+
+Thank you for bearing with us while we resolved this issue.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: User are receiving errors when attempting to access certain app configuration pages.]]></title>
         <id>https://slack-status.com/2024-03/e954ecf8fbab9711</id>
@@ -14,18 +108,6 @@
 On March 13, 2024 from 5:02 PM PDT until 9:48 PM PDT some users may have encountered "Something's gone awry" or "Slack isn't loading" errors when attempting to access their certain app configuration pages. 
 
 We determined that a recent code change caused this issue. We reverted the code change and the issue was resolved.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Reports of slowness and connectivity issues in Slack]]></title>
-        <id>https://slack-status.com/2024-03/070ad43095b540ab</id>
-        <link href="https://slack-status.com/2024-03/070ad43095b540ab"/>
-        <updated>2024-03-13T23:03:43.000Z</updated>
-        <summary type="html"><![CDATA[Upon investigation we've determined these connectivity problems are isolated to one Enterprise Grid Org. 
-
-We'll closely monitor reports and provide further updates through customer support tickets with the impacted users. We will not be sharing further details on this through our Status Site, so please reach out to our team at feedback@slack.com if you need further assistance.]]></summary>
         <author>
             <name>Slack System Status</name>
         </author>
