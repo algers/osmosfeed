@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-16T00:20:15.986Z</id>
+    <id>urn:2024-03-17T00:23:19.128Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-16T00:20:15.986Z</updated>
+    <updated>2024-03-17T00:23:19.128Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[DigitalOcean Support Portal Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/6w4ffgm83798</id>
+        <link href="https://status.digitalocean.com/incidents/6w4ffgm83798"/>
+        <updated>2024-03-17T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 17, 02:00 - 05:00 UTC
+Mar 12, 16:11 UTC
+Scheduled - Start: 2024-03-17 02:00 UTC
+End: 2024-03-17 05:00 UTC
+During the above maintenance window, there will be maintenance performed on our ticketing system.
+Expected Impact:
+During the course of the maintenance, users will be unable to submit support tickets, update existing tickets, or receive replies to existing tickets. Users will also be unable to log into https://cloudsupport.digitalocean.com/s/ or open the Support Portal from within the Cloud Control Panel.
+Any tickets submitted during the maintenance via alternate methods (such as replying to an email chain or via our webform) will be saved and entered into our ticketing system at the completion of the maintenance.
+Our Support Team will also be impacted by this maintenance and will be unable to enter the ticketing system to receive any tickets or reply to existing tickets. As soon as the vendor maintenance has completed, our team will address all support queries as quickly as possible.
+We appreciate your patience throughout this process.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Droplet Creation in BLR1]]></title>
         <id>https://status.digitalocean.com/incidents/2nng21f5nvfn</id>
@@ -1130,119 +1149,6 @@ During this time users may experience network connectivity issues specifically w
 We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues loading Reports]]></title>
-        <id>https://status.rippling.com/incidents/p5wbyw5s471p</id>
-        <link href="https://status.rippling.com/incidents/p5wbyw5s471p"/>
-        <updated>2024-02-15T22:38:53.000Z</updated>
-        <summary type="html"><![CDATA[Feb 15, 22:38 UTC
-Resolved - This issue has been resolved. Customers should no longer be impacted by this issue.
-Feb 15, 19:50 UTC
-Identified - We are aware of issues with Reports loading. We have identified a fix and are working to roll it out.]]></summary>
-        <author>
-            <name>Rippling Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Errors updating Notion subscription]]></title>
-        <id>https://status.notion.so/incidents/qpyywl1mc14q</id>
-        <link href="https://status.notion.so/incidents/qpyywl1mc14q"/>
-        <updated>2024-02-15T17:30:36.000Z</updated>
-        <summary type="html"><![CDATA[Feb 15, 09:30 PST
-Resolved - On February 15th 2023 between 01:39 PST - 08:43 PST, Notion was experiencing an issue with subscription updates, which may have resulted in errors when changing billing plans.
-Our engineering team identified the issue and increased capacity to this service to prevent errors, and this is now working as normal. We appreciate your patience and will work to prevent similar errors in future.
-Feb 15, 08:52 PST
-Investigating - Customers may experience an error when attempting to change their Notion subscription.
-Our team is investigating the root cause now and we will share updates as soon as possible.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Profile photos aren't displaying properly]]></title>
-        <id>https://slack-status.com/2024-02/16aecfd53af7219b</id>
-        <link href="https://slack-status.com/2024-02/16aecfd53af7219b"/>
-        <updated>2024-02-15T14:40:11.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-Starting around 12:46 PM PST on February 6, 2024, until around 4:06 PM PST on February 9, 2024, some users experienced issues with their profile pictures loading, resulting in the default avatar image displaying instead of their custom image.
-
-We identified a bug that caused missing image data from a database cache. We fixed the bug and reset the backend cache to pull new data, which initially fixed the issue around 4:00 PM PST on February 6. However, some users began experiencing the problem again once their Slack client refreshed.
-
-We continued investigating the issue, tracing it back to a piece of code that would push older image data to a database that housed profile information, and promptly reverted the incorrect code which resolved the issue for all affected users.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We are now supporting and managing Booking.com' Sponsored Benefit program at Smily]]></title>
-        <id>285929</id>
-        <link href="https://changelog.bookingsync.com/we-are-now-supporting-and-managing-booking-com'-sponsored-benefit-program-at-smily-285929"/>
-        <updated>2024-02-15T13:30:51.000Z</updated>
-        <summary type="html"><![CDATA[New!
-  
-We are thrilled to share with you some great news :)
-We are now supporting and managing Booking.com Sponsored Benefit program at Smily;
-Benefits for you:
-You were facing the obstacle where booking.com **was paying a small amount of the booking.com reservation due to a discount offered to the guest.
-1/ it was not blocking the synchronisation of your listing but was creating an issue for the payment;
-2/ you had to send manually a payment link to collect the remaining amount to the guests. This won’t be necessary anymore!
-
-
-Now, as we do support the Sponsored benefit program, you will still see and receive this small amount in advance paid by Booking.com and we will process with success the rest of the payment!
-
-
-You can now join this program if you were waiting for this functionality 🙂
-How does this program benefit your business?
-When applied, it offers the following advantages for your business:
-Boosts bookings from price-conscious customers
-Lowers cancellations with customers paying in advance
-Increases your revenue by covering the reduced amount to drive more bookings
-Take the next step:
-Take a look at what this program is about and check out if you are eligible to enable it and enjoy it;
-Check our new manual
-Your business deserves the best, and with Smily’s latest feature, we’re here to ensure you get just that.]]></summary>
-        <author>
-            <name>Basile, Product Manager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Airbnb - enrich your listing thanks to the listing expectation types]]></title>
-        <id>285927</id>
-        <link href="https://changelog.bookingsync.com/airbnb-enrich-your-listing-thanks-to-the-listing-expectation-types-285927"/>
-        <updated>2024-02-15T13:24:14.000Z</updated>
-        <summary type="html"><![CDATA[New!
-  
-The Airbnb Listing expectation type feature is now available on Smily. 
-This update lets you enrich your listings with additional information, directly from Smily's user-friendly interface.
-Pain Points Addressed:
-Gone are the days of toggling between platforms. Previously, you had to navigate Airbnb's website to update listing details, a time-consuming and inefficient process. Smily's new feature streamlines this, offering a seamless integration within the interface.
-🚀 Benefits for you:
-Easily accessible under the "amenities" section in the Smily interface, the new "Property Info" category empowers you to select and customize expectation types, with an optional description of up to 100 characters.
-This information is then flawlessly synced with Airbnb for those using full synchronization, ensuring a cohesive and accurate listing.
-It will also be synchronised on your website if you have one with Smily!
-Such information is key and valuable for the guests to avoid any negative surprises on check-in day!
-→ Here is where to find this new section on the Smily interface👇
--> Then click on the pen to edit/add an optional description;
-
-ℹ️ Next steps and important information
-For those using this via Airbnb, we've already fetched your existing listing expectations from Airbnb as of February 9th.
-
-
-To ensure data alignment with this new feature, please update any changes made since then before our official release on February 21st via the Smily interface;
-→ On February 21st, we will start the synchronisation of your data from Smily to the Airbnb application. Any values not reflected on the Smily interface will be removed from Airbnb.
-
-
-Please note, that the Smily interface allows a description limit of 100 characters compared to Airbnb's 300. Should this affect your listings, we'll reach out individually.
-→ if you cannot update your description before February 21st, let us know please;
-
-
-Have a great day,
-Your Smily team :)]]></summary>
-        <author>
-            <name>Basile, Product Manager</name>
         </author>
     </entry>
 </feed>
