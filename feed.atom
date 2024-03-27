@@ -1,18 +1,238 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-26T00:21:06.181Z</id>
+    <id>urn:2024-03-27T00:21:02.812Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-26T00:21:06.181Z</updated>
+    <updated>2024-03-27T00:21:02.812Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - MTS]]></title>
+        <id>https://status.twilio.com/incidents/bmxfkcy1j75m</id>
+        <link href="https://status.twilio.com/incidents/bmxfkcy1j75m"/>
+        <updated>2024-03-27T00:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Mar 26, 17:00 PDT
+Completed - The scheduled maintenance has been completed.
+Mar 26, 15:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Mar 21, 08:01 PDT
+Scheduled - The MTS network in Russia is conducting a planned maintenance from 26 March 2024 at 15:00 PDT until 26 March 2024 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to MTS Russia handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[500 Errors for Messaging Channels Message Send Requests (including WhatsApp)]]></title>
+        <id>https://status.twilio.com/incidents/913nn2w6g6bj</id>
+        <link href="https://status.twilio.com/incidents/913nn2w6g6bj"/>
+        <updated>2024-03-26T20:34:44.000Z</updated>
+        <summary type="html"><![CDATA[Mar 26, 13:34 PDT
+Resolved - Twilio Messaging Channels were degraded for 32 seconds between 11:11-11:12 AM Pacific Time on 03/26/2024. During this period of time customers may have experienced 500 errors from the Twilio API. The issue has now been resolved.
+Mar 26, 12:33 PDT
+Investigating - We are experiencing an internal issue that may result in SMS errors. We will provide an update in 1 hour, or as soon as more information is available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Users receiving error when adding Google Sheets step to workflows.]]></title>
+        <id>https://slack-status.com/2024-03/9879b180bfdd0500</id>
+        <link href="https://slack-status.com/2024-03/9879b180bfdd0500"/>
+        <updated>2024-03-26T19:35:29.000Z</updated>
+        <summary type="html"><![CDATA[Issue Summary:
+From Monday March 25, 2024 at 3:30 PM PDT to Tuesday March 26, 2024 until 8:51 AM PDT, some users saw the error message REB686069408 when adding Google Sheets to their workflows.
+
+This was traced to a backend change related to how Workflow Builder searches for a Google Sheet when using the Google Sheets workflow step, but the user interface was not receiving proper label values causing the error. 
+
+We reverted the change as an initial attempt to fix, but learned this didn't resolve the issue as we continued to see incorrect value data.
+
+We corrected the problematic piece of code that allowed for the Google Sheets step to properly search for the spreadsheet using the correct search value. This restored the workflow step to full functionality.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Users not receiving 2FA codes]]></title>
+        <id>https://slack-status.com/2024-03/f7b5bc3254bd65bb</id>
+        <link href="https://slack-status.com/2024-03/f7b5bc3254bd65bb"/>
+        <updated>2024-03-26T19:26:36.000Z</updated>
+        <summary type="html"><![CDATA[Issue Summary:
+On Monday March 25, 2024 at 6:00 AM PDT to around 8:00 AM PDT, some users did not receive two-factor authentication (2FA) codes via SMS and couldn't log into Slack.
+
+We determined this was caused by an issue with an upstream 2FA provider. We monitored communications from the provider and confirmed Slack users could successfully sign in once the upstream issue was resolved.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Outgoing Traffic Impacted]]></title>
+        <id>https://status.twilio.com/incidents/mvzjwgly4h25</id>
+        <link href="https://status.twilio.com/incidents/mvzjwgly4h25"/>
+        <updated>2024-03-26T18:56:04.000Z</updated>
+        <summary type="html"><![CDATA[Mar 26, 11:56 PDT
+Update - We continue monitoring remaining queued messages. Overall, the system has reached a normal steady state; Now, most messages are sending without any additional queueing delay. However, individual customers may see messages remaining in queues due to large numbers of messages enqueued during this incident. We expect any messages delayed during this incident to have fully propagated through to a final status over the course of the next several hours. Note that we expect that some messages will eventually timeout and fail due to Validity Period Expired (error code 30036), others may eventually fail due to a Twilio Internal Error (error code 30500).
+We will provide an update in 8 hours or as soon as more information becomes available.
+Mar 26, 10:05 PDT
+Update - We con…]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays To Multiple Networks In Brazil via Short Codes and Registered Sender ID]]></title>
+        <id>https://status.twilio.com/incidents/sm65xhtj7kh4</id>
+        <link href="https://status.twilio.com/incidents/sm65xhtj7kh4"/>
+        <updated>2024-03-26T18:41:39.000Z</updated>
+        <summary type="html"><![CDATA[Mar 26, 11:41 PDT
+Resolved - We are no longer experiencing SMS delivery delays to multiple networks in Brazil via short codes and registered Sender ID. This incident is now resolved.
+Mar 26, 11:36 PDT
+Update - We are still observing an improvement on SMS delivery delays to multiple networks in Brazil via short codes and registered Sender ID. We will keep on monitoring the issue. We will provide another update in 2 hours or as soon as more information is available.
+Mar 26, 10:38 PDT
+Update - We are still observing an improvement on SMS delivery delays to multiple networks in Brazil via short codes and registered Sender ID. We will keep on monitoring the issue. We will provide another update in 1 hour or as soon as more information is available
+Mar 26, 08:47 PDT
+Monitoring - We are observing an improvement on SMS delivery delays to multiple networks in Brazil via short codes and registered Sender ID. Our engineers are monitoring the issue. We will provide another update in 2 hours or as soon as more information is available
+Mar 26, 06:56 PDT
+Investigating - We are experiencing SMS delivery delays to multiple networks in Brazil via short codes and registered Sender ID. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[API Docs unavailable]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/6mzt8l47yqwf</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/6mzt8l47yqwf"/>
+        <updated>2024-03-26T18:02:59.000Z</updated>
+        <summary type="html"><![CDATA[Mar 26, 11:02 PDT
+Resolved - This incident has been resolved.
+Apologies for the inconvenience caused. Thanks for your patience and understanding.
+Mar 26, 10:00 PDT
+Monitoring - Our third party service, ReadMe, has implemented a fix and we are monitoring the results; you should be able to successfully access the API Docs now.
+We apologize for this inconvenience!
+Mar 26, 09:23 PDT
+Investigating - Our third-party service, ReadMe, is experiencing a wide-spread issue which is impacting access to our API Docs and APIX. We will update you with the latest information as soon as possible.
+We apologize for the inconvenience, and please don't hesitate to contact us if you need further assistance.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Core Infrastructure Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/l41jtjbs126x</id>
+        <link href="https://status.digitalocean.com/incidents/l41jtjbs126x"/>
+        <updated>2024-03-26T17:28:28.000Z</updated>
+        <summary type="html"><![CDATA[Mar 26, 17:28 UTC
+Completed - Scheduled maintenance has completed ahead of schedule, with no observed customer impact. Thank you for your patience. If you have any questions or concerns, please reach out to the Support team from within your account.
+Mar 26, 17:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Mar 21, 18:15 UTC
+Scheduled - Start Time: March 26 17:00 UTC
+End Time: March 26 18:00 UTC
+During this time, our Engineering Team will be performing maintenance to failover an internal service from one cluster to another. 
+This maintenance has been previously conducted with limited impact and our team has done extensive planning and testing to ensure a smooth failover, with the least disruption possible.
+Existing infrastructure (including Droplet and Droplet-based services networking) will continue running without issue. 
+If the failover period lasts longer than expected, there may be customer impacts with associated services including: 
+Droplet creates with a root password
+Droplet root password resets 
+MongoDB cluster creates 
+Let’sEncrypt certificate creation (for Load Balancers and Spaces)
+LoadBalancer creation with certificates
+Spaces key creation
+Marketplace (Add-Ons) will be unavailable for both vendors and users
+App Platform builds and deploys may see latency 
+Users will be unable to fetch CSV invoices 
+Bulk actions in the Spaces UI
+At this time, we do not expect to see any of the above listed impacts during maintenance, but are prepared for the worst case if needed.
+If you have any questions or concerns, please reach out to the Support team from within your account.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Delay in Delivery Receipt Processing in Conversations]]></title>
+        <id>https://status.twilio.com/incidents/cqm90g5pcdww</id>
+        <link href="https://status.twilio.com/incidents/cqm90g5pcdww"/>
+        <updated>2024-03-26T14:02:38.000Z</updated>
+        <summary type="html"><![CDATA[Mar 26, 07:02 PDT
+Resolved - Customers may have experienced Delays in Delivery Receipt Processing in Conversations. The issue has now been resolved.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US and Puerto Rico SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/ypb4jlfdh8vc</id>
+        <link href="https://status.twilio.com/incidents/ypb4jlfdh8vc"/>
+        <updated>2024-03-26T13:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Mar 26, 06:00 PDT
+Completed - The scheduled maintenance has been completed.
+Mar 25, 22:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Mar 19, 08:11 PDT
+Scheduled - Our SMS carrier partner in US and Puerto Rico is conducting a planned maintenance from 25 March 2024 at 22:00 PDT until 26 March 2024 at 06:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US and Puerto Rico handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[US SMS Carrier Maintenance - Small US Carriers]]></title>
         <id>https://status.twilio.com/incidents/xzrr8yh10qhj</id>
         <link href="https://status.twilio.com/incidents/xzrr8yh10qhj"/>
-        <updated>2024-03-26T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 26, 02:00 - 04:00 PDT
+        <updated>2024-03-26T11:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Mar 26, 04:00 PDT
+Completed - The scheduled maintenance has been completed.
+Mar 26, 02:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Feb 27, 22:38 PST
 Scheduled - A subset of small US networks in the US is conducting a planned maintenance from 26 March 2024 at 02:00 PDT until 26 March 2024 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Canada SMS Carrier Maintenance - Telus]]></title>
+        <id>https://status.twilio.com/incidents/fsrr41vsrxmb</id>
+        <link href="https://status.twilio.com/incidents/fsrr41vsrxmb"/>
+        <updated>2024-03-26T08:00:03.000Z</updated>
+        <summary type="html"><![CDATA[Mar 26, 01:00 PDT
+Completed - The scheduled maintenance has been completed.
+Mar 25, 22:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Mar 21, 15:41 PDT
+Scheduled - The Telus network in Canada is conducting a planned maintenance from 25 March 2024 at 22:00 PDT until 26 March 2024 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Telus Canada handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Support tickets submission issue]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/xymqvkv8k7z3</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/xymqvkv8k7z3"/>
+        <updated>2024-03-26T07:58:18.000Z</updated>
+        <summary type="html"><![CDATA[Mar 26, 00:58 PDT
+Resolved - This incident has been resolved.
+Apologies for the inconvenience caused. Thanks for your patience and understanding.
+Mar 25, 15:51 PDT
+Monitoring - A fix has been implemented and we are monitoring the results. If you still can't submit cases through the support portal, please let your Connectivity Partner Manager know.
+Mar 25, 06:20 PDT
+Investigating - We are currently investigating an issue that prevents partners from creating Support Tickets. For critical issues that require escalation, kindly contact your Airbnb Connectivity Partner Manager. 
+Please see ticket priority guidelines - https://developer.airbnb.com/docs/create-and-manage-support-cases#ticket-priority
+Our engineering teams are working to get everything up and running again, and we will update you with the latest information as soon as possible.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - Verizon Wireless]]></title>
+        <id>https://status.twilio.com/incidents/s62mt1bq6yhn</id>
+        <link href="https://status.twilio.com/incidents/s62mt1bq6yhn"/>
+        <updated>2024-03-26T07:01:02.000Z</updated>
+        <summary type="html"><![CDATA[Mar 26, 00:01 PDT
+Completed - The scheduled maintenance has been completed.
+Mar 25, 20:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Mar 25, 16:25 PDT
+Scheduled - Our carrier partner Verizon Wireless United States is conducting an emergency maintenance from 25 March 2024 at 20:00 PDT until 26 March 2024 at 00:00 PDT. During the maintenance window, there could be intermittent API request failures for Verizon Wireless United States customers.
+
+Impacted Product: Verify Silent Network Auth]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -21,24 +241,13 @@ Scheduled - A subset of small US networks in the US is conducting a planned main
         <title type="html"><![CDATA[Account Security Carrier Partner Maintenance - Wind Tre (3) Italy]]></title>
         <id>https://status.twilio.com/incidents/8lkn8vmsc17j</id>
         <link href="https://status.twilio.com/incidents/8lkn8vmsc17j"/>
-        <updated>2024-03-26T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 25, 23:00 PDT  -  Mar 26, 00:00 PDT
+        <updated>2024-03-26T07:00:23.000Z</updated>
+        <summary type="html"><![CDATA[Mar 26, 00:00 PDT
+Completed - The scheduled maintenance has been completed.
+Mar 25, 23:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Mar 20, 04:17 PDT
 Scheduled - Our carrier partner Wind Tre (3) Italy is conducting a planned maintenance from 25 March 2024 at 23:00 PDT until 26 March 2024 at 00:00 PDT. During the maintenance window, there could be intermittent API request failures for Wind Tre (3) Italy customers.
-
-Impacted Products: Verify Silent Network Auth]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Account Security Carrier Partner Maintenance - H3G Austria]]></title>
-        <id>https://status.twilio.com/incidents/y1wbhcwst59b</id>
-        <link href="https://status.twilio.com/incidents/y1wbhcwst59b"/>
-        <updated>2024-03-26T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 25, 23:00 PDT  -  Mar 26, 00:00 PDT
-Mar 20, 04:15 PDT
-Scheduled - Our carrier partner H3G Austria is conducting a planned maintenance from 25 March 2024 at 23:00 PDT until 26 March 2024 at 00:00 PDT. During the maintenance window, there could be intermittent API request failures for H3G Austria customers.
 
 Impacted Products: Verify Silent Network Auth]]></summary>
         <author>
@@ -49,113 +258,17 @@ Impacted Products: Verify Silent Network Auth]]></summary>
         <title type="html"><![CDATA[Account Security Carrier Partner Maintenance - Three UK]]></title>
         <id>https://status.twilio.com/incidents/r21kd5mkyyzt</id>
         <link href="https://status.twilio.com/incidents/r21kd5mkyyzt"/>
-        <updated>2024-03-26T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 25, 23:00 PDT  -  Mar 26, 00:00 PDT
+        <updated>2024-03-26T07:00:19.000Z</updated>
+        <summary type="html"><![CDATA[Mar 26, 00:00 PDT
+Completed - The scheduled maintenance has been completed.
+Mar 25, 23:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Mar 20, 04:13 PDT
 Scheduled - Our carrier partner Three UK is conducting a planned maintenance from 25 March 2024 at 23:00 PDT until 26 March 2024 at 00:00 PDT. During the maintenance window, there could be intermittent API request failures for Three UK customers.
 
 Impacted Products: Verify Silent Network Auth]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Canada SMS Carrier Maintenance - Telus]]></title>
-        <id>https://status.twilio.com/incidents/fsrr41vsrxmb</id>
-        <link href="https://status.twilio.com/incidents/fsrr41vsrxmb"/>
-        <updated>2024-03-26T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 25, 22:00 PDT  -  Mar 26, 01:00 PDT
-Mar 21, 15:41 PDT
-Scheduled - The Telus network in Canada is conducting a planned maintenance from 25 March 2024 at 22:00 PDT until 26 March 2024 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Telus Canada handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US and Puerto Rico SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/ypb4jlfdh8vc</id>
-        <link href="https://status.twilio.com/incidents/ypb4jlfdh8vc"/>
-        <updated>2024-03-26T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 25, 22:00 PDT  -  Mar 26, 06:00 PDT
-Mar 19, 08:11 PDT
-Scheduled - Our SMS carrier partner in US and Puerto Rico is conducting a planned maintenance from 25 March 2024 at 22:00 PDT until 26 March 2024 at 06:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US and Puerto Rico handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mexico SMS Carrier Maintenance - Telcel]]></title>
-        <id>https://status.twilio.com/incidents/ll3c0q6vwdy2</id>
-        <link href="https://status.twilio.com/incidents/ll3c0q6vwdy2"/>
-        <updated>2024-03-26T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 25, 21:00 - 23:00 PDT
-Mar 21, 05:05 PDT
-Scheduled - The Telcel network in Mexico is conducting a planned maintenance from 25 March 2024 at 21:00 PDT until 25 March 2024 at 23:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Telcel Mexico handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - Verizon Wireless]]></title>
-        <id>https://status.twilio.com/incidents/s62mt1bq6yhn</id>
-        <link href="https://status.twilio.com/incidents/s62mt1bq6yhn"/>
-        <updated>2024-03-26T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 25, 20:00 PDT  -  Mar 26, 00:00 PDT
-Mar 25, 16:25 PDT
-Scheduled - Our carrier partner Verizon Wireless United States is conducting an emergency maintenance from 25 March 2024 at 20:00 PDT until 26 March 2024 at 00:00 PDT. During the maintenance window, there could be intermittent API request failures for Verizon Wireless United States customers.
-
-Impacted Product: Verify Silent Network Auth]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United States SMS Carrier Maintenance - AT&T]]></title>
-        <id>https://status.twilio.com/incidents/h3t3g0kd7f13</id>
-        <link href="https://status.twilio.com/incidents/h3t3g0kd7f13"/>
-        <updated>2024-03-26T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 25, 20:00 PDT  -  Mar 29, 04:00 PDT
-Mar 22, 04:24 PDT
-Scheduled - The AT&T network in united states is conducting a series of planned maintenances from 25 March 2024 at 20:00 PDT until 29 March 2024 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T united states handsets.
-
-Note, the maintenance will be carried out on each of the following dates and times:
-
-25 March 2024 at 20:00 PDT until 26 March 2024 at 04:00 PDT
-26 March 2024 at 20:00 PDT until 27 March 2024 at 04:00 PDT
-27 March 2024 at 20:00 PDT until 28 March 2024 at 04:00 PDT
-28 March 2024 at 20:00 PDT until 29 March 2024 at 04:00 PDT]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - MegaFon]]></title>
-        <id>https://status.twilio.com/incidents/vv6mzvcbc4nm</id>
-        <link href="https://status.twilio.com/incidents/vv6mzvcbc4nm"/>
-        <updated>2024-03-26T00:00:20.000Z</updated>
-        <summary type="html"><![CDATA[Mar 25, 17:00 PDT
-Completed - The scheduled maintenance has been completed.
-Mar 25, 13:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 21, 19:07 PDT
-Scheduled - The MegaFon network in Russia is conducting a planned maintenance from 25 March 2024 at 13:00 PDT until 25 March 2024 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to MegaFon Russia]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Support tickets submission issue]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/xymqvkv8k7z3</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/xymqvkv8k7z3"/>
-        <updated>2024-03-25T22:51:38.000Z</updated>
-        <summary type="html"><![CDATA[Mar 25, 15:51 PDT
-Monitoring - A fix has been implemented and we are monitoring the results. If you still can't submit cases through the support portal, please let your Connectivity Partner Manager know.
-Mar 25, 06:20 PDT
-Investigating - We are currently investigating an issue that prevents partners from creating Support Tickets. For critical issues that require escalation, kindly contact your Airbnb Connectivity Partner Manager. 
-Please see ticket priority guidelines - https://developer.airbnb.com/docs/create-and-manage-support-cases#ticket-priority
-Our engineering teams are working to get everything up and running again, and we will update you with the latest information as soon as possible.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1260,63 +1373,6 @@ We traced the issue to a recent backend code change and reverted the change, whi
 Thank you very much for your patience while we resolved this.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Manage your VRBO guest review from Smily interface]]></title>
-        <id>286647</id>
-        <link href="https://changelog.bookingsync.com/manage-your-vrbo-guest-review-from-smily-interface-286647"/>
-        <updated>2024-02-26T10:54:27.000Z</updated>
-        <summary type="html"><![CDATA[New!
-  
-Are you connected to VRBO OTA?
-Starting today at 2pm UTC, we will be fetching guest reviews and ratings from VRBO, and you'll be able to respond to them directly from Smily interface :)
-🚧 Pain Points Addressed:
-No need to visit VRBO to check and respond to guest reviews.
-Previously, you couldn't rate a guest.
-🚀 Benefits for you:
-Manage all your reviews in one place.
-Easily read and respond to VRBO guest reviews from our Review section on the Smily interface.
-Rate guests with ease.
-ℹ️ Information and next steps:
-We will fetch all your past reviews.
-
-
-You will be able to rate all past bookings matching those criteria:
---> Bookings without guest review that ended in the last 365 days;
---> Bookings for which a guest review is already present and 14 days haven’t passed since the guest made the review;
-
-
-Make use of this new feature and ensure to leave reviews for guests. This is an important criterion for VRBO and will impact your property ranking.
-
-
-Lastly, you can use our "automated reviews" feature, released at the end of last year, for VRBO reviews too.
-
-
-Have a great review day,
-Your Smily team :)]]></summary>
-        <author>
-            <name>Basile, Product Manager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scheduled infrastructure maintenance]]></title>
-        <id>https://status.make.com/incidents/6hnyx0v9zjbh</id>
-        <link href="https://status.make.com/incidents/6hnyx0v9zjbh"/>
-        <updated>2024-02-26T07:00:56.000Z</updated>
-        <summary type="html"><![CDATA[Feb 26, 08:00 CET
-Completed - The scheduled maintenance has been completed.
-Feb 26, 06:00 CET
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Feb 15, 16:40 CET
-Scheduled - Hello,
-Please note there is scheduled infrastructure maintenance on 26.02.2024, between 6:00-8:00 AM CET, when you can expect a slower scenario processing. Specifically, scenarios using a datastore module might see reduced performance which can cause its longer execution.
-We will inform you once the maintenance is completed.
-Thank you very much for understanding.
-Kind regards,
-Make team]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
         </author>
     </entry>
 </feed>
