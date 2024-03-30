@@ -1,10 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-03-29T00:21:32.821Z</id>
+    <id>urn:2024-03-30T00:20:33.308Z</id>
     <title>osmos::feed</title>
-    <updated>2024-03-29T00:21:32.821Z</updated>
+    <updated>2024-03-30T00:20:33.308Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Malaysia SMS Carrier Maintenance - XOX]]></title>
+        <id>https://status.twilio.com/incidents/d235zdg7qb07</id>
+        <link href="https://status.twilio.com/incidents/d235zdg7qb07"/>
+        <updated>2024-03-30T01:30:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 29, 18:30 - 20:30 PDT
+Mar 29, 00:12 PDT
+Scheduled - The XOX network in Malaysia is conducting a planned maintenance from 29 March 2024 at 18:30 PDT until 29 March 2024 at 20:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from XOX Malaysia handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to MTN Network in Nigeria and Ivory Coast]]></title>
+        <id>https://status.twilio.com/incidents/d63bmk69mdl0</id>
+        <link href="https://status.twilio.com/incidents/d63bmk69mdl0"/>
+        <updated>2024-03-30T00:20:01.000Z</updated>
+        <summary type="html"><![CDATA[Mar 29, 17:20 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to MTN Network in Nigeria and Ivory Coast. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Trouble signing in and degraded workflows]]></title>
+        <id>https://slack-status.com/2024-03/5d71bd710c2f41f3</id>
+        <link href="https://slack-status.com/2024-03/5d71bd710c2f41f3"/>
+        <updated>2024-03-29T22:42:18.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+On March 28, 2024 at 10:47 AM PDT until 11:20 AM PDT, a small number of users experienced trouble using workflows, connecting or signing into Slack, and creating accounts.
+
+A recent change to a database service that's responsible for processing user activity in Slack had an influx of unexpected traffic. This traffic caused an increased number of error rates and failures which prevented users from accessing certain features.
+
+When our internal health tools alerted us of the influx of errors, we paused any further code changes in an effort to improve database processing.
+
+During our investigation, it was discovered that as a result of the unexpected traffic, the database service automatically timed out after about 30 minutes. This timeout allowed the database to return to normal and process new requests without causing errors.
+
+We moved forward with a continued period of investigation and monitored to ensure impact did not reoccur.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Issues loading Slack for less than 1% of customers]]></title>
+        <id>https://slack-status.com/2024-03/ea1af48bfb2a02ae</id>
+        <link href="https://slack-status.com/2024-03/ea1af48bfb2a02ae"/>
+        <updated>2024-03-29T20:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+On March 27, 2024 from 8:13 AM PDT until 3:38 PM PDT, some users experienced errors when attempting to login, send messages, open channels, or threads.
+
+We traced this issue back to a subset of errors that occurred within a set of cross-functional databases that are responsible for basic user features in Slack. As an immediate step to mitigate the issue, we automatically performed a restore of the backups of these affected databases.
+
+Once the process of restoring these backups was completed, the databases began successfully processing user requests, fully restoring the functionality of the affected features. We are working to put safeguards in place to reduce the likelihood of this issue occurring again in the future.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Failure to Retrieve Trial Phone Numbers during New Account Onboarding]]></title>
+        <id>https://status.twilio.com/incidents/zzkl2df31pvw</id>
+        <link href="https://status.twilio.com/incidents/zzkl2df31pvw"/>
+        <updated>2024-03-29T13:21:08.000Z</updated>
+        <summary type="html"><![CDATA[Mar 29, 06:21 PDT
+Resolved - The issue with provisioning trial phone numbers has been resolved and phone number provisioning is operating normally at this time.
+Mar 29, 04:21 PDT
+Monitoring - Our engineers have identified that there were some numbers in bad state which were causing this issue for a select few instances during number instances. This is not something that is impacting our all customers. 
+Phone Number Provisioning is operating normally. And we continue to monitor for system stability. We will provide another update in 2 hours or as soon as more information becomes available.
+Mar 29, 03:26 PDT
+Identified - Our engineers have identified the issue unable to get trial phone numbers provisioned and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inbound Call Failures from a Subset Of Twilio Denmark Phone Numbers]]></title>
+        <id>https://status.twilio.com/incidents/39pmm5352v88</id>
+        <link href="https://status.twilio.com/incidents/39pmm5352v88"/>
+        <updated>2024-03-29T12:35:12.000Z</updated>
+        <summary type="html"><![CDATA[Mar 29, 05:35 PDT
+Resolved - The issue affecting inbound calls to a subset of Twilio Denmark phone numbers has been resolved, and the service is functioning normally at this time.
+Mar 29, 03:46 PDT
+Monitoring - We have started seeing recovery for inbound calls to Twilio Denmark phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Mar 29, 01:50 PDT
+Investigating - We are observing call failures from a subset of Twilio Denmark phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Mar 29, 00:54 PDT
+Identified - The issue causing inbound call failures to Twilio Denmark phone numbers has been identified. We are actively working with our carrier partner to resolve the issue. We expect to provide another update in 1 hours or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United States SMS Carrier Maintenance - AT&T]]></title>
+        <id>https://status.twilio.com/incidents/h3t3g0kd7f13</id>
+        <link href="https://status.twilio.com/incidents/h3t3g0kd7f13"/>
+        <updated>2024-03-29T11:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Mar 29, 04:00 PDT
+Completed - The scheduled maintenance has been completed.
+Mar 25, 20:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Mar 22, 04:24 PDT
+Scheduled - The AT&T network in united states is conducting a series of planned maintenances from 25 March 2024 at 20:00 PDT until 29 March 2024 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T united states handsets.
+
+Note, the maintenance will be carried out on each of the following dates and times:
+
+25 March 2024 at 20:00 PDT until 26 March 2024 at 04:00 PDT
+26 March 2024 at 20:00 PDT until 27 March 2024 at 04:00 PDT
+27 March 2024 at 20:00 PDT until 28 March 2024 at 04:00 PDT
+28 March 2024 at 20:00 PDT until 29 March 2024 at 04:00 PDT]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring into success: Elevate your vacation rental business with Smily's latest innovations & news!]]></title>
+        <id>289382</id>
+        <link href="https://changelog.bookingsync.com/spring-into-success-elevate-your-vacation-rental-business-with-smily's-latest-innovations-news!-289382"/>
+        <updated>2024-03-29T10:13:33.000Z</updated>
+        <summary type="html"><![CDATA[Communications
+  
+Ready for a little spring sunshine in your inbox? At Smily, we have been busy finding new ways to make your vacation rental world a bit brighter and your load a bit lighter. Because, let's face it, who doesn't love easier days and happier guests? 
+Discover in this newsletter edition some tips to boost your revenue, improve your efficiency, and our latest news ☺️
+🆕 Smily updates you don't want to miss!
+New synchronized rule with Booking.com: Our rate rule "Reserve at least one x/day in advance" is now synced with Booking.com! 
+Manage Vrbo reviews from Smily's interface: Collect and respond to Vrbo traveler's reviews directly from your Smily's account. Save time by using our AI-powered response feature!
+Introducing simplified monthly billing: All new rental charges are now…]]></summary>
+        <author>
+            <name>Ella, Chief Customer Officer (CCO) &amp; Cofounder</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Tele2]]></title>
         <id>https://status.twilio.com/incidents/p69gb382s1xv</id>
@@ -33,16 +162,6 @@ Feb 26, 15:07 PST
 Scheduled - The Megafon and Yota networks in Russia are conducting a planned maintenance from 28 March 2024 at 12:00 PDT until 28 March 2024 at 16:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Megafon and Yota Russia handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Trouble signing in and degraded workflows]]></title>
-        <id>https://slack-status.com/2024-03/5d71bd710c2f41f3</id>
-        <link href="https://slack-status.com/2024-03/5d71bd710c2f41f3"/>
-        <updated>2024-03-28T21:34:04.000Z</updated>
-        <summary type="html"><![CDATA[While the majority of users should no longer be experiencing issues, our investigation of the root cause is still ongoing. We’ll be back with an update once we determine the issue is fully resolved.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
@@ -78,82 +197,6 @@ Investigating - We are experiencing SMS delivery delays and failures to Syriatel
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[US SMS Carrier Maintenance - Small US Carriers]]></title>
-        <id>https://status.twilio.com/incidents/3llhst6qcgck</id>
-        <link href="https://status.twilio.com/incidents/3llhst6qcgck"/>
-        <updated>2024-03-28T11:00:20.000Z</updated>
-        <summary type="html"><![CDATA[Mar 28, 04:00 PDT
-Completed - The scheduled maintenance has been completed.
-Mar 28, 02:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 22, 16:18 PDT
-Scheduled - A subset of small networks in the US are conducting a planned maintenance from 28 March 2024 at 02:00 PDT until 28 March 2024 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US SMS Carrier Maintenance - Small US Carriers]]></title>
-        <id>https://status.twilio.com/incidents/vcplrh7w2dfh</id>
-        <link href="https://status.twilio.com/incidents/vcplrh7w2dfh"/>
-        <updated>2024-03-28T11:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Mar 28, 04:00 PDT
-Completed - The scheduled maintenance has been completed.
-Mar 28, 02:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Feb 27, 22:39 PST
-Scheduled - A subset of small US networks in the US is conducting a planned maintenance from 28 March 2024 at 02:00 PDT until 28 March 2024 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - Verizon Wireless]]></title>
-        <id>https://status.twilio.com/incidents/mdkmkm2nj4zj</id>
-        <link href="https://status.twilio.com/incidents/mdkmkm2nj4zj"/>
-        <updated>2024-03-28T10:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Mar 28, 03:00 PDT
-Completed - The scheduled maintenance has been completed.
-Mar 27, 23:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 27, 15:38 PDT
-Scheduled - Our carrier partner Verizon Wireless United States is conducting an emergency maintenance from 27 March 2024 at 23:00 PDT until 28 March 2024 at 03:00 PDT. During the maintenance window, there could be intermittent API request failures for Verizon Wireless United States customers.
-Impacted Product: Verify Silent Network Auth]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US and Canada SMS and MMS Carrier partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/f8hqrq6j9tgs</id>
-        <link href="https://status.twilio.com/incidents/f8hqrq6j9tgs"/>
-        <updated>2024-03-28T07:00:05.000Z</updated>
-        <summary type="html"><![CDATA[Mar 28, 00:00 PDT
-Completed - The scheduled maintenance has been completed.
-Mar 27, 20:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar  1, 23:36 PST
-Scheduled - Our SMS and MMS carrier partner in the US and Canada is conducting a planned maintenance from 27 March 2024 at 20:00 PDT until 28 March 2024 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets via Toll-free numbers.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UK SMS Carrier Maintenance - 3 (Hutchison 3G UK Ltd)]]></title>
-        <id>https://status.twilio.com/incidents/hvgbsy089qwr</id>
-        <link href="https://status.twilio.com/incidents/hvgbsy089qwr"/>
-        <updated>2024-03-28T06:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Mar 27, 23:00 PDT
-Completed - The scheduled maintenance has been completed.
-Mar 27, 15:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 19, 04:33 PDT
-Scheduled - The 3 (Hutchison 3G UK Ltd) network in the UK is conducting a planned maintenance from 27 March 2024 at 15:00 PDT until 27 March 2024 at 23:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from 3 (Hutchison 3G UK Ltd) UK handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Incident: Issues with file previews]]></title>
         <id>https://slack-status.com/2024-03/f050004edd32fdb2</id>
         <link href="https://slack-status.com/2024-03/f050004edd32fdb2"/>
@@ -168,98 +211,6 @@ Thereafter, we conducted an in-depth investigation to find any images that were 
 Thank you for bearing with us while we worked through this case.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Megafon and Yota]]></title>
-        <id>https://status.twilio.com/incidents/v0c4yl7fsd47</id>
-        <link href="https://status.twilio.com/incidents/v0c4yl7fsd47"/>
-        <updated>2024-03-28T00:00:28.000Z</updated>
-        <summary type="html"><![CDATA[Mar 27, 17:00 PDT
-Completed - The scheduled maintenance has been completed.
-Mar 27, 13:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 25, 04:46 PDT
-Scheduled - The Megafon and Yota network in Russia is conducting a planned maintenance from 27 March 2024 at 13:00 PDT until 27 March 2024 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Megafon and Yota Russia handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Beeline]]></title>
-        <id>https://status.twilio.com/incidents/yfmp2jyqfhgw</id>
-        <link href="https://status.twilio.com/incidents/yfmp2jyqfhgw"/>
-        <updated>2024-03-28T00:00:24.000Z</updated>
-        <summary type="html"><![CDATA[Mar 27, 17:00 PDT
-Completed - The scheduled maintenance has been completed.
-Mar 27, 14:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 25, 09:32 PDT
-Scheduled - The Beeline network in Russia is conducting a planned maintenance from 27 March 2024 at 14:00 PDT until 27 March 2024 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Beeline Russia handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Tele2]]></title>
-        <id>https://status.twilio.com/incidents/7p2t95fvqkbv</id>
-        <link href="https://status.twilio.com/incidents/7p2t95fvqkbv"/>
-        <updated>2024-03-28T00:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Mar 27, 17:00 PDT
-Completed - The scheduled maintenance has been completed.
-Mar 27, 13:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Feb 28, 16:46 PST
-Update - We will be undergoing scheduled maintenance during this time.
-Feb 28, 07:34 PST
-Scheduled - The Tele2 network in Russia is conducting a planned maintenance from 27 March 2023 at 13:00 PDT until 27 March 2023 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Tele2 Russia handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Issues loading Slack for less than 1% of customers]]></title>
-        <id>https://slack-status.com/2024-03/ea1af48bfb2a02ae</id>
-        <link href="https://slack-status.com/2024-03/ea1af48bfb2a02ae"/>
-        <updated>2024-03-27T22:53:52.000Z</updated>
-        <summary type="html"><![CDATA[We have restored the affected databases and are now fully functional again.
-We apologize for any inconvenience to your day and appreciate your patience while we worked to restore functionality.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays To Multiple Networks In Brazil Via Subset of Short Codes and Registered Sender ID]]></title>
-        <id>https://status.twilio.com/incidents/2ytcrxfklshz</id>
-        <link href="https://status.twilio.com/incidents/2ytcrxfklshz"/>
-        <updated>2024-03-27T22:53:11.000Z</updated>
-        <summary type="html"><![CDATA[Mar 27, 15:53 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to multiple networks In Brazil via subset of short codes and registered Sender ID. This incident has been resolved.
-Mar 27, 14:07 PDT
-Monitoring - We are observing recovery in SMS delivery delays to multiple networks In Brazil via subset of short codes and registered Sender ID. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Mar 27, 10:11 PDT
-Update - We continue investigating an issue with SMS delivery delays to multiple networks In Brazil via subset of short codes and registered Sender ID. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Mar 27, 08:20 PDT
-Investigating - We are experiencing SMS delivery delays to multiple networks In Brazil via subset of short codes and registered Sender ID. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Touch Network in Lebanon]]></title>
-        <id>https://status.twilio.com/incidents/yrmyk8y8g3sk</id>
-        <link href="https://status.twilio.com/incidents/yrmyk8y8g3sk"/>
-        <updated>2024-03-27T22:37:54.000Z</updated>
-        <summary type="html"><![CDATA[Mar 27, 15:37 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to the Touch Network in Lebanon. This incident has been resolved.
-Mar 27, 11:31 PDT
-Update - We continue observing an improvement on SMS delivery delays when sending messages to the Touch Network in Lebanon. Our engineers are monitoring the issue. We will provide another update in 24 hours or as soon as more information is available
-Mar 26, 11:34 PDT
-Update - We continue observing an improvement on SMS delivery delays when sending messages to the Touch Network in Lebanon. Our engineers are monitoring the issue. We will provide another update in 24 hours or as soon as more information is available
-Mar 26, 09:40 PDT
-Update - We are observing an improvement on SMS delivery delays when sending …]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -278,25 +229,6 @@ Impacted customers should no longer be experiencing any trouble receiving 2FA SM
 We apologize for any inconvenience caused and thank you for your patience.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to MPT Network in Myanmar]]></title>
-        <id>https://status.twilio.com/incidents/mcqhl7qd6gx0</id>
-        <link href="https://status.twilio.com/incidents/mcqhl7qd6gx0"/>
-        <updated>2024-03-27T11:51:14.000Z</updated>
-        <summary type="html"><![CDATA[Mar 27, 04:51 PDT
-Resolved - We are no longer experiencing SMS delivery delays to MPT Network in Myanmar. This incident has been resolved.
-Mar 27, 02:55 PDT
-Monitoring - We are observing recovery in SMS delivery delays to MPT Network in Myanmar. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Mar 27, 01:55 PDT
-Update - We are still experiencing SMS delivery delays to MPT Network in Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Mar 26, 23:59 PDT
-Update - We are still experiencing SMS delivery delays to MPT Network in Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Mar 26, 23:12 PDT
-Investigating - We are experiencing SMS delivery delays to MPT Network in Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1246,70 +1178,6 @@ Feb 29, 10:33 UTC
 Investigating - We are investigating reports of degraded performance for Issues and Webhooks]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Droplet Recovery Image]]></title>
-        <id>https://status.digitalocean.com/incidents/dj2p47c4zss1</id>
-        <link href="https://status.digitalocean.com/incidents/dj2p47c4zss1"/>
-        <updated>2024-02-29T05:50:18.000Z</updated>
-        <summary type="html"><![CDATA[Feb 29, 05:50 UTC
-Resolved - Our Engineering team identified and resolved an issue that was affecting the booting of Droplets from the Recovery ISO.
-From 00:20 UTC to 05:24 UTC, users might have experienced errors when attempting to boot Droplets from the Recovery ISO.
-If you continue to experience problems, please open a ticket with our support team. Thank you for your patience and we apologize for any inconvenience.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CreateMessage API - WRITE downtime]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/qfy422ht70s1</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/qfy422ht70s1"/>
-        <updated>2024-02-29T01:05:56.000Z</updated>
-        <summary type="html"><![CDATA[Feb 28, 17:05 PST
-Completed - The scheduled maintenance has been completed.
-Feb 28, 17:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Feb 22, 23:23 PST
-Scheduled - Please note upcoming maintenance occurring on Wednesday, 2/28/2024 at 5:00 PM PT, that will result in ~30-60 second WRITE downtime to CreateMessage API. Reads will not be affected.
-Alerts and errors pertaining to Messaging on Wednesday, 2/28/2024 around 5:00 PM PT, are to be expected. Please consider any corrective actions needed to mitigate potential data loss during this ~30-60 second period.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managed Databases creation - PostgresSQL v16]]></title>
-        <id>https://status.digitalocean.com/incidents/cd70bby9qynm</id>
-        <link href="https://status.digitalocean.com/incidents/cd70bby9qynm"/>
-        <updated>2024-02-28T22:53:47.000Z</updated>
-        <summary type="html"><![CDATA[Feb 28, 22:53 UTC
-Resolved - Our Engineering team has confirmed that creation, forking, and restoration of PostgreSQL clusters on v16 is functioning correctly.
-Upgrades for lower-versioned PostgreSQL clusters to v16 remain unavailable at this time and users will see errors if they attempt to perform that upgrade. Our Engineering team continues to work on making upgrades to v16 available again, but we expect this to take some time.
-If you continue to experience issues or have any questions, please open a ticket with our support team.
-Feb 28, 20:56 UTC
-Monitoring - After testing, teams have determined that PostgreSQL v16 is safe for new creations, as well as forks and restores for existing clusters. At this time, v16 is re-enabled in our Cloud Control Panel and users creating, forking, or re…]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SFO Networking]]></title>
-        <id>https://status.digitalocean.com/incidents/g4sdvwy4z4zm</id>
-        <link href="https://status.digitalocean.com/incidents/g4sdvwy4z4zm"/>
-        <updated>2024-02-28T22:49:41.000Z</updated>
-        <summary type="html"><![CDATA[Feb 28, 22:49 UTC
-Resolved - Our Engineering team has confirmed full resolution of the issue with networking in our SFO2 region. 
-If you continue to experience problems, please open a ticket with our support team. Thank you for your patience throughout this incident!
-Feb 28, 22:23 UTC
-Monitoring - Our Engineering team has confirmed that the faulty network hardware component was the cause of this issue. From 21:39 - 22:11 UTC, this component was not functioning correctly, causing networking issues for a subset of customers in our SFO2 region, as well as internal alerts in our SFO1/SFO3 regions. 
-At this time, all services should now be operating normally. We will monitor this incident for a short period of time to confirm full resolution.
-Feb 28, 22:17 UTC
-Identified - Our Engineering team has identified the cause of the issue with networking in our SFO regions to be related to an issue with a network hardware component in SFO2. They have isolated that component and we're observing error rates returning to pre-incident levels at this time. 
-We are continuing to look into this failure, but users should be seeing recovery on their services. We'll provide another update soon.
-Feb 28, 22:06 UTC
-Investigating - Our Engineering team is currently investigating internal alerts and customer reports for an increase in networking errors in our SFO regions for Droplets and Droplet-based services. We will provide an update as soon as we have further information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
