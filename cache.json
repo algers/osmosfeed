@@ -39,12 +39,22 @@
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
         {
+          "id": "https://airbnbapi.statuspage.io/incidents/6gtxsf3c3hcg",
+          "author": null,
+          "description": "Apr  5, 16:11 PDT\nMonitoring - We have deployed a fix for this issue and will now monitor the results. If you are still experiencing this issue, please contact our team via the Support Portal.\nApr  5, 12:14 PDT\nInvestigating - We are actively investigating an issue with Host account authorization. When a Host disconnects from an application, their listings are supposed to be disconnected as well. However, we have observed that in some cases, the listings remain API-connected even after the Host account disconnection. This can cause problems when a Host switches from one application to another, as their listings will still be connected to the previous application. \nWe will provide more updates on this issue as soon as possible.",
+          "link": "https://airbnbapi.statuspage.io/incidents/6gtxsf3c3hcg",
+          "publishedOn": "2024-04-05T23:11:26.000Z",
+          "wordCount": 3932,
+          "title": "Issue affecting Host authorization",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://airbnbapi.statuspage.io/incidents/54s715dkc7p0",
           "author": null,
-          "description": "Apr  4, 13:12 PDT\nMonitoring - We have mitigated the issue and re-process all the async API requests. We will continue monitoring the issue.\nApr  4, 13:07 PDT\nUpdate - We are continuing to investigate this issue.\nApr  4, 12:15 PDT\nInvestigating - We are currently investigating an issue related to async processing of our pricing and availability APIs. We'll post updates as we have more information.",
+          "description": "Apr  5, 13:54 PDT\nResolved - This incident has been resolved.\nApr  4, 13:12 PDT\nMonitoring - We have mitigated the issue and re-process all the async API requests. We will continue monitoring the issue.\nApr  4, 13:07 PDT\nUpdate - We are continuing to investigate this issue.\nApr  4, 12:15 PDT\nInvestigating - We are currently investigating an issue related to async processing of our pricing and availability APIs. We'll post updates as we have more information.",
           "link": "https://airbnbapi.statuspage.io/incidents/54s715dkc7p0",
-          "publishedOn": "2024-04-04T20:12:49.000Z",
-          "wordCount": 3889,
+          "publishedOn": "2024-04-05T20:54:51.000Z",
+          "wordCount": 3898,
           "title": "Pricing and Availability Async APIs being impacted",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -106,63 +116,33 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/www5rbzz1x0m",
+          "id": "https://status.twilio.com/incidents/87dcr96ft0f9",
           "author": null,
-          "description": "Apr  4, 16:44 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to SMS delivery to Appalachian Network in the US. This incident has been resolved.\nApr  4, 14:42 PDT\nMonitoring - We are observing successful SMS delivery to Appalachian Network in the US.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nApr  4, 13:41 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Appalachian Network in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/www5rbzz1x0m",
-          "publishedOn": "2024-04-04T23:44:04.000Z",
-          "wordCount": 7589,
-          "title": "SMS Delivery Delays to Appalachian Network in the US",
+          "description": "Apr  5, 16:17 PDT\nUpdate - We are continuing to investigate the issue causing SMS delivery delays when sending messages to MTN Network in Nigeria.  Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nApr  5, 15:20 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to MTN Network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nApr  5, 15:15 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS Delivery Delays to MTN Network in Nigeria. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/87dcr96ft0f9",
+          "publishedOn": "2024-04-05T23:17:25.000Z",
+          "wordCount": 7616,
+          "title": "SMS Delivery Delays to the MTN Network in Nigeria",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/0sb1r7q276cy",
+          "id": "https://status.twilio.com/incidents/kwscmm3sqc1j",
           "author": null,
-          "description": "Apr  4, 15:23 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Zain Network in Saudi Arabia. This incident has been resolved.\nApr  4, 13:13 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Zain Network in Saudi Arabia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hour or as soon as more information becomes available.\nApr  4, 11:04 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Zain Network in Saudi Arabia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nApr  4, 10:05 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Zain Network in Saudi Arabia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/0sb1r7q276cy",
-          "publishedOn": "2024-04-04T22:23:00.000Z",
-          "wordCount": 7648,
-          "title": "SMS Delivery Delays to Zain Network in Saudi Arabia",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/dh116ctyr015",
-          "author": null,
-          "description": "Apr  4, 14:37 PDT\nUpdate - We are experiencing SMS delivery failures to multiple networks in China via a Subset of Alphanumeric Sender IDs. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.\nApr  4, 10:10 PDT\nUpdate - We are experiencing SMS delivery failures to multiple networks in China via a Subset of Alphanumeric Sender IDs. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nApr  4, 08:07 PDT\nUpdate - We are experiencing SMS delivery failures to multiple networks in China via a Subset of Alphanumeric Sender IDs. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nApr  4, 07:17 PDT\nInvestigating - We are experiencing SMS delivery failures to multiple networks in China via a Subset of Alphanumeric Sender IDs. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/dh116ctyr015",
-          "publishedOn": "2024-04-04T21:37:05.000Z",
-          "wordCount": 7701,
-          "title": "SMS Delivery Failure to Multiple Networks in China via a Subset of Alphanumeric Sender IDs",
+          "description": "Apr  5, 13:59 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to the H3G network in Indonesia. This incident has been resolved.\nApr  5, 11:59 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to H3G network in Indonesia. We will continue monitoring the service to ensure a full recovery. We will provide another update in2 hours or as soon as more information becomes available.\nApr  5, 08:01 PDT\nUpdate - We continue to experience ongoing SMS delivery delays when sending messages to the H3G network in Indonesia. Our engineers are actively collaborating with our carrier partner to resolve this persistent issue. We anticipate providing another update within the next 4 hours or as soon as more information becomes available. Thank you for your continued patience.\nApr  5, 06:15 PDT\nUpdate - We are currently experiencing SMS delivery delays when sending messages to the H3G network in Indonesia. Our engineers are actively collaborating with our carrier partner to resolve this issue. We anticipate providing another update within the next 2 hours or as soon as more information becomes available.\nApr  5, 05:29 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to H3G network in Indonesia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/kwscmm3sqc1j",
+          "publishedOn": "2024-04-05T20:59:14.000Z",
+          "wordCount": 7704,
+          "title": "SMS Delivery Delays to H3G Network in Indonesia",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/1k3yvq3bcj8x",
           "author": null,
-          "description": "Apr  4, 13:29 PDT\nIdentified - We are experiencing degradation while updating A2P 10DLC Campaign registrations and are aware of the root cause. Please pause on updating A2P 10DLC Campaign registrations until the issue has been resolved. New Campaign registrations can proceed as expected.  We expect to provide another update in 8 hours or as soon as more information becomes available.\nApr  4, 11:24 PDT\nUpdate - We are experiencing delays in A2P 10DLC Campaign registration and are investigating the issue. We will provide another update in 2 hour, or as soon as more information becomes available.\nApr  4, 10:29 PDT\nInvestigating - We are experiencing delays in A2P 10DLC Campaign registration and are investigating the issue. We will provide another update in 1 hour, or as soon as more information becomes available.",
+          "description": "Apr  5, 11:26 PDT\nResolved - The delays in A2P 10DLC Campaign registration have been resolved, and services are operating normally at this time.\nApr  5, 09:19 PDT\nMonitoring - We are observing recovery regarding the issue causing degradation while updating A2P 10DLC Campaign registrations and have identified the root cause.  We anticipate providing another update in 2 hours or as soon as more information becomes available.\nApr  4, 21:18 PDT\nUpdate - We are experiencing degradation while updating A2P 10DLC Campaign registrations and are aware of the root cause. Please pause on updating A2P 10DLC Campaign registrations until the issue has been resolved. New Campaign registrations can proceed as expected.  We expect to provide another update in 16 hours or as soon as more information becomes available.\nApr  4, 13:29 PDT\nIdentified - We are experiencing degradation while updating A2P 10DLC Campaign registrations and are aware of the root cause. Please pause on updating A2P 10DLC Campaign registrations until the issue has been resolved. New Campaign registrations can proceed as expected.  We expect to provide another update in 8 hours or as soon as more information becomes available.\nApr  4, 11:24 PDT\nUpdate - We are experiencing delays in A2P 10DLC Campaign registration and are investigating the issue. We will provide another update in 2 hour, or as soon as more information becomes available.\nApr  4, 10:29 PDT\nInvestigating - We are experiencing delays in A2P 10DLC Campaign registration and are investigating the issue. We will provide another update in 1 hour, or as soon as more information becomes available.",
           "link": "https://status.twilio.com/incidents/1k3yvq3bcj8x",
-          "publishedOn": "2024-04-04T20:29:06.000Z",
-          "wordCount": 7593,
+          "publishedOn": "2024-04-05T18:26:04.000Z",
+          "wordCount": 7723,
           "title": "A2P 10DLC Campaign Registration Delays",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/vrqqbbg309yl",
-          "author": null,
-          "description": "Apr  4, 09:50 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Telenor Network in Pakistan. This incident has been resolved.\nApr  4, 07:43 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Telenor Network in Pakistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nApr  3, 23:30 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to Telenor Network in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.\nApr  2, 23:39 PDT\nUpdate - We continue experienci…",
-          "link": "https://status.twilio.com/incidents/vrqqbbg309yl",
-          "publishedOn": "2024-04-04T16:50:16.000Z",
-          "wordCount": 7886,
-          "title": "SMS Delivery Delays to Telenor Network in Pakistan",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/ttm4mbxpzgm5",
-          "author": null,
-          "description": "Apr  4, 08:59 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to MTN Network in Ivory Coast. This incident has been resolved.\nApr  4, 07:01 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to MTN Network in Ivory Coast. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nApr  3, 23:05 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to MTN Network in Ivory Coast. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nApr  3, 19:23 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to MTN Network in Ivory Coast. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nApr  3, 17:49 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to MTN Network in Ivory Coast. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nApr  3, 16:58 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to MTN Network in Ivory Coast. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/ttm4mbxpzgm5",
-          "publishedOn": "2024-04-04T15:59:28.000Z",
-          "wordCount": 7744,
-          "title": "SMS Delivery Delays to MTN Network in Ivory Coast",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -251,16 +231,6 @@
           "wordCount": 6250,
           "title": "Spaces Availability in SFO2",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/l9d26ggtbw8h",
-          "author": null,
-          "description": "Mar  6, 19:09 UTC\nResolved - Our Engineering team has identified and resolved an issue in the TOR1 region that impacted the network connectivity for a subset of Droplets and Droplet-based services for a brief duration.\nFrom 17:38 - 17:47 UTC, users might have experienced delays or errors while accessing and connecting to their resources in the TOR1 region from the public internet or from other resources in TOR1. Swift action was taken by our Engineering team that restored service and all services in TOR1 are operating correctly. \nWe apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.",
-          "link": "https://status.digitalocean.com/incidents/l9d26ggtbw8h",
-          "publishedOn": "2024-03-06T19:09:05.000Z",
-          "wordCount": 6289,
-          "title": "Network Connectivity in TOR1",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -316,6 +286,16 @@
       "feedUrl": "https://status.rippling.com/history.rss",
       "siteUrl": "https://status.rippling.com",
       "articles": [
+        {
+          "id": "https://status.rippling.com/incidents/rn71n51g45hs",
+          "author": null,
+          "description": "Apr  5, 20:21 UTC\nResolved - This incident has been resolved.\nApr  5, 19:55 UTC\nInvestigating - We are currently investigating an issue where there's an error when updating groups in Time Off policies and Report sharing.",
+          "link": "https://status.rippling.com/incidents/rn71n51g45hs",
+          "publishedOn": "2024-04-05T20:21:54.000Z",
+          "wordCount": 5293,
+          "title": "Issues with Saving Leave Policies and Report Sharing Rules",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
+        },
         {
           "id": "https://status.rippling.com/incidents/9q5bj32ym93x",
           "author": null,
@@ -380,6 +360,36 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/5ly0psff2s5d",
+          "author": null,
+          "description": "Apr  5, 09:18 UTC\nResolved - On April 5, 2024, between 8:11 and 8:58 UTC a number of GitHub services were degraded, returning error responses. Web request error rate peaked at 6%, API request error rate peaked at 10%. Actions had 103,660 workflow runs fail to start. \nA database load balancer change caused connection failures in one of our three data centers to various critical database clusters. The incident was mitigated once that change was rolled back.\nWe have updated our deployment pipeline to better detect this problem in earlier stages of rollout to reduce impact to end users. \n\nApr  5, 09:17 UTC\nUpdate - Pull Requests is operating normally.\nApr  5, 09:17 UTC\nUpdate - Issues is operating normally.\nApr  5, 09:17 UTC\nUpdate - API Requests is operating normally.\nApr  5, 09:17 UTC\nUpdate - Codespaces is operating normally.\nApr  5, 09:17 UTC\nUpdate - Actions is operating normally.\nApr  5, 09:17 UTC\nUpdate - Pages is operating normally.\nApr  5, 09:17 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nApr  5, 09:00 UTC\nUpdate - We've reverted a change we believe caused this, are seeing initial indications of reduced errors, and are monitoring for full recovery\nApr  5, 08:59 UTC\nUpdate - Pages is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:51 UTC\nUpdate - We're seeing connection failures to some databases in two of three sites and are investigating.\nApr  5, 08:50 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:49 UTC\nUpdate - Issues is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:49 UTC\nUpdate - API Requests is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:49 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:33 UTC\nInvestigating - We are investigating reports of degraded availability for Actions",
+          "link": "https://www.githubstatus.com/incidents/5ly0psff2s5d",
+          "publishedOn": "2024-04-05T09:18:10.000Z",
+          "wordCount": 5625,
+          "title": "Incident with Pages, Actions, Codespaces, API Requests, Issues and Pull Requests",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
+          "id": "https://www.githubstatus.com/incidents/syg5c6b5ls76",
+          "author": null,
+          "description": "Apr  5, 08:53 UTC\nResolved - This incident has been resolved.\nApr  5, 08:31 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/syg5c6b5ls76",
+          "publishedOn": "2024-04-05T08:53:39.000Z",
+          "wordCount": 5275,
+          "title": "We are investigating reports of degraded performance.",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
+          "id": "https://www.githubstatus.com/incidents/bnkkbj90yhz6",
+          "author": null,
+          "description": "Apr  5, 08:48 UTC\nResolved - This incident has been resolved.\nApr  5, 08:48 UTC\nUpdate - Issues, API Requests, Pull Requests and Codespaces are operating normally.\nApr  5, 08:36 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:34 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:32 UTC\nUpdate - API Requests is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:28 UTC\nInvestigating - We are investigating reports of degraded performance for Issues",
+          "link": "https://www.githubstatus.com/incidents/bnkkbj90yhz6",
+          "publishedOn": "2024-04-05T08:48:15.000Z",
+          "wordCount": 5368,
+          "title": "Incident with Issues, API Requests, Pull Requests and Codespaces",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/gqj5jrvzjb5h",
           "author": null,
@@ -458,6 +468,16 @@
       "siteUrl": "https://slack-status.com",
       "articles": [
         {
+          "id": "https://slack-status.com/2024-04/5c2ef1f0bf6a72bd",
+          "author": null,
+          "description": "Issue Summary:\r\nFrom April 4, 2024 at 12:30 PM PDT to April 4, 2024 at 10:20 PM PDT, some customers were receiving this error message when trying to rename a channel: “Oops/Whoops, something went wrong with renaming the channel. Please try again.”\r\n\r\nWe identified a code change which inadvertently altered the permission to edit channel. This resulted in this error being shown.\r\n\r\nWe rolled back this change, correcting the issue.\r\n\r\nImpacted customers should no longer experience any further trouble after reloading their Slack.\r\nTo reload Slack use Command + Shift + R on Mac and Ctrl + Shift + R on Windows/Linux.",
+          "link": "https://slack-status.com/2024-04/5c2ef1f0bf6a72bd",
+          "publishedOn": "2024-04-05T08:22:07.000Z",
+          "wordCount": 324,
+          "title": "Incident: Users receive an error message when attempting to rename a channel.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://slack-status.com/2024-04/cf9bb782030f9d05",
           "author": null,
           "description": "Issue summary: \r\nFrom April 1, 2024 at 5:13 PM PDT to April 2, 2024 at 12:36 PM PDT, some users experienced errors when submitting legacy workflows. \r\n\r\nA code change inadvertently introduced a logic error that sometimes resulted in an undefined workflow attribute. This caused affected workflows to crash, leading to an error message. \r\n\r\nWe corrected the logic error, resolving the issue for all affected legacy workflows.",
@@ -533,9 +553,9 @@
           "description": "Issue Summary:\r\n\r\nFrom March 20, 2024 at 10:28 AM PDT to March 25, 2024 at 6:14 AM PDT, some customers in the US were unable to receive 2FA SMS codes.\r\n\r\nThis issue was traced to customers with a specific mobile carrier. We engaged with our upstream provider, who worked with the carrier to resolve the issue. \r\n\r\nImpacted customers should no longer be experiencing any trouble receiving 2FA SMS codes.\r\n\r\nWe apologize for any inconvenience caused and thank you for your patience.",
           "link": "https://slack-status.com/2024-03/e29daf117453cebc",
           "publishedOn": "2024-03-27T17:32:35.000Z",
-          "wordCount": 385,
+          "wordCount": 1,
           "title": "Incident: Some customers in US are not receiving 2FA SMS codes",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+          "imageUrl": null
         },
         {
           "id": "https://slack-status.com/2024-03/9879b180bfdd0500",
@@ -633,7 +653,7 @@
           "description": "Issue summary:\r\n\r\nOn March 6, 2024 from 7:45 PM PST to around 9:33 PM PST customers reported that they were receiving a 500 error when viewing the legacy Incoming Webhook custom integration page.\r\n\r\nWe identified a backend code change that inadvertently changed data that the Incoming Webhook page needed to load which consequently caused the page to respond with an HTTP 500 error.\r\n\r\nWe rolled back the change, correcting the issue and all customers should now be able to access the Incoming Webhook page as expected.",
           "link": "https://slack-status.com/2024-03/1f506e0a906e75bb",
           "publishedOn": "2024-03-08T14:35:09.000Z",
-          "wordCount": 325,
+          "wordCount": 322,
           "title": "Incident: Issues with legacy custom integration configuration pages",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
