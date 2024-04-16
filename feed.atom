@@ -1,23 +1,210 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-04-15T02:38:34.661Z</id>
+    <id>urn:2024-04-16T00:21:28.428Z</id>
     <title>osmos::feed</title>
-    <updated>2024-04-15T02:38:34.661Z</updated>
+    <updated>2024-04-16T00:21:28.428Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Dialog Network in Sri Lanka]]></title>
-        <id>https://status.twilio.com/incidents/70bjrs2jg7mt</id>
-        <link href="https://status.twilio.com/incidents/70bjrs2jg7mt"/>
-        <updated>2024-04-14T22:12:24.000Z</updated>
-        <summary type="html"><![CDATA[Apr 14, 15:12 PDT
-Resolved - We are no longer experiencing SMS Delivery Delays to Dialog Network in Sri Lanka. This incident has been resolved.
-Apr 14, 13:17 PDT
-Monitoring - We are observing recovery in SMS Delivery Delays to Dialog Network in Sri Lanka. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 14, 12:27 PDT
-Update - We are experiencing SMS Delivery Delays to Dialog Network in Sri Lanka. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
-Apr 14, 12:21 PDT
-Investigating - Our monitoring systems have detected a potential issue With SMS Delivery Delays to Dialog Network in Sri Lanka . Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <title type="html"><![CDATA[NYC Network Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/d1h634d7193l</id>
+        <link href="https://status.digitalocean.com/incidents/d1h634d7193l"/>
+        <updated>2024-04-16T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 16, 11:00 - 13:00 UTC
+Apr  9, 21:13 UTC
+Scheduled - Start: 2024-04-16 11:00 UTC
+End: 2024-04-16 13:00 UTC
+During the above window, our Networking team will be making changes to core networking infrastructure, to improve performance and scalability in the NYC region. 
+Expected Impact:
+These upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience increased latency or a disruption in network traffic for 2-3 minutes. We will endeavor to keep any such impact to a minimum.
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - Verizon Wireless]]></title>
+        <id>https://status.twilio.com/incidents/td9m50n6x613</id>
+        <link href="https://status.twilio.com/incidents/td9m50n6x613"/>
+        <updated>2024-04-16T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 15, 20:00 PDT  -  Apr 16, 02:00 PDT
+Apr 12, 16:21 PDT
+Scheduled - Our carrier partner Verizon Wireless United States is conducting a planned maintenance from 15 April 2024 at 20:00 PDT until 16 April 2024 at 00:00 PDT. During the maintenance window, there could be intermittent API request failures for Verizon Wireless United States customers.
+
+Impacted Product: Verify Silent Network Auth]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS and MMS Delivery Delays and Failures to T-Mobile Network in the US]]></title>
+        <id>https://status.twilio.com/incidents/9nhrzyqf40rw</id>
+        <link href="https://status.twilio.com/incidents/9nhrzyqf40rw"/>
+        <updated>2024-04-15T23:59:35.000Z</updated>
+        <summary type="html"><![CDATA[Apr 15, 16:59 PDT
+Update - We are experiencing SMS and MMS delivery delays and failures when sending messages to T-Mobile Network in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Apr 15, 16:11 PDT
+Investigating - We are experiencing SMS and MMS delivery delays and failures via a subset of long codes when sending messages to T-Mobile Network in the US. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Notion Q&A downtime]]></title>
+        <id>https://status.notion.so/incidents/0c3j0zyw5yfw</id>
+        <link href="https://status.notion.so/incidents/0c3j0zyw5yfw"/>
+        <updated>2024-04-15T23:41:32.000Z</updated>
+        <summary type="html"><![CDATA[Apr 15, 16:41 PDT
+Resolved - This incident has been resolved.
+Apr 15, 16:17 PDT
+Update - We are continuing to investigate this issue.
+Apr 15, 15:56 PDT
+Investigating - Notion Q&A is seeing increased latency and errors for some customers. Our engineering team is investigating and will report back here for an update.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[500 Error From Authy API]]></title>
+        <id>https://status.twilio.com/incidents/pf9w53r543fw</id>
+        <link href="https://status.twilio.com/incidents/pf9w53r543fw"/>
+        <updated>2024-04-15T22:52:36.000Z</updated>
+        <summary type="html"><![CDATA[Apr 15, 15:52 PDT
+Resolved - The Authy API was degraded for 2 minutes between 10:53 AM to 10:55 AM Pacific Time on 04/13/2024. During this period of time, the API dropped many requests. Some customers were unable to start or check verifications. Also, some end-users may have seen errors in the Authy apps. The issue has now been resolved.
+Apr 15, 15:21 PDT
+Monitoring - Our engineers are currently investigating the customer impact of a retroactive issue with Authy API. We will follow up and provide customer impact details within 2 hours.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Receipts Delays to Indosat Network in Indonesia]]></title>
+        <id>https://status.twilio.com/incidents/j89693dpjyn7</id>
+        <link href="https://status.twilio.com/incidents/j89693dpjyn7"/>
+        <updated>2024-04-15T22:46:09.000Z</updated>
+        <summary type="html"><![CDATA[Apr 15, 15:46 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to the Indosat and H3G networks in Indonesia. This incident has been resolved.
+Apr 15, 13:45 PDT
+Update - We are seeing recovery for SMS delivery delays when sending messages to the Indosat and H3G networks in Indonesia. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Apr 15, 11:50 PDT
+Monitoring - We have started seeing recovery for SMS delivery delays when sending messages to the Indosat and H3G networks in Indonesia. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Apr 14, 15:52 PDT
+U…]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Modals opened in huddle threads cannot be closed]]></title>
+        <id>https://slack-status.com/2024-04/176a36fe4116798b</id>
+        <link href="https://slack-status.com/2024-04/176a36fe4116798b"/>
+        <updated>2024-04-15T21:38:26.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+On April 12, 2024, from around 2:30 PM PDT until April 15, 2024, at 11:45 AM PDT, some users were unable to close a modal while in a huddle thread that was opened in a child window (a window popped open outside of the main Slack client).
+
+This was commonly presented to users when they attempted to select an emoji from the emoji picker in a huddle thread but, we discovered this also occurred with other emoji picker modals that were open in a child window while using the desktop or browser versions of Slack.
+
+We traced this issue back to a recent change we made to improve the modal navigation experience in Slack. We rolled back that change which resolved this issue for affected users.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Timor Telecom Network in Timor Leste]]></title>
+        <id>https://status.twilio.com/incidents/7k634khlg9yn</id>
+        <link href="https://status.twilio.com/incidents/7k634khlg9yn"/>
+        <updated>2024-04-15T20:07:39.000Z</updated>
+        <summary type="html"><![CDATA[Apr 15, 13:07 PDT
+Resolved - We continue to face SMS delivery delays when sending messages to the Timor Telecom Network in Timor Leste. We will contact the impacted customers individually to provide further updates and concerns related to this particular degradation. We will resolve this post.
+Apr 14, 13:47 PDT
+Update - We are continuing to experience SMS delivery delays when sending messages to the Timor Telecom Network in Timor Leste. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
+Apr 13, 13:52 PDT
+Update - We are continuing to experience SMS delivery delays when sending messages to the Timor Telecom Network in Timor Leste. Our engineers are working with our carrier part…]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Customers unable to purchase UK Mobile Numbers]]></title>
+        <id>https://status.twilio.com/incidents/zhgslc5dvzwt</id>
+        <link href="https://status.twilio.com/incidents/zhgslc5dvzwt"/>
+        <updated>2024-04-15T17:25:15.000Z</updated>
+        <summary type="html"><![CDATA[Apr 15, 10:25 PDT
+Resolved - The incident where customers were unable to purchase UK mobile phone numbers due to address requirement restrictions has been resolved.
+Apr 15, 09:54 PDT
+Monitoring - Our engineers have deployed a fix for the issue where customers were unable to purchase UK mobile phone numbers due to address requirement restrictions. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+Apr 15, 09:02 PDT
+Investigating - We're continuing to investigate an issue reported when purchasing UK mobile phone numbers due to new address requirements. We are actively working to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Apr 15, 08:04 PDT
+Identified - We're investigating an issue reported when purchasing UK mobile phone numbers due to new address requirements. We are actively working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Email delivery issues]]></title>
+        <id>https://status.notion.so/incidents/v8hfygg0xlbs</id>
+        <link href="https://status.notion.so/incidents/v8hfygg0xlbs"/>
+        <updated>2024-04-15T17:06:29.000Z</updated>
+        <summary type="html"><![CDATA[Apr 15, 10:06 PDT
+Update - The current issue involving email delivery issues affecting Notion users looks to be happening specifically with iCloud-hosted email addresses. We are still actively investigating.
+Apr 15, 08:18 PDT
+Investigating - Some Notion users are not receiving emails sent to them by Notion. We are actively investigating.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Copilot]]></title>
+        <id>https://www.githubstatus.com/incidents/clgh4y84qzc8</id>
+        <link href="https://www.githubstatus.com/incidents/clgh4y84qzc8"/>
+        <updated>2024-04-15T14:53:58.000Z</updated>
+        <summary type="html"><![CDATA[Apr 15, 14:53 UTC
+Resolved - This incident has been resolved.
+Apr 15, 14:13 UTC
+Update - We have applied mitigation for Copilot in EU region and are working towards the full recovery of the service.
+Apr 15, 13:35 UTC
+Update - Due to an outage in one Copilot region traffic is currently being served from other regions. European users may experience higher response times.
+Apr 15, 12:58 UTC
+Investigating - We are investigating reports of degraded performance for Copilot]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[High Packet Loss for Voice Calls to Italy]]></title>
+        <id>https://status.twilio.com/incidents/zgpn65fszhjr</id>
+        <link href="https://status.twilio.com/incidents/zgpn65fszhjr"/>
+        <updated>2024-04-15T11:26:17.000Z</updated>
+        <summary type="html"><![CDATA[Apr 15, 04:26 PDT
+Resolved - The issue affecting high packet loss for inbound voice calls to Italy has been resolved, and the service is functioning normally at this time.
+Apr 15, 02:36 PDT
+Monitoring - We have started seeing recovery in high packet loss for inbound voice calls to Twilio numbers in Italy. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Apr 15, 01:37 PDT
+Investigating - We are investigating high packet loss for inbound voice calls to Twilio numbers in Italy. We expect to provide an update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to TDCA Network in Afghanistan]]></title>
+        <id>https://status.twilio.com/incidents/tqfvyv10559n</id>
+        <link href="https://status.twilio.com/incidents/tqfvyv10559n"/>
+        <updated>2024-04-15T09:38:30.000Z</updated>
+        <summary type="html"><![CDATA[Apr 15, 02:38 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to TDCA network in Afghanistan. This incident has been resolved.
+Apr 15, 00:33 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to TDCA network in Afghanistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Apr 14, 20:43 PDT
+Update - We are still experiencing SMS delivery delays when sending messages to TDCA network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.
+Apr 14, 12:43 PDT
+Update - We are still experiencing SMS delivery delays when sending messages to TDCA network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+Apr 14, 08:49 PDT
+Update - We are still experiencing SMS delivery delays when sending messages to TDCA network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+Apr 14, 06:49 PDT
+Update - We continue experiencing SMS delivery delays when sending messages to TDCA network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Apr 14, 05:49 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to TDCA Network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -48,144 +235,6 @@ Investigating - We are currently investigating this issue.]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to TDCA Network in Afghanistan]]></title>
-        <id>https://status.twilio.com/incidents/tqfvyv10559n</id>
-        <link href="https://status.twilio.com/incidents/tqfvyv10559n"/>
-        <updated>2024-04-14T19:43:31.000Z</updated>
-        <summary type="html"><![CDATA[Apr 14, 12:43 PDT
-Update - We are still experiencing SMS delivery delays when sending messages to TDCA network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
-Apr 14, 08:49 PDT
-Update - We are still experiencing SMS delivery delays when sending messages to TDCA network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Apr 14, 06:49 PDT
-Update - We continue experiencing SMS delivery delays when sending messages to TDCA network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 14, 05:49 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to TDCA Network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - AT&T]]></title>
-        <id>https://status.twilio.com/incidents/bttdm40s47jm</id>
-        <link href="https://status.twilio.com/incidents/bttdm40s47jm"/>
-        <updated>2024-04-14T18:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Apr 14, 11:00 PDT
-Completed - The scheduled maintenance has been completed.
-Apr 14, 07:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Apr 12, 20:18 PDT
-Scheduled - Our carrier partner AT&T in United States is conducting a planned maintenance from 14 April 2024 at 07:00 PDT until 14 April 2024 at 11:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.
-
-Impacted Products: Verify Silent Network Auth, Lookup SIM Swap]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - AT&T]]></title>
-        <id>https://status.twilio.com/incidents/65zxvl4hc2fc</id>
-        <link href="https://status.twilio.com/incidents/65zxvl4hc2fc"/>
-        <updated>2024-04-14T14:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Apr 14, 07:00 PDT
-Completed - The scheduled maintenance has been completed.
-Apr 13, 19:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Apr 12, 20:17 PDT
-Scheduled - Our carrier partner AT&T in United States is conducting a planned maintenance from 13 April 2024 at 19:00 PDT until 14 April 2024 at 07:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.
-
-Impacted Products: Verify Silent Network Auth, Lookup SIM Swap]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issue Affecting Hosting of Toll-Free Numbers]]></title>
-        <id>https://status.twilio.com/incidents/07cpk9klm7bf</id>
-        <link href="https://status.twilio.com/incidents/07cpk9klm7bf"/>
-        <updated>2024-04-13T09:13:44.000Z</updated>
-        <summary type="html"><![CDATA[Apr 13, 02:13 PDT
-Resolved - We are no longer experiencing issues with carrier uploads failing for hosted number orders. This incident has been resolved.
-Apr 12, 18:58 PDT
-Update - We are still continuing to investigate carrier upload failing for Hosted Number orders. Our engineers are working to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
-Apr 12, 15:26 PDT
-Update - We are continuing to investigate carrier upload failing for Hosted Number orders. Our engineers are working to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Apr 12, 13:07 PDT
-Update - We are continuing to investigate carrier upload failing for Hosted Number orders. Our engineers are working to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 12, 12:06 PDT
-Investigating - We are investigating carrier upload failing for Hosted Number orders. We expect to provide another update in 1 hour or as soon as more information becomes available]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to AT&T Network in the US From a Subset of Shortcodes]]></title>
-        <id>https://status.twilio.com/incidents/ctwdzhvrxjw3</id>
-        <link href="https://status.twilio.com/incidents/ctwdzhvrxjw3"/>
-        <updated>2024-04-13T09:04:47.000Z</updated>
-        <summary type="html"><![CDATA[Apr 13, 02:04 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to AT&T and T-Mobile Networks in the US from a subset of shortcodes. This incident has been resolved.
-Apr 13, 01:43 PDT
-Investigating - We continue to experience SMS delivery delays when sending messages to AT&T and T-Mobile Networks in the US from a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
-Apr 12, 23:41 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to AT&T and T-Mobile Networks in the US from a subset of shortcodes. We will continue monitoring the service to ensure a full recovery. We will provide another …]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Surf Telecom Network in Brazil]]></title>
-        <id>https://status.twilio.com/incidents/wljjn5pb7bqg</id>
-        <link href="https://status.twilio.com/incidents/wljjn5pb7bqg"/>
-        <updated>2024-04-13T08:46:13.000Z</updated>
-        <summary type="html"><![CDATA[Apr 13, 01:46 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Surf Telecom Network in Brazil. This incident has been resolved.
-Apr 12, 23:47 PDT
-Monitoring - We are observing recovery in delivery report delays when sending to Surf Telecom Network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 12, 18:30 PDT
-Update - We are still continuing to investigate SMS delivery delays when sending messages to Surf Telecom Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
-Apr 12, 14:38 PDT
-Update - We are continuing to investigate SMS delivery delays when sending messages to Surf Telecom Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Apr 12, 12:19 PDT
-Update - We are continuing to investigate SMS delivery delays when sending messages to Surf Telecom Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 12, 11:24 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Surf Telecom Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to MTN Network in Ivory Coast]]></title>
-        <id>https://status.twilio.com/incidents/gf5654h6g72d</id>
-        <link href="https://status.twilio.com/incidents/gf5654h6g72d"/>
-        <updated>2024-04-13T00:53:01.000Z</updated>
-        <summary type="html"><![CDATA[Apr 12, 17:53 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to MTN Network in Ivory Coast. This incident has been resolved.
-Apr 12, 15:44 PDT
-Update - We continue to observe successful SMS delivery to MTN Network in Ivory Coast.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 12, 13:46 PDT
-Monitoring - We are observing successful SMS delivery to MTN Network in Ivory Coast.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 12, 11:41 PDT
-Update - We are continuing to investigate SMS delivery delays when sending messages to  MTN Network in Ivory Coast. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hour or as soon as more information becomes available.
-Apr 12, 10:39 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to  MTN Network in Ivory Coast. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Automated Alert: No Customer Impact for SMS Delivery Report Delays to Multiple Networks in Algeria]]></title>
-        <id>https://status.twilio.com/incidents/7hccnlmbkgk9</id>
-        <link href="https://status.twilio.com/incidents/7hccnlmbkgk9"/>
-        <updated>2024-04-12T23:36:18.000Z</updated>
-        <summary type="html"><![CDATA[Apr 12, 16:36 PDT
-Resolved - We have fully investigated the SMS Delivery Report Delays to Multiple Networks in Algeria issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
-Apr 12, 16:02 PDT
-Investigating - Our monitoring systems have detected a potential issue with SMS Delivery Report Delays to Multiple Networks in Algeria. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[API Docs Unavailable]]></title>
         <id>https://airbnbapi.statuspage.io/incidents/w5ry2phnhkt8</id>
         <link href="https://airbnbapi.statuspage.io/incidents/w5ry2phnhkt8"/>
@@ -197,98 +246,6 @@ Investigating - Our third-party service, ReadMe, is experiencing an issue which 
 We apologize for the inconvenience, and please don't hesitate to contact us if you need further assistance.]]></summary>
         <author>
             <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twilio Interconnect Maintenance (Australia)]]></title>
-        <id>https://status.twilio.com/incidents/98vq4dgk1zk6</id>
-        <link href="https://status.twilio.com/incidents/98vq4dgk1zk6"/>
-        <updated>2024-04-12T21:52:37.000Z</updated>
-        <summary type="html"><![CDATA[Apr 12, 14:52 PDT
-Completed - Following the successful outcome of the initial Maintenance 12 April 05:00 until 12 April 12:00 PST, this additional backup date is no longer required and is being removed. Thank you.
-Mar 20, 15:27 PDT
-Scheduled - Twilio is conducting planned maintenance from 13 April 07:00 until 13 April 12:00 PDT on the Twilio Network Exchange in Sydney, Australia (AU1). During the maintenance window there could be intermittent impact to services with Interconnects in AU1.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twilio Voice Maintenance (Australia)]]></title>
-        <id>https://status.twilio.com/incidents/22z9pygrzc9t</id>
-        <link href="https://status.twilio.com/incidents/22z9pygrzc9t"/>
-        <updated>2024-04-12T21:52:13.000Z</updated>
-        <summary type="html"><![CDATA[Apr 12, 14:52 PDT
-Completed - Following the successful outcome of the initial Maintenance 12 April 05:00 until 12 April 12:00 PST, this additional backup date is no longer required and is being removed. Thank you.
-Mar 20, 15:27 PDT
-Scheduled - Twilio is conducting a planned maintenance from 13 April 07:00 until 13 April 12:00 PDT on the Twilio network. During the maintenance window there could be intermittent impact on calls to and from Australia / New Zealand.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to and From a Subset of Brazil and Israel Long Codes]]></title>
-        <id>https://status.twilio.com/incidents/hydh1qn7ywm7</id>
-        <link href="https://status.twilio.com/incidents/hydh1qn7ywm7"/>
-        <updated>2024-04-12T20:38:12.000Z</updated>
-        <summary type="html"><![CDATA[Apr 12, 13:38 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to and from a subset of Brazil and Israel long codes. This incident has been resolved.
-Apr 12, 11:32 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to and from a subset of Brazil and Israel long codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 12, 11:15 PDT
-Update - We are continuing to investigate SMS delivery delays when sending messages to and from a subset of Brazil and Israel long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 12, 10:15 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to and from a subset of Brazil and Israel long codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twilio Interconnect Maintenance (Australia)]]></title>
-        <id>https://status.twilio.com/incidents/0pbk108h3g4w</id>
-        <link href="https://status.twilio.com/incidents/0pbk108h3g4w"/>
-        <updated>2024-04-12T19:00:20.000Z</updated>
-        <summary type="html"><![CDATA[Apr 12, 12:00 PDT
-Completed - The scheduled maintenance has been completed.
-Apr 12, 05:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 20, 15:27 PDT
-Scheduled - Twilio is conducting planned maintenance from 12 April 05:00 until 12 April 12:00 PDT on the Twilio Network Exchange in Sydney, Australia (AU1). During the maintenance window there could be intermittent impact to services with Interconnects in AU1.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twilio Voice Maintenance (Australia)]]></title>
-        <id>https://status.twilio.com/incidents/znpdzgggsm9x</id>
-        <link href="https://status.twilio.com/incidents/znpdzgggsm9x"/>
-        <updated>2024-04-12T19:00:03.000Z</updated>
-        <summary type="html"><![CDATA[Apr 12, 12:00 PDT
-Completed - The scheduled maintenance has been completed.
-Apr 12, 05:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 20, 15:26 PDT
-Scheduled - Twilio is conducting a planned maintenance from 12 April 05:00 until 12 April 12:00 PDT on the Twilio network. During the maintenance window there could be intermittent impact on calls to and from Australia / New Zealand.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Calls to and From Twilio French Numbers Are Missing Audio Media]]></title>
-        <id>https://status.twilio.com/incidents/4r2yx16g0fsj</id>
-        <link href="https://status.twilio.com/incidents/4r2yx16g0fsj"/>
-        <updated>2024-04-12T18:52:41.000Z</updated>
-        <summary type="html"><![CDATA[Apr 12, 11:52 PDT
-Resolved - The issue affecting inbound and outbound calls from Twilio French phone numbers has been resolved, and the service is functioning normally at this time.
-Apr 12, 09:53 PDT
-Update - We have started seeing recovery for inbound and outbound calls from Twilio French phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 12, 07:48 PDT
-Monitoring - We have started seeing recovery for inbound and outbound calls from Twilio French phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 12, 05:49 PDT
-Update - We are still experiencing issues with calls to and from Twilio French numbers which are missing audio media. Our engineers are working with our PSTN carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 12, 04:58 PDT
-Investigating - We are experiencing issues with calls to and from Twilio French numbers which are missing audio media. Our engineers are working with our PSTN carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1160,28 +1117,6 @@ From 1:00 PM PDT on March 16, 2024 to 2:57 PM PDT on March 18, 2024, some users 
 We determined that a recent backend change to the navigation bar badging rules was preventing this view from loading properly. We reverted this change, which resolved the issue for all affected users.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DigitalOcean Support Portal Maintenance]]></title>
-        <id>https://status.digitalocean.com/incidents/6w4ffgm83798</id>
-        <link href="https://status.digitalocean.com/incidents/6w4ffgm83798"/>
-        <updated>2024-03-17T05:00:56.000Z</updated>
-        <summary type="html"><![CDATA[Mar 17, 05:00 UTC
-Completed - The scheduled maintenance has been completed.
-Mar 17, 02:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 12, 16:11 UTC
-Scheduled - Start: 2024-03-17 02:00 UTC
-End: 2024-03-17 05:00 UTC
-During the above maintenance window, there will be maintenance performed on our ticketing system.
-Expected Impact:
-During the course of the maintenance, users will be unable to submit support tickets, update existing tickets, or receive replies to existing tickets. Users will also be unable to log into https://cloudsupport.digitalocean.com/s/ or open the Support Portal from within the Cloud Control Panel.
-Any tickets submitted during the maintenance via alternate methods (such as replying to an email chain or via our webform) will be saved and entered into our ticketing system at the completion of the maintenance.
-Our Support Team will also be impacted by this maintenance and will be unable to enter the ticketing system to receive any tickets or reply to existing tickets. As soon as the vendor maintenance has completed, our team will address all support queries as quickly as possible.
-We appreciate your patience throughout this process.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
