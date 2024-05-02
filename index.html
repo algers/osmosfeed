@@ -22,11 +22,53 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-01 datetime="2024-05-01T04:00:00.000Z">2024-05-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-01 datetime="2024-05-01T04:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-02 datetime="2024-05-02T12:00:00.000Z">2024-05-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-02 datetime="2024-05-02T12:00:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >DigitalOcean Status - Incident History</button>
+                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.digitalocean.com/incidents/z9r8gg95bqqm"
+                        open
+                      >
+                        <summary class="article-expander__title">NYC2 Network Maintenance</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/z9r8gg95bqqm">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>THIS IS A SCHEDULED EVENT May 2, 12:00 - 15:00 UTC
+Apr 30, 15:32 UTC
+Scheduled - Start: 2024-05-02 12:00 UTC
+End: 2024-05-02 15:00 UTC
+During the above window, our Networking team will be making changes to core networking infrastructure, to improve performance and scalability in the NYC2 region. 
+Expected Impact:
+These upgrades are designed and tested to be seamless and we do not expect any impact on customer traffic due to this maintenance. 
+If an unexpected issue arises, affected Droplets and Droplet-based services could experience increased latency or disruption in public network traffic for a short period of time. If an unexpected issue does occur, our team is prepared to rollback to a safe state to quickly restore public networking. We expect that traffic would be impacted for a period of 5-10 minutes, at most, in that case.
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;21
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -42,17 +84,17 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/vkgmwvjyr8m6"
+                        data-accordion-key="https://status.twilio.com/incidents/kw7f4pllw4rl"
                         open
                       >
-                        <summary class="article-expander__title">US SMS and MMS Carrier Partner Maintenance</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/vkgmwvjyr8m6">
+                        <summary class="article-expander__title">US and Canada SMS and MMS Carrier partner Maintenance</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/kw7f4pllw4rl">
                           <div class="article-summary-box-inner media-object">
                               <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>THIS IS A SCHEDULED EVENT Apr 30, 21:00 PDT  -  May 1, 01:30 PDT
-Apr 25, 20:29 PDT
-Scheduled - Our SMS and MMS carrier partner in the US is conducting a planned maintenance from 30 April 2024 at 21:00 PDT until 01 May 2024 at 01:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US handsets via US short codes</span>
+                              <span>THIS IS A SCHEDULED EVENT May 1, 20:00 PDT  -  May 2, 00:00 PDT
+Apr 26, 16:35 PDT
+Scheduled - Our SMS and MMS carrier partner in the US and Canada is conducting a planned maintenance from 01 May 2024 at 20:00 PDT until 02 May 2024 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets via Toll-free numbers.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;25
                                   min&hairsp;)</span>
                             </span>
@@ -64,19 +106,25 @@ Scheduled - Our SMS and MMS carrier partner in the US is conducting a planned ma
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/371mnvcdt5nv"
+                        data-accordion-key="https://status.twilio.com/incidents/k93z1kgw8q3x"
                         open
                       >
-                        <summary class="article-expander__title">Call Failures to a Subset of Twilio Brazil Phone Numbers</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/371mnvcdt5nv">
+                        <summary class="article-expander__title">SMS Delivery Delays and Failures to Tigo Network in Honduras</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/k93z1kgw8q3x">
                           <div class="article-summary-box-inner media-object">
                               <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>Apr 30, 17:08 PDT
-Update - We are observing call failures to a subset of Twilio Brazil phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
-Apr 30, 17:06 PDT
-Investigating - Our monitoring systems have detected a potential issue with call failures to a subset of Twilio Brazil phone numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
+                              <span>May  1, 17:18 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Tigo network in Honduras. This incident has been resolved.
+May  1, 15:18 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Tigo network in Honduras. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+May  1, 11:18 PDT
+Update - We continue experiencing SMS delivery delays when sending messages to Tigo network in Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+May  1, 09:22 PDT
+Update - We are still experiencing SMS delivery delays when sending messages to Tigo network in Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+May  1, 08:15 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to Tigo network in Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;26
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -95,181 +143,11 @@ Investigating - Our monitoring systems have detected a potential issue with call
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-30 datetime="2024-04-30T23:50:09.000Z">2024-04-30</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-30 datetime="2024-04-30T23:50:09.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-01 datetime="2024-05-01T23:41:56.000Z">2024-05-01</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-01 datetime="2024-05-01T23:41:56.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Twilio Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.twilio.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/51kk02zlngsb"
-                        open
-                      >
-                        <summary class="article-expander__title">SMS Delivery Delays and Failures To Bmobile Network In Papua New Guinea</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/51kk02zlngsb">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Apr 30, 16:50 PDT
-Update - We are experiencing SMS Delivery Delays and Failures when sending to the Bmobile Network in Papua New Guinea. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
-Apr 30, 16:46 PDT
-Investigating - Our monitoring systems have detected a potential issue with SMS Delivery Delays and Failures when sending to the Bmobile Network In Papua New Guinea. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/7sjw3pnbb7jl"
-                        open
-                      >
-                        <summary class="article-expander__title">SMS Delivery Reports Delay to Multiple Networks in the US from a Subset of Shortcodes</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/7sjw3pnbb7jl">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Apr 30, 15:43 PDT
-Monitoring - We are observing recovery from the issue causing delays in receiving message delivery reports when sending to multiple networks in the US over a subset of short codes.. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 30, 13:43 PDT
-Update - We are continuing to investigate the issue causing delays in receiving message delivery reports when sending to multiple networks in the US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 30, 12:43 PDT
-Investigating - We are experiencing delays in receiving message delivery reports when sending to multiple networks in the US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/2qbjmn4n1qvw"
-                        open
-                      >
-                        <summary class="article-expander__title">United Kingdom Account Security Carrier Partner Maintenance - Vodafone</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/2qbjmn4n1qvw">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Apr 30, 15:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Apr 29, 16:43 PDT
-Scheduled - Our carrier partner Vodafone United Kingdom is conducting a planned maintenance from 30 April 2024 at 15:00 PDT until 30 April 2024 at 21:30 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone United Kingdom customers.
-
-Impacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/p00fvtqjfyn6"
-                        open
-                      >
-                        <summary class="article-expander__title">Inbound Call Failures to a Subset of Twilio Trinidad and Tobago Phone Numbers</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/p00fvtqjfyn6">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Apr 30, 13:26 PDT
-Resolved - The issue affecting inbound calls to Twilio Trinidad and Tobago phone numbers has been resolved, and the service is functioning normally at this time.
-Apr 30, 11:26 PDT
-Monitoring - We have started seeing recovery for inbound calls to Twilio Trinidad and Tobago phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 29, 18:54 PDT
-Update - We are still continuing to experience inbound call failures to Twilio Trinidad and Tobago phone numbers. We are actively working with our carrier partner to resolve the issue. We expect to provide another update in 24 hours or as soon as more information becomes available.
-Apr 28, 18:54 PDT
-Update - We are still c…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/xmsww10sptx7"
-                        open
-                      >
-                        <summary class="article-expander__title">SMS Delivery Delays To Glo Network in Nigeria</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/xmsww10sptx7">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Apr 30, 13:15 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Glo network in Nigeria. This incident has been resolved.
-Apr 30, 11:15 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Glo network in Nigeria. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 30, 09:36 PDT
-Update - We continue experiencing SMS delivery delays when sending messages to Glo network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Apr 30, 07:39 PDT
-Update - We are still experiencing SMS delivery delays when sending messages to Glo network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 30, 06:28 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Glo network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/r8r2lf7dlz4b"
-                        open
-                      >
-                        <summary class="article-expander__title">SMS Delivery Delays to Orange Network in Cameroon</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/r8r2lf7dlz4b">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Apr 30, 13:07 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Orange network in Cameroon. This incident has been resolved.
-Apr 30, 11:07 PDT
-Monitoring - We are observing successful SMS delivery Orange network in Cameroon.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 30, 09:10 PDT
-Update - We are still experiencing SMS delivery delays when sending messages to Orange network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 30, 08:16 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Orange network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -285,19 +163,24 @@ Investigating - We are experiencing SMS delivery delays when sending messages to
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/kyvpnGVXuGba1rAmcdaV"
+                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT"
                         open
                       >
-                        <summary class="article-expander__title">RESOLVED: We&#x27;re investigating reports of an issue with Google Calendar. We will provide more information shortly.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/kyvpnGVXuGba1rAmcdaV">
+                        <summary class="article-expander__title">RESOLVED: We are aware of an issue affecting Gmail users sending emails to some email addresses. We are currently investigating.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>Incident began at 2024-04-18 21:40 and ended at 2024-04-20 19:23 (times are in Coordinated Universal Time (UTC)).
+                              <span>Incident began at 2024-04-30 00:00 and ended at 2024-05-01 22:55 (times are in Coordinated Universal Time (UTC)).
 
-An incident report has been posted at https://www.google.com/appsstatus/dashboard/incidents/D6dP4yHWc2m93ZhpLYKw
+Summary:
+Gmail customers are currently unable to send unsigned messages to Yahoo.
+Description:
+The issue has been resolved for all affected users as of Wednesday, 2024-05-01 15:55 US/Pacific.
+There was a problem external to Google which has now been resolved.
+We thank you for your patience while we worked on resolving the issue.
 
-Affected products: Google Calendar</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
+Affected products: Gmail</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -308,19 +191,80 @@ Affected products: Google Calendar</span>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/XKnCyj2ED7njHXsC7a6E"
+                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT"
                         open
                       >
-                        <summary class="article-expander__title">RESOLVED: We&#x27;re investigating reports of an issue with Gmail. We will provide more information shortly.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/XKnCyj2ED7njHXsC7a6E">
+                        <summary class="article-expander__title">UPDATE: We are aware of an issue affecting Gmail users sending emails to some email addresses. We are currently investigating.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>Incident began at 2024-04-18 21:40 and ended at 2024-04-20 19:23 (times are in Coordinated Universal Time (UTC)).
+                              <span>Incident began at 2024-04-30 00:00 and ended at 2024-05-01 22:55 (times are in Coordinated Universal Time (UTC)).
 
-An incident report has been posted at https://www.google.com/appsstatus/dashboard/incidents/D6dP4yHWc2m93ZhpLYKw
+Summary
+Gmail customers are currently unable to send unsigned messages to Yahoo.
+Description:
+A small subset of Gmail customers are experiencing difficulty sending messages to Yahoo.
+Our engineering team continues to work on mitigation.
+Customer messages may be bounced with the below error:
+&quot;This mail has been blocked because the sender is unauthenticated. Yahoo requires all senders to authenticate with either SPF or DKIM.&quot;
+If you&#x27;re seeing this error message, please consider setting up SPF (https://support.google.com/a/answer/33786) or DKIM (https://support.google.com/a/answer/174124) for your sending domain(s).
+Note that Sender Policy Framework (SPF) and DomainKeys Identified Mail (DKIM) records may take some time to become fully propagated in DNS and therefore the issue may persist for a little while longer after setting these records up.
+We will provide an update by Wednesday, 2024-05-01 20:30 US/Pacific with current details.
+We apologize to all who are affected by the disruption.
 
 Affected products: Gmail</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT"
+                        open
+                      >
+                        <summary class="article-expander__title">UPDATE: We are aware of an issue affecting Gmail users sending emails to some email addresses. We are currently investigating.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Incident began at 2024-04-30 00:00 and ended at 2024-05-01 22:55 (times are in Coordinated Universal Time (UTC)).
+
+Gmail customers are currently unable to send unsigned messages to Yahoo.
+Our engineering team continues to investigate.
+Customer messages sent to Yahoo/AOL recipients may be bounced with the error &quot;This mail has been blocked because the sender is unauthenticated. Yahoo requires all senders to authenticate with either SPF or DKIM.&quot;
+If you&#x27;re seeing this error message, please set up SPF (https://support.google.com/a/answer/33786) or DKIM (https://support.google.com/a/answer/174124) for your sending domain(s). For DKIM, you should set up a record for your own sending domain. You should not rely on the default DKIM key applied by Google (*.gappssmtp.com) to avoid this error.
+Note that SPF and DKIM records may take some time to become fully propagated in DNS and therefore the issue may persist for a little while longer after setting these records up.
+We apologize to all who are affected by the disruption.
+
+Affected products: Gmail</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT"
+                        open
+                      >
+                        <summary class="article-expander__title">UPDATE: We are aware of an issue affecting Gmail users sending emails to some email addresses. We are currently investigating.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Incident began at 2024-04-30 00:00 and ended at 2024-05-01 22:55 (times are in Coordinated Universal Time (UTC)).
+
+We are aware of an issue affecting Gmail users sending emails to some email addresses. We are currently investigating.
+
+Affected products: Gmail</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -375,6 +319,281 @@ Affected products: Google Chat</span>
                 </section>
               </section>
             </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Twilio Status - Incident History</button>
+                  <a class="source-heading__link" href="https://status.twilio.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.twilio.com/incidents/0d35ltswglqv"
+                        open
+                      >
+                        <summary class="article-expander__title">Hosted Numbers Customers Might be Facing Issues With Actions Related to Letter Of Authorization (LOA)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/0d35ltswglqv">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>May  1, 15:42 PDT
+Update - We continue investigating the issues causing Hosted Numbers customers to experience issues with Letter Of Authorization (LOA) generation and signing for their new Hosted Number Orders and thus delay in hosting of their numbers. We will provide another update in 2 hours or as soon as more information becomes available.
+May  1, 14:57 PDT
+Update - Hosted Numbers customers might be facing issues with Letter Of Authorization (LOA) generation and signing for their new Hosted Number Orders and thus delay in hosting of their numbers. We will provide another update in 1 hour or as soon as more information becomes available.
+May  1, 14:41 PDT
+Update - We are continuing to investigate this issue.
+May  1, 14:40 PDT
+Investigating - Our monitoring systems have detected a potential issue with Hosted Numbers seeing 401 errors from Dropbox Sign. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.twilio.com/incidents/d3nfjvbkry5c"
+                        open
+                      >
+                        <summary class="article-expander__title">United Kingdom Account Security Carrier Partner Maintenance - Vodafone UK</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/d3nfjvbkry5c">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>May  1, 15:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+May  1, 06:56 PDT
+Scheduled - Our carrier partner Vodafone UK is conducting a planned maintenance from 01 May 2024 at 15:00 PDT until 01 May 2024 at 22:25 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone UK customers.
+
+Impacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;25
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.twilio.com/incidents/7wrq64ntchcp"
+                        open
+                      >
+                        <summary class="article-expander__title">Super SIM Network Connectivity Issues</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/7wrq64ntchcp">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>May  1, 14:48 PDT
+Resolved - We are no longer experiencing Super SIM Connectivity issues and service is operating normally at this time.
+May  1, 12:49 PDT
+Monitoring - We are now seeing recovery of the Super SIM connectivity issues. We are continuing to monitor for service stability. We will provide another update in 2 or as soon as more information becomes available.
+May  1, 11:12 PDT
+Update - Since 09:09 pacific time, we are experiencing Super SIM connectivity issues. We observed ~5% of active data sessions on Super SIM being dropped, mostly affecting devices connected to the European internet breakout (de1.super). Our engineering team is actively working to resolve the issue. We will provide another update in 2 hours or sooner once more information becomes available.
+May  1, 10:13 PDT
+Update - Since 09:09 pacific time, we are experiencing Super SIM connectivity issues. We observed ~5% of active data sessions on Super SIM being dropped, mostly affecting devices connected to the European internet breakout (de1.super). Our engineering team is actively working to resolve the issue. We will provide another update in 1 hour or sooner once more information becomes available.
+May  1, 09:58 PDT
+Investigating - Our monitoring systems have detected a potential issue with SuperSIM. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;26
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.twilio.com/incidents/zplslp92lvnb"
+                        open
+                      >
+                        <summary class="article-expander__title">SMS Delivery Delays to Glo Network in Nigeria</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/zplslp92lvnb">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>May  1, 13:18 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Glo network in Nigeria. This incident has been resolved.
+May  1, 11:18 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Glo network in Nigeria. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+May  1, 10:17 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to Glo network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;25
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.twilio.com/incidents/r1j0b6mrfqkp"
+                        open
+                      >
+                        <summary class="article-expander__title">SMS Delivery Issue to Safaricom Network in Kenya</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/r1j0b6mrfqkp">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>May  1, 12:15 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Safaricom network in Kenya. This incident has been resolved.
+May  1, 10:15 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Safaricom network in Kenya. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+May  1, 08:16 PDT
+Update - We are still experiencing SMS delivery delays when sending messages to Safaricom network in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+May  1, 07:18 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to Safaricom network in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;25
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Rippling Status - Incident History</button>
+                  <a class="source-heading__link" href="https://status.rippling.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.rippling.com/incidents/jx7sql9zyg5k"
+                        open
+                      >
+                        <summary class="article-expander__title">Issues loading SSO Bar</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.rippling.com/incidents/jx7sql9zyg5k">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>May  1, 21:07 UTC
+Monitoring - A fix has been implemented and we are monitoring the results.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Airbnb API Status - Incident History</button>
+                  <a class="source-heading__link" href="https://airbnbapi.statuspage.io">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://airbnbapi.statuspage.io/incidents/7h6gs9qk9h41"
+                        open
+                      >
+                        <summary class="article-expander__title">Important update: TLS ciphers</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://airbnbapi.statuspage.io/incidents/7h6gs9qk9h41">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>THIS IS A SCHEDULED EVENT May 1, 09:00 - 14:00 PDT
+Mar 20, 10:04 PDT
+Scheduled - We are in the process of upgrading our digital signature algorithm to ECDSA Certificates and transitioning to a more robust and faster TLS cipher suite. This shift will not only strengthen security but also enhance our efficiency, speed, and performance of secure communications. 
+Starting May 1, 2024, we will exclusively support the following ciphers:
+- TLS-AES-256-GCM-SHA384
+- TLS-CHACHA20-POLY1305-SHA256
+- TLS-AES-128-GCM-SHA256
+- ECDHE-ECDSA-AES256-GCM-SHA384
+- ECDHE-ECDSA-AES128-GCM-SHA256
+- ECDHE-ECDSA-CHACHA20-POLY1305
+Please make plans to update your systems accordingly as soon as possible. If your client does not support any of the ciphers listed above, you will not be able to establish a connection with our API.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Slack System Status</button>
+                  <a class="source-heading__link" href="https://slack-status.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://slack-status.com/2024-04/49ff269b2a000cfb"
+                        open
+                      >
+                        <summary class="article-expander__title">Incident: Legacy webhook integrations may be failing for some users</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-04/49ff269b2a000cfb">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Issue summary:
+On April 30, 2024 from 10:00 AM PDT to 9:00 PM PDT, custom integrations that relied on our legacy Slackbot webhook to send messages were failing for some customers. 
+
+We determined a recent code change inadvertently caused these integrations to return a &quot;no_team&quot; error, rather than the correct message content. We reverted the code change responsible, which resolved the issue for all users.</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-30 datetime="2024-04-30T16:58:32.000Z">2024-04-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-30 datetime="2024-04-30T16:58:32.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -1575,7 +1794,8 @@ Our investigation traced this back to a backend service job that was causing the
                               <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Apr 18, 18:47 UTC
-Resolved - This incident has been resolved.
+Resolved - Between 4:40 UTC and 18:47 UTC on April 18th, approximately 200 users experienced issues creating and reconnecting to Codespaces. After investigation it was determined that the nearly 100% of those users were internal to GitHub. There was very little customer impact during this incident.
+We are discussing improvements to our monitoring so we can more quickly discern internal and external impact and avoid potentially confusing public status.
 Apr 18, 18:41 UTC
 Update - Codespaces customers using our 16 core machines in West US 2 and West US 3 region may experience issues creating new Codespaces and resuming existing Codespaces. We suggest any customers experiencing issues switch to the East US region.
 Apr 18, 18:25 UTC
@@ -1797,7 +2017,6 @@ Investigating - We are currently investigating this issue.</span>
                         <summary class="article-expander__title">Outage: Trouble loading multiple features in Slack</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-04/bfe87b11e30ed387">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Issue summary:
 On April 8, 2024 from 2:32 PM PDT to 3:27 PM PDT, some users were unable to sign in, connect to Slack, access threads, run workflows, join huddles, or perform other activities. Apps and integrations may also have been impacted.
@@ -1807,8 +2026,6 @@ One of our databases failed and our automated recovery systems were not able to 
 During this additional remediation work, we inadvertently caused a brief connectivity issue, preventing users from connecting to Slack for a very short period on April 9, 2024 at around 10:05 PM PDT. At 10:18 PM PDT our automated recovery systems successfully rectified the issue, ending connectivity problems for all customers.
 
 We resumed our remediation work and concluded our data recovery efforts, resolving all remaining workflow issues. Additionally, this work included measures to prevent the same database failure from reoccurring in future.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -3211,51 +3428,12 @@ We will provide an update as soon as we have additional information.</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Slack System Status</button>
-                  <a class="source-heading__link" href="https://slack-status.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://slack-status.com/2024-04/8c7aee5b625ed781"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident: Incorrect font color and unexpected UI elements</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-04/8c7aee5b625ed781">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Issue summary:
-From 3:41 PM PDT until 4:13 PM PDT on April 1st, 2024, some customers experienced problems with the Slack interface, including issues with text color and contrast.
-
-We made a code change to improve some of our CSS styling. This change inadvertently caused a problem with some color and contrast variables in dark mode, resulting in the interface issues.
-
-As an immediate mitigation step, we stopped the code change from rolling out any further. We then reverted to an earlier version, resolving the issues for all affected customers.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/8903393015">
-        <time id="build-timestamp" datetime="2024-05-01T00:24:02.275Z">2024-05-01T00:24:02.275Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/8916698112">
+        <time id="build-timestamp" datetime="2024-05-02T00:21:59.348Z">2024-05-02T00:21:59.348Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

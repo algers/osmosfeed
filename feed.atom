@@ -1,105 +1,244 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-01T00:24:02.299Z</id>
+    <id>urn:2024-05-02T00:21:59.367Z</id>
     <title>osmos::feed</title>
-    <updated>2024-05-01T00:24:02.299Z</updated>
+    <updated>2024-05-02T00:21:59.367Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[US SMS and MMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/vkgmwvjyr8m6</id>
-        <link href="https://status.twilio.com/incidents/vkgmwvjyr8m6"/>
-        <updated>2024-05-01T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 30, 21:00 PDT  -  May 1, 01:30 PDT
-Apr 25, 20:29 PDT
-Scheduled - Our SMS and MMS carrier partner in the US is conducting a planned maintenance from 30 April 2024 at 21:00 PDT until 01 May 2024 at 01:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US handsets via US short codes]]></summary>
+        <title type="html"><![CDATA[NYC2 Network Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/z9r8gg95bqqm</id>
+        <link href="https://status.digitalocean.com/incidents/z9r8gg95bqqm"/>
+        <updated>2024-05-02T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT May 2, 12:00 - 15:00 UTC
+Apr 30, 15:32 UTC
+Scheduled - Start: 2024-05-02 12:00 UTC
+End: 2024-05-02 15:00 UTC
+During the above window, our Networking team will be making changes to core networking infrastructure, to improve performance and scalability in the NYC2 region. 
+Expected Impact:
+These upgrades are designed and tested to be seamless and we do not expect any impact on customer traffic due to this maintenance. 
+If an unexpected issue arises, affected Droplets and Droplet-based services could experience increased latency or disruption in public network traffic for a short period of time. If an unexpected issue does occur, our team is prepared to rollback to a safe state to quickly restore public networking. We expect that traffic would be impacted for a period of 5-10 minutes, at most, in that case.
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US and Canada SMS and MMS Carrier partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/kw7f4pllw4rl</id>
+        <link href="https://status.twilio.com/incidents/kw7f4pllw4rl"/>
+        <updated>2024-05-02T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT May 1, 20:00 PDT  -  May 2, 00:00 PDT
+Apr 26, 16:35 PDT
+Scheduled - Our SMS and MMS carrier partner in the US and Canada is conducting a planned maintenance from 01 May 2024 at 20:00 PDT until 02 May 2024 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets via Toll-free numbers.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Call Failures to a Subset of Twilio Brazil Phone Numbers]]></title>
-        <id>https://status.twilio.com/incidents/371mnvcdt5nv</id>
-        <link href="https://status.twilio.com/incidents/371mnvcdt5nv"/>
-        <updated>2024-05-01T00:08:40.000Z</updated>
-        <summary type="html"><![CDATA[Apr 30, 17:08 PDT
-Update - We are observing call failures to a subset of Twilio Brazil phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
-Apr 30, 17:06 PDT
-Investigating - Our monitoring systems have detected a potential issue with call failures to a subset of Twilio Brazil phone numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <title type="html"><![CDATA[SMS Delivery Delays and Failures to Tigo Network in Honduras]]></title>
+        <id>https://status.twilio.com/incidents/k93z1kgw8q3x</id>
+        <link href="https://status.twilio.com/incidents/k93z1kgw8q3x"/>
+        <updated>2024-05-02T00:18:29.000Z</updated>
+        <summary type="html"><![CDATA[May  1, 17:18 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Tigo network in Honduras. This incident has been resolved.
+May  1, 15:18 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Tigo network in Honduras. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+May  1, 11:18 PDT
+Update - We continue experiencing SMS delivery delays when sending messages to Tigo network in Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+May  1, 09:22 PDT
+Update - We are still experiencing SMS delivery delays when sending messages to Tigo network in Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+May  1, 08:15 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to Tigo network in Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays and Failures To Bmobile Network In Papua New Guinea]]></title>
-        <id>https://status.twilio.com/incidents/51kk02zlngsb</id>
-        <link href="https://status.twilio.com/incidents/51kk02zlngsb"/>
-        <updated>2024-04-30T23:50:09.000Z</updated>
-        <summary type="html"><![CDATA[Apr 30, 16:50 PDT
-Update - We are experiencing SMS Delivery Delays and Failures when sending to the Bmobile Network in Papua New Guinea. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
-Apr 30, 16:46 PDT
-Investigating - Our monitoring systems have detected a potential issue with SMS Delivery Delays and Failures when sending to the Bmobile Network In Papua New Guinea. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Reports Delay to Multiple Networks in the US from a Subset of Shortcodes]]></title>
-        <id>https://status.twilio.com/incidents/7sjw3pnbb7jl</id>
-        <link href="https://status.twilio.com/incidents/7sjw3pnbb7jl"/>
-        <updated>2024-04-30T22:43:18.000Z</updated>
-        <summary type="html"><![CDATA[Apr 30, 15:43 PDT
-Monitoring - We are observing recovery from the issue causing delays in receiving message delivery reports when sending to multiple networks in the US over a subset of short codes.. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 30, 13:43 PDT
-Update - We are continuing to investigate the issue causing delays in receiving message delivery reports when sending to multiple networks in the US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 30, 12:43 PDT
-Investigating - We are experiencing delays in receiving message delivery reports when sending to multiple networks in the US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United Kingdom Account Security Carrier Partner Maintenance - Vodafone]]></title>
-        <id>https://status.twilio.com/incidents/2qbjmn4n1qvw</id>
-        <link href="https://status.twilio.com/incidents/2qbjmn4n1qvw"/>
-        <updated>2024-04-30T22:00:03.000Z</updated>
-        <summary type="html"><![CDATA[Apr 30, 15:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Apr 29, 16:43 PDT
-Scheduled - Our carrier partner Vodafone United Kingdom is conducting a planned maintenance from 30 April 2024 at 15:00 PDT until 30 April 2024 at 21:30 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone United Kingdom customers.
-
-Impacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Google Calendar. We will provide more information shortly.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/kyvpnGVXuGba1rAmcdaV</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/kyvpnGVXuGba1rAmcdaV"/>
-        <updated>2024-04-30T20:49:53.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-04-18 21:40</strong> and ended at <strong>2024-04-20 19:23</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>An incident report has been posted at <a href="https://www.google.com/appsstatus/dashboard/incidents/D6dP4yHWc2m93ZhpLYKw">https://www.google.com/appsstatus/dashboard/incidents/D6dP4yHWc2m93ZhpLYKw</a></p>
-</div><hr><p>Affected products: Google Calendar</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/XKnCyj2ED7njHXsC7a6E</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/XKnCyj2ED7njHXsC7a6E"/>
-        <updated>2024-04-30T20:48:16.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-04-18 21:40</strong> and ended at <strong>2024-04-20 19:23</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>An incident report has been posted at <a href="https://www.google.com/appsstatus/dashboard/incidents/D6dP4yHWc2m93ZhpLYKw">https://www.google.com/appsstatus/dashboard/incidents/D6dP4yHWc2m93ZhpLYKw</a></p>
+        <title type="html"><![CDATA[RESOLVED: We are aware of an issue affecting Gmail users sending emails to some email addresses. We are currently investigating.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT"/>
+        <updated>2024-05-01T23:41:56.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-04-30 00:00</strong> and ended at <strong>2024-05-01 22:55</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p><strong>Summary:</strong></p>
+<p>Gmail customers are currently unable to send unsigned messages to Yahoo.</p>
+<p><strong>Description:</strong></p>
+<p>The issue has been resolved for all affected users as of Wednesday, 2024-05-01 15:55 US/Pacific.</p>
+<p>There was a problem external to Google which has now been resolved.</p>
+<p>We thank you for your patience while we worked on resolving the issue.</p>
+<hr>
 </div><hr><p>Affected products: Gmail</p>]]></summary>
         <author>
             <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Hosted Numbers Customers Might be Facing Issues With Actions Related to Letter Of Authorization (LOA)]]></title>
+        <id>https://status.twilio.com/incidents/0d35ltswglqv</id>
+        <link href="https://status.twilio.com/incidents/0d35ltswglqv"/>
+        <updated>2024-05-01T22:42:47.000Z</updated>
+        <summary type="html"><![CDATA[May  1, 15:42 PDT
+Update - We continue investigating the issues causing Hosted Numbers customers to experience issues with Letter Of Authorization (LOA) generation and signing for their new Hosted Number Orders and thus delay in hosting of their numbers. We will provide another update in 2 hours or as soon as more information becomes available.
+May  1, 14:57 PDT
+Update - Hosted Numbers customers might be facing issues with Letter Of Authorization (LOA) generation and signing for their new Hosted Number Orders and thus delay in hosting of their numbers. We will provide another update in 1 hour or as soon as more information becomes available.
+May  1, 14:41 PDT
+Update - We are continuing to investigate this issue.
+May  1, 14:40 PDT
+Investigating - Our monitoring systems have detected a potential issue with Hosted Numbers seeing 401 errors from Dropbox Sign. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United Kingdom Account Security Carrier Partner Maintenance - Vodafone UK]]></title>
+        <id>https://status.twilio.com/incidents/d3nfjvbkry5c</id>
+        <link href="https://status.twilio.com/incidents/d3nfjvbkry5c"/>
+        <updated>2024-05-01T22:00:02.000Z</updated>
+        <summary type="html"><![CDATA[May  1, 15:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+May  1, 06:56 PDT
+Scheduled - Our carrier partner Vodafone UK is conducting a planned maintenance from 01 May 2024 at 15:00 PDT until 01 May 2024 at 22:25 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone UK customers.
+
+Impacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UPDATE: We are aware of an issue affecting Gmail users sending emails to some email addresses. We are currently investigating.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT"/>
+        <updated>2024-05-01T21:54:29.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-04-30 00:00</strong> and ended at <strong>2024-05-01 22:55</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p><strong>Summary</strong></p>
+<p>Gmail customers are currently unable to send unsigned messages to Yahoo.</p>
+<p><strong>Description:</strong></p>
+<p>A small subset of Gmail customers are experiencing difficulty sending messages to Yahoo.</p>
+<p>Our engineering team continues to work on mitigation.</p>
+<p>Customer messages may be bounced with the below error:</p>
+<p>&quot;This mail has been blocked because the sender is unauthenticated. Yahoo requires all senders to authenticate with either SPF or DKIM.&quot;</p>
+<p>If you&#39;re seeing this error message, please consider setting up SPF (<a href="https://support.google.com/a/answer/33786">https://support.google.com/a/answer/33786</a>) or DKIM (<a href="https://support.google.com/a/answer/174124">https://support.google.com/a/answer/174124</a>) for your sending domain(s).</p>
+<p>Note that Sender Policy Framework (SPF) and DomainKeys Identified Mail (DKIM) records may take some time to become fully propagated in DNS and therefore the issue may persist for a little while longer after setting these records up.</p>
+<p>We will provide an update by Wednesday, 2024-05-01 20:30 US/Pacific with current details.</p>
+<p>We apologize to all who are affected by the disruption.</p>
+<hr>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Super SIM Network Connectivity Issues]]></title>
+        <id>https://status.twilio.com/incidents/7wrq64ntchcp</id>
+        <link href="https://status.twilio.com/incidents/7wrq64ntchcp"/>
+        <updated>2024-05-01T21:48:13.000Z</updated>
+        <summary type="html"><![CDATA[May  1, 14:48 PDT
+Resolved - We are no longer experiencing Super SIM Connectivity issues and service is operating normally at this time.
+May  1, 12:49 PDT
+Monitoring - We are now seeing recovery of the Super SIM connectivity issues. We are continuing to monitor for service stability. We will provide another update in 2 or as soon as more information becomes available.
+May  1, 11:12 PDT
+Update - Since 09:09 pacific time, we are experiencing Super SIM connectivity issues. We observed ~5% of active data sessions on Super SIM being dropped, mostly affecting devices connected to the European internet breakout (de1.super). Our engineering team is actively working to resolve the issue. We will provide another update in 2 hours or sooner once more information becomes available.
+May  1, 10:13 PDT
+Update - Since 09:09 pacific time, we are experiencing Super SIM connectivity issues. We observed ~5% of active data sessions on Super SIM being dropped, mostly affecting devices connected to the European internet breakout (de1.super). Our engineering team is actively working to resolve the issue. We will provide another update in 1 hour or sooner once more information becomes available.
+May  1, 09:58 PDT
+Investigating - Our monitoring systems have detected a potential issue with SuperSIM. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Issues loading SSO Bar]]></title>
+        <id>https://status.rippling.com/incidents/jx7sql9zyg5k</id>
+        <link href="https://status.rippling.com/incidents/jx7sql9zyg5k"/>
+        <updated>2024-05-01T21:07:12.000Z</updated>
+        <summary type="html"><![CDATA[May  1, 21:07 UTC
+Monitoring - A fix has been implemented and we are monitoring the results.]]></summary>
+        <author>
+            <name>Rippling Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Glo Network in Nigeria]]></title>
+        <id>https://status.twilio.com/incidents/zplslp92lvnb</id>
+        <link href="https://status.twilio.com/incidents/zplslp92lvnb"/>
+        <updated>2024-05-01T20:18:16.000Z</updated>
+        <summary type="html"><![CDATA[May  1, 13:18 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Glo network in Nigeria. This incident has been resolved.
+May  1, 11:18 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Glo network in Nigeria. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+May  1, 10:17 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to Glo network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UPDATE: We are aware of an issue affecting Gmail users sending emails to some email addresses. We are currently investigating.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT"/>
+        <updated>2024-05-01T19:41:07.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-04-30 00:00</strong> and ended at <strong>2024-05-01 22:55</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>Gmail customers are currently unable to send unsigned messages to Yahoo.</p>
+<p>Our engineering team continues to investigate.</p>
+<p>Customer messages sent to Yahoo/AOL recipients may be bounced with the error &quot;This mail has been blocked because the sender is unauthenticated. Yahoo requires all senders to authenticate with either SPF or DKIM.&quot;
+If you&#39;re seeing this error message, please set up SPF (<a href="https://support.google.com/a/answer/33786">https://support.google.com/a/answer/33786</a>) or DKIM (<a href="https://support.google.com/a/answer/174124">https://support.google.com/a/answer/174124</a>) for your sending domain(s). For DKIM, you should set up a record for your own sending domain. You should not rely on the default DKIM key applied by Google (<code>*.gappssmtp.com</code>) to avoid this error.</p>
+<p>Note that SPF and DKIM records may take some time to become fully propagated in DNS and therefore the issue may persist for a little while longer after setting these records up.</p>
+<p>We apologize to all who are affected by the disruption.</p>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Issue to Safaricom Network in Kenya]]></title>
+        <id>https://status.twilio.com/incidents/r1j0b6mrfqkp</id>
+        <link href="https://status.twilio.com/incidents/r1j0b6mrfqkp"/>
+        <updated>2024-05-01T19:15:24.000Z</updated>
+        <summary type="html"><![CDATA[May  1, 12:15 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Safaricom network in Kenya. This incident has been resolved.
+May  1, 10:15 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Safaricom network in Kenya. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+May  1, 08:16 PDT
+Update - We are still experiencing SMS delivery delays when sending messages to Safaricom network in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+May  1, 07:18 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to Safaricom network in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UPDATE: We are aware of an issue affecting Gmail users sending emails to some email addresses. We are currently investigating.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/4g4kuywfXf5KTJ4TV9hT"/>
+        <updated>2024-05-01T19:02:13.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-04-30 00:00</strong> and ended at <strong>2024-05-01 22:55</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>We are aware of an issue affecting Gmail users sending emails to some email addresses. We are currently investigating.</p>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Important update: TLS ciphers]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/7h6gs9qk9h41</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/7h6gs9qk9h41"/>
+        <updated>2024-05-01T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT May 1, 09:00 - 14:00 PDT
+Mar 20, 10:04 PDT
+Scheduled - We are in the process of upgrading our digital signature algorithm to ECDSA Certificates and transitioning to a more robust and faster TLS cipher suite. This shift will not only strengthen security but also enhance our efficiency, speed, and performance of secure communications. 
+Starting May 1, 2024, we will exclusively support the following ciphers:
+- TLS-AES-256-GCM-SHA384
+- TLS-CHACHA20-POLY1305-SHA256
+- TLS-AES-128-GCM-SHA256
+- ECDHE-ECDSA-AES256-GCM-SHA384
+- ECDHE-ECDSA-AES128-GCM-SHA256
+- ECDHE-ECDSA-CHACHA20-POLY1305
+Please make plans to update your systems accordingly as soon as possible. If your client does not support any of the ciphers listed above, you will not be able to establish a connection with our API.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Google Chat. We will provide more information shortly.]]></title>
         <id>https://www.google.com/appsstatus/dashboard/incidents/D6dP4yHWc2m93ZhpLYKw</id>
         <link href="https://www.google.com/appsstatus/dashboard/incidents/D6dP4yHWc2m93ZhpLYKw"/>
-        <updated>2024-04-30T20:40:16.000Z</updated>
+        <updated>2024-05-01T14:17:23.000Z</updated>
         <summary type="html"><![CDATA[<p> Incident began at <strong>2024-04-18 21:40</strong> and ended at <strong>2024-04-20 19:23</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Incident Report</h1>
 <h2>Summary</h2>
 <p>On 18 April 2024, Gmail, Google Calendar and Google Chat experienced issues with the ‘Contact Sharing’ feature for a duration of 1 day, 21 hours 43 minutes. To our Google Workspace customers whose businesses were impacted during this disruption, we sincerely apologize. This is not the level of quality and reliability we strive to offer you, and we are taking immediate steps to improve the platform’s performance and availability.</p>
@@ -109,9 +248,17 @@ Impacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes]]><
 <p>We were alerted to the outage via a support case on April 19 at 7:12 US/Pacific and promptly initiated an investigation. The investigation confirmed that the issue originated from a code change deployed on April 18 at 14:40 US/Pacific. Upon troubleshooting, we immediately halted and rolled back the code change, preventing a wider impact on Google Workspace services.</p>
 <p>We then focused on repairing the issue for affected customers.</p>
 <p>We apologize for the length and severity of this incident. Google is committed to preventing recurrence by implementing the following action items:</p>
-<p>Engineering team implemented release controls to prevent code changes that alter the default values from being deployed to the production environment.
-Engineering team to add test coverage and verify code rollouts like these so issues like this can be detected early.
-Engineering team to set up alerts for unexpected spikes in compilation requests during automated syncs, as this could indicate a potential problem with data changes.</p>
+<ol>
+<li>
+<p>Engineering team implemented release controls to prevent code changes that alter the default values from being deployed to the production environment.</p>
+</li>
+<li>
+<p>Engineering team to add test coverage and verify code rollouts like these so issues like this can be detected early.</p>
+</li>
+<li>
+<p>Engineering team to set up alerts for unexpected spikes in compilation requests during automated syncs, as this could indicate a potential problem with data changes.</p>
+</li>
+</ol>
 <h2>Detailed Description of Impact</h2>
 <p>On April 18 at 14:40 US/Pacific an internal update unexpectedly turned off the &quot;Contact Sharing&quot; feature for Google Workspace users. This resulted in features like autocompleting email addresses and seeing contact details in Gmail, Chat, and Calendar not working as expected.</p>
 <p>Known user-facing impacts are as follows:</p>
@@ -129,56 +276,16 @@ Hovercards, also known as profile information cards that show up when users poin
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Inbound Call Failures to a Subset of Twilio Trinidad and Tobago Phone Numbers]]></title>
-        <id>https://status.twilio.com/incidents/p00fvtqjfyn6</id>
-        <link href="https://status.twilio.com/incidents/p00fvtqjfyn6"/>
-        <updated>2024-04-30T20:26:13.000Z</updated>
-        <summary type="html"><![CDATA[Apr 30, 13:26 PDT
-Resolved - The issue affecting inbound calls to Twilio Trinidad and Tobago phone numbers has been resolved, and the service is functioning normally at this time.
-Apr 30, 11:26 PDT
-Monitoring - We have started seeing recovery for inbound calls to Twilio Trinidad and Tobago phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 29, 18:54 PDT
-Update - We are still continuing to experience inbound call failures to Twilio Trinidad and Tobago phone numbers. We are actively working with our carrier partner to resolve the issue. We expect to provide another update in 24 hours or as soon as more information becomes available.
-Apr 28, 18:54 PDT
-Update - We are still c…]]></summary>
+        <title type="html"><![CDATA[Incident: Legacy webhook integrations may be failing for some users]]></title>
+        <id>https://slack-status.com/2024-04/49ff269b2a000cfb</id>
+        <link href="https://slack-status.com/2024-04/49ff269b2a000cfb"/>
+        <updated>2024-05-01T06:44:30.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+On April 30, 2024 from 10:00 AM PDT to 9:00 PM PDT, custom integrations that relied on our legacy Slackbot webhook to send messages were failing for some customers. 
+
+We determined a recent code change inadvertently caused these integrations to return a "no_team" error, rather than the correct message content. We reverted the code change responsible, which resolved the issue for all users.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays To Glo Network in Nigeria]]></title>
-        <id>https://status.twilio.com/incidents/xmsww10sptx7</id>
-        <link href="https://status.twilio.com/incidents/xmsww10sptx7"/>
-        <updated>2024-04-30T20:15:13.000Z</updated>
-        <summary type="html"><![CDATA[Apr 30, 13:15 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Glo network in Nigeria. This incident has been resolved.
-Apr 30, 11:15 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Glo network in Nigeria. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 30, 09:36 PDT
-Update - We continue experiencing SMS delivery delays when sending messages to Glo network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Apr 30, 07:39 PDT
-Update - We are still experiencing SMS delivery delays when sending messages to Glo network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 30, 06:28 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Glo network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Orange Network in Cameroon]]></title>
-        <id>https://status.twilio.com/incidents/r8r2lf7dlz4b</id>
-        <link href="https://status.twilio.com/incidents/r8r2lf7dlz4b"/>
-        <updated>2024-04-30T20:07:08.000Z</updated>
-        <summary type="html"><![CDATA[Apr 30, 13:07 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Orange network in Cameroon. This incident has been resolved.
-Apr 30, 11:07 PDT
-Monitoring - We are observing successful SMS delivery Orange network in Cameroon.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 30, 09:10 PDT
-Update - We are still experiencing SMS delivery delays when sending messages to Orange network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 30, 08:16 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Orange network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
@@ -735,7 +842,8 @@ Our investigation traced this back to a backend service job that was causing the
         <link href="https://www.githubstatus.com/incidents/jnlhc0lml6pp"/>
         <updated>2024-04-18T18:47:27.000Z</updated>
         <summary type="html"><![CDATA[Apr 18, 18:47 UTC
-Resolved - This incident has been resolved.
+Resolved - Between 4:40 UTC and 18:47 UTC on April 18th, approximately 200 users experienced issues creating and reconnecting to Codespaces. After investigation it was determined that the nearly 100% of those users were internal to GitHub. There was very little customer impact during this incident.
+We are discussing improvements to our monitoring so we can more quickly discern internal and external impact and avoid potentially confusing public status.
 Apr 18, 18:41 UTC
 Update - Codespaces customers using our 16 core machines in West US 2 and West US 3 region may experience issues creating new Codespaces and resuming existing Codespaces. We suggest any customers experiencing issues switch to the East US region.
 Apr 18, 18:25 UTC
@@ -1419,21 +1527,6 @@ For users who do not immediately redeploy, our Engineering team is working to do
 We will provide an update as soon as we have additional information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Incorrect font color and unexpected UI elements]]></title>
-        <id>https://slack-status.com/2024-04/8c7aee5b625ed781</id>
-        <link href="https://slack-status.com/2024-04/8c7aee5b625ed781"/>
-        <updated>2024-04-02T02:48:48.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-From 3:41 PM PDT until 4:13 PM PDT on April 1st, 2024, some customers experienced problems with the Slack interface, including issues with text color and contrast.
-
-We made a code change to improve some of our CSS styling. This change inadvertently caused a problem with some color and contrast variables in dark mode, resulting in the interface issues.
-
-As an immediate mitigation step, we stopped the code change from rolling out any further. We then reverted to an earlier version, resolving the issues for all affected customers.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>
