@@ -127,23 +127,23 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/fp5xmd2qv3cr",
+          "id": "https://status.twilio.com/incidents/p6jvzrw06911",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 4, 00:00 - 03:00 PDT\nApr 29, 00:17 PDT\nScheduled - The Flex Insights Historical Reporting dashboards visualisation partner in the US is conducting a planned maintenance on Saturday, May 4th, 2024, at 00:00 AM Pacific Daylight Time. The maintenance window is planned to take up to 3 hours. During the maintenance window ETL loads will be affected.",
-          "link": "https://status.twilio.com/incidents/fp5xmd2qv3cr",
-          "publishedOn": "2024-05-04T07:00:00.000Z",
-          "wordCount": 7516,
-          "title": "Planned Maintenance for Flex Insights Historical Reporting",
+          "description": "May  4, 16:49 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Proximus Mobility network in the US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMay  4, 14:38 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Proximus Mobility network in the US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay  4, 13:38 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Proximus Mobility network in the US over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available. This incident is related to the previous incident reported: https://status.twilio.com/incidents/l7mlflphqwdn",
+          "link": "https://status.twilio.com/incidents/p6jvzrw06911",
+          "publishedOn": "2024-05-04T23:49:27.000Z",
+          "wordCount": 7673,
+          "title": "SMS Delivery Delays to Proximus Mobility Network in the US Over a Subset of Short Codes",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/yh0q8pz5x7jy",
+          "id": "https://status.twilio.com/incidents/dj03x0qx2l0k",
           "author": null,
-          "description": "May  3, 17:14 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Irancell Network in Iran. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/yh0q8pz5x7jy",
-          "publishedOn": "2024-05-04T00:14:12.000Z",
-          "wordCount": 7513,
-          "title": "SMS Delivery Delays to Irancell Network in Iran",
+          "description": "May  4, 13:15 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay  2, 13:45 PDT\nScheduled - Our carrier partner Vodafone United Kingdom is conducting a planned maintenance from 04 May 2024 at 13:15 PDT until 04 May 2024 at 22:25 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone United Kingdom customers.\n\nImpacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes",
+          "link": "https://status.twilio.com/incidents/dj03x0qx2l0k",
+          "publishedOn": "2024-05-04T20:15:02.000Z",
+          "wordCount": 7546,
+          "title": "United Kingdom Account Security Carrier Partner Maintenance - Vodafone",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -490,36 +490,6 @@
           "wordCount": 5382,
           "title": "Incident with Pages",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/5ly0psff2s5d",
-          "author": null,
-          "description": "Apr  5, 09:18 UTC\nResolved - On April 5, 2024, between 8:11 and 8:58 UTC a number of GitHub services were degraded, returning error responses. Web request error rate peaked at 6%, API request error rate peaked at 10%. Actions had 103,660 workflow runs fail to start. \nA database load balancer change caused connection failures in one of our three data centers to various critical database clusters. The incident was mitigated once that change was rolled back.\nWe have updated our deployment pipeline to better detect this problem in earlier stages of rollout to reduce impact to end users. \n\nApr  5, 09:17 UTC\nUpdate - Pull Requests is operating normally.\nApr  5, 09:17 UTC\nUpdate - Issues is operating normally.\nApr  5, 09:17 UTC\nUpdate - API Requests is operating normally.\nApr  5, 09:17 UTC\nUpdate - Codespaces is operating normally.\nApr  5, 09:17 UTC\nUpdate - Actions is operating normally.\nApr  5, 09:17 UTC\nUpdate - Pages is operating normally.\nApr  5, 09:17 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nApr  5, 09:00 UTC\nUpdate - We've reverted a change we believe caused this, are seeing initial indications of reduced errors, and are monitoring for full recovery\nApr  5, 08:59 UTC\nUpdate - Pages is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:51 UTC\nUpdate - We're seeing connection failures to some databases in two of three sites and are investigating.\nApr  5, 08:50 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:49 UTC\nUpdate - Issues is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:49 UTC\nUpdate - API Requests is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:49 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:33 UTC\nInvestigating - We are investigating reports of degraded availability for Actions",
-          "link": "https://www.githubstatus.com/incidents/5ly0psff2s5d",
-          "publishedOn": "2024-04-05T09:18:10.000Z",
-          "wordCount": 5628,
-          "title": "Incident with Pages, Actions, Codespaces, API Requests, Issues and Pull Requests",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/syg5c6b5ls76",
-          "author": null,
-          "description": "Apr  5, 08:53 UTC\nResolved - This incident has been resolved.\nApr  5, 08:31 UTC\nInvestigating - We are currently investigating this issue.",
-          "link": "https://www.githubstatus.com/incidents/syg5c6b5ls76",
-          "publishedOn": "2024-04-05T08:53:39.000Z",
-          "wordCount": 5278,
-          "title": "We are investigating reports of degraded performance.",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/bnkkbj90yhz6",
-          "author": null,
-          "description": "Apr  5, 08:48 UTC\nResolved - This incident has been resolved.\nApr  5, 08:48 UTC\nUpdate - Issues, API Requests, Pull Requests and Codespaces are operating normally.\nApr  5, 08:36 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:34 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:32 UTC\nUpdate - API Requests is experiencing degraded performance. We are continuing to investigate.\nApr  5, 08:28 UTC\nInvestigating - We are investigating reports of degraded performance for Issues",
-          "link": "https://www.githubstatus.com/incidents/bnkkbj90yhz6",
-          "publishedOn": "2024-04-05T08:48:15.000Z",
-          "wordCount": 5371,
-          "title": "Incident with Issues, API Requests, Pull Requests and Codespaces",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -626,16 +596,6 @@
           "publishedOn": "2024-04-09T15:45:35.000Z",
           "wordCount": 351,
           "title": "Incident: Workflow Builder page not loading",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-04/5c2ef1f0bf6a72bd",
-          "author": null,
-          "description": "Issue Summary:\r\nFrom April 4, 2024 at 12:30 PM PDT to April 4, 2024 at 10:20 PM PDT, some customers were receiving this error message when trying to rename a channel: “Oops/Whoops, something went wrong with renaming the channel. Please try again.”\r\n\r\nWe identified a code change which inadvertently altered the permission to edit channel. This resulted in this error being shown.\r\n\r\nWe rolled back this change, correcting the issue.\r\n\r\nImpacted customers should no longer experience any further trouble after reloading their Slack.\r\nTo reload Slack use Command + Shift + R on Mac and Ctrl + Shift + R on Windows/Linux.",
-          "link": "https://slack-status.com/2024-04/5c2ef1f0bf6a72bd",
-          "publishedOn": "2024-04-05T08:22:07.000Z",
-          "wordCount": 324,
-          "title": "Incident: Users receive an error message when attempting to rename a channel.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
