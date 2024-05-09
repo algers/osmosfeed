@@ -43,12 +43,22 @@
       "siteUrl": "https://tailscale.com/security-bulletins/",
       "articles": [
         {
+          "id": "https://tailscale.com/security-bulletins/#ts-2024-005",
+          "author": null,
+          "description": "Description: Insufficient inbound packet filtering in subnet routers and exit nodes\nWhat happened?\nIn Tailscale versions earlier than 1.66.0, exit nodes, subnet\nrouters, and app connectors, could\nallow inbound connections to other tailnet nodes from their local area network\n(LAN). This vulnerability only affects Linux exit nodes, subnet routers, and\napp connectors in tailnets where ACLs allow \"src\": \"*\", such as\nwith default ACLs.\nTailscale version 1.66.0 fixes the vulnerability. Additionally, a server-side\nupdate changes the interpretation of \"src\": \"*\" to mitigate the issue\nspecifically for exit nodes.\nSpecial thanks to Hakan Ergan for reporting a similar\nconcern that led us to discover this vulnerability.\nWho was affected?\nThis affected the following nodes using Tailscale version 1.65 o…",
+          "link": "https://tailscale.com/security-bulletins/#ts-2024-005",
+          "publishedOn": "2024-05-08T00:00:00.000Z",
+          "wordCount": 12990,
+          "title": "TS-2024-005",
+          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
+        },
+        {
           "id": "https://tailscale.com/security-bulletins/#ts-2024-004",
           "author": null,
           "description": "Description: Unclear network flow logs collection status for alpha testers.\nWhat happened?\nWhen network flow logs first entered private alpha, tailnet admins who were interested in testing out the feature had to request to be manually opted into the alpha testing track. When we subsequently introduced admin console settings for self-serve network flow logs for the public beta launch, these settings were not properly connected to the alpha testing track. As a result, for the small number of tailnets that volunteered for alpha testing, the admin console interface did not show that logs were still being collected as initially requested.\nWe fixed this bug on April 25, 2024 and the admin console now correctly shows the status of network flow logs for all users.\nWho was affected?\n15 tailnets were opted into network flow log collection through the alpha testing track that did not re-enroll through the admin console. We notified security contacts for the affected tailnets about this bug.\nWhat was the impact?\nThe admin panel did not reflect the correct status for network flow log collection for affected tailnets, and admins of these tailnets may not have realized that network flow logs were still being collected.\nWhat do I need to do?\nNo action is needed at this time.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-004",
           "publishedOn": "2024-05-06T00:00:00.000Z",
-          "wordCount": 11316,
+          "wordCount": 12990,
           "title": "TS-2024-004",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         },
@@ -58,7 +68,7 @@
           "description": "Description: Bug in SSH check mode with checkPeriod set to 0s.\nWhat happened?\nCheck mode in Tailscale SSH forces an SSH client to periodically\nre-authenticate when connecting to SSH servers. The period is configured via\nthe checkPeriod attribute in Tailscale ACLs, and defaults to 12 hours.\nA bug in ACL parsing interpreted \"checkPeriod\": \"0s\" as unset, and used the\ndefault period of 12 hours instead.\nWe deployed a fix for the bug in ACL parsing logic on 2024-04-23. SSH clients\nin tailnets that set \"checkPeriod\": \"0s\" are now correctly prompted for\nre-authentication on every connection.\nNote that a special value \"checkPeriod\": \"always\" is the documented\nrecommended way to achieve this behavior.\nWe thank Finch for reporting this issue.\nWho was affected?\n17 tailnets use Tailscale SSH with \"action\": \"check\" and \"checkPeriod\": \"0s\". We notified security contacts for the affected tailnets about this bug.\nWhat was the impact?\nSSH clients in the affected tailnets were prompted to re-authenticate every 12\nhours, instead of during each connection as intended by the tailnet\nadministrators.\nWhat do I need to do?\nNo action is needed at this time.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-003",
           "publishedOn": "2024-04-23T00:00:00.000Z",
-          "wordCount": 11316,
+          "wordCount": 12990,
           "title": "TS-2024-003",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -108,16 +118,6 @@
           "wordCount": 3908,
           "title": "v2022.03.31 Migration Enforcement",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/6gtxsf3c3hcg",
-          "author": null,
-          "description": "Apr  8, 07:57 PDT\nResolved - This incident has been resolved.\nApr  5, 16:11 PDT\nMonitoring - We have deployed a fix for this issue and will now monitor the results. If you are still experiencing this issue, please contact our team via the Support Portal.\nApr  5, 12:14 PDT\nInvestigating - We are actively investigating an issue with Host account authorization. When a Host disconnects from an application, their listings are supposed to be disconnected as well. However, we have observed that in some cases, the listings remain API-connected even after the Host account disconnection. This can cause problems when a Host switches from one application to another, as their listings will still be connected to the previous application. \nWe will provide more updates on this issue as soon as possible.",
-          "link": "https://airbnbapi.statuspage.io/incidents/6gtxsf3c3hcg",
-          "publishedOn": "2024-04-08T14:57:05.000Z",
-          "wordCount": 3941,
-          "title": "Issue affecting Host authorization",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -127,83 +127,43 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/b45ggzfj2hqc",
+          "id": "https://status.twilio.com/incidents/3pz0k6fgzgbv",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 8, 01:30 - 02:30 PDT\nApr 25, 02:14 PDT\nScheduled - The Indosat Ooredoo network in Indonesia is conducting a planned maintenance from 08 May 2024 at 01:30 PDT until 08 May 2024 at 02:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Indosat Ooredoo Indonesia handsets.",
-          "link": "https://status.twilio.com/incidents/b45ggzfj2hqc",
-          "publishedOn": "2024-05-08T08:30:00.000Z",
-          "wordCount": 7511,
-          "title": "Indonesia SMS Carrier Maintenance - Indosat Ooredoo",
+          "description": "THIS IS A SCHEDULED EVENT May 8, 23:00 PDT  -  May 9, 00:30 PDT\nMay  7, 16:14 PDT\nScheduled - Our SMS carrier partner in Mexico is conducting a planned maintenance from 08 May 2024 at 23:00 PDT until 09 May 2024 at 00:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Mexico handsets.",
+          "link": "https://status.twilio.com/incidents/3pz0k6fgzgbv",
+          "publishedOn": "2024-05-09T06:00:00.000Z",
+          "wordCount": 7509,
+          "title": "Mexico SMS Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/px38t19vxz3z",
+          "id": "https://status.twilio.com/incidents/0jdk8fxh25x4",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 7, 22:30 PDT  -  May 8, 06:30 PDT\nMay  6, 08:34 PDT\nScheduled - Our SMS carrier partner in the US and Puerto Rico is conducting a planned maintenance from 07 May 2024 at 22:30 PDT until 08 May 2024 at 06:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US and Puerto Rico handsets.",
-          "link": "https://status.twilio.com/incidents/px38t19vxz3z",
-          "publishedOn": "2024-05-08T05:30:00.000Z",
-          "wordCount": 7536,
-          "title": "Multiple Destination SMS Carrier Partner Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT May 8, 22:00 PDT  -  May 9, 02:00 PDT\nApr 30, 16:58 PDT\nScheduled - The T-Mobile network in the US is conducting a planned maintenance from 08 May 2024 at 22:00 PDT until 09 May 2024 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
+          "link": "https://status.twilio.com/incidents/0jdk8fxh25x4",
+          "publishedOn": "2024-05-09T05:00:00.000Z",
+          "wordCount": 7520,
+          "title": "US SMS Carrier Maintenance - T-Mobile",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/nvzsnbk6pnf1",
+          "id": "https://status.twilio.com/incidents/v08dhczq9099",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 7, 20:30 PDT  -  May 8, 00:00 PDT\nMay  1, 16:44 PDT\nScheduled - A subset of small networks in the US are conducting an emergency maintenance from 07 May 2024 at 20:30 PDT until 08 May 2024 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.",
-          "link": "https://status.twilio.com/incidents/nvzsnbk6pnf1",
-          "publishedOn": "2024-05-08T03:30:00.000Z",
-          "wordCount": 7533,
-          "title": "US SMS Carrier Maintenance - Small US Carriers",
+          "description": "THIS IS A SCHEDULED EVENT May 8, 20:00 PDT  -  May 9, 00:00 PDT\nApr 26, 16:36 PDT\nScheduled - Our SMS and MMS carrier partner in the US and Canada is conducting a planned maintenance from 08 May 2024 at 20:00 PDT until 09 May 2024 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets via Toll-free numbers.",
+          "link": "https://status.twilio.com/incidents/v08dhczq9099",
+          "publishedOn": "2024-05-09T03:00:00.000Z",
+          "wordCount": 7538,
+          "title": "US and Canada SMS and MMS Carrier partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/6tbhkghmpbr3",
+          "id": "https://status.twilio.com/incidents/3s3d4l608pvq",
           "author": null,
-          "description": "May  7, 15:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay  7, 02:11 PDT\nScheduled - Our SMS carrier partner in the US and Puerto Rico is conducting an emergency maintenance from 07 May 2024 at 14:00 PDT until 08 May 2024 at 21:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US and Puerto Rico handsets.",
-          "link": "https://status.twilio.com/incidents/6tbhkghmpbr3",
-          "publishedOn": "2024-05-07T22:00:03.000Z",
-          "wordCount": 7544,
-          "title": "Multiple Destination SMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/115xq71h99mn",
-          "author": null,
-          "description": "May  7, 13:45 PDT\nResolved - We are no longer experiencing SMS Delivery Delays to Claro Network in Colombia. This incident has been resolved.\nMay  7, 11:55 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Claro Network in Colombia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay  7, 11:12 PDT\nUpdate - We are investigating an issue causing outbound SMS delivery delays when sending to Claro Network in Colombia. We expect to provide another update in 1 hour or as soon as more information becomes available.\nMay  7, 11:04 PDT\nInvestigating - We are investigating an issue causing outbound SMS delivery delays when sending to Claro Network in Colombia. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/115xq71h99mn",
-          "publishedOn": "2024-05-07T20:45:02.000Z",
-          "wordCount": 7618,
-          "title": "SMS Delivery Delays to Claro Network in Colombia",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/0n1v08frj3r1",
-          "author": null,
-          "description": "May  7, 08:52 PDT\nCompleted - This activity 07 May 2024 at 14:30 PDT until 07 May 2024 at 21:15 PDT has been cancelled and is no longer required and is being removed. Apologies for any inconvenience this may cause. Thank you.\nMay  6, 08:25 PDT\nScheduled - Our carrier partner Vodafone United Kingdom is conducting a planned maintenance from 07 May 2024 at 14:30 PDT until 07 May 2024 at 21:15 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone United Kingdom customers.\n\nImpacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes",
-          "link": "https://status.twilio.com/incidents/0n1v08frj3r1",
-          "publishedOn": "2024-05-07T15:52:48.000Z",
-          "wordCount": 7565,
-          "title": "United Kingdom Account Security Carrier Partner Maintenance - Vodafone",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/86jm4hj8t113",
-          "author": null,
-          "description": "May  7, 06:50 PDT\nResolved - We are no longer experiencing delivery report delays when sending to Al Madar network in Libya. This incident has been resolved.\nMay  7, 04:56 PDT\nMonitoring - We are observing recovery in delivery report delays when sending to Al Madar network in Libya. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay  6, 21:40 PDT\nUpdate - We continue to experience delays in receiving message delivery reports when sending to Al Madar network in Libya. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.\nMay  6, 17:40 PDT\nUpdate - We continue to experience delays in receiving message delivery reports when sending to Al Madar network in Libya. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 Hours or as soon as more information becomes available.\nMay  6, 15:24 PDT\nUpdate - We continue to experience delays in receiving message delivery reports when sending to Al Madar network in Libya. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 Hours or as soon as more information becomes available.\nMay  6, 14:23 PDT\nUpdate - We are experiencing delays in receiving message delivery reports when sending to Al Madar network in Libya. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 Hour or as soon as more information becomes available.\nMay  6, 14:12 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS delivery report delays to Al Madar network in Libya. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/86jm4hj8t113",
-          "publishedOn": "2024-05-07T13:50:18.000Z",
-          "wordCount": 7811,
-          "title": "SMS Delivery Report Delays to Al Madar Network in Libya",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/9gnx81fsjl9l",
-          "author": null,
-          "description": "May  7, 05:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay  6, 23:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay  4, 00:44 PDT\nScheduled - The AT&T network in Mexico is conducting an emergency maintenance from 06 May 2024 at 23:00 PDT until 07 May 2024 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.",
-          "link": "https://status.twilio.com/incidents/9gnx81fsjl9l",
-          "publishedOn": "2024-05-07T12:00:02.000Z",
-          "wordCount": 7537,
-          "title": "Mexico SMS Carrier Maintenance - AT&T",
+          "description": "May  8, 17:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay  8, 14:03 PDT\nScheduled - The Etisalat network in Egypt is conducting a planned maintenance from 08 May 2024 at 17:00 PDT until 09 May 2024 at 21:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Etisalat Egypt handsets.",
+          "link": "https://status.twilio.com/incidents/3s3d4l608pvq",
+          "publishedOn": "2024-05-09T00:00:03.000Z",
+          "wordCount": 7527,
+          "title": "Egypt SMS Carrier Maintenance - Etisalat",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -213,6 +173,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/m6zzcqdwzjj0",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT May 9, 12:00 - 15:00 UTC\nMay  3, 19:17 UTC\nScheduled - Start: 2024-05-09 12:00 UTC\nEnd: 2024-05-09 15:00 UTC\nDuring the above window, our Networking team will be making changes to core networking infrastructure, to improve performance and scalability in the NYC2 region. This is a rescheduled maintenance event previously attempted on 2024-05-02.\nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact on customer traffic due to this maintenance. \nIf an unexpected issue arises, affected Droplets and Droplet-based services could experience increased latency or disruption in public network traffic for a short period of time. If an unexpected issue does occur, our team is prepared to rollback to a safe state to quickly restore public networking. We expect that traffic would be impacted for a period of 5-10 minutes at most in that case.\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
+          "link": "https://status.digitalocean.com/incidents/m6zzcqdwzjj0",
+          "publishedOn": "2024-05-09T12:00:00.000Z",
+          "wordCount": 6347,
+          "title": "Rescheduled: NYC2 Network Maintenance 2024-05-09",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/91tj2rm59jgc",
           "author": null,
@@ -311,16 +281,6 @@
           "publishedOn": "2024-04-16T11:08:42.000Z",
           "wordCount": 6509,
           "title": "Multiple services down and API availability",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/z1sf9hg9tjbm",
-          "author": null,
-          "description": "Apr  8, 13:21 UTC\nResolved - Our Engineering team has resolved the issues with Droplet create failures in our SGP1 region, and all systems should now be operating normally.  If you continue to experience any problems, then please open a ticket with our support team right away.  Thank you for your patience and we apologize for any inconvenience.\nApr  8, 12:48 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue with Droplet creates and is monitoring the situation. We will post an update as soon as the issue is fully resolved.\nApr  8, 12:11 UTC\nInvestigating - Our Engineering team is investigating an issue with Droplet creation failures in our SGP1 region. During this time, you may experience issues while creating Droplets in the region. \nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/z1sf9hg9tjbm",
-          "publishedOn": "2024-04-08T13:21:20.000Z",
-          "wordCount": 6334,
-          "title": "Droplet Create Failures in SGP1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -434,10 +394,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/tsrh60nkbchl",
           "author": null,
-          "description": "May  7, 15:55 UTC\nResolved - This incident has been resolved.\nMay  7, 15:25 UTC\nUpdate - We are seeing recovery, and are continuing to monitor issues and pull requests search results.\nMay  7, 15:00 UTC\nUpdate - We’re investigating problems with our Issues and Pull Requests search cluster that are impacting result list pages and endpoints.\nMay  7, 14:24 UTC\nUpdate - We're investigating page load problems with issues and pull requests.\nMay  7, 14:23 UTC\nInvestigating - We are investigating reports of degraded performance for Issues, API Requests and Pull Requests",
+          "description": "May  7, 15:55 UTC\nResolved - Starting on May 7th, 2024 at 14:00 UTC, our elasticsearch cluster that powers Issues and Pull Requests became unresponsive correlating to a spike in usage.  This affected GitHub customers who were trying to search issues and pull requests.\nWe mitigated this incident by adding additional cluster members which increased the resources available to the cluster.  We are working to add additional safeguards to our endpoints.  We are also continuing to investigate the root cause of the instability and if the index needs to be re-sharded for future risk mitigation.\nMay  7, 15:25 UTC\nUpdate - We are seeing recovery, and are continuing to monitor issues and pull requests search results.\nMay  7, 15:00 UTC\nUpdate - We’re investigating problems with our Issues and Pull Requests search cluster that are impacting result list pages and endpoints.\nMay  7, 14:24 UTC\nUpdate - We're investigating page load problems with issues and pull requests.\nMay  7, 14:23 UTC\nInvestigating - We are investigating reports of degraded performance for Issues, API Requests and Pull Requests",
           "link": "https://www.githubstatus.com/incidents/tsrh60nkbchl",
           "publishedOn": "2024-05-07T15:55:12.000Z",
-          "wordCount": 5366,
+          "wordCount": 5449,
           "title": "Incident with Issues, API Requests and Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -569,16 +529,6 @@
           "publishedOn": "2024-04-09T20:17:07.000Z",
           "wordCount": 5483,
           "title": "Incident with Actions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/6tgmk1j7b4rn",
-          "author": null,
-          "description": "Apr  9, 05:10 UTC\nResolved - On April 9, 2024, between 04:32 UTC and 05:10 UTC, an outage occurred in Github Packages, specifically impacting the download functionality of NPM Packages. All attempts to download NPM Packages failed during this period. Upon investigation, we found a recent code change in the NPM Registry to be the root cause. The customer impact was limited to users of NPM Registry, with no effects on other registries.\nWe mitigated the incident by rolling back the problematic change. We are following up with repair items to cover our observability gaps and implementing measures in our CI process to detect such failures early before they can impact customers.\nApr  9, 04:51 UTC\nUpdate - We are investigating reports of issues with downloading NPM packages. We will continue to keep users updated on progress towards mitigation.\nApr  9, 04:32 UTC\nInvestigating - We are currently investigating this issue.",
-          "link": "https://www.githubstatus.com/incidents/6tgmk1j7b4rn",
-          "publishedOn": "2024-04-09T05:10:21.000Z",
-          "wordCount": 5407,
-          "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
