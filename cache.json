@@ -6,6 +6,16 @@
       "siteUrl": "https://changelog.bookingsync.com",
       "articles": [
         {
+          "id": "292461",
+          "author": "Megan, Product Manager",
+          "description": "New!\n  \nWe’re excited to introduce a new feature for SmilyPay: refunds!   🎉 \nNow, you can process refunds directly from your Smily account, simplifying your payment workflow and enhancing your control over transactions.\nWhat Does This Mean for You?\nQuick and Easy Refunds: Handle refunds directly from your bookings in the Smily dashboard, streamlining your financial operations.\nProperty Manager Focused: Our solution is designed specifically for property managers, ensuring your account remains flexible and responsive to your needs.\nFind out more about refunds and how to activate this feature by clicking here: yes please, tell me more!",
+          "link": "https://changelog.bookingsync.com/refunds-made-simple-with-smilypay-292461",
+          "publishedOn": "2024-05-08T15:59:17.000Z",
+          "wordCount": 322,
+          "title": "Refunds Made Simple with SmilyPay",
+          "imageUrl": null
+        },
+        {
           "id": "291878",
           "author": "Ella, Chief Customer Officer (CCO) & Cofounder",
           "description": "New!\n  \n​We’re excited to unveil a game-changing addition to your Smily toolkit - the Performance Dashboard! Tailored specifically for you, the dedicated property managers who fuel the vacation rental industry, this new feature is designed to turn your data into decisions that drive profit.​\n💪 Why the Performance Dashboard?\nEvery day, you face the challenge of optimizing your property’s performance but may feel lost in a sea of data. You've told us about the headaches from using third-party providers or makeshift solutions that just don't fit the bill. That's why we've listened and created a centralized, intuitive platform that not only tracks your key metrics like occupancy rates, booking windows, and revenue but also turns this data into actionable insights.​\n👀 What can you expect?\nCus…",
@@ -80,6 +90,26 @@
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
         {
+          "id": "https://airbnbapi.statuspage.io/incidents/s2qyzvk6612p",
+          "author": null,
+          "description": "May  9, 12:16 PDT\nInvestigating - We are currently investigating an issue where the Airbnb calendar incorrectly displays dates as available to guests, even though these dates are already blocked due to existing reservations. As a result, guests can get to the check-out page, but will see an error message that says \"These dates are no longer available\", and are prompted to select different dates. It's important to note that despite appearing as available, these dates cannot be booked by guests on Airbnb.",
+          "link": "https://airbnbapi.statuspage.io/incidents/s2qyzvk6612p",
+          "publishedOn": "2024-05-09T19:16:27.000Z",
+          "wordCount": 3898,
+          "title": "Incorrect Availability Displayed on Airbnb Calendar",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://airbnbapi.statuspage.io/incidents/867lr996sr60",
+          "author": null,
+          "description": "May  9, 11:52 PDT\nMonitoring - We have implemented a fix for this issue around 8:30 AM PDT today, and we are monitoring the results.\nMay  9, 09:06 PDT\nUpdate - While we continue to investigate this issue, please make sure that the availability for your listings is up-to-date, as booking attempts are still being processed based on the availability reflected on the Airbnb calendar. Please note that this incident is not affecting notifications, and you will receive webhook notifications for reservation requests, confirmation, alteration, and cancellations.\nWe will post more updates as soon as we have them.\nMay  9, 02:56 PDT\nInvestigating - We are facing issues where some reservations are being confirmed without Sync Availability Checks for API connected listings.\nOur engineering teams are investigating the issue and we will update you with the latest information as soon as possible.",
+          "link": "https://airbnbapi.statuspage.io/incidents/867lr996sr60",
+          "publishedOn": "2024-05-09T18:52:50.000Z",
+          "wordCount": 3959,
+          "title": "Reservations confirming without Sync Availability Checks",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://airbnbapi.statuspage.io/incidents/7h6gs9qk9h41",
           "author": null,
           "description": "THIS IS A SCHEDULED EVENT May 1, 09:00 - 14:00 PDT\nMar 20, 10:04 PDT\nScheduled - We are in the process of upgrading our digital signature algorithm to ECDSA Certificates and transitioning to a more robust and faster TLS cipher suite. This shift will not only strengthen security but also enhance our efficiency, speed, and performance of secure communications. \nStarting May 1, 2024, we will exclusively support the following ciphers:\n- TLS-AES-256-GCM-SHA384\n- TLS-CHACHA20-POLY1305-SHA256\n- TLS-AES-128-GCM-SHA256\n- ECDHE-ECDSA-AES256-GCM-SHA384\n- ECDHE-ECDSA-AES128-GCM-SHA256\n- ECDHE-ECDSA-CHACHA20-POLY1305\nPlease make plans to update your systems accordingly as soon as possible. If your client does not support any of the ciphers listed above, you will not be able to establish a connection with our API.",
@@ -108,16 +138,6 @@
           "wordCount": 3867,
           "title": "API Docs Unavailable",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/gq09ptstbrrv",
-          "author": null,
-          "description": "Apr  9, 10:35 PDT\nCompleted - The scheduled maintenance has been completed.\nApr  9, 10:33 PDT\nUpdate - Scheduled maintenance is still in progress. We will provide updates as necessary.\nApr  8, 00:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr  1, 08:24 PDT\nScheduled - The full deprecation date for API Version 2022.03.31 was on March 31, 2024. \nStarting on April 8, 2024, any applications that have not fully migrated will be automatically migrated to a newer version. Enforcements will occur throughout the week of April 8th.\nLearn more: https://developer.airbnb.com/docs/versioning-enforcement",
-          "link": "https://airbnbapi.statuspage.io/incidents/gq09ptstbrrv",
-          "publishedOn": "2024-04-09T17:35:02.000Z",
-          "wordCount": 3908,
-          "title": "v2022.03.31 Migration Enforcement",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -127,43 +147,63 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/3pz0k6fgzgbv",
+          "id": "https://status.twilio.com/incidents/cdvx9gnrbcf3",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 8, 23:00 PDT  -  May 9, 00:30 PDT\nMay  7, 16:14 PDT\nScheduled - Our SMS carrier partner in Mexico is conducting a planned maintenance from 08 May 2024 at 23:00 PDT until 09 May 2024 at 00:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Mexico handsets.",
-          "link": "https://status.twilio.com/incidents/3pz0k6fgzgbv",
-          "publishedOn": "2024-05-09T06:00:00.000Z",
-          "wordCount": 7509,
-          "title": "Mexico SMS Carrier Partner Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT May 9, 19:00 - 20:00 PDT\nMay  8, 14:09 PDT\nScheduled - The ATT network in the US is conducting planned maintenance from 09 May 2024 at 19:00 PDT until 09 May 2024 at 20:00 PDT. Customers using Toll-Free numbers may experience intermittent delays delivering MMS messages to and from end-users during the maintenance window.",
+          "link": "https://status.twilio.com/incidents/cdvx9gnrbcf3",
+          "publishedOn": "2024-05-10T02:00:00.000Z",
+          "wordCount": 7519,
+          "title": "US Toll-Free MMS Carrier Maintenance - ATT",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/0jdk8fxh25x4",
+          "id": "https://status.twilio.com/incidents/pk4r4j2h1ng5",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 8, 22:00 PDT  -  May 9, 02:00 PDT\nApr 30, 16:58 PDT\nScheduled - The T-Mobile network in the US is conducting a planned maintenance from 08 May 2024 at 22:00 PDT until 09 May 2024 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
-          "link": "https://status.twilio.com/incidents/0jdk8fxh25x4",
-          "publishedOn": "2024-05-09T05:00:00.000Z",
-          "wordCount": 7520,
-          "title": "US SMS Carrier Maintenance - T-Mobile",
+          "description": "May  9, 16:39 PDT\nResolved - We are no longer experiencing issues with no-code partners being unable to edit their listing details. This incident has been resolved.\nMay  9, 15:09 PDT\nUpdate - Our engineers have identified an issue with no-code partners unable to edit their listing details. We expect to provide another update in 2 hours or as soon as more information becomes available.\nMay  9, 14:17 PDT\nUpdate - Our engineers have identified an issue with no-code partners unable to edit their listing details. We expect to provide another update in 1 hour or as soon as more information becomes available.\nMay  9, 13:47 PDT\nInvestigating - Our monitoring systems have detected a potential issue with some ISV partners unable to edit their listing details. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/pk4r4j2h1ng5",
+          "publishedOn": "2024-05-09T23:39:31.000Z",
+          "wordCount": 7610,
+          "title": "No-Code Partners Unable to Edit their Listing Details",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/v08dhczq9099",
+          "id": "https://status.twilio.com/incidents/4bfscfw119nn",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 8, 20:00 PDT  -  May 9, 00:00 PDT\nApr 26, 16:36 PDT\nScheduled - Our SMS and MMS carrier partner in the US and Canada is conducting a planned maintenance from 08 May 2024 at 20:00 PDT until 09 May 2024 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets via Toll-free numbers.",
-          "link": "https://status.twilio.com/incidents/v08dhczq9099",
-          "publishedOn": "2024-05-09T03:00:00.000Z",
-          "wordCount": 7538,
-          "title": "US and Canada SMS and MMS Carrier partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/3s3d4l608pvq",
-          "author": null,
-          "description": "May  8, 17:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay  8, 14:03 PDT\nScheduled - The Etisalat network in Egypt is conducting a planned maintenance from 08 May 2024 at 17:00 PDT until 09 May 2024 at 21:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Etisalat Egypt handsets.",
-          "link": "https://status.twilio.com/incidents/3s3d4l608pvq",
-          "publishedOn": "2024-05-09T00:00:03.000Z",
+          "description": "May  9, 16:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay  8, 14:08 PDT\nScheduled - The Vodafone network in Egypt is conducting a planned maintenance from 09 May 2024 at 16:00 PDT until 09 May 2024 at 21:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Vodafone Egypt handsets.",
+          "link": "https://status.twilio.com/incidents/4bfscfw119nn",
+          "publishedOn": "2024-05-09T23:00:02.000Z",
           "wordCount": 7527,
-          "title": "Egypt SMS Carrier Maintenance - Etisalat",
+          "title": "Egypt SMS Carrier Maintenance - Vodafone",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/htctrf57mcdw",
+          "author": null,
+          "description": "May  9, 15:59 PDT\nResolved - Engineers have reported that the Toll-Free Number provisioning issues have been resolved after our provider performed their fix earlier today. Provisioning for Toll-Free numbers is confirmed to be operating normally at this time. Thank you for your patience while we worked with our provider on a fix for this issue.\nMay  7, 12:25 PDT\nUpdate - Engineers are continuing to observe an improvement today with the Toll-Free Number provisioning issues.\nOur provider has advised they will release a fix for this issue the morning of 09 May 2024 PDT.\nWe will supply an update after the provider's release, and confirm final resolution. Thank you for your patience.\nMay  3, 14:26 PDT\nIdentified - Our engineers found that there are still issues when attempting to provision Toll-…",
+          "link": "https://status.twilio.com/incidents/htctrf57mcdw",
+          "publishedOn": "2024-05-09T22:59:36.000Z",
+          "wordCount": 7964,
+          "title": "Issues with Toll-Free Numbers Provisioning",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/9sqvwg43w4jk",
+          "author": null,
+          "description": "May  9, 15:32 PDT\nUpdate - We are observing recovery with SMS delivery delays to XL Network in Indonesia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay  9, 14:38 PDT\nMonitoring - We are observing recovery with SMS delivery delays to XL Network in Indonesia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 1 hour or as soon as more information becomes available.\nMay  9, 13:19 PDT\nUpdate - We are experiencing SMS delivery delays to XL Network in Indonesia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nMay  9, 13:12 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS delivery delays to XL Network in Indonesia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/9sqvwg43w4jk",
+          "publishedOn": "2024-05-09T22:32:09.000Z",
+          "wordCount": 7648,
+          "title": "SMS Delivery Delays to XL Network in Indonesia",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/39t3pdgr79vj",
+          "author": null,
+          "description": "May  9, 13:33 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Tigo Network in Bolivia. This incident has been resolved.\nMay  9, 10:09 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Tigo Network in Bolivia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay  9, 09:33 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Tigo Network in Bolivia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMay  9, 07:33 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Tigo Network in Bolivia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay  9, 06:32 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Tigo Network in Bolivia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/39t3pdgr79vj",
+          "publishedOn": "2024-05-09T20:33:12.000Z",
+          "wordCount": 7689,
+          "title": "SMS Delivery Delays to Tigo Network in Bolivia",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -176,10 +216,10 @@
         {
           "id": "https://status.digitalocean.com/incidents/m6zzcqdwzjj0",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 9, 12:00 - 15:00 UTC\nMay  3, 19:17 UTC\nScheduled - Start: 2024-05-09 12:00 UTC\nEnd: 2024-05-09 15:00 UTC\nDuring the above window, our Networking team will be making changes to core networking infrastructure, to improve performance and scalability in the NYC2 region. This is a rescheduled maintenance event previously attempted on 2024-05-02.\nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact on customer traffic due to this maintenance. \nIf an unexpected issue arises, affected Droplets and Droplet-based services could experience increased latency or disruption in public network traffic for a short period of time. If an unexpected issue does occur, our team is prepared to rollback to a safe state to quickly restore public networking. We expect that traffic would be impacted for a period of 5-10 minutes at most in that case.\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
+          "description": "May  9, 14:31 UTC\nCompleted - The scheduled maintenance has been completed.\nMay  9, 12:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay  3, 19:17 UTC\nScheduled - Start: 2024-05-09 12:00 UTC\nEnd: 2024-05-09 15:00 UTC\nDuring the above window, our Networking team will be making changes to core networking infrastructure, to improve performance and scalability in the NYC2 region. This is a rescheduled maintenance event previously attempted on 2024-05-02.\nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact on customer traffic due to this maintenance. \nIf an unexpected issue arises, affected Droplets and Droplet-based services could experience increased latency or disruption in public network traffic for a short period of time. If an unexpected issue does occur, our team is prepared to rollback to a safe state to quickly restore public networking. We expect that traffic would be impacted for a period of 5-10 minutes at most in that case.\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
           "link": "https://status.digitalocean.com/incidents/m6zzcqdwzjj0",
-          "publishedOn": "2024-05-09T12:00:00.000Z",
-          "wordCount": 6347,
+          "publishedOn": "2024-05-09T14:31:15.000Z",
+          "wordCount": 6375,
           "title": "Rescheduled: NYC2 Network Maintenance 2024-05-09",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -510,26 +550,6 @@
           "wordCount": 5442,
           "title": "Incident with Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/k7bc8pkxpmbp",
-          "author": null,
-          "description": "Apr 10, 09:38 UTC\nResolved - Between 8:18 and 9:38 UTC on Wednesday, April 10th, customers experienced increased error rates across several services due to an overloaded primary database instance, ultimately caused by an unbounded query. We mitigated the impact by failing the instance over to more capable hardware and shipping an improved version of the query that runs against read replicas. In response to this incident, we are also working to make performance improvements to the class of queries that most frequently resulted in failed requests during this timeframe.\nWeb-based repository file editing saw a 17% failure rate during the incident with other repository management operations (e.g. rule updates, web-based branch creation, repository renames) seeing failure rates between 1.5% and …",
-          "link": "https://www.githubstatus.com/incidents/k7bc8pkxpmbp",
-          "publishedOn": "2024-04-10T09:38:36.000Z",
-          "wordCount": 5586,
-          "title": "Incident with Issues and Pull Requests",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/xcjgp37zx5dt",
-          "author": null,
-          "description": "Apr  9, 20:17 UTC\nResolved - On April 9, 2024, between 18:00 and 20:17 UTC, Actions was degraded and had failures for new and existing customers. During this time, Actions failed to start for 5,426 new repositories, and 1% of runs for existing customers were delayed, with half of those failing due to an infrastructure error.\nThe root cause was an expired certificate which caused authentication to fail between internal services. The incident was mitigated once the cert was rotated.\nWe are working to improve our automation to ensure certs are rotated before expiration.\nApr  9, 19:43 UTC\nUpdate - We continue to work to resolve issues with repositories not being able to enable Actions and Actions network configuration setup not working properly. We have confirmed a fix and are in the process of deploying it to production. Another update will be shared within the next 30 minutes.\nApr  9, 19:06 UTC\nUpdate - We continue to work to resolve issues with repositories not being able to enable Actions and Actions network configuration setup not working properly. We will provide additional information shortly.\nApr  9, 18:36 UTC\nUpdate - We are aware of issues with repositories not being able to enable Actions. We are in the process of restoring full functionality and will provide additional information shortly.\nApr  9, 18:36 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
-          "link": "https://www.githubstatus.com/incidents/xcjgp37zx5dt",
-          "publishedOn": "2024-04-09T20:17:07.000Z",
-          "wordCount": 5483,
-          "title": "Incident with Actions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -626,16 +646,6 @@
           "publishedOn": "2024-04-12T16:06:21.000Z",
           "wordCount": 700,
           "title": "Incident: Issues managing user accounts with the SCIM API",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-04/cf06ca63b7566a62",
-          "author": null,
-          "description": "Issue Summary:\r\n\r\nFrom Tuesday April 9 at 12:17 AM PDT to 7:21 AM PDT, users reported being unable to load the Workflow Builder page in Slack. \r\n\r\nWe noticed an elevated error rate for API requests related to this page, and determined this was caused by a database issue that was in the process of being remediated. As remediation work continued, error rates subsided and the Workflow Builder page began to load as normal.",
-          "link": "https://slack-status.com/2024-04/cf06ca63b7566a62",
-          "publishedOn": "2024-04-09T15:45:35.000Z",
-          "wordCount": 351,
-          "title": "Incident: Workflow Builder page not loading",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
@@ -773,16 +783,6 @@
           "publishedOn": "2024-04-23T07:00:02.000Z",
           "wordCount": 3947,
           "title": "Scheduled infrastructure maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/fmfdq1ngkcpj",
-          "author": null,
-          "description": "Apr  9, 14:33 CEST\nResolved - This incident has been resolved.\nApr  9, 12:06 CEST\nMonitoring - A fix has been successfully implemented, and the issue regarding delayed webhook processing on the eu2.make.com zone has been mitigated. Our team will continue to closely monitor the situation to ensure stability. Thank you for your patience and understanding.\nApr  9, 11:36 CEST\nInvestigating - We are currently facing an issue with delayed webhook processing on eu2.make.com zone. We are actively working on mitigating the situation. An update will be provided within the next 60 minutes.",
-          "link": "https://status.make.com/incidents/fmfdq1ngkcpj",
-          "publishedOn": "2024-04-09T12:33:40.000Z",
-          "wordCount": 3909,
-          "title": "Delayed webhook executions on eu2.make.com",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
