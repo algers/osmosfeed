@@ -6,6 +6,26 @@
       "siteUrl": "https://changelog.bookingsync.com",
       "articles": [
         {
+          "id": "292551",
+          "author": "Eduardo",
+          "description": "New!\n  \nHey Smily Community,\nWe are thrilled to introduce an exciting new addition to your Smily toolkit—Task Management! Crafted specifically for you, the diligent property managers at the heart of the vacation rental industry, this innovative feature is designed to streamline your operations and enhance efficiency.\nWhy Task Management?\nManaging multiple properties means managing countless tasks, from cleaning to maintenance tasks, which can often feel overwhelming. Many of you have shared your struggles with juggling these duties using basic tools that fail to meet your needs. We listened, and we've developed a centralized, intuitive system that not only helps you organize and automate these tasks but also ensures they are completed on time, every time.\n\nWhat Can You Expect?\nAutomation R…",
+          "link": "https://changelog.bookingsync.com/new-feature-task-management-simplify-your-property-management-operations!-292551",
+          "publishedOn": "2024-05-10T12:35:17.000Z",
+          "wordCount": 611,
+          "title": "🌟 New Feature: Task Management - Simplify Your Property Management Operations!",
+          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/127/515-612f5894d8c715ac0bbd57ec603fcabcd5deaa60.png"
+        },
+        {
+          "id": "292534",
+          "author": "Eduardo",
+          "description": "New!\n  \nGreat news for all Smily users! \nWe're making your payment process more consistent and guest friendly. 🚀 \nStarting today, guests will see the Rental Headline instead of the internal Rental Name on the payment page. \n\n\n\nThis change ensures that the property title displayed is not only guest-friendly but consistent throughout the booking process.\nThis minor tweak is a big step towards enhancing guest experience and consistency across our platform.\nCheck out the updated payment page today and see the difference for yourself! 💫\nSmilyUpdates #SimplerAndSmarter",
+          "link": "https://changelog.bookingsync.com/exciting-update-for-smily-payment-page!-292534",
+          "publishedOn": "2024-05-10T02:59:28.000Z",
+          "wordCount": 313,
+          "title": "🌟Exciting Update for Smily Payment Page!",
+          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/127/502-be7fa0892babf76c78c426f4919f6b53402cb5c0.png"
+        },
+        {
           "id": "292461",
           "author": "Megan, Product Manager",
           "description": "New!\n  \nWe’re excited to introduce a new feature for SmilyPay: refunds!   🎉 \nNow, you can process refunds directly from your Smily account, simplifying your payment workflow and enhancing your control over transactions.\nWhat Does This Mean for You?\nQuick and Easy Refunds: Handle refunds directly from your bookings in the Smily dashboard, streamlining your financial operations.\nProperty Manager Focused: Our solution is designed specifically for property managers, ensuring your account remains flexible and responsive to your needs.\nFind out more about refunds and how to activate this feature by clicking here: yes please, tell me more!",
@@ -58,7 +78,7 @@
           "description": "Description: Insufficient inbound packet filtering in subnet routers and exit nodes\nWhat happened?\nIn Tailscale versions earlier than 1.66.0, exit nodes, subnet\nrouters, and app connectors, could\nallow inbound connections to other tailnet nodes from their local area network\n(LAN). This vulnerability only affects Linux exit nodes, subnet routers, and\napp connectors in tailnets where ACLs allow \"src\": \"*\", such as\nwith default ACLs.\nTailscale version 1.66.0 fixes the vulnerability. Additionally, a server-side\nupdate changes the interpretation of \"src\": \"*\" to mitigate the issue\nspecifically for exit nodes.\nSpecial thanks to Hakan Ergan for reporting a similar\nconcern that led us to discover this vulnerability.\nWho was affected?\nThis affected the following nodes using Tailscale version 1.65 o…",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-005",
           "publishedOn": "2024-05-08T00:00:00.000Z",
-          "wordCount": 12990,
+          "wordCount": 12992,
           "title": "TS-2024-005",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         },
@@ -68,7 +88,7 @@
           "description": "Description: Unclear network flow logs collection status for alpha testers.\nWhat happened?\nWhen network flow logs first entered private alpha, tailnet admins who were interested in testing out the feature had to request to be manually opted into the alpha testing track. When we subsequently introduced admin console settings for self-serve network flow logs for the public beta launch, these settings were not properly connected to the alpha testing track. As a result, for the small number of tailnets that volunteered for alpha testing, the admin console interface did not show that logs were still being collected as initially requested.\nWe fixed this bug on April 25, 2024 and the admin console now correctly shows the status of network flow logs for all users.\nWho was affected?\n15 tailnets were opted into network flow log collection through the alpha testing track that did not re-enroll through the admin console. We notified security contacts for the affected tailnets about this bug.\nWhat was the impact?\nThe admin panel did not reflect the correct status for network flow log collection for affected tailnets, and admins of these tailnets may not have realized that network flow logs were still being collected.\nWhat do I need to do?\nNo action is needed at this time.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-004",
           "publishedOn": "2024-05-06T00:00:00.000Z",
-          "wordCount": 12990,
+          "wordCount": 12992,
           "title": "TS-2024-004",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         },
@@ -78,7 +98,7 @@
           "description": "Description: Bug in SSH check mode with checkPeriod set to 0s.\nWhat happened?\nCheck mode in Tailscale SSH forces an SSH client to periodically\nre-authenticate when connecting to SSH servers. The period is configured via\nthe checkPeriod attribute in Tailscale ACLs, and defaults to 12 hours.\nA bug in ACL parsing interpreted \"checkPeriod\": \"0s\" as unset, and used the\ndefault period of 12 hours instead.\nWe deployed a fix for the bug in ACL parsing logic on 2024-04-23. SSH clients\nin tailnets that set \"checkPeriod\": \"0s\" are now correctly prompted for\nre-authentication on every connection.\nNote that a special value \"checkPeriod\": \"always\" is the documented\nrecommended way to achieve this behavior.\nWe thank Finch for reporting this issue.\nWho was affected?\n17 tailnets use Tailscale SSH with \"action\": \"check\" and \"checkPeriod\": \"0s\". We notified security contacts for the affected tailnets about this bug.\nWhat was the impact?\nSSH clients in the affected tailnets were prompted to re-authenticate every 12\nhours, instead of during each connection as intended by the tailnet\nadministrators.\nWhat do I need to do?\nNo action is needed at this time.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-003",
           "publishedOn": "2024-04-23T00:00:00.000Z",
-          "wordCount": 12990,
+          "wordCount": 12992,
           "title": "TS-2024-003",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -147,63 +167,63 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/cdvx9gnrbcf3",
+          "id": "https://status.twilio.com/incidents/pqng4b2z3d1d",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 9, 19:00 - 20:00 PDT\nMay  8, 14:09 PDT\nScheduled - The ATT network in the US is conducting planned maintenance from 09 May 2024 at 19:00 PDT until 09 May 2024 at 20:00 PDT. Customers using Toll-Free numbers may experience intermittent delays delivering MMS messages to and from end-users during the maintenance window.",
-          "link": "https://status.twilio.com/incidents/cdvx9gnrbcf3",
-          "publishedOn": "2024-05-10T02:00:00.000Z",
-          "wordCount": 7519,
-          "title": "US Toll-Free MMS Carrier Maintenance - ATT",
+          "description": "May 10, 16:56 PDT\nResolved - We are no longer experiencing SMS delivery delays to Dish Network in the US from a subset of shortcodes. This incident has been resolved.\nMay 10, 15:01 PDT\nMonitoring - We are observing recovery in SMS delivery delays to Dish Network in the US from a subset of shortcodes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 10, 13:24 PDT\nUpdate - We've become aware of a potential issue with SMS delivery delays to Dish Network in the US from a subset of shortcodes. Our engineering team has been alerted and is actively investigating. We will update in 2 hours as soon as we have more information.\nMay 10, 11:34 PDT\nInvestigating - We've become aware of a potential issue with SMS delivery delays to Dish Network in the US from a subset of shortcodes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/pqng4b2z3d1d",
+          "publishedOn": "2024-05-10T23:56:03.000Z",
+          "wordCount": 7666,
+          "title": "SMS delivery delays to Dish Network in the US from a subset of shortcodes",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/pk4r4j2h1ng5",
+          "id": "https://status.twilio.com/incidents/t1v9yd89x5k5",
           "author": null,
-          "description": "May  9, 16:39 PDT\nResolved - We are no longer experiencing issues with no-code partners being unable to edit their listing details. This incident has been resolved.\nMay  9, 15:09 PDT\nUpdate - Our engineers have identified an issue with no-code partners unable to edit their listing details. We expect to provide another update in 2 hours or as soon as more information becomes available.\nMay  9, 14:17 PDT\nUpdate - Our engineers have identified an issue with no-code partners unable to edit their listing details. We expect to provide another update in 1 hour or as soon as more information becomes available.\nMay  9, 13:47 PDT\nInvestigating - Our monitoring systems have detected a potential issue with some ISV partners unable to edit their listing details. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/pk4r4j2h1ng5",
-          "publishedOn": "2024-05-09T23:39:31.000Z",
-          "wordCount": 7610,
-          "title": "No-Code Partners Unable to Edit their Listing Details",
+          "description": "May 10, 16:01 PDT\nMonitoring - We are observing recovery with SMS delivery delays to Orange Network in Burkina Faso. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 10, 15:09 PDT\nUpdate - We are experiencing SMS delivery delays to Orange Network in Burkina Faso. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nMay 10, 14:51 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS delivery delays to Orange Network in Burkina Faso. Our engineering team has been alerted and is actively investigating. We will send an update in 1 hour as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/t1v9yd89x5k5",
+          "publishedOn": "2024-05-10T23:01:25.000Z",
+          "wordCount": 7614,
+          "title": "SMS Delivery Delays to Orange Network in Burkina Faso",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/4bfscfw119nn",
+          "id": "https://status.twilio.com/incidents/nln8j501fzgh",
           "author": null,
-          "description": "May  9, 16:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay  8, 14:08 PDT\nScheduled - The Vodafone network in Egypt is conducting a planned maintenance from 09 May 2024 at 16:00 PDT until 09 May 2024 at 21:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Vodafone Egypt handsets.",
-          "link": "https://status.twilio.com/incidents/4bfscfw119nn",
-          "publishedOn": "2024-05-09T23:00:02.000Z",
-          "wordCount": 7527,
-          "title": "Egypt SMS Carrier Maintenance - Vodafone",
+          "description": "May 10, 15:58 PDT\nResolved - We are no longer experiencing SMS delivery report delays to multiple networks in the US for a subset of shortcodes. This incident has been resolved.\nMay 10, 14:03 PDT\nUpdate - We are experiencing message delivery report delays when sending to multiple networks in the US for a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nMay 10, 13:03 PDT\nUpdate - We are experiencing message delivery report delays when sending to multiple networks in the US for a subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nMay 10, 12:56 PDT\nInvestigating - Our monitoring systems have detected an issue with SMS delivery report delays to multiple networks in the US. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/nln8j501fzgh",
+          "publishedOn": "2024-05-10T22:58:43.000Z",
+          "wordCount": 7673,
+          "title": "SMS Delivery Report Delays to Multiple Networks in the US for a Subset of Shortcodes",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/htctrf57mcdw",
+          "id": "https://status.twilio.com/incidents/24t6407n1c65",
           "author": null,
-          "description": "May  9, 15:59 PDT\nResolved - Engineers have reported that the Toll-Free Number provisioning issues have been resolved after our provider performed their fix earlier today. Provisioning for Toll-Free numbers is confirmed to be operating normally at this time. Thank you for your patience while we worked with our provider on a fix for this issue.\nMay  7, 12:25 PDT\nUpdate - Engineers are continuing to observe an improvement today with the Toll-Free Number provisioning issues.\nOur provider has advised they will release a fix for this issue the morning of 09 May 2024 PDT.\nWe will supply an update after the provider's release, and confirm final resolution. Thank you for your patience.\nMay  3, 14:26 PDT\nIdentified - Our engineers found that there are still issues when attempting to provision Toll-…",
-          "link": "https://status.twilio.com/incidents/htctrf57mcdw",
-          "publishedOn": "2024-05-09T22:59:36.000Z",
-          "wordCount": 7964,
-          "title": "Issues with Toll-Free Numbers Provisioning",
+          "description": "May 10, 14:15 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay  8, 17:00 PDT\nScheduled - Our carrier partner Vodafone United Kingdom is conducting a planned maintenance from 10 May 2024 at 14:15 PDT until 10 May 2024 at 21:00 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone United Kingdom customers.\n\nImpacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes",
+          "link": "https://status.twilio.com/incidents/24t6407n1c65",
+          "publishedOn": "2024-05-10T21:15:02.000Z",
+          "wordCount": 7546,
+          "title": "United Kingdom Account Security Carrier Partner Maintenance - Vodafone",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/9sqvwg43w4jk",
+          "id": "https://status.twilio.com/incidents/1lnfhvgkk0bl",
           "author": null,
-          "description": "May  9, 15:32 PDT\nUpdate - We are observing recovery with SMS delivery delays to XL Network in Indonesia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay  9, 14:38 PDT\nMonitoring - We are observing recovery with SMS delivery delays to XL Network in Indonesia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 1 hour or as soon as more information becomes available.\nMay  9, 13:19 PDT\nUpdate - We are experiencing SMS delivery delays to XL Network in Indonesia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nMay  9, 13:12 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS delivery delays to XL Network in Indonesia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/9sqvwg43w4jk",
-          "publishedOn": "2024-05-09T22:32:09.000Z",
-          "wordCount": 7648,
-          "title": "SMS Delivery Delays to XL Network in Indonesia",
+          "description": "May 10, 14:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 10, 07:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 12, 14:26 PDT\nScheduled - Twilio is conducting a planned maintenance from 10 May 07:00 until 10 May 14:00 PDT on the Twilio Network Exchange in Singapore (SG1). During the maintenance window there could be intermittent impact on calls to and from Singapore.",
+          "link": "https://status.twilio.com/incidents/1lnfhvgkk0bl",
+          "publishedOn": "2024-05-10T21:00:24.000Z",
+          "wordCount": 7540,
+          "title": "Twilio Voice Maintenance (Singapore)",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/39t3pdgr79vj",
+          "id": "https://status.twilio.com/incidents/4qc54nctfrj9",
           "author": null,
-          "description": "May  9, 13:33 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Tigo Network in Bolivia. This incident has been resolved.\nMay  9, 10:09 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Tigo Network in Bolivia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay  9, 09:33 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Tigo Network in Bolivia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMay  9, 07:33 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Tigo Network in Bolivia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay  9, 06:32 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Tigo Network in Bolivia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/39t3pdgr79vj",
-          "publishedOn": "2024-05-09T20:33:12.000Z",
-          "wordCount": 7689,
-          "title": "SMS Delivery Delays to Tigo Network in Bolivia",
+          "description": "May 10, 14:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 10, 07:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 12, 14:26 PDT\nScheduled - Twilio is conducting planned maintenance from 10 May 07:00 until 10 May 14:00 PDT on the Twilio Network Exchange in Singapore (SG1). During the maintenance window there could be intermittent impact to services with Interconnects in SG1.",
+          "link": "https://status.twilio.com/incidents/4qc54nctfrj9",
+          "publishedOn": "2024-05-10T21:00:02.000Z",
+          "wordCount": 7523,
+          "title": "Twilio Interconnect Maintenance (Singapore)",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -529,26 +549,6 @@
           "publishedOn": "2024-04-14T21:53:52.000Z",
           "wordCount": 5718,
           "title": "We are investigating reports of degraded performance.",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/9zq8p50p7tkh",
-          "author": null,
-          "description": "Apr 10, 19:03 UTC\nUpdate - On April 10, 2024, between 2024-04-10 18:33 UTC and 2024-04-10 19:03 UTC, several services were degraded due to the release of a compute-intensive database query that prevented a key database cluster from serving other queries. \nGitHub Actions saw delays and failures across the entire run life cycle and had a significant increase in the number of  timeouts in API requests. All Pages deployments failed for the duration of the incident. Git Systems saw approximately 12% of raw file download requests and 16% of repository archive download requests return HTTP 50X error codes for the duration of the incident. Issues experienced increased latency for issue creation and updates. Codespaces saw roughly 500 requests to create and resume a Codespace timeout during the inc…",
-          "link": "https://www.githubstatus.com/incidents/9zq8p50p7tkh",
-          "publishedOn": "2024-04-10T19:03:05.000Z",
-          "wordCount": 5639,
-          "title": "Incident with Git Operations, API Requests, Actions, Pages, Issues and Copilot",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/gqb335zdyq82",
-          "author": null,
-          "description": "Apr 10, 18:07 UTC\nResolved - Between 2024-04-09 21:35 UTC and 2024-04-10 19:03 UTC, creation of new Codespaces was degraded by an image upgrade to the virtual machines of new Codespaces. During the incident, approximately 7% of new Codespaces were created but never became available to their owning end users.\nWe mitigated the incident by reverting to the previous image version. We are working to improve deployment confidence around image upgrades to reduce the likelihood of recurrence.\nApr 10, 17:31 UTC\nUpdate - We have applied a fix and are continuing to monitor. This incident will remain open for now until we have confirmed that the service is fully restored.\nApr 10, 16:56 UTC\nUpdate - We believe we have identified the root cause of the issue and are working to fully restore the Codespaces service. We will provide another update within the next 30 minutes.\nApr 10, 16:20 UTC\nUpdate - We’re seeing issues related to connecting to Codespaces impacting a subset of users. We are actively investigating and will provide another update shortly.\nApr 10, 16:12 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces",
-          "link": "https://www.githubstatus.com/incidents/gqb335zdyq82",
-          "publishedOn": "2024-04-10T18:07:51.000Z",
-          "wordCount": 5442,
-          "title": "Incident with Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
