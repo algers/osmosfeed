@@ -1,120 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-14T00:22:33.467Z</id>
+    <id>urn:2024-05-15T00:22:38.979Z</id>
     <title>osmos::feed</title>
-    <updated>2024-05-14T00:22:33.467Z</updated>
+    <updated>2024-05-15T00:22:38.979Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[US SMS Carrier Maintenance - Small US Carriers]]></title>
-        <id>https://status.twilio.com/incidents/vn5hrrk71p6q</id>
-        <link href="https://status.twilio.com/incidents/vn5hrrk71p6q"/>
-        <updated>2024-05-14T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT May 14, 02:00 - 04:00 PDT
-May  2, 16:56 PDT
-Scheduled - A subset of small networks in the US are conducting a planned maintenance from 14 May 2024 at 02:00 PDT until 14 May 2024 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.]]></summary>
+        <title type="html"><![CDATA[Scheduled infrastructure maintenance]]></title>
+        <id>https://status.make.com/incidents/9x4wb21zkj5t</id>
+        <link href="https://status.make.com/incidents/9x4wb21zkj5t"/>
+        <updated>2024-05-15T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT May 15, 05:00 - 09:00 CEST
+May  7, 17:25 CEST
+Scheduled - Dear customer,
+We are writing to inform you about an upcoming Scheduled infrastructure maintenance on 15.5.2024.  
+This maintenance will take place between 05:00 - 09:00 CEST. 
+How will this impact your workload? 
+This maintenance, occurring at the database level will affect some of the following services for a short period:   
+- Scenarios execution will be delayed. This is because the webhooks will be affected and will be queued for a short period.
+The following services will be temporarily disabled:
+- Subscription change or coupon applies.  
+- Manual purchase of extra operations.    
+        Note: Users with extra operations auto purchasing enabled are not impacted
+- Organization operations such as creating a new organization, transferring user-organization roles, updating organizational details, deleting organizations, and sending invitations to join an organization.
+- User-specific operations including disabling 2FA authentication, updating user details such as passwords and email addresses, managing user-organization roles, creating and deleting API tokens for users, and deleting users from the system.
+We will inform you once the maintenance is completed. 
+If you have any questions, please do not hesitate to reach out to our support team. 
+Thank you very much.
+Kind regards,
+Your Make Team
+[Affected zone: us1.make.com]]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Make Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[US SMS Carrier Maintenance - US Cellular]]></title>
-        <id>https://status.twilio.com/incidents/f7t6zg02s2f6</id>
-        <link href="https://status.twilio.com/incidents/f7t6zg02s2f6"/>
-        <updated>2024-05-14T04:30:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT May 13, 21:30 PDT  -  May 14, 03:30 PDT
-May  6, 07:43 PDT
-Scheduled - The US Cellular network in the US is conducting a planned maintenance from 13 May 2024 at 21:30 PDT until 14 May  2024 at 03:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US Cellular US handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US MMS Carrier Maintenance - Verizon]]></title>
-        <id>https://status.twilio.com/incidents/wsnyqj42v1jp</id>
-        <link href="https://status.twilio.com/incidents/wsnyqj42v1jp"/>
-        <updated>2024-05-14T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT May 13, 19:00 PDT  -  May 14, 03:00 PDT
-May 13, 17:20 PDT
-Scheduled - The Verizon network in the US is conducting an emergency maintenance from 13 May 2024 at 19:00 PDT until 14 May 2024 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from Verizon US handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Beeline]]></title>
-        <id>https://status.twilio.com/incidents/dxxgg3q4jd48</id>
-        <link href="https://status.twilio.com/incidents/dxxgg3q4jd48"/>
-        <updated>2024-05-14T00:00:04.000Z</updated>
-        <summary type="html"><![CDATA[May 13, 17:00 PDT
-Completed - The scheduled maintenance has been completed.
-May 13, 14:00 PDT
+        <title type="html"><![CDATA[NYC2 Network Maintenance 2024-05-14]]></title>
+        <id>https://status.digitalocean.com/incidents/t8z2tmm669yf</id>
+        <link href="https://status.digitalocean.com/incidents/t8z2tmm669yf"/>
+        <updated>2024-05-14T22:00:02.000Z</updated>
+        <summary type="html"><![CDATA[May 14, 22:00 UTC
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-May  7, 05:25 PDT
-Scheduled - The Beeline network in Russia is conducting a planned maintenance from 13 May 2024 at 14:00 PDT until 13 May 2024 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Beeline Russia handsets.]]></summary>
+May  7, 04:13 UTC
+Scheduled - Start: 2024-05-14 22:00 UTC
+End: 2024-05-15 02:00 UTC
+During the above window, our Networking team will be making changes to core networking infrastructure, to improve performance and scalability in the NYC2 region. 
+Expected impact:
+These upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience increased latency or a brief disruption in network traffic. We will endeavor to keep any such impact to a minimum.
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Multiple Destination SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/605w28g8dpx5</id>
-        <link href="https://status.twilio.com/incidents/605w28g8dpx5"/>
-        <updated>2024-05-13T23:00:25.000Z</updated>
-        <summary type="html"><![CDATA[May 13, 16:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-May  8, 05:10 PDT
-Scheduled - Our SMS carrier partner in the US and Puerto Rico is conducting a planned maintenance from 13 May 2024 at 16:00 PDT until 13 May 2024 at 21:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US and Puerto Rico handsets]]></summary>
+        <title type="html"><![CDATA[We are investigating reports of degraded performance.]]></title>
+        <id>https://www.githubstatus.com/incidents/bfkxf0w61z1n</id>
+        <link href="https://www.githubstatus.com/incidents/bfkxf0w61z1n"/>
+        <updated>2024-05-14T21:04:49.000Z</updated>
+        <summary type="html"><![CDATA[May 14, 21:04 UTC
+Resolved - This incident has been resolved.
+May 14, 20:47 UTC
+Update - We are seeing recovery for queue times on Actions Larger Runners and are continuing to monitor full recovery.
+May 14, 20:09 UTC
+Update - We've applied a mitigation to fix the issues with queuing and running Actions jobs. We are seeing improvements in telemetry and are monitoring for full recovery.
+May 14, 19:16 UTC
+Update - We are continuing to investigate long queue times for Actions Larger Runners
+May 14, 18:40 UTC
+Update - We are investigating long queue times for Actions Larger Runners
+May 14, 18:37 UTC
+Investigating - We are currently investigating this issue.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[France SMS Carrier Maintenance - Bouygues Telecom]]></title>
-        <id>https://status.twilio.com/incidents/b9trmt9wsxqt</id>
-        <link href="https://status.twilio.com/incidents/b9trmt9wsxqt"/>
-        <updated>2024-05-13T23:00:02.000Z</updated>
-        <summary type="html"><![CDATA[May 13, 16:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-May  7, 15:51 PDT
-Scheduled - The Bouygues Telecom network in France is conducting a series of planned maintenances from 13 May 2024 at 16:00 PDT until 15 May 2024 at 23:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Bouygues Telecom France handsets.
-
-Note, the maintenance will be carried out on each of the following dates and times:
-
-13 May 2024 at 16:00 PDT until 13 May 2024 at 23:00 PDT
-15 May 2024 at 16:00 PDT until 15 May 2024 at 23:00 PDT]]></summary>
+        <title type="html"><![CDATA[Incorrect Availability Displayed on Airbnb Calendar]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/s2qyzvk6612p</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/s2qyzvk6612p"/>
+        <updated>2024-05-14T16:54:03.000Z</updated>
+        <summary type="html"><![CDATA[May 14, 09:54 PDT
+Monitoring - A fix has been implemented and we are monitoring the results. If you get new reports of this issue, please contact the API Integrations Team via the support portal.
+May  9, 12:16 PDT
+Investigating - We are currently investigating an issue where the Airbnb calendar incorrectly displays dates as available to guests, even though these dates are already blocked due to existing reservations. As a result, guests can get to the check-out page, but will see an error message that says "These dates are no longer available", and are prompted to select different dates. It's important to note that despite appearing as available, these dates cannot be booked by guests on Airbnb.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Airbnb API Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Twilio SMS Delivery Delays to Claro Networks in the Dominican Republic Affected]]></title>
-        <id>https://status.twilio.com/incidents/kx85gjyzyb5v</id>
-        <link href="https://status.twilio.com/incidents/kx85gjyzyb5v"/>
-        <updated>2024-05-13T22:25:21.000Z</updated>
-        <summary type="html"><![CDATA[May 13, 15:25 PDT
-Resolved - Twilio SMS was degraded for 2 hours and 42 minutes between 11:00 and 13:42 Pacific Time on 5/13/2024. During this period of time, customers may have experienced Delivery Delays to Claro Networks in the Dominican Republic. The issue has now been resolved.]]></summary>
+        <title type="html"><![CDATA[Important update: TLS ciphers]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/7h6gs9qk9h41</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/7h6gs9qk9h41"/>
+        <updated>2024-05-14T16:53:11.000Z</updated>
+        <summary type="html"><![CDATA[May 14, 09:53 PDT
+Completed - The upgrade has been completed.
+Mar 20, 10:04 PDT
+Scheduled - We are in the process of upgrading our digital signature algorithm to ECDSA Certificates and transitioning to a more robust and faster TLS cipher suite. This shift will not only strengthen security but also enhance our efficiency, speed, and performance of secure communications. 
+Starting May 1, 2024, we will exclusively support the following ciphers:
+- TLS-AES-256-GCM-SHA384
+- TLS-CHACHA20-POLY1305-SHA256
+- TLS-AES-128-GCM-SHA256
+- ECDHE-ECDSA-AES256-GCM-SHA384
+- ECDHE-ECDSA-AES128-GCM-SHA256
+- ECDHE-ECDSA-CHACHA20-POLY1305
+Please make plans to update your systems accordingly as soon as possible. If your client does not support any of the ciphers listed above, you will not be able to establish a connection with our API.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays To US Cellular Corp Network In US Over A Subset Of Shortcodes]]></title>
-        <id>https://status.twilio.com/incidents/w7cyybn1hmbd</id>
-        <link href="https://status.twilio.com/incidents/w7cyybn1hmbd"/>
-        <updated>2024-05-13T22:25:00.000Z</updated>
-        <summary type="html"><![CDATA[May 13, 15:25 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to US Cellular Corp Network In US Over A Subset Of Shortcodes. This incident has been resolved.
-May 13, 13:24 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to US Cellular Corp Network in the US over a subset of short codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-May 13, 09:21 PDT
-Update - We are continuing to experience SMS delivery delays To US Cellular Corp Network In US Over A Subset Of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-May 13, 07:33 PDT
-Update - We are continuing to investigate SMS delivery delays To US Cellular Corp Network In US Over A Subset Of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-May 13, 05:37 PDT
-Investigating - We are experiencing SMS delivery delays To US Cellular Corp Network In US Over A Subset Of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Airbnb API Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -136,7 +126,9 @@ We apologize for any inconvenience this may have caused. If you have any questio
         <link href="https://www.githubstatus.com/incidents/f7jl0mdd2jr5"/>
         <updated>2024-05-13T20:10:42.000Z</updated>
         <summary type="html"><![CDATA[May 13, 20:10 UTC
-Resolved - This incident has been resolved.
+Resolved - On May 13, 2024, between 19:03 UTC and 19:57 UTC, some customers experienced delays in receiving status updates for in-progress GitHub Actions workflow runs. The root cause was identified to be a bug in the logic for checking the state of a configuration which would only manifest under very specific conditions and cause exceptions. These exceptions impacted the backend process for handling workflow run status updates and caused jobs with any annotations to not get updated properly. Jobs without any annotations were not affected. The affected jobs during the incident will get marked as failed after 24 hours, and affected customers will need to manually retry the jobs they want to execute.
+We resolved the incident by reverting the problematic change. We are enhancing our process for deploying changes and reassessing our monitoring of relevant subsystems to prevent similar issues in the future.
+
 May 13, 20:10 UTC
 Update - We are seeing signs of recovery for actions jobs
 May 13, 19:51 UTC
@@ -235,17 +227,6 @@ Check out the updated payment page today and see the difference for yourself! �
 SmilyUpdates #SimplerAndSmarter]]></summary>
         <author>
             <name>Eduardo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incorrect Availability Displayed on Airbnb Calendar]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/s2qyzvk6612p</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/s2qyzvk6612p"/>
-        <updated>2024-05-09T19:16:27.000Z</updated>
-        <summary type="html"><![CDATA[May  9, 12:16 PDT
-Investigating - We are currently investigating an issue where the Airbnb calendar incorrectly displays dates as available to guests, even though these dates are already blocked due to existing reservations. As a result, guests can get to the check-out page, but will see an error message that says "These dates are no longer available", and are prompted to select different dates. It's important to note that despite appearing as available, these dates cannot be booked by guests on Airbnb.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -612,26 +593,6 @@ Monitoring - A fix has been implemented and we are monitoring the results.]]></s
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Important update: TLS ciphers]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/7h6gs9qk9h41</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/7h6gs9qk9h41"/>
-        <updated>2024-05-01T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT May 1, 09:00 - 14:00 PDT
-Mar 20, 10:04 PDT
-Scheduled - We are in the process of upgrading our digital signature algorithm to ECDSA Certificates and transitioning to a more robust and faster TLS cipher suite. This shift will not only strengthen security but also enhance our efficiency, speed, and performance of secure communications. 
-Starting May 1, 2024, we will exclusively support the following ciphers:
-- TLS-AES-256-GCM-SHA384
-- TLS-CHACHA20-POLY1305-SHA256
-- TLS-AES-128-GCM-SHA256
-- ECDHE-ECDSA-AES256-GCM-SHA384
-- ECDHE-ECDSA-AES128-GCM-SHA256
-- ECDHE-ECDSA-CHACHA20-POLY1305
-Please make plans to update your systems accordingly as soon as possible. If your client does not support any of the ciphers listed above, you will not be able to establish a connection with our API.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Incident: Legacy webhook integrations may be failing for some users]]></title>
         <id>https://slack-status.com/2024-04/49ff269b2a000cfb</id>
         <link href="https://slack-status.com/2024-04/49ff269b2a000cfb"/>
@@ -659,6 +620,39 @@ Our team has identified a breaking change and a rollback was completed. We are c
 We'll post another update soon.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Partnership with Tyllt for your security deposit management! 💰]]></title>
+        <id>291886</id>
+        <link href="https://changelog.bookingsync.com/new-partnership-with-tyllt-for-your-security-deposit-management!-291886"/>
+        <updated>2024-04-30T16:48:56.000Z</updated>
+        <summary type="html"><![CDATA[New!
+  
+We are thrilled to announce our brand-new partnership with Tyllt, an innovative solution that simplifies security deposit management for property owners and managers like you. 🌟
+
+
+
+💡 What is Tyllt?
+Tyllt offers a secure platform for conveniently and effectively managing security deposits without immediate deductions.
+It provides a groundbreaking alternative to traditional methods such as checks, wire transfers, or credit card imprints.
+
+🔐 Secure management
+Record security deposits online in a simple and secure manner, whether for national or international tenants.
+This not only ensures transaction security but also facilitates a smooth rental experience for your clients.
+
+🤑 Unique pricing
+Benefit from a flat fee of 0.4% + €0.25 excluding taxes per deposited security.
+In case of withdrawal, service fees are 2% + €2 excluding taxes of the withdrawn amount.
+
+👉 Install the Tyllt application 
+
+Please find the manual article detailing how to connect your account to Tyllt here.
+
+💌 Any question?
+If you have any questions or would like to learn more, feel free to contact their sales team at the following email address: contact@tyllt.com.]]></summary>
+        <author>
+            <name>Maud , Partnership Manager</name>
         </author>
     </entry>
     <entry>
@@ -1435,18 +1429,6 @@ Apr 15, 13:35 UTC
 Update - Due to an outage in one Copilot region traffic is currently being served from other regions. European users may experience higher response times.
 Apr 15, 12:58 UTC
 Investigating - We are investigating reports of degraded performance for Copilot]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We are investigating reports of degraded performance.]]></title>
-        <id>https://www.githubstatus.com/incidents/b6f4j9ljz9r6</id>
-        <link href="https://www.githubstatus.com/incidents/b6f4j9ljz9r6"/>
-        <updated>2024-04-14T21:53:52.000Z</updated>
-        <summary type="html"><![CDATA[Apr 14, 21:53 UTC
-Resolved - Beginning at 17:30 UTC on April 11th and lasting until 20:30 UTC on April 14th, github.com saw significant (up to 2 hours) delays in delivering emails. At 14:21 UTC on April 14th, community reports of this were confirmed and an incident declared. Emails most impacted by the delay were password reset and unrecognized device verification, which contain time-sensitive links or verification codes, and are required to be acted on in order for password resets or unrecognized logins to proceed. 
-Users attempting to reset their password during the incident were unable to complete the reset. Users without two-factor authentication (2FA), signing in on an unrecognized device, were unable to complete device verification. Enterprise Managed Users, users with 2FA, and users…]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
