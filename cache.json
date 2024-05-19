@@ -165,38 +165,7 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": [
-        {
-          "id": "https://status.twilio.com/incidents/hb41chfqtpfk",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 17, 23:00 PDT  -  May 18, 00:30 PDT\nMay 17, 12:10 PDT\nScheduled - Our SMS carrier partner in Mexico is conducting an emergency maintenance from 17 May 2024 at 23:00 PDT until 18 May 2024 at 00:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Mexico handsets.",
-          "link": "https://status.twilio.com/incidents/hb41chfqtpfk",
-          "publishedOn": "2024-05-18T06:00:00.000Z",
-          "wordCount": 7509,
-          "title": "Mexico SMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/nzhsdfqs5bch",
-          "author": null,
-          "description": "May 17, 16:25 PDT\nInvestigating - Our monitoring systems have detected a potential issue with demo URL for SMS and Voice functionality. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/nzhsdfqs5bch",
-          "publishedOn": "2024-05-17T23:25:38.000Z",
-          "wordCount": 7499,
-          "title": "On Call Engineers are Investigating an issue",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/8g9tyg2w4ztf",
-          "author": null,
-          "description": "May 17, 15:40 PDT\nResolved - Verification API errors in Canada. has been resolved and identity verification is operating normally at this time.\nMay 17, 13:35 PDT\nMonitoring - Identity Verification API errors in Canada is now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.\nMay 17, 12:35 PDT\nUpdate - We are currently investigating Identity Verification API errors in Canada. Our engineers are working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nMay 17, 12:27 PDT\nInvestigating - Our monitoring systems have detected a potential issue Identity Verification impacting:\nVerify\nVerify Silent Network Auth\nLookup Identity Match\nLookup Line Type Intelligence [Legacy API]\nLookup Line Type Intelligence [Twilio API]\nLookup SIM Swap\nLegacy Identity MatchAndAttributes\n. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/8g9tyg2w4ztf",
-          "publishedOn": "2024-05-17T22:40:01.000Z",
-          "wordCount": 7637,
-          "title": "Access Identify Verification API Errors",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "DigitalOcean Status - Incident History",
@@ -510,16 +479,6 @@
           "wordCount": 5278,
           "title": "Incident with Git Operations",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/jnlhc0lml6pp",
-          "author": null,
-          "description": "Apr 18, 18:47 UTC\nResolved - Between 4:40 UTC and 18:47 UTC on April 18th, approximately 200 users experienced issues creating and reconnecting to Codespaces. After investigation it was determined that the nearly 100% of those users were internal to GitHub. There was very little customer impact during this incident.\nWe are discussing improvements to our monitoring so we can more quickly discern internal and external impact and avoid potentially confusing public status.\nApr 18, 18:41 UTC\nUpdate - Codespaces customers using our 16 core machines in West US 2 and West US 3 region may experience issues creating new Codespaces and resuming existing Codespaces. We suggest any customers experiencing issues switch to the East US region.\nApr 18, 18:25 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces",
-          "link": "https://www.githubstatus.com/incidents/jnlhc0lml6pp",
-          "publishedOn": "2024-04-18T18:47:27.000Z",
-          "wordCount": 5380,
-          "title": "Incident with Codespaces",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -576,16 +535,6 @@
           "publishedOn": "2024-04-19T13:25:08.000Z",
           "wordCount": 296,
           "title": "Incident: Users see blank screen when attempting to create a workflow.",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-04/edac594354b5483c",
-          "author": null,
-          "description": "Issue summary:\r\nOn April 18, 2024 from around 9:00 AM PDT to 10:02 AM PDT, an automated monitoring system detected a high level of errors and backend database timeouts. We determined that some users may have experienced temporary service degradation and failed actions related to loading DMs and channels. Out of an abundance of caution, we began our incident response processes.\r\n\r\nOur investigation traced this back to a backend service job that was causing the errors. As a remediation step, we manually ended the job which reduced the rate of errors back to normal and resolved the issue for all affected users.",
-          "link": "https://slack-status.com/2024-04/edac594354b5483c",
-          "publishedOn": "2024-04-18T22:57:39.000Z",
-          "wordCount": 318,
-          "title": "Incident: Some users may be experiencing general degradation issues that cause actions within Slack to fail.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
