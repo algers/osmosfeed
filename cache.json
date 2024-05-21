@@ -165,7 +165,28 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://status.twilio.com/incidents/lsl2xftf359v",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT May 21, 03:00 - 04:00 PDT\nMay 14, 07:56 PDT\nScheduled - Our Voice carrier partner in New Zealand is conducting a planned maintenance from 21 May 2024 at 03:00 PDT until 21 May 2024 at 04:00 PDT. During the maintenance window, there could be intermittent call disconnects or call failures from and to Twilio New Zealand phone numbers.",
+          "link": "https://status.twilio.com/incidents/lsl2xftf359v",
+          "publishedOn": "2024-05-21T10:00:00.000Z",
+          "wordCount": 7514,
+          "title": "New Zealand Voice Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/hf396vj79gh1",
+          "author": null,
+          "description": "May 20, 15:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 18, 05:21 PDT\nScheduled - The Velcom A1, MTS and life networks in Belarus are conducting a planned maintenance from 20 May 2024 at 15:00 PDT until 20 May 2024 at 20:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Velcom A1, MTS and life Belarus handsets.",
+          "link": "https://status.twilio.com/incidents/hf396vj79gh1",
+          "publishedOn": "2024-05-20T22:00:02.000Z",
+          "wordCount": 7546,
+          "title": "Belarus SMS Carrier Maintenance - Velcom A1, MTS and life",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        }
+      ]
     },
     {
       "title": "DigitalOcean Status - Incident History",
@@ -381,6 +402,16 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/915nn7rmqth9",
+          "author": null,
+          "description": "May 20, 17:05 UTC\nResolved - This incident has been resolved.\nMay 20, 17:01 UTC\nUpdate - We are beginning to see recovery rendering Jupyter notebooks and are continuing to monitor.\nMay 20, 16:50 UTC\nUpdate - Customers may experience errors viewing rendered Jupyter notebooks from PR diff pages or the files tab\nMay 20, 16:47 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/915nn7rmqth9",
+          "publishedOn": "2024-05-20T17:05:48.000Z",
+          "wordCount": 5324,
+          "title": "We are investigating reports of degraded performance.",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/2bglpcjvg7xb",
           "author": null,
           "description": "May 16, 05:15 UTC\nResolved - On May 16, 2024, between 4:10 UTC and 5:02 UTC customers experienced various delays in background jobs, primarily UI updates for Actions. This issue was due to degradation in our background job service affecting 22.4% of total jobs.  Across all affected services, the average job delay was 2m 22s.  Actions jobs themselves were unaffected, this issue affected the timeliness of UI updates, with an average delay of 11m 40s and a maximum of 20m 14s.\nThis incident was due to a performance problem on a single processing node, where Actions UI updates were being processed.  Additionally, a misconfigured monitor did not alert immediately, resulting in a 25m late detection time and a 37m total increase in time to mitigate.   \nWe mitigated the incident by removing the problem node from the cluster and service was restored.  No data was lost, and all jobs executed successfully.\nTo reduce our time to detection and mitigation of issues like this one in the future, we have repaired our misconfigured monitor and added additional monitoring to this service. \n\nMay 16, 04:43 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
@@ -534,6 +565,16 @@
       "feedUrl": "https://status.make.com/history.rss",
       "siteUrl": "https://status.make.com",
       "articles": [
+        {
+          "id": "https://status.make.com/incidents/flhzsq0sy818",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT May 21, 04:00 - 08:00 CEST\nMay 15, 08:56 CEST\nUpdate - We will be undergoing scheduled maintenance during this time.\nMay 13, 13:49 CEST\nScheduled - Dear customer,\nWe are writing to inform you about an upcoming Scheduled infrastructure maintenance on 21.5.2024.  \nThis maintenance will take place between 4:00-8:00 AM CEST. \nHow will this impact your workload? \nThis maintenance, occurring at the database level will affect some of the following services for a short period:   \n- Scenarios execution will be delayed. This is because the webhooks will be affected and will be queued for a short period.\nThe following services will be temporarily disabled:\n- Subscription change or coupon applies.  \n- Manual purchase of extra operations.    \n       Note: Users with extra operations auto purchasing enabled are not impacted\n- Organization operations such as creating a new organization, transferring user-organization roles, updating organizational details, deleting organizations, and sending invitations to join an organization.\n- User-specific operations including disabling 2FA authentication, updating user details such as passwords and email addresses, managing user-organization roles, creating and deleting API tokens for users, and deleting users from the system.\n- Adding, verifying, and removing custom domains for an organization. \n- Activating and deactivating SSO certificates. \nWe will inform you once the maintenance is completed. \nIf you have any questions, please do not hesitate to reach out to our support team. \nThank you very much.\nKind regards,\nYour Make Team\n[Affected zone: us1.make.celonis.com]",
+          "link": "https://status.make.com/incidents/flhzsq0sy818",
+          "publishedOn": "2024-05-21T02:00:00.000Z",
+          "wordCount": 4035,
+          "title": "Scheduled infrastructure maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.make.com/incidents/b13j98t829mn",
           "author": null,
