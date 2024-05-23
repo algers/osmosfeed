@@ -101,16 +101,6 @@
           "wordCount": 12992,
           "title": "TS-2024-004",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
-        },
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2024-003",
-          "author": null,
-          "description": "Description: Bug in SSH check mode with checkPeriod set to 0s.\nWhat happened?\nCheck mode in Tailscale SSH forces an SSH client to periodically\nre-authenticate when connecting to SSH servers. The period is configured via\nthe checkPeriod attribute in Tailscale ACLs, and defaults to 12 hours.\nA bug in ACL parsing interpreted \"checkPeriod\": \"0s\" as unset, and used the\ndefault period of 12 hours instead.\nWe deployed a fix for the bug in ACL parsing logic on 2024-04-23. SSH clients\nin tailnets that set \"checkPeriod\": \"0s\" are now correctly prompted for\nre-authentication on every connection.\nNote that a special value \"checkPeriod\": \"always\" is the documented\nrecommended way to achieve this behavior.\nWe thank Finch for reporting this issue.\nWho was affected?\n17 tailnets use Tailscale SSH with \"action\": \"check\" and \"checkPeriod\": \"0s\". We notified security contacts for the affected tailnets about this bug.\nWhat was the impact?\nSSH clients in the affected tailnets were prompted to re-authenticate every 12\nhours, instead of during each connection as intended by the tailnet\nadministrators.\nWhat do I need to do?\nNo action is needed at this time.",
-          "link": "https://tailscale.com/security-bulletins/#ts-2024-003",
-          "publishedOn": "2024-04-23T00:00:00.000Z",
-          "wordCount": 12992,
-          "title": "TS-2024-003",
-          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
       ]
     },
@@ -167,53 +157,63 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/dy33qjy2gvx0",
+          "id": "https://status.twilio.com/incidents/91czp8khrxf2",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 22, 05:00 - 07:00 PDT\nMay 13, 06:16 PDT\nScheduled - Our Voice carrier partner in Australia is conducting a planned maintenance from 22 May 2024 at 05:00 PDT until 22 May 2024 at 06:59 PDT. During the maintenance window, there could be intermittent call disconnects or call failures from and to Twilio Australia phone numbers.",
-          "link": "https://status.twilio.com/incidents/dy33qjy2gvx0",
-          "publishedOn": "2024-05-22T12:00:00.000Z",
-          "wordCount": 7509,
-          "title": "Australia Voice Carrier Partner Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT May 22, 21:30 - 23:00 PDT\nMay 20, 15:21 PDT\nScheduled - The MTS network in Russia is conducting an emergency maintenance from 22 May 2024 at 21:30 PDT until 22 May 2024 at 23:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to MTS Russia handsets.",
+          "link": "https://status.twilio.com/incidents/91czp8khrxf2",
+          "publishedOn": "2024-05-23T04:30:00.000Z",
+          "wordCount": 7506,
+          "title": "Russia SMS Carrier Maintenance - MTS",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/m40n89gfgdmn",
+          "id": "https://status.twilio.com/incidents/s7bd67gcw17g",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 21, 22:00 PDT  -  May 22, 04:00 PDT\nMay 18, 09:33 PDT\nScheduled - The T-Mobile network in the US is conducting a planned maintenance from 21 May 2024 at 22:00 PDT until 22 May 2024 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.",
-          "link": "https://status.twilio.com/incidents/m40n89gfgdmn",
-          "publishedOn": "2024-05-22T05:00:00.000Z",
-          "wordCount": 7524,
-          "title": "US SMS Carrier Maintenance - T-Mobile",
+          "description": "THIS IS A SCHEDULED EVENT May 22, 20:00 PDT  -  May 23, 00:00 PDT\nApr 26, 16:37 PDT\nScheduled - Our SMS and MMS carrier partner in the US and Canada is conducting a planned maintenance from 22 May 2024 at 20:00 PDT until 23 May 2024 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets via Toll-free numbers.",
+          "link": "https://status.twilio.com/incidents/s7bd67gcw17g",
+          "publishedOn": "2024-05-23T03:00:00.000Z",
+          "wordCount": 7538,
+          "title": "US and Canada SMS and MMS Carrier partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/vxtjy9d8smdk",
+          "id": "https://status.twilio.com/incidents/bkbbr88qywn0",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 21, 19:00 PDT  -  May 29, 02:00 PDT\nMay 20, 16:04 PDT\nScheduled - The T-Mobile network in the US is conducting a series of planned maintenances from 21 May 2024 at 19:00 PDT until 29 May 2024 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from T-Mobile US handsets.\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n21 May 2024 at 19:00 PDT until 22 May 2024 at 02:00 PDT\n28 May 2024 at 19:00 PDT until 29 May 2024 at 02:00 PDT",
-          "link": "https://status.twilio.com/incidents/vxtjy9d8smdk",
-          "publishedOn": "2024-05-22T02:00:00.000Z",
-          "wordCount": 7564,
-          "title": "US MMS Carrier Maintenance - T-Mobile",
+          "description": "May 22, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 22, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 13, 07:30 PDT\nScheduled - The Beeline network in Russia is conducting a planned maintenance from 22 May 2024 at 14:00 PDT until 22 May 2024 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Beeline Russia handsets.",
+          "link": "https://status.twilio.com/incidents/bkbbr88qywn0",
+          "publishedOn": "2024-05-23T00:00:02.000Z",
+          "wordCount": 7534,
+          "title": "Russia SMS Carrier Maintenance - Beeline",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/d6gy7lw57f1z",
+          "id": "https://status.twilio.com/incidents/cxy442pqmhbh",
           "author": null,
-          "description": "May 21, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 21, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 17, 17:27 PDT\nScheduled - The Megafon/Yota network in Russia is conducting a planned maintenance from 21 May 2024 at 13:00 PDT until 21 May 2024 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Megafon/Yota Russia handsets.",
-          "link": "https://status.twilio.com/incidents/d6gy7lw57f1z",
-          "publishedOn": "2024-05-22T00:00:05.000Z",
-          "wordCount": 7536,
-          "title": "Russia SMS Carrier Maintenance - Megafon/Yota",
+          "description": "May 22, 16:56 PDT\nResolved - We are no longer experiencing MMS delivery delays when sending messages to networks in the US from a subset of Shortcodes. This incident has been resolved.\nMay 22, 15:02 PDT\nMonitoring - We are observing recovery in MMS delivery delays when sending messages to networks in the US from a subset of Shortcodes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 22, 13:21 PDT\nUpdate - We continue to experience MMS delivery delays when sending messages to networks in the US from a subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 22, 12:28 PDT\nInvestigating - We are experiencing MMS delivery delays when sending messages to networks in the US from a subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/cxy442pqmhbh",
+          "publishedOn": "2024-05-22T23:56:56.000Z",
+          "wordCount": 7675,
+          "title": "MMS Delivery Delays to Networks in the US From a Subset of Shortcodes",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/56mn7sh3h9gq",
+          "id": "https://status.twilio.com/incidents/vks6znpnmndl",
           "author": null,
-          "description": "May 21, 15:29 PDT\nResolved - We are continuing to experience SMS delivery delays when sending messages to Telesur network in Suriname. We’ve contacted all impacted customers to address any important updates and will proceed to close this status post.\nMay 21, 02:22 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Telesur network in Suriname. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.\nMay 20, 10:24 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Telesur network in Suriname. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.\nMay 20, 02:21 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Telesur network in Suriname. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nMay 19, 22:24 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Telesur network in Suriname. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMay 19, 20:29 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Telesur network in Suriname. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 19, 19:32 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Telesur network in Suriname. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/56mn7sh3h9gq",
-          "publishedOn": "2024-05-21T22:29:41.000Z",
-          "wordCount": 7818,
-          "title": "SMS Delivery Delays and Failures to Telesur Network in Suriname (746-02)",
+          "description": "May 22, 16:37 PDT\nMonitoring - We have started seeing recovery for Identity Verification API errors in Canada potentially impacting the following:\nVerify\nVerify Silent Network Auth\nLookup Identity Match\nLookup Line Type Intelligence [Legacy API]\nLookup Line Type Intelligence [Twilio API]\nLookup SIM Swap\nLegacy Identity MatchAndAttributes\nWe expect to provide another update in 2 hours or as soon as more information becomes available.\nMay 22, 15:26 PDT\nUpdate - We continue to experience Identity Verification API errors in Canada potentially impacting the following:\nVerify\nVerify Silent Network Auth\nLookup Identity Match\nLookup Line Type Intelligence [Legacy API]\nLookup Line Type Intelligence [Twilio API]\nLookup SIM Swap\nLegacy Identity MatchAndAttributes\nWe expect to provide another update in 2 hours or as soon as more information becomes available.\nMay 22, 14:30 PDT\nUpdate - We are currently investigating Identity Verification API errors in Canada potentially impacting the following:\nVerify\nVerify Silent Network Auth\nLookup Identity Match\nLookup Line Type Intelligence [Legacy API]\nLookup Line Type Intelligence [Twilio API]\nLookup SIM Swap\nLegacy Identity MatchAndAttributes\nWe expect to provide another update in 1 hour or as soon as more information becomes available.\nMay 22, 14:14 PDT\nInvestigating - Our monitoring systems have detected a potential issue with Access Identify verification. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/vks6znpnmndl",
+          "publishedOn": "2024-05-22T23:37:06.000Z",
+          "wordCount": 7664,
+          "title": "Access Identity Verification API Errors",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/910b28qqlztn",
+          "author": null,
+          "description": "May 22, 12:31 PDT\nResolved - Twilio Voice Stripe Pay Connector was degraded between 4/19/2024 at 7:26 am until 10:03 am Pacific Time on 05/22/2024. During this period of time customers may have experienced an inability to use successfully use the \"Connect with Stripe\" functionality in TEST mode on the Stripe pay connector add on page. The issue has now been resolved. This issue did not affect any live Stripe transactions.",
+          "link": "https://status.twilio.com/incidents/910b28qqlztn",
+          "publishedOn": "2024-05-22T19:31:38.000Z",
+          "wordCount": 7507,
+          "title": "Twilio Voice Affected",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -474,10 +474,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/915nn7rmqth9",
           "author": null,
-          "description": "May 20, 17:05 UTC\nResolved - This incident has been resolved.\nMay 20, 17:01 UTC\nUpdate - We are beginning to see recovery rendering Jupyter notebooks and are continuing to monitor.\nMay 20, 16:50 UTC\nUpdate - Customers may experience errors viewing rendered Jupyter notebooks from PR diff pages or the files tab\nMay 20, 16:47 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "May 20, 17:05 UTC\nResolved - Between May 19th 3:40AM UTC and May 20th 5:40PM UTC the service responsible for rendering Jupyter notebooks was degraded. During this time customers were unable to render Jupyter Notebooks.\nThis occurred due to an issue with a Redis dependency which was mitigated by restarting. An issue with our monitoring led to a delay in our response. We are working to improve the quality and accuracy of our monitors to reduce the time to detection.\nMay 20, 17:01 UTC\nUpdate - We are beginning to see recovery rendering Jupyter notebooks and are continuing to monitor.\nMay 20, 16:50 UTC\nUpdate - Customers may experience errors viewing rendered Jupyter notebooks from PR diff pages or the files tab\nMay 20, 16:47 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/915nn7rmqth9",
           "publishedOn": "2024-05-20T17:05:48.000Z",
-          "wordCount": 5324,
+          "wordCount": 5392,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -589,6 +589,16 @@
       "siteUrl": "https://slack-status.com",
       "articles": [
         {
+          "id": "https://slack-status.com/2024-05/627dd44580fbdde7",
+          "author": null,
+          "description": "Users may be experiencing trouble writing in Japanese and Korean characters. We're investigating and will let you know as soon as we know more. We appreciate your patience in the meantime.",
+          "link": "https://slack-status.com/2024-05/627dd44580fbdde7",
+          "publishedOn": "2024-05-22T07:38:44.000Z",
+          "wordCount": 182,
+          "title": "Incident: Users writing in Japanese and Korean are occasionally unable to type any characters.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://slack-status.com/2024-05/88c11933be3a774a",
           "author": null,
           "description": "Issue summary:\r\nFrom 14 May 2024 12:38 PDT until 16 May 2024 07:53 PDT, some customers using single sign-on (SSO) reported they were unable to change their display names, despite their SSO preferences/settings allowing them to.\r\n\r\nA piece of code that was recently released was the root issue. The code affected account-type permissions and made the UI appear like no one in a team could update display names, despite settings being correctly adjusted to allow this of users.\r\n\r\nWe immediately adjusted the script on said code, allowing those affected to be able to update display names again.\r\n\r\nWe apologise for any inconvenience caused.",
@@ -636,6 +646,36 @@
       "siteUrl": "https://status.make.com",
       "articles": [
         {
+          "id": "https://status.make.com/incidents/czpwstpxng89",
+          "author": null,
+          "description": "May 22, 23:56 CEST\nCompleted - The scheduled maintenance has been completed.\nMay 22, 22:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 15, 12:58 CEST\nUpdate - Dear customer,\nWe are writing to inform you about an upcoming Scheduled infrastructure maintenance on 22.5.2024.  \nThis maintenance will take place between 22:00 - 02:00 CEST. \nHow will this impact your workload? \nThis maintenance, occurring at the database level will affect some of the following services for a short period:   \n- Scenarios execution will be delayed. This is because the webhooks will be affected and will be queued for a short period.\nThe following services will be temporarily disabled:\n- Subscription change or coupon applies.  \n- Manual purchase of extra…",
+          "link": "https://status.make.com/incidents/czpwstpxng89",
+          "publishedOn": "2024-05-22T21:56:18.000Z",
+          "wordCount": 4225,
+          "title": "Scheduled infrastructure maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.make.com/incidents/25s78sjl3tjm",
+          "author": null,
+          "description": "May 22, 20:55 CEST\nResolved - This incident has been resolved. Email notifications are now processed without any delay.\nMay 22, 19:53 CEST\nUpdate - We have implemented the fix and are currently significantly reducing the number of delayed emails. We expect the whole queue to be drained within the next 1 or 2 hours, after which we will provide an update.\nMay 22, 17:41 CEST\nIdentified - We have identified the issue and are working on implementing the fix. We will provide a new update within the next 2 hours.\nMay 22, 16:35 CEST\nInvestigating - We are currently investigating an issue where emails notifications can be delivered with a delay.\nWe will post updates within the next hour.",
+          "link": "https://status.make.com/incidents/25s78sjl3tjm",
+          "publishedOn": "2024-05-22T18:55:59.000Z",
+          "wordCount": 3926,
+          "title": "Delayed emails notification",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.make.com/incidents/xlfx9pl7d57m",
+          "author": null,
+          "description": "May 22, 13:09 CEST\nResolved - This inciden has been resolved.\nMay 22, 00:11 CEST\nMonitoring - The issue affecting us1.make.com has been resolved. We will continue to monitor the situation for any potential issues. Currently, the platform is fully operational.\nMay 21, 23:10 CEST\nUpdate - We are currently still investigating the issue, which appears to be experiencing intermittent disruptions. We expect to provide an update within the next hour.\nMay 21, 21:54 CEST\nUpdate - We are continuing to investigate this issue.\nMay 21, 21:54 CEST\nInvestigating - We're currently investigating an issue within the us1.make.com zone where certain scenarios are experiencing timeouts.\nFurther updates will be provided within the next hour.",
+          "link": "https://status.make.com/incidents/xlfx9pl7d57m",
+          "publishedOn": "2024-05-22T11:09:48.000Z",
+          "wordCount": 3923,
+          "title": "Scenarios hitting timeouts",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.make.com/incidents/pqg451c5p01j",
           "author": null,
           "description": "May 22, 01:53 CEST\nCompleted - The scheduled maintenance has been completed.\nMay 22, 00:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 15, 08:57 CEST\nUpdate - Dear customer,\nWe are writing to inform you about an upcoming Scheduled infrastructure maintenance on 22.5.2024.  \nThis maintenance will take place between 00:00 - 04:00 AM CEST. \nHow will this impact your workload? \nThis maintenance, occurring at the database level will affect some of the following services for a short period:   \n- Scenarios execution will be delayed. This is because the webhooks will be affected and will be queued for a short period.\nThe following services will be temporarily disabled:\n- Subscription change or coupon applies.  \n- Manual purchase of ex…",
@@ -643,16 +683,6 @@
           "publishedOn": "2024-05-21T23:53:42.000Z",
           "wordCount": 4257,
           "title": "Scheduled infrastructure maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/xlfx9pl7d57m",
-          "author": null,
-          "description": "May 22, 00:11 CEST\nMonitoring - The issue affecting us1.make.com has been resolved. We will continue to monitor the situation for any potential issues. Currently, the platform is fully operational.\nMay 21, 23:10 CEST\nUpdate - We are currently still investigating the issue, which appears to be experiencing intermittent disruptions. We expect to provide an update within the next hour.\nMay 21, 21:54 CEST\nUpdate - We are continuing to investigate this issue.\nMay 21, 21:54 CEST\nInvestigating - We're currently investigating an issue within the us1.make.com zone where certain scenarios are experiencing timeouts.\nFurther updates will be provided within the next hour.",
-          "link": "https://status.make.com/incidents/xlfx9pl7d57m",
-          "publishedOn": "2024-05-21T22:11:13.000Z",
-          "wordCount": 3914,
-          "title": "Scenarios hitting timeouts",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
@@ -801,26 +831,6 @@
           "description": "Apr 23, 23:00 CEST\nCompleted - The scheduled maintenance has been completed.\nApr 23, 22:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 15, 17:52 CEST\nScheduled - Dear customer,\n We are writing to inform you about an upcoming Scheduled infrastructure maintenance on 23.4.2024.  \nThis maintenance will take place between 22:00-23:00 CEST. \nHow will this impact your workload? \nThis maintenance, occurring at the database level and lasting up to one minute, is expected to cause delays in scenarios execution. This is because the webhooks will be affected and may be queued for a short period. \nWe will inform you once the maintenance is completed. \nIf you have any questions, please do not hesitate to reach out to our support team. \nThank you very much. \nKind regards, \nYour Make Team",
           "link": "https://status.make.com/incidents/z2j646v2qrfc",
           "publishedOn": "2024-04-23T21:00:02.000Z",
-          "wordCount": 3947,
-          "title": "Scheduled infrastructure maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/ty220p2nw5qn",
-          "author": null,
-          "description": "Apr 23, 11:00 CEST\nCompleted - The scheduled maintenance has been completed.\nApr 23, 10:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 16, 09:24 CEST\nScheduled - Dear customer,\n We are writing to inform you about an upcoming Scheduled infrastructure maintenance on 23.4.2024.  \nThis maintenance will take place between 10:00-11:00 AM CEST. \nHow will this impact your workload? \nThis maintenance, occurring at the database level and lasting up to one minute, is expected to cause delays in scenarios execution. This is because the webhooks will be affected and may be queued for a short period. \nWe will inform you once the maintenance is completed. \nIf you have any questions, please do not hesitate to reach out to our support team. \nThank you very much. \nKind regards, \nYour Make Team",
-          "link": "https://status.make.com/incidents/ty220p2nw5qn",
-          "publishedOn": "2024-04-23T09:00:02.000Z",
-          "wordCount": 3947,
-          "title": "Scheduled infrastructure maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/mz0c9z2wt3j3",
-          "author": null,
-          "description": "Apr 23, 09:00 CEST\nCompleted - The scheduled maintenance has been completed.\nApr 23, 08:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 15, 17:42 CEST\nScheduled - Dear customer,\n We are writing to inform you about an upcoming Scheduled infrastructure maintenance on 23.4.2024.  \nThis maintenance will take place between 8:00-9:00 AM CEST. \nHow will this impact your workload? \nThis maintenance, occurring at the database level and lasting up to one minute, is expected to cause delays in scenarios execution. This is because the webhooks will be affected and may be queued for a short period. \nWe will inform you once the maintenance is completed. \nIf you have any questions, please do not hesitate to reach out to our support team. \nThank you very much. \nKind regards, \nYour Make Team",
-          "link": "https://status.make.com/incidents/mz0c9z2wt3j3",
-          "publishedOn": "2024-04-23T07:00:02.000Z",
           "wordCount": 3947,
           "title": "Scheduled infrastructure maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
