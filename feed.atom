@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-05-29T00:23:32.996Z</id>
+    <id>urn:2024-05-30T00:23:16.534Z</id>
     <title>osmos::feed</title>
-    <updated>2024-05-29T00:23:32.996Z</updated>
+    <updated>2024-05-30T00:23:16.534Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[NYC3 Network Maintenance]]></title>
         <id>https://status.digitalocean.com/incidents/92tf7qm362vj</id>
         <link href="https://status.digitalocean.com/incidents/92tf7qm362vj"/>
-        <updated>2024-05-29T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT May 29, 10:00 - 14:00 UTC
+        <updated>2024-05-29T14:00:02.000Z</updated>
+        <summary type="html"><![CDATA[May 29, 14:00 UTC
+Completed - The scheduled maintenance has been completed.
+May 29, 10:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 May 22, 17:13 UTC
 Scheduled - Start: 2024-05-29 10:00 UTC
 End: 2024-05-29 14:00 UTC
@@ -20,6 +23,38 @@ During the above window, we will be performing maintenance on core switches in o
  If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kubernetes and App Platform Pages in the Cloud Control Panel for New Users]]></title>
+        <id>https://status.digitalocean.com/incidents/yzl464rhsqrg</id>
+        <link href="https://status.digitalocean.com/incidents/yzl464rhsqrg"/>
+        <updated>2024-05-29T11:47:38.000Z</updated>
+        <summary type="html"><![CDATA[May 29, 11:47 UTC
+Resolved - Our Engineering team has confirmed that the issue with accessing Kubernetes and App Platform for new users has been completely resolved. New users should now be able to access all aspects in the Cloud Control Panel. 
+If you continue to experience problems, please open a ticket with our support team.
+Thank you for your patience and we apologize for any inconvenience.
+May 29, 10:47 UTC
+Monitoring - Our Engineering team has identified the root cause and deployed a fix for the issue impacting access to Kubernetes and App platform pages for new users. New users should now be able to access Kubernetes and App platform in our Cloud Control Panel successfully. 
+We will continue to monitor this at our end and will share an update once the problem is resolved completely.
+May 29, 07:19 UTC
+Investigating - Our Engineering team is investigating an issue where newly signed up users are unable to access Kubernetes and App platform pages in our Cloud Control Panel. Beginning at 07:00 UTC on May 29th, new users may see "Oops, you do not have access to view this resource or page" in our Cloud Control Panel.
+We apologize for the inconvenience and will share an update once we have more information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Users writing in Japanese and Korean are occasionally unable to type any characters.]]></title>
+        <id>https://slack-status.com/2024-05/627dd44580fbdde7</id>
+        <link href="https://slack-status.com/2024-05/627dd44580fbdde7"/>
+        <updated>2024-05-29T06:17:12.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+On May 8, 2024 at 12:00 PM PDT until May 28, 2024 at 9:51 AM PDT, some customers were unable to type in Japanese or Korean in the Slack for Windows app.
+
+We traced these issues to a bug with an upstream provider. The upstream provider released a patch for this bug, so we prepared a Slack app update that implemented this patch. This app update resolved the issue for all affected customers.]]></summary>
+        <author>
+            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
@@ -236,24 +271,6 @@ May 23, 15:31 UTC
 Investigating - We are investigating reports of degraded performance for Codespaces]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Users writing in Japanese and Korean are occasionally unable to type any characters.]]></title>
-        <id>https://slack-status.com/2024-05/627dd44580fbdde7</id>
-        <link href="https://slack-status.com/2024-05/627dd44580fbdde7"/>
-        <updated>2024-05-23T02:25:05.000Z</updated>
-        <summary type="html"><![CDATA[We started to roll out an update for the Windows app that will resolve this issue. 
-
-Please update your app version to 4.38.127 to fetch the fix.
-
-You can find steps on how to update the app using our Help Centre article, here: https://slack.com/help/articles/360048367814-Update-the-Slack-desktop-app#update-desktop-app
-
-Thank you for your patience while we sorted out this issue.
-
-Please send a note to feedback@slack.com if you continue to have any trouble.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
@@ -1251,128 +1268,6 @@ Every day, you face the challenge of optimizing your property’s performance bu
 Cus…]]></summary>
         <author>
             <name>Ella, Chief Customer Officer (CCO) &amp; Cofounder</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Service degradation for some customers]]></title>
-        <id>https://slack-status.com/2024-04/04ca4fcec64070d5</id>
-        <link href="https://slack-status.com/2024-04/04ca4fcec64070d5"/>
-        <updated>2024-04-30T09:07:59.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-From April 25, 2024 at 3:44 PM PDT to April 29, 2024 at 2:00 PM PDT, a very small number of users may have encountered issues with user profiles, custom statuses, and emoji in Slack.
-
-Our monitoring systems detected a high rate of errors and timeouts for one of our regional servers on April 29, 2024. We determined that these errors may have caused profile, status, and emoji issues for a small number of the users connected through this region.
-
-We traced the errors back to a recent code change. We reverted the offending change, resolving the errors and restoring normal functionality.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scheduled infrastructure maintenance]]></title>
-        <id>https://status.make.com/incidents/2lbgxqfxqplb</id>
-        <link href="https://status.make.com/incidents/2lbgxqfxqplb"/>
-        <updated>2024-04-30T08:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Apr 30, 10:00 CEST
-Completed - The scheduled maintenance has been completed.
-Apr 30, 08:00 CEST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Apr 25, 11:56 CEST
-Update - Dear customer,
-We are writing to inform you about an upcoming Scheduled infrastructure maintenance on 30.4.2024.
-This maintenance will take place between 08:00-10:00 CEST. 
-How will this impact your workload?
-Our underlying infrastructure will be under maintenance upon our cloud provider request, some of the following services may be affected for a short period:
-- Some shared hooks created during maintenance might not be accepted or processed.
-- Logging into the platform might be not possible.
-- New subscribers might face issues registering.
-- Password reset might not be available.
-- Emails and notifications might be delayed.
-- Some payments for subscription plans might not be accepted.
-We will inform you once the maintenance is completed.
-If you have any questions, please do not hesitate to reach out to our support team.
-Thank you very much.
-Kind regards,
-Your Make Team
-Apr 22, 11:57 CEST
-Scheduled - Dear customer,
-We are writing to inform you about an upcoming Scheduled infrastructure maintenance on 30.4.2024.
-This maintenance will take place between 08:00-09:00 CEST. 
-How will this impact your workload?
-Our underlying infrastructure will be under maintenance upon our cloud provider request, some of the following services may be affected for a short period:
-- Some shared hooks created during maintenance might not be accepted or processed.
-- Logging into the platform might be not possible.
-- New subscribers might face issues registering.
-- Password reset might not be available.
-- Emails and notifications might be delayed.
-- Some payments for subscription plans might not be accepted.
-We will inform you once the maintenance is completed.
-If you have any questions, please do not hesitate to reach out to our support team.
-Thank you very much.
-Kind regards,
-Your Make Team]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scheduled infrastructure maintenance]]></title>
-        <id>https://status.make.com/incidents/7z85x6y7tmy0</id>
-        <link href="https://status.make.com/incidents/7z85x6y7tmy0"/>
-        <updated>2024-04-29T22:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Apr 30, 00:00 CEST
-Completed - The scheduled maintenance has been completed.
-Apr 29, 23:00 CEST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Apr 22, 13:10 CEST
-Scheduled - Dear customer,
-We are writing to inform you about an upcoming Scheduled infrastructure maintenance on 29.4.2024.
-This maintenance will take place between 23:00-00:00 CEST. 
-How will this impact your workload?
-Our underlying infrastructure will be under maintenance upon our cloud provider request, some of the following services may be affected for a short period:
-- Some shared hooks created during maintenance might not be accepted or processed.
-- Logging into the platform might be not possible.
-- New subscribers might face issues registering.
-- Password reset might not be available.
-- Emails and notifications might be delayed.
-- Some payments for subscription plans might not be accepted.
-We will inform you once the maintenance is completed.
-If you have any questions, please do not hesitate to reach out to our support team.
-Thank you very much.
-Kind regards,
-Your Make Team]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scheduled infrastructure maintenance]]></title>
-        <id>https://status.make.com/incidents/b0r1cx4blsyy</id>
-        <link href="https://status.make.com/incidents/b0r1cx4blsyy"/>
-        <updated>2024-04-29T21:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Apr 29, 23:00 CEST
-Completed - The scheduled maintenance has been completed.
-Apr 29, 22:00 CEST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Apr 22, 11:54 CEST
-Scheduled - Dear customer,
-We are writing to inform you about an upcoming Scheduled infrastructure maintenance on 29.4.2024.
-This maintenance will take place between 22:00-23:00 CEST. 
-How will this impact your workload?
-Our underlying infrastructure will be under maintenance upon our cloud provider request, some of the following services may be affected for a short period:
-- Some shared hooks created during maintenance might not be accepted or processed.
-- Logging into the platform might be not possible.
-- New subscribers might face issues registering.
-- Password reset might not be available.
-- Emails and notifications might be delayed.
-- Some payments for subscription plans might not be accepted.
-We will inform you once the maintenance is completed.
-If you have any questions, please do not hesitate to reach out to our support team.
-Thank you very much.
-Kind regards,
-Your Make Team]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
         </author>
     </entry>
 </feed>

@@ -165,11 +165,21 @@
         {
           "id": "https://status.digitalocean.com/incidents/92tf7qm362vj",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 29, 10:00 - 14:00 UTC\nMay 22, 17:13 UTC\nScheduled - Start: 2024-05-29 10:00 UTC\nEnd: 2024-05-29 14:00 UTC\nDuring the above window, we will be performing maintenance on core switches in our NYC3 datacenter as part of network upgrades. \n Expected Impact:\n Inbound and outbound traffic for Droplet-based services in NYC3 may experience a few brief interruptions as traffic is isolated from core switches being upgraded. This impact would be for a duration of 5 to 10 seconds and could occur a few times within the maintenance window. Our team will make every effort to seamlessly drain traffic in order to limit customer impact. \n If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
+          "description": "May 29, 14:00 UTC\nCompleted - The scheduled maintenance has been completed.\nMay 29, 10:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 22, 17:13 UTC\nScheduled - Start: 2024-05-29 10:00 UTC\nEnd: 2024-05-29 14:00 UTC\nDuring the above window, we will be performing maintenance on core switches in our NYC3 datacenter as part of network upgrades. \n Expected Impact:\n Inbound and outbound traffic for Droplet-based services in NYC3 may experience a few brief interruptions as traffic is isolated from core switches being upgraded. This impact would be for a duration of 5 to 10 seconds and could occur a few times within the maintenance window. Our team will make every effort to seamlessly drain traffic in order to limit customer impact. \n If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
           "link": "https://status.digitalocean.com/incidents/92tf7qm362vj",
-          "publishedOn": "2024-05-29T10:00:00.000Z",
-          "wordCount": 6305,
+          "publishedOn": "2024-05-29T14:00:02.000Z",
+          "wordCount": 6333,
           "title": "NYC3 Network Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/yzl464rhsqrg",
+          "author": null,
+          "description": "May 29, 11:47 UTC\nResolved - Our Engineering team has confirmed that the issue with accessing Kubernetes and App Platform for new users has been completely resolved. New users should now be able to access all aspects in the Cloud Control Panel. \nIf you continue to experience problems, please open a ticket with our support team.\nThank you for your patience and we apologize for any inconvenience.\nMay 29, 10:47 UTC\nMonitoring - Our Engineering team has identified the root cause and deployed a fix for the issue impacting access to Kubernetes and App platform pages for new users. New users should now be able to access Kubernetes and App platform in our Cloud Control Panel successfully. \nWe will continue to monitor this at our end and will share an update once the problem is resolved completely.\nMay 29, 07:19 UTC\nInvestigating - Our Engineering team is investigating an issue where newly signed up users are unable to access Kubernetes and App platform pages in our Cloud Control Panel. Beginning at 07:00 UTC on May 29th, new users may see \"Oops, you do not have access to view this resource or page\" in our Cloud Control Panel.\nWe apologize for the inconvenience and will share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/yzl464rhsqrg",
+          "publishedOn": "2024-05-29T11:47:38.000Z",
+          "wordCount": 6424,
+          "title": "Kubernetes and App Platform Pages in the Cloud Control Panel for New Users",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
@@ -518,6 +528,16 @@
       "siteUrl": "https://slack-status.com",
       "articles": [
         {
+          "id": "https://slack-status.com/2024-05/627dd44580fbdde7",
+          "author": null,
+          "description": "Issue summary:\r\nOn May 8, 2024 at 12:00 PM PDT until May 28, 2024 at 9:51 AM PDT, some customers were unable to type in Japanese or Korean in the Slack for Windows app.\r\n\r\nWe traced these issues to a bug with an upstream provider. The upstream provider released a patch for this bug, so we prepared a Slack app update that implemented this patch. This app update resolved the issue for all affected customers.",
+          "link": "https://slack-status.com/2024-05/627dd44580fbdde7",
+          "publishedOn": "2024-05-29T06:17:12.000Z",
+          "wordCount": 331,
+          "title": "Incident: Users writing in Japanese and Korean are occasionally unable to type any characters.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://slack-status.com/2024-05/c543a5ed3c508804",
           "author": null,
           "description": "Issue Summary:\r\n\r\nFrom Friday, May 24 at 1:30 PM PDT until Monday, May 27th at 1:45 PM PDT, a small number of users were unable to access the legacy posts feature. Users would encounter an infinite loading spinner instead of loading their desired post.\r\n\r\nWe traced the issue to a recent change that altered how a backend service loaded assets for this feature. The change was rolled back and functionality returned to normal. \r\n\r\nWe are sorry for any inconvenience this issue may have caused and are evaluating additional logging to allow similar issues to be identified earlier.",
@@ -525,16 +545,6 @@
           "publishedOn": "2024-05-28T15:16:10.000Z",
           "wordCount": 350,
           "title": "Incident: Some customers unable to access legacy Posts",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-05/627dd44580fbdde7",
-          "author": null,
-          "description": "We started to roll out an update for the Windows app that will resolve this issue. \r\n\r\nPlease update your app version to 4.38.127 to fetch the fix.\r\n\r\nYou can find steps on how to update the app using our Help Centre article, here: https://slack.com/help/articles/360048367814-Update-the-Slack-desktop-app#update-desktop-app\r\n\r\nThank you for your patience while we sorted out this issue.\r\n\r\nPlease send a note to feedback@slack.com if you continue to have any trouble.",
-          "link": "https://slack-status.com/2024-05/627dd44580fbdde7",
-          "publishedOn": "2024-05-23T02:25:05.000Z",
-          "wordCount": 253,
-          "title": "Incident: Users writing in Japanese and Korean are occasionally unable to type any characters.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
@@ -565,16 +575,6 @@
           "publishedOn": "2024-05-01T06:44:30.000Z",
           "wordCount": 296,
           "title": "Incident: Legacy webhook integrations may be failing for some users",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-04/04ca4fcec64070d5",
-          "author": null,
-          "description": "Issue summary:\r\nFrom April 25, 2024 at 3:44 PM PDT to April 29, 2024 at 2:00 PM PDT, a very small number of users may have encountered issues with user profiles, custom statuses, and emoji in Slack.\r\n\r\nOur monitoring systems detected a high rate of errors and timeouts for one of our regional servers on April 29, 2024. We determined that these errors may have caused profile, status, and emoji issues for a small number of the users connected through this region.\r\n\r\nWe traced the errors back to a recent code change. We reverted the offending change, resolving the errors and restoring normal functionality.",
-          "link": "https://slack-status.com/2024-04/04ca4fcec64070d5",
-          "publishedOn": "2024-04-30T09:07:59.000Z",
-          "wordCount": 331,
-          "title": "Incident: Service degradation for some customers",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
@@ -712,36 +712,6 @@
           "publishedOn": "2024-05-02T11:39:28.000Z",
           "wordCount": 3892,
           "title": "Webhook failures us1.make.com",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/2lbgxqfxqplb",
-          "author": null,
-          "description": "Apr 30, 10:00 CEST\nCompleted - The scheduled maintenance has been completed.\nApr 30, 08:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 25, 11:56 CEST\nUpdate - Dear customer,\nWe are writing to inform you about an upcoming Scheduled infrastructure maintenance on 30.4.2024.\nThis maintenance will take place between 08:00-10:00 CEST. \nHow will this impact your workload?\nOur underlying infrastructure will be under maintenance upon our cloud provider request, some of the following services may be affected for a short period:\n- Some shared hooks created during maintenance might not be accepted or processed.\n- Logging into the platform might be not possible.\n- New subscribers might face issues registering.\n- Password reset might not be available.\n- Emails and notifications might be delayed.\n- Some payments for subscription plans might not be accepted.\nWe will inform you once the maintenance is completed.\nIf you have any questions, please do not hesitate to reach out to our support team.\nThank you very much.\nKind regards,\nYour Make Team\nApr 22, 11:57 CEST\nScheduled - Dear customer,\nWe are writing to inform you about an upcoming Scheduled infrastructure maintenance on 30.4.2024.\nThis maintenance will take place between 08:00-09:00 CEST. \nHow will this impact your workload?\nOur underlying infrastructure will be under maintenance upon our cloud provider request, some of the following services may be affected for a short period:\n- Some shared hooks created during maintenance might not be accepted or processed.\n- Logging into the platform might be not possible.\n- New subscribers might face issues registering.\n- Password reset might not be available.\n- Emails and notifications might be delayed.\n- Some payments for subscription plans might not be accepted.\nWe will inform you once the maintenance is completed.\nIf you have any questions, please do not hesitate to reach out to our support team.\nThank you very much.\nKind regards,\nYour Make Team",
-          "link": "https://status.make.com/incidents/2lbgxqfxqplb",
-          "publishedOn": "2024-04-30T08:00:02.000Z",
-          "wordCount": 4111,
-          "title": "Scheduled infrastructure maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/7z85x6y7tmy0",
-          "author": null,
-          "description": "Apr 30, 00:00 CEST\nCompleted - The scheduled maintenance has been completed.\nApr 29, 23:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 22, 13:10 CEST\nScheduled - Dear customer,\nWe are writing to inform you about an upcoming Scheduled infrastructure maintenance on 29.4.2024.\nThis maintenance will take place between 23:00-00:00 CEST. \nHow will this impact your workload?\nOur underlying infrastructure will be under maintenance upon our cloud provider request, some of the following services may be affected for a short period:\n- Some shared hooks created during maintenance might not be accepted or processed.\n- Logging into the platform might be not possible.\n- New subscribers might face issues registering.\n- Password reset might not be available.\n- Emails and notifications might be delayed.\n- Some payments for subscription plans might not be accepted.\nWe will inform you once the maintenance is completed.\nIf you have any questions, please do not hesitate to reach out to our support team.\nThank you very much.\nKind regards,\nYour Make Team",
-          "link": "https://status.make.com/incidents/7z85x6y7tmy0",
-          "publishedOn": "2024-04-29T22:00:02.000Z",
-          "wordCount": 3975,
-          "title": "Scheduled infrastructure maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/b0r1cx4blsyy",
-          "author": null,
-          "description": "Apr 29, 23:00 CEST\nCompleted - The scheduled maintenance has been completed.\nApr 29, 22:00 CEST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 22, 11:54 CEST\nScheduled - Dear customer,\nWe are writing to inform you about an upcoming Scheduled infrastructure maintenance on 29.4.2024.\nThis maintenance will take place between 22:00-23:00 CEST. \nHow will this impact your workload?\nOur underlying infrastructure will be under maintenance upon our cloud provider request, some of the following services may be affected for a short period:\n- Some shared hooks created during maintenance might not be accepted or processed.\n- Logging into the platform might be not possible.\n- New subscribers might face issues registering.\n- Password reset might not be available.\n- Emails and notifications might be delayed.\n- Some payments for subscription plans might not be accepted.\nWe will inform you once the maintenance is completed.\nIf you have any questions, please do not hesitate to reach out to our support team.\nThank you very much.\nKind regards,\nYour Make Team",
-          "link": "https://status.make.com/incidents/b0r1cx4blsyy",
-          "publishedOn": "2024-04-29T21:00:02.000Z",
-          "wordCount": 3977,
-          "title": "Scheduled infrastructure maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
