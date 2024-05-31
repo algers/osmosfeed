@@ -22,6 +22,297 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-31 datetime="2024-05-31T00:10:36.000Z">2024-05-31</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-31 datetime="2024-05-31T00:10:36.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Google Workspace Status Dashboard Updates</button>
+                  <a class="source-heading__link" href="https://www.google.com/appsstatus/dashboard/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/qPG3UXdDaYVhcA9DT8zG"
+                        open
+                      >
+                        <summary class="article-expander__title">RESOLVED: **Summary:**
+Google Drive users are unable to load Apps Script UI.
+**Description:**
+We are experiencing an issue with Google Drive beginning on Friday, 2024-05-24 16:20 US/Pacific.
+Our engineering team has identified a mitigation strategy and is currently rolling it out for all impacted users.
+We will provide an update by Friday, 2024-05-24 21:00 US/Pacific with current details.
+We apologize to all who are affected by the disruption.
+**Customer Symptoms:**
+Customers may not be able to load Drive UI, they would encounter error messages while trying to do so.
+.
+This issue may also impact users trying to access Apps Script UI.
+**Workaround:**
+None at this time.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/qPG3UXdDaYVhcA9DT8zG">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Incident began at 2024-05-24 23:20 and ended at 2024-05-25 03:41 (times are in Coordinated Universal Time (UTC)).
+
+Incident Report
+Summary
+On 24 May 2024 at 16:20, Apps Script and Drive Admin Console User Interface (UI) experienced  failures in loading the UI. A subset of users experienced elevated errors while accessing the Apps Script editor UI or Drive Admin Console UI through multiple Google Workspace products including Google Docs, Google Drive, Google Sheets for a period of 4 hours, 21 minutes.
+Root Cause
+In ongoing efforts to ensure very strict security controls for Google Drive, our engineers performed changes to remove unused system-level access to Google Drive; i.e., stale Access Control List (ACLs) groups that are no longer in use.
+Upon performing the change to remove the unused ACLs groups for Google Drive API, this triggered an inadvertent removal of access groups that are still in use. This deletion of the access groups caused a failure in loading the UI.
+Google engineers mitigated the issue quickly by rolling back the change.
+Remediation and Prevention
+Google engineers were alerted to the outage via internal alerts and immediately started an investigation. Once the nature and scope of the issue became clear, Google engineers rolled back the changes and all the access removed this change was restored. While the rollback was still in progress Google engineers were able to partially mitigate the issue with a configuration change in a security policy.
+The following changes will be made to ensure that this type of issue does not happen again in the future:
+Augment access control safety checks to prevent the inadvertent removal of in-use access, even in complex access inheritance scenarios.
+Review and redesign Drives access groups to remove nested ACLs (and prevent adding new nested ACLs). This will reduce the complexity of our access control graph and enable easier detection of potential problems.
+Google is committed to quickly and continually improving our technology and operations to prevent service disruptions. We appreciate your patience and apologize again for the impact to your organization. We thank you for your business.
+Detailed Description of Impact
+On 24 May 2024, from 16:20 to 20:41, Apps Script and Drive Admin Console User Interface (UI) experienced  failures in loading the UI. As a result, a subset of users of multiple Google Workspace products like Google Docs, Google Drive, Google Sheets experienced elevated errors while accessing the Apps Script editor UI or Drive Admin Console UI through the products.
+Google Drive
+A small subset of Google Drive users experienced failure in accessing Drive Admin Console. As a result, the impacted users were unable to manage their shared drives on 24 May 2024 between 16:20 and 20:02.
+Google Docs, Sheets(Apps script)
+AppsScript UI was inaccessible for editing but AppsScript execution was unaffected starting at 16:12 to 20:41.
+
+Affected products: Google Drive</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-30 datetime="2024-05-30T22:07:37.000Z">2024-05-30</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-30 datetime="2024-05-30T22:07:37.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >DigitalOcean Status - Incident History</button>
+                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.digitalocean.com/incidents/kpcl7hzg8phn"
+                        open
+                      >
+                        <summary class="article-expander__title">Event processing in TOR1</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/kpcl7hzg8phn">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>May 30, 22:07 UTC
+Resolved - Our Engineering team has confirmed that this incident has been fully resolved.
+Thank you for your patience. If you continue to experience any problems, please open a ticket with our support team for further review.
+May 30, 20:51 UTC
+Monitoring - Our Engineering team has implemented a fix to resolve the issue with event processing on the two nodes in TOR1. At this time, users should no longer face issues with powering on, powering off, and power cycling Droplets. 
+We are monitoring the situation closely and will post an update as soon as we confirm the issue is fully resolved.
+May 30, 20:16 UTC
+Identified - After further investigation, our Engineering team has determined the scope of this issue to be limited to two physical nodes in our TOR1 datacenter. Power event errors seen in NYC3 are not related to this incident and are a result of a single hypervisor issue, which is being remediated separately. 
+The root cause for event issues in TOR1 has been identified and a fix is underway. We will update the title of this incident shortly to accurately reflect the scope and will post an update as soon as the fix has rolled out or there is additional information to share.
+May 30, 19:42 UTC
+Investigating - Our Engineering team is investigating an uptick in reports of issues with Power on, Power off, and Power cycle events in our TOR1 and NYC3 regions. During this period, customers might experience errors and/or delays in powering on, powering off, or rebooting Droplets. 
+We will post an update as soon as additional information is available.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;22
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Google Workspace Status Dashboard Updates</button>
+                  <a class="source-heading__link" href="https://www.google.com/appsstatus/dashboard/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F"
+                        open
+                      >
+                        <summary class="article-expander__title">UPDATE: We&#x27;re investigating reports of an issue with Google Drive. We will provide more information shortly.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Incident began at 2024-05-30 14:23 and ended at 2024-05-30 17:11 (times are in Coordinated Universal Time (UTC)).
+  We&#x27;re investigating reports of an issue with Google Drive. We will provide more information shortly.  
+ Customer might see 5XX errors while using Google Drive.
+
+Affected products: Google Drive</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F"
+                        open
+                      >
+                        <summary class="article-expander__title">UPDATE: We&#x27;re investigating reports of an issue with Google Drive. We will provide more information shortly.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Incident began at 2024-05-30 14:23 and ended at 2024-05-30 17:11 (times are in Coordinated Universal Time (UTC)).
+  We expect to resolve the problem affecting a majority of users of Google Drive at May 30, 2024, 7:30 PM UTC. Please note that this time frame is an estimate and may change.  
+
+Affected products: Google Drive</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F"
+                        open
+                      >
+                        <summary class="article-expander__title">RESOLVED: We&#x27;re investigating reports of an issue with Google Drive. We will provide more information shortly.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Incident began at 2024-05-30 14:23 and ended at 2024-05-30 17:11 (times are in Coordinated Universal Time (UTC)).
+  We have determined that this is an isolated issue that will be corrected as part of our ongoing maintenance activities.  
+ The incident with Google Drive was initially triggered by our internal monitoring systems.
+Upon further investigation, our engineering teams has confirmed that the scope is very limited and there was no impact to the users of Google Drive.
+If you have questions or feel that you may be impacted, please open a case with the Support Team and we will work with you until the issue is resolved.
+
+Affected products: Google Drive</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F"
+                        open
+                      >
+                        <summary class="article-expander__title">RESOLVED: We&#x27;re investigating reports of an issue with Google Drive. We will provide more information shortly.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Incident began at 2024-05-30 14:23 and ended at 2024-05-30 17:11 (times are in Coordinated Universal Time (UTC)).
+  The problem with Google Drive has been resolved. We apologize for the inconvenience and thank you for your patience and continued support.  
+
+Affected products: Google Drive</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >GitHub Status - Incident History</button>
+                  <a class="source-heading__link" href="https://www.githubstatus.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.githubstatus.com/incidents/g8g6c6s72836"
+                        open
+                      >
+                        <summary class="article-expander__title">Incident with Copilot</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.githubstatus.com/incidents/g8g6c6s72836">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>May 30, 17:22 UTC
+Resolved - This incident has been resolved.
+May 30, 17:22 UTC
+Update - Copilot is operating normally.
+May 30, 17:22 UTC
+Update - We have rolled out mitigation and fixes appear to be stable. This incident has been resolved.
+May 30, 17:14 UTC
+Update - Copilot is experiencing degraded performance. We are continuing to investigate.
+May 30, 17:14 UTC
+Update - Our CoPilot API is currently experiencing back-end connectivity issues and we are actively engaged in mitigation steps.
+May 30, 17:14 UTC
+Investigating - We are currently investigating this issue.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-29 datetime="2024-05-29T14:00:02.000Z">2024-05-29</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-29 datetime="2024-05-29T14:00:02.000Z"></time>
           </button>
@@ -302,68 +593,6 @@ Thank you very much.
 Kind regards,
 Your Make Team</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Google Workspace Status Dashboard Updates</button>
-                  <a class="source-heading__link" href="https://www.google.com/appsstatus/dashboard/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/qPG3UXdDaYVhcA9DT8zG"
-                        open
-                      >
-                        <summary class="article-expander__title">RESOLVED: **Summary:**
-Google Drive users are unable to load Apps Script UI.
-**Description:**
-We are experiencing an issue with Google Drive beginning on Friday, 2024-05-24 16:20 US/Pacific.
-Our engineering team has identified a mitigation strategy and is currently rolling it out for all impacted users.
-We will provide an update by Friday, 2024-05-24 21:00 US/Pacific with current details.
-We apologize to all who are affected by the disruption.
-**Customer Symptoms:**
-Customers may not be able to load Drive UI, they would encounter error messages while trying to do so.
-.
-This issue may also impact users trying to access Apps Script UI.
-**Workaround:**
-None at this time.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/qPG3UXdDaYVhcA9DT8zG">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Incident began at 2024-05-24 23:20 and ended at 2024-05-25 03:20 (times are in Coordinated Universal Time (UTC)).
-
-Mini Incident Report
-We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced an impact outside of what is listed below, please reach out to Google Workspace Support using the help article https://support.google.com/a/answer/1047213.
-(All Times US/Pacific)
-Incident Start: 24 May, 2024 16:20
-Incident End: 24 May, 2024 20:41
-Duration: 4 hours, 21 minutes
-Affected Services and Features: Apps Script usage from Google Drive, Google Docs, Google Sheets
-Regions/Zones:  Global
-Description:
-The user interface for Apps Script was failing to load for a duration of 4 hours, 21 minutes.
-Based on the preliminary analysis the root cause of the issue is a configuration change. The change to the access control list that inadvertently removed access for some processes, has been updated to normalcy.
-Google will complete a full incident report in the following days that will provide more details on the root cause.
-Customer Impact:
-The impacted users were unable to develop, manage and execute their script using the Apps Script editor UI. Users would have encountered similar errors while trying to open Apps Script from any of the workspace products as well. However, there was no impact on other executions that did not originate from UI like executions from published scripts, triggers etc.
-
-Affected products: Google Drive</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2767,199 +2996,10 @@ Monitoring - A fix has been implemented and we are monitoring the results.</span
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-01 datetime="2024-05-01T06:44:30.000Z">2024-05-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-01 datetime="2024-05-01T06:44:30.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Slack System Status</button>
-                  <a class="source-heading__link" href="https://slack-status.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://slack-status.com/2024-04/49ff269b2a000cfb"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident: Legacy webhook integrations may be failing for some users</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-04/49ff269b2a000cfb">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Issue summary:
-On April 30, 2024 from 10:00 AM PDT to 9:00 PM PDT, custom integrations that relied on our legacy Slackbot webhook to send messages were failing for some customers. 
-
-We determined a recent code change inadvertently caused these integrations to return a &quot;no_team&quot; error, rather than the correct message content. We reverted the code change responsible, which resolved the issue for all users.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-04-30 datetime="2024-04-30T16:58:32.000Z">2024-04-30</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-04-30 datetime="2024-04-30T16:58:32.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >DigitalOcean Status - Incident History</button>
-                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/mysrzvnmxr3d"
-                        open
-                      >
-                        <summary class="article-expander__title">NYC2 Networking</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/mysrzvnmxr3d">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Apr 30, 16:58 UTC
-Resolved - Our Engineering team has confirmed the root cause of this issue. Preparation work for the upcoming maintenance in NYC2 (https://status.digitalocean.com/incidents/z9r8gg95bqqm) was in-flight and had an unexpected impact, causing the connectivity outage. This was corrected and should not occur again. 
-All services were restored as of 16:06 UTC and we confirmed this incident impacted only a subset of customer Droplets in NYC2. 
-We apologize for the disruption and appreciate your patience while the root cause was confirmed. If you have any questions or concerns, please reach out to Support from within your account. Thank you.
-Apr 30, 16:23 UTC
-Monitoring - Our Engineering team has investigated and identified an issue with networking in our NYC2 region. From 15:54 - 16:06 UTC, services in our NYC2 region experienced a complete disruption in network availability. Users attempting to access Droplet and Droplet-dependent resources would have seen connections failing. 
-Our team has identified a breaking change and a rollback was completed. We are confirming full scope of impact and ensuring this issue will not reoccur. 
-We&#x27;ll post another update soon.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >BookingSync.com news</button>
-                  <a class="source-heading__link" href="https://changelog.bookingsync.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="291886"
-                        open
-                      >
-                        <summary class="article-expander__title">New Partnership with Tyllt for your security deposit management! 💰</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://changelog.bookingsync.com/new-partnership-with-tyllt-for-your-security-deposit-management!-291886">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cloud.headwayapp.co/changelogs_images/images/big/000/126/998-1ac9dced32912c9767294a72e3659efe1ce4df9a.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>New!
-  
-We are thrilled to announce our brand-new partnership with Tyllt, an innovative solution that simplifies security deposit management for property owners and managers like you. 🌟
-
-
-
-💡 What is Tyllt?
-Tyllt offers a secure platform for conveniently and effectively managing security deposits without immediate deductions.
-It provides a groundbreaking alternative to traditional methods such as checks, wire transfers, or credit card imprints.
-
-🔐 Secure management
-Record security deposits online in a simple and secure manner, whether for national or international tenants.
-This not only ensures transaction security but also facilitates a smooth rental experience for your clients.
-
-🤑 Unique pricing
-Benefit from a flat fee of 0.4% + €0.25 excluding taxes per deposited security.
-In case of withdrawal, service fees are 2% + €2 excluding taxes of the withdrawn amount.
-
-👉 Install the Tyllt application 
-
-Please find the manual article detailing how to connect your account to Tyllt here.
-
-💌 Any question?
-If you have any questions or would like to learn more, feel free to contact their sales team at the following email address: contact@tyllt.com.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="291878"
-                        open
-                      >
-                        <summary class="article-expander__title">🌟 Introducing the Performance Dashboard - Your new business compass!</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://changelog.bookingsync.com/introducing-the-performance-dashboard-your-new-business-compass!-291878">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cloud.headwayapp.co/changelogs_images/images/big/000/126/989-dc9e2550bbb9a4e66c03c3541728f5da465a8dec.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>New!
-  
-​We’re excited to unveil a game-changing addition to your Smily toolkit - the Performance Dashboard! Tailored specifically for you, the dedicated property managers who fuel the vacation rental industry, this new feature is designed to turn your data into decisions that drive profit.​
-💪 Why the Performance Dashboard?
-Every day, you face the challenge of optimizing your property’s performance but may feel lost in a sea of data. You&#x27;ve told us about the headaches from using third-party providers or makeshift solutions that just don&#x27;t fit the bill. That&#x27;s why we&#x27;ve listened and created a centralized, intuitive platform that not only tracks your key metrics like occupancy rates, booking windows, and revenue but also turns this data into actionable insights.​
-👀 What can you expect?
-Cus…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/9294913149">
-        <time id="build-timestamp" datetime="2024-05-30T00:23:16.511Z">2024-05-30T00:23:16.511Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/9310941400">
+        <time id="build-timestamp" datetime="2024-05-31T00:22:29.672Z">2024-05-31T00:22:29.672Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

@@ -54,26 +54,6 @@
           "wordCount": 322,
           "title": "Refunds Made Simple with SmilyPay",
           "imageUrl": null
-        },
-        {
-          "id": "291886",
-          "author": "Maud , Partnership Manager",
-          "description": "New!\n  \nWe are thrilled to announce our brand-new partnership with Tyllt, an innovative solution that simplifies security deposit management for property owners and managers like you. 🌟\n\n\n\n💡 What is Tyllt?\nTyllt offers a secure platform for conveniently and effectively managing security deposits without immediate deductions.\nIt provides a groundbreaking alternative to traditional methods such as checks, wire transfers, or credit card imprints.\n\n🔐 Secure management\nRecord security deposits online in a simple and secure manner, whether for national or international tenants.\nThis not only ensures transaction security but also facilitates a smooth rental experience for your clients.\n\n🤑 Unique pricing\nBenefit from a flat fee of 0.4% + €0.25 excluding taxes per deposited security.\nIn case of withdrawal, service fees are 2% + €2 excluding taxes of the withdrawn amount.\n\n👉 Install the Tyllt application \n\nPlease find the manual article detailing how to connect your account to Tyllt here.\n\n💌 Any question?\nIf you have any questions or would like to learn more, feel free to contact their sales team at the following email address: contact@tyllt.com.",
-          "link": "https://changelog.bookingsync.com/new-partnership-with-tyllt-for-your-security-deposit-management!-291886",
-          "publishedOn": "2024-04-30T16:48:56.000Z",
-          "wordCount": 414,
-          "title": "New Partnership with Tyllt for your security deposit management! 💰",
-          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/126/998-1ac9dced32912c9767294a72e3659efe1ce4df9a.png"
-        },
-        {
-          "id": "291878",
-          "author": "Ella, Chief Customer Officer (CCO) & Cofounder",
-          "description": "New!\n  \n​We’re excited to unveil a game-changing addition to your Smily toolkit - the Performance Dashboard! Tailored specifically for you, the dedicated property managers who fuel the vacation rental industry, this new feature is designed to turn your data into decisions that drive profit.​\n💪 Why the Performance Dashboard?\nEvery day, you face the challenge of optimizing your property’s performance but may feel lost in a sea of data. You've told us about the headaches from using third-party providers or makeshift solutions that just don't fit the bill. That's why we've listened and created a centralized, intuitive platform that not only tracks your key metrics like occupancy rates, booking windows, and revenue but also turns this data into actionable insights.​\n👀 What can you expect?\nCus…",
-          "link": "https://changelog.bookingsync.com/introducing-the-performance-dashboard-your-new-business-compass!-291878",
-          "publishedOn": "2024-04-30T15:31:13.000Z",
-          "wordCount": 588,
-          "title": "🌟 Introducing the Performance Dashboard - Your new business compass!",
-          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/126/989-dc9e2550bbb9a4e66c03c3541728f5da465a8dec.jpg"
         }
       ]
     },
@@ -162,6 +142,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/kpcl7hzg8phn",
+          "author": null,
+          "description": "May 30, 22:07 UTC\nResolved - Our Engineering team has confirmed that this incident has been fully resolved.\nThank you for your patience. If you continue to experience any problems, please open a ticket with our support team for further review.\nMay 30, 20:51 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue with event processing on the two nodes in TOR1. At this time, users should no longer face issues with powering on, powering off, and power cycling Droplets. \nWe are monitoring the situation closely and will post an update as soon as we confirm the issue is fully resolved.\nMay 30, 20:16 UTC\nIdentified - After further investigation, our Engineering team has determined the scope of this issue to be limited to two physical nodes in our TOR1 datacenter. Power event errors seen in NYC3 are not related to this incident and are a result of a single hypervisor issue, which is being remediated separately. \nThe root cause for event issues in TOR1 has been identified and a fix is underway. We will update the title of this incident shortly to accurately reflect the scope and will post an update as soon as the fix has rolled out or there is additional information to share.\nMay 30, 19:42 UTC\nInvestigating - Our Engineering team is investigating an uptick in reports of issues with Power on, Power off, and Power cycle events in our TOR1 and NYC3 regions. During this period, customers might experience errors and/or delays in powering on, powering off, or rebooting Droplets. \nWe will post an update as soon as additional information is available.",
+          "link": "https://status.digitalocean.com/incidents/kpcl7hzg8phn",
+          "publishedOn": "2024-05-30T22:07:37.000Z",
+          "wordCount": 6462,
+          "title": "Event processing in TOR1",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/92tf7qm362vj",
           "author": null,
@@ -301,16 +291,6 @@
           "wordCount": 6471,
           "title": "NYC2 Network Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/mysrzvnmxr3d",
-          "author": null,
-          "description": "Apr 30, 16:58 UTC\nResolved - Our Engineering team has confirmed the root cause of this issue. Preparation work for the upcoming maintenance in NYC2 (https://status.digitalocean.com/incidents/z9r8gg95bqqm) was in-flight and had an unexpected impact, causing the connectivity outage. This was corrected and should not occur again. \nAll services were restored as of 16:06 UTC and we confirmed this incident impacted only a subset of customer Droplets in NYC2. \nWe apologize for the disruption and appreciate your patience while the root cause was confirmed. If you have any questions or concerns, please reach out to Support from within your account. Thank you.\nApr 30, 16:23 UTC\nMonitoring - Our Engineering team has investigated and identified an issue with networking in our NYC2 region. From 15:54 - 16:06 UTC, services in our NYC2 region experienced a complete disruption in network availability. Users attempting to access Droplet and Droplet-dependent resources would have seen connections failing. \nOur team has identified a breaking change and a rollback was completed. We are confirming full scope of impact and ensuring this issue will not reoccur. \nWe'll post another update soon.",
-          "link": "https://status.digitalocean.com/incidents/mysrzvnmxr3d",
-          "publishedOn": "2024-04-30T16:58:32.000Z",
-          "wordCount": 6360,
-          "title": "NYC2 Networking",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -406,11 +386,51 @@
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/qPG3UXdDaYVhcA9DT8zG",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-05-24 23:20</strong> and ended at <strong>2024-05-25 03:20</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced an impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 24 May, 2024 16:20</p>\n<p><strong>Incident End:</strong> 24 May, 2024 20:41</p>\n<p><strong>Duration:</strong> 4 hours, 21 minutes</p>\n<p><strong>Affected Services and Features:</strong> Apps Script usage from Google Drive, Google Docs, Google Sheets</p>\n<p><strong>Regions/Zones:</strong>  Global</p>\n<p><strong>Description:</strong></p>\n<p>The user interface for Apps Script was failing to load for a duration of 4 hours, 21 minutes.</p>\n<p>Based on the preliminary analysis the root cause of the issue is a configuration change. The change to the access control list that inadvertently removed access for some processes, has been updated to normalcy.</p>\n<p>Google will complete a full incident report in the following days that will provide more details on the root cause.</p>\n<p><strong>Customer Impact:</strong>\nThe impacted users were unable to develop, manage and execute their script using the Apps Script editor UI. Users would have encountered similar errors while trying to open Apps Script from any of the workspace products as well. However, there was no impact on other executions that did not originate from UI like executions from published scripts, triggers etc.</p>\n</div><hr><p>Affected products: Google Drive</p>",
+          "description": "<p> Incident began at <strong>2024-05-24 23:20</strong> and ended at <strong>2024-05-25 03:41</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Incident Report</h1>\n<h2>Summary</h2>\n<p>On 24 May 2024 at 16:20, Apps Script and Drive Admin Console User Interface (UI) experienced  failures in loading the UI. A subset of users experienced elevated errors while accessing the Apps Script editor UI or Drive Admin Console UI through multiple Google Workspace products including Google Docs, Google Drive, Google Sheets for a period of 4 hours, 21 minutes.</p>\n<h2>Root Cause</h2>\n<p>In ongoing efforts to ensure very strict security controls for Google Drive, our engineers performed changes to remove unused system-level access to Google Drive; i.e., stale Access Control List (ACLs) groups that are no longer in use.</p>\n<p>Upon performing the change to remove the unused ACLs groups for Google Drive API, this triggered an inadvertent removal of access groups that are still in use. This deletion of the access groups caused a failure in loading the UI.</p>\n<p>Google engineers mitigated the issue quickly by rolling back the change.</p>\n<h2>Remediation and Prevention</h2>\n<p>Google engineers were alerted to the outage via internal alerts and immediately started an investigation. Once the nature and scope of the issue became clear, Google engineers rolled back the changes and all the access removed this change was restored. While the rollback was still in progress Google engineers were able to partially mitigate the issue with a configuration change in a security policy.</p>\n<p>The following changes will be made to ensure that this type of issue does not happen again in the future:</p>\n<ul>\n<li>Augment access control safety checks to prevent the inadvertent removal of in-use access, even in complex access inheritance scenarios.</li>\n<li>Review and redesign Drives access groups to remove nested ACLs (and prevent adding new nested ACLs). This will reduce the complexity of our access control graph and enable easier detection of potential problems.</li>\n</ul>\n<p>Google is committed to quickly and continually improving our technology and operations to prevent service disruptions. We appreciate your patience and apologize again for the impact to your organization. We thank you for your business.</p>\n<h2>Detailed Description of Impact</h2>\n<p>On 24 May 2024, from 16:20 to 20:41, Apps Script and Drive Admin Console User Interface (UI) experienced  failures in loading the UI. As a result, a subset of users of multiple Google Workspace products like Google Docs, Google Drive, Google Sheets experienced elevated errors while accessing the Apps Script editor UI or Drive Admin Console UI through the products.</p>\n<p><strong>Google Drive</strong></p>\n<p>A small subset of Google Drive users experienced failure in accessing Drive Admin Console. As a result, the impacted users were unable to manage their shared drives on 24 May 2024 between 16:20 and 20:02.</p>\n<p><strong>Google Docs, Sheets(Apps script)</strong></p>\n<p>AppsScript UI was inaccessible for editing but AppsScript execution was unaffected starting at 16:12 to 20:41.</p>\n</div><hr><p>Affected products: Google Drive</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/qPG3UXdDaYVhcA9DT8zG",
-          "publishedOn": "2024-05-27T17:58:49.000Z",
-          "wordCount": 1069,
+          "publishedOn": "2024-05-31T00:10:36.000Z",
+          "wordCount": 1523,
           "title": "RESOLVED: **Summary:**\nGoogle Drive users are unable to load Apps Script UI.\n**Description:**\nWe are experiencing an issue with Google Drive beginning on Friday, 2024-05-24 16:20 US/Pacific.\nOur engineering team has identified a mitigation strategy and is currently rolling it out for all impacted users.\nWe will provide an update by Friday, 2024-05-24 21:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\nCustomers may not be able to load Drive UI, they would encounter error messages while trying to do so.\n.\nThis issue may also impact users trying to access Apps Script UI.\n**Workaround:**\nNone at this time.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-05-30 14:23</strong> and ended at <strong>2024-05-30 17:11</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We're investigating reports of an issue with Google Drive. We will provide more information shortly.  </span><div> <p>Customer might see 5XX errors while using Google Drive.</p>\n  </div></div><hr><p>Affected products: Google Drive</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F",
+          "publishedOn": "2024-05-30T18:01:42.000Z",
+          "wordCount": 408,
+          "title": "UPDATE: We're investigating reports of an issue with Google Drive. We will provide more information shortly.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-05-30 14:23</strong> and ended at <strong>2024-05-30 17:11</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We expect to resolve the problem affecting a majority of users of Google Drive at <span>May 30, 2024, 7:30 PM UTC</span>. Please note that this time frame is an estimate and may change.  </span></div><hr><p>Affected products: Google Drive</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F",
+          "publishedOn": "2024-05-30T18:01:32.000Z",
+          "wordCount": 408,
+          "title": "UPDATE: We're investigating reports of an issue with Google Drive. We will provide more information shortly.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-05-30 14:23</strong> and ended at <strong>2024-05-30 17:11</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We have determined that this is an isolated issue that will be corrected as part of our ongoing maintenance activities.  </span><div> <p>The incident with Google Drive was initially triggered by our internal monitoring systems.</p>\n<p>Upon further investigation, our engineering teams has confirmed that the scope is very limited and there was no impact to the users of Google Drive.</p>\n<p>If you have questions or feel that you may be impacted, please open a case with the Support Team and we will work with you until the issue is resolved.</p>\n  </div></div><hr><p>Affected products: Google Drive</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F",
+          "publishedOn": "2024-05-30T18:01:18.000Z",
+          "wordCount": 408,
+          "title": "RESOLVED: We're investigating reports of an issue with Google Drive. We will provide more information shortly.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-05-30 14:23</strong> and ended at <strong>2024-05-30 17:11</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  The problem with Google Drive has been resolved. We apologize for the inconvenience and thank you for your patience and continued support.  </span></div><hr><p>Affected products: Google Drive</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/u3EwVWVQTWrE8e6gs61F",
+          "publishedOn": "2024-05-30T17:15:52.000Z",
+          "wordCount": 408,
+          "title": "RESOLVED: We're investigating reports of an issue with Google Drive. We will provide more information shortly.",
           "imageUrl": null
         }
       ]
@@ -420,6 +440,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/g8g6c6s72836",
+          "author": null,
+          "description": "May 30, 17:22 UTC\nResolved - This incident has been resolved.\nMay 30, 17:22 UTC\nUpdate - Copilot is operating normally.\nMay 30, 17:22 UTC\nUpdate - We have rolled out mitigation and fixes appear to be stable. This incident has been resolved.\nMay 30, 17:14 UTC\nUpdate - Copilot is experiencing degraded performance. We are continuing to investigate.\nMay 30, 17:14 UTC\nUpdate - Our CoPilot API is currently experiencing back-end connectivity issues and we are actively engaged in mitigation steps.\nMay 30, 17:14 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/g8g6c6s72836",
+          "publishedOn": "2024-05-30T17:22:55.000Z",
+          "wordCount": 5349,
+          "title": "Incident with Copilot",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/k8nz2ljtvzv4",
           "author": null,
@@ -565,16 +595,6 @@
           "publishedOn": "2024-05-03T02:00:49.000Z",
           "wordCount": 340,
           "title": "Incident: Some users may encounter issues trying to load Slack",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-04/49ff269b2a000cfb",
-          "author": null,
-          "description": "Issue summary:\r\nOn April 30, 2024 from 10:00 AM PDT to 9:00 PM PDT, custom integrations that relied on our legacy Slackbot webhook to send messages were failing for some customers. \r\n\r\nWe determined a recent code change inadvertently caused these integrations to return a \"no_team\" error, rather than the correct message content. We reverted the code change responsible, which resolved the issue for all users.",
-          "link": "https://slack-status.com/2024-04/49ff269b2a000cfb",
-          "publishedOn": "2024-05-01T06:44:30.000Z",
-          "wordCount": 296,
-          "title": "Incident: Legacy webhook integrations may be failing for some users",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
