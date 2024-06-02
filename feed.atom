@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-01T00:25:04.284Z</id>
+    <id>urn:2024-06-02T00:25:24.231Z</id>
     <title>osmos::feed</title>
-    <updated>2024-06-01T00:25:04.284Z</updated>
+    <updated>2024-06-02T00:25:24.231Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1128,99 +1128,6 @@ May  5, 12:55 UTC
 Investigating - Our Engineering team is investigating an issue with intermittent failures and increased latency in DNS resolution across multiple regions. 
 During this time, users may experience issues with DNS resolution, or see errors returned when querying DNS records which are hosted on the DigitalOcean nameservers. Users may also experience DNS resolution issues while reaching out to their Managed Kubernetes Clusters. 
 We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reports of some users unable to be removed from workspace]]></title>
-        <id>https://status.notion.so/incidents/tyc7j7kfhdtj</id>
-        <link href="https://status.notion.so/incidents/tyc7j7kfhdtj"/>
-        <updated>2024-05-03T03:48:42.000Z</updated>
-        <summary type="html"><![CDATA[May  2, 20:48 PDT
-Resolved - The issue has now been resolved, users should now be able to remove users from their workspaces again.
-May  2, 20:30 PDT
-Investigating - We are currently experiencing an issues whereby some members are unable to be removed from their workspace. We are investigating the issue and will update shortly.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We are investigating reports of degraded performance.]]></title>
-        <id>https://www.githubstatus.com/incidents/6wlqmlpsn6by</id>
-        <link href="https://www.githubstatus.com/incidents/6wlqmlpsn6by"/>
-        <updated>2024-05-03T02:45:29.000Z</updated>
-        <summary type="html"><![CDATA[May  3, 02:45 UTC
-Resolved - Starting on May 2, 2024 at 8:00 UTC through May 3 2:45 UTC the GitHub Enterprise Server (GHES) Azure Marketplace offering was degraded and customers were not able to create GHES VMs using our provided GHES images. This affected all GitHub customers that were attempting to deploy VMs in Azure using either the API or the Azure Portal. This was due to an incorrect configuration of our Azure Marketplace offering causing the images to be no longer visible to Azure users.
-We mitigated the incident by working with our partners in Azure to restore access to the affected images.
-We are working with our partners in Azure to add additional safeguards to ensure our images remain available to customers at all times. In addition, we continue to work with on restoring access …]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users may encounter issues trying to load Slack]]></title>
-        <id>https://slack-status.com/2024-05/bae8820485a14e53</id>
-        <link href="https://slack-status.com/2024-05/bae8820485a14e53"/>
-        <updated>2024-05-03T02:00:49.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-From 12:29 PM PDT to 1:15 PM PDT on May 2, 2024, an automated monitoring system detected a high level of failed requests and backend errors against one of our databases.
-
-The failed requests and errors indicated that users may have experienced slowness or difficulty loading Slack.
-
-We were able to trace the errors back to a specific database which showed erroneous responses to requests. We manually triggered a rerouting from the affected database to a backup database, which fixed the unhealthy error rate to normal and fixed any issues that user may have experienced during this time.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[us1.make.com webhook response delayed]]></title>
-        <id>https://status.make.com/incidents/cgmf8g8bm5d1</id>
-        <link href="https://status.make.com/incidents/cgmf8g8bm5d1"/>
-        <updated>2024-05-02T21:40:24.000Z</updated>
-        <summary type="html"><![CDATA[May  2, 23:40 CEST
-Resolved - The issue has been addressed and webhooks are fully operations without any delays.
-May  2, 22:40 CEST
-Monitoring - Situation stable, actively monitoring zone to ensure continued control.
-May  2, 22:26 CEST
-Investigating - We are currently investigating a technical issue that may result in reduced performance of the us1.make.com zone. Based on our telemetry, webhook processing may be delayed. The issue started approximately at 18:30 UTC.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[API Error messages]]></title>
-        <id>https://status.notion.so/incidents/sq55z5r8ky8b</id>
-        <link href="https://status.notion.so/incidents/sq55z5r8ky8b"/>
-        <updated>2024-05-02T15:44:10.000Z</updated>
-        <summary type="html"><![CDATA[May  2, 08:44 PDT
-Resolved - We were able identify the issue and implement a fix. We will continue to monitor this.
-May  2, 08:10 PDT
-Investigating - We are currently experiencing degraded performance with the Notion API where Error rates are elevated. We are investigating the issue.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NYC2 Network Maintenance]]></title>
-        <id>https://status.digitalocean.com/incidents/z9r8gg95bqqm</id>
-        <link href="https://status.digitalocean.com/incidents/z9r8gg95bqqm"/>
-        <updated>2024-05-02T13:44:23.000Z</updated>
-        <summary type="html"><![CDATA[May  2, 13:44 UTC
-Completed - From 12:14 UTC to 12:32 UTC, our Engineering team observed an issue where a subset of Droplets (any Droplets with an assigned public IP in the 192.241.160.0/19 range) and all Load Balancers in the NYC2 region were unreachable due to some backend changes made during the maintenance. Our Engineering team has resolved the issue and all services were reachable again at 12:32 UTC.
-Due to such unforeseen issues, our Engineering team has decided to rollback this maintenance for now and will be rescheduling it at a later date.
-We apologize for the inconvenience and the unexpected downtime to services. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.
-May  2, 12:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Apr 30, 15:32 UTC
-Scheduled - Start: 2024-05-02 12:00 UTC
-End: 2024-05-02 15:00 UTC
-During the above window, our Networking team will be making changes to core networking infrastructure, to improve performance and scalability in the NYC2 region. 
-Expected Impact:
-These upgrades are designed and tested to be seamless and we do not expect any impact on customer traffic due to this maintenance. 
-If an unexpected issue arises, affected Droplets and Droplet-based services could experience increased latency or disruption in public network traffic for a short period of time. If an unexpected issue does occur, our team is prepared to rollback to a safe state to quickly restore public networking. We expect that traffic would be impacted for a period of 5-10 minutes, at most, in that case.
-If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
         </author>
