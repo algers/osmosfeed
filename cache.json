@@ -143,6 +143,16 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/r6mcnt4vzvxw",
+          "author": null,
+          "description": "Jun  3, 15:29 UTC\nResolved - Our engineering team has resolved the issues with increased latency in the time for updating DNS records. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nJun  3, 12:27 UTC\nMonitoring - Our engineering team has identified the cause and implemented a fix to resolve the issue with increased latency in the time for updating DNS records and is monitoring the situation. We will post an update as soon as the issue is fully resolved.\nJun  3, 11:30 UTC\nInvestigating - Our Engineering team is investigating an issue with intermittent failures and increased latency in DNS resolution across multiple regions. \nDuring this time, users may experience issues with DNS resolution, or see errors returned when querying DNS records which are hosted on the DigitalOcean nameservers. Users may also experience DNS resolution issues while reaching out to their Managed Kubernetes Clusters. \nWe apologize for the inconvenience and will share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/r6mcnt4vzvxw",
+          "publishedOn": "2024-06-03T15:29:40.000Z",
+          "wordCount": 6359,
+          "title": "DNS Resolution in Multiple Regions",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/kpcl7hzg8phn",
           "author": null,
           "description": "May 30, 22:07 UTC\nResolved - Our Engineering team has confirmed that this incident has been fully resolved.\nThank you for your patience. If you continue to experience any problems, please open a ticket with our support team for further review.\nMay 30, 20:51 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue with event processing on the two nodes in TOR1. At this time, users should no longer face issues with powering on, powering off, and power cycling Droplets. \nWe are monitoring the situation closely and will post an update as soon as we confirm the issue is fully resolved.\nMay 30, 20:16 UTC\nIdentified - After further investigation, our Engineering team has determined the scope of this issue to be limited to two physical nodes in our TOR1 datacenter. Power event errors seen in NYC3 are not related to this incident and are a result of a single hypervisor issue, which is being remediated separately. \nThe root cause for event issues in TOR1 has been identified and a fix is underway. We will update the title of this incident shortly to accurately reflect the scope and will post an update as soon as the fix has rolled out or there is additional information to share.\nMay 30, 19:42 UTC\nInvestigating - Our Engineering team is investigating an uptick in reports of issues with Power on, Power off, and Power cycle events in our TOR1 and NYC3 regions. During this period, customers might experience errors and/or delays in powering on, powering off, or rebooting Droplets. \nWe will post an update as soon as additional information is available.",
@@ -290,6 +300,16 @@
       "siteUrl": "https://status.notion.so",
       "articles": [
         {
+          "id": "https://status.notion.so/incidents/vsln8v1znsgd",
+          "author": null,
+          "description": "Jun  2, 19:07 PDT\nResolved - The issue has now been resolved, users should now be able to change their email\nJun  2, 17:51 PDT\nInvestigating - We are currently experiencing an issue where the email address cannot be changed with error code: 502\nOur engineering team is fully focused on resolving the issue and we will share updates as soon as possible",
+          "link": "https://status.notion.so/incidents/vsln8v1znsgd",
+          "publishedOn": "2024-06-03T02:07:57.000Z",
+          "wordCount": 3383,
+          "title": "Email address cannot be changed with error code:502",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.notion.so/incidents/90hz4dg9sz8s",
           "author": null,
           "description": "May 30, 22:17 PDT\nResolved - The issue has now been resolved, users should now be able to access Notion from mobile devices.\nMay 30, 22:09 PDT\nInvestigating - We are currently experiencing an issue whereby some users are unable to access Notion from mobile devices. Our engineering team is fully focused on resolving the issue and we will share updates as soon as possible.",
@@ -354,13 +374,23 @@
       "siteUrl": "https://www.google.com/appsstatus/dashboard/",
       "articles": [
         {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/qPG3UXdDaYVhcA9DT8zG",
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-05-24 23:20</strong> and ended at <strong>2024-05-25 03:41</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Incident Report</h1>\n<h2>Summary</h2>\n<p>On 24 May 2024 at 16:20, Apps Script and Drive Admin Console User Interface (UI) experienced  failures in loading the UI. A subset of users experienced elevated errors while accessing the Apps Script editor UI or Drive Admin Console UI through multiple Google Workspace products including Google Docs, Google Drive, Google Sheets for a period of 4 hours, 21 minutes.</p>\n<h2>Root Cause</h2>\n<p>In ongoing efforts to ensure very strict security controls for Google Drive, our engineers performed changes to remove unused system-level access to Google Drive; i.e., stale Access Control List (ACLs) groups that are no longer in use.</p>\n<p>Upon performing the change to remove the unused ACLs groups for Google Drive API, this triggered an inadvertent removal of access groups that are still in use. This deletion of the access groups caused a failure in loading the UI.</p>\n<p>Google engineers mitigated the issue quickly by rolling back the change.</p>\n<h2>Remediation and Prevention</h2>\n<p>Google engineers were alerted to the outage via internal alerts and immediately started an investigation. Once the nature and scope of the issue became clear, Google engineers rolled back the changes and all the access removed this change was restored. While the rollback was still in progress Google engineers were able to partially mitigate the issue with a configuration change in a security policy.</p>\n<p>The following changes will be made to ensure that this type of issue does not happen again in the future:</p>\n<ul>\n<li>Augment access control safety checks to prevent the inadvertent removal of in-use access, even in complex access inheritance scenarios.</li>\n<li>Review and redesign Drives access groups to remove nested ACLs (and prevent adding new nested ACLs). This will reduce the complexity of our access control graph and enable easier detection of potential problems.</li>\n</ul>\n<p>Google is committed to quickly and continually improving our technology and operations to prevent service disruptions. We appreciate your patience and apologize again for the impact to your organization. We thank you for your business.</p>\n<h2>Detailed Description of Impact</h2>\n<p>On 24 May 2024, from 16:20 to 20:41, Apps Script and Drive Admin Console User Interface (UI) experienced  failures in loading the UI. As a result, a subset of users of multiple Google Workspace products like Google Docs, Google Drive, Google Sheets experienced elevated errors while accessing the Apps Script editor UI or Drive Admin Console UI through the products.</p>\n<p><strong>Google Drive</strong></p>\n<p>A small subset of Google Drive users experienced failure in accessing Drive Admin Console. As a result, the impacted users were unable to manage their shared drives on 24 May 2024 between 16:20 and 20:02.</p>\n<p><strong>Google Docs, Sheets(Apps script)</strong></p>\n<p>AppsScript UI was inaccessible for editing but AppsScript execution was unaffected starting at 16:12 to 20:41.</p>\n</div><hr><p>Affected products: Google Drive</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/qPG3UXdDaYVhcA9DT8zG",
-          "publishedOn": "2024-05-31T00:10:36.000Z",
-          "wordCount": 1523,
-          "title": "RESOLVED: **Summary:**\nGoogle Drive users are unable to load Apps Script UI.\n**Description:**\nWe are experiencing an issue with Google Drive beginning on Friday, 2024-05-24 16:20 US/Pacific.\nOur engineering team has identified a mitigation strategy and is currently rolling it out for all impacted users.\nWe will provide an update by Friday, 2024-05-24 21:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\nCustomers may not be able to load Drive UI, they would encounter error messages while trying to do so.\n.\nThis issue may also impact users trying to access Apps Script UI.\n**Workaround:**\nNone at this time.",
+          "description": "<p> Incident began at <strong>2024-06-03 18:36</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.</p>\n<p><strong>Description:</strong></p>\n<p>Mitigation work is currently underway by our engineering team.</p>\n<p>We do not have an ETA for mitigation at this point.</p>\n<p>We will provide more information by Monday, 2024-06-03 19:00 US/Pacific.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.</p>\n<p><strong>Workaround:</strong></p>\n<p>None at this time...</p>\n</div><hr><p>Affected products: ChromeOS</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
+          "publishedOn": "2024-06-03T23:55:00.000Z",
+          "wordCount": 472,
+          "title": "UPDATE: **Summary:**\nChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.\n**Description:**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Monday, 2024-06-03 17:00 US/Pacific.\n**Diagnosis:**\nAffected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.\n**Workaround:**\nNone at this time...",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-06-03 18:36</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.</p>\n<p><strong>Description:</strong></p>\n<p>Mitigation work is currently underway by our engineering team.</p>\n<p>We do not have an ETA for mitigation at this point.</p>\n<p>We will provide more information by Monday, 2024-06-03 17:00 US/Pacific.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.</p>\n<p><strong>Workaround:</strong></p>\n<p>None at this time...</p>\n</div><hr><p>Affected products: ChromeOS</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
+          "publishedOn": "2024-06-03T20:49:07.000Z",
+          "wordCount": 472,
+          "title": "UPDATE: **Summary:**\nChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.\n**Description:**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Monday, 2024-06-03 17:00 US/Pacific.\n**Diagnosis:**\nAffected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.\n**Workaround:**\nNone at this time...",
           "imageUrl": null
         }
       ]
@@ -478,6 +508,16 @@
       "siteUrl": "https://slack-status.com",
       "articles": [
         {
+          "id": "https://slack-status.com/2024-06/b283a58610aae52d",
+          "author": null,
+          "description": "Thank you for your patience as we continue to investigate an issue with Gmail add-ons. \r\n\r\nThe trouble with Zoom shortcuts has been resolved by the upstream provider. \r\n\r\nWe will be back once we have another update to share and apologize for any disruption to your day.",
+          "link": "https://slack-status.com/2024-06/b283a58610aae52d",
+          "publishedOn": "2024-06-03T17:13:22.000Z",
+          "wordCount": 293,
+          "title": "Incident: Some customers may be having issues with Gmail add-ons.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://slack-status.com/2024-05/627dd44580fbdde7",
           "author": null,
           "description": "Issue summary:\r\nOn May 8, 2024 at 12:00 PM PDT until May 28, 2024 at 9:51 AM PDT, some customers were unable to type in Japanese or Korean in the Slack for Windows app.\r\n\r\nWe traced these issues to a bug with an upstream provider. The upstream provider released a patch for this bug, so we prepared a Slack app update that implemented this patch. This app update resolved the issue for all affected customers.",
@@ -514,6 +554,16 @@
       "feedUrl": "https://status.make.com/history.rss",
       "siteUrl": "https://status.make.com",
       "articles": [
+        {
+          "id": "https://status.make.com/incidents/801ddmw5lw16",
+          "author": null,
+          "description": "Jun  3, 12:59 CEST\nResolved - This incident has been resolved.\nJun  3, 12:09 CEST\nMonitoring - A fix has been implemented and we are monitoring the results.\nJun  3, 12:05 CEST\nUpdate - We are currently experiencing login issues affecting all production zones. Scenario executions and webhook processing are not impacted. Our team is actively investigating the problem and working towards a resolution. We will provide updates in the next 30 minutes.\nJun  3, 12:01 CEST\nInvestigating - We are currently experiencing login issues affecting all production zones. Scenario executions and webhook processing are not impacted. Our team is actively investigating the problem and working towards a resolution. We will provide updates in the next 30 minutes.",
+          "link": "https://status.make.com/incidents/801ddmw5lw16",
+          "publishedOn": "2024-06-03T10:59:18.000Z",
+          "wordCount": 3942,
+          "title": "Login to make zones is not functional",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.make.com/incidents/8c69pct9ryfw",
           "author": null,
