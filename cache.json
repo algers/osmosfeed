@@ -81,16 +81,6 @@
           "wordCount": 13443,
           "title": "TS-2024-005",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
-        },
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2024-004",
-          "author": null,
-          "description": "Description: Unclear network flow logs collection status for alpha testers.\nWhat happened?\nWhen network flow logs first entered private alpha, tailnet admins who were interested in testing out the feature had to request to be manually opted into the alpha testing track. When we subsequently introduced admin console settings for self-serve network flow logs for the public beta launch, these settings were not properly connected to the alpha testing track. As a result, for the small number of tailnets that volunteered for alpha testing, the admin console interface did not show that logs were still being collected as initially requested.\nWe fixed this bug on April 25, 2024 and the admin console now correctly shows the status of network flow logs for all users.\nWho was affected?\n15 tailnets were opted into network flow log collection through the alpha testing track that did not re-enroll through the admin console. We notified security contacts for the affected tailnets about this bug.\nWhat was the impact?\nThe admin panel did not reflect the correct status for network flow log collection for affected tailnets, and admins of these tailnets may not have realized that network flow logs were still being collected.\nWhat do I need to do?\nNo action is needed at this time.",
-          "link": "https://tailscale.com/security-bulletins/#ts-2024-004",
-          "publishedOn": "2024-05-06T00:00:00.000Z",
-          "wordCount": 13443,
-          "title": "TS-2024-004",
-          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
       ]
     },
@@ -281,16 +271,6 @@
           "wordCount": 6413,
           "title": "App Platform and Container Registry",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/gkl208t787zz",
-          "author": null,
-          "description": "May  5, 16:50 UTC\nResolved - Our Engineering team has resolved the issue impacting DNS resolution across multiple regions. The functionality is restored completely and the DNS queries should now be resolving normally. \nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nMay  5, 15:31 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issues with the DNS resolution and is monitoring the situation. DNS queries are now succeeding without any failures as the functionality has started to recover. \nWe will continue to monitor this at our end and will share an update once the problem is resolved completely.\nMay  5, 14:08 UTC\nIdentified - Our engineering team continues to work on a fix for the issue impacting DNS resolution across multiple regions. At this time, users will continue to experience intermittent issues with DNS resolution impacting droplet based services. \nWe apologize for the inconvenience, and will post an update as soon as additional information is available.\nMay  5, 12:55 UTC\nInvestigating - Our Engineering team is investigating an issue with intermittent failures and increased latency in DNS resolution across multiple regions. \nDuring this time, users may experience issues with DNS resolution, or see errors returned when querying DNS records which are hosted on the DigitalOcean nameservers. Users may also experience DNS resolution issues while reaching out to their Managed Kubernetes Clusters. \nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/gkl208t787zz",
-          "publishedOn": "2024-05-05T16:50:37.000Z",
-          "wordCount": 6441,
-          "title": "DNS Resolution in Multiple Regions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -376,20 +356,60 @@
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-06-03 18:36</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.</p>\n<p><strong>Description:</strong></p>\n<p>Mitigation work is currently underway by our engineering team.</p>\n<p>We do not have an ETA for mitigation at this point.</p>\n<p>We will provide more information by Monday, 2024-06-03 19:00 US/Pacific.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.</p>\n<p><strong>Workaround:</strong></p>\n<p>None at this time...</p>\n</div><hr><p>Affected products: ChromeOS</p>",
+          "description": "<p> Incident began at <strong>2024-06-03 18:36</strong> and ended at <strong>2024-06-05 00:07</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary</strong></p>\n<p>ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.</p>\n<p><strong>Description</strong></p>\n<p>The issue with ChromeOS has been resolved for all affected users as of Tuesday, 2024-06-04 17:07 US/Pacific.</p>\n<p>We thank you for your patience while we worked on resolving the issue.</p>\n</div><hr><p>Affected products: ChromeOS</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
-          "publishedOn": "2024-06-03T23:55:00.000Z",
-          "wordCount": 472,
+          "publishedOn": "2024-06-05T00:19:12.000Z",
+          "wordCount": 1049,
+          "title": "RESOLVED: **Summary:**\nChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.\n**Description:**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Monday, 2024-06-03 17:00 US/Pacific.\n**Diagnosis:**\nAffected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.\n**Workaround:**\nNone at this time...",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-06-03 18:36</strong> and ended at <strong>2024-06-05 00:07</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>SUMMARY</strong></p>\n<p>ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.</p>\n<p><strong>DESCRIPTION</strong></p>\n<p>Our engineering team is continuing to work towards mitigation of this issue.</p>\n<p>We do not have an ETA for mitigation at this point.</p>\n<p>We will provide more information by Tuesday, 2024-06-04 19:00 US/Pacific.</p>\n<p><strong>CUSTOMER SYMPTOMS</strong></p>\n<p>Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.</p>\n<p><strong>WORKAROUND</strong></p>\n<p>ChromeOS customers to use\n<a href=\"https://chromeenterprise.google/intl/en_uk/policies/#AllowScreenLock\">https://chromeenterprise.google/intl/en_uk/policies/#AllowScreenLock</a>\nand\n<a href=\"https://chromeenterprise.google/intl/en_uk/policies/#LidCloseAction\">https://chromeenterprise.google/intl/en_uk/policies/#LidCloseAction</a>\npolicies to prevent occasional screen locking.</p>\n</div><hr><p>Affected products: ChromeOS</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
+          "publishedOn": "2024-06-04T23:29:06.000Z",
+          "wordCount": 1049,
           "title": "UPDATE: **Summary:**\nChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.\n**Description:**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Monday, 2024-06-03 17:00 US/Pacific.\n**Diagnosis:**\nAffected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.\n**Workaround:**\nNone at this time...",
           "imageUrl": null
         },
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-06-03 18:36</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.</p>\n<p><strong>Description:</strong></p>\n<p>Mitigation work is currently underway by our engineering team.</p>\n<p>We do not have an ETA for mitigation at this point.</p>\n<p>We will provide more information by Monday, 2024-06-03 17:00 US/Pacific.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.</p>\n<p><strong>Workaround:</strong></p>\n<p>None at this time...</p>\n</div><hr><p>Affected products: ChromeOS</p>",
+          "description": "<p> Incident began at <strong>2024-06-03 18:36</strong> and ended at <strong>2024-06-05 00:07</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.</p>\n<p><strong>Description:</strong></p>\n<p>Our engineering team is continuing to work towards mitigation of this issue.</p>\n<p>We do not have an ETA for mitigation at this point.</p>\n<p>We will provide more information by Tuesday, 2024-06-04 17:00 US/Pacific.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.</p>\n<p><strong>Workaround:</strong></p>\n<p>ChromeOS customers to use</p>\n<p><a href=\"https://chromeenterprise.google/intl/en_uk/policies/#AllowScreenLock\">https://chromeenterprise.google/intl/en_uk/policies/#AllowScreenLock</a></p>\n<p>and</p>\n<p><a href=\"https://chromeenterprise.google/intl/en_uk/policies/#LidCloseAction\">https://chromeenterprise.google/intl/en_uk/policies/#LidCloseAction</a>\npolicies to prevent occasional screen locking.</p>\n</div><hr><p>Affected products: ChromeOS</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
-          "publishedOn": "2024-06-03T20:49:07.000Z",
-          "wordCount": 472,
+          "publishedOn": "2024-06-04T19:32:34.000Z",
+          "wordCount": 1049,
+          "title": "UPDATE: **Summary:**\nChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.\n**Description:**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Monday, 2024-06-03 17:00 US/Pacific.\n**Diagnosis:**\nAffected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.\n**Workaround:**\nNone at this time...",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-06-03 18:36</strong> and ended at <strong>2024-06-05 00:07</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.</p>\n<p><strong>Description:</strong></p>\n<p>Our engineering team is continuing to work towards mitigation of this issue.\nWe do not have an ETA for mitigation at this point.</p>\n<p>We will provide more information by Tuesday, 2024-06-04 13:00 US/Pacific.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.</p>\n<p><strong>Workaround:</strong></p>\n<p>ChromeOS customers to use</p>\n<p><a href=\"https://chromeenterprise.google/intl/en_uk/policies/#AllowScreenLock\">https://chromeenterprise.google/intl/en_uk/policies/#AllowScreenLock</a></p>\n<p>and</p>\n<p><a href=\"https://chromeenterprise.google/intl/en_uk/policies/#LidCloseAction\">https://chromeenterprise.google/intl/en_uk/policies/#LidCloseAction</a>\npolicies to prevent occasional screen locking.</p>\n</div><hr><p>Affected products: ChromeOS</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
+          "publishedOn": "2024-06-04T15:48:14.000Z",
+          "wordCount": 1049,
+          "title": "UPDATE: **Summary:**\nChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.\n**Description:**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Monday, 2024-06-03 17:00 US/Pacific.\n**Diagnosis:**\nAffected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.\n**Workaround:**\nNone at this time...",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-06-03 18:36</strong> and ended at <strong>2024-06-05 00:07</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.</p>\n<p><strong>Description:</strong></p>\n<p>Mitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2024-06-04 09:00 US/Pacific.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.</p>\n<p><strong>Workaround:</strong></p>\n<p>ChromeOS customers to use\n<a href=\"https://chromeenterprise.google/intl/en_uk/policies/#AllowScreenLock\">https://chromeenterprise.google/intl/en_uk/policies/#AllowScreenLock</a>\nand\n<a href=\"https://chromeenterprise.google/intl/en_uk/policies/#LidCloseAction\">https://chromeenterprise.google/intl/en_uk/policies/#LidCloseAction</a>\npolicies to prevent occasional screen locking.</p>\n</div><hr><p>Affected products: ChromeOS</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
+          "publishedOn": "2024-06-04T10:34:12.000Z",
+          "wordCount": 1049,
+          "title": "UPDATE: **Summary:**\nChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.\n**Description:**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Monday, 2024-06-03 17:00 US/Pacific.\n**Diagnosis:**\nAffected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.\n**Workaround:**\nNone at this time...",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-06-03 18:36</strong> and ended at <strong>2024-06-05 00:07</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.</p>\n<p><strong>Description:</strong></p>\n<p>Mitigation work is currently underway by our engineering team.</p>\n<p>We do not have an ETA for mitigation at this point.</p>\n<p>We will provide more information by Tuesday, 2024-06-04 09:00 US/Pacific.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.</p>\n<p><strong>Workaround:</strong></p>\n<p>None at this time...</p>\n</div><hr><p>Affected products: ChromeOS</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
+          "publishedOn": "2024-06-04T01:49:22.000Z",
+          "wordCount": 1049,
           "title": "UPDATE: **Summary:**\nChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.\n**Description:**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Monday, 2024-06-03 17:00 US/Pacific.\n**Diagnosis:**\nAffected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.\n**Workaround:**\nNone at this time...",
           "imageUrl": null
         }
@@ -510,11 +530,21 @@
         {
           "id": "https://slack-status.com/2024-06/b283a58610aae52d",
           "author": null,
-          "description": "Thank you for your patience as we continue to investigate an issue with Gmail add-ons. \r\n\r\nThe trouble with Zoom shortcuts has been resolved by the upstream provider. \r\n\r\nWe will be back once we have another update to share and apologize for any disruption to your day.",
+          "description": "Issue Summary:\r\nOn June 3, 2024 from 06:30 AM PDT to 8:30 PM PDT, some users were unable to use shortcuts for both Zoom and Gmail add ons in Slack.\r\n\r\nThese issues were traced back to two upstream providers and have been resolved with no action taken from our side. Users should no longer be experiencing any trouble.\r\n\r\nThank you for your patience.",
           "link": "https://slack-status.com/2024-06/b283a58610aae52d",
-          "publishedOn": "2024-06-03T17:13:22.000Z",
-          "wordCount": 293,
+          "publishedOn": "2024-06-04T13:48:31.000Z",
+          "wordCount": 407,
           "title": "Incident: Some customers may be having issues with Gmail add-ons.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://slack-status.com/2024-06/3c37c21f59621d13",
+          "author": null,
+          "description": "Incident summary:\r\nOn June 3, 2024 from 5:40 PM PDT to 8:00 PM PDT, some users may not have received notifications when using Slack on desktop.\r\n\r\nDuring a routine update, we deployed a change that mistakenly introduced an error into our notifications code. We identified the cause of the error and implemented a fix, which we rolled out to all desktop users. This fully resolved the issue for all impacted customers.",
+          "link": "https://slack-status.com/2024-06/3c37c21f59621d13",
+          "publishedOn": "2024-06-04T06:42:46.000Z",
+          "wordCount": 404,
+          "title": "Incident: Issues with notifications in the desktop app",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
@@ -554,6 +584,16 @@
       "feedUrl": "https://status.make.com/history.rss",
       "siteUrl": "https://status.make.com",
       "articles": [
+        {
+          "id": "https://status.make.com/incidents/0mr1p7d28fhk",
+          "author": null,
+          "description": "Jun  5, 01:15 CEST\nResolved - This incident has been resolved\nJun  4, 23:43 CEST\nMonitoring - A fix has been implemented and we are monitoring us1.make.com zone. \nFurther updates will be provided in the next hour.\nJun  4, 22:15 CEST\nInvestigating - We are currently investigating an issue in one of our us1.make.com zone that is causing delays on webhook responses.\nWe will provide further updates within in the next hour.",
+          "link": "https://status.make.com/incidents/0mr1p7d28fhk",
+          "publishedOn": "2024-06-04T23:15:38.000Z",
+          "wordCount": 3886,
+          "title": "Long response time on webhook services",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.make.com/incidents/801ddmw5lw16",
           "author": null,
