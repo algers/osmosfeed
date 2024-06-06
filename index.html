@@ -22,11 +22,58 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-05 datetime="2024-06-05T00:19:12.000Z">2024-06-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-05 datetime="2024-06-05T00:19:12.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-05 datetime="2024-06-05T19:27:21.000Z">2024-06-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-05 datetime="2024-06-05T19:27:21.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >GitHub Status - Incident History</button>
+                  <a class="source-heading__link" href="https://www.githubstatus.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.githubstatus.com/incidents/9zxft4pnrhbt"
+                        open
+                      >
+                        <summary class="article-expander__title">Incident with Issues</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.githubstatus.com/incidents/9zxft4pnrhbt">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Jun  5, 19:27 UTC
+Resolved - This incident has been resolved.
+Jun  5, 19:27 UTC
+Update - Issues is operating normally.
+Jun  5, 19:19 UTC
+Update - We continue to troubleshoot the problem with issues timeline.
+Jun  5, 18:47 UTC
+Update - We continue to troubleshoot the problem with issues timeline.
+Jun  5, 18:01 UTC
+Update - We&#x27;re continuing to investigate the problem.
+Jun  5, 17:26 UTC
+Update - We&#x27;re seeing issues related to the issues timeline service, we&#x27;re investigating and we will continue to keep users updated on progress towards mitigation.
+Jun  5, 17:22 UTC
+Investigating - We are investigating reports of degraded availability for Issues</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -58,16 +105,101 @@ None at this time...</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>Incident began at 2024-06-03 18:36 and ended at 2024-06-05 00:07 (times are in Coordinated Universal Time (UTC)).
+                              <span>Incident began at 2024-06-03 18:36 and ended at 2024-06-04 23:00 (times are in Coordinated Universal Time (UTC)).
+
+Mini Incident Report
+We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced an impact outside of what is listed below, please reach out to Google Workspace Support using the help article https://support.google.com/a/answer/1047213.
+(All Times US/Pacific)
+Incident Start: 3 June 2024 11:36
+Incident End: 4 June 2024 16:00
+Duration: 1 Day, 4 Hours and 24 Minutes
+Affected Services and Features:
+ChromeOS
+Regions/Zones: Global
+Description:
+A subset of Google ChromeOS users experienced persistent sign-in failures when attempting to access their locked devices on ChromeOS version 125 using ephemeral mode for the period of 1 Day, 4 Hours and 24 Minutes.
+Based on the preliminary analysis the root cause of the sign-in failure was a conflict between a recent local password feature release and the ephemeral mode authentication process on ChromeOS. This conflict inadvertently terminated the authentication session prematurely, preventing users from logging into their devices.
+To mitigate the issue and to restore normal functionality, Google engineers manually disabled the problematic feature flag. Subsequent verification confirmed successful login attempts for the affected users.
+Customer Impact:
+The impacted users of ChromeOS version M125 with the &quot;DeviceEphemeralUsersEnabled&quot; device policy activated would have experienced persistent login failures when attempting to access their locked devices. This issue was specifically observed when utilizing ephemeral mode and prevented users from successfully logging back into their ChromeOS devices.
+Additional details:
+The issue has been mitigated as of 4 June 2024 at 16:00. Google strongly recommends that all impacted users upgrade to ChromeOS version 125.0.6422.140 for enhanced stability.
+
+Affected products: ChromeOS</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4"
+                        open
+                      >
+                        <summary class="article-expander__title">RESOLVED: **Summary:**
+ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.
+**Description:**
+Mitigation work is currently underway by our engineering team.
+We do not have an ETA for mitigation at this point.
+We will provide more information by Monday, 2024-06-03 17:00 US/Pacific.
+**Diagnosis:**
+Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.
+**Workaround:**
+None at this time...</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Incident began at 2024-06-03 18:36 and ended at 2024-06-04 23:00 (times are in Coordinated Universal Time (UTC)).
 
 Summary
 ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.
 Description
-The issue with ChromeOS has been resolved for all affected users as of Tuesday, 2024-06-04 17:07 US/Pacific.
+The issue with ChromeOS has been resolved for all affected users as of Tuesday, 2024-06-04 16:00 US/Pacific.
 We thank you for your patience while we worked on resolving the issue.
 
 Affected products: ChromeOS</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >DigitalOcean Status - Incident History</button>
+                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.digitalocean.com/incidents/m0y2kdhdkdg7"
+                        open
+                      >
+                        <summary class="article-expander__title">Cloud Control Panel and API</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/m0y2kdhdkdg7">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Jun  5, 15:30 UTC
+Resolved - From 12:10 - 12:41 UTC our Engineering team identified and resolved an issue impacting the Cloud Control Panel and API across multiple regions. 
+During this time, users may have experienced trouble while viewing the IP address on their newly deployed droplets. Our Engineering team was able to take quick action to mitigate the impact and resolve the issue. All services are now functioning as expected. 
+Thank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket for further analysis.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;21
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -86,246 +218,11 @@ Affected products: ChromeOS</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-04 datetime="2024-06-04T23:29:06.000Z">2024-06-04</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-04 datetime="2024-06-04T23:29:06.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-04 datetime="2024-06-04T23:15:38.000Z">2024-06-04</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-04 datetime="2024-06-04T23:15:38.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Google Workspace Status Dashboard Updates</button>
-                  <a class="source-heading__link" href="https://www.google.com/appsstatus/dashboard/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4"
-                        open
-                      >
-                        <summary class="article-expander__title">UPDATE: **Summary:**
-ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.
-**Description:**
-Mitigation work is currently underway by our engineering team.
-We do not have an ETA for mitigation at this point.
-We will provide more information by Monday, 2024-06-03 17:00 US/Pacific.
-**Diagnosis:**
-Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.
-**Workaround:**
-None at this time...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Incident began at 2024-06-03 18:36 and ended at 2024-06-05 00:07 (times are in Coordinated Universal Time (UTC)).
-
-SUMMARY
-ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.
-DESCRIPTION
-Our engineering team is continuing to work towards mitigation of this issue.
-We do not have an ETA for mitigation at this point.
-We will provide more information by Tuesday, 2024-06-04 19:00 US/Pacific.
-CUSTOMER SYMPTOMS
-Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.
-WORKAROUND
-ChromeOS customers to use
-https://chromeenterprise.google/intl/en_uk/policies/#AllowScreenLock
-and
-https://chromeenterprise.google/intl/en_uk/policies/#LidCloseAction
-policies to prevent occasional screen locking.
-
-Affected products: ChromeOS</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4"
-                        open
-                      >
-                        <summary class="article-expander__title">UPDATE: **Summary:**
-ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.
-**Description:**
-Mitigation work is currently underway by our engineering team.
-We do not have an ETA for mitigation at this point.
-We will provide more information by Monday, 2024-06-03 17:00 US/Pacific.
-**Diagnosis:**
-Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.
-**Workaround:**
-None at this time...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Incident began at 2024-06-03 18:36 and ended at 2024-06-05 00:07 (times are in Coordinated Universal Time (UTC)).
-
-Summary:
-ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.
-Description:
-Our engineering team is continuing to work towards mitigation of this issue.
-We do not have an ETA for mitigation at this point.
-We will provide more information by Tuesday, 2024-06-04 17:00 US/Pacific.
-Diagnosis:
-Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.
-Workaround:
-ChromeOS customers to use
-https://chromeenterprise.google/intl/en_uk/policies/#AllowScreenLock
-and
-https://chromeenterprise.google/intl/en_uk/policies/#LidCloseAction
-policies to prevent occasional screen locking.
-
-Affected products: ChromeOS</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4"
-                        open
-                      >
-                        <summary class="article-expander__title">UPDATE: **Summary:**
-ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.
-**Description:**
-Mitigation work is currently underway by our engineering team.
-We do not have an ETA for mitigation at this point.
-We will provide more information by Monday, 2024-06-03 17:00 US/Pacific.
-**Diagnosis:**
-Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.
-**Workaround:**
-None at this time...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Incident began at 2024-06-03 18:36 and ended at 2024-06-05 00:07 (times are in Coordinated Universal Time (UTC)).
-
-Summary:
-ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.
-Description:
-Our engineering team is continuing to work towards mitigation of this issue.
-We do not have an ETA for mitigation at this point.
-We will provide more information by Tuesday, 2024-06-04 13:00 US/Pacific.
-Diagnosis:
-Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.
-Workaround:
-ChromeOS customers to use
-https://chromeenterprise.google/intl/en_uk/policies/#AllowScreenLock
-and
-https://chromeenterprise.google/intl/en_uk/policies/#LidCloseAction
-policies to prevent occasional screen locking.
-
-Affected products: ChromeOS</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4"
-                        open
-                      >
-                        <summary class="article-expander__title">UPDATE: **Summary:**
-ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.
-**Description:**
-Mitigation work is currently underway by our engineering team.
-We do not have an ETA for mitigation at this point.
-We will provide more information by Monday, 2024-06-03 17:00 US/Pacific.
-**Diagnosis:**
-Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.
-**Workaround:**
-None at this time...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Incident began at 2024-06-03 18:36 and ended at 2024-06-05 00:07 (times are in Coordinated Universal Time (UTC)).
-
-Summary:
-ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.
-Description:
-Mitigation work is currently underway by our engineering team.
-We do not have an ETA for mitigation at this point.
-We will provide more information by Tuesday, 2024-06-04 09:00 US/Pacific.
-Diagnosis:
-Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.
-Workaround:
-ChromeOS customers to use
-https://chromeenterprise.google/intl/en_uk/policies/#AllowScreenLock
-and
-https://chromeenterprise.google/intl/en_uk/policies/#LidCloseAction
-policies to prevent occasional screen locking.
-
-Affected products: ChromeOS</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4"
-                        open
-                      >
-                        <summary class="article-expander__title">UPDATE: **Summary:**
-ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.
-**Description:**
-Mitigation work is currently underway by our engineering team.
-We do not have an ETA for mitigation at this point.
-We will provide more information by Monday, 2024-06-03 17:00 US/Pacific.
-**Diagnosis:**
-Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.
-**Workaround:**
-None at this time...</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Incident began at 2024-06-03 18:36 and ended at 2024-06-05 00:07 (times are in Coordinated Universal Time (UTC)).
-
-Summary:
-ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.
-Description:
-Mitigation work is currently underway by our engineering team.
-We do not have an ETA for mitigation at this point.
-We will provide more information by Tuesday, 2024-06-04 09:00 US/Pacific.
-Diagnosis:
-Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.
-Workaround:
-None at this time...
-
-Affected products: ChromeOS</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -385,13 +282,13 @@ We will provide further updates within in the next hour.</span>
                         data-accordion-key="https://slack-status.com/2024-06/b283a58610aae52d"
                         open
                       >
-                        <summary class="article-expander__title">Incident: Some customers may be having issues with Gmail add-ons.</summary>
+                        <summary class="article-expander__title">Incident: Some customers may be having issues with Gmail add-ons</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-06/b283a58610aae52d">
                           <div class="article-summary-box-inner media-object">
                               <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>Issue Summary:
-On June 3, 2024 from 06:30 AM PDT to 8:30 PM PDT, some users were unable to use shortcuts for both Zoom and Gmail add ons in Slack.
+                              <span>Issue summary:
+On June 3, 2024 from 6:30 AM PDT to 8:30 PM PDT, some users were unable to use shortcuts for both Zoom and Gmail add-ons in Slack.
 
 These issues were traced back to two upstream providers and have been resolved with no action taken from our side. Users should no longer be experiencing any trouble.
 
@@ -2804,32 +2701,6 @@ We apologize for the inconvenience and will share an update once we have more in
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/5s1c6nl5rf0j"
-                        open
-                      >
-                        <summary class="article-expander__title">Create Failures in NYC3</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/5s1c6nl5rf0j">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>May  7, 04:41 UTC
-Resolved - Our Engineering team has confirmed the complete resolution of the issue at 03:51 UTC. 
-Creating Droplets, all Droplet-based services including Kubernetes Clusters, Managed Databases, Load Balancers, and Snapshots are now working as expected in the NYC3 region.
-Thank you for being so patient. If you continue to experience any problems, please open a support ticket from within your account.
-May  7, 04:11 UTC
-Monitoring - Our Engineering team has investigated and identified an issue with creating resources in the NYC3 region. Between approximately 03:18 UTC - 03:51 UTC, customers may have experienced errors when creating Droplets and Droplet-based services including Managed Kubernetes, Managed Databases, Load Balancers, and snapshots.
-Our team has implemented a fix to restore the ability to create resources and is monitoring the region. We will post an update as soon as the issue is fully resolved.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -2879,111 +2750,10 @@ Investigating - We are investigating reports of degraded performance for Issues,
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-06 datetime="2024-05-06T18:43:24.000Z">2024-05-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-06 datetime="2024-05-06T18:43:24.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >DigitalOcean Status - Incident History</button>
-                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/k8trfbny4ym1"
-                        open
-                      >
-                        <summary class="article-expander__title">App Platform and Container Registry</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/k8trfbny4ym1">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>May  6, 18:43 UTC
-Resolved - Our Engineering team has confirmed that the issue with our App Platform and Container Registry services has been fully resolved. If you continue to experience any trouble with these services, please open a ticket with our support team. Thank you for your patience and we apologize for the inconvenience.
-May  6, 18:00 UTC
-Monitoring - Our engineering team has implemented a fix to resolve the issue with our App Platform and Container Registry services and is monitoring the situation closely.  We will post an update as soon as the issue is fully resolved.
-May  6, 15:30 UTC
-Update - Our Engineering team is still investigating the issue with App Platform and Container Registry. Currently, only a subset of users will continue to see errors with App Platform deployments and Container Registry.
-We will post an update as soon as additional information is available.
-May  6, 10:29 UTC
-Investigating - Our Engineering team is investigating an issue with the DigitalOcean Container Registry and App Platform. At this time, users may find App Platform builds failing. Users may also experience issues while pushing images to the DigitalOcean Container Registry. 
-We apologize for the inconvenience and will share an update once we have more information.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Make Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.make.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.make.com/incidents/8l651d4k6zh1"
-                        open
-                      >
-                        <summary class="article-expander__title">Shared Webhook failures</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.make.com/incidents/8l651d4k6zh1">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>May  6, 20:06 CEST
-Resolved - This incident has been resolved. All webhooks are fully functional.
-May  6, 18:46 CEST
-Monitoring - The implemented fix is functional, and the delay in webhook response is significantly lower. We will continue to monitor the situation for the next few hours.
-May  6, 18:34 CEST
-Identified - We have identified the issue and implemented a fix. Currently, we are monitoring the progress. The delay in processing should be decreasing, and we are closely observing the situation.
-May  6, 17:33 CEST
-Update - Users in the US1 zone are experiencing issues with shared webhooks, resulting in delays or failed deliveries. Additionally, there are delays in processing all webhooks within the US1 zone.
-We are investigating the issues and will provide an update within the next hour.
-May  6, 16:51 CEST
-Investigating - Incoming shared webhooks on US1 are currently being dropped and our team is looking into the issue. We will share the update in the next hour.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/9376077954">
-        <time id="build-timestamp" datetime="2024-06-05T00:23:20.163Z">2024-06-05T00:23:20.163Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/9393056719">
+        <time id="build-timestamp" datetime="2024-06-06T00:22:59.980Z">2024-06-06T00:22:59.980Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
