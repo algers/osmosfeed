@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-06T00:22:59.999Z</id>
+    <id>urn:2024-06-07T00:23:43.885Z</id>
     <title>osmos::feed</title>
-    <updated>2024-06-06T00:22:59.999Z</updated>
+    <updated>2024-06-07T00:23:43.885Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Errors to login on the platform]]></title>
+        <id>https://status.make.com/incidents/xbzfsjcqwcng</id>
+        <link href="https://status.make.com/incidents/xbzfsjcqwcng"/>
+        <updated>2024-06-06T19:02:16.000Z</updated>
+        <summary type="html"><![CDATA[Jun  6, 21:02 CEST
+Resolved - This incident has been resolved.
+Jun  6, 18:26 CEST
+Monitoring - We have identified the issue and implemented a fix. Login to us1.make.com is now fully functional. We will be monitoring the situation for the next 1-2 hours to ensure everything is fine.
+Jun  6, 17:30 CEST
+Investigating - We are currently investigating an issue where is not possible to login to us1.make.com
+We will provide an update within the next hour.]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Packages]]></title>
+        <id>https://www.githubstatus.com/incidents/fr6wzzpg0bsv</id>
+        <link href="https://www.githubstatus.com/incidents/fr6wzzpg0bsv"/>
+        <updated>2024-06-06T04:43:52.000Z</updated>
+        <summary type="html"><![CDATA[Jun  6, 04:43 UTC
+Resolved - This incident has been resolved.
+Jun  6, 04:38 UTC
+Update - We were alerted to problems in maven uploads. These have now improved, and we're continuing to monitor and investigate.
+Jun  6, 04:21 UTC
+Update - We are investigating reports of issues with Packages. We will continue to keep users updated on progress towards mitigation.
+Jun  6, 04:21 UTC
+Investigating - We are investigating reports of degraded performance for Packages]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident with Issues]]></title>
         <id>https://www.githubstatus.com/incidents/9zxft4pnrhbt</id>
@@ -75,30 +108,6 @@ During this time, users may have experienced trouble while viewing the IP addres
 Thank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket for further analysis.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: **Summary:**
-ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.
-**Description:**
-Mitigation work is currently underway by our engineering team.
-We do not have an ETA for mitigation at this point.
-We will provide more information by Monday, 2024-06-03 17:00 US/Pacific.
-**Diagnosis:**
-Affected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.
-**Workaround:**
-None at this time...]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4"/>
-        <updated>2024-06-05T00:32:50.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-06-03 18:36</strong> and ended at <strong>2024-06-04 23:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p><strong>Summary</strong></p>
-<p>ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.</p>
-<p><strong>Description</strong></p>
-<p>The issue with ChromeOS has been resolved for all affected users as of Tuesday, 2024-06-04 16:00 US/Pacific.</p>
-<p>We thank you for your patience while we worked on resolving the issue.</p>
-</div><hr><p>Affected products: ChromeOS</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
@@ -887,17 +896,8 @@ If you have any questions related to this issue please send us a ticket from you
         <link href="https://www.githubstatus.com/incidents/bfkxf0w61z1n"/>
         <updated>2024-05-14T21:04:49.000Z</updated>
         <summary type="html"><![CDATA[May 14, 21:04 UTC
-Resolved - This incident has been resolved.
-May 14, 20:47 UTC
-Update - We are seeing recovery for queue times on Actions Larger Runners and are continuing to monitor full recovery.
-May 14, 20:09 UTC
-Update - We've applied a mitigation to fix the issues with queuing and running Actions jobs. We are seeing improvements in telemetry and are monitoring for full recovery.
-May 14, 19:16 UTC
-Update - We are continuing to investigate long queue times for Actions Larger Runners
-May 14, 18:40 UTC
-Update - We are investigating long queue times for Actions Larger Runners
-May 14, 18:37 UTC
-Investigating - We are currently investigating this issue.]]></summary>
+Resolved - On May 14, 2024 between 18:00 UTC and 20:10 UTC, GitHub Actions performance was degraded and larger hosted runners using linux-x64 images (Ubuntu20, Ubuntu22, Ubuntu24-beta) experienced longer than normal job start up times. Approximately 25% of all runs targeting larger hosted runners queued during this time were slow to start, with a median wait time of 1 minute, 55 seconds.
+The issue was caused by a downstream dependency overloading, which impacted our machine setup process. Each larger hosted runner job is run on a fresh VM, and one of the setup steps is installing the Actions agent. Up to the point of this incident, we would pull the latest agent version from the GitHub release and install it on the VM. However, during this incident the speciific GitHub re…]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
@@ -1116,70 +1116,6 @@ Property Manager Focused: Our solution is designed specifically for property man
 Find out more about refunds and how to activate this feature by clicking here: yes please, tell me more!]]></summary>
         <author>
             <name>Megan, Product Manager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TS-2024-005]]></title>
-        <id>https://tailscale.com/security-bulletins/#ts-2024-005</id>
-        <link href="https://tailscale.com/security-bulletins/#ts-2024-005"/>
-        <updated>2024-05-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Description: Insufficient inbound packet filtering in subnet routers and exit nodes
-What happened?
-In Tailscale versions earlier than 1.66.0, exit nodes, subnet
-routers, and app connectors, could
-allow inbound connections to other tailnet nodes from their local area network
-(LAN). This vulnerability only affects Linux exit nodes, subnet routers, and
-app connectors in tailnets where ACLs allow "src": "*", such as
-with default ACLs.
-Tailscale version 1.66.0 fixes the vulnerability. Additionally, a server-side
-update changes the interpretation of "src": "*" to mitigate the issue
-specifically for exit nodes.
-Special thanks to Hakan Ergan for reporting a similar
-concern that led us to discover this vulnerability.
-Who was affected?
-This affected the following nodes using Tailscale version 1.65 o…]]></summary>
-        <author>
-            <name>Security Bulletins on Tailscale</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spaces Bucket Creates]]></title>
-        <id>https://status.digitalocean.com/incidents/91tj2rm59jgc</id>
-        <link href="https://status.digitalocean.com/incidents/91tj2rm59jgc"/>
-        <updated>2024-05-07T20:03:29.000Z</updated>
-        <summary type="html"><![CDATA[May  7, 20:03 UTC
-Resolved - Our Engineering team has confirmed that the issue with Spaces Buckets creates in multiple regions has been fully resolved. 
-If you continue to experience any problems, please open a support ticket from within your account. Thank you for your patience and we apologize for the inconvenience.
-May  7, 19:06 UTC
-Monitoring - Our Engineering team has implemented a fix to resolve the issue affecting creation of Spaces Buckets in multiple regions and is monitoring the situation closely.
-The impact has subsided and users should no longer experience issues creating Spaces Bucket both through the cloud control panel and via API.
-We will post an update as soon as the issue is fully resolved.
-May  7, 14:07 UTC
-Investigating - Our Engineering team is investigating an uptick in error rates for users creating Spaces Buckets in multiple regions, starting May 3.
-We have rolled back a recent change in our systems in an effort to address the issue. However, we are still investigating and users may still experience errors when attempting to create Spaces Buckets, both through the cloud control panel and via API.
-We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Issues, API Requests and Pull Requests]]></title>
-        <id>https://www.githubstatus.com/incidents/tsrh60nkbchl</id>
-        <link href="https://www.githubstatus.com/incidents/tsrh60nkbchl"/>
-        <updated>2024-05-07T15:55:12.000Z</updated>
-        <summary type="html"><![CDATA[May  7, 15:55 UTC
-Resolved - Starting on May 7th, 2024 at 14:00 UTC, our elasticsearch cluster that powers Issues and Pull Requests became unresponsive correlating to a spike in usage.  This affected GitHub customers who were trying to search issues and pull requests.
-We mitigated this incident by adding additional cluster members which increased the resources available to the cluster.  We are working to add additional safeguards to our endpoints.  We are also continuing to investigate the root cause of the instability and if the index needs to be re-sharded for future risk mitigation.
-May  7, 15:25 UTC
-Update - We are seeing recovery, and are continuing to monitor issues and pull requests search results.
-May  7, 15:00 UTC
-Update - We’re investigating problems with our Issues and Pull Requests search cluster that are impacting result list pages and endpoints.
-May  7, 14:24 UTC
-Update - We're investigating page load problems with issues and pull requests.
-May  7, 14:23 UTC
-Investigating - We are investigating reports of degraded performance for Issues, API Requests and Pull Requests]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>

@@ -71,16 +71,6 @@
           "wordCount": 13443,
           "title": "TS-2024-006",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
-        },
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2024-005",
-          "author": null,
-          "description": "Description: Insufficient inbound packet filtering in subnet routers and exit nodes\nWhat happened?\nIn Tailscale versions earlier than 1.66.0, exit nodes, subnet\nrouters, and app connectors, could\nallow inbound connections to other tailnet nodes from their local area network\n(LAN). This vulnerability only affects Linux exit nodes, subnet routers, and\napp connectors in tailnets where ACLs allow \"src\": \"*\", such as\nwith default ACLs.\nTailscale version 1.66.0 fixes the vulnerability. Additionally, a server-side\nupdate changes the interpretation of \"src\": \"*\" to mitigate the issue\nspecifically for exit nodes.\nSpecial thanks to Hakan Ergan for reporting a similar\nconcern that led us to discover this vulnerability.\nWho was affected?\nThis affected the following nodes using Tailscale version 1.65 o…",
-          "link": "https://tailscale.com/security-bulletins/#ts-2024-005",
-          "publishedOn": "2024-05-08T00:00:00.000Z",
-          "wordCount": 13443,
-          "title": "TS-2024-005",
-          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
       ]
     },
@@ -251,16 +241,6 @@
           "wordCount": 6375,
           "title": "Rescheduled: NYC2 Network Maintenance 2024-05-09",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/91tj2rm59jgc",
-          "author": null,
-          "description": "May  7, 20:03 UTC\nResolved - Our Engineering team has confirmed that the issue with Spaces Buckets creates in multiple regions has been fully resolved. \nIf you continue to experience any problems, please open a support ticket from within your account. Thank you for your patience and we apologize for the inconvenience.\nMay  7, 19:06 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue affecting creation of Spaces Buckets in multiple regions and is monitoring the situation closely.\nThe impact has subsided and users should no longer experience issues creating Spaces Bucket both through the cloud control panel and via API.\nWe will post an update as soon as the issue is fully resolved.\nMay  7, 14:07 UTC\nInvestigating - Our Engineering team is investigating an uptick in error rates for users creating Spaces Buckets in multiple regions, starting May 3.\nWe have rolled back a recent change in our systems in an effort to address the issue. However, we are still investigating and users may still experience errors when attempting to create Spaces Buckets, both through the cloud control panel and via API.\nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/91tj2rm59jgc",
-          "publishedOn": "2024-05-07T20:03:29.000Z",
-          "wordCount": 6390,
-          "title": "Spaces Bucket Creates",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -352,16 +332,6 @@
           "wordCount": 1343,
           "title": "RESOLVED: **Summary:**\nChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.\n**Description:**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Monday, 2024-06-03 17:00 US/Pacific.\n**Diagnosis:**\nAffected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.\n**Workaround:**\nNone at this time...",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-03 18:36</strong> and ended at <strong>2024-06-04 23:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary</strong></p>\n<p>ChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.</p>\n<p><strong>Description</strong></p>\n<p>The issue with ChromeOS has been resolved for all affected users as of Tuesday, 2024-06-04 16:00 US/Pacific.</p>\n<p>We thank you for your patience while we worked on resolving the issue.</p>\n</div><hr><p>Affected products: ChromeOS</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/uKjV4s9GxApbBd95AwW4",
-          "publishedOn": "2024-06-05T00:32:50.000Z",
-          "wordCount": 1343,
-          "title": "RESOLVED: **Summary:**\nChromeOS: Unable to log in from lock screen when ephemeral mode is enabled on managed devices on M-125.\n**Description:**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Monday, 2024-06-03 17:00 US/Pacific.\n**Diagnosis:**\nAffected users may be unable to log back in from the lock screen on their ChromeOS device. This issue is affecting ChromeOS version M125 when the device policy DeviceEphemeralUsersEnabled is turned on.\n**Workaround:**\nNone at this time...",
-          "imageUrl": null
         }
       ]
     },
@@ -370,6 +340,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/fr6wzzpg0bsv",
+          "author": null,
+          "description": "Jun  6, 04:43 UTC\nResolved - This incident has been resolved.\nJun  6, 04:38 UTC\nUpdate - We were alerted to problems in maven uploads. These have now improved, and we're continuing to monitor and investigate.\nJun  6, 04:21 UTC\nUpdate - We are investigating reports of issues with Packages. We will continue to keep users updated on progress towards mitigation.\nJun  6, 04:21 UTC\nInvestigating - We are investigating reports of degraded performance for Packages",
+          "link": "https://www.githubstatus.com/incidents/fr6wzzpg0bsv",
+          "publishedOn": "2024-06-06T04:43:52.000Z",
+          "wordCount": 5327,
+          "title": "Incident with Packages",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/9zxft4pnrhbt",
           "author": null,
@@ -443,10 +423,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/bfkxf0w61z1n",
           "author": null,
-          "description": "May 14, 21:04 UTC\nResolved - This incident has been resolved.\nMay 14, 20:47 UTC\nUpdate - We are seeing recovery for queue times on Actions Larger Runners and are continuing to monitor full recovery.\nMay 14, 20:09 UTC\nUpdate - We've applied a mitigation to fix the issues with queuing and running Actions jobs. We are seeing improvements in telemetry and are monitoring for full recovery.\nMay 14, 19:16 UTC\nUpdate - We are continuing to investigate long queue times for Actions Larger Runners\nMay 14, 18:40 UTC\nUpdate - We are investigating long queue times for Actions Larger Runners\nMay 14, 18:37 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "May 14, 21:04 UTC\nResolved - On May 14, 2024 between 18:00 UTC and 20:10 UTC, GitHub Actions performance was degraded and larger hosted runners using linux-x64 images (Ubuntu20, Ubuntu22, Ubuntu24-beta) experienced longer than normal job start up times. Approximately 25% of all runs targeting larger hosted runners queued during this time were slow to start, with a median wait time of 1 minute, 55 seconds.\nThe issue was caused by a downstream dependency overloading, which impacted our machine setup process. Each larger hosted runner job is run on a fresh VM, and one of the setup steps is installing the Actions agent. Up to the point of this incident, we would pull the latest agent version from the GitHub release and install it on the VM. However, during this incident the speciific GitHub re…",
           "link": "https://www.githubstatus.com/incidents/bfkxf0w61z1n",
           "publishedOn": "2024-05-14T21:04:49.000Z",
-          "wordCount": 5376,
+          "wordCount": 5636,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -468,16 +448,6 @@
           "publishedOn": "2024-05-13T15:44:36.000Z",
           "wordCount": 5498,
           "title": "Incident with Copilot",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/tsrh60nkbchl",
-          "author": null,
-          "description": "May  7, 15:55 UTC\nResolved - Starting on May 7th, 2024 at 14:00 UTC, our elasticsearch cluster that powers Issues and Pull Requests became unresponsive correlating to a spike in usage.  This affected GitHub customers who were trying to search issues and pull requests.\nWe mitigated this incident by adding additional cluster members which increased the resources available to the cluster.  We are working to add additional safeguards to our endpoints.  We are also continuing to investigate the root cause of the instability and if the index needs to be re-sharded for future risk mitigation.\nMay  7, 15:25 UTC\nUpdate - We are seeing recovery, and are continuing to monitor issues and pull requests search results.\nMay  7, 15:00 UTC\nUpdate - We’re investigating problems with our Issues and Pull Requests search cluster that are impacting result list pages and endpoints.\nMay  7, 14:24 UTC\nUpdate - We're investigating page load problems with issues and pull requests.\nMay  7, 14:23 UTC\nInvestigating - We are investigating reports of degraded performance for Issues, API Requests and Pull Requests",
-          "link": "https://www.githubstatus.com/incidents/tsrh60nkbchl",
-          "publishedOn": "2024-05-07T15:55:12.000Z",
-          "wordCount": 5449,
-          "title": "Incident with Issues, API Requests and Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
@@ -544,6 +514,16 @@
       "feedUrl": "https://status.make.com/history.rss",
       "siteUrl": "https://status.make.com",
       "articles": [
+        {
+          "id": "https://status.make.com/incidents/xbzfsjcqwcng",
+          "author": null,
+          "description": "Jun  6, 21:02 CEST\nResolved - This incident has been resolved.\nJun  6, 18:26 CEST\nMonitoring - We have identified the issue and implemented a fix. Login to us1.make.com is now fully functional. We will be monitoring the situation for the next 1-2 hours to ensure everything is fine.\nJun  6, 17:30 CEST\nInvestigating - We are currently investigating an issue where is not possible to login to us1.make.com\nWe will provide an update within the next hour.",
+          "link": "https://status.make.com/incidents/xbzfsjcqwcng",
+          "publishedOn": "2024-06-06T19:02:16.000Z",
+          "wordCount": 3895,
+          "title": "Errors to login on the platform",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.make.com/incidents/0mr1p7d28fhk",
           "author": null,
