@@ -1,10 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-07T00:23:43.885Z</id>
+    <id>urn:2024-06-08T00:23:55.918Z</id>
     <title>osmos::feed</title>
-    <updated>2024-06-07T00:23:43.885Z</updated>
+    <updated>2024-06-08T00:23:55.918Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Reservations confirming without Sync Availability Checks]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/867lr996sr60</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/867lr996sr60"/>
+        <updated>2024-06-07T21:34:45.000Z</updated>
+        <summary type="html"><![CDATA[Jun  7, 14:34 PDT
+Resolved - This incident was resolved on May 9, 2024.
+May  9, 11:52 PDT
+Monitoring - We have implemented a fix for this issue around 8:30 AM PDT today, and we are monitoring the results.
+May  9, 09:06 PDT
+Update - While we continue to investigate this issue, please make sure that the availability for your listings is up-to-date, as booking attempts are still being processed based on the availability reflected on the Airbnb calendar. Please note that this incident is not affecting notifications, and you will receive webhook notifications for reservation requests, confirmation, alteration, and cancellations.
+We will post more updates as soon as we have them.
+May  9, 02:56 PDT
+Investigating - We are facing issues where some reservations are being confirmed without Sync Availability Checks for API connected listings.
+Our engineering teams are investigating the issue and we will update you with the latest information as soon as possible.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incorrect Availability Displayed on Airbnb Calendar]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/s2qyzvk6612p</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/s2qyzvk6612p"/>
+        <updated>2024-06-07T21:34:08.000Z</updated>
+        <summary type="html"><![CDATA[Jun  7, 14:34 PDT
+Resolved - This incident was resolved on May 14, 2024.
+May 14, 09:54 PDT
+Monitoring - A fix has been implemented and we are monitoring the results. If you get new reports of this issue, please contact the API Integrations Team via the support portal.
+May  9, 12:16 PDT
+Investigating - We are currently investigating an issue where the Airbnb calendar incorrectly displays dates as available to guests, even though these dates are already blocked due to existing reservations. As a result, guests can get to the check-out page, but will see an error message that says "These dates are no longer available", and are prompted to select different dates. It's important to note that despite appearing as available, these dates cannot be booked by guests on Airbnb.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Issues with the Hiring flow]]></title>
+        <id>https://status.rippling.com/incidents/hsyqh2qz5hm2</id>
+        <link href="https://status.rippling.com/incidents/hsyqh2qz5hm2"/>
+        <updated>2024-06-07T19:13:40.000Z</updated>
+        <summary type="html"><![CDATA[Jun  7, 19:13 UTC
+Monitoring - A fix has been implemented and we are monitoring the results.
+Jun  7, 18:21 UTC
+Identified - The issue has been identified and a fix is being implemented.]]></summary>
+        <author>
+            <name>Rippling Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SFO2 Power Feed Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/2mtwp3bqctyd</id>
+        <link href="https://status.digitalocean.com/incidents/2mtwp3bqctyd"/>
+        <updated>2024-06-07T19:11:43.000Z</updated>
+        <summary type="html"><![CDATA[Jun  7, 19:11 UTC
+Completed - Our datacenter provider has informed us that they are not able to perform this maintenance during the communicated window and will be rescheduling it for a later date. We apologize for any confusion from the previous update, but this maintenance did not begin and there was no impact to any services. We will notify you via email and a new maintenance post on status.digitalocean.com with the updated date and timings for this maintenance.
+If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.
+Jun  7, 11:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Jun  7, 02:44 UTC
+Scheduled - Start: 2024-06-07 11:00 UTC
+End: 2024-06-07 21:00 UTC
+During the above window, our data center team will be performing maintenance on redundant upstream electrical systems in our SFO2 region.
+Expected impact: 
+We don’t expect to see any impact to customer resources as the electrical systems are redundant and our team will isolate one unit at a time during the maintenance. In the highly unlikely event that we lose power to both systems simultaneously, affected Droplets and Droplet-based services would experience downtime for a brief period of time. We will endeavor to keep this to a minimum should that situation arise.
+ If you have any questions or concerns related to this maintenance, please send us a ticket from your cloud support page https://cloudsupport.digitalocean.com/s/createticket.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Delay for Notifications]]></title>
+        <id>https://status.notion.so/incidents/1f4rm2ycdrqm</id>
+        <link href="https://status.notion.so/incidents/1f4rm2ycdrqm"/>
+        <updated>2024-06-07T10:05:59.000Z</updated>
+        <summary type="html"><![CDATA[Jun  7, 03:05 PDT
+Resolved - The issue and the backlog of notifications is resolved so that notifications should be created & received on time now.
+Jun  7, 01:34 PDT
+Identified - We were able to identify the issue and are working on sending out the backlog of notifications that are queued.
+Jun  7, 01:14 PDT
+Investigating - We are seeing an issue where notifications are delayed. This may impact creation & retrieval of these notifications. We are actively investigating to resolve this.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Errors to login on the platform]]></title>
         <id>https://status.make.com/incidents/xbzfsjcqwcng</id>
@@ -27,7 +110,10 @@ We will provide an update within the next hour.]]></summary>
         <link href="https://www.githubstatus.com/incidents/fr6wzzpg0bsv"/>
         <updated>2024-06-06T04:43:52.000Z</updated>
         <summary type="html"><![CDATA[Jun  6, 04:43 UTC
-Resolved - This incident has been resolved.
+Resolved - On June 6, 2024 between 03:29 and 04:19 UTC, the service responsible for the Maven package registry was degraded. This affected GitHub customers who were trying to upload packages to the Maven package registry.
+We observed increased database pressure due to bulk operations in progress, and at 04:19 UTC, the Maven upload issues resolved when those bulk operations finished. We're continuing to assess any additional compounding factors.
+We are working on improving our thresholds for existing alerts to reduce our time to detection and mitigation of issues like this one in the future.
+
 Jun  6, 04:38 UTC
 Update - We were alerted to problems in maven uploads. These have now improved, and we're continuing to monitor and investigate.
 Jun  6, 04:21 UTC
@@ -903,19 +989,6 @@ The issue was caused by a downstream dependency overloading, which impacted our 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Incorrect Availability Displayed on Airbnb Calendar]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/s2qyzvk6612p</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/s2qyzvk6612p"/>
-        <updated>2024-05-14T16:54:03.000Z</updated>
-        <summary type="html"><![CDATA[May 14, 09:54 PDT
-Monitoring - A fix has been implemented and we are monitoring the results. If you get new reports of this issue, please contact the API Integrations Team via the support portal.
-May  9, 12:16 PDT
-Investigating - We are currently investigating an issue where the Airbnb calendar incorrectly displays dates as available to guests, even though these dates are already blocked due to existing reservations. As a result, guests can get to the check-out page, but will see an error message that says "These dates are no longer available", and are prompted to select different dates. It's important to note that despite appearing as available, these dates cannot be booked by guests on Airbnb.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Important update: TLS ciphers]]></title>
         <id>https://airbnbapi.statuspage.io/incidents/7h6gs9qk9h41</id>
         <link href="https://airbnbapi.statuspage.io/incidents/7h6gs9qk9h41"/>
@@ -1064,23 +1137,6 @@ SmilyUpdates #SimplerAndSmarter]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Reservations confirming without Sync Availability Checks]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/867lr996sr60</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/867lr996sr60"/>
-        <updated>2024-05-09T18:52:50.000Z</updated>
-        <summary type="html"><![CDATA[May  9, 11:52 PDT
-Monitoring - We have implemented a fix for this issue around 8:30 AM PDT today, and we are monitoring the results.
-May  9, 09:06 PDT
-Update - While we continue to investigate this issue, please make sure that the availability for your listings is up-to-date, as booking attempts are still being processed based on the availability reflected on the Airbnb calendar. Please note that this incident is not affecting notifications, and you will receive webhook notifications for reservation requests, confirmation, alteration, and cancellations.
-We will post more updates as soon as we have them.
-May  9, 02:56 PDT
-Investigating - We are facing issues where some reservations are being confirmed without Sync Availability Checks for API connected listings.
-Our engineering teams are investigating the issue and we will update you with the latest information as soon as possible.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Rescheduled: NYC2 Network Maintenance 2024-05-09]]></title>
         <id>https://status.digitalocean.com/incidents/m6zzcqdwzjj0</id>
         <link href="https://status.digitalocean.com/incidents/m6zzcqdwzjj0"/>
@@ -1099,23 +1155,6 @@ If an unexpected issue arises, affected Droplets and Droplet-based services coul
 If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Refunds Made Simple with SmilyPay]]></title>
-        <id>292461</id>
-        <link href="https://changelog.bookingsync.com/refunds-made-simple-with-smilypay-292461"/>
-        <updated>2024-05-08T15:59:17.000Z</updated>
-        <summary type="html"><![CDATA[New!
-  
-We’re excited to introduce a new feature for SmilyPay: refunds!   🎉 
-Now, you can process refunds directly from your Smily account, simplifying your payment workflow and enhancing your control over transactions.
-What Does This Mean for You?
-Quick and Easy Refunds: Handle refunds directly from your bookings in the Smily dashboard, streamlining your financial operations.
-Property Manager Focused: Our solution is designed specifically for property managers, ensuring your account remains flexible and responsive to your needs.
-Find out more about refunds and how to activate this feature by clicking here: yes please, tell me more!]]></summary>
-        <author>
-            <name>Megan, Product Manager</name>
         </author>
     </entry>
 </feed>
