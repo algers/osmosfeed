@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-08T00:23:55.918Z</id>
+    <id>urn:2024-06-09T00:26:36.976Z</id>
     <title>osmos::feed</title>
-    <updated>2024-06-08T00:23:55.918Z</updated>
+    <updated>2024-06-09T00:26:36.976Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Issues with the Hiring flow]]></title>
+        <id>https://status.rippling.com/incidents/hsyqh2qz5hm2</id>
+        <link href="https://status.rippling.com/incidents/hsyqh2qz5hm2"/>
+        <updated>2024-06-08T01:41:10.000Z</updated>
+        <summary type="html"><![CDATA[Jun  8, 01:41 UTC
+Resolved - This incident has been resolved.
+Jun  7, 19:13 UTC
+Monitoring - A fix has been implemented and we are monitoring the results.
+Jun  7, 18:21 UTC
+Identified - The issue has been identified and a fix is being implemented.]]></summary>
+        <author>
+            <name>Rippling Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reservations confirming without Sync Availability Checks]]></title>
         <id>https://airbnbapi.statuspage.io/incidents/867lr996sr60</id>
@@ -37,19 +52,6 @@ May  9, 12:16 PDT
 Investigating - We are currently investigating an issue where the Airbnb calendar incorrectly displays dates as available to guests, even though these dates are already blocked due to existing reservations. As a result, guests can get to the check-out page, but will see an error message that says "These dates are no longer available", and are prompted to select different dates. It's important to note that despite appearing as available, these dates cannot be booked by guests on Airbnb.]]></summary>
         <author>
             <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues with the Hiring flow]]></title>
-        <id>https://status.rippling.com/incidents/hsyqh2qz5hm2</id>
-        <link href="https://status.rippling.com/incidents/hsyqh2qz5hm2"/>
-        <updated>2024-06-07T19:13:40.000Z</updated>
-        <summary type="html"><![CDATA[Jun  7, 19:13 UTC
-Monitoring - A fix has been implemented and we are monitoring the results.
-Jun  7, 18:21 UTC
-Identified - The issue has been identified and a fix is being implemented.]]></summary>
-        <author>
-            <name>Rippling Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1113,48 +1115,6 @@ What Can You Expect?
 Automation R…]]></summary>
         <author>
             <name>Eduardo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🌟Exciting Update for Smily Payment Page!]]></title>
-        <id>292534</id>
-        <link href="https://changelog.bookingsync.com/exciting-update-for-smily-payment-page!-292534"/>
-        <updated>2024-05-10T02:59:28.000Z</updated>
-        <summary type="html"><![CDATA[New!
-  
-Great news for all Smily users! 
-We're making your payment process more consistent and guest friendly. 🚀 
-Starting today, guests will see the Rental Headline instead of the internal Rental Name on the payment page. 
-
-
-
-This change ensures that the property title displayed is not only guest-friendly but consistent throughout the booking process.
-This minor tweak is a big step towards enhancing guest experience and consistency across our platform.
-Check out the updated payment page today and see the difference for yourself! 💫
-SmilyUpdates #SimplerAndSmarter]]></summary>
-        <author>
-            <name>Eduardo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rescheduled: NYC2 Network Maintenance 2024-05-09]]></title>
-        <id>https://status.digitalocean.com/incidents/m6zzcqdwzjj0</id>
-        <link href="https://status.digitalocean.com/incidents/m6zzcqdwzjj0"/>
-        <updated>2024-05-09T14:31:15.000Z</updated>
-        <summary type="html"><![CDATA[May  9, 14:31 UTC
-Completed - The scheduled maintenance has been completed.
-May  9, 12:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-May  3, 19:17 UTC
-Scheduled - Start: 2024-05-09 12:00 UTC
-End: 2024-05-09 15:00 UTC
-During the above window, our Networking team will be making changes to core networking infrastructure, to improve performance and scalability in the NYC2 region. This is a rescheduled maintenance event previously attempted on 2024-05-02.
-Expected Impact:
-These upgrades are designed and tested to be seamless and we do not expect any impact on customer traffic due to this maintenance. 
-If an unexpected issue arises, affected Droplets and Droplet-based services could experience increased latency or disruption in public network traffic for a short period of time. If an unexpected issue does occur, our team is prepared to rollback to a safe state to quickly restore public networking. We expect that traffic would be impacted for a period of 5-10 minutes at most in that case.
-If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
