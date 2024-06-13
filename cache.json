@@ -33,12 +33,22 @@
       "siteUrl": "https://tailscale.com/security-bulletins/",
       "articles": [
         {
+          "id": "https://tailscale.com/security-bulletins/#ts-2024-007",
+          "author": null,
+          "description": "Description: Incorrect DNS resolution with split DNS on macOS and iOS\nWhat happened?\nOn Tailscale macOS and iOS clients with split DNS configurations (like App\nConnectors or Restricted\nNameservers), lookups of bare tailnet node names\ncould in rare cases return incorrect answers. For example, if a node mynode\nand an App Connector for *.example.com exist on a tailnet, DNS lookups for\nmynode could return the answer for mynode.example.com instead of the local\ntailnet IP. This mis-configuration is intermittent, and most often triggers for\na few seconds when switching device networks (for example from Wi-Fi to a phone\nhotspot).\nWe fixed this bug in client version 1.68.0, and notified the security contacts\nof potentially affected tailnets over email.\nWho was affected?\nAll tailnets that use App Connectors or Restricted Domains, and have macOS or\niOS nodes could have been affected.\nThis bug is usually intermittently-triggered when switching networks in our\nexperience. Only lookups of bare domains, like mynode but not\nmynode.mytailnet.ts.net, are at risk.\nNote that not all split DNS domains are dangerous. Only domains where an\nattacker can choose their FQDN to match a node name, and controls the\ndestination to receive non-TLS traffic could be abused.\nWe are not aware of any active exploitation of this vulnerability.\nWhat was the impact?\nFor a split DNS domain example.com, an attacker with control over\nmynode.example.com can impersonate a non-TLS server running on node mynode\non the tailnet. This attack is opportunistic and passive - it relies on the\nuser connecting to mynode using its bare domain and cannot be forced\nremotely.\nWhat do I need to do?\nUpgrade your macOS and iOS clients to 1.68.0 or later.",
+          "link": "https://tailscale.com/security-bulletins/#ts-2024-007",
+          "publishedOn": "2024-06-12T00:00:00.000Z",
+          "wordCount": 13990,
+          "title": "TS-2024-007",
+          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
+        },
+        {
           "id": "https://tailscale.com/security-bulletins/#ts-2024-006",
           "author": null,
           "description": "Description: Tailnet SSO provider migration impacting invited users\nWhat happened?\nWhen tailnets are created, they are associated with an SSO\nprovider such as Google or Microsoft, requiring all members\nof the tailnet to authenticate using that provider. In addition, Tailscale also\nsupports inviting external users to tailnets to allow\nsharing with contractors, friends, or other collaborators who may use a\ndifferent SSO provider than that of the inviting tailnet to log in to\nTailscale.\nCustomers with an existing tailnet who wish to use a different SSO provider can\nrequest to migrate via customer support. The internal tool used to perform these\nmigrations previously migrated the SSO provider for\nall members of a tailnet, including those of invited external members.\nWe fixed this internal tool to migrate direct tailnet members, excluding invited\nmembers on May 20, 2024.\nWe reverted the erroneous SSO provider changes and notified affected\nusers on May 23, 2024.\nWho was affected?\n55 users were invited external members of tailnets whose SSO provider was\nsubsequently migrated prior to May 20, 2024. We have notified the security\ncontacts for the tailnets where users were affected by this incident.\nWhat was the impact?\nUsers whose SSO providers were erroneously migrated would have been\nunable to log in to Tailscale during this time, as their SSO source\nwould differ from the one on record.\nWhat do I need to do?\nNo action is needed at this time.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-006",
           "publishedOn": "2024-05-22T00:00:00.000Z",
-          "wordCount": 13443,
+          "wordCount": 13990,
           "title": "TS-2024-006",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -92,6 +102,26 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/shyfhwzrk7yq",
+          "author": null,
+          "description": "Jun 12, 20:23 UTC\nResolved - Our Engineering team identified and resolved an issue impacting multiple pages in the Cloud Control Panel. \nFrom 16:12 - 16:26 UTC, users may have experienced access denied errors while loading pages associated with different services on the Cloud Control Panel. The impacted pages included Managed Database, Block Storage Volumes, Reserved IPs, Domains, Settings, App Platform, Applications & API, Container Registry, Functions, Managed Kubernetes and Monitoring. \nOur Engineering team was able to take quick action to mitigate the impact and resolve the issue. \nThank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket for further analysis.",
+          "link": "https://status.digitalocean.com/incidents/shyfhwzrk7yq",
+          "publishedOn": "2024-06-12T20:23:09.000Z",
+          "wordCount": 6300,
+          "title": "Cloud Control Panel Page Permissions",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/5cxwn2d0bzxc",
+          "author": null,
+          "description": "Jun 12, 16:41 UTC\nResolved - From 13:45 - 16:04 UTC, users were unable to sign up for new DigitalOcean accounts at https://cloud.digitalocean.com and existing users were unable to update credit card information within the Cloud Control Panel, due to an issue with a billing verification key. This issue is now fully resolved and users should be able to interact with the Cloud Control Panel normally. \nWe apologize for the inconvenience and invite users to retry any failed attempts. If you continue to experience issues or have any questions, please reach out to Support from within your account.\nJun 12, 16:07 UTC\nMonitoring - Our Engineering team has completed implementation of the fix to resolve the issue with new user sign ups and attempts to update credit card details.  At this time, services should be functioning as expected. If you were attempting to sign up or change your existing credit card information, please retry. \nWe're monitoring the situation and will post a final update once we confirm this is fully resolved.\nJun 12, 15:29 UTC\nIdentified - Our Engineering team has identified the root cause of the issue with new user sign ups and is working to implement a fix. During the course of investigation, the team also identified that existing users are unable to update their existing credit card information. \nWe will post another update once the fix has been implemented.\nJun 12, 15:15 UTC\nInvestigating - Our Engineering team is investigating an issue with users attempting to sign up for new cloud.digitalocean.com accounts. At this time, users attempting to sign up are unable to do so, due to an issue with finalizing credit card information. Existing users are unaffected and should be able to sign in normally.\nWe apologize for the inconvenience and will share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/5cxwn2d0bzxc",
+          "publishedOn": "2024-06-12T16:41:04.000Z",
+          "wordCount": 6492,
+          "title": "New User Sign Ups",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/lzlv9c5bjp1v",
           "author": null,
@@ -221,16 +251,6 @@
           "wordCount": 6395,
           "title": "NYC2 Network Maintenance 2024-05-14",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/3h2bvy498kwl",
-          "author": null,
-          "description": "May 13, 20:49 UTC\nResolved - Our Engineering team has identified and resolved an issue that impacted the provisioning of multiple products from 17:51 UTC until 18:59 UTC. During this time, users might have experienced delays or errors while provisioning their MongoDB Managed Database clusters, Container Registries and also while creating Spaces Keys.\nSwift action was taken by our Engineering team that restored services and now every thing is operating normally. \nWe apologize for any inconvenience this may have caused. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.",
-          "link": "https://status.digitalocean.com/incidents/3h2bvy498kwl",
-          "publishedOn": "2024-05-13T20:49:47.000Z",
-          "wordCount": 6276,
-          "title": "Provisioning of Multiple Products",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -242,10 +262,10 @@
         {
           "id": "https://status.notion.so/incidents/hkdr5hfr0qyc",
           "author": null,
-          "description": "Jun 11, 11:25 PDT\nIdentified - The issue has been identified and our team is working on a fix.",
+          "description": "Jun 11, 18:22 PDT\nResolved - The issue has now been resolved, Mobile app users should be able to create workspaces.\nJun 11, 11:25 PDT\nIdentified - The issue has been identified and our team is working on a fix.",
           "link": "https://status.notion.so/incidents/hkdr5hfr0qyc",
-          "publishedOn": "2024-06-11T23:25:57.000Z",
-          "wordCount": 3352,
+          "publishedOn": "2024-06-12T01:22:46.000Z",
+          "wordCount": 3374,
           "title": "Mobile app users, including both iOS and Android, are unable to create workspaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -341,26 +361,6 @@
           "publishedOn": "2024-06-11T17:48:02.000Z",
           "wordCount": 569,
           "title": "RESOLVED: **Summary:**\nGlobal: Elevated App Script Failures\n**Description:**\nWe experienced an issue with Apps Script beginning at Tuesday, 2024-06-11 06:04 to 06:41 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Tuesday, 2024-06-11 08:40 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nCustomers impacted by this issue may have observed 500 errors and were unable to load / run App Scripts.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/QNFwydEugqSm2e4UScci",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-11 13:04</strong> and ended at <strong>2024-06-11 13:41</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  The problem with Apps Script has been resolved. We apologize for the inconvenience and thank you for your patience and continued support.  </span></div><hr><p>Affected products: Apps Script</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/QNFwydEugqSm2e4UScci",
-          "publishedOn": "2024-06-11T15:20:54.000Z",
-          "wordCount": 569,
-          "title": "RESOLVED: **Summary:**\nGlobal: Elevated App Script Failures\n**Description:**\nWe experienced an issue with Apps Script beginning at Tuesday, 2024-06-11 06:04 to 06:41 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Tuesday, 2024-06-11 08:40 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nCustomers impacted by this issue may have observed 500 errors and were unable to load / run App Scripts.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/QNFwydEugqSm2e4UScci",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-11 13:04</strong> and ended at <strong>2024-06-11 13:41</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong>\nGlobal: Elevated App Script Failures</p>\n<p><strong>Description:</strong>\nWe experienced an issue with Apps Script beginning at Tuesday, 2024-06-11 06:04 to 06:41 US/Pacific.</p>\n<p>Our engineering team continues to investigate the issue.</p>\n<p>We will provide an update by Tuesday, 2024-06-11 08:40 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption.</p>\n<p><strong>Diagnosis:</strong>\nCustomers impacted by this issue may have observed 500 errors and were unable to load / run App Scripts.</p>\n<p><strong>Workaround:</strong>\nNone at this time.</p>\n</div><hr><p>Affected products: Apps Script</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/QNFwydEugqSm2e4UScci",
-          "publishedOn": "2024-06-11T15:18:29.000Z",
-          "wordCount": 569,
-          "title": "UPDATE: **Summary:**\nGlobal: Elevated App Script Failures\n**Description:**\nWe experienced an issue with Apps Script beginning at Tuesday, 2024-06-11 06:04 to 06:41 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Tuesday, 2024-06-11 08:40 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nCustomers impacted by this issue may have observed 500 errors and were unable to load / run App Scripts.\n**Workaround:**\nNone at this time.",
           "imageUrl": null
         }
       ]
@@ -468,26 +468,6 @@
           "publishedOn": "2024-05-14T21:04:49.000Z",
           "wordCount": 5636,
           "title": "We are investigating reports of degraded performance.",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/f7jl0mdd2jr5",
-          "author": null,
-          "description": "May 13, 20:10 UTC\nResolved - On May 13, 2024, between 19:03 UTC and 19:57 UTC, some customers experienced delays in receiving status updates for in-progress GitHub Actions workflow runs. The root cause was identified to be a bug in the logic for checking the state of a configuration which would only manifest under very specific conditions and cause exceptions. These exceptions impacted the backend process for handling workflow run status updates and caused jobs with any annotations to not get updated properly. Jobs without any annotations were not affected. The affected jobs during the incident will get marked as failed after 24 hours, and affected customers will need to manually retry the jobs they want to execute.\nWe resolved the incident by reverting the problematic change. We are enhancing our process for deploying changes and reassessing our monitoring of relevant subsystems to prevent similar issues in the future.\n\nMay 13, 20:10 UTC\nUpdate - We are seeing signs of recovery for actions jobs\nMay 13, 19:51 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
-          "link": "https://www.githubstatus.com/incidents/f7jl0mdd2jr5",
-          "publishedOn": "2024-05-13T20:10:42.000Z",
-          "wordCount": 5427,
-          "title": "Incident with Actions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/lpd7npwx7wb5",
-          "author": null,
-          "description": "May 13, 15:44 UTC\nResolved - Incident Report: May 13, 2024 (lasting approximately 4 hours)\nOn May 13 at 10:40 AM UTC, GitHub Copilot Chat began returning error responses to 6% of users. The problem was identified, and a status update was provided shortly after. A mitigation strategy was implemented by 14:30 UTC, which mitigated the impact.\nThe root cause of the incident was a combination of issues in the request handling process. Specifically, some requests were malformed, which resulted in being incorrectly routed to the wrong deployment. That deployment wasn’t resilient to the malformed requests and resulted in errors.\nTo mitigate the immediate impact, requests were routed away from the failing deployment. This temporarily reduced the number of errors while the underlying issue was investigated and resolved.\nTo prevent similar incidents in the future, we have enhanced validation checks for incoming requests to ensure proper handling and routing. In addition, we upgraded backend systems to provide more robust error handling and observability.\n\nMay 13, 14:56 UTC\nUpdate - We are applying configuration changes to mitigate impact to Copilot Chat users.\nMay 13, 14:13 UTC\nUpdate - We continue to investigate the root cause of elevated errors in Copilot Chat.\nMay 13, 13:27 UTC\nUpdate - Copilot is experiencing degraded performance. We are continuing to investigate.\nMay 13, 13:24 UTC\nUpdate - We are investigating an increase in exceptions impacting Copilot Chat usage from IDEs.\nMay 13, 13:23 UTC\nInvestigating - We are currently investigating this issue.",
-          "link": "https://www.githubstatus.com/incidents/lpd7npwx7wb5",
-          "publishedOn": "2024-05-13T15:44:36.000Z",
-          "wordCount": 5498,
-          "title": "Incident with Copilot",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
@@ -692,16 +672,6 @@
           "publishedOn": "2024-05-15T06:41:51.000Z",
           "wordCount": 4031,
           "title": "Scheduled infrastructure maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/6x6kc32k491y",
-          "author": null,
-          "description": "May 13, 17:45 CEST\nResolved - The zone is now stable and we haven't observed any issues.\nMay 13, 16:29 CEST\nUpdate - The current situation has become stable. We're continuously monitoring the environment and we will provide an update in then next 2 hours\nMay 13, 15:41 CEST\nMonitoring - We are currently looking into a technical problem that could lead to decreased performance in the eu2.make.com zone. Our telemetry indicates potential delays in webhook processing.",
-          "link": "https://status.make.com/incidents/6x6kc32k491y",
-          "publishedOn": "2024-05-13T15:45:21.000Z",
-          "wordCount": 3876,
-          "title": "eu2.make.com",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
