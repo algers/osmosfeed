@@ -22,6 +22,138 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-14 datetime="2024-06-14T12:00:00.000Z">2024-06-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-14 datetime="2024-06-14T12:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >DigitalOcean Status - Incident History</button>
+                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.digitalocean.com/incidents/strx1rfhm9r7"
+                        open
+                      >
+                        <summary class="article-expander__title">SFO Network Maintenance</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/strx1rfhm9r7">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>THIS IS A SCHEDULED EVENT Jun 14, 12:00 - 14:00 UTC
+Jun  7, 14:04 UTC
+Scheduled - Start: 2024-06-14 12:00 UTC
+End: 2024-06-14 14:00 UTC
+During the above window, our Networking team will be making changes to core networking infrastructure, to improve performance and scalability in the SFO1, SFO2, and SFO3 regions.
+Expected Impact:
+Our team will be closely monitoring and we do not expect any disruption to customer workloads.
+If an unexpected issue arises, affected Droplets and Droplet-based services in the SFO[1-3] regions could experience increased latency or disruption in public network traffic for a short period of time. If an unexpected issue does occur, our team is prepared to rollback to a safe state to quickly restore public networking. We expect that traffic would be impacted for a period of 5-10 minutes at most in that case.
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;21
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-13 datetime="2024-06-13T18:34:01.000Z">2024-06-13</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-13 datetime="2024-06-13T18:34:01.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Google Workspace Status Dashboard Updates</button>
+                  <a class="source-heading__link" href="https://www.google.com/appsstatus/dashboard/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/QNFwydEugqSm2e4UScci"
+                        open
+                      >
+                        <summary class="article-expander__title">RESOLVED: **Summary:**
+Global: Elevated App Script Failures
+**Description:**
+We experienced an issue with Apps Script beginning at Tuesday, 2024-06-11 06:04 to 06:41 US/Pacific.
+Our engineering team continues to investigate the issue.
+We will provide an update by Tuesday, 2024-06-11 08:40 US/Pacific with current details.
+We apologize to all who are affected by the disruption.
+**Diagnosis:**
+Customers impacted by this issue may have observed 500 errors and were unable to load / run App Scripts.
+**Workaround:**
+None at this time.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/QNFwydEugqSm2e4UScci">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Incident began at 2024-06-11 13:04 and ended at 2024-06-11 13:41 (times are in Coordinated Universal Time (UTC)).
+
+Incident Report
+Summary
+On Tuesday, 11 June 2024, Apps Script experienced increased error rates and users may have experienced intermittent issues in script creation and execution for a duration of 37 minutes. In addition to this, any of the Workspace services that internally use Apps Script may have encountered issues during the period of impact. We sincerely apologize to all Apps Script users. This is not the level of quality and reliability we strive to offer you, and we are taking immediate steps to improve the platform’s performance and availability.
+Root Cause
+One of the scripts received an unexpectedly high number of the queries per second (QPS) which resulted in hotspotting for our database service (a database hotspot is created because a single server receives most or all of the writes, which overloads that one server). This led to deadline exceeded errors, thereby increasing the error rate in our remote procedure calls (RPCs) and leading to the script creation and execution issues.
+Remediation and Prevention
+Google engineers were alerted to the outage by the internal monitoring systems that sent multiple alerts starting 06:25 US/Pacific (approximately 15 mins after issue started) and immediately started an investigation. Once the nature and scope of the issue became clear, Google engineers first quickly enforced limits on read actions for the affected script and then blocked the script which led to returning database hotspotting and error rate in our RPCs back to their original values.
+Google is committed to preventing a repeat of this issue in the future and is completing the following actions:
+Enable caching on read replicas for App Info to reduce the number of requests being sent to our database service.
+Adding limits and alerts for all RPCs to ensure a limit on the QPS that one add on can send.
+Reduce the number of read replicas to avoid loading App Info on multiple replicas.
+Google is committed to quickly and continually improving our technology and operations to prevent service disruptions. We appreciate your patience and apologize again for the impact to your organization. We thank you for your business.
+Detailed Description of Impact
+On Tuesday, 11 June 2024 from 06:04 US/Pacific to 06:41 US/Pacific Apps Script experienced increased error rates (error rate in our RPCs increased to ~20% whilst the expected error rate is ~1.3%.
+Apps Script
+Affected users experienced intermittent issues in script creation and execution for a duration of their app script applications receiving DEADLINE_EXCEEDED error status.
+
+Affected products: Apps Script</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-12 datetime="2024-06-12T20:23:09.000Z">2024-06-12</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-12 datetime="2024-06-12T20:23:09.000Z"></time>
           </button>
@@ -245,66 +377,6 @@ Update - Customers may see issues running Actions
 Jun 11, 20:33 UTC
 Investigating - We are investigating reports of degraded performance for Actions and API Requests</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Google Workspace Status Dashboard Updates</button>
-                  <a class="source-heading__link" href="https://www.google.com/appsstatus/dashboard/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/QNFwydEugqSm2e4UScci"
-                        open
-                      >
-                        <summary class="article-expander__title">RESOLVED: **Summary:**
-Global: Elevated App Script Failures
-**Description:**
-We experienced an issue with Apps Script beginning at Tuesday, 2024-06-11 06:04 to 06:41 US/Pacific.
-Our engineering team continues to investigate the issue.
-We will provide an update by Tuesday, 2024-06-11 08:40 US/Pacific with current details.
-We apologize to all who are affected by the disruption.
-**Diagnosis:**
-Customers impacted by this issue may have observed 500 errors and were unable to load / run App Scripts.
-**Workaround:**
-None at this time.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/QNFwydEugqSm2e4UScci">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Incident began at 2024-06-11 13:04 and ended at 2024-06-11 13:41 (times are in Coordinated Universal Time (UTC)).
-
-Mini Incident Report
-We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article https://support.google.com/a/answer/1047213.
-(All Times US/Pacific)
-Incident Start: 11 June 2024 06:04
-Incident End: 11 June 2024 06:41
-Duration: 37 minutes
-Affected Services and Features:
-Apps Script
-Regions/Zones: Global
-Description:
-Apps Script experienced increased error rates for a duration of 37 minutes. From preliminary analysis, the root cause of the issue was due to an unexpected increase in traffic related to a third-party add-on that resulted in resource contention.
-Engineers temporarily blocked the third-party add-on that was the cause of the increased traffic to mitigate the issue.
-Customer Impact:
-Customers may have received errors when attempting to load or run Apps Scripts.
-
-Affected products: Apps Script</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2603,221 +2675,10 @@ Investigating - We are investigating reports of degraded performance for Actions
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-15 datetime="2024-05-15T06:41:51.000Z">2024-05-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-15 datetime="2024-05-15T06:41:51.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Make Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.make.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.make.com/incidents/9x4wb21zkj5t"
-                        open
-                      >
-                        <summary class="article-expander__title">Scheduled infrastructure maintenance</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.make.com/incidents/9x4wb21zkj5t">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>May 15, 08:41 CEST
-Completed - The scheduled maintenance has been completed.
-May 15, 05:00 CEST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-May  7, 17:25 CEST
-Scheduled - Dear customer,
-We are writing to inform you about an upcoming Scheduled infrastructure maintenance on 15.5.2024.  
-This maintenance will take place between 05:00 - 09:00 CEST. 
-How will this impact your workload? 
-This maintenance, occurring at the database level will affect some of the following services for a short period:   
-- Scenarios execution will be delayed. This is because the webhooks will be affected and will be queued for a short period.
-The following services will be temporarily disabled:
-- Subscription change or coupon applies.  
-- Manual purchase of extra operations.    
-        Note: Users with extra operations auto purchasing enabled are not impacted
-- Organization operations such as creating a new organization, transferring user-organization roles, updating organizational details, deleting organizations, and sending invitations to join an organization.
-- User-specific operations including disabling 2FA authentication, updating user details such as passwords and email addresses, managing user-organization roles, creating and deleting API tokens for users, and deleting users from the system.
-We will inform you once the maintenance is completed. 
-If you have any questions, please do not hesitate to reach out to our support team. 
-Thank you very much.
-Kind regards,
-Your Make Team
-[Affected zone: us1.make.com]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >DigitalOcean Status - Incident History</button>
-                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/t8z2tmm669yf"
-                        open
-                      >
-                        <summary class="article-expander__title">NYC2 Network Maintenance 2024-05-14</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/t8z2tmm669yf">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>May 15, 01:38 UTC
-Completed - During the maintenance, our Engineering team observed possible connectivity issues between Droplets and networking services like LBaaS.
-Due to such unforeseen issues, our Engineering team has decided to rollback this maintenance for now and will be rescheduling it at a later date.
-We apologize for the inconvenience and the unexpected downtime to services. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.
-May 14, 22:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-May  7, 04:13 UTC
-Scheduled - Start: 2024-05-14 22:00 UTC
-End: 2024-05-15 02:00 UTC
-During the above window, our Networking team will be making changes to core networking infrastructure, to improve performance and scalability in the NYC2 region. 
-Expected impact:
-These upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience increased latency or a brief disruption in network traffic. We will endeavor to keep any such impact to a minimum.
-If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-05-14 datetime="2024-05-14T21:04:49.000Z">2024-05-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-05-14 datetime="2024-05-14T21:04:49.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >GitHub Status - Incident History</button>
-                  <a class="source-heading__link" href="https://www.githubstatus.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.githubstatus.com/incidents/bfkxf0w61z1n"
-                        open
-                      >
-                        <summary class="article-expander__title">We are investigating reports of degraded performance.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.githubstatus.com/incidents/bfkxf0w61z1n">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>May 14, 21:04 UTC
-Resolved - On May 14, 2024 between 18:00 UTC and 20:10 UTC, GitHub Actions performance was degraded and larger hosted runners using linux-x64 images (Ubuntu20, Ubuntu22, Ubuntu24-beta) experienced longer than normal job start up times. Approximately 25% of all runs targeting larger hosted runners queued during this time were slow to start, with a median wait time of 1 minute, 55 seconds.
-The issue was caused by a downstream dependency overloading, which impacted our machine setup process. Each larger hosted runner job is run on a fresh VM, and one of the setup steps is installing the Actions agent. Up to the point of this incident, we would pull the latest agent version from the GitHub release and install it on the VM. However, during this incident the speciific GitHub re…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Airbnb API Status - Incident History</button>
-                  <a class="source-heading__link" href="https://airbnbapi.statuspage.io">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://airbnbapi.statuspage.io/incidents/7h6gs9qk9h41"
-                        open
-                      >
-                        <summary class="article-expander__title">Important update: TLS ciphers</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://airbnbapi.statuspage.io/incidents/7h6gs9qk9h41">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>May 14, 09:53 PDT
-Completed - The upgrade has been completed.
-Mar 20, 10:04 PDT
-Scheduled - We are in the process of upgrading our digital signature algorithm to ECDSA Certificates and transitioning to a more robust and faster TLS cipher suite. This shift will not only strengthen security but also enhance our efficiency, speed, and performance of secure communications. 
-Starting May 1, 2024, we will exclusively support the following ciphers:
-- TLS-AES-256-GCM-SHA384
-- TLS-CHACHA20-POLY1305-SHA256
-- TLS-AES-128-GCM-SHA256
-- ECDHE-ECDSA-AES256-GCM-SHA384
-- ECDHE-ECDSA-AES128-GCM-SHA256
-- ECDHE-ECDSA-CHACHA20-POLY1305
-Please make plans to update your systems accordingly as soon as possible. If your client does not support any of the ciphers listed above, you will not be able to establish a connection with our API.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/9491591003">
-        <time id="build-timestamp" datetime="2024-06-13T00:23:23.952Z">2024-06-13T00:23:23.952Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/9508592850">
+        <time id="build-timestamp" datetime="2024-06-14T00:23:07.929Z">2024-06-14T00:23:07.929Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
