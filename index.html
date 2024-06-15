@@ -22,8 +22,60 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-14 datetime="2024-06-14T12:00:00.000Z">2024-06-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-14 datetime="2024-06-14T12:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-15 datetime="2024-06-15T00:11:56.000Z">2024-06-15</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-15 datetime="2024-06-15T00:11:56.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >DigitalOcean Status - Incident History</button>
+                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.digitalocean.com/incidents/yqjv7c5yn7lw"
+                        open
+                      >
+                        <summary class="article-expander__title">Managed Databases Control Plane</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/yqjv7c5yn7lw">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Jun 15, 00:11 UTC
+Monitoring - Our Engineering team has implemented a fix to fully resolve the issue with our Managed Databases services. At this time, users should no longer face issues creating, resizing, forking, or updating trusted sources for PostgreSQL, MySQL, Redis, and Kafka clusters, in any region, as well as Mongo clusters in NYC regions. 
+We are monitoring the situation closely and will post an update as soon as we confirm the issue is fully resolved.
+Jun 14, 22:48 UTC
+Update - Our Engineering team has been able to partially mitigate impact from this incident. Creating, resizing, forking, and updates to trusted sources of PostgreSQL, MySQL, Redis, and Kafka clusters, in all regions, is now working as expected. Operations previously attempted on clusters, such as firewall rule at…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;22
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-06-14 datetime="2024-06-14T14:00:02.000Z">2024-06-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-06-14 datetime="2024-06-14T14:00:02.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -50,7 +102,10 @@
                           <div class="article-summary-box-inner media-object">
                               <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>THIS IS A SCHEDULED EVENT Jun 14, 12:00 - 14:00 UTC
+                              <span>Jun 14, 14:00 UTC
+Completed - The scheduled maintenance has been completed.
+Jun 14, 12:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Jun  7, 14:04 UTC
 Scheduled - Start: 2024-06-14 12:00 UTC
 End: 2024-06-14 14:00 UTC
@@ -367,7 +422,8 @@ Upgrade your macOS and iOS clients to 1.68.0 or later.</span>
                               <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Jun 11, 21:39 UTC
-Resolved - This incident has been resolved.
+Resolved - On June 11th, 2024 between 20:13 UTC and 21:39 UTC, the GitHub Actions service was degraded. A security-related change applied by one of our third-party providers prevented new customers from onboarding to GitHub Actions and caused an average 28% of Actions jobs to fail.
+We mitigated the incident by working with the third-party provider to revert the change and are working with their engineering team to fully understand the root cause. Additionally, we are improving communication between GitHub and our service providers to reduce the time needed to resolve similar issues in the future.
 Jun 11, 21:35 UTC
 Update - We&#x27;ve applied a mitigation to unblock running Actions and are seeing an improvement in our service availability.
 Jun 11, 21:16 UTC
@@ -543,7 +599,6 @@ If you have any questions related to this issue please send us a ticket from you
                         <summary class="article-expander__title">Incident: Issues with Outlook Calendar app</summary>
                         <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-06/bc7116d877ca0fdb">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Issue summary:
 From June 8, 2024, 4:30PM PDT to June 9, 2024 10:50PM PDT, some customers experienced an error when using the Outlook Calendar app in Slack.
@@ -551,8 +606,6 @@ From June 8, 2024, 4:30PM PDT to June 9, 2024 10:50PM PDT, some customers experi
 We determined that Slack credentials to connect to Outlook Calendar had expired, causing the app integration to fail.
 
 We have successfully updated the app with new credentials, which has resolved the issue for all impacted users.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -2632,53 +2685,12 @@ Log in to your Smily account today and explore the new Finance section. You can 
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >GitHub Status - Incident History</button>
-                  <a class="source-heading__link" href="https://www.githubstatus.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.githubstatus.com/incidents/2bglpcjvg7xb"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident with Actions</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.githubstatus.com/incidents/2bglpcjvg7xb">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>May 16, 05:15 UTC
-Resolved - On May 16, 2024, between 4:10 UTC and 5:02 UTC customers experienced various delays in background jobs, primarily UI updates for Actions. This issue was due to degradation in our background job service affecting 22.4% of total jobs.  Across all affected services, the average job delay was 2m 22s.  Actions jobs themselves were unaffected, this issue affected the timeliness of UI updates, with an average delay of 11m 40s and a maximum of 20m 14s.
-This incident was due to a performance problem on a single processing node, where Actions UI updates were being processed.  Additionally, a misconfigured monitor did not alert immediately, resulting in a 25m late detection time and a 37m total increase in time to mitigate.   
-We mitigated the incident by removing the problem node from the cluster and service was restored.  No data was lost, and all jobs executed successfully.
-To reduce our time to detection and mitigation of issues like this one in the future, we have repaired our misconfigured monitor and added additional monitoring to this service. 
-
-May 16, 04:43 UTC
-Investigating - We are investigating reports of degraded performance for Actions</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/9508592850">
-        <time id="build-timestamp" datetime="2024-06-14T00:23:07.929Z">2024-06-14T00:23:07.929Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/9523916419">
+        <time id="build-timestamp" datetime="2024-06-15T00:23:04.414Z">2024-06-15T00:23:04.414Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

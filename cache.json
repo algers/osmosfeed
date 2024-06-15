@@ -93,12 +93,22 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/yqjv7c5yn7lw",
+          "author": null,
+          "description": "Jun 15, 00:11 UTC\nMonitoring - Our Engineering team has implemented a fix to fully resolve the issue with our Managed Databases services. At this time, users should no longer face issues creating, resizing, forking, or updating trusted sources for PostgreSQL, MySQL, Redis, and Kafka clusters, in any region, as well as Mongo clusters in NYC regions. \nWe are monitoring the situation closely and will post an update as soon as we confirm the issue is fully resolved.\nJun 14, 22:48 UTC\nUpdate - Our Engineering team has been able to partially mitigate impact from this incident. Creating, resizing, forking, and updates to trusted sources of PostgreSQL, MySQL, Redis, and Kafka clusters, in all regions, is now working as expected. Operations previously attempted on clusters, such as firewall rule at…",
+          "link": "https://status.digitalocean.com/incidents/yqjv7c5yn7lw",
+          "publishedOn": "2024-06-15T00:11:56.000Z",
+          "wordCount": 6572,
+          "title": "Managed Databases Control Plane",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/strx1rfhm9r7",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 14, 12:00 - 14:00 UTC\nJun  7, 14:04 UTC\nScheduled - Start: 2024-06-14 12:00 UTC\nEnd: 2024-06-14 14:00 UTC\nDuring the above window, our Networking team will be making changes to core networking infrastructure, to improve performance and scalability in the SFO1, SFO2, and SFO3 regions.\nExpected Impact:\nOur team will be closely monitoring and we do not expect any disruption to customer workloads.\nIf an unexpected issue arises, affected Droplets and Droplet-based services in the SFO[1-3] regions could experience increased latency or disruption in public network traffic for a short period of time. If an unexpected issue does occur, our team is prepared to rollback to a safe state to quickly restore public networking. We expect that traffic would be impacted for a period of 5-10 minutes at most in that case.\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
+          "description": "Jun 14, 14:00 UTC\nCompleted - The scheduled maintenance has been completed.\nJun 14, 12:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun  7, 14:04 UTC\nScheduled - Start: 2024-06-14 12:00 UTC\nEnd: 2024-06-14 14:00 UTC\nDuring the above window, our Networking team will be making changes to core networking infrastructure, to improve performance and scalability in the SFO1, SFO2, and SFO3 regions.\nExpected Impact:\nOur team will be closely monitoring and we do not expect any disruption to customer workloads.\nIf an unexpected issue arises, affected Droplets and Droplet-based services in the SFO[1-3] regions could experience increased latency or disruption in public network traffic for a short period of time. If an unexpected issue does occur, our team is prepared to rollback to a safe state to quickly restore public networking. We expect that traffic would be impacted for a period of 5-10 minutes at most in that case.\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
           "link": "https://status.digitalocean.com/incidents/strx1rfhm9r7",
-          "publishedOn": "2024-06-14T12:00:00.000Z",
-          "wordCount": 6332,
+          "publishedOn": "2024-06-14T14:00:02.000Z",
+          "wordCount": 6360,
           "title": "SFO Network Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -363,10 +373,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/lfrlwdg67fn8",
           "author": null,
-          "description": "Jun 11, 21:39 UTC\nResolved - This incident has been resolved.\nJun 11, 21:35 UTC\nUpdate - We've applied a mitigation to unblock running Actions and are seeing an improvement in our service availability.\nJun 11, 21:16 UTC\nUpdate - Customers may see issues running Actions, we are in the process of applying a mitigation to restore our service.\nJun 11, 20:34 UTC\nUpdate - Customers may see issues running Actions\nJun 11, 20:33 UTC\nInvestigating - We are investigating reports of degraded performance for Actions and API Requests",
+          "description": "Jun 11, 21:39 UTC\nResolved - On June 11th, 2024 between 20:13 UTC and 21:39 UTC, the GitHub Actions service was degraded. A security-related change applied by one of our third-party providers prevented new customers from onboarding to GitHub Actions and caused an average 28% of Actions jobs to fail.\nWe mitigated the incident by working with the third-party provider to revert the change and are working with their engineering team to fully understand the root cause. Additionally, we are improving communication between GitHub and our service providers to reduce the time needed to resolve similar issues in the future.\nJun 11, 21:35 UTC\nUpdate - We've applied a mitigation to unblock running Actions and are seeing an improvement in our service availability.\nJun 11, 21:16 UTC\nUpdate - Customers may see issues running Actions, we are in the process of applying a mitigation to restore our service.\nJun 11, 20:34 UTC\nUpdate - Customers may see issues running Actions\nJun 11, 20:33 UTC\nInvestigating - We are investigating reports of degraded performance for Actions and API Requests",
           "link": "https://www.githubstatus.com/incidents/lfrlwdg67fn8",
           "publishedOn": "2024-06-11T21:39:47.000Z",
-          "wordCount": 5345,
+          "wordCount": 5433,
           "title": "Incident with Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -439,16 +449,6 @@
           "wordCount": 5392,
           "title": "We are investigating reports of degraded performance.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/2bglpcjvg7xb",
-          "author": null,
-          "description": "May 16, 05:15 UTC\nResolved - On May 16, 2024, between 4:10 UTC and 5:02 UTC customers experienced various delays in background jobs, primarily UI updates for Actions. This issue was due to degradation in our background job service affecting 22.4% of total jobs.  Across all affected services, the average job delay was 2m 22s.  Actions jobs themselves were unaffected, this issue affected the timeliness of UI updates, with an average delay of 11m 40s and a maximum of 20m 14s.\nThis incident was due to a performance problem on a single processing node, where Actions UI updates were being processed.  Additionally, a misconfigured monitor did not alert immediately, resulting in a 25m late detection time and a 37m total increase in time to mitigate.   \nWe mitigated the incident by removing the problem node from the cluster and service was restored.  No data was lost, and all jobs executed successfully.\nTo reduce our time to detection and mitigation of issues like this one in the future, we have repaired our misconfigured monitor and added additional monitoring to this service. \n\nMay 16, 04:43 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
-          "link": "https://www.githubstatus.com/incidents/2bglpcjvg7xb",
-          "publishedOn": "2024-05-16T05:15:35.000Z",
-          "wordCount": 5439,
-          "title": "Incident with Actions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -463,9 +463,9 @@
           "description": "Issue summary:\r\nFrom June 8, 2024, 4:30PM PDT to June 9, 2024 10:50PM PDT, some customers experienced an error when using the Outlook Calendar app in Slack.\r\n\r\nWe determined that Slack credentials to connect to Outlook Calendar had expired, causing the app integration to fail.\r\n\r\nWe have successfully updated the app with new credentials, which has resolved the issue for all impacted users.",
           "link": "https://slack-status.com/2024-06/bc7116d877ca0fdb",
           "publishedOn": "2024-06-10T15:14:41.000Z",
-          "wordCount": 284,
+          "wordCount": 1,
           "title": "Incident: Issues with Outlook Calendar app",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+          "imageUrl": null
         },
         {
           "id": "https://slack-status.com/2024-06/b283a58610aae52d",

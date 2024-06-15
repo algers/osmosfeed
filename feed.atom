@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-14T00:23:07.948Z</id>
+    <id>urn:2024-06-15T00:23:04.433Z</id>
     <title>osmos::feed</title>
-    <updated>2024-06-14T00:23:07.948Z</updated>
+    <updated>2024-06-15T00:23:04.433Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Managed Databases Control Plane]]></title>
+        <id>https://status.digitalocean.com/incidents/yqjv7c5yn7lw</id>
+        <link href="https://status.digitalocean.com/incidents/yqjv7c5yn7lw"/>
+        <updated>2024-06-15T00:11:56.000Z</updated>
+        <summary type="html"><![CDATA[Jun 15, 00:11 UTC
+Monitoring - Our Engineering team has implemented a fix to fully resolve the issue with our Managed Databases services. At this time, users should no longer face issues creating, resizing, forking, or updating trusted sources for PostgreSQL, MySQL, Redis, and Kafka clusters, in any region, as well as Mongo clusters in NYC regions. 
+We are monitoring the situation closely and will post an update as soon as we confirm the issue is fully resolved.
+Jun 14, 22:48 UTC
+Update - Our Engineering team has been able to partially mitigate impact from this incident. Creating, resizing, forking, and updates to trusted sources of PostgreSQL, MySQL, Redis, and Kafka clusters, in all regions, is now working as expected. Operations previously attempted on clusters, such as firewall rule at…]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SFO Network Maintenance]]></title>
         <id>https://status.digitalocean.com/incidents/strx1rfhm9r7</id>
         <link href="https://status.digitalocean.com/incidents/strx1rfhm9r7"/>
-        <updated>2024-06-14T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jun 14, 12:00 - 14:00 UTC
+        <updated>2024-06-14T14:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Jun 14, 14:00 UTC
+Completed - The scheduled maintenance has been completed.
+Jun 14, 12:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Jun  7, 14:04 UTC
 Scheduled - Start: 2024-06-14 12:00 UTC
 End: 2024-06-14 14:00 UTC
@@ -155,7 +172,8 @@ Upgrade your macOS and iOS clients to 1.68.0 or later.]]></summary>
         <link href="https://www.githubstatus.com/incidents/lfrlwdg67fn8"/>
         <updated>2024-06-11T21:39:47.000Z</updated>
         <summary type="html"><![CDATA[Jun 11, 21:39 UTC
-Resolved - This incident has been resolved.
+Resolved - On June 11th, 2024 between 20:13 UTC and 21:39 UTC, the GitHub Actions service was degraded. A security-related change applied by one of our third-party providers prevented new customers from onboarding to GitHub Actions and caused an average 28% of Actions jobs to fail.
+We mitigated the incident by working with the third-party provider to revert the change and are working with their engineering team to fully understand the root cause. Additionally, we are improving communication between GitHub and our service providers to reduce the time needed to resolve similar issues in the future.
 Jun 11, 21:35 UTC
 Update - We've applied a mitigation to unblock running Actions and are seeing an improvement in our service availability.
 Jun 11, 21:16 UTC
@@ -1097,23 +1115,6 @@ Ready to dive into the new era of financial management?
 Log in to your Smily account today and explore the new Finance section. You can find out more information in our dedicated manual article.]]></summary>
         <author>
             <name>Megan, Product Manager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Actions]]></title>
-        <id>https://www.githubstatus.com/incidents/2bglpcjvg7xb</id>
-        <link href="https://www.githubstatus.com/incidents/2bglpcjvg7xb"/>
-        <updated>2024-05-16T05:15:35.000Z</updated>
-        <summary type="html"><![CDATA[May 16, 05:15 UTC
-Resolved - On May 16, 2024, between 4:10 UTC and 5:02 UTC customers experienced various delays in background jobs, primarily UI updates for Actions. This issue was due to degradation in our background job service affecting 22.4% of total jobs.  Across all affected services, the average job delay was 2m 22s.  Actions jobs themselves were unaffected, this issue affected the timeliness of UI updates, with an average delay of 11m 40s and a maximum of 20m 14s.
-This incident was due to a performance problem on a single processing node, where Actions UI updates were being processed.  Additionally, a misconfigured monitor did not alert immediately, resulting in a 25m late detection time and a 37m total increase in time to mitigate.   
-We mitigated the incident by removing the problem node from the cluster and service was restored.  No data was lost, and all jobs executed successfully.
-To reduce our time to detection and mitigation of issues like this one in the future, we have repaired our misconfigured monitor and added additional monitoring to this service. 
-
-May 16, 04:43 UTC
-Investigating - We are investigating reports of degraded performance for Actions]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
