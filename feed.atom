@@ -1,20 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-15T00:23:04.433Z</id>
+    <id>urn:2024-06-16T00:25:53.068Z</id>
     <title>osmos::feed</title>
-    <updated>2024-06-15T00:23:04.433Z</updated>
+    <updated>2024-06-16T00:25:53.068Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - AT&T]]></title>
+        <id>https://status.twilio.com/incidents/gfljxz66h52d</id>
+        <link href="https://status.twilio.com/incidents/gfljxz66h52d"/>
+        <updated>2024-06-16T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jun 15, 20:00 PDT  -  Jun 16, 05:00 PDT
+Jun 14, 22:50 PDT
+Scheduled - Our carrier partner AT&T United States is conducting an emergency maintenance from 15 June 2024 at 20:00 PDT until 16 June 2024 at 05:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.
+
+Impacted Product: Verify Silent Network Auth]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - AT&T]]></title>
+        <id>https://status.twilio.com/incidents/6zk1bb1m7fl8</id>
+        <link href="https://status.twilio.com/incidents/6zk1bb1m7fl8"/>
+        <updated>2024-06-15T23:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Jun 15, 16:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Jun 14, 22:45 PDT
+Scheduled - Our carrier partner AT&T United States is conducting an emergency maintenance from 15 June 2024 at 16:00 PDT until 15 June 2024 at 22:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.
+
+Impacted Product: Verify Silent Network Auth]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some customers may be having issues signing in from external sites]]></title>
+        <id>https://slack-status.com/2024-06/d98fd8926cbb17ee</id>
+        <link href="https://slack-status.com/2024-06/d98fd8926cbb17ee"/>
+        <updated>2024-06-15T03:08:20.000Z</updated>
+        <summary type="html"><![CDATA[We’ve resolved the issue that some customers experienced when signing in to Slack through external websites. We appreciate your patience while we sorted this out.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Managed Databases Control Plane]]></title>
         <id>https://status.digitalocean.com/incidents/yqjv7c5yn7lw</id>
         <link href="https://status.digitalocean.com/incidents/yqjv7c5yn7lw"/>
-        <updated>2024-06-15T00:11:56.000Z</updated>
-        <summary type="html"><![CDATA[Jun 15, 00:11 UTC
+        <updated>2024-06-15T02:56:01.000Z</updated>
+        <summary type="html"><![CDATA[Jun 15, 02:56 UTC
+Resolved - Our Engineering team has confirmed that this incident has been fully resolved.
+We appreciate your patience throughout this process and if you continue to experience problems, please open a ticket with our support team for further review.
+Jun 15, 00:11 UTC
 Monitoring - Our Engineering team has implemented a fix to fully resolve the issue with our Managed Databases services. At this time, users should no longer face issues creating, resizing, forking, or updating trusted sources for PostgreSQL, MySQL, Redis, and Kafka clusters, in any region, as well as Mongo clusters in NYC regions. 
 We are monitoring the situation closely and will post an update as soon as we confirm the issue is fully resolved.
 Jun 14, 22:48 UTC
-Update - Our Engineering team has been able to partially mitigate impact from this incident. Creating, resizing, forking, and updates to trusted sources of PostgreSQL, MySQL, Redis, and Kafka clusters, in all regions, is now working as expected. Operations previously attempted on clusters, such as firewall rule at…]]></summary>
+Update - Our Engineering team has been able to p…]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
         </author>
@@ -1021,100 +1063,6 @@ May 20, 16:47 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Users from teams using SSO cannot change their display names, despite SSO settings allowing them to.]]></title>
-        <id>https://slack-status.com/2024-05/88c11933be3a774a</id>
-        <link href="https://slack-status.com/2024-05/88c11933be3a774a"/>
-        <updated>2024-05-17T03:01:53.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-From 14 May 2024 12:38 PDT until 16 May 2024 07:53 PDT, some customers using single sign-on (SSO) reported they were unable to change their display names, despite their SSO preferences/settings allowing them to.
-
-A piece of code that was recently released was the root issue. The code affected account-type permissions and made the UI appear like no one in a team could update display names, despite settings being correctly adjusted to allow this of users.
-
-We immediately adjusted the script on said code, allowing those affected to be able to update display names again.
-
-We apologise for any inconvenience caused.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scheduled infrastructure maintenance]]></title>
-        <id>https://status.make.com/incidents/b13j98t829mn</id>
-        <link href="https://status.make.com/incidents/b13j98t829mn"/>
-        <updated>2024-05-17T00:10:02.000Z</updated>
-        <summary type="html"><![CDATA[May 17, 02:10 CEST
-Completed - The scheduled maintenance has been completed.
-May 16, 22:10 CEST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-May  7, 17:33 CEST
-Scheduled - Dear customer,
-We are writing to inform you about an upcoming Scheduled infrastructure maintenance on 16.5.2024.  
-This maintenance will take place between 22:00 - 02:00 CEST. 
-How will this impact your workload? 
-This maintenance, occurring at the database level will affect some of the following services for a short period:   
-- Scenarios execution will be delayed. This is because the webhooks will be affected and will be queued for a short period.
-The following services will be temporarily disabled:
-- Subscription change or coupon applies.  
-- Manual purchase of extra operations.    
-        Note: Users with extra operations auto purchasing enabled are not impacted
-- Organization operations such as creating a new organization, transferring user-organization roles, updating organizational details, deleting organizations, and sending invitations to join an organization.
-- User-specific operations including disabling 2FA authentication, updating user details such as passwords and email addresses, managing user-organization roles, creating and deleting API tokens for users, and deleting users from the system.
-We will inform you once the maintenance is completed. 
-If you have any questions, please do not hesitate to reach out to our support team. 
-Thank you very much.
-Kind regards,
-Your Make Team
-[Affected zone: eu1.make.com]]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues signing into Health Savings Accounts]]></title>
-        <id>https://status.rippling.com/incidents/wslphj1h728q</id>
-        <link href="https://status.rippling.com/incidents/wslphj1h728q"/>
-        <updated>2024-05-16T23:18:02.000Z</updated>
-        <summary type="html"><![CDATA[May 16, 23:18 UTC
-Resolved - The ability to sign-in has been fully restored and the issue is resolved.
-May 16, 19:52 UTC
-Monitoring - Our third party vendor has restored the ability to sign in.
-May 16, 15:30 UTC
-Identified - The issue has been identified with our third party vendor and they are working on a fix.]]></summary>
-        <author>
-            <name>Rippling Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🤩 Master Your Finances with SmilyPay's New Financial Reports!]]></title>
-        <id>292955</id>
-        <link href="https://changelog.bookingsync.com/master-your-finances-with-smilypay's-new-financial-reports!-292955"/>
-        <updated>2024-05-16T14:25:12.000Z</updated>
-        <summary type="html"><![CDATA[New!
-  
-We’re excited to announce a major update to our SmilyPay solution that’s set to revolutionize how you manage your property finances! 🚀
-Introducing Enhanced Financial Reporting – Simplify, Track, and Forecast Your Finances
-At Smily, we understand the importance of clear and concise financial management. That's why we’re thrilled to bring you new features within SmilyPay that provide a comprehensive view of your financial landscape.
-
-What’s New?
-Track Received Payouts: Easily view the payouts you have received, grouped by SmilyPay account.
-
-
-Forecast Upcoming Payments: Get a clear picture of expected future payouts, helping you plan better and manage cash flow more effectively.
-
-
-Reconcile Payments with Bookings: Easily reconcile your payouts with your bookings and seamlessly track SmilyPay fees deducted per transaction, ensuring accuracy and saving you valuable time.
-
-
-These enhancements are designed not just to inform but to transform the way you interact with your finances, giving you back control and simplifying your administrative tasks.
-Note: the Financial Reports are only available for payments processed with SmilyPay
-Take the Next Step
-Ready to dive into the new era of financial management? 
-Log in to your Smily account today and explore the new Finance section. You can find out more information in our dedicated manual article.]]></summary>
-        <author>
-            <name>Megan, Product Manager</name>
         </author>
     </entry>
 </feed>
