@@ -28,7 +28,7 @@
           "description": "Description: Partial loss of audit and network flow logs\nWhat happened?\nAn integer overflow in our logs processing service led to some customer logs\nto be non-deterministically dropped with a probability of 14%.\nThe overflow condition first exhibited on June 7th, 2024 at 20:45 UTC and\nwas detected and resolved by June 14th, 2024 at 00:40 UTC.\nWho was affected?\nAll tailnets that rely on audit and network flow logs have been affected.\nWhat was the impact?\nThe 14% chance of dropped log entries affects storing of logs such as\nconfiguration audit logs and\nnetwork flow logs.\nWhile logs can be retrieved for the timeframe that the overflow bug was active,\nsome fraction of the entries may be missing.\nWhat do I need to do?\nNo action is needed at this time.\nWe fixed the bug, added additional error checking, and\ndeployed both to the logs processing service.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-008",
           "publishedOn": "2024-06-14T00:00:00.000Z",
-          "wordCount": 14274,
+          "wordCount": 14254,
           "title": "TS-2024-008",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         },
@@ -38,7 +38,7 @@
           "description": "Description: Incorrect DNS resolution with split DNS on macOS and iOS\nWhat happened?\nOn Tailscale macOS and iOS clients with split DNS configurations (like App\nConnectors or Restricted\nNameservers), lookups of bare tailnet node names\ncould in rare cases return incorrect answers. For example, if a node mynode\nand an App Connector for *.example.com exist on a tailnet, DNS lookups for\nmynode could return the answer for mynode.example.com instead of the local\ntailnet IP. This mis-configuration is intermittent, and most often triggers for\na few seconds when switching device networks (for example from Wi-Fi to a phone\nhotspot).\nWe fixed this bug in client version 1.68.0, and notified the security contacts\nof potentially affected tailnets over email.\nWho was affected?\nAll tailnets that use App Connectors or Restricted Domains, and have macOS or\niOS nodes could have been affected.\nThis bug is usually intermittently-triggered when switching networks in our\nexperience. Only lookups of bare domains, like mynode but not\nmynode.mytailnet.ts.net, are at risk.\nNote that not all split DNS domains are dangerous. Only domains where an\nattacker can choose their FQDN to match a node name, and controls the\ndestination to receive non-TLS traffic could be abused.\nWe are not aware of any active exploitation of this vulnerability.\nWhat was the impact?\nFor a split DNS domain example.com, an attacker with control over\nmynode.example.com can impersonate a non-TLS server running on node mynode\non the tailnet. This attack is opportunistic and passive - it relies on the\nuser connecting to mynode using its bare domain and cannot be forced\nremotely.\nWhat do I need to do?\nUpgrade your macOS and iOS clients to 1.68.0 or later.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-007",
           "publishedOn": "2024-06-12T00:00:00.000Z",
-          "wordCount": 14274,
+          "wordCount": 14254,
           "title": "TS-2024-007",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         },
@@ -48,7 +48,7 @@
           "description": "Description: Tailnet SSO provider migration impacting invited users\nWhat happened?\nWhen tailnets are created, they are associated with an SSO\nprovider such as Google or Microsoft, requiring all members\nof the tailnet to authenticate using that provider. In addition, Tailscale also\nsupports inviting external users to tailnets to allow\nsharing with contractors, friends, or other collaborators who may use a\ndifferent SSO provider than that of the inviting tailnet to log in to\nTailscale.\nCustomers with an existing tailnet who wish to use a different SSO provider can\nrequest to migrate via customer support. The internal tool used to perform these\nmigrations previously migrated the SSO provider for\nall members of a tailnet, including those of invited external members.\nWe fixed this internal tool to migrate direct tailnet members, excluding invited\nmembers on May 20, 2024.\nWe reverted the erroneous SSO provider changes and notified affected\nusers on May 23, 2024.\nWho was affected?\n55 users were invited external members of tailnets whose SSO provider was\nsubsequently migrated prior to May 20, 2024. We have notified the security\ncontacts for the tailnets where users were affected by this incident.\nWhat was the impact?\nUsers whose SSO providers were erroneously migrated would have been\nunable to log in to Tailscale during this time, as their SSO source\nwould differ from the one on record.\nWhat do I need to do?\nNo action is needed at this time.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-006",
           "publishedOn": "2024-05-22T00:00:00.000Z",
-          "wordCount": 14274,
+          "wordCount": 14254,
           "title": "TS-2024-006",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -59,6 +59,16 @@
       "feedUrl": "https://airbnbapi.statuspage.io/history.rss",
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
+        {
+          "id": "https://airbnbapi.statuspage.io/incidents/4g985xrjbw85",
+          "author": null,
+          "description": "Jun 17, 17:30 PDT\nResolved - There was an increase in 500 Errors across multiple endpoints earlier.\nThe errors started on Monday, June 17th 5:30 PM PDT and were mitigated by Monday, June 17th 6:30 PM PDT.\nPlease retry any failed requests during the incident window.",
+          "link": "https://airbnbapi.statuspage.io/incidents/4g985xrjbw85",
+          "publishedOn": "2024-06-18T00:30:00.000Z",
+          "wordCount": 3852,
+          "title": "500 Errors Across Multiple Endpoints",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://airbnbapi.statuspage.io/incidents/867lr996sr60",
           "author": null,
@@ -87,83 +97,133 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/sf8rwnvkt8s9",
+          "id": "https://status.twilio.com/incidents/fv2hxs7400fy",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 17, 23:00 PDT  -  Jun 18, 01:00 PDT\nJun 11, 16:51 PDT\nScheduled - Our carrier partner Wind Tre Italy is conducting a planned maintenance from 17 June 2024 at 21:00 PDT until 17 June 2024 at 23:00 PDT. During the maintenance window, there could be intermittent API request failures for Wind Tre Italy customers.\n\nImpacted Products: Lookup SIM Swap, Lookup Identity Match, Legacy Identity MatchAndAttributes",
-          "link": "https://status.twilio.com/incidents/sf8rwnvkt8s9",
-          "publishedOn": "2024-06-18T06:00:00.000Z",
-          "wordCount": 7537,
-          "title": "Italy Account Security Carrier Partner Maintenance - Wind Tre",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/343jmj2r43gd",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 17, 21:00 - 23:00 PDT\nJun 11, 16:46 PDT\nScheduled - Our carrier partner Three United Kingdom is conducting a planned maintenance from 17 June 2024 at 21:00 PDT until 17 June 2024 at 23:00 PDT. During the maintenance window, there could be intermittent API request failures for Three United Kingdom customers.\n\nImpacted Products: Lookup SIM Swap, Lookup Identity Match, Legacy Identity MatchAndAttributes",
-          "link": "https://status.twilio.com/incidents/343jmj2r43gd",
-          "publishedOn": "2024-06-18T04:00:00.000Z",
-          "wordCount": 7534,
-          "title": "United Kingdom Account Security Carrier Partner Maintenance - Three",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/3x45w7c7tglx",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 17, 21:00 - 23:00 PDT\nJun 11, 16:43 PDT\nScheduled - Our carrier partner Drei Austria is conducting a planned maintenance from 17 June 2024 at 21:00 PDT until 17 June 2024 at 23:00 PDT. During the maintenance window, there could be intermittent API request failures for Drei Austria customers.\n\nImpacted Products: Lookup SIM Swap",
-          "link": "https://status.twilio.com/incidents/3x45w7c7tglx",
-          "publishedOn": "2024-06-18T04:00:00.000Z",
+          "description": "THIS IS A SCHEDULED EVENT Jun 19, 00:00 - 01:00 PDT\nJun 18, 07:20 PDT\nScheduled - The AT&T network in the US is conducting an emergency maintenance from 19 June 2024 at 00:00 PDT until 19 June 2024 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T US handsets.",
+          "link": "https://status.twilio.com/incidents/fv2hxs7400fy",
+          "publishedOn": "2024-06-19T07:00:00.000Z",
           "wordCount": 7517,
-          "title": "Austria Account Security Carrier Partner Maintenance - Drei",
+          "title": "US SMS Carrier Maintenance - AT&T",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/m4zc4hcpt4n0",
+          "id": "https://status.twilio.com/incidents/606qms54lq51",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 17, 18:00 PDT  -  Jun 18, 01:00 PDT\nJun 11, 17:01 PDT\nScheduled - Our SMS and MMS carrier partner in the United States, Canada, and Puerto Rico is conducting an emergency maintenance from 17 June 2024 at 18:00 PDT until 18 June 2024 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from United States, Canada, and Puerto Rico handsets.",
-          "link": "https://status.twilio.com/incidents/m4zc4hcpt4n0",
-          "publishedOn": "2024-06-18T01:00:00.000Z",
-          "wordCount": 7556,
-          "title": "United States, Canada, and Puerto Rico SMS and MMS Carrier Partner Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Jun 18, 22:15 - 23:15 PDT\nJun 12, 12:17 PDT\nScheduled - The AT&T network in Mexico is conducting a planned maintenance from 18 June 2024 at 22:15 PDT until 18 June 2024 at 23:15 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.",
+          "link": "https://status.twilio.com/incidents/606qms54lq51",
+          "publishedOn": "2024-06-19T05:15:00.000Z",
+          "wordCount": 7509,
+          "title": "Mexico SMS Carrier Maintenance - AT&T",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/k3gv5jx4cxk4",
+          "id": "https://status.twilio.com/incidents/02h103kp9356",
           "author": null,
-          "description": "Jun 17, 17:00 PDT\nResolved - There was a brief service disruption due to a DropboxSign outage that affected some of our systems responsible for Hosted Numbers. The systems have automatically recovered and are full functional as of now.\nJun 17, 16:46 PDT\nInvestigating - Our monitoring systems have detected a potential issue with DropboxSign Outage affecting PN systems. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/k3gv5jx4cxk4",
-          "publishedOn": "2024-06-18T00:00:48.000Z",
-          "wordCount": 7561,
-          "title": "Degraded experience for Hosted Numbers customers due to DropboxSign outage from 4.25pm PST to 4:50pm PST",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/8gfskm1845jx",
-          "author": null,
-          "description": "Jun 17, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 17, 14:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 11, 05:07 PDT\nScheduled - The Beeline network in Russia is conducting a planned maintenance from 17 June 2024 at 14:00 PDT until 17 June 2024 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Beeline Russia handsets.",
-          "link": "https://status.twilio.com/incidents/8gfskm1845jx",
-          "publishedOn": "2024-06-18T00:00:02.000Z",
-          "wordCount": 7534,
-          "title": "Russia SMS Carrier Maintenance - Beeline",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/97pf8gmyppwx",
-          "author": null,
-          "description": "Jun 17, 16:22 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Safaricom network in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 17, 15:34 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Safaricom network in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nJun 17, 15:29 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS delivery delays to safaricom network in kenya. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/97pf8gmyppwx",
-          "publishedOn": "2024-06-17T23:22:41.000Z",
-          "wordCount": 7608,
-          "title": "SMS Delivery Delays to Safaricom Network in Kenya",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/wj54tgbnvmgc",
-          "author": null,
-          "description": "Jun 17, 16:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 13, 23:30 PDT\nScheduled - The LifeCell network in Ukraine is conducting a planned maintenance from 17 June 2024 at 16:00 PDT until 17 June 2024 at 19:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to LifeCell Ukraine handsets.",
-          "link": "https://status.twilio.com/incidents/wj54tgbnvmgc",
-          "publishedOn": "2024-06-17T23:00:02.000Z",
+          "description": "THIS IS A SCHEDULED EVENT Jun 18, 21:00 PDT  -  Jun 19, 03:00 PDT\nJun 16, 23:47 PDT\nScheduled - The Verizon network in the US is conducting an emergency maintenance from 18 June 2024 at 21:00 PDT until 19 June 2024 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from Verizon US handsets.",
+          "link": "https://status.twilio.com/incidents/02h103kp9356",
+          "publishedOn": "2024-06-19T04:00:00.000Z",
           "wordCount": 7524,
-          "title": "Ukraine SMS Carrier Maintenance - LifeCell",
+          "title": "US MMS Carrier Maintenance - Verizon",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/6rymhm3p2hdw",
+          "author": null,
+          "description": "Jun 18, 17:04 PDT\nMonitoring - We are observing successful SMS Delivery Reports delivered to Elisa Networks in Finland.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJun 18, 16:02 PDT\nIdentified - We have identified an issue with SMS Delivery Reports and we can guarantee that SMS delivery is not impacted at this time. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJun 18, 15:24 PDT\nUpdate - We are experiencing SMS Delivery Delays to Elisa Networks in Finland. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJun 18, 15:21 PDT\nInvestigating - We've become aware of a potential issue with SMS Delivery Delays. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/6rymhm3p2hdw",
+          "publishedOn": "2024-06-19T00:04:56.000Z",
+          "wordCount": 7657,
+          "title": "SMS Delivery Report Delays to Elisa Networks in Finland",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/1pjrfnmtymlb",
+          "author": null,
+          "description": "Jun 18, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 18, 12:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 15, 00:29 PDT\nScheduled - The NUR Telecom network in Kyrgyzstan is conducting a planned maintenance from 18 June 2024 at 12:00 PDT until 18 June 2024 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to NUR Telecom Kyrgyzstan handsets.",
+          "link": "https://status.twilio.com/incidents/1pjrfnmtymlb",
+          "publishedOn": "2024-06-19T00:00:02.000Z",
+          "wordCount": 7539,
+          "title": "Kyrgyzstan SMS Carrier Maintenance - NUR Telecom",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/4syxyscxmvsr",
+          "author": null,
+          "description": "Jun 18, 16:29 PDT\nResolved - The issues causing a signalling outage with one of the providers has been resolved and Super SIM Connectivity is operating normally at this time.\nJun 18, 14:29 PDT\nMonitoring - Since around 19:00 UTC, signaling traffic from our downstream connectivity partners has returned to normal levels. Any devices that were previously experiencing connectivity issues since earlier today should now be able to reconnect. If you have any devices that continue to experience issues connecting or staying connected, you can try reseting the SIM's connectivity from the Twilio Console or power cycling the device if you have access to it. \nWe are continuing to monitor the traffic from our downstream partners. We will provide another update in 2 hours or as soon as more information b…",
+          "link": "https://status.twilio.com/incidents/4syxyscxmvsr",
+          "publishedOn": "2024-06-18T23:29:35.000Z",
+          "wordCount": 8179,
+          "title": "Super SIM Connectivity Issues Causing Attachment Failures",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/60cfdz43flgy",
+          "author": null,
+          "description": "Jun 18, 16:01 PDT\nMonitoring - We are observing recovery in SMS Delivery Delays to Orange Network in Poland. We will continue monitoring the service to ensure a full recovery. We will provide another update in [X hours] or as soon as more information becomes available.\nJun 18, 15:01 PDT\nUpdate - We are experiencing SMS Delivery Delays to Orange Network in Poland. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJun 18, 14:47 PDT\nInvestigating - We've become aware of a potential issue with SMS delivery delays. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/60cfdz43flgy",
+          "publishedOn": "2024-06-18T23:01:23.000Z",
+          "wordCount": 7595,
+          "title": "SMS Delivery Delays to Orange Network in Poland",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/3n6cwtz5j0zg",
+          "author": null,
+          "description": "Jun 18, 15:52 PDT\nResolved - The issue affecting Call Failure From A Subset of Twilio Phone Numbers in the US has been resolved, and the service is functioning normally at this time.\nJun 18, 15:51 PDT\nMonitoring - We have started seeing recovery in Call Failure From A Subset of Twilio Phone Numbers in the US. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJun 18, 15:02 PDT\nUpdate - We are experiencing Call Failure From A Subset of Twilio Phone Numbers in the US. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJun 18, 14:54 PDT\nInvestigating - We've become aware of a potential issue with call failure. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/3n6cwtz5j0zg",
+          "publishedOn": "2024-06-18T22:52:36.000Z",
+          "wordCount": 7650,
+          "title": "Outbound Call Failure From A Subset of Twilio Phone Numbers in the US",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/gjkn4sl2mn7l",
+          "author": null,
+          "description": "Jun 18, 15:44 PDT\nResolved - We are no longer experiencing SMS Delivery Failures to Free Mobile Network in France. This incident has been resolved.\nJun 18, 13:42 PDT\nMonitoring - We are observing successful SMS delivery to Free Mobile Network in France.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJun 18, 12:42 PDT\nUpdate - We are experiencing SMS Delivery Failures to Free Mobile Network in France. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJun 18, 12:31 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS Delivery Failures to Free Mobile Network in France. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/gjkn4sl2mn7l",
+          "publishedOn": "2024-06-18T22:44:38.000Z",
+          "wordCount": 7628,
+          "title": "SMS Delivery Failures to Free Mobile Network in France",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/d55y442vtv9n",
+          "author": null,
+          "description": "Jun 18, 14:30 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 17, 08:31 PDT\nScheduled - Our service partner is conducting a planned maintenance from 18 June 2024 at 14:30 PDT until 18 June 2024 at 20:45 PDT. During the maintenance window, there could be intermittent API request failures for the following carrier and country: Vodafone United Kingdom.\n\nImpacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes",
+          "link": "https://status.twilio.com/incidents/d55y442vtv9n",
+          "publishedOn": "2024-06-18T21:30:02.000Z",
+          "wordCount": 7541,
+          "title": "United Kingdom Account Security Service Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/qttkdcxkb00z",
+          "author": null,
+          "description": "Jun 18, 13:47 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to O2 Network in Czech Republic. This incident has been resolved.\nJun 18, 13:03 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to O2 Network in Czech Republic. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 18, 09:53 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to O2 Network in Czech Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nJun 18, 07:47 PDT\nUpdate - We keep experiencing SMS delivery delays when sending messages to O2 Network in Czech Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 18, 06:42 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to O2 Network in Czech Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nJun 18, 06:34 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS delivery delays. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/qttkdcxkb00z",
+          "publishedOn": "2024-06-18T20:47:07.000Z",
+          "wordCount": 7735,
+          "title": "SMS Delivery Delay to O2 Network in Czech Republic",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/bxk9xq109wgf",
+          "author": null,
+          "description": "Jun 18, 13:16 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Telenor Network in Serbia. This incident has been resolved.\nJun 18, 11:16 PDT\nUpdate - We are observing recovery in SMS delivery delays when sending messages to Telenor Network in Serbia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 18, 10:53 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Telenor Network in Serbia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 30 min or as soon as more information becomes available.\nJun 18, 10:01 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Telenor Network in Serbia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nJun 18, 09:52 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS delivery delays. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/bxk9xq109wgf",
+          "publishedOn": "2024-06-18T20:16:25.000Z",
+          "wordCount": 7677,
+          "title": "SMS Delivery Delays to Telenor Network in Serbia",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/kfwss2qr11mj",
+          "author": null,
+          "description": "Jun 18, 13:13 PDT\nResolved - We are no longer experiencing SMS delivery delays to multiple networks in Australia via a subset of Twilio numbers. This incident has been resolved.\nJun 18, 11:13 PDT\nUpdate - We are observing recovery in SMS delivery delays when sending messages to multiple networks in Australia via a subset of Twilio numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 18, 11:13 PDT\nUpdate - We are observing recovery in SMS delivery delays when sending messages to multiple networks in Australia via a subset of Twilio numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more informa…",
+          "link": "https://status.twilio.com/incidents/kfwss2qr11mj",
+          "publishedOn": "2024-06-18T20:13:31.000Z",
+          "wordCount": 8014,
+          "title": "SMS Delivery Delays To Multiple Networks In Australia Via A Subset Of Twilio Numbers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -174,12 +234,32 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/yldjtscz3zmw",
+          "author": null,
+          "description": "Jun 18, 22:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 16, 18:24 UTC\nScheduled - Start: 2024-06-18 22:00 UTC\nEnd: 2024-06-19 02:00 UTC\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the NYC3 region. This will be the second of the two maintenance activities performed by our team in the region on consecutive days.\nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.",
+          "link": "https://status.digitalocean.com/incidents/yldjtscz3zmw",
+          "publishedOn": "2024-06-18T22:00:02.000Z",
+          "wordCount": 6356,
+          "title": "NYC3 Network Maintenance 2024-06-18 22:00 UTC Phase 2",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/tqkjrpq9bpkv",
+          "author": null,
+          "description": "Jun 18, 13:15 UTC\nResolved - As of 13.10 UTC, our Engineering team has confirmed full resolution of networking in our SFO region.\nIf you continue to experience problems, please open a ticket with our support team from your Cloud Control Panel. Thank you for your patience and we apologize for any inconvenience.\nJun 18, 12:03 UTC\nMonitoring - Our Engineering team has confirmed that the fix implemented earlier was successful in mitigating the issue with connectivity in our SFO regions. Users should now be able to connect to their Droplet and Droplet-based services without any issues.  \nAt this time, all services should now be operating normally. We will monitor this incident for a short period of time to confirm full resolution.\nJun 18, 10:25 UTC\nIdentified - As of 09:40 UTC, our Engineering team has identified the cause and applied a fix to mitigate the connectivity issue impacting the entire SFO region. We are still looking into this failure, but users should be seeing improvements in reaching their Droplet and Droplet-based services. \nWe'll continue to monitor the situation to confirm this incident is fully resolved and will post an update soon.\nJun 18, 09:05 UTC\nUpdate - Our Engineering team is continuing to investigate the issue with connectivity in our SFO regions. During this time, users may encounter errors and connection timeouts for Droplet and Droplet-based resources in the SFO region. Our team is diligently working on identifying and mitigating the issue at the earliest.\nWe regret any inconvenience caused and will post an update as additional information is available.\nJun 18, 08:38 UTC\nInvestigating - Our Engineering team is investigating an issue with connectivity in our SFO regions. During this time users may experience connection timeouts and errors for Droplet and Droplet-based resources.\nWe apologize for the inconvenience and will share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/tqkjrpq9bpkv",
+          "publishedOn": "2024-06-18T13:15:35.000Z",
+          "wordCount": 6512,
+          "title": "Network Connectivity in SFO region",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/rrm2b0y9c0fy",
           "author": null,
-          "description": "Jun 17, 22:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 15, 12:44 UTC\nScheduled - Start: 2024-06-17 22:00 UTC\nEnd: 2024-06-18 02:00 UTC\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the NYC3 region. This maintenance will occur in two parts on consecutive days and we will send another maintenance notice for the second phase. \nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.",
+          "description": "Jun 18, 02:00 UTC\nCompleted - The scheduled maintenance has been completed.\nJun 17, 22:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 15, 12:44 UTC\nScheduled - Start: 2024-06-17 22:00 UTC\nEnd: 2024-06-18 02:00 UTC\nDuring the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the NYC3 region. This maintenance will occur in two parts on consecutive days and we will send another maintenance notice for the second phase. \nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.",
           "link": "https://status.digitalocean.com/incidents/rrm2b0y9c0fy",
-          "publishedOn": "2024-06-17T22:00:02.000Z",
-          "wordCount": 6358,
+          "publishedOn": "2024-06-18T02:00:02.000Z",
+          "wordCount": 6368,
           "title": "NYC3 Network Maintenance 2024-06-17 22:00 UTC Phase 1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -361,6 +441,16 @@
       "siteUrl": "https://status.notion.so",
       "articles": [
         {
+          "id": "https://status.notion.so/incidents/l59f7fzvn6pn",
+          "author": null,
+          "description": "Jun 17, 21:13 PDT\nResolved - The issue has now been resolved and users should be able to use Notion as normal.\nJun 17, 21:08 PDT\nUpdate - We are continuing to investigate this issue.\nJun 17, 20:44 PDT\nInvestigating - Some users may experience some slowness with some performance issue, we are investigating into it. we will share updates as soon as possible",
+          "link": "https://status.notion.so/incidents/l59f7fzvn6pn",
+          "publishedOn": "2024-06-18T04:13:19.000Z",
+          "wordCount": 3381,
+          "title": "Some users may experience some slowness",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.notion.so/incidents/hkdr5hfr0qyc",
           "author": null,
           "description": "Jun 11, 18:22 PDT\nResolved - The issue has now been resolved, Mobile app users should be able to create workspaces.\nJun 11, 11:25 PDT\nIdentified - The issue has been identified and our team is working on a fix.",
@@ -447,201 +537,51 @@
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/w7jWXXKKSYG2m4Yjd6Sb",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The issue with Google Chat is mitigated. Please find the details in the below link.</p>\n<p><a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Chat</p>",
+          "description": "<p> Incident began at <strong>2024-06-17 16:23</strong> and ended at <strong>2024-06-17 22:46</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A mini incident report has been posted on the Google\nWorkspace Status Dashboard  at <a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Chat</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/w7jWXXKKSYG2m4Yjd6Sb",
-          "publishedOn": "2024-06-17T22:51:15.000Z",
-          "wordCount": 558,
+          "publishedOn": "2024-06-18T17:58:01.000Z",
+          "wordCount": 579,
           "title": "RESOLVED: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
           "imageUrl": null
         },
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/qyyQHqGNLgxwoY4sxNzc",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The issue with Google Drive is mitigated. Please find the details in the below link.</p>\n<p><a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Drive</p>",
+          "description": "<p> Incident began at <strong>2024-06-17 16:23</strong> and ended at <strong>2024-06-17 22:46</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A mini incident report has been posted on the Google\nWorkspace Status Dashboard  at <a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Drive</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/qyyQHqGNLgxwoY4sxNzc",
-          "publishedOn": "2024-06-17T22:50:13.000Z",
-          "wordCount": 558,
+          "publishedOn": "2024-06-18T17:57:08.000Z",
+          "wordCount": 579,
           "title": "RESOLVED: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
           "imageUrl": null
         },
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/mPtQiYbz95AjCD8FiiKK",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The issue with Google Calendar is mitigated. Please find the details in the below link.</p>\n<p><a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Calendar</p>",
+          "description": "<p> Incident began at <strong>2024-06-17 16:23</strong> and ended at <strong>2024-06-17 22:46</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A mini incident report has been posted on the Google\nWorkspace Status Dashboard  at <a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Calendar</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/mPtQiYbz95AjCD8FiiKK",
-          "publishedOn": "2024-06-17T22:49:19.000Z",
-          "wordCount": 558,
+          "publishedOn": "2024-06-18T17:56:47.000Z",
+          "wordCount": 579,
           "title": "RESOLVED: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
           "imageUrl": null
         },
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/eo6f2ck36qQ2jHjjZmpc",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The issue with Google Meet is mitigated. Please find the details in the below link.</p>\n<p><a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Meet</p>",
+          "description": "<p> Incident began at <strong>2024-06-17 16:23</strong> and ended at <strong>2024-06-17 22:46</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A mini incident report has been posted on the Google\nWorkspace Status Dashboard  at <a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Meet</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/eo6f2ck36qQ2jHjjZmpc",
-          "publishedOn": "2024-06-17T22:48:33.000Z",
-          "wordCount": 558,
+          "publishedOn": "2024-06-18T17:56:09.000Z",
+          "wordCount": 579,
           "title": "RESOLVED: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
           "imageUrl": null
         },
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Multiple Workspace products are experiencing elevated error rates and latency</p>\n<p><strong>Description:</strong></p>\n<p>The issue with Google Calendar, Google Chat, Google Docs, Google Drive, Google Meet has been resolved for all affected users as of Monday, 2024-06-17 15:27 US/Pacific.</p>\n<p>We thank you for your patience while we worked on resolving the issue.</p>\n</div><hr><p>Affected products: Google Docs</p>",
+          "description": "<p> Incident began at <strong>2024-06-17 16:23</strong> and ended at <strong>2024-06-17 22:46</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced an impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 17 June, 2024 09:23</p>\n<p><strong>Incident End:</strong> 17 June, 2024 15:46</p>\n<p><strong>Duration:</strong> 6 hours, 23 minutes</p>\n<p><strong>Affected Services and Features:</strong> Google Calendar, Google Chat, Google Docs, Google Drive &amp; Google Meet.</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>Multiple Google Workspace products experienced elevated error rates and latency. From preliminary analysis, the root cause is a latent issue that caused lock contention in a cache used for profile information. The issue was masked by overprovisioned quotas for some of the tables and only surfaced when quota adjustments were made to match the traffic patterns. Our engineers mitigated the issue by increasing quotas and disabling the suspected feature in the key/value serving system.</p>\n<p>Google will complete a full Incident Report in the following days that will provide a full root cause.</p>\n<p><strong>Customer Impact:</strong></p>\n<ul>\n<li><em><strong>Google Chat</strong></em> - Affected users would have experienced intermittent latency and errors while loading chats, accessing the chat spaces and sending messages.</li>\n<li><em><strong>Google Meet</strong></em> - Affected users would have experienced latency or failures while joining meetings.</li>\n<li><em><strong>Google Drive</strong></em> - Affected users would have experienced latency/errors while using the third party API.</li>\n<li><em><strong>Google Docs</strong></em> - Affected users would have experienced latency loading comments on the document. Some comments would have author names missing.</li>\n<li><em><strong>Google Calendar</strong></em> - Affected users would have experienced elevated error rates while using Calendar.</li>\n</ul>\n<hr>\n</div><hr><p>Affected products: Google Docs</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT",
-          "publishedOn": "2024-06-17T22:46:04.000Z",
-          "wordCount": 757,
+          "publishedOn": "2024-06-18T17:54:31.000Z",
+          "wordCount": 1054,
           "title": "RESOLVED: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/w7jWXXKKSYG2m4Yjd6Sb",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>We are aware of an ongoing issue. Our engineers are working towards mitigation.</p>\n<p>Please find more updates in the below link.\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Chat</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/w7jWXXKKSYG2m4Yjd6Sb",
-          "publishedOn": "2024-06-17T21:37:32.000Z",
-          "wordCount": 558,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/qyyQHqGNLgxwoY4sxNzc",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>We are aware of an ongoing issue. Our engineers are working towards mitigation.</p>\n<p>Please find more updates in the below link.\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Drive</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/qyyQHqGNLgxwoY4sxNzc",
-          "publishedOn": "2024-06-17T21:37:10.000Z",
-          "wordCount": 558,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/mPtQiYbz95AjCD8FiiKK",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>We are aware of an ongoing issue. Our engineers are working towards mitigation.</p>\n<p>Please find more updates in the below link.\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Calendar</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/mPtQiYbz95AjCD8FiiKK",
-          "publishedOn": "2024-06-17T21:36:42.000Z",
-          "wordCount": 558,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/eo6f2ck36qQ2jHjjZmpc",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>We are aware of an ongoing issue. Our engineers are working towards mitigation.</p>\n<p>Please find more updates in the below link.\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Meet</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/eo6f2ck36qQ2jHjjZmpc",
-          "publishedOn": "2024-06-17T21:36:21.000Z",
-          "wordCount": 558,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Multiple Workspace products are experiencing elevated error rates and latency</p>\n<p><strong>Description:</strong></p>\n<p>The mitigation applied previously did not yield results as expected.</p>\n<p>Our Engineering team continues to investigate and ascertain a mitigation strategy to fix all known issues</p>\n<p>We will provide more information by Monday, 2024-06-17 16:30 US/Pacific.</p>\n<p><strong>Customer Symptoms:</strong></p>\n<ul>\n<li>\n<p>Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.</p>\n</li>\n<li>\n<p>Some Google Meet users are having issues joining the meetings.</p>\n</li>\n<li>\n<p>Some Google Drive users are experiencing elevated latencies and error rates</p>\n</li>\n<li>\n<p>Some Google Docs users are experiencing issues where they see &quot;Name loading&quot; in comments.</p>\n</li>\n</ul>\n<p><strong>Workaround:</strong></p>\n<p>None at this time.</p>\n</div><hr><p>Affected products: Google Docs</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT",
-          "publishedOn": "2024-06-17T21:34:49.000Z",
-          "wordCount": 757,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/w7jWXXKKSYG2m4Yjd6Sb",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>We are aware of an ongoing issue. Our engineers are working towards mitigation.</p>\n<p>Please find more updates in the below link.\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Chat</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/w7jWXXKKSYG2m4Yjd6Sb",
-          "publishedOn": "2024-06-17T20:59:18.000Z",
-          "wordCount": 558,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/qyyQHqGNLgxwoY4sxNzc",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>We are aware of an ongoing issue. Our engineers are working towards mitigation.</p>\n<p>Please find more updates in the below link.\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Drive</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/qyyQHqGNLgxwoY4sxNzc",
-          "publishedOn": "2024-06-17T20:58:39.000Z",
-          "wordCount": 558,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/mPtQiYbz95AjCD8FiiKK",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>We are aware of an ongoing issue. Our engineers are working towards mitigation.</p>\n<p>Please find more updates in the below link.\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Calendar</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/mPtQiYbz95AjCD8FiiKK",
-          "publishedOn": "2024-06-17T20:58:00.000Z",
-          "wordCount": 558,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/eo6f2ck36qQ2jHjjZmpc",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>We are aware of an ongoing issue. Our engineers are working towards mitigation.</p>\n<p>Please find more updates in the below link.\n<a href=\"https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT\">https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT</a></p>\n</div><hr><p>Affected products: Google Meet</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/eo6f2ck36qQ2jHjjZmpc",
-          "publishedOn": "2024-06-17T20:57:30.000Z",
-          "wordCount": 558,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Multiple Workspace products are experiencing elevated error rates and latency</p>\n<p><strong>Description:</strong></p>\n<p>Mitigation work is currently underway by our engineering team.</p>\n<p>We do not have an ETA for mitigation at this point.</p>\n<p>We will provide more information by Monday, 2024-06-17 14:45 US/Pacific.</p>\n<p><strong>Customer Symptoms:</strong></p>\n<ul>\n<li>\n<p>Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.</p>\n</li>\n<li>\n<p>Some Google Meet users are having issues joining the meetings.</p>\n</li>\n<li>\n<p>Some Google Drive users are experiencing elevated latencies and error rates</p>\n</li>\n<li>\n<p>Some Google Docs users are experiencing issues where they see &quot;Name loading&quot; in comments.</p>\n</li>\n</ul>\n<p><strong>Workaround:</strong></p>\n<p>None at this time.</p>\n</div><hr><p>Affected products: Google Docs</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT",
-          "publishedOn": "2024-06-17T20:52:10.000Z",
-          "wordCount": 757,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Multiple Workspace products are experiencing elevated error rates and latency</p>\n<p><strong>Description:</strong></p>\n<p>We are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.</p>\n<p>Our engineering team has identified the root cause of the issue and are currently working on a mitigation.</p>\n<p>We will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption.</p>\n<p><strong>Customer Symptoms:</strong></p>\n<ul>\n<li>\n<p>Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.</p>\n</li>\n<li>\n<p>Some Google Meet users are having issues joining the meetings.</p>\n</li>\n<li>\n<p>Some Google Drive users are experiencing elevated latencies and error rates</p>\n</li>\n<li>\n<p>Some Google Docs users are experiencing issues where they see &quot;Name loading&quot; in comments.</p>\n</li>\n</ul>\n<p><strong>Workaround:</strong></p>\n<p>None at this time.</p>\n</div><hr><p>Affected products: Google Docs</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/B7FqFhqQ4F5AbfNpuGbT",
-          "publishedOn": "2024-06-17T20:06:28.000Z",
-          "wordCount": 757,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/eo6f2ck36qQ2jHjjZmpc",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Multiple Workspace products are experiencing elevated error rates and latency</p>\n<p><strong>Description:</strong></p>\n<p>We are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.</p>\n<p>Our engineering team has identified the root cause of the issue and are currently working on a mitigation.</p>\n<p>We will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption.</p>\n<p><strong>Customer Symptoms:</strong></p>\n<ul>\n<li>\n<p>Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.</p>\n</li>\n<li>\n<p>Some Google Meet users are having issues joining the meetings.</p>\n</li>\n<li>\n<p>Some Google Drive users are experiencing elevated latencies and error rates</p>\n</li>\n<li>\n<p>Some Google Docs users are experiencing issues where they see &quot;Name loading&quot; in comments.</p>\n</li>\n</ul>\n<p><strong>Workaround:</strong></p>\n<p>None at this time.</p>\n</div><hr><p>Affected products: Google Meet</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/eo6f2ck36qQ2jHjjZmpc",
-          "publishedOn": "2024-06-17T20:05:49.000Z",
-          "wordCount": 558,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/mPtQiYbz95AjCD8FiiKK",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Multiple Workspace products are experiencing elevated error rates and latency</p>\n<p><strong>Description:</strong></p>\n<p>We are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.</p>\n<p>Our engineering team has identified the root cause of the issue and are currently working on a mitigation.</p>\n<p>We will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption.</p>\n<p><strong>Customer Symptoms:</strong></p>\n<ul>\n<li>\n<p>Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.</p>\n</li>\n<li>\n<p>Some Google Meet users are having issues joining the meetings.</p>\n</li>\n<li>\n<p>Some Google Drive users are experiencing elevated latencies and error rates</p>\n</li>\n<li>\n<p>Some Google Docs users are experiencing issues where they see &quot;Name loading&quot; in comments.</p>\n</li>\n</ul>\n<p><strong>Workaround:</strong></p>\n<p>None at this time.</p>\n</div><hr><p>Affected products: Google Calendar</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/mPtQiYbz95AjCD8FiiKK",
-          "publishedOn": "2024-06-17T20:05:25.000Z",
-          "wordCount": 558,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/qyyQHqGNLgxwoY4sxNzc",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Multiple Workspace products are experiencing elevated error rates and latency</p>\n<p><strong>Description:</strong></p>\n<p>We are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.</p>\n<p>Our engineering team has identified the root cause of the issue and are currently working on a mitigation.</p>\n<p>We will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption.</p>\n<p><strong>Customer Symptoms:</strong></p>\n<ul>\n<li>\n<p>Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.</p>\n</li>\n<li>\n<p>Some Google Meet users are having issues joining the meetings.</p>\n</li>\n<li>\n<p>Some Google Drive users are experiencing elevated latencies and error rates</p>\n</li>\n<li>\n<p>Some Google Docs users are experiencing issues where they see &quot;Name loading&quot; in comments.</p>\n</li>\n</ul>\n<p><strong>Workaround:</strong></p>\n<p>None at this time.</p>\n</div><hr><p>Affected products: Google Drive</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/qyyQHqGNLgxwoY4sxNzc",
-          "publishedOn": "2024-06-17T20:04:57.000Z",
-          "wordCount": 558,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/w7jWXXKKSYG2m4Yjd6Sb",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-06-17 16:00</strong> and ended at <strong>2024-06-17 22:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Multiple Workspace products are experiencing elevated error rates and latency</p>\n<p><strong>Description:</strong></p>\n<p>We are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.</p>\n<p>Our engineering team has identified the root cause of the issue and are currently working on a mitigation.</p>\n<p>We will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption.</p>\n<p><strong>Customer Symptoms:</strong></p>\n<ul>\n<li>\n<p>Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.</p>\n</li>\n<li>\n<p>Some Google Meet users are having issues joining the meetings.</p>\n</li>\n<li>\n<p>Some Google Drive users are experiencing elevated latencies and error rates</p>\n</li>\n<li>\n<p>Some Google Docs users are experiencing issues where they see &quot;Name loading&quot; in comments.</p>\n</li>\n</ul>\n<p><strong>Workaround:</strong></p>\n<p>None at this time.</p>\n</div><hr><p>Affected products: Google Chat</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/w7jWXXKKSYG2m4Yjd6Sb",
-          "publishedOn": "2024-06-17T20:04:03.000Z",
-          "wordCount": 558,
-          "title": "UPDATE: **Summary:**\nMultiple Workspace products are experiencing elevated error rates and latency\n**Description:**\nWe are experiencing an issue with Google Chat, Google Drive, Google Docs, Google Calendar, Google Meet beginning at Monday, 2024-06-17 09:00 US/Pacific.\nOur engineering team has identified the root cause of the issue and are currently working on a mitigation.\nWe will provide an update by Monday, 2024-06-17 14:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms:**\n- Google Chat users may experience high latency, unable to load chat, open chat rooms, or send messages.\n- Some Google Meet users are having issues joining the meetings.\n- Some Google Drive users are experiencing elevated latencies and error rates\n- Some Google Docs users are experiencing issues where they see \"Name loading\" in comments.\n**Workaround:**\nNone at this time.",
           "imageUrl": null
         }
       ]
@@ -651,6 +591,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/k1mlxlmdhqqp",
+          "author": null,
+          "description": "Jun 18, 18:09 UTC\nResolved - This incident has been resolved.\nJun 18, 18:04 UTC\nUpdate - We have applied a configuration change to our migration service as a mitigation and are beginning to see recovery and in increase in successful migration runs. We are continuing to monitor.\nJun 18, 17:48 UTC\nUpdate - We have identified what we believe to be the source of the migration errors and are applying a mitigation, which we expect will begin improving migration success rate.\nJun 18, 17:15 UTC\nUpdate - We are investigating degraded performance for GitHub Enterprise Importer migrations. Some customers may see an increase in failed migrations. Investigation is ongoing.\nJun 18, 17:14 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/k1mlxlmdhqqp",
+          "publishedOn": "2024-06-18T18:09:43.000Z",
+          "wordCount": 5392,
+          "title": "We are investigating degraded performance for GitHub Enterprise Importer migrations",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/lfrlwdg67fn8",
           "author": null,
@@ -741,11 +691,21 @@
         {
           "id": "https://slack-status.com/2024-06/e99de4765d7fb502",
           "author": null,
-          "description": "We have determined that the page loading issue is due to unexpected user interface (UI) behavior, specifically dialog boxes not rendering properly on legacy Slack pages. This is affecting the ownership transfer and integrations pages.\r\n\r\nWe are currently working on a fix and we'll be back with another update once we have news to share.",
+          "description": "Issue summary:\r\nFrom June 17, 2024, around 9:00 AM until 4:14 PM PDT, users experienced unexpected behaviors that prevented them from completing certain administrative actions, such as transferring workspace ownership, updating workspace retention settings, or reinstalling apps from the Slack App Directory.\r\n\r\nWe traced this back to an issue with our webpage UI code that prevented certain web elements from appearing or loading properly. These elements would prevent the action from completing. The problematic code was identified and we rolled out a fix to restore the full functionality of these pages.",
           "link": "https://slack-status.com/2024-06/e99de4765d7fb502",
-          "publishedOn": "2024-06-17T21:20:45.000Z",
-          "wordCount": 235,
+          "publishedOn": "2024-06-18T22:16:25.000Z",
+          "wordCount": 377,
           "title": "Incident: Some users may be unable to complete ownership transfers",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://slack-status.com/2024-06/1020f61548a41bcf",
+          "author": null,
+          "description": "The issue with clips loading on mobile devices has been resolved. Affected users who uploaded clips from their desktop app may need to refresh their Slack app by pressing Cmd/Ctrl + Shift + R to apply the fix. In some cases, users might need to refresh twice.\r\n\r\nWe apologize for any inconvenience this caused.",
+          "link": "https://slack-status.com/2024-06/1020f61548a41bcf",
+          "publishedOn": "2024-06-18T21:50:24.000Z",
+          "wordCount": 280,
+          "title": "Incident: Video clips recorded on desktop fail to play on mobile",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
@@ -815,6 +775,16 @@
       "feedUrl": "https://status.make.com/history.rss",
       "siteUrl": "https://status.make.com",
       "articles": [
+        {
+          "id": "https://status.make.com/incidents/b4tb5fc8czn7",
+          "author": null,
+          "description": "Jun 18, 19:35 CEST\nResolved - This incident has been resolved.\nJun 18, 19:21 CEST\nUpdate - We have identified set of scenarios which got disabled due to this incident and we will proceed with activating them again.\nJun 18, 18:09 CEST\nMonitoring - We have applied a fix and the situation is stable. We will keep monitoring the situation.\nJun 18, 17:56 CEST\nIdentified - We have identified a root cause and working on a fix.\nJun 18, 17:56 CEST\nInvestigating - We are experiencing delays in scenario execution in EU2 and US1 zones. We also observe issues with some scheduled scenarios (mainly with Gmail or RSS triggers).",
+          "link": "https://status.make.com/incidents/b4tb5fc8czn7",
+          "publishedOn": "2024-06-18T17:35:49.000Z",
+          "wordCount": 3936,
+          "title": "Scenario executions delayed in EU2 and US1",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.make.com/incidents/b7mtbfr7xns4",
           "author": null,
