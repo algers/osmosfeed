@@ -28,7 +28,7 @@
           "description": "Description: Partial loss of audit and network flow logs\nWhat happened?\nAn integer overflow in our logs processing service led to some customer logs\nto be non-deterministically dropped with a probability of 14%.\nThe overflow condition first exhibited on June 7th, 2024 at 20:45 UTC and\nwas detected and resolved by June 14th, 2024 at 00:40 UTC.\nWho was affected?\nAll tailnets that rely on audit and network flow logs have been affected.\nWhat was the impact?\nThe 14% chance of dropped log entries affects storing of logs such as\nconfiguration audit logs and\nnetwork flow logs.\nWhile logs can be retrieved for the timeframe that the overflow bug was active,\nsome fraction of the entries may be missing.\nWhat do I need to do?\nNo action is needed at this time.\nWe fixed the bug, added additional error checking, and\ndeployed both to the logs processing service.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-008",
           "publishedOn": "2024-06-14T00:00:00.000Z",
-          "wordCount": 14274,
+          "wordCount": 14280,
           "title": "TS-2024-008",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         },
@@ -38,7 +38,7 @@
           "description": "Description: Incorrect DNS resolution with split DNS on macOS and iOS\nWhat happened?\nOn Tailscale macOS and iOS clients with split DNS configurations (like App\nConnectors or Restricted\nNameservers), lookups of bare tailnet node names\ncould in rare cases return incorrect answers. For example, if a node mynode\nand an App Connector for *.example.com exist on a tailnet, DNS lookups for\nmynode could return the answer for mynode.example.com instead of the local\ntailnet IP. This mis-configuration is intermittent, and most often triggers for\na few seconds when switching device networks (for example from Wi-Fi to a phone\nhotspot).\nWe fixed this bug in client version 1.68.0, and notified the security contacts\nof potentially affected tailnets over email.\nWho was affected?\nAll tailnets that use App Connectors or Restricted Domains, and have macOS or\niOS nodes could have been affected.\nThis bug is usually intermittently-triggered when switching networks in our\nexperience. Only lookups of bare domains, like mynode but not\nmynode.mytailnet.ts.net, are at risk.\nNote that not all split DNS domains are dangerous. Only domains where an\nattacker can choose their FQDN to match a node name, and controls the\ndestination to receive non-TLS traffic could be abused.\nWe are not aware of any active exploitation of this vulnerability.\nWhat was the impact?\nFor a split DNS domain example.com, an attacker with control over\nmynode.example.com can impersonate a non-TLS server running on node mynode\non the tailnet. This attack is opportunistic and passive - it relies on the\nuser connecting to mynode using its bare domain and cannot be forced\nremotely.\nWhat do I need to do?\nUpgrade your macOS and iOS clients to 1.68.0 or later.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-007",
           "publishedOn": "2024-06-12T00:00:00.000Z",
-          "wordCount": 14274,
+          "wordCount": 14280,
           "title": "TS-2024-007",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -97,103 +97,143 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
+          "id": "https://status.twilio.com/incidents/yrv93mq538wc",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Jun 25, 00:00 - 06:00 PDT\nJun 18, 00:06 PDT\nScheduled - Our Voice carrier partner in the United States is conducting a planned maintenance from 25 June 2024 at 00:00 PDT until 25 June 2024 at 06:00 PDT. During the maintenance window, there could be intermittent call disconnects or call failures from and to Twilio United States phone numbers.",
+          "link": "https://status.twilio.com/incidents/yrv93mq538wc",
+          "publishedOn": "2024-06-25T07:00:00.000Z",
+          "wordCount": 7516,
+          "title": "United States Voice Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/hnvhv8932ql0",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Jun 24, 21:00 PDT  -  Jun 25, 03:00 PDT\nJun 22, 16:30 PDT\nScheduled - A subset of small networks network in the United States is conducting an emergency maintenance from 24 June 2024 at 21:00 PDT until 25 June 2024 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from subset of small networks United States handsets.",
+          "link": "https://status.twilio.com/incidents/hnvhv8932ql0",
+          "publishedOn": "2024-06-25T04:00:00.000Z",
+          "wordCount": 7541,
+          "title": "United States SMS Carrier Maintenance - Small US Carriers",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/gx8rdck9byc3",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Jun 24, 21:00 - 22:00 PDT\nJun 20, 00:19 PDT\nScheduled - Our SMS carrier partner in Mexico is conducting a planned maintenance from 24 June 2024 at 21:00 PDT until 24 June 2024 at 22:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Mexico handsets.",
+          "link": "https://status.twilio.com/incidents/gx8rdck9byc3",
+          "publishedOn": "2024-06-25T04:00:00.000Z",
+          "wordCount": 7517,
+          "title": "Mexico SMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/ff6gkjcl2ngs",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Jun 24, 21:00 PDT  -  Jun 26, 21:00 PDT\nJun 16, 00:44 PDT\nScheduled - The Verizon network in the US is conducting a planned maintenance from 24 June 2024 at 21:00 PDT until 26 June 2024 at 21:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Verizon US handsets.",
+          "link": "https://status.twilio.com/incidents/ff6gkjcl2ngs",
+          "publishedOn": "2024-06-25T04:00:00.000Z",
+          "wordCount": 7524,
+          "title": "US SMS Carrier Maintenance - Verizon",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/kx1wvhvy7sld",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Jun 24, 20:00 PDT  -  Jun 25, 03:00 PDT\nJun 13, 15:38 PDT\nScheduled - Our SMS carrier partner in the US and Puerto Rico is conducting a planned maintenance from 24 June 2024 at 20:00 PDT until 25 June 2024 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US and Puerto Rico handsets.",
+          "link": "https://status.twilio.com/incidents/kx1wvhvy7sld",
+          "publishedOn": "2024-06-25T03:00:00.000Z",
+          "wordCount": 7533,
+          "title": "Multiple Destination SMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/5gtbch3xf771",
+          "author": null,
+          "description": "Jun 24, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 24, 14:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 21, 05:58 PDT\nScheduled - The Beeline network in Russia is conducting a planned maintenance from 24 June 2024 at 14:00 PDT until 24 June 2024 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Beeline Russia handsets.",
+          "link": "https://status.twilio.com/incidents/5gtbch3xf771",
+          "publishedOn": "2024-06-25T00:00:02.000Z",
+          "wordCount": 7537,
+          "title": "Russia SMS Carrier Maintenance - Beeline",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/yf17v9nlvh6b",
+          "author": null,
+          "description": "Jun 24, 16:45 PDT\nMonitoring - We are observing successful SMS Delivery to TIM Networks in Brazil. We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours, or as soon as more information becomes available.\nJun 24, 16:09 PDT\nInvestigating - We are experiencing SMS Delivery Failures and Delays to TIM Networks in Brazil. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 60 minutes, or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/yf17v9nlvh6b",
+          "publishedOn": "2024-06-24T23:45:13.000Z",
+          "wordCount": 7563,
+          "title": "SMS Delivery Failures and Delays to TIM Networks in Brazil",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/gx6mq042fmcf",
+          "author": null,
+          "description": "Jun 24, 15:42 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to AWCC Network in Afghanistan. This incident has been resolved.\nJun 24, 13:48 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to AWCC Network in Afghanistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 or as soon as more information becomes available.\nJun 24, 10:57 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to AWCC Network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nJun 24, 06:52 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to AWCC Network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nJun 24, 05:00 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to AWCC Network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 24, 04:02 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to AWCC Network in Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/gx6mq042fmcf",
+          "publishedOn": "2024-06-24T22:42:09.000Z",
+          "wordCount": 7738,
+          "title": "SMS Delivery Delays to AWCC Network in Afghanistan",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/bndyhcjj4tcc",
+          "author": null,
+          "description": "Jun 24, 15:40 PDT\nResolved - We have fully investigated the issue with emails reaching porting@twilio.com, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.\nJun 24, 14:41 PDT\nInvestigating - We have detected a potential issue with emails reaching porting@twilio.com. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/bndyhcjj4tcc",
+          "publishedOn": "2024-06-24T22:40:08.000Z",
+          "wordCount": 7538,
+          "title": "On Call Engineers are Investigating an issue",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/77y96sz2542f",
+          "author": null,
+          "description": "Jun 24, 15:25 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Altan Redes network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nJun 24, 11:35 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Altan Redes network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nJun 24, 09:33 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Altan Redes network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hour or as soon as more information becomes available.\nJun 24, 08:44 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Altan Redes network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/77y96sz2542f",
+          "publishedOn": "2024-06-24T22:25:57.000Z",
+          "wordCount": 7676,
+          "title": "SMS Delivery Delays to Altan Redes Network in Mexico",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/2vg9118bvsqc",
+          "author": null,
+          "description": "Jun 24, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 17, 07:03 PDT\nScheduled - Our service partner is conducting a planned maintenance from 24 June 2024 at 14:00 PDT until 24 June 2024 at 19:00 PDT. During the maintenance window, there could be intermittent API request failures for the following carrier and country: Vodafone United Kingdom.\n\nImpacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes",
+          "link": "https://status.twilio.com/incidents/2vg9118bvsqc",
+          "publishedOn": "2024-06-24T21:00:02.000Z",
+          "wordCount": 7541,
+          "title": "United Kingdom Account Security Service Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/by5rc028krw2",
+          "author": null,
+          "description": "Jun 24, 13:45 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Claro network in Puerto Rico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nJun 24, 11:54 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Claro network in Puerto Rico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 24, 11:08 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Claro network in Puerto Rico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/by5rc028krw2",
+          "publishedOn": "2024-06-24T20:45:15.000Z",
+          "wordCount": 7621,
+          "title": "SMS Delivery Delays to Claro Network In Puerto Rico",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/4s1bp0l8sfq1",
+          "author": null,
+          "description": "Jun 24, 13:37 PDT\nResolved - The issue with TTS (Text To Speech) using Google TTS Voices Neural Voices has been resolved and is operating normally at this time.\nJun 24, 12:18 PDT\nMonitoring - We are monitoring an issue with TTS (Text To Speech) using Google TTS Voices Neural Voices. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJun 24, 11:18 PDT\nInvestigating - We are investigating a number of 500 responses from Google when trying to generate the speech. Our engineers are working with our to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/4s1bp0l8sfq1",
+          "publishedOn": "2024-06-24T20:37:53.000Z",
+          "wordCount": 7577,
+          "title": "Encountering 500 Errors from Google During Speech Generation",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.twilio.com/incidents/z71dwgpk6w2d",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 23, 21:00 PDT  -  Jun 24, 05:00 PDT\nJun 21, 13:31 PDT\nScheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 23 June 2024 at 21:00 PDT until 24 June 2024 at 05:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.\n\nImpacted Product: Verify Silent Network Auth",
+          "description": "Jun 24, 05:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 23, 21:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 21, 13:31 PDT\nScheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 23 June 2024 at 21:00 PDT until 24 June 2024 at 05:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.\n\nImpacted Product: Verify Silent Network Auth",
           "link": "https://status.twilio.com/incidents/z71dwgpk6w2d",
-          "publishedOn": "2024-06-24T04:00:00.000Z",
-          "wordCount": 7527,
+          "publishedOn": "2024-06-24T12:00:02.000Z",
+          "wordCount": 7552,
           "title": "United States Account Security Carrier Partner Maintenance - AT&T",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/kyrk7kll5pl0",
-          "author": null,
-          "description": "Jun 23, 11:51 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Viva network in Bolivia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nJun 23, 07:51 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Viva network in Bolivia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nJun 23, 05:51 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to Viva network in Bolivia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 23, 05:09 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Viva network in Bolivia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/kyrk7kll5pl0",
-          "publishedOn": "2024-06-23T18:51:01.000Z",
-          "wordCount": 7664,
-          "title": "SMS Delivery Delays to Viva Network in Bolivia",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/j2vny9w23qfc",
-          "author": null,
-          "description": "Jun 23, 04:46 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to TMCEL network in Mozambique. This incident has been resolved.\nJun 23, 02:55 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to TMCEL network in Mozambique. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 23, 01:02 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to TMCEL network in Mozambique. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 23, 00:03 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Tmcel network in Mozambique. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/j2vny9w23qfc",
-          "publishedOn": "2024-06-23T11:46:05.000Z",
-          "wordCount": 7640,
-          "title": "SMS Delivery Delays to TMCEL network in Mozambique",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/mtw92b66895t",
-          "author": null,
-          "description": "Jun 23, 03:00 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Telenor network in Pakistan. This incident has been resolved.\nJun 23, 01:14 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Telenor network in Pakistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 22, 11:30 PDT\nUpdate - We continue to experience delays in SMS delivery to the Telenor network in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.\nJun 21, 11:33 PDT\nUpdate - We continue to experience delays in …",
-          "link": "https://status.twilio.com/incidents/mtw92b66895t",
-          "publishedOn": "2024-06-23T10:00:11.000Z",
-          "wordCount": 7879,
-          "title": "SMS Delivery Delays to Telenor Network in Pakistan",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/wj5m0vkxxdgg",
-          "author": null,
-          "description": "Jun 22, 20:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJun 22, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 20, 03:52 PDT\nScheduled - Our carrier partner Wind Tre Italy is conducting a planned maintenance from 22 June 2024 at 14:00 PDT until 22 June 2024 at 20:00 PDT. During the maintenance window, there could be intermittent API request failures for Wind Tre Italy customers.\n\nImpacted Products: Verify Silent Network Auth, Lookup SIM Swap, Lookup Identity Match, Legacy Identity MatchAndAttributes",
-          "link": "https://status.twilio.com/incidents/wj5m0vkxxdgg",
-          "publishedOn": "2024-06-23T03:00:02.000Z",
-          "wordCount": 7570,
-          "title": "Italy Account Security Carrier Partner Maintenance - Wind Tre",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/mn39n8mt9cll",
-          "author": null,
-          "description": "Jun 22, 16:19 PDT\nResolved - We have fully investigated the issue with TTS (Text To Speech) using Google TTS Voice, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.\nJun 22, 14:15 PDT\nUpdate - TTS (Text To Speech) using Google TTS Voice is now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.\nJun 22, 13:13 PDT\nMonitoring - TTS (Text To Speech) using Google TTS Voice is now operating normally. We will continue to monitor for system stability. We'll provide another update in 1 hour or as soon as more information becomes available.\nJun 22, 12:14 PDT\nUpdate - We are investigating an issue with TTS (Text To Speech) using Google TTS Voices. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJun 22, 11:59 PDT\nInvestigating - Our monitoring systems have detected a potential issues with TTS (Text To Speech) using Google TTS Voices. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/mn39n8mt9cll",
-          "publishedOn": "2024-06-22T23:19:02.000Z",
-          "wordCount": 7682,
-          "title": "Issues With TTS (Text To Speech) Using Google TTS Voices",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/cmmllwz4nkjs",
-          "author": null,
-          "description": "Jun 22, 02:16 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to AWCC network in Afghanistan. This incident has been resolved.\nJun 22, 01:11 PDT\nUpdate - We are observing recovery in SMS delivery delays to AWCC network in Afghanistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 1 hour or as soon as more information becomes available.\nJun 21, 23:11 PDT\nMonitoring - We are observing recovery in SMS delivery delays to AWCC network in Afghanistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 21, 20:30 PDT\nUpdate - We are experiencing SMS delivery delays to AWCC network in Afghanistan…",
-          "link": "https://status.twilio.com/incidents/cmmllwz4nkjs",
-          "publishedOn": "2024-06-22T09:16:15.000Z",
-          "wordCount": 8117,
-          "title": "SMS Delivery Delays To AWCC Network In Afghanistan",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/941wddsj0sfb",
-          "author": null,
-          "description": "Jun 21, 20:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 10, 03:21 PDT\nScheduled - Multiple networks in Iraq is conducting a series of planned maintenances from 21 June 2024 at 20:00 PDT until 02 July 2024 at 22:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Multiple Carrier Iraq handsets.\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n21 June 2024 at 20:00 PDT until 21 June 2024 at 22:00 PDT\n22 June 2024 at 20:00 PDT until 22 June 2024 at 22:00 PDT\n23 June 2024 at 20:00 PDT until 23 June 2024 at 22:00 PDT\n24 June 2024 at 20:00 PDT until 24 June 2024 at 22:00 PDT\n25 June 2024 at 20:00 PDT until 25 June 2024 at 22:00 PDT\n26 June 2024 at 20:00 PDT until 26 June 2024 at 22:00 PDT\n27 June 2024 at 20:00 PDT until 27 June 2024 at 22:00 PDT\n28 June 2024 at 20:00 PDT until 28 June 2024 at 22:00 PDT\n29 June 2024 at 20:00 PDT until 29 June 2024 at 22:00 PDT\n30 June 2024 at 20:00 PDT until 30 June 2024 at 22:00 PDT\n01 July 2024 at 20:00 PDT until 01 July 2024 at 22:00 PDT\n02 July 2024 at 20:00 PDT until 02 July 2024 at 22:00 PDT",
-          "link": "https://status.twilio.com/incidents/941wddsj0sfb",
-          "publishedOn": "2024-06-22T03:00:03.000Z",
-          "wordCount": 7690,
-          "title": "Iraq SMS Carrier Maintenance - Multiple Carrier",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/nlnclbg74htw",
-          "author": null,
-          "description": "Jun 21, 17:31 PDT\nResolved - At 15:55 PDT, we observed the loss of connectivity for ~3% of sessions. As of 17:31 PST, most of the affected devices have reconnected.\nJun 21, 16:58 PDT\nIdentified - At 15:55 PDT, we observed the loss of connectivity for ~3% of sessions. The affected devices started to reconnect and we observe that as of 16:55 PDT, ~60% of the affected devices came back. We will provide another update in 1 hour or as soon as more information becomes available.\nJun 21, 16:00 PDT\nUpdate - At 15:55 PDT, we observed the loss of connectivity for ~3% of sessions. The affected devices started to reconnect and we observe that ~1/3 of the affected devices came back. We will provide another update in 1 hour or as soon as more information becomes available.\nJun 21, 15:51 PDT\nInvestigating - Our monitoring systems have detected a potential issue with Super SIM. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/nlnclbg74htw",
-          "publishedOn": "2024-06-22T00:31:45.000Z",
-          "wordCount": 7640,
-          "title": "Super SIM Connectivity Loss For ~3% of Devices",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/v6qnwp5818pj",
-          "author": null,
-          "description": "Jun 21, 11:46 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to multiple networks in Colombia over a subset of short codes. This incident has been resolved.\nJun 21, 11:08 PDT\nUpdate - We are still observing recovery in SMS delivery delays to multiple networks in Colombia over a subset of short codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 21, 09:16 PDT\nMonitoring - We are observing recovery in SMS delivery delays to multiple networks in Colombia over a subset of short codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 21, 08:25 PDT\nInvestigating - We are experiencing delivery delays to multiple networks in Colombia over a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/v6qnwp5818pj",
-          "publishedOn": "2024-06-21T18:46:02.000Z",
-          "wordCount": 7657,
-          "title": "SMS Delivery Delays To Multiple Networks In Colombia",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -484,10 +524,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/nzc328r69wrv",
           "author": null,
-          "description": "Jun 19, 12:53 UTC\nResolved - This incident has been resolved.\nJun 19, 12:31 UTC\nUpdate - We are deploying a fix now and expect recovery within the hour.\nJun 19, 11:59 UTC\nUpdate - We’ve identified an issue with Copilot pull request summaries that has caused errors when attempting to generate summaries since yesterday (June 18, 2024) at around 21:00 UTC. \nWe have identified a fix, and we expect the issue to be resolved within two hours.\nJun 19, 11:58 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot",
+          "description": "Jun 19, 12:53 UTC\nResolved - Between June 18th, 2024 at 09:34 PM UTC and June 19th, 2024 at 12:53 PM the Copilot Pull Request Summaries Service was unavailable. This was due to an internal change in access approach from the Copilot Pull Request service to the Copilot API.\nWe mitigated the incident by reverting the change in access which immediately resolved the errors.\nWe are working to improve our monitoring in this area and reduce our time to detection to more quickly address issues like this one in the future.\n\nJun 19, 12:31 UTC\nUpdate - We are deploying a fix now and expect recovery within the hour.\nJun 19, 11:59 UTC\nUpdate - We’ve identified an issue with Copilot pull request summaries that has caused errors when attempting to generate summaries since yesterday (June 18, 2024) at around 21:00 UTC. \nWe have identified a fix, and we expect the issue to be resolved within two hours.\nJun 19, 11:58 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot",
           "link": "https://www.githubstatus.com/incidents/nzc328r69wrv",
           "publishedOn": "2024-06-19T12:53:33.000Z",
-          "wordCount": 5353,
+          "wordCount": 5431,
           "title": "Incident with Copilot Pull Request Summaries",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -558,6 +598,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://slack-status.com",
       "articles": [
+        {
+          "id": "https://slack-status.com/2024-06/2be5073c5ed2baa9",
+          "author": null,
+          "description": "We have heard from several affected users that clearing their app cache (for iOS users: Tap on your profile picture on the top-right of the screen > Preferences > Advanced > Reset cache) and restarting Slack resolves the issue. \r\n\r\nWe will be discontinuing status site updates and will work with any affected users directly via support tickets while we continue working on a permanent fix. We apologize for the disruption to your workday and thank you for your patience.",
+          "link": "https://slack-status.com/2024-06/2be5073c5ed2baa9",
+          "publishedOn": "2024-06-24T22:26:32.000Z",
+          "wordCount": 287,
+          "title": "Incident: Issues sending messages to channels",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://slack-status.com/2024-06/20eb56ec859c020d",
           "author": null,
