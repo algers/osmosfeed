@@ -1,101 +1,195 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-27T00:23:45.990Z</id>
+    <id>urn:2024-06-28T00:23:39.642Z</id>
     <title>osmos::feed</title>
-    <updated>2024-06-27T00:23:45.990Z</updated>
+    <updated>2024-06-28T00:23:39.642Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Rescheduled: NYC1 Network Maintenance 2024-06-27 10:00 UTC]]></title>
-        <id>https://status.digitalocean.com/incidents/5dgnnryd4y2y</id>
-        <link href="https://status.digitalocean.com/incidents/5dgnnryd4y2y"/>
-        <updated>2024-06-27T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jun 27, 10:00 - 12:00 UTC
-Jun 24, 10:27 UTC
-Scheduled - Start: 2024-06-27 10:00 UTC
-End: 2024-06-27 12:00 UTC
-During the above window, our Networking team will be performing maintenance on core switches in our NYC1 datacenter as part of network upgrades. This is a rescheduled maintenance event previously scheduled for 2024-06-11 10:00 UTC.
-Expected Impact:
-We anticipate brief interruptions in network traffic from Droplets and Droplet-based services. This impact would be for a duration of 5 to 10 seconds and could occur a few times within the maintenance window. We will endeavor to keep any such impact to a minimum.
-We apologize for any inconvenience this short notice causes and thank you for your understanding. If you have any questions related to this issue please send us a ticket from your cloud support page using https://cloudsupport.digitalocean.com/s/createticket
-
-Thank you,
-Team DigitalOcean]]></summary>
+        <title type="html"><![CDATA[United States SMS and MMS Carrier Maintenance - T-Mobile]]></title>
+        <id>https://status.twilio.com/incidents/j7zf207q9gzh</id>
+        <link href="https://status.twilio.com/incidents/j7zf207q9gzh"/>
+        <updated>2024-06-28T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jun 27, 22:00 PDT  -  Jun 28, 03:00 PDT
+Jun 26, 16:12 PDT
+Scheduled - The T-Mobile network in the United States is conducting a planned maintenance from 27 June 2024 at 22:00 PDT until 28 June 2024 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile United States handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multiple Destination SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/9b11qldccg1r</id>
+        <link href="https://status.twilio.com/incidents/9b11qldccg1r"/>
+        <updated>2024-06-28T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jun 27, 19:00 PDT  -  Jun 28, 05:00 PDT
+Jun 11, 15:48 PDT
+Scheduled - Our SMS carrier partner in the US and Puerto Rico is conducting a planned maintenance from 27 June 2024 at 19:00 PDT until 28 June 2024 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US and Puerto Rico handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Events for Droplets with Reserved IP's in Multiple Regions]]></title>
+        <id>https://status.digitalocean.com/incidents/449n8d04vst3</id>
+        <link href="https://status.digitalocean.com/incidents/449n8d04vst3"/>
+        <updated>2024-06-27T23:57:01.000Z</updated>
+        <summary type="html"><![CDATA[Jun 27, 23:57 UTC
+Resolved - Our Engineering team has confirmed that this incident has been fully resolved.
+Thank you for your patience. If you continue to experience any problems, please open a ticket with our support team for further review.
+Jun 27, 23:22 UTC
+Monitoring - Our Engineering team has confirmed that the issue for Droplets with previously failed events has been remediated, and further events should now successfully complete. 
+We are continuing to monitor this situation and will post an update as soon as the issue is fully resolved.
+Jun 27, 21:12 UTC
+Update - Our Engineering team has completed deployment of the fix. No additional users should now experience event failures. 
+Droplets that experienced failed events are now being remediated to fix their event state, so that future events can succeed normally. 
+We will provide another update once the remediation step is complete.
+Jun 27, 20:54 UTC
+Identified - Beginning around 16:00 UTC, our Engineering team identified an uptick in event errors for Droplets that utilize a Reserved IP in multiple regions. A subset of users are experiencing errors in processing events, especially "power on", via both API and the Cloud Control Panel. 
+Our team has identified the root cause of the issue and a fix is currently in progress. 
+We will provide another update once the fix is confirmed.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Chile SMS Carrier Maintenance - Entel]]></title>
-        <id>https://status.twilio.com/incidents/4l00b81fvlsl</id>
-        <link href="https://status.twilio.com/incidents/4l00b81fvlsl"/>
-        <updated>2024-06-27T04:30:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jun 26, 21:30 - 22:30 PDT
-Jun 26, 15:10 PDT
-Scheduled - The Entel network in Chile is conducting a planned maintenance from 26 June 2024 at 21:30 PDT until 26 June 2024 at 22:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Entel Chile handsets.]]></summary>
+        <title type="html"><![CDATA[SMS Delivery Delays to Viaero Wireless in the United States]]></title>
+        <id>https://status.twilio.com/incidents/svd7stsr6xk3</id>
+        <link href="https://status.twilio.com/incidents/svd7stsr6xk3"/>
+        <updated>2024-06-27T23:52:45.000Z</updated>
+        <summary type="html"><![CDATA[Jun 27, 16:52 PDT
+Monitoring - We are observing recovery in SMS Delivery Delays to Viaero Wireless in the United States. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[US SMS Carrier Maintenance - T-Mobile]]></title>
-        <id>https://status.twilio.com/incidents/rd24jtl59qvw</id>
-        <link href="https://status.twilio.com/incidents/rd24jtl59qvw"/>
-        <updated>2024-06-27T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jun 26, 20:00 PDT  -  Jun 27, 04:00 PDT
-Jun 25, 15:33 PDT
-Scheduled - The T-Mobile network in the US is conducting a planned maintenance from 26 June 2024 at 20:00 PDT until 27 June 2024 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile US handsets.]]></summary>
+        <title type="html"><![CDATA[Incident with Codespaces]]></title>
+        <id>https://www.githubstatus.com/incidents/y0frtmhd9n2z</id>
+        <link href="https://www.githubstatus.com/incidents/y0frtmhd9n2z"/>
+        <updated>2024-06-27T23:44:21.000Z</updated>
+        <summary type="html"><![CDATA[Jun 27, 23:44 UTC
+Resolved - This incident has been resolved.
+Jun 27, 23:43 UTC
+Update - We have identified a root cause for Codespaces issue in the West US region and are rolling out a fix.
+Jun 27, 23:34 UTC
+Update - A subset of customers are currently experiencing issues creating and resuming Codespaces in the West US region.
+Jun 27, 23:34 UTC
+Investigating - We are investigating reports of degraded performance for Codespaces]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Orange Network in Serbia]]></title>
+        <id>https://status.twilio.com/incidents/p368zddt8stg</id>
+        <link href="https://status.twilio.com/incidents/p368zddt8stg"/>
+        <updated>2024-06-27T23:44:19.000Z</updated>
+        <summary type="html"><![CDATA[Jun 27, 16:44 PDT
+Investigating - We are experiencing SMS delivery delays to Orange Network in Serbia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[On Call Engineers are Investigating an issue]]></title>
-        <id>https://status.twilio.com/incidents/nw674qk0cwt0</id>
-        <link href="https://status.twilio.com/incidents/nw674qk0cwt0"/>
-        <updated>2024-06-27T00:08:48.000Z</updated>
-        <summary type="html"><![CDATA[Jun 26, 17:08 PDT
-Investigating - Our monitoring systems have detected a potential SMS delivery delays for some US Networks. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <title type="html"><![CDATA[SMS Delivery Delays to/from Multiple Network in Colombia Over a Subset of Short Code]]></title>
+        <id>https://status.twilio.com/incidents/hqsz7rspsk8y</id>
+        <link href="https://status.twilio.com/incidents/hqsz7rspsk8y"/>
+        <updated>2024-06-27T23:01:23.000Z</updated>
+        <summary type="html"><![CDATA[Jun 27, 16:01 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to/from multiple network in Colombia over a subset of Short Code. This incident has been resolved.
+Jun 27, 14:01 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to/from multiple network in Colombia over a subset of Short Code. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Jun 27, 12:08 PDT
+Update - We continue to experience SMS delivery delays when sending messages to/from multiple network in Colombia over a subset of Short Code. Our engineers will continue to work with our carrier partner to resolve the issue. We will provide another updat…]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Tele2]]></title>
-        <id>https://status.twilio.com/incidents/mg9gcc55mpsn</id>
-        <link href="https://status.twilio.com/incidents/mg9gcc55mpsn"/>
-        <updated>2024-06-27T00:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Jun 26, 17:00 PDT
-Completed - The scheduled maintenance has been completed.
-Jun  3, 13:00 PDT
+        <title type="html"><![CDATA[Delivery Delays to Toll Free MMS]]></title>
+        <id>https://status.twilio.com/incidents/yttxnt9vctmd</id>
+        <link href="https://status.twilio.com/incidents/yttxnt9vctmd"/>
+        <updated>2024-06-27T22:52:53.000Z</updated>
+        <summary type="html"><![CDATA[Jun 27, 15:52 PDT
+Resolved - We are no longer experiencing MMS delivery delays to Toll Free numbers in North America. This incident has been resolved.
+Jun 27, 15:32 PDT
+Monitoring - We are observing recovery to Toll Free MMS in North America. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Jun 27, 15:18 PDT
+Investigating - We are experiencing delivery delays to Toll Free MMS in North America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Cell C Network in South Africa]]></title>
+        <id>https://status.twilio.com/incidents/5ftd1p5nl2z2</id>
+        <link href="https://status.twilio.com/incidents/5ftd1p5nl2z2"/>
+        <updated>2024-06-27T22:50:25.000Z</updated>
+        <summary type="html"><![CDATA[Jun 27, 15:50 PDT
+Monitoring - We are observing recovery in SMS delivery delays to Cell C Network in South Africa. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Jun 27, 14:57 PDT
+Investigating - We are experiencing SMS delivery delays to Cell C Network in South Africa. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Portugal SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/ljpsr76v1mbl</id>
+        <link href="https://status.twilio.com/incidents/ljpsr76v1mbl"/>
+        <updated>2024-06-27T22:50:02.000Z</updated>
+        <summary type="html"><![CDATA[Jun 27, 15:50 PDT
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-May 29, 09:09 PDT
-Scheduled - The Tele2 network in Russia is conducting a series of planned maintenances from 03 June 2024 at 13:00 PDT until 26 June 2024 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Tele2 Russia handsets.
-
-Note, the maintenance will be carried out on each of the following dates and times:
-
-03 June 2024 at 13:00 PDT until 03 June 2024 at 17:00 PDT
-05 June 2024 at 13:00 PDT until 05 June 2024 at 17:00 PDT
-10 June 2024 at 13:00 PDT until 10 June 2024 at 17:00 PDT
-12 June 2024 at 13:00 PDT until 12 June 2024 at 17:00 PDT
-17 June 2024 at 13:00 PDT until 17 June 2024 at 17:00 PDT
-19 June 2024 at 13:00 PDT until 19 June 2024 at 17:00 PDT
-24 June 2024 at 13:00 PDT until 24 June 2024 at 17:00 PDT
-26 June 2024 at 13:00 PDT until 26 June 2024 at 17:00 PDT]]></summary>
+Jun 25, 09:59 PDT
+Scheduled - Our SMS carrier partner in Portugal is conducting a planned maintenance from 27 June 2024 at 15:50 PDT until 27 June 2024 at 18:50 PDT. During the maintenance window, there could be intermittent delays delivering SMS from Portugal handsets via Portugal long codes.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - AT&T]]></title>
-        <id>https://status.twilio.com/incidents/dc6xjbtrsjzt</id>
-        <link href="https://status.twilio.com/incidents/dc6xjbtrsjzt"/>
-        <updated>2024-06-26T23:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Jun 26, 16:00 PDT
+        <title type="html"><![CDATA[United Kingdom Account Security Service Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/thxp6pb59380</id>
+        <link href="https://status.twilio.com/incidents/thxp6pb59380"/>
+        <updated>2024-06-27T22:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Jun 27, 15:00 PDT
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jun 26, 14:48 PDT
-Scheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 26 June 2024 at 16:00 PDT until 27 June 2024 at 10:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.
-Impacted Product: Verify Silent Network Auth]]></summary>
+Jun 26, 07:38 PDT
+Scheduled - Our service partner is conducting a planned maintenance from 27 June 2024 at 15:00 PDT until 27 June 2024 at 21:00 PDT. During the maintenance window, there could be intermittent API request failures for the following carrier and country: Vodafone United Kingdom.
+
+Impacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Disruption with GitHub services]]></title>
+        <id>https://www.githubstatus.com/incidents/538zgs80s3zg</id>
+        <link href="https://www.githubstatus.com/incidents/538zgs80s3zg"/>
+        <updated>2024-06-27T21:42:14.000Z</updated>
+        <summary type="html"><![CDATA[Jun 27, 21:42 UTC
+Resolved - This incident has been resolved.
+Jun 27, 21:20 UTC
+Update - Some GitHub Enterprise Importer migrations are failing. We have identified a root cause and are rolling out a fix.
+Jun 27, 21:16 UTC
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flex Insights Reporting Delays]]></title>
+        <id>https://status.twilio.com/incidents/5ym96ydd0l9x</id>
+        <link href="https://status.twilio.com/incidents/5ym96ydd0l9x"/>
+        <updated>2024-06-27T20:14:05.000Z</updated>
+        <summary type="html"><![CDATA[Jun 27, 13:14 PDT
+Resolved - Flex insights reporting delays has been resolved and is operating normally at this time.
+Jun 27, 11:47 PDT
+Update - We continue to observe recovery in Flex insights reporting delays. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Jun 27, 08:56 PDT
+Update - We continue to observe recovery in Flex insights reporting delays. We will continue monitoring the service to ensure a full recovery. We will provide another update in 3 hours or as soon as more information becomes available.
+Jun 27, 07:05 PDT
+Update - We continue to observe recovery in Flex insights reporting delays. We will continue monitoring the service to ensure a full recovery. We will provide…]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -104,8 +198,10 @@ Impacted Product: Verify Silent Network Auth]]></summary>
         <title type="html"><![CDATA[Delays on webhooks response and scenario execution]]></title>
         <id>https://status.make.com/incidents/tm8wr2873d89</id>
         <link href="https://status.make.com/incidents/tm8wr2873d89"/>
-        <updated>2024-06-26T21:29:52.000Z</updated>
-        <summary type="html"><![CDATA[Jun 26, 23:29 CEST
+        <updated>2024-06-27T16:27:13.000Z</updated>
+        <summary type="html"><![CDATA[Jun 27, 18:27 CEST
+Resolved - This incident has been resolved.
+Jun 26, 23:29 CEST
 Monitoring - The fix was applied and we are currently monitoring the zone.
 Jun 26, 21:54 CEST
 Update - Our engineers are still working on the fix. We will provide more updates within the next hour.
@@ -119,58 +215,26 @@ Investigating - We are currently investigating an issue where some users can exp
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Subset of Customers May be Unable to Access Subaccounts through the Twilio Console]]></title>
-        <id>https://status.twilio.com/incidents/b3pzs0d5c8mv</id>
-        <link href="https://status.twilio.com/incidents/b3pzs0d5c8mv"/>
-        <updated>2024-06-26T21:23:12.000Z</updated>
-        <summary type="html"><![CDATA[Jun 26, 14:23 PDT
-Resolved - Access to the subaccounts page from the account dropdown menu has been resolved and Console is operating normally at this time.
-Jun 26, 13:52 PDT
-Monitoring - The subaccounts page from the account dropdown menu is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
-Jun 26, 13:39 PDT
-Update - We are investigating an issue in the Twilio Console where some customers are unable to access the subaccounts page from the account dropdown menu. We will provide another update in 1 hours or as soon as more information becomes available.
-Jun 26, 13:11 PDT
-Investigating - We've become aware of a potential issue with Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <title type="html"><![CDATA[Rescheduled: NYC1 Network Maintenance 2024-06-27 10:00 UTC]]></title>
+        <id>https://status.digitalocean.com/incidents/5dgnnryd4y2y</id>
+        <link href="https://status.digitalocean.com/incidents/5dgnnryd4y2y"/>
+        <updated>2024-06-27T12:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Jun 27, 12:00 UTC
+Completed - The scheduled maintenance has been completed.
+Jun 27, 10:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Jun 24, 10:27 UTC
+Scheduled - Start: 2024-06-27 10:00 UTC
+End: 2024-06-27 12:00 UTC
+During the above window, our Networking team will be performing maintenance on core switches in our NYC1 datacenter as part of network upgrades. This is a rescheduled maintenance event previously scheduled for 2024-06-11 10:00 UTC.
+Expected Impact:
+We anticipate brief interruptions in network traffic from Droplets and Droplet-based services. This impact would be for a duration of 5 to 10 seconds and could occur a few times within the maintenance window. We will endeavor to keep any such impact to a minimum.
+We apologize for any inconvenience this short notice causes and thank you for your understanding. If you have any questions related to this issue please send us a ticket from your cloud support page using https://cloudsupport.digitalocean.com/s/createticket
+
+Thank you,
+Team DigitalOcean]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to AWCC Network In Afghanistan]]></title>
-        <id>https://status.twilio.com/incidents/zpysq6xj86vk</id>
-        <link href="https://status.twilio.com/incidents/zpysq6xj86vk"/>
-        <updated>2024-06-26T20:56:10.000Z</updated>
-        <summary type="html"><![CDATA[Jun 26, 13:56 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to AWCC Network in Afghanistan. This incident has been resolved.
-Jun 26, 11:56 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to AWCC Network In Afghanistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jun 26, 10:50 PDT
-Update - We are still experiencing SMS delivery delays when sending messages to AWCC Network In Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
-Jun 26, 06:53 PDT
-Update - We are still experiencing SMS delivery delays when sending messages to AWCC Network In Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Jun 26, 04:50 PDT
-Update - We are still experiencing SMS delivery delays when sending messages to AWCC Network In Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Jun 26, 03:50 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to AWCC Network In Afghanistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Viva Network in Bolivia]]></title>
-        <id>https://status.twilio.com/incidents/kyrk7kll5pl0</id>
-        <link href="https://status.twilio.com/incidents/kyrk7kll5pl0"/>
-        <updated>2024-06-26T20:46:06.000Z</updated>
-        <summary type="html"><![CDATA[Jun 26, 13:46 PDT
-Resolved - We are no longer experiencing SMS delivery delays to Bolivia Viva Network. This incident has been resolved.
-Jun 26, 11:38 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Viva network in Bolivia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jun 25, 11:37 PDT
-Update - We continue to experience SMS delivery delays when sending messages to Viva network in Bolivia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
-Jun 24, 11:34 PDT
-Update - We continue to experience SMS delivery delays when sending…]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
+            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1086,87 +1150,6 @@ During the above window, we will be performing maintenance on core switches in o
  If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes and App Platform Pages in the Cloud Control Panel for New Users]]></title>
-        <id>https://status.digitalocean.com/incidents/yzl464rhsqrg</id>
-        <link href="https://status.digitalocean.com/incidents/yzl464rhsqrg"/>
-        <updated>2024-05-29T11:47:38.000Z</updated>
-        <summary type="html"><![CDATA[May 29, 11:47 UTC
-Resolved - Our Engineering team has confirmed that the issue with accessing Kubernetes and App Platform for new users has been completely resolved. New users should now be able to access all aspects in the Cloud Control Panel. 
-If you continue to experience problems, please open a ticket with our support team.
-Thank you for your patience and we apologize for any inconvenience.
-May 29, 10:47 UTC
-Monitoring - Our Engineering team has identified the root cause and deployed a fix for the issue impacting access to Kubernetes and App platform pages for new users. New users should now be able to access Kubernetes and App platform in our Cloud Control Panel successfully. 
-We will continue to monitor this at our end and will share an update once the problem is resolved completely.
-May 29, 07:19 UTC
-Investigating - Our Engineering team is investigating an issue where newly signed up users are unable to access Kubernetes and App platform pages in our Cloud Control Panel. Beginning at 07:00 UTC on May 29th, new users may see "Oops, you do not have access to view this resource or page" in our Cloud Control Panel.
-We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Users writing in Japanese and Korean are occasionally unable to type any characters.]]></title>
-        <id>https://slack-status.com/2024-05/627dd44580fbdde7</id>
-        <link href="https://slack-status.com/2024-05/627dd44580fbdde7"/>
-        <updated>2024-05-29T06:17:12.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-On May 8, 2024 at 12:00 PM PDT until May 28, 2024 at 9:51 AM PDT, some customers were unable to type in Japanese or Korean in the Slack for Windows app.
-
-We traced these issues to a bug with an upstream provider. The upstream provider released a patch for this bug, so we prepared a Slack app update that implemented this patch. This app update resolved the issue for all affected customers.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Codespaces]]></title>
-        <id>https://www.githubstatus.com/incidents/k8nz2ljtvzv4</id>
-        <link href="https://www.githubstatus.com/incidents/k8nz2ljtvzv4"/>
-        <updated>2024-05-28T21:24:34.000Z</updated>
-        <summary type="html"><![CDATA[May 28, 21:24 UTC
-Investigating - Codespaces is operating normally.
-May 28, 21:24 UTC
-Resolved - This incident has been resolved.
-May 28, 21:19 UTC
-Update - A fix has been applied and we are seeing some recovery. We will continue to monitor for a bit before marking this issue resolved.
-May 28, 20:53 UTC
-Update - We are still investigating root cause and remediation options. In the meantime, here is a workaround to be able to pull images from DockerHub:
-1. Make a free DockerHub account at https://hub.docker.com (or use an existing account if you have one).
-2. Create a DockerHub secret/PAT from https://hub.docker.com/settings/security (Read permission should be sufficient).
-3. Go to https://github.com/settings/codespaces
-Add three Codespace secrets:
-- DOCKERHUB_CONTAINER_REGISTRY_PASSWORD (equal to the DockerHub PAT you created)
-- DOCKERHUB_CONTAINER_REGISTRY_SERVER (equal to https://index.docker.io/v1/)
-- DOCKERHUB_CONTAINER_REGISTRY_USER (equal to your DockerHub username)
-4. Make sure these secrets are set as visible to the target repo.
-5. Create/rebuild your Codespace
-Steps above are distilled from the official docs: https://docs.github.com/en/codespaces/reference/allowing-your-codespace-to-access-a-private-registry#example-secrets
-May 28, 20:53 UTC
-Update - Duplicate update, same as above
-May 28, 20:23 UTC
-Update - Some Codespaces are currently failing to be properly created for images hosted by DockerHub. Other registries should be unaffected. We are investigating root cause and will report back shortly.
-May 28, 20:17 UTC
-Investigating - We are investigating reports of degraded performance for Codespaces]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some customers unable to access legacy Posts]]></title>
-        <id>https://slack-status.com/2024-05/c543a5ed3c508804</id>
-        <link href="https://slack-status.com/2024-05/c543a5ed3c508804"/>
-        <updated>2024-05-28T15:16:10.000Z</updated>
-        <summary type="html"><![CDATA[Issue Summary:
-
-From Friday, May 24 at 1:30 PM PDT until Monday, May 27th at 1:45 PM PDT, a small number of users were unable to access the legacy posts feature. Users would encounter an infinite loading spinner instead of loading their desired post.
-
-We traced the issue to a recent change that altered how a backend service loaded assets for this feature. The change was rolled back and functionality returned to normal. 
-
-We are sorry for any inconvenience this issue may have caused and are evaluating additional logging to allow similar issues to be identified earlier.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>
