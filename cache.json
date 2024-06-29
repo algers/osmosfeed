@@ -4,7 +4,18 @@
       "title": "BookingSync.com news",
       "feedUrl": "https://changelog.bookingsync.com/rss",
       "siteUrl": "https://changelog.bookingsync.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "295827",
+          "author": "Basile, Product Manager",
+          "description": "New!\n  \nWe are thrilled to introduce an incredible new feature designed to help you achieve your first bookings more quickly and efficiently on Airbnb.\nStarting today, you can take advantage of the New Listing Promotion to boost your property’s visibility and attract more guests!\nKey Features of the New Listing Promotion:\nOpt-in/Opt-out flexibility: Easily manage your participation in the New Listing Promotion through our Airbnb app by navigating to Change settings > tick the box to enable New Listing Promotion and click ‘Save’ at the bottom of the pop-up\n1/ Go to the Airbnb app, select and click on Change settings\nEasily find your eligible properties thanks to the addition of a tag as below ⬇️ which will contain the text ‘Eligible to new listing promotion’\n\n2/ Tick the box to activate the…",
+          "link": "https://changelog.bookingsync.com/speed-up-your-first-bookings-on-airbnb-295827",
+          "publishedOn": "2024-06-28T13:36:28.000Z",
+          "wordCount": 673,
+          "title": "Speed-up your first bookings on Airbnb 🌟",
+          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/129/943-063b6b0b2f231146aab77df4a85a6ed9b9874bba.png"
+        }
+      ]
     },
     {
       "title": "Security Bulletins on Tailscale",
@@ -12,12 +23,22 @@
       "siteUrl": "https://tailscale.com/security-bulletins/",
       "articles": [
         {
+          "id": "https://tailscale.com/security-bulletins/#ts-2024-009",
+          "author": null,
+          "description": "Description: Potential for API credential disclosure over plaintext HTTP\nWhat happened?\nThe Tailscale API is primarily accessible over TLS-encrypted HTTP at\napi.tailscale.com. It also has a limited plaintext HTTP handler to serve HTTP\nto HTTPS redirects.\nBrowsers that connect over plaintext HTTP do not send cookies marked as Secure\nto prevent them from being disclosed to network intermediaries.\nHowever, API clients that connect using plaintext HTTP and send requests\nwith authentication tokens in headers have no such protections to prevent\ndisclosure.\nBefore June 26, 2024, the Tailscale API did not reject credentialed plaintext\nAPI requests and instead served them HTTP 302 redirects as it would to browsers.\nTypical HTTP client libraries handle redirects transparently, and consequently, the user\nwould not necessarily know their credentials had been exposed.\nStarting on June 26, 2024, the Tailscale API now returns errors for all plaintext\nHTTP requests that include credentials. Additionally, the Tailscale API now\nautomatically revokes API keys that it observes sent over HTTP and notifies\nTailnet security owners of this action.\nWho was affected?\nAny Tailscale API client that connected over plaintext HTTP using credentials\nbefore June 26, 2024.\nWhat was the impact?\nAPI clients that connected over plaintext HTTP before June 26, 2024 would have\nexposed their credentials to network intermediaries, risking them to theft and\nreplay.\nWhat do I need to do?\nNo action is needed at this time.\nCredits\nThanks to Joachim Viide for reporting this issue.",
+          "link": "https://tailscale.com/security-bulletins/#ts-2024-009",
+          "publishedOn": "2024-06-27T00:00:00.000Z",
+          "wordCount": 14707,
+          "title": "TS-2024-009",
+          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
+        },
+        {
           "id": "https://tailscale.com/security-bulletins/#ts-2024-008",
           "author": null,
           "description": "Description: Partial loss of audit and network flow logs\nWhat happened?\nAn integer overflow in our logs processing service led to some customer logs\nto be non-deterministically dropped with a probability of 14%.\nThe overflow condition first exhibited on June 7th, 2024 at 20:45 UTC and\nwas detected and resolved by June 14th, 2024 at 00:40 UTC.\nWho was affected?\nAll tailnets that rely on audit and network flow logs have been affected.\nWhat was the impact?\nThe 14% chance of dropped log entries affects storing of logs such as\nconfiguration audit logs and\nnetwork flow logs.\nWhile logs can be retrieved for the timeframe that the overflow bug was active,\nsome fraction of the entries may be missing.\nWhat do I need to do?\nNo action is needed at this time.\nWe fixed the bug, added additional error checking, and\ndeployed both to the logs processing service.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-008",
           "publishedOn": "2024-06-14T00:00:00.000Z",
-          "wordCount": 14280,
+          "wordCount": 14707,
           "title": "TS-2024-008",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         },
@@ -27,7 +48,7 @@
           "description": "Description: Incorrect DNS resolution with split DNS on macOS and iOS\nWhat happened?\nOn Tailscale macOS and iOS clients with split DNS configurations (like App\nConnectors or Restricted\nNameservers), lookups of bare tailnet node names\ncould in rare cases return incorrect answers. For example, if a node mynode\nand an App Connector for *.example.com exist on a tailnet, DNS lookups for\nmynode could return the answer for mynode.example.com instead of the local\ntailnet IP. This mis-configuration is intermittent, and most often triggers for\na few seconds when switching device networks (for example from Wi-Fi to a phone\nhotspot).\nWe fixed this bug in client version 1.68.0, and notified the security contacts\nof potentially affected tailnets over email.\nWho was affected?\nAll tailnets that use App Connectors or Restricted Domains, and have macOS or\niOS nodes could have been affected.\nThis bug is usually intermittently-triggered when switching networks in our\nexperience. Only lookups of bare domains, like mynode but not\nmynode.mytailnet.ts.net, are at risk.\nNote that not all split DNS domains are dangerous. Only domains where an\nattacker can choose their FQDN to match a node name, and controls the\ndestination to receive non-TLS traffic could be abused.\nWe are not aware of any active exploitation of this vulnerability.\nWhat was the impact?\nFor a split DNS domain example.com, an attacker with control over\nmynode.example.com can impersonate a non-TLS server running on node mynode\non the tailnet. This attack is opportunistic and passive - it relies on the\nuser connecting to mynode using its bare domain and cannot be forced\nremotely.\nWhat do I need to do?\nUpgrade your macOS and iOS clients to 1.68.0 or later.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-007",
           "publishedOn": "2024-06-12T00:00:00.000Z",
-          "wordCount": 14280,
+          "wordCount": 14707,
           "title": "TS-2024-007",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -86,103 +107,73 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/j7zf207q9gzh",
+          "id": "https://status.twilio.com/incidents/m4s4517w3837",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 27, 22:00 PDT  -  Jun 28, 03:00 PDT\nJun 26, 16:12 PDT\nScheduled - The T-Mobile network in the United States is conducting a planned maintenance from 27 June 2024 at 22:00 PDT until 28 June 2024 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile United States handsets.",
-          "link": "https://status.twilio.com/incidents/j7zf207q9gzh",
-          "publishedOn": "2024-06-28T05:00:00.000Z",
-          "wordCount": 7551,
-          "title": "United States SMS and MMS Carrier Maintenance - T-Mobile",
+          "description": "THIS IS A SCHEDULED EVENT Jun 28, 23:00 PDT  -  Jun 29, 00:30 PDT\nJun 28, 14:05 PDT\nScheduled - Our SMS carrier partner in Mexico is conducting a planned maintenance from 28 June 2024 at 23:00 PDT until 29 June 2024 at 00:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Mexico handsets.",
+          "link": "https://status.twilio.com/incidents/m4s4517w3837",
+          "publishedOn": "2024-06-29T06:00:00.000Z",
+          "wordCount": 7509,
+          "title": "Mexico SMS Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/9b11qldccg1r",
+          "id": "https://status.twilio.com/incidents/s05rh6bd4kyd",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jun 27, 19:00 PDT  -  Jun 28, 05:00 PDT\nJun 11, 15:48 PDT\nScheduled - Our SMS carrier partner in the US and Puerto Rico is conducting a planned maintenance from 27 June 2024 at 19:00 PDT until 28 June 2024 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US and Puerto Rico handsets.",
-          "link": "https://status.twilio.com/incidents/9b11qldccg1r",
-          "publishedOn": "2024-06-28T02:00:00.000Z",
-          "wordCount": 7533,
-          "title": "Multiple Destination SMS Carrier Partner Maintenance",
+          "description": "Jun 28, 17:01 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Altan Redes networks in Mexico for a subset of long-code and alpha-numeric numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 28, 14:34 PDT\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Altan Redes networks in Mexico for a subset of long-code and alpha-numeric numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hour or as soon as more information becomes available\nJun 28, 11:54 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Altan Redes networks in Mexico for a subset of long-code and alpha-numeric numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hour or as soon as more information becomes available\nJun 28, 11:03 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Altan Redes networks in Mexico for a subset of long-code and alpha-numeric numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available",
+          "link": "https://status.twilio.com/incidents/s05rh6bd4kyd",
+          "publishedOn": "2024-06-29T00:01:19.000Z",
+          "wordCount": 7703,
+          "title": "SMS Delivery Delays to Altan Redes Networks in Mexico",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/svd7stsr6xk3",
+          "id": "https://status.twilio.com/incidents/541dvw25t1sn",
           "author": null,
-          "description": "Jun 27, 16:52 PDT\nMonitoring - We are observing recovery in SMS Delivery Delays to Viaero Wireless in the United States. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/svd7stsr6xk3",
-          "publishedOn": "2024-06-27T23:52:45.000Z",
-          "wordCount": 7519,
-          "title": "SMS Delivery Delays to Viaero Wireless in the United States",
+          "description": "Jun 28, 16:08 PDT\nUpdate - We are continuing to investigate delays in receiving message delivery reports when sending to Dish Network in the US on Twilio Short Codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hour or as soon as more information becomes available.\nJun 28, 14:25 PDT\nUpdate - We are experiencing delays in receiving message delivery reports when sending to Dish Network in the US on Twilio Short Codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nJun 28, 14:16 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS delivery report delays from Dish Network in the US from short codes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/541dvw25t1sn",
+          "publishedOn": "2024-06-28T23:08:40.000Z",
+          "wordCount": 7646,
+          "title": "SMS Delivery Report Delays From Dish Network in the US for Short Codes",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/p368zddt8stg",
+          "id": "https://status.twilio.com/incidents/cdx6s1yqnx9t",
           "author": null,
-          "description": "Jun 27, 16:44 PDT\nInvestigating - We are experiencing SMS delivery delays to Orange Network in Serbia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/p368zddt8stg",
-          "publishedOn": "2024-06-27T23:44:19.000Z",
-          "wordCount": 7507,
-          "title": "SMS Delivery Delays to Orange Network in Serbia",
+          "description": "Jun 28, 15:07 PDT\nResolved - New account signup is operating normally at this time.\nJun 28, 12:19 PDT\nMonitoring - New account signup is now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.\nJun 28, 08:27 PDT\nUpdate - Our engineers have identified the issue with a small percentage of new account signups resulting in dual account creation and are actively working on the same. We expect to provide another update in 4 hours or as soon as more information becomes available.\nJun 28, 06:26 PDT\nUpdate - Our engineers have identified the issue with a small percentage of new account signups resulting in dual account creation and are actively working on the same. We expect to provide another update in 2 hours or as soon as more information becomes available.\nJun 28, 05:26 PDT\nIdentified - Our engineers have identified the issue with a small percentage of new account signups resulting in dual account creation and are actively working on the same. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/cdx6s1yqnx9t",
+          "publishedOn": "2024-06-28T22:07:00.000Z",
+          "wordCount": 7678,
+          "title": "Small Percentage of New Account Signup Result With Two Twilio Accounts Being Created",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/hqsz7rspsk8y",
+          "id": "https://status.twilio.com/incidents/28frd35q22mp",
           "author": null,
-          "description": "Jun 27, 16:01 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to/from multiple network in Colombia over a subset of Short Code. This incident has been resolved.\nJun 27, 14:01 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to/from multiple network in Colombia over a subset of Short Code. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 27, 12:08 PDT\nUpdate - We continue to experience SMS delivery delays when sending messages to/from multiple network in Colombia over a subset of Short Code. Our engineers will continue to work with our carrier partner to resolve the issue. We will provide another updat…",
-          "link": "https://status.twilio.com/incidents/hqsz7rspsk8y",
-          "publishedOn": "2024-06-27T23:01:23.000Z",
-          "wordCount": 7902,
-          "title": "SMS Delivery Delays to/from Multiple Network in Colombia Over a Subset of Short Code",
+          "description": "Jun 28, 10:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 28, 07:03 PDT\nScheduled - The Viettel network in Vietnam is conducting an emergency maintenance from 28 June 2024 at 10:00 PDT until 28 June 2024 at 14:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Viettel Vietnam handsets.",
+          "link": "https://status.twilio.com/incidents/28frd35q22mp",
+          "publishedOn": "2024-06-28T17:00:02.000Z",
+          "wordCount": 7524,
+          "title": "Vietnam SMS Carrier Maintenance - Viettel",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/yttxnt9vctmd",
+          "id": "https://status.twilio.com/incidents/v5zz7glzbd2l",
           "author": null,
-          "description": "Jun 27, 15:52 PDT\nResolved - We are no longer experiencing MMS delivery delays to Toll Free numbers in North America. This incident has been resolved.\nJun 27, 15:32 PDT\nMonitoring - We are observing recovery to Toll Free MMS in North America. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 27, 15:18 PDT\nInvestigating - We are experiencing delivery delays to Toll Free MMS in North America. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hours or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/yttxnt9vctmd",
-          "publishedOn": "2024-06-27T22:52:53.000Z",
-          "wordCount": 7579,
-          "title": "Delivery Delays to Toll Free MMS",
+          "description": "Jun 28, 09:59 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to TriMob Network In Ukraine. This incident has been resolved.\nJun 28, 08:04 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to TriMob Network In Ukraine. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 28, 05:32 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to TriMob Network in Ukraine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nJun 28, 03:45 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to TriMob Network In Ukraine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 28, 02:53 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to TriMob Network In Ukraine. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/v5zz7glzbd2l",
+          "publishedOn": "2024-06-28T16:59:41.000Z",
+          "wordCount": 7688,
+          "title": "SMS Delivery Delays to TriMob Network in Ukraine",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/5ftd1p5nl2z2",
+          "id": "https://status.twilio.com/incidents/dlv42y7mykd2",
           "author": null,
-          "description": "Jun 27, 15:50 PDT\nMonitoring - We are observing recovery in SMS delivery delays to Cell C Network in South Africa. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 27, 14:57 PDT\nInvestigating - We are experiencing SMS delivery delays to Cell C Network in South Africa. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/5ftd1p5nl2z2",
-          "publishedOn": "2024-06-27T22:50:25.000Z",
-          "wordCount": 7568,
-          "title": "SMS Delivery Delays to Cell C Network in South Africa",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/ljpsr76v1mbl",
-          "author": null,
-          "description": "Jun 27, 15:50 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 25, 09:59 PDT\nScheduled - Our SMS carrier partner in Portugal is conducting a planned maintenance from 27 June 2024 at 15:50 PDT until 27 June 2024 at 18:50 PDT. During the maintenance window, there could be intermittent delays delivering SMS from Portugal handsets via Portugal long codes.",
-          "link": "https://status.twilio.com/incidents/ljpsr76v1mbl",
-          "publishedOn": "2024-06-27T22:50:02.000Z",
-          "wordCount": 7525,
-          "title": "Portugal SMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/thxp6pb59380",
-          "author": null,
-          "description": "Jun 27, 15:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 26, 07:38 PDT\nScheduled - Our service partner is conducting a planned maintenance from 27 June 2024 at 15:00 PDT until 27 June 2024 at 21:00 PDT. During the maintenance window, there could be intermittent API request failures for the following carrier and country: Vodafone United Kingdom.\n\nImpacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes",
-          "link": "https://status.twilio.com/incidents/thxp6pb59380",
-          "publishedOn": "2024-06-27T22:00:02.000Z",
-          "wordCount": 7541,
-          "title": "United Kingdom Account Security Service Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/5ym96ydd0l9x",
-          "author": null,
-          "description": "Jun 27, 13:14 PDT\nResolved - Flex insights reporting delays has been resolved and is operating normally at this time.\nJun 27, 11:47 PDT\nUpdate - We continue to observe recovery in Flex insights reporting delays. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJun 27, 08:56 PDT\nUpdate - We continue to observe recovery in Flex insights reporting delays. We will continue monitoring the service to ensure a full recovery. We will provide another update in 3 hours or as soon as more information becomes available.\nJun 27, 07:05 PDT\nUpdate - We continue to observe recovery in Flex insights reporting delays. We will continue monitoring the service to ensure a full recovery. We will provide…",
-          "link": "https://status.twilio.com/incidents/5ym96ydd0l9x",
-          "publishedOn": "2024-06-27T20:14:05.000Z",
-          "wordCount": 7917,
-          "title": "Flex Insights Reporting Delays",
+          "description": "Jun 28, 09:10 PDT\nResolved - We are resolving this status page because there is already an existing communication on this incident. Please refer to this status page for future communications: https://status.twilio.com/incidents/bzl56xrh460r\nJun 28, 07:54 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to H3G Network in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/dlv42y7mykd2",
+          "publishedOn": "2024-06-28T16:10:46.000Z",
+          "wordCount": 7540,
+          "title": "SMS Delivery Delays to H3G Network in Ireland",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -192,6 +183,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/nrgqw98yj9bz",
+          "author": null,
+          "description": "Jun 28, 21:57 UTC\nResolved - Our Engineering team has confirmed that this incident has been fully resolved.\nWe appreciate your patience throughout this process and if you continue to experience problems, please open a ticket with our support team for further review.\nJun 28, 21:18 UTC\nMonitoring - Our Engineering team has taken actions to mitigate the issue affecting intermittent request failures for Spaces in NYC3 and is monitoring the situation.\nThe impact has subsided and users should be able to interact with Spaces normally.\nWe will post an update once we confirm this incident is fully resolved.\nJun 28, 20:37 UTC\nUpdate - Our Engineering team is continuing to investigate the root cause of the issue with intermittent request failures for Spaces in NYC3. Observed error rates are trending down to pre-incident levels, but may spike again. \nWe will provide an update as soon as we have additional information.\nJun 28, 19:04 UTC\nInvestigating - Beginning around 17:40 UTC, Our Engineering team is investigating an issue impacting Spaces in our NYC3 region. During this time, users may encounter intermittent request failures for Spaces in NYC3. Additionally, load times for objects in that region may be slower. \nWe apologize for any inconvenience caused and will provide further updates as soon as possible.",
+          "link": "https://status.digitalocean.com/incidents/nrgqw98yj9bz",
+          "publishedOn": "2024-06-28T21:57:04.000Z",
+          "wordCount": 6395,
+          "title": "Spaces in NYC3",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/449n8d04vst3",
           "author": null,
@@ -381,16 +382,6 @@
           "wordCount": 6462,
           "title": "Event processing in TOR1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/92tf7qm362vj",
-          "author": null,
-          "description": "May 29, 14:00 UTC\nCompleted - The scheduled maintenance has been completed.\nMay 29, 10:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 22, 17:13 UTC\nScheduled - Start: 2024-05-29 10:00 UTC\nEnd: 2024-05-29 14:00 UTC\nDuring the above window, we will be performing maintenance on core switches in our NYC3 datacenter as part of network upgrades. \n Expected Impact:\n Inbound and outbound traffic for Droplet-based services in NYC3 may experience a few brief interruptions as traffic is isolated from core switches being upgraded. This impact would be for a duration of 5 to 10 seconds and could occur a few times within the maintenance window. Our team will make every effort to seamlessly drain traffic in order to limit customer impact. \n If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
-          "link": "https://status.digitalocean.com/incidents/92tf7qm362vj",
-          "publishedOn": "2024-05-29T14:00:02.000Z",
-          "wordCount": 6333,
-          "title": "NYC3 Network Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -501,6 +492,16 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/9vwllhs2w1kj",
+          "author": null,
+          "description": "Jun 28, 22:51 UTC\nResolved - This incident has been resolved.\nJun 28, 22:18 UTC\nUpdate - We are continuing to work to mitigate delays in organization membership changes.\nJun 28, 21:45 UTC\nUpdate - We are still actively working to mitigate delays in organization membership changes.\nJun 28, 20:46 UTC\nUpdate - We are actively working to mitigate delays in organization membership changes. Actions and Pull Requests are both functioning normally now.\nJun 28, 20:00 UTC\nUpdate - Actions is operating normally.\nJun 28, 19:59 UTC\nUpdate - Pull Requests is operating normally.\nJun 28, 19:51 UTC\nUpdate - We are continuing to apply mitigations and are seeing improvement in creating pull request merge commits and Actions runs for pull request events. Applying changes to organization members remains delayed.\nJun 28, 19:03 UTC\nUpdate - We are continuing to work on mitigating delays creating pull request merge commits, Actions runs for pull request events, and changes to organization members.\nJun 28, 17:59 UTC\nUpdate - Actions runs triggered by pull requests are experiencing start delays. We have engaged the appropriate teams and are investigating the issue.\nJun 28, 17:58 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nJun 28, 17:34 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
+          "link": "https://www.githubstatus.com/incidents/9vwllhs2w1kj",
+          "publishedOn": "2024-06-28T22:51:40.000Z",
+          "wordCount": 5496,
+          "title": "Delays in changes to organization membership",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/y0frtmhd9n2z",
           "author": null,
           "description": "Jun 27, 23:44 UTC\nResolved - This incident has been resolved.\nJun 27, 23:43 UTC\nUpdate - We have identified a root cause for Codespaces issue in the West US region and are rolling out a fix.\nJun 27, 23:34 UTC\nUpdate - A subset of customers are currently experiencing issues creating and resuming Codespaces in the West US region.\nJun 27, 23:34 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces",
@@ -513,10 +514,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/538zgs80s3zg",
           "author": null,
-          "description": "Jun 27, 21:42 UTC\nResolved - This incident has been resolved.\nJun 27, 21:20 UTC\nUpdate - Some GitHub Enterprise Importer migrations are failing. We have identified a root cause and are rolling out a fix.\nJun 27, 21:16 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Jun 27, 21:42 UTC\nResolved - Between June 27th, 2024 at 20:39 UTC and 21:37 UTC the Migrations service was unable to process migrations. This was due to a invalid infrastructure credential. \nWe mitigated the issue by updating the credential and deploying the service. \nMechanisms and automation will be implemented to detect and prevent this issue again in the future.\nJun 27, 21:20 UTC\nUpdate - Some GitHub Enterprise Importer migrations are failing. We have identified a root cause and are rolling out a fix.\nJun 27, 21:16 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/538zgs80s3zg",
           "publishedOn": "2024-06-27T21:42:14.000Z",
-          "wordCount": 5296,
+          "wordCount": 5345,
           "title": "Disruption with GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
