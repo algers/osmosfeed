@@ -1,16 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-06-30T00:26:22.122Z</id>
+    <id>urn:2024-07-01T00:27:49.682Z</id>
     <title>osmos::feed</title>
-    <updated>2024-06-30T00:26:22.122Z</updated>
+    <updated>2024-07-01T00:27:49.682Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[United States SMS and MMS Carrier Maintenance - AT&T]]></title>
+        <id>https://status.twilio.com/incidents/k5f31h9ryzsq</id>
+        <link href="https://status.twilio.com/incidents/k5f31h9ryzsq"/>
+        <updated>2024-07-01T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jun 30, 22:00 PDT  -  Jul 1, 01:00 PDT
+Jun 29, 15:19 PDT
+Scheduled - The AT&T network in the United States is conducting a planned maintenance from 30 June 2024 at 22:00 PDT until 01 July 2024 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to AT&T United States handsets when sending via short codes.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United States SMS and MMS Carrier Maintenance - T-Mobile]]></title>
+        <id>https://status.twilio.com/incidents/d12kt2tqtrqt</id>
+        <link href="https://status.twilio.com/incidents/d12kt2tqtrqt"/>
+        <updated>2024-07-01T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jun 30, 21:00 PDT  -  Jul 1, 05:00 PDT
+Jun 28, 15:36 PDT
+Scheduled - The T-Mobile network in the United States is conducting a planned maintenance from 30 June 2024 at 21:00 PDT until 01 July 2024 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile United States handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Issues accessing third-party apps]]></title>
+        <id>https://status.rippling.com/incidents/hm6vf6ct17p6</id>
+        <link href="https://status.rippling.com/incidents/hm6vf6ct17p6"/>
+        <updated>2024-06-30T19:23:27.000Z</updated>
+        <summary type="html"><![CDATA[Jun 30, 19:23 UTC
+Update - Group membership updates have propagated to most third-party apps. 
+A minority of updates are pending due to an error from the third-party app. We are continuing to work through any pending updates and will confirm once all updates have been processed and this incident can be considered resolved.
+Affected customers will receive an email today with additional details, including the app groups affected and recommended action items.
+Jun 29, 19:52 UTC
+Update - Group membership updates have propagated to most third-party apps. A minority of updates are delayed by third-party app's rate limits. We are continuing to monitor the fix and will confirm once all updates have been successful.
+Jun 29, 18:21 UTC
+Update - We are continuing to monitor for further issues. Due to integration-specific rate-limiting, the fix may be delayed.
+Jun 29, 18:02 UTC
+Monitoring - A fix has been implemented and we are monitoring the results.
+Jun 29, 17:20 UTC
+Update - We are continuing to work on a fix for this issue and will update the status of this incident to Monitoring once updates to third-party groups has started.
+To currently address any access issues, administrators can update group membership rules in Rippling. Please note that Rippling will overwrite these group rules with their state at June 29 2024 12:30 AM PDT.
+For instructions on updating group membership in Rippling, see our help center article → https://help.rippling.com/s/article/360056299893
+Jun 29, 15:15 UTC
+Update - An update to third-party groups was erroneously propagated. We are continuing to work on a fix to revert all affected groups in third-party apps to their prior state.
+Updated group rules since June 29 12:30 AM PT will be reverted to their definition at that time – any updates made since then will be overwritten.
+Jun 29, 14:44 UTC
+Identified - Users' access to third-party apps is not working as expected. The issue has been identified and a fix is in progress.]]></summary>
+        <author>
+            <name>Rippling Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Airtel Network in Nigeria]]></title>
+        <id>https://status.twilio.com/incidents/k5qwhz6qd1dg</id>
+        <link href="https://status.twilio.com/incidents/k5qwhz6qd1dg"/>
+        <updated>2024-06-30T14:00:10.000Z</updated>
+        <summary type="html"><![CDATA[Jun 30, 07:00 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Airtel Network in Nigeria. This incident has been resolved.
+Jun 30, 05:00 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Airtel Network in Nigeria. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Jun 30, 03:00 PDT
+Update - We are continuing to experience SMS delivery delays when sending messages to Airtel Network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Jun 30, 02:00 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to Airtel Network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inbound Call Failures to a Subset of Twilio Brazil / Rio de Janeiro Phone Numbers]]></title>
+        <id>https://status.twilio.com/incidents/c4mmyqqls7b5</id>
+        <link href="https://status.twilio.com/incidents/c4mmyqqls7b5"/>
+        <updated>2024-06-30T09:07:05.000Z</updated>
+        <summary type="html"><![CDATA[Jun 30, 02:07 PDT
+Resolved - The issue affecting call failures to a subset Twilio Brazil Rio de Janeiro phone numbers has been resolved, and the service is functioning normally at this time.
+Jun 30, 00:13 PDT
+Monitoring - We have started seeing recovery for call failures to a subset Twilio Brazil Rio de Janeiro phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Jun 29, 20:25 PDT
+Update - We continue to observe call failures to a subset Twilio Brazil Rio de Janeiro phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.
+Jun 29, 16:25 PDT
+Update - We continue to observe call failures to a subset Twilio Brazil Rio de Janeiro phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
+Jun 29, 14:25 PDT
+Update - We continue to observe call failures to a subset Twilio Brazil Rio de Janeiro phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Jun 29, 13:32 PDT
+Investigating - We are observing call failures to a subset Twilio Brazil Rio de Janeiro phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United Kingdom Account Security Service Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/3v37312tc6zk</id>
+        <link href="https://status.twilio.com/incidents/3v37312tc6zk"/>
+        <updated>2024-06-30T04:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Jun 29, 21:00 PDT
+Completed - The scheduled maintenance has been completed.
+Jun 29, 13:15 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Jun 26, 07:48 PDT
+Scheduled - Our service partner is conducting a planned maintenance from 29 June 2024 at 13:15 PDT until 29 June 2024 at 21:00 PDT. During the maintenance window, there could be intermittent API request failures for the following carrier and country: Vodafone United Kingdom.
+
+Impacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Win Mobile/Volna Mobile]]></title>
         <id>https://status.twilio.com/incidents/pdv8bh8zj716</id>
         <link href="https://status.twilio.com/incidents/pdv8bh8zj716"/>
-        <updated>2024-06-30T00:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Jun 29, 17:00 PDT
+        <updated>2024-06-30T01:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Jun 29, 18:00 PDT
+Completed - The scheduled maintenance has been completed.
+Jun 29, 17:00 PDT
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Jun 29, 16:16 PDT
 Scheduled - The Win Mobile/Volna Mobile network in Russia is conducting a planned maintenance from 29 June 2024 at 17:00 PDT until 29 June 2024 at 18:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Win Mobile/Volna Mobile Russia handsets.]]></summary>
@@ -69,75 +178,6 @@ Jun 29, 13:42 PDT
 Update - We continue to experience SMS delivery delays when sending messages to multiple networks in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
 Jun 29, 12:45 PDT
 Investigating - We continue …]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inbound Call Failures to a Subset of Twilio Brazil / Rio de Janeiro Phone Numbers]]></title>
-        <id>https://status.twilio.com/incidents/c4mmyqqls7b5</id>
-        <link href="https://status.twilio.com/incidents/c4mmyqqls7b5"/>
-        <updated>2024-06-29T23:25:18.000Z</updated>
-        <summary type="html"><![CDATA[Jun 29, 16:25 PDT
-Update - We continue to observe call failures to a subset Twilio Brazil Rio de Janeiro phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
-Jun 29, 14:25 PDT
-Update - We continue to observe call failures to a subset Twilio Brazil Rio de Janeiro phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Jun 29, 13:32 PDT
-Investigating - We are observing call failures to a subset Twilio Brazil Rio de Janeiro phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United Kingdom Account Security Service Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/3v37312tc6zk</id>
-        <link href="https://status.twilio.com/incidents/3v37312tc6zk"/>
-        <updated>2024-06-29T20:15:02.000Z</updated>
-        <summary type="html"><![CDATA[Jun 29, 13:15 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jun 26, 07:48 PDT
-Scheduled - Our service partner is conducting a planned maintenance from 29 June 2024 at 13:15 PDT until 29 June 2024 at 21:00 PDT. During the maintenance window, there could be intermittent API request failures for the following carrier and country: Vodafone United Kingdom.
-
-Impacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues accessing third-party apps]]></title>
-        <id>https://status.rippling.com/incidents/hm6vf6ct17p6</id>
-        <link href="https://status.rippling.com/incidents/hm6vf6ct17p6"/>
-        <updated>2024-06-29T19:52:40.000Z</updated>
-        <summary type="html"><![CDATA[Jun 29, 19:52 UTC
-Update - Group membership updates have propagated to most third-party apps. A minority of updates are delayed by third-party app's rate limits. We are continuing to monitor the fix and will confirm once all updates have been successful.
-Jun 29, 18:21 UTC
-Update - We are continuing to monitor for further issues. Due to integration-specific rate-limiting, the fix may be delayed.
-Jun 29, 18:02 UTC
-Monitoring - A fix has been implemented and we are monitoring the results.
-Jun 29, 17:20 UTC
-Update - We are continuing to work on a fix for this issue and will update the status of this incident to Monitoring once updates to third-party groups has started.
-To currently address any access issues, administrators can update group membership rules in Rippling. Please note that Rippling will overwrite these group rules with their state at June 29 2024 12:30 AM PDT.
-For instructions on updating group membership in Rippling, see our help center article → https://help.rippling.com/s/article/360056299893
-Jun 29, 15:15 UTC
-Update - An update to third-party groups was erroneously propagated. We are continuing to work on a fix to revert all affected groups in third-party apps to their prior state.
-Updated group rules since June 29 12:30 AM PT will be reverted to their definition at that time – any updates made since then will be overwritten.
-Jun 29, 14:44 UTC
-Identified - Users' access to third-party apps is not working as expected. The issue has been identified and a fix is in progress.]]></summary>
-        <author>
-            <name>Rippling Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Failures to Telefonica Network in Mexico via Subset of Shortcodes]]></title>
-        <id>https://status.twilio.com/incidents/1dt5fnljnrfw</id>
-        <link href="https://status.twilio.com/incidents/1dt5fnljnrfw"/>
-        <updated>2024-06-29T13:52:53.000Z</updated>
-        <summary type="html"><![CDATA[Jun 29, 06:52 PDT
-Resolved - We are no longer experiencing MMS/SMS delivery failures to Telefonica network in Mexico via subset of short codes. This incident has been resolved.
-Jun 29, 04:56 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Telefonica network in Mexico via subset of shortcodes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jun 29, 04:02 PDT
-Investigating - We are experiencing SMS delivery failures to Telefonica network in Mexico via subset of shortcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
