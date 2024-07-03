@@ -107,43 +107,13 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/95hybysgzg41",
+          "id": "https://status.twilio.com/incidents/17vf9pp1pt3n",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jul 1, 22:00 PDT  -  Jul 2, 05:00 PDT\nJul  1, 15:34 PDT\nScheduled - Our carrier partner AT&T United States is conducting an emergency maintenance from 01 July 2024 at 22:00 PDT until 02 July 2024 at 05:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.\n\nImpacted Product: Verify Silent Network Auth.",
-          "link": "https://status.twilio.com/incidents/95hybysgzg41",
-          "publishedOn": "2024-07-02T05:00:00.000Z",
-          "wordCount": 7527,
-          "title": "United States Account Security Carrier Partner Maintenance - AT&T",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/67s0jq2b5m9j",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jul 1, 20:00 PDT  -  Jul 2, 00:00 PDT\nJun 30, 21:04 PDT\nScheduled - Our carrier partner Verizon Wireless United States is conducting a planned maintenance from 01 July 2024 at 20:00 PDT until 02 July 2024 at 00:00 PDT. During the maintenance window, there could be intermittent API request failures for Verizon Wireless United States customers.\n\nImpacted Product: Verify Silent Network Auth",
-          "link": "https://status.twilio.com/incidents/67s0jq2b5m9j",
-          "publishedOn": "2024-07-02T03:00:00.000Z",
-          "wordCount": 7532,
-          "title": "United States Account Security Carrier Partner Maintenance - Verizon Wireless",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/rgt47xn9d1wq",
-          "author": null,
-          "description": "Jul  1, 16:16 PDT\nResolved - Twilio Programmable Voice enqueuing/dequeuing of calls was degraded for 4 minutes between 15:55 and 15:59 Pacific Time on 07/01/2024. During this period of time customers may have experienced issues with enqueuing and dequeuing voice calls and the creation of call queues. The issue has now been resolved.",
-          "link": "https://status.twilio.com/incidents/rgt47xn9d1wq",
-          "publishedOn": "2024-07-01T23:16:55.000Z",
-          "wordCount": 7498,
-          "title": "Programmable Voice Queues Impacted",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/ftnmxd9f8qvk",
-          "author": null,
-          "description": "Jul  1, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJun 25, 20:35 PDT\nScheduled - Our service partner is conducting a planned maintenance from 01 July 2024 at 14:00 PDT until 01 July 2024 at 18:00 PDT. During the maintenance window, there could be intermittent API request failures for the following carrier and country:EE United Kingdom \n\nImpacted Products: Verify Silent Network Auth, Lookup Identity Match, Lookup SIM Swap, Legacy Identity MatchAndAttributes",
-          "link": "https://status.twilio.com/incidents/ftnmxd9f8qvk",
-          "publishedOn": "2024-07-01T21:00:03.000Z",
-          "wordCount": 7555,
-          "title": "United Kingdom Account Security Service Partner Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Jul 2, 23:30 PDT  -  Jul 3, 02:30 PDT\nJun 26, 16:40 PDT\nScheduled - The AT&T network in the United States is conducting a planned maintenance from 02 July 2024 at 23:30 PDT until 03 July 2024 at 02:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T United States handsets.",
+          "link": "https://status.twilio.com/incidents/17vf9pp1pt3n",
+          "publishedOn": "2024-07-03T06:30:00.000Z",
+          "wordCount": 7529,
+          "title": "United States SMS Carrier Maintenance - AT&T",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -154,12 +124,22 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/wtfb50fmwfgx",
+          "author": null,
+          "description": "Jul  2, 21:09 UTC\nResolved - Our Engineering team identified and resolved an issue impacting multiple services, in multiple regions.\nFrom 19:53 - 20:22 UTC, users may have experienced errors with the following operations, for all regions:\nDroplet creates with a root password\nDroplet root password resets\nDroplet Snapshots\nMongoDB cluster creates\nLet’sEncrypt certificate creation (for Load Balancers and Spaces)\nLoadBalancer creation with certificates\nSpaces bucket and key creations\nFetching CSV invoices\nBulk actions in the Spaces UI\nAdditionally, users could have seen latency while creating and updating Apps.\nOur Engineering team quickly identified the root cause of the incident to be an incorrect firewall policy applied to core infrastructure and rolled back the change.\nWe apologize for the disruption. If you continue to experience any issues, please open a Support ticket from within your account.",
+          "link": "https://status.digitalocean.com/incidents/wtfb50fmwfgx",
+          "publishedOn": "2024-07-02T21:09:45.000Z",
+          "wordCount": 6371,
+          "title": "Control Plane for Multiple Services",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/xnk1lb0pfjzm",
           "author": null,
-          "description": "Jul  1, 12:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul  1, 08:50 UTC\nScheduled - Start: 2024-07-01 1200 UTC\nEnd: 2024-07-08 2100 UTC\nDuring the above window, our Engineering team will be performing ongoing security maintenance on Managed Kubernetes control plane clusters in our SGP1 region. \nExpected impact:\nWhile our team will take all possible precautions to prevent impact during this event, some Managed Kubernetes clusters in the region may experience brief periods where control plane connectivity is lost. In such an event, Managed Kubernetes control plane operations such as scaling, resizing, adding nodes and creation of new clusters may be delayed. We will endeavor to keep any such impact to a minimum.\nIf you have any questions related to this event please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket\nThank you,\nTeam DigitalOcean",
+          "description": "Jul  2, 19:35 UTC\nCompleted - The scheduled maintenance has been completed.\nJul  1, 12:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul  1, 08:50 UTC\nScheduled - Start: 2024-07-01 1200 UTC\nEnd: 2024-07-08 2100 UTC\nDuring the above window, our Engineering team will be performing ongoing security maintenance on Managed Kubernetes control plane clusters in our SGP1 region. \nExpected impact:\nWhile our team will take all possible precautions to prevent impact during this event, some Managed Kubernetes clusters in the region may experience brief periods where control plane connectivity is lost. In such an event, Managed Kubernetes control plane operations such as scaling, resizing, adding nodes and creation of new clusters may be delayed. We will endeavor to keep any such impact to a minimum.\nIf you have any questions related to this event please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket\nThank you,\nTeam DigitalOcean",
           "link": "https://status.digitalocean.com/incidents/xnk1lb0pfjzm",
-          "publishedOn": "2024-07-01T12:00:02.000Z",
-          "wordCount": 6337,
+          "publishedOn": "2024-07-02T19:35:17.000Z",
+          "wordCount": 6347,
           "title": "SGP1 Ongoing Managed Kubernetes Maintenance 2024-07-01",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -399,16 +379,6 @@
           "wordCount": 3389,
           "title": "Delay for Notifications",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/vsln8v1znsgd",
-          "author": null,
-          "description": "Jun  2, 19:07 PDT\nResolved - The issue has now been resolved, users should now be able to change their email\nJun  2, 17:51 PDT\nInvestigating - We are currently experiencing an issue where the email address cannot be changed with error code: 502\nOur engineering team is fully focused on resolving the issue and we will share updates as soon as possible",
-          "link": "https://status.notion.so/incidents/vsln8v1znsgd",
-          "publishedOn": "2024-06-03T02:07:57.000Z",
-          "wordCount": 3383,
-          "title": "Email address cannot be changed with error code:502",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -462,22 +432,32 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/5dvz23w3gl38",
+          "author": null,
+          "description": "Jul  2, 19:24 UTC\nResolved - This incident has been resolved.\nJul  2, 19:24 UTC\nUpdate - API Requests is operating normally.\nJul  2, 19:22 UTC\nUpdate - The fix has been rolled out and our telemetry indicates that the errors with code search have resolved.\nJul  2, 19:18 UTC\nUpdate - An issue with faulty data in an in-memory storage causes around one third of code search requests to fail. The team has identified the issue and is working on rolling out a fix.\nJul  2, 18:47 UTC\nUpdate - API Requests is experiencing degraded performance. We are continuing to investigate.\nJul  2, 18:45 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/5dvz23w3gl38",
+          "publishedOn": "2024-07-02T19:24:49.000Z",
+          "wordCount": 5373,
+          "title": "Disruption with GitHub services",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/4dq0ww5d0q7j",
           "author": null,
-          "description": "Jul  2, 00:15 UTC\nUpdate - We are investigating intermittent network connection issues. These issues appear to be limited to customers hosted on AWS that are connecting to GitHub's network.\nJul  1, 23:32 UTC\nUpdate - We're investigating reports of intermittent timeouts and connection errors for git clone operations.\nJul  1, 22:59 UTC\nInvestigating - We are investigating reports of degraded performance for Git Operations",
+          "description": "Jul  2, 01:14 UTC\nResolved - This incident has been resolved.\nJul  2, 01:14 UTC\nUpdate - As a result of rerouting traffic, we have seen overall network link health return to normal.\nJul  2, 00:52 UTC\nUpdate - We are investigating connection issues with one of our network links. We are working to reroute traffic.\nJul  2, 00:15 UTC\nUpdate - We are investigating intermittent network connection issues. These issues appear to be limited to customers hosted on AWS that are connecting to GitHub's network.\nJul  1, 23:32 UTC\nUpdate - We're investigating reports of intermittent timeouts and connection errors for git clone operations.\nJul  1, 22:59 UTC\nInvestigating - We are investigating reports of degraded performance for Git Operations",
           "link": "https://www.githubstatus.com/incidents/4dq0ww5d0q7j",
-          "publishedOn": "2024-07-02T00:15:26.000Z",
-          "wordCount": 5322,
+          "publishedOn": "2024-07-02T01:14:44.000Z",
+          "wordCount": 5380,
           "title": "Incident with Git Operations",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
         {
           "id": "https://www.githubstatus.com/incidents/9vwllhs2w1kj",
           "author": null,
-          "description": "Jun 28, 22:51 UTC\nResolved - This incident has been resolved.\nJun 28, 22:18 UTC\nUpdate - We are continuing to work to mitigate delays in organization membership changes.\nJun 28, 21:45 UTC\nUpdate - We are still actively working to mitigate delays in organization membership changes.\nJun 28, 20:46 UTC\nUpdate - We are actively working to mitigate delays in organization membership changes. Actions and Pull Requests are both functioning normally now.\nJun 28, 20:00 UTC\nUpdate - Actions is operating normally.\nJun 28, 19:59 UTC\nUpdate - Pull Requests is operating normally.\nJun 28, 19:51 UTC\nUpdate - We are continuing to apply mitigations and are seeing improvement in creating pull request merge commits and Actions runs for pull request events. Applying changes to organization members remains delayed.\nJun 28, 19:03 UTC\nUpdate - We are continuing to work on mitigating delays creating pull request merge commits, Actions runs for pull request events, and changes to organization members.\nJun 28, 17:59 UTC\nUpdate - Actions runs triggered by pull requests are experiencing start delays. We have engaged the appropriate teams and are investigating the issue.\nJun 28, 17:58 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nJun 28, 17:34 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
+          "description": "Jun 28, 22:51 UTC\nResolved - On June 28th, 2024, at 16:06 UTC, a backend update by GitHub triggered a significant number of long-running Organization membership update jobs in our job processing system. The job queue depth rose as these update jobs consumed most of our job worker capacity. This resulted in delays for other jobs across services such as Pull Requests and PR-related Actions workflows. We mitigated the impact to Pull Requests and Actions at 19:32 UTC by pausing all Organization membership update jobs. We deployed a code change at 22:30 UTC to skip over the jobs queued by the backend change and re-enabled Organization membership update jobs. We restored the Organization membership update functionality at 22:52 UTC, including all membership changes queued during the incident.\nDu…",
           "link": "https://www.githubstatus.com/incidents/9vwllhs2w1kj",
           "publishedOn": "2024-06-28T22:51:40.000Z",
-          "wordCount": 5496,
+          "wordCount": 5702,
           "title": "Delays in changes to organization membership",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -561,10 +541,10 @@
         {
           "id": "https://slack-status.com/2024-07/672491dc3d44fdaa",
           "author": null,
-          "description": "We are still working hard to reduce errors to rectify the issues with loading threads and activity. Some users may still see issues with loading direct messages and search as well. We're currently working towards a resolution. We hope to see further improvements soon.",
+          "description": "Issue summary:\nOn July 1, 2024 from 12:23 PM PDT to around 5:20 PM PDT, some users experienced issued with loading threads, channels, direct messages, the Activity tab, and search results. Some users may have also experienced issues with sending messages. \n\nAn error occurred during a routine database process. This error meant that a small subset of user requests were incorrectly routed to databases that did not exist. \n\nWe made an immediate change to redirect user requests to cached data where possible to mitigate some of the errors. In parallel, we rebuilt the database mapping to correctly reroute the affected traffic. This resolved the issue for all users.",
           "link": "https://slack-status.com/2024-07/672491dc3d44fdaa",
-          "publishedOn": "2024-07-02T00:22:32.000Z",
-          "wordCount": 473,
+          "publishedOn": "2024-07-02T04:17:16.000Z",
+          "wordCount": 640,
           "title": "Incident: Issues loading threads and activity feed",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
@@ -713,16 +693,6 @@
           "publishedOn": "2024-06-04T23:15:38.000Z",
           "wordCount": 3886,
           "title": "Long response time on webhook services",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/801ddmw5lw16",
-          "author": null,
-          "description": "Jun  3, 12:59 CEST\nResolved - This incident has been resolved.\nJun  3, 12:09 CEST\nMonitoring - A fix has been implemented and we are monitoring the results.\nJun  3, 12:05 CEST\nUpdate - We are currently experiencing login issues affecting all production zones. Scenario executions and webhook processing are not impacted. Our team is actively investigating the problem and working towards a resolution. We will provide updates in the next 30 minutes.\nJun  3, 12:01 CEST\nInvestigating - We are currently experiencing login issues affecting all production zones. Scenario executions and webhook processing are not impacted. Our team is actively investigating the problem and working towards a resolution. We will provide updates in the next 30 minutes.",
-          "link": "https://status.make.com/incidents/801ddmw5lw16",
-          "publishedOn": "2024-06-03T10:59:18.000Z",
-          "wordCount": 3942,
-          "title": "Login to make zones is not functional",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
