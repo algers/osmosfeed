@@ -113,6 +113,16 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/9hk7kps7s6fz",
+          "author": null,
+          "description": "Jul  5, 16:43 UTC\nResolved - Our Engineering team identified and resolved an issue with IPv6 networking in the BLR1 region.\nFrom 12:15 UTC - 15:32 UTC, users may have experienced issues connecting to Droplets and Droplet-based services in the BLR1 region using IPv6 addresses.\nOur Engineering team quickly identified the root cause of the incident to be related to a recent maintenance in that region and implemented a fix.\nWe apologize for the disruption. If you continue to experience any issues, please open a Support ticket from within your account.",
+          "link": "https://status.digitalocean.com/incidents/9hk7kps7s6fz",
+          "publishedOn": "2024-07-05T16:43:06.000Z",
+          "wordCount": 6270,
+          "title": "IPv6 networking in BLR1",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/wsqv56rmx3g0",
           "author": null,
           "description": "Jul  3, 21:36 UTC\nResolved - Our Engineering team identified and resolved an issue with creation of Snapshots and Backups in the NYC3 region.\nFrom 20:11 UTC to 21:04 UTC, users may have experienced errors while taking Snapshots of Droplets in NYC3. Backup creation was also failing, however, Backups will be retried automatically.\nOur Engineering team quickly identified the root cause of the incident to be related to capacity on internal storage clusters and were able to rebalance capacity, allowing creations to succeed.\nWe apologize for the disruption. If you continue to experience any issues, please open a Support ticket from within your account.",
@@ -331,16 +341,6 @@
           "wordCount": 6439,
           "title": "SFO2 Power Feed Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/m0y2kdhdkdg7",
-          "author": null,
-          "description": "Jun  5, 15:30 UTC\nResolved - From 12:10 - 12:41 UTC our Engineering team identified and resolved an issue impacting the Cloud Control Panel and API across multiple regions. \nDuring this time, users may have experienced trouble while viewing the IP address on their newly deployed droplets. Our Engineering team was able to take quick action to mitigate the impact and resolve the issue. All services are now functioning as expected. \nThank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket for further analysis.",
-          "link": "https://status.digitalocean.com/incidents/m0y2kdhdkdg7",
-          "publishedOn": "2024-06-05T15:30:06.000Z",
-          "wordCount": 6277,
-          "title": "Cloud Control Panel and API",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -402,7 +402,7 @@
           "description": "Jul  3, 16:01 UTC\nResolved - This incident has been resolved. A post-mortem will be posted on this page next Wednesday, July 10th by 5:00 PDT.\nAll third-party groups affected by this incident have been audited for accuracy (group membership matching between the Rippling group and the third-party group). Any customers with groups failing our audit due to authorization issues or other API errors are being remediated directly with the customer and the third-party app.\nWe understand the outsized impact this had on business operations for our customers and apologize for failing our mission to free smart people to work on hard problems.\nJul  1, 22:47 UTC\nUpdate - More than 99% of group membership updates have been propagated to third-party apps and audited for accuracy.\nA minority of updates are…",
           "link": "https://status.rippling.com/incidents/hm6vf6ct17p6",
           "publishedOn": "2024-07-03T16:01:58.000Z",
-          "wordCount": 5739,
+          "wordCount": 6888,
           "title": "Issues accessing third-party apps",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         },
@@ -440,6 +440,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/5yx1d67vq9hg",
+          "author": null,
+          "description": "Jul  5, 20:57 UTC\nResolved - This incident has been resolved.\nJul  5, 20:44 UTC\nUpdate - We are seeing recovery in Actions start times and are observing for any further impact.\nJul  5, 20:32 UTC\nUpdate - We are still seeing about 5% of Actions runs taking longer than 5 minutes to start. We are scaling and shifting resources to encourage recovery of the problem.\nJul  5, 19:58 UTC\nUpdate - We are still seeing about 5% of Actions runs taking longer than 5 minutes to start. We are evaluating mitigations to increase capacity to decrease latency.\nJul  5, 19:19 UTC\nUpdate - We are seeing about 5% of Actions runs not starting within 5 minutes. We are continuing investigation.\nJul  5, 18:40 UTC\nUpdate - We have seen recovery of Actions run delays. Keeping the incident open to monitor for full recovery.\nJul  5, 18:10 UTC\nUpdate - Webhooks is operating normally.\nJul  5, 18:09 UTC\nUpdate - We are seeing delays in Actions runs due to the recovery with webhook deliveries. We expect this to resolve with the recovery of webhooks.\nJul  5, 18:07 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nJul  5, 17:57 UTC\nUpdate - We are seeing recovery as webhooks are being delivered again. We are burning down our queue of events. No events have been lost. New webhook deliveries will be delayed while this process recovers.\nJul  5, 17:55 UTC\nUpdate - Webhooks is experiencing degraded performance. We are continuing to investigate.\nJul  5, 17:42 UTC\nUpdate - We are reverting a configuration change that is suspected to contribute to the problem with webhook deliveries.\nJul  5, 17:20 UTC\nUpdate - Our telemetry shows that most webhooks are failing to be delivered. We are queueing all undelivered webhooks and are working to remediate the problem.\nJul  5, 17:17 UTC\nUpdate - Webhooks is experiencing degraded availability. We are continuing to investigate.\nJul  5, 17:04 UTC\nInvestigating - We are investigating reports of degraded performance for Webhooks",
+          "link": "https://www.githubstatus.com/incidents/5yx1d67vq9hg",
+          "publishedOn": "2024-07-05T20:57:33.000Z",
+          "wordCount": 5620,
+          "title": "Incident with Webhooks and Actions",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/8532wfbvwqgr",
           "author": null,
@@ -528,26 +538,6 @@
           "publishedOn": "2024-06-11T21:39:47.000Z",
           "wordCount": 5433,
           "title": "Incident with Actions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/fr6wzzpg0bsv",
-          "author": null,
-          "description": "Jun  6, 04:43 UTC\nResolved - On June 6, 2024 between 03:29 and 04:19 UTC, the service responsible for the Maven package registry was degraded. This affected GitHub customers who were trying to upload packages to the Maven package registry.\nWe observed increased database pressure due to bulk operations in progress, and at 04:19 UTC, the Maven upload issues resolved when those bulk operations finished. We're continuing to assess any additional compounding factors.\nWe are working on improving our thresholds for existing alerts to reduce our time to detection and mitigation of issues like this one in the future.\n\nJun  6, 04:38 UTC\nUpdate - We were alerted to problems in maven uploads. These have now improved, and we're continuing to monitor and investigate.\nJun  6, 04:21 UTC\nUpdate - We are investigating reports of issues with Packages. We will continue to keep users updated on progress towards mitigation.\nJun  6, 04:21 UTC\nInvestigating - We are investigating reports of degraded performance for Packages",
-          "link": "https://www.githubstatus.com/incidents/fr6wzzpg0bsv",
-          "publishedOn": "2024-06-06T04:43:52.000Z",
-          "wordCount": 5413,
-          "title": "Incident with Packages",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/9zxft4pnrhbt",
-          "author": null,
-          "description": "Jun  5, 19:27 UTC\nResolved - On June 5, 2024, between 17:05 UTC and 19:27 UTC, the GitHub Issues service was degraded. During that time, no events related to projects were displayed on issue timelines. These events indicate when an issue was added to or removed from a project and when their status changed within a project. The data couldn’t be loaded due to a misconfiguration of the service backing these events. This happened after a scheduled secret rotation when the wrongly configured service continued using the old secrets which had expired. \nWe mitigated the incident by remediating the service configuration and have started simplifying the configuration to avoid similar misconfigurations in the future.\nJun  5, 19:27 UTC\nUpdate - Issues is operating normally.\nJun  5, 19:19 UTC\nUpdate - We continue to troubleshoot the problem with issues timeline.\nJun  5, 18:47 UTC\nUpdate - We continue to troubleshoot the problem with issues timeline.\nJun  5, 18:01 UTC\nUpdate - We're continuing to investigate the problem.\nJun  5, 17:26 UTC\nUpdate - We're seeing issues related to the issues timeline service, we're investigating and we will continue to keep users updated on progress towards mitigation.\nJun  5, 17:22 UTC\nInvestigating - We are investigating reports of degraded availability for Issues",
-          "link": "https://www.githubstatus.com/incidents/9zxft4pnrhbt",
-          "publishedOn": "2024-06-05T19:27:21.000Z",
-          "wordCount": 5467,
-          "title": "Incident with Issues",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]

@@ -1,10 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-05T00:23:39.835Z</id>
+    <id>urn:2024-07-06T00:22:54.132Z</id>
     <title>osmos::feed</title>
-    <updated>2024-07-05T00:23:39.835Z</updated>
+    <updated>2024-07-06T00:22:54.132Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident with Webhooks and Actions]]></title>
+        <id>https://www.githubstatus.com/incidents/5yx1d67vq9hg</id>
+        <link href="https://www.githubstatus.com/incidents/5yx1d67vq9hg"/>
+        <updated>2024-07-05T20:57:33.000Z</updated>
+        <summary type="html"><![CDATA[Jul  5, 20:57 UTC
+Resolved - This incident has been resolved.
+Jul  5, 20:44 UTC
+Update - We are seeing recovery in Actions start times and are observing for any further impact.
+Jul  5, 20:32 UTC
+Update - We are still seeing about 5% of Actions runs taking longer than 5 minutes to start. We are scaling and shifting resources to encourage recovery of the problem.
+Jul  5, 19:58 UTC
+Update - We are still seeing about 5% of Actions runs taking longer than 5 minutes to start. We are evaluating mitigations to increase capacity to decrease latency.
+Jul  5, 19:19 UTC
+Update - We are seeing about 5% of Actions runs not starting within 5 minutes. We are continuing investigation.
+Jul  5, 18:40 UTC
+Update - We have seen recovery of Actions run delays. Keeping the incident open to monitor for full recovery.
+Jul  5, 18:10 UTC
+Update - Webhooks is operating normally.
+Jul  5, 18:09 UTC
+Update - We are seeing delays in Actions runs due to the recovery with webhook deliveries. We expect this to resolve with the recovery of webhooks.
+Jul  5, 18:07 UTC
+Update - Actions is experiencing degraded performance. We are continuing to investigate.
+Jul  5, 17:57 UTC
+Update - We are seeing recovery as webhooks are being delivered again. We are burning down our queue of events. No events have been lost. New webhook deliveries will be delayed while this process recovers.
+Jul  5, 17:55 UTC
+Update - Webhooks is experiencing degraded performance. We are continuing to investigate.
+Jul  5, 17:42 UTC
+Update - We are reverting a configuration change that is suspected to contribute to the problem with webhook deliveries.
+Jul  5, 17:20 UTC
+Update - Our telemetry shows that most webhooks are failing to be delivered. We are queueing all undelivered webhooks and are working to remediate the problem.
+Jul  5, 17:17 UTC
+Update - Webhooks is experiencing degraded availability. We are continuing to investigate.
+Jul  5, 17:04 UTC
+Investigating - We are investigating reports of degraded performance for Webhooks]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IPv6 networking in BLR1]]></title>
+        <id>https://status.digitalocean.com/incidents/9hk7kps7s6fz</id>
+        <link href="https://status.digitalocean.com/incidents/9hk7kps7s6fz"/>
+        <updated>2024-07-05T16:43:06.000Z</updated>
+        <summary type="html"><![CDATA[Jul  5, 16:43 UTC
+Resolved - Our Engineering team identified and resolved an issue with IPv6 networking in the BLR1 region.
+From 12:15 UTC - 15:32 UTC, users may have experienced issues connecting to Droplets and Droplet-based services in the BLR1 region using IPv6 addresses.
+Our Engineering team quickly identified the root cause of the incident to be related to a recent maintenance in that region and implemented a fix.
+We apologize for the disruption. If you continue to experience any issues, please open a Support ticket from within your account.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Timeouts on webhooks]]></title>
         <id>https://status.make.com/incidents/f0z574141zcp</id>
@@ -1140,63 +1193,6 @@ Investigating - We are currently investigating an issue where is not possible to
 We will provide an update within the next hour.]]></summary>
         <author>
             <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Packages]]></title>
-        <id>https://www.githubstatus.com/incidents/fr6wzzpg0bsv</id>
-        <link href="https://www.githubstatus.com/incidents/fr6wzzpg0bsv"/>
-        <updated>2024-06-06T04:43:52.000Z</updated>
-        <summary type="html"><![CDATA[Jun  6, 04:43 UTC
-Resolved - On June 6, 2024 between 03:29 and 04:19 UTC, the service responsible for the Maven package registry was degraded. This affected GitHub customers who were trying to upload packages to the Maven package registry.
-We observed increased database pressure due to bulk operations in progress, and at 04:19 UTC, the Maven upload issues resolved when those bulk operations finished. We're continuing to assess any additional compounding factors.
-We are working on improving our thresholds for existing alerts to reduce our time to detection and mitigation of issues like this one in the future.
-
-Jun  6, 04:38 UTC
-Update - We were alerted to problems in maven uploads. These have now improved, and we're continuing to monitor and investigate.
-Jun  6, 04:21 UTC
-Update - We are investigating reports of issues with Packages. We will continue to keep users updated on progress towards mitigation.
-Jun  6, 04:21 UTC
-Investigating - We are investigating reports of degraded performance for Packages]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Issues]]></title>
-        <id>https://www.githubstatus.com/incidents/9zxft4pnrhbt</id>
-        <link href="https://www.githubstatus.com/incidents/9zxft4pnrhbt"/>
-        <updated>2024-06-05T19:27:21.000Z</updated>
-        <summary type="html"><![CDATA[Jun  5, 19:27 UTC
-Resolved - On June 5, 2024, between 17:05 UTC and 19:27 UTC, the GitHub Issues service was degraded. During that time, no events related to projects were displayed on issue timelines. These events indicate when an issue was added to or removed from a project and when their status changed within a project. The data couldn’t be loaded due to a misconfiguration of the service backing these events. This happened after a scheduled secret rotation when the wrongly configured service continued using the old secrets which had expired. 
-We mitigated the incident by remediating the service configuration and have started simplifying the configuration to avoid similar misconfigurations in the future.
-Jun  5, 19:27 UTC
-Update - Issues is operating normally.
-Jun  5, 19:19 UTC
-Update - We continue to troubleshoot the problem with issues timeline.
-Jun  5, 18:47 UTC
-Update - We continue to troubleshoot the problem with issues timeline.
-Jun  5, 18:01 UTC
-Update - We're continuing to investigate the problem.
-Jun  5, 17:26 UTC
-Update - We're seeing issues related to the issues timeline service, we're investigating and we will continue to keep users updated on progress towards mitigation.
-Jun  5, 17:22 UTC
-Investigating - We are investigating reports of degraded availability for Issues]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Control Panel and API]]></title>
-        <id>https://status.digitalocean.com/incidents/m0y2kdhdkdg7</id>
-        <link href="https://status.digitalocean.com/incidents/m0y2kdhdkdg7"/>
-        <updated>2024-06-05T15:30:06.000Z</updated>
-        <summary type="html"><![CDATA[Jun  5, 15:30 UTC
-Resolved - From 12:10 - 12:41 UTC our Engineering team identified and resolved an issue impacting the Cloud Control Panel and API across multiple regions. 
-During this time, users may have experienced trouble while viewing the IP address on their newly deployed droplets. Our Engineering team was able to take quick action to mitigate the impact and resolve the issue. All services are now functioning as expected. 
-Thank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket for further analysis.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
