@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-07T00:26:35.494Z</id>
+    <id>urn:2024-07-08T00:25:08.679Z</id>
     <title>osmos::feed</title>
-    <updated>2024-07-07T00:26:35.494Z</updated>
+    <updated>2024-07-08T00:25:08.679Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1092,76 +1092,6 @@ We determined that Slack credentials to connect to Outlook Calendar had expired,
 We have successfully updated the app with new credentials, which has resolved the issue for all impacted users.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues with the Hiring flow]]></title>
-        <id>https://status.rippling.com/incidents/hsyqh2qz5hm2</id>
-        <link href="https://status.rippling.com/incidents/hsyqh2qz5hm2"/>
-        <updated>2024-06-08T01:41:10.000Z</updated>
-        <summary type="html"><![CDATA[Jun  8, 01:41 UTC
-Resolved - This incident has been resolved.
-Jun  7, 19:13 UTC
-Monitoring - A fix has been implemented and we are monitoring the results.
-Jun  7, 18:21 UTC
-Identified - The issue has been identified and a fix is being implemented.]]></summary>
-        <author>
-            <name>Rippling Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reservations confirming without Sync Availability Checks]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/867lr996sr60</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/867lr996sr60"/>
-        <updated>2024-06-07T21:34:45.000Z</updated>
-        <summary type="html"><![CDATA[Jun  7, 14:34 PDT
-Resolved - This incident was resolved on May 9, 2024.
-May  9, 11:52 PDT
-Monitoring - We have implemented a fix for this issue around 8:30 AM PDT today, and we are monitoring the results.
-May  9, 09:06 PDT
-Update - While we continue to investigate this issue, please make sure that the availability for your listings is up-to-date, as booking attempts are still being processed based on the availability reflected on the Airbnb calendar. Please note that this incident is not affecting notifications, and you will receive webhook notifications for reservation requests, confirmation, alteration, and cancellations.
-We will post more updates as soon as we have them.
-May  9, 02:56 PDT
-Investigating - We are facing issues where some reservations are being confirmed without Sync Availability Checks for API connected listings.
-Our engineering teams are investigating the issue and we will update you with the latest information as soon as possible.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incorrect Availability Displayed on Airbnb Calendar]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/s2qyzvk6612p</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/s2qyzvk6612p"/>
-        <updated>2024-06-07T21:34:08.000Z</updated>
-        <summary type="html"><![CDATA[Jun  7, 14:34 PDT
-Resolved - This incident was resolved on May 14, 2024.
-May 14, 09:54 PDT
-Monitoring - A fix has been implemented and we are monitoring the results. If you get new reports of this issue, please contact the API Integrations Team via the support portal.
-May  9, 12:16 PDT
-Investigating - We are currently investigating an issue where the Airbnb calendar incorrectly displays dates as available to guests, even though these dates are already blocked due to existing reservations. As a result, guests can get to the check-out page, but will see an error message that says "These dates are no longer available", and are prompted to select different dates. It's important to note that despite appearing as available, these dates cannot be booked by guests on Airbnb.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SFO2 Power Feed Maintenance]]></title>
-        <id>https://status.digitalocean.com/incidents/2mtwp3bqctyd</id>
-        <link href="https://status.digitalocean.com/incidents/2mtwp3bqctyd"/>
-        <updated>2024-06-07T19:11:43.000Z</updated>
-        <summary type="html"><![CDATA[Jun  7, 19:11 UTC
-Completed - Our datacenter provider has informed us that they are not able to perform this maintenance during the communicated window and will be rescheduling it for a later date. We apologize for any confusion from the previous update, but this maintenance did not begin and there was no impact to any services. We will notify you via email and a new maintenance post on status.digitalocean.com with the updated date and timings for this maintenance.
-If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.
-Jun  7, 11:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jun  7, 02:44 UTC
-Scheduled - Start: 2024-06-07 11:00 UTC
-End: 2024-06-07 21:00 UTC
-During the above window, our data center team will be performing maintenance on redundant upstream electrical systems in our SFO2 region.
-Expected impact: 
-We don’t expect to see any impact to customer resources as the electrical systems are redundant and our team will isolate one unit at a time during the maintenance. In the highly unlikely event that we lose power to both systems simultaneously, affected Droplets and Droplet-based services would experience downtime for a brief period of time. We will endeavor to keep this to a minimum should that situation arise.
- If you have any questions or concerns related to this maintenance, please send us a ticket from your cloud support page https://cloudsupport.digitalocean.com/s/createticket.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
