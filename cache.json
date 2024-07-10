@@ -6,6 +6,16 @@
       "siteUrl": "https://changelog.bookingsync.com",
       "articles": [
         {
+          "id": "296566",
+          "author": "Basile, Product Manager",
+          "description": "New!\n  \nAre you looking to maximize your revenue and streamline your booking management? :) \nSmily is thrilled to announce the global release of our Non-Refundable Rate Synchronization feature with Booking.com now available directly from your Smily booking' app.\nWhy consider non-refundable rates?\nCreating and managing non-refundable rates directly on Booking.com has always been a powerful strategy for securing guaranteed income. Now, with Smily's latest feature, you can set up these rates effortlessly, directly through the Smily interface, giving you more control and ease of setup.\nBenefits of Non-Refundable Rates:\nSecure more bookings: Attract guests who are sure about their travel plans by offering a percentage discount for non-refundable rates.\nReduce cancellations: Minimize the risk of last-minute cancellations, ensuring your earnings are protected.\nFlexibility: Choose full or partial synchronization based on your needs, with the ability to manage multiple rates seamlessly.\nHow does it work?\nEnable the Feature: \nSwitch the non-refundable rates to \"Yes\" in your Smily settings under the Booking.com apps via the new \"Non-Refundable option\" in the Change Settings form of the property.\n\n\nYou can enable it by property or do a bulk edit from the button below > Apply for existing rentals.\n\n\n\n\n\nSet Your Discount: Decide on the percentage discount for this rate, providing attractive pricing to your guests.\n\n\nSynchronize and Go: Save your changes, and let Smily handle the synchronization with Booking.com using our new API integration.\n\n\nEnable it today and start reaping the benefits!\nYour Smily team",
+          "link": "https://changelog.bookingsync.com/introducing-non-refundable-rate-synchronization-with-booking-com-296566",
+          "publishedOn": "2024-07-09T16:58:50.000Z",
+          "wordCount": 470,
+          "title": "Introducing non-refundable rate synchronization with Booking.com",
+          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/130/446-7f2b822a0f9fe3e5b149a503fbcfdaf8c7a69f62.png"
+        },
+        {
           "id": "295827",
           "author": "Basile, Product Manager",
           "description": "New!\n  \nWe are thrilled to introduce an incredible new feature designed to help you achieve your first bookings more quickly and efficiently on Airbnb.\nStarting today, you can take advantage of the New Listing Promotion to boost your property’s visibility and attract more guests!\nKey Features of the New Listing Promotion:\nOpt-in/Opt-out flexibility: Easily manage your participation in the New Listing Promotion through our Airbnb app by navigating to Change settings > tick the box to enable New Listing Promotion and click ‘Save’ at the bottom of the pop-up\n1/ Go to the Airbnb app, select and click on Change settings\nEasily find your eligible properties thanks to the addition of a tag as below ⬇️ which will contain the text ‘Eligible to new listing promotion’\n\n2/ Tick the box to activate the…",
@@ -28,7 +38,7 @@
           "description": "Description: Potential for API credential disclosure over plaintext HTTP\nWhat happened?\nThe Tailscale API is primarily accessible over TLS-encrypted HTTP at\napi.tailscale.com. It also has a limited plaintext HTTP handler to serve HTTP\nto HTTPS redirects.\nBrowsers that connect over plaintext HTTP do not send cookies marked as Secure\nto prevent them from being disclosed to network intermediaries.\nHowever, API clients that connect using plaintext HTTP and send requests\nwith authentication tokens in headers have no such protections to prevent\ndisclosure.\nBefore June 26, 2024, the Tailscale API did not reject credentialed plaintext\nAPI requests and instead served them HTTP 302 redirects as it would to browsers.\nTypical HTTP client libraries handle redirects transparently, and consequently, the user\nwould not necessarily know their credentials had been exposed.\nStarting on June 26, 2024, the Tailscale API now returns errors for all plaintext\nHTTP requests that include credentials. Additionally, the Tailscale API now\nautomatically revokes API keys that it observes sent over HTTP and notifies\nTailnet security owners of this action.\nWho was affected?\nAny Tailscale API client that connected over plaintext HTTP using credentials\nbefore June 26, 2024.\nWhat was the impact?\nAPI clients that connected over plaintext HTTP before June 26, 2024 would have\nexposed their credentials to network intermediaries, risking them to theft and\nreplay.\nWhat do I need to do?\nNo action is needed at this time.\nCredits\nThanks to Joachim Viide for reporting this issue.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-009",
           "publishedOn": "2024-06-27T00:00:00.000Z",
-          "wordCount": 14707,
+          "wordCount": 14725,
           "title": "TS-2024-009",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         },
@@ -38,7 +48,7 @@
           "description": "Description: Partial loss of audit and network flow logs\nWhat happened?\nAn integer overflow in our logs processing service led to some customer logs\nto be non-deterministically dropped with a probability of 14%.\nThe overflow condition first exhibited on June 7th, 2024 at 20:45 UTC and\nwas detected and resolved by June 14th, 2024 at 00:40 UTC.\nWho was affected?\nAll tailnets that rely on audit and network flow logs have been affected.\nWhat was the impact?\nThe 14% chance of dropped log entries affects storing of logs such as\nconfiguration audit logs and\nnetwork flow logs.\nWhile logs can be retrieved for the timeframe that the overflow bug was active,\nsome fraction of the entries may be missing.\nWhat do I need to do?\nNo action is needed at this time.\nWe fixed the bug, added additional error checking, and\ndeployed both to the logs processing service.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-008",
           "publishedOn": "2024-06-14T00:00:00.000Z",
-          "wordCount": 14707,
+          "wordCount": 14725,
           "title": "TS-2024-008",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         },
@@ -48,7 +58,7 @@
           "description": "Description: Incorrect DNS resolution with split DNS on macOS and iOS\nWhat happened?\nOn Tailscale macOS and iOS clients with split DNS configurations (like App\nConnectors or Restricted\nNameservers), lookups of bare tailnet node names\ncould in rare cases return incorrect answers. For example, if a node mynode\nand an App Connector for *.example.com exist on a tailnet, DNS lookups for\nmynode could return the answer for mynode.example.com instead of the local\ntailnet IP. This mis-configuration is intermittent, and most often triggers for\na few seconds when switching device networks (for example from Wi-Fi to a phone\nhotspot).\nWe fixed this bug in client version 1.68.0, and notified the security contacts\nof potentially affected tailnets over email.\nWho was affected?\nAll tailnets that use App Connectors or Restricted Domains, and have macOS or\niOS nodes could have been affected.\nThis bug is usually intermittently-triggered when switching networks in our\nexperience. Only lookups of bare domains, like mynode but not\nmynode.mytailnet.ts.net, are at risk.\nNote that not all split DNS domains are dangerous. Only domains where an\nattacker can choose their FQDN to match a node name, and controls the\ndestination to receive non-TLS traffic could be abused.\nWe are not aware of any active exploitation of this vulnerability.\nWhat was the impact?\nFor a split DNS domain example.com, an attacker with control over\nmynode.example.com can impersonate a non-TLS server running on node mynode\non the tailnet. This attack is opportunistic and passive - it relies on the\nuser connecting to mynode using its bare domain and cannot be forced\nremotely.\nWhat do I need to do?\nUpgrade your macOS and iOS clients to 1.68.0 or later.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-007",
           "publishedOn": "2024-06-12T00:00:00.000Z",
-          "wordCount": 14707,
+          "wordCount": 14725,
           "title": "TS-2024-007",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -92,6 +102,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/52r2tdyjmm09",
+          "author": null,
+          "description": "Jul  9, 22:34 UTC\nIdentified - Our Engineering team has been investigating customer reports of 2FA SMS codes failing to deliver, beginning on July 8. After an extensive review, our team has identified that there is an issue with the message deliverability of an upstream provider. We are closely monitoring the situation and as soon as we have more information to share we will provide further updates. \nIn the meantime, customers are suggested to reach out to our support team for assistance in accessing their account if they are encountering issues receiving 2FA codes, via the link here:\nhttps://www.digitalocean.com/company/contact/support",
+          "link": "https://status.digitalocean.com/incidents/52r2tdyjmm09",
+          "publishedOn": "2024-07-09T22:34:23.000Z",
+          "wordCount": 6288,
+          "title": "2FA SMS Code Deliverability Issues",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/9hk7kps7s6fz",
           "author": null,
@@ -508,6 +528,16 @@
       "siteUrl": "https://slack-status.com",
       "articles": [
         {
+          "id": "https://slack-status.com/2024-06/2be5073c5ed2baa9",
+          "author": null,
+          "description": "Issue Summary:\nOn June 24, 2024 from 11:25AM PDT to July 3, 2024 11:30AM PDT, users were unable to post in some channels due to an \"Only some people can post\" message on iOS as if the channel was made announcement-only. This initially was handled as a bug, however, the issue began to unexpectedly impact more users. Out of an abundance of caution, we promptly activated our incident response processes to expedite our investigation.\n\nWe determined this issue was presenting only temporarily for most users and was often resolved by switching channels, clearing app cache, or by force-closing the app and re-launching.\n\nA fix was implemented in version 24.07.10 of the iOS app to restore channel posting functionality, resolving the issue for affected users. Updating the app is recommended in order to capture the fix.",
+          "link": "https://slack-status.com/2024-06/2be5073c5ed2baa9",
+          "publishedOn": "2024-07-09T23:09:14.000Z",
+          "wordCount": 425,
+          "title": "Incident: Issues sending messages to channels",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://slack-status.com/2024-07/19e3319aa9b48898",
           "author": null,
           "description": "Issue summary:\nOn July 2, 2024 from 5:09 PM PDT to 7:00 PM PDT, users may have experienced issues uploading files, sending messages with attached files, downloading files, and viewing files in conversations. \n\nA code change inadvertently introduced a logic error in our file handling processes. We reverted this code change, resolving the issue for all affected users.",
@@ -535,16 +565,6 @@
           "publishedOn": "2024-07-02T04:17:16.000Z",
           "wordCount": 640,
           "title": "Incident: Issues loading threads and activity feed",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-06/2be5073c5ed2baa9",
-          "author": null,
-          "description": "We have heard from several affected users that clearing their app cache (for iOS users: Tap on your profile picture on the top-right of the screen > Preferences > Advanced > Reset cache) and restarting Slack resolves the issue. \r\n\r\nWe will be discontinuing status site updates and will work with any affected users directly via support tickets while we continue working on a permanent fix. We apologize for the disruption to your workday and thank you for your patience.",
-          "link": "https://slack-status.com/2024-06/2be5073c5ed2baa9",
-          "publishedOn": "2024-06-24T22:26:32.000Z",
-          "wordCount": 287,
-          "title": "Incident: Issues sending messages to channels",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {

@@ -1,10 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-09T00:23:52.175Z</id>
+    <id>urn:2024-07-10T00:24:18.879Z</id>
     <title>osmos::feed</title>
-    <updated>2024-07-09T00:23:52.175Z</updated>
+    <updated>2024-07-10T00:24:18.879Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident: Issues sending messages to channels]]></title>
+        <id>https://slack-status.com/2024-06/2be5073c5ed2baa9</id>
+        <link href="https://slack-status.com/2024-06/2be5073c5ed2baa9"/>
+        <updated>2024-07-09T23:09:14.000Z</updated>
+        <summary type="html"><![CDATA[Issue Summary:
+On June 24, 2024 from 11:25AM PDT to July 3, 2024 11:30AM PDT, users were unable to post in some channels due to an "Only some people can post" message on iOS as if the channel was made announcement-only. This initially was handled as a bug, however, the issue began to unexpectedly impact more users. Out of an abundance of caution, we promptly activated our incident response processes to expedite our investigation.
+
+We determined this issue was presenting only temporarily for most users and was often resolved by switching channels, clearing app cache, or by force-closing the app and re-launching.
+
+A fix was implemented in version 24.07.10 of the iOS app to restore channel posting functionality, resolving the issue for affected users. Updating the app is recommended in order to capture the fix.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2FA SMS Code Deliverability Issues]]></title>
+        <id>https://status.digitalocean.com/incidents/52r2tdyjmm09</id>
+        <link href="https://status.digitalocean.com/incidents/52r2tdyjmm09"/>
+        <updated>2024-07-09T22:34:23.000Z</updated>
+        <summary type="html"><![CDATA[Jul  9, 22:34 UTC
+Identified - Our Engineering team has been investigating customer reports of 2FA SMS codes failing to deliver, beginning on July 8. After an extensive review, our team has identified that there is an issue with the message deliverability of an upstream provider. We are closely monitoring the situation and as soon as we have more information to share we will provide further updates. 
+In the meantime, customers are suggested to reach out to our support team for assistance in accessing their account if they are encountering issues receiving 2FA codes, via the link here:
+https://www.digitalocean.com/company/contact/support]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing non-refundable rate synchronization with Booking.com]]></title>
+        <id>296566</id>
+        <link href="https://changelog.bookingsync.com/introducing-non-refundable-rate-synchronization-with-booking-com-296566"/>
+        <updated>2024-07-09T16:58:50.000Z</updated>
+        <summary type="html"><![CDATA[New!
+  
+Are you looking to maximize your revenue and streamline your booking management? :) 
+Smily is thrilled to announce the global release of our Non-Refundable Rate Synchronization feature with Booking.com now available directly from your Smily booking' app.
+Why consider non-refundable rates?
+Creating and managing non-refundable rates directly on Booking.com has always been a powerful strategy for securing guaranteed income. Now, with Smily's latest feature, you can set up these rates effortlessly, directly through the Smily interface, giving you more control and ease of setup.
+Benefits of Non-Refundable Rates:
+Secure more bookings: Attract guests who are sure about their travel plans by offering a percentage discount for non-refundable rates.
+Reduce cancellations: Minimize the risk of last-minute cancellations, ensuring your earnings are protected.
+Flexibility: Choose full or partial synchronization based on your needs, with the ability to manage multiple rates seamlessly.
+How does it work?
+Enable the Feature: 
+Switch the non-refundable rates to "Yes" in your Smily settings under the Booking.com apps via the new "Non-Refundable option" in the Change Settings form of the property.
+
+
+You can enable it by property or do a bulk edit from the button below > Apply for existing rentals.
+
+
+
+
+
+Set Your Discount: Decide on the percentage discount for this rate, providing attractive pricing to your guests.
+
+
+Synchronize and Go: Save your changes, and let Smily handle the synchronization with Booking.com using our new API integration.
+
+
+Enable it today and start reaping the benefits!
+Your Smily team]]></summary>
+        <author>
+            <name>Basile, Product Manager</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident with Issues and Pages]]></title>
         <id>https://www.githubstatus.com/incidents/qqw9rrs21xmn</id>
@@ -575,18 +641,6 @@ These upgrades are designed and tested to be seamless and we do not expect any i
 If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Issues sending messages to channels]]></title>
-        <id>https://slack-status.com/2024-06/2be5073c5ed2baa9</id>
-        <link href="https://slack-status.com/2024-06/2be5073c5ed2baa9"/>
-        <updated>2024-06-24T22:26:32.000Z</updated>
-        <summary type="html"><![CDATA[We have heard from several affected users that clearing their app cache (for iOS users: Tap on your profile picture on the top-right of the screen > Preferences > Advanced > Reset cache) and restarting Slack resolves the issue. 
-
-We will be discontinuing status site updates and will work with any affected users directly via support tickets while we continue working on a permanent fix. We apologize for the disruption to your workday and thank you for your patience.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
