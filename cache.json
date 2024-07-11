@@ -103,12 +103,22 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/mm3qq4z5q9rf",
+          "author": null,
+          "description": "Jul 10, 20:26 UTC\nResolved - Our Engineering team has completed remediation of the previously stalled Mongo clusters and those clusters are now online. \nThis incident is now fully resolved. If you have any questions or continue to experience issues, please reach out to Support from within your account. \nThank you for your patience throughout this incident.\nJul 10, 19:50 UTC\nUpdate - From 16:24 - 18:44 UTC, Load Balancers and Mongo Managed Databases failed to create successfully. Users experienced success messages, but the create processes did not complete as expected. \nAs of 18:44 UTC, users are able to create Load Balancers and Mongo clusters normally. \nAs of 19:00 UTC, all stalled Load Balancer creation operations were completed. \nOur Engineering team is working to remediate a small numb…",
+          "link": "https://status.digitalocean.com/incidents/mm3qq4z5q9rf",
+          "publishedOn": "2024-07-10T20:26:24.000Z",
+          "wordCount": 6589,
+          "title": "Creation of Load Balancers and Mongo Managed Databases",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/52r2tdyjmm09",
           "author": null,
-          "description": "Jul  9, 22:34 UTC\nIdentified - Our Engineering team has been investigating customer reports of 2FA SMS codes failing to deliver, beginning on July 8. After an extensive review, our team has identified that there is an issue with the message deliverability of an upstream provider. We are closely monitoring the situation and as soon as we have more information to share we will provide further updates. \nIn the meantime, customers are suggested to reach out to our support team for assistance in accessing their account if they are encountering issues receiving 2FA codes, via the link here:\nhttps://www.digitalocean.com/company/contact/support",
+          "description": "Jul 10, 16:43 UTC\nUpdate - We are continuing to monitor the issue of 2FA SMS codes failing to deliver. Since our last update, we have observed higher success rates in terms of SMS deliverability for two-factor authentication. Our Engineering team has been in close contact with the upstream provider, who has also noted recovery for their services. We will continue to monitor the situation. \nIn the meantime, if you are experiencing issues receiving 2FA codes, please reach out to our support team for assistance in accessing your account via the link here: https://www.digitalocean.com/company/contact/support\nWe apologize for the inconvenience.\nJul 10, 06:32 UTC\nUpdate - We are continuing to investigate the issue of 2FA SMS codes failing to deliver. We are closely working with our upstream provider to resolve the issue, we will provide an update when we have more significant information to share.\nIn the meantime, if you are experiencing issues receiving 2FA codes, please reach out to our support team for assistance in accessing your account via the link here: https://www.digitalocean.com/company/contact/support\nWe apologize for the inconvenience and thank you for your patience and continued support.\nJul  9, 22:34 UTC\nIdentified - Our Engineering team has been investigating customer reports of 2FA SMS codes failing to deliver, beginning on July 8. After an extensive review, our team has identified that there is an issue with the message deliverability of an upstream provider. We are closely monitoring the situation and as soon as we have more information to share we will provide further updates. \nIn the meantime, customers are suggested to reach out to our support team for assistance in accessing their account if they are encountering issues receiving 2FA codes, via the link here:\nhttps://www.digitalocean.com/company/contact/support",
           "link": "https://status.digitalocean.com/incidents/52r2tdyjmm09",
-          "publishedOn": "2024-07-09T22:34:23.000Z",
-          "wordCount": 6288,
+          "publishedOn": "2024-07-10T16:43:36.000Z",
+          "wordCount": 6476,
           "title": "2FA SMS Code Deliverability Issues",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -311,26 +321,6 @@
           "wordCount": 6492,
           "title": "New User Sign Ups",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/lzlv9c5bjp1v",
-          "author": null,
-          "description": "Jun 11, 09:59 UTC\nResolved - Our Engineering team has identified and resolved an issue that impacted the Load Balancers associated with Kubernetes Clusters for a brief duration.\nFrom 05:25 - 07:54 UTC, a subset of users may have experienced issues with accessing and connecting to Load Balancers associated with Kubernetes Clusters and may have noticed failed health checks for the Load Balancers.\nAlso from 7:50 - 8:40 UTC, our Engineering team observed an issue with the App Platform. A subset of users may have faced issues with connecting to outbound dependencies from the App platform.\nSwift action was taken by our Engineering team that restored service and all services are operating correctly.\nWe apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.",
-          "link": "https://status.digitalocean.com/incidents/lzlv9c5bjp1v",
-          "publishedOn": "2024-06-11T09:59:07.000Z",
-          "wordCount": 6352,
-          "title": "Load Balancers associated with Managed Kubernetes Clusters and App Platform",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/v7td276ckdbm",
-          "author": null,
-          "description": "Jun 10, 18:51 UTC\nCompleted - NYC1 Network Maintenance previously scheduled at 2024-06-11 will be rescheduling it for a later date. We will notify you via email and a new maintenance post on status.digitalocean.com with the updated date and timings for this maintenance.\nWe apologize for any inconvenience and thank you for your understanding. You may find the initial maintenance notice along with a description of any expected impact related to this work included at the bottom of this message.\nIf you have questions or concerns about this maintenance, please reach out to us by opening up a ticket on your account.\nJun  9, 14:32 UTC\nScheduled - Start: 2024-06-11 10:00 UTC\nEnd: 2024-06-11 12:00 UTC\nDuring the above window, our Networking team will be performing maintenance on core switches in our NYC1 datacenter as part of network upgrades. \nExpected Impact:\nWe anticipate brief interruptions in network traffic from Droplets and Droplet-based services. This impact would be for a duration of 5 to 10 seconds and could occur a few times within the maintenance window. We will endeavor to keep any such impact to a minimum.\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
-          "link": "https://status.digitalocean.com/incidents/v7td276ckdbm",
-          "publishedOn": "2024-06-10T18:51:18.000Z",
-          "wordCount": 6377,
-          "title": "NYC1 Network Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -423,10 +413,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/5yx1d67vq9hg",
           "author": null,
-          "description": "Jul  5, 20:57 UTC\nResolved - This incident has been resolved.\nJul  5, 20:44 UTC\nUpdate - We are seeing recovery in Actions start times and are observing for any further impact.\nJul  5, 20:32 UTC\nUpdate - We are still seeing about 5% of Actions runs taking longer than 5 minutes to start. We are scaling and shifting resources to encourage recovery of the problem.\nJul  5, 19:58 UTC\nUpdate - We are still seeing about 5% of Actions runs taking longer than 5 minutes to start. We are evaluating mitigations to increase capacity to decrease latency.\nJul  5, 19:19 UTC\nUpdate - We are seeing about 5% of Actions runs not starting within 5 minutes. We are continuing investigation.\nJul  5, 18:40 UTC\nUpdate - We have seen recovery of Actions run delays. Keeping the incident open to monitor for full recovery.\nJul  5, 18:10 UTC\nUpdate - Webhooks is operating normally.\nJul  5, 18:09 UTC\nUpdate - We are seeing delays in Actions runs due to the recovery with webhook deliveries. We expect this to resolve with the recovery of webhooks.\nJul  5, 18:07 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nJul  5, 17:57 UTC\nUpdate - We are seeing recovery as webhooks are being delivered again. We are burning down our queue of events. No events have been lost. New webhook deliveries will be delayed while this process recovers.\nJul  5, 17:55 UTC\nUpdate - Webhooks is experiencing degraded performance. We are continuing to investigate.\nJul  5, 17:42 UTC\nUpdate - We are reverting a configuration change that is suspected to contribute to the problem with webhook deliveries.\nJul  5, 17:20 UTC\nUpdate - Our telemetry shows that most webhooks are failing to be delivered. We are queueing all undelivered webhooks and are working to remediate the problem.\nJul  5, 17:17 UTC\nUpdate - Webhooks is experiencing degraded availability. We are continuing to investigate.\nJul  5, 17:04 UTC\nInvestigating - We are investigating reports of degraded performance for Webhooks",
+          "description": "Jul  5, 20:57 UTC\nResolved - On July 5, 2024, between 16:31 UTC and 18:08 UTC, the Webhooks service was degraded, with customer impact of delays to all webhook delivery. On average, delivery delays were 24 minutes, with a maximum of 71 minutes. This was caused by a configuration change to the Webhooks service, which led to unauthenticated requests sent to the background job cluster. The configuration error was repaired and re-deploying the service solved the issue. However, this created a thundering herd effect which overloaded the background job queue cluster which put its API layer at max capacity, resulting in timeouts for other job clients, which presented as increased latency for API calls.\nShortly after resolving the authentication misconfiguration, we had a separate issue in the bac…",
           "link": "https://www.githubstatus.com/incidents/5yx1d67vq9hg",
           "publishedOn": "2024-07-05T20:57:33.000Z",
-          "wordCount": 5620,
+          "wordCount": 5829,
           "title": "Incident with Webhooks and Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -528,6 +518,16 @@
       "siteUrl": "https://slack-status.com",
       "articles": [
         {
+          "id": "https://slack-status.com/2024-07/0c40ac787ecd7cd9",
+          "author": null,
+          "description": "Issue summary:\nFrom 7:13 PM PDT on July 2, 2024 to 2:38 PM PDT on July 3, 2024, some users experienced issues loading threads in Slack.\n\nWe traced the issue to one of our databases. Repeated API calls related to threads from one org caused the database responsible for storing that thread to become overwhelmed. This overload affected other users accessing the same database, causing congestion, which prevented them from using it effectively and created further unexpected timeouts.\n\nAs an immediate mitigation step, we halted all traffic from users using that API call in order to retrieve the thread from the database which allowed our systems to catch-up. Once traffic started flowing at a reasonable rate again, we reinstated the API call for all users and disallowed the thread that initially caused an issue. This resolved the issue for all impacted users.\n\nWe've now added additional code to the problematic thread to bypass this particular API so that any unwanted traffic congestion can be mediated.",
+          "link": "https://slack-status.com/2024-07/0c40ac787ecd7cd9",
+          "publishedOn": "2024-07-10T03:41:06.000Z",
+          "wordCount": 405,
+          "title": "Incident: Issues loading threads",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://slack-status.com/2024-06/2be5073c5ed2baa9",
           "author": null,
           "description": "Issue Summary:\nOn June 24, 2024 from 11:25AM PDT to July 3, 2024 11:30AM PDT, users were unable to post in some channels due to an \"Only some people can post\" message on iOS as if the channel was made announcement-only. This initially was handled as a bug, however, the issue began to unexpectedly impact more users. Out of an abundance of caution, we promptly activated our incident response processes to expedite our investigation.\n\nWe determined this issue was presenting only temporarily for most users and was often resolved by switching channels, clearing app cache, or by force-closing the app and re-launching.\n\nA fix was implemented in version 24.07.10 of the iOS app to restore channel posting functionality, resolving the issue for affected users. Updating the app is recommended in order to capture the fix.",
@@ -545,16 +545,6 @@
           "publishedOn": "2024-07-03T05:24:34.000Z",
           "wordCount": 302,
           "title": "Incident: Issues with file uploads",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-07/0c40ac787ecd7cd9",
-          "author": null,
-          "description": "The issue has been resolved and threads should now load as expected. Thank you for bearing with us, we appreciate your patience.",
-          "link": "https://slack-status.com/2024-07/0c40ac787ecd7cd9",
-          "publishedOn": "2024-07-03T04:54:52.000Z",
-          "wordCount": 237,
-          "title": "Incident: Issues loading threads",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
@@ -606,16 +596,6 @@
           "wordCount": 283,
           "title": "Incident: Some customers may be having issues signing in from external sites",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-06/bc7116d877ca0fdb",
-          "author": null,
-          "description": "Issue summary:\r\nFrom June 8, 2024, 4:30PM PDT to June 9, 2024 10:50PM PDT, some customers experienced an error when using the Outlook Calendar app in Slack.\r\n\r\nWe determined that Slack credentials to connect to Outlook Calendar had expired, causing the app integration to fail.\r\n\r\nWe have successfully updated the app with new credentials, which has resolved the issue for all impacted users.",
-          "link": "https://slack-status.com/2024-06/bc7116d877ca0fdb",
-          "publishedOn": "2024-06-10T15:14:41.000Z",
-          "wordCount": 284,
-          "title": "Incident: Issues with Outlook Calendar app",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
     },
@@ -662,16 +642,6 @@
           "publishedOn": "2024-06-18T17:35:49.000Z",
           "wordCount": 3936,
           "title": "Scenario executions delayed in EU2 and US1",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/b7mtbfr7xns4",
-          "author": null,
-          "description": "Jun 11, 03:45 CEST\nResolved - This incident has been resolved.\nJun 11, 03:05 CEST\nMonitoring - A fix has been implemented and we are monitoring the results.\nJun 11, 02:30 CEST\nInvestigating - We're encountering issues executing scenarios and acception webhooks on eu1.make.celonis.com. Users may experience delays and errors when attempting to execute any scenarios.  We're currently investigating this issue and will update this Statuspage within the next hour, or as more information comes to hand.",
-          "link": "https://status.make.com/incidents/b7mtbfr7xns4",
-          "publishedOn": "2024-06-11T01:45:16.000Z",
-          "wordCount": 3908,
-          "title": "EU1 enterprise zone - problems with scenario and webhook processing",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
