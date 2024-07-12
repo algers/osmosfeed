@@ -1,10 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-11T00:24:37.777Z</id>
+    <id>urn:2024-07-12T00:24:02.309Z</id>
     <title>osmos::feed</title>
-    <updated>2024-07-11T00:24:37.777Z</updated>
+    <updated>2024-07-12T00:24:02.309Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident: Intermittent performance issues using Slack]]></title>
+        <id>https://slack-status.com/2024-07/3047787e20a6205c</id>
+        <link href="https://slack-status.com/2024-07/3047787e20a6205c"/>
+        <updated>2024-07-11T22:23:00.000Z</updated>
+        <summary type="html"><![CDATA[Issue Summary:
+On Thursday, July 11, 2024, from 12:10 PM PDT to 12:12 PM PDT, a number of users had trouble loading messages in Slack.
+
+Our internal monitoring systems alerted us of the unexpected spike in error rates which prompted our incident response processes to begin. Through our investigation, we determined that a recent data migration caused an unexpected influx of client reloads, which temporarily overwhelmed the database responsible for servicing the affected API calls.
+
+As a result, an automated safety measure temporarily paused traffic until the database returned to a healthy state. Once error rates returned to normal, users were no longer experiencing trouble.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intermittent access to us1.make.com]]></title>
+        <id>https://status.make.com/incidents/ypzgdl3yp1cx</id>
+        <link href="https://status.make.com/incidents/ypzgdl3yp1cx"/>
+        <updated>2024-07-11T20:29:36.000Z</updated>
+        <summary type="html"><![CDATA[Jul 11, 22:29 CEST
+Resolved - This incident has been resolved
+Jul 11, 21:51 CEST
+Monitoring - A fix have been implemented and we are monitoring the zone.
+We'll provide another update within 1 hour
+Jul 11, 21:25 CEST
+Update - We are continuing to investigate this issue.
+Jul 11, 21:24 CEST
+Investigating - Our engineers are currently investigating an issue where the web access to the platform can be unstable.
+There is no impact on the execution of the scenarios
+We will provide an update within the next hour.]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2FA SMS Code Deliverability Issues]]></title>
+        <id>https://status.digitalocean.com/incidents/52r2tdyjmm09</id>
+        <link href="https://status.digitalocean.com/incidents/52r2tdyjmm09"/>
+        <updated>2024-07-11T19:44:02.000Z</updated>
+        <summary type="html"><![CDATA[Jul 11, 19:44 UTC
+Resolved - Our Engineering team has confirmed the issue with SMS delivery report delays when sending messages has been fully resolved. 
+We appreciate your patience throughout this process and if you continue to experience problems, please open a ticket with our support team for further review.
+Jul 10, 16:43 UTC
+Update - We are continuing to monitor the issue of 2FA SMS codes failing to deliver. Since our last update, we have observed higher success rates in terms of SMS deliverability for two-factor authentication. Our Engineering team has been in close contact with the upstream provider, who has also noted recovery for their services. We will continue to monitor the situation. 
+In the meantime, if you are experiencing issues receiving 2FA codes, please reach out to our s…]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Copilot]]></title>
+        <id>https://www.githubstatus.com/incidents/9lmrb0ch7cnn</id>
+        <link href="https://www.githubstatus.com/incidents/9lmrb0ch7cnn"/>
+        <updated>2024-07-11T15:21:17.000Z</updated>
+        <summary type="html"><![CDATA[Jul 11, 15:21 UTC
+Resolved - This incident has been resolved.
+Jul 11, 15:21 UTC
+Update - Copilot is operating normally.
+Jul 11, 15:19 UTC
+Update - We have mitigated the intermittent timeout errors impacting Copilot’s Chat functionality and expect the incident to be resolved shortly.
+Jul 11, 15:04 UTC
+Update - We continue to investigate the cause of intermittent timeouts impacting Copilot’s Chat functionality. This is impacting a small fraction of customers. The timeout errors we are seeing has reduced back to healthy levels for the last 60 minutes but we are monitoring closely.
+Jul 11, 14:14 UTC
+Update - We continue to investigate the cause of intermittent timeouts impacting Copilot’s Chat functionality. This is impacting a small fraction of customers. We will provide further updates as we continue resolving the issue.
+Jul 11, 13:32 UTC
+Update - We continue to investigate the cause of intermittent timeouts impacting Copilot’s Chat functionality. This is impacting a small fraction of customers. We will provide further updates as we continue resolving the issue.
+Jul 11, 13:02 UTC
+Update - Copilot's Chat functionality is experiencing intermittent timeouts, we are investigating the issue.
+Jul 11, 13:02 UTC
+Investigating - We are investigating reports of degraded performance for Copilot]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Creation of Load Balancers and Mongo Managed Databases]]></title>
         <id>https://status.digitalocean.com/incidents/mm3qq4z5q9rf</id>
@@ -19,27 +94,6 @@ Update - From 16:24 - 18:44 UTC, Load Balancers and Mongo Managed Databases fail
 As of 18:44 UTC, users are able to create Load Balancers and Mongo clusters normally. 
 As of 19:00 UTC, all stalled Load Balancer creation operations were completed. 
 Our Engineering team is working to remediate a small numb…]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2FA SMS Code Deliverability Issues]]></title>
-        <id>https://status.digitalocean.com/incidents/52r2tdyjmm09</id>
-        <link href="https://status.digitalocean.com/incidents/52r2tdyjmm09"/>
-        <updated>2024-07-10T16:43:36.000Z</updated>
-        <summary type="html"><![CDATA[Jul 10, 16:43 UTC
-Update - We are continuing to monitor the issue of 2FA SMS codes failing to deliver. Since our last update, we have observed higher success rates in terms of SMS deliverability for two-factor authentication. Our Engineering team has been in close contact with the upstream provider, who has also noted recovery for their services. We will continue to monitor the situation. 
-In the meantime, if you are experiencing issues receiving 2FA codes, please reach out to our support team for assistance in accessing your account via the link here: https://www.digitalocean.com/company/contact/support
-We apologize for the inconvenience.
-Jul 10, 06:32 UTC
-Update - We are continuing to investigate the issue of 2FA SMS codes failing to deliver. We are closely working with our upstream provider to resolve the issue, we will provide an update when we have more significant information to share.
-In the meantime, if you are experiencing issues receiving 2FA codes, please reach out to our support team for assistance in accessing your account via the link here: https://www.digitalocean.com/company/contact/support
-We apologize for the inconvenience and thank you for your patience and continued support.
-Jul  9, 22:34 UTC
-Identified - Our Engineering team has been investigating customer reports of 2FA SMS codes failing to deliver, beginning on July 8. After an extensive review, our team has identified that there is an issue with the message deliverability of an upstream provider. We are closely monitoring the situation and as soon as we have more information to share we will provide further updates. 
-In the meantime, customers are suggested to reach out to our support team for assistance in accessing their account if they are encountering issues receiving 2FA codes, via the link here:
-https://www.digitalocean.com/company/contact/support]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
         </author>
@@ -120,7 +174,11 @@ Your Smily team]]></summary>
         <link href="https://www.githubstatus.com/incidents/qqw9rrs21xmn"/>
         <updated>2024-07-08T19:45:19.000Z</updated>
         <summary type="html"><![CDATA[Jul  8, 19:45 UTC
-Resolved - This incident has been resolved.
+Resolved - On July 8th, 2024, between 18:18 UTC and 19:11 UTC, various services relying on static assets were degraded, including user uploaded content on github.com, access to docs.github.com and Pages sites, and downloads of Release assets and Packages. 
+The outage primarily affected users in the vicinity of New York City, USA, due to a local CDN disruption. 
+Service was restored without our intervention.
+We are working to improve our external monitoring, which failed to detect the issue and will be evaluating a backup mechanism to keep critical services available, such as being able to load assets on GitHub.com, in the event of an outage with our CDN.
+
 Jul  8, 19:44 UTC
 Update - Issues and Pages are operating normally.
 Jul  8, 19:44 UTC
@@ -256,7 +314,7 @@ Team DigitalOcean]]></summary>
         <link href="https://www.githubstatus.com/incidents/8532wfbvwqgr"/>
         <updated>2024-07-03T16:40:03.000Z</updated>
         <summary type="html"><![CDATA[Jul  3, 16:40 UTC
-Resolved - This incident has been resolved.
+Resolved - On July 3, 2024, between 1:34 PM UTC and 4:42 PM UTC the GitHub documentation was degraded and showed a 500 on non-cached pages. On average, the error rate was 2-5% and peaked at 5% of requests to the service. This was due to an observability misconfiguration. We mitigated the incident by updating the observability configuration and redeploying. We are working to reduce our time to detection and mitigation of issues like this one in the future.
 Jul  3, 16:37 UTC
 Update - Mitigation measures have been rolled out and we're seeing errors disappear in our telemetry. We'll continue to monitor our services closely to ensure the docs site is fully healthy.
 Jul  3, 15:59 UTC
@@ -1045,79 +1103,6 @@ Investigating - Our Engineering team is investigating an issue with users attemp
 We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mobile app users, including both iOS and Android, are unable to create workspaces]]></title>
-        <id>https://status.notion.so/incidents/hkdr5hfr0qyc</id>
-        <link href="https://status.notion.so/incidents/hkdr5hfr0qyc"/>
-        <updated>2024-06-12T01:22:46.000Z</updated>
-        <summary type="html"><![CDATA[Jun 11, 18:22 PDT
-Resolved - The issue has now been resolved, Mobile app users should be able to create workspaces.
-Jun 11, 11:25 PDT
-Identified - The issue has been identified and our team is working on a fix.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TS-2024-007]]></title>
-        <id>https://tailscale.com/security-bulletins/#ts-2024-007</id>
-        <link href="https://tailscale.com/security-bulletins/#ts-2024-007"/>
-        <updated>2024-06-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Description: Incorrect DNS resolution with split DNS on macOS and iOS
-What happened?
-On Tailscale macOS and iOS clients with split DNS configurations (like App
-Connectors or Restricted
-Nameservers), lookups of bare tailnet node names
-could in rare cases return incorrect answers. For example, if a node mynode
-and an App Connector for *.example.com exist on a tailnet, DNS lookups for
-mynode could return the answer for mynode.example.com instead of the local
-tailnet IP. This mis-configuration is intermittent, and most often triggers for
-a few seconds when switching device networks (for example from Wi-Fi to a phone
-hotspot).
-We fixed this bug in client version 1.68.0, and notified the security contacts
-of potentially affected tailnets over email.
-Who was affected?
-All tailnets that use App Connectors or Restricted Domains, and have macOS or
-iOS nodes could have been affected.
-This bug is usually intermittently-triggered when switching networks in our
-experience. Only lookups of bare domains, like mynode but not
-mynode.mytailnet.ts.net, are at risk.
-Note that not all split DNS domains are dangerous. Only domains where an
-attacker can choose their FQDN to match a node name, and controls the
-destination to receive non-TLS traffic could be abused.
-We are not aware of any active exploitation of this vulnerability.
-What was the impact?
-For a split DNS domain example.com, an attacker with control over
-mynode.example.com can impersonate a non-TLS server running on node mynode
-on the tailnet. This attack is opportunistic and passive - it relies on the
-user connecting to mynode using its bare domain and cannot be forced
-remotely.
-What do I need to do?
-Upgrade your macOS and iOS clients to 1.68.0 or later.]]></summary>
-        <author>
-            <name>Security Bulletins on Tailscale</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Actions]]></title>
-        <id>https://www.githubstatus.com/incidents/lfrlwdg67fn8</id>
-        <link href="https://www.githubstatus.com/incidents/lfrlwdg67fn8"/>
-        <updated>2024-06-11T21:39:47.000Z</updated>
-        <summary type="html"><![CDATA[Jun 11, 21:39 UTC
-Resolved - On June 11th, 2024 between 20:13 UTC and 21:39 UTC, the GitHub Actions service was degraded. A security-related change applied by one of our third-party providers prevented new customers from onboarding to GitHub Actions and caused an average 28% of Actions jobs to fail.
-We mitigated the incident by working with the third-party provider to revert the change and are working with their engineering team to fully understand the root cause. Additionally, we are improving communication between GitHub and our service providers to reduce the time needed to resolve similar issues in the future.
-Jun 11, 21:35 UTC
-Update - We've applied a mitigation to unblock running Actions and are seeing an improvement in our service availability.
-Jun 11, 21:16 UTC
-Update - Customers may see issues running Actions, we are in the process of applying a mitigation to restore our service.
-Jun 11, 20:34 UTC
-Update - Customers may see issues running Actions
-Jun 11, 20:33 UTC
-Investigating - We are investigating reports of degraded performance for Actions and API Requests]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
