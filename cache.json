@@ -38,7 +38,7 @@
           "description": "Description: Potential for API credential disclosure over plaintext HTTP\nWhat happened?\nThe Tailscale API is primarily accessible over TLS-encrypted HTTP at\napi.tailscale.com. It also has a limited plaintext HTTP handler to serve HTTP\nto HTTPS redirects.\nBrowsers that connect over plaintext HTTP do not send cookies marked as Secure\nto prevent them from being disclosed to network intermediaries.\nHowever, API clients that connect using plaintext HTTP and send requests\nwith authentication tokens in headers have no such protections to prevent\ndisclosure.\nBefore June 26, 2024, the Tailscale API did not reject credentialed plaintext\nAPI requests and instead served them HTTP 302 redirects as it would to browsers.\nTypical HTTP client libraries handle redirects transparently, and consequently, the user\nwould not necessarily know their credentials had been exposed.\nStarting on June 26, 2024, the Tailscale API now returns errors for all plaintext\nHTTP requests that include credentials. Additionally, the Tailscale API now\nautomatically revokes API keys that it observes sent over HTTP and notifies\nTailnet security owners of this action.\nWho was affected?\nAny Tailscale API client that connected over plaintext HTTP using credentials\nbefore June 26, 2024.\nWhat was the impact?\nAPI clients that connected over plaintext HTTP before June 26, 2024 would have\nexposed their credentials to network intermediaries, risking them to theft and\nreplay.\nWhat do I need to do?\nNo action is needed at this time.\nCredits\nThanks to Joachim Viide for reporting this issue.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-009",
           "publishedOn": "2024-06-27T00:00:00.000Z",
-          "wordCount": 14725,
+          "wordCount": 14721,
           "title": "TS-2024-009",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         },
@@ -48,7 +48,7 @@
           "description": "Description: Partial loss of audit and network flow logs\nWhat happened?\nAn integer overflow in our logs processing service led to some customer logs\nto be non-deterministically dropped with a probability of 14%.\nThe overflow condition first exhibited on June 7th, 2024 at 20:45 UTC and\nwas detected and resolved by June 14th, 2024 at 00:40 UTC.\nWho was affected?\nAll tailnets that rely on audit and network flow logs have been affected.\nWhat was the impact?\nThe 14% chance of dropped log entries affects storing of logs such as\nconfiguration audit logs and\nnetwork flow logs.\nWhile logs can be retrieved for the timeframe that the overflow bug was active,\nsome fraction of the entries may be missing.\nWhat do I need to do?\nNo action is needed at this time.\nWe fixed the bug, added additional error checking, and\ndeployed both to the logs processing service.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-008",
           "publishedOn": "2024-06-14T00:00:00.000Z",
-          "wordCount": 14725,
+          "wordCount": 14721,
           "title": "TS-2024-008",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -291,26 +291,6 @@
           "wordCount": 6360,
           "title": "SFO Network Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/shyfhwzrk7yq",
-          "author": null,
-          "description": "Jun 12, 20:23 UTC\nResolved - Our Engineering team identified and resolved an issue impacting multiple pages in the Cloud Control Panel. \nFrom 16:12 - 16:26 UTC, users may have experienced access denied errors while loading pages associated with different services on the Cloud Control Panel. The impacted pages included Managed Database, Block Storage Volumes, Reserved IPs, Domains, Settings, App Platform, Applications & API, Container Registry, Functions, Managed Kubernetes and Monitoring. \nOur Engineering team was able to take quick action to mitigate the impact and resolve the issue. \nThank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket for further analysis.",
-          "link": "https://status.digitalocean.com/incidents/shyfhwzrk7yq",
-          "publishedOn": "2024-06-12T20:23:09.000Z",
-          "wordCount": 6300,
-          "title": "Cloud Control Panel Page Permissions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/5cxwn2d0bzxc",
-          "author": null,
-          "description": "Jun 12, 16:41 UTC\nResolved - From 13:45 - 16:04 UTC, users were unable to sign up for new DigitalOcean accounts at https://cloud.digitalocean.com and existing users were unable to update credit card information within the Cloud Control Panel, due to an issue with a billing verification key. This issue is now fully resolved and users should be able to interact with the Cloud Control Panel normally. \nWe apologize for the inconvenience and invite users to retry any failed attempts. If you continue to experience issues or have any questions, please reach out to Support from within your account.\nJun 12, 16:07 UTC\nMonitoring - Our Engineering team has completed implementation of the fix to resolve the issue with new user sign ups and attempts to update credit card details.  At this time, services should be functioning as expected. If you were attempting to sign up or change your existing credit card information, please retry. \nWe're monitoring the situation and will post a final update once we confirm this is fully resolved.\nJun 12, 15:29 UTC\nIdentified - Our Engineering team has identified the root cause of the issue with new user sign ups and is working to implement a fix. During the course of investigation, the team also identified that existing users are unable to update their existing credit card information. \nWe will post another update once the fix has been implemented.\nJun 12, 15:15 UTC\nInvestigating - Our Engineering team is investigating an issue with users attempting to sign up for new cloud.digitalocean.com accounts. At this time, users attempting to sign up are unable to do so, due to an issue with finalizing credit card information. Existing users are unaffected and should be able to sign in normally.\nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/5cxwn2d0bzxc",
-          "publishedOn": "2024-06-12T16:41:04.000Z",
-          "wordCount": 6492,
-          "title": "New User Sign Ups",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -380,6 +360,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/3483v9fw5pm3",
+          "author": null,
+          "description": "Jul 13, 00:18 UTC\nUpdate - Copilot API chat experiencing significant failures to backend services\nJul 13, 00:18 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot",
+          "link": "https://www.githubstatus.com/incidents/3483v9fw5pm3",
+          "publishedOn": "2024-07-13T00:18:29.000Z",
+          "wordCount": 5281,
+          "title": "Incident with Copilot",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/9lmrb0ch7cnn",
           "author": null,

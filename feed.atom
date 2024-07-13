@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-12T00:24:02.309Z</id>
+    <id>urn:2024-07-13T00:24:25.049Z</id>
     <title>osmos::feed</title>
-    <updated>2024-07-12T00:24:02.309Z</updated>
+    <updated>2024-07-13T00:24:25.049Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident with Copilot]]></title>
+        <id>https://www.githubstatus.com/incidents/3483v9fw5pm3</id>
+        <link href="https://www.githubstatus.com/incidents/3483v9fw5pm3"/>
+        <updated>2024-07-13T00:18:29.000Z</updated>
+        <summary type="html"><![CDATA[Jul 13, 00:18 UTC
+Update - Copilot API chat experiencing significant failures to backend services
+Jul 13, 00:18 UTC
+Investigating - We are investigating reports of degraded performance for Copilot]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Intermittent performance issues using Slack]]></title>
         <id>https://slack-status.com/2024-07/3047787e20a6205c</id>
@@ -1068,41 +1081,6 @@ We fixed the bug, added additional error checking, and
 deployed both to the logs processing service.]]></summary>
         <author>
             <name>Security Bulletins on Tailscale</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Control Panel Page Permissions]]></title>
-        <id>https://status.digitalocean.com/incidents/shyfhwzrk7yq</id>
-        <link href="https://status.digitalocean.com/incidents/shyfhwzrk7yq"/>
-        <updated>2024-06-12T20:23:09.000Z</updated>
-        <summary type="html"><![CDATA[Jun 12, 20:23 UTC
-Resolved - Our Engineering team identified and resolved an issue impacting multiple pages in the Cloud Control Panel. 
-From 16:12 - 16:26 UTC, users may have experienced access denied errors while loading pages associated with different services on the Cloud Control Panel. The impacted pages included Managed Database, Block Storage Volumes, Reserved IPs, Domains, Settings, App Platform, Applications & API, Container Registry, Functions, Managed Kubernetes and Monitoring. 
-Our Engineering team was able to take quick action to mitigate the impact and resolve the issue. 
-Thank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket for further analysis.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New User Sign Ups]]></title>
-        <id>https://status.digitalocean.com/incidents/5cxwn2d0bzxc</id>
-        <link href="https://status.digitalocean.com/incidents/5cxwn2d0bzxc"/>
-        <updated>2024-06-12T16:41:04.000Z</updated>
-        <summary type="html"><![CDATA[Jun 12, 16:41 UTC
-Resolved - From 13:45 - 16:04 UTC, users were unable to sign up for new DigitalOcean accounts at https://cloud.digitalocean.com and existing users were unable to update credit card information within the Cloud Control Panel, due to an issue with a billing verification key. This issue is now fully resolved and users should be able to interact with the Cloud Control Panel normally. 
-We apologize for the inconvenience and invite users to retry any failed attempts. If you continue to experience issues or have any questions, please reach out to Support from within your account.
-Jun 12, 16:07 UTC
-Monitoring - Our Engineering team has completed implementation of the fix to resolve the issue with new user sign ups and attempts to update credit card details.  At this time, services should be functioning as expected. If you were attempting to sign up or change your existing credit card information, please retry. 
-We're monitoring the situation and will post a final update once we confirm this is fully resolved.
-Jun 12, 15:29 UTC
-Identified - Our Engineering team has identified the root cause of the issue with new user sign ups and is working to implement a fix. During the course of investigation, the team also identified that existing users are unable to update their existing credit card information. 
-We will post another update once the fix has been implemented.
-Jun 12, 15:15 UTC
-Investigating - Our Engineering team is investigating an issue with users attempting to sign up for new cloud.digitalocean.com accounts. At this time, users attempting to sign up are unable to do so, due to an issue with finalizing credit card information. Existing users are unaffected and should be able to sign in normally.
-We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
