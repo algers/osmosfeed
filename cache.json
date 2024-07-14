@@ -41,16 +41,6 @@
           "wordCount": 14721,
           "title": "TS-2024-009",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
-        },
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2024-008",
-          "author": null,
-          "description": "Description: Partial loss of audit and network flow logs\nWhat happened?\nAn integer overflow in our logs processing service led to some customer logs\nto be non-deterministically dropped with a probability of 14%.\nThe overflow condition first exhibited on June 7th, 2024 at 20:45 UTC and\nwas detected and resolved by June 14th, 2024 at 00:40 UTC.\nWho was affected?\nAll tailnets that rely on audit and network flow logs have been affected.\nWhat was the impact?\nThe 14% chance of dropped log entries affects storing of logs such as\nconfiguration audit logs and\nnetwork flow logs.\nWhile logs can be retrieved for the timeframe that the overflow bug was active,\nsome fraction of the entries may be missing.\nWhat do I need to do?\nNo action is needed at this time.\nWe fixed the bug, added additional error checking, and\ndeployed both to the logs processing service.",
-          "link": "https://tailscale.com/security-bulletins/#ts-2024-008",
-          "publishedOn": "2024-06-14T00:00:00.000Z",
-          "wordCount": 14721,
-          "title": "TS-2024-008",
-          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
       ]
     },
@@ -332,7 +322,7 @@
           "description": "Jul  3, 16:01 UTC\nResolved - This incident has been resolved. A post-mortem will be posted on this page next Wednesday, July 10th by 5:00 PDT.\nAll third-party groups affected by this incident have been audited for accuracy (group membership matching between the Rippling group and the third-party group). Any customers with groups failing our audit due to authorization issues or other API errors are being remediated directly with the customer and the third-party app.\nWe understand the outsized impact this had on business operations for our customers and apologize for failing our mission to free smart people to work on hard problems.\nJul  1, 22:47 UTC\nUpdate - More than 99% of group membership updates have been propagated to third-party apps and audited for accuracy.\nA minority of updates are…",
           "link": "https://status.rippling.com/incidents/hm6vf6ct17p6",
           "publishedOn": "2024-07-03T16:01:58.000Z",
-          "wordCount": 6888,
+          "wordCount": 8008,
           "title": "Issues accessing third-party apps",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         }
@@ -363,10 +353,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/3483v9fw5pm3",
           "author": null,
-          "description": "Jul 13, 00:18 UTC\nUpdate - Copilot API chat experiencing significant failures to backend services\nJul 13, 00:18 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot",
+          "description": "Jul 13, 19:27 UTC\nResolved - This incident has been resolved.\nJul 13, 19:26 UTC\nUpdate - Copilot is operating normally.\nJul 13, 18:01 UTC\nUpdate - Our upstream provider continues to recover and we expect services to return to normal as more progress is made. We will provide another update by 20:00 UTC.\nJul 13, 16:09 UTC\nUpdate - Our upstream provider is making good progress recovering and we are validating that services are nearing normal operations. We will provide another update by 18:00 UTC.\nJul 13, 11:18 UTC\nUpdate - Our upstream provider is gradually recovering the service. We will provide another update at 23:00 UTC.\nJul 13, 03:50 UTC\nUpdate - We are continuing to wait on our upstream provider to see full recovery. We will provide another update at 11:00 UTC\nJul 13, 03:20 UTC\nUpdate - The error rate for Copilot chat requests remains steady at less than 10%. We are continuing to investigate with our upstream provider.\nJul 13, 02:20 UTC\nUpdate - Copilot is experiencing degraded performance. We are continuing to investigate.\nJul 13, 02:19 UTC\nUpdate - We have applied several mitigations to Copilot chat, reducing errors to less than 10% of all chat requests. We are continuing to investigate the issue with our upstream provider.\nJul 13, 01:32 UTC\nUpdate - Copilot chat is experiencing degraded performance, impacting up to 60% of all chat requests. We are continuing to investigate the issue with our upstream provider.\nJul 13, 00:49 UTC\nUpdate - Copilot chat is currently experiencing degraded performance, impacting up to 60% of all chat requests. We are investigating the issue.\nJul 13, 00:29 UTC\nUpdate - Copilot is experiencing degraded availability. We are continuing to investigate.\nJul 13, 00:18 UTC\nUpdate - Copilot API chat experiencing significant failures to backend services\nJul 13, 00:18 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot",
           "link": "https://www.githubstatus.com/incidents/3483v9fw5pm3",
-          "publishedOn": "2024-07-13T00:18:29.000Z",
-          "wordCount": 5281,
+          "publishedOn": "2024-07-13T19:27:03.000Z",
+          "wordCount": 5588,
           "title": "Incident with Copilot",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },

@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-07-13 datetime="2024-07-13T00:18:29.000Z">2024-07-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-07-13 datetime="2024-07-13T00:18:29.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-07-13 datetime="2024-07-13T19:27:03.000Z">2024-07-13</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-07-13 datetime="2024-07-13T19:27:03.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -50,11 +50,35 @@
                           <div class="article-summary-box-inner media-object">
                               <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>Jul 13, 00:18 UTC
+                              <span>Jul 13, 19:27 UTC
+Resolved - This incident has been resolved.
+Jul 13, 19:26 UTC
+Update - Copilot is operating normally.
+Jul 13, 18:01 UTC
+Update - Our upstream provider continues to recover and we expect services to return to normal as more progress is made. We will provide another update by 20:00 UTC.
+Jul 13, 16:09 UTC
+Update - Our upstream provider is making good progress recovering and we are validating that services are nearing normal operations. We will provide another update by 18:00 UTC.
+Jul 13, 11:18 UTC
+Update - Our upstream provider is gradually recovering the service. We will provide another update at 23:00 UTC.
+Jul 13, 03:50 UTC
+Update - We are continuing to wait on our upstream provider to see full recovery. We will provide another update at 11:00 UTC
+Jul 13, 03:20 UTC
+Update - The error rate for Copilot chat requests remains steady at less than 10%. We are continuing to investigate with our upstream provider.
+Jul 13, 02:20 UTC
+Update - Copilot is experiencing degraded performance. We are continuing to investigate.
+Jul 13, 02:19 UTC
+Update - We have applied several mitigations to Copilot chat, reducing errors to less than 10% of all chat requests. We are continuing to investigate the issue with our upstream provider.
+Jul 13, 01:32 UTC
+Update - Copilot chat is experiencing degraded performance, impacting up to 60% of all chat requests. We are continuing to investigate the issue with our upstream provider.
+Jul 13, 00:49 UTC
+Update - Copilot chat is currently experiencing degraded performance, impacting up to 60% of all chat requests. We are investigating the issue.
+Jul 13, 00:29 UTC
+Update - Copilot is experiencing degraded availability. We are continuing to investigate.
+Jul 13, 00:18 UTC
 Update - Copilot API chat experiencing significant failures to backend services
 Jul 13, 00:18 UTC
 Investigating - We are investigating reports of degraded performance for Copilot</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                &ensp;<span class="article-reading-time">(&hairsp;19
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -868,7 +892,7 @@ We understand the outsized impact this had on business operations for our custom
 Jul  1, 22:47 UTC
 Update - More than 99% of group membership updates have been propagated to third-party apps and audited for accuracy.
 A minority of updates are…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;23
+                                &ensp;<span class="article-reading-time">(&hairsp;27
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2568,63 +2592,12 @@ If you have any questions related to this issue please send us a ticket from you
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Security Bulletins on Tailscale</button>
-                  <a class="source-heading__link" href="https://tailscale.com/security-bulletins/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://tailscale.com/security-bulletins/#ts-2024-008"
-                        open
-                      >
-                        <summary class="article-expander__title">TS-2024-008</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://tailscale.com/security-bulletins/#ts-2024-008">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Description: Partial loss of audit and network flow logs
-What happened?
-An integer overflow in our logs processing service led to some customer logs
-to be non-deterministically dropped with a probability of 14%.
-The overflow condition first exhibited on June 7th, 2024 at 20:45 UTC and
-was detected and resolved by June 14th, 2024 at 00:40 UTC.
-Who was affected?
-All tailnets that rely on audit and network flow logs have been affected.
-What was the impact?
-The 14% chance of dropped log entries affects storing of logs such as
-configuration audit logs and
-network flow logs.
-While logs can be retrieved for the timeframe that the overflow bug was active,
-some fraction of the entries may be missing.
-What do I need to do?
-No action is needed at this time.
-We fixed the bug, added additional error checking, and
-deployed both to the logs processing service.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;49
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/9915729281">
-        <time id="build-timestamp" datetime="2024-07-13T00:24:25.030Z">2024-07-13T00:24:25.030Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/9923920006">
+        <time id="build-timestamp" datetime="2024-07-14T00:26:58.418Z">2024-07-14T00:26:58.418Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

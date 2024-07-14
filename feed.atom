@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-13T00:24:25.049Z</id>
+    <id>urn:2024-07-14T00:26:58.437Z</id>
     <title>osmos::feed</title>
-    <updated>2024-07-13T00:24:25.049Z</updated>
+    <updated>2024-07-14T00:26:58.437Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Incident with Copilot]]></title>
         <id>https://www.githubstatus.com/incidents/3483v9fw5pm3</id>
         <link href="https://www.githubstatus.com/incidents/3483v9fw5pm3"/>
-        <updated>2024-07-13T00:18:29.000Z</updated>
-        <summary type="html"><![CDATA[Jul 13, 00:18 UTC
+        <updated>2024-07-13T19:27:03.000Z</updated>
+        <summary type="html"><![CDATA[Jul 13, 19:27 UTC
+Resolved - This incident has been resolved.
+Jul 13, 19:26 UTC
+Update - Copilot is operating normally.
+Jul 13, 18:01 UTC
+Update - Our upstream provider continues to recover and we expect services to return to normal as more progress is made. We will provide another update by 20:00 UTC.
+Jul 13, 16:09 UTC
+Update - Our upstream provider is making good progress recovering and we are validating that services are nearing normal operations. We will provide another update by 18:00 UTC.
+Jul 13, 11:18 UTC
+Update - Our upstream provider is gradually recovering the service. We will provide another update at 23:00 UTC.
+Jul 13, 03:50 UTC
+Update - We are continuing to wait on our upstream provider to see full recovery. We will provide another update at 11:00 UTC
+Jul 13, 03:20 UTC
+Update - The error rate for Copilot chat requests remains steady at less than 10%. We are continuing to investigate with our upstream provider.
+Jul 13, 02:20 UTC
+Update - Copilot is experiencing degraded performance. We are continuing to investigate.
+Jul 13, 02:19 UTC
+Update - We have applied several mitigations to Copilot chat, reducing errors to less than 10% of all chat requests. We are continuing to investigate the issue with our upstream provider.
+Jul 13, 01:32 UTC
+Update - Copilot chat is experiencing degraded performance, impacting up to 60% of all chat requests. We are continuing to investigate the issue with our upstream provider.
+Jul 13, 00:49 UTC
+Update - Copilot chat is currently experiencing degraded performance, impacting up to 60% of all chat requests. We are investigating the issue.
+Jul 13, 00:29 UTC
+Update - Copilot is experiencing degraded availability. We are continuing to investigate.
+Jul 13, 00:18 UTC
 Update - Copilot API chat experiencing significant failures to backend services
 Jul 13, 00:18 UTC
 Investigating - We are investigating reports of degraded performance for Copilot]]></summary>
@@ -1054,33 +1078,6 @@ If an unexpected issue arises, affected Droplets and Droplet-based services in t
 If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TS-2024-008]]></title>
-        <id>https://tailscale.com/security-bulletins/#ts-2024-008</id>
-        <link href="https://tailscale.com/security-bulletins/#ts-2024-008"/>
-        <updated>2024-06-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Description: Partial loss of audit and network flow logs
-What happened?
-An integer overflow in our logs processing service led to some customer logs
-to be non-deterministically dropped with a probability of 14%.
-The overflow condition first exhibited on June 7th, 2024 at 20:45 UTC and
-was detected and resolved by June 14th, 2024 at 00:40 UTC.
-Who was affected?
-All tailnets that rely on audit and network flow logs have been affected.
-What was the impact?
-The 14% chance of dropped log entries affects storing of logs such as
-configuration audit logs and
-network flow logs.
-While logs can be retrieved for the timeframe that the overflow bug was active,
-some fraction of the entries may be missing.
-What do I need to do?
-No action is needed at this time.
-We fixed the bug, added additional error checking, and
-deployed both to the logs processing service.]]></summary>
-        <author>
-            <name>Security Bulletins on Tailscale</name>
         </author>
     </entry>
 </feed>
