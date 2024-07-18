@@ -1,10 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-17T00:24:32.744Z</id>
+    <id>urn:2024-07-18T00:23:56.642Z</id>
     <title>osmos::feed</title>
-    <updated>2024-07-17T00:24:32.744Z</updated>
+    <updated>2024-07-18T00:23:56.642Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Degraded Functions Service in TOR1]]></title>
+        <id>https://status.digitalocean.com/incidents/c1cpwgm27fwp</id>
+        <link href="https://status.digitalocean.com/incidents/c1cpwgm27fwp"/>
+        <updated>2024-07-17T18:49:55.000Z</updated>
+        <summary type="html"><![CDATA[Jul 17, 18:49 UTC
+Resolved - Our Engineering team has confirmed the full resolution of the issue impacting the ability to create and manage Functions through the Cloud Control Panel and API in our TOR1 region. We appreciate your patience throughout the process.
+If you continue to see errors please open a ticket with our Support team and we will be glad to assist you further.
+Jul 17, 17:46 UTC
+Monitoring - The fix was deployed successfully and the impact appears to have subsided. Users should now be able to create and update functions, triggers and related settings via Cloud Control Panel and API. 
+We are monitoring the situation and will post an update once we can fully confirm resolution.
+Jul 17, 17:24 UTC
+Identified - Our Engineering team has identified an issue with Functions in our TOR1 region and a fix is currently being deployed.
+During this time, users may experience errors while creating or editing Functions, triggers, and related settings via the Cloud Control Panel and API.
+We apologize for the disruption and will post an update once the fix has finished rolling out.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Codespaces]]></title>
+        <id>https://www.githubstatus.com/incidents/lzyq3tjy07yq</id>
+        <link href="https://www.githubstatus.com/incidents/lzyq3tjy07yq"/>
+        <updated>2024-07-17T18:13:11.000Z</updated>
+        <summary type="html"><![CDATA[Jul 17, 18:13 UTC
+Resolved - This incident has been resolved.
+Jul 17, 17:56 UTC
+Investigating - We are investigating reports of degraded performance for Codespaces]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with multiple GitHub services]]></title>
+        <id>https://www.githubstatus.com/incidents/88003ngctf1z</id>
+        <link href="https://www.githubstatus.com/incidents/88003ngctf1z"/>
+        <updated>2024-07-17T17:06:55.000Z</updated>
+        <summary type="html"><![CDATA[Jul 17, 17:06 UTC
+Resolved - This incident has been resolved.
+Jul 17, 17:06 UTC
+Update - Git Operations is operating normally.
+Jul 17, 17:06 UTC
+Update - Pages is operating normally.
+Jul 17, 17:06 UTC
+Update - Packages is operating normally.
+Jul 17, 16:47 UTC
+Update - We're continuing to investigate reports of issues with multiple services. We will continue to keep users updated on progress.
+Jul 17, 16:47 UTC
+Update - Packages is experiencing degraded performance. We are continuing to investigate.
+Jul 17, 16:46 UTC
+Update - Issues is operating normally.
+Jul 17, 16:30 UTC
+Update - Pages is experiencing degraded performance. We are continuing to investigate.
+Jul 17, 16:28 UTC
+Update - Issues is experiencing degraded performance. We are continuing to investigate.
+Jul 17, 16:24 UTC
+Update - We are investigating reports of issues with service(s): Git, Actions, Rules and Permissions, SSH authentication, and Authorization.. We will continue to keep users updated on progress towards mitigation.
+Jul 17, 16:21 UTC
+Investigating - We are investigating reports of degraded performance for Git Operations]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NYC1 Network Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/r50t5ntgf50w</id>
+        <link href="https://status.digitalocean.com/incidents/r50t5ntgf50w"/>
+        <updated>2024-07-17T01:31:27.000Z</updated>
+        <summary type="html"><![CDATA[Jul 17, 01:31 UTC
+Completed - The scheduled maintenance has been completed.
+Jul 16, 22:15 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Jul 16, 22:14 UTC
+Scheduled - Start: 2024-07-16 22:00 UTC
+End: 2024-07-17 02:00 UTC
+
+During the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the NYC1 region. This maintenance will occur in two parts on consecutive days and we will send another maintenance notice for the second phase. 
+Expected Impact:
+These upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.
+If you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RESOLVED: **Summary:**
 We have received reports of an issue with Gmail.
@@ -25,44 +109,6 @@ If you have questions or feel that you may be impacted, please open a case with 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[UPDATE: **Summary:**
-We have received reports of an issue with Gmail.
-**Description:**
-Upon further investigation, our engineering teams believe that the scope is very limited and/or no customers were impacted.
-If you have questions or feel that you may be impacted, please open a case with the Support Team and we will work with you until the issue is resolved. No further updates will be provided here.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/mmgZJpHH9hjsL7qHuDmQ</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/mmgZJpHH9hjsL7qHuDmQ"/>
-        <updated>2024-07-16T22:34:09.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-07-16 17:40</strong> and ended at <strong>2024-07-16 18:34</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p><strong>Summary:</strong></p>
-<p>We have received reports of an issue with Gmail.</p>
-<p><strong>Description:</strong></p>
-<p>Upon further investigation, our engineering teams believe that the scope is very limited and/or no customers were impacted.</p>
-<p>If you have questions or feel that you may be impacted, please open a case with the Support Team and we will work with you until the issue is resolved. No further updates will be provided here.</p>
-</div><hr><p>Affected products: Gmail</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NYC1 Network Maintenance]]></title>
-        <id>https://status.digitalocean.com/incidents/r50t5ntgf50w</id>
-        <link href="https://status.digitalocean.com/incidents/r50t5ntgf50w"/>
-        <updated>2024-07-16T22:15:02.000Z</updated>
-        <summary type="html"><![CDATA[Jul 16, 22:15 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jul 16, 22:14 UTC
-Scheduled - Start: 2024-07-16 22:00 UTC
-End: 2024-07-17 02:00 UTC
-
-During the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the NYC1 region. This maintenance will occur in two parts on consecutive days and we will send another maintenance notice for the second phase. 
-Expected Impact:
-These upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.
-If you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Facebook Lead Ads - New Lead (trigger)]]></title>
         <id>https://status.make.com/incidents/qq3t66y58q2h</id>
         <link href="https://status.make.com/incidents/qq3t66y58q2h"/>
@@ -71,6 +117,34 @@ If you have any questions or concerns regarding this maintenance, please reach o
 Investigating - We’re aware of an issue affecting the “Facebook Lead Ads - New Lead” module. Users of this module may experience that some new leads are not being sent. We have partnered with Meta to identify the issue, and they are working on a resolution. We are in close contact with them to fix it as quickly as possible. We're sorry for any disruption this causes, and will keep you updated here.]]></summary>
         <author>
             <name>Make Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enhancements to the Smily Payment Page]]></title>
+        <id>296979</id>
+        <link href="https://changelog.bookingsync.com/enhancements-to-the-smily-payment-page-296979"/>
+        <updated>2024-07-16T11:53:16.000Z</updated>
+        <summary type="html"><![CDATA[Improvement
+  
+We've made some small but impactful changes to the Smily payment page. Enjoy an improved Meta title, a clearer display of discounts, better visibility of damage deposits, and a refined display of centimes. 
+Check them out below:
+The Meta title is now "Provide Payment Information" instead of "Smily"
+
+
+Euro cents are now displayed in the same font as other digits
+
+
+The damage deposit is no longer included in the balance amount due, but is displayed separately
+
+
+Discounts are now displayed in negative, making it much clearer for guests when they're getting a great deal
+
+
+
+
+Stay tuned for more improvements to the payment page, coming soon!]]></summary>
+        <author>
+            <name>Megan, Product Manager</name>
         </author>
     </entry>
     <entry>
@@ -220,7 +294,10 @@ In the meantime, if you are experiencing issues receiving 2FA codes, please reac
         <link href="https://www.githubstatus.com/incidents/9lmrb0ch7cnn"/>
         <updated>2024-07-11T15:21:17.000Z</updated>
         <summary type="html"><![CDATA[Jul 11, 15:21 UTC
-Resolved - This incident has been resolved.
+Resolved - On July 11, 2024, between 10:20 UTC and 14:00 UTC Copilot Chat was degraded and experienced intermittent timeouts. This only impacted requests routed to one of our service region providers. The error rate peaked at 10% for all requests and 9% of users. This was due to host upgrades in an upstream service provider. While this was a planned event, processes and tooling was not in place to anticipate and mitigate this downtime. 
+
+We are working to improve our processes and tooling for future planned events and escalation paths with our upstream providers.
+
 Jul 11, 15:21 UTC
 Update - Copilot is operating normally.
 Jul 11, 15:19 UTC
@@ -1058,71 +1135,6 @@ We regret any inconvenience caused and will post an update as additional informa
 Jun 18, 08:38 UTC
 Investigating - Our Engineering team is investigating an issue with connectivity in our SFO regions. During this time users may experience connection timeouts and errors for Droplet and Droplet-based resources.
 We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some users may experience some slowness]]></title>
-        <id>https://status.notion.so/incidents/l59f7fzvn6pn</id>
-        <link href="https://status.notion.so/incidents/l59f7fzvn6pn"/>
-        <updated>2024-06-18T04:13:19.000Z</updated>
-        <summary type="html"><![CDATA[Jun 17, 21:13 PDT
-Resolved - The issue has now been resolved and users should be able to use Notion as normal.
-Jun 17, 21:08 PDT
-Update - We are continuing to investigate this issue.
-Jun 17, 20:44 PDT
-Investigating - Some users may experience some slowness with some performance issue, we are investigating into it. we will share updates as soon as possible]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NYC3 Network Maintenance 2024-06-17 22:00 UTC Phase 1]]></title>
-        <id>https://status.digitalocean.com/incidents/rrm2b0y9c0fy</id>
-        <link href="https://status.digitalocean.com/incidents/rrm2b0y9c0fy"/>
-        <updated>2024-06-18T02:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Jun 18, 02:00 UTC
-Completed - The scheduled maintenance has been completed.
-Jun 17, 22:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jun 15, 12:44 UTC
-Scheduled - Start: 2024-06-17 22:00 UTC
-End: 2024-06-18 02:00 UTC
-During the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the NYC3 region. This maintenance will occur in two parts on consecutive days and we will send another maintenance notice for the second phase. 
-Expected Impact:
-These upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.
-If you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[500 Errors Across Multiple Endpoints]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/4g985xrjbw85</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/4g985xrjbw85"/>
-        <updated>2024-06-18T00:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Jun 17, 17:30 PDT
-Resolved - There was an increase in 500 Errors across multiple endpoints earlier.
-The errors started on Monday, June 17th 5:30 PM PDT and were mitigated by Monday, June 17th 6:30 PM PDT.
-Please retry any failed requests during the incident window.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[503 errors in SGP1 region]]></title>
-        <id>https://status.digitalocean.com/incidents/lcdn900frz8z</id>
-        <link href="https://status.digitalocean.com/incidents/lcdn900frz8z"/>
-        <updated>2024-06-17T19:37:36.000Z</updated>
-        <summary type="html"><![CDATA[Jun 17, 19:37 UTC
-Resolved - From 17:02 - 18:44 UTC, the Spaces API experienced availability dips. These dips caused Spaces bucket operations in SGP1 for a subset of users to experience latency or 503 errors. 
-The fix implemented by our Engineering team has been monitored and availability for the Spaces API is stable. Users should be able to interact with their Spaces buckets successfully. 
-If you continue to experience any issues, please reach out to the Support team from within your account.
-Jun 17, 19:07 UTC
-Monitoring - Our Engineering team has identified and implemented a fix for an issue impacting Spaces SGP1 region. We are now monitoring the situation closely and will post an update as soon as the issue is fully resolved. Thank you for your patience!
-Jun 17, 18:49 UTC
-Investigating - Our Engineering team is investigating an issue with spaces in SGP1 region. During this time, users may experience 503 errors while accessing bucket operations. We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
         </author>
