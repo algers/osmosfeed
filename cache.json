@@ -53,12 +53,22 @@
       "siteUrl": "https://tailscale.com/security-bulletins/",
       "articles": [
         {
+          "id": "https://tailscale.com/security-bulletins/#ts-2024-010",
+          "author": null,
+          "description": "Description: Accidental ACL edits due to browser caching\nWhat happened?\nWhen switching tailnets in the admin console, an Admin user\ncould overwrite the ACLs of one tailnet with pending changes to ACLs\nfrom another tailnet.\nWhen a user has unsaved ACL changes in the admin console, those changes are\ncached in browser storage. If this user is a member of multiple tailnets,\ntailnet A and tailnet B, and is editing ACLs for tailnet A, using the tailnet\nswitcher in the top-right corner of the page would not clear the cached ACL\nchanges correctly. In some rare cases, saving ACLs of tailnet B after the\nswitch would use the cached ACL contents from tailnet A.\nA user can be an Admin in multiple tailnets when they use GitHub to log in, and are a member of GitHub organizations, or the user is invited to another tailnet and granted the Admin role.\nTailnet switching in the admin console was added on May 22nd, 2023. We fixed\nthis bug on July 17th, 2024.\nWho was affected?\nAny user who is an Admin in multiple tailnets and edited ACLs in the admin\nconsole between May 22, 2023 and July 17th, 2024 could trigger this bug after\nswitching the active tailnet.\nWhat was the impact?\nAn Admin user could overwrite the ACLs of one tailnet with ACLs from another\ntailnet.\nWhat do I need to do?\nIf you are an Admin of multiple tailnets using the same login name, review the\nACLs in your tailnets for correctness.",
+          "link": "https://tailscale.com/security-bulletins/#ts-2024-010",
+          "publishedOn": "2024-07-19T00:00:00.000Z",
+          "wordCount": 15208,
+          "title": "TS-2024-010",
+          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
+        },
+        {
           "id": "https://tailscale.com/security-bulletins/#ts-2024-009",
           "author": null,
           "description": "Description: Potential for API credential disclosure over plaintext HTTP\nWhat happened?\nThe Tailscale API is primarily accessible over TLS-encrypted HTTP at\napi.tailscale.com. It also has a limited plaintext HTTP handler to serve HTTP\nto HTTPS redirects.\nBrowsers that connect over plaintext HTTP do not send cookies marked as Secure\nto prevent them from being disclosed to network intermediaries.\nHowever, API clients that connect using plaintext HTTP and send requests\nwith authentication tokens in headers have no such protections to prevent\ndisclosure.\nBefore June 26, 2024, the Tailscale API did not reject credentialed plaintext\nAPI requests and instead served them HTTP 302 redirects as it would to browsers.\nTypical HTTP client libraries handle redirects transparently, and consequently, the user\nwould not necessarily know their credentials had been exposed.\nStarting on June 26, 2024, the Tailscale API now returns errors for all plaintext\nHTTP requests that include credentials. Additionally, the Tailscale API now\nautomatically revokes API keys that it observes sent over HTTP and notifies\nTailnet security owners of this action.\nWho was affected?\nAny Tailscale API client that connected over plaintext HTTP using credentials\nbefore June 26, 2024.\nWhat was the impact?\nAPI clients that connected over plaintext HTTP before June 26, 2024 would have\nexposed their credentials to network intermediaries, risking them to theft and\nreplay.\nWhat do I need to do?\nNo action is needed at this time.\nCredits\nThanks to Joachim Viide for reporting this issue.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-009",
           "publishedOn": "2024-06-27T00:00:00.000Z",
-          "wordCount": 14721,
+          "wordCount": 15208,
           "title": "TS-2024-009",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -69,6 +79,16 @@
       "feedUrl": "https://airbnbapi.statuspage.io/history.rss",
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
+        {
+          "id": "https://airbnbapi.statuspage.io/incidents/f63hw7l7s4l0",
+          "author": null,
+          "description": "Jul 19, 13:44 PDT\nMonitoring - A fix has been implemented and we are monitoring the results.\nJul 19, 12:30 PDT\nInvestigating - We have identified an issue affecting the sending of reservation and message related webhooks starting on July 18th. We are actively working on it and will post more updates when we have them. This incident does not affect all reservations and messages. If you notice that some of your Hosts' reservations webhooks are missing after accepting make_reservation synchronous check, use the GET Reservations API to retrieve the reservation status.",
+          "link": "https://airbnbapi.statuspage.io/incidents/f63hw7l7s4l0",
+          "publishedOn": "2024-07-19T20:44:26.000Z",
+          "wordCount": 3912,
+          "title": "Issue Affecting Reservation and Message Related Webhooks",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://airbnbapi.statuspage.io/incidents/2cgzcb5xwyft",
           "author": null,
@@ -95,10 +115,10 @@
         {
           "id": "https://status.digitalocean.com/incidents/g2yqjsxtznh6",
           "author": null,
-          "description": "Jul 18, 22:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 18, 21:10 UTC\nScheduled - During the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the NYC1 region. This will be the second of the two maintenance activities performed by our team in the region on consecutive days. \nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.",
+          "description": "Jul 19, 01:41 UTC\nCompleted - The scheduled maintenance has been completed.\nJul 18, 22:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 18, 21:10 UTC\nScheduled - During the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the NYC1 region. This will be the second of the two maintenance activities performed by our team in the region on consecutive days. \nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.",
           "link": "https://status.digitalocean.com/incidents/g2yqjsxtznh6",
-          "publishedOn": "2024-07-18T22:00:02.000Z",
-          "wordCount": 6354,
+          "publishedOn": "2024-07-19T01:41:43.000Z",
+          "wordCount": 6364,
           "title": "NYC1 Network Maintenance 2024-07-18 22:00 UTC Phase 2",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -281,16 +301,6 @@
           "wordCount": 6327,
           "title": "BLR1 Network Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/wtpkr8hhwwdm",
-          "author": null,
-          "description": "Jun 19, 23:04 UTC\nResolved - Our engineering team has resolved the issue with creating a monitoring alert in the Monitoring section of the Cloud Control Panel.\nThank you for your patience. If you continue to experience any problems, please open a support ticket from within your account.\nJun 19, 22:22 UTC\nMonitoring - Our Engineering team has implemented a fix regarding the issue with creating a monitoring alert in the Monitoring section of the Cloud Control Panel. We are monitoring the situation to ensure there is no recurrence. \nWe will post another update once we confirm the issue is fully resolved.\nJun 19, 19:25 UTC\nInvestigating - Our Engineering team is investigating an issue impacting our Monitoring Alerts service. \nDuring this time, users may have been experiencing errors or unexpected delays while trying to create monitoring alerts via Cloud Control Panel. \nWe apologize for the inconvenience and will post an update as soon as we have additional information.",
-          "link": "https://status.digitalocean.com/incidents/wtpkr8hhwwdm",
-          "publishedOn": "2024-06-19T23:04:07.000Z",
-          "wordCount": 6341,
-          "title": "Monitoring Alerts Creation",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -340,12 +350,22 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/9rrqvvf23fhc",
+          "author": null,
+          "description": "Jul 19, 04:47 UTC\nResolved - This incident has been resolved.\nJul 19, 03:54 UTC\nUpdate - Codespaces is still recovering fully, but we can see the issue is trending positive. Please stop and start your Codespace, if impacted: https://docs.github.com/en/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace?tool=webui\nJul 19, 03:17 UTC\nUpdate - We are still investigating issues with Codespaces. Some users may not be able to connect to their Codespaces at this time. We will update you on mitigation progress.\nJul 19, 02:43 UTC\nUpdate - We are investigating issues with Codespaces. Some users may not be able to connect to their Codespaces at this time. We will update you on mitigation progress.\nJul 19, 02:10 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces",
+          "link": "https://www.githubstatus.com/incidents/9rrqvvf23fhc",
+          "publishedOn": "2024-07-19T04:47:22.000Z",
+          "wordCount": 5375,
+          "title": "Incident with Codespaces",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/m70hk23gx3nx",
           "author": null,
-          "description": "Jul 19, 00:24 UTC\nUpdate - Pages is operating normally.\nJul 18, 23:57 UTC\nUpdate - We are working to mitigate an outage by failing over to a different region.\nJul 18, 23:23 UTC\nUpdate - Pages is experiencing degraded performance. We are continuing to investigate.\nJul 18, 23:22 UTC\nUpdate - Some actions customers may experience delays or failures in their runs. We continuing to investigate.\nJul 18, 22:47 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
+          "description": "Jul 19, 02:38 UTC\nResolved - This incident has been resolved.\nJul 19, 02:38 UTC\nUpdate - Actions is operating normally.\nJul 19, 02:25 UTC\nUpdate - We have continued to apply mitigations to work around the outage. Customers may still experience run start delays for larger runners.\nJul 19, 01:50 UTC\nUpdate - We've applied a mitigation to work around the outage. Customers may still experience run start delays.\nJul 19, 01:04 UTC\nUpdate - We are making progress failing over to a different region to mitigate an outage.\nJul 19, 00:30 UTC\nUpdate - We continue to mitigate an outage by failing over to a different region.\nJul 19, 00:24 UTC\nUpdate - Pages is operating normally.\nJul 18, 23:57 UTC\nUpdate - We are working to mitigate an outage by failing over to a different region.\nJul 18, 23:23 UTC\nUpdate - Pages is experiencing degraded performance. We are continuing to investigate.\nJul 18, 23:22 UTC\nUpdate - Some actions customers may experience delays or failures in their runs. We continuing to investigate.\nJul 18, 22:47 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
           "link": "https://www.githubstatus.com/incidents/m70hk23gx3nx",
-          "publishedOn": "2024-07-19T00:24:20.000Z",
-          "wordCount": 5356,
+          "publishedOn": "2024-07-19T02:38:10.000Z",
+          "wordCount": 5473,
           "title": "Issues enabling actions and running jobs on GitHub",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -382,10 +402,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/3483v9fw5pm3",
           "author": null,
-          "description": "Jul 13, 19:27 UTC\nResolved - This incident has been resolved.\nJul 13, 19:26 UTC\nUpdate - Copilot is operating normally.\nJul 13, 18:01 UTC\nUpdate - Our upstream provider continues to recover and we expect services to return to normal as more progress is made. We will provide another update by 20:00 UTC.\nJul 13, 16:09 UTC\nUpdate - Our upstream provider is making good progress recovering and we are validating that services are nearing normal operations. We will provide another update by 18:00 UTC.\nJul 13, 11:18 UTC\nUpdate - Our upstream provider is gradually recovering the service. We will provide another update at 23:00 UTC.\nJul 13, 03:50 UTC\nUpdate - We are continuing to wait on our upstream provider to see full recovery. We will provide another update at 11:00 UTC\nJul 13, 03:20 UTC\nUpdate - The error rate for Copilot chat requests remains steady at less than 10%. We are continuing to investigate with our upstream provider.\nJul 13, 02:20 UTC\nUpdate - Copilot is experiencing degraded performance. We are continuing to investigate.\nJul 13, 02:19 UTC\nUpdate - We have applied several mitigations to Copilot chat, reducing errors to less than 10% of all chat requests. We are continuing to investigate the issue with our upstream provider.\nJul 13, 01:32 UTC\nUpdate - Copilot chat is experiencing degraded performance, impacting up to 60% of all chat requests. We are continuing to investigate the issue with our upstream provider.\nJul 13, 00:49 UTC\nUpdate - Copilot chat is currently experiencing degraded performance, impacting up to 60% of all chat requests. We are investigating the issue.\nJul 13, 00:29 UTC\nUpdate - Copilot is experiencing degraded availability. We are continuing to investigate.\nJul 13, 00:18 UTC\nUpdate - Copilot API chat experiencing significant failures to backend services\nJul 13, 00:18 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot",
+          "description": "Jul 13, 19:27 UTC\nResolved - On July 13, 2024 between 00:01 and 19:27 UTC the Copilot service was degraded. During this time period, Copilot code completions error rate peaked at 1.16% and Copilot Chat error rate peaked at 63%. Between 01:00 and 02:00 UTC we were able to reroute traffic for Chat to bring error rates below 6%. During the time of impact customers would have seen delayed responses, errors, or timeouts during requests. GitHub code scanning autofix jobs were also delayed during this incident. \nA resource cleanup job was scheduled by Azure OpenAI (AOAI) service early July 13th targeting a resource group thought to only contain unused resources. This resource group unintentionally contained critical, still in use, resources that were then removed. The cleanup job was halted befor…",
           "link": "https://www.githubstatus.com/incidents/3483v9fw5pm3",
           "publishedOn": "2024-07-13T19:27:03.000Z",
-          "wordCount": 5588,
+          "wordCount": 5757,
           "title": "Incident with Copilot",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -478,16 +498,6 @@
           "wordCount": 5345,
           "title": "Disruption with GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/nzc328r69wrv",
-          "author": null,
-          "description": "Jun 19, 12:53 UTC\nResolved - Between June 18th, 2024 at 09:34 PM UTC and June 19th, 2024 at 12:53 PM the Copilot Pull Request Summaries Service was unavailable. This was due to an internal change in access approach from the Copilot Pull Request service to the Copilot API.\nWe mitigated the incident by reverting the change in access which immediately resolved the errors.\nWe are working to improve our monitoring in this area and reduce our time to detection to more quickly address issues like this one in the future.\n\nJun 19, 12:31 UTC\nUpdate - We are deploying a fix now and expect recovery within the hour.\nJun 19, 11:59 UTC\nUpdate - We’ve identified an issue with Copilot pull request summaries that has caused errors when attempting to generate summaries since yesterday (June 18, 2024) at around 21:00 UTC. \nWe have identified a fix, and we expect the issue to be resolved within two hours.\nJun 19, 11:58 UTC\nInvestigating - We are investigating reports of degraded performance for Copilot",
-          "link": "https://www.githubstatus.com/incidents/nzc328r69wrv",
-          "publishedOn": "2024-06-19T12:53:33.000Z",
-          "wordCount": 5431,
-          "title": "Incident with Copilot Pull Request Summaries",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -554,16 +564,6 @@
           "publishedOn": "2024-06-20T23:56:09.000Z",
           "wordCount": 328,
           "title": "Incident: Some users unable to connect to Slack",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-06/1020f61548a41bcf",
-          "author": null,
-          "description": "Issue summary:\r\nOn June 18, 2024 from 9:00 AM to 2:00 PM PDT, some users had trouble playing video clips on mobile.\r\n\r\nThrough investigation, we discovered a recent change to how recorded clips were stored when sent on desktop was causing compatibility issues when users attempted to play them on their mobile devices. Though, this change did not affect other file or media types.\r\n\r\nWe rolled out a fix which allowed these video files to save properly and play on mobile again.",
-          "link": "https://slack-status.com/2024-06/1020f61548a41bcf",
-          "publishedOn": "2024-06-19T21:05:59.000Z",
-          "wordCount": 365,
-          "title": "Incident: Video clips recorded on desktop fail to play on mobile",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]

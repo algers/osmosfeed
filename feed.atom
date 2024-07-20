@@ -1,16 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-19T00:28:08.819Z</id>
+    <id>urn:2024-07-20T00:24:02.039Z</id>
     <title>osmos::feed</title>
-    <updated>2024-07-19T00:28:08.819Z</updated>
+    <updated>2024-07-20T00:24:02.039Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Issue Affecting Reservation and Message Related Webhooks]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/f63hw7l7s4l0</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/f63hw7l7s4l0"/>
+        <updated>2024-07-19T20:44:26.000Z</updated>
+        <summary type="html"><![CDATA[Jul 19, 13:44 PDT
+Monitoring - A fix has been implemented and we are monitoring the results.
+Jul 19, 12:30 PDT
+Investigating - We have identified an issue affecting the sending of reservation and message related webhooks starting on July 18th. We are actively working on it and will post more updates when we have them. This incident does not affect all reservations and messages. If you notice that some of your Hosts' reservations webhooks are missing after accepting make_reservation synchronous check, use the GET Reservations API to retrieve the reservation status.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Codespaces]]></title>
+        <id>https://www.githubstatus.com/incidents/9rrqvvf23fhc</id>
+        <link href="https://www.githubstatus.com/incidents/9rrqvvf23fhc"/>
+        <updated>2024-07-19T04:47:22.000Z</updated>
+        <summary type="html"><![CDATA[Jul 19, 04:47 UTC
+Resolved - This incident has been resolved.
+Jul 19, 03:54 UTC
+Update - Codespaces is still recovering fully, but we can see the issue is trending positive. Please stop and start your Codespace, if impacted: https://docs.github.com/en/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace?tool=webui
+Jul 19, 03:17 UTC
+Update - We are still investigating issues with Codespaces. Some users may not be able to connect to their Codespaces at this time. We will update you on mitigation progress.
+Jul 19, 02:43 UTC
+Update - We are investigating issues with Codespaces. Some users may not be able to connect to their Codespaces at this time. We will update you on mitigation progress.
+Jul 19, 02:10 UTC
+Investigating - We are investigating reports of degraded performance for Codespaces]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Issues enabling actions and running jobs on GitHub]]></title>
         <id>https://www.githubstatus.com/incidents/m70hk23gx3nx</id>
         <link href="https://www.githubstatus.com/incidents/m70hk23gx3nx"/>
-        <updated>2024-07-19T00:24:20.000Z</updated>
-        <summary type="html"><![CDATA[Jul 19, 00:24 UTC
+        <updated>2024-07-19T02:38:10.000Z</updated>
+        <summary type="html"><![CDATA[Jul 19, 02:38 UTC
+Resolved - This incident has been resolved.
+Jul 19, 02:38 UTC
+Update - Actions is operating normally.
+Jul 19, 02:25 UTC
+Update - We have continued to apply mitigations to work around the outage. Customers may still experience run start delays for larger runners.
+Jul 19, 01:50 UTC
+Update - We've applied a mitigation to work around the outage. Customers may still experience run start delays.
+Jul 19, 01:04 UTC
+Update - We are making progress failing over to a different region to mitigate an outage.
+Jul 19, 00:30 UTC
+Update - We continue to mitigate an outage by failing over to a different region.
+Jul 19, 00:24 UTC
 Update - Pages is operating normally.
 Jul 18, 23:57 UTC
 Update - We are working to mitigate an outage by failing over to a different region.
@@ -28,8 +72,10 @@ Investigating - We are investigating reports of degraded performance for Actions
         <title type="html"><![CDATA[NYC1 Network Maintenance 2024-07-18 22:00 UTC Phase 2]]></title>
         <id>https://status.digitalocean.com/incidents/g2yqjsxtznh6</id>
         <link href="https://status.digitalocean.com/incidents/g2yqjsxtznh6"/>
-        <updated>2024-07-18T22:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Jul 18, 22:00 UTC
+        <updated>2024-07-19T01:41:43.000Z</updated>
+        <summary type="html"><![CDATA[Jul 19, 01:41 UTC
+Completed - The scheduled maintenance has been completed.
+Jul 18, 22:00 UTC
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Jul 18, 21:10 UTC
 Scheduled - During the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the NYC1 region. This will be the second of the two maintenance activities performed by our team in the region on consecutive days. 
@@ -38,6 +84,39 @@ These upgrades are designed and tested to be seamless and we do not expect any i
 If you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TS-2024-010]]></title>
+        <id>https://tailscale.com/security-bulletins/#ts-2024-010</id>
+        <link href="https://tailscale.com/security-bulletins/#ts-2024-010"/>
+        <updated>2024-07-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Description: Accidental ACL edits due to browser caching
+What happened?
+When switching tailnets in the admin console, an Admin user
+could overwrite the ACLs of one tailnet with pending changes to ACLs
+from another tailnet.
+When a user has unsaved ACL changes in the admin console, those changes are
+cached in browser storage. If this user is a member of multiple tailnets,
+tailnet A and tailnet B, and is editing ACLs for tailnet A, using the tailnet
+switcher in the top-right corner of the page would not clear the cached ACL
+changes correctly. In some rare cases, saving ACLs of tailnet B after the
+switch would use the cached ACL contents from tailnet A.
+A user can be an Admin in multiple tailnets when they use GitHub to log in, and are a member of GitHub organizations, or the user is invited to another tailnet and granted the Admin role.
+Tailnet switching in the admin console was added on May 22nd, 2023. We fixed
+this bug on July 17th, 2024.
+Who was affected?
+Any user who is an Admin in multiple tailnets and edited ACLs in the admin
+console between May 22, 2023 and July 17th, 2024 could trigger this bug after
+switching the active tailnet.
+What was the impact?
+An Admin user could overwrite the ACLs of one tailnet with ACLs from another
+tailnet.
+What do I need to do?
+If you are an Admin of multiple tailnets using the same login name, review the
+ACLs in your tailnets for correctness.]]></summary>
+        <author>
+            <name>Security Bulletins on Tailscale</name>
         </author>
     </entry>
     <entry>
@@ -263,33 +342,8 @@ Investigating - We are currently investigating this issue.]]></summary>
         <link href="https://www.githubstatus.com/incidents/3483v9fw5pm3"/>
         <updated>2024-07-13T19:27:03.000Z</updated>
         <summary type="html"><![CDATA[Jul 13, 19:27 UTC
-Resolved - This incident has been resolved.
-Jul 13, 19:26 UTC
-Update - Copilot is operating normally.
-Jul 13, 18:01 UTC
-Update - Our upstream provider continues to recover and we expect services to return to normal as more progress is made. We will provide another update by 20:00 UTC.
-Jul 13, 16:09 UTC
-Update - Our upstream provider is making good progress recovering and we are validating that services are nearing normal operations. We will provide another update by 18:00 UTC.
-Jul 13, 11:18 UTC
-Update - Our upstream provider is gradually recovering the service. We will provide another update at 23:00 UTC.
-Jul 13, 03:50 UTC
-Update - We are continuing to wait on our upstream provider to see full recovery. We will provide another update at 11:00 UTC
-Jul 13, 03:20 UTC
-Update - The error rate for Copilot chat requests remains steady at less than 10%. We are continuing to investigate with our upstream provider.
-Jul 13, 02:20 UTC
-Update - Copilot is experiencing degraded performance. We are continuing to investigate.
-Jul 13, 02:19 UTC
-Update - We have applied several mitigations to Copilot chat, reducing errors to less than 10% of all chat requests. We are continuing to investigate the issue with our upstream provider.
-Jul 13, 01:32 UTC
-Update - Copilot chat is experiencing degraded performance, impacting up to 60% of all chat requests. We are continuing to investigate the issue with our upstream provider.
-Jul 13, 00:49 UTC
-Update - Copilot chat is currently experiencing degraded performance, impacting up to 60% of all chat requests. We are investigating the issue.
-Jul 13, 00:29 UTC
-Update - Copilot is experiencing degraded availability. We are continuing to investigate.
-Jul 13, 00:18 UTC
-Update - Copilot API chat experiencing significant failures to backend services
-Jul 13, 00:18 UTC
-Investigating - We are investigating reports of degraded performance for Copilot]]></summary>
+Resolved - On July 13, 2024 between 00:01 and 19:27 UTC the Copilot service was degraded. During this time period, Copilot code completions error rate peaked at 1.16% and Copilot Chat error rate peaked at 63%. Between 01:00 and 02:00 UTC we were able to reroute traffic for Chat to bring error rates below 6%. During the time of impact customers would have seen delayed responses, errors, or timeouts during requests. GitHub code scanning autofix jobs were also delayed during this incident. 
+A resource cleanup job was scheduled by Azure OpenAI (AOAI) service early July 13th targeting a resource group thought to only contain unused resources. This resource group unintentionally contained critical, still in use, resources that were then removed. The cleanup job was halted befor…]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
@@ -1032,61 +1086,6 @@ On June 20, 2024 from 11:30 AM PDT to 11:50 AM PDT, some users were unable to lo
 We made a backend update to one of our databases which unexpectedly caused that database to become overloaded, resulting in some users being unable to load Slack. We paused the update until error rates returned to normal, which resolved the issues for all affected users.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Monitoring Alerts Creation]]></title>
-        <id>https://status.digitalocean.com/incidents/wtpkr8hhwwdm</id>
-        <link href="https://status.digitalocean.com/incidents/wtpkr8hhwwdm"/>
-        <updated>2024-06-19T23:04:07.000Z</updated>
-        <summary type="html"><![CDATA[Jun 19, 23:04 UTC
-Resolved - Our engineering team has resolved the issue with creating a monitoring alert in the Monitoring section of the Cloud Control Panel.
-Thank you for your patience. If you continue to experience any problems, please open a support ticket from within your account.
-Jun 19, 22:22 UTC
-Monitoring - Our Engineering team has implemented a fix regarding the issue with creating a monitoring alert in the Monitoring section of the Cloud Control Panel. We are monitoring the situation to ensure there is no recurrence. 
-We will post another update once we confirm the issue is fully resolved.
-Jun 19, 19:25 UTC
-Investigating - Our Engineering team is investigating an issue impacting our Monitoring Alerts service. 
-During this time, users may have been experiencing errors or unexpected delays while trying to create monitoring alerts via Cloud Control Panel. 
-We apologize for the inconvenience and will post an update as soon as we have additional information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Video clips recorded on desktop fail to play on mobile]]></title>
-        <id>https://slack-status.com/2024-06/1020f61548a41bcf</id>
-        <link href="https://slack-status.com/2024-06/1020f61548a41bcf"/>
-        <updated>2024-06-19T21:05:59.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-On June 18, 2024 from 9:00 AM to 2:00 PM PDT, some users had trouble playing video clips on mobile.
-
-Through investigation, we discovered a recent change to how recorded clips were stored when sent on desktop was causing compatibility issues when users attempted to play them on their mobile devices. Though, this change did not affect other file or media types.
-
-We rolled out a fix which allowed these video files to save properly and play on mobile again.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Copilot Pull Request Summaries]]></title>
-        <id>https://www.githubstatus.com/incidents/nzc328r69wrv</id>
-        <link href="https://www.githubstatus.com/incidents/nzc328r69wrv"/>
-        <updated>2024-06-19T12:53:33.000Z</updated>
-        <summary type="html"><![CDATA[Jun 19, 12:53 UTC
-Resolved - Between June 18th, 2024 at 09:34 PM UTC and June 19th, 2024 at 12:53 PM the Copilot Pull Request Summaries Service was unavailable. This was due to an internal change in access approach from the Copilot Pull Request service to the Copilot API.
-We mitigated the incident by reverting the change in access which immediately resolved the errors.
-We are working to improve our monitoring in this area and reduce our time to detection to more quickly address issues like this one in the future.
-
-Jun 19, 12:31 UTC
-Update - We are deploying a fix now and expect recovery within the hour.
-Jun 19, 11:59 UTC
-Update - We’ve identified an issue with Copilot pull request summaries that has caused errors when attempting to generate summaries since yesterday (June 18, 2024) at around 21:00 UTC. 
-We have identified a fix, and we expect the issue to be resolved within two hours.
-Jun 19, 11:58 UTC
-Investigating - We are investigating reports of degraded performance for Copilot]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
