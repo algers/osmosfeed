@@ -6,6 +6,26 @@
       "siteUrl": "https://changelog.bookingsync.com",
       "articles": [
         {
+          "id": "297369",
+          "author": "Basile, Product Manager",
+          "description": "New!\n  \nYou are now able to choose a new booking model for your new properties on the Smily' booking.com app: Request to book;\n🚀 Benefits for you:\nYou can enable Request to book on booking.com' Smily app and manage all the requests through Smily’ Inquiries\nFind out how below 👇\n\nℹ️ How to use it?\nIf you set your rental as non Instantly bookable from the PMS > Rental > Base > do not tick the box below - it will be on request to book model for all your channels;\n\nIf you only want to apply it for booking.com for example, you can tick Instantly bookable above as we’ve added a specific setting on the booking.com Smily’ app\nWhen you drag and drop a new listing to be created on booking.com, you will get the new option Booking model to choose from the property settings;\n\n\n1/ Choose either Instant…",
+          "link": "https://changelog.bookingsync.com/set-your-property-on-request-to-book-on-booking-com!-297369",
+          "publishedOn": "2024-07-22T10:06:31.000Z",
+          "wordCount": 809,
+          "title": "Set your property on Request to book on booking.com!",
+          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/131/143-8e846f9b4e3fd0c956dc4c1d9c2f61eadf73b335.png"
+        },
+        {
+          "id": "297081",
+          "author": "Megan, Product Manager",
+          "description": "New!\n \nImprovement\n  \nWe're excited to announce a major enhancement to your experience with our own payment solution, SmilyPay. Now, setting up your SmilyPay account is easier than ever, directly from your Smily dashboard. Here's what you can expect:\nWhat's New?\nDirect Signup: You can now create and manage SmilyPay accounts directly from your Smily account settings under Settings > Payments section.\nMultiple Accounts: Need more than one account? No problem! Autonomously create as many SmilyPay accounts as you need.\nGuided Setup: Our intuitive, step-by-step process will guide you through providing all the necessary information.\nWhy SmilyPay?\nTailored for You: SmilyPay is designed specifically for the payment needs of property managers and owners.\nCost-Effective: Enjoy lower transaction fees for European card transactions compared to Stripe.\nReady to Get Started?\nHead over to your Smily account settings now and start setting up your SmilyPay accounts with ease. Join the many property managers already benefiting from a more efficient and cost-effective payment solution.",
+          "link": "https://changelog.bookingsync.com/creating-a-new-smilypay-account-is-now-super-simple-and-efficient!-297081",
+          "publishedOn": "2024-07-17T09:05:09.000Z",
+          "wordCount": 398,
+          "title": "Creating a new SmilyPay account is now super simple and efficient!",
+          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/130/890-db273ddacd3a58ccf6372a9e6342afab7b367683.jpg"
+        },
+        {
           "id": "296979",
           "author": "Megan, Product Manager",
           "description": "Improvement\n  \nWe've made some small but impactful changes to the Smily payment page. Enjoy an improved Meta title, a clearer display of discounts, better visibility of damage deposits, and a refined display of centimes. \nCheck them out below:\nThe Meta title is now \"Provide Payment Information\" instead of \"Smily\"\n\n\nEuro cents are now displayed in the same font as other digits\n\n\nThe damage deposit is no longer included in the balance amount due, but is displayed separately\n\n\nDiscounts are now displayed in negative, making it much clearer for guests when they're getting a great deal\n\n\n\n\nStay tuned for more improvements to the payment page, coming soon!",
@@ -53,12 +73,22 @@
       "siteUrl": "https://tailscale.com/security-bulletins/",
       "articles": [
         {
+          "id": "https://tailscale.com/security-bulletins/#ts-2024-011",
+          "author": null,
+          "description": "Description: SCIM group name disclosure via the ACL editor\nWhat happened?\nThe ACL editor in the admin console did not check SCIM\ngroup names in the ACL rules against the tailnet name. This allowed tailnet A\nto use SCIM groups from tailnet B in their ACL rules. A malicious user in\ntailnet A could not gain access to target tailnet B this way. However, they\ncould use the fact that ACLs get saved without warnings to learn about valid\nSCIM group names in other tailnets.\nThis issue was fixed on July 19th, 2024. A user trying to save ACLs with SCIM\ngroup names from other tailnets will always receive a warning that these groups\ndo not exist, even if they do exist in other tailnets.\nWho was affected?\nNone of the existing tailnets' ACLs appear to use SCIM group names from other\ntailnets maliciously. A handful of customers used the wrong SCIM group names\nfrom their production tailnets in their test tailnets by accident.\nWhat was the impact?\nA malicious user could learn about SCIM group names used in other tailnets.\nWhat do I need to do?\nNo action is required.",
+          "link": "https://tailscale.com/security-bulletins/#ts-2024-011",
+          "publishedOn": "2024-07-22T00:00:00.000Z",
+          "wordCount": 15577,
+          "title": "TS-2024-011",
+          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
+        },
+        {
           "id": "https://tailscale.com/security-bulletins/#ts-2024-010",
           "author": null,
           "description": "Description: Accidental ACL edits due to browser caching\nWhat happened?\nWhen switching tailnets in the admin console, an Admin user\ncould overwrite the ACLs of one tailnet with pending changes to ACLs\nfrom another tailnet.\nWhen a user has unsaved ACL changes in the admin console, those changes are\ncached in browser storage. If this user is a member of multiple tailnets,\ntailnet A and tailnet B, and is editing ACLs for tailnet A, using the tailnet\nswitcher in the top-right corner of the page would not clear the cached ACL\nchanges correctly. In some rare cases, saving ACLs of tailnet B after the\nswitch would use the cached ACL contents from tailnet A.\nA user can be an Admin in multiple tailnets when they use GitHub to log in, and are a member of GitHub organizations, or the user is invited to another tailnet and granted the Admin role.\nTailnet switching in the admin console was added on May 22nd, 2023. We fixed\nthis bug on July 17th, 2024.\nWho was affected?\nAny user who is an Admin in multiple tailnets and edited ACLs in the admin\nconsole between May 22, 2023 and July 17th, 2024 could trigger this bug after\nswitching the active tailnet.\nWhat was the impact?\nAn Admin user could overwrite the ACLs of one tailnet with ACLs from another\ntailnet.\nWhat do I need to do?\nIf you are an Admin of multiple tailnets using the same login name, review the\nACLs in your tailnets for correctness.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-010",
           "publishedOn": "2024-07-19T00:00:00.000Z",
-          "wordCount": 15208,
+          "wordCount": 15577,
           "title": "TS-2024-010",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         },
@@ -68,7 +98,7 @@
           "description": "Description: Potential for API credential disclosure over plaintext HTTP\nWhat happened?\nThe Tailscale API is primarily accessible over TLS-encrypted HTTP at\napi.tailscale.com. It also has a limited plaintext HTTP handler to serve HTTP\nto HTTPS redirects.\nBrowsers that connect over plaintext HTTP do not send cookies marked as Secure\nto prevent them from being disclosed to network intermediaries.\nHowever, API clients that connect using plaintext HTTP and send requests\nwith authentication tokens in headers have no such protections to prevent\ndisclosure.\nBefore June 26, 2024, the Tailscale API did not reject credentialed plaintext\nAPI requests and instead served them HTTP 302 redirects as it would to browsers.\nTypical HTTP client libraries handle redirects transparently, and consequently, the user\nwould not necessarily know their credentials had been exposed.\nStarting on June 26, 2024, the Tailscale API now returns errors for all plaintext\nHTTP requests that include credentials. Additionally, the Tailscale API now\nautomatically revokes API keys that it observes sent over HTTP and notifies\nTailnet security owners of this action.\nWho was affected?\nAny Tailscale API client that connected over plaintext HTTP using credentials\nbefore June 26, 2024.\nWhat was the impact?\nAPI clients that connected over plaintext HTTP before June 26, 2024 would have\nexposed their credentials to network intermediaries, risking them to theft and\nreplay.\nWhat do I need to do?\nNo action is needed at this time.\nCredits\nThanks to Joachim Viide for reporting this issue.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-009",
           "publishedOn": "2024-06-27T00:00:00.000Z",
-          "wordCount": 15208,
+          "wordCount": 15577,
           "title": "TS-2024-009",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -97,63 +127,83 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/26vl9bd5f4y9",
+          "id": "https://status.twilio.com/incidents/w2vdl2j4mvv1",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jul 22, 04:00 - 05:00 PDT\nJul 19, 14:43 PDT\nScheduled - Our SMS carrier partner in the US is conducting a planned maintenance from 22 July 2024 at 04:00 PDT until 22 July 2024 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from US handsets via a small subset of Twilio US shortcodes.",
-          "link": "https://status.twilio.com/incidents/26vl9bd5f4y9",
-          "publishedOn": "2024-07-22T11:00:00.000Z",
+          "description": "THIS IS A SCHEDULED EVENT Jul 22, 22:00 PDT  -  Jul 23, 05:00 PDT\nJul 22, 11:49 PDT\nScheduled - Twilio is conducting an emergency maintenance from 22 July 22:00 until 23 July 05:00 PDT on the Twilio Network. During the maintenance window, there could be intermittent message delivery failures and delivery delays to and from Twilio in the US.",
+          "link": "https://status.twilio.com/incidents/w2vdl2j4mvv1",
+          "publishedOn": "2024-07-23T05:00:00.000Z",
           "wordCount": 7517,
-          "title": "US SMS Carrier Partner Maintenance",
+          "title": "Twilio Messaging Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/v3gfh03gl9jq",
+          "id": "https://status.twilio.com/incidents/x72gtsy0rcsj",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jul 21, 22:00 PDT  -  Jul 22, 01:00 PDT\nJul 19, 16:06 PDT\nScheduled - The AT&T network in the US is conducting a planned maintenance from 21 July 2024 at 22:00 PDT until 22 July 2024 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from AT&T US handsets when sending via short codes.",
-          "link": "https://status.twilio.com/incidents/v3gfh03gl9jq",
-          "publishedOn": "2024-07-22T05:00:00.000Z",
+          "description": "THIS IS A SCHEDULED EVENT Jul 22, 22:00 PDT  -  Jul 23, 05:00 PDT\nJul 22, 11:45 PDT\nScheduled - Twilio is conducting an emergency maintenance from 22 July 22:00 until 23 July 05:00 PDT on the Twilio Network. During the maintenance window there could be intermittent impact on calls and messages to and from the US.",
+          "link": "https://status.twilio.com/incidents/x72gtsy0rcsj",
+          "publishedOn": "2024-07-23T05:00:00.000Z",
+          "wordCount": 7510,
+          "title": "Twilio Voice Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/sdn851h0rwt3",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Jul 22, 22:00 PDT  -  Jul 23, 05:00 PDT\nJul 22, 11:39 PDT\nScheduled - Twilio is conducting an emergency maintenance from 22 July 22:00 until 23 July 05:00 PDT on the Twilio Network Exchange in San Jose, US. During the maintenance window there could be intermittent impact to services with Interconnects in US2.",
+          "link": "https://status.twilio.com/incidents/sdn851h0rwt3",
+          "publishedOn": "2024-07-23T05:00:00.000Z",
+          "wordCount": 7497,
+          "title": "Twilio Interconnect Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/7dl30ymt465t",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Jul 22, 20:00 PDT  -  Jul 23, 04:00 PDT\nJul 18, 16:26 PDT\nScheduled - The T-Mobile network in the US is conducting a planned maintenance from 22 July 2024 at 20:00 PDT until 23 July 2024 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile US handsets.",
+          "link": "https://status.twilio.com/incidents/7dl30ymt465t",
+          "publishedOn": "2024-07-23T03:00:00.000Z",
+          "wordCount": 7546,
+          "title": "US SMS and MMS Carrier Maintenance - T-Mobile",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/xmqh9dwndhxf",
+          "author": null,
+          "description": "Jul 22, 16:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 22, 15:52 PDT\nScheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 22 July 2024 at 16:00 PDT until 23 July 2024 at 10:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.\n\nImpacted Product: Verify Silent Network Auth",
+          "link": "https://status.twilio.com/incidents/xmqh9dwndhxf",
+          "publishedOn": "2024-07-22T23:01:02.000Z",
+          "wordCount": 7542,
+          "title": "United States Account Security Carrier Partner Maintenance - AT&T",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/03gnpcp1t8pz",
+          "author": null,
+          "description": "Jul 22, 16:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul  1, 04:49 PDT\nScheduled - Our Voice carrier partner in the Czech Republic is conducting a planned maintenance from 22 July 2024 at 16:00 PDT until 22 July 2024 at 20:30 PDT. During the maintenance window, there could be intermittent call disconnects or call failures from and to Twilio Czech Republic phone numbers.",
+          "link": "https://status.twilio.com/incidents/03gnpcp1t8pz",
+          "publishedOn": "2024-07-22T23:00:02.000Z",
           "wordCount": 7533,
-          "title": "US SMS and MMS Carrier Maintenance - AT&T",
+          "title": "Czech Republic Voice Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/1gj67nh7k1tn",
+          "id": "https://status.twilio.com/incidents/4jndx9pyl0hx",
           "author": null,
-          "description": "Jul 21, 16:11 PDT\nUpdate - We are experiencing SMS delivery delays to Claro in Puerto Rico. Our engineers will continue to work with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nJul 21, 14:32 PDT\nUpdate - We continue to experience SMS delivery delays to Claro in Puerto Rico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJul 21, 13:41 PDT\nInvestigating - We are experiencing SMS delivery delays to Claro in Puerto Rico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/1gj67nh7k1tn",
-          "publishedOn": "2024-07-21T23:11:51.000Z",
-          "wordCount": 7605,
-          "title": "SMS Delivery Delays to Claro in Puerto Rico",
+          "description": "Jul 22, 15:43 PDT\nResolved - Twilio Conversations API hosted in EU region was partially degraded for around 20 minutes between 13:57 PM and 14:18 Pacific Time on 07/22/2024. During this period, some customers using Conversations in hosted EU region were impacted with a high number of 5xx errors. The issue has now been resolved.\nJul 22, 15:23 PDT\nInvestigating - Our monitoring systems have detected a potential issue Conversations API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/4jndx9pyl0hx",
+          "publishedOn": "2024-07-22T22:43:37.000Z",
+          "wordCount": 7547,
+          "title": "Conversations API Was Impacted in EU Region",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/k4s11nh45tjt",
+          "id": "https://status.twilio.com/incidents/fsd8v50d6b7b",
           "author": null,
-          "description": "Jul 21, 15:44 PDT\nResolved - We are no longer experiencing SMS delivery delays to Telefonica Network in Mexico. This incident has been resolved.\nJul 21, 13:59 PDT\nMonitoring - We are observing recovery in SMS delivery delays to Telefonica Network in Mexico. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJul 21, 13:08 PDT\nInvestigating - We are experiencing SMS delivery delays to Telefonica Network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/k4s11nh45tjt",
-          "publishedOn": "2024-07-21T22:44:30.000Z",
-          "wordCount": 7578,
-          "title": "SMS Delivery Delays To Telefonica Network In Mexico",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/wqk1j1tbg56y",
-          "author": null,
-          "description": "Jul 21, 14:10 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Zain network in Kuwait. This incident has been resolved.\nJul 21, 12:18 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Zain network in Kuwait. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJul 21, 10:32 PDT\nUpdate - We are still experiencing SMS delivery delays when sending messages to Zain network in Kuwait. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJul 21, 09:32 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Zain network in Kuwait. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/wqk1j1tbg56y",
-          "publishedOn": "2024-07-21T21:10:04.000Z",
-          "wordCount": 7637,
-          "title": "SMS Delivery Delays to Zain Network in Kuwait",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/zq6w3shcf75t",
-          "author": null,
-          "description": "Jul 21, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 18, 04:56 PDT\nScheduled - Our carrier partner Wind Tre Italy is conducting a planned maintenance from 21 July 2024 at 13:00 PDT until 21 July 2024 at 23:00 PDT. During the maintenance window, there could be intermittent API request failures for Wind Tre Italy customers.\n\nImpacted Products: Verify Silent Network Auth, Lookup SIM Swap, Lookup Identity Match, Legacy Identity MatchAndAttributes.",
-          "link": "https://status.twilio.com/incidents/zq6w3shcf75t",
-          "publishedOn": "2024-07-21T20:00:02.000Z",
-          "wordCount": 7560,
-          "title": "Italy Account Security Carrier Partner Maintenance - Wind Tre",
+          "description": "Jul 22, 15:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 12, 09:23 PDT\nScheduled - The Win Mobile/Volna Mobile network in Russia is conducting a planned maintenance from 22 July 2024 at 15:00 PDT until 22 July 2024 at 18:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Win Mobile/Volna Mobile Russia handsets.",
+          "link": "https://status.twilio.com/incidents/fsd8v50d6b7b",
+          "publishedOn": "2024-07-22T22:00:02.000Z",
+          "wordCount": 7537,
+          "title": "Russia SMS Carrier Maintenance - Win Mobile/Volna Mobile",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -163,6 +213,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/mrjpvwyf8g3l",
+          "author": null,
+          "description": "Jul 22, 22:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 20, 22:18 UTC\nScheduled - Start: 2024-07-22 22:00 UTC\nEnd: 2024-07-23 02:00 UTC\nHello,\nDuring the above window, our networking team will be making changes to our core networking infrastructure to improve performance and scalability in the NYC2 region.\nExpected Impact:\nThese upgrades are designed and tested to be seamless, and we do not expect any impact on customer traffic due to this maintenance. Should an unexpected issue arise, a possible outcome would be a temporary loss of connectivity for impacted Droplets. Any impact would also extend to Droplet-dependent services in the NYC2 region such as Managed Databases, Load Balancers, App Platform, and Managed Kubernetes. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket/.\nThank you,\nDigitalOcean Networking Team",
+          "link": "https://status.digitalocean.com/incidents/mrjpvwyf8g3l",
+          "publishedOn": "2024-07-22T22:00:02.000Z",
+          "wordCount": 6354,
+          "title": "NYC2 Network Maintenance 2024-07-22 22:00 UTC",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/g2yqjsxtznh6",
           "author": null,
@@ -413,10 +473,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/m70hk23gx3nx",
           "author": null,
-          "description": "Jul 19, 02:38 UTC\nResolved - This incident has been resolved.\nJul 19, 02:38 UTC\nUpdate - Actions is operating normally.\nJul 19, 02:25 UTC\nUpdate - We have continued to apply mitigations to work around the outage. Customers may still experience run start delays for larger runners.\nJul 19, 01:50 UTC\nUpdate - We've applied a mitigation to work around the outage. Customers may still experience run start delays.\nJul 19, 01:04 UTC\nUpdate - We are making progress failing over to a different region to mitigate an outage.\nJul 19, 00:30 UTC\nUpdate - We continue to mitigate an outage by failing over to a different region.\nJul 19, 00:24 UTC\nUpdate - Pages is operating normally.\nJul 18, 23:57 UTC\nUpdate - We are working to mitigate an outage by failing over to a different region.\nJul 18, 23:23 UTC\nUpdate - Pages is experiencing degraded performance. We are continuing to investigate.\nJul 18, 23:22 UTC\nUpdate - Some actions customers may experience delays or failures in their runs. We continuing to investigate.\nJul 18, 22:47 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
+          "description": "Jul 19, 02:38 UTC\nResolved - Beginning on July 18, 2024 at 22:38 UTC, network issues within an upstream provider led to degraded experiences across Actions, Copilot, and Pages services.\nUp to 50% of Actions workflow jobs were stuck in the queuing state, including Pages deployments.  Users were also not able to enable Actions or register self-hosted runners. This was caused by an unreachable backend resource in the Central US region. That resource is configured for geo-replication, but the replication configuration prevented resiliency when one region was unavailable. Updating the replication configuration mitigated the impact by allowing successful requests while one region was unavailable. By July 19 00:12 UTC, users saw some improvement in Actions jobs and full recovery of Pages. Standar…",
           "link": "https://www.githubstatus.com/incidents/m70hk23gx3nx",
           "publishedOn": "2024-07-19T02:38:10.000Z",
-          "wordCount": 5473,
+          "wordCount": 5683,
           "title": "Issues enabling actions and running jobs on GitHub",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -562,9 +622,19 @@
           "author": null,
           "description": "Issue Summary:\nOn Thursday, July 11, 2024, from 12:10 PM PDT to 12:12 PM PDT, a number of users had trouble loading messages in Slack.\n\nOur internal monitoring systems alerted us of the unexpected spike in error rates which prompted our incident response processes to begin. Through our investigation, we determined that a recent data migration caused an unexpected influx of client reloads, which temporarily overwhelmed the database responsible for servicing the affected API calls.\n\nAs a result, an automated safety measure temporarily paused traffic until the database returned to a healthy state. Once error rates returned to normal, users were no longer experiencing trouble.",
           "link": "https://slack-status.com/2024-07/3047787e20a6205c",
-          "publishedOn": "2024-07-11T22:23:00.000Z",
+          "publishedOn": "2024-07-22T21:02:05.000Z",
           "wordCount": 283,
           "title": "Incident: Intermittent performance issues using Slack",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://slack-status.com/2024-07/b5c5090ba40da3ce",
+          "author": null,
+          "description": "Workflows are now working as expected. If you’re still encountering any trouble, please reload Slack using Command + Shift + R (Mac) or Ctrl + Shift + R (Windows/Linux). Thank you for your patience while we sorted out this issue.",
+          "link": "https://slack-status.com/2024-07/b5c5090ba40da3ce",
+          "publishedOn": "2024-07-22T20:59:49.000Z",
+          "wordCount": 249,
+          "title": "Incident: Trouble running workflows",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
