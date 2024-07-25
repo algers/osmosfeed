@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-24T00:25:12.143Z</id>
+    <id>urn:2024-07-25T00:24:21.980Z</id>
     <title>osmos::feed</title>
-    <updated>2024-07-24T00:25:12.143Z</updated>
+    <updated>2024-07-25T00:24:21.980Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Multiple Destinations Account Security Service Partner Maintenance - Vodafone]]></title>
-        <id>https://status.twilio.com/incidents/5fsc6ykhw1ws</id>
-        <link href="https://status.twilio.com/incidents/5fsc6ykhw1ws"/>
-        <updated>2024-07-24T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jul 24, 03:00 - 07:00 PDT
-Jul 18, 08:47 PDT
-Scheduled - Our service partner is conducting a planned maintenance from 24 July 2024 at 03:00 PDT until 24 July 2024 at 07:00 PDT. During the maintenance window, there could be intermittent API request failures for the following carrier and countries: Vodafone Germany, Vodafone Italy, Vodafone Spain, Vodafone United Kingdom.
+        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - AT&T]]></title>
+        <id>https://status.twilio.com/incidents/v729jkyf895f</id>
+        <link href="https://status.twilio.com/incidents/v729jkyf895f"/>
+        <updated>2024-07-25T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jul 24, 22:00 PDT  -  Jul 25, 05:00 PDT
+Jul 24, 14:39 PDT
+Scheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 24 July 2024 at 22:00 PDT until 25 July 2024 at 05:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.
 
 Impacted Product: Verify Silent Network Auth]]></summary>
         <author>
@@ -20,16 +20,49 @@ Impacted Product: Verify Silent Network Auth]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Multiple Small Networks in the US for a Subset of Short and Long Codes]]></title>
-        <id>https://status.twilio.com/incidents/7s79h9h393f7</id>
-        <link href="https://status.twilio.com/incidents/7s79h9h393f7"/>
-        <updated>2024-07-23T23:23:12.000Z</updated>
-        <summary type="html"><![CDATA[Jul 23, 16:23 PDT
-Update - We are still experiencing SMS delivery delays when sending messages to Multiple Small Networks in the US for a Subset of Short and Long Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Jul 23, 15:23 PDT
-Investigating - We are experiencing MMS/SMS delivery delays when sending messages to Multiple Small Networks in the US for a Subset of Short and Long Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <title type="html"><![CDATA[TOR1 Power Maintenance - Phase 1]]></title>
+        <id>https://status.digitalocean.com/incidents/76xp03cjxjgn</id>
+        <link href="https://status.digitalocean.com/incidents/76xp03cjxjgn"/>
+        <updated>2024-07-25T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jul 25, 02:00 UTC  -  Jul 28, 02:00 UTC
+Jul 23, 02:45 UTC
+Scheduled - Maintenance Dates: July 25th, 26th, and 27th
+Maintenance Window: 02:00 - 10:00 (UTC)
+During the maintenance window on the above dates, our on-site team will be performing ongoing maintenance on redundant power systems in our TOR1 region. This is phase 1 of a 2-part effort and the maintenance will be performed during the same time window (02:00 - 10:00 UTC) across three days: July 25th, 26th, and 27th. 
+Expected Impact:  
+We don’t expect to see any impact to customer resources as the electrical systems are redundant and our team will isolate one unit at a time during the maintenance. In the highly unlikely event that we lose power to both systems simultaneously, affected Droplets and Droplet-based services would experience downtime for a brief period of time. We will endeavor to keep this to a minimum should that situation arise.
+If you have any questions or concerns related to this maintenance, please send us a ticket from your cloud support page https://cloudsupport.digitalocean.com/s/createticket.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Core Infrastructure Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/x0mh2tsr0y1n</id>
+        <link href="https://status.digitalocean.com/incidents/x0mh2tsr0y1n"/>
+        <updated>2024-07-24T21:00:03.000Z</updated>
+        <summary type="html"><![CDATA[Jul 24, 21:00 UTC
+Completed - The scheduled maintenance has been completed.
+Jul 24, 20:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Jul 17, 13:30 UTC
+Scheduled - Start: 2024-07-24 20:00 UTC
+End: 2024-07-24 21:00 UTC
+During the above window, our Engineering team will be performing maintenance on principal infrastructure in order to improve reliability of the services. Please note that existing infrastructure will continue running without issue. This maintenance impacts create, read, update, and delete (CRUD) operations in all regions.
+Expected Impact:
+During the maintenance window, users may experience increased latency for the following platform operations:
+Cloud Control Panel and API operations
+Event processing
+Droplet creates, resizes, rebuilds, and power events
+Managed Kubernetes reconciliation and scaling
+Load Balancer operations
+Container Registry operations
+App Platform operations
+Managed Database creation and scaling
+We expect to see two periods of 10 second impact, for a total of 20 seconds within the hour window. If unexpected impact occurs or continues for longer than expected, we will provide updates via our public status page.
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -61,38 +94,6 @@ Jul 23, 21:40 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MMS Delivery Receipts Delays To Verizon Network in US Via SubSet of Shortcodes]]></title>
-        <id>https://status.twilio.com/incidents/k9h1v5jmqgtk</id>
-        <link href="https://status.twilio.com/incidents/k9h1v5jmqgtk"/>
-        <updated>2024-07-23T22:20:19.000Z</updated>
-        <summary type="html"><![CDATA[Jul 23, 15:20 PDT
-Resolved - We are no longer experiencing MMS delivery delays when sending messages to Verizon Network in US via SubSet of Shortcodes. This incident has been resolved.
-Jul 23, 13:20 PDT
-Monitoring - We are observing recovery in MMS delivery delays when sending messages to Verizon Network in US via SubSet of Shortcodes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jul 23, 13:03 PDT
-Update - We are still experiencing MMS delivery receipts delays when sending messages to Verizon Network in US via subset of Short-codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information …]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Failures to Digitel Network in Venezuela]]></title>
-        <id>https://status.twilio.com/incidents/gtrylhxwmn82</id>
-        <link href="https://status.twilio.com/incidents/gtrylhxwmn82"/>
-        <updated>2024-07-23T22:08:35.000Z</updated>
-        <summary type="html"><![CDATA[Jul 23, 15:08 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Digitel Network in Venezuela. This incident has been resolved.
-Jul 23, 13:33 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Digitel Network in Venezuela. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Jul 23, 12:31 PDT
-Update - We are continuing to experience SMS delivery delays when sending messages to Digitel Network in Venezuela. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Jul 23, 10:30 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Digitel Network in Venezuela. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
