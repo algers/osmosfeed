@@ -92,20 +92,30 @@
         {
           "id": "https://airbnbapi.statuspage.io/incidents/f258bswlb8yw",
           "author": null,
-          "description": "Jul 26, 03:26 PDT\nInvestigating - We are investigating an issue where PUT pricing_settings requests are sometimes not clearing standard fees as expected.",
+          "description": "Jul 29, 17:18 PDT\nResolved - We deployed a fix for this issue today, July 29, around noon PDT. If the issue continues, please contact the API Integrations Team through the Support Portal.\nJul 29, 11:20 PDT\nIdentified - We've identified the root cause of the issue and are actively working on a solution. We'll post more updates as soon as we can.\nJul 26, 03:26 PDT\nInvestigating - We are investigating an issue where PUT pricing_settings requests are sometimes not clearing standard fees as expected.",
           "link": "https://airbnbapi.statuspage.io/incidents/f258bswlb8yw",
-          "publishedOn": "2024-07-26T10:26:47.000Z",
-          "wordCount": 3853,
+          "publishedOn": "2024-07-30T00:18:39.000Z",
+          "wordCount": 3916,
           "title": "Standard Fees not Able to be Cleared in Pricing Settings Update",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://airbnbapi.statuspage.io/incidents/0mgdvv0mshrs",
+          "author": null,
+          "description": "Jul 29, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nJul 29, 09:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 15, 11:57 PDT\nScheduled - The full deprecation date for API and Webhook Version 2022.12.31 was on June 30, 2024. \nStarting on July 29, 2024, any applications that have not fully migrated will be automatically migrated to a newer version, which can result in application breakage. Please make sure to migrate to a newer supported version to prevent potential risk to your implementation. \nLearn more: https://developer.airbnb.com/docs/versioning-enforcement",
+          "link": "https://airbnbapi.statuspage.io/incidents/0mgdvv0mshrs",
+          "publishedOn": "2024-07-30T00:00:02.000Z",
+          "wordCount": 3905,
+          "title": "v2022.12.31 Migration Enforcement",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://airbnbapi.statuspage.io/incidents/f63hw7l7s4l0",
           "author": null,
-          "description": "Jul 19, 13:44 PDT\nMonitoring - A fix has been implemented and we are monitoring the results.\nJul 19, 12:30 PDT\nInvestigating - We have identified an issue affecting the sending of reservation and message related webhooks starting on July 18th. We are actively working on it and will post more updates when we have them. This incident does not affect all reservations and messages. If you notice that some of your Hosts' reservations webhooks are missing after accepting make_reservation synchronous check, use the GET Reservations API to retrieve the reservation status.",
+          "description": "Jul 29, 11:18 PDT\nResolved - This incident has been resolved. If you need additional help, please contact the API Integrations Team through the Support Portal.\nJul 19, 13:44 PDT\nMonitoring - A fix has been implemented and we are monitoring the results.\nJul 19, 12:30 PDT\nInvestigating - We have identified an issue affecting the sending of reservation and message related webhooks starting on July 18th. We are actively working on it and will post more updates when we have them. This incident does not affect all reservations and messages. If you notice that some of your Hosts' reservations webhooks are missing after accepting make_reservation synchronous check, use the GET Reservations API to retrieve the reservation status.",
           "link": "https://airbnbapi.statuspage.io/incidents/f63hw7l7s4l0",
-          "publishedOn": "2024-07-19T20:44:26.000Z",
-          "wordCount": 3912,
+          "publishedOn": "2024-07-29T18:18:26.000Z",
+          "wordCount": 3936,
           "title": "Issue Affecting Reservation and Message Related Webhooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
@@ -115,28 +125,7 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": [
-        {
-          "id": "https://status.twilio.com/incidents/2czmxrb9vx5g",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jul 28, 20:00 PDT  -  Jul 29, 05:00 PDT\nJul 26, 23:46 PDT\nScheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 28 July 2024 at 20:00 PDT until 29 July 2024 at 05:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.\n\nImpacted Product: Verify Silent Network Auth",
-          "link": "https://status.twilio.com/incidents/2czmxrb9vx5g",
-          "publishedOn": "2024-07-29T03:00:00.000Z",
-          "wordCount": 7527,
-          "title": "United States Account Security Carrier Partner Maintenance - AT&T",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/lgzcm2tg9tdx",
-          "author": null,
-          "description": "Jul 28, 17:21 PDT\nUpdate - We are investigating an issue with conferences missing audio in the AU region. We expect to provide another update in 30 minutes or as soon as more information becomes available\nJul 28, 16:26 PDT\nInvestigating - We've become aware of a potential issue with Programmable Voice experiencing one way audio. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/lgzcm2tg9tdx",
-          "publishedOn": "2024-07-29T00:21:54.000Z",
-          "wordCount": 7548,
-          "title": "On Call Engineers are Investigating one way audio on conference calls",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "DigitalOcean Status - Incident History",
@@ -146,11 +135,21 @@
         {
           "id": "https://status.digitalocean.com/incidents/9nf3hp01tm6r",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Jul 29, 10:00 - 12:00 UTC\nJul 27, 10:09 UTC\nScheduled - Start: 2024-07-29 10:00 UTC\nEnd: 2024-07-29 12:00 UTC\nDuring the above window, our networking team will be performing maintenance on the management network firewall in the NYC3 region.\nExpected Impact:\nDuring the maintenance period, no customer impact is expected. However, there is a very low probability that there could be a delay of up to 15 minutes with Event Processing on Droplets and related products. \nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket/.",
+          "description": "Jul 29, 12:00 UTC\nCompleted - The scheduled maintenance has been completed.\nJul 29, 10:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 27, 10:09 UTC\nScheduled - Start: 2024-07-29 10:00 UTC\nEnd: 2024-07-29 12:00 UTC\nDuring the above window, our networking team will be performing maintenance on the management network firewall in the NYC3 region.\nExpected Impact:\nDuring the maintenance period, no customer impact is expected. However, there is a very low probability that there could be a delay of up to 15 minutes with Event Processing on Droplets and related products. \nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket/.",
           "link": "https://status.digitalocean.com/incidents/9nf3hp01tm6r",
-          "publishedOn": "2024-07-29T10:00:00.000Z",
-          "wordCount": 6284,
+          "publishedOn": "2024-07-29T12:00:02.000Z",
+          "wordCount": 6312,
           "title": "NYC3 Network Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/p2f2h8vbc23p",
+          "author": null,
+          "description": "Jul 29, 05:52 UTC\nResolved - As of 05:05 UTC, our Engineering team has confirmed the full resolution of the issue impacting Snapshot and Backup Images in the TOR1 region. We have verified that the Snapshot and Backup events in the region are processing without any failures.\nUsers should also be able to create Droplets from Snapshot and Backup images in this region without any issues.\nThank you for your patience and understanding. If you should encounter any further issues at all, then please open a ticket with our Support team.\nJul 29, 05:33 UTC\nMonitoring - As of 04:30 UTC, our Engineering team was able to take action to mitigate the impact of this issue. Snapshot and Backup events will be processed normally in the TOR1 region. Users may no longer experience errors when creating or restoring Snapshots and Backups images.\nCreating Droplets from snapshots and backup images in this region should also be processed without any issues.\nWe apologize for any inconvenience caused and will post an update once the issue is fully resolved.\nJul 29, 04:27 UTC\nInvestigating - As of 03:14 UTC, our Engineering team is investigating an issue with Snapshot and Backup failures in our TOR1 region. Users may experience errors when creating or restoring Snapshots and Backups images.\nCreating droplets from Snapshots and Backup images in this region is also affected.\nWe apologize for the inconvenience and will share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/p2f2h8vbc23p",
+          "publishedOn": "2024-07-29T05:52:12.000Z",
+          "wordCount": 6426,
+          "title": "Snapshots and Backups in TOR1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
@@ -374,13 +373,13 @@
       "siteUrl": "https://www.google.com/appsstatus/dashboard/",
       "articles": [
         {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/zZeXPJKVA1NWYXYJvAmW",
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/bRXnorYZuuVLDDqctj87",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-07-23 07:00</strong> and ended at <strong>2024-07-25 23:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong>\nPoly Studio X devices experienced unexpected deprovisioning and might require manual re-enrollment.</p>\n<p><strong>Description:</strong>\nPoly Studio X devices running Google Meet experienced unexpected deprovisioning between Tuesday, 2024-11-23 to Thursday, 2024-11-25.</p>\n<p>Google engineers rolled out a software fix to mitigate the issue, however if the device had already got impacted and got to the activation code screen, they would require manual re-enrollment. Please refer to the workaround section for more information.</p>\n<p><strong>Diagnosis:</strong>\nThe affected customer may encounter Poly Studio X devices offline/deprovisioned.</p>\n<p><strong>Workaround:</strong>\n<strong>Customer Action required</strong>:  Each affected device has to be <a href=\"https://support.google.com/a/answer/6109380?hl=en\">manually re-enrolled in the Admin Console</a> using the displayed activation code, as part of the “Enroll your device (non-ChromeOS devices) steps. Following the re-enrollment, the devices will be reconfigured to restore their previous settings and its functionality.</p>\n</div><hr><p>Affected products: Google Meet</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/zZeXPJKVA1NWYXYJvAmW",
-          "publishedOn": "2024-07-26T23:07:51.000Z",
-          "wordCount": 598,
-          "title": "RESOLVED: **Summary:**\nPoly Studio X devices experienced unexpected deprovisioning and might require manual re-enrollment.\n**Description:**\nPoly Studio X devices running Google Meet experienced unexpected deprovisioning between Tuesday, 2024-11-23 to Thursday, 2024-11-25.\nGoogle engineers rolled out a software fix to mitigate the issue, however if the device had already got impacted and got to the activation code screen, they would require manual re-enrollment. Please refer to the workaround section for more information.\n**Diagnosis:**\nThe affected customer may encounter Poly Studio X devices offline/deprovisioned.\n**Workaround:**\n**Customer Action required**: Each affected device has to be [manually re-enrolled in the Admin Console](https://support.google.com/a/answer/6109380?hl=en) using the displayed activation code, as part of the “Enroll your device (non-ChromeOS devices) steps. Following the re-enrollment, the devices will be reconfigured to restore their previous settings and its functionality.",
+          "description": "<p> Incident began at <strong>2024-07-24 22:36</strong> and ended at <strong>2024-07-25 16:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced an impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 24 July, 2024 15:36</p>\n<p><strong>Incident End:</strong> 25 July, 2024 09:27</p>\n<p><strong>Duration:</strong> 17 hours, 51 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Chrome Browser</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>A significant number of users were unable to find or save passwords in the password manager for Chrome browser, for a period of 17 hours, 51 minutes.</p>\n<p>From the preliminary analysis the root cause of the issue is a change in product behavior without proper feature guard. Google engineers mitigated the issue by deploying a fix.</p>\n<p><strong>Customer Impact:</strong></p>\n<p>Impacted users were unable to find passwords in Chrome&#39;s password manager. Users can save passwords, however it was not visible to them. The impact was limited to the M127 version of Chrome Browser on the Windows platform.</p>\n<p>Approximately 2% of users out of the 25% of the entire user base where the configuration change was rolled out, experienced this issue.</p>\n<p><strong>Additional details:</strong></p>\n<p>While an interim workaround was provided during the incident, after the fix was fully rolled out, users are being advised to restart their Chrome browser to ensure that the fix takes effect.</p>\n</div><hr><p>Affected products: Chrome Browser</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/bRXnorYZuuVLDDqctj87",
+          "publishedOn": "2024-07-29T11:04:19.000Z",
+          "wordCount": 853,
+          "title": "RESOLVED: SUMMARY: Chrome Browser Password Manager Issue\nWe are experiencing an issue with Chrome Browser where impacted users may be unable to find or save passwords in Chrome's Password Manager. This impacts users on M127 version of Chrome Browser.\nOur Engineering team has identified the cause of the issue and are actively working on deploying a fix for all users.\nWe will continue to monitor the situation as the fix is rolled out to ensure a smooth resolution.\nWe will provide more information by Thursday, 2024-07-25 09:45 US/Pacific.\nWORKAROUND:\nUsers currently impacted by this can try the following:\nLaunch Chrome with \" --enable-features=SkipUndecryptablePasswords\" command line flag.\n1. Locate Chrome shortcut on desktop. If you don't have it, go to chrome://settings/manageProfile and at the bottom enable \"Create desktop shortcut\".\n2. Fully exit Chrome\n3. Go to desktop and right click the shortcut then click Properties.\n4. To the target field paste the following string to the end \" --enable-features=SkipUndecryptablePasswords\".\n5. Close the dialog with OK and launch Chrome using this shortcut.",
           "imageUrl": null
         }
       ]
@@ -547,6 +546,26 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://slack-status.com",
       "articles": [
+        {
+          "id": "https://slack-status.com/2024-07/d351d099bccdc907",
+          "author": null,
+          "description": "Issue summary:\nFrom around 12:00 AM PDT until around 2:30 PM PDT on July 29, 2024, some users may have been unable to execute workflows via buttons.\n\nWe discovered that one of the mitigating measures taken to resolve a previews incident that occurred on July 25, 2024, was inadvertently creating errors which prevented workflow buttons from being clickable. We reverted this change, resolving the issue for all users.",
+          "link": "https://slack-status.com/2024-07/d351d099bccdc907",
+          "publishedOn": "2024-07-29T23:57:35.000Z",
+          "wordCount": 311,
+          "title": "Incident: Users unable to execute workflows via buttons",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://slack-status.com/2024-07/baaea3456001becb",
+          "author": null,
+          "description": "We’ve released a fix and and messaging to bots functionality has been restored. To access the updated fix, please ensure you exit Slack by swiping left and restarting the app. Note: You may need to do this 2-3 times to allow for the fix to update. We appreciate your patience while we sorted this out.",
+          "link": "https://slack-status.com/2024-07/baaea3456001becb",
+          "publishedOn": "2024-07-29T06:05:04.000Z",
+          "wordCount": 336,
+          "title": "Incident: Some users unable to send messages to bots",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://slack-status.com/2024-07/ebd47f4345dab645",
           "author": null,
