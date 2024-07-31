@@ -1,10 +1,254 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-07-30T00:24:37.441Z</id>
+    <id>urn:2024-07-31T00:20:20.535Z</id>
     <title>osmos::feed</title>
-    <updated>2024-07-30T00:24:37.441Z</updated>
+    <updated>2024-07-31T00:20:20.535Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[US SMS and MMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/7brtx80468fx</id>
+        <link href="https://status.twilio.com/incidents/7brtx80468fx"/>
+        <updated>2024-07-31T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jul 30, 21:00 PDT  -  Jul 31, 01:00 PDT
+Jul 29, 15:51 PDT
+Scheduled - Our SMS and MMS carrier partner in the US is conducting a planned maintenance from 30 July 2024 at 21:00 PDT until 31 July 2024 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TOR1 Power Maintenance - Phase 2]]></title>
+        <id>https://status.digitalocean.com/incidents/fl2l23kyzjk0</id>
+        <link href="https://status.digitalocean.com/incidents/fl2l23kyzjk0"/>
+        <updated>2024-07-31T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jul 31, 02:00 UTC  -  Aug 3, 02:00 UTC
+Jul 23, 02:47 UTC
+Scheduled - Maintenance Dates: July 31st, August 1st and 2nd
+Maintenance Window: 02:00 - 10:00 (UTC)
+During the maintenance window on the above dates, our on-site team will be performing ongoing maintenance on redundant power systems in our TOR1 region. This is phase 2 of a 2-part effort and the maintenance will be performed during the same time window (02:00 - 10:00 UTC) across three days: July 31st, August 1st and 2nd. 
+Expected Impact:  
+We don’t expect to see any impact to customer resources as the electrical systems are redundant and our team will isolate one unit at a time during the maintenance. In the highly unlikely event that we lose power to both systems simultaneously, affected Droplets and Droplet-based services would experience downtime for a brief period of time. We will endeavor to keep this to a minimum should that situation arise.
+If you have any questions or concerns related to this maintenance, please send us a ticket from your cloud support page https://cloudsupport.digitalocean.com/s/createticket]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Actions runs using large hosted runners delayed for some customers]]></title>
+        <id>https://www.githubstatus.com/incidents/y0gqch2dhw5l</id>
+        <link href="https://www.githubstatus.com/incidents/y0gqch2dhw5l"/>
+        <updated>2024-07-30T22:10:20.000Z</updated>
+        <summary type="html"><![CDATA[Jul 30, 22:10 UTC
+Resolved - This incident has been resolved.
+Jul 30, 22:09 UTC
+Update - The mitigation for larger hosted runners has continued to be stable and all job delays are less than 5 minutes. We will be resolving this incident.
+Jul 30, 21:44 UTC
+Update - We are continuing to hold this incident open while the team ensures that mitigation put in place is stable.
+Jul 30, 21:00 UTC
+Update - Larger hosted runners job starts are stable and starting within expected timeframes. We are monitoring job start times in preparation to resolve this incident. No enqueued larger hosted runner jobs were dropped during this incident.
+Jul 30, 20:17 UTC
+Update - Over the past 30 minutes, all larger hosted runner jobs have started in less than 5 minutes. We are continuing to investigate delays in larger hosted runner job starts
+Jul 30, 19:40 UTC
+Update - We are still investigating delays in customer’s larger hosted runner job starts. Nearly all jobs are starting under 5 minutes. Only 1 customer larger hosted runner job was delayed by more than 5 minutes in the past 30 minutes.
+Jul 30, 19:04 UTC
+Update - We are seeing improvements to the job start times for larger hosted runners for customers. In the last 30 minutes no customer jobs are delayed more than 5 minutes. We will continue monitoring for full recovery.
+Jul 30, 18:23 UTC
+Update - We are seeing run delays for larger hosted runners for a limited number of customers. We are deploying mitigations to address these delays.
+Jul 30, 18:19 UTC
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: **Summary:**
+A subset of Gmail users might be experiencing delayed delivery of their emails.
+**Description:**
+We are experiencing an intermittent issue with Gmail beginning on Tuesday, 2024-07-30 07:05 US/Pacific.
+This mainly caused delayed email delivery and a small number of users receiving errors when sending/receiving emails.
+Our engineering team continues to investigate the issue.
+We will provide an update by Tuesday, 2024-07-30 11:00 US/Pacific with current details.
+We apologize to all who are affected by the disruption.
+**Diagnosis:**
+Some customers might see a yellow banner with the "Unable to reach Gmail---Trying to reconnect" message.
+**Workaround:**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka"/>
+        <updated>2024-07-30T20:48:44.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-07-30 14:05</strong> and ended at <strong>2024-07-30 17:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Mini Incident Report</h1>
+<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Cloud Support using <a href="https://cloud.google.com/support">https://cloud.google.com/support</a>  or to Google Workspace Support using help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
+<p>(All Times US/Pacific)</p>
+<p><strong>Incident Start:</strong> 30 July, 2023 07:05</p>
+<p><strong>Incident End:</strong> 30 July, 2023 10:00</p>
+<p><strong>Duration:</strong> 2 hours, 55 minutes</p>
+<p><strong>Affected Services and Features:</strong></p>
+<p>Google Gmail</p>
+<p><strong>Regions/Zones:</strong> Global</p>
+<p><strong>Description:</strong></p>
+<p>Gmail experienced an overload scenario leading to delayed email delivery as well as serving user visible errors &quot;Unable to reach Gmail---Trying to reconnect&quot;.</p>
+<p>From the preliminary analysis, our teams identified a potential root cause and blocked traffic contributing towards the overload.</p>
+<p><strong>Customer Impact:</strong></p>
+<ul>
+<li>Approximately 40M emails, sent by approximately 2.6M unique senders, were delayed by 10 minutes or more.</li>
+<li>At peak, 70k unique Gmail users received error messages. e.g. &quot;Unable to reach Gmail---Trying to reconnect&quot;</li>
+</ul>
+<p><strong>Additional details:</strong></p>
+<p>Our engineering team is making the required changes to prevent such issues.
+We apologize to all who were affected by the disruption.</p>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UPDATE: **Summary:**
+A subset of Gmail users might be experiencing delayed delivery of their emails.
+**Description:**
+We are experiencing an intermittent issue with Gmail beginning on Tuesday, 2024-07-30 07:05 US/Pacific.
+This mainly caused delayed email delivery and a small number of users receiving errors when sending/receiving emails.
+Our engineering team continues to investigate the issue.
+We will provide an update by Tuesday, 2024-07-30 11:00 US/Pacific with current details.
+We apologize to all who are affected by the disruption.
+**Diagnosis:**
+Some customers might see a yellow banner with the "Unable to reach Gmail---Trying to reconnect" message.
+**Workaround:**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka"/>
+        <updated>2024-07-30T20:37:25.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-07-30 14:05</strong> and ended at <strong>2024-07-30 17:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p><strong>Summary:</strong></p>
+<p>A subset of Gmail users might be experiencing delayed delivery of their emails.</p>
+<p><strong>Description:</strong></p>
+<p>We are experiencing an intermittent issue with Gmail beginning on Tuesday, 2024-07-30 07:05 US/Pacific.</p>
+<p>This mainly caused delayed email delivery and a small number of users receiving errors when sending/receiving emails.</p>
+<p>Our engineering team continues to investigate the issue.</p>
+<p>We will provide an update by Tuesday, 2024-07-30 11:00 US/Pacific with current details.</p>
+<p>We apologize to all who are affected by the disruption.</p>
+<p><strong>Diagnosis:</strong></p>
+<p>Some customers might see a yellow banner with the &quot;Unable to reach Gmail---Trying to reconnect&quot; message.</p>
+<p><strong>Workaround:</strong></p>
+<p>None at this time.</p>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: **Summary:**
+A subset of Gmail users might be experiencing delayed delivery of their emails.
+**Description:**
+We are experiencing an intermittent issue with Gmail beginning on Tuesday, 2024-07-30 07:05 US/Pacific.
+This mainly caused delayed email delivery and a small number of users receiving errors when sending/receiving emails.
+Our engineering team continues to investigate the issue.
+We will provide an update by Tuesday, 2024-07-30 11:00 US/Pacific with current details.
+We apologize to all who are affected by the disruption.
+**Diagnosis:**
+Some customers might see a yellow banner with the "Unable to reach Gmail---Trying to reconnect" message.
+**Workaround:**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka"/>
+        <updated>2024-07-30T20:37:01.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-07-30 14:05</strong> and ended at <strong>2024-07-30 17:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p><strong>Status: RESOLVED</strong></p>
+<p>The issue with Gmail has been resolved for all affected users as of Tuesday, 2024-07-30 10:00 US/Pacific.</p>
+<p>We thank you for your patience while we worked on resolving the issue.</p>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: SUMMARY: Chrome Browser Password Manager Issue
+We are experiencing an issue with Chrome Browser where impacted users may be unable to find or save passwords in Chrome's Password Manager. This impacts users on M127 version of Chrome Browser.
+Our Engineering team has identified the cause of the issue and are actively working on deploying a fix for all users.
+We will continue to monitor the situation as the fix is rolled out to ensure a smooth resolution.
+We will provide more information by Thursday, 2024-07-25 09:45 US/Pacific.
+WORKAROUND:
+Users currently impacted by this can try the following:
+Launch Chrome with " --enable-features=SkipUndecryptablePasswords" command line flag.
+1. Locate Chrome shortcut on desktop. If you don't have it, go to chrome://settings/manageProfile and at the bottom enable "Create desktop shortcut".
+2. Fully exit Chrome
+3. Go to desktop and right click the shortcut then click Properties.
+4. To the target field paste the following string to the end " --enable-features=SkipUndecryptablePasswords".
+5. Close the dialog with OK and launch Chrome using this shortcut.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/bRXnorYZuuVLDDqctj87</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/bRXnorYZuuVLDDqctj87"/>
+        <updated>2024-07-30T15:02:49.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-07-24 22:36</strong> and ended at <strong>2024-07-25 16:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>Based on post incident analysis, we are downgrading the severity of this incident to ‘Service information’, as the issue affected significantly fewer users than initially thought.</p>
+</div><hr><p>Affected products: Chrome Browser</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UPDATE: SUMMARY: Chrome Browser Password Manager Issue
+We are experiencing an issue with Chrome Browser where impacted users may be unable to find or save passwords in Chrome's Password Manager. This impacts users on M127 version of Chrome Browser.
+Our Engineering team has identified the cause of the issue and are actively working on deploying a fix for all users.
+We will continue to monitor the situation as the fix is rolled out to ensure a smooth resolution.
+We will provide more information by Thursday, 2024-07-25 09:45 US/Pacific.
+WORKAROUND:
+Users currently impacted by this can try the following:
+Launch Chrome with " --enable-features=SkipUndecryptablePasswords" command line flag.
+1. Locate Chrome shortcut on desktop. If you don't have it, go to chrome://settings/manageProfile and at the bottom enable "Create desktop shortcut".
+2. Fully exit Chrome
+3. Go to desktop and right click the shortcut then click Properties.
+4. To the target field paste the following string to the end " --enable-features=SkipUndecryptablePasswords".
+5. Close the dialog with OK and launch Chrome using this shortcut.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/bRXnorYZuuVLDDqctj87</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/bRXnorYZuuVLDDqctj87"/>
+        <updated>2024-07-30T14:58:26.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-07-24 22:36</strong> and ended at <strong>2024-07-25 16:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>SUMMARY: Chrome Browser Password Manager Issue</p>
+<p>We are experiencing an issue with Chrome Browser where impacted users may be unable to find or save passwords in Chrome&#39;s Password Manager. This impacts users on M127 version of Chrome Browser.</p>
+<p>Our Engineering team has identified the cause of the issue and are actively working on deploying a fix for all users.</p>
+<p>We will continue to monitor the situation as the fix is rolled out to ensure a smooth resolution.</p>
+<p>We will provide more information by Thursday, 2024-07-25 09:45 US/Pacific.</p>
+<p>WORKAROUND:</p>
+<p>Users currently impacted by this can try the following:</p>
+<p>Launch Chrome with &quot; --enable-features=SkipUndecryptablePasswords&quot; command line flag.</p>
+<ol>
+<li>
+<p>Locate Chrome shortcut on desktop. If you don&#39;t have it, go to chrome://settings/manageProfile and at the bottom enable &quot;Create desktop shortcut&quot;.</p>
+</li>
+<li>
+<p>Fully exit Chrome</p>
+</li>
+<li>
+<p>Go to desktop and right click the shortcut then click Properties.</p>
+</li>
+<li>
+<p>To the target field paste the following string to the end &quot; --enable-features=SkipUndecryptablePasswords&quot;.</p>
+</li>
+<li>
+<p>Close the dialog with OK and launch Chrome using this shortcut.</p>
+</li>
+</ol>
+</div><hr><p>Affected products: Chrome Browser</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Codespaces]]></title>
+        <id>https://www.githubstatus.com/incidents/h2mghb83nt00</id>
+        <link href="https://www.githubstatus.com/incidents/h2mghb83nt00"/>
+        <updated>2024-07-30T14:22:15.000Z</updated>
+        <summary type="html"><![CDATA[Jul 30, 14:22 UTC
+Resolved - This incident has been resolved.
+Jul 30, 14:16 UTC
+Update - We are starting to see recovery for this issue and are monitoring things closely. We will keep this incident open for now until we are fully confident on complete recovery.
+Jul 30, 14:09 UTC
+Update - We have correlated the impact on Codespaces to an outage with a third party service. We are continuing to investigate ways to reduce impact on our customers while we wait for that outage to be resolved.
+Jul 30, 13:47 UTC
+Update - We are seeing increased failure rates for creation and resumption of Codespaces in the UK South and West Europe regions.
+We are working to resolve this issue and will update again soon.
+Jul 30, 13:36 UTC
+Investigating - We are investigating reports of degraded performance for Codespaces]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Standard Fees not Able to be Cleared in Pricing Settings Update]]></title>
         <id>https://airbnbapi.statuspage.io/incidents/f258bswlb8yw</id>
@@ -83,45 +327,6 @@ During the maintenance period, no customer impact is expected. However, there is
 If you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket/.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: SUMMARY: Chrome Browser Password Manager Issue
-We are experiencing an issue with Chrome Browser where impacted users may be unable to find or save passwords in Chrome's Password Manager. This impacts users on M127 version of Chrome Browser.
-Our Engineering team has identified the cause of the issue and are actively working on deploying a fix for all users.
-We will continue to monitor the situation as the fix is rolled out to ensure a smooth resolution.
-We will provide more information by Thursday, 2024-07-25 09:45 US/Pacific.
-WORKAROUND:
-Users currently impacted by this can try the following:
-Launch Chrome with " --enable-features=SkipUndecryptablePasswords" command line flag.
-1. Locate Chrome shortcut on desktop. If you don't have it, go to chrome://settings/manageProfile and at the bottom enable "Create desktop shortcut".
-2. Fully exit Chrome
-3. Go to desktop and right click the shortcut then click Properties.
-4. To the target field paste the following string to the end " --enable-features=SkipUndecryptablePasswords".
-5. Close the dialog with OK and launch Chrome using this shortcut.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/bRXnorYZuuVLDDqctj87</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/bRXnorYZuuVLDDqctj87"/>
-        <updated>2024-07-29T11:04:19.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-07-24 22:36</strong> and ended at <strong>2024-07-25 16:27</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Mini Incident Report</h1>
-<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced an impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
-<p>(All Times US/Pacific)</p>
-<p><strong>Incident Start:</strong> 24 July, 2024 15:36</p>
-<p><strong>Incident End:</strong> 25 July, 2024 09:27</p>
-<p><strong>Duration:</strong> 17 hours, 51 minutes</p>
-<p><strong>Affected Services and Features:</strong></p>
-<p>Chrome Browser</p>
-<p><strong>Regions/Zones:</strong> Global</p>
-<p><strong>Description:</strong></p>
-<p>A significant number of users were unable to find or save passwords in the password manager for Chrome browser, for a period of 17 hours, 51 minutes.</p>
-<p>From the preliminary analysis the root cause of the issue is a change in product behavior without proper feature guard. Google engineers mitigated the issue by deploying a fix.</p>
-<p><strong>Customer Impact:</strong></p>
-<p>Impacted users were unable to find passwords in Chrome&#39;s password manager. Users can save passwords, however it was not visible to them. The impact was limited to the M127 version of Chrome Browser on the Windows platform.</p>
-<p>Approximately 2% of users out of the 25% of the entire user base where the configuration change was rolled out, experienced this issue.</p>
-<p><strong>Additional details:</strong></p>
-<p>While an interim workaround was provided during the incident, after the fix was fully rolled out, users are being advised to restart their Chrome browser to ensure that the fix takes effect.</p>
-</div><hr><p>Affected products: Chrome Browser</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
