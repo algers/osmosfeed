@@ -22,8 +22,8 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-02 datetime="2024-08-02T05:00:00.000Z">2024-08-02</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-02 datetime="2024-08-02T05:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-02 datetime="2024-08-02T16:18:37.000Z">2024-08-02</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-02 datetime="2024-08-02T16:18:37.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
@@ -34,28 +34,113 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Twilio Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.twilio.com">Open</a>
+                  >Google Workspace Status Dashboard Updates</button>
+                  <a class="source-heading__link" href="https://www.google.com/appsstatus/dashboard/">Open</a>
                 </h3>
                 <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/ctxgvpv9j78r"
+                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka"
                         open
                       >
-                        <summary class="article-expander__title">United States Account Security Carrier Partner Maintenance - AT&amp;T</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/ctxgvpv9j78r">
+                        <summary class="article-expander__title">RESOLVED: **Summary:**
+A subset of Gmail users might be experiencing delayed delivery of their emails.
+**Description:**
+We are experiencing an intermittent issue with Gmail beginning on Tuesday, 2024-07-30 07:05 US/Pacific.
+This mainly caused delayed email delivery and a small number of users receiving errors when sending/receiving emails.
+Our engineering team continues to investigate the issue.
+We will provide an update by Tuesday, 2024-07-30 11:00 US/Pacific with current details.
+We apologize to all who are affected by the disruption.
+**Diagnosis:**
+Some customers might see a yellow banner with the &quot;Unable to reach Gmail---Trying to reconnect&quot; message.
+**Workaround:**
+None at this time.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>THIS IS A SCHEDULED EVENT Aug 1, 22:00 PDT  -  Aug 2, 05:00 PDT
-Aug  1, 15:28 PDT
-Scheduled - Our carrier partner AT&amp;T United States is conducting a planned maintenance from 01 August 2024 at 22:00 PDT until 02 August 2024 at 05:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&amp;T United States customers.
+                              <span>Incident began at 2024-07-30 14:05 and ended at 2024-07-30 17:10 (times are in Coordinated Universal Time (UTC)).
 
-Impacted Product: Verify Silent Network Auth</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
+Incident Report
+Summary
+On Tuesday, 30 July 2024, Gmail experienced increased error rates and delivery delays for a duration of 3 hours and 5 minutes.
+To our Gmail users who were impacted by these issues, we sincerely apologize. This is not the level of quality and reliability we strive to offer you, and we are taking immediate steps to improve the platform’s performance and availability.
+Root Cause
+Google engineers have determined that the increased error rates and delivery delays were due to unrelated root causes.
+Email Delivery Delays
+On Tuesday, 30 July 2024, at 07:05 US/Pacific, a series of fiberlines which carry Gmail in-flight traffic were unintentionally disabled between Google&#x27;s US and European data centers as part of routine maintenance.
+Increased Error Rates
+On Tuesday, 30 July 2024, at 08:00 US/Pacific, a non-critical process responsible for batch data  processing started generating an increased volume of traffic which overloaded Gmail’s back-end system.
+Remediation and Prevention
+Email Delivery Delays
+Google engineers were alerted of the incident through automated alert systems on Tuesday, 30 July 2024 at 07:14 US/Pacific and immediately began an investigation. By 07:34 US/Pacific, engineers performed a change to mitigate congestion/throttling which rerouted traffic to available servers for processing.
+Increased Error Rates
+Google engineers were alerted of the incident through automated alert systems on Tuesday, 30 July 2024  at 08:00 US/Pacific and immediately began an investigation. The issue self-resolved on Tuesday, 30 July 2024  at 10:10 US/Pacific, and errors were trending down to the baseline. The engineers identified and made the necessary changes to avoid a repeat of the issue at 10:30 US/Pacific.
+Google is committed to preventing a repeat of this issue in the future and is completing the following actions:
+Audit and test our traffic priority labels and storage system behavior to ensure that background traffic cannot overload the system.
+Audit/test error propagation to make sure the routing layer responds adequately to error conditions.
+Google is committed to quickly and continually improving our technology and operations to prevent service disruptions. We appreciate your patience and apologize again for the impact to your organization. We thank you for your business.
+Detailed Description of Impact
+Email Delivery Delays
+On July 30, 2024 07:05 to 08:00 US/Pacific, some emails were delayed between 10-20 minutes.
+Increased Error Rates
+On July 30, 2024 07:46 to 10:10 US/Pacific, some users received potentially visible errors:
+An error message banner with a valid retry button for users to manually retry the next Gmail web server - “Oops… the system encountered a problem (#2014)”
+
+Affected products: Gmail</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka"
+                        open
+                      >
+                        <summary class="article-expander__title">RESOLVED: **Summary:**
+A subset of Gmail users might be experiencing delayed delivery of their emails.
+**Description:**
+We are experiencing an intermittent issue with Gmail beginning on Tuesday, 2024-07-30 07:05 US/Pacific.
+This mainly caused delayed email delivery and a small number of users receiving errors when sending/receiving emails.
+Our engineering team continues to investigate the issue.
+We will provide an update by Tuesday, 2024-07-30 11:00 US/Pacific with current details.
+We apologize to all who are affected by the disruption.
+**Diagnosis:**
+Some customers might see a yellow banner with the &quot;Unable to reach Gmail---Trying to reconnect&quot; message.
+**Workaround:**
+None at this time.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Incident began at 2024-07-30 14:05 and ended at 2024-07-30 17:10 (times are in Coordinated Universal Time (UTC)).
+
+Mini Incident Report
+We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Cloud Support using https://cloud.google.com/support  or to Google Workspace Support using help article https://support.google.com/a/answer/1047213.
+(All Times US/Pacific)
+Incident Start: 30 July, 2023 07:05
+Incident End: 30 July, 2023 10:10
+Duration: 3 hours, 5 minutes
+Affected Services and Features:
+Google Gmail
+Regions/Zones: Global
+Description:
+Gmail experienced an overload scenario leading to delayed email delivery as well as serving user visible errors &quot;Unable to reach Gmail---Trying to reconnect&quot;.
+From the preliminary analysis, our teams identified a potential root cause and blocked traffic contributing towards the overload.
+Customer Impact:
+Approximately 40M emails, sent by approximately 2.6M unique senders, were delayed by 10 minutes or more.
+At peak, 70k unique Gmail users received error messages. e.g. &quot;Unable to reach Gmail---Trying to reconnect&quot;
+Additional details:
+Our engineering team is making the required changes to prevent such issues.
+We apologize to all who were affected by the disruption.
+
+Affected products: Gmail</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -74,166 +159,11 @@ Impacted Product: Verify Silent Network Auth</span>
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-01 datetime="2024-08-01T23:40:50.000Z">2024-08-01</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-01 datetime="2024-08-01T23:40:50.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-01 datetime="2024-08-01T18:02:04.000Z">2024-08-01</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-01 datetime="2024-08-01T18:02:04.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Twilio Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.twilio.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/jkm175kq7x5j"
-                        open
-                      >
-                        <summary class="article-expander__title">SMS Delivery Report Delays to and from  Verizon Network in US over Subset of Short Code and Toll-Free Numbers</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/jkm175kq7x5j">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aug  1, 16:40 PDT
-Resolved - We are no longer experiencing delivery report delays when sending messages to and from Verizon Network in the US. This incident has been resolved.
-Aug  1, 14:39 PDT
-Update - We are observing recovery in delivery report delays when sending messages to and from Verizon Network in the US. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Aug  1, 14:35 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to and from Verizon Network in the US. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Aug  1, 12:23 PDT
-Identif…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/02v8hnyst51g"
-                        open
-                      >
-                        <summary class="article-expander__title">SMS Delivery Delays and Failures To And From Multiple Networks in US via Subset of Twilio Numbers</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/02v8hnyst51g">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aug  1, 15:32 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to multiple networks in the US. This incident has been resolved.
-Aug  1, 02:36 PDT
-Update - We are no longer experiencing SMS Delivery Delays To Multiple Networks however we continue to still experience SMS Delivery Failures From Subset of Twilio Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
-Jul 31, 10:50 PDT
-Update - We are no longer experiencing SMS Delivery Delays To Multiple Networks however we continue to still experience SMS Delivery Failures From Subset of Twilio Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provi…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/nyw4y7f7flbm"
-                        open
-                      >
-                        <summary class="article-expander__title">Email in Flex Outbound Emails Delayed</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/nyw4y7f7flbm">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aug  1, 14:44 PDT
-Resolved - Elevated latencies in outbound emails has been resolved and Email in Flex is operating normally at this time.
-Aug  1, 13:34 PDT
-Update - Elevated latencies in outbound emails for Email in Flex customers is now operating normally. We will continue to monitor for system stability. We&#x27;ll provide another update in 2 hours or as soon as more information becomes available.
-Aug  1, 12:58 PDT
-Monitoring - Elevated latencies in outbound emails for Email in Flex customers is now operating normally. We will continue to monitor for system stability. We&#x27;ll provide another update in 30 minutes or as soon as more information becomes available.
-Aug  1, 09:46 PDT
-Update - We are still observing elevated latencies for outbound emails for Email in Flex customers. The team is actively investigating, and we will provide another update in 4 hours or as soon as more information becomes available.
-Aug  1, 07:48 PDT
-Update - We are still observing elevated latencies for outbound emails for Email in Flex customers. The team is actively investigating, and we will provide another update in 2 hours or as soon as more information becomes available.
-Aug  1, 06:50 PDT
-Update - We are observing elevated latencies for outbound emails for Email in Flex customers. The team is actively investigating and we will provide another update in 1 hour or as soon as more information becomes available.
-Aug  1, 06:47 PDT
-Update - We are observing elevated latencies for outbound emails for Email in Flex customers. The team is actively investigating and we will provide another update in 1 hour or as soon as more information becomes available.
-Aug  1, 06:37 PDT
-Investigating - We&#x27;ve become aware of a potential issue with Conversations fail to process email send operations. Our engineering team has been a</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/8ddd97dzs526"
-                        open
-                      >
-                        <summary class="article-expander__title">Indonesia SMS Carrier Maintenance - XL</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/8ddd97dzs526">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aug  1, 13:00 PDT
-Completed - The scheduled maintenance has been completed.
-Aug  1, 11:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jul 31, 08:34 PDT
-Scheduled - The XL network in Indonesia is conducting a planned maintenance from 01 August 2024 at 11:00 PDT until 01 August 2024 at 13:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to XL Indonesia handsets.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;25
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.twilio.com/incidents/2m9z01kycgx3"
-                        open
-                      >
-                        <summary class="article-expander__title">SMS Delivery Delays to Tigo Network in Guatemala</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.twilio.com/incidents/2m9z01kycgx3">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aug  1, 12:43 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Tigo Network in Guatemala. This incident has been resolved.
-Aug  1, 10:44 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Tigo Network in Guatemala. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Aug  1, 08:23 PDT
-Update - We are still experiencing SMS Delivery Delays to Tigo Network in Guatemala. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Aug  1, 06:27 PDT
-Update - We are experiencing SMS Delivery Delays to Tigo Network in Guatemala. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Aug  1, 05:28 PDT
-Investigating - We are experiencing SMS Delivery Delays to Tigo Network in Guatemala. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;26
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -314,7 +244,8 @@ Investigating - We’re investigating an issue with the Gmail app that is causin
                               <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Jul 31, 21:21 UTC
-Resolved - This incident has been resolved.
+Resolved - Beginning at 8:38 PM UTC on July 31, 2024 and lasting until 9:28 PM UTC on July 31, 2024, some customers of github.com saw errors when navigating to the Billing pages and/or when updating their payment method. These errors were caused due to a degradation in one of our partner services. A fix was deployed by the partner services and the Billing pages are back to being functional. 
+For improved detection of such issues in future, we will work with the partner service to identify levers we can use to get an earlier indication of issues.
 Jul 31, 21:20 UTC
 Update - Our partner service outage has been resolved, and our service has recovered.
 Jul 31, 21:00 UTC
@@ -343,7 +274,8 @@ Investigating - We are currently investigating this issue.</span>
                               <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Jul 31, 09:20 UTC
-Resolved - This incident has been resolved.
+Resolved - On July 31, 2024, between 07:05 UTC and 09:01 UTC the Actions service experienced degradation, preventing it from processing API requests and executing jobs, in particular Pages builds. On average, 2% of jobs run during the incident window were affected. This was due to some nodes in one of our partner services experiencing connectivity issues in the East US2 region. We mitigated the incident by failing over the impacted service and re-routing the service’s traffic out of that region.
+We are working to improve monitoring and processes of failover to reduce our time to detection and mitigation of issues like this one in the future.
 Jul 31, 09:20 UTC
 Update - Actions is operating normally.
 Jul 31, 09:13 UTC
@@ -566,71 +498,6 @@ We are working to resolve this issue and will update again soon.
 Jul 30, 13:36 UTC
 Investigating - We are investigating reports of degraded performance for Codespaces</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Google Workspace Status Dashboard Updates</button>
-                  <a class="source-heading__link" href="https://www.google.com/appsstatus/dashboard/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka"
-                        open
-                      >
-                        <summary class="article-expander__title">RESOLVED: **Summary:**
-A subset of Gmail users might be experiencing delayed delivery of their emails.
-**Description:**
-We are experiencing an intermittent issue with Gmail beginning on Tuesday, 2024-07-30 07:05 US/Pacific.
-This mainly caused delayed email delivery and a small number of users receiving errors when sending/receiving emails.
-Our engineering team continues to investigate the issue.
-We will provide an update by Tuesday, 2024-07-30 11:00 US/Pacific with current details.
-We apologize to all who are affected by the disruption.
-**Diagnosis:**
-Some customers might see a yellow banner with the &quot;Unable to reach Gmail---Trying to reconnect&quot; message.
-**Workaround:**
-None at this time.</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Incident began at 2024-07-30 14:05 and ended at 2024-07-30 17:00 (times are in Coordinated Universal Time (UTC)).
-
-Mini Incident Report
-We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Cloud Support using https://cloud.google.com/support  or to Google Workspace Support using help article https://support.google.com/a/answer/1047213.
-(All Times US/Pacific)
-Incident Start: 30 July, 2023 07:05
-Incident End: 30 July, 2023 10:00
-Duration: 2 hours, 55 minutes
-Affected Services and Features:
-Google Gmail
-Regions/Zones: Global
-Description:
-Gmail experienced an overload scenario leading to delayed email delivery as well as serving user visible errors &quot;Unable to reach Gmail---Trying to reconnect&quot;.
-From the preliminary analysis, our teams identified a potential root cause and blocked traffic contributing towards the overload.
-Customer Impact:
-Approximately 40M emails, sent by approximately 2.6M unique senders, were delayed by 10 minutes or more.
-At peak, 70k unique Gmail users received error messages. e.g. &quot;Unable to reach Gmail---Trying to reconnect&quot;
-Additional details:
-Our engineering team is making the required changes to prevent such issues.
-We apologize to all who were affected by the disruption.
-
-Affected products: Gmail</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2835,266 +2702,10 @@ We apologize for the disruption. If you continue to experience any issues, pleas
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-07-04 datetime="2024-07-04T08:07:06.000Z">2024-07-04</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-07-04 datetime="2024-07-04T08:07:06.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Make Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.make.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.make.com/incidents/f0z574141zcp"
-                        open
-                      >
-                        <summary class="article-expander__title">Timeouts on webhooks</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.make.com/incidents/f0z574141zcp">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Jul  4, 10:07 CEST
-Resolved - This incident has been resolved
-Jul  3, 17:14 CEST
-Update - We are continuing to monitor for any further issues.
-Jul  3, 17:14 CEST
-Monitoring - The affected zone is stable and we are monitoring the environment.
-Jul  3, 15:18 CEST
-Update - We are still investigating the cause of the timeouts.
-More updates will be provided in 1 hour.
-Jul  3, 13:19 CEST
-Update - Our engineers are still working on finding the root cause of the timeouts.
-We will provide more updates in 1 hour.
-Jul  3, 12:12 CEST
-Investigating - We are experiencing slower performance with our file system. 
-This is affecting a small number of scenarios that use Webhooks, causing them to have trouble and possibly fail. Our team is looking into the issue and working to fix it as soon as possible. We will keep you updated.
-We will provide more updates within one hour.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-07-03 datetime="2024-07-03T21:36:44.000Z">2024-07-03</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-07-03 datetime="2024-07-03T21:36:44.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >DigitalOcean Status - Incident History</button>
-                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/wsqv56rmx3g0"
-                        open
-                      >
-                        <summary class="article-expander__title">Snapshots and Backups Failures in NYC3</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/wsqv56rmx3g0">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Jul  3, 21:36 UTC
-Resolved - Our Engineering team identified and resolved an issue with creation of Snapshots and Backups in the NYC3 region.
-From 20:11 UTC to 21:04 UTC, users may have experienced errors while taking Snapshots of Droplets in NYC3. Backup creation was also failing, however, Backups will be retried automatically.
-Our Engineering team quickly identified the root cause of the incident to be related to capacity on internal storage clusters and were able to rebalance capacity, allowing creations to succeed.
-We apologize for the disruption. If you continue to experience any issues, please open a Support ticket from within your account.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/h9wdsyt9jjwd"
-                        open
-                      >
-                        <summary class="article-expander__title">Removing Team Members</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/h9wdsyt9jjwd">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Jul  3, 21:16 UTC
-Resolved - Beginning July 2nd, 20:55 UTC, team account owners may have seen an issue with removing other users from their team accounts.  As of July 3rd 20:47 UTC, a fix was deployed and our Engineering team has confirmed full resolution of the issue. Team owners should be able to remove other users from their teams without issue. 
-Thank you for your patience. If you continue to experience any problems, please open a support ticket from within your account.
-Jul  3, 20:53 UTC
-Monitoring - Our Engineering team has completed the rollout of the fix to resolve the issue with team owners being unable to remove users from their team accounts. 
-We are currently monitoring the situation and will post an update as soon as the issue is fully resolved.
-Jul  3, 20:34 UTC
-Identified - Our Engineering team has identified an issue with removing team members from active DigitalOcean accounts and is currently working on a fix. During this time, users (team owners) will see an error when attempting to remove team members from their accounts. 
-We apologize for the inconvenience and will post an update as soon as the fix is in place.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/b93l8jw03p7q"
-                        open
-                      >
-                        <summary class="article-expander__title">Kubernetes 1-Click Marketplace Maintenance</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/b93l8jw03p7q">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Jul  3, 19:30 UTC
-Completed - The scheduled maintenance has been completed.
-Jul  3, 18:30 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jul  2, 23:15 UTC
-Scheduled - Start Time: July 03 2024 18:30 UTC 
-End Time: July 03 2024 19:30 UTC
-During this time, our Marketplace Engineering team will be performing maintenance on our Managed Kubernetes 1-click application service.
-Expected Impact:
-During this maintenance, customers will be unable to view existing Kubernetes 1-click installations via the Cloud control panel or install Kubernetes 1-click applications from the Marketplace onto new or existing clusters.
-If you have any questions related to this event, please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket
-Thank you,
-Team DigitalOcean</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >GitHub Status - Incident History</button>
-                  <a class="source-heading__link" href="https://www.githubstatus.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.githubstatus.com/incidents/8532wfbvwqgr"
-                        open
-                      >
-                        <summary class="article-expander__title">Disruption with GitHub Docs</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.githubstatus.com/incidents/8532wfbvwqgr">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Jul  3, 16:40 UTC
-Resolved - On July 3, 2024, between 1:34 PM UTC and 4:42 PM UTC the GitHub documentation was degraded and showed a 500 on non-cached pages. On average, the error rate was 2-5% and peaked at 5% of requests to the service. This was due to an observability misconfiguration. We mitigated the incident by updating the observability configuration and redeploying. We are working to reduce our time to detection and mitigation of issues like this one in the future.
-Jul  3, 16:37 UTC
-Update - Mitigation measures have been rolled out and we&#x27;re seeing errors disappear in our telemetry. We&#x27;ll continue to monitor our services closely to ensure the docs site is fully healthy.
-Jul  3, 15:59 UTC
-Update - We have identified a likely cause of the errors with GitHub Docs and are working on a mitigation.
-Jul  3, 15:24 UTC
-Investigating - We are currently investigating this issue.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Rippling Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.rippling.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.rippling.com/incidents/hm6vf6ct17p6"
-                        open
-                      >
-                        <summary class="article-expander__title">Issues accessing third-party apps</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.rippling.com/incidents/hm6vf6ct17p6">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Jul  3, 16:01 UTC
-Resolved - This incident has been resolved. A post-mortem will be posted on this page next Wednesday, July 10th by 5:00 PDT.
-All third-party groups affected by this incident have been audited for accuracy (group membership matching between the Rippling group and the third-party group). Any customers with groups failing our audit due to authorization issues or other API errors are being remediated directly with the customer and the third-party app.
-We understand the outsized impact this had on business operations for our customers and apologize for failing our mission to free smart people to work on hard problems.
-Jul  1, 22:47 UTC
-Update - More than 99% of group membership updates have been propagated to third-party apps and audited for accuracy.
-A minority of updates are…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;27
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/10207791534">
-        <time id="build-timestamp" datetime="2024-08-02T00:24:32.036Z">2024-08-02T00:24:32.036Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/10223688609">
+        <time id="build-timestamp" datetime="2024-08-03T00:23:58.997Z">2024-08-03T00:23:58.997Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
