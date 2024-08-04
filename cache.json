@@ -125,13 +125,34 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://status.twilio.com/incidents/zn74wtj8006x",
+          "author": null,
+          "description": "Aug  3, 16:41 PDT\nResolved - The issue affecting Outbound SMS delivery delays when sending messages to Movicel network in Angola. has been resolved, and the service is functioning normally at this time.\nAug  3, 16:28 PDT\nUpdate - We are experiencing Outbound SMS delivery delays when sending messages to Movicel network in Angola. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 30 minutes or as soon as more information becomes available.\nAug  3, 15:41 PDT\nMonitoring - We are experiencing Outbound SMS delivery delays when sending messages to Movicel network in Angola. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 30 minutes or as soon as more information becomes available.\nA…",
+          "link": "https://status.twilio.com/incidents/zn74wtj8006x",
+          "publishedOn": "2024-08-03T23:41:54.000Z",
+          "wordCount": 8010,
+          "title": "Outbound SMS Delivery Delays to  Movicel Network in Angola",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        }
+      ]
     },
     {
       "title": "DigitalOcean Status - Incident History",
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/fl2l23kyzjk0",
+          "author": null,
+          "description": "Aug  3, 02:00 UTC\nCompleted - The scheduled maintenance has been completed.\nJul 31, 02:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 23, 02:47 UTC\nScheduled - Maintenance Dates: July 31st, August 1st and 2nd\nMaintenance Window: 02:00 - 10:00 (UTC)\nDuring the maintenance window on the above dates, our on-site team will be performing ongoing maintenance on redundant power systems in our TOR1 region. This is phase 2 of a 2-part effort and the maintenance will be performed during the same time window (02:00 - 10:00 UTC) across three days: July 31st, August 1st and 2nd. \nExpected Impact:  \nWe don’t expect to see any impact to customer resources as the electrical systems are redundant and our team will isolate one unit at a time during the maintenance. In the highly unlikely event that we lose power to both systems simultaneously, affected Droplets and Droplet-based services would experience downtime for a brief period of time. We will endeavor to keep this to a minimum should that situation arise.\nIf you have any questions or concerns related to this maintenance, please send us a ticket from your cloud support page https://cloudsupport.digitalocean.com/s/createticket",
+          "link": "https://status.digitalocean.com/incidents/fl2l23kyzjk0",
+          "publishedOn": "2024-08-03T02:00:02.000Z",
+          "wordCount": 6400,
+          "title": "TOR1 Power Maintenance - Phase 2",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/ks2j22y8jm6k",
           "author": null,
@@ -140,16 +161,6 @@
           "publishedOn": "2024-07-31T18:32:44.000Z",
           "wordCount": 6355,
           "title": "AMS3 Network Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/fl2l23kyzjk0",
-          "author": null,
-          "description": "Jul 31, 02:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nJul 23, 02:47 UTC\nScheduled - Maintenance Dates: July 31st, August 1st and 2nd\nMaintenance Window: 02:00 - 10:00 (UTC)\nDuring the maintenance window on the above dates, our on-site team will be performing ongoing maintenance on redundant power systems in our TOR1 region. This is phase 2 of a 2-part effort and the maintenance will be performed during the same time window (02:00 - 10:00 UTC) across three days: July 31st, August 1st and 2nd. \nExpected Impact:  \nWe don’t expect to see any impact to customer resources as the electrical systems are redundant and our team will isolate one unit at a time during the maintenance. In the highly unlikely event that we lose power to both systems simultaneously, affected Droplets and Droplet-based services would experience downtime for a brief period of time. We will endeavor to keep this to a minimum should that situation arise.\nIf you have any questions or concerns related to this maintenance, please send us a ticket from your cloud support page https://cloudsupport.digitalocean.com/s/createticket",
-          "link": "https://status.digitalocean.com/incidents/fl2l23kyzjk0",
-          "publishedOn": "2024-07-31T02:00:02.000Z",
-          "wordCount": 6390,
-          "title": "TOR1 Power Maintenance - Phase 2",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
@@ -347,16 +358,6 @@
           "description": "<p> Incident began at <strong>2024-07-30 14:05</strong> and ended at <strong>2024-07-30 17:10</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Incident Report</h1>\n<h2>Summary</h2>\n<p>On Tuesday, 30 July 2024, Gmail experienced increased error rates and delivery delays for a duration of 3 hours and 5 minutes.</p>\n<p>To our Gmail users who were impacted by these issues, we sincerely apologize. This is not the level of quality and reliability we strive to offer you, and we are taking immediate steps to improve the platform’s performance and availability.</p>\n<h2>Root Cause</h2>\n<p>Google engineers have determined that the increased error rates and delivery delays were due to unrelated root causes.</p>\n<p><strong>Email Delivery Delays</strong></p>\n<p>On Tuesday, 30 July 2024, at 07:05 US/Pacific, a series of fiberlines which carry Gmail in-flight traffic were unintentionally disabled between Google&#39;s US and European data centers as part of routine maintenance.</p>\n<p><strong>Increased Error Rates</strong></p>\n<p>On Tuesday, 30 July 2024, at 08:00 US/Pacific, a non-critical process responsible for batch data  processing started generating an increased volume of traffic which overloaded Gmail’s back-end system.</p>\n<h2>Remediation and Prevention</h2>\n<p><strong>Email Delivery Delays</strong></p>\n<p>Google engineers were alerted of the incident through automated alert systems on Tuesday, 30 July 2024 at 07:14 US/Pacific and immediately began an investigation. By 07:34 US/Pacific, engineers performed a change to mitigate congestion/throttling which rerouted traffic to available servers for processing.</p>\n<p><strong>Increased Error Rates</strong></p>\n<p>Google engineers were alerted of the incident through automated alert systems on Tuesday, 30 July 2024  at 08:00 US/Pacific and immediately began an investigation. The issue self-resolved on Tuesday, 30 July 2024  at 10:10 US/Pacific, and errors were trending down to the baseline. The engineers identified and made the necessary changes to avoid a repeat of the issue at 10:30 US/Pacific.</p>\n<p>Google is committed to preventing a repeat of this issue in the future and is completing the following actions:</p>\n<ul>\n<li>Audit and test our traffic priority labels and storage system behavior to ensure that background traffic cannot overload the system.</li>\n<li>Audit/test error propagation to make sure the routing layer responds adequately to error conditions.</li>\n</ul>\n<p>Google is committed to quickly and continually improving our technology and operations to prevent service disruptions. We appreciate your patience and apologize again for the impact to your organization. We thank you for your business.</p>\n<h2>Detailed Description of Impact</h2>\n<p><strong>Email Delivery Delays</strong>\nOn July 30, 2024 07:05 to 08:00 US/Pacific, some emails were delayed between 10-20 minutes.</p>\n<p><strong>Increased Error Rates</strong>\nOn July 30, 2024 07:46 to 10:10 US/Pacific, some users received potentially visible errors:</p>\n<ul>\n<li>An error message banner with a valid retry button for users to manually retry the next Gmail web server - “Oops… the system encountered a problem (#2014)”</li>\n</ul>\n</div><hr><p>Affected products: Gmail</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka",
           "publishedOn": "2024-08-02T16:18:37.000Z",
-          "wordCount": 1078,
-          "title": "RESOLVED: **Summary:**\nA subset of Gmail users might be experiencing delayed delivery of their emails.\n**Description:**\nWe are experiencing an intermittent issue with Gmail beginning on Tuesday, 2024-07-30 07:05 US/Pacific.\nThis mainly caused delayed email delivery and a small number of users receiving errors when sending/receiving emails.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Tuesday, 2024-07-30 11:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nSome customers might see a yellow banner with the \"Unable to reach Gmail---Trying to reconnect\" message.\n**Workaround:**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-07-30 14:05</strong> and ended at <strong>2024-07-30 17:10</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Cloud Support using <a href=\"https://cloud.google.com/support\">https://cloud.google.com/support</a>  or to Google Workspace Support using help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 30 July, 2023 07:05</p>\n<p><strong>Incident End:</strong> 30 July, 2023 10:10</p>\n<p><strong>Duration:</strong> 3 hours, 5 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Google Gmail</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>Gmail experienced an overload scenario leading to delayed email delivery as well as serving user visible errors &quot;Unable to reach Gmail---Trying to reconnect&quot;.</p>\n<p>From the preliminary analysis, our teams identified a potential root cause and blocked traffic contributing towards the overload.</p>\n<p><strong>Customer Impact:</strong></p>\n<ul>\n<li>Approximately 40M emails, sent by approximately 2.6M unique senders, were delayed by 10 minutes or more.</li>\n<li>At peak, 70k unique Gmail users received error messages. e.g. &quot;Unable to reach Gmail---Trying to reconnect&quot;</li>\n</ul>\n<p><strong>Additional details:</strong></p>\n<p>Our engineering team is making the required changes to prevent such issues.\nWe apologize to all who were affected by the disruption.</p>\n</div><hr><p>Affected products: Gmail</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka",
-          "publishedOn": "2024-08-02T03:54:41.000Z",
           "wordCount": 1078,
           "title": "RESOLVED: **Summary:**\nA subset of Gmail users might be experiencing delayed delivery of their emails.\n**Description:**\nWe are experiencing an intermittent issue with Gmail beginning on Tuesday, 2024-07-30 07:05 US/Pacific.\nThis mainly caused delayed email delivery and a small number of users receiving errors when sending/receiving emails.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Tuesday, 2024-07-30 11:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nSome customers might see a yellow banner with the \"Unable to reach Gmail---Trying to reconnect\" message.\n**Workaround:**\nNone at this time.",
           "imageUrl": null
