@@ -1,22 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-04T00:27:12.704Z</id>
+    <id>urn:2024-08-05T00:25:52.344Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-04T00:27:12.704Z</updated>
+    <updated>2024-08-05T00:25:52.344Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Outbound SMS Delivery Delays to  Movicel Network in Angola]]></title>
-        <id>https://status.twilio.com/incidents/zn74wtj8006x</id>
-        <link href="https://status.twilio.com/incidents/zn74wtj8006x"/>
-        <updated>2024-08-03T23:41:54.000Z</updated>
-        <summary type="html"><![CDATA[Aug  3, 16:41 PDT
-Resolved - The issue affecting Outbound SMS delivery delays when sending messages to Movicel network in Angola. has been resolved, and the service is functioning normally at this time.
-Aug  3, 16:28 PDT
-Update - We are experiencing Outbound SMS delivery delays when sending messages to Movicel network in Angola. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 30 minutes or as soon as more information becomes available.
-Aug  3, 15:41 PDT
-Monitoring - We are experiencing Outbound SMS delivery delays when sending messages to Movicel network in Angola. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 30 minutes or as soon as more information becomes available.
-A…]]></summary>
+        <title type="html"><![CDATA[SYD1 Network Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/w3mqd7fsn36m</id>
+        <link href="https://status.digitalocean.com/incidents/w3mqd7fsn36m"/>
+        <updated>2024-08-05T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 5, 12:00 - 14:00 UTC
+Aug  2, 12:08 UTC
+Scheduled - Start: 2024-08-05 12:00 UTC
+End: 2024-08-05 14:00 UTC 
+During the above window, we will be performing maintenance in our SYD1 region as part of network upgrades.
+Expected Impact:
+These upgrades are designed and tested to be seamless and we do not expect any visible impact to customer traffic due to this maintenance. Should an unexpected issue arise, a possible outcome would be a temporary loss of public traffic inbound and outbound connectivity for a short time for the impacted Droplets and Droplet-based services in the region. We will endeavor to keep any such impact to a minimum.
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - AT&T]]></title>
+        <id>https://status.twilio.com/incidents/3dysstrhnzrl</id>
+        <link href="https://status.twilio.com/incidents/3dysstrhnzrl"/>
+        <updated>2024-08-05T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 4, 20:00 PDT  -  Aug 5, 05:00 PDT
+Aug  2, 15:52 PDT
+Scheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 04 August 2024 at 20:00 PDT until 05 August 2024 at 05:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.
+
+Impacted Product: Verify Silent Network Auth]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US SMS and MMS Carrier Maintenance - T-Mobile]]></title>
+        <id>https://status.twilio.com/incidents/3gl0647vvz9p</id>
+        <link href="https://status.twilio.com/incidents/3gl0647vvz9p"/>
+        <updated>2024-08-05T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 4, 18:00 PDT  -  Aug 5, 04:00 PDT
+Aug  2, 15:49 PDT
+Scheduled - The T-Mobile network in the US is conducting a planned maintenance from 04 August 2024 at 18:00 PDT until 05 August 2024 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to T-Mobile US handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Ethio Telecom in Ethiopia]]></title>
+        <id>https://status.twilio.com/incidents/jg8nh129y60f</id>
+        <link href="https://status.twilio.com/incidents/jg8nh129y60f"/>
+        <updated>2024-08-04T23:47:57.000Z</updated>
+        <summary type="html"><![CDATA[Aug  4, 16:47 PDT
+Resolved - We are no longer experiencing MMS/SMS delivery delays when sending messages to Ethio Telecom in Ethiopia. This incident has been resolved.
+Aug  4, 15:03 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Ethio Telecom in Ethiopia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Aug  4, 13:16 PDT
+Update - We are continuing to experience SMS delivery delays when sending messages to Ethio Telecom in Ethiopia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Aug  4, 12:40 PDT
+Update - We are continuing to investigate this issue.
+Aug  4, 12:39 PDT
+Update - We are continuing to investigate this issue.
+Aug  4, 12:32 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to Ethio Telecom in Ethiopia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -1137,32 +1185,6 @@ Jul  8, 19:01 UTC
 Investigating - We are investigating reports of degraded performance for Issues and Pages]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Webhooks and Actions]]></title>
-        <id>https://www.githubstatus.com/incidents/5yx1d67vq9hg</id>
-        <link href="https://www.githubstatus.com/incidents/5yx1d67vq9hg"/>
-        <updated>2024-07-05T20:57:33.000Z</updated>
-        <summary type="html"><![CDATA[Jul  5, 20:57 UTC
-Resolved - On July 5, 2024, between 16:31 UTC and 18:08 UTC, the Webhooks service was degraded, with customer impact of delays to all webhook delivery. On average, delivery delays were 24 minutes, with a maximum of 71 minutes. This was caused by a configuration change to the Webhooks service, which led to unauthenticated requests sent to the background job cluster. The configuration error was repaired and re-deploying the service solved the issue. However, this created a thundering herd effect which overloaded the background job queue cluster which put its API layer at max capacity, resulting in timeouts for other job clients, which presented as increased latency for API calls.
-Shortly after resolving the authentication misconfiguration, we had a separate issue in the bac…]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IPv6 networking in BLR1]]></title>
-        <id>https://status.digitalocean.com/incidents/9hk7kps7s6fz</id>
-        <link href="https://status.digitalocean.com/incidents/9hk7kps7s6fz"/>
-        <updated>2024-07-05T16:43:06.000Z</updated>
-        <summary type="html"><![CDATA[Jul  5, 16:43 UTC
-Resolved - Our Engineering team identified and resolved an issue with IPv6 networking in the BLR1 region.
-From 12:15 UTC - 15:32 UTC, users may have experienced issues connecting to Droplets and Droplet-based services in the BLR1 region using IPv6 addresses.
-Our Engineering team quickly identified the root cause of the incident to be related to a recent maintenance in that region and implemented a fix.
-We apologize for the disruption. If you continue to experience any issues, please open a Support ticket from within your account.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
