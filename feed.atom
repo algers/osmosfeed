@@ -1,62 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-06T00:24:36.907Z</id>
+    <id>urn:2024-08-07T00:24:42.870Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-06T00:24:36.907Z</updated>
+    <updated>2024-08-07T00:24:42.870Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Latin America SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/cd7d83xqrghb</id>
-        <link href="https://status.twilio.com/incidents/cd7d83xqrghb"/>
-        <updated>2024-08-06T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 5, 23:00 PDT  -  Aug 6, 01:30 PDT
-Aug  2, 23:34 PDT
-Scheduled - Our SMS carrier partner in Latin America is conducting a planned maintenance from 05 August 2024 at 23:00 PDT until 06 August 2024 at 01:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Latin America handsets.]]></summary>
+        <title type="html"><![CDATA[US SMS and MMS Carrier Maintenance - T-Mobile]]></title>
+        <id>https://status.twilio.com/incidents/6ktjlhdlr51c</id>
+        <link href="https://status.twilio.com/incidents/6ktjlhdlr51c"/>
+        <updated>2024-08-07T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 6, 22:00 PDT  -  Aug 7, 04:00 PDT
+Aug  5, 09:24 PDT
+Scheduled - The T-Mobile network in the US is conducting an emergency maintenance from 06 August 2024 at 22:00 PDT until 07 August 2024 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile US handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Chile SMS Carrier Maintenance - Entel]]></title>
-        <id>https://status.twilio.com/incidents/3qbf7mt6zr2j</id>
-        <link href="https://status.twilio.com/incidents/3qbf7mt6zr2j"/>
-        <updated>2024-08-06T04:30:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 5, 21:30 PDT  -  Aug 6, 01:00 PDT
-Aug  5, 15:44 PDT
-Scheduled - The Entel network in Chile is conducting a planned maintenance from 05 August 2024 at 21:30 PDT until 06 August 2024 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Entel Chile handsets.]]></summary>
+        <title type="html"><![CDATA[TaskRouter Scheduled Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/rhj9v6w2w4xg</id>
+        <link href="https://status.twilio.com/incidents/rhj9v6w2w4xg"/>
+        <updated>2024-08-07T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 6, 21:00 - 22:30 PDT
+Jul 30, 03:00 PDT
+Update - The  maintenance activity is now being pushed out to the 6th Aug at 21:00 PST
+Maintenance Details: We will be performing a brief TaskRouter database update in the US1 region, specifically removing a non-essential component from our system. This update is expected to be completed in less than a second and should not affect your service.
+Monitoring: Our team will closely watch the system's performance during and after the update to ensure everything runs smoothly.
+Contingency Plan: In the unlikely event of any issues, we are prepared to revert the changes immediately. Should a rollback be necessary, there may be a  downtime of approximately 2 minutes
+
+Maintenance Details: We will be performing a brief TaskRouter da…]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Report Delays When Sending to Claro Network in Brazil]]></title>
-        <id>https://status.twilio.com/incidents/8g821mqvn923</id>
-        <link href="https://status.twilio.com/incidents/8g821mqvn923"/>
-        <updated>2024-08-06T00:00:45.000Z</updated>
-        <summary type="html"><![CDATA[Aug  5, 17:00 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Claro Network in Brazil. This incident has been resolved.
-Aug  5, 15:03 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to to Claro Network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Aug  5, 13:03 PDT
-Update - We are still experiencing delays in receiving message delivery reports when sending to Claro Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Aug  5, 12:03 PDT
-Investigating - We …]]></summary>
+        <title type="html"><![CDATA[Droplet Rebuild and Restore Event Processing]]></title>
+        <id>https://status.digitalocean.com/incidents/24714nw9b7jt</id>
+        <link href="https://status.digitalocean.com/incidents/24714nw9b7jt"/>
+        <updated>2024-08-06T20:40:19.000Z</updated>
+        <summary type="html"><![CDATA[Aug  6, 20:40 UTC
+Resolved - From 09:52 UTC to 19:32 UTC, customers may have experienced failures with Droplet rebuild and restore events in all regions. Our Engineering team has confirmed full resolution of this issue.
+Thank you for your patience. If you continue to experience any problems, please open a support ticket from within your account.
+Aug  6, 19:57 UTC
+Monitoring - Our Engineering team identified the root cause and performed a service rollback to resolve the issue that was causing failure in Droplet rebuild and restore events in all regions. We are actively monitoring the situation to ensure stability and will provide an update once the incident has been fully resolved.
+Thank you for your patience and we apologize for the inconvenience.
+Aug  6, 19:19 UTC
+Investigating - Our Engineering team is investigating an issue with processing of rebuild and restore events for Droplets, in all regions. During this time, users may experience long delays or errors when restoring or rebuilding a Droplet. 
+We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Receipt Delay to Claro Network Uruguay]]></title>
-        <id>https://status.twilio.com/incidents/1sc1xmk38yk0</id>
-        <link href="https://status.twilio.com/incidents/1sc1xmk38yk0"/>
-        <updated>2024-08-05T23:17:07.000Z</updated>
-        <summary type="html"><![CDATA[Aug  5, 16:17 PDT
-Update - We are still experiencing SMS delivery Receipt delays when sending messages to Claro Network Uruguay. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Aug  5, 15:17 PDT
-Investigating - We are experiencing SMS delivery Receipt delays when sending messages to Claro Network Uruguay. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <title type="html"><![CDATA[[Retroactive] Incident with Pull Requests]]></title>
+        <id>https://www.githubstatus.com/incidents/1kn4kywmvgz4</id>
+        <link href="https://www.githubstatus.com/incidents/1kn4kywmvgz4"/>
+        <updated>2024-08-06T18:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Aug  6, 18:30 UTC
+Resolved - Beginning at 6:52 PM UTC on August 8, 2024 and lasting until 6:59 PM UTC, some customers of github.com saw errors when navigating to a Pull Request. The error rate peaked at ~5% for logged in users. This was due to a change which was rolled back after alerts fired during the deployment.
+We did not status before we completed the rollback, and the incident is currently resolved. We are sorry for the delayed post on githubstatus.com.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -328,7 +333,9 @@ Jul 30, 22…]]></summary>
         <link href="https://www.githubstatus.com/incidents/h2mghb83nt00"/>
         <updated>2024-07-30T14:22:15.000Z</updated>
         <summary type="html"><![CDATA[Jul 30, 14:22 UTC
-Resolved - This incident has been resolved.
+Resolved - On July 30th, 2024, between 12:15 UTC and 14:22 UTC the Codespaces service was degraded in the UK South and West Europe regions. During this time, approximately 75% of attempts to create or resume Codespaces in these regions were failing.
+We mitigated the incident by resolving networking stability issues in these regions.
+We are working to improve network resiliency to reduce our time to detection and mitigation of issues like this one in the future.
 Jul 30, 14:16 UTC
 Update - We are starting to see recovery for this issue and are monitoring things closely. We will keep this incident open for now until we are fully confident on complete recovery.
 Jul 30, 14:09 UTC
@@ -532,7 +539,9 @@ We determined that a recent code change to the workflow buttons caused unexpecte
         <link href="https://www.githubstatus.com/incidents/q1yjht6mt3zn"/>
         <updated>2024-07-25T21:05:02.000Z</updated>
         <summary type="html"><![CDATA[Jul 25, 21:05 UTC
-Resolved - This incident has been resolved.
+Resolved - Between July 24th, 2024 at 15:17 UTC and July 25th, 2024 at 21:04 UTC, the external identities service was degraded and prevented customers from linking teams to external groups on the create/edit team page. Team creation and team edits would appear to function as normal, but the selected group would not be linked to the team after form submission. This was due to a bug in the Primer experimental SelectPanel component that was mistakenly rolled out to customers via a feature flag.
+We mitigated the incident by scaling the feature flag back down to 0% of actors.
+We are making improvements to our release process and test coverage to avoid similar incidents in the future.
 Jul 25, 21:04 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
