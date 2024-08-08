@@ -1,37 +1,296 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-07T00:24:42.870Z</id>
+    <id>urn:2024-08-08T00:24:44.076Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-07T00:24:42.870Z</updated>
+    <updated>2024-08-08T00:24:44.076Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[US SMS and MMS Carrier Maintenance - T-Mobile]]></title>
-        <id>https://status.twilio.com/incidents/6ktjlhdlr51c</id>
-        <link href="https://status.twilio.com/incidents/6ktjlhdlr51c"/>
-        <updated>2024-08-07T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 6, 22:00 PDT  -  Aug 7, 04:00 PDT
-Aug  5, 09:24 PDT
-Scheduled - The T-Mobile network in the US is conducting an emergency maintenance from 06 August 2024 at 22:00 PDT until 07 August 2024 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile US handsets.]]></summary>
+        <title type="html"><![CDATA[SYD1 Network Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/b1wvddft74xr</id>
+        <link href="https://status.digitalocean.com/incidents/b1wvddft74xr"/>
+        <updated>2024-08-08T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 8, 12:00 - 14:00 UTC
+Aug  5, 15:48 UTC
+Scheduled - Hello,
+We are reaching out again to inform you that the SYD1 Network Maintenance which was previously scheduled to start today (2024-08-05) at 12:00 UTC has been rescheduled to the following window:
+Start: 2024-08-08 12:00 UTC
+End: 2024-08-08 14:00 UTC
+We apologize for any inconvenience this short notice may have caused and thank you for your understanding. You may find the initial maintenance notice along with a description of any expected impact related to this work included at the bottom of this message.
+If you have questions or concerns about this maintenance, please reach out to us by opening up a ticket on your account.
+Thank you,
+
+---BEGIN INITIAL MAINTENANCE NOTICE---
+
+SYD1 Network Maintenance 2024-08-05 12:00 UTC
+Start: 2024-08-05 12:00 UTC
+End: 2024-08-05 14:00 UTC 
+Hello, 
+During the above window, we will be performing maintenance in our SYD1 region as part of network upgrades.
+Expected Impact:
+These upgrades are designed and tested to be seamless and we do not expect any visible impact to customer traffic due to this maintenance. Should an unexpected issue arise, a possible outcome would be a temporary loss of public traffic inbound and outbound connectivity for a short time for the impacted Droplets and Droplet-based services in the region. We will endeavor to keep any such impact to a minimum.
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket
+Thank you,
+Team DigitalOcean]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Canada Account Security Service Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/t4bhhtm5r781</id>
+        <link href="https://status.twilio.com/incidents/t4bhhtm5r781"/>
+        <updated>2024-08-08T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 7, 23:00 PDT  -  Aug 8, 03:00 PDT
+Jul 23, 22:40 PDT
+Scheduled - Our service partner is conducting a planned maintenance from 07 August 2024 at 23:00 PDT until 08 August 2024 at 03:00 PDT. During the maintenance window, there could be intermittent API request failures for the following carriers and country: Rogers Canada, Telus Canada, Bell Canada.
+
+Impacted Products: Verify Silent Network Auth, Lookup Identity Match, Lookup SIM Swap, Legacy Identity MatchAndAttributes, Lookup Line Type Intelligence [Twilio API].]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[TaskRouter Scheduled Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/rhj9v6w2w4xg</id>
-        <link href="https://status.twilio.com/incidents/rhj9v6w2w4xg"/>
-        <updated>2024-08-07T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 6, 21:00 - 22:30 PDT
-Jul 30, 03:00 PDT
-Update - The  maintenance activity is now being pushed out to the 6th Aug at 21:00 PST
-Maintenance Details: We will be performing a brief TaskRouter database update in the US1 region, specifically removing a non-essential component from our system. This update is expected to be completed in less than a second and should not affect your service.
-Monitoring: Our team will closely watch the system's performance during and after the update to ensure everything runs smoothly.
-Contingency Plan: In the unlikely event of any issues, we are prepared to revert the changes immediately. Should a rollback be necessary, there may be a  downtime of approximately 2 minutes
-
-Maintenance Details: We will be performing a brief TaskRouter da…]]></summary>
+        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - MTS]]></title>
+        <id>https://status.twilio.com/incidents/vl5rh9xpwydd</id>
+        <link href="https://status.twilio.com/incidents/vl5rh9xpwydd"/>
+        <updated>2024-08-08T04:30:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 7, 21:30 - 23:00 PDT
+Aug  6, 14:45 PDT
+Scheduled - The MTS network in Russia is conducting an emergency maintenance from 07 August 2024 at 21:30 PDT until 07 August 2024 at 23:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to MTS Russia handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US and Canada SMS and MMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/c9phdzw074s6</id>
+        <link href="https://status.twilio.com/incidents/c9phdzw074s6"/>
+        <updated>2024-08-08T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 7, 20:00 PDT  -  Aug 8, 00:00 PDT
+Aug  2, 14:04 PDT
+Scheduled - Our SMS and MMS carrier partner in US and Canada is conducting a planned maintenance from 07 August 2024 at 20:00 PDT until 08 August 2024 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Etisalat Network in Egypt]]></title>
+        <id>https://status.twilio.com/incidents/c109lx7hbzxs</id>
+        <link href="https://status.twilio.com/incidents/c109lx7hbzxs"/>
+        <updated>2024-08-08T00:14:23.000Z</updated>
+        <summary type="html"><![CDATA[Aug  7, 17:14 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Etisalat Network in Egypt. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Aug  7, 16:14 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to Etisalat Network in Egypt. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Africa SMS Carrier Maintenance - MTN]]></title>
+        <id>https://status.twilio.com/incidents/13c1nd89bmx9</id>
+        <link href="https://status.twilio.com/incidents/13c1nd89bmx9"/>
+        <updated>2024-08-08T00:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Aug  7, 17:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Aug  7, 15:35 PDT
+Scheduled - The MTN network in Africa is conducting a planned maintenance from 07 August 2024 at 17:00 PDT until 07 August 2024 at 19:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from MTN Africa handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Users on MacOS 10.15.7 are unable to access Slack desktop app]]></title>
+        <id>https://slack-status.com/2024-08/7a63e615a945c97a</id>
+        <link href="https://slack-status.com/2024-08/7a63e615a945c97a"/>
+        <updated>2024-08-07T23:00:27.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+On August 7, 2024, from around 6:00 AM PDT until 8:00 AM PDT, a small number of users on MacOS version 10.15.7 encountered a deprecation message blocking the ability to use Slack despite having a supported app version.
+
+We discovered a recent update unexpectedly marked older macOS versions as deprecated. We reverted the change and resolved the issue for affected users.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twilio Docs Returning Error 400]]></title>
+        <id>https://status.twilio.com/incidents/9srsslswmdv4</id>
+        <link href="https://status.twilio.com/incidents/9srsslswmdv4"/>
+        <updated>2024-08-07T20:27:32.000Z</updated>
+        <summary type="html"><![CDATA[Aug  7, 13:27 PDT
+Resolved - The issue has been resolved and Twilio Docs are now operating normally at this time.
+Aug  7, 13:07 PDT
+Monitoring - Twilio Docs are now operating normally. The issue was due to a third party provider. We will continue to monitor system stability. We’ll provide another update in 2 hours or as soon as more information becomes available.
+Aug  7, 12:37 PDT
+Update - We are investigating a service interruption with Twilio Docs. We expect to provide another update in 30 minutes or as soon as more information becomes available.
+Aug  7, 12:25 PDT
+Investigating - We've become aware of a potential issue with Twilio Docs. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intermitten Page Load Failures]]></title>
+        <id>https://status.notion.so/incidents/52wwrvr3n68q</id>
+        <link href="https://status.notion.so/incidents/52wwrvr3n68q"/>
+        <updated>2024-08-07T19:46:05.000Z</updated>
+        <summary type="html"><![CDATA[Aug  7, 12:46 PDT
+Resolved - This incident has been resolved.
+Aug  7, 12:12 PDT
+Update - The issue has been resolved.
+Aug  7, 12:05 PDT
+Investigating - We have detected an issue that may be causing pages to not load for some users. We are working on a fix now.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: ### **Summary:**
+ChromeOS sign in issues affecting multiple customers throughout the globe
+### **Description:**
+We are experiencing an issue with ChromeOS.
+Our engineering team continues to investigate the issue.
+We will provide an update by Tuesday, 2024-08-06 23:30 US/Pacific with current details.
+### **Diagnosis:**
+During the full sign in process ChromeOS devices complete the sign in process (even Multi Factor Authentication (MFA) if applicable) but are eventually brought back to the login page.
+The issue is affecting multiple ChromeOS versions
+### **Workaround:**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/sowQNioouYdVq6hNkZti</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/sowQNioouYdVq6hNkZti"/>
+        <updated>2024-08-07T17:46:01.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-06 15:00</strong> and ended at <strong>2024-08-07 10:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Mini Incident Report</h1>
+<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced an impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
+<p>(All Times US/Pacific)</p>
+<p><strong>Incident Start:</strong> 2024-08-06 08:00</p>
+<p><strong>Incident End:</strong> 2024-08-07 03:29</p>
+<p><strong>Duration:</strong> 19 hours 29 minutes</p>
+<p><strong>Affected Services and Features:</strong></p>
+<p>Chrome OS</p>
+<p><strong>Regions/Zones:</strong> Global</p>
+<p><strong>Description:</strong></p>
+<p>Chrome OS devices experienced issues with login due to a recent change to a backend identity service, causing incorrect parsing of account details. Google will complete a full IR in the following days that will provide a full root cause.</p>
+<p><strong>Customer Impact:</strong></p>
+<ul>
+<li>During the full sign in process ChromeOS devices completed the sign in (even Multi Factor Authentication (MFA) if it was applicable) but were eventually being brought back to the login page</li>
+</ul>
+</div><hr><p>Affected products: ChromeOS</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: ### **Summary:**
+ChromeOS sign in issues affecting multiple customers throughout the globe
+### **Description:**
+We are experiencing an issue with ChromeOS.
+Our engineering team continues to investigate the issue.
+We will provide an update by Tuesday, 2024-08-06 23:30 US/Pacific with current details.
+### **Diagnosis:**
+During the full sign in process ChromeOS devices complete the sign in process (even Multi Factor Authentication (MFA) if applicable) but are eventually brought back to the login page.
+The issue is affecting multiple ChromeOS versions
+### **Workaround:**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/sowQNioouYdVq6hNkZti</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/sowQNioouYdVq6hNkZti"/>
+        <updated>2024-08-07T10:44:39.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-06 15:00</strong> and ended at <strong>2024-08-07 10:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><span>  The problem with ChromeOS has been resolved. We apologize for the inconvenience and thank you for your patience and continued support.  </span></div><hr><p>Affected products: ChromeOS</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UPDATE: ### **Summary:**
+ChromeOS sign in issues affecting multiple customers throughout the globe
+### **Description:**
+We are experiencing an issue with ChromeOS.
+Our engineering team continues to investigate the issue.
+We will provide an update by Tuesday, 2024-08-06 23:30 US/Pacific with current details.
+### **Diagnosis:**
+During the full sign in process ChromeOS devices complete the sign in process (even Multi Factor Authentication (MFA) if applicable) but are eventually brought back to the login page.
+The issue is affecting multiple ChromeOS versions
+### **Workaround:**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/sowQNioouYdVq6hNkZti</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/sowQNioouYdVq6hNkZti"/>
+        <updated>2024-08-07T09:37:48.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-06 15:00</strong> and ended at <strong>2024-08-07 10:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h3><strong>Summary:</strong></h3>
+<p>ChromeOS sign in issues affecting multiple customers throughout the globe</p>
+<h3><strong>Description:</strong></h3>
+<p>We are experiencing an issue with ChromeOS.</p>
+<p>Our engineering team continues to investigate the issue.</p>
+<p>We will provide an update by Wednesday, 2024-08-07 06:00 US/Pacific with current details.</p>
+<h3><strong>Diagnosis:</strong></h3>
+<p>During the full sign in process ChromeOS devices complete the sign in process (even Multi Factor Authentication (MFA) if applicable) but are eventually brought back to the login page.</p>
+<p>The issue is affecting  ChromeOS versions 120 to 128 (potentially more  versions).</p>
+<h3><strong>Workaround:</strong></h3>
+<p>None at this time.</p>
+</div><hr><p>Affected products: ChromeOS</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UPDATE: ### **Summary:**
+ChromeOS sign in issues affecting multiple customers throughout the globe
+### **Description:**
+We are experiencing an issue with ChromeOS.
+Our engineering team continues to investigate the issue.
+We will provide an update by Tuesday, 2024-08-06 23:30 US/Pacific with current details.
+### **Diagnosis:**
+During the full sign in process ChromeOS devices complete the sign in process (even Multi Factor Authentication (MFA) if applicable) but are eventually brought back to the login page.
+The issue is affecting multiple ChromeOS versions
+### **Workaround:**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/sowQNioouYdVq6hNkZti</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/sowQNioouYdVq6hNkZti"/>
+        <updated>2024-08-07T06:04:26.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-06 15:00</strong> and ended at <strong>2024-08-07 10:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h3><strong>Summary:</strong></h3>
+<p>ChromeOS sign in issues affecting multiple customers throughout the globe</p>
+<h3><strong>Description:</strong></h3>
+<p>We are experiencing an issue with ChromeOS.</p>
+<p>Our engineering team continues to investigate the issue.</p>
+<p>We will provide an update by Wednesday, 2024-08-07 01:30 US/Pacific with current details.</p>
+<h3><strong>Diagnosis:</strong></h3>
+<p>During the full sign in process ChromeOS devices complete the sign in process (even Multi Factor Authentication (MFA) if applicable) but are eventually brought back to the login page.</p>
+<p>The issue is affecting multiple ChromeOS versions</p>
+<h3><strong>Workaround:</strong></h3>
+<p>None at this time.</p>
+</div><hr><p>Affected products: ChromeOS</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UPDATE: ### **Summary:**
+ChromeOS sign in issues affecting multiple customers throughout the globe
+### **Description:**
+We are experiencing an issue with ChromeOS.
+Our engineering team continues to investigate the issue.
+We will provide an update by Tuesday, 2024-08-06 23:30 US/Pacific with current details.
+### **Diagnosis:**
+During the full sign in process ChromeOS devices complete the sign in process (even Multi Factor Authentication (MFA) if applicable) but are eventually brought back to the login page.
+The issue is affecting multiple ChromeOS versions
+### **Workaround:**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/sowQNioouYdVq6hNkZti</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/sowQNioouYdVq6hNkZti"/>
+        <updated>2024-08-07T05:06:42.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-06 15:00</strong> and ended at <strong>2024-08-07 10:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h3><strong>Summary:</strong></h3>
+<p>ChromeOS sign in issues affecting multiple customers throughout the globe</p>
+<h3><strong>Description:</strong></h3>
+<p>We are experiencing an issue with ChromeOS.</p>
+<p>Our engineering team continues to investigate the issue.</p>
+<p>We will provide an update by Tuesday, 2024-08-06 23:30 US/Pacific with current details.</p>
+<h3><strong>Diagnosis:</strong></h3>
+<p>During the full sign in process ChromeOS devices complete the sign in process (even Multi Factor Authentication (MFA) if applicable) but are eventually brought back to the login page.</p>
+<p>The issue is affecting multiple ChromeOS versions</p>
+<h3><strong>Workaround:</strong></h3>
+<p>None at this time.</p>
+</div><hr><p>Affected products: ChromeOS</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
@@ -58,7 +317,7 @@ We apologize for the inconvenience and will share an update once we have more in
         <link href="https://www.githubstatus.com/incidents/1kn4kywmvgz4"/>
         <updated>2024-08-06T18:30:00.000Z</updated>
         <summary type="html"><![CDATA[Aug  6, 18:30 UTC
-Resolved - Beginning at 6:52 PM UTC on August 8, 2024 and lasting until 6:59 PM UTC, some customers of github.com saw errors when navigating to a Pull Request. The error rate peaked at ~5% for logged in users. This was due to a change which was rolled back after alerts fired during the deployment.
+Resolved - Beginning at 6:52 PM UTC on August 6, 2024 and lasting until 6:59 PM UTC, some customers of github.com saw errors when navigating to a Pull Request. The error rate peaked at ~5% for logged in users. This was due to a change which was rolled back after alerts fired during the deployment.
 We did not status before we completed the rollback, and the incident is currently resolved. We are sorry for the delayed post on githubstatus.com.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
@@ -144,56 +403,6 @@ We don’t expect to see any impact to customer resources as the electrical syst
 If you have any questions or concerns related to this maintenance, please send us a ticket from your cloud support page https://cloudsupport.digitalocean.com/s/createticket]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: **Summary:**
-A subset of Gmail users might be experiencing delayed delivery of their emails.
-**Description:**
-We are experiencing an intermittent issue with Gmail beginning on Tuesday, 2024-07-30 07:05 US/Pacific.
-This mainly caused delayed email delivery and a small number of users receiving errors when sending/receiving emails.
-Our engineering team continues to investigate the issue.
-We will provide an update by Tuesday, 2024-07-30 11:00 US/Pacific with current details.
-We apologize to all who are affected by the disruption.
-**Diagnosis:**
-Some customers might see a yellow banner with the "Unable to reach Gmail---Trying to reconnect" message.
-**Workaround:**
-None at this time.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/4XQNFXAa34SoEbbetAka"/>
-        <updated>2024-08-02T16:18:37.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-07-30 14:05</strong> and ended at <strong>2024-07-30 17:10</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Incident Report</h1>
-<h2>Summary</h2>
-<p>On Tuesday, 30 July 2024, Gmail experienced increased error rates and delivery delays for a duration of 3 hours and 5 minutes.</p>
-<p>To our Gmail users who were impacted by these issues, we sincerely apologize. This is not the level of quality and reliability we strive to offer you, and we are taking immediate steps to improve the platform’s performance and availability.</p>
-<h2>Root Cause</h2>
-<p>Google engineers have determined that the increased error rates and delivery delays were due to unrelated root causes.</p>
-<p><strong>Email Delivery Delays</strong></p>
-<p>On Tuesday, 30 July 2024, at 07:05 US/Pacific, a series of fiberlines which carry Gmail in-flight traffic were unintentionally disabled between Google&#39;s US and European data centers as part of routine maintenance.</p>
-<p><strong>Increased Error Rates</strong></p>
-<p>On Tuesday, 30 July 2024, at 08:00 US/Pacific, a non-critical process responsible for batch data  processing started generating an increased volume of traffic which overloaded Gmail’s back-end system.</p>
-<h2>Remediation and Prevention</h2>
-<p><strong>Email Delivery Delays</strong></p>
-<p>Google engineers were alerted of the incident through automated alert systems on Tuesday, 30 July 2024 at 07:14 US/Pacific and immediately began an investigation. By 07:34 US/Pacific, engineers performed a change to mitigate congestion/throttling which rerouted traffic to available servers for processing.</p>
-<p><strong>Increased Error Rates</strong></p>
-<p>Google engineers were alerted of the incident through automated alert systems on Tuesday, 30 July 2024  at 08:00 US/Pacific and immediately began an investigation. The issue self-resolved on Tuesday, 30 July 2024  at 10:10 US/Pacific, and errors were trending down to the baseline. The engineers identified and made the necessary changes to avoid a repeat of the issue at 10:30 US/Pacific.</p>
-<p>Google is committed to preventing a repeat of this issue in the future and is completing the following actions:</p>
-<ul>
-<li>Audit and test our traffic priority labels and storage system behavior to ensure that background traffic cannot overload the system.</li>
-<li>Audit/test error propagation to make sure the routing layer responds adequately to error conditions.</li>
-</ul>
-<p>Google is committed to quickly and continually improving our technology and operations to prevent service disruptions. We appreciate your patience and apologize again for the impact to your organization. We thank you for your business.</p>
-<h2>Detailed Description of Impact</h2>
-<p><strong>Email Delivery Delays</strong>
-On July 30, 2024 07:05 to 08:00 US/Pacific, some emails were delayed between 10-20 minutes.</p>
-<p><strong>Increased Error Rates</strong>
-On July 30, 2024 07:46 to 10:10 US/Pacific, some users received potentially visible errors:</p>
-<ul>
-<li>An error message banner with a valid retry button for users to manually retry the next Gmail web server - “Oops… the system encountered a problem (#2014)”</li>
-</ul>
-</div><hr><p>Affected products: Gmail</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
@@ -287,7 +496,9 @@ Investigating - We are currently investigating this issue.]]></summary>
         <link href="https://www.githubstatus.com/incidents/s4bvfmfm297p"/>
         <updated>2024-07-31T03:37:48.000Z</updated>
         <summary type="html"><![CDATA[Jul 31, 03:37 UTC
-Resolved - This incident has been resolved.
+Resolved - On July 31st, 2024, between 00:31 UTC and 03:37 UTC the Codespaces service was degraded and connecting through non-web flows such as VS Code or the GitHub CLI were unavailable. Using Codespaces via the web portal was not impacted. This was due to a code change resulting in authentication failures from the Codespaces public API.
+We mitigated the incident by reverting the change upon discovering the cause of the issue.
+We are working to improve testing, monitoring, and rollout of new features to reduce our time to detection and mitigation of issues like this one in the future.
 Jul 31, 02:55 UTC
 Update - The team is currently investigating a fix for issues with Codespaces. Impact continues to be limited to non-web clients. Customers receiving errors on desktop clients are encouraged to use the web client as a temporary workaround.
 Jul 31, 01:49 UTC
@@ -629,7 +840,10 @@ We discovered that a server responsible for handling message delivery paths was 
         <link href="https://www.githubstatus.com/incidents/4s161kygs873"/>
         <updated>2024-07-23T22:38:34.000Z</updated>
         <summary type="html"><![CDATA[Jul 23, 22:38 UTC
-Resolved - This incident has been resolved.
+Resolved - On July 23, 2024, between 21:40 UTC and 22:00 UTC, Copilot Chat experienced errors and service degradation. During this time, the global error rate peaked at 20% of Chat requests.
+This was due to a faulty deployment in a service provider that caused server errors from a single region. Traffic was routed away from this region at 22:00 UTC which restored functionality while the upstream service provider rolled back their change. The rollback was completed at 22:38 UTC.
+We are working to improve our ability to respond more quickly to similar issues through faster regional redirection and working with our upstream provider on improved monitoring.
+
 Jul 23, 22:25 UTC
 Update - We have mitigated the issue with Copilot Chat returning failures in some regions. Functionality has recovered for all Copilot Chat users.
 
@@ -902,7 +1116,10 @@ We apologize for the disruption and will post an update once the fix has finishe
         <link href="https://www.githubstatus.com/incidents/lzyq3tjy07yq"/>
         <updated>2024-07-17T18:13:11.000Z</updated>
         <summary type="html"><![CDATA[Jul 17, 18:13 UTC
-Resolved - This incident has been resolved.
+Resolved - On July 17th, 2024 between 17:56 and 18:13 UTC the Codespaces service was degraded and 5% of codespaces were failing to start after creation. After analyzing the failing codespaces, we realized that all of them had reached the 1 hour timeout allocated for starting. Further, we realized that the root cause of the timeouts was the larger incident earlier in the day due to updating github’s network hardware.
+We realized this incident was already mitigated by the mitigation of the earlier incident.
+We are working to see if we can improve our incident response process to better understand the connection between incidents in the future and avoid unnecessary incident noise for customers.
+
 Jul 17, 17:56 UTC
 Investigating - We are investigating reports of degraded performance for Codespaces]]></summary>
         <author>
@@ -1214,41 +1431,6 @@ Enable it today and start reaping the benefits!
 Your Smily team]]></summary>
         <author>
             <name>Basile, Product Manager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Issues and Pages]]></title>
-        <id>https://www.githubstatus.com/incidents/qqw9rrs21xmn</id>
-        <link href="https://www.githubstatus.com/incidents/qqw9rrs21xmn"/>
-        <updated>2024-07-08T19:45:19.000Z</updated>
-        <summary type="html"><![CDATA[Jul  8, 19:45 UTC
-Resolved - On July 8th, 2024, between 18:18 UTC and 19:11 UTC, various services relying on static assets were degraded, including user uploaded content on github.com, access to docs.github.com and Pages sites, and downloads of Release assets and Packages. 
-The outage primarily affected users in the vicinity of New York City, USA, due to a local CDN disruption. 
-Service was restored without our intervention.
-We are working to improve our external monitoring, which failed to detect the issue and will be evaluating a backup mechanism to keep critical services available, such as being able to load assets on GitHub.com, in the event of an outage with our CDN.
-
-Jul  8, 19:44 UTC
-Update - Issues and Pages are operating normally.
-Jul  8, 19:44 UTC
-Update - Issues and Pages are experiencing degraded performance. We are continuing to investigate.
-Jul  8, 19:44 UTC
-Update - Issues is operating normally.
-Jul  8, 19:44 UTC
-Update - Issues is experiencing degraded performance. We are continuing to investigate.
-Jul  8, 19:44 UTC
-Update - Pages and Issues are operating normally.
-Jul  8, 19:44 UTC
-Update - Our assets are serving normally again and all impact is resolved.
-Jul  8, 19:16 UTC
-Update - We are beginning to see recovery of our assets and are monitoring for additional impact.
-Jul  8, 19:12 UTC
-Update - githubstatus.com may not be available or may be degraded for some users in some regions.
-Jul  8, 19:02 UTC
-Update - We are investigating issues with loading assets, including JavaScript assets, on various parts of the site for some users.
-Jul  8, 19:01 UTC
-Investigating - We are investigating reports of degraded performance for Issues and Pages]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
