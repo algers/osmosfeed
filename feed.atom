@@ -1,60 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-13T00:25:39.881Z</id>
+    <id>urn:2024-08-14T00:24:53.841Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-13T00:25:39.881Z</updated>
+    <updated>2024-08-14T00:24:53.841Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[US SMS Carrier Maintenance - AT&T]]></title>
-        <id>https://status.twilio.com/incidents/gw0jwkxlhfcx</id>
-        <link href="https://status.twilio.com/incidents/gw0jwkxlhfcx"/>
-        <updated>2024-08-13T06:30:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 12, 23:30 PDT  -  Aug 13, 02:00 PDT
-Aug  5, 04:38 PDT
-Scheduled - The AT&T network in the US is conducting a planned maintenance from 12 August 2024 at 23:30 PDT until 13 August 2024 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T US handsets.]]></summary>
+        <title type="html"><![CDATA[TOR1 Power Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/700mr7xhcwyv</id>
+        <link href="https://status.digitalocean.com/incidents/700mr7xhcwyv"/>
+        <updated>2024-08-14T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 14, 02:00 UTC  -  Aug 16, 22:00 UTC
+Aug 13, 18:31 UTC
+Scheduled - Maintenance Dates: August 14th,15th and 16th
+Maintenance Window: 02:00 - 10:00 (UTC)
+During the maintenance window on the above dates, our on-site team will be performing ongoing maintenance on redundant power systems in our TOR1 region. The maintenance will be performed during the same time window (02:00 - 10:00 UTC) across 3 days: August 14th,15th and 16th. 
+Expected Impact:  
+We don’t expect to see any impact to customer resources as the electrical systems are redundant and our team will isolate one unit at a time during the maintenance. In the highly unlikely event that we lose power to both systems simultaneously, affected Droplets and Droplet-based services would experience downtime for a brief period of time. We will endeavor to keep this to a minimum should that situation arise.
+If you have any questions or concerns related to this maintenance, please send us a ticket from your cloud support page https://cloudsupport.digitalocean.com/s/createticket.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Multiple Networks in the US for a Subset of Short Codes]]></title>
+        <id>https://status.twilio.com/incidents/khq17l1dv412</id>
+        <link href="https://status.twilio.com/incidents/khq17l1dv412"/>
+        <updated>2024-08-13T23:32:43.000Z</updated>
+        <summary type="html"><![CDATA[Aug 13, 16:32 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to multiple networks in the US for a subset of short codes. This incident has been resolved.
+Aug 13, 14:32 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to multiple networks in the US for a subset of short codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Aug 13, 13:02 PDT
+Update - We continue experiencing SMS delivery delays when sending messages to multiple networks in the US for a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Aug 13, 12:02 PDT
+Update - We are experiencing SMS delivery delays when sending messages to multiple networks in the US for a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+Aug 13, 11:58 PDT
+Investigating - Our monitoring systems have detected a potential issue with SMS delivery delays to multiple networks in the US for a subset of short codes. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mexico SMS Carrier Maintenance - AT&T]]></title>
-        <id>https://status.twilio.com/incidents/hgfzl90rgj9b</id>
-        <link href="https://status.twilio.com/incidents/hgfzl90rgj9b"/>
-        <updated>2024-08-13T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 12, 22:00 PDT  -  Aug 13, 05:00 PDT
-Aug  9, 13:40 PDT
-Scheduled - The AT&T network in Mexico is conducting a planned maintenance from 12 August 2024 at 22:00 PDT until 13 August 2024 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.]]></summary>
+        <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
+        <id>https://www.githubstatus.com/incidents/2qxyr481ywxf</id>
+        <link href="https://www.githubstatus.com/incidents/2qxyr481ywxf"/>
+        <updated>2024-08-13T13:23:55.000Z</updated>
+        <summary type="html"><![CDATA[Aug 13, 13:23 UTC
+Resolved - This incident has been resolved.
+Aug 13, 13:16 UTC
+Update - Pull Requests is experiencing degraded performance. We are continuing to investigate.
+Aug 13, 13:11 UTC
+Investigating - We are currently investigating this issue.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[TaskRouter Scheduled Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/hd4f8b9smk66</id>
-        <link href="https://status.twilio.com/incidents/hd4f8b9smk66"/>
-        <updated>2024-08-13T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 12, 21:00 - 22:30 PDT
-Aug  6, 02:40 PDT
-Scheduled - Maintenance Details: We will be performing a brief TaskRouter database update in the US1 region, specifically removing a non-essential component from our system. This update is expected to be completed in less than a second and should not affect your service.
-Monitoring: Our team will closely watch the system’s performance during and after the update to ensure everything runs smoothly.
-Contingency Plan: In the unlikely event of any issues, we are prepared to revert the changes immediately. Should a rollback be necessary, there may be a downtime of approximately 2 minutes.]]></summary>
+        <title type="html"><![CDATA[Elevated Failure Rate for Droplet Creates]]></title>
+        <id>https://status.digitalocean.com/incidents/dl057g40dnyx</id>
+        <link href="https://status.digitalocean.com/incidents/dl057g40dnyx"/>
+        <updated>2024-08-13T03:10:14.000Z</updated>
+        <summary type="html"><![CDATA[Aug 13, 03:10 UTC
+Resolved - From 23:08 August 12 to 01:26 August 13 UTC, customers may have experienced failures with Droplet creation, power on events, and restore events in the NYC3 region. 
+Our Engineering team has confirmed resolution of this issue. Thank you for your patience. 
+If you continue to experience any problems, please open a support ticket from within your account.
+Aug 13, 02:25 UTC
+Monitoring - Our Engineering team has implemented mitigations to stop the Droplet creation failures in the NYC3 region. The team is monitoring the situation to ensure that everything is fully resolved. We apologize for the inconvenience and will share an update if there are any new developments.
+Aug 13, 01:49 UTC
+Update - Multiple Engineering teams are continuing to investigate errors with creating Droplets, other Droplet-based products, and events such as power/restore in the NYC3 region.
+Users should no longer encounter errors when performing these operations, as mitigations are now in place, and teams have observed error rates returning to normal. 
+We apologize for the inconvenience and will share another update once we have more information.
+Aug 13, 01:01 UTC
+Update - Our Engineering team is continuing to investigate issues with creating Droplets and other Droplet-based products in the NYC3 region. At this time, customers may also encounter errors when powering on some existing Droplets, creating new Droplets, or restoring a backup or snapshot.
+We apologize for the inconvenience and will share an update once we have more information.
+Aug 13, 00:27 UTC
+Investigating - Our Engineering team is investigating an issue with Droplet creation in NYC3. During this time, users will see an elevated failure rate for the creation of Droplets and other Droplet-based products, such as Load Balancers, Managed Databases, or Kubernetes, in NYC3.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Canada Account Security Service Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/g94vdvdmr1s0</id>
-        <link href="https://status.twilio.com/incidents/g94vdvdmr1s0"/>
-        <updated>2024-08-13T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 12, 21:00 PDT  -  Aug 13, 03:00 PDT
-Jul 29, 23:13 PDT
-Scheduled - Our service partner is conducting a planned maintenance from 12 August 2024 at 21:00 PDT until 13 August 2024 at 03:00 PDT. During the maintenance window, there could be intermittent API request failures for the following carrier and country:. Telus Canada 
-
-Impacted Products: Verify Silent Network Auth, Lookup Identity Match, Lookup SIM Swap, Legacy Identity MatchAndAttributes, Lookup Line Type Intelligence [Twilio API]]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
+            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -89,328 +112,6 @@ None at this time.]]></title>
         <updated>2024-08-12T19:33:02.000Z</updated>
         <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>A mini incident report has been posted to
 <a href="https://status.cloud.google.com/incidents/ETJGhvY9Xaktw7tgi8dF">https://status.cloud.google.com/incidents/ETJGhvY9Xaktw7tgi8dF</a></p>
-</div><hr><p>Affected products: Google Docs</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: **SUMMARY**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region
-**DESCRIPTION**
-We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.
-**DIAGNOSIS**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.
-**WORKAROUND**
-None at this time.
-Please refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/FK2vgw8XkKt77kspGxjo</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/FK2vgw8XkKt77kspGxjo"/>
-        <updated>2024-08-12T19:32:34.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>A mini incident report has been posted to
-<a href="https://status.cloud.google.com/incidents/ETJGhvY9Xaktw7tgi8dF">https://status.cloud.google.com/incidents/ETJGhvY9Xaktw7tgi8dF</a></p>
-</div><hr><p>Affected products: Gmail</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: **SUMMARY**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region
-**DESCRIPTION**
-We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.
-**DIAGNOSIS**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.
-**WORKAROUND**
-None at this time.
-Please refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/Tf4iYUqvRiCtpqyoRPm9</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/Tf4iYUqvRiCtpqyoRPm9"/>
-        <updated>2024-08-12T19:31:46.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>A mini incident report has been posted to
-<a href="https://status.cloud.google.com/incidents/ETJGhvY9Xaktw7tgi8dF">https://status.cloud.google.com/incidents/ETJGhvY9Xaktw7tgi8dF</a></p>
-</div><hr><p>Affected products: Google Drive</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: **SUMMARY**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region
-**DESCRIPTION**
-We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.
-**DIAGNOSIS**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.
-**WORKAROUND**
-None at this time.
-Please refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/afFHu9w8zAYWoVbpkRMT</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/afFHu9w8zAYWoVbpkRMT"/>
-        <updated>2024-08-12T19:31:16.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>A mini incident report has been posted to
-<a href="https://status.cloud.google.com/incidents/ETJGhvY9Xaktw7tgi8dF">https://status.cloud.google.com/incidents/ETJGhvY9Xaktw7tgi8dF</a></p>
-</div><hr><p>Affected products: Google Tasks</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: **SUMMARY**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region
-**DESCRIPTION**
-We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.
-**DIAGNOSIS**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.
-**WORKAROUND**
-None at this time.
-Please refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/r6q8Wfdmf8PPJtdjQ8uH</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/r6q8Wfdmf8PPJtdjQ8uH"/>
-        <updated>2024-08-12T19:29:59.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>A mini incident report has been posted to
-<a href="https://status.cloud.google.com/incidents/ETJGhvY9Xaktw7tgi8dF">https://status.cloud.google.com/incidents/ETJGhvY9Xaktw7tgi8dF</a></p>
-</div><hr><p>Affected products: Google Calendar</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: **SUMMARY**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region
-**DESCRIPTION**
-We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.
-**DIAGNOSIS**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.
-**WORKAROUND**
-None at this time.
-Please refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/r6q8Wfdmf8PPJtdjQ8uH</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/r6q8Wfdmf8PPJtdjQ8uH"/>
-        <updated>2024-08-12T15:41:54.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>The issue with Gmail, Google Calendar, Google Chat, Google Docs, Google Drive, Google Tasks has been resolved for all affected users as of Monday, 2024-08-12 08:35 US/Pacific.</p>
-<p>During the issue, users connecting to Workspace services from the UK region may have experienced connectivity issues.</p>
-<p>We will publish an analysis of this incident once we have completed our internal investigation.</p>
-<p>We thank you for your patience while we worked on resolving the issue.</p>
-</div><hr><p>Affected products: Google Calendar</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: **SUMMARY**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region
-**DESCRIPTION**
-We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.
-**DIAGNOSIS**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.
-**WORKAROUND**
-None at this time.
-Please refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/afFHu9w8zAYWoVbpkRMT</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/afFHu9w8zAYWoVbpkRMT"/>
-        <updated>2024-08-12T15:41:22.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>The issue with Gmail, Google Calendar, Google Chat, Google Docs, Google Drive, Google Tasks has been resolved for all affected users as of Monday, 2024-08-12 08:35 US/Pacific.</p>
-<p>During the issue, users connecting to Workspace services from the UK region may have experienced connectivity issues.</p>
-<p>We will publish an analysis of this incident once we have completed our internal investigation.</p>
-<p>We thank you for your patience while we worked on resolving the issue.</p>
-</div><hr><p>Affected products: Google Tasks</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: **SUMMARY**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region
-**DESCRIPTION**
-We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.
-**DIAGNOSIS**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.
-**WORKAROUND**
-None at this time.
-Please refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/Tf4iYUqvRiCtpqyoRPm9</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/Tf4iYUqvRiCtpqyoRPm9"/>
-        <updated>2024-08-12T15:40:52.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>The issue with Gmail, Google Calendar, Google Chat, Google Docs, Google Drive, Google Tasks has been resolved for all affected users as of Monday, 2024-08-12 08:35 US/Pacific.</p>
-<p>During the issue, users connecting to Workspace services from the UK region may have experienced connectivity issues.</p>
-<p>We will publish an analysis of this incident once we have completed our internal investigation.</p>
-<p>We thank you for your patience while we worked on resolving the issue.</p>
-</div><hr><p>Affected products: Google Drive</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: **SUMMARY**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region
-**DESCRIPTION**
-We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.
-**DIAGNOSIS**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.
-**WORKAROUND**
-None at this time.
-Please refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/FK2vgw8XkKt77kspGxjo</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/FK2vgw8XkKt77kspGxjo"/>
-        <updated>2024-08-12T15:40:23.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>The issue with Gmail, Google Calendar, Google Chat, Google Docs, Google Drive, Google Tasks has been resolved for all affected users as of Monday, 2024-08-12 08:35 US/Pacific.</p>
-<p>During the issue, users connecting to Workspace services from the UK region may have experienced connectivity issues.</p>
-<p>We will publish an analysis of this incident once we have completed our internal investigation.</p>
-<p>We thank you for your patience while we worked on resolving the issue.</p>
-</div><hr><p>Affected products: Gmail</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: **SUMMARY**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region
-**DESCRIPTION**
-We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.
-**DIAGNOSIS**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.
-**WORKAROUND**
-None at this time.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz"/>
-        <updated>2024-08-12T15:39:36.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>The issue with Gmail, Google Calendar, Google Chat, Google Docs, Google Drive, Google Tasks has been resolved for all affected users as of Monday, 2024-08-12 08:35 US/Pacific.</p>
-<p>During the issue, users connecting to Workspace services from the UK region may have experienced connectivity issues.</p>
-<p>We will publish an analysis of this incident once we have completed our internal investigation.</p>
-<p>We thank you for your patience while we worked on resolving the issue.</p>
-</div><hr><p>Affected products: Google Docs</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UPDATE: **SUMMARY**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region
-**DESCRIPTION**
-We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.
-**DIAGNOSIS**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.
-**WORKAROUND**
-None at this time.
-Please refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/afFHu9w8zAYWoVbpkRMT</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/afFHu9w8zAYWoVbpkRMT"/>
-        <updated>2024-08-12T15:19:56.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p><strong>SUMMARY</strong></p>
-<p>Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region</p>
-<p><strong>DESCRIPTION</strong></p>
-<p>We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.</p>
-<p><strong>DIAGNOSIS</strong></p>
-<p>Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.</p>
-<p><strong>WORKAROUND</strong></p>
-<p>None at this time.</p>
-<p>Please refer to <a href="https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz">https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz</a> for further updates on this issue.</p>
-</div><hr><p>Affected products: Google Tasks</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UPDATE: **SUMMARY**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region
-**DESCRIPTION**
-We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.
-**DIAGNOSIS**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.
-**WORKAROUND**
-None at this time.
-Please refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/r6q8Wfdmf8PPJtdjQ8uH</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/r6q8Wfdmf8PPJtdjQ8uH"/>
-        <updated>2024-08-12T15:19:09.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p><strong>SUMMARY</strong></p>
-<p>Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region</p>
-<p><strong>DESCRIPTION</strong></p>
-<p>We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.</p>
-<p><strong>DIAGNOSIS</strong></p>
-<p>Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.</p>
-<p><strong>WORKAROUND</strong></p>
-<p>None at this time.</p>
-<p>Please refer to <a href="https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz">https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz</a> for further updates on this issue.</p>
-</div><hr><p>Affected products: Google Calendar</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UPDATE: **SUMMARY**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region
-**DESCRIPTION**
-We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.
-**DIAGNOSIS**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.
-**WORKAROUND**
-None at this time.
-Please refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/Tf4iYUqvRiCtpqyoRPm9</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/Tf4iYUqvRiCtpqyoRPm9"/>
-        <updated>2024-08-12T15:18:49.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p><strong>SUMMARY</strong></p>
-<p>Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region</p>
-<p><strong>DESCRIPTION</strong></p>
-<p>We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.</p>
-<p><strong>DIAGNOSIS</strong></p>
-<p>Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.</p>
-<p><strong>WORKAROUND</strong></p>
-<p>None at this time.</p>
-<p>Please refer to <a href="https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz">https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz</a> for further updates on this issue.</p>
-</div><hr><p>Affected products: Google Drive</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UPDATE: **SUMMARY**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region
-**DESCRIPTION**
-We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.
-**DIAGNOSIS**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.
-**WORKAROUND**
-None at this time.
-Please refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/FK2vgw8XkKt77kspGxjo</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/FK2vgw8XkKt77kspGxjo"/>
-        <updated>2024-08-12T15:18:28.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p><strong>SUMMARY</strong></p>
-<p>Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region</p>
-<p><strong>DESCRIPTION</strong></p>
-<p>We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.</p>
-<p><strong>DIAGNOSIS</strong></p>
-<p>Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.</p>
-<p><strong>WORKAROUND</strong></p>
-<p>None at this time.</p>
-<p>Please refer to <a href="https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz">https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz</a> for further updates on this issue.</p>
-</div><hr><p>Affected products: Gmail</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UPDATE: **SUMMARY**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region
-**DESCRIPTION**
-We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.
-**DIAGNOSIS**
-Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.
-**WORKAROUND**
-None at this time.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz"/>
-        <updated>2024-08-12T15:16:40.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 14:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p><strong>SUMMARY</strong></p>
-<p>Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region</p>
-<p><strong>DESCRIPTION</strong></p>
-<p>We have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.</p>
-<p><strong>DIAGNOSIS</strong></p>
-<p>Multiple Workspace services experienced brief connectivity issues for users connecting from the UK region.</p>
-<p><strong>WORKAROUND</strong></p>
-<p>None at this time.</p>
 </div><hr><p>Affected products: Google Docs</p>]]></summary>
         <author>
             <name>Google Workspace Status Dashboard Updates</name>
