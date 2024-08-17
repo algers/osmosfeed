@@ -48,7 +48,7 @@
           "description": "Description: SCIM group name disclosure via the ACL editor\nWhat happened?\nThe ACL editor in the admin console did not check SCIM\ngroup names in the ACL rules against the tailnet name. This allowed tailnet A\nto use SCIM groups from tailnet B in their ACL rules. A malicious user in\ntailnet A could not gain access to target tailnet B this way. However, they\ncould use the fact that ACLs get saved without warnings to learn about valid\nSCIM group names in other tailnets.\nThis issue was fixed on July 19th, 2024. A user trying to save ACLs with SCIM\ngroup names from other tailnets will always receive a warning that these groups\ndo not exist, even if they do exist in other tailnets.\nWho was affected?\nNone of the existing tailnets' ACLs appear to use SCIM group names from other\ntailnets maliciously. A handful of customers used the wrong SCIM group names\nfrom their production tailnets in their test tailnets by accident.\nWhat was the impact?\nA malicious user could learn about SCIM group names used in other tailnets.\nWhat do I need to do?\nNo action is required.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-011",
           "publishedOn": "2024-07-22T00:00:00.000Z",
-          "wordCount": 15563,
+          "wordCount": 15589,
           "title": "TS-2024-011",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         },
@@ -58,7 +58,7 @@
           "description": "Description: Accidental ACL edits due to browser caching\nWhat happened?\nWhen switching tailnets in the admin console, an Admin user\ncould overwrite the ACLs of one tailnet with pending changes to ACLs\nfrom another tailnet.\nWhen a user has unsaved ACL changes in the admin console, those changes are\ncached in browser storage. If this user is a member of multiple tailnets,\ntailnet A and tailnet B, and is editing ACLs for tailnet A, using the tailnet\nswitcher in the top-right corner of the page would not clear the cached ACL\nchanges correctly. In some rare cases, saving ACLs of tailnet B after the\nswitch would use the cached ACL contents from tailnet A.\nA user can be an Admin in multiple tailnets when they use GitHub to log in, and are a member of GitHub organizations, or the user is invited to another tailnet and granted the Admin role.\nTailnet switching in the admin console was added on May 22nd, 2023. We fixed\nthis bug on July 17th, 2024.\nWho was affected?\nAny user who is an Admin in multiple tailnets and edited ACLs in the admin\nconsole between May 22, 2023 and July 17th, 2024 could trigger this bug after\nswitching the active tailnet.\nWhat was the impact?\nAn Admin user could overwrite the ACLs of one tailnet with ACLs from another\ntailnet.\nWhat do I need to do?\nIf you are an Admin of multiple tailnets using the same login name, review the\nACLs in your tailnets for correctness.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-010",
           "publishedOn": "2024-07-19T00:00:00.000Z",
-          "wordCount": 15563,
+          "wordCount": 15589,
           "title": "TS-2024-010",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -105,44 +105,23 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": [
-        {
-          "id": "https://status.twilio.com/incidents/zbczkrxrvxvv",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Aug 15, 18:00 PDT  -  Aug 16, 05:00 PDT\nAug 14, 20:34 PDT\nScheduled - The T-Mobile network in the US is conducting a planned maintenance from 15 August 2024 at 18:00 PDT until 16 August 2024 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to T-Mobile US handsets.",
-          "link": "https://status.twilio.com/incidents/zbczkrxrvxvv",
-          "publishedOn": "2024-08-16T01:00:00.000Z",
-          "wordCount": 7536,
-          "title": "US SMS and MMS Carrier Maintenance - T-Mobile",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/dhl563pp21w9",
-          "author": null,
-          "description": "Aug 15, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nAug 15, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 13, 08:13 PDT\nScheduled - The Megafon/Yota network in Russia is conducting a planned maintenance from 15 August 2024 at 13:00 PDT until 15 August 2024 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Megafon/Yota Russia handsets.",
-          "link": "https://status.twilio.com/incidents/dhl563pp21w9",
-          "publishedOn": "2024-08-16T00:00:02.000Z",
-          "wordCount": 7534,
-          "title": "Russia SMS Carrier Maintenance - Megafon/Yota",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/60h8tj5jvk37",
-          "author": null,
-          "description": "Aug 15, 16:12 PDT\nResolved - This incident is being resolved as we already have a different open incident for this network\nAug 15, 15:32 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to H3G Network in Indonesia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nAug 15, 14:39 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to H3G Network in Indonesia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nAug 15, 14:34 PDT\nInvestigating - We've become aware of a potential issue with SMS Delivery Delays to H3G Network in Indonesia. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/60h8tj5jvk37",
-          "publishedOn": "2024-08-15T23:12:05.000Z",
-          "wordCount": 7633,
-          "title": "Sms Delivery Delays When Sending Messages to h3g Network in Indonesia",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "DigitalOcean Status - Incident History",
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/700mr7xhcwyv",
+          "author": null,
+          "description": "Aug 16, 22:00 UTC\nCompleted - The scheduled maintenance has been completed.\nAug 14, 02:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 13, 18:31 UTC\nScheduled - Maintenance Dates: August 14th,15th and 16th\nMaintenance Window: 02:00 - 10:00 (UTC)\nDuring the maintenance window on the above dates, our on-site team will be performing ongoing maintenance on redundant power systems in our TOR1 region. The maintenance will be performed during the same time window (02:00 - 10:00 UTC) across 3 days: August 14th,15th and 16th. \nExpected Impact:  \nWe don’t expect to see any impact to customer resources as the electrical systems are redundant and our team will isolate one unit at a time during the maintenance. In the highly unlikely event that we lose power to both systems simultaneously, affected Droplets and Droplet-based services would experience downtime for a brief period of time. We will endeavor to keep this to a minimum should that situation arise.\nIf you have any questions or concerns related to this maintenance, please send us a ticket from your cloud support page https://cloudsupport.digitalocean.com/s/createticket.",
+          "link": "https://status.digitalocean.com/incidents/700mr7xhcwyv",
+          "publishedOn": "2024-08-16T22:00:02.000Z",
+          "wordCount": 6378,
+          "title": "TOR1 Power Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/bcbmw7dyzlst",
           "author": null,
@@ -161,16 +140,6 @@
           "publishedOn": "2024-08-15T05:40:22.000Z",
           "wordCount": 6426,
           "title": "Event processing and Droplet Creates in TOR1",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/700mr7xhcwyv",
-          "author": null,
-          "description": "Aug 14, 02:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 13, 18:31 UTC\nScheduled - Maintenance Dates: August 14th,15th and 16th\nMaintenance Window: 02:00 - 10:00 (UTC)\nDuring the maintenance window on the above dates, our on-site team will be performing ongoing maintenance on redundant power systems in our TOR1 region. The maintenance will be performed during the same time window (02:00 - 10:00 UTC) across 3 days: August 14th,15th and 16th. \nExpected Impact:  \nWe don’t expect to see any impact to customer resources as the electrical systems are redundant and our team will isolate one unit at a time during the maintenance. In the highly unlikely event that we lose power to both systems simultaneously, affected Droplets and Droplet-based services would experience downtime for a brief period of time. We will endeavor to keep this to a minimum should that situation arise.\nIf you have any questions or concerns related to this maintenance, please send us a ticket from your cloud support page https://cloudsupport.digitalocean.com/s/createticket.",
-          "link": "https://status.digitalocean.com/incidents/700mr7xhcwyv",
-          "publishedOn": "2024-08-14T02:00:05.000Z",
-          "wordCount": 6368,
-          "title": "TOR1 Power Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
@@ -362,16 +331,6 @@
           "wordCount": 6320,
           "title": "Kubernetes 1-Click Marketplace Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/c1cpwgm27fwp",
-          "author": null,
-          "description": "Jul 17, 18:49 UTC\nResolved - Our Engineering team has confirmed the full resolution of the issue impacting the ability to create and manage Functions through the Cloud Control Panel and API in our TOR1 region. We appreciate your patience throughout the process.\nIf you continue to see errors please open a ticket with our Support team and we will be glad to assist you further.\nJul 17, 17:46 UTC\nMonitoring - The fix was deployed successfully and the impact appears to have subsided. Users should now be able to create and update functions, triggers and related settings via Cloud Control Panel and API. \nWe are monitoring the situation and will post an update once we can fully confirm resolution.\nJul 17, 17:24 UTC\nIdentified - Our Engineering team has identified an issue with Functions in our TOR1 region and a fix is currently being deployed.\nDuring this time, users may experience errors while creating or editing Functions, triggers, and related settings via the Cloud Control Panel and API.\nWe apologize for the disruption and will post an update once the fix has finished rolling out.",
-          "link": "https://status.digitalocean.com/incidents/c1cpwgm27fwp",
-          "publishedOn": "2024-07-17T18:49:55.000Z",
-          "wordCount": 6372,
-          "title": "Degraded Functions Service in TOR1",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -422,56 +381,6 @@
           "wordCount": 531,
           "title": "RESOLVED: **SUMMARY**\nMultiple Workspace services experienced brief connectivity issues for users connecting from the UK region\n**DESCRIPTION**\nWe have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.\n**DIAGNOSIS**\nMultiple Workspace services experienced brief connectivity issues for users connecting from the UK region.\n**WORKAROUND**\nNone at this time.\nPlease refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/afFHu9w8zAYWoVbpkRMT",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 15:32</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A Full incident Report is published in <a href=\"https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz\">https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz</a></p>\n</div><hr><p>Affected products: Google Tasks</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/afFHu9w8zAYWoVbpkRMT",
-          "publishedOn": "2024-08-15T21:47:56.000Z",
-          "wordCount": 531,
-          "title": "RESOLVED: **SUMMARY**\nMultiple Workspace services experienced brief connectivity issues for users connecting from the UK region\n**DESCRIPTION**\nWe have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.\n**DIAGNOSIS**\nMultiple Workspace services experienced brief connectivity issues for users connecting from the UK region.\n**WORKAROUND**\nNone at this time.\nPlease refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/Tf4iYUqvRiCtpqyoRPm9",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 15:32</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A Full incident Report is published in <a href=\"https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz\">https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz</a></p>\n</div><hr><p>Affected products: Google Drive</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/Tf4iYUqvRiCtpqyoRPm9",
-          "publishedOn": "2024-08-15T21:46:28.000Z",
-          "wordCount": 531,
-          "title": "RESOLVED: **SUMMARY**\nMultiple Workspace services experienced brief connectivity issues for users connecting from the UK region\n**DESCRIPTION**\nWe have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.\n**DIAGNOSIS**\nMultiple Workspace services experienced brief connectivity issues for users connecting from the UK region.\n**WORKAROUND**\nNone at this time.\nPlease refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/FK2vgw8XkKt77kspGxjo",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 15:32</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>A Full incident Report is published in <a href=\"https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz\">https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz</a></p>\n</div><hr><p>Affected products: Gmail</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/FK2vgw8XkKt77kspGxjo",
-          "publishedOn": "2024-08-15T21:45:55.000Z",
-          "wordCount": 530,
-          "title": "RESOLVED: **SUMMARY**\nMultiple Workspace services experienced brief connectivity issues for users connecting from the UK region\n**DESCRIPTION**\nWe have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.\n**DIAGNOSIS**\nMultiple Workspace services experienced brief connectivity issues for users connecting from the UK region.\n**WORKAROUND**\nNone at this time.\nPlease refer to https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz for further updates on this issue.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-08-12 13:20</strong> and ended at <strong>2024-08-12 15:32</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h2>Incident Report</h2>\n<h2>Summary</h2>\n<p>On 12 August 2024 at 06:20 US/Pacific, multiple Google Cloud and Google Workspace products experienced connectivity issues in europe-west2 for a duration of 40 minutes. During the time, ingress traffic to europe-west2 and egress traffic from europe-west2 experienced elevated latencies, connection timeouts, and connection failures.</p>\n<h2>Root Cause</h2>\n<p>On 12 August 2024 06:20 US/Pacific, primary and backup power feeds were both lost in a <a href=\"https://cloud.google.com/vpc/docs/edge-locations\">Google Point of Presence (POP)</a> due to a substation switchgear failure. The affected POP hosts about ⅓ of serving first-layer <a href=\"https://cloud.google.com/docs/security/infrastructure/design#google-frontend-service\">Google Front Ends (GFEs)</a> located in europe-west2 and some distributed networking equipment for that region. The power loss impacted the following Google products and services that depend on GFEs in that region:</p>\n<ul>\n<li>Google Cloud APIs, Google Workspace, and other Google services like YouTube,</li>\n<li>Customer-created global external application and proxy network load balancers, including Cloud CDN</li>\n</ul>\n<p>The power loss also impacted the following Google Cloud products which depended on impacted networking equipment:</p>\n<ul>\n<li>Customer-created regional external application, proxy network, and passthrough network load balancers in the europe-west2 region,</li>\n<li>External protocol forwarding and VM external IP address connectivity for VMs in the europe-west2 region.</li>\n<li>Google Cloud Interconnect connections in some LHR colocation facilities.</li>\n</ul>\n<p>Impact was limited to situations where either or both of the following was true:</p>\n<ul>\n<li>Inbound requests or connections were routed into the europe-west2 region of Google’s network, from the Internet, and those requests or connections depended on networking equipment that was offline, or unreachable pending reconvergence.</li>\n<li>Outbound responses were routed to the Internet, from the europe-west2 region of Google’s network, and those responses depended on networking equipment that was without power.</li>\n</ul>\n<p>The power outage caused Internet routes advertised by Google to be withdrawn in networks connected to Google’s network. The withdrawn routes were automatically replaced by other Google-advertised routes that didn’t depend on impacted networking equipment. Withdrawing and replacing routes relies on the BGP protocol and its timers, so replacement route convergence is not instantaneous, and overloading in the automatically selected replacement route GFEs extended the duration of the incident.</p>\n<h2>Detailed Description of Impact</h2>\n<ul>\n<li>Google Workspace: _Gmail, Google Calendar, Google Chat, Google Docs, Google Drive, Google Meet and Google Tasks users connecting to Workspace services from the UK region and surrounding areas experienced connectivity issues as described in the next point.</li>\n<li>GFE-based products and services: _Customers on the Internet experienced a spike of broken connections followed by elevated latencies or HTTP error responses when communicating with GFE-powered Google APIs and services or customer-created global external application and proxy network load balancers. At roughly 06:23 US/Pacific, Google automatically redirected connections to the nearest possible first-layer GFEs with some latency penalty. Unfortunately, some of the nearest possible first-layer GFEs were overloaded until 06:48 when Google engineers made adjustments to more efficiently distribute incoming requests among nearby first-layer GFEs. Depending on the Google API or service or the customer-created global external load balancer, elevated latencies could have persisted until about 08:30 US/Pacific. Elevated latencies also could have applied to customer-created global external load balancers that had Cloud CDN enabled.</li>\n<li>Regional Google Cloud products and services: _Until replacement routes were in effect, customers on the Internet experienced connection failures to the following GCP resources in the europe-west2 region:\n<ul>\n<li>Regional external application, proxy network, and passthrough network load balancers.</li>\n<li>External protocol forwarding and VM external IP addresses.</li>\n</ul>\n</li>\n<li>Google Cloud Interconnect: _Google Cloud Interconnect connections in some LHR colocation facilities (lhr-zone1-47, lhr-zone1-832, lhr-zone1-2262, lhr-zone1-4885, lhr-zone1-99051 and lhr-zone2-47) remained offline from 06:20 US/Pacific to at least 06:57 US/Pacific, when power was restored.</li>\n</ul>\n<p>At 06:43 US/Pacific, power was restored to the impacted networking equipment. Google networking equipment was fully operational by 06:57 US/Pacific, and connectivity to GFE-based products and services, regional Google Cloud products and services, and Google Cloud Interconnect resumed shortly thereafter.</p>\n<h2>Remediation and Prevention</h2>\n<p>Multiple Google engineering teams were alerted and automated recovery tooling was triggered as expected; however, manual adjustments were required to address subsequent first-layer GFE overload. Google is reviewing automation improvements in tasks that required manual intervention to reduce the duration of future power event impact. Similarly, Google is working to increase Cloud Interconnect control plane resilience and reduce mitigation time through automated reaction to isolation events.</p>\n<p>Additionally Google&#39;s partner who maintains the affected facility power in LHR (London) is conducting a full root cause analysis with the switchboard manufacturer and substation owner(s) involved in supplying power, including follow up as to why stored or generated on-site emergency power did not carry loads.</p>\n</div><hr><p>Affected products: Google Docs</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/5AjHWPCTCP5uenZRjuwz",
-          "publishedOn": "2024-08-15T21:42:40.000Z",
-          "wordCount": 1239,
-          "title": "RESOLVED: **SUMMARY**\nMultiple Workspace services experienced brief connectivity issues for users connecting from the UK region\n**DESCRIPTION**\nWe have experienced an issue with Gmail, Google Drive, Google Calendar, Google Docs, Google Chat, Google Tasks beginning at Monday, 2024-08-12 06:28 US/Pacific. The issue is now mitigated and our engineering teams are closely monitoring for any residual impact We will provide an update by Monday, 2024-08-12 09:15 US/Pacific with current details. We apologize to all who are affected by the disruption.\n**DIAGNOSIS**\nMultiple Workspace services experienced brief connectivity issues for users connecting from the UK region.\n**WORKAROUND**\nNone at this time.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/sowQNioouYdVq6hNkZti",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-08-06 15:00</strong> and ended at <strong>2024-08-07 10:29</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Incident Report</h1>\n<h2>Summary</h2>\n<p>On 06 August at 08:00 US/Pacific, Chrome OS devices experienced issues with logins globally for a duration of 19 hours 29 minutes. During this time, users on ChromeOS devices were able to complete the full sign-in process, including any Multi-factor Authentication when required. However, some users were immediately redirected back to the login page after logging in.</p>\n<h2>Root Cause</h2>\n<p>Google’s internal authentication system uses an HTTP endpoint microservice that provides clients with a list of accounts currently in the authentication cookies. This endpoint is mainly used for various account switcher user interfaces, providing a list of accounts the current session has access to.</p>\n<p>The root cause of the issue is an incorrect configuration made to the Google authentication service, which resulted in a malformed response to the queries from this microservice in a particular condition. As a result, Chrome OS was unable to get the account details from the internal Google authentication service, which caused the sign-in failures.</p>\n<h2>Remediation and Prevention</h2>\n<p>Google engineers were alerted to the outage via a support case on Tuesday,  06 August at 15:51 US/Pacific, and immediately started an investigation. Once the nature and scope of the issue became clear, the configuration change was reverted and Google engineers ensured that sign-in worked again.</p>\n<p>Google is committed to preventing a repeat of this issue in the future and is completing the following actions:</p>\n<ul>\n<li>Migrate the endpoints used in Google authentication systems to a different format so that the issue is not triggered</li>\n<li>Expand the integration testing environment to include more clients including Google Chrome so that all scenarios are identified</li>\n<li>Include additional control mechanisms to ensure that configuration changes are approved appropriately</li>\n</ul>\n<p>Google is committed to quickly and continually improving our technology and operations to prevent service disruptions. We appreciate your patience and apologize again for the impact to your organization. We thank you for your business.</p>\n<h2>Detailed Description of Impact</h2>\n<ul>\n<li>On devices which were already configured, users were unable to add new users from the login screen.</li>\n<li>Users were able to successfully authenticate however, and were sent back to the login screen before starting a session.</li>\n<li>Users were unable to setup the first user account on their device (the device owner), resulting in the devices being reset to factory defaults</li>\n</ul>\n</div><hr><p>Affected products: ChromeOS</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/sowQNioouYdVq6hNkZti",
-          "publishedOn": "2024-08-15T19:46:47.000Z",
-          "wordCount": 1143,
-          "title": "RESOLVED: ### **Summary:**\nChromeOS sign in issues affecting multiple customers throughout the globe\n### **Description:**\nWe are experiencing an issue with ChromeOS.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Tuesday, 2024-08-06 23:30 US/Pacific with current details.\n### **Diagnosis:**\nDuring the full sign in process ChromeOS devices complete the sign in process (even Multi Factor Authentication (MFA) if applicable) but are eventually brought back to the login page.\nThe issue is affecting multiple ChromeOS versions\n### **Workaround:**\nNone at this time.",
-          "imageUrl": null
         }
       ]
     },
@@ -483,10 +392,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/mrpx4trfk45z",
           "author": null,
-          "description": "Aug 15, 13:59 UTC\nResolved - This incident has been resolved.\nAug 15, 13:45 UTC\nUpdate - Approximately 10-15% of customers may be experiencing problems executing new GitHub Actions runs. The problem is currently being investigated by our teams.\nAug 15, 13:35 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
+          "description": "Aug 15, 13:59 UTC\nResolved - On August 15, 2024, between 13:14 UTC and 13:43 UTC, the Actions service was degraded and resulted in failures to start new workflow runs for customers of github.com. On average, 10% of Actions workflow runs failed to start with the failure rate peaking at 15%. This was due to an infrastructure change that enabled a network proxy for requests between the Actions service and an internal API which caused requests to fail.\nWe mitigated the incident by rolling back the change. We are working to improve our monitoring and deployment practices to reduce our time to detection and mitigation of issues like this one in the future.\nAug 15, 13:45 UTC\nUpdate - Approximately 10-15% of customers may be experiencing problems executing new GitHub Actions runs. The problem is currently being investigated by our teams.\nAug 15, 13:35 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
           "link": "https://www.githubstatus.com/incidents/mrpx4trfk45z",
           "publishedOn": "2024-08-15T13:59:49.000Z",
-          "wordCount": 5309,
+          "wordCount": 5410,
           "title": "Incident with starting Action Workflows",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -503,7 +412,7 @@
         {
           "id": "https://www.githubstatus.com/incidents/2qxyr481ywxf",
           "author": null,
-          "description": "Aug 13, 13:23 UTC\nResolved - On August 13, 2024, between 13:00 UTC and 13:23 UTC the Copilot service and some parts of the Github UI were degraded. This impacted about 25% of GitHub.com users. This was due to a partial rollout of a caching layer for Copilot licensing checks. During the rollout, connections to the caching layer were overwhelmed causing the licensing checks to timeout. Many pages were impacted by this failure due to a lack of resiliency to the timeouts.\nWe mitigated the incident by reverting the rollout of the caching layer 11 minutes after initial detection. This immediately restored functionality for affected users.\nWe are working to gracefully degrade experiences during these types of failures and reduce dependencies across services that may cause these types of failures in the future.\n\nAug 13, 13:16 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nAug 13, 13:11 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Aug 13, 13:23 UTC\nResolved - On August 13, 2024, between 13:00 UTC and 13:23 UTC the Copilot service and some parts of the GitHub UI were degraded. This impacted about 25% of GitHub.com users. This was due to a partial rollout of a caching layer for Copilot licensing checks. During the rollout, connections to the caching layer were overwhelmed causing the licensing checks to timeout. Many pages were impacted by this failure due to a lack of resiliency to the timeouts.\nWe mitigated the incident by reverting the rollout of the caching layer 11 minutes after initial detection. This immediately restored functionality for affected users.\nWe are working to gracefully degrade experiences during these types of failures and reduce dependencies across services that may cause these types of failures in the future.\n\nAug 13, 13:16 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nAug 13, 13:11 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/2qxyr481ywxf",
           "publishedOn": "2024-08-13T13:23:55.000Z",
           "wordCount": 5416,
@@ -639,26 +548,6 @@
           "wordCount": 5683,
           "title": "Issues enabling actions and running jobs on GitHub",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/lzyq3tjy07yq",
-          "author": null,
-          "description": "Jul 17, 18:13 UTC\nResolved - On July 17th, 2024 between 17:56 and 18:13 UTC the Codespaces service was degraded and 5% of codespaces were failing to start after creation. After analyzing the failing codespaces, we realized that all of them had reached the 1 hour timeout allocated for starting. Further, we realized that the root cause of the timeouts was the larger incident earlier in the day due to updating github’s network hardware.\nWe realized this incident was already mitigated by the mitigation of the earlier incident.\nWe are working to see if we can improve our incident response process to better understand the connection between incidents in the future and avoid unnecessary incident noise for customers.\n\nJul 17, 17:56 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces",
-          "link": "https://www.githubstatus.com/incidents/lzyq3tjy07yq",
-          "publishedOn": "2024-07-17T18:13:11.000Z",
-          "wordCount": 5378,
-          "title": "Incident with Codespaces",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/88003ngctf1z",
-          "author": null,
-          "description": "Jul 17, 17:06 UTC\nResolved - On July 17, 2024, between 16:15:31 UTC and 17:06:53 UTC, various GitHub services were degraded including Login, the GraphQL API, Issues, Pages and Packages. On average, the error rate was 0.3% for requests to github.com and the API, and 3.0% of requests for Packages. This incident was triggered by two unrelated events:\n- A planned testing event of an internal feature caused heavy loads on our databases, disrupting services across GitHub.\n- A network configuration change deployed to support capacity expansion in a GitHub data center. \nWe partially resolved the incident by aborting the testing event at 16:17 UTC and fully resolved the incident by rolling back the network configuration changes at 16:49 UTC. \nWe have paused all planned capacity expansion activity w…",
-          "link": "https://www.githubstatus.com/incidents/88003ngctf1z",
-          "publishedOn": "2024-07-17T17:06:55.000Z",
-          "wordCount": 5608,
-          "title": "Incident with multiple GitHub services",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -754,6 +643,16 @@
       "feedUrl": "https://status.make.com/history.rss",
       "siteUrl": "https://status.make.com",
       "articles": [
+        {
+          "id": "https://status.make.com/incidents/kgt4032sf190",
+          "author": null,
+          "description": "Aug 16, 07:34 CEST\nResolved - This incident has been resolved\nAug 16, 07:12 CEST\nMonitoring - A fix has been implemented and we are currently monitoring the environment. \nFurther updates will be provided within the next hour.\nAug 16, 06:30 CEST\nInvestigating - We are currently investigating an issue where some pages might not be loading properly with timeout error. More specifically \"Organization\" page.\nScenario executions is not affected.\nWe will provide an update within the next hour.",
+          "link": "https://status.make.com/incidents/kgt4032sf190",
+          "publishedOn": "2024-08-16T05:34:48.000Z",
+          "wordCount": 3890,
+          "title": "Timeout to load some pages",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.make.com/incidents/m08q355mkc8j",
           "author": null,
