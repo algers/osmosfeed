@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-17T00:23:52.044Z</id>
+    <id>urn:2024-08-18T00:27:10.918Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-17T00:23:52.044Z</updated>
+    <updated>2024-08-18T00:27:10.918Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[DigitalOcean Support Portal Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/83tjnnd56vkd</id>
+        <link href="https://status.digitalocean.com/incidents/83tjnnd56vkd"/>
+        <updated>2024-08-18T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Aug 18, 02:00 - 05:00 UTC
+Aug 15, 02:08 UTC
+Scheduled - During the above maintenance window, there will be maintenance performed on our ticketing system.
+Expected Impact:
+During the course of the maintenance, users will be unable to submit support tickets, update existing tickets, or receive replies to existing tickets. Users will also be unable to log into https://cloudsupport.digitalocean.com/s/ or open the Support Portal from within the Cloud Control Panel.
+Any tickets submitted during the maintenance via alternate methods (such as replying to an email chain or via our webform) will be saved and entered into our ticketing system at the completion of the maintenance.
+Our Support Team will also be impacted by this maintenance and will be unable to enter the ticketing system to receive any tickets or reply to existing tickets. As soon as the vendor maintenance has completed, our team will address all support queries as quickly as possible.
+We appreciate your patience throughout this process.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TOR1 Power Maintenance]]></title>
         <id>https://status.digitalocean.com/incidents/700mr7xhcwyv</id>
@@ -1052,124 +1069,6 @@ What do I need to do?
 No action is required.]]></summary>
         <author>
             <name>Security Bulletins on Tailscale</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Codespaces]]></title>
-        <id>https://www.githubstatus.com/incidents/9rrqvvf23fhc</id>
-        <link href="https://www.githubstatus.com/incidents/9rrqvvf23fhc"/>
-        <updated>2024-07-19T04:47:22.000Z</updated>
-        <summary type="html"><![CDATA[Jul 19, 04:47 UTC
-Resolved - On July 18, 2024, from 22:37 UTC to 04:47 UTC, one of our provider's services experienced degradation, causing errors in Codespaces, particularly when starting the VSCode server and installing extensions. The error rate reached nearly 100%, resulting in a global outage of Codespaces. During this time, users worldwide were unable to connect to VSCode. However, other clients that do not rely on the VSCode server, such as GitHub CLI, remained functional.
-We are actively working to enhance our detection and mitigation processes to improve our response time to similar issues in the future. Additionally, we are exploring ways to operate Codespaces in a more degraded state when one of our providers encounters issues, to prevent a complete outage.
-Jul 19, 03:54 UTC
-Update - Codespaces is still recovering fully, but we can see the issue is trending positive. Please stop and start your Codespace, if impacted: https://docs.github.com/en/codespaces/developing-in-a-codespace/stopping-and-starting-a-codespace?tool=webui
-Jul 19, 03:17 UTC
-Update - We are still investigating issues with Codespaces. Some users may not be able to connect to their Codespaces at this time. We will update you on mitigation progress.
-Jul 19, 02:43 UTC
-Update - We are investigating issues with Codespaces. Some users may not be able to connect to their Codespaces at this time. We will update you on mitigation progress.
-Jul 19, 02:10 UTC
-Investigating - We are investigating reports of degraded performance for Codespaces]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues enabling actions and running jobs on GitHub]]></title>
-        <id>https://www.githubstatus.com/incidents/m70hk23gx3nx</id>
-        <link href="https://www.githubstatus.com/incidents/m70hk23gx3nx"/>
-        <updated>2024-07-19T02:38:10.000Z</updated>
-        <summary type="html"><![CDATA[Jul 19, 02:38 UTC
-Resolved - Beginning on July 18, 2024 at 22:38 UTC, network issues within an upstream provider led to degraded experiences across Actions, Copilot, and Pages services.
-Up to 50% of Actions workflow jobs were stuck in the queuing state, including Pages deployments.  Users were also not able to enable Actions or register self-hosted runners. This was caused by an unreachable backend resource in the Central US region. That resource is configured for geo-replication, but the replication configuration prevented resiliency when one region was unavailable. Updating the replication configuration mitigated the impact by allowing successful requests while one region was unavailable. By July 19 00:12 UTC, users saw some improvement in Actions jobs and full recovery of Pages. Standar…]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NYC1 Network Maintenance 2024-07-18 22:00 UTC Phase 2]]></title>
-        <id>https://status.digitalocean.com/incidents/g2yqjsxtznh6</id>
-        <link href="https://status.digitalocean.com/incidents/g2yqjsxtznh6"/>
-        <updated>2024-07-19T01:41:43.000Z</updated>
-        <summary type="html"><![CDATA[Jul 19, 01:41 UTC
-Completed - The scheduled maintenance has been completed.
-Jul 18, 22:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jul 18, 21:10 UTC
-Scheduled - During the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the NYC1 region. This will be the second of the two maintenance activities performed by our team in the region on consecutive days. 
-Expected Impact:
-These upgrades are designed and tested to be seamless and we do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, affected Droplets and Droplet-based services may experience a temporary loss of private connectivity between VPCs. We will endeavor to keep any such impact to a minimum.
-If you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TS-2024-010]]></title>
-        <id>https://tailscale.com/security-bulletins/#ts-2024-010</id>
-        <link href="https://tailscale.com/security-bulletins/#ts-2024-010"/>
-        <updated>2024-07-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Description: Accidental ACL edits due to browser caching
-What happened?
-When switching tailnets in the admin console, an Admin user
-could overwrite the ACLs of one tailnet with pending changes to ACLs
-from another tailnet.
-When a user has unsaved ACL changes in the admin console, those changes are
-cached in browser storage. If this user is a member of multiple tailnets,
-tailnet A and tailnet B, and is editing ACLs for tailnet A, using the tailnet
-switcher in the top-right corner of the page would not clear the cached ACL
-changes correctly. In some rare cases, saving ACLs of tailnet B after the
-switch would use the cached ACL contents from tailnet A.
-A user can be an Admin in multiple tailnets when they use GitHub to log in, and are a member of GitHub organizations, or the user is invited to another tailnet and granted the Admin role.
-Tailnet switching in the admin console was added on May 22nd, 2023. We fixed
-this bug on July 17th, 2024.
-Who was affected?
-Any user who is an Admin in multiple tailnets and edited ACLs in the admin
-console between May 22, 2023 and July 17th, 2024 could trigger this bug after
-switching the active tailnet.
-What was the impact?
-An Admin user could overwrite the ACLs of one tailnet with ACLs from another
-tailnet.
-What do I need to do?
-If you are an Admin of multiple tailnets using the same login name, review the
-ACLs in your tailnets for correctness.]]></summary>
-        <author>
-            <name>Security Bulletins on Tailscale</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[App Deployments in SFO3]]></title>
-        <id>https://status.digitalocean.com/incidents/9ptsvbcx6cf0</id>
-        <link href="https://status.digitalocean.com/incidents/9ptsvbcx6cf0"/>
-        <updated>2024-07-18T21:34:32.000Z</updated>
-        <summary type="html"><![CDATA[Jul 18, 21:34 UTC
-Resolved - From 19:33 on to 21:02 UTC on July 18th, App Platform users may have experienced delays when deploying new Apps or when deploying updates to existing Apps in SFO3. 
-Our engineering team has deployed a fix for this issue. The impact has been resolved and users should no longer see any issues with the impacted services.
-If you continue to experience problems, please open a ticket with our support team from your Cloud Control Panel. Thank you for your patience, and we apologize for any inconvenience.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kubernetes 1-Click Marketplace Maintenance]]></title>
-        <id>https://status.digitalocean.com/incidents/x5r61kvppmnc</id>
-        <link href="https://status.digitalocean.com/incidents/x5r61kvppmnc"/>
-        <updated>2024-07-18T16:00:03.000Z</updated>
-        <summary type="html"><![CDATA[Jul 18, 16:00 UTC
-Completed - The scheduled maintenance has been completed.
-Jul 18, 14:30 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jul 17, 16:26 UTC
-Scheduled - Start Time: July 18 2024 14:30 UTC 
-End Time: July 18 2024 16:00 UTC
-During this time, our Marketplace Engineering team will be performing maintenance on our Managed Kubernetes 1-click application service. 
-Expected Impact:
-During this maintenance, customers will be unable to view existing Kubernetes 1-click installations via the Cloud control panel or install new Kubernetes 1-click applications from the Marketplace onto new or existing clusters.
-If you have any questions related to this event, please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket
-Thank you,
-Team DigitalOcean]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
