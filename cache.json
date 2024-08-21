@@ -24,16 +24,6 @@
           "wordCount": 397,
           "title": "New Enhanced Smily Payment Page",
           "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/131/980-dc7f01ad74675fcff18869805cec6238fa6ee61d.jpg"
-        },
-        {
-          "id": "297369",
-          "author": "Basile, Product Manager",
-          "description": "New!\n  \nYou are now able to choose a new booking model for your new properties on the Smily' booking.com app: Request to book;\n🚀 Benefits for you:\nYou can enable Request to book on booking.com' Smily app and manage all the requests through Smily’ Inquiries\nFind out how below 👇\n\nℹ️ How to use it?\nIf you set your rental as non Instantly bookable from the PMS > Rental > Base > do not tick the box below - it will be on request to book model for all your channels;\n\nIf you only want to apply it for booking.com for example, you can tick Instantly bookable above as we’ve added a specific setting on the booking.com Smily’ app\nWhen you drag and drop a new listing to be created on booking.com, you will get the new option Booking model to choose from the property settings;\n\n\n1/ Choose either Instant…",
-          "link": "https://changelog.bookingsync.com/set-your-property-on-request-to-book-on-booking-com!-297369",
-          "publishedOn": "2024-07-22T10:06:31.000Z",
-          "wordCount": 809,
-          "title": "Set your property on Request to book on booking.com!",
-          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/131/143-8e846f9b4e3fd0c956dc4c1d9c2f61eadf73b335.png"
         }
       ]
     },
@@ -41,18 +31,7 @@
       "title": "Security Bulletins on Tailscale",
       "feedUrl": "https://tailscale.com/security-bulletins/index.xml",
       "siteUrl": "https://tailscale.com/security-bulletins/",
-      "articles": [
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2024-011",
-          "author": null,
-          "description": "Description: SCIM group name disclosure via the ACL editor\nWhat happened?\nThe ACL editor in the admin console did not check SCIM\ngroup names in the ACL rules against the tailnet name. This allowed tailnet A\nto use SCIM groups from tailnet B in their ACL rules. A malicious user in\ntailnet A could not gain access to target tailnet B this way. However, they\ncould use the fact that ACLs get saved without warnings to learn about valid\nSCIM group names in other tailnets.\nThis issue was fixed on July 19th, 2024. A user trying to save ACLs with SCIM\ngroup names from other tailnets will always receive a warning that these groups\ndo not exist, even if they do exist in other tailnets.\nWho was affected?\nNone of the existing tailnets' ACLs appear to use SCIM group names from other\ntailnets maliciously. A handful of customers used the wrong SCIM group names\nfrom their production tailnets in their test tailnets by accident.\nWhat was the impact?\nA malicious user could learn about SCIM group names used in other tailnets.\nWhat do I need to do?\nNo action is required.",
-          "link": "https://tailscale.com/security-bulletins/#ts-2024-011",
-          "publishedOn": "2024-07-22T00:00:00.000Z",
-          "wordCount": 15589,
-          "title": "TS-2024-011",
-          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Airbnb API Status - Incident History",
@@ -351,26 +330,6 @@
           "wordCount": 458,
           "title": "RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/F5NGEmCZ9EC3gNGCckn6",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-08-19 18:10</strong> and ended at <strong>2024-08-19 18:30</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The issue with Gmail has been resolved for all affected users as of Monday, 2024-08-19 12:03 US/Pacific.</p>\n<p>We will publish an analysis of this incident once we have completed our internal investigation.</p>\n<p>We thank you for your patience while we worked on resolving the issue.</p>\n</div><hr><p>Affected products: Gmail</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/F5NGEmCZ9EC3gNGCckn6",
-          "publishedOn": "2024-08-19T19:17:55.000Z",
-          "wordCount": 458,
-          "title": "RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/F5NGEmCZ9EC3gNGCckn6",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-08-19 18:10</strong> and ended at <strong>2024-08-19 18:30</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We're investigating reports of an issue with Gmail. We will provide more information shortly.  </span></div><hr><p>Affected products: Gmail</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/F5NGEmCZ9EC3gNGCckn6",
-          "publishedOn": "2024-08-19T19:04:18.000Z",
-          "wordCount": 458,
-          "title": "UPDATE: We're investigating reports of an issue with Gmail. We will provide more information shortly.",
-          "imageUrl": null
         }
       ]
     },
@@ -526,6 +485,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://slack-status.com",
       "articles": [
+        {
+          "id": "https://slack-status.com/2024-08/a4200d469a0e2d51",
+          "author": null,
+          "description": "This issue has now been resolved. Users can continue to contact our support via feedback@slack.com, with /feedback within Slack or through the contact form here: https://slack.com/help/requests/new \n\nExisting tickets are available in the help portal here: https://my.slack.com/help/requests\n\nThank you again for bearing with us in the meantime.",
+          "link": "https://slack-status.com/2024-08/a4200d469a0e2d51",
+          "publishedOn": "2024-08-20T10:35:21.000Z",
+          "wordCount": 270,
+          "title": "Notice: Issues creating new support tickets via email",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://slack-status.com/2024-08/7a63e615a945c97a",
           "author": null,

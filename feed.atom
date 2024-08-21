@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-08-20T00:24:53.480Z</id>
+    <id>urn:2024-08-21T00:24:41.529Z</id>
     <title>osmos::feed</title>
-    <updated>2024-08-20T00:24:53.480Z</updated>
+    <updated>2024-08-21T00:24:41.529Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Notice: Issues creating new support tickets via email]]></title>
+        <id>https://slack-status.com/2024-08/a4200d469a0e2d51</id>
+        <link href="https://slack-status.com/2024-08/a4200d469a0e2d51"/>
+        <updated>2024-08-20T10:35:21.000Z</updated>
+        <summary type="html"><![CDATA[This issue has now been resolved. Users can continue to contact our support via feedback@slack.com, with /feedback within Slack or through the contact form here: https://slack.com/help/requests/new 
+
+Existing tickets are available in the help portal here: https://my.slack.com/help/requests
+
+Thank you again for bearing with us in the meantime.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
         <id>https://www.google.com/appsstatus/dashboard/incidents/F5NGEmCZ9EC3gNGCckn6</id>
@@ -25,29 +39,6 @@
 <p><strong>Customer Impact:</strong></p>
 <p>Customers may have been unable to access Gmail via IMAP, web or mobile clients.</p>
 </div><hr><p>Affected products: Gmail</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/F5NGEmCZ9EC3gNGCckn6</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/F5NGEmCZ9EC3gNGCckn6"/>
-        <updated>2024-08-19T19:17:55.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-19 18:10</strong> and ended at <strong>2024-08-19 18:30</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>The issue with Gmail has been resolved for all affected users as of Monday, 2024-08-19 12:03 US/Pacific.</p>
-<p>We will publish an analysis of this incident once we have completed our internal investigation.</p>
-<p>We thank you for your patience while we worked on resolving the issue.</p>
-</div><hr><p>Affected products: Gmail</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UPDATE: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/F5NGEmCZ9EC3gNGCckn6</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/F5NGEmCZ9EC3gNGCckn6"/>
-        <updated>2024-08-19T19:04:18.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-08-19 18:10</strong> and ended at <strong>2024-08-19 18:30</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><span>  We're investigating reports of an issue with Gmail. We will provide more information shortly.  </span></div><hr><p>Affected products: Gmail</p>]]></summary>
         <author>
             <name>Google Workspace Status Dashboard Updates</name>
         </author>
@@ -1063,58 +1054,6 @@ Our internal monitoring systems alerted us of the unexpected spike in error rate
 As a result, an automated safety measure temporarily paused traffic until the database returned to a healthy state. Once error rates returned to normal, users were no longer experiencing trouble.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Set your property on Request to book on booking.com!]]></title>
-        <id>297369</id>
-        <link href="https://changelog.bookingsync.com/set-your-property-on-request-to-book-on-booking-com!-297369"/>
-        <updated>2024-07-22T10:06:31.000Z</updated>
-        <summary type="html"><![CDATA[New!
-  
-You are now able to choose a new booking model for your new properties on the Smily' booking.com app: Request to book;
-🚀 Benefits for you:
-You can enable Request to book on booking.com' Smily app and manage all the requests through Smily’ Inquiries
-Find out how below 👇
-
-ℹ️ How to use it?
-If you set your rental as non Instantly bookable from the PMS > Rental > Base > do not tick the box below - it will be on request to book model for all your channels;
-
-If you only want to apply it for booking.com for example, you can tick Instantly bookable above as we’ve added a specific setting on the booking.com Smily’ app
-When you drag and drop a new listing to be created on booking.com, you will get the new option Booking model to choose from the property settings;
-
-
-1/ Choose either Instant…]]></summary>
-        <author>
-            <name>Basile, Product Manager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TS-2024-011]]></title>
-        <id>https://tailscale.com/security-bulletins/#ts-2024-011</id>
-        <link href="https://tailscale.com/security-bulletins/#ts-2024-011"/>
-        <updated>2024-07-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Description: SCIM group name disclosure via the ACL editor
-What happened?
-The ACL editor in the admin console did not check SCIM
-group names in the ACL rules against the tailnet name. This allowed tailnet A
-to use SCIM groups from tailnet B in their ACL rules. A malicious user in
-tailnet A could not gain access to target tailnet B this way. However, they
-could use the fact that ACLs get saved without warnings to learn about valid
-SCIM group names in other tailnets.
-This issue was fixed on July 19th, 2024. A user trying to save ACLs with SCIM
-group names from other tailnets will always receive a warning that these groups
-do not exist, even if they do exist in other tailnets.
-Who was affected?
-None of the existing tailnets' ACLs appear to use SCIM group names from other
-tailnets maliciously. A handful of customers used the wrong SCIM group names
-from their production tailnets in their test tailnets by accident.
-What was the impact?
-A malicious user could learn about SCIM group names used in other tailnets.
-What do I need to do?
-No action is required.]]></summary>
-        <author>
-            <name>Security Bulletins on Tailscale</name>
         </author>
     </entry>
 </feed>
