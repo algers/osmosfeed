@@ -22,6 +22,67 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-09-03 datetime="2024-09-03T18:00:02.000Z">2024-09-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-09-03 datetime="2024-09-03T18:00:02.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >DigitalOcean Status - Incident History</button>
+                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.digitalocean.com/incidents/5tdn3x6vhp8q"
+                        open
+                      >
+                        <summary class="article-expander__title">Core Infrastructure Maintenance</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/5tdn3x6vhp8q">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Sep  3, 18:00 UTC
+Completed - The scheduled maintenance has been completed.
+Sep  3, 14:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Aug 31, 14:21 UTC
+Scheduled - Start: 2024-09-03 14:00 UTC
+End: 2024-09-03 18:00 UTC
+During the above window, our Engineering team will be performing additional maintenance on core infrastructure in our production environment. This is the second part of the maintenance completed on 29th August (posted here https://status.digitalocean.com/incidents/wb3g6x6q55ct) to resolve the root cause of an issue discovered in a previous incident, details of which can be found here: 
+https://status.digitalocean.com/incidents/jmj2wx0y78q3.
+Expected Impact:
+During the maintenance window, users may experience issues with management operations for services including but not limited to, Droplets, Managed Kubernetes, Load Balancers and Managed Databases. Connectivity to existing services should not be impacted. We will endeavor to keep this to a minimum for the duration of the maintenance.
+If you have any questions related to this issue, please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket
+Thank you,
+Team DigitalOcean</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;21
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-30 datetime="2024-08-30T14:10:19.000Z">2024-08-30</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-30 datetime="2024-08-30T14:10:19.000Z"></time>
           </button>
@@ -2189,65 +2250,6 @@ Investigating - As of 16:30 UTC, Our Engineering team is investigating an issue 
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/w3mqd7fsn36m"
-                        open
-                      >
-                        <summary class="article-expander__title">SYD1 Network Maintenance</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/w3mqd7fsn36m">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aug  5, 10:57 UTC
-Completed - SYD1 Network Maintenance previously scheduled today (2024-08-05) at 12:00 UTC has been rescheduled for 2024-08-08 at 12:00 UTC. We have already notified you via email and will add a new maintenance post on status.digitalocean.com with the updated date and timings for this maintenance.
-We apologize for any inconvenience and thank you for your understanding. If you have questions or concerns about this maintenance, please reach out to us by opening up a ticket on your account.
-Aug  2, 12:08 UTC
-Scheduled - Start: 2024-08-05 12:00 UTC
-End: 2024-08-05 14:00 UTC 
-During the above window, we will be performing maintenance in our SYD1 region as part of network upgrades.
-Expected Impact:
-These upgrades are designed and tested to be seamless and we do not expect any visible impact to customer traffic due to this maintenance. Should an unexpected issue arise, a possible outcome would be a temporary loss of public traffic inbound and outbound connectivity for a short time for the impacted Droplets and Droplet-based services in the region. We will endeavor to keep any such impact to a minimum.
-If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/pdvg7yvldz8s"
-                        open
-                      >
-                        <summary class="article-expander__title">App Platform and Container Registry in NYC</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/pdvg7yvldz8s">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aug  5, 05:48 UTC
-Resolved - Our Engineering team has confirmed the full resolution of the issue with the DigitalOcean App Platform and Container Registry in our NYC regions. 
-Users should no longer experience any issues while pushing to Container Registries and working with App Platform builds. 
-If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
-Aug  5, 05:21 UTC
-Monitoring - As of 03:08 UTC, our Engineering team has deployed a fix to resolve the issue with the DigitalOcean App Platform and Container Registry in our NYC regions. 
-At this time, users should no longer experience issues while pushing to Container Registries and working with App Platform builds. 
-We are currently monitoring the situation closely and will post an update as soon as the issue is fully resolved. Thank you for your patience and we apologize for any inconvenience.
-Aug  5, 03:21 UTC
-Investigating - Our Engineering team is investigating an issue with the DigitalOcean App Platform and Container Registry in our NYC regions. At this time, users may experience delays or timeouts while pushing to Container Registries, as well as delays when working with App Platform builds. 
-We apologize for the inconvenience and will share an update once we have more information.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -2255,8 +2257,8 @@ We apologize for the inconvenience and will share an update once we have more in
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/10674513032">
-        <time id="build-timestamp" datetime="2024-09-03T00:25:49.028Z">2024-09-03T00:25:49.028Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/10692801794">
+        <time id="build-timestamp" datetime="2024-09-04T00:26:03.726Z">2024-09-04T00:26:03.726Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

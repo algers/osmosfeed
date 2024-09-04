@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-03T00:25:49.047Z</id>
+    <id>urn:2024-09-04T00:26:03.745Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-03T00:25:49.047Z</updated>
+    <updated>2024-09-04T00:26:03.745Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Core Infrastructure Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/5tdn3x6vhp8q</id>
+        <link href="https://status.digitalocean.com/incidents/5tdn3x6vhp8q"/>
+        <updated>2024-09-03T18:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Sep  3, 18:00 UTC
+Completed - The scheduled maintenance has been completed.
+Sep  3, 14:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Aug 31, 14:21 UTC
+Scheduled - Start: 2024-09-03 14:00 UTC
+End: 2024-09-03 18:00 UTC
+During the above window, our Engineering team will be performing additional maintenance on core infrastructure in our production environment. This is the second part of the maintenance completed on 29th August (posted here https://status.digitalocean.com/incidents/wb3g6x6q55ct) to resolve the root cause of an issue discovered in a previous incident, details of which can be found here: 
+https://status.digitalocean.com/incidents/jmj2wx0y78q3.
+Expected Impact:
+During the maintenance window, users may experience issues with management operations for services including but not limited to, Droplets, Managed Kubernetes, Load Balancers and Managed Databases. Connectivity to existing services should not be impacted. We will endeavor to keep this to a minimum for the duration of the maintenance.
+If you have any questions related to this issue, please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket
+Thank you,
+Team DigitalOcean]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Managed Kubernetes Clusters in SFO3]]></title>
         <id>https://status.digitalocean.com/incidents/y75kp2ct6d0b</id>
@@ -878,45 +901,6 @@ Update - Multiple Engineering teams are continuing to investigate the issue. Cus
 We will post another update soon.
 Aug  5, 17:05 UTC
 Investigating - As of 16:30 UTC, Our Engineering team is investigating an issue with processing of events in all regions. During this time users may experience failed events on Droplets. We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SYD1 Network Maintenance]]></title>
-        <id>https://status.digitalocean.com/incidents/w3mqd7fsn36m</id>
-        <link href="https://status.digitalocean.com/incidents/w3mqd7fsn36m"/>
-        <updated>2024-08-05T10:57:01.000Z</updated>
-        <summary type="html"><![CDATA[Aug  5, 10:57 UTC
-Completed - SYD1 Network Maintenance previously scheduled today (2024-08-05) at 12:00 UTC has been rescheduled for 2024-08-08 at 12:00 UTC. We have already notified you via email and will add a new maintenance post on status.digitalocean.com with the updated date and timings for this maintenance.
-We apologize for any inconvenience and thank you for your understanding. If you have questions or concerns about this maintenance, please reach out to us by opening up a ticket on your account.
-Aug  2, 12:08 UTC
-Scheduled - Start: 2024-08-05 12:00 UTC
-End: 2024-08-05 14:00 UTC 
-During the above window, we will be performing maintenance in our SYD1 region as part of network upgrades.
-Expected Impact:
-These upgrades are designed and tested to be seamless and we do not expect any visible impact to customer traffic due to this maintenance. Should an unexpected issue arise, a possible outcome would be a temporary loss of public traffic inbound and outbound connectivity for a short time for the impacted Droplets and Droplet-based services in the region. We will endeavor to keep any such impact to a minimum.
-If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[App Platform and Container Registry in NYC]]></title>
-        <id>https://status.digitalocean.com/incidents/pdvg7yvldz8s</id>
-        <link href="https://status.digitalocean.com/incidents/pdvg7yvldz8s"/>
-        <updated>2024-08-05T05:48:40.000Z</updated>
-        <summary type="html"><![CDATA[Aug  5, 05:48 UTC
-Resolved - Our Engineering team has confirmed the full resolution of the issue with the DigitalOcean App Platform and Container Registry in our NYC regions. 
-Users should no longer experience any issues while pushing to Container Registries and working with App Platform builds. 
-If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
-Aug  5, 05:21 UTC
-Monitoring - As of 03:08 UTC, our Engineering team has deployed a fix to resolve the issue with the DigitalOcean App Platform and Container Registry in our NYC regions. 
-At this time, users should no longer experience issues while pushing to Container Registries and working with App Platform builds. 
-We are currently monitoring the situation closely and will post an update as soon as the issue is fully resolved. Thank you for your patience and we apologize for any inconvenience.
-Aug  5, 03:21 UTC
-Investigating - Our Engineering team is investigating an issue with the DigitalOcean App Platform and Container Registry in our NYC regions. At this time, users may experience delays or timeouts while pushing to Container Registries, as well as delays when working with App Platform builds. 
-We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
         </author>

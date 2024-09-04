@@ -72,6 +72,16 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/5tdn3x6vhp8q",
+          "author": null,
+          "description": "Sep  3, 18:00 UTC\nCompleted - The scheduled maintenance has been completed.\nSep  3, 14:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nAug 31, 14:21 UTC\nScheduled - Start: 2024-09-03 14:00 UTC\nEnd: 2024-09-03 18:00 UTC\nDuring the above window, our Engineering team will be performing additional maintenance on core infrastructure in our production environment. This is the second part of the maintenance completed on 29th August (posted here https://status.digitalocean.com/incidents/wb3g6x6q55ct) to resolve the root cause of an issue discovered in a previous incident, details of which can be found here: \nhttps://status.digitalocean.com/incidents/jmj2wx0y78q3.\nExpected Impact:\nDuring the maintenance window, users may experience issues with management operations for services including but not limited to, Droplets, Managed Kubernetes, Load Balancers and Managed Databases. Connectivity to existing services should not be impacted. We will endeavor to keep this to a minimum for the duration of the maintenance.\nIf you have any questions related to this issue, please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket\nThank you,\nTeam DigitalOcean",
+          "link": "https://status.digitalocean.com/incidents/5tdn3x6vhp8q",
+          "publishedOn": "2024-09-03T18:00:02.000Z",
+          "wordCount": 6366,
+          "title": "Core Infrastructure Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/y75kp2ct6d0b",
           "author": null,
           "description": "Aug 30, 14:10 UTC\nResolved - Our Engineering team has resolved the issue with Managed Kubernetes clusters in the SFO3 region. All services should now be operating normally. If you continue to experience any problems, please open a ticket with our support team. We apologize for any inconvenience this may have caused.\nAug 30, 13:45 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue affecting Managed Kubernetes clusters in the SFO3 region and is closely monitoring the situation. We will provide an update as soon as the issue is fully resolved.\nAug 30, 13:37 UTC\nInvestigating - Our Engineering team is currently investigating issues with the accessibility of Managed Kubernetes clusters in the SFO3 region. During this time, some users may experience difficulties connecting to their Managed Kubernetes clusters. We apologize for the inconvenience and will provide an update as soon as we have more information.",
@@ -219,26 +229,6 @@
           "publishedOn": "2024-08-05T19:46:10.000Z",
           "wordCount": 7150,
           "title": "Global Impact to Events, Cloud Control Panel, and API",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/w3mqd7fsn36m",
-          "author": null,
-          "description": "Aug  5, 10:57 UTC\nCompleted - SYD1 Network Maintenance previously scheduled today (2024-08-05) at 12:00 UTC has been rescheduled for 2024-08-08 at 12:00 UTC. We have already notified you via email and will add a new maintenance post on status.digitalocean.com with the updated date and timings for this maintenance.\nWe apologize for any inconvenience and thank you for your understanding. If you have questions or concerns about this maintenance, please reach out to us by opening up a ticket on your account.\nAug  2, 12:08 UTC\nScheduled - Start: 2024-08-05 12:00 UTC\nEnd: 2024-08-05 14:00 UTC \nDuring the above window, we will be performing maintenance in our SYD1 region as part of network upgrades.\nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any visible impact to customer traffic due to this maintenance. Should an unexpected issue arise, a possible outcome would be a temporary loss of public traffic inbound and outbound connectivity for a short time for the impacted Droplets and Droplet-based services in the region. We will endeavor to keep any such impact to a minimum.\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
-          "link": "https://status.digitalocean.com/incidents/w3mqd7fsn36m",
-          "publishedOn": "2024-08-05T10:57:01.000Z",
-          "wordCount": 6383,
-          "title": "SYD1 Network Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/pdvg7yvldz8s",
-          "author": null,
-          "description": "Aug  5, 05:48 UTC\nResolved - Our Engineering team has confirmed the full resolution of the issue with the DigitalOcean App Platform and Container Registry in our NYC regions. \nUsers should no longer experience any issues while pushing to Container Registries and working with App Platform builds. \nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nAug  5, 05:21 UTC\nMonitoring - As of 03:08 UTC, our Engineering team has deployed a fix to resolve the issue with the DigitalOcean App Platform and Container Registry in our NYC regions. \nAt this time, users should no longer experience issues while pushing to Container Registries and working with App Platform builds. \nWe are currently monitoring the situation closely and will post an update as soon as the issue is fully resolved. Thank you for your patience and we apologize for any inconvenience.\nAug  5, 03:21 UTC\nInvestigating - Our Engineering team is investigating an issue with the DigitalOcean App Platform and Container Registry in our NYC regions. At this time, users may experience delays or timeouts while pushing to Container Registries, as well as delays when working with App Platform builds. \nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/pdvg7yvldz8s",
-          "publishedOn": "2024-08-05T05:48:40.000Z",
-          "wordCount": 6415,
-          "title": "App Platform and Container Registry in NYC",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
