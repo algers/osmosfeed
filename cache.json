@@ -64,7 +64,38 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://status.twilio.com/incidents/38mwx152y9t1",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Sep 4, 21:00 PDT  -  Sep 5, 07:00 PDT\nSep  4, 16:46 PDT\nScheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 04 September 2024 at 21:00 PDT until 05 September 2024 at 07:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.\n\nImpacted Products: Verify Silent Network Auth, Lookup SIM Swap",
+          "link": "https://status.twilio.com/incidents/38mwx152y9t1",
+          "publishedOn": "2024-09-05T04:00:00.000Z",
+          "wordCount": 7533,
+          "title": "United States Account Security Carrier Partner Maintenance - AT&T",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/n7d5xtr59w1x",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Sep 4, 21:00 PDT  -  Sep 5, 01:30 PDT\nAug 30, 15:34 PDT\nScheduled - A subset of small networks in the US are conducting a planned maintenance from 04 September 2024 at 21:00 PDT until 05 September 2024 at 01:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.",
+          "link": "https://status.twilio.com/incidents/n7d5xtr59w1x",
+          "publishedOn": "2024-09-05T04:00:00.000Z",
+          "wordCount": 7533,
+          "title": "US SMS Carrier Maintenance - Small US Carriers",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/sd86f4cvjmr0",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Sep 4, 20:30 PDT  -  Sep 5, 05:00 PDT\nAug 30, 15:54 PDT\nScheduled - The T-mobile network in the US is conducting a planned maintenance from 04 September 2024 at 20:30 PDT until 05 September 2024 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-mobile US handsets.",
+          "link": "https://status.twilio.com/incidents/sd86f4cvjmr0",
+          "publishedOn": "2024-09-05T03:30:00.000Z",
+          "wordCount": 7524,
+          "title": "US SMS Carrier Maintenance - T-mobile",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        }
+      ]
     },
     {
       "title": "DigitalOcean Status - Incident History",
@@ -219,16 +250,6 @@
           "publishedOn": "2024-08-06T20:40:19.000Z",
           "wordCount": 6371,
           "title": "Droplet Rebuild and Restore Event Processing",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/222822dwq709",
-          "author": null,
-          "description": "Aug  5, 19:46 UTC\nResolved - Our engineering team has resolved the issue impacting the management of multiple services via the Cloud Control Panel and the API, including event processing. All services should now be functioning normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nAug  5, 19:20 UTC\nMonitoring - Our Engineering teams have identified a remediation strategy and are working to roll it out to all regions. We are starting to see services recover as a result of this fix being deployed.\nCustomers may begin to see some management functionality for services return and we will continue to provide updates as we work to return full functionality.\nAug  5, 17:39 UTC\nIdentified - Our Engineering teams have now identified the cause of the issue impacting multiple services. They continue to work on resolving the impact to customers.\nDuring this time, users may experience errors when attempting to manage services through the UI or the API, including accessing Droplet information or the processing of Droplet events. Existing customer resources, such as Droplets, remain online and accessible.\nWe apologize for the inconvenience and will share an update once we have more information.\nAug  5, 17:11 UTC\nUpdate - Multiple Engineering teams are continuing to investigate the issue. Customers may also encounter errors when managing other services and using the API at this time.\nWe will post another update soon.\nAug  5, 17:05 UTC\nInvestigating - As of 16:30 UTC, Our Engineering team is investigating an issue with processing of events in all regions. During this time users may experience failed events on Droplets. We apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/222822dwq709",
-          "publishedOn": "2024-08-05T19:46:10.000Z",
-          "wordCount": 7150,
-          "title": "Global Impact to Events, Cloud Control Panel, and API",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -416,6 +437,16 @@
       "siteUrl": "https://slack-status.com",
       "articles": [
         {
+          "id": "https://slack-status.com/2024-08/a93569f745bc5717",
+          "author": null,
+          "description": "Issue summary:\nFrom August 27, 2024, at around 8:17 PM PDT until August 28, 2024, around 1:39 PM PDT, some Android users experienced performance issues while trying to use mentions.\n\nWe rolled back a feature flag related to the message composer on Android. This change unexpectedly introduced an error in backend logic when users attempted a mention, causing the UI to become overwhelmed and unresponsive. We identified the cause and re-enabled the feature, gradually rolling it out to users and resolving the issue for those affected.\n\nWe also determined that the app crash issue mentioned in our updates was unrelated to the performance issues. You can review our summary of that incident here: https://slack-status.com/2024-08/459426ecb123c558. We apologize for any confusion.",
+          "link": "https://slack-status.com/2024-08/a93569f745bc5717",
+          "publishedOn": "2024-09-04T23:49:10.000Z",
+          "wordCount": 435,
+          "title": "Incident: A small number of users experiencing lagging behavior when using mentions on Android",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
           "id": "https://slack-status.com/2024-08/459426ecb123c558",
           "author": null,
           "description": "Issue summary:\nFrom August 27, 2024 at 8:30 PM PDT to August 29, 2024 at 11:00 AM PDT, some users were experiencing crashes in Slack for Android.\n\nAfter a thorough investigation, we determined that we were not handling a specific subset of errors efficiently, resulting in app crashes for some users.\n\nWe rolled out a code change to improve the way we handle these errors, resolving the issue for all affected customers.",
@@ -443,16 +474,6 @@
           "publishedOn": "2024-08-28T23:38:12.000Z",
           "wordCount": 278,
           "title": "Incident: Brief trouble loading or sending messages",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-08/a93569f745bc5717",
-          "author": null,
-          "description": "We've identified the cause of the performance issues and are rolling out a fix in the next app update which is expected to roll out in the coming days.\n\nWe will continue to work directly with affected users through support tickets. For any additional questions, please contact us at feedback@slack.com.\n\nWe apologize for any inconvenience.",
-          "link": "https://slack-status.com/2024-08/a93569f745bc5717",
-          "publishedOn": "2024-08-28T23:29:47.000Z",
-          "wordCount": 313,
-          "title": "Incident: A small number of users experiencing lagging behavior when using mentions on Android",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {

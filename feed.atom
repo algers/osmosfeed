@@ -1,10 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-04T00:26:03.745Z</id>
+    <id>urn:2024-09-05T00:26:07.677Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-04T00:26:03.745Z</updated>
+    <updated>2024-09-05T00:26:07.677Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - AT&T]]></title>
+        <id>https://status.twilio.com/incidents/38mwx152y9t1</id>
+        <link href="https://status.twilio.com/incidents/38mwx152y9t1"/>
+        <updated>2024-09-05T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 4, 21:00 PDT  -  Sep 5, 07:00 PDT
+Sep  4, 16:46 PDT
+Scheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 04 September 2024 at 21:00 PDT until 05 September 2024 at 07:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.
+
+Impacted Products: Verify Silent Network Auth, Lookup SIM Swap]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US SMS Carrier Maintenance - Small US Carriers]]></title>
+        <id>https://status.twilio.com/incidents/n7d5xtr59w1x</id>
+        <link href="https://status.twilio.com/incidents/n7d5xtr59w1x"/>
+        <updated>2024-09-05T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 4, 21:00 PDT  -  Sep 5, 01:30 PDT
+Aug 30, 15:34 PDT
+Scheduled - A subset of small networks in the US are conducting a planned maintenance from 04 September 2024 at 21:00 PDT until 05 September 2024 at 01:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US SMS Carrier Maintenance - T-mobile]]></title>
+        <id>https://status.twilio.com/incidents/sd86f4cvjmr0</id>
+        <link href="https://status.twilio.com/incidents/sd86f4cvjmr0"/>
+        <updated>2024-09-05T03:30:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 4, 20:30 PDT  -  Sep 5, 05:00 PDT
+Aug 30, 15:54 PDT
+Scheduled - The T-mobile network in the US is conducting a planned maintenance from 04 September 2024 at 20:30 PDT until 05 September 2024 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-mobile US handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: A small number of users experiencing lagging behavior when using mentions on Android]]></title>
+        <id>https://slack-status.com/2024-08/a93569f745bc5717</id>
+        <link href="https://slack-status.com/2024-08/a93569f745bc5717"/>
+        <updated>2024-09-04T23:49:10.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+From August 27, 2024, at around 8:17 PM PDT until August 28, 2024, around 1:39 PM PDT, some Android users experienced performance issues while trying to use mentions.
+
+We rolled back a feature flag related to the message composer on Android. This change unexpectedly introduced an error in backend logic when users attempted a mention, causing the UI to become overwhelmed and unresponsive. We identified the cause and re-enabled the feature, gradually rolling it out to users and resolving the issue for those affected.
+
+We also determined that the app crash issue mentioned in our updates was unrelated to the performance issues. You can review our summary of that incident here: https://slack-status.com/2024-08/459426ecb123c558. We apologize for any confusion.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Core Infrastructure Maintenance]]></title>
         <id>https://status.digitalocean.com/incidents/5tdn3x6vhp8q</id>
@@ -231,20 +284,6 @@ We detected a spike in error rates which we traced back to an upstream provider 
 To mitigate user impact, we temporarily diverted traffic from the affected databases. Once the error rates returned to normal and the upstream provider restored functionality, traffic was reverted back to the normal databases.
 
 We apologize for any disruption to your work day.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: A small number of users experiencing lagging behavior when using mentions on Android]]></title>
-        <id>https://slack-status.com/2024-08/a93569f745bc5717</id>
-        <link href="https://slack-status.com/2024-08/a93569f745bc5717"/>
-        <updated>2024-08-28T23:29:47.000Z</updated>
-        <summary type="html"><![CDATA[We've identified the cause of the performance issues and are rolling out a fix in the next app update which is expected to roll out in the coming days.
-
-We will continue to work directly with affected users through support tickets. For any additional questions, please contact us at feedback@slack.com.
-
-We apologize for any inconvenience.]]></summary>
         <author>
             <name>Slack System Status</name>
         </author>
@@ -880,29 +919,6 @@ Resolved - Beginning at 6:52 PM UTC on August 6, 2024 and lasting until 6:59 PM 
 We did not status before we completed the rollback, and the incident is currently resolved. We are sorry for the delayed post on githubstatus.com.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Global Impact to Events, Cloud Control Panel, and API]]></title>
-        <id>https://status.digitalocean.com/incidents/222822dwq709</id>
-        <link href="https://status.digitalocean.com/incidents/222822dwq709"/>
-        <updated>2024-08-05T19:46:10.000Z</updated>
-        <summary type="html"><![CDATA[Aug  5, 19:46 UTC
-Resolved - Our engineering team has resolved the issue impacting the management of multiple services via the Cloud Control Panel and the API, including event processing. All services should now be functioning normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
-Aug  5, 19:20 UTC
-Monitoring - Our Engineering teams have identified a remediation strategy and are working to roll it out to all regions. We are starting to see services recover as a result of this fix being deployed.
-Customers may begin to see some management functionality for services return and we will continue to provide updates as we work to return full functionality.
-Aug  5, 17:39 UTC
-Identified - Our Engineering teams have now identified the cause of the issue impacting multiple services. They continue to work on resolving the impact to customers.
-During this time, users may experience errors when attempting to manage services through the UI or the API, including accessing Droplet information or the processing of Droplet events. Existing customer resources, such as Droplets, remain online and accessible.
-We apologize for the inconvenience and will share an update once we have more information.
-Aug  5, 17:11 UTC
-Update - Multiple Engineering teams are continuing to investigate the issue. Customers may also encounter errors when managing other services and using the API at this time.
-We will post another update soon.
-Aug  5, 17:05 UTC
-Investigating - As of 16:30 UTC, Our Engineering team is investigating an issue with processing of events in all regions. During this time users may experience failed events on Droplets. We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
