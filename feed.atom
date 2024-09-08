@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-07T00:25:20.046Z</id>
+    <id>urn:2024-09-08T00:29:14.280Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-07T00:25:20.046Z</updated>
+    <updated>2024-09-08T00:29:14.280Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[New Zealand SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/xx6mjcx3wdqg</id>
+        <link href="https://status.twilio.com/incidents/xx6mjcx3wdqg"/>
+        <updated>2024-09-08T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 8, 04:00 - 05:00 PDT
+Sep  5, 20:07 PDT
+Scheduled - Our SMS carrier partner in New Zealand is conducting a planned maintenance from 08 September 2024 at 04:00 PDT until 08 September 2024 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from New Zealand handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Canada Account Security Service Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/001j37q55vs4</id>
+        <link href="https://status.twilio.com/incidents/001j37q55vs4"/>
+        <updated>2024-09-08T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 7, 21:00 PDT  -  Sep 8, 08:00 PDT
+Sep  5, 08:03 PDT
+Scheduled - Our Service Partner is conducting a planned maintenance from 07 September 2024 at 21:00 PDT until 08 September 2024 at 08:00 PDT. During the maintenance window, there could be intermittent API request failures for the following destination: Canada
+
+Impacted Products: Lookup SIM Swap, Legacy Identity MatchAndAttributes]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Webhooks Not Processing on EU1 Enterprise Zone]]></title>
         <id>https://status.make.com/incidents/3bcx3h9g0rdk</id>
@@ -845,55 +871,6 @@ Aug 12, 14:03 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Short outage in eu1.make.com]]></title>
-        <id>https://status.make.com/incidents/6p1zw2twwdjq</id>
-        <link href="https://status.make.com/incidents/6p1zw2twwdjq"/>
-        <updated>2024-08-08T18:10:03.000Z</updated>
-        <summary type="html"><![CDATA[Aug  8, 20:10 CEST
-Resolved - This incident has been resolved.
-Aug  8, 18:51 CEST
-Monitoring - Dear Users,
-We would like to inform you about an outage that occurred earlier today, causing downtime for scenario executions and webhook functionality for approximately 15 minutes (between 17:10 and 17:25 CEST) in the eu1.make.com zone. The platform is now fully stable. The issue was caused by an unexpected problem with a third-party queuing tool, which encountered hardware-related difficulties. We will continue to monitor the situation closely for the next hour.
-Thank you for your understanding.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SYD1 Network Maintenance]]></title>
-        <id>https://status.digitalocean.com/incidents/b1wvddft74xr</id>
-        <link href="https://status.digitalocean.com/incidents/b1wvddft74xr"/>
-        <updated>2024-08-08T14:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Aug  8, 14:00 UTC
-Completed - The scheduled maintenance has been completed.
-Aug  8, 12:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Aug  5, 15:48 UTC
-Scheduled - Hello,
-We are reaching out again to inform you that the SYD1 Network Maintenance which was previously scheduled to start today (2024-08-05) at 12:00 UTC has been rescheduled to the following window:
-Start: 2024-08-08 12:00 UTC
-End: 2024-08-08 14:00 UTC
-We apologize for any inconvenience this short notice may have caused and thank you for your understanding. You may find the initial maintenance notice along with a description of any expected impact related to this work included at the bottom of this message.
-If you have questions or concerns about this maintenance, please reach out to us by opening up a ticket on your account.
-Thank you,
-
----BEGIN INITIAL MAINTENANCE NOTICE---
-
-SYD1 Network Maintenance 2024-08-05 12:00 UTC
-Start: 2024-08-05 12:00 UTC
-End: 2024-08-05 14:00 UTC 
-Hello, 
-During the above window, we will be performing maintenance in our SYD1 region as part of network upgrades.
-Expected Impact:
-These upgrades are designed and tested to be seamless and we do not expect any visible impact to customer traffic due to this maintenance. Should an unexpected issue arise, a possible outcome would be a temporary loss of public traffic inbound and outbound connectivity for a short time for the impacted Droplets and Droplet-based services in the region. We will endeavor to keep any such impact to a minimum.
-If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket
-Thank you,
-Team DigitalOcean]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
