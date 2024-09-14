@@ -1,64 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-13T00:26:17.132Z</id>
+    <id>urn:2024-09-14T00:25:52.737Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-13T00:26:17.132Z</updated>
+    <updated>2024-09-14T00:25:52.737Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[US and Canada SMS and MMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/34qw5kzmzhkb</id>
-        <link href="https://status.twilio.com/incidents/34qw5kzmzhkb"/>
-        <updated>2024-09-13T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 12, 20:00 PDT  -  Sep 13, 00:00 PDT
-Sep 11, 17:05 PDT
-Scheduled - Our SMS and MMS carrier partner in US and Canada is conducting a planned maintenance from 12 September 2024 at 20:00 PDT until 13 September 2024 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets.]]></summary>
+        <title type="html"><![CDATA[New Zealand SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/999s0s458g8f</id>
+        <link href="https://status.twilio.com/incidents/999s0s458g8f"/>
+        <updated>2024-09-14T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 14, 04:00 - 05:00 PDT
+Sep  8, 22:41 PDT
+Scheduled - Our SMS carrier partner in New Zealand is conducting a planned maintenance from 14 September 2024 at 04:00 PDT until 14 September 2024 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from New Zealand handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[US SMS Carrier Maintenance - Small US Carriers]]></title>
-        <id>https://status.twilio.com/incidents/wq7gqvj4519s</id>
-        <link href="https://status.twilio.com/incidents/wq7gqvj4519s"/>
-        <updated>2024-09-13T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 12, 20:00 - 22:00 PDT
-Sep  9, 23:45 PDT
-Scheduled - A subset of small networks in the US are conducting a planned maintenance from 12 September 2024 at 20:00 PDT until 12 September 2024 at 22:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.]]></summary>
+        <title type="html"><![CDATA[Notion AI Partial Outage]]></title>
+        <id>https://status.notion.so/incidents/1rtf1lbh6360</id>
+        <link href="https://status.notion.so/incidents/1rtf1lbh6360"/>
+        <updated>2024-09-13T23:43:18.000Z</updated>
+        <summary type="html"><![CDATA[Sep 13, 16:43 PDT
+Update - We are continuing to work on a fix for this issue.
+Sep 13, 16:41 PDT
+Identified - We are currently experiencing a partial outage with Notion AI. Our engineering team has identified the cause and is working on implementing a fix. Users can hard refresh Notion to resolve the issue. We will share updates as soon as possible.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Search issues for Enterprise Grid users with Enterprise Key Management (EKM) enabled.]]></title>
+        <id>https://slack-status.com/2024-09/acbfa877aa3bd776</id>
+        <link href="https://slack-status.com/2024-09/acbfa877aa3bd776"/>
+        <updated>2024-09-13T21:54:13.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+
+From September 5, 2024 at 2:50 PM PDT to September 8, 2024 at 10 PM PDT, some customers using Enterprise Key Management (EKM) were unable to search for recently created messages. 
+
+We traced this issue back to a recent code change which we discovered was creating indexing errors for EKM customers when they used the search function. We then reverted the problematic code change and ran a reindexing script to make the missing messages searchable again, which resolved the issue for all affected users.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Report Delays to Multiple Networks in the US for a Subset of Short Codes]]></title>
+        <id>https://status.twilio.com/incidents/bhsw1phbjjp1</id>
+        <link href="https://status.twilio.com/incidents/bhsw1phbjjp1"/>
+        <updated>2024-09-13T20:15:56.000Z</updated>
+        <summary type="html"><![CDATA[Sep 13, 13:15 PDT
+Resolved - We are no longer experiencing SMS delivery report delays to multiple networks in the US for a subset of short codes. This incident has been resolved.
+Sep 13, 11:32 PDT
+Monitoring - We are observing recovery in SMS delivery report delays to multiple networks in the US for a subset of short codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Sep 13, 10:38 PDT
+Investigating - We are experiencing SMS delivery report delays to multiple networks in the US for a subset of short codes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Czech Republic Voice Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/pw14xny28xx8</id>
-        <link href="https://status.twilio.com/incidents/pw14xny28xx8"/>
-        <updated>2024-09-13T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 12, 18:00 - 20:30 PDT
-Sep 12, 07:40 PDT
-Scheduled - Our Voice carrier partner in the Czech Republic is conducting an emergency maintenance from 12 September 2024 at 18:00 PDT until 12 September 2024 at 20:30 PDT. During the maintenance window, there could be intermittent call disconnects or call failures from and to Twilio Czech Republic phone numbers.]]></summary>
+        <title type="html"><![CDATA[Incident: Trouble updating user status and profile photos]]></title>
+        <id>https://slack-status.com/2024-09/4beb5c9bba352cef</id>
+        <link href="https://slack-status.com/2024-09/4beb5c9bba352cef"/>
+        <updated>2024-09-13T17:04:13.000Z</updated>
+        <summary type="html"><![CDATA[The fix mentioned in our previous update is continuing to roll out. Thank you for your patience while we work to resolve this issue. We'll be back with another update when we have something to share.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Portugal SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/bzztspqn8n81</id>
-        <link href="https://status.twilio.com/incidents/bzztspqn8n81"/>
-        <updated>2024-09-13T00:30:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 12, 17:30 - 19:30 PDT
-Sep 10, 15:34 PDT
-Scheduled - Our SMS carrier partner in Portugal is conducting a planned maintenance from 11 September 2024 at 17:30 PDT until 11 September 2024 at 19:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Portugal handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[SMS Delivery Failures to Orange Network in Tunisia]]></title>
         <id>https://status.twilio.com/incidents/dn27314vvhpw</id>
         <link href="https://status.twilio.com/incidents/dn27314vvhpw"/>
-        <updated>2024-09-13T00:06:33.000Z</updated>
-        <summary type="html"><![CDATA[Sep 12, 17:06 PDT
+        <updated>2024-09-13T16:03:39.000Z</updated>
+        <summary type="html"><![CDATA[Sep 13, 09:03 PDT
+Resolved - We are no longer experiencing SMS delivery failures to Orange Network in Tunisia. This incident has been resolved.
+Sep 13, 06:59 PDT
+Monitoring - We are observing successful SMS delivery to Orange Network in Tunisia. We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Sep 12, 23:07 PDT
+Update - We continue to experience SMS delivery failures to Orange Network in Tunisia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in the next 8 hours or as soon as more information becomes available.
+Sep 12, 19:07 PDT
+Update - We continue to experience SMS delivery failures to Orange Network in Tunisia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in the next 4 hours or as soon as more information becomes available.
+Sep 12, 17:06 PDT
 Update - We are still experiencing SMS delivery failures to Orange Network in Tunisia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
 Sep 12, 16:19 PDT
 Update - We are experiencing SMS delivery failures to Orange Network in Tunisia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.
@@ -69,16 +93,50 @@ Investigating - Our monitoring systems have detected a potential issue with SMS 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Megafon]]></title>
-        <id>https://status.twilio.com/incidents/4n3vs1vwxbls</id>
-        <link href="https://status.twilio.com/incidents/4n3vs1vwxbls"/>
-        <updated>2024-09-13T00:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Sep 12, 17:00 PDT
+        <title type="html"><![CDATA[Issues with "Facebook Lead Ads" module]]></title>
+        <id>https://status.make.com/incidents/l0qwpr5cy52k</id>
+        <link href="https://status.make.com/incidents/l0qwpr5cy52k"/>
+        <updated>2024-09-13T10:48:13.000Z</updated>
+        <summary type="html"><![CDATA[Sep 13, 12:48 CEST
+Update - Meta has applied a fix which has improved the situation by reducing the number of errors. However, the issue has not yet been entirely resolved and Meta is being focused on solving the problem.
+Sep 12, 19:16 CEST
+Investigating - We are currently experiencing an issue with the Facebook Lead Ads module, which is not working properly.
+We have identified it to be on Meta side, also being reported on their community here: https://developers.facebook.com/support/bugs/904673388147179/
+We are working closely with our development team and Meta on this.]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Processing delays to some Issues, Pull Requests and Webhooks]]></title>
+        <id>https://www.githubstatus.com/incidents/v677w7xlvkss</id>
+        <link href="https://www.githubstatus.com/incidents/v677w7xlvkss"/>
+        <updated>2024-09-13T07:13:24.000Z</updated>
+        <summary type="html"><![CDATA[Sep 13, 07:13 UTC
+Resolved - This incident has been resolved.
+Sep 13, 06:49 UTC
+Update - We are seeing improvements in telemetry and are monitoring the delivery of delayed Webhooks and Actions job statuses.
+Sep 13, 06:23 UTC
+Update - We've applied a mitigation to fix the issues being experienced in some cases with delays to webhook deliveries, and the delayed reporting of the outcome of some running Actions jobs. We are monitoring for full recovery.
+Sep 13, 05:59 UTC
+Update - Actions is experiencing degraded performance. We are continuing to investigate.
+Sep 13, 05:42 UTC
+Investigating - We are investigating reports of degraded performance for Issues, Pull Requests and Webhooks]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US and Canada SMS and MMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/34qw5kzmzhkb</id>
+        <link href="https://status.twilio.com/incidents/34qw5kzmzhkb"/>
+        <updated>2024-09-13T07:00:06.000Z</updated>
+        <summary type="html"><![CDATA[Sep 13, 00:00 PDT
 Completed - The scheduled maintenance has been completed.
-Sep 12, 13:00 PDT
+Sep 12, 20:01 PDT
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Sep 10, 05:00 PDT
-Scheduled - The Megafon network in Russia is conducting an emergency maintenance from 12 September 2024 at 13:00 PDT until 12 September 2024 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Megafon Russia handsets.]]></summary>
+Sep 11, 17:05 PDT
+Scheduled - Our SMS and MMS carrier partner in US and Canada is conducting a planned maintenance from 12 September 2024 at 20:00 PDT until 13 September 2024 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -94,41 +152,6 @@ Sep 12, 16:13 PDT
 Identified - We are currently experiencing outage with Notion AI. Our engineering team is fully focused on resolving the issue and we will share updates as soon as possible.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Search issues for Enterprise Grid users with Enterprise Key Management (EKM) enabled.]]></title>
-        <id>https://slack-status.com/2024-09/acbfa877aa3bd776</id>
-        <link href="https://slack-status.com/2024-09/acbfa877aa3bd776"/>
-        <updated>2024-09-12T19:35:48.000Z</updated>
-        <summary type="html"><![CDATA[We’ve made a fix and the issue with searching for recent messages in Slack has been resolved for all impacted users. We appreciate your patience while we sorted this out.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Trouble updating user status and profile photos]]></title>
-        <id>https://slack-status.com/2024-09/4beb5c9bba352cef</id>
-        <link href="https://slack-status.com/2024-09/4beb5c9bba352cef"/>
-        <updated>2024-09-12T17:28:57.000Z</updated>
-        <summary type="html"><![CDATA[We do not have additional news to share at this time, but we’re focused on getting things back to normal as quickly as we can. 
-
-Thank you for your patience and we apologize for the continued trouble.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues with "Facebook Lead Ads" module]]></title>
-        <id>https://status.make.com/incidents/l0qwpr5cy52k</id>
-        <link href="https://status.make.com/incidents/l0qwpr5cy52k"/>
-        <updated>2024-09-12T17:16:02.000Z</updated>
-        <summary type="html"><![CDATA[Sep 12, 19:16 CEST
-Investigating - We are currently experiencing an issue with the Facebook Lead Ads module, which is not working properly.
-We have identified it to be on Meta side, also being reported on their community here: https://developers.facebook.com/support/bugs/904673388147179/
-We are working closely with our development team and Meta on this.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1075,72 +1098,6 @@ Aug 15, 13:45 UTC
 Update - Approximately 10-15% of customers may be experiencing problems executing new GitHub Actions runs. The problem is currently being investigated by our teams.
 Aug 15, 13:35 UTC
 Investigating - We are investigating reports of degraded performance for Actions]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Networking in SFO2 and SFO3 region]]></title>
-        <id>https://status.digitalocean.com/incidents/bcbmw7dyzlst</id>
-        <link href="https://status.digitalocean.com/incidents/bcbmw7dyzlst"/>
-        <updated>2024-08-15T11:48:47.000Z</updated>
-        <summary type="html"><![CDATA[Aug 15, 11:48 UTC
-Resolved - As of 10:45 UTC, our engineering team has resolved the issue with networking in SFO2 and SFO3 regions, and networking in the regions should now be operating normally. If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
-Aug 15, 11:21 UTC
-Monitoring - Our Engineering team has identified the cause of the issue with networking in SFO2 and SFO3 regions, and has implemented a fix. We are currently monitoring the situation and will post an update as soon as the issue is fully resolved.
-Aug 15, 10:02 UTC
-Investigating - As of 08:00 UTC, our Engineering team is currently investigating an issue impacting networking in SFO2 and SFO3 regions. Users may experience network connectivity loss to Droplets and Droplet-based services, like Managed Kubernetes and Database Clusters.
-We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notion AI Connectors are not getting results from Slack]]></title>
-        <id>https://status.notion.so/incidents/lbr0mlp4385c</id>
-        <link href="https://status.notion.so/incidents/lbr0mlp4385c"/>
-        <updated>2024-08-15T07:47:09.000Z</updated>
-        <summary type="html"><![CDATA[Aug 15, 00:47 PDT
-Resolved - Our engineering team has rolled out a fix. The permissions are now up to date, and the feature is enabled. The issue has been resolved.
-Aug 15, 00:15 PDT
-Monitoring - Our engineering team is working on the issue and we will keep you posted.
-Aug 14, 19:03 PDT
-Investigating - We are currently experiencing an issue on Notion AI connectors, where users may not be getting results from Slack.
-Our engineering team is fully focused on resolving the issue and we will share updates as soon as possible.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Event processing and Droplet Creates in TOR1]]></title>
-        <id>https://status.digitalocean.com/incidents/24p130g20tff</id>
-        <link href="https://status.digitalocean.com/incidents/24p130g20tff"/>
-        <updated>2024-08-15T05:40:22.000Z</updated>
-        <summary type="html"><![CDATA[Aug 15, 05:40 UTC
-Resolved - Our Engineering team has resolved the issue with Droplet creates and Snapshots. As of 05:30 UTC, users should be able to create Droplets, Snapshots and process events. Droplet backed services should also be operating normally. 
-If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
-Aug 15, 05:11 UTC
-Monitoring - Our Engineering team has identified the cause of the issue with Droplet creates and Snapshots, and has implemented a fix. We are currently monitoring the situation and will post an update as soon as the issue is fully resolved.
-Aug 15, 04:47 UTC
-Update - Our Engineering team is continuing to investigate the issue with Droplet creates and Snapshots. A subset of users may also encounter errors with creating Droplet based products such as Managed Databases, Load Balancers, Managed Kubernetes in TOR1 region
-We will post another update once we have more information.
-Aug 15, 04:29 UTC
-Investigating - As of 02:11 UTC, our Engineering team is investigating an issue with creation failure of Droplet and Snapshots in TOR1 region. Users may experience errors when rebuilding or restoring Droplets and Snapshots. Creating Droplets from Snapshots is also affected.
-We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All GitHub services are experiencing significant disruptions]]></title>
-        <id>https://www.githubstatus.com/incidents/kz4khcgdsfdv</id>
-        <link href="https://www.githubstatus.com/incidents/kz4khcgdsfdv"/>
-        <updated>2024-08-15T00:30:14.000Z</updated>
-        <summary type="html"><![CDATA[Aug 15, 00:30 UTC
-Resolved - On August 14, 2024 between 23:02 UTC and 23:38 UTC, all GitHub services on GitHub.com were inaccessible for all users.
- This was due to a configuration change that impacted traffic routing within our database infrastructure, resulting in critical services unexpectedly losing database connectivity. There was no data loss or corruption during this incident.
- At 22:59 UTC an erroneous configuration change rolled out to all GitHub.com databases that impacted the ability of the database to respond to health check pings from the routing service. As a result, the routing service could not detect healthy databases to route application traffic to. This led to widespread impact on GitHub.com starting at 23:02 UTC.
- We mitigated the incident by reverting the change and co…]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
