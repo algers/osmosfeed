@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-20T00:26:46.504Z</id>
+    <id>urn:2024-09-21T00:26:15.627Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-20T00:26:46.504Z</updated>
+    <updated>2024-09-21T00:26:15.627Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Performance degradation in bigger databases may cause slowness]]></title>
+        <id>https://status.notion.so/incidents/70x6qq8knxt9</id>
+        <link href="https://status.notion.so/incidents/70x6qq8knxt9"/>
+        <updated>2024-09-20T18:30:04.000Z</updated>
+        <summary type="html"><![CDATA[Sep 20, 11:30 PDT
+Resolved - This incident has been resolved.
+Sep 20, 10:26 PDT
+Identified - The issue has been identified and a fix is being implemented.
+Sep 20, 10:14 PDT
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[App Platform Connectivity]]></title>
         <id>https://status.digitalocean.com/incidents/jl76cw5xjq9c</id>
@@ -1157,26 +1172,6 @@ Our Engineering team found that a backing component of the Container Registry wa
 We apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Actions]]></title>
-        <id>https://www.githubstatus.com/incidents/3vhw289ftnqp</id>
-        <link href="https://www.githubstatus.com/incidents/3vhw289ftnqp"/>
-        <updated>2024-08-21T15:11:06.000Z</updated>
-        <summary type="html"><![CDATA[Aug 21, 15:11 UTC
-Resolved - On August 21, 2024, between 13:48 UTC and 15:00 UTC, Actions experienced degraded performance, leading to delays in workflow runs. On average, 25% of workflow runs were delayed by 8 minutes. Less than 1% of workflow runs exhausted retries and failed to start. The issue stemmed from a backlog of Pull Request events which caused delays in Actions processing the event queues that trigger workflow runs.
-We mitigated the incident by disabling the process that led to the sudden spike in Pull Request events. We are working to improve our monitoring and deployment practices to reduce our time to detection and mitigation of issues like this one in the future. We are also identifying appropriate changes to rate limits and reserved capacity to reduce the breadth of impact.
-Aug 21, 15:10 UTC
-Update - We have seen recovery and Actions workflow runs are now running as expected.
-Aug 21, 14:51 UTC
-Update - We are seeing reduced delays for Actions workflow runs to get triggered. We are continuing to investigate how to further reduce impact on customers and recover more quickly.
-Aug 21, 14:15 UTC
-Update - We are investigating reports of users seeing delays for Actions workflow runs to get triggered.
-Aug 21, 14:09 UTC
-Investigating - We are investigating reports of degraded performance for Actions]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>

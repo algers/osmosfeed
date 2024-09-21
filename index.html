@@ -22,6 +22,59 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-09-20 datetime="2024-09-20T18:30:04.000Z">2024-09-20</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-09-20 datetime="2024-09-20T18:30:04.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Notion Status - Incident History</button>
+                  <a class="source-heading__link" href="https://status.notion.so">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.notion.so/incidents/70x6qq8knxt9"
+                        open
+                      >
+                        <summary class="article-expander__title">Performance degradation in bigger databases may cause slowness</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.notion.so/incidents/70x6qq8knxt9">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Sep 20, 11:30 PDT
+Resolved - This incident has been resolved.
+Sep 20, 10:26 PDT
+Identified - The issue has been identified and a fix is being implemented.
+Sep 20, 10:14 PDT
+Investigating - We are currently investigating this issue.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;11
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-09-19 datetime="2024-09-19T22:48:39.000Z">2024-09-19</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-09-19 datetime="2024-09-19T22:48:39.000Z"></time>
           </button>
@@ -2780,68 +2833,10 @@ Investigating - We are investigating reports of degraded performance for Actions
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-08-21 datetime="2024-08-21T15:11:06.000Z">2024-08-21</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-08-21 datetime="2024-08-21T15:11:06.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >GitHub Status - Incident History</button>
-                  <a class="source-heading__link" href="https://www.githubstatus.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.githubstatus.com/incidents/3vhw289ftnqp"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident with Actions</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.githubstatus.com/incidents/3vhw289ftnqp">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Aug 21, 15:11 UTC
-Resolved - On August 21, 2024, between 13:48 UTC and 15:00 UTC, Actions experienced degraded performance, leading to delays in workflow runs. On average, 25% of workflow runs were delayed by 8 minutes. Less than 1% of workflow runs exhausted retries and failed to start. The issue stemmed from a backlog of Pull Request events which caused delays in Actions processing the event queues that trigger workflow runs.
-We mitigated the incident by disabling the process that led to the sudden spike in Pull Request events. We are working to improve our monitoring and deployment practices to reduce our time to detection and mitigation of issues like this one in the future. We are also identifying appropriate changes to rate limits and reserved capacity to reduce the breadth of impact.
-Aug 21, 15:10 UTC
-Update - We have seen recovery and Actions workflow runs are now running as expected.
-Aug 21, 14:51 UTC
-Update - We are seeing reduced delays for Actions workflow runs to get triggered. We are continuing to investigate how to further reduce impact on customers and recover more quickly.
-Aug 21, 14:15 UTC
-Update - We are investigating reports of users seeing delays for Actions workflow runs to get triggered.
-Aug 21, 14:09 UTC
-Investigating - We are investigating reports of degraded performance for Actions</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/10950971382">
-        <time id="build-timestamp" datetime="2024-09-20T00:26:46.476Z">2024-09-20T00:26:46.476Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/10968048217">
+        <time id="build-timestamp" datetime="2024-09-21T00:26:15.607Z">2024-09-21T00:26:15.607Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
