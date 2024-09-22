@@ -132,6 +132,16 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/3f379qx6ldcj",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Sep 22, 08:00 - 11:00 UTC\nSep 20, 06:47 UTC\nScheduled - Start: 2024-09-22 08:00 UTC\nEnd: 2024-09-22 11:00 UTC\nDuring the above maintenance window, there will be maintenance performed on our ticketing system.\nExpected Impact:\nDuring the course of the maintenance, users will be unable to use our Live Agent/Chat system. Users can still submit support tickets, update existing tickets, or receive replies to existing tickets. \nAs soon as the vendor maintenance has completed, the chat functionality should work as expected. \nWe appreciate your patience throughout this process. If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
+          "link": "https://status.digitalocean.com/incidents/3f379qx6ldcj",
+          "publishedOn": "2024-09-22T08:00:00.000Z",
+          "wordCount": 6290,
+          "title": "DigitalOcean Support Portal Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/jl76cw5xjq9c",
           "author": null,
           "description": "Sep 19, 22:48 UTC\nResolved - Our Engineering team has confirmed the full resolution of this incident. \nFrom 20:14 to 22:03 UTC, users may have experienced errors when connecting to their Apps or with their Apps connecting to other services, as well as delays in deploying Apps. Users should now be able to connect to their Apps normally, and any delayed deployments should complete successfully.\nIf you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel.\nSep 19, 22:22 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the App Platform connectivity and deployment issues in all regions. Users should now be able to connect to and deploy Apps as normal. Our team is monitoring the situation, and we will post an update…",
@@ -320,26 +330,6 @@
           "wordCount": 6419,
           "title": "Droplet connectivity and Event processing in NYC1",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/l5qcjkdlysp4",
-          "author": null,
-          "description": "Aug 22, 22:43 UTC\nResolved - From 17:18 UTC until 17:58 UTC, users may have experienced issues when attempting to access Spaces in the NYC3 region.\nOur Engineering team has confirmed full resolution of the issue, and users should now be able to access Spaces normally.\nThank you for your patience. If you continue to experience any problems, please open a ticket with our support team for further review.\nAug 22, 22:11 UTC\nMonitoring - Our Engineering team has confirmed the mitigations put in place have resolved the impact to Spaces availability in NYC3. We are currently monitoring the situation and will post an update as soon as the issue is fully resolved.\nAug 22, 18:13 UTC\nUpdate - Our Engineering team is continuing to investigate this issue, but has taken action to mitigate the impact. Spaces API availability has returned to pre-incident levels and users' requests should succeed at this time. \n We will post an update once we have further information.\nAug 22, 17:55 UTC\nInvestigating - Our Engineering team is investigating an issue with Spaces availability in the NYC3 region. During this time users may encounter errors when accessing Spaces objects or managing existing buckets in the NYC3 region. \nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/l5qcjkdlysp4",
-          "publishedOn": "2024-08-22T22:43:41.000Z",
-          "wordCount": 6402,
-          "title": "Spaces Availability in NYC3",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/1lhs6n3vrjcz",
-          "author": null,
-          "description": "Aug 22, 15:04 UTC\nResolved - From 10:30 to 11:35 UTC, our Engineering team observed an issue with Container Registry and App Platform builds in the AMS3 and FRA1 regions. \nDuring this time, users may have experienced delays while building their Apps and could have potentially experienced timeout errors in builds as a result. Additionally, a subset of customers may have experienced latency while interacting with the Container Registries. \nOur Engineering team found that a backing component of the Container Registry was experiencing high memory usage. They were able to remediate that component at 11:35 UTC, which resolved the issue.\nWe apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.",
-          "link": "https://status.digitalocean.com/incidents/1lhs6n3vrjcz",
-          "publishedOn": "2024-08-22T15:04:36.000Z",
-          "wordCount": 6322,
-          "title": "Container Registry and App Platform in AMS3/FRA1",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -527,16 +517,6 @@
           "publishedOn": "2024-08-27T23:26:32.000Z",
           "wordCount": 5538,
           "title": "Disruption with some GitHub services",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/30jg3tzwbv93",
-          "author": null,
-          "description": "Aug 22, 17:28 UTC\nResolved - On August 22, 2024, between 16:10 UTC and 17:28 UTC, Actions experienced degraded performance leading to failed workflow runs. On average, 2.5% of workflow runs failed to start with the failure rate peaking at 6%. In addition we saw a 1% error rate for Actions API endpoints. This was due to an Actions service being deployed to faulty hardware that had an incorrect memory configuration, leading to significant performance degradation of those pods due to insufficient memory.\nThe impact was mitigated when the pods were evicted automatically and moved to healthy hosts. The faulty hardware was disabled to prevent a recurrence. We are improving our health checks to ensure that unhealthy hardware is consistently marked offline automatically. We are also improving our monitoring and deployment practices to reduce our time to detection and automated mitigation at the service layer for issues like this in the future.\nAug 22, 17:21 UTC\nUpdate - We are investigating issues with failed workflow runs due to internal errors. We are seeing signs of recovery and continuing to monitor the situation.\nAug 22, 16:49 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
-          "link": "https://www.githubstatus.com/incidents/30jg3tzwbv93",
-          "publishedOn": "2024-08-22T17:28:06.000Z",
-          "wordCount": 5454,
-          "title": "Incident with Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]

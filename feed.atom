@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-21T00:26:15.627Z</id>
+    <id>urn:2024-09-22T00:30:11.383Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-21T00:26:15.627Z</updated>
+    <updated>2024-09-22T00:30:11.383Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[DigitalOcean Support Portal Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/3f379qx6ldcj</id>
+        <link href="https://status.digitalocean.com/incidents/3f379qx6ldcj"/>
+        <updated>2024-09-22T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 22, 08:00 - 11:00 UTC
+Sep 20, 06:47 UTC
+Scheduled - Start: 2024-09-22 08:00 UTC
+End: 2024-09-22 11:00 UTC
+During the above maintenance window, there will be maintenance performed on our ticketing system.
+Expected Impact:
+During the course of the maintenance, users will be unable to use our Live Agent/Chat system. Users can still submit support tickets, update existing tickets, or receive replies to existing tickets. 
+As soon as the vendor maintenance has completed, the chat functionality should work as expected. 
+We appreciate your patience throughout this process. If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Performance degradation in bigger databases may cause slowness]]></title>
         <id>https://status.notion.so/incidents/70x6qq8knxt9</id>
@@ -1121,57 +1139,6 @@ We inadvertently introduced a formatting error while making a planned change to 
 We reverted the change, restoring all affected page titles.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spaces Availability in NYC3]]></title>
-        <id>https://status.digitalocean.com/incidents/l5qcjkdlysp4</id>
-        <link href="https://status.digitalocean.com/incidents/l5qcjkdlysp4"/>
-        <updated>2024-08-22T22:43:41.000Z</updated>
-        <summary type="html"><![CDATA[Aug 22, 22:43 UTC
-Resolved - From 17:18 UTC until 17:58 UTC, users may have experienced issues when attempting to access Spaces in the NYC3 region.
-Our Engineering team has confirmed full resolution of the issue, and users should now be able to access Spaces normally.
-Thank you for your patience. If you continue to experience any problems, please open a ticket with our support team for further review.
-Aug 22, 22:11 UTC
-Monitoring - Our Engineering team has confirmed the mitigations put in place have resolved the impact to Spaces availability in NYC3. We are currently monitoring the situation and will post an update as soon as the issue is fully resolved.
-Aug 22, 18:13 UTC
-Update - Our Engineering team is continuing to investigate this issue, but has taken action to mitigate the impact. Spaces API availability has returned to pre-incident levels and users' requests should succeed at this time. 
- We will post an update once we have further information.
-Aug 22, 17:55 UTC
-Investigating - Our Engineering team is investigating an issue with Spaces availability in the NYC3 region. During this time users may encounter errors when accessing Spaces objects or managing existing buckets in the NYC3 region. 
-We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Actions]]></title>
-        <id>https://www.githubstatus.com/incidents/30jg3tzwbv93</id>
-        <link href="https://www.githubstatus.com/incidents/30jg3tzwbv93"/>
-        <updated>2024-08-22T17:28:06.000Z</updated>
-        <summary type="html"><![CDATA[Aug 22, 17:28 UTC
-Resolved - On August 22, 2024, between 16:10 UTC and 17:28 UTC, Actions experienced degraded performance leading to failed workflow runs. On average, 2.5% of workflow runs failed to start with the failure rate peaking at 6%. In addition we saw a 1% error rate for Actions API endpoints. This was due to an Actions service being deployed to faulty hardware that had an incorrect memory configuration, leading to significant performance degradation of those pods due to insufficient memory.
-The impact was mitigated when the pods were evicted automatically and moved to healthy hosts. The faulty hardware was disabled to prevent a recurrence. We are improving our health checks to ensure that unhealthy hardware is consistently marked offline automatically. We are also improving our monitoring and deployment practices to reduce our time to detection and automated mitigation at the service layer for issues like this in the future.
-Aug 22, 17:21 UTC
-Update - We are investigating issues with failed workflow runs due to internal errors. We are seeing signs of recovery and continuing to monitor the situation.
-Aug 22, 16:49 UTC
-Investigating - We are investigating reports of degraded performance for Actions]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Container Registry and App Platform in AMS3/FRA1]]></title>
-        <id>https://status.digitalocean.com/incidents/1lhs6n3vrjcz</id>
-        <link href="https://status.digitalocean.com/incidents/1lhs6n3vrjcz"/>
-        <updated>2024-08-22T15:04:36.000Z</updated>
-        <summary type="html"><![CDATA[Aug 22, 15:04 UTC
-Resolved - From 10:30 to 11:35 UTC, our Engineering team observed an issue with Container Registry and App Platform builds in the AMS3 and FRA1 regions. 
-During this time, users may have experienced delays while building their Apps and could have potentially experienced timeout errors in builds as a result. Additionally, a subset of customers may have experienced latency while interacting with the Container Registries. 
-Our Engineering team found that a backing component of the Container Registry was experiencing high memory usage. They were able to remediate that component at 11:35 UTC, which resolved the issue.
-We apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
