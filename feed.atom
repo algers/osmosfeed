@@ -1,10 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-23T00:28:07.758Z</id>
+    <id>urn:2024-09-24T00:27:39.755Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-23T00:28:07.758Z</updated>
+    <updated>2024-09-24T00:27:39.755Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident: Trouble uploading files to Slack]]></title>
+        <id>https://slack-status.com/2024-09/f89363116705461f</id>
+        <link href="https://slack-status.com/2024-09/f89363116705461f"/>
+        <updated>2024-09-23T21:52:47.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary: 
+On September 23, 2024 from 12:11 AM PDT to 9:04 AM PDT, some users may have experienced issues uploading to or deleting files in Slack. 
+
+A backend job responsible for file management became overwhelmed, causing an unusual spike in error rates that affected the ability for users to manage their files.
+
+We temporarily paused the job to allow pending items to finish processing. During this time, we also released an update to the backend logic to improve processing efficiency. Once the error rates normalized and the job returned to a stable state, we resumed the process, resolving the issue for all affected users.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Issue accessing Workspace Analytics]]></title>
+        <id>https://status.notion.so/incidents/ddqwbw87r4b2</id>
+        <link href="https://status.notion.so/incidents/ddqwbw87r4b2"/>
+        <updated>2024-09-23T21:00:17.000Z</updated>
+        <summary type="html"><![CDATA[Sep 23, 14:00 PDT
+Resolved - We have rolled out a fix to resolve this issue. Workspace Owners on Enterprise plans should now be able to load Workspace Analytics.
+Sep 23, 13:02 PDT
+Identified - We have identified the issue and our engineering team is rolling out a fix for the issue.
+Sep 23, 07:52 PDT
+Investigating - Workspace Owners on our Enterprise plan may experience issues loading Workspace Analytics. We are currently investigating and will share updates as soon as possible.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unexpected Notifications for Changes Made by "Notion App"]]></title>
+        <id>https://status.notion.so/incidents/n2v78bnr3k8w</id>
+        <link href="https://status.notion.so/incidents/n2v78bnr3k8w"/>
+        <updated>2024-09-23T20:39:33.000Z</updated>
+        <summary type="html"><![CDATA[Sep 23, 10:11 PDT
+Investigating - Some users have received unexpected notifications regarding pages edited by "Notion App", triggered when the system automatically deletes a page from Trash after 30 days. For example, these notifications may be triggered on pages with a relation to the deleted page. We're investigating a fix to prevent these notifications from being sent.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DigitalOcean Support Portal Maintenance]]></title>
         <id>https://status.digitalocean.com/incidents/3f379qx6ldcj</id>

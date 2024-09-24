@@ -339,6 +339,26 @@
       "siteUrl": "https://status.notion.so",
       "articles": [
         {
+          "id": "https://status.notion.so/incidents/ddqwbw87r4b2",
+          "author": null,
+          "description": "Sep 23, 14:00 PDT\nResolved - We have rolled out a fix to resolve this issue. Workspace Owners on Enterprise plans should now be able to load Workspace Analytics.\nSep 23, 13:02 PDT\nIdentified - We have identified the issue and our engineering team is rolling out a fix for the issue.\nSep 23, 07:52 PDT\nInvestigating - Workspace Owners on our Enterprise plan may experience issues loading Workspace Analytics. We are currently investigating and will share updates as soon as possible.",
+          "link": "https://status.notion.so/incidents/ddqwbw87r4b2",
+          "publishedOn": "2024-09-23T21:00:17.000Z",
+          "wordCount": 3390,
+          "title": "Issue accessing Workspace Analytics",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.notion.so/incidents/n2v78bnr3k8w",
+          "author": null,
+          "description": "Sep 23, 10:11 PDT\nInvestigating - Some users have received unexpected notifications regarding pages edited by \"Notion App\", triggered when the system automatically deletes a page from Trash after 30 days. For example, these notifications may be triggered on pages with a relation to the deleted page. We're investigating a fix to prevent these notifications from being sent.",
+          "link": "https://status.notion.so/incidents/n2v78bnr3k8w",
+          "publishedOn": "2024-09-23T20:39:33.000Z",
+          "wordCount": 3376,
+          "title": "Unexpected Notifications for Changes Made by \"Notion App\"",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.notion.so/incidents/70x6qq8knxt9",
           "author": null,
           "description": "Sep 20, 11:30 PDT\nResolved - This incident has been resolved.\nSep 20, 10:26 PDT\nIdentified - The issue has been identified and a fix is being implemented.\nSep 20, 10:14 PDT\nInvestigating - We are currently investigating this issue.",
@@ -526,6 +546,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://slack-status.com",
       "articles": [
+        {
+          "id": "https://slack-status.com/2024-09/f89363116705461f",
+          "author": null,
+          "description": "Issue summary: \nOn September 23, 2024 from 12:11 AM PDT to 9:04 AM PDT, some users may have experienced issues uploading to or deleting files in Slack. \n\nA backend job responsible for file management became overwhelmed, causing an unusual spike in error rates that affected the ability for users to manage their files.\n\nWe temporarily paused the job to allow pending items to finish processing. During this time, we also released an update to the backend logic to improve processing efficiency. Once the error rates normalized and the job returned to a stable state, we resumed the process, resolving the issue for all affected users.",
+          "link": "https://slack-status.com/2024-09/f89363116705461f",
+          "publishedOn": "2024-09-23T21:52:47.000Z",
+          "wordCount": 376,
+          "title": "Incident: Trouble uploading files to Slack",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://slack-status.com/2024-09/4beb5c9bba352cef",
           "author": null,
