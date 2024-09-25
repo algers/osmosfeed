@@ -1,10 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-24T00:27:39.755Z</id>
+    <id>urn:2024-09-25T00:27:54.476Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-24T00:27:39.755Z</updated>
+    <updated>2024-09-25T00:27:54.476Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[SFO3 Network Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/9tp8strv2l7m</id>
+        <link href="https://status.digitalocean.com/incidents/9tp8strv2l7m"/>
+        <updated>2024-09-25T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 25, 08:00 - 12:00 UTC
+Sep 22, 08:52 UTC
+Scheduled - Start: 2024-09-25 08:00 UTC
+End: 2024-09-25 12:00 UTC
+During the above window, our Networking team will be performing maintenance on core switches in our SFO3 datacenter as part of network upgrades. 
+Expected Impact:
+These upgrades are designed and tested to be seamless, and we do not expect any impact to customer traffic due to this maintenance. Should an unexpected issue arise, a possible outcome would be temporary loss of connectivity for impacted Droplets. We will endeavor to keep any such impact to a minimum.
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket
+Thank you,
+Team DigitalOcean]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Codespaces start and creation]]></title>
+        <id>https://www.githubstatus.com/incidents/2dxdzc3fdgdx</id>
+        <link href="https://www.githubstatus.com/incidents/2dxdzc3fdgdx"/>
+        <updated>2024-09-24T21:04:59.000Z</updated>
+        <summary type="html"><![CDATA[Sep 24, 21:04 UTC
+Resolved - This incident has been resolved.
+Sep 24, 21:04 UTC
+Update - Codespaces is operating normally.
+Sep 24, 21:01 UTC
+Update - We have successfully mitigated the issue affecting create and resume requests for Codespaces. Early signs of recovery are being observed in the impacted region.
+Sep 24, 21:00 UTC
+Update - Codespaces is experiencing degraded performance. We are continuing to investigate.
+Sep 24, 20:56 UTC
+Update - We are investigating issues with Codespaces in the US East geographic area. Some users may not be able to create or start their Codespaces at this time. We will update you on mitigation progress.
+Sep 24, 20:54 UTC
+Investigating - We are investigating reports of degraded availability for Codespaces]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BLR1 Network Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/wxlnx3j5yv6t</id>
+        <link href="https://status.digitalocean.com/incidents/wxlnx3j5yv6t"/>
+        <updated>2024-09-24T15:30:02.000Z</updated>
+        <summary type="html"><![CDATA[Sep 24, 15:30 UTC
+Completed - Our Engineering team has run into some operations that didn't complete within this maintenance. No user impact has occurred as a result of those operations. 
+We will be rescheduling this maintenance window to Oct 3rd 12.30 UTC via a new maintenance post.
+Sep 24, 12:30 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Sep 21, 13:24 UTC
+Scheduled - Start: 2024-09-24 12:30 UTC
+End: 2024-09-24 15:30 UTC
+During the above window, our Networking team will be making changes to our core networking infrastructure to improve performance and scalability in the BLR1 region.
+Expected Impact:
+These upgrades are designed and tested to be seamless and we do not expect any impact on customer traffic due to this maintenance. Should an unexpected issue arise, a possible outcome would be a temporary loss of connectivity for impacted Droplets. Any impact would also extend to Droplet-dependent services in the BLR1 region such as Managed Databases, Load Balancers, App Platform, and Managed Kubernetes. We will endeavor to keep any such impact to a minimum.
+If you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket/.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Delays on scenario execution]]></title>
+        <id>https://status.make.com/incidents/3m2tq971h4jc</id>
+        <link href="https://status.make.com/incidents/3m2tq971h4jc"/>
+        <updated>2024-09-24T14:48:45.000Z</updated>
+        <summary type="html"><![CDATA[Sep 24, 16:48 CEST
+Monitoring - We've fixed the issue to get the zone fully operational again, but we're still investigating the root cause of the incident.
+Sep 24, 15:25 CEST
+Investigating - We are currently investigating an issue on eu1.make.com where scenarios executions can be delayed for a few minutes.]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unexpected Notifications for Changes Made by "Notion App"]]></title>
+        <id>https://status.notion.so/incidents/n2v78bnr3k8w</id>
+        <link href="https://status.notion.so/incidents/n2v78bnr3k8w"/>
+        <updated>2024-09-24T03:45:20.000Z</updated>
+        <summary type="html"><![CDATA[Sep 23, 20:45 PDT
+Resolved - The issue has now been resolved. Users will no longer receive unexpected notifications and emails regarding pages edited by "Notion App", which were erroneously triggered when the system automatically deleted a page from Trash after 30 days.
+Sep 23, 17:52 PDT
+Monitoring - Our engineers have updated the affected services and as of 11 am (PDT), no emails of this type have been sent.
+We are monitoring the situation to ensure this issue does not reoccur and will share further updates when this issue is definitively resolved.
+Sep 23, 10:11 PDT
+Investigating - Some users have received unexpected notifications regarding pages edited by "Notion App", triggered when the system automatically deletes a page from Trash after 30 days. For example, these notifications may be triggered on pages with a relation to the deleted page. We're investigating a fix to prevent these notifications from being sent.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Trouble uploading files to Slack]]></title>
         <id>https://slack-status.com/2024-09/f89363116705461f</id>
@@ -31,17 +121,6 @@ Sep 23, 13:02 PDT
 Identified - We have identified the issue and our engineering team is rolling out a fix for the issue.
 Sep 23, 07:52 PDT
 Investigating - Workspace Owners on our Enterprise plan may experience issues loading Workspace Analytics. We are currently investigating and will share updates as soon as possible.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unexpected Notifications for Changes Made by "Notion App"]]></title>
-        <id>https://status.notion.so/incidents/n2v78bnr3k8w</id>
-        <link href="https://status.notion.so/incidents/n2v78bnr3k8w"/>
-        <updated>2024-09-23T20:39:33.000Z</updated>
-        <summary type="html"><![CDATA[Sep 23, 10:11 PDT
-Investigating - Some users have received unexpected notifications regarding pages edited by "Notion App", triggered when the system automatically deletes a page from Trash after 30 days. For example, these notifications may be triggered on pages with a relation to the deleted page. We're investigating a fix to prevent these notifications from being sent.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
         </author>
@@ -1147,40 +1226,6 @@ A recent update unexpectedly caused difficulty fetching members in large channel
 Once we identified the specific update and reverted it, the error was resolved. After a hard reload, affected users were able to access all impacted channels.
 
 We apologize for the disruption this caused.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Droplet connectivity and Event processing in NYC1]]></title>
-        <id>https://status.digitalocean.com/incidents/j0jfct8j8ldv</id>
-        <link href="https://status.digitalocean.com/incidents/j0jfct8j8ldv"/>
-        <updated>2024-08-26T10:40:55.000Z</updated>
-        <summary type="html"><![CDATA[Aug 26, 10:40 UTC
-Resolved - Our Engineering team has confirmed that the issue impacting our Droplet-based services in the NYC1 region has been completely mitigated. Users should no longer see issues with their Droplets and Droplet-related services.
-If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
-Aug 26, 09:36 UTC
-Monitoring - As of 09:30 UTC, our Engineering team has identified the cause of the issue impacting our Droplet-based services in the NYC1 region and applied a fix. The impact has started to mitigate and users should be able to connect to their Droplets and also start to see events getting processed successfully.
-We're now monitoring the fix for stability and will post an update once we are confident it is successful.
-Aug 26, 08:13 UTC
-Investigating - As of 01:00 UTC, our Engineering team is currently investigating reports of an issue with our Droplet-based services in the NYC1 region. 
-At this time, users may experience issues reaching their Droplet via network requests and also see errors or stuck events when attempting Droplet actions such as power cycles, resizes, rebuilds, etc. Our team is working to mitigate the issue. 
-We realize how impacting this is and will provide an update as soon as possible. Thank you for your patience.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some text on our website is jumbled.]]></title>
-        <id>https://slack-status.com/2024-08/a4b2711c1ba0fc74</id>
-        <link href="https://slack-status.com/2024-08/a4b2711c1ba0fc74"/>
-        <updated>2024-08-26T08:05:46.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-From 7:00 PM PDT on August 24, 2024 to around 7:00 PM PDT on August 25, 2024, some of the titles on www.slack.com pages were garbled. 
-
-We inadvertently introduced a formatting error while making a planned change to some of the fonts we use. 
-
-We reverted the change, restoring all affected page titles.]]></summary>
         <author>
             <name>Slack System Status</name>
         </author>
