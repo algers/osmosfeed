@@ -1,16 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-25T00:27:54.476Z</id>
+    <id>urn:2024-09-26T00:27:04.682Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-25T00:27:54.476Z</updated>
+    <updated>2024-09-26T00:27:04.682Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Degraded performance for some Copilot users]]></title>
+        <id>https://www.githubstatus.com/incidents/zp4gzrqfzhrq</id>
+        <link href="https://www.githubstatus.com/incidents/zp4gzrqfzhrq"/>
+        <updated>2024-09-25T23:55:25.000Z</updated>
+        <summary type="html"><![CDATA[Sep 25, 23:55 UTC
+Update - We are seeing recovery for requests to Copilot API in affected regions, and are continuing to investigate to ensure the experience remains stable.
+Sep 25, 23:40 UTC
+Update - We have noticed a degradation in performance of Copilot API in some regions. This may result in latency or failed responses to requests to Copilot. We are investigating mitigation options.
+
+Sep 25, 23:39 UTC
+Investigating - We are investigating reports of degraded performance for Copilot]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Managed Kubernetes Clusters in SFO3]]></title>
+        <id>https://status.digitalocean.com/incidents/fxvdq88ych5y</id>
+        <link href="https://status.digitalocean.com/incidents/fxvdq88ych5y"/>
+        <updated>2024-09-25T23:34:54.000Z</updated>
+        <summary type="html"><![CDATA[Sep 25, 23:34 UTC
+Investigating - Our Engineering team is currently investigating issues with network connectivity for Managed Kubernetes clusters in the SFO3 region. During this time, some users may experience difficulties connecting to their Managed Kubernetes clusters, or connecting to other services from their clusters. 
+We apologize for the inconvenience and will provide an update as soon as we have more information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Droplet Event Processing and API Availability]]></title>
+        <id>https://status.digitalocean.com/incidents/vppxx4qdz1mq</id>
+        <link href="https://status.digitalocean.com/incidents/vppxx4qdz1mq"/>
+        <updated>2024-09-25T22:59:37.000Z</updated>
+        <summary type="html"><![CDATA[Sep 25, 22:59 UTC
+Resolved - Our Engineering team has identified and resolved an issue that impacted the ability to resize Droplets via both the API and UI from 18:15 until 21:55 UTC. During this time, users might have experienced errors when attempting to resize their Droplets through the API or the UI.
+Additionally, in an effort to resolve the issue with resizes, a secondary issue affected all event processing and some API calls for Droplets and related services from 21:50 until 22:00 UTC.
+Swift action was taken by our Engineering team to restore full functionality, and now everything is operating normally.
+We apologize for any inconvenience this may have caused. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Actions Runs]]></title>
+        <id>https://www.githubstatus.com/incidents/1g9v7rry4z86</id>
+        <link href="https://www.githubstatus.com/incidents/1g9v7rry4z86"/>
+        <updated>2024-09-25T19:19:01.000Z</updated>
+        <summary type="html"><![CDATA[Sep 25, 19:19 UTC
+Resolved - This incident has been resolved.
+Sep 25, 19:14 UTC
+Update - We're seeing issues related to Actions runs failing to download actions at the start of a job. We're investigating the cause and working on mitigations for customers impacted by this issue.
+Sep 25, 19:11 UTC
+Investigating - We are investigating reports of degraded performance for Actions and Pages]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Resizing MongoDB Managed Databases]]></title>
+        <id>https://status.digitalocean.com/incidents/tb1xs6cspxtg</id>
+        <link href="https://status.digitalocean.com/incidents/tb1xs6cspxtg"/>
+        <updated>2024-09-25T16:10:11.000Z</updated>
+        <summary type="html"><![CDATA[Sep 25, 16:10 UTC
+Resolved - From 00:01 to 15:15 UTC, users may have experienced errors when attempting to resize their MongoDB Managed Database clusters.
+Our Engineering team has confirmed the full resolution of issue. Users should now be able to resize their MongoDB clusters normally. 
+If you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel.
+Sep 25, 15:36 UTC
+Monitoring - Our Engineering team has implemented a fix to resolve the issues impacting the resizing of Managed Database Clusters. Users should now be able to resize their existing MongoDB clusters without any issues. 
+We are actively monitoring the situation and will post an update as soon as the issue is fully resolved.
+Sep 25, 15:14 UTC
+Investigating - Our Engineering team is investigating an issue with MongoDB Managed Databases. At this time, users may experience errors while attempting to resize their existing MongoDB clusters.
+We apologize for the inconvenience and will provide another update as soon as possible.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Git Operations]]></title>
+        <id>https://www.githubstatus.com/incidents/q3xqwmcxzkqq</id>
+        <link href="https://www.githubstatus.com/incidents/q3xqwmcxzkqq"/>
+        <updated>2024-09-25T16:03:30.000Z</updated>
+        <summary type="html"><![CDATA[Sep 25, 16:03 UTC
+Resolved - This incident has been resolved.
+Sep 25, 15:34 UTC
+Update - We are investigating reports of issues with both Actions and Packages, related to a brief period of time where specific Git Operations were failing. We will continue to keep users updated on progress towards mitigation.
+Sep 25, 15:25 UTC
+Investigating - We are investigating reports of degraded performance for Git Operations]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Delays on scenario execution]]></title>
+        <id>https://status.make.com/incidents/3m2tq971h4jc</id>
+        <link href="https://status.make.com/incidents/3m2tq971h4jc"/>
+        <updated>2024-09-25T11:14:25.000Z</updated>
+        <summary type="html"><![CDATA[Sep 25, 13:14 CEST
+Resolved - This incident has been resolved.
+Sep 24, 16:48 CEST
+Monitoring - We've fixed the issue to get the zone fully operational again, but we're still investigating the root cause of the incident.
+Sep 24, 15:25 CEST
+Investigating - We are currently investigating an issue on eu1.make.com where scenarios executions can be delayed for a few minutes.]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SFO3 Network Maintenance]]></title>
         <id>https://status.digitalocean.com/incidents/9tp8strv2l7m</id>
         <link href="https://status.digitalocean.com/incidents/9tp8strv2l7m"/>
-        <updated>2024-09-25T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Sep 25, 08:00 - 12:00 UTC
+        <updated>2024-09-25T11:07:16.000Z</updated>
+        <summary type="html"><![CDATA[Sep 25, 11:07 UTC
+Completed - The scheduled maintenance has been completed.
+Sep 25, 08:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Sep 22, 08:52 UTC
 Scheduled - Start: 2024-09-25 08:00 UTC
 End: 2024-09-25 12:00 UTC
@@ -22,6 +131,23 @@ Thank you,
 Team DigitalOcean]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Issues with "Facebook Lead Ads" module]]></title>
+        <id>https://status.make.com/incidents/l0qwpr5cy52k</id>
+        <link href="https://status.make.com/incidents/l0qwpr5cy52k"/>
+        <updated>2024-09-25T06:39:21.000Z</updated>
+        <summary type="html"><![CDATA[Sep 25, 08:39 CEST
+Resolved - This incident was resolved on Meta's side. Thanks for your patience while we addressed this issue with Meta team.
+Sep 13, 12:48 CEST
+Update - Meta has applied a fix which has improved the situation by reducing the number of errors. However, the issue has not yet been entirely resolved and Meta is being focused on solving the problem.
+Sep 12, 19:16 CEST
+Investigating - We are currently experiencing an issue with the Facebook Lead Ads module, which is not working properly.
+We have identified it to be on Meta side, also being reported on their community here: https://developers.facebook.com/support/bugs/904673388147179/
+We are working closely with our development team and Meta on this.]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -64,19 +190,6 @@ These upgrades are designed and tested to be seamless and we do not expect any i
 If you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket/.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delays on scenario execution]]></title>
-        <id>https://status.make.com/incidents/3m2tq971h4jc</id>
-        <link href="https://status.make.com/incidents/3m2tq971h4jc"/>
-        <updated>2024-09-24T14:48:45.000Z</updated>
-        <summary type="html"><![CDATA[Sep 24, 16:48 CEST
-Monitoring - We've fixed the issue to get the zone fully operational again, but we're still investigating the root cause of the incident.
-Sep 24, 15:25 CEST
-Investigating - We are currently investigating an issue on eu1.make.com where scenarios executions can be delayed for a few minutes.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -444,21 +557,6 @@ From September 5, 2024 at 2:50 PM PDT to September 8, 2024 at 10 PM PDT, some cu
 We traced this issue back to a recent code change which we discovered was creating indexing errors for EKM customers when they used the search function. We then reverted the problematic code change and ran a reindexing script to make the missing messages searchable again, which resolved the issue for all affected users.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues with "Facebook Lead Ads" module]]></title>
-        <id>https://status.make.com/incidents/l0qwpr5cy52k</id>
-        <link href="https://status.make.com/incidents/l0qwpr5cy52k"/>
-        <updated>2024-09-13T10:48:13.000Z</updated>
-        <summary type="html"><![CDATA[Sep 13, 12:48 CEST
-Update - Meta has applied a fix which has improved the situation by reducing the number of errors. However, the issue has not yet been entirely resolved and Meta is being focused on solving the problem.
-Sep 12, 19:16 CEST
-Investigating - We are currently experiencing an issue with the Facebook Lead Ads module, which is not working properly.
-We have identified it to be on Meta side, also being reported on their community here: https://developers.facebook.com/support/bugs/904673388147179/
-We are working closely with our development team and Meta on this.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
         </author>
     </entry>
     <entry>
