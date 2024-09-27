@@ -1,16 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-26T00:27:04.682Z</id>
+    <id>urn:2024-09-27T00:27:48.655Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-26T00:27:04.682Z</updated>
+    <updated>2024-09-27T00:27:48.655Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Google Drive (upload a file) returns error]]></title>
+        <id>https://status.make.com/incidents/0q7q403gmt9c</id>
+        <link href="https://status.make.com/incidents/0q7q403gmt9c"/>
+        <updated>2024-09-26T22:07:37.000Z</updated>
+        <summary type="html"><![CDATA[Sep 27, 00:07 CEST
+Investigating - We are currently experiencing an issue with the Google Drive (upload a file) module, which is not working properly in US zones. Our team is investigating the issue and working to resolve it as quickly as possible. We will provide updates as soon as more information is available. Thank you for your patience.]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Control Plane in SYD1]]></title>
+        <id>https://status.digitalocean.com/incidents/r2dk8spt4xk9</id>
+        <link href="https://status.digitalocean.com/incidents/r2dk8spt4xk9"/>
+        <updated>2024-09-26T20:43:01.000Z</updated>
+        <summary type="html"><![CDATA[Sep 26, 20:43 UTC
+Resolved - From 18:22 UTC to 19:13 UTC, users may have experienced issues or errors when attempting to create or modify DigitalOcean services deployed in the SYD1 region and also when attempting to create or manage Volumes globally.
+ Our Engineering team has confirmed the full resolution of this issue. If you continue to experience problems, please open a ticket with our support team. Thank you for being so patient, and we apologize for any inconvenience.
+Sep 26, 19:33 UTC
+Monitoring - Our Engineering team identified the issue and took quick action to mitigate the impact to the SYD1 control plane. Customers may have also encountered errors when attempting to create or manage Volumes globally during this time.
+Currently, users should no longer experience issues or errors when attempting to create or modify DigitalOcean services deployed in the SYD1 region.
+We are monitoring the situation closely and will post an update as soon as the issue is fully resolved.
+Sep 26, 19:08 UTC
+Investigating - As of 18:24 UTC, our Engineering team is investigating an issue impacting the control plane in the SYD1 region. At this time customers may encounter errors when attempting to create or modify DigitalOcean services deployed in the SYD1 region. Connectivity to existing services should not be impacted.
+This is believed to be related to earlier network maintenance being carried out in the region: https://status.digitalocean.com/incidents/1sf8jl4s1sp4
+We apologize for the inconvenience and will share an update once we have further information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SYD1 Network Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/1sf8jl4s1sp4</id>
+        <link href="https://status.digitalocean.com/incidents/1sf8jl4s1sp4"/>
+        <updated>2024-09-26T19:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Sep 26, 19:00 UTC
+Completed - The scheduled maintenance has been completed.
+Sep 26, 16:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Sep 24, 16:08 UTC
+Scheduled - Start: 2024-09-26 16:00 UTC
+End: 2024-09-26 19:00 UTC 
+During the above window, we will be performing maintenance in our SYD1 region as part of network upgrades.
+Expected Impact:
+These upgrades are designed and tested to be seamless, and we expect minimal impact on customer traffic during the maintenance. There could be a brief disruption in inbound and outbound connectivity, lasting approximately 30 seconds, for the affected Droplets and Droplet-based services in the region. We will make every effort to minimize any such impact
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket
+Thank you,
+Team DigitalOcean]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Degraded performance for some Copilot users]]></title>
         <id>https://www.githubstatus.com/incidents/zp4gzrqfzhrq</id>
         <link href="https://www.githubstatus.com/incidents/zp4gzrqfzhrq"/>
-        <updated>2024-09-25T23:55:25.000Z</updated>
-        <summary type="html"><![CDATA[Sep 25, 23:55 UTC
+        <updated>2024-09-26T05:08:45.000Z</updated>
+        <summary type="html"><![CDATA[Sep 26, 05:08 UTC
+Resolved - This incident has been resolved.
+Sep 26, 05:08 UTC
+Update - Monitors continue to see improvements. We are declaring full recovery.
+Sep 26, 05:03 UTC
+Update - Copilot is operating normally.
+Sep 26, 03:51 UTC
+Update - We've applied a mitigation to fix the issues and are seeing improvements in telemetry. We are monitoring for full recovery.
+Sep 26, 02:34 UTC
+Update - We believe we have identified the root cause of the issue and are monitoring to ensure the problem does not recur.
+Sep 26, 01:46 UTC
+Update - We are continuing to investigate the root cause of the latency previously observed to ensure there is no reoccurrence, and better stability going forward.
+
+Sep 26, 01:03 UTC
+Update - We are continuing to investigate the root cause of the latency previously observed to ensure there is no reoccurrence, and better stability going forward.
+Sep 26, 00:29 UTC
+Update - Copilot users should no longer see request failures. We are still investigating the root cause of the issue to ensure that the experience will remain uninterrupted.
+Sep 25, 23:55 UTC
 Update - We are seeing recovery for requests to Copilot API in affected regions, and are continuing to investigate to ensure the experience remains stable.
 Sep 25, 23:40 UTC
 Update - We have noticed a degradation in performance of Copilot API in some regions. This may result in latency or failed responses to requests to Copilot. We are investigating mitigation options.
@@ -22,13 +92,16 @@ Investigating - We are investigating reports of degraded performance for Copilot
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Managed Kubernetes Clusters in SFO3]]></title>
+        <title type="html"><![CDATA[Network Connectivity in SFO3 Region]]></title>
         <id>https://status.digitalocean.com/incidents/fxvdq88ych5y</id>
         <link href="https://status.digitalocean.com/incidents/fxvdq88ych5y"/>
-        <updated>2024-09-25T23:34:54.000Z</updated>
-        <summary type="html"><![CDATA[Sep 25, 23:34 UTC
-Investigating - Our Engineering team is currently investigating issues with network connectivity for Managed Kubernetes clusters in the SFO3 region. During this time, some users may experience difficulties connecting to their Managed Kubernetes clusters, or connecting to other services from their clusters. 
-We apologize for the inconvenience and will provide an update as soon as we have more information.]]></summary>
+        <updated>2024-09-26T02:45:02.000Z</updated>
+        <summary type="html"><![CDATA[Sep 26, 02:45 UTC
+Resolved - From 22:25 to 22:50 UTC, users may have experienced network connectivity issues with all DigitalOcean services deployed in the SFO3 region. Additionally, from 22:25 until 01:40 UTC, users may have encountered network connectivity issues affecting their Managed Kubernetes clusters in the SFO3 region.
+Our Engineering team has fully resolved the issues impacting connectivity in the region, and all services are now operating normally. 
+If you continue to experience any problems, please open a ticket with our Support team. We apologize for any inconvenience caused.
+Sep 26, 02:15 UTC
+Monitoring - Our Engineering team has implemented a fix to resolve the issue affecting networking connectivity with Managed Kubernetes clusters in the SFO3 region and is closely monitori…]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
         </author>
@@ -87,7 +160,10 @@ We apologize for the inconvenience and will provide another update as soon as po
         <link href="https://www.githubstatus.com/incidents/q3xqwmcxzkqq"/>
         <updated>2024-09-25T16:03:30.000Z</updated>
         <summary type="html"><![CDATA[Sep 25, 16:03 UTC
-Resolved - This incident has been resolved.
+Resolved - On September 25, 2024 from 14:31 UTC to 15:06 UTC the Git Operations service experienced a degradation, leading to 1,381,993 failed git operations. The overall error rate during this period was 4.2%, with a peak error rate of 12.5%. 
+The root cause was traced to a bug in a build script for a component that runs on the file servers that host git repository data. The build script incurred an error that did not cause the overall build process to fail, resulting in a faulty set of artifacts being deployed to production.
+To mitigate the impact, we rolled back the affecting deployment.  
+To prevent further occurrences of this cause in the future, we will be addressing the underlying cause of the ignored build failure and improving metrics and alerting for the resulting production failure scenarios.
 Sep 25, 15:34 UTC
 Update - We are investigating reports of issues with both Actions and Packages, related to a brief period of time where specific Git Operations were failing. We will continue to keep users updated on progress towards mitigation.
 Sep 25, 15:25 UTC
@@ -446,7 +522,9 @@ Investigating - We are investigating reports of degraded performance for Actions
         <link href="https://www.githubstatus.com/incidents/r3x7x31k7nn1"/>
         <updated>2024-09-16T14:28:03.000Z</updated>
         <summary type="html"><![CDATA[Sep 16, 14:28 UTC
-Resolved - This incident has been resolved.
+Resolved - On September 16, 2024, between 13:24 UTC and 14:28 UTC, the Git Operations service experienced a degradation, leading to intermittent SSH connection drops. The overall SSH error rate during this period was 0.0005%, with a peak error rate of 0.3%.
+The root cause was traced to a regression in the service reload mechanism, which resulted in SSH hosts dropping connections on an hourly basis. As SSH hosts were rebooted for routine security updates, the issue progressively affected more hosts.
+To mitigate the impact, we removed the affected hosts from production traffic. The SSH regression has since been identified and resolved, with all SSH hosts fully restored. Additionally, we have implemented new monitoring to alert us of any SSH connection refusals moving forward.
 Sep 16, 14:27 UTC
 Update - We are no longer seeing dropped Git SSH connections and believe we have mitigated the incident.  We are continuing to monitor and investigate to prevent reoccurrence.
 Sep 16, 14:11 UTC
@@ -1200,33 +1278,6 @@ Investigating - We are currently experiencing an issue with our Notion export fu
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Creates/Resizes in SGP & SYD Regions]]></title>
-        <id>https://status.digitalocean.com/incidents/jmj2wx0y78q3</id>
-        <link href="https://status.digitalocean.com/incidents/jmj2wx0y78q3"/>
-        <updated>2024-08-28T23:45:21.000Z</updated>
-        <summary type="html"><![CDATA[Aug 28, 23:45 UTC
-Resolved - Our Engineering team has identified the root cause of the issue with creating and resizing Droplets and Droplet-based resources in our SGP1 and SYD1 regions. 
-No further user impact has occurred since our last update. 
-In order to fully remediate this issue, our Engineering team has scheduled emergency maintenance, which will take place from 14:00 - 22:00 UTC on August 29th. 
-Please visit the below maintenance link to know more :
-link:https://status.digitalocean.com/incidents/np0zw6m04jm1
-If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
-Aug 28, 16:05 UTC
-Update - Our Engineering team has now put mitigations in place for failing create and resize operations in SYD1 and SGP1 and we are seeing creates and resizes of Droplets and Droplet-based products succeeding. 
-Our Engineering team continues to investigate the root cause of the issue and work on a full fix, and users may still experience errors until a full fix is in place. We will post a further update when more information is available.
-Aug 28, 15:21 UTC
-Update - We are continuing to investigate this issue.
-Aug 28, 15:17 UTC
-Update - We are continuing to investigate this issue.
-Aug 28, 15:06 UTC
-Investigating - Our Engineering team is currently investigating an issue impacting operations in our SGP1 and SYD1 regions.
-During this time, users may experience errors when trying to create new Droplets and Droplet-based resources, or when resizing their existing resources via our Cloud Control Panel and API.
-We apologize for any inconvenience, and we'll share more information as soon as it's available.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
         <id>https://www.githubstatus.com/incidents/345t4sjty6q3</id>
         <link href="https://www.githubstatus.com/incidents/345t4sjty6q3"/>
@@ -1282,50 +1333,6 @@ The errors started on Wednesday, August 28th 10:20 AM PST and were mitigated by 
 Please retry any failed requests during the incident window.]]></summary>
         <author>
             <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
-        <id>https://www.githubstatus.com/incidents/1zyrr8fxrl21</id>
-        <link href="https://www.githubstatus.com/incidents/1zyrr8fxrl21"/>
-        <updated>2024-08-27T23:26:32.000Z</updated>
-        <summary type="html"><![CDATA[Aug 27, 23:26 UTC
-Resolved - On August 28th, 2024, starting at 20:43 UTC, some customers accessing GitHub from North America experienced degraded access to GitHub services. The error was intermittent and manifested as timeouts when requests tried to reach endpoints. This was due to a degraded route internal to one of our transit providers. We identified the unhealthy provider path and drained it at 23:26 UTC, rerouting traffic through other providers and promptly restoring normal traffic operations.
-Aug 27, 23:25 UTC
-Update - We are no longer seeing any traffic going through the affected routes and this issue should be resolved.
-Aug 27, 23:20 UTC
-Update - All traffic should be rerouted by now; and we have seen a complete drain from the affected provider. We are performing final validations that networking traffic is back to normal.
-Aug 27, 23:03 UTC
-Update - We have drained connections that would be running through the affected routes and are waiting for caches to expire in order to validate that issues are resolved.
-Aug 27, 22:50 UTC
-Update - We have identified some potential connectivity issues among public Internet transit routes and are attempting to reroute.
-Aug 27, 22:46 UTC
-Update - Git Operations is experiencing degraded performance. We are continuing to investigate.
-Aug 27, 22:45 UTC
-Update - Issues is experiencing degraded performance. We are continuing to investigate.
-Aug 27, 22:38 UTC
-Update - We are experiencing some issues related to TLS/SSL encrypted connections and are currently investigating.
-Aug 27, 22:37 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users may experience trouble loading Slack channels.]]></title>
-        <id>https://slack-status.com/2024-08/df25e9a2b40f02b8</id>
-        <link href="https://slack-status.com/2024-08/df25e9a2b40f02b8"/>
-        <updated>2024-08-27T17:20:04.000Z</updated>
-        <summary type="html"><![CDATA[Issue Summary:
-From August 22, 2024 at 2:20 PM PDT to August 26, 2024 at 2:00 PM PDT, some users had trouble loading channels and saw the error "REBD7A8C1099" while navigating between conversations in Slack. 
-
-A recent update unexpectedly caused difficulty fetching members in large channels on both the desktop and browser versions which prompted the error code. 
-
-Once we identified the specific update and reverted it, the error was resolved. After a hard reload, affected users were able to access all impacted channels.
-
-We apologize for the disruption this caused.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>
