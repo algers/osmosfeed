@@ -1,16 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-27T00:27:48.655Z</id>
+    <id>urn:2024-09-28T00:27:29.033Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-27T00:27:48.655Z</updated>
+    <updated>2024-09-28T00:27:29.033Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Notion App Degraded Performance for Guests]]></title>
+        <id>https://status.notion.so/incidents/njmvq7f6mml6</id>
+        <link href="https://status.notion.so/incidents/njmvq7f6mml6"/>
+        <updated>2024-09-27T23:35:07.000Z</updated>
+        <summary type="html"><![CDATA[Sep 27, 16:35 PDT
+Resolved - The issue has now been resolved. Guests will no longer experience issues with uploading large files, page history or custom automations.
+Sep 27, 13:52 PDT
+Identified - Notion is currently experiencing degraded performance and certain features may be inaccessible for guests. Guests may experience issues with uploading large files, page history or custom automations.
+We have identified the issue and our engineering team is rolling out a fix for the issue.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Web application degradation]]></title>
+        <id>https://status.rippling.com/incidents/7jfbpzrcyf92</id>
+        <link href="https://status.rippling.com/incidents/7jfbpzrcyf92"/>
+        <updated>2024-09-27T22:14:04.000Z</updated>
+        <summary type="html"><![CDATA[Sep 27, 22:14 UTC
+Resolved - The incident has been fully resolved.
+Sep 27, 20:44 UTC
+Monitoring - We are monitoring the health
+Sep 27, 20:26 UTC
+Update - We are continuing to investigate this issue.
+Sep 27, 20:00 UTC
+Update - Health has recovered and is approaching normal levels, but we're continuing to investigate.
+Sep 27, 19:39 UTC
+Investigating - We are investigating signals of degraded performance across the Rippling application.]]></summary>
+        <author>
+            <name>Rippling Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Customer Sign Ups]]></title>
+        <id>https://status.digitalocean.com/incidents/kl5v6k3kr8ph</id>
+        <link href="https://status.digitalocean.com/incidents/kl5v6k3kr8ph"/>
+        <updated>2024-09-27T18:16:45.000Z</updated>
+        <summary type="html"><![CDATA[Sep 27, 18:16 UTC
+Resolved - As of 17:05 UTC, our Engineering team has resolved the issue affecting new account sign-ups. Users should no longer experience errors and are now able to complete the sign-up process successfully.
+If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+Sep 27, 17:23 UTC
+Monitoring - Our Engineering team has implemented a fix to resolve the issue affecting new account sign-ups. Users should no longer encounter errors and can now successfully sign up again.
+Our Engineering team is continuing to monitor the situation, and we will provide an update as soon as the issue is fully resolved.
+Sep 27, 16:41 UTC
+Investigating - Our Engineering team is currently investigating an issue affecting registering for a new account at cloud.digitalocean.com. Since 00:00 UTC, some users may encounter errors and be unable to complete the registration process.
+We apologize for any inconvenience this may cause and will provide an update as soon as we have more information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Google Drive (upload a file) returns error]]></title>
         <id>https://status.make.com/incidents/0q7q403gmt9c</id>
         <link href="https://status.make.com/incidents/0q7q403gmt9c"/>
-        <updated>2024-09-26T22:07:37.000Z</updated>
-        <summary type="html"><![CDATA[Sep 27, 00:07 CEST
+        <updated>2024-09-27T07:47:11.000Z</updated>
+        <summary type="html"><![CDATA[Sep 27, 09:47 CEST
+Resolved - The issue was caused by a third-party vendor (Google API). It has been resolved as of 27th of September at 3:00 CEST. All services are now fully operational.
+Sep 27, 02:42 CEST
+Update - Our engineers are still trying to resolve the issue with files uploading via the Google Drive module, which is not working properly in US zones. The team is investigating the issue and working to resolve it as quickly as possible. We will provide updates as soon as more information is available. Thank you for your patience.
+Sep 27, 00:07 CEST
 Investigating - We are currently experiencing an issue with the Google Drive (upload a file) module, which is not working properly in US zones. Our team is investigating the issue and working to resolve it as quickly as possible. We will provide updates as soon as more information is available. Thank you for your patience.]]></summary>
         <author>
             <name>Make Status - Incident History</name>
@@ -126,7 +181,8 @@ We apologize for any inconvenience this may have caused. If you have any questio
         <link href="https://www.githubstatus.com/incidents/1g9v7rry4z86"/>
         <updated>2024-09-25T19:19:01.000Z</updated>
         <summary type="html"><![CDATA[Sep 25, 19:19 UTC
-Resolved - This incident has been resolved.
+Resolved - On September 25th, 2024 from 18:32 UTC to 19:13 UTC, Actions service experienced a degradation during a production deployment, leading to actions failing to be downloaded at the start of a job. On average, 21% of Actions workflow runs failed to start during the course of the incident. The issue was traced back to a bug in an internal service responsible for generating the URLs used by the Actions runner to download actions.
+To mitigate the impact, we rolled back the affecting deployment. We are implementing new monitors to improve our detection and response time for this class of issues in the future.
 Sep 25, 19:14 UTC
 Update - We're seeing issues related to Actions runs failing to download actions at the start of a job. We're investigating the cause and working on mitigations for customers impacted by this issue.
 Sep 25, 19:11 UTC
@@ -1219,120 +1275,6 @@ Aug 29, 19:29 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Core Infrastructure Maintenance 2024-08-29 14:00 UTC]]></title>
-        <id>https://status.digitalocean.com/incidents/wb3g6x6q55ct</id>
-        <link href="https://status.digitalocean.com/incidents/wb3g6x6q55ct"/>
-        <updated>2024-08-29T21:35:05.000Z</updated>
-        <summary type="html"><![CDATA[Aug 29, 21:35 UTC
-Completed - This maintenance window is now over and users should not experience any further interruptions with management operations. 
-An additional maintenance window will be scheduled for Tuesday, September 3, to fully complete this maintenance work. Further details will be available on our status page soon. 
-Thank you for your patience. If you have any questions or concerns about this or the upcoming maintenance, please reach out to Support from within your account.
-Aug 29, 14:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Aug 29, 04:34 UTC
-Scheduled - Start: 2024-08-29 14:00 UTC
-End:  2024-08-29 22:00 UTC
-During the above window, our Engineering team will be performing an emergency maintenance activity on core infrastructure in our production environment. This maintenance is essential to resolve the root cause of an issue discovered in a previous incident, details of which can be found here: https://status.digitalocean.com/incidents/jmj2wx0y78q3.
-Expected Impact:
-During the maintenance window, users may experience issues with management operations for services including but not limited to, Droplets, Managed Kubernetes, Load Balancers and Managed Databases. Connectivity to existing services should not be impacted. We will endeavor to keep this to a minimum for the duration of the change.
-If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket
-Thank you,
-Team DigitalOcean]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[500 errors across multiple endpoints and affecting Async APIs.]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/l518mx5wwh0m</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/l518mx5wwh0m"/>
-        <updated>2024-08-29T03:10:49.000Z</updated>
-        <summary type="html"><![CDATA[Aug 28, 20:10 PDT
-Resolved - This issue has been mitigated as of 15:44 PM (PST).
-Please retry any failed requests during the incident window.
-Aug 28, 15:38 PDT
-Investigating - We are actively investigating an increased number of 500 errors across multiple endpoints, which started today (August 28, 2024) around 10:30 AM (PDT). This issue also affects processing requests to Async APIs.
-Our engineering teams are working to get everything up and running again, and we will update you with the latest information as soon as possible.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues with Notion Export]]></title>
-        <id>https://status.notion.so/incidents/zq123z7qtsqd</id>
-        <link href="https://status.notion.so/incidents/zq123z7qtsqd"/>
-        <updated>2024-08-29T01:53:50.000Z</updated>
-        <summary type="html"><![CDATA[Aug 28, 18:53 PDT
-Resolved - We're pleased to inform you that the issue with our export function has been resolved. 
-However, please note that it may take a few hours to process the current backlog of export requests. 
-We appreciate your patience and understanding.
-Aug 28, 13:50 PDT
-Identified - Our engineering team has identified a fix for this issue, and it is currently being deployed.
-Aug 28, 11:14 PDT
-Investigating - We are currently experiencing an issue with our Notion export functionality. Users may be unable to export data, including exporting pages to PDFs and other formats. Our engineering team is fully focused on resolving this issue, and we will share updates as soon as possible.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
-        <id>https://www.githubstatus.com/incidents/345t4sjty6q3</id>
-        <link href="https://www.githubstatus.com/incidents/345t4sjty6q3"/>
-        <updated>2024-08-28T23:43:57.000Z</updated>
-        <summary type="html"><![CDATA[Aug 28, 23:43 UTC
-Resolved - On August 28, 2024, from 21:40 to 23:43 UTC, up to 25% of unauthenticated dotcom traffic in SE Asia (representing Aug 28, 23:43 UTC
-Update - Our mitigation has taken effect and impact is resolved.
-Aug 28, 23:38 UTC
-Update - Our mitigation is in place and we are seeing a reduction in overall impact. We are continuing to monitor until we are confident that the issue has been resolved.
-Aug 28, 23:33 UTC
-Update - We have identified a potential mitigation and are currently testing.
-Aug 28, 23:14 UTC
-Update - We are experiencing reduced overall impact, but continue to see a continued small impact to unauthenticated requests. We are continuing to investigate.
-Aug 28, 22:53 UTC
-Update - We are continuing to see customer impact and are still investigating.
-Aug 28, 22:37 UTC
-Update - We are continuing to investigate.
-Aug 28, 22:19 UTC
-Update - We are seeing cases of user impact in some locations are continuing to investigate.
-Aug 28, 22:06 UTC
-Update - We are seeing elevated traffic in some of our regions that we are in process of investigating.
-Aug 28, 22:02 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Brief trouble loading or sending messages]]></title>
-        <id>https://slack-status.com/2024-08/fab2a87620705d46</id>
-        <link href="https://slack-status.com/2024-08/fab2a87620705d46"/>
-        <updated>2024-08-28T23:38:12.000Z</updated>
-        <summary type="html"><![CDATA[Issue Summary:
-On August 28, 2024, from 11:13 AM PDT to 11:22 AM PDT, a small percentage of users in the Europe and Asia-Pacific region encountered issues with various actions including connecting to Slack, loading conversations, and sending messages.
-
-We detected a spike in error rates which we traced back to an upstream provider conducting unplanned maintenance on a service many core Slack functions rely on.
-
-To mitigate user impact, we temporarily diverted traffic from the affected databases. Once the error rates returned to normal and the upstream provider restored functionality, traffic was reverted back to the normal databases.
-
-We apologize for any disruption to your work day.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[500 Errors Across Multiple Endpoints]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/ppwndwqfwckf</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/ppwndwqfwckf"/>
-        <updated>2024-08-28T18:42:51.000Z</updated>
-        <summary type="html"><![CDATA[Aug 28, 11:42 PDT
-Resolved - There was an increase in 500 Errors across multiple endpoints earlier.
-The errors started on Wednesday, August 28th 10:20 AM PST and were mitigated by Wednesday, August 28th 10:30 AM PST.
-Please retry any failed requests during the incident window.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
         </author>
     </entry>
 </feed>
