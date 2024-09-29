@@ -1,10 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-28T00:27:29.033Z</id>
+    <id>urn:2024-09-29T00:30:59.370Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-28T00:27:29.033Z</updated>
+    <updated>2024-09-29T00:30:59.370Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Notion API Oauth token endpoint error]]></title>
+        <id>https://status.notion.so/incidents/ch2cmpln7jjg</id>
+        <link href="https://status.notion.so/incidents/ch2cmpln7jjg"/>
+        <updated>2024-09-28T11:30:07.000Z</updated>
+        <summary type="html"><![CDATA[Sep 28, 04:30 PDT
+Resolved - Users experienced errors when creating a token with the Notion API Oauth token endpoint starting from Sep 27th, 2:11 PM PDT.
+This issue has been resolved now. Users should no longer be encountering any errors.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Networking in NYC region]]></title>
+        <id>https://status.digitalocean.com/incidents/j443rr5pt82j</id>
+        <link href="https://status.digitalocean.com/incidents/j443rr5pt82j"/>
+        <updated>2024-09-28T11:09:01.000Z</updated>
+        <summary type="html"><![CDATA[Sep 28, 11:09 UTC
+Resolved - From 07:45 to 08:55 UTC, users may have experienced networking connectivity issues in our NYC region.
+Our Engineering team has confirmed the full resolution of the issue. Users should be able to access all resources as normal.
+If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+Sep 28, 10:25 UTC
+Monitoring - Our Engineering team made changes to remediate the networking issue due to our upstream provider. Users should not be seeing any issues with networking in NYC region. 
+We are currently monitoring the situation and will post an update as soon as the issue is fully resolved.
+Sep 28, 08:43 UTC
+Identified - Our Engineering team has identified the cause of the issue impacting networking connectivity in NYC to be with our upstream provider. Our team is actively working on remediation steps. We will post an update as soon as we have more information.
+Sep 28, 08:29 UTC
+Investigating - As of 09:45 UTC, our Engineering team is currently investigating an issue impacting networking in NYC region. Users may experience network connectivity loss to Droplets and Droplet-based services, like Managed Kubernetes and Database Clusters.
+We apologize for the inconvenience and will share an update once we have more information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Notion App Degraded Performance for Guests]]></title>
         <id>https://status.notion.so/incidents/njmvq7f6mml6</id>
@@ -1196,85 +1229,6 @@ Thank you,
 Team DigitalOcean]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managed Kubernetes Clusters in SFO3]]></title>
-        <id>https://status.digitalocean.com/incidents/y75kp2ct6d0b</id>
-        <link href="https://status.digitalocean.com/incidents/y75kp2ct6d0b"/>
-        <updated>2024-08-30T14:10:19.000Z</updated>
-        <summary type="html"><![CDATA[Aug 30, 14:10 UTC
-Resolved - Our Engineering team has resolved the issue with Managed Kubernetes clusters in the SFO3 region. All services should now be operating normally. If you continue to experience any problems, please open a ticket with our support team. We apologize for any inconvenience this may have caused.
-Aug 30, 13:45 UTC
-Monitoring - Our Engineering team has implemented a fix to resolve the issue affecting Managed Kubernetes clusters in the SFO3 region and is closely monitoring the situation. We will provide an update as soon as the issue is fully resolved.
-Aug 30, 13:37 UTC
-Investigating - Our Engineering team is currently investigating issues with the accessibility of Managed Kubernetes clusters in the SFO3 region. During this time, some users may experience difficulties connecting to their Managed Kubernetes clusters. We apologize for the inconvenience and will provide an update as soon as we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Networking in SFO3 Region]]></title>
-        <id>https://status.digitalocean.com/incidents/krnnqx5r5bl5</id>
-        <link href="https://status.digitalocean.com/incidents/krnnqx5r5bl5"/>
-        <updated>2024-08-30T12:19:42.000Z</updated>
-        <summary type="html"><![CDATA[Aug 30, 12:19 UTC
-Resolved - Our Engineering team identified and resolved an issue affecting the networking in our SFO3 region. There were multiple impacts between 08:48 and 08:52 UTC, 09:08 and 09:12 UTC, and 10:51 and 10:55 UTC. During these periods, users may have experienced timeouts with network connections to and from the SFO3 region.
-Our Engineering team was able to take quick action to mitigate the impact and resolve the issue. All services are now functioning as expected. Thank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket for further analysis.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Users on Android experiencing crashing when mentioning other users.]]></title>
-        <id>https://slack-status.com/2024-08/459426ecb123c558</id>
-        <link href="https://slack-status.com/2024-08/459426ecb123c558"/>
-        <updated>2024-08-30T01:30:44.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-From August 27, 2024 at 8:30 PM PDT to August 29, 2024 at 11:00 AM PDT, some users were experiencing crashes in Slack for Android.
-
-After a thorough investigation, we determined that we were not handling a specific subset of errors efficiently, resulting in app crashes for some users.
-
-We rolled out a code change to improve the way we handle these errors, resolving the issue for all affected customers.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Issues with Japanese and Korean fonts]]></title>
-        <id>https://slack-status.com/2024-08/28d5525ea602f8a3</id>
-        <link href="https://slack-status.com/2024-08/28d5525ea602f8a3"/>
-        <updated>2024-08-29T22:57:28.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-On August 27, 2024 from 8:30 AM PDT to August 28, 2024 at 8:50 AM PDT, Windows users with Korean and Japanese applied as their default app font were seeing distorted characters in Slack.
-We traced the cause of this unexpected behavior back to an update we made impacting fonts in Slack.
-Once we identified the root cause, we issued a fix that adjusted the appearance of Korean and Japanese font in Slack back to normal, fully resolving the issue.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
-        <id>https://www.githubstatus.com/incidents/djwfzglh2dyq</id>
-        <link href="https://www.githubstatus.com/incidents/djwfzglh2dyq"/>
-        <updated>2024-08-29T21:54:47.000Z</updated>
-        <summary type="html"><![CDATA[Aug 29, 21:54 UTC
-Resolved - On August 29th, 2024, from 16:56 UTC to 21:42 UTC, we observed an elevated rate of traffic on our public edge, which triggered GitHub’s rate limiting protections. This resulted in Aug 29, 21:54 UTC
-Update - The connectivity issues have been resolved and we are back to normal.
-Aug 29, 21:45 UTC
-Update - We have implemented a potential fix and are continuing to monitor for success.
-Aug 29, 21:25 UTC
-Update - We have isolated the symptom of the connectivity issues and are working to trace down the cause.
-Aug 29, 20:43 UTC
-Update - While we have seen a reduction in reports of users having connectivity issues to GitHub.com, we are still investigating the issue.
-Aug 29, 20:07 UTC
-Update - We are continuing to investigate issues with customers reporting temporary issues accessing GitHub.com
-Aug 29, 19:29 UTC
-Update - We are getting reports of users who aren't able to access GitHub.com and are investigating.
-Aug 29, 19:29 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
