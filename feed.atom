@@ -1,21 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-09-30T00:29:09.108Z</id>
+    <id>urn:2024-10-01T00:31:12.818Z</id>
     <title>osmos::feed</title>
-    <updated>2024-09-30T00:29:09.108Z</updated>
+    <updated>2024-10-01T00:31:12.818Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[SFO3 Network maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/vtw47syyf0w8</id>
+        <link href="https://status.digitalocean.com/incidents/vtw47syyf0w8"/>
+        <updated>2024-10-01T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 1, 08:00 - 12:00 UTC
+Sep 28, 08:19 UTC
+Scheduled - The Network maintenance in SFO3 region which was previously scheduled to start on 2024-09-25 at 08:00 UTC has been rescheduled to the following window:
+Start: 2024-10-01 08:00 UTC
+End: 2024-10-01 12:00 UTC
+During the above window, our Networking team will be performing maintenance on core switches in our SFO3 datacenter as part of network upgrades. 
+Expected Impact:
+These upgrades are designed and tested to be seamless, and we do not expect any impact to customer traffic due to this maintenance. Should an unexpected issue arise, a possible outcome would be temporary loss of connectivity for impacted Droplets. We will endeavor to keep any such impact to a minimum.
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket
+Thank you,
+Team DigitalOcean]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Issue creating and editing pages]]></title>
+        <id>https://status.notion.so/incidents/x3ltgrrzw3zz</id>
+        <link href="https://status.notion.so/incidents/x3ltgrrzw3zz"/>
+        <updated>2024-10-01T00:27:55.000Z</updated>
+        <summary type="html"><![CDATA[Sep 30, 17:27 PDT
+Investigating - Some users are experiencing issues creating and editing pages. We have identified the issue, and our engineering team is actively fixing the issue.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Trouble with some message or profile actions]]></title>
+        <id>https://slack-status.com/2024-09/22d0365005575591</id>
+        <link href="https://slack-status.com/2024-09/22d0365005575591"/>
+        <updated>2024-09-30T17:31:23.000Z</updated>
+        <summary type="html"><![CDATA[From approximately 8:00 AM PDT until 8:01 AM PDT, some users may have encountered errors when attempting to add or remove reactions, edit or delete messages, or update their user profile in Slack.
+
+An internal monitoring system alerted us of an unexpected spike in error rates related to these features. While these error rates have returned to normal and users should no longer be experiencing any issues, we are investigating the root cause to reduce the likelihood of this reoccurring in the future. We apologize for any inconvenience caused.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Issues with Google Drive module]]></title>
         <id>https://status.make.com/incidents/f5cj0qksqm5q</id>
         <link href="https://status.make.com/incidents/f5cj0qksqm5q"/>
-        <updated>2024-09-29T10:37:58.000Z</updated>
-        <summary type="html"><![CDATA[Sep 29, 12:37 CEST
+        <updated>2024-09-30T15:29:14.000Z</updated>
+        <summary type="html"><![CDATA[Sep 30, 17:29 CEST
+Resolved - We've identified the issue and successfully delivered a hotfix stabilizing the Google Drive upload. The incident is now resolved.
+Sep 29, 12:37 CEST
 Update - We're actively investigating the issue and have identified that it originates on Google's side. We're in contact with their team to understand why we're being blocked and working together to resolve it as quickly as possible.
 Sep 29, 09:47 CEST
 Investigating - We're facing issues with the Google Drive module, particularly with file uploads. While some uploads may work partially with empty files, they're still causing scenarios to fail. We'll keep you updated as the day progresses.]]></summary>
         <author>
             <name>Make Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Issues accessing some of the pages in the workspace]]></title>
+        <id>https://status.notion.so/incidents/3l8bqhdbgyd9</id>
+        <link href="https://status.notion.so/incidents/3l8bqhdbgyd9"/>
+        <updated>2024-09-30T15:13:17.000Z</updated>
+        <summary type="html"><![CDATA[Sep 30, 08:13 PDT
+Resolved - We have rolled out a fix to resolve this issue. Users should now be able to access all the pages of their workspace.
+Sep 30, 02:00 PDT
+Update - We are continuing to investigate this issue.
+Sep 30, 01:57 PDT
+Investigating - Some users might experience issues accessing certain pages in their workspace. We are working on it and should be fixed soon.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident with Codespaces]]></title>
+        <id>https://www.githubstatus.com/incidents/bdzwt47fwg51</id>
+        <link href="https://www.githubstatus.com/incidents/bdzwt47fwg51"/>
+        <updated>2024-09-30T11:26:53.000Z</updated>
+        <summary type="html"><![CDATA[Sep 30, 11:26 UTC
+Resolved - This incident has been resolved.
+Sep 30, 11:26 UTC
+Update - Codespaces is operating normally.
+Sep 30, 11:25 UTC
+Update - We are seeing signs of recovery in Codespaces creations and starts. We are continuing to monitor for full recovery.
+Sep 30, 11:24 UTC
+Update - Codespaces is experiencing degraded performance. We are continuing to investigate.
+Sep 30, 11:09 UTC
+Update - We are investigating a high number of errors in Codespaces creation and start.
+Sep 30, 11:08 UTC
+Investigating - We are investigating reports of degraded availability for Codespaces]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
     <entry>
