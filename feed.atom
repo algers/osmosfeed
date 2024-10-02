@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-01T00:31:12.818Z</id>
+    <id>urn:2024-10-02T00:27:43.475Z</id>
     <title>osmos::feed</title>
-    <updated>2024-10-01T00:31:12.818Z</updated>
+    <updated>2024-10-02T00:27:43.475Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[The Rippling app and backend is experiencing increased latency]]></title>
+        <id>https://status.rippling.com/incidents/d8jjm05qhhjz</id>
+        <link href="https://status.rippling.com/incidents/d8jjm05qhhjz"/>
+        <updated>2024-10-01T15:00:25.000Z</updated>
+        <summary type="html"><![CDATA[Oct  1, 15:00 UTC
+Resolved - This issue has been resolved.
+Oct  1, 14:50 UTC
+Monitoring - A fix has been implemented and we're monitoring the results.
+Oct  1, 14:00 UTC
+Investigating - The Rippling app and backend is experiencing increased latency. Our team is investigating.]]></summary>
+        <author>
+            <name>Rippling Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SFO3 Network maintenance]]></title>
         <id>https://status.digitalocean.com/incidents/vtw47syyf0w8</id>
         <link href="https://status.digitalocean.com/incidents/vtw47syyf0w8"/>
-        <updated>2024-10-01T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 1, 08:00 - 12:00 UTC
+        <updated>2024-10-01T12:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Oct  1, 12:00 UTC
+Completed - The scheduled maintenance has been completed.
+Oct  1, 08:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Sep 28, 08:19 UTC
 Scheduled - The Network maintenance in SFO3 region which was previously scheduled to start on 2024-09-25 at 08:00 UTC has been rescheduled to the following window:
 Start: 2024-10-01 08:00 UTC
@@ -26,26 +44,31 @@ Team DigitalOcean]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Issue creating and editing pages]]></title>
-        <id>https://status.notion.so/incidents/x3ltgrrzw3zz</id>
-        <link href="https://status.notion.so/incidents/x3ltgrrzw3zz"/>
-        <updated>2024-10-01T00:27:55.000Z</updated>
-        <summary type="html"><![CDATA[Sep 30, 17:27 PDT
-Investigating - Some users are experiencing issues creating and editing pages. We have identified the issue, and our engineering team is actively fixing the issue.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Incident: Trouble with some message or profile actions]]></title>
         <id>https://slack-status.com/2024-09/22d0365005575591</id>
         <link href="https://slack-status.com/2024-09/22d0365005575591"/>
-        <updated>2024-09-30T17:31:23.000Z</updated>
-        <summary type="html"><![CDATA[From approximately 8:00 AM PDT until 8:01 AM PDT, some users may have encountered errors when attempting to add or remove reactions, edit or delete messages, or update their user profile in Slack.
+        <updated>2024-10-01T02:43:19.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+On September 30, 2024 from 8:00 AM PDT to 10:15 PM PDT, some users may have encountered errors when attempting to add or remove reactions, edit or delete messages, or update their user profile in Slack.
 
-An internal monitoring system alerted us of an unexpected spike in error rates related to these features. While these error rates have returned to normal and users should no longer be experiencing any issues, we are investigating the root cause to reduce the likelihood of this reoccurring in the future. We apologize for any inconvenience caused.]]></summary>
+An internal service created very high load on a specific section of our infrastructure. This caused a spike in errors as the affected servers struggled to handle all the incoming requests. 
+
+We manually adjusted the capacity for the affected infrastructure so as to better handle the incoming traffic. This resolved the issue, restoring normal behaviour for all users.]]></summary>
         <author>
             <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Issue creating and editing pages]]></title>
+        <id>https://status.notion.so/incidents/x3ltgrrzw3zz</id>
+        <link href="https://status.notion.so/incidents/x3ltgrrzw3zz"/>
+        <updated>2024-10-01T00:32:48.000Z</updated>
+        <summary type="html"><![CDATA[Sep 30, 17:32 PDT
+Resolved - We have rolled out a fix to resolve this issue. If your app still shows "Saving…", please copy any recently added text to another application and reload the page.
+Sep 30, 17:27 PDT
+Investigating - Some users are experiencing issues creating and editing pages. We have identified the issue, and our engineering team is actively fixing the issue.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1300,29 +1323,6 @@ We rolled back a feature flag related to the message composer on Android. This c
 We also determined that the app crash issue mentioned in our updates was unrelated to the performance issues. You can review our summary of that incident here: https://slack-status.com/2024-08/459426ecb123c558. We apologize for any confusion.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Core Infrastructure Maintenance]]></title>
-        <id>https://status.digitalocean.com/incidents/5tdn3x6vhp8q</id>
-        <link href="https://status.digitalocean.com/incidents/5tdn3x6vhp8q"/>
-        <updated>2024-09-03T18:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Sep  3, 18:00 UTC
-Completed - The scheduled maintenance has been completed.
-Sep  3, 14:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Aug 31, 14:21 UTC
-Scheduled - Start: 2024-09-03 14:00 UTC
-End: 2024-09-03 18:00 UTC
-During the above window, our Engineering team will be performing additional maintenance on core infrastructure in our production environment. This is the second part of the maintenance completed on 29th August (posted here https://status.digitalocean.com/incidents/wb3g6x6q55ct) to resolve the root cause of an issue discovered in a previous incident, details of which can be found here: 
-https://status.digitalocean.com/incidents/jmj2wx0y78q3.
-Expected Impact:
-During the maintenance window, users may experience issues with management operations for services including but not limited to, Droplets, Managed Kubernetes, Load Balancers and Managed Databases. Connectivity to existing services should not be impacted. We will endeavor to keep this to a minimum for the duration of the maintenance.
-If you have any questions related to this issue, please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket
-Thank you,
-Team DigitalOcean]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
