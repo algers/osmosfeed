@@ -1,10 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-02T00:27:43.475Z</id>
+    <id>urn:2024-10-03T00:27:28.620Z</id>
     <title>osmos::feed</title>
-    <updated>2024-10-02T00:27:43.475Z</updated>
+    <updated>2024-10-03T00:27:28.620Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[UPDATE: **Summary:**
+Customers may experience intermittent issues with support case creation
+**Description:**
+We are experiencing an intermittent issue with Google Workspace Support case creation beginning on Wednesday, 2024-10-02 14:20 US/Pacific.
+Our engineering team continues to investigate the issue.
+We will provide an update by Wednesday, 2024-10-02 18:00 US/Pacific with current details.
+We apologize to all who are affected by the disruption.
+**Diagnosis:**
+Impacted customers may receive an unexpected error while attempting case creation.
+**Workaround:**
+Retrying the case creation process may be successful due to the intermittent nature of the issue.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR"/>
+        <updated>2024-10-02T23:59:19.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-10-02 21:20</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p><strong>Summary:</strong></p>
+<p>Customers may experience intermittent issues with support case creation</p>
+<p><strong>Description:</strong></p>
+<p>We are experiencing an intermittent issue with Google Workspace Support case creation beginning on Wednesday, 2024-10-02 14:20 US/Pacific.</p>
+<p>Our engineering team continues to investigate the issue.</p>
+<p>We will provide an update by Wednesday, 2024-10-02 18:00 US/Pacific with current details.</p>
+<p>We apologize to all who are affected by the disruption.</p>
+<p><strong>Diagnosis:</strong></p>
+<p>Impacted customers may receive an unexpected error while attempting case creation.</p>
+<p><strong>Workaround:</strong></p>
+<p>Retrying the case creation process may be successful due to the intermittent nature of the issue.</p>
+</div><hr><p>Affected products: Google Workspace Support</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TS-2024-012]]></title>
+        <id>https://tailscale.com/security-bulletins/#ts-2024-012</id>
+        <link href="https://tailscale.com/security-bulletins/#ts-2024-012"/>
+        <updated>2024-10-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Description: Tailscale Funnel abused for phishing
+What happened?
+A malicious user abused Tailscale Funnel to host a phishing page
+targeting Facebook users. This user created multiple free Tailscale accounts to
+use as an obfuscation/anonymity proxy for their VPS instance hosting the
+phishing page.
+We received the first report about a phishing page on September 23rd, 2024, and
+took down the Funnel page the same day. We received the second report on October
+1st, 2024, for the same phishing page on a different Tailscale account. We took
+down the second page, added detection for new similar pages, and repeatedly
+shut down new attacker accounts as they were created. After a few more
+attempts, the attacker stopped creating new accounts.
+Who was affected?
+232 unique IP addresses accessed the attacker's Funnel nodes. Of those, 87 IP addresses made more
+than one request, suggesting a possible phishing form submission.
+What was the impact?
+Some Facebook users could have been phished for their credentials. Since
+Tailscale Funnel proxies can only see encrypted TLS traffic, we cannot confirm
+whether anyone was successfully phished.
+What do I need to do?
+Don't use Tailscale Funnel for phishing.]]></summary>
+        <author>
+            <name>Security Bulletins on Tailscale</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Rippling app and backend is experiencing increased latency]]></title>
         <id>https://status.rippling.com/incidents/d8jjm05qhhjz</id>
@@ -269,29 +330,12 @@ Team DigitalOcean]]></summary>
         <link href="https://www.githubstatus.com/incidents/zp4gzrqfzhrq"/>
         <updated>2024-09-26T05:08:45.000Z</updated>
         <summary type="html"><![CDATA[Sep 26, 05:08 UTC
-Resolved - This incident has been resolved.
+Resolved - Between September 25, 2024, 22:20 UTC and September 26, 2024, 5:00 UTC the Copilot service was degraded. During this time Copilot chat requests failed at an average rate of 15%.
+This was due to a faulty deployment in a service provider that caused server errors from multiple regions. Traffic was routed away from those regions at 22:28 UTC and 23:39 UTC, which partially restored functionality, while the upstream service provider rolled back their change. The rollback was completed at 04:41 UTC.
+We are continuing to improve our ability to respond more quickly to similar issues through faster regional redirection and working with our upstream provider on improved monitoring.
+
 Sep 26, 05:08 UTC
-Update - Monitors continue to see improvements. We are declaring full recovery.
-Sep 26, 05:03 UTC
-Update - Copilot is operating normally.
-Sep 26, 03:51 UTC
-Update - We've applied a mitigation to fix the issues and are seeing improvements in telemetry. We are monitoring for full recovery.
-Sep 26, 02:34 UTC
-Update - We believe we have identified the root cause of the issue and are monitoring to ensure the problem does not recur.
-Sep 26, 01:46 UTC
-Update - We are continuing to investigate the root cause of the latency previously observed to ensure there is no reoccurrence, and better stability going forward.
-
-Sep 26, 01:03 UTC
-Update - We are continuing to investigate the root cause of the latency previously observed to ensure there is no reoccurrence, and better stability going forward.
-Sep 26, 00:29 UTC
-Update - Copilot users should no longer see request failures. We are still investigating the root cause of the issue to ensure that the experience will remain uninterrupted.
-Sep 25, 23:55 UTC
-Update - We are seeing recovery for requests to Copilot API in affected regions, and are continuing to investigate to ensure the experience remains stable.
-Sep 25, 23:40 UTC
-Update - We have noticed a degradation in performance of Copilot API in some regions. This may result in latency or failed responses to requests to Copilot. We are investigating mitigation options.
-
-Sep 25, 23:39 UTC
-Investigating - We are investigating reports of degraded performance for Copilot]]></summary>
+Update - Monitors continue to see improvements. We are declaring full r…]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
@@ -679,28 +723,6 @@ Identified - We've identified an issue with Readme: some pages aren't loading co
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RESOLVED: **Summary:**
-Google Drive users may experience increased error rates.
-**Description:**
-We are experiencing an intermittent issue with Google Drive beginning on Monday, 2024-09-16 10:11 US/Pacific.
-Our engineering team continues to investigate the issue.
-We will provide an update by Monday, 2024-09-16 11:45 US/Pacific with current details.
-We apologize to all who are affected by the disruption.
-**Diagnosis:**
-Google Drive users may experience increased error rates.
-**Workaround:**
-Customers may see success in retries.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/XmBN1zthW43h8LVENBXY</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/XmBN1zthW43h8LVENBXY"/>
-        <updated>2024-09-17T05:19:35.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-09-16 17:11</strong> and ended at <strong>2024-09-17 04:50</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>The issue with Google Drive has been resolved for all affected users as of Monday, 2024-09-16 21:50 US/Pacific.</p>
-<p>We thank you for your patience while we worked on resolving the issue.</p>
-</div><hr><p>Affected products: Google Drive</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Incident with Pages and Actions]]></title>
         <id>https://www.githubstatus.com/incidents/69sb0f8lydp4</id>
         <link href="https://www.githubstatus.com/incidents/69sb0f8lydp4"/>
@@ -790,7 +812,9 @@ If you continue to experience problems, please open a ticket with our support te
         <link href="https://www.githubstatus.com/incidents/rzqy51mc72dx"/>
         <updated>2024-09-14T22:43:08.000Z</updated>
         <summary type="html"><![CDATA[Sep 14, 22:43 UTC
-Resolved - This incident has been resolved.
+Resolved - On September 14th, 2024 from 20:45 UTC to 22:31 UTC commit creation operations, most commonly Pull Request merges, failed for some repositories. 226 repositories were impacted.
+The root cause was a hardware fault in a Git file server, where merge commits are calculated. To mitigate the issue we marked the file server as offline.
+Detection was slower than is typical because of lower weekend traffic. We’re making improvements to monitoring to decrease time to detection in future.
 Sep 14, 22:43 UTC
 Update - Pull Requests is operating normally.
 Sep 14, 22:41 UTC
