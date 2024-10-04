@@ -123,6 +123,26 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/bcc21zwyds3v",
+          "author": null,
+          "description": "Oct  3, 19:05 UTC\nResolved - Our Engineering team has confirmed the resolution of the issue impacting Spaces Access Keys.\nFrom 15:21 UTC to 17:52 UTC, users were experiencing errors when creating or regenerating Spaces Access Keys in the Cloud Control Panel.\nWe apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.\nOct  3, 18:08 UTC\nMonitoring - Our Engineering team has identified the cause of the issue with Spaces Access Keys and has implemented a fix. Users should now be able to create or regenerate Spaces Access Keys without any issues.\nWe are currently monitoring the situation and will post an update as soon as the issue is fully resolved.\nOct  3, 17:52 UTC\nInvestigating - Our Engineering team is investigating an issue with creating or regenerating Spaces Access Keys in the Cloud Control Panel. During this time, users may experience errors when attempting to create or regenerate Spaces Access Keys in the Cloud Control Panel. We apologize for the inconvenience and will share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/bcc21zwyds3v",
+          "publishedOn": "2024-10-03T19:05:00.000Z",
+          "wordCount": 6383,
+          "title": "Creating or Regenerating Spaces Access Key",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/h7m0cjdx44v2",
+          "author": null,
+          "description": "Oct  3, 14:54 UTC\nCompleted - The scheduled maintenance has been completed.\nOct  3, 12:30 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct  1, 03:57 UTC\nScheduled - Start: 2024-10-03 12:30 UTC\nEnd: 2024-10-03 15:30 UTC\nDuring the above window, our Networking team will be making changes to core networking infrastructure to improve performance and scalability in the BLR1 region. This is a rescheduled maintenance event previously scheduled for 2024-09-24. \nExpected Impact:\nThese upgrades are designed and tested to be seamless and we do not expect any impact on customer traffic due to this maintenance. Should an unexpected issue arise, a possible outcome would be a temporary loss of connectivity for impacted Droplets. Any impact would also extend to Droplet-dependent services in the BLR1 region such as Managed Databases, Load Balancers, App Platform, and Managed Kubernetes. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket/.",
+          "link": "https://status.digitalocean.com/incidents/h7m0cjdx44v2",
+          "publishedOn": "2024-10-03T14:54:35.000Z",
+          "wordCount": 6365,
+          "title": "Rescheduled: BLR1 Network Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/vtw47syyf0w8",
           "author": null,
           "description": "Oct  1, 12:00 UTC\nCompleted - The scheduled maintenance has been completed.\nOct  1, 08:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep 28, 08:19 UTC\nScheduled - The Network maintenance in SFO3 region which was previously scheduled to start on 2024-09-25 at 08:00 UTC has been rescheduled to the following window:\nStart: 2024-10-01 08:00 UTC\nEnd: 2024-10-01 12:00 UTC\nDuring the above window, our Networking team will be performing maintenance on core switches in our SFO3 datacenter as part of network upgrades. \nExpected Impact:\nThese upgrades are designed and tested to be seamless, and we do not expect any impact to customer traffic due to this maintenance. Should an unexpected issue arise, a possible outcome would be temporary loss of connectivity for impacted Droplets. We will endeavor to keep any such impact to a minimum.\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket\nThank you,\nTeam DigitalOcean",
@@ -351,16 +371,6 @@
           "wordCount": 6399,
           "title": "Resizing Droplet Attached Block Storage Volumes",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/z2jx95g17lm8",
-          "author": null,
-          "description": "Sep  9, 16:05 UTC\nCompleted - Hello,\nThe NYC2 Network Maintenance which was previously scheduled to start today (2024-09-09) at 21:00 UTC has been rescheduled to the following window:\nStart: 2024-09-18 21:00 UTC\nEnd: 2024-09-18 23:00 UTC\nWe apologize for any inconvenience this short notice may have caused and thank you for your understanding. \nIf you have questions or concerns about this maintenance, please reach out to us by opening up a ticket on your account.\nThank you,\nDigitalOcean Networking Team\nSep  7, 11:42 UTC\nScheduled - Start: 2024-09-09 21:00 UTC\nEnd: 2024-09-09 23:00 UTC\nHello,\nDuring the above window, our Networking team will be performing maintenance on the management network firewalls in the NYC2 region.\nExpected Impact:\nDuring the maintenance period, users may experience delays of up to 10 minutes with Event Processing on Droplets and Droplet-based services in NYC2. We will endeavor to keep this to a minimum for the duration of the change.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket/.\nThank you,\nDigitalOcean Networking Team",
-          "link": "https://status.digitalocean.com/incidents/z2jx95g17lm8",
-          "publishedOn": "2024-09-09T16:05:05.000Z",
-          "wordCount": 6359,
-          "title": "NYC2 Network Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -487,6 +497,16 @@
       "siteUrl": "https://status.rippling.com",
       "articles": [
         {
+          "id": "https://status.rippling.com/incidents/pfsbt0j9w5v0",
+          "author": null,
+          "description": "Oct  3, 19:32 UTC\nResolved - This incident has been resolved.\nOct  3, 18:38 UTC\nMonitoring - Site health should be back to normal. We are monitoring the results.\nOct  3, 18:35 UTC\nIdentified - We are rolling back the latest deployment which will resolve the access issues. Issues should be resolved in the next 15 minutes.\nOct  3, 18:28 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://status.rippling.com/incidents/pfsbt0j9w5v0",
+          "publishedOn": "2024-10-03T19:32:10.000Z",
+          "wordCount": 5311,
+          "title": "Issues accessing Rippling",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
+        },
+        {
           "id": "https://status.rippling.com/incidents/d8jjm05qhhjz",
           "author": null,
           "description": "Oct  1, 15:00 UTC\nResolved - This issue has been resolved.\nOct  1, 14:50 UTC\nMonitoring - A fix has been implemented and we're monitoring the results.\nOct  1, 14:00 UTC\nInvestigating - The Rippling app and backend is experiencing increased latency. Our team is investigating.",
@@ -526,10 +546,40 @@
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-10-02 21:20</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Customers may experience intermittent issues with support case creation</p>\n<p><strong>Description:</strong></p>\n<p>We are experiencing an intermittent issue with Google Workspace Support case creation beginning on Wednesday, 2024-10-02 14:20 US/Pacific.</p>\n<p>Our engineering team continues to investigate the issue.</p>\n<p>We will provide an update by Wednesday, 2024-10-02 18:00 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Impacted customers may receive an unexpected error while attempting case creation.</p>\n<p><strong>Workaround:</strong></p>\n<p>Retrying the case creation process may be successful due to the intermittent nature of the issue.</p>\n</div><hr><p>Affected products: Google Workspace Support</p>",
+          "description": "<p> Incident began at <strong>2024-10-02 21:20</strong> and ended at <strong>2024-10-02 23:12</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The Mini Incident Report is available on the Google Cloud Service Health Dashboard : <a href=\"https://status.cloud.google.com/incidents/MXtAVH2fTnMpaCDx53JN\">https://status.cloud.google.com/incidents/MXtAVH2fTnMpaCDx53JN</a></p>\n</div><hr><p>Affected products: Google Workspace Support</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR",
-          "publishedOn": "2024-10-02T23:59:19.000Z",
-          "wordCount": 382,
+          "publishedOn": "2024-10-03T20:01:37.000Z",
+          "wordCount": 565,
+          "title": "RESOLVED: **Summary:**\nCustomers may experience intermittent issues with support case creation\n**Description:**\nWe are experiencing an intermittent issue with Google Workspace Support case creation beginning on Wednesday, 2024-10-02 14:20 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Wednesday, 2024-10-02 18:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nImpacted customers may receive an unexpected error while attempting case creation.\n**Workaround:**\nRetrying the case creation process may be successful due to the intermittent nature of the issue.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-10-02 21:20</strong> and ended at <strong>2024-10-02 23:12</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The issue with Google Workspace Support case creation has been resolved for all affected customers as of Wednesday, 2024-10-02 16:12 US/Pacific. We thank you for your patience while we worked on resolving the issue.</p>\n</div><hr><p>Affected products: Google Workspace Support</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR",
+          "publishedOn": "2024-10-03T20:01:37.000Z",
+          "wordCount": 565,
+          "title": "RESOLVED: **Summary:**\nCustomers may experience intermittent issues with support case creation\n**Description:**\nWe are experiencing an intermittent issue with Google Workspace Support case creation beginning on Wednesday, 2024-10-02 14:20 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Wednesday, 2024-10-02 18:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nImpacted customers may receive an unexpected error while attempting case creation.\n**Workaround:**\nRetrying the case creation process may be successful due to the intermittent nature of the issue.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-10-02 21:20</strong> and ended at <strong>2024-10-02 23:12</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Customers may experience intermittent issues with support case creation</p>\n<p><strong>Description:</strong></p>\n<p>We experienced an issue where some customers were unable to create cases. This issue has been mitigated as of 16:12 US/Pacific.  The support case creation process is now working successfully, but we continue to investigate the underlying cause and monitor our environment for stability. Initial investigations have determined a temporary issue due to an unexpected increase in traffic.</p>\n<p>We will provide an update by Wednesday, 2024-10-02 20:00 US/Pacific with current details.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Impacted customers may receive an unexpected error while attempting case creation.</p>\n<p><strong>Workaround:</strong></p>\n<p>Retrying the case creation process may be successful due to the intermittent nature of the issue.</p>\n</div><hr><p>Affected products: Google Workspace Support</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR",
+          "publishedOn": "2024-10-03T01:53:41.000Z",
+          "wordCount": 565,
+          "title": "UPDATE: **Summary:**\nCustomers may experience intermittent issues with support case creation\n**Description:**\nWe are experiencing an intermittent issue with Google Workspace Support case creation beginning on Wednesday, 2024-10-02 14:20 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Wednesday, 2024-10-02 18:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nImpacted customers may receive an unexpected error while attempting case creation.\n**Workaround:**\nRetrying the case creation process may be successful due to the intermittent nature of the issue.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR",
+          "author": null,
+          "description": "<p> Incident began at <strong>2024-10-02 21:20</strong> and ended at <strong>2024-10-02 23:12</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Customers may experience intermittent issues with support case creation</p>\n<p><strong>Description:</strong></p>\n<p>We are experiencing an intermittent issue with Google Workspace Support case creation beginning on Wednesday, 2024-10-02 14:20 US/Pacific.</p>\n<p>Our engineering team continues to investigate the issue.</p>\n<p>We will provide an update by Wednesday, 2024-10-02 18:00 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Impacted customers may receive an unexpected error while attempting case creation.</p>\n<p><strong>Workaround:</strong></p>\n<p>Retrying the case creation process may be successful due to the intermittent nature of the issue.</p>\n</div><hr><p>Affected products: Google Workspace Support</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR",
+          "publishedOn": "2024-10-03T01:10:44.000Z",
+          "wordCount": 565,
           "title": "UPDATE: **Summary:**\nCustomers may experience intermittent issues with support case creation\n**Description:**\nWe are experiencing an intermittent issue with Google Workspace Support case creation beginning on Wednesday, 2024-10-02 14:20 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Wednesday, 2024-10-02 18:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nImpacted customers may receive an unexpected error while attempting case creation.\n**Workaround:**\nRetrying the case creation process may be successful due to the intermittent nature of the issue.",
           "imageUrl": null
         }
@@ -548,6 +598,16 @@
           "publishedOn": "2024-09-30T11:26:53.000Z",
           "wordCount": 5360,
           "title": "Incident with Codespaces",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
+          "id": "https://www.githubstatus.com/incidents/wlb83pxg009y",
+          "author": null,
+          "description": "Sep 27, 15:30 UTC\nResolved - On September 27th, 2024 from 10:26 to 10:34 UTC, some users listing project releases may have encountered a 500 error.",
+          "link": "https://www.githubstatus.com/incidents/wlb83pxg009y",
+          "publishedOn": "2024-09-27T15:30:00.000Z",
+          "wordCount": 5282,
+          "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
         {
@@ -583,10 +643,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/2dxdzc3fdgdx",
           "author": null,
-          "description": "Sep 24, 21:04 UTC\nResolved - This incident has been resolved.\nSep 24, 21:04 UTC\nUpdate - Codespaces is operating normally.\nSep 24, 21:01 UTC\nUpdate - We have successfully mitigated the issue affecting create and resume requests for Codespaces. Early signs of recovery are being observed in the impacted region.\nSep 24, 21:00 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nSep 24, 20:56 UTC\nUpdate - We are investigating issues with Codespaces in the US East geographic area. Some users may not be able to create or start their Codespaces at this time. We will update you on mitigation progress.\nSep 24, 20:54 UTC\nInvestigating - We are investigating reports of degraded availability for Codespaces",
+          "description": "Sep 24, 21:04 UTC\nResolved - On September 24th, 2024 from 08:20 UTC to 09:04 UTC the Codespaces service experienced an interruption in network connectivity, leading to 175 codespaces being unable to be created or resumed. The overall error rate during this period was 25%. \nThe cause was traced to an interruption in network connectivity caused by SNAT port exhaustion following a deployment, causing individual Codespaces to lose their connection to the service.\nTo mitigate the impact, we increased port allocations to give enough buffer for increased outbound connections shortly after deployments, and will be scaling up our outbound connectivity in the near future, as well as adding improved monitoring of network capacity to prevent future regressions.\nSep 24, 21:04 UTC\nUpdate - Codespaces is operating normally.\nSep 24, 21:01 UTC\nUpdate - We have successfully mitigated the issue affecting create and resume requests for Codespaces. Early signs of recovery are being observed in the impacted region.\nSep 24, 21:00 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nSep 24, 20:56 UTC\nUpdate - We are investigating issues with Codespaces in the US East geographic area. Some users may not be able to create or start their Codespaces at this time. We will update you on mitigation progress.\nSep 24, 20:54 UTC\nInvestigating - We are investigating reports of degraded availability for Codespaces",
           "link": "https://www.githubstatus.com/incidents/2dxdzc3fdgdx",
           "publishedOn": "2024-09-24T21:04:59.000Z",
-          "wordCount": 5395,
+          "wordCount": 5500,
           "title": "Incident with Codespaces start and creation",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -734,6 +794,16 @@
       "feedUrl": "https://status.make.com/history.rss",
       "siteUrl": "https://status.make.com",
       "articles": [
+        {
+          "id": "https://status.make.com/incidents/svwc6htn3ks0",
+          "author": null,
+          "description": "Oct  3, 17:00 CEST\nResolved - This incident has been resolved.\nOct  3, 12:14 CEST\nMonitoring - A fix has been implemented and we are monitoring the results.\nOct  3, 12:06 CEST\nInvestigating - We have identified an issue with incoming webhooks, which are being delayed. Our team is looking into the issue now. Please stay tuned for further updates within the next hour.",
+          "link": "https://status.make.com/incidents/svwc6htn3ks0",
+          "publishedOn": "2024-10-03T15:00:44.000Z",
+          "wordCount": 3873,
+          "title": "Webhook delays in eu2",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.make.com/incidents/f5cj0qksqm5q",
           "author": null,
