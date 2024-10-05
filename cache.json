@@ -198,7 +198,7 @@
           "description": "Sep 26, 02:45 UTC\nResolved - From 22:25 to 22:50 UTC, users may have experienced network connectivity issues with all DigitalOcean services deployed in the SFO3 region. Additionally, from 22:25 until 01:40 UTC, users may have encountered network connectivity issues affecting their Managed Kubernetes clusters in the SFO3 region.\nOur Engineering team has fully resolved the issues impacting connectivity in the region, and all services are now operating normally. \nIf you continue to experience any problems, please open a ticket with our Support team. We apologize for any inconvenience caused.\nSep 26, 02:15 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue affecting networking connectivity with Managed Kubernetes clusters in the SFO3 region and is closely monitori…",
           "link": "https://status.digitalocean.com/incidents/fxvdq88ych5y",
           "publishedOn": "2024-09-26T02:45:02.000Z",
-          "wordCount": 6504,
+          "wordCount": 6948,
           "title": "Network Connectivity in SFO3 Region",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -497,6 +497,16 @@
       "siteUrl": "https://status.rippling.com",
       "articles": [
         {
+          "id": "https://status.rippling.com/incidents/vqzxrxtxkr3j",
+          "author": null,
+          "description": "Oct  4, 23:30 UTC\nResolved - This incident has been resolved.\nOct  4, 21:27 UTC\nUpdate - Access to the Rippling app has recovered\nOct  4, 21:23 UTC\nUpdate - We are continuing to investigate this issue.\nOct  4, 21:07 UTC\nInvestigating - We are aware of issues accessing Rippling",
+          "link": "https://status.rippling.com/incidents/vqzxrxtxkr3j",
+          "publishedOn": "2024-10-04T23:30:12.000Z",
+          "wordCount": 5292,
+          "title": "Site access issues",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
+        },
+        {
           "id": "https://status.rippling.com/incidents/pfsbt0j9w5v0",
           "author": null,
           "description": "Oct  3, 19:32 UTC\nResolved - This incident has been resolved.\nOct  3, 18:38 UTC\nMonitoring - Site health should be back to normal. We are monitoring the results.\nOct  3, 18:35 UTC\nIdentified - We are rolling back the latest deployment which will resolve the access issues. Issues should be resolved in the next 15 minutes.\nOct  3, 18:28 UTC\nInvestigating - We are currently investigating this issue.",
@@ -551,36 +561,6 @@
           "publishedOn": "2024-10-03T20:01:37.000Z",
           "wordCount": 565,
           "title": "RESOLVED: **Summary:**\nCustomers may experience intermittent issues with support case creation\n**Description:**\nWe are experiencing an intermittent issue with Google Workspace Support case creation beginning on Wednesday, 2024-10-02 14:20 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Wednesday, 2024-10-02 18:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nImpacted customers may receive an unexpected error while attempting case creation.\n**Workaround:**\nRetrying the case creation process may be successful due to the intermittent nature of the issue.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-10-02 21:20</strong> and ended at <strong>2024-10-02 23:12</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The issue with Google Workspace Support case creation has been resolved for all affected customers as of Wednesday, 2024-10-02 16:12 US/Pacific. We thank you for your patience while we worked on resolving the issue.</p>\n</div><hr><p>Affected products: Google Workspace Support</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR",
-          "publishedOn": "2024-10-03T20:01:37.000Z",
-          "wordCount": 565,
-          "title": "RESOLVED: **Summary:**\nCustomers may experience intermittent issues with support case creation\n**Description:**\nWe are experiencing an intermittent issue with Google Workspace Support case creation beginning on Wednesday, 2024-10-02 14:20 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Wednesday, 2024-10-02 18:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nImpacted customers may receive an unexpected error while attempting case creation.\n**Workaround:**\nRetrying the case creation process may be successful due to the intermittent nature of the issue.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-10-02 21:20</strong> and ended at <strong>2024-10-02 23:12</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Customers may experience intermittent issues with support case creation</p>\n<p><strong>Description:</strong></p>\n<p>We experienced an issue where some customers were unable to create cases. This issue has been mitigated as of 16:12 US/Pacific.  The support case creation process is now working successfully, but we continue to investigate the underlying cause and monitor our environment for stability. Initial investigations have determined a temporary issue due to an unexpected increase in traffic.</p>\n<p>We will provide an update by Wednesday, 2024-10-02 20:00 US/Pacific with current details.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Impacted customers may receive an unexpected error while attempting case creation.</p>\n<p><strong>Workaround:</strong></p>\n<p>Retrying the case creation process may be successful due to the intermittent nature of the issue.</p>\n</div><hr><p>Affected products: Google Workspace Support</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR",
-          "publishedOn": "2024-10-03T01:53:41.000Z",
-          "wordCount": 565,
-          "title": "UPDATE: **Summary:**\nCustomers may experience intermittent issues with support case creation\n**Description:**\nWe are experiencing an intermittent issue with Google Workspace Support case creation beginning on Wednesday, 2024-10-02 14:20 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Wednesday, 2024-10-02 18:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nImpacted customers may receive an unexpected error while attempting case creation.\n**Workaround:**\nRetrying the case creation process may be successful due to the intermittent nature of the issue.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-10-02 21:20</strong> and ended at <strong>2024-10-02 23:12</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Customers may experience intermittent issues with support case creation</p>\n<p><strong>Description:</strong></p>\n<p>We are experiencing an intermittent issue with Google Workspace Support case creation beginning on Wednesday, 2024-10-02 14:20 US/Pacific.</p>\n<p>Our engineering team continues to investigate the issue.</p>\n<p>We will provide an update by Wednesday, 2024-10-02 18:00 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Impacted customers may receive an unexpected error while attempting case creation.</p>\n<p><strong>Workaround:</strong></p>\n<p>Retrying the case creation process may be successful due to the intermittent nature of the issue.</p>\n</div><hr><p>Affected products: Google Workspace Support</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/ESTn41B9afCeGkPKBZAR",
-          "publishedOn": "2024-10-03T01:10:44.000Z",
-          "wordCount": 565,
-          "title": "UPDATE: **Summary:**\nCustomers may experience intermittent issues with support case creation\n**Description:**\nWe are experiencing an intermittent issue with Google Workspace Support case creation beginning on Wednesday, 2024-10-02 14:20 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Wednesday, 2024-10-02 18:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nImpacted customers may receive an unexpected error while attempting case creation.\n**Workaround:**\nRetrying the case creation process may be successful due to the intermittent nature of the issue.",
           "imageUrl": null
         }
       ]
@@ -765,26 +745,6 @@
           "publishedOn": "2024-09-06T20:20:32.000Z",
           "wordCount": 349,
           "title": "Incident: Issues with availability status",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-08/b45f897d02eb88f1",
-          "author": null,
-          "description": "Issue summary:\nOn August 27, 2024, from 3:16 PM PDT to 4:09 PM PDT, a change in the backend Slack web service caused the Android app to fail to boot when connecting to Slack servers.\n\nThe problems were detected by Slack internally. We rolled back a deploy to mitigate the issue for customers, resolving the issue at hand.\n\nWe apologize for any disruption this caused our Android app users.",
-          "link": "https://slack-status.com/2024-08/b45f897d02eb88f1",
-          "publishedOn": "2024-09-05T02:42:15.000Z",
-          "wordCount": 311,
-          "title": "Incident: Users on Android experiencing crashes",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-08/a93569f745bc5717",
-          "author": null,
-          "description": "Issue summary:\nFrom August 27, 2024, at around 8:17 PM PDT until August 28, 2024, around 1:39 PM PDT, some Android users experienced performance issues while trying to use mentions.\n\nWe rolled back a feature flag related to the message composer on Android. This change unexpectedly introduced an error in backend logic when users attempted a mention, causing the UI to become overwhelmed and unresponsive. We identified the cause and re-enabled the feature, gradually rolling it out to users and resolving the issue for those affected.\n\nWe also determined that the app crash issue mentioned in our updates was unrelated to the performance issues. You can review our summary of that incident here: https://slack-status.com/2024-08/459426ecb123c558. We apologize for any confusion.",
-          "link": "https://slack-status.com/2024-08/a93569f745bc5717",
-          "publishedOn": "2024-09-04T23:49:10.000Z",
-          "wordCount": 435,
-          "title": "Incident: A small number of users experiencing lagging behavior when using mentions on Android",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
