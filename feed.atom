@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-05T00:27:16.493Z</id>
+    <id>urn:2024-10-06T00:30:30.499Z</id>
     <title>osmos::feed</title>
-    <updated>2024-10-05T00:27:16.493Z</updated>
+    <updated>2024-10-06T00:30:30.499Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1324,61 +1324,6 @@ We traced the issue to a recent code change related to updating a user's availab
 We'll continue to implement process improvements from our review to help reduce the likelihood of this occurring in the future.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New! Manage Guest Payment Notifications from Settings]]></title>
-        <id>300149</id>
-        <link href="https://changelog.bookingsync.com/new!-manage-guest-payment-notifications-from-settings-300149"/>
-        <updated>2024-09-06T12:11:26.000Z</updated>
-        <summary type="html"><![CDATA[New!
-  
-We’re excited to share a small but powerful update! You can now configure the automated payment notification emails sent to your guests directly from your General Settings.
-These notifications are activated by default, but you now have the flexibility to deactivate them whenever you choose. This means more control over how and when your guests receive updates—tailored to fit your needs.
-Head over to your General Settings today to adjust your payment notification preferences! 
-
-Should you need any assistance, we’re always here to help.]]></summary>
-        <author>
-            <name>Megan, Product Manager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
-        <id>https://www.githubstatus.com/incidents/9dyp7zt86rp5</id>
-        <link href="https://www.githubstatus.com/incidents/9dyp7zt86rp5"/>
-        <updated>2024-09-05T17:24:08.000Z</updated>
-        <summary type="html"><![CDATA[Sep  5, 17:24 UTC
-Resolved - Between August 27, 2024, 15:52 UTC and September 5, 2024, 17:26 UTC the GitHub Connect service was degraded. This specifically impacted GHES customers who were enabling GitHub Connect for the first time on a GHES instance. Previously enabled GitHub Connect GHES instances were not impacted by this issue.
-Customers experiencing this issue would have received a 404 response during GitHub Connect enablement and subsequent messages about a failure to connect. This was due to a recent change in configuration to GitHub Connect which has since been rolled back. 
-Subsequent enablement failures on re-attempts were caused by data corruption which has been remediated. Customers should now be able to enable GitHub Connect successfully.
-To reduce our time to detection and mitigation of such issues in the future, we are working to improve observability of GitHub Connect failures. We are also making efforts to prevent future misconfiguration of GitHub Connect.
-Sep  5, 16:49 UTC
-Update - We continue to work on making GitHub Connect setup available for customers that experienced errors since Sept 2.  We will share another update as we make progress.
-Sep  5, 16:15 UTC
-Update - We've reverted a related change and customers can now setup GitHub Connect again. However, customers who attempted to setup GitHub Connect after September 2nd that saw a 404 will see continued failures until we complete an additional repair step. We will provide additional updates as this work progresses.
-Sep  5, 15:56 UTC
-Update - Enterprise administrators are seeing failures in the form of 404s when attempting to setup GitHub Connect for the first time. Existing Connect setups are not impacted. We are working on a fix for this issue.
-Sep  5, 15:55 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Login Issue for Production Zones Web Interface]]></title>
-        <id>https://status.make.com/incidents/6xmmvspcd2hb</id>
-        <link href="https://status.make.com/incidents/6xmmvspcd2hb"/>
-        <updated>2024-09-05T13:26:02.000Z</updated>
-        <summary type="html"><![CDATA[Sep  5, 15:26 CEST
-Resolved - This incident has been resolved.
-Sep  5, 14:21 CEST
-Monitoring - A fix has been implemented and we are monitoring the results.
-Sep  5, 14:00 CEST
-Investigating - We are currently experiencing a login issues affecting the login to web interface of all production zones. There is no impact on scenario processing.
-Our team is actively investigating the problem and working to resolve it as quickly as possible. We will provide updates as soon as we have more information. 
-Thank you for your patience.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
         </author>
     </entry>
 </feed>
