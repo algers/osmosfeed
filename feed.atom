@@ -1,10 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-06T00:30:30.499Z</id>
+    <id>urn:2024-10-07T00:29:18.170Z</id>
     <title>osmos::feed</title>
-    <updated>2024-10-06T00:30:30.499Z</updated>
+    <updated>2024-10-07T00:29:18.170Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Scheduled Infrastructure Maintenance]]></title>
+        <id>https://status.make.com/incidents/cbk5ddt9gj8m</id>
+        <link href="https://status.make.com/incidents/cbk5ddt9gj8m"/>
+        <updated>2024-10-07T05:30:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 7, 07:30 - 08:30 CEST
+Oct  1, 18:09 CEST
+Update - Dear customer,
+We are writing to inform you about an upcoming scheduled infrastructure maintenance on 7th October 2024.
+This maintenance will take place outside of your peak hours between 07:30-08:30, CEST.
+How will this impact your workload?
+Our underlying infrastructure will be under maintenance upon our 3rd party request.  There may be several short service interruptions resulting in delayed webhooks processing. 
+We will inform you once the maintenance is completed.
+If you have any questions, please do not hesitate to reach out to our support team.
+Thank you very much.
+Kind regards,
+Your Make Team
+[Affected zones: "us1.make.com"]
+Oct  1, 10:42 CEST
+Scheduled - Dear customer,
+We are writing to inform you about an upcoming scheduled infrastructure maintenance on 7th October 2024.
+This maintenance will take place outside of your peak hours between 07:30-08:30, CEST.
+How will this impact your workload?
+Our underlying infrastructure will be under maintenance upon our 3rd party request.  There may be several short service interruptions resulting in delayed webhooks processing. 
+We will inform you once the maintenance is completed.
+If you have any questions, please do not hesitate to reach out to our support team.
+Thank you very much.
+Kind regards,
+Your Make Team]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scheduled Infrastructure Maintenance]]></title>
+        <id>https://status.make.com/incidents/6lgbv9y71yqp</id>
+        <link href="https://status.make.com/incidents/6lgbv9y71yqp"/>
+        <updated>2024-10-07T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 7, 07:00 - 08:00 CEST
+Oct  1, 18:08 CEST
+Update - Dear customer,
+We are writing to inform you about an upcoming scheduled infrastructure maintenance on 7th October 2024.
+This maintenance will take place outside of your peak hours between 07:00-08:00, CEST.
+How will this impact your workload?
+Our underlying infrastructure will be under maintenance upon our 3rd party request.  There may be several short service interruptions resulting in delayed webhooks processing. 
+We will inform you once the maintenance is completed.
+If you have any questions, please do not hesitate to reach out to our support team.
+Thank you very much.
+Kind regards,
+Your Make Team
+[Affected zones: "us2.make.com"]
+Oct  1, 10:41 CEST
+Scheduled - Dear customer,
+We are writing to inform you about an upcoming scheduled infrastructure maintenance on 7th October 2024.
+This maintenance will take place outside of your peak hours between 07:00-08:00, CEST.
+How will this impact your workload?
+Our underlying infrastructure will be under maintenance upon our 3rd party request.  There may be several short service interruptions resulting in delayed webhooks processing. 
+We will inform you once the maintenance is completed.
+If you have any questions, please do not hesitate to reach out to our support team.
+Thank you very much.
+Kind regards,
+Your Make Team]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Site access issues]]></title>
         <id>https://status.rippling.com/incidents/vqzxrxtxkr3j</id>
@@ -1149,19 +1215,6 @@ Investigating - We are investigating an issue with Webhooks in the EU2 zone. At 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[DockerHub Reachability in SGP1]]></title>
-        <id>https://status.digitalocean.com/incidents/41dqfr5hnc74</id>
-        <link href="https://status.digitalocean.com/incidents/41dqfr5hnc74"/>
-        <updated>2024-09-10T05:11:44.000Z</updated>
-        <summary type="html"><![CDATA[Sep 10, 05:11 UTC
-Resolved - Our Engineering team identified a networking issue with our upstream provider in the SGP1 region. From 00:25 to 04:00 UTC, users may have experienced connectivity issues to DockerHub from Droplets, App Platform and Managed Kubernetes in the SGP1 region.
-Our Engineering team has confirmed there is no longer any impact and connectivity should be restored for all customers. 
-We apologize for the inconvenience. If you continue to experience any issues, please open a support ticket from within your account.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Incident: Users are unable to create or edit workflows]]></title>
         <id>https://slack-status.com/2024-09/1746a31f61323355</id>
         <link href="https://slack-status.com/2024-09/1746a31f61323355"/>
@@ -1174,25 +1227,6 @@ We determined that a background data maintenance task caused a lag which had a c
 Note: This summary has been updated to better reflect the root cause and mitigation actions taken by Slack during this incident.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Resizing Droplet Attached Block Storage Volumes]]></title>
-        <id>https://status.digitalocean.com/incidents/pxn7lyb2nhk0</id>
-        <link href="https://status.digitalocean.com/incidents/pxn7lyb2nhk0"/>
-        <updated>2024-09-09T22:59:35.000Z</updated>
-        <summary type="html"><![CDATA[Sep  9, 22:59 UTC
-Resolved - From 17:04 UTC to 21:43 UTC, users may not have seen the option to resize an attached Block Storage Volume via the Cloud Control Panel, or may have encountered errors when attempting to resize attached Volumes via the API.
-Our Engineering team has confirmed the resolution of the issue and Volume resizes should now be functioning normally in all regions.
-If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
-Sep  9, 21:58 UTC
-Monitoring - Our Engineering team have implemented a fix for the issue of resizing Droplet-attached Block Storage Volumes in all regions and are monitoring the situation closely. We will post another update once we're confident that the issue is fully resolved.
-Sep  9, 21:15 UTC
-Investigating - Our Engineering team is investigating an issue with resizing Droplet-attached Block Storage Volumes in all regions. Beginning at 17:04 UTC, users may not see the option to resize the Volume via the Cloud Control Panel, as well as see errors when attempting to resize attached Volumes via the API.
-At this time, unattached Volumes are able to be resized correctly.
-We will post an update once further information is available.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1309,21 +1343,6 @@ Gwenn
 Designer @ Smily]]></summary>
         <author>
             <name>Gwenn, Designer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Issues with availability status]]></title>
-        <id>https://slack-status.com/2024-09/19b26aba1a0747ea</id>
-        <link href="https://slack-status.com/2024-09/19b26aba1a0747ea"/>
-        <updated>2024-09-06T20:20:32.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-On Friday, September 6, 2024, between 8:00 AM PDT and 10:20 AM PDT, users could not change their availability between active and away using the desktop or browser versions of Slack.
-
-We traced the issue to a recent code change related to updating a user's availability in our databases. Rolling back this change resolved the issue for all users.
-
-We'll continue to implement process improvements from our review to help reduce the likelihood of this occurring in the future.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>

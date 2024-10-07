@@ -341,26 +341,6 @@
           "wordCount": 6433,
           "title": "Rescheduled: Core Infrastructure Maintenance in NYC2",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/41dqfr5hnc74",
-          "author": null,
-          "description": "Sep 10, 05:11 UTC\nResolved - Our Engineering team identified a networking issue with our upstream provider in the SGP1 region. From 00:25 to 04:00 UTC, users may have experienced connectivity issues to DockerHub from Droplets, App Platform and Managed Kubernetes in the SGP1 region.\nOur Engineering team has confirmed there is no longer any impact and connectivity should be restored for all customers. \nWe apologize for the inconvenience. If you continue to experience any issues, please open a support ticket from within your account.",
-          "link": "https://status.digitalocean.com/incidents/41dqfr5hnc74",
-          "publishedOn": "2024-09-10T05:11:44.000Z",
-          "wordCount": 6274,
-          "title": "DockerHub Reachability in SGP1",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/pxn7lyb2nhk0",
-          "author": null,
-          "description": "Sep  9, 22:59 UTC\nResolved - From 17:04 UTC to 21:43 UTC, users may not have seen the option to resize an attached Block Storage Volume via the Cloud Control Panel, or may have encountered errors when attempting to resize attached Volumes via the API.\nOur Engineering team has confirmed the resolution of the issue and Volume resizes should now be functioning normally in all regions.\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nSep  9, 21:58 UTC\nMonitoring - Our Engineering team have implemented a fix for the issue of resizing Droplet-attached Block Storage Volumes in all regions and are monitoring the situation closely. We will post another update once we're confident that the issue is fully resolved.\nSep  9, 21:15 UTC\nInvestigating - Our Engineering team is investigating an issue with resizing Droplet-attached Block Storage Volumes in all regions. Beginning at 17:04 UTC, users may not see the option to resize the Volume via the Cloud Control Panel, as well as see errors when attempting to resize attached Volumes via the API.\nAt this time, unattached Volumes are able to be resized correctly.\nWe will post an update once further information is available.",
-          "link": "https://status.digitalocean.com/incidents/pxn7lyb2nhk0",
-          "publishedOn": "2024-09-09T22:59:35.000Z",
-          "wordCount": 6399,
-          "title": "Resizing Droplet Attached Block Storage Volumes",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -716,16 +696,6 @@
           "wordCount": 372,
           "title": "Incident: Users are unable to create or edit workflows",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-09/19b26aba1a0747ea",
-          "author": null,
-          "description": "Issue summary:\nOn Friday, September 6, 2024, between 8:00 AM PDT and 10:20 AM PDT, users could not change their availability between active and away using the desktop or browser versions of Slack.\n\nWe traced the issue to a recent code change related to updating a user's availability in our databases. Rolling back this change resolved the issue for all users.\n\nWe'll continue to implement process improvements from our review to help reduce the likelihood of this occurring in the future.",
-          "link": "https://slack-status.com/2024-09/19b26aba1a0747ea",
-          "publishedOn": "2024-09-06T20:20:32.000Z",
-          "wordCount": 349,
-          "title": "Incident: Issues with availability status",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
     },
@@ -734,6 +704,26 @@
       "feedUrl": "https://status.make.com/history.rss",
       "siteUrl": "https://status.make.com",
       "articles": [
+        {
+          "id": "https://status.make.com/incidents/cbk5ddt9gj8m",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Oct 7, 07:30 - 08:30 CEST\nOct  1, 18:09 CEST\nUpdate - Dear customer,\nWe are writing to inform you about an upcoming scheduled infrastructure maintenance on 7th October 2024.\nThis maintenance will take place outside of your peak hours between 07:30-08:30, CEST.\nHow will this impact your workload?\nOur underlying infrastructure will be under maintenance upon our 3rd party request.  There may be several short service interruptions resulting in delayed webhooks processing. \nWe will inform you once the maintenance is completed.\nIf you have any questions, please do not hesitate to reach out to our support team.\nThank you very much.\nKind regards,\nYour Make Team\n[Affected zones: \"us1.make.com\"]\nOct  1, 10:42 CEST\nScheduled - Dear customer,\nWe are writing to inform you about an upcoming scheduled infrastructure maintenance on 7th October 2024.\nThis maintenance will take place outside of your peak hours between 07:30-08:30, CEST.\nHow will this impact your workload?\nOur underlying infrastructure will be under maintenance upon our 3rd party request.  There may be several short service interruptions resulting in delayed webhooks processing. \nWe will inform you once the maintenance is completed.\nIf you have any questions, please do not hesitate to reach out to our support team.\nThank you very much.\nKind regards,\nYour Make Team",
+          "link": "https://status.make.com/incidents/cbk5ddt9gj8m",
+          "publishedOn": "2024-10-07T05:30:00.000Z",
+          "wordCount": 4001,
+          "title": "Scheduled Infrastructure Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.make.com/incidents/6lgbv9y71yqp",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Oct 7, 07:00 - 08:00 CEST\nOct  1, 18:08 CEST\nUpdate - Dear customer,\nWe are writing to inform you about an upcoming scheduled infrastructure maintenance on 7th October 2024.\nThis maintenance will take place outside of your peak hours between 07:00-08:00, CEST.\nHow will this impact your workload?\nOur underlying infrastructure will be under maintenance upon our 3rd party request.  There may be several short service interruptions resulting in delayed webhooks processing. \nWe will inform you once the maintenance is completed.\nIf you have any questions, please do not hesitate to reach out to our support team.\nThank you very much.\nKind regards,\nYour Make Team\n[Affected zones: \"us2.make.com\"]\nOct  1, 10:41 CEST\nScheduled - Dear customer,\nWe are writing to inform you about an upcoming scheduled infrastructure maintenance on 7th October 2024.\nThis maintenance will take place outside of your peak hours between 07:00-08:00, CEST.\nHow will this impact your workload?\nOur underlying infrastructure will be under maintenance upon our 3rd party request.  There may be several short service interruptions resulting in delayed webhooks processing. \nWe will inform you once the maintenance is completed.\nIf you have any questions, please do not hesitate to reach out to our support team.\nThank you very much.\nKind regards,\nYour Make Team",
+          "link": "https://status.make.com/incidents/6lgbv9y71yqp",
+          "publishedOn": "2024-10-07T05:00:00.000Z",
+          "wordCount": 4001,
+          "title": "Scheduled Infrastructure Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.make.com/incidents/svwc6htn3ks0",
           "author": null,
