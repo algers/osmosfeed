@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-09T00:27:34.652Z</id>
+    <id>urn:2024-10-10T00:27:27.664Z</id>
     <title>osmos::feed</title>
-    <updated>2024-10-09T00:27:34.652Z</updated>
+    <updated>2024-10-10T00:27:27.664Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some users are seeing a channel recap error: REBBB58853E3]]></title>
+        <id>https://slack-status.com/2024-10/c71a59169761ec63</id>
+        <link href="https://slack-status.com/2024-10/c71a59169761ec63"/>
+        <updated>2024-10-09T18:36:01.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+From Friday, October 4th, at 3:10 PM PDT until Monday, October 7th, at 9:55 AM PDT, users encountered error code "REBBB58853E3" when they attempted to expand bulleted lists in Slack AI channel recaps.
+
+We traced the issue to a recent change in backend logic that introduced errors when loading content within bulleted recaps.
+
+A fix was deployed to correct the logic which resolved the issue for all users.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Isolated Codespaces creation failures in the West Europe region]]></title>
         <id>https://www.githubstatus.com/incidents/m17w6x7syhx0</id>
@@ -272,16 +287,6 @@ Kind regards,
 Your Make Team]]></summary>
         <author>
             <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users are seeing a channel recap error: REBBB58853E3]]></title>
-        <id>https://slack-status.com/2024-10/c71a59169761ec63</id>
-        <link href="https://slack-status.com/2024-10/c71a59169761ec63"/>
-        <updated>2024-10-07T16:55:41.000Z</updated>
-        <summary type="html"><![CDATA[We resolved the issues with channel recaps. Affected users should refresh their Slack app (Cmd/Ctrl + Shift + R) to receive the fix. We apologize for any disruptions to your day.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
@@ -682,7 +687,9 @@ We apologize for any inconvenience this may cause and will provide an update as 
         <link href="https://www.githubstatus.com/incidents/wlb83pxg009y"/>
         <updated>2024-09-27T15:30:00.000Z</updated>
         <summary type="html"><![CDATA[Sep 27, 15:30 UTC
-Resolved - On September 27th, 2024 from 10:26 to 10:34 UTC, some users listing project releases may have encountered a 500 error.]]></summary>
+Resolved - Between September 27, 2024, 15:26 UTC and September 27, 2024, 15:34 UTC the Repositories Releases service was degraded. During this time 9% of requests to list releases via API or the webpage received a `500 Internal Server` error.
+This was due to a bug in our software roll out strategy. The rollout was reverted starting at 15:30 UTC, which began to restore functionality. The rollback was completed at 15:34 UTC.
+We are continuing to improve our testing infrastructure to ensure that bugs such as this one can be detected before they make their way into production.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
@@ -1434,51 +1441,6 @@ Existing services will continue to run normally.
 We will update this page if impact occurs.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EU2 webhooks delayed or unresponsive]]></title>
-        <id>https://status.make.com/incidents/ws0bnqv9j4lw</id>
-        <link href="https://status.make.com/incidents/ws0bnqv9j4lw"/>
-        <updated>2024-09-10T11:55:34.000Z</updated>
-        <summary type="html"><![CDATA[Sep 10, 13:55 CEST
-Resolved - This incident has been resolved.
-Sep 10, 11:25 CEST
-Monitoring - A fix has been implemented and we are monitoring the results. EU2 Webhooks remain stable.
-Sep 10, 10:57 CEST
-Identified - We have identified the issue and currently working on a mitigation. EU2 Webhooks are stable at the moment.
-Sep 10, 10:32 CEST
-Investigating - We are investigating an issue with Webhooks in the EU2 zone. At the moment, webhooks are delayed or unresponsive. We will provide an update in 20 minutes.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Users are unable to create or edit workflows]]></title>
-        <id>https://slack-status.com/2024-09/1746a31f61323355</id>
-        <link href="https://slack-status.com/2024-09/1746a31f61323355"/>
-        <updated>2024-09-10T01:29:47.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-On September 9, 2024, between 11:45 AM PDT and 1:15 PM PDT, users experienced loading issues with Workflow Builder encountering a blank page or a "Something went wrong" error while creating, editing or duplicating workflows.
-
-We determined that a background data maintenance task caused a lag which had a cascading effect on workflow related elements, creating the issues users were experiencing. We paused this task, reducing the lag, which restored functionality for users. 
-
-Note: This summary has been updated to better reflect the root cause and mitigation actions taken by Slack during this incident.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues with purchasing new devices]]></title>
-        <id>https://status.rippling.com/incidents/x88xbz27qnkw</id>
-        <link href="https://status.rippling.com/incidents/x88xbz27qnkw"/>
-        <updated>2024-09-09T22:07:36.000Z</updated>
-        <summary type="html"><![CDATA[Sep  9, 22:07 UTC
-Resolved - This incident has been resolved.
-Sep  9, 17:38 UTC
-Identified - The issue has been identified and a fix is being implemented.]]></summary>
-        <author>
-            <name>Rippling Status - Incident History</name>
         </author>
     </entry>
 </feed>

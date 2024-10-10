@@ -38,7 +38,7 @@
           "description": "Description: Tailscale Funnel abused for phishing\nWhat happened?\nA malicious user abused Tailscale Funnel to host a phishing page\ntargeting Facebook users. This user created multiple free Tailscale accounts to\nuse as an obfuscation/anonymity proxy for their VPS instance hosting the\nphishing page.\nWe received the first report about a phishing page on September 23rd, 2024, and\ntook down the Funnel page the same day. We received the second report on October\n1st, 2024, for the same phishing page on a different Tailscale account. We took\ndown the second page, added detection for new similar pages, and repeatedly\nshut down new attacker accounts as they were created. After a few more\nattempts, the attacker stopped creating new accounts.\nWho was affected?\n232 unique IP addresses accessed the attacker's Funnel nodes. Of those, 87 IP addresses made more\nthan one request, suggesting a possible phishing form submission.\nWhat was the impact?\nSome Facebook users could have been phished for their credentials. Since\nTailscale Funnel proxies can only see encrypted TLS traffic, we cannot confirm\nwhether anyone was successfully phished.\nWhat do I need to do?\nDon't use Tailscale Funnel for phishing.",
           "link": "https://tailscale.com/security-bulletins/#ts-2024-012",
           "publishedOn": "2024-10-02T00:00:00.000Z",
-          "wordCount": 15953,
+          "wordCount": 15945,
           "title": "TS-2024-012",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -485,16 +485,6 @@
           "wordCount": 5316,
           "title": "Web application degradation",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
-        },
-        {
-          "id": "https://status.rippling.com/incidents/x88xbz27qnkw",
-          "author": null,
-          "description": "Sep  9, 22:07 UTC\nResolved - This incident has been resolved.\nSep  9, 17:38 UTC\nIdentified - The issue has been identified and a fix is being implemented.",
-          "link": "https://status.rippling.com/incidents/x88xbz27qnkw",
-          "publishedOn": "2024-09-09T22:07:36.000Z",
-          "wordCount": 5276,
-          "title": "Issues with purchasing new devices",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         }
       ]
     },
@@ -543,10 +533,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/wlb83pxg009y",
           "author": null,
-          "description": "Sep 27, 15:30 UTC\nResolved - On September 27th, 2024 from 10:26 to 10:34 UTC, some users listing project releases may have encountered a 500 error.",
+          "description": "Sep 27, 15:30 UTC\nResolved - Between September 27, 2024, 15:26 UTC and September 27, 2024, 15:34 UTC the Repositories Releases service was degraded. During this time 9% of requests to list releases via API or the webpage received a `500 Internal Server` error.\nThis was due to a bug in our software roll out strategy. The rollout was reverted starting at 15:30 UTC, which began to restore functionality. The rollback was completed at 15:34 UTC.\nWe are continuing to improve our testing infrastructure to ensure that bugs such as this one can be detected before they make their way into production.",
           "link": "https://www.githubstatus.com/incidents/wlb83pxg009y",
           "publishedOn": "2024-09-27T15:30:00.000Z",
-          "wordCount": 5282,
+          "wordCount": 5356,
           "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -640,10 +630,10 @@
         {
           "id": "https://slack-status.com/2024-10/c71a59169761ec63",
           "author": null,
-          "description": "We resolved the issues with channel recaps. Affected users should refresh their Slack app (Cmd/Ctrl + Shift + R) to receive the fix. We apologize for any disruptions to your day.",
+          "description": "Issue summary:\nFrom Friday, October 4th, at 3:10 PM PDT until Monday, October 7th, at 9:55 AM PDT, users encountered error code \"REBBB58853E3\" when they attempted to expand bulleted lists in Slack AI channel recaps.\n\nWe traced the issue to a recent change in backend logic that introduced errors when loading content within bulleted recaps.\n\nA fix was deployed to correct the logic which resolved the issue for all users.",
           "link": "https://slack-status.com/2024-10/c71a59169761ec63",
-          "publishedOn": "2024-10-07T16:55:41.000Z",
-          "wordCount": 207,
+          "publishedOn": "2024-10-09T18:36:01.000Z",
+          "wordCount": 280,
           "title": "Incident: Some users are seeing a channel recap error: REBBB58853E3",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
@@ -685,16 +675,6 @@
           "publishedOn": "2024-09-13T21:54:13.000Z",
           "wordCount": 483,
           "title": "Incident: Search issues for Enterprise Grid users with Enterprise Key Management (EKM) enabled.",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-09/1746a31f61323355",
-          "author": null,
-          "description": "Issue summary:\nOn September 9, 2024, between 11:45 AM PDT and 1:15 PM PDT, users experienced loading issues with Workflow Builder encountering a blank page or a \"Something went wrong\" error while creating, editing or duplicating workflows.\n\nWe determined that a background data maintenance task caused a lag which had a cascading effect on workflow related elements, creating the issues users were experiencing. We paused this task, reducing the lag, which restored functionality for users. \n\nNote: This summary has been updated to better reflect the root cause and mitigation actions taken by Slack during this incident.",
-          "link": "https://slack-status.com/2024-09/1746a31f61323355",
-          "publishedOn": "2024-09-10T01:29:47.000Z",
-          "wordCount": 372,
-          "title": "Incident: Users are unable to create or edit workflows",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
@@ -822,16 +802,6 @@
           "publishedOn": "2024-09-16T10:00:02.000Z",
           "wordCount": 3978,
           "title": "Connection Issues with Make.com and Public Zones",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/ws0bnqv9j4lw",
-          "author": null,
-          "description": "Sep 10, 13:55 CEST\nResolved - This incident has been resolved.\nSep 10, 11:25 CEST\nMonitoring - A fix has been implemented and we are monitoring the results. EU2 Webhooks remain stable.\nSep 10, 10:57 CEST\nIdentified - We have identified the issue and currently working on a mitigation. EU2 Webhooks are stable at the moment.\nSep 10, 10:32 CEST\nInvestigating - We are investigating an issue with Webhooks in the EU2 zone. At the moment, webhooks are delayed or unresponsive. We will provide an update in 20 minutes.",
-          "link": "https://status.make.com/incidents/ws0bnqv9j4lw",
-          "publishedOn": "2024-09-10T11:55:34.000Z",
-          "wordCount": 3903,
-          "title": "EU2 webhooks delayed or unresponsive",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]

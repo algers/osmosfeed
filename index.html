@@ -22,6 +22,59 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-10-09 datetime="2024-10-09T18:36:01.000Z">2024-10-09</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-10-09 datetime="2024-10-09T18:36:01.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Slack System Status</button>
+                  <a class="source-heading__link" href="https://slack-status.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://slack-status.com/2024-10/c71a59169761ec63"
+                        open
+                      >
+                        <summary class="article-expander__title">Incident: Some users are seeing a channel recap error: REBBB58853E3</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-10/c71a59169761ec63">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Issue summary:
+From Friday, October 4th, at 3:10 PM PDT until Monday, October 7th, at 9:55 AM PDT, users encountered error code &quot;REBBB58853E3&quot; when they attempted to expand bulleted lists in Slack AI channel recaps.
+
+We traced the issue to a recent change in backend logic that introduced errors when loading content within bulleted recaps.
+
+A fix was deployed to correct the logic which resolved the issue for all users.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-10-08 datetime="2024-10-08T23:32:54.000Z">2024-10-08</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-10-08 datetime="2024-10-08T23:32:54.000Z"></time>
           </button>
@@ -569,40 +622,6 @@ Thank you very much.
 Kind regards,
 Your Make Team</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Slack System Status</button>
-                  <a class="source-heading__link" href="https://slack-status.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://slack-status.com/2024-10/c71a59169761ec63"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident: Some users are seeing a channel recap error: REBBB58853E3</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-10/c71a59169761ec63">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>We resolved the issues with channel recaps. Affected users should refresh their Slack app (Cmd/Ctrl + Shift + R) to receive the fix. We apologize for any disruptions to your day.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1472,7 +1491,9 @@ We apologize for any inconvenience this may cause and will provide an update as 
                               <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
                               <span>Sep 27, 15:30 UTC
-Resolved - On September 27th, 2024 from 10:26 to 10:34 UTC, some users listing project releases may have encountered a 500 error.</span>
+Resolved - Between September 27, 2024, 15:26 UTC and September 27, 2024, 15:34 UTC the Repositories Releases service was degraded. During this time 9% of requests to list releases via API or the webpage received a &#x60;500 Internal Server&#x60; error.
+This was due to a bug in our software roll out strategy. The rollout was reverted starting at 15:30 UTC, which began to restore functionality. The rollback was completed at 15:34 UTC.
+We are continuing to improve our testing infrastructure to ensure that bugs such as this one can be detected before they make their way into production.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;18
                                   min&hairsp;)</span>
                             </span>
@@ -3296,143 +3317,12 @@ We will update this page if impact occurs.</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Make Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.make.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.make.com/incidents/ws0bnqv9j4lw"
-                        open
-                      >
-                        <summary class="article-expander__title">EU2 webhooks delayed or unresponsive</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.make.com/incidents/ws0bnqv9j4lw">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Sep 10, 13:55 CEST
-Resolved - This incident has been resolved.
-Sep 10, 11:25 CEST
-Monitoring - A fix has been implemented and we are monitoring the results. EU2 Webhooks remain stable.
-Sep 10, 10:57 CEST
-Identified - We have identified the issue and currently working on a mitigation. EU2 Webhooks are stable at the moment.
-Sep 10, 10:32 CEST
-Investigating - We are investigating an issue with Webhooks in the EU2 zone. At the moment, webhooks are delayed or unresponsive. We will provide an update in 20 minutes.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;13
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Slack System Status</button>
-                  <a class="source-heading__link" href="https://slack-status.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://slack-status.com/2024-09/1746a31f61323355"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident: Users are unable to create or edit workflows</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-09/1746a31f61323355">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Issue summary:
-On September 9, 2024, between 11:45 AM PDT and 1:15 PM PDT, users experienced loading issues with Workflow Builder encountering a blank page or a &quot;Something went wrong&quot; error while creating, editing or duplicating workflows.
-
-We determined that a background data maintenance task caused a lag which had a cascading effect on workflow related elements, creating the issues users were experiencing. We paused this task, reducing the lag, which restored functionality for users. 
-
-Note: This summary has been updated to better reflect the root cause and mitigation actions taken by Slack during this incident.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-09-09 datetime="2024-09-09T22:07:36.000Z">2024-09-09</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-09-09 datetime="2024-09-09T22:07:36.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Rippling Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.rippling.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.rippling.com/incidents/x88xbz27qnkw"
-                        open
-                      >
-                        <summary class="article-expander__title">Issues with purchasing new devices</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.rippling.com/incidents/x88xbz27qnkw">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Sep  9, 22:07 UTC
-Resolved - This incident has been resolved.
-Sep  9, 17:38 UTC
-Identified - The issue has been identified and a fix is being implemented.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/11245921483">
-        <time id="build-timestamp" datetime="2024-10-09T00:27:34.633Z">2024-10-09T00:27:34.633Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/11265181066">
+        <time id="build-timestamp" datetime="2024-10-10T00:27:27.644Z">2024-10-10T00:27:27.644Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
