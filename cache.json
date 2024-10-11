@@ -14,16 +14,6 @@
           "wordCount": 378,
           "title": "Payment processing with Cartes Bancaires",
           "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/133/682-ec69b56ecbffdee249ed2b5236ecc3aac48b07e9.jpg"
-        },
-        {
-          "id": "300141",
-          "author": "Megan, Product Manager",
-          "description": "Improvement\n  \nLast month, we revamped the instant booking flow, and now Phase 2 is here! The new design for the payment page has launched, offering an even smoother experience when clients receive a payment link for their booking.\nWe know the payment process is crucial—it’s where trust is sealed. While the old design worked, it wasn’t as streamlined as it could be.\nNow, with a clean, intuitive layout, the new payment page simplifies the process, making transactions faster, easier, and more transparent.",
-          "link": "https://changelog.bookingsync.com/payment-page-redesign-phase-2-300141",
-          "publishedOn": "2024-09-11T07:30:00.000Z",
-          "wordCount": 310,
-          "title": "Payment Page Redesign - Phase 2",
-          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/133/446-e6e7ed5f2065f4103aed44fa6f673895ac795270.jpg"
         }
       ]
     },
@@ -72,6 +62,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/2vzxv7bmwj91",
+          "author": null,
+          "description": "Oct 10, 19:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct  8, 15:27 UTC\nScheduled - Start: 2024-10-10 19:00 UTC\nEnd: 2024-10-11 05:00 UTC\nHello,\nDuring the above window, our Engineering team will be performing maintenance on redundant upstream electrical systems in order to improve reliability in our AMS3 region.\nExpected Impact:\nPower systems are redundant and we don’t expect to see any downtime, however, in the very unlikely situation that we lose power to both supplies, users may experience disruption with the following services or for a brief period:\nNetworking\nBackups \nSnapshots\nDroplet create & restore operations\nWe will endeavor to keep any downtime to a minimum for the duration of the change.\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket\nThank you,\nTeam DigitalOcean",
+          "link": "https://status.digitalocean.com/incidents/2vzxv7bmwj91",
+          "publishedOn": "2024-10-10T19:00:02.000Z",
+          "wordCount": 6334,
+          "title": "AMS3 Power Maintenance 2024-10-10 19:00 UTC",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/34vbwrw8yc0j",
           "author": null,
@@ -290,26 +290,6 @@
           "publishedOn": "2024-09-11T17:22:37.000Z",
           "wordCount": 6278,
           "title": "Network Connectivity in BLR1",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/0bj61vc1958l",
-          "author": null,
-          "description": "Sep 10, 21:06 UTC\nResolved - From 18:23 to 19:21 UTC, users were unable to complete registration of new cloud.digitalocean.com accounts, due to an upstream outage. \nThis issue is now fully resolved and users should be able to sign up normally. \nWe apologize for the inconvenience and invite users to retry any failed attempts. If you continue to experience issues or have any questions, please reach out to Support from within your account.\nSep 10, 20:48 UTC\nMonitoring - Our Engineering team has confirmed there was an upstream outage that affected a component of the sign up flow for cloud.digitalocean.com accounts. The outage has been resolved by the provider. \nWe are monitoring the situation and will post an update shortly.\nSep 10, 19:50 UTC\nIdentified - Our Engineering team has identified the issue impacting new account sign-ups. Users should no longer encounter errors and should be able to sign up again.\nOur Engineering team continues to monitor the situation and we will post an update as soon as additional information is available.\nSep 10, 19:18 UTC\nInvestigating - Our Engineering team is investigating an issue with users attempting to sign up for new cloud.digitalocean.com accounts. At this time, users attempting to sign up are unable to complete registration.\nExisting users are unaffected and should be able to sign in normally.\nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/0bj61vc1958l",
-          "publishedOn": "2024-09-10T21:06:14.000Z",
-          "wordCount": 6421,
-          "title": "New Customer Sign Ups",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/sqgd1zn2ktxl",
-          "author": null,
-          "description": "Sep 10, 21:04 UTC\nCompleted - Our Engineering team has successfully completed this maintenance. \nThank you for your patience throughout the extended window. If you have any questions or concerns, please feel free to reach out to Support from within your account.\nSep 10, 17:55 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep 10, 17:54 UTC\nScheduled - Our Engineering team has run into some operations taking longer than expected for the previous maintenance window here: https://status.digitalocean.com/incidents/vmtp7c19bq2l. \nNo user impact has occurred as a result of those operations and we do not expect any customer impact, but there is a possibility impact could occur. \nUsers could experience issues interacting with the control plane for services, via both the Cloud Control Panel and API. This would include operations such as creates, deletes, updates, Snapshots, etc. \nExisting services will continue to run normally. \nWe will update this page if impact occurs.",
-          "link": "https://status.digitalocean.com/incidents/sqgd1zn2ktxl",
-          "publishedOn": "2024-09-10T21:04:20.000Z",
-          "wordCount": 6361,
-          "title": "Extension of Core Infrastructure Maintenance in NYC2",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]

@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-10T00:27:27.664Z</id>
+    <id>urn:2024-10-11T00:27:31.608Z</id>
     <title>osmos::feed</title>
-    <updated>2024-10-10T00:27:27.664Z</updated>
+    <updated>2024-10-11T00:27:31.608Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[AMS3 Power Maintenance 2024-10-10 19:00 UTC]]></title>
+        <id>https://status.digitalocean.com/incidents/2vzxv7bmwj91</id>
+        <link href="https://status.digitalocean.com/incidents/2vzxv7bmwj91"/>
+        <updated>2024-10-10T19:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Oct 10, 19:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Oct  8, 15:27 UTC
+Scheduled - Start: 2024-10-10 19:00 UTC
+End: 2024-10-11 05:00 UTC
+Hello,
+During the above window, our Engineering team will be performing maintenance on redundant upstream electrical systems in order to improve reliability in our AMS3 region.
+Expected Impact:
+Power systems are redundant and we don’t expect to see any downtime, however, in the very unlikely situation that we lose power to both supplies, users may experience disruption with the following services or for a brief period:
+Networking
+Backups 
+Snapshots
+Droplet create & restore operations
+We will endeavor to keep any downtime to a minimum for the duration of the change.
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket
+Thank you,
+Team DigitalOcean]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Some users are seeing a channel recap error: REBBB58853E3]]></title>
         <id>https://slack-status.com/2024-10/c71a59169761ec63</id>
@@ -1382,63 +1408,6 @@ Investigating - Our Engineering team is investigating an issue with Droplet crea
         <summary type="html"><![CDATA[Sep 11, 17:22 UTC
 Resolved - From 15:20 - 16:10 UTC, our Engineering team observed an issue with network connectivity in the BLR1 region. During this time, users might have experienced varying amounts of packet loss and high latency with network connections going in or out of the BLR1 region, resulting in issues connecting to DigitalOcean services.
 As of 16:10 UTC, the impact has subsided and users should no longer be facing network connectivity issues. We apologize for the inconvenience and if you are still experiencing issues or have any additional questions then please open a support ticket from within your account.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Payment Page Redesign - Phase 2]]></title>
-        <id>300141</id>
-        <link href="https://changelog.bookingsync.com/payment-page-redesign-phase-2-300141"/>
-        <updated>2024-09-11T07:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Improvement
-  
-Last month, we revamped the instant booking flow, and now Phase 2 is here! The new design for the payment page has launched, offering an even smoother experience when clients receive a payment link for their booking.
-We know the payment process is crucial—it’s where trust is sealed. While the old design worked, it wasn’t as streamlined as it could be.
-Now, with a clean, intuitive layout, the new payment page simplifies the process, making transactions faster, easier, and more transparent.]]></summary>
-        <author>
-            <name>Megan, Product Manager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Customer Sign Ups]]></title>
-        <id>https://status.digitalocean.com/incidents/0bj61vc1958l</id>
-        <link href="https://status.digitalocean.com/incidents/0bj61vc1958l"/>
-        <updated>2024-09-10T21:06:14.000Z</updated>
-        <summary type="html"><![CDATA[Sep 10, 21:06 UTC
-Resolved - From 18:23 to 19:21 UTC, users were unable to complete registration of new cloud.digitalocean.com accounts, due to an upstream outage. 
-This issue is now fully resolved and users should be able to sign up normally. 
-We apologize for the inconvenience and invite users to retry any failed attempts. If you continue to experience issues or have any questions, please reach out to Support from within your account.
-Sep 10, 20:48 UTC
-Monitoring - Our Engineering team has confirmed there was an upstream outage that affected a component of the sign up flow for cloud.digitalocean.com accounts. The outage has been resolved by the provider. 
-We are monitoring the situation and will post an update shortly.
-Sep 10, 19:50 UTC
-Identified - Our Engineering team has identified the issue impacting new account sign-ups. Users should no longer encounter errors and should be able to sign up again.
-Our Engineering team continues to monitor the situation and we will post an update as soon as additional information is available.
-Sep 10, 19:18 UTC
-Investigating - Our Engineering team is investigating an issue with users attempting to sign up for new cloud.digitalocean.com accounts. At this time, users attempting to sign up are unable to complete registration.
-Existing users are unaffected and should be able to sign in normally.
-We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Extension of Core Infrastructure Maintenance in NYC2]]></title>
-        <id>https://status.digitalocean.com/incidents/sqgd1zn2ktxl</id>
-        <link href="https://status.digitalocean.com/incidents/sqgd1zn2ktxl"/>
-        <updated>2024-09-10T21:04:20.000Z</updated>
-        <summary type="html"><![CDATA[Sep 10, 21:04 UTC
-Completed - Our Engineering team has successfully completed this maintenance. 
-Thank you for your patience throughout the extended window. If you have any questions or concerns, please feel free to reach out to Support from within your account.
-Sep 10, 17:55 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Sep 10, 17:54 UTC
-Scheduled - Our Engineering team has run into some operations taking longer than expected for the previous maintenance window here: https://status.digitalocean.com/incidents/vmtp7c19bq2l. 
-No user impact has occurred as a result of those operations and we do not expect any customer impact, but there is a possibility impact could occur. 
-Users could experience issues interacting with the control plane for services, via both the Cloud Control Panel and API. This would include operations such as creates, deletes, updates, Snapshots, etc. 
-Existing services will continue to run normally. 
-We will update this page if impact occurs.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
         </author>
