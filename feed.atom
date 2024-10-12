@@ -1,16 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-11T00:27:31.608Z</id>
+    <id>urn:2024-10-12T00:26:58.781Z</id>
     <title>osmos::feed</title>
-    <updated>2024-10-11T00:27:31.608Z</updated>
+    <updated>2024-10-12T00:26:58.781Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
+        <id>https://www.githubstatus.com/incidents/myvz2tsj2dh8</id>
+        <link href="https://www.githubstatus.com/incidents/myvz2tsj2dh8"/>
+        <updated>2024-10-12T00:14:54.000Z</updated>
+        <summary type="html"><![CDATA[Oct 12, 00:14 UTC
+Update - We’ve identified the issue with code search and are working towards recovery of service.
+Oct 11, 23:31 UTC
+Update - We’re continuing to investigate issues with code search.
+Oct 11, 22:57 UTC
+Update - We’re continuing to investigate issues with code search. Copilot and Actions services are recovered and operating normally.
+Oct 11, 22:16 UTC
+Update - Copilot is operating normally.
+Oct 11, 22:14 UTC
+Update - We are rolling out a fix to address the network connectivity issues. Copilot is seeing recovery. support.github.com is recovered.
+Oct 11, 21:46 UTC
+Update - Actions is operating normally.
+Oct 11, 21:28 UTC
+Update - We continue to work on mitigations. Actions is starting to see recovery.
+Oct 11, 20:52 UTC
+Update - The mitigation attempt did not resolve the issue …]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some users may have trouble loading threads.]]></title>
+        <id>https://slack-status.com/2024-10/655dcd26cc31dcf8</id>
+        <link href="https://slack-status.com/2024-10/655dcd26cc31dcf8"/>
+        <updated>2024-10-11T19:34:31.000Z</updated>
+        <summary type="html"><![CDATA[Issue summary:
+On Friday, October 11, 2024, from 4:08 AM PDT until 4:50 AM PDT, users experienced an issue with loading their threads, coming across a "Something's a bit fishy!" error message.
+
+We traced this back to a performance issue with a backend database responsible for processing certain thread actions, resulting in requests not being served correctly.
+
+To mitigate any immediate impact, an automated safety measure initiated the restart of the database services. This improved database performance, but the process took longer than expected, contributing to the errors users experienced. Once this process completed, threads began loading without error.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spaces and Container Registry in SYD1 region]]></title>
+        <id>https://status.digitalocean.com/incidents/f4vzg0451jyg</id>
+        <link href="https://status.digitalocean.com/incidents/f4vzg0451jyg"/>
+        <updated>2024-10-11T15:50:50.000Z</updated>
+        <summary type="html"><![CDATA[Oct 11, 15:50 UTC
+Resolved - From 23:00 UTC on October 10th until 13:28 UTC on October 11th, users may have encountered intermittent errors when accessing Spaces endpoints or using the Container Registry in the SYD1 region. Our Engineering team has successfully resolved the issue affecting the functionality of Spaces and the Container Registry.
+All services have been fully restored and are now functioning normally. If you continue to experience any problems, please open a ticket with our support team. We apologize for any inconvenience caused.
+Oct 11, 14:10 UTC
+Monitoring - Our Engineering team has implemented a fix to resolve the issue with Spaces and the Container Registry in the SYD1 region and is monitoring the situation closely. All services have been restored and are functioning as expected. We will post an update as soon as the issue is fully resolved.
+Oct 11, 13:18 UTC
+Investigating - Our Engineering team is currently investigating an issue with Spaces and the Container Registry in the SYD1 region. During this time, users may experience intermittent errors when accessing Spaces endpoints or interacting with the Container Registry. We apologize for the inconvenience and will provide an update as soon as we have more information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AMS3 Power Maintenance 2024-10-10 19:00 UTC]]></title>
         <id>https://status.digitalocean.com/incidents/2vzxv7bmwj91</id>
         <link href="https://status.digitalocean.com/incidents/2vzxv7bmwj91"/>
-        <updated>2024-10-10T19:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Oct 10, 19:00 UTC
+        <updated>2024-10-11T05:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Oct 11, 05:00 UTC
+Completed - The scheduled maintenance has been completed.
+Oct 10, 19:00 UTC
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Oct  8, 15:27 UTC
 Scheduled - Start: 2024-10-10 19:00 UTC
@@ -1381,35 +1439,6 @@ Sep 12, 16:13 PDT
 Identified - We are currently experiencing outage with Notion AI. Our engineering team is fully focused on resolving the issue and we will share updates as soon as possible.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Droplet creates in LON1]]></title>
-        <id>https://status.digitalocean.com/incidents/5lz3mk588548</id>
-        <link href="https://status.digitalocean.com/incidents/5lz3mk588548"/>
-        <updated>2024-09-12T00:56:40.000Z</updated>
-        <summary type="html"><![CDATA[Sep 12, 00:56 UTC
-Resolved - From 22:03 September 11 to 00:13 September 12 UTC, users may have experienced failures with creating Droplets in the LON1 region.
-Our Engineering team has confirmed resolution of this issue with users now being able to create Droplets in LON1. Thank you for your patience.
-If you continue to experience any problems, please open a support ticket from within your account.
-Sep 12, 00:23 UTC
-Monitoring - Our Engineering team has implemented mitigations for the intermittent issues with Droplet creates in LON1. The team is monitoring the situation, and we will share an update once this is fully resolved.
-Sep 11, 23:45 UTC
-Investigating - Our Engineering team is investigating an issue with Droplet creation in LON1. During this time, users may see an elevated failure rate for the creation of Droplets and other Droplet-based products, such as Load Balancers, Managed Databases, or Kubernetes, in LON1.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Network Connectivity in BLR1]]></title>
-        <id>https://status.digitalocean.com/incidents/nq9y0y28drbg</id>
-        <link href="https://status.digitalocean.com/incidents/nq9y0y28drbg"/>
-        <updated>2024-09-11T17:22:37.000Z</updated>
-        <summary type="html"><![CDATA[Sep 11, 17:22 UTC
-Resolved - From 15:20 - 16:10 UTC, our Engineering team observed an issue with network connectivity in the BLR1 region. During this time, users might have experienced varying amounts of packet loss and high latency with network connections going in or out of the BLR1 region, resulting in issues connecting to DigitalOcean services.
-As of 16:10 UTC, the impact has subsided and users should no longer be facing network connectivity issues. We apologize for the inconvenience and if you are still experiencing issues or have any additional questions then please open a support ticket from within your account.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
