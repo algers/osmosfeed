@@ -22,11 +22,49 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-10-12 datetime="2024-10-12T00:14:54.000Z">2024-10-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-10-12 datetime="2024-10-12T00:14:54.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-10-12 datetime="2024-10-12T23:01:21.000Z">2024-10-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-10-12 datetime="2024-10-12T23:01:21.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Airbnb API Status - Incident History</button>
+                  <a class="source-heading__link" href="https://airbnbapi.statuspage.io">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://airbnbapi.statuspage.io/incidents/8bz6h0mfpqm2"
+                        open
+                      >
+                        <summary class="article-expander__title">Issue delaying message_added webhooks</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://airbnbapi.statuspage.io/incidents/8bz6h0mfpqm2">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Oct 12, 16:01 PDT
+Update - All delayed message_added webhooks have been sent out by 3:05PM PST on Saturday, Oct 12. We will continue to monitor this.
+Oct 12, 13:04 PDT
+Monitoring - We&#x27;re currently investigating an issue that&#x27;s causing errors delivering message_added webhooks.  A portion of message_added webhooks were not delivered from around 3AM PST on Friday, Oct 11. We&#x27;ve mitigated the issue at around 12PM PST on Saturday, Oct 12, and the delayed webhooks are being sent out.
+We will continue to monitor this, and send out another update once all the delayed webhooks are sent out.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;13
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -50,7 +88,11 @@
                           <div class="article-summary-box-inner media-object">
                               <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>Oct 12, 00:14 UTC
+                              <span>Oct 12, 01:11 UTC
+Resolved - This incident has been resolved.
+Oct 12, 00:46 UTC
+Update - We’re continuing to work towards recovery of code search service.
+Oct 12, 00:14 UTC
 Update - We’ve identified the issue with code search and are working towards recovery of service.
 Oct 11, 23:31 UTC
 Update - We’re continuing to investigate issues with code search.
@@ -63,9 +105,7 @@ Update - We are rolling out a fix to address the network connectivity issues. Co
 Oct 11, 21:46 UTC
 Update - Actions is operating normally.
 Oct 11, 21:28 UTC
-Update - We continue to work on mitigations. Actions is starting to see recovery.
-Oct 11, 20:52 UTC
-Update - The mitigation attempt did not resolve the issue …</span>
+Upd…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;19
                                   min&hairsp;)</span>
                             </span>
@@ -3144,159 +3184,12 @@ We traced this issue back to a recent code change which we discovered was creati
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >GitHub Status - Incident History</button>
-                  <a class="source-heading__link" href="https://www.githubstatus.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.githubstatus.com/incidents/v677w7xlvkss"
-                        open
-                      >
-                        <summary class="article-expander__title">Processing delays to some Issues, Pull Requests and Webhooks</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.githubstatus.com/incidents/v677w7xlvkss">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Sep 13, 07:13 UTC
-Resolved - On Sep 13, 2024, between 05:03 UTC and 07:13 UTC, the Webhooks and Actions services were degraded resulting in some customers experiencing delayed processing of Webhooks and Actions Runs. 0.5% of Webhook deliveries were delayed more than 2 minutes during the incident. 15% of Actions Runs started between 05:03 and 05:24 UTC saw run start delays or failures. At 05:24 UTC, we implemented a mitigation to shift traffic to healthy infrastructure and new Actions Runs resumed normal operations. During the rest of the incident window, Actions runs started before 05:24 UTC continued to see delays publishing logs or job results.  No Actions runs or Webhook deliveries were lost, only delayed.
-We mitigated the incident by immediately shifting traffic to a healthy cluster while investigating. The incident was caused by an erroneous configuration change on our eventing platform. A permanent fix was deployed at 06:22 UTC after which services began to recover and burn down their backed up queues, with full recovery by 07:13 UTC.
-We are working to reduce our time to detection and develop test automation to prevent issues like this one in the future.
-
-Sep 13, 06:49 UTC
-Update - We are seeing improvements in telemetry and are monitoring the delivery of delayed Webhooks and Actions job statuses.
-Sep 13, 06:23 UTC
-Update - We&#x27;ve applied a mitigation to fix the issues being experienced in some cases with delays to webhook deliveries, and the delayed reporting of the outcome of some running Actions jobs. We are monitoring for full recovery.
-Sep 13, 05:59 UTC
-Update - Actions is experiencing degraded performance. We are continuing to investigate.
-Sep 13, 05:42 UTC
-Investigating - We are investigating reports of degraded performance for Issues, Pull Requests and Webhooks</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >BookingSync.com news</button>
-                  <a class="source-heading__link" href="https://changelog.bookingsync.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="300618"
-                        open
-                      >
-                        <summary class="article-expander__title">Payment processing with Cartes Bancaires</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://changelog.bookingsync.com/payment-processing-with-cartes-bancaires-300618">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://cloud.headwayapp.co/changelogs_images/images/big/000/133/682-ec69b56ecbffdee249ed2b5236ecc3aac48b07e9.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>New!
- 
-Action required
-  
-You may have recently been informed by Stripe that an update was required to comply with EU regulations for co-badged cards.
-
-New regulations specify that, in the EEA, businesses handling co-branded cards are required to offer customers the option to choose their preferred network during checkout.
-Rest assured, we have made the necessary updates to ensure that your guest payments are compliant with this regulation. As such, when a cardholder is using a cobadged Cartes Bancaires to pay on a Smily payment page, they are now required to select their preferred network.
-
-Note: if you use Stripe, there are two requirements to accept Cartes Bancaires payments:
-Firstly you need to enable this option in your Payment Gateway settings on Smily.
-
-
-Secondly, you may need update your payment methods in your Stripe settings to be able to accept Cartes Bancaires payments. 
-
-
-For more information, check out our dedicated manual article.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-09-12 datetime="2024-09-12T23:53:36.000Z">2024-09-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-09-12 datetime="2024-09-12T23:53:36.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Notion Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.notion.so">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.notion.so/incidents/1gsdmxjqsgp3"
-                        open
-                      >
-                        <summary class="article-expander__title">Notion AI Outage</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.notion.so/incidents/1gsdmxjqsgp3">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Sep 12, 16:53 PDT
-Resolved - The issue has now been resolved and all users should be able to use Notion AI as normal.
-Sep 12, 16:13 PDT
-Identified - We are currently experiencing outage with Notion AI. Our engineering team is fully focused on resolving the issue and we will share updates as soon as possible.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/11301054345">
-        <time id="build-timestamp" datetime="2024-10-12T00:26:58.761Z">2024-10-12T00:26:58.761Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/11309930249">
+        <time id="build-timestamp" datetime="2024-10-13T00:30:23.200Z">2024-10-13T00:30:23.200Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

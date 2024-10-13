@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-12T00:26:58.781Z</id>
+    <id>urn:2024-10-13T00:30:23.227Z</id>
     <title>osmos::feed</title>
-    <updated>2024-10-12T00:26:58.781Z</updated>
+    <updated>2024-10-13T00:30:23.227Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Issue delaying message_added webhooks]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/8bz6h0mfpqm2</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/8bz6h0mfpqm2"/>
+        <updated>2024-10-12T23:01:21.000Z</updated>
+        <summary type="html"><![CDATA[Oct 12, 16:01 PDT
+Update - All delayed message_added webhooks have been sent out by 3:05PM PST on Saturday, Oct 12. We will continue to monitor this.
+Oct 12, 13:04 PDT
+Monitoring - We're currently investigating an issue that's causing errors delivering message_added webhooks.  A portion of message_added webhooks were not delivered from around 3AM PST on Friday, Oct 11. We've mitigated the issue at around 12PM PST on Saturday, Oct 12, and the delayed webhooks are being sent out.
+We will continue to monitor this, and send out another update once all the delayed webhooks are sent out.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
         <id>https://www.githubstatus.com/incidents/myvz2tsj2dh8</id>
         <link href="https://www.githubstatus.com/incidents/myvz2tsj2dh8"/>
-        <updated>2024-10-12T00:14:54.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 00:14 UTC
+        <updated>2024-10-12T01:11:28.000Z</updated>
+        <summary type="html"><![CDATA[Oct 12, 01:11 UTC
+Resolved - This incident has been resolved.
+Oct 12, 00:46 UTC
+Update - We’re continuing to work towards recovery of code search service.
+Oct 12, 00:14 UTC
 Update - We’ve identified the issue with code search and are working towards recovery of service.
 Oct 11, 23:31 UTC
 Update - We’re continuing to investigate issues with code search.
@@ -23,9 +41,7 @@ Update - We are rolling out a fix to address the network connectivity issues. Co
 Oct 11, 21:46 UTC
 Update - Actions is operating normally.
 Oct 11, 21:28 UTC
-Update - We continue to work on mitigations. Actions is starting to see recovery.
-Oct 11, 20:52 UTC
-Update - The mitigation attempt did not resolve the issue …]]></summary>
+Upd…]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
@@ -1378,67 +1394,6 @@ From September 5, 2024 at 2:50 PM PDT to September 8, 2024 at 10 PM PDT, some cu
 We traced this issue back to a recent code change which we discovered was creating indexing errors for EKM customers when they used the search function. We then reverted the problematic code change and ran a reindexing script to make the missing messages searchable again, which resolved the issue for all affected users.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Processing delays to some Issues, Pull Requests and Webhooks]]></title>
-        <id>https://www.githubstatus.com/incidents/v677w7xlvkss</id>
-        <link href="https://www.githubstatus.com/incidents/v677w7xlvkss"/>
-        <updated>2024-09-13T07:13:24.000Z</updated>
-        <summary type="html"><![CDATA[Sep 13, 07:13 UTC
-Resolved - On Sep 13, 2024, between 05:03 UTC and 07:13 UTC, the Webhooks and Actions services were degraded resulting in some customers experiencing delayed processing of Webhooks and Actions Runs. 0.5% of Webhook deliveries were delayed more than 2 minutes during the incident. 15% of Actions Runs started between 05:03 and 05:24 UTC saw run start delays or failures. At 05:24 UTC, we implemented a mitigation to shift traffic to healthy infrastructure and new Actions Runs resumed normal operations. During the rest of the incident window, Actions runs started before 05:24 UTC continued to see delays publishing logs or job results.  No Actions runs or Webhook deliveries were lost, only delayed.
-We mitigated the incident by immediately shifting traffic to a healthy cluster while investigating. The incident was caused by an erroneous configuration change on our eventing platform. A permanent fix was deployed at 06:22 UTC after which services began to recover and burn down their backed up queues, with full recovery by 07:13 UTC.
-We are working to reduce our time to detection and develop test automation to prevent issues like this one in the future.
-
-Sep 13, 06:49 UTC
-Update - We are seeing improvements in telemetry and are monitoring the delivery of delayed Webhooks and Actions job statuses.
-Sep 13, 06:23 UTC
-Update - We've applied a mitigation to fix the issues being experienced in some cases with delays to webhook deliveries, and the delayed reporting of the outcome of some running Actions jobs. We are monitoring for full recovery.
-Sep 13, 05:59 UTC
-Update - Actions is experiencing degraded performance. We are continuing to investigate.
-Sep 13, 05:42 UTC
-Investigating - We are investigating reports of degraded performance for Issues, Pull Requests and Webhooks]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Payment processing with Cartes Bancaires]]></title>
-        <id>300618</id>
-        <link href="https://changelog.bookingsync.com/payment-processing-with-cartes-bancaires-300618"/>
-        <updated>2024-09-13T06:51:16.000Z</updated>
-        <summary type="html"><![CDATA[New!
- 
-Action required
-  
-You may have recently been informed by Stripe that an update was required to comply with EU regulations for co-badged cards.
-
-New regulations specify that, in the EEA, businesses handling co-branded cards are required to offer customers the option to choose their preferred network during checkout.
-Rest assured, we have made the necessary updates to ensure that your guest payments are compliant with this regulation. As such, when a cardholder is using a cobadged Cartes Bancaires to pay on a Smily payment page, they are now required to select their preferred network.
-
-Note: if you use Stripe, there are two requirements to accept Cartes Bancaires payments:
-Firstly you need to enable this option in your Payment Gateway settings on Smily.
-
-
-Secondly, you may need update your payment methods in your Stripe settings to be able to accept Cartes Bancaires payments. 
-
-
-For more information, check out our dedicated manual article.]]></summary>
-        <author>
-            <name>Megan, Product Manager</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notion AI Outage]]></title>
-        <id>https://status.notion.so/incidents/1gsdmxjqsgp3</id>
-        <link href="https://status.notion.so/incidents/1gsdmxjqsgp3"/>
-        <updated>2024-09-12T23:53:36.000Z</updated>
-        <summary type="html"><![CDATA[Sep 12, 16:53 PDT
-Resolved - The issue has now been resolved and all users should be able to use Notion AI as normal.
-Sep 12, 16:13 PDT
-Identified - We are currently experiencing outage with Notion AI. Our engineering team is fully focused on resolving the issue and we will share updates as soon as possible.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
         </author>
     </entry>
 </feed>

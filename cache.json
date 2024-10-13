@@ -4,18 +4,7 @@
       "title": "BookingSync.com news",
       "feedUrl": "https://changelog.bookingsync.com/rss",
       "siteUrl": "https://changelog.bookingsync.com",
-      "articles": [
-        {
-          "id": "300618",
-          "author": "Megan, Product Manager",
-          "description": "New!\n \nAction required\n  \nYou may have recently been informed by Stripe that an update was required to comply with EU regulations for co-badged cards.\n\nNew regulations specify that, in the EEA, businesses handling co-branded cards are required to offer customers the option to choose their preferred network during checkout.\nRest assured, we have made the necessary updates to ensure that your guest payments are compliant with this regulation. As such, when a cardholder is using a cobadged Cartes Bancaires to pay on a Smily payment page, they are now required to select their preferred network.\n\nNote: if you use Stripe, there are two requirements to accept Cartes Bancaires payments:\nFirstly you need to enable this option in your Payment Gateway settings on Smily.\n\n\nSecondly, you may need update your payment methods in your Stripe settings to be able to accept Cartes Bancaires payments. \n\n\nFor more information, check out our dedicated manual article.",
-          "link": "https://changelog.bookingsync.com/payment-processing-with-cartes-bancaires-300618",
-          "publishedOn": "2024-09-13T06:51:16.000Z",
-          "wordCount": 378,
-          "title": "Payment processing with Cartes Bancaires",
-          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/133/682-ec69b56ecbffdee249ed2b5236ecc3aac48b07e9.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Security Bulletins on Tailscale",
@@ -39,6 +28,16 @@
       "feedUrl": "https://airbnbapi.statuspage.io/history.rss",
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
+        {
+          "id": "https://airbnbapi.statuspage.io/incidents/8bz6h0mfpqm2",
+          "author": null,
+          "description": "Oct 12, 16:01 PDT\nUpdate - All delayed message_added webhooks have been sent out by 3:05PM PST on Saturday, Oct 12. We will continue to monitor this.\nOct 12, 13:04 PDT\nMonitoring - We're currently investigating an issue that's causing errors delivering message_added webhooks.  A portion of message_added webhooks were not delivered from around 3AM PST on Friday, Oct 11. We've mitigated the issue at around 12PM PST on Saturday, Oct 12, and the delayed webhooks are being sent out.\nWe will continue to monitor this, and send out another update once all the delayed webhooks are sent out.",
+          "link": "https://airbnbapi.statuspage.io/incidents/8bz6h0mfpqm2",
+          "publishedOn": "2024-10-12T23:01:21.000Z",
+          "wordCount": 3909,
+          "title": "Issue delaying message_added webhooks",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://airbnbapi.statuspage.io/incidents/d7bvq0y3y0n4",
           "author": null,
@@ -398,16 +397,6 @@
           "wordCount": 3393,
           "title": "Notion AI Partial Outage",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/1gsdmxjqsgp3",
-          "author": null,
-          "description": "Sep 12, 16:53 PDT\nResolved - The issue has now been resolved and all users should be able to use Notion AI as normal.\nSep 12, 16:13 PDT\nIdentified - We are currently experiencing outage with Notion AI. Our engineering team is fully focused on resolving the issue and we will share updates as soon as possible.",
-          "link": "https://status.notion.so/incidents/1gsdmxjqsgp3",
-          "publishedOn": "2024-09-12T23:53:36.000Z",
-          "wordCount": 3361,
-          "title": "Notion AI Outage",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -483,10 +472,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/myvz2tsj2dh8",
           "author": null,
-          "description": "Oct 12, 00:14 UTC\nUpdate - We’ve identified the issue with code search and are working towards recovery of service.\nOct 11, 23:31 UTC\nUpdate - We’re continuing to investigate issues with code search.\nOct 11, 22:57 UTC\nUpdate - We’re continuing to investigate issues with code search. Copilot and Actions services are recovered and operating normally.\nOct 11, 22:16 UTC\nUpdate - Copilot is operating normally.\nOct 11, 22:14 UTC\nUpdate - We are rolling out a fix to address the network connectivity issues. Copilot is seeing recovery. support.github.com is recovered.\nOct 11, 21:46 UTC\nUpdate - Actions is operating normally.\nOct 11, 21:28 UTC\nUpdate - We continue to work on mitigations. Actions is starting to see recovery.\nOct 11, 20:52 UTC\nUpdate - The mitigation attempt did not resolve the issue …",
+          "description": "Oct 12, 01:11 UTC\nResolved - This incident has been resolved.\nOct 12, 00:46 UTC\nUpdate - We’re continuing to work towards recovery of code search service.\nOct 12, 00:14 UTC\nUpdate - We’ve identified the issue with code search and are working towards recovery of service.\nOct 11, 23:31 UTC\nUpdate - We’re continuing to investigate issues with code search.\nOct 11, 22:57 UTC\nUpdate - We’re continuing to investigate issues with code search. Copilot and Actions services are recovered and operating normally.\nOct 11, 22:16 UTC\nUpdate - Copilot is operating normally.\nOct 11, 22:14 UTC\nUpdate - We are rolling out a fix to address the network connectivity issues. Copilot is seeing recovery. support.github.com is recovered.\nOct 11, 21:46 UTC\nUpdate - Actions is operating normally.\nOct 11, 21:28 UTC\nUpd…",
           "link": "https://www.githubstatus.com/incidents/myvz2tsj2dh8",
-          "publishedOn": "2024-10-12T00:14:54.000Z",
-          "wordCount": 5718,
+          "publishedOn": "2024-10-12T01:11:28.000Z",
+          "wordCount": 5745,
           "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -588,16 +577,6 @@
           "publishedOn": "2024-09-14T22:43:08.000Z",
           "wordCount": 5387,
           "title": "Incident with Pull Requests",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/v677w7xlvkss",
-          "author": null,
-          "description": "Sep 13, 07:13 UTC\nResolved - On Sep 13, 2024, between 05:03 UTC and 07:13 UTC, the Webhooks and Actions services were degraded resulting in some customers experiencing delayed processing of Webhooks and Actions Runs. 0.5% of Webhook deliveries were delayed more than 2 minutes during the incident. 15% of Actions Runs started between 05:03 and 05:24 UTC saw run start delays or failures. At 05:24 UTC, we implemented a mitigation to shift traffic to healthy infrastructure and new Actions Runs resumed normal operations. During the rest of the incident window, Actions runs started before 05:24 UTC continued to see delays publishing logs or job results.  No Actions runs or Webhook deliveries were lost, only delayed.\nWe mitigated the incident by immediately shifting traffic to a healthy cluster while investigating. The incident was caused by an erroneous configuration change on our eventing platform. A permanent fix was deployed at 06:22 UTC after which services began to recover and burn down their backed up queues, with full recovery by 07:13 UTC.\nWe are working to reduce our time to detection and develop test automation to prevent issues like this one in the future.\n\nSep 13, 06:49 UTC\nUpdate - We are seeing improvements in telemetry and are monitoring the delivery of delayed Webhooks and Actions job statuses.\nSep 13, 06:23 UTC\nUpdate - We've applied a mitigation to fix the issues being experienced in some cases with delays to webhook deliveries, and the delayed reporting of the outcome of some running Actions jobs. We are monitoring for full recovery.\nSep 13, 05:59 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nSep 13, 05:42 UTC\nInvestigating - We are investigating reports of degraded performance for Issues, Pull Requests and Webhooks",
-          "link": "https://www.githubstatus.com/incidents/v677w7xlvkss",
-          "publishedOn": "2024-09-13T07:13:24.000Z",
-          "wordCount": 5576,
-          "title": "Processing delays to some Issues, Pull Requests and Webhooks",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
