@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-13T00:30:23.227Z</id>
+    <id>urn:2024-10-14T00:29:21.483Z</id>
     <title>osmos::feed</title>
-    <updated>2024-10-13T00:30:23.227Z</updated>
+    <updated>2024-10-14T00:29:21.483Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -1365,35 +1365,6 @@ Sep 14, 06:42 PDT
 Investigating - We are currently experiencing a partial outage with Notion Sites and our engineering team is investigating the issue.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notion AI Partial Outage]]></title>
-        <id>https://status.notion.so/incidents/1rtf1lbh6360</id>
-        <link href="https://status.notion.so/incidents/1rtf1lbh6360"/>
-        <updated>2024-09-14T03:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Sep 13, 20:01 PDT
-Resolved - Our engineering team has rolled out the fix, and the issue is now resolved.
-Sep 13, 16:43 PDT
-Update - We are continuing to work on a fix for this issue.
-Sep 13, 16:41 PDT
-Identified - We are currently experiencing a partial outage with Notion AI. Our engineering team has identified the cause and is working on implementing a fix. Users can hard refresh Notion to resolve the issue. We will share updates as soon as possible.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Search issues for Enterprise Grid users with Enterprise Key Management (EKM) enabled.]]></title>
-        <id>https://slack-status.com/2024-09/acbfa877aa3bd776</id>
-        <link href="https://slack-status.com/2024-09/acbfa877aa3bd776"/>
-        <updated>2024-09-13T21:54:13.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-
-From September 5, 2024 at 2:50 PM PDT to September 8, 2024 at 10 PM PDT, some customers using Enterprise Key Management (EKM) were unable to search for recently created messages. 
-
-We traced this issue back to a recent code change which we discovered was creating indexing errors for EKM customers when they used the search function. We then reverted the problematic code change and ran a reindexing script to make the missing messages searchable again, which resolved the issue for all affected users.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>
