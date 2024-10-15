@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-14T00:29:21.483Z</id>
+    <id>urn:2024-10-15T00:28:09.831Z</id>
     <title>osmos::feed</title>
-    <updated>2024-10-14T00:29:21.483Z</updated>
+    <updated>2024-10-15T00:28:09.831Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident: User status on Android may be showing incorrectly.]]></title>
+        <id>https://slack-status.com/2024-10/9510f83d5032cd92</id>
+        <link href="https://slack-status.com/2024-10/9510f83d5032cd92"/>
+        <updated>2024-10-14T18:45:49.000Z</updated>
+        <summary type="html"><![CDATA[Issue Summary:
+Beginning on Tuesday, October 1, 2024 at 12:00 PM PDT, until 10:12 AM PDT on Monday, October 14, 2024, some Android users experienced an issue with their user status being shown incorrectly as well as a constant blue loading bar near the top of their app.
+
+This issue was traced back to a bug that was introduced by incorrect logic with a feature flag. We rolled back the problematic feature flag, resolving the issue for all affected users. We are continuously making improvements to feature flag releases to reduce the likelihood of events such as these. Thank you for your patience.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Issues with single-sign on]]></title>
+        <id>https://status.rippling.com/incidents/lt9yzbd1ffwd</id>
+        <link href="https://status.rippling.com/incidents/lt9yzbd1ffwd"/>
+        <updated>2024-10-14T16:13:27.000Z</updated>
+        <summary type="html"><![CDATA[Oct 14, 16:13 UTC
+Resolved - This incident has been resolved. A post-mortem will be posted on Friday Oct 18.
+Oct 14, 16:06 UTC
+Monitoring - A fix has been implemented and we are monitoring the results.
+Oct 14, 16:04 UTC
+Identified - The issue has been identified and a fix is being implemented.
+Oct 14, 16:02 UTC
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>Rippling Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Issue delaying message_added webhooks]]></title>
         <id>https://airbnbapi.statuspage.io/incidents/8bz6h0mfpqm2</id>
         <link href="https://airbnbapi.statuspage.io/incidents/8bz6h0mfpqm2"/>
-        <updated>2024-10-12T23:01:21.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 16:01 PDT
+        <updated>2024-10-14T03:20:27.000Z</updated>
+        <summary type="html"><![CDATA[Oct 13, 20:20 PDT
+Resolved - This incident has been resolved.
+Oct 12, 16:01 PDT
 Update - All delayed message_added webhooks have been sent out by 3:05PM PST on Saturday, Oct 12. We will continue to monitor this.
 Oct 12, 13:04 PDT
 Monitoring - We're currently investigating an issue that's causing errors delivering message_added webhooks.  A portion of message_added webhooks were not delivered from around 3AM PST on Friday, Oct 11. We've mitigated the issue at around 12PM PST on Saturday, Oct 12, and the delayed webhooks are being sent out.
@@ -1333,38 +1365,6 @@ The impact has completely subsided and users should no longer see any issues wit
 If you continue to experience problems, please open a ticket with our support team from your Cloud Control Panel. Thank you for your patience, and we apologize for any inconvenience.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Pull Requests]]></title>
-        <id>https://www.githubstatus.com/incidents/rzqy51mc72dx</id>
-        <link href="https://www.githubstatus.com/incidents/rzqy51mc72dx"/>
-        <updated>2024-09-14T22:43:08.000Z</updated>
-        <summary type="html"><![CDATA[Sep 14, 22:43 UTC
-Resolved - On September 14th, 2024 from 20:45 UTC to 22:31 UTC commit creation operations, most commonly Pull Request merges, failed for some repositories. 226 repositories were impacted.
-The root cause was a hardware fault in a Git file server, where merge commits are calculated. To mitigate the issue we marked the file server as offline.
-Detection was slower than is typical because of lower weekend traffic. We’re making improvements to monitoring to decrease time to detection in future.
-Sep 14, 22:43 UTC
-Update - Pull Requests is operating normally.
-Sep 14, 22:41 UTC
-Update - we believe we have mitigated and are confirming recovery.
-Sep 14, 22:10 UTC
-Investigating - We are investigating reports of degraded performance for Pull Requests]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notion Sites Outage]]></title>
-        <id>https://status.notion.so/incidents/rnrf6dldl7gh</id>
-        <link href="https://status.notion.so/incidents/rnrf6dldl7gh"/>
-        <updated>2024-09-14T14:50:15.000Z</updated>
-        <summary type="html"><![CDATA[Sep 14, 07:50 PDT
-Resolved - Our engineering team has deployed a fix, and the issue is now resolved.
-Sep 14, 06:42 PDT
-Investigating - We are currently experiencing a partial outage with Notion Sites and our engineering team is investigating the issue.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
         </author>
     </entry>
 </feed>

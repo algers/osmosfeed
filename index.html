@@ -22,11 +22,89 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-10-12 datetime="2024-10-12T23:01:21.000Z">2024-10-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-10-12 datetime="2024-10-12T23:01:21.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-10-14 datetime="2024-10-14T18:45:49.000Z">2024-10-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-10-14 datetime="2024-10-14T18:45:49.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Slack System Status</button>
+                  <a class="source-heading__link" href="https://slack-status.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://slack-status.com/2024-10/9510f83d5032cd92"
+                        open
+                      >
+                        <summary class="article-expander__title">Incident: User status on Android may be showing incorrectly.</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://slack-status.com/2024-10/9510f83d5032cd92">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://status.slack.com/img/v2_rebrand/slack_hash_256.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Issue Summary:
+Beginning on Tuesday, October 1, 2024 at 12:00 PM PDT, until 10:12 AM PDT on Monday, October 14, 2024, some Android users experienced an issue with their user status being shown incorrectly as well as a constant blue loading bar near the top of their app.
+
+This issue was traced back to a bug that was introduced by incorrect logic with a feature flag. We rolled back the problematic feature flag, resolving the issue for all affected users. We are continuously making improvements to feature flag releases to reduce the likelihood of events such as these. Thank you for your patience.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Rippling Status - Incident History</button>
+                  <a class="source-heading__link" href="https://status.rippling.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://status.rippling.com/incidents/lt9yzbd1ffwd"
+                        open
+                      >
+                        <summary class="article-expander__title">Issues with single-sign on</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://status.rippling.com/incidents/lt9yzbd1ffwd">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Oct 14, 16:13 UTC
+Resolved - This incident has been resolved. A post-mortem will be posted on Friday Oct 18.
+Oct 14, 16:06 UTC
+Monitoring - A fix has been implemented and we are monitoring the results.
+Oct 14, 16:04 UTC
+Identified - The issue has been identified and a fix is being implemented.
+Oct 14, 16:02 UTC
+Investigating - We are currently investigating this issue.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;18
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -50,7 +128,9 @@
                           <div class="article-summary-box-inner media-object">
                               <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>Oct 12, 16:01 PDT
+                              <span>Oct 13, 20:20 PDT
+Resolved - This incident has been resolved.
+Oct 12, 16:01 PDT
 Update - All delayed message_added webhooks have been sent out by 3:05PM PST on Saturday, Oct 12. We will continue to monitor this.
 Oct 12, 13:04 PDT
 Monitoring - We&#x27;re currently investigating an issue that&#x27;s causing errors delivering message_added webhooks.  A portion of message_added webhooks were not delivered from around 3AM PST on Friday, Oct 11. We&#x27;ve mitigated the issue at around 12PM PST on Saturday, Oct 12, and the delayed webhooks are being sent out.
@@ -65,6 +145,20 @@ We will continue to monitor this, and send out another update once all the delay
                 </section>
               </section>
             </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-10-12 datetime="2024-10-12T01:11:28.000Z">2024-10-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-10-12 datetime="2024-10-12T01:11:28.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -3015,104 +3109,10 @@ If you continue to experience problems, please open a ticket with our support te
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-09-14 datetime="2024-09-14T22:43:08.000Z">2024-09-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-09-14 datetime="2024-09-14T22:43:08.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >GitHub Status - Incident History</button>
-                  <a class="source-heading__link" href="https://www.githubstatus.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.githubstatus.com/incidents/rzqy51mc72dx"
-                        open
-                      >
-                        <summary class="article-expander__title">Incident with Pull Requests</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.githubstatus.com/incidents/rzqy51mc72dx">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Sep 14, 22:43 UTC
-Resolved - On September 14th, 2024 from 20:45 UTC to 22:31 UTC commit creation operations, most commonly Pull Request merges, failed for some repositories. 226 repositories were impacted.
-The root cause was a hardware fault in a Git file server, where merge commits are calculated. To mitigate the issue we marked the file server as offline.
-Detection was slower than is typical because of lower weekend traffic. We’re making improvements to monitoring to decrease time to detection in future.
-Sep 14, 22:43 UTC
-Update - Pull Requests is operating normally.
-Sep 14, 22:41 UTC
-Update - we believe we have mitigated and are confirming recovery.
-Sep 14, 22:10 UTC
-Investigating - We are investigating reports of degraded performance for Pull Requests</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Notion Status - Incident History</button>
-                  <a class="source-heading__link" href="https://status.notion.so">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.notion.so/incidents/rnrf6dldl7gh"
-                        open
-                      >
-                        <summary class="article-expander__title">Notion Sites Outage</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.notion.so/incidents/rnrf6dldl7gh">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Sep 14, 07:50 PDT
-Resolved - Our engineering team has deployed a fix, and the issue is now resolved.
-Sep 14, 06:42 PDT
-Investigating - We are currently experiencing a partial outage with Notion Sites and our engineering team is investigating the issue.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/11318980611">
-        <time id="build-timestamp" datetime="2024-10-14T00:29:21.458Z">2024-10-14T00:29:21.458Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/11337042499">
+        <time id="build-timestamp" datetime="2024-10-15T00:28:09.811Z">2024-10-15T00:28:09.811Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
