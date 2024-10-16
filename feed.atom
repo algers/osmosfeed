@@ -1,10 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-15T00:28:09.831Z</id>
+    <id>urn:2024-10-16T00:27:56.938Z</id>
     <title>osmos::feed</title>
-    <updated>2024-10-15T00:28:09.831Z</updated>
+    <updated>2024-10-16T00:27:56.938Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Creating MongoDB Managed Databases]]></title>
+        <id>https://status.digitalocean.com/incidents/hxz1z0zrzp6x</id>
+        <link href="https://status.digitalocean.com/incidents/hxz1z0zrzp6x"/>
+        <updated>2024-10-15T23:25:51.000Z</updated>
+        <summary type="html"><![CDATA[Oct 15, 23:25 UTC
+Resolved - After investigation, our Engineering team was able to determine that an internal-only issue was impacting MongoDB creation for DigitalOcean employees. 
+No customer impact occurred during the course of this incident. 
+We apologize for any confusion. If you are seeing any issues, please out to Support from within your account.
+Oct 15, 22:54 UTC
+Investigating - Our Engineering team is investigating an issue with MongoDB Managed Databases. At this time, users may experience errors while attempting to create MongoDB clusters in all regions.
+We apologize for the inconvenience and will provide another update as soon as possible.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Core Infrastructure Maintenance in NYC3]]></title>
+        <id>https://status.digitalocean.com/incidents/mklmmw2shz4k</id>
+        <link href="https://status.digitalocean.com/incidents/mklmmw2shz4k"/>
+        <updated>2024-10-15T21:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Oct 15, 21:00 UTC
+Completed - The scheduled maintenance has been completed.
+Oct 15, 20:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Oct 13, 20:17 UTC
+Scheduled - During the above window, our Engineering team will be performing maintenance on principal infrastructure in order to improve reliability of the services. Please note that existing infrastructure will continue running without issue. This maintenance may impact create, read, update, and delete (CRUD) operations in all regions.
+Expected Impact:
+During the maintenance window, users may experience increased latency for the following platform operations:
+Cloud Control Panel and API operations
+Event processing
+Droplet creates, resizes, rebuilds, and power events
+Managed Kubernetes reconciliation and scaling
+Load Balancer operations
+Container Registry operations
+App Platform operations
+Managed Database creation and scaling
+We do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, we will endeavor to keep any impact to minimum and may revert if required.
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spaces Page in Control Panel]]></title>
+        <id>https://status.digitalocean.com/incidents/8j22jjz7x4jb</id>
+        <link href="https://status.digitalocean.com/incidents/8j22jjz7x4jb"/>
+        <updated>2024-10-15T18:44:56.000Z</updated>
+        <summary type="html"><![CDATA[Oct 15, 18:44 UTC
+Resolved - Our Engineering team has confirmed resolution of the issue impacting display of Spaces page in Cloud control panel.
+From 17:35 UTC to 18:00 UTC, users were experiencing errors when accessing Spaces page in the Cloud Control Panel.
+We apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.
+Oct 15, 18:25 UTC
+Monitoring - Our Engineering team has successfully deployed a fix for the display issue with Spaces Object Storage in the Cloud control panel. Some users may have experienced 400 errors or difficulties accessing the page when using Spaces through the Cloud Control Panel.
+We are currently monitoring the situation and will post an update as soon as the issue is fully resolved.
+Oct 15, 17:56 UTC
+Identified - Our Engineering team has identified a display issues with Spaces Object Storage in the Cloud control panel and a fix is currently being deployed. During this time, some users may see 400 errors or be unable to access the page when accessing Spaces through the Cloud Control Panel. 
+We apologize for the inconvenience and will share an update once the fix has finished deploying.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Temporary Login Codes not sent]]></title>
+        <id>https://status.notion.so/incidents/36mc1xj3g10r</id>
+        <link href="https://status.notion.so/incidents/36mc1xj3g10r"/>
+        <updated>2024-10-15T17:35:55.000Z</updated>
+        <summary type="html"><![CDATA[Oct 15, 10:35 PDT
+Resolved - This incident has been resolved. From now on, users will receive the temporary login codes as expected.
+Oct 15, 08:15 PDT
+Identified - We are seeing reports that requested Temporary Login Codes in the Sign-in & Sign-up Process are not being sent. The issue has been identified and a fix is being implemented. This is only affecting log ins that require a temporary login code.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Internal Service Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/jj7r3cdfn4pm</id>
+        <link href="https://status.digitalocean.com/incidents/jj7r3cdfn4pm"/>
+        <updated>2024-10-15T17:09:08.000Z</updated>
+        <summary type="html"><![CDATA[Oct 15, 17:09 UTC
+Completed - The scheduled maintenance has been completed.
+Oct 15, 15:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Oct 14, 23:10 UTC
+Scheduled - Start Time: October 15 15:00 UTC
+End Time: October 15 18:00 UTC
+During this time, our Engineering Team will be performing maintenance on an internal service, which necessitates a period of read-only access to that service. 
+Engineering teams have taken steps to ensure their services do not experience downtime during the read-only period. Due to dependencies on this internal service, there is a possibility that some customer-facing services may experience minor disruptions, particularly while using Marketplace Add Ons or processing App Platform builds (small delays).
+Existing infrastructure will continue running without issue and no public or private networking disruption will occur.
+If other customer-facing services experience any disruption, we will update this post.
+If you have any questions or concerns, please reach out to the Support team from within your account.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: User status on Android may be showing incorrectly.]]></title>
         <id>https://slack-status.com/2024-10/9510f83d5032cd92</id>
@@ -1327,44 +1423,6 @@ Sep 16, 13:29 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Connection Issues with Make.com and Public Zones]]></title>
-        <id>https://status.make.com/incidents/smjvw2c19y7z</id>
-        <link href="https://status.make.com/incidents/smjvw2c19y7z"/>
-        <updated>2024-09-16T10:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Sep 16, 12:00 CEST
-Resolved - This incident has been resolved.
-Sep 16, 08:32 CEST
-Monitoring - The connection issues affecting Make.com and public zones web pages were related to our third-party vendor, Cloudflare, which experienced a high level of HTTP errors. 
-A fix has now been implemented by CloudFlare, and the situation is currently stable.
-We have thoroughly checked the Make platform, and there are no related issues on our end.
-For more information, please refer to the Cloudflare incident details:
-https://www.cloudflarestatus.com/incidents/f116htkkp7hn
-We will continue to monitor the situation and keep you updated if anything changes.
-Thank you for your patience and understanding
-Sep 16, 06:08 CEST
-Investigating - We are currently experiencing connection issues affecting Make.com and public zones web pages. Users may experience slow loading times or may be unable to access certain pages.
-Our team is working to resolve the issue as quickly as possible. We will keep you posted with further updates.
-Thank you for your patience.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Connectivity issues to cloud panel, API, and other endpoints]]></title>
-        <id>https://status.digitalocean.com/incidents/fg1xqcw7hz1t</id>
-        <link href="https://status.digitalocean.com/incidents/fg1xqcw7hz1t"/>
-        <updated>2024-09-16T07:00:38.000Z</updated>
-        <summary type="html"><![CDATA[Sep 16, 07:00 UTC
-Resolved - Our Engineering team identified an issue with accessing Cloud Panel and Application deployment which is due to the increased level of HTTP 499 errors rates at Upstream Provider end.
-From 04:21 - 06:06 UTC, users may have experienced issues while accessing Cloud Panel and Application deployments.
-Our Upstream provider and the Engineering team closely worked together to resolve the issue.
-The impact has completely subsided and users should no longer see any issues with the impacted services.
-If you continue to experience problems, please open a ticket with our support team from your Cloud Control Panel. Thank you for your patience, and we apologize for any inconvenience.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>

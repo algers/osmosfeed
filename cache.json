@@ -62,6 +62,46 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/hxz1z0zrzp6x",
+          "author": null,
+          "description": "Oct 15, 23:25 UTC\nResolved - After investigation, our Engineering team was able to determine that an internal-only issue was impacting MongoDB creation for DigitalOcean employees. \nNo customer impact occurred during the course of this incident. \nWe apologize for any confusion. If you are seeing any issues, please out to Support from within your account.\nOct 15, 22:54 UTC\nInvestigating - Our Engineering team is investigating an issue with MongoDB Managed Databases. At this time, users may experience errors while attempting to create MongoDB clusters in all regions.\nWe apologize for the inconvenience and will provide another update as soon as possible.",
+          "link": "https://status.digitalocean.com/incidents/hxz1z0zrzp6x",
+          "publishedOn": "2024-10-15T23:25:51.000Z",
+          "wordCount": 6286,
+          "title": "Creating MongoDB Managed Databases",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/mklmmw2shz4k",
+          "author": null,
+          "description": "Oct 15, 21:00 UTC\nCompleted - The scheduled maintenance has been completed.\nOct 15, 20:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 13, 20:17 UTC\nScheduled - During the above window, our Engineering team will be performing maintenance on principal infrastructure in order to improve reliability of the services. Please note that existing infrastructure will continue running without issue. This maintenance may impact create, read, update, and delete (CRUD) operations in all regions.\nExpected Impact:\nDuring the maintenance window, users may experience increased latency for the following platform operations:\nCloud Control Panel and API operations\nEvent processing\nDroplet creates, resizes, rebuilds, and power events\nManaged Kubernetes reconciliation and scaling\nLoad Balancer operations\nContainer Registry operations\nApp Platform operations\nManaged Database creation and scaling\nWe do not expect any impact to customer traffic due to this maintenance. If an unexpected issue arises, we will endeavor to keep any impact to minimum and may revert if required.\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
+          "link": "https://status.digitalocean.com/incidents/mklmmw2shz4k",
+          "publishedOn": "2024-10-15T21:00:02.000Z",
+          "wordCount": 6389,
+          "title": "Core Infrastructure Maintenance in NYC3",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/8j22jjz7x4jb",
+          "author": null,
+          "description": "Oct 15, 18:44 UTC\nResolved - Our Engineering team has confirmed resolution of the issue impacting display of Spaces page in Cloud control panel.\nFrom 17:35 UTC to 18:00 UTC, users were experiencing errors when accessing Spaces page in the Cloud Control Panel.\nWe apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.\nOct 15, 18:25 UTC\nMonitoring - Our Engineering team has successfully deployed a fix for the display issue with Spaces Object Storage in the Cloud control panel. Some users may have experienced 400 errors or difficulties accessing the page when using Spaces through the Cloud Control Panel.\nWe are currently monitoring the situation and will post an update as soon as the issue is fully resolved.\nOct 15, 17:56 UTC\nIdentified - Our Engineering team has identified a display issues with Spaces Object Storage in the Cloud control panel and a fix is currently being deployed. During this time, some users may see 400 errors or be unable to access the page when accessing Spaces through the Cloud Control Panel. \nWe apologize for the inconvenience and will share an update once the fix has finished deploying.",
+          "link": "https://status.digitalocean.com/incidents/8j22jjz7x4jb",
+          "publishedOn": "2024-10-15T18:44:56.000Z",
+          "wordCount": 6391,
+          "title": "Spaces Page in Control Panel",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/jj7r3cdfn4pm",
+          "author": null,
+          "description": "Oct 15, 17:09 UTC\nCompleted - The scheduled maintenance has been completed.\nOct 15, 15:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 14, 23:10 UTC\nScheduled - Start Time: October 15 15:00 UTC\nEnd Time: October 15 18:00 UTC\nDuring this time, our Engineering Team will be performing maintenance on an internal service, which necessitates a period of read-only access to that service. \nEngineering teams have taken steps to ensure their services do not experience downtime during the read-only period. Due to dependencies on this internal service, there is a possibility that some customer-facing services may experience minor disruptions, particularly while using Marketplace Add Ons or processing App Platform builds (small delays).\nExisting infrastructure will continue running without issue and no public or private networking disruption will occur.\nIf other customer-facing services experience any disruption, we will update this post.\nIf you have any questions or concerns, please reach out to the Support team from within your account.",
+          "link": "https://status.digitalocean.com/incidents/jj7r3cdfn4pm",
+          "publishedOn": "2024-10-15T17:09:08.000Z",
+          "wordCount": 6349,
+          "title": "Internal Service Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/f4vzg0451jyg",
           "author": null,
           "description": "Oct 11, 15:50 UTC\nResolved - From 23:00 UTC on October 10th until 13:28 UTC on October 11th, users may have encountered intermittent errors when accessing Spaces endpoints or using the Container Registry in the SYD1 region. Our Engineering team has successfully resolved the issue affecting the functionality of Spaces and the Container Registry.\nAll services have been fully restored and are now functioning normally. If you continue to experience any problems, please open a ticket with our support team. We apologize for any inconvenience caused.\nOct 11, 14:10 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue with Spaces and the Container Registry in the SYD1 region and is monitoring the situation closely. All services have been restored and are functioning as expected. We will post an update as soon as the issue is fully resolved.\nOct 11, 13:18 UTC\nInvestigating - Our Engineering team is currently investigating an issue with Spaces and the Container Registry in the SYD1 region. During this time, users may experience intermittent errors when accessing Spaces endpoints or interacting with the Container Registry. We apologize for the inconvenience and will provide an update as soon as we have more information.",
@@ -270,16 +310,6 @@
           "wordCount": 6484,
           "title": "App Platform Deployments &  Spaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/fg1xqcw7hz1t",
-          "author": null,
-          "description": "Sep 16, 07:00 UTC\nResolved - Our Engineering team identified an issue with accessing Cloud Panel and Application deployment which is due to the increased level of HTTP 499 errors rates at Upstream Provider end.\nFrom 04:21 - 06:06 UTC, users may have experienced issues while accessing Cloud Panel and Application deployments.\nOur Upstream provider and the Engineering team closely worked together to resolve the issue.\nThe impact has completely subsided and users should no longer see any issues with the impacted services.\nIf you continue to experience problems, please open a ticket with our support team from your Cloud Control Panel. Thank you for your patience, and we apologize for any inconvenience.",
-          "link": "https://status.digitalocean.com/incidents/fg1xqcw7hz1t",
-          "publishedOn": "2024-09-16T07:00:38.000Z",
-          "wordCount": 6311,
-          "title": "Connectivity issues to cloud panel, API, and other endpoints",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -288,6 +318,16 @@
       "feedUrl": "https://status.notion.so/history.rss",
       "siteUrl": "https://status.notion.so",
       "articles": [
+        {
+          "id": "https://status.notion.so/incidents/36mc1xj3g10r",
+          "author": null,
+          "description": "Oct 15, 10:35 PDT\nResolved - This incident has been resolved. From now on, users will receive the temporary login codes as expected.\nOct 15, 08:15 PDT\nIdentified - We are seeing reports that requested Temporary Login Codes in the Sign-in & Sign-up Process are not being sent. The issue has been identified and a fix is being implemented. This is only affecting log ins that require a temporary login code.",
+          "link": "https://status.notion.so/incidents/36mc1xj3g10r",
+          "publishedOn": "2024-10-15T17:35:55.000Z",
+          "wordCount": 3383,
+          "title": "Temporary Login Codes not sent",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.notion.so/incidents/zxn6vskpwrkr",
           "author": null,
@@ -741,16 +781,6 @@
           "publishedOn": "2024-09-25T06:39:21.000Z",
           "wordCount": 3924,
           "title": "Issues with \"Facebook Lead Ads\" module",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/smjvw2c19y7z",
-          "author": null,
-          "description": "Sep 16, 12:00 CEST\nResolved - This incident has been resolved.\nSep 16, 08:32 CEST\nMonitoring - The connection issues affecting Make.com and public zones web pages were related to our third-party vendor, Cloudflare, which experienced a high level of HTTP errors. \nA fix has now been implemented by CloudFlare, and the situation is currently stable.\nWe have thoroughly checked the Make platform, and there are no related issues on our end.\nFor more information, please refer to the Cloudflare incident details:\nhttps://www.cloudflarestatus.com/incidents/f116htkkp7hn\nWe will continue to monitor the situation and keep you updated if anything changes.\nThank you for your patience and understanding\nSep 16, 06:08 CEST\nInvestigating - We are currently experiencing connection issues affecting Make.com and public zones web pages. Users may experience slow loading times or may be unable to access certain pages.\nOur team is working to resolve the issue as quickly as possible. We will keep you posted with further updates.\nThank you for your patience.",
-          "link": "https://status.make.com/incidents/smjvw2c19y7z",
-          "publishedOn": "2024-09-16T10:00:02.000Z",
-          "wordCount": 3978,
-          "title": "Connection Issues with Make.com and Public Zones",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
