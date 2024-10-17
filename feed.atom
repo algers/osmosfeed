@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-16T00:27:56.938Z</id>
+    <id>urn:2024-10-17T00:27:55.600Z</id>
     <title>osmos::feed</title>
-    <updated>2024-10-16T00:27:56.938Z</updated>
+    <updated>2024-10-17T00:27:55.600Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Multiple Destination SMS and MMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/pl2p07bjxzvy</id>
+        <link href="https://status.twilio.com/incidents/pl2p07bjxzvy"/>
+        <updated>2024-10-17T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 17, 01:00 - 03:00 PDT
+Oct 16, 16:02 PDT
+Scheduled - Our SMS and MMS carrier partner in the United States and Canada is conducting a planned maintenance from 17 October 2024 at 01:00 PDT until 17 October 2024 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from United States and Canada handsets.
+
+We are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mexico SMS Carrier Maintenance - Telefonica]]></title>
+        <id>https://status.twilio.com/incidents/9y02mc5r0vcq</id>
+        <link href="https://status.twilio.com/incidents/9y02mc5r0vcq"/>
+        <updated>2024-10-17T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 16, 23:00 PDT  -  Oct 17, 05:00 PDT
+Oct 15, 16:13 PDT
+Scheduled - The Telefonica network in Mexico is conducting a planned maintenance from 16 October 2024 at 23:00 PDT until 17 October 2024 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Telefonica Mexico handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Creating MongoDB Managed Databases]]></title>
         <id>https://status.digitalocean.com/incidents/hxz1z0zrzp6x</id>
@@ -153,23 +179,11 @@ We will continue to monitor this, and send out another update once all the delay
         <link href="https://www.githubstatus.com/incidents/myvz2tsj2dh8"/>
         <updated>2024-10-12T01:11:28.000Z</updated>
         <summary type="html"><![CDATA[Oct 12, 01:11 UTC
-Resolved - This incident has been resolved.
-Oct 12, 00:46 UTC
-Update - We’re continuing to work towards recovery of code search service.
-Oct 12, 00:14 UTC
-Update - We’ve identified the issue with code search and are working towards recovery of service.
-Oct 11, 23:31 UTC
-Update - We’re continuing to investigate issues with code search.
-Oct 11, 22:57 UTC
-Update - We’re continuing to investigate issues with code search. Copilot and Actions services are recovered and operating normally.
-Oct 11, 22:16 UTC
-Update - Copilot is operating normally.
-Oct 11, 22:14 UTC
-Update - We are rolling out a fix to address the network connectivity issues. Copilot is seeing recovery. support.github.com is recovered.
-Oct 11, 21:46 UTC
-Update - Actions is operating normally.
-Oct 11, 21:28 UTC
-Upd…]]></summary>
+Resolved - On October 11, 2024, starting at 05:59 UTC, DNS infrastructure in one of our sites started to fail to resolve lookups following a database migration. Attempts to recover the database led to cascading failures that impacted the DNS systems for that site. The team worked to restore the infrastructure and there was no customer impact until 17:31 UTC. 
+During the incident, impact to the following services could be observed:
+- Copilot: Degradation in IDE code completions for 4% of active users during the incident from 17:31 UTC to 21:45 UTC.
+- Actions: Workflow runs delay (25% of runs delayed by over 5 minutes) and errors (1%) between 20:28 UTC and 21:30 UTC. Errors while creating Artifact Attestations.
+- Customer migrations: From 18:16 UTC to 23:12 UTC running migr…]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
@@ -1377,52 +1391,6 @@ Sep 16, 11:21 PDT
 Identified - We've identified an issue with Readme: some pages aren't loading correctly. Until the issue is fixed, please try hard refreshing your browser to see if that helps load the content correctly. We'll share more updates as soon as we can.]]></summary>
         <author>
             <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Pages and Actions]]></title>
-        <id>https://www.githubstatus.com/incidents/69sb0f8lydp4</id>
-        <link href="https://www.githubstatus.com/incidents/69sb0f8lydp4"/>
-        <updated>2024-09-16T22:08:39.000Z</updated>
-        <summary type="html"><![CDATA[Sep 16, 22:08 UTC
-Resolved - On September 16, 2024, between 21:11 UTC and 22:20 UTC, Actions and Pages services were degraded. Customers who deploy Pages from a source branch experienced delayed runs. Approximately 1,100 runs were delayed long enough to get marked as abandoned. The runs that weren't abandoned completed successfully after we recovered from the incident. Actions jobs experienced average delays of 23 minutes, with some jobs experiencing delays as high as 45 minutes. During the course of the incident, 17% of runs were delayed by more than 5 minutes. At peak, as many as 80% of runs experienced delays exceeding 5 minutes. The root cause was a misconfiguration in the service that manages runner connections, which caused CPU throttling and led to a performance degradation in that service.
-We mitigated the incident by diverting runner connections away from the misconfigured nodes. We are working to improve our internal monitoring and alerting to reduce our time to detection and mitigation of issues like this one in the future.
-Sep 16, 21:55 UTC
-Update - Actions is experiencing degraded performance. We are continuing to investigate.
-Sep 16, 21:53 UTC
-Update - The team is investigating issues with some Actions jobs being queued for a long time and a percentage of jobs failing. A mitigation has been applied and jobs are starting to recover.
-Sep 16, 21:52 UTC
-Update - Pages is operating normally.
-Sep 16, 21:37 UTC
-Update - Actions is experiencing degraded availability. We are continuing to investigate.
-Sep 16, 21:31 UTC
-Investigating - We are investigating reports of degraded performance for Actions and Pages]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disruption with Git SSH]]></title>
-        <id>https://www.githubstatus.com/incidents/r3x7x31k7nn1</id>
-        <link href="https://www.githubstatus.com/incidents/r3x7x31k7nn1"/>
-        <updated>2024-09-16T14:28:03.000Z</updated>
-        <summary type="html"><![CDATA[Sep 16, 14:28 UTC
-Resolved - On September 16, 2024, between 13:24 UTC and 14:28 UTC, the Git Operations service experienced a degradation, leading to intermittent SSH connection drops. The overall SSH error rate during this period was 0.0005%, with a peak error rate of 0.3%.
-The root cause was traced to a regression in the service reload mechanism, which resulted in SSH hosts dropping connections on an hourly basis. As SSH hosts were rebooted for routine security updates, the issue progressively affected more hosts.
-To mitigate the impact, we removed the affected hosts from production traffic. The SSH regression has since been identified and resolved, with all SSH hosts fully restored. Additionally, we have implemented new monitoring to alert us of any SSH connection refusals moving forward.
-Sep 16, 14:27 UTC
-Update - We are no longer seeing dropped Git SSH connections and believe we have mitigated the incident.  We are continuing to monitor and investigate to prevent reoccurrence.
-Sep 16, 14:11 UTC
-Update - We have taken suspected hosts out of rotation and have not seen any impact in the last 20 minutes.  We are continuing to monitor to ensure the problem is resolved and are investigating the cause.
-Sep 16, 13:38 UTC
-Update - We are seeing up to 2% of Git SSH connections failing.
-We have taken suspected problematic hosts out of rotation and are monitoring for recovery and continuing to investigate.
-Sep 16, 13:30 UTC
-Update - We are investigating failed connections for Git SSH.  Customers may be experiencing failed SSH connections both in CI and interactively.  Retrying the connection may be successful.  Git HTTP connections appear to be unaffected.
-Sep 16, 13:29 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>

@@ -54,7 +54,28 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://status.twilio.com/incidents/pl2p07bjxzvy",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Oct 17, 01:00 - 03:00 PDT\nOct 16, 16:02 PDT\nScheduled - Our SMS and MMS carrier partner in the United States and Canada is conducting a planned maintenance from 17 October 2024 at 01:00 PDT until 17 October 2024 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from United States and Canada handsets.\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
+          "link": "https://status.twilio.com/incidents/pl2p07bjxzvy",
+          "publishedOn": "2024-10-17T08:00:00.000Z",
+          "wordCount": 7570,
+          "title": "Multiple Destination SMS and MMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/9y02mc5r0vcq",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Oct 16, 23:00 PDT  -  Oct 17, 05:00 PDT\nOct 15, 16:13 PDT\nScheduled - The Telefonica network in Mexico is conducting a planned maintenance from 16 October 2024 at 23:00 PDT until 17 October 2024 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Telefonica Mexico handsets.",
+          "link": "https://status.twilio.com/incidents/9y02mc5r0vcq",
+          "publishedOn": "2024-10-17T06:00:00.000Z",
+          "wordCount": 7523,
+          "title": "Mexico SMS Carrier Maintenance - Telefonica",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        }
+      ]
     },
     {
       "title": "DigitalOcean Status - Incident History",
@@ -502,10 +523,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/myvz2tsj2dh8",
           "author": null,
-          "description": "Oct 12, 01:11 UTC\nResolved - This incident has been resolved.\nOct 12, 00:46 UTC\nUpdate - We’re continuing to work towards recovery of code search service.\nOct 12, 00:14 UTC\nUpdate - We’ve identified the issue with code search and are working towards recovery of service.\nOct 11, 23:31 UTC\nUpdate - We’re continuing to investigate issues with code search.\nOct 11, 22:57 UTC\nUpdate - We’re continuing to investigate issues with code search. Copilot and Actions services are recovered and operating normally.\nOct 11, 22:16 UTC\nUpdate - Copilot is operating normally.\nOct 11, 22:14 UTC\nUpdate - We are rolling out a fix to address the network connectivity issues. Copilot is seeing recovery. support.github.com is recovered.\nOct 11, 21:46 UTC\nUpdate - Actions is operating normally.\nOct 11, 21:28 UTC\nUpd…",
+          "description": "Oct 12, 01:11 UTC\nResolved - On October 11, 2024, starting at 05:59 UTC, DNS infrastructure in one of our sites started to fail to resolve lookups following a database migration. Attempts to recover the database led to cascading failures that impacted the DNS systems for that site. The team worked to restore the infrastructure and there was no customer impact until 17:31 UTC. \nDuring the incident, impact to the following services could be observed:\n- Copilot: Degradation in IDE code completions for 4% of active users during the incident from 17:31 UTC to 21:45 UTC.\n- Actions: Workflow runs delay (25% of runs delayed by over 5 minutes) and errors (1%) between 20:28 UTC and 21:30 UTC. Errors while creating Artifact Attestations.\n- Customer migrations: From 18:16 UTC to 23:12 UTC running migr…",
           "link": "https://www.githubstatus.com/incidents/myvz2tsj2dh8",
           "publishedOn": "2024-10-12T01:11:28.000Z",
-          "wordCount": 5745,
+          "wordCount": 6117,
           "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -515,7 +536,7 @@
           "description": "Oct  8, 23:32 UTC\nResolved - This incident has been resolved.\nOct  8, 23:32 UTC\nUpdate - Codespaces is operating normally.\nOct  8, 23:32 UTC\nUpdate - Codespace creation has been remediated in this region.\nOct  8, 22:54 UTC\nUpdate - We are once again seeing signs of increased latency for codespace creation in this region, but are at the same time recovering previously unavailable resources.\nOct  8, 22:10 UTC\nUpdate - Recovery continues slowly, and we are investigating strategies to speed up the recovery process.\nOct  8, 21:39 UTC\nUpdate - We are continuing to see gradual recovery in the region and continue to validate the persistent fix.\nOct  8, 21:06 UTC\nUpdate - The persistent fix has been applied, and are beginning to see improvements in the region. We are still working on follow-on effects, however, and expect recovery to be gradual.\nOct  8, 20:26 UTC\nUpdate - We are nearing full application of the persistent fix and will provide more updates soon.\nOct  8, 19:51 UTC\nUpdate - Mitigations we have put in place are yielding improvements in Codespace creation success rates in the affected region. We expect full recovery once the persistent fix fully rolls out.\nOct  8, 19:17 UTC\nUpdate - We are continuing to work on mitigations while the more persistent fix rolls out.\nOct  8, 18:44 UTC\nUpdate - We are continuing to apply mitigations while we deploy the more persistent fix. Full recovery is expected in 2 hours or less, but more updates will be coming soon.\nOct  8, 18:08 UTC\nUpdate - We have applied some mitigations that are improving creation success rates while we work on the more comprehensive fix.\nOct  8, 17:43 UTC\nUpdate - We have identified a possible root cause and are working on the fix.\nOct  8, 17:11 UTC\nUpdate - Some Codespaces are failing to create successfully in the Western EU region. Investigating is ongoing.\nOct  8, 17:08 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nOct  8, 17:02 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/m17w6x7syhx0",
           "publishedOn": "2024-10-08T23:32:54.000Z",
-          "wordCount": 5650,
+          "wordCount": 5693,
           "title": "Isolated Codespaces creation failures in the West Europe region",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -525,7 +546,7 @@
           "description": "Sep 30, 11:26 UTC\nResolved - On September 30th, 2024 from 10:43 UTC to 11:26 UTC Codespaces customers in the Central India region were unable to create new Codespaces. Resumes were not impacted. Additionally, there was no impact to customers in other regions.\nThe cause was traced to storage capacity constraints in the region and was mitigated by temporarily redirecting create requests to other regions. Afterwards, additional storage capacity was added to the region and traffic was routed back. \nA bug was also identified that caused some available capacity to not be utilized, artificially constraining capacity and halting creations in the region prematurely. We have since fixed this bug as well, so that available capacity scales as expected according to our capacity planning projections.\nSep 30, 11:26 UTC\nUpdate - Codespaces is operating normally.\nSep 30, 11:25 UTC\nUpdate - We are seeing signs of recovery in Codespaces creations and starts. We are continuing to monitor for full recovery.\nSep 30, 11:24 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nSep 30, 11:09 UTC\nUpdate - We are investigating a high number of errors in Codespaces creation and start.\nSep 30, 11:08 UTC\nInvestigating - We are investigating reports of degraded availability for Codespaces",
           "link": "https://www.githubstatus.com/incidents/bdzwt47fwg51",
           "publishedOn": "2024-09-30T11:26:53.000Z",
-          "wordCount": 5472,
+          "wordCount": 5515,
           "title": "Incident with Codespaces",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -535,7 +556,7 @@
           "description": "Sep 27, 15:30 UTC\nResolved - Between September 27, 2024, 15:26 UTC and September 27, 2024, 15:34 UTC the Repositories Releases service was degraded. During this time 9% of requests to list releases via API or the webpage received a `500 Internal Server` error.\nThis was due to a bug in our software roll out strategy. The rollout was reverted starting at 15:30 UTC, which began to restore functionality. The rollback was completed at 15:34 UTC.\nWe are continuing to improve our testing infrastructure to ensure that bugs such as this one can be detected before they make their way into production.",
           "link": "https://www.githubstatus.com/incidents/wlb83pxg009y",
           "publishedOn": "2024-09-27T15:30:00.000Z",
-          "wordCount": 5356,
+          "wordCount": 5399,
           "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -545,7 +566,7 @@
           "description": "Sep 26, 05:08 UTC\nResolved - Between September 25, 2024, 22:20 UTC and September 26, 2024, 5:00 UTC the Copilot service was degraded. During this time Copilot chat requests failed at an average rate of 15%.\nThis was due to a faulty deployment in a service provider that caused server errors from multiple regions. Traffic was routed away from those regions at 22:28 UTC and 23:39 UTC, which partially restored functionality, while the upstream service provider rolled back their change. The rollback was completed at 04:41 UTC.\nWe are continuing to improve our ability to respond more quickly to similar issues through faster regional redirection and working with our upstream provider on improved monitoring.\n\nSep 26, 05:08 UTC\nUpdate - Monitors continue to see improvements. We are declaring full r…",
           "link": "https://www.githubstatus.com/incidents/zp4gzrqfzhrq",
           "publishedOn": "2024-09-26T05:08:45.000Z",
-          "wordCount": 5646,
+          "wordCount": 5689,
           "title": "Degraded performance for some Copilot users",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -555,7 +576,7 @@
           "description": "Sep 25, 19:19 UTC\nResolved - On September 25th, 2024 from 18:32 UTC to 19:13 UTC, Actions service experienced a degradation during a production deployment, leading to actions failing to be downloaded at the start of a job. On average, 21% of Actions workflow runs failed to start during the course of the incident. The issue was traced back to a bug in an internal service responsible for generating the URLs used by the Actions runner to download actions.\nTo mitigate the impact, we rolled back the affecting deployment. We are implementing new monitors to improve our detection and response time for this class of issues in the future.\nSep 25, 19:14 UTC\nUpdate - We're seeing issues related to Actions runs failing to download actions at the start of a job. We're investigating the cause and working on mitigations for customers impacted by this issue.\nSep 25, 19:11 UTC\nInvestigating - We are investigating reports of degraded performance for Actions and Pages",
           "link": "https://www.githubstatus.com/incidents/1g9v7rry4z86",
           "publishedOn": "2024-09-25T19:19:01.000Z",
-          "wordCount": 5425,
+          "wordCount": 5468,
           "title": "Incident with Actions Runs",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -565,7 +586,7 @@
           "description": "Sep 25, 16:03 UTC\nResolved - On September 25, 2024 from 14:31 UTC to 15:06 UTC the Git Operations service experienced a degradation, leading to 1,381,993 failed git operations. The overall error rate during this period was 4.2%, with a peak error rate of 12.5%. \nThe root cause was traced to a bug in a build script for a component that runs on the file servers that host git repository data. The build script incurred an error that did not cause the overall build process to fail, resulting in a faulty set of artifacts being deployed to production.\nTo mitigate the impact, we rolled back the affecting deployment.  \nTo prevent further occurrences of this cause in the future, we will be addressing the underlying cause of the ignored build failure and improving metrics and alerting for the resulting production failure scenarios.\nSep 25, 15:34 UTC\nUpdate - We are investigating reports of issues with both Actions and Packages, related to a brief period of time where specific Git Operations were failing. We will continue to keep users updated on progress towards mitigation.\nSep 25, 15:25 UTC\nInvestigating - We are investigating reports of degraded performance for Git Operations",
           "link": "https://www.githubstatus.com/incidents/q3xqwmcxzkqq",
           "publishedOn": "2024-09-25T16:03:30.000Z",
-          "wordCount": 5459,
+          "wordCount": 5502,
           "title": "Incident with Git Operations",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -575,28 +596,8 @@
           "description": "Sep 24, 21:04 UTC\nResolved - On September 24th, 2024 from 08:20 UTC to 09:04 UTC the Codespaces service experienced an interruption in network connectivity, leading to 175 codespaces being unable to be created or resumed. The overall error rate during this period was 25%. \nThe cause was traced to an interruption in network connectivity caused by SNAT port exhaustion following a deployment, causing individual Codespaces to lose their connection to the service.\nTo mitigate the impact, we increased port allocations to give enough buffer for increased outbound connections shortly after deployments, and will be scaling up our outbound connectivity in the near future, as well as adding improved monitoring of network capacity to prevent future regressions.\nSep 24, 21:04 UTC\nUpdate - Codespaces is operating normally.\nSep 24, 21:01 UTC\nUpdate - We have successfully mitigated the issue affecting create and resume requests for Codespaces. Early signs of recovery are being observed in the impacted region.\nSep 24, 21:00 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nSep 24, 20:56 UTC\nUpdate - We are investigating issues with Codespaces in the US East geographic area. Some users may not be able to create or start their Codespaces at this time. We will update you on mitigation progress.\nSep 24, 20:54 UTC\nInvestigating - We are investigating reports of degraded availability for Codespaces",
           "link": "https://www.githubstatus.com/incidents/2dxdzc3fdgdx",
           "publishedOn": "2024-09-24T21:04:59.000Z",
-          "wordCount": 5500,
+          "wordCount": 5543,
           "title": "Incident with Codespaces start and creation",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/69sb0f8lydp4",
-          "author": null,
-          "description": "Sep 16, 22:08 UTC\nResolved - On September 16, 2024, between 21:11 UTC and 22:20 UTC, Actions and Pages services were degraded. Customers who deploy Pages from a source branch experienced delayed runs. Approximately 1,100 runs were delayed long enough to get marked as abandoned. The runs that weren't abandoned completed successfully after we recovered from the incident. Actions jobs experienced average delays of 23 minutes, with some jobs experiencing delays as high as 45 minutes. During the course of the incident, 17% of runs were delayed by more than 5 minutes. At peak, as many as 80% of runs experienced delays exceeding 5 minutes. The root cause was a misconfiguration in the service that manages runner connections, which caused CPU throttling and led to a performance degradation in that service.\nWe mitigated the incident by diverting runner connections away from the misconfigured nodes. We are working to improve our internal monitoring and alerting to reduce our time to detection and mitigation of issues like this one in the future.\nSep 16, 21:55 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nSep 16, 21:53 UTC\nUpdate - The team is investigating issues with some Actions jobs being queued for a long time and a percentage of jobs failing. A mitigation has been applied and jobs are starting to recover.\nSep 16, 21:52 UTC\nUpdate - Pages is operating normally.\nSep 16, 21:37 UTC\nUpdate - Actions is experiencing degraded availability. We are continuing to investigate.\nSep 16, 21:31 UTC\nInvestigating - We are investigating reports of degraded performance for Actions and Pages",
-          "link": "https://www.githubstatus.com/incidents/69sb0f8lydp4",
-          "publishedOn": "2024-09-16T22:08:39.000Z",
-          "wordCount": 5538,
-          "title": "Incident with Pages and Actions",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/r3x7x31k7nn1",
-          "author": null,
-          "description": "Sep 16, 14:28 UTC\nResolved - On September 16, 2024, between 13:24 UTC and 14:28 UTC, the Git Operations service experienced a degradation, leading to intermittent SSH connection drops. The overall SSH error rate during this period was 0.0005%, with a peak error rate of 0.3%.\nThe root cause was traced to a regression in the service reload mechanism, which resulted in SSH hosts dropping connections on an hourly basis. As SSH hosts were rebooted for routine security updates, the issue progressively affected more hosts.\nTo mitigate the impact, we removed the affected hosts from production traffic. The SSH regression has since been identified and resolved, with all SSH hosts fully restored. Additionally, we have implemented new monitoring to alert us of any SSH connection refusals moving forward.\nSep 16, 14:27 UTC\nUpdate - We are no longer seeing dropped Git SSH connections and believe we have mitigated the incident.  We are continuing to monitor and investigate to prevent reoccurrence.\nSep 16, 14:11 UTC\nUpdate - We have taken suspected hosts out of rotation and have not seen any impact in the last 20 minutes.  We are continuing to monitor to ensure the problem is resolved and are investigating the cause.\nSep 16, 13:38 UTC\nUpdate - We are seeing up to 2% of Git SSH connections failing.\nWe have taken suspected problematic hosts out of rotation and are monitoring for recovery and continuing to investigate.\nSep 16, 13:30 UTC\nUpdate - We are investigating failed connections for Git SSH.  Customers may be experiencing failed SSH connections both in CI and interactively.  Retrying the connection may be successful.  Git HTTP connections appear to be unaffected.\nSep 16, 13:29 UTC\nInvestigating - We are currently investigating this issue.",
-          "link": "https://www.githubstatus.com/incidents/r3x7x31k7nn1",
-          "publishedOn": "2024-09-16T14:28:03.000Z",
-          "wordCount": 5547,
-          "title": "Disruption with Git SSH",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
