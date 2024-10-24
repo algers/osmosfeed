@@ -44,13 +44,44 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://status.twilio.com/incidents/cqrt84v1cmzw",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Oct 24, 04:00 - 08:00 PDT\nOct 15, 18:47 PDT\nUpdate - Our Voice carrier partner in Australia and New Zealand is conducting a planned maintenance from 24 October 2024 at 04:00 PDT until 24 October 2024 at 08:00 PDT. During the maintenance window, users could experience delay in call connections from and to Twilio Australia and New Zealand phone numbers.\nOct  8, 22:48 PDT\nScheduled - Our Voice carrier partner in Australia and New Zealand is conducting a planned maintenance from 17 October 2024 at 04:00 PDT until 17 October 2024 at 05:59 PDT. During the maintenance window, users could experience delay in call connections from and to Twilio Australia and New Zealand phone numbers.",
+          "link": "https://status.twilio.com/incidents/cqrt84v1cmzw",
+          "publishedOn": "2024-10-24T11:00:00.000Z",
+          "wordCount": 7573,
+          "title": "Multiple Destination Voice Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/550r9nymkspz",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Oct 23, 23:30 PDT  -  Oct 24, 07:00 PDT\nOct 23, 14:04 PDT\nScheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 23 October 2024 at 23:30 PDT until 24 October 2024 at 07:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.\n\nImpacted Product: Verify Silent Network Auth",
+          "link": "https://status.twilio.com/incidents/550r9nymkspz",
+          "publishedOn": "2024-10-24T06:30:00.000Z",
+          "wordCount": 7527,
+          "title": "United States Account Security Carrier Partner Maintenance - AT&T",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        }
+      ]
     },
     {
       "title": "DigitalOcean Status - Incident History",
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/pg1pt8nzx2ys",
+          "author": null,
+          "description": "Oct 23, 22:00 UTC\nResolved - From 20:10 - 21:24 UTC, we experienced an issue affecting the creation of Spaces Buckets across all regions, both through the Cloud Control Panel and the API. During this period, users may also have experienced errors in DOCR registry creations and App Platform application creations and deployments.\nOur Engineering team was able to take quick action to mitigate the impact and resolve the issue. All services are now functioning as expected. Thank you for your patience, and we apologize for any inconvenience. \nIf you continue to experience any issues, please open a Support ticket for further analysis.",
+          "link": "https://status.digitalocean.com/incidents/pg1pt8nzx2ys",
+          "publishedOn": "2024-10-23T22:00:11.000Z",
+          "wordCount": 6316,
+          "title": "Spaces Bucket/DOCR Creates and App Platform Deployments",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/jg6s5hl7w1w7",
           "author": null,
@@ -357,26 +388,6 @@
           "wordCount": 3389,
           "title": "Notion App Degraded Performance for Guests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/n2v78bnr3k8w",
-          "author": null,
-          "description": "Sep 23, 20:45 PDT\nResolved - The issue has now been resolved. Users will no longer receive unexpected notifications and emails regarding pages edited by \"Notion App\", which were erroneously triggered when the system automatically deleted a page from Trash after 30 days.\nSep 23, 17:52 PDT\nMonitoring - Our engineers have updated the affected services and as of 11 am (PDT), no emails of this type have been sent.\nWe are monitoring the situation to ensure this issue does not reoccur and will share further updates when this issue is definitively resolved.\nSep 23, 10:11 PDT\nInvestigating - Some users have received unexpected notifications regarding pages edited by \"Notion App\", triggered when the system automatically deletes a page from Trash after 30 days. For example, these notifications may be triggered on pages with a relation to the deleted page. We're investigating a fix to prevent these notifications from being sent.",
-          "link": "https://status.notion.so/incidents/n2v78bnr3k8w",
-          "publishedOn": "2024-09-24T03:45:20.000Z",
-          "wordCount": 3471,
-          "title": "Unexpected Notifications for Changes Made by \"Notion App\"",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/ddqwbw87r4b2",
-          "author": null,
-          "description": "Sep 23, 14:00 PDT\nResolved - We have rolled out a fix to resolve this issue. Workspace Owners on Enterprise plans should now be able to load Workspace Analytics.\nSep 23, 13:02 PDT\nIdentified - We have identified the issue and our engineering team is rolling out a fix for the issue.\nSep 23, 07:52 PDT\nInvestigating - Workspace Owners on our Enterprise plan may experience issues loading Workspace Analytics. We are currently investigating and will share updates as soon as possible.",
-          "link": "https://status.notion.so/incidents/ddqwbw87r4b2",
-          "publishedOn": "2024-09-23T21:00:17.000Z",
-          "wordCount": 3390,
-          "title": "Issue accessing Workspace Analytics",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -549,10 +560,10 @@
         {
           "id": "https://slack-status.com/2024-10/f7e1250f8d363122",
           "author": null,
-          "description": "We have confirmed the fix for this issue and user should no longer see this error. Thank you for your patience!",
+          "description": "On October 15, 2024, from 12:00 PM PDT to 2:33 PM PDT, some workflows that utilize incoming webhooks to send messages returned the error “team_not_found”, and the messages weren’t shared to the intended channel.\n\nWe traced the issue back to a recent code change related to ensuring webhooks and plugins work as expected. The change didn’t account for a variable, which triggered the error.\n\nOnce we reverted the change and rolled out a fix, the issue was resolved for all affected workflows.",
           "link": "https://slack-status.com/2024-10/f7e1250f8d363122",
-          "publishedOn": "2024-10-22T22:22:37.000Z",
-          "wordCount": 230,
+          "publishedOn": "2024-10-23T21:42:35.000Z",
+          "wordCount": 316,
           "title": "Incident: Some webhooks are returning `team_not_found`",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
@@ -624,16 +635,6 @@
           "publishedOn": "2024-10-01T02:43:19.000Z",
           "wordCount": 335,
           "title": "Incident: Trouble with some message or profile actions",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-09/f89363116705461f",
-          "author": null,
-          "description": "Issue summary: \nOn September 23, 2024 from 12:11 AM PDT to 9:04 AM PDT, some users may have experienced issues uploading to or deleting files in Slack. \n\nA backend job responsible for file management became overwhelmed, causing an unusual spike in error rates that affected the ability for users to manage their files.\n\nWe temporarily paused the job to allow pending items to finish processing. During this time, we also released an update to the backend logic to improve processing efficiency. Once the error rates normalized and the job returned to a stable state, we resumed the process, resolving the issue for all affected users.",
-          "link": "https://slack-status.com/2024-09/f89363116705461f",
-          "publishedOn": "2024-09-23T21:52:47.000Z",
-          "wordCount": 376,
-          "title": "Incident: Trouble uploading files to Slack",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]

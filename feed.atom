@@ -1,16 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-10-23T00:27:49.574Z</id>
+    <id>urn:2024-10-24T00:28:04.170Z</id>
     <title>osmos::feed</title>
-    <updated>2024-10-23T00:27:49.574Z</updated>
+    <updated>2024-10-24T00:28:04.170Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Multiple Destination Voice Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/cqrt84v1cmzw</id>
+        <link href="https://status.twilio.com/incidents/cqrt84v1cmzw"/>
+        <updated>2024-10-24T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 24, 04:00 - 08:00 PDT
+Oct 15, 18:47 PDT
+Update - Our Voice carrier partner in Australia and New Zealand is conducting a planned maintenance from 24 October 2024 at 04:00 PDT until 24 October 2024 at 08:00 PDT. During the maintenance window, users could experience delay in call connections from and to Twilio Australia and New Zealand phone numbers.
+Oct  8, 22:48 PDT
+Scheduled - Our Voice carrier partner in Australia and New Zealand is conducting a planned maintenance from 17 October 2024 at 04:00 PDT until 17 October 2024 at 05:59 PDT. During the maintenance window, users could experience delay in call connections from and to Twilio Australia and New Zealand phone numbers.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - AT&T]]></title>
+        <id>https://status.twilio.com/incidents/550r9nymkspz</id>
+        <link href="https://status.twilio.com/incidents/550r9nymkspz"/>
+        <updated>2024-10-24T06:30:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Oct 23, 23:30 PDT  -  Oct 24, 07:00 PDT
+Oct 23, 14:04 PDT
+Scheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 23 October 2024 at 23:30 PDT until 24 October 2024 at 07:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.
+
+Impacted Product: Verify Silent Network Auth]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spaces Bucket/DOCR Creates and App Platform Deployments]]></title>
+        <id>https://status.digitalocean.com/incidents/pg1pt8nzx2ys</id>
+        <link href="https://status.digitalocean.com/incidents/pg1pt8nzx2ys"/>
+        <updated>2024-10-23T22:00:11.000Z</updated>
+        <summary type="html"><![CDATA[Oct 23, 22:00 UTC
+Resolved - From 20:10 - 21:24 UTC, we experienced an issue affecting the creation of Spaces Buckets across all regions, both through the Cloud Control Panel and the API. During this period, users may also have experienced errors in DOCR registry creations and App Platform application creations and deployments.
+Our Engineering team was able to take quick action to mitigate the impact and resolve the issue. All services are now functioning as expected. Thank you for your patience, and we apologize for any inconvenience. 
+If you continue to experience any issues, please open a Support ticket for further analysis.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Some webhooks are returning `team_not_found`]]></title>
         <id>https://slack-status.com/2024-10/f7e1250f8d363122</id>
         <link href="https://slack-status.com/2024-10/f7e1250f8d363122"/>
-        <updated>2024-10-22T22:22:37.000Z</updated>
-        <summary type="html"><![CDATA[We have confirmed the fix for this issue and user should no longer see this error. Thank you for your patience!]]></summary>
+        <updated>2024-10-23T21:42:35.000Z</updated>
+        <summary type="html"><![CDATA[On October 15, 2024, from 12:00 PM PDT to 2:33 PM PDT, some workflows that utilize incoming webhooks to send messages returned the error “team_not_found”, and the messages weren’t shared to the intended channel.
+
+We traced the issue back to a recent code change related to ensuring webhooks and plugins work as expected. The change didn’t account for a variable, which triggered the error.
+
+Once we reverted the change and rolled out a fix, the issue was resolved for all affected workflows.]]></summary>
         <author>
             <name>Slack System Status</name>
         </author>
@@ -1314,52 +1359,6 @@ These upgrades are designed and tested to be seamless and we do not expect any i
 If you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/createticket/.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unexpected Notifications for Changes Made by "Notion App"]]></title>
-        <id>https://status.notion.so/incidents/n2v78bnr3k8w</id>
-        <link href="https://status.notion.so/incidents/n2v78bnr3k8w"/>
-        <updated>2024-09-24T03:45:20.000Z</updated>
-        <summary type="html"><![CDATA[Sep 23, 20:45 PDT
-Resolved - The issue has now been resolved. Users will no longer receive unexpected notifications and emails regarding pages edited by "Notion App", which were erroneously triggered when the system automatically deleted a page from Trash after 30 days.
-Sep 23, 17:52 PDT
-Monitoring - Our engineers have updated the affected services and as of 11 am (PDT), no emails of this type have been sent.
-We are monitoring the situation to ensure this issue does not reoccur and will share further updates when this issue is definitively resolved.
-Sep 23, 10:11 PDT
-Investigating - Some users have received unexpected notifications regarding pages edited by "Notion App", triggered when the system automatically deletes a page from Trash after 30 days. For example, these notifications may be triggered on pages with a relation to the deleted page. We're investigating a fix to prevent these notifications from being sent.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Trouble uploading files to Slack]]></title>
-        <id>https://slack-status.com/2024-09/f89363116705461f</id>
-        <link href="https://slack-status.com/2024-09/f89363116705461f"/>
-        <updated>2024-09-23T21:52:47.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary: 
-On September 23, 2024 from 12:11 AM PDT to 9:04 AM PDT, some users may have experienced issues uploading to or deleting files in Slack. 
-
-A backend job responsible for file management became overwhelmed, causing an unusual spike in error rates that affected the ability for users to manage their files.
-
-We temporarily paused the job to allow pending items to finish processing. During this time, we also released an update to the backend logic to improve processing efficiency. Once the error rates normalized and the job returned to a stable state, we resumed the process, resolving the issue for all affected users.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issue accessing Workspace Analytics]]></title>
-        <id>https://status.notion.so/incidents/ddqwbw87r4b2</id>
-        <link href="https://status.notion.so/incidents/ddqwbw87r4b2"/>
-        <updated>2024-09-23T21:00:17.000Z</updated>
-        <summary type="html"><![CDATA[Sep 23, 14:00 PDT
-Resolved - We have rolled out a fix to resolve this issue. Workspace Owners on Enterprise plans should now be able to load Workspace Analytics.
-Sep 23, 13:02 PDT
-Identified - We have identified the issue and our engineering team is rolling out a fix for the issue.
-Sep 23, 07:52 PDT
-Investigating - Workspace Owners on our Enterprise plan may experience issues loading Workspace Analytics. We are currently investigating and will share updates as soon as possible.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
         </author>
     </entry>
 </feed>
