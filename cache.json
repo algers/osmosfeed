@@ -46,23 +46,13 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/gzz6gq84pw0n",
+          "id": "https://status.twilio.com/incidents/sdrhy6m6x5db",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 26, 05:00 - 12:00 PDT\nSep 18, 15:44 PDT\nScheduled - Twilio is conducting planned maintenance from 26 October 05:00 until 26 October 12:00 PDT on the Twilio Network Exchange in Sydney, Australia (AU1). During the maintenance window there could be intermittent impact to services with Interconnects in AU1.",
-          "link": "https://status.twilio.com/incidents/gzz6gq84pw0n",
-          "publishedOn": "2024-10-26T12:00:00.000Z",
-          "wordCount": 7496,
-          "title": "Twilio Interconnect Maintenance (Australia)",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/xs6v67dq2q8j",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 26, 05:00 - 12:00 PDT\nSep 18, 15:44 PDT\nScheduled - Twilio is conducting a planned maintenance from 26 October 05:00 until 26 October 12:00 PDT on the Twilio network. During the maintenance window there could be intermittent impact on calls to and from Australia / New Zealand.",
-          "link": "https://status.twilio.com/incidents/xs6v67dq2q8j",
-          "publishedOn": "2024-10-26T12:00:00.000Z",
-          "wordCount": 7511,
-          "title": "Twilio Voice Maintenance (Australia)",
+          "description": "Oct 26, 17:25 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Claro Network in Brazil. This incident has been resolved.\nOct 26, 15:29 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Claro Network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nOct 26, 15:04 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Claro Network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/sdrhy6m6x5db",
+          "publishedOn": "2024-10-27T00:25:46.000Z",
+          "wordCount": 7602,
+          "title": "SMS Delivery Delays to Claro Network in Brazil via a Subset of Shortcodes",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -240,26 +230,6 @@
           "publishedOn": "2024-09-27T18:16:45.000Z",
           "wordCount": 6355,
           "title": "New Customer Sign Ups",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/r2dk8spt4xk9",
-          "author": null,
-          "description": "Sep 26, 20:43 UTC\nResolved - From 18:22 UTC to 19:13 UTC, users may have experienced issues or errors when attempting to create or modify DigitalOcean services deployed in the SYD1 region and also when attempting to create or manage Volumes globally.\n Our Engineering team has confirmed the full resolution of this issue. If you continue to experience problems, please open a ticket with our support team. Thank you for being so patient, and we apologize for any inconvenience.\nSep 26, 19:33 UTC\nMonitoring - Our Engineering team identified the issue and took quick action to mitigate the impact to the SYD1 control plane. Customers may have also encountered errors when attempting to create or manage Volumes globally during this time.\nCurrently, users should no longer experience issues or errors when attempting to create or modify DigitalOcean services deployed in the SYD1 region.\nWe are monitoring the situation closely and will post an update as soon as the issue is fully resolved.\nSep 26, 19:08 UTC\nInvestigating - As of 18:24 UTC, our Engineering team is investigating an issue impacting the control plane in the SYD1 region. At this time customers may encounter errors when attempting to create or modify DigitalOcean services deployed in the SYD1 region. Connectivity to existing services should not be impacted.\nThis is believed to be related to earlier network maintenance being carried out in the region: https://status.digitalocean.com/incidents/1sf8jl4s1sp4\nWe apologize for the inconvenience and will share an update once we have further information.",
-          "link": "https://status.digitalocean.com/incidents/r2dk8spt4xk9",
-          "publishedOn": "2024-09-26T20:43:01.000Z",
-          "wordCount": 6429,
-          "title": "Control Plane in SYD1",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/1sf8jl4s1sp4",
-          "author": null,
-          "description": "Sep 26, 19:00 UTC\nCompleted - The scheduled maintenance has been completed.\nSep 26, 16:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nSep 24, 16:08 UTC\nScheduled - Start: 2024-09-26 16:00 UTC\nEnd: 2024-09-26 19:00 UTC \nDuring the above window, we will be performing maintenance in our SYD1 region as part of network upgrades.\nExpected Impact:\nThese upgrades are designed and tested to be seamless, and we expect minimal impact on customer traffic during the maintenance. There could be a brief disruption in inbound and outbound connectivity, lasting approximately 30 seconds, for the affected Droplets and Droplet-based services in the region. We will make every effort to minimize any such impact\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket\nThank you,\nTeam DigitalOcean",
-          "link": "https://status.digitalocean.com/incidents/1sf8jl4s1sp4",
-          "publishedOn": "2024-09-26T19:00:02.000Z",
-          "wordCount": 6323,
-          "title": "SYD1 Network Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -702,16 +672,6 @@
           "publishedOn": "2024-09-30T15:29:14.000Z",
           "wordCount": 3927,
           "title": "Issues with Google Drive module",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/0q7q403gmt9c",
-          "author": null,
-          "description": "Sep 27, 09:47 CEST\nResolved - The issue was caused by a third-party vendor (Google API). It has been resolved as of 27th of September at 3:00 CEST. All services are now fully operational.\nSep 27, 02:42 CEST\nUpdate - Our engineers are still trying to resolve the issue with files uploading via the Google Drive module, which is not working properly in US zones. The team is investigating the issue and working to resolve it as quickly as possible. We will provide updates as soon as more information is available. Thank you for your patience.\nSep 27, 00:07 CEST\nInvestigating - We are currently experiencing an issue with the Google Drive (upload a file) module, which is not working properly in US zones. Our team is investigating the issue and working to resolve it as quickly as possible. We will provide updates as soon as more information is available. Thank you for your patience.",
-          "link": "https://status.make.com/incidents/0q7q403gmt9c",
-          "publishedOn": "2024-09-27T07:47:11.000Z",
-          "wordCount": 3980,
-          "title": "Google Drive (upload a file) returns error",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
