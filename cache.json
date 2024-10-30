@@ -29,6 +29,16 @@
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
         {
+          "id": "https://airbnbapi.statuspage.io/incidents/f4dfryj0vp72",
+          "author": null,
+          "description": "Oct 28, 18:01 PDT\nResolved - On October 28, between 9:30 AM and 3:00 PM (PDT), we experienced an issue with reservation webhook notifications. During this time, guest details, such as last names and phone numbers, were missing from some reservations. To retrieve the missing guest details, please use the GET reservations API. If the issue continues, please contact us through the Support Portal. \nWe apologize for any inconvenience this may have caused.",
+          "link": "https://airbnbapi.statuspage.io/incidents/f4dfryj0vp72",
+          "publishedOn": "2024-10-29T01:01:04.000Z",
+          "wordCount": 3881,
+          "title": "Webhooks missing guest last name",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://airbnbapi.statuspage.io/incidents/8bz6h0mfpqm2",
           "author": null,
           "description": "Oct 13, 20:20 PDT\nResolved - This incident has been resolved.\nOct 12, 16:01 PDT\nUpdate - All delayed message_added webhooks have been sent out by 3:05PM PST on Saturday, Oct 12. We will continue to monitor this.\nOct 12, 13:04 PDT\nMonitoring - We're currently investigating an issue that's causing errors delivering message_added webhooks.  A portion of message_added webhooks were not delivered from around 3AM PST on Friday, Oct 11. We've mitigated the issue at around 12PM PST on Saturday, Oct 12, and the delayed webhooks are being sent out.\nWe will continue to monitor this, and send out another update once all the delayed webhooks are sent out.",
@@ -46,23 +56,13 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/zc87ykl96528",
+          "id": "https://status.twilio.com/incidents/qkmz00frhxj4",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 28, 23:00 PDT  -  Oct 29, 03:00 PDT\nOct 22, 00:37 PDT\nScheduled - Our SMS carrier partner in the United States is conducting a planned maintenance from 28 October 2024 at 23:00 PDT until 29 October 2024 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from United States handsets via United States short codes.",
-          "link": "https://status.twilio.com/incidents/zc87ykl96528",
-          "publishedOn": "2024-10-29T06:00:00.000Z",
-          "wordCount": 7522,
-          "title": "United States SMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/dg62jbjw9j1q",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 28, 20:30 PDT  -  Oct 29, 02:30 PDT\nOct 25, 15:46 PDT\nScheduled - The T-Mobile network in the US is conducting a planned maintenance from 28 October 2024 at 20:30 PDT until 29 October 2024 at 02:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile US handsets.",
-          "link": "https://status.twilio.com/incidents/dg62jbjw9j1q",
-          "publishedOn": "2024-10-29T03:30:00.000Z",
-          "wordCount": 7546,
-          "title": "US SMS and MMS Carrier Maintenance - T-Mobile",
+          "description": "THIS IS A SCHEDULED EVENT Oct 30, 04:00 - 10:00 PDT\nOct 23, 16:48 PDT\nScheduled - Our Voice carrier partner in Australia and New Zealand is conducting a planned maintenance from 30 October 2024 at 04:00 PDT until 30 October 2024 at 10:00 PDT. During the maintenance window, users could experience delay in call connections from and to Twilio Australia and New Zealand phone numbers.",
+          "link": "https://status.twilio.com/incidents/qkmz00frhxj4",
+          "publishedOn": "2024-10-30T11:00:00.000Z",
+          "wordCount": 7516,
+          "title": "Multiple Destination Voice Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -72,6 +72,26 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/yjdjbm6z292p",
+          "author": null,
+          "description": "Oct 29, 14:00 UTC\nCompleted - The scheduled maintenance has been completed.\nOct 29, 13:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 23, 19:21 UTC\nScheduled - Start Time: Tuesday, Oct 29, 2024 at 13:00 UTC\nEnd Time: Tuesday, Oct 29, 2024 at 14:00 UTC\nDuring the above window, our Engineering team will perform maintenance on the authoritative DNS infrastructure in order to improve reliability of the service. During this operation, the IPv4 and IPv6 addresses of “ns1.digitalocean.com” will change. Customers do NOT need to take any action in preparation for this update.\nExpected Impact:\nThis update is designed to be seamless and we do not expect any impact to DNS queries made to customer domains hosted by DigitalOcean as a result of this maintenance. \nIf an unexpected issue arises, resolution of some records in zones hosted with DigitalOcean may experience increased latency or a brief disruption. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/.",
+          "link": "https://status.digitalocean.com/incidents/yjdjbm6z292p",
+          "publishedOn": "2024-10-29T14:00:04.000Z",
+          "wordCount": 6372,
+          "title": "Core Network Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/xd857x2skcb4",
+          "author": null,
+          "description": "Oct 29, 07:27 UTC\nResolved - From 01:56 to 06:36 UTC, our Engineering team observed an issue with Container Registry and App Platform builds in the BLR1 region.\nDuring this time, users may have experienced delays while building their Apps and could have potentially experienced timeout errors in builds as a result. Additionally, a subset of customers may have experienced latency while interacting with the Container Registries.\nOur Engineering team was able to take action to mitigate the impact and resolve the issue. All services are now functioning as expected. Thank you for your patience, and we apologize for any inconvenience.\nIf you have any questions or continue to experience issues, please reach out via a Support ticket on your account.",
+          "link": "https://status.digitalocean.com/incidents/xd857x2skcb4",
+          "publishedOn": "2024-10-29T07:27:23.000Z",
+          "wordCount": 6310,
+          "title": "Container Registry and App Platform in BLR1",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/9c2wbzt3lvms",
           "author": null,
@@ -399,16 +419,6 @@
           "wordCount": 5693,
           "title": "Isolated Codespaces creation failures in the West Europe region",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/bdzwt47fwg51",
-          "author": null,
-          "description": "Sep 30, 11:26 UTC\nResolved - On September 30th, 2024 from 10:43 UTC to 11:26 UTC Codespaces customers in the Central India region were unable to create new Codespaces. Resumes were not impacted. Additionally, there was no impact to customers in other regions.\nThe cause was traced to storage capacity constraints in the region and was mitigated by temporarily redirecting create requests to other regions. Afterwards, additional storage capacity was added to the region and traffic was routed back. \nA bug was also identified that caused some available capacity to not be utilized, artificially constraining capacity and halting creations in the region prematurely. We have since fixed this bug as well, so that available capacity scales as expected according to our capacity planning projections.\nSep 30, 11:26 UTC\nUpdate - Codespaces is operating normally.\nSep 30, 11:25 UTC\nUpdate - We are seeing signs of recovery in Codespaces creations and starts. We are continuing to monitor for full recovery.\nSep 30, 11:24 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nSep 30, 11:09 UTC\nUpdate - We are investigating a high number of errors in Codespaces creation and start.\nSep 30, 11:08 UTC\nInvestigating - We are investigating reports of degraded availability for Codespaces",
-          "link": "https://www.githubstatus.com/incidents/bdzwt47fwg51",
-          "publishedOn": "2024-09-30T11:26:53.000Z",
-          "wordCount": 5515,
-          "title": "Incident with Codespaces",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -417,6 +427,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://slack-status.com",
       "articles": [
+        {
+          "id": "https://slack-status.com/2024-10/5ce221ff74e5ac1e",
+          "author": null,
+          "description": "On Monday, October 28, 2024 around 2:29 PM PDT until 6:55 PM PDT, some users observed workflows containing steps that included some connectors such as Google Sheets, Slack lists, or Jira could not be saved.\n\nWe discovered there were missing components from a recent feature release causing the inability to save workflow steps. We adjusted the backend logic to include the missing components, restoring full functionality to affected workflow steps.",
+          "link": "https://slack-status.com/2024-10/5ce221ff74e5ac1e",
+          "publishedOn": "2024-10-29T23:29:42.000Z",
+          "wordCount": 329,
+          "title": "Incident: Some workflows are unable to be saved.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://slack-status.com/2024-10/e42692fbc77433ae",
           "author": null,
@@ -515,22 +535,52 @@
       "siteUrl": "https://status.make.com",
       "articles": [
         {
+          "id": "https://status.make.com/incidents/wc346m30t5p7",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Oct 30, 11:00 - 12:00 CET\nOct 21, 17:40 CEST\nUpdate - We will be undergoing scheduled maintenance during this time.\nOct 30, 11:00 CET\nScheduled - Dear customer,\nWe are writing to inform you about an upcoming Scheduled infrastructure maintenance on 30th Oct.\nThis maintenance will take place between 11:00-12:00. \nHow will this impact your workload?\nDuring this maintenance, occurring at the database level and lasting up to one minute, you can expect a slower scenario processing. Specifically, scenarios using a datastore module might see reduced performance which can cause its longer execution.\nWe will inform you once the maintenance is completed. \nIf you have any questions, please do not hesitate to reach out to our support team. \nThank you very much. \nKind regards, \nYour Make Team\n[Affected zones: \"us1.make.celonis.com\"]",
+          "link": "https://status.make.com/incidents/wc346m30t5p7",
+          "publishedOn": "2024-10-30T10:00:00.000Z",
+          "wordCount": 3933,
+          "title": "Scheduled infrastructure maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.make.com/incidents/f964kpg420br",
+          "author": null,
+          "description": "Oct 29, 21:57 CET\nCompleted - The scheduled maintenance has been completed.\nOct 29, 21:30 CET\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 21, 17:35 CEST\nScheduled - Dear customer,\nWe are writing to inform you about an upcoming Scheduled infrastructure maintenance on 29th Oct.\nThis maintenance will take place between 21:30-22:30. \nHow will this impact your workload?\nDuring this maintenance, occurring at the database level and lasting up to one minute, you can expect a slower scenario processing. Specifically, scenarios using a datastore module might see reduced performance which can cause its longer execution.\nWe will inform you once the maintenance is completed. \nIf you have any questions, please do not hesitate to reach out to our support team. \nThank you very much. \nKind regards, \nYour Make Team\n[Affected zones: \"eu1.make.com\"]",
+          "link": "https://status.make.com/incidents/f964kpg420br",
+          "publishedOn": "2024-10-29T20:57:30.000Z",
+          "wordCount": 3944,
+          "title": "Scheduled infrastructure maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.make.com/incidents/qkgdvlklrj0m",
+          "author": null,
+          "description": "Oct 29, 21:27 CET\nCompleted - The scheduled maintenance has been completed.\nOct 29, 21:00 CET\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 21, 17:36 CEST\nScheduled - Dear customer,\nWe are writing to inform you about an upcoming Scheduled infrastructure maintenance on 29th Oct.\nThis maintenance will take place between 21:00-22:00. \nHow will this impact your workload?\nDuring this maintenance, occurring at the database level and lasting up to one minute, you can expect a slower scenario processing. Specifically, scenarios using a datastore module might see reduced performance which can cause its longer execution.\nWe will inform you once the maintenance is completed. \nIf you have any questions, please do not hesitate to reach out to our support team. \nThank you very much. \nKind regards, \nYour Make Team\n[Affected zones: \"eu2.make.com\"]",
+          "link": "https://status.make.com/incidents/qkgdvlklrj0m",
+          "publishedOn": "2024-10-29T20:27:47.000Z",
+          "wordCount": 3944,
+          "title": "Scheduled infrastructure maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.make.com/incidents/hwqfflfvd5q7",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 29, 07:30 - 08:00 CET\nOct 21, 17:26 CEST\nScheduled - Dear customer,\nWe are writing to inform you about an upcoming Scheduled infrastructure maintenance on 29th Oct.\nThis maintenance will take place between 07:30-08:30. \nHow will this impact your workload?\nDuring this maintenance, occurring at the database level and lasting up to one minute, you can expect a slower scenario processing. Specifically, scenarios using a datastore module might see reduced performance which can cause its longer execution.\nWe will inform you once the maintenance is completed. \nIf you have any questions, please do not hesitate to reach out to our support team. \nThank you very much. \nKind regards, \nYour Make Team\n[Affected zones: \"us1.make.com]",
+          "description": "Oct 29, 08:00 CET\nCompleted - The scheduled maintenance has been completed.\nOct 29, 07:30 CET\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 21, 17:26 CEST\nScheduled - Dear customer,\nWe are writing to inform you about an upcoming Scheduled infrastructure maintenance on 29th Oct.\nThis maintenance will take place between 07:30-08:30. \nHow will this impact your workload?\nDuring this maintenance, occurring at the database level and lasting up to one minute, you can expect a slower scenario processing. Specifically, scenarios using a datastore module might see reduced performance which can cause its longer execution.\nWe will inform you once the maintenance is completed. \nIf you have any questions, please do not hesitate to reach out to our support team. \nThank you very much. \nKind regards, \nYour Make Team\n[Affected zones: \"us1.make.com]",
           "link": "https://status.make.com/incidents/hwqfflfvd5q7",
-          "publishedOn": "2024-10-29T06:30:00.000Z",
-          "wordCount": 3916,
+          "publishedOn": "2024-10-29T07:00:02.000Z",
+          "wordCount": 3944,
           "title": "Scheduled infrastructure maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.make.com/incidents/0rpbsdf5hc17",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 29, 07:00 - 08:00 CET\nOct 21, 17:33 CEST\nScheduled - Dear customer,\nWe are writing to inform you about an upcoming Scheduled infrastructure maintenance on 29th Oct.\nThis maintenance will take place between 07:00-08:00. \nHow will this impact your workload?\nDuring this maintenance, occurring at the database level and lasting up to one minute, you can expect a slower scenario processing. Specifically, scenarios using a datastore module might see reduced performance which can cause its longer execution.\nWe will inform you once the maintenance is completed. \nIf you have any questions, please do not hesitate to reach out to our support team. \nThank you very much. \nKind regards, \nYour Make Team\n[Affected zones: \"us2.make.com\"]",
+          "description": "Oct 29, 07:32 CET\nCompleted - The scheduled maintenance has been completed.\nOct 29, 07:00 CET\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 21, 17:33 CEST\nScheduled - Dear customer,\nWe are writing to inform you about an upcoming Scheduled infrastructure maintenance on 29th Oct.\nThis maintenance will take place between 07:00-08:00. \nHow will this impact your workload?\nDuring this maintenance, occurring at the database level and lasting up to one minute, you can expect a slower scenario processing. Specifically, scenarios using a datastore module might see reduced performance which can cause its longer execution.\nWe will inform you once the maintenance is completed. \nIf you have any questions, please do not hesitate to reach out to our support team. \nThank you very much. \nKind regards, \nYour Make Team\n[Affected zones: \"us2.make.com\"]",
           "link": "https://status.make.com/incidents/0rpbsdf5hc17",
-          "publishedOn": "2024-10-29T06:00:00.000Z",
-          "wordCount": 3916,
+          "publishedOn": "2024-10-29T06:32:16.000Z",
+          "wordCount": 3944,
           "title": "Scheduled infrastructure maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
