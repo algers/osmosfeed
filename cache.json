@@ -10,18 +10,7 @@
       "title": "Security Bulletins on Tailscale",
       "feedUrl": "https://tailscale.com/security-bulletins/index.xml",
       "siteUrl": "https://tailscale.com/security-bulletins/",
-      "articles": [
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2024-012",
-          "author": null,
-          "description": "Description: Tailscale Funnel abused for phishing\nWhat happened?\nA malicious user abused Tailscale Funnel to host a phishing page\ntargeting Facebook users. This user created multiple free Tailscale accounts to\nuse as an obfuscation/anonymity proxy for their VPS instance hosting the\nphishing page.\nWe received the first report about a phishing page on September 23rd, 2024, and\ntook down the Funnel page the same day. We received the second report on October\n1st, 2024, for the same phishing page on a different Tailscale account. We took\ndown the second page, added detection for new similar pages, and repeatedly\nshut down new attacker accounts as they were created. After a few more\nattempts, the attacker stopped creating new accounts.\nWho was affected?\n232 unique IP addresses accessed the attacker's Funnel nodes. Of those, 87 IP addresses made more\nthan one request, suggesting a possible phishing form submission.\nWhat was the impact?\nSome Facebook users could have been phished for their credentials. Since\nTailscale Funnel proxies can only see encrypted TLS traffic, we cannot confirm\nwhether anyone was successfully phished.\nWhat do I need to do?\nDon't use Tailscale Funnel for phishing.",
-          "link": "https://tailscale.com/security-bulletins/#ts-2024-012",
-          "publishedOn": "2024-10-02T00:00:00.000Z",
-          "wordCount": 15953,
-          "title": "TS-2024-012",
-          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Airbnb API Status - Incident History",
@@ -56,73 +45,43 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/185rm01sqh2y",
+          "id": "https://status.twilio.com/incidents/2t6n5n1hcs84",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 31, 03:00 - 09:00 PDT\nOct 17, 11:53 PDT\nScheduled - Our SMS carrier partner in the United States is conducting a planned maintenance from 31 October 2024 at 03:00 PDT until 31 October 2024 at 09:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to United States handsets via subset of United States long codes.",
-          "link": "https://status.twilio.com/incidents/185rm01sqh2y",
-          "publishedOn": "2024-10-31T10:00:00.000Z",
-          "wordCount": 7519,
-          "title": "United States SMS Carrier Partner Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Oct 31, 21:00 PDT  -  Nov 6, 03:00 PST\nOct 28, 15:49 PDT\nScheduled - The Freedom Mobile network in Canada is conducting a planned maintenance from 31 October 2024 at 21:00 PDT until 06 November 2024 at 03:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Freedom Mobile Canada handsets.",
+          "link": "https://status.twilio.com/incidents/2t6n5n1hcs84",
+          "publishedOn": "2024-11-01T04:00:00.000Z",
+          "wordCount": 7528,
+          "title": "Canada SMS Carrier Maintenance - Freedom Mobile",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/v1shl5w9vxjh",
+          "id": "https://status.twilio.com/incidents/658fg236hl9z",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 30, 21:30 - 22:30 PDT\nOct 29, 06:50 PDT\nScheduled - The MTS network in Russia is conducting a planned maintenance from 30 October 2024 at 21:30 PDT until 30 October 2024 at 22:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to MTS Russia handsets.",
-          "link": "https://status.twilio.com/incidents/v1shl5w9vxjh",
-          "publishedOn": "2024-10-31T04:30:00.000Z",
-          "wordCount": 7506,
-          "title": "Russia SMS Carrier Maintenance - MTS",
+          "description": "Oct 31, 17:22 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to Surf Telecom in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nOct 31, 16:22 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Surf Telecom in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nOct 31, 16:06 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS Delivery Delays to Surf Telecom in Brazil. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/658fg236hl9z",
+          "publishedOn": "2024-11-01T00:22:11.000Z",
+          "wordCount": 7606,
+          "title": "SMS Delivery Delays to Surf Telecom in Brazil",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/tc52kygydp9q",
+          "id": "https://status.twilio.com/incidents/634394k32xhw",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 30, 21:00 PDT  -  Oct 31, 02:00 PDT\nOct 29, 23:39 PDT\nScheduled - Our SMS carrier partner in the United States is conducting a planned maintenance from 30 October 2024 at 21:00 PDT until 31 October 2024 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Verizon United States handsets via United States short codes.\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
-          "link": "https://status.twilio.com/incidents/tc52kygydp9q",
-          "publishedOn": "2024-10-31T04:00:00.000Z",
-          "wordCount": 7542,
-          "title": "United States SMS Carrier Partner Maintenance",
+          "description": "Oct 31, 15:57 PDT\nResolved - We are no longer experiencing SMS delivery report delays to Globe Network in Philippines. This incident has been resolved.\nOct 31, 14:05 PDT\nMonitoring - We are observing recovery in delivery report delays to Globe Network in Philippines. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nOct 31, 10:05 PDT\nUpdate - We continue to investigate the SMS Delivery Report Delays to Globe Network in Philippines. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available\nOct 31, 07:44 PDT\nInvestigating - We continue to investigate the SMS Delivery Report Delays to Globe Network in Philippines. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available\nOct 31, 05:56 PDT\nMonitoring - We are observing recovery in SMS Delivery Report Delays to Globe Network in Philippines. . We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nOct 31, 04:39 PDT\nUpdate - We continue to investigate the SMS Delivery Report Delays to Globe Network in Philippines. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available\nOct 31, 03:40 PDT\nInvestigating - We are experiencing SMS Delivery Report Delays to Globe Network in Philippines. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/634394k32xhw",
+          "publishedOn": "2024-10-31T22:57:11.000Z",
+          "wordCount": 7782,
+          "title": "SMS Delivery Report Delays To Globe Network In Philippines",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/qn2x2hq2m3hw",
+          "id": "https://status.twilio.com/incidents/khngz8lkplzk",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 30, 20:00 PDT  -  Oct 31, 02:00 PDT\nOct 28, 06:18 PDT\nScheduled - The AT&T network in the United States is conducting a planned maintenance from 30 October 2024 at 20:00 PDT until 31 October 2024 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T United States handsets.",
-          "link": "https://status.twilio.com/incidents/qn2x2hq2m3hw",
-          "publishedOn": "2024-10-31T03:00:00.000Z",
-          "wordCount": 7529,
-          "title": "United States SMS Carrier Maintenance - AT&T",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/pkk2028zw9f8",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 30, 20:00 PDT  -  Oct 31, 00:00 PDT\nSep 28, 11:38 PDT\nScheduled - Our SMS and MMS carrier partner in US and Canada is conducting a planned maintenance from 30 October 2024 at 20:00 PDT until 31 October 2024 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets.",
-          "link": "https://status.twilio.com/incidents/pkk2028zw9f8",
-          "publishedOn": "2024-10-31T03:00:00.000Z",
-          "wordCount": 7554,
-          "title": "US and Canada SMS and MMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/81sgffxx87cz",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Oct 30, 19:00 PDT  -  Oct 31, 03:00 PDT\nSep 23, 22:00 PDT\nScheduled - Our service partner is conducting a planned maintenance from 30 October 2024 at 19:00 PDT until 31 October 2024 at 03:00 PDT. During the maintenance window, there could be intermittent API request failures for the following carriers and country: AT&T Mobility United States, Sprint United States, T-Mobile United States, Verizon Wireless United States.\n\nImpacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes",
-          "link": "https://status.twilio.com/incidents/81sgffxx87cz",
-          "publishedOn": "2024-10-31T02:00:00.000Z",
-          "wordCount": 7537,
-          "title": "United States Account Security Service Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/l3dqqxd5q2qy",
-          "author": null,
-          "description": "Oct 30, 17:21 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Irancell And Rightel Network in Iran. This incident has been resolved.\nOct 30, 17:14 PDT\nUpdate - We are observing recovery in SMS delivery delays when sending messages to Irancell And Rightel Network in Iran. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nOct 30, 15:15 PDT\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Irancell And Rightel Network in Iran. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nOct 30, 07:23 PDT\nUpdate - We continue to investigate SMS delivery delays when sending messages to Irancell And Rightel Network in Iran. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nOct 30, 03:18 PDT\nUpdate - We continue to investigate SMS delivery delays when sending messages to Irancell And Rightel Network in Iran. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nOct 30, 01:24 PDT\nUpdate - We continue to investigate SMS delivery delays when sending messages to Irancell And Rightel Network in Iran. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nOct 30, 00:23 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Irancell And Rightel Network in Iran. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/l3dqqxd5q2qy",
-          "publishedOn": "2024-10-31T00:21:12.000Z",
-          "wordCount": 7810,
-          "title": "SMS Delivery Delay To Irancell And Rightel Network In Iran",
+          "description": "Oct 31, 15:54 PDT\nResolved - We are no longer experiencing SMS Delivery Report Delays to Multiple Networks in United States of America via Subset of Shortcodes. This incident has been resolved.\nOct 31, 14:01 PDT\nMonitoring - We are observing recovery in delivery report delays when sending messages to US Cellular Network in the United States via a subset of Shortcodes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nOct 31, 12:27 PDT\nUpdate - We are still experiencing SMS delivery report delays when sending messages to US Cellular Network in the United States via a subset of short codes. Our engineers continue to work with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nOct 31, 10:19 PDT\nUpdate - We continue experiencing SMS delivery report delays when sending messages to US Cellular Network in the United States via a subset of short codes. Our engineers continue to work with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nOct 31, 09:34 PDT\nUpdate - We are experiencing SMS delivery report delays when sending messages to US Cellular Network in the United States via a subset of short codes. Our engineers continue to work with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.\nOct 31, 09:25 PDT\nInvestigating - We are experiencing SMS delivery failures when sending messages to US Cellular Network in the United States via a subset of short codes. Our engineers continue to work with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/khngz8lkplzk",
+          "publishedOn": "2024-10-31T22:54:02.000Z",
+          "wordCount": 7824,
+          "title": "SMS Delivery Report Delays to Multiple Networks in United States of America via Subset of Shortcodes",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -132,6 +91,26 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/pzs9xzm596jm",
+          "author": null,
+          "description": "Oct 31, 20:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 29, 12:04 UTC\nScheduled - Start: 2024-10-31 20:00 UTC\nEnd: 2024-11-01 06:00 UTC\nDuring the above window, our Engineering team will be performing maintenance on redundant upstream electrical systems in order to improve reliability in our AMS3 region.\nExpected Impact:\nWe don’t expect to see any downtime as the power to hypervisors is redundant. In a highly unlikely situation, where we lose power to both the supplies, the impacted Droplet(s) may experience downtime for a brief period. We will endeavor to keep this to a minimum for the duration of the change.\n\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
+          "link": "https://status.digitalocean.com/incidents/pzs9xzm596jm",
+          "publishedOn": "2024-10-31T20:00:02.000Z",
+          "wordCount": 6314,
+          "title": "AMS3 Power Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/hd5d2v7mb7v9",
+          "author": null,
+          "description": "Oct 31, 18:56 UTC\nResolved - From 10:30 UTC to 18:04 UTC, users may have experienced delays when adding new nodes to the Cluster or reconciling the Kubernetes Clusters.\nOur Engineering team has confirmed the full resolution of the issue. Users should now be able to add new nodes or reconcile Kubernetes Clusters without any delays.\nIf you continue to experience problems, please open a ticket with our support team from within your Cloud Control Panel.\nOct 31, 18:04 UTC\nMonitoring - Our Engineering team has confirmed that some backend changes caused this issue and as of now, there are no delays observed when reconciling or adding new nodes to the Clusters. At this time, users should be able to add new nodes or reconcile their Clusters without any delay.\nWe are monitoring the situation closely and will post an update as soon as we confirm the issue is fully resolved.\nOct 31, 17:17 UTC\nIdentified - Our Engineering team has identified the cause of the issue and is working on implementing a fix to make sure no delays are observed when reconciling the Kubernetes Clusters. \nWe apologize for the inconvenience and will post an update as soon as additional information is available.\nOct 31, 16:59 UTC\nInvestigating - Our Engineering team is currently investigating issues with Managed Kubernetes clusters. During this time, some users may experience delays when reconciling or adding nodes to their Kubernetes clusters. \nWe apologize for the inconvenience and will provide an update as soon as we have more information.",
+          "link": "https://status.digitalocean.com/incidents/hd5d2v7mb7v9",
+          "publishedOn": "2024-10-31T18:56:59.000Z",
+          "wordCount": 6439,
+          "title": "Delays Reconciling Kubernetes Clusters",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/6wn47fctrm24",
           "author": null,
@@ -405,16 +384,6 @@
           "wordCount": 5311,
           "title": "Issues accessing Rippling",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
-        },
-        {
-          "id": "https://status.rippling.com/incidents/d8jjm05qhhjz",
-          "author": null,
-          "description": "Oct  1, 15:00 UTC\nResolved - This issue has been resolved.\nOct  1, 14:50 UTC\nMonitoring - A fix has been implemented and we're monitoring the results.\nOct  1, 14:00 UTC\nInvestigating - The Rippling app and backend is experiencing increased latency. Our team is investigating.",
-          "link": "https://status.rippling.com/incidents/d8jjm05qhhjz",
-          "publishedOn": "2024-10-01T15:00:25.000Z",
-          "wordCount": 5299,
-          "title": "The Rippling app and backend is experiencing increased latency",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
         }
       ]
     },
@@ -426,51 +395,21 @@
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/MUomphETLLW7et9VPTYa",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-10-30 12:30</strong> and ended at <strong>2024-10-30 18:46</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The issue with Gmail has been resolved for all affected users as of Wednesday, 2024-10-30 11:46 US/Pacific.</p>\n<p>We will publish an analysis of this incident once we have completed our internal investigation.</p>\n<p>We thank you for your patience while we worked on resolving the issue.</p>\n</div><hr><p>Affected products: Gmail</p>",
+          "description": "<p> Incident began at <strong>2024-10-30 12:30</strong> and ended at <strong>2024-10-30 18:46</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><h1>Mini Incident Report</h1>\n<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href=\"https://support.google.com/a/answer/1047213\">https://support.google.com/a/answer/1047213</a>.</p>\n<p>(All Times US/Pacific)</p>\n<p><strong>Incident Start:</strong> 29 October, 2024 13:00</p>\n<p><strong>Incident End:</strong> 30 October, 2024 11:46</p>\n<p><strong>Duration:</strong> 22 hours, 46 minutes</p>\n<p><strong>Affected Services and Features:</strong></p>\n<p>Gmail</p>\n<p><strong>Regions/Zones:</strong> Global</p>\n<p><strong>Description:</strong></p>\n<p>Gmail users experienced latency, unresponsiveness, and inability to load the Web UI for a duration of 22 hours, 46 minutes. From preliminary analysis, the root cause of the issue was an incompatibility with a third-party add-on following an update to Gmail front end servers.</p>\n<p><strong>Customer Impact:</strong></p>\n<p>Customers using the Gmail Web UI may have experienced increased latency or unresponsiveness when also using certain 3rd party addons.</p>\n<p><strong>Additional details:</strong></p>\n<p>This issue only affected the Gmail Web UI. Gmail iOS/Android apps could be used as a workaround.</p>\n<p>Engineers mitigated the issue by rolling back the recent update to Gmail front end servers.</p>\n</div><hr><p>Affected products: Gmail</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/MUomphETLLW7et9VPTYa",
-          "publishedOn": "2024-10-30T19:00:28.000Z",
-          "wordCount": 370,
+          "publishedOn": "2024-10-31T14:49:12.000Z",
+          "wordCount": 576,
           "title": "RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.",
           "imageUrl": null
         },
         {
           "id": "https://www.google.com/appsstatus/dashboard/incidents/MUomphETLLW7et9VPTYa",
           "author": null,
-          "description": "<p> Incident began at <strong>2024-10-30 12:30</strong> and ended at <strong>2024-10-30 18:46</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Gmail users may experience slowness in Gmail UI, including lag and non-responsiveness during loading and sending operations.</p>\n<p>We are experiencing an issue with Gmail beginning at Wednesday, 2024-10-30 05:30 US/Pacific.</p>\n<p>Our engineering team continues to investigate the issue. We will provide an update by Wednesday, 2024-10-30 12:30 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption.</p>\n</div><hr><p>Affected products: Gmail</p>",
+          "description": "<p> Incident began at <strong>2024-10-30 12:30</strong> and ended at <strong>2024-10-30 18:46</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The issue with Gmail has been resolved for all affected users as of Wednesday, 2024-10-30 11:46 US/Pacific.</p>\n<p>We will publish an analysis of this incident once we have completed our internal investigation.</p>\n<p>We thank you for your patience while we worked on resolving the issue.</p>\n</div><hr><p>Affected products: Gmail</p>",
           "link": "https://www.google.com/appsstatus/dashboard/incidents/MUomphETLLW7et9VPTYa",
-          "publishedOn": "2024-10-30T19:00:21.000Z",
-          "wordCount": 370,
+          "publishedOn": "2024-10-31T14:49:11.000Z",
+          "wordCount": 576,
           "title": "UPDATE: We're investigating reports of an issue with Gmail. We will provide more information shortly.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/MUomphETLLW7et9VPTYa",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-10-30 12:30</strong> and ended at <strong>2024-10-30 18:46</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  We're investigating reports of an issue with Gmail. We will provide more information shortly.  </span><div> <p>Gmail users may experience slowness in Gmail UI, including lag and non-responsiveness during loading and sending operations.</p>\n  </div></div><hr><p>Affected products: Gmail</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/MUomphETLLW7et9VPTYa",
-          "publishedOn": "2024-10-30T17:20:16.000Z",
-          "wordCount": 370,
-          "title": "UPDATE: We're investigating reports of an issue with Gmail. We will provide more information shortly.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/Pyk5VPCaY9XmmTRqTiEV",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-10-30 09:46</strong> and ended at <strong>2024-10-30 11:08</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  The problem with Gemini has been resolved. We apologize for the inconvenience and thank you for your patience and continued support.  </span></div><hr><p>Affected products: Gemini</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/Pyk5VPCaY9XmmTRqTiEV",
-          "publishedOn": "2024-10-30T11:23:03.000Z",
-          "wordCount": 424,
-          "title": "RESOLVED: **Summary:**\nGemini might be unavailable in France due to \"\"Gemini isn’t currently supported in your country. Stay tuned!\"\" message.\n**Description:**\nWe are experiencing an issue with Gemini. Mitigation work is now underway by our engineering team. We will provide an update by Wednesday, 2024-10-30 05:00 US/Pacific with current details. We apologize to all who are affected by the disruption.\n**Diagnosis:**\nCustomers accessing gemini.google.com in France might see \"Gemini isn’t currently supported in your country. Stay tuned!\" message.\nGemini functionalities such as \"Help me write\" in other Google Workspace products work properly.\n**Workaround:**\nNone right now.",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/Pyk5VPCaY9XmmTRqTiEV",
-          "author": null,
-          "description": "<p> Incident began at <strong>2024-10-30 09:46</strong> and ended at <strong>2024-10-30 11:08</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Gemini might be unavailable in France due to &#34;&#34;Gemini isn’t currently supported in your country. Stay tuned!&#34;&#34; message.</p>\n<p><strong>Description:</strong></p>\n<p>We are experiencing an issue with Gemini. Mitigation work is now underway by our engineering team. We will provide an update by Wednesday, 2024-10-30 05:00 US/Pacific with current details. We apologize to all who are affected by the disruption.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Customers accessing gemini.google.com in France might see &#34;Gemini isn’t currently supported in your country. Stay tuned!&#34; message.\nGemini functionalities such as &#34;Help me write&#34; in other Google Workspace products work properly.</p>\n<p><strong>Workaround:</strong></p>\n<p>None right now.</p>\n</div><hr><p>Affected products: Gemini</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/Pyk5VPCaY9XmmTRqTiEV",
-          "publishedOn": "2024-10-30T11:22:48.000Z",
-          "wordCount": 424,
-          "title": "UPDATE: **Summary:**\nGemini might be unavailable in France due to \"\"Gemini isn’t currently supported in your country. Stay tuned!\"\" message.\n**Description:**\nWe are experiencing an issue with Gemini. Mitigation work is now underway by our engineering team. We will provide an update by Wednesday, 2024-10-30 05:00 US/Pacific with current details. We apologize to all who are affected by the disruption.\n**Diagnosis:**\nCustomers accessing gemini.google.com in France might see \"Gemini isn’t currently supported in your country. Stay tuned!\" message.\nGemini functionalities such as \"Help me write\" in other Google Workspace products work properly.\n**Workaround:**\nNone right now.",
           "imageUrl": null
         }
       ]
@@ -486,7 +425,7 @@
           "description": "Oct 30, 09:42 UTC\nResolved - On October 30, 2024, between 5:45 and 9:42 UTC, the Actions service was degraded, causing run delays. On average, Actions workflow run, job, and step updates were delayed as much as one hour. The delays were caused by updates in a dependent service that led to failures in Redis connectivity. Delays recovered once the Redis cluster connectivity was restored at 8:16 UTC. The incident was fully mitigated once the job queue had processed by 9:24 UTC. This incident followed an earlier short period of impact on hosted runners due to a similar issue, which was mitigated by failing over to a healthy cluster.\nFrom this, we are working to improve our observability across Redis clusters to reduce our time to detection and mitigation of issues like this one in the future where multiple clusters and services were impacted.  We will also be working to reduce the time to mitigate and improve general resilience to this dependency.\nOct 30, 08:48 UTC\nUpdate - We are continuing to investigate delays to status updates to Actions Workflow Runs, Workflow Job Runs, and Check Steps. Customers may see that their Actions workflows have completed, but the run appears to be waiting for its status to update. We will continue providing updates on the progress towards mitigation.\nOct 30, 08:05 UTC\nUpdate - We have identified connectivity issues with an internal service causing delays in Actions Workflow Runs, Workflow Job Runs, and Check Steps. We are continuing to investigate.\nOct 30, 07:25 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
           "link": "https://www.githubstatus.com/incidents/9yk1fbk0qjjc",
           "publishedOn": "2024-10-30T09:42:30.000Z",
-          "wordCount": 5567,
+          "wordCount": 5579,
           "title": "Incident with Actions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -496,7 +435,7 @@
           "description": "Oct 24, 06:55 UTC\nResolved - On Oct 24 2024 at 06:55 UTC, a syntactically correct, but invalid discussion template YAML config file was committed in the community/community repository. This caused all users of that repository who tried to access a discussion template or attempted to create a discussion to receive a 500 error response.\nWe mitigated the incident by manually reverting the invalid template changes.\nWe are adding support to detect and prevent invalid discussion template YAML from causing user-facing errors in the future.\nOct 24, 06:13 UTC\nUpdate - We are aware of an issue that is preventing users from creating new posts in Community Discussions (community.github.com). Users may see a 500 error when they attempt to post a new discussion. We are currently working to resolve.\nOct 24, 06:12 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/xy3hrpmg4r3k",
           "publishedOn": "2024-10-24T06:55:06.000Z",
-          "wordCount": 5442,
+          "wordCount": 5454,
           "title": "Incident with GitHub Community Discussions",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -506,7 +445,7 @@
           "description": "Oct 12, 01:11 UTC\nResolved - On October 11, 2024, starting at 05:59 UTC, DNS infrastructure in one of our sites started to fail to resolve lookups following a database migration. Attempts to recover the database led to cascading failures that impacted the DNS systems for that site. The team worked to restore the infrastructure and there was no customer impact until 17:31 UTC. \nDuring the incident, impact to the following services could be observed:\n- Copilot: Degradation in IDE code completions for 4% of active users during the incident from 17:31 UTC to 21:45 UTC.\n- Actions: Workflow runs delay (25% of runs delayed by over 5 minutes) and errors (1%) between 20:28 UTC and 21:30 UTC. Errors while creating Artifact Attestations.\n- Customer migrations: From 18:16 UTC to 23:12 UTC running migr…",
           "link": "https://www.githubstatus.com/incidents/myvz2tsj2dh8",
           "publishedOn": "2024-10-12T01:11:28.000Z",
-          "wordCount": 6117,
+          "wordCount": 6129,
           "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -516,7 +455,7 @@
           "description": "Oct  8, 23:32 UTC\nResolved - This incident has been resolved.\nOct  8, 23:32 UTC\nUpdate - Codespaces is operating normally.\nOct  8, 23:32 UTC\nUpdate - Codespace creation has been remediated in this region.\nOct  8, 22:54 UTC\nUpdate - We are once again seeing signs of increased latency for codespace creation in this region, but are at the same time recovering previously unavailable resources.\nOct  8, 22:10 UTC\nUpdate - Recovery continues slowly, and we are investigating strategies to speed up the recovery process.\nOct  8, 21:39 UTC\nUpdate - We are continuing to see gradual recovery in the region and continue to validate the persistent fix.\nOct  8, 21:06 UTC\nUpdate - The persistent fix has been applied, and are beginning to see improvements in the region. We are still working on follow-on effects, however, and expect recovery to be gradual.\nOct  8, 20:26 UTC\nUpdate - We are nearing full application of the persistent fix and will provide more updates soon.\nOct  8, 19:51 UTC\nUpdate - Mitigations we have put in place are yielding improvements in Codespace creation success rates in the affected region. We expect full recovery once the persistent fix fully rolls out.\nOct  8, 19:17 UTC\nUpdate - We are continuing to work on mitigations while the more persistent fix rolls out.\nOct  8, 18:44 UTC\nUpdate - We are continuing to apply mitigations while we deploy the more persistent fix. Full recovery is expected in 2 hours or less, but more updates will be coming soon.\nOct  8, 18:08 UTC\nUpdate - We have applied some mitigations that are improving creation success rates while we work on the more comprehensive fix.\nOct  8, 17:43 UTC\nUpdate - We have identified a possible root cause and are working on the fix.\nOct  8, 17:11 UTC\nUpdate - Some Codespaces are failing to create successfully in the Western EU region. Investigating is ongoing.\nOct  8, 17:08 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nOct  8, 17:02 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/m17w6x7syhx0",
           "publishedOn": "2024-10-08T23:32:54.000Z",
-          "wordCount": 5693,
+          "wordCount": 5705,
           "title": "Isolated Codespaces creation failures in the West Europe region",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
@@ -530,10 +469,10 @@
         {
           "id": "https://slack-status.com/2024-10/dda10e99c74751ac",
           "author": null,
-          "description": "The connectivity issue that some users experienced is now resolved. We apologize for any disruptions to your day.",
+          "description": "From approximately 4:11 PM PDT to 4:13 PM PDT on Wednesday, October 30, 2024, some users experienced issues with essential functions like loading, connecting, and sending messages in Slack.\n\nA recent backend change was intended to improve traffic and error handling. However, an unexpected configuration change during the rollout led to a temporary spike in connection errors.\n\nWe observed automatic recovery from the configuration change, which restored functionality to affected users. However, we reverted the problematic code that initially caused the issue.",
           "link": "https://slack-status.com/2024-10/dda10e99c74751ac",
-          "publishedOn": "2024-10-30T23:40:02.000Z",
-          "wordCount": 188,
+          "publishedOn": "2024-10-31T20:22:15.000Z",
+          "wordCount": 274,
           "title": "Incident: Connectivity issues in Slack",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
