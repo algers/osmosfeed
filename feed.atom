@@ -1,43 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-11-04T00:29:45.750Z</id>
+    <id>urn:2024-11-05T00:27:45.624Z</id>
     <title>osmos::feed</title>
-    <updated>2024-11-04T00:29:45.750Z</updated>
+    <updated>2024-11-05T00:27:45.624Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[United States SMS Carrier Maintenance - AT&T]]></title>
-        <id>https://status.twilio.com/incidents/wd70x72cn22f</id>
-        <link href="https://status.twilio.com/incidents/wd70x72cn22f"/>
-        <updated>2024-11-04T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Nov 3, 19:00 PST  -  Nov 4, 02:00 PST
-Nov  2, 10:38 PDT
-Scheduled - The AT&T network in the United States is conducting a planned maintenance from 03 November 2024 at 19:00 PST until 04 November 2024 at 02:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T United States handsets.]]></summary>
+        <title type="html"><![CDATA[Changes to Step Free Guest Entrance Feature]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/nztsrjrn8742</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/nztsrjrn8742"/>
+        <updated>2024-11-05T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Nov 5, 00:00 PST  -  Dec 6, 00:00 PST
+Nov  1, 16:54 PDT
+Scheduled - Changelog [published Oct 16]: https://developer.airbnb.com/changelog/changes-to-step-free-guest-entrance-feature
+To streamline the step-free entrance accessibility feature, "Step-free path to the guest entrance" will be removed and combined with "Step-free guest entrance”, for one simplified feature called "Step-free access”. 
+We will automatically update listings to only use the "Step-free access" accessibility feature. The migration begins on November 5, 2024 and lasts approximately one month. During this period, the submission of both accessibility features will be temporarily disabled. On December 5, 2024, the submission of home_step_free_access ("Step-free access") will be re-enabled.
+Learn more: https://developer.airbnb.com/changelog/changes-to-step-free-guest-entrance-feature]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Airbnb API Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[United States SMS and MMS Carrier Maintenance - T-Mobile]]></title>
-        <id>https://status.twilio.com/incidents/v37ytt05q918</id>
-        <link href="https://status.twilio.com/incidents/v37ytt05q918"/>
-        <updated>2024-11-04T02:30:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Nov 3, 18:30 PST  -  Nov 4, 03:30 PST
-Nov  1, 13:58 PDT
-Scheduled - The T-Mobile network in the United States is conducting a planned maintenance from 03 November 2024 at 18:30 PST until 04 November 2024 at 03:30 PST. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile United States handsets.]]></summary>
+        <title type="html"><![CDATA[Database automations functionality is degraded. Users may see their automations fail to run or run quite delayed.]]></title>
+        <id>https://status.notion.so/incidents/0k6jlny8s8cl</id>
+        <link href="https://status.notion.so/incidents/0k6jlny8s8cl"/>
+        <updated>2024-11-04T23:06:02.000Z</updated>
+        <summary type="html"><![CDATA[Nov  4, 15:06 PST
+Investigating - We are currently investigating this issue.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Notion Status - Incident History</name>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Users unable to sign in with SSO or SCIM. Multiple Slack features are experiencing issues.]]></title>
         <id>https://slack-status.com/2024-11/81f9bbf150e0daac</id>
         <link href="https://slack-status.com/2024-11/81f9bbf150e0daac"/>
-        <updated>2024-11-03T10:04:13.000Z</updated>
-        <summary type="html"><![CDATA[Our engineering team has resolved the issue. Impacted users should be able to login to SSO. SCIM operations are recovering.
-Some users may have experienced repeated notifications during our resolution efforts and issues triggering workflows, these should no longer be occurring.]]></summary>
+        <updated>2024-11-04T20:28:12.000Z</updated>
+        <summary type="html"><![CDATA[From 12:02 AM PDT to 1:19 AM PDT on Sunday, November 3, 2024, some users experienced trouble logging into Slack with SSO, provisioning users with SCIM, received duplicated notifications, and had trouble triggering workflows.
+
+The system responsible for the handling of database replications and routing traffic had unexpected failures due to a time-logic configuration change. As a result, requests involving these database replicas timed out, impacting all SCIM operations, SSO logins, notification handling, and workflow execution.
+
+As an immediate fix, we manually processed these database replications, restoring full functionality to the affected services. 
+
+After verifying that requests were successfully serviced, we implemented a backend logic update to allow for future system changes to be handled automatically, reducing the likelihood of this reoccurring.]]></summary>
         <author>
             <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/kLLQnDxxmwSec6Gtagnt</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/kLLQnDxxmwSec6Gtagnt"/>
+        <updated>2024-11-04T17:45:38.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-10-18 18:30</strong> and ended at <strong>2024-10-20 00:15</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Incident Report</h1>
+<h2>Summary</h2>
+<p>Beginning on 18 October 2024, users of the Gmail application for iOS experienced increased application crash rates for a duration of 1 day, 5 hours, 45 minutes. To our Gmail for iOS users who were impacted by this issue, we sincerely apologize. This is not the level of quality and reliability we strive to offer you, and we are taking immediate steps to improve the platform’s performance and availability.</p>
+<h2>Root Cause</h2>
+<p>The Gmail iOS application uses a Google-wide SSO client library to authenticate all accounts on a given device with a backend authentication server. This includes a lookup of account IDs and their corresponding email addresses. Email addresses are returned from the authentication server normalized to avoid potential formatting conflicts. For example, “<a href="mailto:TestUser@gmail.com">TestUser@gmail.com</a>” would be normalized to “<a href="mailto:testuser@gmail.com">testuser@gmail.com</a>.”</p>
+<p>A recent server-side feature release introduced an issue where the backend authentication server began returning non-normalized email addresses. This resulted in a formatting mismatch where the Gmail iOS application was unable to match account IDs to the normalized email addresses stored in memory when the application was initially launched, causing the application to crash.</p>
+<h2>Remediation and Prevention</h2>
+<p>Google engineers were alerted to the issue via internal monitoring on 18 October 2024 at 11:58 US/Pacific and immediately started an investigation.</p>
+<p>Engineers rolled back two recent updates to identity endpoints used by Gmail iOS to mitigate impact on 19 October 2024 at 17:15 US/Pacific.</p>
+<p>Google is committed to preventing a repeat of this issue in the future and is completing the following actions:</p>
+<ul>
+<li>Make Gmail iOS more resilient to identity endpoint changes</li>
+<li>Limit these identity changes to in-scope users</li>
+<li>Improved attribution of future backend production changes</li>
+</ul>
+<h2>Detailed Description of Impact</h2>
+<p>Between 18 October 2024 at 11:30 US/Pacific and 19 October 2024 at 17:15 US/Pacific, approximately 2.6M users of Gmail for iOS experienced foreground crashes on application startup.</p>
+<p>Impact was limited to the Gmail application for the iOS platform. Users did not face any errors while using Gmail in other platforms, including Android, Web interfaces.</p>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/kLLQnDxxmwSec6Gtagnt</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/kLLQnDxxmwSec6Gtagnt"/>
+        <updated>2024-11-04T17:45:38.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-10-18 18:30</strong> and ended at <strong>2024-10-20 00:15</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Mini Incident Report</h1>
+<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
+<p>(All Times US/Pacific)</p>
+<p><strong>Incident Start:</strong> 18 October 2024 11:30</p>
+<p><strong>Incident End:</strong> 19 October 2024 17:15</p>
+<p><strong>Duration:</strong> 1 day, 5 hours, 45 minutes</p>
+<p><strong>Affected Services and Features:</strong></p>
+<p>Gmail</p>
+<p><strong>Regions/Zones:</strong> Global</p>
+<p><strong>Description:</strong></p>
+<p>The Gmail application for iOS experienced an elevated crash rate for a duration of 1 day, 5 hours, 45 minutes.</p>
+<p>From preliminary analysis, the root cause of the issue was two changes to identity endpoints used by Gmail iOS that caused it to crash.</p>
+<p>Google will complete a full incident report in the following days that will provide a full root cause.</p>
+<p><strong>Customer Impact:</strong></p>
+<p>Approximately 1 million Gmail for iOS platform users had foreground crashes on start of the application during this period of impact.</p>
+<p>Impact was limited to the Gmail application for the iOS platform, and users did not face any errors while using Gmail in other platforms, including Android, Web interfaces.</p>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/MUomphETLLW7et9VPTYa</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/MUomphETLLW7et9VPTYa"/>
+        <updated>2024-11-04T16:53:46.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-10-30 12:30</strong> and ended at <strong>2024-10-30 18:46</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Mini Incident Report</h1>
+<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
+<p>(All Times US/Pacific)</p>
+<p><strong>Incident Start:</strong> 29 October, 2024 13:00</p>
+<p><strong>Incident End:</strong> 30 October, 2024 11:46</p>
+<p><strong>Duration:</strong> 22 hours, 46 minutes</p>
+<p><strong>Affected Services and Features:</strong></p>
+<p>Gmail</p>
+<p><strong>Regions/Zones:</strong> Global</p>
+<p><strong>Description:</strong></p>
+<p>Some Gmail users experienced latency, unresponsiveness, and inability to load the Web UI for a duration of 22 hours, 46 minutes. From preliminary analysis, the root cause of the issue was an incompatibility with a third-party add-on following an update to Gmail front end servers.</p>
+<p><strong>Customer Impact:</strong></p>
+<p>Customers using the Gmail Web UI may have experienced increased latency or unresponsiveness when also using certain 3rd party addons.</p>
+<p><strong>Additional details:</strong></p>
+<p>This issue only affected the Gmail Web UI. Gmail iOS/Android apps could be used as a workaround.</p>
+<p>Engineers mitigated the issue by rolling back the recent update to Gmail front end servers.</p>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/MUomphETLLW7et9VPTYa</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/MUomphETLLW7et9VPTYa"/>
+        <updated>2024-11-04T16:53:34.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-10-30 12:30</strong> and ended at <strong>2024-10-30 18:46</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Incident Report</h1>
+<h2>Summary</h2>
+<p>On 29 October 2024 some Gmail web users experienced slow loading, unresponsive or crashed web pages for a duration of 22 hours, 46 minutes</p>
+<p>To our customers whose businesses were impacted during this outage, we sincerely apologize. This is not the level of quality and reliability we strive to offer you.</p>
+<h2>Root Cause</h2>
+<p>Browser extensions, such as third-party ones, have significant freedom to run their own JavaScript code on web pages they&#39;re active on. This means they can modify the page&#39;s appearance and content, interact with remote servers, and potentially even disrupt the page&#39;s functionality.</p>
+<p>While extensions operate in their own isolated environment, they can technically access information from the main web page. However, the reverse isn&#39;t true, limiting the website&#39;s control over the extension&#39;s actions.
+Essentially, extensions have a wide range of capabilities with minimal oversight, potentially leading to unintended consequences or conflicts with the web page.</p>
+<p>A recent update to a third-party browser extension resulted in some Gmail web users who have these extensions installed experiencing performance problems, such as increased latency or unresponsiveness.</p>
+<h2>Remediation and Prevention</h2>
+<p>Google engineers were alerted to the issue by internal monitoring on 30 October 2024 at 07:04 US/Pacific and immediately started an investigation. The issue was fully mitigated at 11:44 US/Pacific after the third-party mitigated the issue from their end.</p>
+<p>Google is committed preventing a repeat of this issue in the future and is completing the following actions:
+Implement testing for popular browser extensions to better detect and quickly mitigate similar issues.
+Improve internal documentation/processes to enable faster response and mitigation time for this type of issue.</p>
+<h2>Detailed Description of Impact</h2>
+<h3>Gmail</h3>
+<p>Customers using the Gmail Web UI may have experienced increased latency or unresponsiveness when also using certain third-party extensions.</p>
+<p><strong>Additional Information for Customers:</strong></p>
+<p>This issue only affected the Gmail Web UI. Gmail iOS/Android apps could be used as a workaround during the issue duration.</p>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
@@ -145,32 +261,6 @@ Investigating - Our Engineering team is currently investigating issues with Mana
 We apologize for the inconvenience and will provide an update as soon as we have more information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Gmail. We will provide more information shortly.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/MUomphETLLW7et9VPTYa</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/MUomphETLLW7et9VPTYa"/>
-        <updated>2024-10-31T14:49:12.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-10-30 12:30</strong> and ended at <strong>2024-10-30 18:46</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Mini Incident Report</h1>
-<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
-<p>(All Times US/Pacific)</p>
-<p><strong>Incident Start:</strong> 29 October, 2024 13:00</p>
-<p><strong>Incident End:</strong> 30 October, 2024 11:46</p>
-<p><strong>Duration:</strong> 22 hours, 46 minutes</p>
-<p><strong>Affected Services and Features:</strong></p>
-<p>Gmail</p>
-<p><strong>Regions/Zones:</strong> Global</p>
-<p><strong>Description:</strong></p>
-<p>Gmail users experienced latency, unresponsiveness, and inability to load the Web UI for a duration of 22 hours, 46 minutes. From preliminary analysis, the root cause of the issue was an incompatibility with a third-party add-on following an update to Gmail front end servers.</p>
-<p><strong>Customer Impact:</strong></p>
-<p>Customers using the Gmail Web UI may have experienced increased latency or unresponsiveness when also using certain 3rd party addons.</p>
-<p><strong>Additional details:</strong></p>
-<p>This issue only affected the Gmail Web UI. Gmail iOS/Android apps could be used as a workaround.</p>
-<p>Engineers mitigated the issue by rolling back the recent update to Gmail front end servers.</p>
-</div><hr><p>Affected products: Gmail</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
