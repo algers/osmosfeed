@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-11-10T00:29:57.326Z</id>
+    <id>urn:2024-11-11T00:28:55.315Z</id>
     <title>osmos::feed</title>
-    <updated>2024-11-10T00:29:57.326Z</updated>
+    <updated>2024-11-11T00:28:55.315Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[United States MMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/18z8v3tsnwc8</id>
+        <link href="https://status.twilio.com/incidents/18z8v3tsnwc8"/>
+        <updated>2024-11-11T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Nov 10, 23:00 PST  -  Nov 11, 03:00 PST
+Nov 10, 13:48 PST
+Scheduled - Our MMS carrier partner in the United States is conducting a planned maintenance from 10 November 2024 at 23:00 PST until 11 November 2024 at 03:00 PST. During the maintenance window, there could be intermittent delays delivering MMS to and from United States handsets via United States short codes.
+
+We are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Some users may be logged out unexpectedly or experience non-functional paid features while logged in.]]></title>
         <id>https://status.notion.so/incidents/k6wctjymwg3r</id>
@@ -924,52 +938,6 @@ Monitoring - We're currently investigating an issue that's causing errors delive
 We will continue to monitor this, and send out another update once all the delayed webhooks are sent out.]]></summary>
         <author>
             <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
-        <id>https://www.githubstatus.com/incidents/myvz2tsj2dh8</id>
-        <link href="https://www.githubstatus.com/incidents/myvz2tsj2dh8"/>
-        <updated>2024-10-12T01:11:28.000Z</updated>
-        <summary type="html"><![CDATA[Oct 12, 01:11 UTC
-Resolved - On October 11, 2024, starting at 05:59 UTC, DNS infrastructure in one of our sites started to fail to resolve lookups following a database migration. Attempts to recover the database led to cascading failures that impacted the DNS systems for that site. The team worked to restore the infrastructure and there was no customer impact until 17:31 UTC. 
-During the incident, impact to the following services could be observed:
-- Copilot: Degradation in IDE code completions for 4% of active users during the incident from 17:31 UTC to 21:45 UTC.
-- Actions: Workflow runs delay (25% of runs delayed by over 5 minutes) and errors (1%) between 20:28 UTC and 21:30 UTC. Errors while creating Artifact Attestations.
-- Customer migrations: From 18:16 UTC to 23:12 UTC running migr…]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users may have trouble loading threads.]]></title>
-        <id>https://slack-status.com/2024-10/655dcd26cc31dcf8</id>
-        <link href="https://slack-status.com/2024-10/655dcd26cc31dcf8"/>
-        <updated>2024-10-11T19:34:31.000Z</updated>
-        <summary type="html"><![CDATA[Issue summary:
-On Friday, October 11, 2024, from 4:08 AM PDT until 4:50 AM PDT, users experienced an issue with loading their threads, coming across a "Something's a bit fishy!" error message.
-
-We traced this back to a performance issue with a backend database responsible for processing certain thread actions, resulting in requests not being served correctly.
-
-To mitigate any immediate impact, an automated safety measure initiated the restart of the database services. This improved database performance, but the process took longer than expected, contributing to the errors users experienced. Once this process completed, threads began loading without error.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spaces and Container Registry in SYD1 region]]></title>
-        <id>https://status.digitalocean.com/incidents/f4vzg0451jyg</id>
-        <link href="https://status.digitalocean.com/incidents/f4vzg0451jyg"/>
-        <updated>2024-10-11T15:50:50.000Z</updated>
-        <summary type="html"><![CDATA[Oct 11, 15:50 UTC
-Resolved - From 23:00 UTC on October 10th until 13:28 UTC on October 11th, users may have encountered intermittent errors when accessing Spaces endpoints or using the Container Registry in the SYD1 region. Our Engineering team has successfully resolved the issue affecting the functionality of Spaces and the Container Registry.
-All services have been fully restored and are now functioning normally. If you continue to experience any problems, please open a ticket with our support team. We apologize for any inconvenience caused.
-Oct 11, 14:10 UTC
-Monitoring - Our Engineering team has implemented a fix to resolve the issue with Spaces and the Container Registry in the SYD1 region and is monitoring the situation closely. All services have been restored and are functioning as expected. We will post an update as soon as the issue is fully resolved.
-Oct 11, 13:18 UTC
-Investigating - Our Engineering team is currently investigating an issue with Spaces and the Container Registry in the SYD1 region. During this time, users may experience intermittent errors when accessing Spaces endpoints or interacting with the Container Registry. We apologize for the inconvenience and will provide an update as soon as we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
