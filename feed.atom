@@ -1,22 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-11-11T00:28:55.315Z</id>
+    <id>urn:2024-11-12T00:27:24.331Z</id>
     <title>osmos::feed</title>
-    <updated>2024-11-11T00:28:55.315Z</updated>
+    <updated>2024-11-12T00:27:24.332Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[United States MMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/18z8v3tsnwc8</id>
-        <link href="https://status.twilio.com/incidents/18z8v3tsnwc8"/>
-        <updated>2024-11-11T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Nov 10, 23:00 PST  -  Nov 11, 03:00 PST
-Nov 10, 13:48 PST
-Scheduled - Our MMS carrier partner in the United States is conducting a planned maintenance from 10 November 2024 at 23:00 PST until 11 November 2024 at 03:00 PST. During the maintenance window, there could be intermittent delays delivering MMS to and from United States handsets via United States short codes.
-
-We are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.]]></summary>
+        <title type="html"><![CDATA[Incident: User profiles appearing blank]]></title>
+        <id>https://slack-status.com/2024-11/9aba9b4a0cf710e2</id>
+        <link href="https://slack-status.com/2024-11/9aba9b4a0cf710e2"/>
+        <updated>2024-11-11T22:08:32.000Z</updated>
+        <summary type="html"><![CDATA[The issue with profiles loading for some users has been resolved. We recommend refreshing your client by pressing Cmd/Ctrl + Shift + R. We apologize for any disruption this may have caused to your workday.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: **Summary :**
+There may be issues accessing Google Workspace Extensions (Google Calendar, Google Keep and Google Tasks) from Gemini app
+**Description :**
+We are experiencing an issue with some Extensions in the Gemini app (gemini.google.com).
+Our engineering team continues to investigate the issue.
+We will provide an update by Friday, 2024-11-08 00:30 US/Pacific with current details.
+We apologize to all who are affected by the disruption.
+**Diagnosis :**
+Users may observe error messages when trying to use Calendar, Keep, and Tasks extensions from the Gemini app. This is limited to only enterprise users and does not impact consumer accounts.
+**Workaround :**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/EDinMUwayovibax78KZJ</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/EDinMUwayovibax78KZJ"/>
+        <updated>2024-11-11T18:21:40.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-10-21 17:38</strong> and ended at <strong>2024-11-07 17:04</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Incident Report</h1>
+<h2>Summary</h2>
+<p>Between 21 October 2024 and 07 November 2024, a subset of Gemini enterprise users experienced elevated error rate when attempting to use Calendar, Keep, and Tasks extensions from the Gemini App on Web.</p>
+<p>We sincerely apologize to our Gemini customers for the disruption. This is not the level of quality and reliability we strive to offer you, and we are taking immediate steps to prevent such disruptions in the future.</p>
+<h2>Root Cause</h2>
+<p>On 21 October 2024, Google began rolling out a feature to support Calendar, Tasks and Keep extensions on Gemini app (<a href="http://gemini.google.com">gemini.google.com</a>) for Enterprise Customers that have Workspace extensions in Gemini set to “On.” Due to the gradual rollout process, the feature was enabled for individual domains on different dates, resulting in varying impact timeframes for different customers.</p>
+<p>The issue was caused by an incorrect configuration settings on the backend server that controls the rollout of the new feature. These settings determine things like how many users can access the feature at once, and how the feature interacts with other parts of the system.The incorrect configuration prevented the Calendar, Keep, and Tasks extensions from being fully enabled for some enterprise users on Gemini Web, despite the extensions being visible.</p>
+<h2>Remediation and Prevention</h2>
+<p>Google engineers were alerted to the issue via a customer support case on 29 October 2024 at 18:18 US/Pacific. Following initial investigations from support,  the issue was escalated to our engineering team on 05 November 2024. Upon identifying the issue, engineers promptly disabled the controlling setting on the backend server, gradually enabled the correct configuration setting, and finally re-enabled the controlling setting on the backend server, thereby resolving the issue.</p>
+<p>Google is committed preventing a repeat of this issue in the future and is completing the following actions:</p>
+<ul>
+<li>Enhanced Monitoring: We are enhancing real-time monitoring of Gemini feature rollouts to ensure prompt detection of any configuration issues.</li>
+<li>Improved Rollout Sequencing: We are refining the rollout sequence to guarantee that extensions are fully enabled before being made available to customers.</li>
+</ul>
+<h2>Detailed Description of Impact</h2>
+<p>Between 21 October 2024 09:38 US/Pacific and 07 November 2024 09:04 US/Pacific,  a subset of users may have observed the following error messages when trying to use Calendar, Keep, and Tasks extensions from the Gemini app. These messages were the responses by Gemini:</p>
+<ul>
+<li>‘I can&#39;t assist you with that, as I am only a language model.’</li>
+<li>‘I can’t access your Google Calendar because of privacy and security reasons, but I can help you find this information!’</li>
+</ul>
+<hr>
+</div><hr><p>Affected products: Gemini</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RESOLVED: **Summary :**
+There may be issues accessing Google Workspace Extensions (Google Calendar, Google Keep and Google Tasks) from Gemini app
+**Description :**
+We are experiencing an issue with some Extensions in the Gemini app (gemini.google.com).
+Our engineering team continues to investigate the issue.
+We will provide an update by Friday, 2024-11-08 00:30 US/Pacific with current details.
+We apologize to all who are affected by the disruption.
+**Diagnosis :**
+Users may observe error messages when trying to use Calendar, Keep, and Tasks extensions from the Gemini app. This is limited to only enterprise users and does not impact consumer accounts.
+**Workaround :**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/EDinMUwayovibax78KZJ</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/EDinMUwayovibax78KZJ"/>
+        <updated>2024-11-11T18:21:17.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-10-21 17:38</strong> and ended at <strong>2024-11-07 17:04</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Mini Incident Report</h1>
+<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Cloud Support using <a href="https://cloud.google.com/support">https://cloud.google.com/support</a>  or to Google Workspace Support using help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
+<p>(All Times US/Pacific)</p>
+<p><strong>Incident Start:</strong> 6 November, 2024 10:03</p>
+<p><strong>Incident End:</strong> 7 November, 2024 9:04</p>
+<p><strong>Duration:</strong> 23 hours, 1 minute</p>
+<p><strong>Affected Services and Features:</strong></p>
+<p>Gemini extensions for the following services:</p>
+<ul>
+<li>Google Calendar</li>
+<li>Google Keep</li>
+<li>Google Tasks</li>
+</ul>
+<p><strong>Regions/Zones:</strong>  Global (Impact was limited to Enterprise users, irrespective of location)</p>
+<p><strong>Description:</strong></p>
+<p>A subset of customers with Gemini subscriptions experienced Google Calendar, Tasks and Keep extensions not working in Gemini App on Web for a duration of 23 hours and 1 minute. From preliminary analysis, the root cause of the issue is a change related to a Gemini feature launch.</p>
+<p>Google engineers adjusted launch configurations in the backend to mitigate the impact. Google will complete a full IR in the following days that will provide a full root cause.</p>
+<p><strong>Customer Impact:</strong></p>
+<p>A subset of users may have observed the following error messages when trying to use Calendar, Keep, and Tasks extensions from the Gemini app. These messages were responses by Gemini:</p>
+<ul>
+<li>‘I can&#39;t assist you with that, as I am only a language model.’</li>
+<li>‘I can’t access your Google Calendar because of privacy and security reasons, but I can help you find this information!...’</li>
+</ul>
+</div><hr><p>Affected products: Gemini</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
@@ -30,18 +110,6 @@ Nov  8, 13:56 PST
 Identified - The issue has been identified and a fix is being implemented.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with Google Workspace Support. We will provide more information shortly.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/qjmcFHHibfBDsxAjhFnU</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/qjmcFHHibfBDsxAjhFnU"/>
-        <updated>2024-11-08T17:54:19.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-11-08 16:05</strong> and ended at <strong>2024-11-08 17:08</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><p>The issue with Google Workspace Support has been resolved for all affected users as of Friday, 2024-11-08 09:08 US/Pacific.</p>
-<p>We thank you for your patience while we worked on resolving the issue.</p>
-</div><hr><p>Affected products: Google Workspace Support</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
