@@ -1,10 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-11-12T00:27:24.331Z</id>
+    <id>urn:2024-11-13T00:28:03.508Z</id>
     <title>osmos::feed</title>
-    <updated>2024-11-12T00:27:24.332Z</updated>
+    <updated>2024-11-13T00:28:03.508Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[SFO3 Network Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/y7t32thy2n51</id>
+        <link href="https://status.digitalocean.com/incidents/y7t32thy2n51"/>
+        <updated>2024-11-13T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Nov 13, 10:00 - 14:00 UTC
+Nov 11, 10:20 UTC
+Scheduled - Start: 2024-11-13 10:00 UTC
+End: 2024-11-13 14:00 UTC
+During the above window, our Networking team will be performing maintenance on core switches in our SFO3 datacenter as part of network upgrades. 
+Expected Impact:
+These upgrades are designed and tested to be seamless, and we do not expect any impact to customer traffic due to this maintenance. Should an unexpected issue arise, a possible outcome would be temporary loss of connectivity or increased latency for a brief period of time. We will endeavor to keep any such impact to a minimum.
+If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Programmable Wireless Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/k2d8mj2m9bh7</id>
+        <link href="https://status.twilio.com/incidents/k2d8mj2m9bh7"/>
+        <updated>2024-11-13T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Nov 13, 00:00 - 02:00 PST
+Nov 11, 08:47 PST
+Scheduled - As part of the acquisition of the Twilio IoT business unit by KORE, we will be migrating a number of databases on Wednesday November 13, 2024, between 08:00 UTC and 16:00 UTC. During the migration period which we expect to last ~2 hours, we expect the following impacts:
+Programmable Wireless SIM updates to activate, suspend, or deactivate SIMs will be delayed. You can still submit update requests but the SIMs will be in a "scheduled" or "updating" state until the maintenance completes.
+Moving suspended SIMs between accounts may return 500 API errors.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multiple Services in NYC3]]></title>
+        <id>https://status.digitalocean.com/incidents/qtbkgbs8csdb</id>
+        <link href="https://status.digitalocean.com/incidents/qtbkgbs8csdb"/>
+        <updated>2024-11-12T22:06:43.000Z</updated>
+        <summary type="html"><![CDATA[Nov 12, 22:06 UTC
+Resolved - From 20:03 - 20:08 UTC, our Engineering team observed an issue with internal DigitalOcean network connectivity in the NYC3 region. During this time, users might have experienced errors for control plane operations for services in NYC3, such as creating and deleting services, or issuing updates to existing services for products like App Platform Apps, DOKS & Managed Databases. 
+The incident did not impact public or private network connectivity for customer services.
+We apologize for the inconvenience and if you are still experiencing issues or have any additional questions,  please open a support ticket from within your account.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[the Audit logs were unavailable between 16:04 to 16:40 PST]]></title>
+        <id>https://status.notion.so/incidents/nkb1yfjb80mq</id>
+        <link href="https://status.notion.so/incidents/nkb1yfjb80mq"/>
+        <updated>2024-11-12T01:08:49.000Z</updated>
+        <summary type="html"><![CDATA[Nov 11, 17:08 PST
+Resolved - Enterprise workspaces have experienced an issue where audit logs were unavailable between 16:04 to 16:40 PST. The issue has been identified and audit log is available. We are working on restoring the events between 16:04 to 16:40 PST.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: User profiles appearing blank]]></title>
         <id>https://slack-status.com/2024-11/9aba9b4a0cf710e2</id>
@@ -51,49 +106,6 @@ None at this time.]]></title>
 <li>‘I can’t access your Google Calendar because of privacy and security reasons, but I can help you find this information!’</li>
 </ul>
 <hr>
-</div><hr><p>Affected products: Gemini</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: **Summary :**
-There may be issues accessing Google Workspace Extensions (Google Calendar, Google Keep and Google Tasks) from Gemini app
-**Description :**
-We are experiencing an issue with some Extensions in the Gemini app (gemini.google.com).
-Our engineering team continues to investigate the issue.
-We will provide an update by Friday, 2024-11-08 00:30 US/Pacific with current details.
-We apologize to all who are affected by the disruption.
-**Diagnosis :**
-Users may observe error messages when trying to use Calendar, Keep, and Tasks extensions from the Gemini app. This is limited to only enterprise users and does not impact consumer accounts.
-**Workaround :**
-None at this time.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/EDinMUwayovibax78KZJ</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/EDinMUwayovibax78KZJ"/>
-        <updated>2024-11-11T18:21:17.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2024-10-21 17:38</strong> and ended at <strong>2024-11-07 17:04</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Mini Incident Report</h1>
-<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Cloud Support using <a href="https://cloud.google.com/support">https://cloud.google.com/support</a>  or to Google Workspace Support using help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
-<p>(All Times US/Pacific)</p>
-<p><strong>Incident Start:</strong> 6 November, 2024 10:03</p>
-<p><strong>Incident End:</strong> 7 November, 2024 9:04</p>
-<p><strong>Duration:</strong> 23 hours, 1 minute</p>
-<p><strong>Affected Services and Features:</strong></p>
-<p>Gemini extensions for the following services:</p>
-<ul>
-<li>Google Calendar</li>
-<li>Google Keep</li>
-<li>Google Tasks</li>
-</ul>
-<p><strong>Regions/Zones:</strong>  Global (Impact was limited to Enterprise users, irrespective of location)</p>
-<p><strong>Description:</strong></p>
-<p>A subset of customers with Gemini subscriptions experienced Google Calendar, Tasks and Keep extensions not working in Gemini App on Web for a duration of 23 hours and 1 minute. From preliminary analysis, the root cause of the issue is a change related to a Gemini feature launch.</p>
-<p>Google engineers adjusted launch configurations in the backend to mitigate the impact. Google will complete a full IR in the following days that will provide a full root cause.</p>
-<p><strong>Customer Impact:</strong></p>
-<p>A subset of users may have observed the following error messages when trying to use Calendar, Keep, and Tasks extensions from the Gemini app. These messages were responses by Gemini:</p>
-<ul>
-<li>‘I can&#39;t assist you with that, as I am only a language model.’</li>
-<li>‘I can’t access your Google Calendar because of privacy and security reasons, but I can help you find this information!...’</li>
-</ul>
 </div><hr><p>Affected products: Gemini</p>]]></summary>
         <author>
             <name>Google Workspace Status Dashboard Updates</name>
@@ -990,22 +1002,6 @@ Oct 14, 16:02 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>Rippling Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issue delaying message_added webhooks]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/8bz6h0mfpqm2</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/8bz6h0mfpqm2"/>
-        <updated>2024-10-14T03:20:27.000Z</updated>
-        <summary type="html"><![CDATA[Oct 13, 20:20 PDT
-Resolved - This incident has been resolved.
-Oct 12, 16:01 PDT
-Update - All delayed message_added webhooks have been sent out by 3:05PM PST on Saturday, Oct 12. We will continue to monitor this.
-Oct 12, 13:04 PDT
-Monitoring - We're currently investigating an issue that's causing errors delivering message_added webhooks.  A portion of message_added webhooks were not delivered from around 3AM PST on Friday, Oct 11. We've mitigated the issue at around 12PM PST on Saturday, Oct 12, and the delayed webhooks are being sent out.
-We will continue to monitor this, and send out another update once all the delayed webhooks are sent out.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
         </author>
     </entry>
 </feed>
