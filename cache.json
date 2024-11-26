@@ -39,6 +39,16 @@
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
         {
+          "id": "https://airbnbapi.statuspage.io/incidents/zycbx1qfd0my",
+          "author": null,
+          "description": "Nov 25, 10:45 PST\nMonitoring - We experienced an increased number of 500 errors impacting the Message API, which started on Nov 24, 2024 around 10:03 AM (PST). This has been mitigated as of 11:57 AM (PST), on Nov 24. We are monitoring the results.\nIn addition to 500 errors, during the incident, webhooks for newly crated reservations might have been sent without thread IDs. Our engineers have now backfilled the threads for the affected reservations. You can retrieve them using the GET Reservations API.\nWe apologize for the inconvenience caused",
+          "link": "https://airbnbapi.statuspage.io/incidents/zycbx1qfd0my",
+          "publishedOn": "2024-11-25T18:45:08.000Z",
+          "wordCount": 3916,
+          "title": "500 errors on Messaging API and webhooks missing thread IDs",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://airbnbapi.statuspage.io/incidents/ql562kdcwzd5",
           "author": null,
           "description": "Nov 20, 14:17 PST\nResolved - This issue has been mitigated as of 12:37 PM (PST).\nPlease retry any failed requests during the incident window. We apologize for the inconvenience.\nNov 20, 12:21 PST\nInvestigating - We are actively investigating an increased number of 500 errors across multiple endpoints, which started today (November 20, 2024) around 11:58 AM (PST). This issue also affects processing requests to Async APIs.\nOur engineering teams are working to get everything up and running again, and we will update you with the latest information as soon as possible.",
@@ -86,183 +96,143 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
+          "id": "https://status.twilio.com/incidents/tgzbn07vvhfy",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Nov 26, 03:00 - 07:00 PST\nNov 20, 05:51 PST\nScheduled - Our Voice carrier partner in New Zealand is conducting a planned maintenance from 26 November 2024 at 03:00 PST until 26 November 2024 at 07:00 PST. During the maintenance window, there could be intermittent call disconnects or call failures from and to Twilio New Zealand phone numbers.",
+          "link": "https://status.twilio.com/incidents/tgzbn07vvhfy",
+          "publishedOn": "2024-11-26T11:00:00.000Z",
+          "wordCount": 7514,
+          "title": "New Zealand Voice Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/2m2mp4g67q5p",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Nov 26, 01:00 - 04:00 PST\nNov 22, 04:08 PST\nScheduled - Our SMS carrier partner in the United States and Canada is conducting a planned maintenance from 26 November 2024 at 01:00 PST until 26 November 2024 at 04:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from United States and Canada handsets via subset of United States and Canada long codes and short codes.",
+          "link": "https://status.twilio.com/incidents/2m2mp4g67q5p",
+          "publishedOn": "2024-11-26T09:00:00.000Z",
+          "wordCount": 7535,
+          "title": "Multiple Destination SMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/kf2kb9hpw2pm",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Nov 25, 21:01 PST  -  Nov 26, 00:00 PST\nNov 25, 14:59 PST\nScheduled - The Movistar network in Ecuador is conducting a planned maintenance from 25 November 2024 at 21:01 PST until 26 November 2024 at 00:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to Movistar Ecuador handsets.\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
+          "link": "https://status.twilio.com/incidents/kf2kb9hpw2pm",
+          "publishedOn": "2024-11-26T05:01:00.000Z",
+          "wordCount": 7529,
+          "title": "Ecuador SMS Carrier Maintenance - Movistar",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/m97cbln4ywx8",
+          "author": null,
+          "description": "Nov 25, 16:03 PST\nUpdate - We are currently experiencing some issues with our console Usage API and Page Counts. Our engineering team is looking into the issue. We expect to provide another update in 30 minutes or as soon as more information becomes available.\nNov 25, 15:52 PST\nInvestigating - Our monitoring systems have detected a potential issue with Usage API and Page Counts. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/m97cbln4ywx8",
+          "publishedOn": "2024-11-26T00:05:55.000Z",
+          "wordCount": 7553,
+          "title": "Investigating an Issue With Usage API and Page Counts",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/p1nlz2pm7bw2",
+          "author": null,
+          "description": "Nov 25, 15:05 PST\nMonitoring - We are observing recovery in SMS delivery delays to T-Mobile Network in the US for a Subset of Short Codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 25, 13:05 PST\nUpdate - We continue to experience SMS delivery delays to T-Mobile Network in the US for a Subset of Short Codes. Our engineers continue working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 25, 12:05 PST\nInvestigating - We are experiencing SMS delivery delays to T-Mobile Network in the US for a Subset of Short Codes. Our engineers are working with our carrier partner to resolve the issue. We will provide an update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/p1nlz2pm7bw2",
+          "publishedOn": "2024-11-25T23:05:43.000Z",
+          "wordCount": 7648,
+          "title": "SMS Delivery Delay to T-Mobile Network in the US for a Subset of Short Codes",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/m7t8803wfkcl",
+          "author": null,
+          "description": "Nov 25, 14:08 PST\nUpdate - We are still experiencing SMS delivery delays to multiple networks in Brazil via subset of Twilio numbers. Our engineers have been working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nNov 25, 10:08 PST\nUpdate - We continue to experience SMS delivery delays to multiple networks in Brazil via subset of Twilio numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nNov 25, 08:08 PST\nUpdate - We continue to experience SMS delivery delays to multiple networks in Brazil via subset of Twilio numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 25, 07:08 PST\nUpdate - We are experiencing SMS delivery delays to multiple networks in Brazil via subset of Twilio numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nNov 25, 07:00 PST\nInvestigating - Our monitoring systems have detected a potential issue with SMS delivery delays to multiple networks in Brazil via subset of Twilio numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/m7t8803wfkcl",
+          "publishedOn": "2024-11-25T22:08:14.000Z",
+          "wordCount": 7738,
+          "title": "SMS Delivery Delays to Multiple Networks in Brazil via Subset of Twilio Numbers",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/88l3wyqz7r83",
+          "author": null,
+          "description": "Nov 25, 13:35 PST\nResolved - We are no longer experiencing SMS delivery delays to Safaricom network in Kenya. This incident has been resolved.\nNov 25, 11:37 PST\nMonitoring - We are observing recovery in SMS delivery delays to Safaricom network in Kenya. We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nNov 25, 11:12 PST\nUpdate - We continue to experience SMS delivery delays to Safaricom network in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 25, 10:12 PST\nUpdate - We are experiencing SMS delivery delays to Safaricom network in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nNov 25, 10:12 PST\nUpdate - We are experiencing SMS delivery delays to Safaricom network in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nNov 25, 10:01 PST\nInvestigating - Our monitoring systems have detected a potential issue SMS delivery delays to Safaricom network in Kenya. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/88l3wyqz7r83",
+          "publishedOn": "2024-11-25T21:35:44.000Z",
+          "wordCount": 7719,
+          "title": "SMS Delivery Delays to Safaricom Network in Kenya",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/vbyfj16ylqdc",
+          "author": null,
+          "description": "Nov 25, 12:53 PST\nUpdate - We are experiencing MMS delivery failures sending to Australia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 16 hours or as soon as more information becomes available.\nNov 25, 04:53 PST\nUpdate - We are experiencing MMS delivery failures sending to Australia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.\nNov 25, 00:53 PST\nUpdate - We are experiencing MMS delivery failures sending to Australia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nNov 24, 22:53 PST\nUpdate - We are experiencing MMS delivery failures sending to Australia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 22:03 PST\nInvestigating - We are experiencing MMS delivery failures sending to Australia. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/vbyfj16ylqdc",
+          "publishedOn": "2024-11-25T20:53:38.000Z",
+          "wordCount": 7690,
+          "title": "MMS Delivery Failures to Multiple Networks in Australia",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/z35cgh2t0lbj",
+          "author": null,
+          "description": "Nov 25, 12:46 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Mobilis network in Algeria. This incident has been resolved.\nNov 25, 10:51 PST\nUpdate - We are observing recovery in SMS delivery delays when sending messages to Mobilis network in Algeria. We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nNov 25, 08:54 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Mobilis network in Algeria. We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nNov 25, 06:57 PST\nUpdate - We continue to experience SMS delivery delays when sending messages to Mobilis network in Algeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 25, 06:00 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to Mobilis network in Algeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/z35cgh2t0lbj",
+          "publishedOn": "2024-11-25T20:46:05.000Z",
+          "wordCount": 7691,
+          "title": "SMS Delivery Delays to Mobilis Network in Algeria",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/b0mqqgdzb0y4",
+          "author": null,
+          "description": "Nov 25, 03:55 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Mobilis network in Algeria. This incident has been resolved.\nNov 25, 01:56 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Mobilis network in Algeria. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 25, 00:56 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to Mobilis network in Algeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/b0mqqgdzb0y4",
+          "publishedOn": "2024-11-25T11:55:34.000Z",
+          "wordCount": 7589,
+          "title": "SMS Delivery Delays to Mobilis Network in Algeria",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.twilio.com/incidents/pqqnrvqdm6wy",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 24, 23:00 PST  -  Nov 25, 03:00 PST\nNov 21, 00:12 PST\nScheduled - Our MMS carrier partner in the United States is conducting a planned maintenance from 24 November 2024 at 23:00 PST until 25 November 2024 at 03:00 PST. During the maintenance window, there could be intermittent delays delivering MMS to and from United States handsets.",
+          "description": "Nov 25, 03:00 PST\nCompleted - The scheduled maintenance has been completed.\nNov 24, 23:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 21, 00:12 PST\nScheduled - Our MMS carrier partner in the United States is conducting a planned maintenance from 24 November 2024 at 23:00 PST until 25 November 2024 at 03:00 PST. During the maintenance window, there could be intermittent delays delivering MMS to and from United States handsets.",
           "link": "https://status.twilio.com/incidents/pqqnrvqdm6wy",
-          "publishedOn": "2024-11-25T07:00:00.000Z",
-          "wordCount": 7526,
+          "publishedOn": "2024-11-25T11:00:21.000Z",
+          "wordCount": 7551,
           "title": "United States MMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/r9xd0z8wjmd5",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Nov 24, 20:30 - 21:30 PST\nNov 22, 15:12 PST\nScheduled - The MTS network in Russia is conducting a planned maintenance from 24 November 2024 at 20:30 PST until 24 November 2024 at 21:30 PST. During the maintenance window, there could be intermittent delays delivering SMS to MTS Russia handsets.",
-          "link": "https://status.twilio.com/incidents/r9xd0z8wjmd5",
-          "publishedOn": "2024-11-25T04:30:00.000Z",
-          "wordCount": 7506,
-          "title": "Russia SMS Carrier Maintenance - MTS",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/b71sywppjnzr",
-          "author": null,
-          "description": "Nov 24, 16:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 22, 07:03 PST\nScheduled - The O2 network in the United Kingdom is conducting a planned maintenance from 24 November 2024 at 16:01 PST until 29 November 2024 at 15:59 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from O2 United Kingdom handsets.",
-          "link": "https://status.twilio.com/incidents/b71sywppjnzr",
-          "publishedOn": "2024-11-25T00:00:21.000Z",
-          "wordCount": 7532,
-          "title": "United Kingdom SMS Carrier Maintenance - O2",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/ckns46znyz79",
-          "author": null,
-          "description": "Nov 24, 14:11 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Sky Network in the UK. This incident has been resolved.\nNov 24, 12:11 PST\nUpdate - We are observing recovery in SMS delivery delays when sending messages to Sky Network in the UK. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 10:11 PST\nUpdate - We are observing recovery in SMS delivery delays when sending messages to Sky Network in the UK. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 08:17 PST\nMonitoring - We are observing recovery in SMS delivery d…",
-          "link": "https://status.twilio.com/incidents/ckns46znyz79",
-          "publishedOn": "2024-11-24T22:11:31.000Z",
-          "wordCount": 7955,
-          "title": "SMS Delivery Delays to Sky Network in the UK",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/rks06g3kcsk9",
-          "author": null,
-          "description": "Nov 24, 14:01 PST\nCompleted - The scheduled maintenance has been completed.\nNov 24, 08:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 22, 12:27 PST\nScheduled - The XOX network in Malaysia is conducting a planned maintenance from 24 November 2024 at 08:00 PST until 24 November 2024 at 14:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from XOX Malaysia handsets.",
-          "link": "https://status.twilio.com/incidents/rks06g3kcsk9",
-          "publishedOn": "2024-11-24T22:01:21.000Z",
-          "wordCount": 7536,
-          "title": "Malaysia SMS Carrier Maintenance - XOX",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/0pyb1xb4htw2",
           "author": null,
-          "description": "Nov 24, 14:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 21, 14:17 PST\nScheduled - Our carrier partner Three United Kingdom is conducting a planned maintenance from 24 November 2024 at 14:00 PST until 25 November 2024 at 02:00 PST. During the maintenance window, there could be intermittent API request failures for Three United Kingdom customers.\n\nImpacted Products: Verify Silent Network Auth, Lookup SIM Swap, Lookup Identity Match, Legacy Identity MatchAndAttributes",
+          "description": "Nov 25, 02:00 PST\nCompleted - The scheduled maintenance has been completed.\nNov 24, 14:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 21, 14:17 PST\nScheduled - Our carrier partner Three United Kingdom is conducting a planned maintenance from 24 November 2024 at 14:00 PST until 25 November 2024 at 02:00 PST. During the maintenance window, there could be intermittent API request failures for Three United Kingdom customers.\n\nImpacted Products: Verify Silent Network Auth, Lookup SIM Swap, Lookup Identity Match, Legacy Identity MatchAndAttributes",
           "link": "https://status.twilio.com/incidents/0pyb1xb4htw2",
-          "publishedOn": "2024-11-24T22:00:21.000Z",
-          "wordCount": 7560,
+          "publishedOn": "2024-11-25T10:00:25.000Z",
+          "wordCount": 7570,
           "title": "United Kingdom Account Security Carrier Partner Maintenance - Three",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/1tt4ssnzkwcn",
+          "id": "https://status.twilio.com/incidents/9rwxjrz5z5wq",
           "author": null,
-          "description": "Nov 24, 13:17 PST\nUpdate - We are still experiencing SMS delivery delays when sending messages to Telma Network in Madagascar. Our engineers have been working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.\nNov 24, 05:18 PST\nUpdate - We continue experiencing SMS delivery delays when sending messages to Telma Network in Madagascar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nNov 24, 01:33 PST\nUpdate - We continue experiencing SMS delivery delays when sending messages to Telma Network in Madagascar. Our engineers are working with our carrier partner to resolve the issue. We will pro…",
-          "link": "https://status.twilio.com/incidents/1tt4ssnzkwcn",
-          "publishedOn": "2024-11-24T21:17:21.000Z",
-          "wordCount": 7966,
-          "title": "SMS Delivery Delays to Telma Network in Madagascar",
+          "description": "Nov 24, 23:54 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Multiple Networks In New Zealand Via Subset Of Short Codes. This incident has been resolved.\nNov 24, 22:16 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Multiple Networks In New Zealand Via Subset Of Short Codes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 21:20 PST\nInvestigating - We are experiencing delays in receiving message delivery reports when sending SMS to New Zealand Via Subset Of Short Codes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/9rwxjrz5z5wq",
+          "publishedOn": "2024-11-25T07:54:36.000Z",
+          "wordCount": 7623,
+          "title": "SMS Delivery Delays to Multiple Networks In New Zealand Via Subset Of Short Codes",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/2lczpr72bfrb",
+          "id": "https://status.twilio.com/incidents/r9xd0z8wjmd5",
           "author": null,
-          "description": "Nov 24, 13:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 22, 05:05 PST\nScheduled - Our SMS carrier partner in the United States and Puerto Rico is conducting a planned maintenance from 24 November 2024 at 13:00 PST until 24 November 2024 at 21:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from United States and Puerto Rico handsets.",
-          "link": "https://status.twilio.com/incidents/2lczpr72bfrb",
-          "publishedOn": "2024-11-24T21:00:21.000Z",
-          "wordCount": 7543,
-          "title": "Multiple Destination SMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/y2940kq6x6zk",
-          "author": null,
-          "description": "Nov 24, 12:55 PST\nResolved - We are no longer experiencing SMS Delivery Delays to Safaricom in Kenya. This incident has been resolved.\nNov 24, 10:56 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Safaricom in Kenya. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 09:46 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to Safaricom in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nNov 24, 09:44 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to Safaricom in Kenya. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nNov 24, 09:33 PST\nInvestigating - Our monitoring systems have detected a potential issue with SMS Delivery Delays to Safaricom in Kenya. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/y2940kq6x6zk",
-          "publishedOn": "2024-11-24T20:55:13.000Z",
-          "wordCount": 7673,
-          "title": "SMS Delivery Delays to Safaricom in Kenya",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/0fk0b49k2hb2",
-          "author": null,
-          "description": "Nov 24, 12:10 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 19, 22:04 PST\nScheduled - The Hi3G network in Sweden and Denmark is conducting a series of planned maintenances from 24 November 2024 at 12:10 PST until 27 November 2024 at 21:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Hi3G Sweden and Denmark handsets.\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n24 November 2024 at 12:10 PST until 24 November 2024 at 21:00 PST\n26 November 2024 at 12:10 PST until 26 November 2024 at 21:00 PST\n27 November 2024 at 12:10 PST until 27 November 2024 at 21:00 PST",
-          "link": "https://status.twilio.com/incidents/0fk0b49k2hb2",
-          "publishedOn": "2024-11-24T20:10:21.000Z",
-          "wordCount": 7585,
-          "title": "Multiple Destination SMS Carrier Maintenance - Hi3G",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/gvv1t7dgmqn7",
-          "author": null,
-          "description": "Nov 24, 09:26 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Mobilis Network in Algeria. This incident has been resolved.\nNov 24, 06:50 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Mobilis Network in Algeria. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 04:56 PST\nUpdate - We continue experiencing SMS delivery delays when sending messages to Mobilis Network in Algeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 24, 03:58 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to Mobilis Network in Algeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/gvv1t7dgmqn7",
-          "publishedOn": "2024-11-24T17:26:43.000Z",
-          "wordCount": 7639,
-          "title": "SMS Delivery Delays to Mobilis Network in Algeria",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/9qk7g57k8v71",
-          "author": null,
-          "description": "Nov 24, 04:00 PST\nCompleted - The scheduled maintenance has been completed.\nNov 24, 01:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 19, 22:50 PST\nScheduled - Our carrier partner T-Mobile US United States is conducting a planned maintenance from 24 November 2024 at 01:00 PST until 24 November 2024 at 04:00 PST. During the maintenance window, there could be intermittent API request failures for T-Mobile US United States customers.\n\nImpacted Product: Lookup SIM Swap",
-          "link": "https://status.twilio.com/incidents/9qk7g57k8v71",
-          "publishedOn": "2024-11-24T12:00:21.000Z",
-          "wordCount": 7555,
-          "title": "United States Account Security Carrier Partner Maintenance - T-Mobile US",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/h4s3zm7z8vx3",
-          "author": null,
-          "description": "Nov 23, 11:39 PST\nResolved - SMS delivery delays to Safaricom network in Kenya were observed between 09:39 and 10:35 Pacific Time on 11/23/2024. Customers may have experienced delayed SMS delivery during the incident. The issue has now been resolved.",
-          "link": "https://status.twilio.com/incidents/h4s3zm7z8vx3",
-          "publishedOn": "2024-11-23T19:39:15.000Z",
-          "wordCount": 7491,
-          "title": "SMS Delivery Delays to Safaricom Network in Kenya",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/dl8yy7qm6cs4",
-          "author": null,
-          "description": "Nov 23, 11:00 PST\nResolved - The issue with Flex Voice conference has been resolved and it is operating normally at this time.\nNov 23, 09:05 PST\nMonitoring - Flex Voice conference is now operating normally. Customers should be now able to add participants to conferences while using ApplicationId as “from” number. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.\nNov 23, 08:40 PST\nInvestigating - We are investigating an issue with Voice conference, where Application Connect is configured for voice call flows: https://www.twilio.com/en-us/blog/introducing-twilio-application-connect-programmable-voice. Customers are unable to add participants to conferences while using ApplicationId as “from” number. We expect to provide another update in 15 minutes or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/dl8yy7qm6cs4",
-          "publishedOn": "2024-11-23T19:00:07.000Z",
-          "wordCount": 7605,
-          "title": "Issues When Adding Participants to Conference Calls in App Connect",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/rf1q031ztr6c",
-          "author": null,
-          "description": "Nov 23, 05:00 PST\nCompleted - The scheduled maintenance has been completed.\nNov 22, 19:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 21, 00:25 PST\nScheduled - Our Voice carrier partner in the United States is conducting a planned maintenance from 22 November 2024 at 19:00 PST until 23 November 2024 at 05:00 PST. During the maintenance window, there could be intermittent call disconnects or call failures to Twilio United States phone numbers.",
-          "link": "https://status.twilio.com/incidents/rf1q031ztr6c",
-          "publishedOn": "2024-11-23T13:00:21.000Z",
-          "wordCount": 7542,
-          "title": "United States Voice Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/0w9xt7pxtksq",
-          "author": null,
-          "description": "Nov 23, 01:47 PST\nResolved - We are no longer experiencing SMS delivery report delays to multiple networks in Mexico. This incident has been resolved.\nNov 22, 23:54 PST\nMonitoring - We are observing recovery in SMS Delivery Report Delays to Multiple Networks in Mexico. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 22, 22:08 PST\nUpdate - We continue to experience delays in receiving message delivery reports to multiple networks in Mexico. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nNov 22, 21:08 PST\nInvestigating - We are experiencing delays in receiving message delivery reports to multiple networks in Mexico. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/0w9xt7pxtksq",
-          "publishedOn": "2024-11-23T09:47:37.000Z",
-          "wordCount": 7641,
-          "title": "SMS Delivery Report Delays To Multiple Networks In Mexico.",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/6fpvq7ls5yqz",
-          "author": null,
-          "description": "Nov 23, 00:32 PST\nResolved - The issue affecting inbound calls to a subset of Twilio phone numbers in Bangkok has been resolved, and the service is functioning normally at this time.\nNov 22, 22:41 PST\nMonitoring - We have started seeing recovery for inbound calls to a subset of Twilio phone numbers in Bangkok. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nNov 22, 21:40 PST\nInvestigating - We are observing inbound call failures to Twilio Bangkok phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/6fpvq7ls5yqz",
-          "publishedOn": "2024-11-23T08:32:45.000Z",
-          "wordCount": 7602,
-          "title": "Inbound Call Failure To A Subset Of Twilio Phone Numbers In Bangkok",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/kgnnk5636hh3",
-          "author": null,
-          "description": "Nov 23, 00:20 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Telma Network in Madagascar. This incident has been resolved.\nNov 22, 22:29 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Telma Network in Madagascar. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 22, 16:26 PST\nUpdate - We are continue to experience SMS delivery delays when sending messages to Telma Network in Madagascar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 16 hours or as soon as more information becomes available.\nNov 22, 08:26 PST\nUpdate - We are continue to experience SMS delivery delays when sending messages to Telma Network in Madagascar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nNov 22, 04:27 PST\nUpdate - We are continuing to experiencing SMS delivery delays when sending messages to Telma Network in Madagascar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nNov 22, 02:28 PST\nUpdate - We are experiencing SMS delivery delays when sending messages to Telma Network in Madagascar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nNov 22, 01:28 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to Telma Network in Madagascar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/kgnnk5636hh3",
-          "publishedOn": "2024-11-23T08:20:20.000Z",
-          "wordCount": 7795,
-          "title": "SMS Delivery Delays to Telma Network in Madagascar",
+          "description": "Nov 24, 21:30 PST\nCompleted - The scheduled maintenance has been completed.\nNov 24, 20:30 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 22, 15:12 PST\nScheduled - The MTS network in Russia is conducting a planned maintenance from 24 November 2024 at 20:30 PST until 24 November 2024 at 21:30 PST. During the maintenance window, there could be intermittent delays delivering SMS to MTS Russia handsets.",
+          "link": "https://status.twilio.com/incidents/r9xd0z8wjmd5",
+          "publishedOn": "2024-11-25T05:30:21.000Z",
+          "wordCount": 7534,
+          "title": "Russia SMS Carrier Maintenance - MTS",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -273,6 +243,36 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/nz9lwl328ppy",
+          "author": null,
+          "description": "Nov 25, 22:05 UTC\nResolved - Our Engineering team is investigating an issue related to our ongoing SFO3 maintenance here: https://status.digitalocean.com/incidents/4kj7krrpyg3k\nFrom 20:23 - 20:25 UTC, some services were impacted by a drop in networking. During that time, some Managed Kubernetes clusters experienced errors from the Kubernetes API and/or an increase in 5xx errors. Communication between other services and Block Storage Volumes may have been impacted as well.\nThe impact has been mitigated and services should be working normally at this time.\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.",
+          "link": "https://status.digitalocean.com/incidents/nz9lwl328ppy",
+          "publishedOn": "2024-11-25T22:05:41.000Z",
+          "wordCount": 6283,
+          "title": "Block Storage in SFO3",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/4kj7krrpyg3k",
+          "author": null,
+          "description": "Nov 25, 22:00 UTC\nCompleted - The scheduled maintenance has been completed.\nNov 25, 16:30 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nNov 23, 16:35 UTC\nScheduled - Start: 2024-11-25 16:30 UTC\nEnd: 2024-11-25 22:00 UTC\nDuring the above window, our Networking team will be making changes to core networking infrastructure, to improve performance and scalability in the SFO3 region. \nExpected impact:\nDuring the maintenance window users may experience delays or failures with event processing for a brief duration on Droplets and Droplet-based services including Droplets, Managed Kubernetes, Load Balancers, Container Registry, and App Platform. We will endeavor to keep this to a minimum for the duration of the change.\nIf you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
+          "link": "https://status.digitalocean.com/incidents/4kj7krrpyg3k",
+          "publishedOn": "2024-11-25T22:00:21.000Z",
+          "wordCount": 6320,
+          "title": "SFO3 Network Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/q44dky12bcjm",
+          "author": null,
+          "description": "Nov 25, 19:20 UTC\nResolved - Given the absence of outages for the Support Portal, we will now resolve this incident. Our Engineering team will continue to work with our vendor to ensure continued stability of this service. If we observe further outages, we will communicate those to our users via new updates on our status page. \nWe sincerely apologize and thank you for your patience as we worked through this issue.  In case of any questions or concerns, please open a ticket with our Support team.\nNov 25, 15:56 UTC\nUpdate - Our Engineering team continues to work with our vendor to find a solution, but we have not observed any further outages of our Support Portal over the last 48 hours. We will provide additional updates as information becomes available. If an outage does occur, users may st…",
+          "link": "https://status.digitalocean.com/incidents/q44dky12bcjm",
+          "publishedOn": "2024-11-25T19:20:05.000Z",
+          "wordCount": 6521,
+          "title": "Customer Support Ticket Portal",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/r2mnb81dwxqb",
           "author": null,
           "description": "Nov 22, 17:44 UTC\nResolved - From 09:05 to 09:50 UTC (November 21), our Engineering team observed an issue with Droplet creation.\n During this time, users may have experienced intermittent errors while creating the Droplets via the Cloud Panel and API. Users should no longer be experiencing these issues.\nWe apologize for the inconvenience. If you have any questions or continue to experience issues, please reach out via a Support ticket on your account.",
@@ -280,16 +280,6 @@
           "publishedOn": "2024-11-22T17:44:00.000Z",
           "wordCount": 6255,
           "title": "Droplet creates in NYC3",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/q44dky12bcjm",
-          "author": null,
-          "description": "Nov 22, 03:49 UTC\nUpdate - Our Engineering team continues to work with our vendor in order to resolve the issue with users accessing the Support Portal. The issue has been escalated and we are awaiting feedback. \nAs a reminder, if users need to reach out, they can utilize the form here as a workaround:\nhttps://www.digitalocean.com/company/contact/support\nThank you for your patience. We will post an update as soon as further information becomes available.\nNov 21, 15:40 UTC\nInvestigating - Our Engineering team has observed issues with our Support Portal. During brief, recurring outages, users are unable to access the Support Portal at https://cloudsupport.digitalocean.com/. We are aware of these events and our engineers are working with our vendor to resolve this. \n As this issue is intermittent, we expect users will be able to log support tickets normally. However, during any periods of unavailability, as a temporary workaround, users may still contact us via the form here: https://www.digitalocean.com/company/contact/support\nThank you for your patience. We will post an update as soon as further information becomes available.",
-          "link": "https://status.digitalocean.com/incidents/q44dky12bcjm",
-          "publishedOn": "2024-11-22T03:50:00.000Z",
-          "wordCount": 6358,
-          "title": "Customer Support Ticket Portal",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
@@ -470,6 +460,16 @@
       "siteUrl": "https://status.notion.so",
       "articles": [
         {
+          "id": "https://status.notion.so/incidents/b834kp9tmgf6",
+          "author": null,
+          "description": "Nov 25, 04:24 PST\nResolved - Our team has deployed a fix, and the system is now functioning as expected.\nNov 25, 04:17 PST\nUpdate - We are continuing to investigate this issue.\nNov 25, 04:17 PST\nInvestigating - Notion is experiencing a degradation in Database automations, causing delays in trigger execution.",
+          "link": "https://status.notion.so/incidents/b834kp9tmgf6",
+          "publishedOn": "2024-11-25T12:24:49.000Z",
+          "wordCount": 3363,
+          "title": "Database Automation Degradation in Notion",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.notion.so/incidents/yzfljh0x4tlz",
           "author": null,
           "description": "Nov 23, 23:23 PST\nResolved - This incident has been resolved.\nNov 23, 22:01 PST\nIdentified - Some users on the Android Notion mobile app may not be able to use the templates. The issue has been identified and a fix is being deployed.",
@@ -630,6 +630,26 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/ltyqfp67463z",
+          "author": null,
+          "description": "Nov 25, 15:25 UTC\nResolved - Between 13:30 and 15:00 UTC, repository searches were timing out for most users. The ongoing efforts from the similar incident last week helped uncover the main contributing factors. We have deployed short-term mitigations and identified longer term work to proactively identify and limit resource-intensive searches.\nNov 25, 15:24 UTC\nUpdate - Search is now operating normally. We are declaring this issue resolved.\nNov 25, 15:10 UTC\nUpdate - We are now observing signs of complete recovery in search. We will continue to monitor and assess.\nNov 25, 14:40 UTC\nUpdate - We're observing signs of recovery in search, we will continue to monitor.\nNext update within 15 minutes.\n\nNov 25, 14:10 UTC\nUpdate - We are seeing failures in repos, users, discussions, and wikis search. Customers may see failing searches and searching by topic may fail to load. \nCode and issues search continue to be available.\nThe team is investigating, next update in 30m.\nNov 25, 13:58 UTC\nUpdate - We are seeing failures in search. Customers may see failing searches and searching by topic may fail to load.\nNov 25, 13:57 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/ltyqfp67463z",
+          "publishedOn": "2024-11-25T15:25:10.000Z",
+          "wordCount": 5515,
+          "title": "Disruption with GitHub Search",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
+          "id": "https://www.githubstatus.com/incidents/nbscbkxwxjrx",
+          "author": null,
+          "description": "Nov 25, 12:17 UTC\nResolved - This incident has been resolved.\nNov 25, 12:17 UTC\nUpdate - This incident has been mitigated; we are now seeing requests succeeding to the Claude 3.5 Sonnet model in Copilot.\nNov 25, 11:44 UTC\nUpdate - The team is continuing to investigate errors using the Claude 3.5 Sonnet v2 model and has engaged our partners.\nAll requests to this model are failing, but other Copilot models are functional and can be used as an alternative.\nNov 25, 11:00 UTC\nUpdate - Users cannot use the Claude 3.5 Sonnet model in GitHub Copilot currently, in both VS Code and GitHub.com chat.  The team is investigating.\nNov 25, 10:51 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/nbscbkxwxjrx",
+          "publishedOn": "2024-11-25T12:17:35.000Z",
+          "wordCount": 5440,
+          "title": "Disruption with some GitHub services",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/dnq4lp93t62f",
           "author": null,
