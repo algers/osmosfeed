@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-12-01T00:36:33.928Z</id>
+    <id>urn:2024-12-02T00:31:50.390Z</id>
     <title>osmos::feed</title>
-    <updated>2024-12-01T00:36:33.928Z</updated>
+    <updated>2024-12-02T00:31:50.390Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
+        <id>https://www.githubstatus.com/incidents/qq1m7mqcl6zk</id>
+        <link href="https://www.githubstatus.com/incidents/qq1m7mqcl6zk"/>
+        <updated>2024-12-02T00:14:47.000Z</updated>
+        <summary type="html"><![CDATA[Dec  2, 00:14 UTC
+Update - We continue to investigate large hosted runners not picking up jobs.
+Dec  1, 23:43 UTC
+Update - We continue to investigate issues with large runners.
+Dec  1, 23:24 UTC
+Update - We're seeing issues related to large runners not picking up jobs and are investigating.
+Dec  1, 23:18 UTC
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Users might see some issues with real time editing on multiplayer workspaces]]></title>
         <id>https://status.notion.so/incidents/85n3g68x87nf</id>
@@ -1082,56 +1099,6 @@ As an immediate fix, we manually processed these database replications, restorin
 After verifying that requests were successfully serviced, we implemented a backend logic update to allow for future system changes to be handled automatically, reducing the likelihood of this reoccurring.]]></summary>
         <author>
             <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Event Processing in NYC2 Region]]></title>
-        <id>https://status.digitalocean.com/incidents/f5fc4f6w9c2v</id>
-        <link href="https://status.digitalocean.com/incidents/f5fc4f6w9c2v"/>
-        <updated>2024-11-01T17:37:40.000Z</updated>
-        <summary type="html"><![CDATA[Nov  1, 17:37 UTC
-Resolved - Our Engineering team has confirmed resolution of the issue impacting Droplet creation events and event processing and all services should now be operating normally. If you continue to experience any problems, please open a ticket with our Support team. Thank you for your patience and we apologize for any inconvenience.
-Nov  1, 13:39 UTC
-Update - We are continuing to monitor for any further issues.
-Nov  1, 13:36 UTC
-Monitoring - Our Engineers are currently monitoring an issue related to event processing and Droplet creates in our NYC2 region. Between 12:34 UTC and 13:09, users may have experienced failures with events such as creating, destroying, or rebuilding Droplets and Droplet-backed products. Our team has mitigated the impact and is monitoring the situation closely. We will post another update as soon as we can confirm the issue to be fully resolved.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Issues with the date field in lists]]></title>
-        <id>https://slack-status.com/2024-10/78ebe328edf0a671</id>
-        <link href="https://slack-status.com/2024-10/78ebe328edf0a671"/>
-        <updated>2024-11-01T15:07:07.000Z</updated>
-        <summary type="html"><![CDATA[From October 31, 2024 4:30 PM PDT to November 1, 2024 3:30 AM PDT some users experienced issues with the date field in lists appearing garbled. 
-
-We were able to trace this back to a code change that inadvertently caused the issue.
-
-We reverted this code change which resolved the issue for all affected users.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Core Network Maintenance]]></title>
-        <id>https://status.digitalocean.com/incidents/v4y4vz1zv1ty</id>
-        <link href="https://status.digitalocean.com/incidents/v4y4vz1zv1ty"/>
-        <updated>2024-11-01T14:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Nov  1, 14:00 UTC
-Completed - The scheduled maintenance has been completed.
-Nov  1, 13:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Oct 29, 18:03 UTC
-Scheduled - Start Time: Tuesday, Nov 1, 2024 at 13:00 UTC
-End Time: Tuesday, Nov 1, 2024 at 14:00 UTC
-During the above window, our Engineering team will perform maintenance on the authoritative DNS infrastructure in order to improve reliability of the service. During this operation, the IPv4 and IPv6 addresses of “ns2.digitalocean.com” will change. Customers do NOT need to take any action in preparation for this update.
-Expected Impact:
-This update is designed to be seamless and we do not expect any impact to DNS queries made to customer domains hosted by DigitalOcean as a result of this maintenance. 
-If an unexpected issue arises, resolution of some records in zones hosted with DigitalOcean may experience increased latency or a brief disruption. We will endeavor to keep any such impact to a minimum.
-If you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>

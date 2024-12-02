@@ -270,26 +270,6 @@
           "wordCount": 6388,
           "title": "Core Infrastructure Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/f5fc4f6w9c2v",
-          "author": null,
-          "description": "Nov  1, 17:37 UTC\nResolved - Our Engineering team has confirmed resolution of the issue impacting Droplet creation events and event processing and all services should now be operating normally. If you continue to experience any problems, please open a ticket with our Support team. Thank you for your patience and we apologize for any inconvenience.\nNov  1, 13:39 UTC\nUpdate - We are continuing to monitor for any further issues.\nNov  1, 13:36 UTC\nMonitoring - Our Engineers are currently monitoring an issue related to event processing and Droplet creates in our NYC2 region. Between 12:34 UTC and 13:09, users may have experienced failures with events such as creating, destroying, or rebuilding Droplets and Droplet-backed products. Our team has mitigated the impact and is monitoring the situation closely. We will post another update as soon as we can confirm the issue to be fully resolved.",
-          "link": "https://status.digitalocean.com/incidents/f5fc4f6w9c2v",
-          "publishedOn": "2024-11-01T17:37:40.000Z",
-          "wordCount": 6339,
-          "title": "Event Processing in NYC2 Region",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/v4y4vz1zv1ty",
-          "author": null,
-          "description": "Nov  1, 14:00 UTC\nCompleted - The scheduled maintenance has been completed.\nNov  1, 13:00 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nOct 29, 18:03 UTC\nScheduled - Start Time: Tuesday, Nov 1, 2024 at 13:00 UTC\nEnd Time: Tuesday, Nov 1, 2024 at 14:00 UTC\nDuring the above window, our Engineering team will perform maintenance on the authoritative DNS infrastructure in order to improve reliability of the service. During this operation, the IPv4 and IPv6 addresses of “ns2.digitalocean.com” will change. Customers do NOT need to take any action in preparation for this update.\nExpected Impact:\nThis update is designed to be seamless and we do not expect any impact to DNS queries made to customer domains hosted by DigitalOcean as a result of this maintenance. \nIf an unexpected issue arises, resolution of some records in zones hosted with DigitalOcean may experience increased latency or a brief disruption. We will endeavor to keep any such impact to a minimum.\nIf you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/.",
-          "link": "https://status.digitalocean.com/incidents/v4y4vz1zv1ty",
-          "publishedOn": "2024-11-01T14:00:02.000Z",
-          "wordCount": 6372,
-          "title": "Core Network Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -470,6 +450,16 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/qq1m7mqcl6zk",
+          "author": null,
+          "description": "Dec  2, 00:14 UTC\nUpdate - We continue to investigate large hosted runners not picking up jobs.\nDec  1, 23:43 UTC\nUpdate - We continue to investigate issues with large runners.\nDec  1, 23:24 UTC\nUpdate - We're seeing issues related to large runners not picking up jobs and are investigating.\nDec  1, 23:18 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/qq1m7mqcl6zk",
+          "publishedOn": "2024-12-02T00:14:47.000Z",
+          "wordCount": 5384,
+          "title": "Disruption with some GitHub services",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/fjntvyfzm8kn",
           "author": null,
           "description": "Nov 28, 07:01 UTC\nResolved - This incident has been resolved.\nNov 28, 07:00 UTC\nUpdate - We identified the issue and applied a mitigation, resulting in the cessation of timeouts. While we are considering this incident resolved for now, we are continuing to investigate the root cause and plan to implement a permanent fix. Updates will follow as we progress.\nNov 28, 06:36 UTC\nUpdate - We are investigating issues with timeouts in some requests in Codespaces. We will update you on mitigation progress.\nNov 28, 06:27 UTC\nInvestigating - We are investigating reports of degraded performance for Codespaces",
@@ -594,16 +584,6 @@
           "publishedOn": "2024-11-04T20:28:12.000Z",
           "wordCount": 437,
           "title": "Incident: Users unable to sign in with SSO or SCIM. Multiple Slack features are experiencing issues.",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-10/78ebe328edf0a671",
-          "author": null,
-          "description": "From October 31, 2024 4:30 PM PDT to November 1, 2024 3:30 AM PDT some users experienced issues with the date field in lists appearing garbled. \n\nWe were able to trace this back to a code change that inadvertently caused the issue.\n\nWe reverted this code change which resolved the issue for all affected users.",
-          "link": "https://slack-status.com/2024-10/78ebe328edf0a671",
-          "publishedOn": "2024-11-01T15:07:07.000Z",
-          "wordCount": 311,
-          "title": "Incident: Issues with the date field in lists",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
