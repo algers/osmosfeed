@@ -279,6 +279,16 @@
       "siteUrl": "https://status.notion.so",
       "articles": [
         {
+          "id": "https://status.notion.so/incidents/ngpmmkl8fgt3",
+          "author": null,
+          "description": "Dec  2, 04:54 PST\nResolved - Between 2:20 AM and 4:20 AM PST, some users experienced login issues resulting in 500 errors for ~1% of workspaces. Our engineers quickly identified and resolved the problem, and everyone should be able to access their workspace again.",
+          "link": "https://status.notion.so/incidents/ngpmmkl8fgt3",
+          "publishedOn": "2024-12-02T12:54:09.000Z",
+          "wordCount": 3363,
+          "title": "Some users experienced a 500 error during login",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.notion.so/incidents/85n3g68x87nf",
           "author": null,
           "description": "Nov 29, 01:42 PST\nResolved - Our team has deployed a fix, and real time edits are working as expected now.\nNov 29, 01:00 PST\nInvestigating - Starting 11:30 PM PST, we started experiencing issues with realtime editing on multiplayer workspaces. Our engineering team is notified about it and they are working to resolve the issue. We will provide more updates as and when they become available.",
@@ -452,10 +462,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/qq1m7mqcl6zk",
           "author": null,
-          "description": "Dec  2, 00:14 UTC\nUpdate - We continue to investigate large hosted runners not picking up jobs.\nDec  1, 23:43 UTC\nUpdate - We continue to investigate issues with large runners.\nDec  1, 23:24 UTC\nUpdate - We're seeing issues related to large runners not picking up jobs and are investigating.\nDec  1, 23:18 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Dec  2, 01:05 UTC\nResolved - Between Dec 1 12:20 UTC and Dec 2 1:05 UTC, availability of large hosted runners for Actions was degraded due to failures in background VM provisioning jobs. Users would see workflows queued waiting for a runner.  On average, 8% of all workflows requiring large runners over the incident time were affected, peaking at 37.5% of requests.  There were also lower levels of intermittent queuing on Dec 1 beginning around 3:00 UTC.  Standard and Mac runners were not affected. \nThe job failures were caused by timeouts to a dependent service in the VM provisioning flow and gaps in the jobs’ resilience to those timeouts.  The incident was mitigated by circumventing the dependency as it was not in the critical path of VM provisioning.\nThere are a few immediate improvements we are making in response to this.  We are addressing the causes of the failed calls to improve the availability of calls to that backend service.  Even with that impact, the critical flow of large VM provisioning should not have been impacted, so we are improving the client behavior to fail fast and circuit break non-critical calls.  Finally the alerting for this service was not adequate in this particular scenario to ensure fast response by our team.  We are improving our automated detection from this to reduce our time to detection and mitigation of issues like this one in the future.\nDec  2, 00:57 UTC\nUpdate - We've applied a mitigation to fix the issues with large runner jobs processing. We are seeing improvements in telemetry and are monitoring for full recovery.\nDec  2, 00:14 UTC\nUpdate - We continue to investigate large hosted runners not picking up jobs.\nDec  1, 23:43 UTC\nUpdate - We continue to investigate issues with large runners.\nDec  1, 23:24 UTC\nUpdate - We're seeing issues related to large runners not picking up jobs and are investigating.\nDec  1, 23:18 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/qq1m7mqcl6zk",
-          "publishedOn": "2024-12-02T00:14:47.000Z",
-          "wordCount": 5384,
+          "publishedOn": "2024-12-02T01:05:26.000Z",
+          "wordCount": 5649,
           "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -492,10 +502,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/nbscbkxwxjrx",
           "author": null,
-          "description": "Nov 25, 12:17 UTC\nResolved - This incident has been resolved.\nNov 25, 12:17 UTC\nUpdate - This incident has been mitigated; we are now seeing requests succeeding to the Claude 3.5 Sonnet model in Copilot.\nNov 25, 11:44 UTC\nUpdate - The team is continuing to investigate errors using the Claude 3.5 Sonnet v2 model and has engaged our partners.\nAll requests to this model are failing, but other Copilot models are functional and can be used as an alternative.\nNov 25, 11:00 UTC\nUpdate - Users cannot use the Claude 3.5 Sonnet model in GitHub Copilot currently, in both VS Code and GitHub.com chat.  The team is investigating.\nNov 25, 10:51 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Nov 25, 12:17 UTC\nResolved - On November 25th, 2024 between 10:38 UTC and 12:00 UTC the Claude model for GitHub Copilot Chat experienced degraded performance. During the impact, all requests to Claude would result in an immediate error to the user. This was due to upstream errors with one of our infrastructure providers, which have since been mitigated.\nWe are working with our infrastructure providers to reduce time to detection and implement additional failover options to mitigate issues like this one in the future.\nNov 25, 12:17 UTC\nUpdate - This incident has been mitigated; we are now seeing requests succeeding to the Claude 3.5 Sonnet model in Copilot.\nNov 25, 11:44 UTC\nUpdate - The team is continuing to investigate errors using the Claude 3.5 Sonnet v2 model and has engaged our partners.\nAll requests to this model are failing, but other Copilot models are functional and can be used as an alternative.\nNov 25, 11:00 UTC\nUpdate - Users cannot use the Claude 3.5 Sonnet model in GitHub Copilot currently, in both VS Code and GitHub.com chat.  The team is investigating.\nNov 25, 10:51 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/nbscbkxwxjrx",
           "publishedOn": "2024-11-25T12:17:35.000Z",
-          "wordCount": 5440,
+          "wordCount": 5513,
           "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },

@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-12-02T00:31:50.390Z</id>
+    <id>urn:2024-12-03T00:31:26.530Z</id>
     <title>osmos::feed</title>
-    <updated>2024-12-02T00:31:50.390Z</updated>
+    <updated>2024-12-03T00:31:26.530Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Some users experienced a 500 error during login]]></title>
+        <id>https://status.notion.so/incidents/ngpmmkl8fgt3</id>
+        <link href="https://status.notion.so/incidents/ngpmmkl8fgt3"/>
+        <updated>2024-12-02T12:54:09.000Z</updated>
+        <summary type="html"><![CDATA[Dec  2, 04:54 PST
+Resolved - Between 2:20 AM and 4:20 AM PST, some users experienced login issues resulting in 500 errors for ~1% of workspaces. Our engineers quickly identified and resolved the problem, and everyone should be able to access their workspace again.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
         <id>https://www.githubstatus.com/incidents/qq1m7mqcl6zk</id>
         <link href="https://www.githubstatus.com/incidents/qq1m7mqcl6zk"/>
-        <updated>2024-12-02T00:14:47.000Z</updated>
-        <summary type="html"><![CDATA[Dec  2, 00:14 UTC
+        <updated>2024-12-02T01:05:26.000Z</updated>
+        <summary type="html"><![CDATA[Dec  2, 01:05 UTC
+Resolved - Between Dec 1 12:20 UTC and Dec 2 1:05 UTC, availability of large hosted runners for Actions was degraded due to failures in background VM provisioning jobs. Users would see workflows queued waiting for a runner.  On average, 8% of all workflows requiring large runners over the incident time were affected, peaking at 37.5% of requests.  There were also lower levels of intermittent queuing on Dec 1 beginning around 3:00 UTC.  Standard and Mac runners were not affected. 
+The job failures were caused by timeouts to a dependent service in the VM provisioning flow and gaps in the jobs’ resilience to those timeouts.  The incident was mitigated by circumventing the dependency as it was not in the critical path of VM provisioning.
+There are a few immediate improvements we are making in response to this.  We are addressing the causes of the failed calls to improve the availability of calls to that backend service.  Even with that impact, the critical flow of large VM provisioning should not have been impacted, so we are improving the client behavior to fail fast and circuit break non-critical calls.  Finally the alerting for this service was not adequate in this particular scenario to ensure fast response by our team.  We are improving our automated detection from this to reduce our time to detection and mitigation of issues like this one in the future.
+Dec  2, 00:57 UTC
+Update - We've applied a mitigation to fix the issues with large runner jobs processing. We are seeing improvements in telemetry and are monitoring for full recovery.
+Dec  2, 00:14 UTC
 Update - We continue to investigate large hosted runners not picking up jobs.
 Dec  1, 23:43 UTC
 Update - We continue to investigate issues with large runners.
@@ -284,7 +301,8 @@ Investigating - Notion is experiencing a degradation in Database automations, ca
         <link href="https://www.githubstatus.com/incidents/nbscbkxwxjrx"/>
         <updated>2024-11-25T12:17:35.000Z</updated>
         <summary type="html"><![CDATA[Nov 25, 12:17 UTC
-Resolved - This incident has been resolved.
+Resolved - On November 25th, 2024 between 10:38 UTC and 12:00 UTC the Claude model for GitHub Copilot Chat experienced degraded performance. During the impact, all requests to Claude would result in an immediate error to the user. This was due to upstream errors with one of our infrastructure providers, which have since been mitigated.
+We are working with our infrastructure providers to reduce time to detection and implement additional failover options to mitigate issues like this one in the future.
 Nov 25, 12:17 UTC
 Update - This incident has been mitigated; we are now seeing requests succeeding to the Claude 3.5 Sonnet model in Copilot.
 Nov 25, 11:44 UTC
