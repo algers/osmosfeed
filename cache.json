@@ -6,6 +6,16 @@
       "siteUrl": "https://changelog.bookingsync.com",
       "articles": [
         {
+          "id": "305799",
+          "author": "Eduardo, Head of Product",
+          "description": "New!\n  \nWe’re excited to introduce Account-Level cancelation Policies—a smarter, more efficient way to manage cancelation policies across your rentals!\nWhat’s New?\nCentralized Management: cancelation policies are now set at the account level (Settings > cancelation Policies), allowing you to define and manage all policies in one place.\nDefault Policy Assignment: Assign one policy as the default for all newly created rentals, ensuring consistency across your properties.\nRental-Level Flexibility: While cancelation policies are managed at the account level, you can still customize each rental by selecting a policy from the ones defined in your account.\nWhy This Matters\nManaging cancelation policies used to be a complex and scattered process. With this update, you can:\nSave Time: Centralize yo…",
+          "link": "https://changelog.bookingsync.com/account-level-cancelation-policies-305799",
+          "publishedOn": "2024-12-05T13:25:37.000Z",
+          "wordCount": 564,
+          "title": "Account-Level Cancelation Policies",
+          "imageUrl": null
+        },
+        {
           "id": "304918",
           "author": "Megan, Product Manager",
           "description": "Improvement\n  \nWe heard you! Based on your feedback, we’re fine-tuning our payment page to make checkout smoother and more intuitive.\nHere’s what’s new:\nStreamlined Input Order: Cardholder info now flows in a logical, user-friendly sequence.\nSmarter Card Network Selection: Improved for multi-network cards while keeping it simple for others.\nBilling Address Option: You now have the option to request your customer's billing address during payment, offering flexibility to balance fraud prevention with a seamless process. This is configurable in your account payment settings. Learn more here.\nThese updates are designed to enhance your payment experience. Stay tuned for more improvements!",
@@ -31,7 +41,18 @@
       "title": "Security Bulletins on Tailscale",
       "feedUrl": "https://tailscale.com/security-bulletins/index.xml",
       "siteUrl": "https://tailscale.com/security-bulletins/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://tailscale.com/security-bulletins/#ts-2024-013",
+          "author": null,
+          "description": "Description: Potential for Tailscale SSH recording failures\nWhat happened?\nTailscale SSH recording deployments that enforce SSH recording\nusing enforceRecorder could fail to record session activity in several\nsituations.\nFailure to write to the storage backend\nIf tsrecorder instances were unable to write to their configured storage, SSH\nsessions would be allowed to execute for a few seconds (typically under one or\ntwo) while the first output bytes failed to write.\nA tsrecorder instance can fail to write to its configured storage for many\nreasons, including:\nMisconfigured IAM permissions when using S3 for storage.\nMisconfigured file permissions when using the local filesystem for storage.\nInsufficient free space when using the local filesystem for storage.\ntsrecorder now exercises the full set of required storage actions on startup.\nUnreachable tsrecorder after a session is established\nIf tsrecorder instances became unreachable after a session had started, the\nSSH session would take several minutes to terminate. This could happen when\ntsrecorder went offline or when ACLs were updated to restrict access to\ntsrecorder nodes.\nThe Tailscale client now detects tsrecorder unreachability within 30 seconds\nand terminates the connection.\nWho was affected?\nUsers of Tailscale SSH recording with enforceRecorder option and with\ntsrecorder and Tailscale client versions prior to 1.78.0.\nWhat was the impact?\nUsers connecting over Tailscale SSH to nodes that enforce session\nrecording via enforceRecorder ACL flags would have been able to execute\ncommands briefly before having their access terminated due to recording\nfailures.\nWhat do I need to do?\nUpdate tsrecorder instances and Tailscale clients to version 1.78.0 or later.",
+          "link": "https://tailscale.com/security-bulletins/#ts-2024-013",
+          "publishedOn": "2024-12-04T00:00:00.000Z",
+          "wordCount": 16427,
+          "title": "TS-2024-013",
+          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
+        }
+      ]
     },
     {
       "title": "Airbnb API Status - Incident History",
@@ -74,48 +95,7 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": [
-        {
-          "id": "https://status.twilio.com/incidents/q9scbbrl4df5",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Dec 5, 04:00 - 08:00 PST\nNov 27, 07:28 PST\nScheduled - Our Voice carrier partner in Australia and New Zealand is conducting a planned maintenance from 05 December 2024 at 04:00 PST until 05 December 2024 at 08:00 PST. During the maintenance window, there could be intermittent call disconnects or call failures to Twilio Australia and New Zealand phone numbers.",
-          "link": "https://status.twilio.com/incidents/q9scbbrl4df5",
-          "publishedOn": "2024-12-05T12:00:00.000Z",
-          "wordCount": 7516,
-          "title": "Multiple Destination Voice Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/gkmj0j5m01ly",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Dec 4, 21:30 - 23:30 PST\nNov 27, 07:36 PST\nScheduled - Our carrier partner Three United Kingdom is conducting a planned maintenance from 04 December 2024 at 21:30 PST until 04 December 2024 at 23:30 PST. During the maintenance window, there could be intermittent API request failures for Three United Kingdom customers.\n\nImpacted Products: Verify Silent Network Auth, Lookup SIM Swap, Lookup Identity Match, Legacy Identity MatchAndAttributes",
-          "link": "https://status.twilio.com/incidents/gkmj0j5m01ly",
-          "publishedOn": "2024-12-05T05:30:00.000Z",
-          "wordCount": 7542,
-          "title": "United Kingdom Account Security Carrier Partner Maintenance - Three",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/28nddsnjv8zb",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Dec 4, 21:00 PST  -  Dec 5, 04:00 PST\nNov 25, 21:55 PST\nUpdate - We will be undergoing scheduled maintenance during this time.\nNov 22, 12:31 PST\nScheduled - The T-Mobile network in the United States is conducting a planned maintenance from 04 December 2024 at 21:00 PST until 05 December 2024 at 04:00 PST. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile United States handsets.",
-          "link": "https://status.twilio.com/incidents/28nddsnjv8zb",
-          "publishedOn": "2024-12-05T05:00:00.000Z",
-          "wordCount": 7568,
-          "title": "United States SMS and MMS Carrier Maintenance - T-Mobile",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/8zbv9lynh8ch",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Dec 4, 20:00 PST  -  Dec 5, 00:00 PST\nDec  4, 14:18 PST\nScheduled - The SFR network in France is conducting an emergency maintenance from 04 December 2024 at 20:00 PST until 05 December 2024 at 00:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from SFR France handsets.\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
-          "link": "https://status.twilio.com/incidents/8zbv9lynh8ch",
-          "publishedOn": "2024-12-05T04:00:00.000Z",
-          "wordCount": 7530,
-          "title": "France SMS Carrier Maintenance - SFR",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "DigitalOcean Status - Incident History",
@@ -123,12 +103,22 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/75c8dmzb59bk",
+          "author": null,
+          "description": "Dec  6, 00:16 UTC\nMonitoring - Our Engineering team has deployed a fix for the issue with managing Reserved IPs via the Cloud Panel. Users should now be able to view the Reserved IPs page in their account. \nWe are currently monitoring the situation and will post an update as soon as the issue is fully resolved.\nDec  5, 23:59 UTC\nInvestigating - Our Engineering team is investigating an issue with managing Reserved IPs in the Cloud Panel. During this time, users may experience an error message when trying to view their Reserved IPs page at https://cloud.digitalocean.com/networking/reserved_ips. Managing Reserved IPs via the API should still be functioning.\nWe apologize for the inconvenience and will share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/75c8dmzb59bk",
+          "publishedOn": "2024-12-06T00:16:50.000Z",
+          "wordCount": 6316,
+          "title": "Reserved IP Page in Control Panel",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/jm44h02t22ck",
           "author": null,
           "description": "Nov 29, 05:35 UTC\nResolved - Our Engineering team has confirmed the full resolution of this issue. If you continue to experience problems, please open a ticket with our support team. Thank you for being so patient, and we apologize for any inconvenience.\nNov 29, 04:24 UTC\nMonitoring - Our domain registrar has taken action and the digitaloceanspaces.com domain is now recovering. We have verified the domain is resolving and are seeing error rates dropping for all impacted services. Users should begin seeing services returning to normal operation.\n Our Engineering teams are monitoring the situation to ensure complete recovery and we will post a final update soon.\nNov 29, 03:47 UTC\nUpdate - Our Engineering team has identified additional downstream services seeing elevated failure rates and bro…",
           "link": "https://status.digitalocean.com/incidents/jm44h02t22ck",
           "publishedOn": "2024-11-29T05:35:22.000Z",
-          "wordCount": 7189,
+          "wordCount": 7703,
           "title": "Spaces, Spaces CDN, DOCR, LBaaS, App Platform, Functions and Mongo Backups.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -598,16 +588,6 @@
           "publishedOn": "2024-11-19T12:03:43.000Z",
           "wordCount": 5377,
           "title": "Disruption with some GitHub services",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/17yzcr45rg2x",
-          "author": null,
-          "description": "Nov  6, 11:00 UTC\nResolved - Between 2024-11-06 11:14 UTC and 2024-11-08 at 18:15 UTC, pull requests added to merge queues in some repositories were not processed. This was caused by a bug in a new version of the merge queue code, and was mitigated by rolling back a feature flag. Around 1% of enqueued PRs were affected, with around 7% of repositories that use a merge queue being impacted at some time during the incident.\nQueues were impacted if their target branch had the “require status checks” setting enabled, but did not have any individual required checks configured. Our monitoring strategy only covered PRs automatically removed from the queue, which was insufficient to detect this issue.\nWe are improving our monitors to cover anomalous manual queue entry removal rates, which will allow us to detect this class of issue much sooner.",
-          "link": "https://www.githubstatus.com/incidents/17yzcr45rg2x",
-          "publishedOn": "2024-11-06T11:00:00.000Z",
-          "wordCount": 5469,
-          "title": "[Retroactive] Merge Queues not processing queued Pull Requests in some repositories",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
