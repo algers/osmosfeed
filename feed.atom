@@ -1,16 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2024-12-06T00:30:36.100Z</id>
+    <id>urn:2024-12-07T00:30:12.596Z</id>
     <title>osmos::feed</title>
-    <updated>2024-12-06T00:30:36.100Z</updated>
+    <updated>2024-12-07T00:30:12.596Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[NYC3 Network Maintenance]]></title>
+        <id>https://status.digitalocean.com/incidents/q0vrrvk75qxy</id>
+        <link href="https://status.digitalocean.com/incidents/q0vrrvk75qxy"/>
+        <updated>2024-12-06T21:00:21.000Z</updated>
+        <summary type="html"><![CDATA[Dec  6, 21:00 UTC
+Completed - The scheduled maintenance has been completed.
+Dec  6, 19:00 UTC
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Dec  6, 16:50 UTC
+Scheduled - Start: 2024-12-06 19:00 UTC
+End: 2024-12-06 21:00 UTC
+Our Networking team has identified a faulty redundant networking component in our NYC3 region, and are proceeding with emergency replacement during the above window today to ensure redundancy and networking availability in the region. 
+Expected impact:
+As the component under maintenance is part of a redundant group, we do not expect any impact on customer traffic or resources due to this maintenance. 
+We apologize for the short notice with this maintenance event, and thank you for your understanding. If you have any questions related to this event,  please create a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[App Platform Deployments]]></title>
+        <id>https://status.digitalocean.com/incidents/0xr1g55hnlhc</id>
+        <link href="https://status.digitalocean.com/incidents/0xr1g55hnlhc"/>
+        <updated>2024-12-06T18:38:50.000Z</updated>
+        <summary type="html"><![CDATA[Dec  6, 18:38 UTC
+Resolved - Our Engineering team identified an issue affecting App Platform deployments across all regions. The deploy-on-push functionality may not have triggered new builds between 15:45 and 18:15 UTC. 
+A fix has been implemented, and as of 18:15 UTC, deployments have been functioning successfully. If you continue to experience problems, please open a ticket with our support team. . We apologize for any inconvenience.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Issues loading databases]]></title>
+        <id>https://status.notion.so/incidents/mh8hmf4v6qjm</id>
+        <link href="https://status.notion.so/incidents/mh8hmf4v6qjm"/>
+        <updated>2024-12-06T17:42:43.000Z</updated>
+        <summary type="html"><![CDATA[Dec  6, 09:42 PST
+Resolved - This incident has been resolved.
+Dec  6, 08:17 PST
+Investigating - Some users may have experienced issues with loading databases over the past hour. Our engineers have mitigated the issue and are investigating the root cause to prevent future occurrences. We will share an update as soon as we can.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
+        <id>https://www.githubstatus.com/incidents/d33mtmnttgsh</id>
+        <link href="https://www.githubstatus.com/incidents/d33mtmnttgsh"/>
+        <updated>2024-12-06T17:17:36.000Z</updated>
+        <summary type="html"><![CDATA[Dec  6, 17:17 UTC
+Resolved - Upon further investigation, the degradation in migrations in the EU was caused by an internal configuration issue, which was promptly identified and resolved. No customer migrations were impacted during this time and the issue only affected GitHub Enterprise Cloud - EU and had no impact on Github.com. The service is now fully operational. We are following up by improving our processes for these internal configuration changes to prevent a recurrence, and to have incidents that affect GitHub Enterprise Cloud - EU be reported on https://eu.githubstatus.com/.
+Dec  6, 17:17 UTC
+Update - Migrations are failing for a subset of users in the EU region with data residency. We believe we have resolved the issue and are monitoring for resolution.
+Dec  6, 16:58 UTC
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changes to Step Free Guest Entrance Feature]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/nztsrjrn8742</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/nztsrjrn8742"/>
+        <updated>2024-12-06T08:00:21.000Z</updated>
+        <summary type="html"><![CDATA[Dec  6, 00:00 PST
+Completed - The scheduled maintenance has been completed.
+Nov  5, 00:00 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Nov  1, 16:54 PDT
+Scheduled - Changelog [published Oct 16]: https://developer.airbnb.com/changelog/changes-to-step-free-guest-entrance-feature
+To streamline the step-free entrance accessibility feature, "Step-free path to the guest entrance" will be removed and combined with "Step-free guest entrance”, for one simplified feature called "Step-free access”. 
+We will automatically update listings to only use the "Step-free access" accessibility feature. The migration begins on November 5, 2024 and lasts approximately one month. During this period, the submission of both accessibility features will be temporarily disabled. On December 5, 2024, the submission of home_step_free_access ("Step-free access") will be re-enabled.
+Learn more: https://developer.airbnb.com/changelog/changes-to-step-free-guest-entrance-feature]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reserved IP Page in Control Panel]]></title>
         <id>https://status.digitalocean.com/incidents/75c8dmzb59bk</id>
         <link href="https://status.digitalocean.com/incidents/75c8dmzb59bk"/>
-        <updated>2024-12-06T00:16:50.000Z</updated>
-        <summary type="html"><![CDATA[Dec  6, 00:16 UTC
+        <updated>2024-12-06T00:50:17.000Z</updated>
+        <summary type="html"><![CDATA[Dec  6, 00:50 UTC
+Resolved - Our Engineering has confirmed full resolution of the issue. Users should now be able to manage their Reserved IPs via the Cloud Panel without issue. 
+If you continue to experience any issues, please open a support ticket from within your account. Thank you.
+Dec  6, 00:16 UTC
 Monitoring - Our Engineering team has deployed a fix for the issue with managing Reserved IPs via the Cloud Panel. Users should now be able to view the Reserved IPs page in their account. 
 We are currently monitoring the situation and will post an update as soon as the issue is fully resolved.
 Dec  5, 23:59 UTC
@@ -214,7 +295,9 @@ Investigating - Some users may experience a 503 error when trying to use Notion.
         <link href="https://www.githubstatus.com/incidents/v4d2jbm842p4"/>
         <updated>2024-12-03T04:39:47.000Z</updated>
         <summary type="html"><![CDATA[Dec  3, 04:39 UTC
-Resolved - This incident has been resolved.
+Resolved - Between Dec 3 03:35 UTC and 04:35 UTC, availability of large hosted runners for Actions was degraded due to failures in background VM provisioning jobs.  This was a shorter recurrence of the issue that occurred the previous day.  Users would see workflows queued waiting for a large runner.  On average, 13.5% of all workflows requiring large runners over the incident time were affected, peaking at 46% of requests. Standard and Mac runners were not affected.
+Following the Dec 1 incident, we had disabled non-critical paths in the provisioning job and believed that would eliminate any impact while we understood and addressed the timeouts.  Unfortunately, the timeouts were a symptom of broader job health issues, so those changes did not prevent this second occurrence the following day.  We now understand that other jobs on these agents had issues that resulted in them hanging and consuming available job agent capacity.  The reduced capacity led to saturation of the remaining agents and significant performance degradation in the running jobs.
+In addition to the immediate improvements shared in the previous incident summary, we immediately initiated regular recycles of all agents in this area while we continue to address the issues in both the jobs themselves and the resiliency of the agents.  We also continue to improve our detection to ensure we are automatically detecting these delays.
 Dec  3, 04:38 UTC
 Update - We saw a recurrence of the large hosted runner incident (https://www.githubstatus.com/incidents/qq1m7mqcl6zk) from 12/1/2024. We've applied the same mitigation and see improvements. We will continue to work on a long term solution.
 Dec  3, 04:16 UTC
@@ -1213,72 +1296,6 @@ If an unexpected issue arises, resolution of some records in zones hosted with D
 If you have any questions or concerns regarding this maintenance, please reach out to us by opening up a ticket on your account via https://cloudsupport.digitalocean.com/s/.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMS3 Power Maintenance]]></title>
-        <id>https://status.digitalocean.com/incidents/4tr0fhhw87cf</id>
-        <link href="https://status.digitalocean.com/incidents/4tr0fhhw87cf"/>
-        <updated>2024-11-06T19:49:07.000Z</updated>
-        <summary type="html"><![CDATA[Nov  6, 19:49 UTC
-Completed - Hello,
-The AMS3 Power Maintenance which was previously scheduled at 2024-11-07 20:00 UTC has been cancelled. We will notify you via email and a new maintenance post on status.digitalocean.com with the updated date and timings for this maintenance.
-We apologize for any inconvenience and thank you for your understanding. You may find the initial maintenance notice along with a description of any expected impact related to this work included at the bottom of this message.
-If you have questions or concerns about this maintenance, please reach out to us by opening up a ticket on your account.
-Thank you,
----BEGIN INITIAL MAINTENANCE NOTICE---
-Start: 2024-11-07 20:00 UTC
-End: 2024-11-08 06:00 UTC
-
-Hello,
-During the above window, our Engineering team will be performin…]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Core Infrastructure Maintenance]]></title>
-        <id>https://status.digitalocean.com/incidents/m81vx2j1v99j</id>
-        <link href="https://status.digitalocean.com/incidents/m81vx2j1v99j"/>
-        <updated>2024-11-06T18:10:51.000Z</updated>
-        <summary type="html"><![CDATA[Nov  6, 18:10 UTC
-Completed - The scheduled maintenance has been completed.
-Nov  6, 09:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Nov  4, 22:20 UTC
-Scheduled - Start: 2024-11-06 09:00 UTC
-End: 2024-11-07 22:00 UTC
-
-During the above window, our Engineering team will be performing maintenance on principal infrastructure in order to improve reliability of DigitalOcean services. 
-Expected Impact:
-During the maintenance window, users may experience increased latency for platform management operations, including:
-Cloud Control Panel and API operations
-Event processing
-Droplet creates, resizes, rebuilds, and power events
-Managed Kubernetes reconciliation and scaling
-Load Balancer operations
-Container Registry operations
-App Platform operations
-Managed Database creation and scaling
-We do not expect any impact to customer traffic due to this maintenance. In the event that an unexpected issue should arise, users may experience errors with creating new resources such as Droplets, Load Balancers, Managed Kubernetes clusters, and Managed Databases. We will endeavor to keep any such impact to a minimum.
-If you have any questions related to this issue please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Datastore App timing out - US1-ENT]]></title>
-        <id>https://status.make.com/incidents/8pt7vgx7gx1h</id>
-        <link href="https://status.make.com/incidents/8pt7vgx7gx1h"/>
-        <updated>2024-11-06T12:56:17.000Z</updated>
-        <summary type="html"><![CDATA[Nov  6, 13:56 CET
-Resolved - This incident has been resolved
-Nov  6, 12:56 CET
-Monitoring - The issue is resolved, we will keep closely monitoring the zone for next 1h.
-Nov  6, 12:36 CET
-Investigating - We are currently investigating an issue with Datastores. Scenarios that include this app might not execute successfully.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
         </author>
     </entry>
 </feed>
