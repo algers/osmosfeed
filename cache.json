@@ -21,18 +21,7 @@
       "title": "Security Bulletins on Tailscale",
       "feedUrl": "https://tailscale.com/security-bulletins/index.xml",
       "siteUrl": "https://tailscale.com/security-bulletins/",
-      "articles": [
-        {
-          "id": "https://tailscale.com/security-bulletins/#ts-2024-013",
-          "author": null,
-          "description": "Description: Potential for Tailscale SSH recording failures\nWhat happened?\nTailscale SSH recording deployments that enforce SSH recording\nusing enforceRecorder could fail to record session activity in several\nsituations.\nFailure to write to the storage backend\nIf tsrecorder instances were unable to write to their configured storage, SSH\nsessions would be allowed to execute for a few seconds (typically under one or\ntwo) while the first output bytes failed to write.\nA tsrecorder instance can fail to write to its configured storage for many\nreasons, including:\nMisconfigured IAM permissions when using S3 for storage.\nMisconfigured file permissions when using the local filesystem for storage.\nInsufficient free space when using the local filesystem for storage.\ntsrecorder now exercises the full set of required storage actions on startup.\nUnreachable tsrecorder after a session is established\nIf tsrecorder instances became unreachable after a session had started, the\nSSH session would take several minutes to terminate. This could happen when\ntsrecorder went offline or when ACLs were updated to restrict access to\ntsrecorder nodes.\nThe Tailscale client now detects tsrecorder unreachability within 30 seconds\nand terminates the connection.\nWho was affected?\nUsers of Tailscale SSH recording with enforceRecorder option and with\ntsrecorder and Tailscale client versions prior to 1.78.0.\nWhat was the impact?\nUsers connecting over Tailscale SSH to nodes that enforce session\nrecording via enforceRecorder ACL flags would have been able to execute\ncommands briefly before having their access terminated due to recording\nfailures.\nWhat do I need to do?\nUpdate tsrecorder instances and Tailscale clients to version 1.78.0 or later.",
-          "link": "https://tailscale.com/security-bulletins/#ts-2024-013",
-          "publishedOn": "2024-12-04T00:00:00.000Z",
-          "wordCount": 16435,
-          "title": "TS-2024-013",
-          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Airbnb API Status - Incident History",
@@ -66,6 +55,56 @@
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
       "articles": [
+        {
+          "id": "https://status.twilio.com/incidents/rps5xkv65gt5",
+          "author": null,
+          "description": "Jan  2, 15:49 PST\nMonitoring - We are observing recovery with SMS Delivery Failures to multiple networks in France for a subset of longcode numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJan  2, 15:18 PST\nUpdate - We are experiencing SMS Delivery Failures to multiple networks in France for a subset of longcode numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nJan  2, 15:09 PST\nInvestigating - Our monitoring systems have detected a potential issue SMS Delivery Failures to Multiple Networks in France. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/rps5xkv65gt5",
+          "publishedOn": "2025-01-02T23:49:23.000Z",
+          "wordCount": 7612,
+          "title": "SMS Delivery Failures to Multiple Networks in France",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/3vv7lsyp42xf",
+          "author": null,
+          "description": "Jan  2, 12:20 PST\nResolved - Twilio SMS was impacted for 54 minutes between 12:20 PM PT 01-02-2025 and 01:14 PM PT 01-02-2025. During this period, customers may have experienced SMS Delivery Failures to Lonestar Network in Liberia. The issue has now been resolved.",
+          "link": "https://status.twilio.com/incidents/3vv7lsyp42xf",
+          "publishedOn": "2025-01-02T20:20:00.000Z",
+          "wordCount": 7495,
+          "title": "SMS Delivery Failures to Lonestar Network in Liberia",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/6bbrskpj2kst",
+          "author": null,
+          "description": "Jan  2, 10:23 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Grameenphone in Bangladesh. This incident has been resolved.\nJan  2, 09:21 PST\nUpdate - We continue observing recovery in SMS delivery delays when sending messages to Grameenphone in Bangladesh. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJan  2, 07:19 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Grameenphone in Bangladesh. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJan  2, 05:23 PST\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Grameenphone in Bangladesh. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJan  2, 04:33 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to Grameenphone in Bangladesh. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/6bbrskpj2kst",
+          "publishedOn": "2025-01-02T18:23:51.000Z",
+          "wordCount": 7685,
+          "title": "SMS Delivery Delays to Grameenphone in Bangladesh",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/t0gy2b4gmh91",
+          "author": null,
+          "description": "Jan  2, 06:19 PST\nResolved - We are experiencing SMS delivery delays when sending messages to Tigo Network in Honduras. This incident has been resolved.\nJan  2, 04:27 PST\nMonitoring - We are observing recovery in SMS delays when sending messages to Tigo Network in Honduras. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nJan  2, 00:37 PST\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Tigo Network in Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nJan  1, 22:45 PST\nUpdate - We are continuing to experience SMS delivery delays when sending messages to Tigo Network in Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nJan  1, 21:54 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to  Tigo Network in Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/t0gy2b4gmh91",
+          "publishedOn": "2025-01-02T14:19:33.000Z",
+          "wordCount": 7692,
+          "title": "SMS Delivery Delays to Tigo Network in Honduras",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/y8v0d7b6sy4x",
+          "author": null,
+          "description": "Jan  1, 23:14 PST\nResolved - Twilio SMS was impacted between 11:14 PM PT 01-01-2025 and 05:52 AM PT 01-02-2025. During this period, customers may have experienced SMS Delivery Delays and Delivery Failures to Tigo Networks in Honduras. The issue has now been resolved.",
+          "link": "https://status.twilio.com/incidents/y8v0d7b6sy4x",
+          "publishedOn": "2025-01-02T07:14:00.000Z",
+          "wordCount": 7504,
+          "title": "SMS Delivery Delays and Delivery Failures to Tigo Networks in Honduras",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.twilio.com/incidents/71g4wv707jc5",
           "author": null,
@@ -124,76 +163,6 @@
           "publishedOn": "2024-12-31T12:57:34.000Z",
           "wordCount": 8626,
           "title": "SMS Delivery Delays and Failures to Movicel Network in Angola",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/782lccph051p",
-          "author": null,
-          "description": "Dec 30, 20:05 PST\nResolved - We are no longer experiencing SMS Delivery Delays to Etisalat/TeleCel/Moov in Niger 614-03. This incident has been resolved.\nDec 30, 13:14 PST\nUpdate - We continue observing recovery in SMS delivery delays to Etisalat/TeleCel/Moov in Niger 614-03. We will continue monitoring the service to ensure a full recovery. We will provide another update in 8 hours or as soon as more information becomes available.\nDec 30, 09:14 PST\nUpdate - We are observing recovery in delivery report delays on SMS delivery delays to Etisalat/TeleCel/Moov in Niger 614-03. We will continue monitoring the service to ensure a full recovery. We will provide another update in 4 hours or as soon as more information becomes available.\nDec 30, 06:55 PST\nMonitoring - We are observing recovery in d…",
-          "link": "https://status.twilio.com/incidents/782lccph051p",
-          "publishedOn": "2024-12-31T04:05:57.000Z",
-          "wordCount": 8419,
-          "title": "SMS Delivery Delays to Etisalat/TeleCel/Moov in Niger 614-03",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/0km67jg0slph",
-          "author": null,
-          "description": "Dec 30, 14:36 PST\nResolved - The issue affecting call failures to a subset of Twilio Jamaican phone numbers has been resolved, and the service is functioning normally at this time.\nDec 30, 12:36 PST\nMonitoring - We are observing recovery in call failures to a subset of Twilio Jamaican phone numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 29, 20:36 PST\nUpdate - We continue to investigate call failures to a subset of Twilio Jamaican phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 16 hours or as soon as more information becomes available.\nDec 29, 14:50 PST\nUpdate - We continue to investigate call failures to a subset of Twilio Jamaican phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.\nDec 29, 10:51 PST\nUpdate - We are continuing to investigate call failures to a subset of Twilio Jamaican phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nDec 29, 08:29 PST\nUpdate - We are continuing to investigate call failures to a subset of Twilio Jamaican phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nDec 29, 07:32 PST\nInvestigating - We are observing call failures to a subset of Twilio Jamaican phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/0km67jg0slph",
-          "publishedOn": "2024-12-30T22:36:28.000Z",
-          "wordCount": 7796,
-          "title": "Inbound Call Failures to Twilio Jamaica Phone Numbers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/br12r64g8n1r",
-          "author": null,
-          "description": "Dec 28, 13:46 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to ICE Network In Costa Rica. This incident has been resolved.\nDec 28, 11:59 PST\nUpdate - We are observing recovery in SMS delivery delays when sending messages to ICE Network In Costa Rica. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 28, 10:14 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to ICE Network In Costa Rica. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 28, 05:43 PST\nUpdate - We continue to experience SMS d…",
-          "link": "https://status.twilio.com/incidents/br12r64g8n1r",
-          "publishedOn": "2024-12-28T21:46:03.000Z",
-          "wordCount": 7854,
-          "title": "SMS Delivery Delays to ICE Network In Costa Rica",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/gkt3gn4wkv1y",
-          "author": null,
-          "description": "Dec 28, 08:42 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Telenor in Pakistan. This incident has been resolved.\nDec 28, 06:49 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Telenor in Pakistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 28, 04:48 PST\nUpdate - We continue to experience SMS delivery delays to Telenor in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 28, 03:50 PST\nInvestigating - We are experiencing SMS delivery delays to Telenor in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/gkt3gn4wkv1y",
-          "publishedOn": "2024-12-28T16:42:44.000Z",
-          "wordCount": 7624,
-          "title": "SMS Delivery Delays To Telenor In Pakistan",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/ml57q5x509cb",
-          "author": null,
-          "description": "Dec 27, 10:14 PST\nResolved - We continue experiencing SMS Delivery Delays and Failures to Onvoy in United States of America via Subset of Shortcodes. We have reached out to all impacted customers individually for further follow-ups.\nDec 26, 23:52 PST\nUpdate - We continue to experience SMS delivery delays and failures to Onvoy in the United States of America via a subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.\nDec 24, 23:36 PST\nUpdate - We continue to experience SMS delivery delays and failures to Onvoy in the United States of America via a subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide an…",
-          "link": "https://status.twilio.com/incidents/ml57q5x509cb",
-          "publishedOn": "2024-12-27T18:14:36.000Z",
-          "wordCount": 8371,
-          "title": "SMS Delivery Delays and Failures to Onvoy in United States of America via Subset of Shortcodes",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/xlr8c1jm2kst",
-          "author": null,
-          "description": "Dec 27, 09:03 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to MTN Network in Congo Republic. This incident has been resolved.\nDec 27, 08:57 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to MTN Network in Congo Republic. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 27, 05:53 PST\nUpdate - We continue to experience SMS delivery delays when sending messages to MTN Network in Congo Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nDec 27, 04:04 PST\nUpdate - We continue to experience SMS delivery delays when sending messages to MTN Network in Congo Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 27, 03:04 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to MTN Network in Congo Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/xlr8c1jm2kst",
-          "publishedOn": "2024-12-27T17:03:36.000Z",
-          "wordCount": 7699,
-          "title": "SMS Delivery Delays to MTN Network in Congo Republic",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/pvg9wh7nc0c2",
-          "author": null,
-          "description": "Dec 27, 05:08 PST\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Telefonica Network in Uruguay via a subset of longcodes. This incident has been resolved.\nDec 27, 03:25 PST\nMonitoring - We are observing recovery in SMS delivery delays when sending messages to Telefonica Network in Uruguay via a subset of longcodes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 27, 00:33 PST\nUpdate - We continue to experience SMS delivery delays when sending messages to Telefonica Network in Uruguay via a subset of longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nDec 26, 22:34 PST\nUpdate - We continue to experience SMS delivery delays when sending messages to Telefonica Network in Uruguay via a subset of longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nDec 26, 21:30 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to Telefonica Network in Uruguay via a subset of longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/pvg9wh7nc0c2",
-          "publishedOn": "2024-12-27T13:08:52.000Z",
-          "wordCount": 7729,
-          "title": "SMS Delivery Delays to Telefonica Network in Uruguay via a Subset of Longcodes",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -359,16 +328,6 @@
           "wordCount": 3359,
           "title": "Issues loading databases",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/5qq8z91r5vk2",
-          "author": null,
-          "description": "Dec  3, 07:32 PST\nResolved - Our team was able to identify and resolve this issue.\nDec  3, 06:54 PST\nInvestigating - Some users may experience a 503 error when trying to use Notion. Our engineering team is actively investigating this issue.",
-          "link": "https://status.notion.so/incidents/5qq8z91r5vk2",
-          "publishedOn": "2024-12-03T15:32:35.000Z",
-          "wordCount": 3373,
-          "title": "Some users may experience a 503 error when trying to use Notion",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -400,6 +359,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/6ddp6v8g5t72",
+          "author": null,
+          "description": "Jan  3, 00:19 UTC\nResolved - This incident has been resolved.\nJan  3, 00:19 UTC\nUpdate - All systems are operational, and we have a plan to backfill the missing metadata. In total, 139,000 PRs were impacted across 45,000 repositories. The backfilled metadata will be available in a few days.\nUntil the backfill is complete, there are several actions you can take to ensure an Action runs:\n- Any Actions that should have run on closed but not merged PRs can be triggered by re-opening and re-closing the PR.\n- Actions that should have run on PR merge can be re-run from the main branch of your repository.\nThe only Actions that cannot be re-run at this time are ones that specifically use the merge commit.\nAdditionally, the `merge_commit_sha` field on an impacted Pull Request will be `null` when queried via our API until the backfill completes.\nWe appreciate the error reports we received, and thank you for your patience. We mitigated the initial impact quickly by rolling back a feature flag. We will be improving the monitoring of our feature flag rollouts in the future to better catch these scenarios.\nJan  2, 23:11 UTC\nUpdate - We have remediated the issue impacting Actions workflows. During investigation and remediation, we realized there were also issues with recording metadata around merge commits. No git data or code has been lost. PRs merged today between 20:06 UTC and 22:15 UTC are impacted. We are working on a plan to regenerate the missing metadata and will provide an update once we have one in place.\nJan  2, 23:05 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nJan  2, 22:30 UTC\nUpdate - We have identified and begun to remediate the issue preventing Actions from triggering on closed pull requests. We are beginning to see recovery.\nJan  2, 22:09 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
+          "link": "https://www.githubstatus.com/incidents/6ddp6v8g5t72",
+          "publishedOn": "2025-01-03T00:19:10.000Z",
+          "wordCount": 5639,
+          "title": "Incident with Actions",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/5hjghvwvqztc",
           "author": null,
@@ -439,26 +408,6 @@
           "wordCount": 5629,
           "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/lbdsk3990lz5",
-          "author": null,
-          "description": "Dec  3, 23:30 UTC\nResolved - On December 3rd, between 23:29 and 23:43 UTC, Pull Requests experienced a brief outage and teams have confirmed the issue to be resolved. Due to brevity of incident it was not publicly statused at the time however an RCA will be conducted and shared in due course.",
-          "link": "https://www.githubstatus.com/incidents/lbdsk3990lz5",
-          "publishedOn": "2024-12-03T23:30:00.000Z",
-          "wordCount": 5364,
-          "title": "[Retroactive] Incident with Pull Requests",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/w6g0cmvyx3vm",
-          "author": null,
-          "description": "Dec  3, 20:05 UTC\nResolved - On December 3, 2024, between 19:35 UTC and 20:05 UTC API requests, Actions, Pull Requests and Issues were degraded. Web and API requests for Pull Requests experienced a 3.5% error rate and Issues had a 1.2% error rate. The highest impact was for users who experienced errors while creating and commenting on Pull Requests and Issues. Actions had a 3.3% error rate in jobs and delays on some updates during this time.\nThis was due to an erroneous database credential change impacting write access to Issues and Pull Requests data. We mitigated the incident by reverting the credential change at 19:52 UTC. We continued to monitor service recovery before resolving the incident at 20:05 UTC. \nThere are a few improvements we are making in response to this. We are investing in safe guards to the change management process in order to prevent erroneous database credential changes. Additionally, the initial rollback attempt was unsuccessful which led to a longer time to mitigate. We were able to revert through an alternative method and are updating our playbooks to document this mitigation strategy.\nDec  3, 20:05 UTC\nUpdate - Pull Requests is operating normally.\nDec  3, 20:04 UTC\nUpdate - Actions is operating normally.\nDec  3, 20:02 UTC\nUpdate - API Requests is operating normally.\nDec  3, 19:59 UTC\nUpdate - We have taken mitigating actions and are starting to see recovery but are continuing to monitor and ensure full recovery. Some users may still see errors.\nDec  3, 19:54 UTC\nUpdate - Some users will experience problems with certain features of pull requests, actions, issues and other areas. We are aware of the issue, know the cause, and are working on a mitigation.\nDec  3, 19:48 UTC\nInvestigating - We are investigating reports of degraded performance for API Requests, Actions and Pull Requests",
-          "link": "https://www.githubstatus.com/incidents/w6g0cmvyx3vm",
-          "publishedOn": "2024-12-03T20:05:05.000Z",
-          "wordCount": 5644,
-          "title": "Incident with Pull Requests and API Requests",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -496,16 +445,6 @@
           "wordCount": 283,
           "title": "Incident: Issues loading some interface elements and joining channels",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2024-12/7bfedb6086c892a5",
-          "author": null,
-          "description": "On December 3, 2024 from 12:38 PM PST to 5:19 PM PST, some customers may have encountered a 500 error when attempting to access the Slack Marketplace page for their installed apps.\n\nWe determined that a recent code change to the Slack Marketplace directory was responsible for these errors.\n\nWe reverted the problem code, and the issue was resolved for all impacted users.",
-          "link": "https://slack-status.com/2024-12/7bfedb6086c892a5",
-          "publishedOn": "2024-12-04T04:11:38.000Z",
-          "wordCount": 315,
-          "title": "Incident: Issues viewing Slack Marketplace pages for installed apps",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
     },
@@ -522,26 +461,6 @@
           "publishedOn": "2024-12-24T15:23:24.000Z",
           "wordCount": 3887,
           "title": "US1 webhooks and scenario executions delayed",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/9fkdnqgb3gw8",
-          "author": null,
-          "description": "Dec  4, 06:58 CET\nResolved - This incident has been resolved.\nDec  3, 19:57 CET\nMonitoring - We have identified an issue in our code and have rolled out a fix. The changes have been applied, and we will be closely monitoring the situation.\nDec  3, 18:46 CET\nInvestigating - We are currently experiencing an issue with scenario queue execution. It appears to be similar to the problem we encountered earlier today. This issue is being observed on eu1.make.com and us1.make.com.\nOur team is actively investigating the problem and will provide an update within the next 2 hours or sooner if possible.\nThank you for your patience.",
-          "link": "https://status.make.com/incidents/9fkdnqgb3gw8",
-          "publishedOn": "2024-12-04T05:58:11.000Z",
-          "wordCount": 3918,
-          "title": "Scenario Queue Not Being Processed",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/r6ks1rqmzmwk",
-          "author": null,
-          "description": "Dec  3, 17:10 CET\nResolved - This incident has been resolved.\nDec  3, 16:49 CET\nMonitoring - A fix has been implemented and we are monitoring the results.\nDec  3, 14:34 CET\nUpdate - Our engineering team is still working to solve the problem. Further updates will be provided within one hour.\nDec  3, 13:38 CET\nInvestigating - We are currently investigating an issue where some scenarios might experience issues processing its queue. We will provide more updates within one hour.",
-          "link": "https://status.make.com/incidents/r6ks1rqmzmwk",
-          "publishedOn": "2024-12-03T16:10:56.000Z",
-          "wordCount": 3901,
-          "title": "eu1.make.com - Scenario queue not being processed",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]

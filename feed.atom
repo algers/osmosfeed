@@ -1,10 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-02T00:28:16.862Z</id>
+    <id>urn:2025-01-03T00:28:20.834Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-02T00:28:16.862Z</updated>
+    <updated>2025-01-03T00:28:20.834Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident with Actions]]></title>
+        <id>https://www.githubstatus.com/incidents/6ddp6v8g5t72</id>
+        <link href="https://www.githubstatus.com/incidents/6ddp6v8g5t72"/>
+        <updated>2025-01-03T00:19:10.000Z</updated>
+        <summary type="html"><![CDATA[Jan  3, 00:19 UTC
+Resolved - This incident has been resolved.
+Jan  3, 00:19 UTC
+Update - All systems are operational, and we have a plan to backfill the missing metadata. In total, 139,000 PRs were impacted across 45,000 repositories. The backfilled metadata will be available in a few days.
+Until the backfill is complete, there are several actions you can take to ensure an Action runs:
+- Any Actions that should have run on closed but not merged PRs can be triggered by re-opening and re-closing the PR.
+- Actions that should have run on PR merge can be re-run from the main branch of your repository.
+The only Actions that cannot be re-run at this time are ones that specifically use the merge commit.
+Additionally, the `merge_commit_sha` field on an impacted Pull Request will be `null` when queried via our API until the backfill completes.
+We appreciate the error reports we received, and thank you for your patience. We mitigated the initial impact quickly by rolling back a feature flag. We will be improving the monitoring of our feature flag rollouts in the future to better catch these scenarios.
+Jan  2, 23:11 UTC
+Update - We have remediated the issue impacting Actions workflows. During investigation and remediation, we realized there were also issues with recording metadata around merge commits. No git data or code has been lost. PRs merged today between 20:06 UTC and 22:15 UTC are impacted. We are working on a plan to regenerate the missing metadata and will provide an update once we have one in place.
+Jan  2, 23:05 UTC
+Update - Pull Requests is experiencing degraded performance. We are continuing to investigate.
+Jan  2, 22:30 UTC
+Update - We have identified and begun to remediate the issue preventing Actions from triggering on closed pull requests. We are beginning to see recovery.
+Jan  2, 22:09 UTC
+Investigating - We are investigating reports of degraded performance for Actions]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Failures to Multiple Networks in France]]></title>
+        <id>https://status.twilio.com/incidents/rps5xkv65gt5</id>
+        <link href="https://status.twilio.com/incidents/rps5xkv65gt5"/>
+        <updated>2025-01-02T23:49:23.000Z</updated>
+        <summary type="html"><![CDATA[Jan  2, 15:49 PST
+Monitoring - We are observing recovery with SMS Delivery Failures to multiple networks in France for a subset of longcode numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Jan  2, 15:18 PST
+Update - We are experiencing SMS Delivery Failures to multiple networks in France for a subset of longcode numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+Jan  2, 15:09 PST
+Investigating - Our monitoring systems have detected a potential issue SMS Delivery Failures to Multiple Networks in France. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Failures to Lonestar Network in Liberia]]></title>
+        <id>https://status.twilio.com/incidents/3vv7lsyp42xf</id>
+        <link href="https://status.twilio.com/incidents/3vv7lsyp42xf"/>
+        <updated>2025-01-02T20:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Jan  2, 12:20 PST
+Resolved - Twilio SMS was impacted for 54 minutes between 12:20 PM PT 01-02-2025 and 01:14 PM PT 01-02-2025. During this period, customers may have experienced SMS Delivery Failures to Lonestar Network in Liberia. The issue has now been resolved.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Grameenphone in Bangladesh]]></title>
+        <id>https://status.twilio.com/incidents/6bbrskpj2kst</id>
+        <link href="https://status.twilio.com/incidents/6bbrskpj2kst"/>
+        <updated>2025-01-02T18:23:51.000Z</updated>
+        <summary type="html"><![CDATA[Jan  2, 10:23 PST
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Grameenphone in Bangladesh. This incident has been resolved.
+Jan  2, 09:21 PST
+Update - We continue observing recovery in SMS delivery delays when sending messages to Grameenphone in Bangladesh. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Jan  2, 07:19 PST
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Grameenphone in Bangladesh. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Jan  2, 05:23 PST
+Update - We are continuing to experience SMS delivery delays when sending messages to Grameenphone in Bangladesh. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Jan  2, 04:33 PST
+Investigating - We are experiencing SMS delivery delays when sending messages to Grameenphone in Bangladesh. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Tigo Network in Honduras]]></title>
+        <id>https://status.twilio.com/incidents/t0gy2b4gmh91</id>
+        <link href="https://status.twilio.com/incidents/t0gy2b4gmh91"/>
+        <updated>2025-01-02T14:19:33.000Z</updated>
+        <summary type="html"><![CDATA[Jan  2, 06:19 PST
+Resolved - We are experiencing SMS delivery delays when sending messages to Tigo Network in Honduras. This incident has been resolved.
+Jan  2, 04:27 PST
+Monitoring - We are observing recovery in SMS delays when sending messages to Tigo Network in Honduras. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Jan  2, 00:37 PST
+Update - We are continuing to experience SMS delivery delays when sending messages to Tigo Network in Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+Jan  1, 22:45 PST
+Update - We are continuing to experience SMS delivery delays when sending messages to Tigo Network in Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Jan  1, 21:54 PST
+Investigating - We are experiencing SMS delivery delays when sending messages to  Tigo Network in Honduras. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays and Delivery Failures to Tigo Networks in Honduras]]></title>
+        <id>https://status.twilio.com/incidents/y8v0d7b6sy4x</id>
+        <link href="https://status.twilio.com/incidents/y8v0d7b6sy4x"/>
+        <updated>2025-01-02T07:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Jan  1, 23:14 PST
+Resolved - Twilio SMS was impacted between 11:14 PM PT 01-01-2025 and 05:52 AM PT 01-02-2025. During this period, customers may have experienced SMS Delivery Delays and Delivery Failures to Tigo Networks in Honduras. The issue has now been resolved.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Messaging insights may report inaccurate data for scheduled messages.]]></title>
         <id>https://status.twilio.com/incidents/71g4wv707jc5</id>
@@ -103,133 +205,6 @@ Dec 30, 05:24 PST
 Monitoring - We are observing recovery in SMS delays and failures when sending messages to Movicel network in Angola. We will continue monitoring the service to ensure a full recovery. We will provide another update in 24 hours or as soon as more information becomes available.
 Dec 29, 10:25 PST
 Update - We still continue to experience SMS delivery delays and failures when sending messages to Movicel network in Angola. We are also now experiencing the same issue when sending SMS to Movicel Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 h…]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Etisalat/TeleCel/Moov in Niger 614-03]]></title>
-        <id>https://status.twilio.com/incidents/782lccph051p</id>
-        <link href="https://status.twilio.com/incidents/782lccph051p"/>
-        <updated>2024-12-31T04:05:57.000Z</updated>
-        <summary type="html"><![CDATA[Dec 30, 20:05 PST
-Resolved - We are no longer experiencing SMS Delivery Delays to Etisalat/TeleCel/Moov in Niger 614-03. This incident has been resolved.
-Dec 30, 13:14 PST
-Update - We continue observing recovery in SMS delivery delays to Etisalat/TeleCel/Moov in Niger 614-03. We will continue monitoring the service to ensure a full recovery. We will provide another update in 8 hours or as soon as more information becomes available.
-Dec 30, 09:14 PST
-Update - We are observing recovery in delivery report delays on SMS delivery delays to Etisalat/TeleCel/Moov in Niger 614-03. We will continue monitoring the service to ensure a full recovery. We will provide another update in 4 hours or as soon as more information becomes available.
-Dec 30, 06:55 PST
-Monitoring - We are observing recovery in d…]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inbound Call Failures to Twilio Jamaica Phone Numbers]]></title>
-        <id>https://status.twilio.com/incidents/0km67jg0slph</id>
-        <link href="https://status.twilio.com/incidents/0km67jg0slph"/>
-        <updated>2024-12-30T22:36:28.000Z</updated>
-        <summary type="html"><![CDATA[Dec 30, 14:36 PST
-Resolved - The issue affecting call failures to a subset of Twilio Jamaican phone numbers has been resolved, and the service is functioning normally at this time.
-Dec 30, 12:36 PST
-Monitoring - We are observing recovery in call failures to a subset of Twilio Jamaican phone numbers. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 29, 20:36 PST
-Update - We continue to investigate call failures to a subset of Twilio Jamaican phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 16 hours or as soon as more information becomes available.
-Dec 29, 14:50 PST
-Update - We continue to investigate call failures to a subset of Twilio Jamaican phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 8 hours or as soon as more information becomes available.
-Dec 29, 10:51 PST
-Update - We are continuing to investigate call failures to a subset of Twilio Jamaican phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.
-Dec 29, 08:29 PST
-Update - We are continuing to investigate call failures to a subset of Twilio Jamaican phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Dec 29, 07:32 PST
-Investigating - We are observing call failures to a subset of Twilio Jamaican phone numbers. We are currently working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to ICE Network In Costa Rica]]></title>
-        <id>https://status.twilio.com/incidents/br12r64g8n1r</id>
-        <link href="https://status.twilio.com/incidents/br12r64g8n1r"/>
-        <updated>2024-12-28T21:46:03.000Z</updated>
-        <summary type="html"><![CDATA[Dec 28, 13:46 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to ICE Network In Costa Rica. This incident has been resolved.
-Dec 28, 11:59 PST
-Update - We are observing recovery in SMS delivery delays when sending messages to ICE Network In Costa Rica. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 28, 10:14 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to ICE Network In Costa Rica. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 28, 05:43 PST
-Update - We continue to experience SMS d…]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays To Telenor In Pakistan]]></title>
-        <id>https://status.twilio.com/incidents/gkt3gn4wkv1y</id>
-        <link href="https://status.twilio.com/incidents/gkt3gn4wkv1y"/>
-        <updated>2024-12-28T16:42:44.000Z</updated>
-        <summary type="html"><![CDATA[Dec 28, 08:42 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Telenor in Pakistan. This incident has been resolved.
-Dec 28, 06:49 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Telenor in Pakistan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 28, 04:48 PST
-Update - We continue to experience SMS delivery delays to Telenor in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 28, 03:50 PST
-Investigating - We are experiencing SMS delivery delays to Telenor in Pakistan. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays and Failures to Onvoy in United States of America via Subset of Shortcodes]]></title>
-        <id>https://status.twilio.com/incidents/ml57q5x509cb</id>
-        <link href="https://status.twilio.com/incidents/ml57q5x509cb"/>
-        <updated>2024-12-27T18:14:36.000Z</updated>
-        <summary type="html"><![CDATA[Dec 27, 10:14 PST
-Resolved - We continue experiencing SMS Delivery Delays and Failures to Onvoy in United States of America via Subset of Shortcodes. We have reached out to all impacted customers individually for further follow-ups.
-Dec 26, 23:52 PST
-Update - We continue to experience SMS delivery delays and failures to Onvoy in the United States of America via a subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
-Dec 24, 23:36 PST
-Update - We continue to experience SMS delivery delays and failures to Onvoy in the United States of America via a subset of Shortcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide an…]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to MTN Network in Congo Republic]]></title>
-        <id>https://status.twilio.com/incidents/xlr8c1jm2kst</id>
-        <link href="https://status.twilio.com/incidents/xlr8c1jm2kst"/>
-        <updated>2024-12-27T17:03:36.000Z</updated>
-        <summary type="html"><![CDATA[Dec 27, 09:03 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to MTN Network in Congo Republic. This incident has been resolved.
-Dec 27, 08:57 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to MTN Network in Congo Republic. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 27, 05:53 PST
-Update - We continue to experience SMS delivery delays when sending messages to MTN Network in Congo Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Dec 27, 04:04 PST
-Update - We continue to experience SMS delivery delays when sending messages to MTN Network in Congo Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 27, 03:04 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to MTN Network in Congo Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Telefonica Network in Uruguay via a Subset of Longcodes]]></title>
-        <id>https://status.twilio.com/incidents/pvg9wh7nc0c2</id>
-        <link href="https://status.twilio.com/incidents/pvg9wh7nc0c2"/>
-        <updated>2024-12-27T13:08:52.000Z</updated>
-        <summary type="html"><![CDATA[Dec 27, 05:08 PST
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Telefonica Network in Uruguay via a subset of longcodes. This incident has been resolved.
-Dec 27, 03:25 PST
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Telefonica Network in Uruguay via a subset of longcodes. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 27, 00:33 PST
-Update - We continue to experience SMS delivery delays when sending messages to Telefonica Network in Uruguay via a subset of longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Dec 26, 22:34 PST
-Update - We continue to experience SMS delivery delays when sending messages to Telefonica Network in Uruguay via a subset of longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Dec 26, 21:30 PST
-Investigating - We are experiencing SMS delivery delays when sending messages to Telefonica Network in Uruguay via a subset of longcodes. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -676,144 +651,6 @@ Dec  4, 18:58 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scenario Queue Not Being Processed]]></title>
-        <id>https://status.make.com/incidents/9fkdnqgb3gw8</id>
-        <link href="https://status.make.com/incidents/9fkdnqgb3gw8"/>
-        <updated>2024-12-04T05:58:11.000Z</updated>
-        <summary type="html"><![CDATA[Dec  4, 06:58 CET
-Resolved - This incident has been resolved.
-Dec  3, 19:57 CET
-Monitoring - We have identified an issue in our code and have rolled out a fix. The changes have been applied, and we will be closely monitoring the situation.
-Dec  3, 18:46 CET
-Investigating - We are currently experiencing an issue with scenario queue execution. It appears to be similar to the problem we encountered earlier today. This issue is being observed on eu1.make.com and us1.make.com.
-Our team is actively investigating the problem and will provide an update within the next 2 hours or sooner if possible.
-Thank you for your patience.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Issues viewing Slack Marketplace pages for installed apps]]></title>
-        <id>https://slack-status.com/2024-12/7bfedb6086c892a5</id>
-        <link href="https://slack-status.com/2024-12/7bfedb6086c892a5"/>
-        <updated>2024-12-04T04:11:38.000Z</updated>
-        <summary type="html"><![CDATA[On December 3, 2024 from 12:38 PM PST to 5:19 PM PST, some customers may have encountered a 500 error when attempting to access the Slack Marketplace page for their installed apps.
-
-We determined that a recent code change to the Slack Marketplace directory was responsible for these errors.
-
-We reverted the problem code, and the issue was resolved for all impacted users.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TS-2024-013]]></title>
-        <id>https://tailscale.com/security-bulletins/#ts-2024-013</id>
-        <link href="https://tailscale.com/security-bulletins/#ts-2024-013"/>
-        <updated>2024-12-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Description: Potential for Tailscale SSH recording failures
-What happened?
-Tailscale SSH recording deployments that enforce SSH recording
-using enforceRecorder could fail to record session activity in several
-situations.
-Failure to write to the storage backend
-If tsrecorder instances were unable to write to their configured storage, SSH
-sessions would be allowed to execute for a few seconds (typically under one or
-two) while the first output bytes failed to write.
-A tsrecorder instance can fail to write to its configured storage for many
-reasons, including:
-Misconfigured IAM permissions when using S3 for storage.
-Misconfigured file permissions when using the local filesystem for storage.
-Insufficient free space when using the local filesystem for storage.
-tsrecorder now exercises the full set of required storage actions on startup.
-Unreachable tsrecorder after a session is established
-If tsrecorder instances became unreachable after a session had started, the
-SSH session would take several minutes to terminate. This could happen when
-tsrecorder went offline or when ACLs were updated to restrict access to
-tsrecorder nodes.
-The Tailscale client now detects tsrecorder unreachability within 30 seconds
-and terminates the connection.
-Who was affected?
-Users of Tailscale SSH recording with enforceRecorder option and with
-tsrecorder and Tailscale client versions prior to 1.78.0.
-What was the impact?
-Users connecting over Tailscale SSH to nodes that enforce session
-recording via enforceRecorder ACL flags would have been able to execute
-commands briefly before having their access terminated due to recording
-failures.
-What do I need to do?
-Update tsrecorder instances and Tailscale clients to version 1.78.0 or later.]]></summary>
-        <author>
-            <name>Security Bulletins on Tailscale</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Retroactive] Incident with Pull Requests]]></title>
-        <id>https://www.githubstatus.com/incidents/lbdsk3990lz5</id>
-        <link href="https://www.githubstatus.com/incidents/lbdsk3990lz5"/>
-        <updated>2024-12-03T23:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Dec  3, 23:30 UTC
-Resolved - On December 3rd, between 23:29 and 23:43 UTC, Pull Requests experienced a brief outage and teams have confirmed the issue to be resolved. Due to brevity of incident it was not publicly statused at the time however an RCA will be conducted and shared in due course.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Pull Requests and API Requests]]></title>
-        <id>https://www.githubstatus.com/incidents/w6g0cmvyx3vm</id>
-        <link href="https://www.githubstatus.com/incidents/w6g0cmvyx3vm"/>
-        <updated>2024-12-03T20:05:05.000Z</updated>
-        <summary type="html"><![CDATA[Dec  3, 20:05 UTC
-Resolved - On December 3, 2024, between 19:35 UTC and 20:05 UTC API requests, Actions, Pull Requests and Issues were degraded. Web and API requests for Pull Requests experienced a 3.5% error rate and Issues had a 1.2% error rate. The highest impact was for users who experienced errors while creating and commenting on Pull Requests and Issues. Actions had a 3.3% error rate in jobs and delays on some updates during this time.
-This was due to an erroneous database credential change impacting write access to Issues and Pull Requests data. We mitigated the incident by reverting the credential change at 19:52 UTC. We continued to monitor service recovery before resolving the incident at 20:05 UTC. 
-There are a few improvements we are making in response to this. We are investing in safe guards to the change management process in order to prevent erroneous database credential changes. Additionally, the initial rollback attempt was unsuccessful which led to a longer time to mitigate. We were able to revert through an alternative method and are updating our playbooks to document this mitigation strategy.
-Dec  3, 20:05 UTC
-Update - Pull Requests is operating normally.
-Dec  3, 20:04 UTC
-Update - Actions is operating normally.
-Dec  3, 20:02 UTC
-Update - API Requests is operating normally.
-Dec  3, 19:59 UTC
-Update - We have taken mitigating actions and are starting to see recovery but are continuing to monitor and ensure full recovery. Some users may still see errors.
-Dec  3, 19:54 UTC
-Update - Some users will experience problems with certain features of pull requests, actions, issues and other areas. We are aware of the issue, know the cause, and are working on a mitigation.
-Dec  3, 19:48 UTC
-Investigating - We are investigating reports of degraded performance for API Requests, Actions and Pull Requests]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[eu1.make.com - Scenario queue not being processed]]></title>
-        <id>https://status.make.com/incidents/r6ks1rqmzmwk</id>
-        <link href="https://status.make.com/incidents/r6ks1rqmzmwk"/>
-        <updated>2024-12-03T16:10:56.000Z</updated>
-        <summary type="html"><![CDATA[Dec  3, 17:10 CET
-Resolved - This incident has been resolved.
-Dec  3, 16:49 CET
-Monitoring - A fix has been implemented and we are monitoring the results.
-Dec  3, 14:34 CET
-Update - Our engineering team is still working to solve the problem. Further updates will be provided within one hour.
-Dec  3, 13:38 CET
-Investigating - We are currently investigating an issue where some scenarios might experience issues processing its queue. We will provide more updates within one hour.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some users may experience a 503 error when trying to use Notion]]></title>
-        <id>https://status.notion.so/incidents/5qq8z91r5vk2</id>
-        <link href="https://status.notion.so/incidents/5qq8z91r5vk2"/>
-        <updated>2024-12-03T15:32:35.000Z</updated>
-        <summary type="html"><![CDATA[Dec  3, 07:32 PST
-Resolved - Our team was able to identify and resolve this issue.
-Dec  3, 06:54 PST
-Investigating - Some users may experience a 503 error when trying to use Notion. Our engineering team is actively investigating this issue.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
         </author>
     </entry>
 </feed>
