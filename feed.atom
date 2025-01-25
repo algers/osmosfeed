@@ -1,16 +1,251 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-01-24T00:27:51.052Z</id>
+    <id>urn:2025-01-25T00:27:09.260Z</id>
     <title>osmos::feed</title>
-    <updated>2025-01-24T00:27:51.052Z</updated>
+    <updated>2025-01-25T00:27:09.260Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Planned Maintenance for Flex Insights Historical Reporting]]></title>
+        <id>https://status.twilio.com/incidents/26ttt36vm0c6</id>
+        <link href="https://status.twilio.com/incidents/26ttt36vm0c6"/>
+        <updated>2025-01-25T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jan 25, 01:00 - 14:00 PST
+Jan 20, 06:36 PST
+Scheduled - The Flex Insights Historical Reporting dashboards visualization partner in the US is conducting planned maintenance on Saturday, Jan 25th, 2025, at 1:00 AM Pacific Standard Time. The maintenance window is planned to take up to 13 hours. Maintenance is planned as no-downtime, but  there can be intermittent failures on loading Insights Historical Dashboards and ETLs uploads while the maintenance is in progress.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some users may be experiencing issues with their sidebar not being badged for new DMs and channel notifications.]]></title>
+        <id>https://slack-status.com/2025-01/ad1515e459cd6abc</id>
+        <link href="https://slack-status.com/2025-01/ad1515e459cd6abc"/>
+        <updated>2025-01-24T23:52:14.000Z</updated>
+        <summary type="html"><![CDATA[Beginning around November 22, 2024 until January 16, 2025, some users on the desktop versions of Slack experienced unexpected behavior with sidebar bolding & badging for direct messages (DMs), group DMs, and channels. This caused users to miss unread messages within these conversations.We initially were tracking reports from affected users, but on January 6, 2025, we noticed an unexpected increase of reports causing us to initiate our incident response processes.As an initial fix, we rolled out a change to the backend logic to correct the timestamp and store correct values so the client triggered the appropriate badging & bolding notifications. While this fix resolved the initial badging & bolding behavior, it unexpectedly caused an issue with badging counts, resulting in displaying an incorrect number of unread messages as well as not marking a channels read state correctly. We promptly reversed this change to avoid further impact.We continued our investigation efforts and discovered an additional cause within the backend logic checks related to how a message is routed to the client. This check ensures the client is fetching the proper information that triggers the notification badging & bolding. We adjusted the problematic logic within this check to ensure the proper data is fetched when triggering a notification, resolving the issue for affected users.Throughout this incident, we adjusted our strategy on how to best handle incoming reports from affected users, which impacted updates on our status site. As more users reported experiencing this issue, we then resumed our status site updates.We apologize for any confusion and disruptions to your work day and appreciate your patience as we worked to resolve this issue for all affected users.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Workflows returning a "unexpected_builtin_exception" error]]></title>
+        <id>https://slack-status.com/2025-01/84eb20635844097f</id>
+        <link href="https://slack-status.com/2025-01/84eb20635844097f"/>
+        <updated>2025-01-24T23:19:14.000Z</updated>
+        <summary type="html"><![CDATA[We implemented a fix that resolves the errors users were experiencing with workflows. Those affected may need to re-run any workflows that had errors. We appreciate your patience and apologize for any disruption to your work day.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UPDATE: ### **Summary:**
+Some Gmail Android users may experience elevated crashes
+### **Description:**
+We are experiencing an issue with Gmail beginning on Thursday, 2025-01-23 14:30 US/Pacific.
+Our engineering team is investigating the issue.
+We will provide an update by Thursday, 2025-01-23 19:30 US/Pacific.
+We apologize to all affected by the disruption.
+### **Diagnosis:**
+Customers accessing non-gmail accounts via the gmail app on android devices may experience crashes while opening the email.
+## **Workaround:**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/n3bN6Xsdr4gmPxz29x2N</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/n3bN6Xsdr4gmPxz29x2N"/>
+        <updated>2025-01-24T23:07:32.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2025-01-23 22:30</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h3><strong>Summary:</strong></h3>
+<p>Some Gmail Android users may experience elevated crashes</p>
+<h3><strong>Description:</strong></h3>
+<p>Our Engineering team has completed a rollout intended to mitigate the issue. We continue to observe a decrease in the crash rate and will continue to monitor for the stability.</p>
+<p>We will provide more information by Monday, 2025-01-27 09:00 US/Pacific.</p>
+<h3><strong>Diagnosis:</strong></h3>
+<p>Customers accessing non-gmail accounts via the gmail app on android devices may experience crashes while opening the email.</p>
+<h2><strong>Workaround:</strong></h2>
+<p>None at this time.</p>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UPDATE: ### **Summary:**
+Some Gmail Android users may experience elevated crashes
+### **Description:**
+We are experiencing an issue with Gmail beginning on Thursday, 2025-01-23 14:30 US/Pacific.
+Our engineering team is investigating the issue.
+We will provide an update by Thursday, 2025-01-23 19:30 US/Pacific.
+We apologize to all affected by the disruption.
+### **Diagnosis:**
+Customers accessing non-gmail accounts via the gmail app on android devices may experience crashes while opening the email.
+## **Workaround:**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/n3bN6Xsdr4gmPxz29x2N</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/n3bN6Xsdr4gmPxz29x2N"/>
+        <updated>2025-01-24T23:07:32.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2025-01-23 22:30</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h3><strong>Summary:</strong></h3>
+<p>Some Gmail Android users may experience elevated crashes</p>
+<h3><strong>Description:</strong></h3>
+<p>Our Engineering team has completed a rollout intended to mitigate the issue. We are observing a decrease in the crash rate and will continue to monitor for the stability.</p>
+<p>We will provide more information by Friday, 2025-01-24 09:30 US/Pacific.</p>
+<h3><strong>Diagnosis:</strong></h3>
+<p>Customers accessing non-gmail accounts via the gmail app on android devices may experience crashes while opening the email.</p>
+<h2><strong>Workaround:</strong></h2>
+<p>None at this time.</p>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
+        <author>
+            <name>Google Workspace Status Dashboard Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to Tigo in Chad]]></title>
+        <id>https://status.twilio.com/incidents/fqclh9l28nk7</id>
+        <link href="https://status.twilio.com/incidents/fqclh9l28nk7"/>
+        <updated>2025-01-24T23:07:02.000Z</updated>
+        <summary type="html"><![CDATA[Jan 24, 15:07 PST
+Update - We are observing recovery in SMS delivery delays when sending messages to Tigo in Chad. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Jan 24, 14:39 PST
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Tigo in Chad. We will continue monitoring the service to ensure a full recovery. We will provide another update in 30 minutes or as soon as more information becomes available.
+Jan 24, 12:40 PST
+Update - We continue experiencing SMS delivery delays when sending messages to Tigo in Chad. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Jan 24, 11:40 PST
+Investigating - We are experiencing SMS delivery delays when sending messages to Tigo in Chad. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
+Jan 24, 09:40 PST
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Tigo in Chad. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 Hours or as soon as more information becomes available.
+Jan 24, 07:44 PST
+Update - We are experiencing SMS delivery delays when sending messages to Tigo in Chad. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Jan 24, 06:43 PST
+Investigating - We are experiencing SMS delivery delays when sending messages to Tigo in Chad. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays To Tele2 Network In Kazakhstan]]></title>
+        <id>https://status.twilio.com/incidents/cc1n4k27lrfk</id>
+        <link href="https://status.twilio.com/incidents/cc1n4k27lrfk"/>
+        <updated>2025-01-24T23:00:13.000Z</updated>
+        <summary type="html"><![CDATA[Jan 24, 15:00 PST
+Update - We are observing recovery in SMS delivery delays when sending messages to Tele2 Network In Kazakhstan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Jan 24, 14:29 PST
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to Tele2 Network In Kazakhstan. We will continue monitoring the service to ensure a full recovery. We will provide another update in 30 minutes or as soon as more information becomes available.
+Jan 24, 13:30 PST
+Investigating - We are experiencing SMS delivery delays when sending messages to Tele2 Network In Kazakhstan . Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On Call Engineers are Investigating an issue related to Sendgrid]]></title>
+        <id>https://status.twilio.com/incidents/gzzzbp1ktd8x</id>
+        <link href="https://status.twilio.com/incidents/gzzzbp1ktd8x"/>
+        <updated>2025-01-24T22:17:22.000Z</updated>
+        <summary type="html"><![CDATA[Jan 24, 14:17 PST
+Resolved - The issue affecting the Sendgrid product is being investigated by our Engineering team. Further updates will be posted in status.sendgrid.com
+Jan 24, 14:01 PST
+Investigating - Our monitoring systems have detected a potential issue affecting the Email API (Sendgrid). Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Intune App for Android crashing]]></title>
+        <id>https://slack-status.com/2025-01/8167aba49c749279</id>
+        <link href="https://slack-status.com/2025-01/8167aba49c749279"/>
+        <updated>2025-01-24T20:18:32.000Z</updated>
+        <summary type="html"><![CDATA[Our efforts to release the fix is still ongoing. We appreciate your patience as we sort this out and will be back with another update soon.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On Call Engineers are Investigating an issue with Flex]]></title>
+        <id>https://status.twilio.com/incidents/r72mfwm4gp45</id>
+        <link href="https://status.twilio.com/incidents/r72mfwm4gp45"/>
+        <updated>2025-01-24T19:59:51.000Z</updated>
+        <summary type="html"><![CDATA[Jan 24, 11:59 PST
+Investigating - Our monitoring systems have detected a potential issue Flex. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[On Call Engineers are Investigating an issue]]></title>
+        <id>https://status.twilio.com/incidents/mknd4mjwh5xr</id>
+        <link href="https://status.twilio.com/incidents/mknd4mjwh5xr"/>
+        <updated>2025-01-24T19:48:26.000Z</updated>
+        <summary type="html"><![CDATA[Jan 24, 11:48 PST
+Resolved - We have fully investigated the Flex issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
+Jan 24, 11:35 PST
+Investigating - Our monitoring systems have detected a potential issue with Flex. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Call Failures to a subset of Twilio's Phone numbers in Brazil]]></title>
+        <id>https://status.twilio.com/incidents/mqt75md56rky</id>
+        <link href="https://status.twilio.com/incidents/mqt75md56rky"/>
+        <updated>2025-01-24T18:31:39.000Z</updated>
+        <summary type="html"><![CDATA[Jan 24, 10:31 PST
+Resolved - We have fully investigated the Call Failures to a subset of Twilio's Phone numbers in Brazil issue, and it was determined that the impact was limited to a small set of customers, who have been contacted individually to address any concerns. All systems are operational.
+Jan 24, 09:48 PST
+Investigating - Our monitoring systems have detected a potential issue with Calls to Brazil in a subset of Twilio's Brazilian numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Delays to MTS Network in Belarus]]></title>
+        <id>https://status.twilio.com/incidents/2pycqx1dg1xd</id>
+        <link href="https://status.twilio.com/incidents/2pycqx1dg1xd"/>
+        <updated>2025-01-24T14:56:09.000Z</updated>
+        <summary type="html"><![CDATA[Jan 24, 06:56 PST
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to MTS Network in Belarus. This incident has been resolved.
+Jan 24, 04:52 PST
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to MTS Network in Belarus. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Jan 24, 04:24 PST
+Investigating - We are experiencing SMS delivery delays when sending messages to MTS Network in Belarus. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spaces Access Keys]]></title>
+        <id>https://status.digitalocean.com/incidents/kpnt5493k1vh</id>
+        <link href="https://status.digitalocean.com/incidents/kpnt5493k1vh"/>
+        <updated>2025-01-24T14:21:55.000Z</updated>
+        <summary type="html"><![CDATA[Jan 24, 14:21 UTC
+Resolved - Our Engineering team has successfully resolved the issue affecting both the creation and regeneration of Spaces Access Keys. Between 13:05 UTC and 13:50 UTC, users may have faced intermittent errors when creating or regenerating Access Keys. All services are now fully restored and operating normally. 
+If you're still encountering any issues, please open a ticket with our support team. We apologize for any inconvenience caused.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USA API Error impacting Account Security Services.]]></title>
+        <id>https://status.twilio.com/incidents/w96gt99mrlj2</id>
+        <link href="https://status.twilio.com/incidents/w96gt99mrlj2"/>
+        <updated>2025-01-24T08:16:56.000Z</updated>
+        <summary type="html"><![CDATA[Jan 24, 00:16 PST
+Resolved - We are no longer experiencing issues with AccSec - US API Errors. This incident has been resolved.
+Jan 23, 22:38 PST
+Monitoring - We have started seeing recovery for potential issue with AccSec - US API Errors. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Jan 23, 21:15 PST
+Investigating - Our monitoring systems have detected a potential issue with AccSec - US API Errors. Our engineering team has been alerted and is actively investigating.  We are actively working to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Jan 23, 20:18 PST
+Identified - Our monitoring systems have detected a potential issue with AccSec - US API Errors. Our engineering team has been alerted and is actively investigating.  We are actively working to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[US SMS Carrier Maintenance - Small US Carriers]]></title>
         <id>https://status.twilio.com/incidents/fdm6d0001sbd</id>
         <link href="https://status.twilio.com/incidents/fdm6d0001sbd"/>
-        <updated>2025-01-24T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jan 23, 20:00 PST  -  Jan 24, 00:00 PST
+        <updated>2025-01-24T08:01:21.000Z</updated>
+        <summary type="html"><![CDATA[Jan 24, 00:01 PST
+Completed - The scheduled maintenance has been completed.
+Jan 23, 20:01 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Jan 21, 17:24 PST
 Scheduled - A subset of small networks in the US are conducting a planned maintenance from 23 January 2025 at 20:00 PST until 24 January 2025 at 00:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.]]></summary>
         <author>
@@ -21,8 +256,11 @@ Scheduled - A subset of small networks in the US are conducting a planned mainte
         <title type="html"><![CDATA[US SMS Carrier Maintenance - Small US Carriers]]></title>
         <id>https://status.twilio.com/incidents/v7glzp7ycc0y</id>
         <link href="https://status.twilio.com/incidents/v7glzp7ycc0y"/>
-        <updated>2025-01-24T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jan 23, 20:00 PST  -  Jan 24, 00:00 PST
+        <updated>2025-01-24T08:00:21.000Z</updated>
+        <summary type="html"><![CDATA[Jan 24, 00:00 PST
+Completed - The scheduled maintenance has been completed.
+Jan 23, 20:01 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Jan 21, 17:15 PST
 Scheduled - A subset of small networks in the US are conducting a planned maintenance from 23 January 2025 at 20:00 PST until 24 January 2025 at 00:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.]]></summary>
         <author>
@@ -30,79 +268,76 @@ Scheduled - A subset of small networks in the US are conducting a planned mainte
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[United Kingdom Account Security Carrier Partner Maintenance - EE]]></title>
-        <id>https://status.twilio.com/incidents/g4nfr99m4xh6</id>
-        <link href="https://status.twilio.com/incidents/g4nfr99m4xh6"/>
-        <updated>2025-01-24T01:45:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Jan 23, 17:45 - 23:00 PST
-Jan 14, 05:10 PST
-Scheduled - Our carrier partner EE United Kingdom is conducting a planned maintenance from 23 January 2025 at 17:45 PST until 23 January 2025 at 23:00 PST. During the maintenance window, there could be intermittent API request failures for EE  United Kingdom customers.
-
-Impacted Products: Verify Silent Network Auth, Lookup Identity Match, Lookup SIM Swap,  Legacy Identity MatchAndAttributes]]></summary>
+        <title type="html"><![CDATA[UPDATE: ### **Summary:**
+Some Gmail Android users may experience elevated crashes
+### **Description:**
+We are experiencing an issue with Gmail beginning on Thursday, 2025-01-23 14:30 US/Pacific.
+Our engineering team is investigating the issue.
+We will provide an update by Thursday, 2025-01-23 19:30 US/Pacific.
+We apologize to all affected by the disruption.
+### **Diagnosis:**
+Customers accessing non-gmail accounts via the gmail app on android devices may experience crashes while opening the email.
+## **Workaround:**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/n3bN6Xsdr4gmPxz29x2N</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/n3bN6Xsdr4gmPxz29x2N"/>
+        <updated>2025-01-24T07:14:40.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2025-01-23 22:30</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h3><strong>Summary:</strong></h3>
+<p>Some Gmail Android users may experience elevated crashes</p>
+<h3><strong>Description:</strong></h3>
+<p>Our Engineering team has completed a rollout intended to mitigate the issue. We are observing a decrease in the crash rate and will continue to monitor for the stability.</p>
+<p>We will provide more information by Thursday, 2025-01-23 23:30 US/Pacific.</p>
+<h3><strong>Diagnosis:</strong></h3>
+<p>Customers accessing non-gmail accounts via the gmail app on android devices may experience crashes while opening the email.</p>
+<h2><strong>Workaround:</strong></h2>
+<p>None at this time.</p>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays To Claro Network In Dominican Republic]]></title>
-        <id>https://status.twilio.com/incidents/y0c9m0vs00jk</id>
-        <link href="https://status.twilio.com/incidents/y0c9m0vs00jk"/>
-        <updated>2025-01-24T00:17:51.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 16:17 PST
-Update - We are experiencing MMS/SMS delivery delays when sending messages to SMS Delivery Delays To Claro Network In Dominican Republic. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
-Jan 23, 16:02 PST
-Investigating - Our monitoring systems have detected a potential issue with SMS Delivery Delays To Claro Network In Dominican Republic. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <title type="html"><![CDATA[UPDATE: ### **Summary:**
+Some Gmail Android users may experience elevated crashes
+### **Description:**
+We are experiencing an issue with Gmail beginning on Thursday, 2025-01-23 14:30 US/Pacific.
+Our engineering team is investigating the issue.
+We will provide an update by Thursday, 2025-01-23 19:30 US/Pacific.
+We apologize to all affected by the disruption.
+### **Diagnosis:**
+Customers accessing non-gmail accounts via the gmail app on android devices may experience crashes while opening the email.
+## **Workaround:**
+None at this time.]]></title>
+        <id>https://www.google.com/appsstatus/dashboard/incidents/n3bN6Xsdr4gmPxz29x2N</id>
+        <link href="https://www.google.com/appsstatus/dashboard/incidents/n3bN6Xsdr4gmPxz29x2N"/>
+        <updated>2025-01-24T03:27:42.000Z</updated>
+        <summary type="html"><![CDATA[<p> Incident began at <strong>2025-01-23 22:30</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h3><strong>Summary:</strong></h3>
+<p>Some Gmail Android users may experience elevated crashes</p>
+<h3><strong>Description:</strong></h3>
+<p>We are experiencing an issue with Gmail beginning on Thursday, 2025-01-23 14:30 US/Pacific.</p>
+<p>Our engineering team is investigating the issue.</p>
+<p>We will provide an update by Thursday, 2025-01-23 19:30 US/Pacific.</p>
+<p>We apologize to all affected by the disruption.</p>
+<h3><strong>Diagnosis:</strong></h3>
+<p>Customers accessing non-gmail accounts via the gmail app on android devices may experience crashes while opening the email.</p>
+<h2><strong>Workaround:</strong></h2>
+<p>None at this time.</p>
+</div><hr><p>Affected products: Gmail</p>]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Incident: Intune App for Android crashing]]></title>
-        <id>https://slack-status.com/2025-01/8167aba49c749279</id>
-        <link href="https://slack-status.com/2025-01/8167aba49c749279"/>
-        <updated>2025-01-24T00:05:39.000Z</updated>
-        <summary type="html"><![CDATA[We are currently investigating reports of our Intune App for Android crashing when users tap the Activity tab. We'll be back with another update as soon as we know more.]]></summary>
+        <title type="html"><![CDATA[Degraded Performance on Notion’s Wiki Database Endpoints]]></title>
+        <id>https://status.notion.so/incidents/d25snqgl7k82</id>
+        <link href="https://status.notion.so/incidents/d25snqgl7k82"/>
+        <updated>2025-01-24T01:39:42.000Z</updated>
+        <summary type="html"><![CDATA[Jan 23, 17:39 PST
+Resolved - Resolved - This incident has now been resolved.
+Jan 23, 17:02 PST
+Identified - We are aware of an issue impacting Notion's API database endpoints for wiki databases. We are working to fix this and will post an update once it is resolved.]]></summary>
         <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Yota]]></title>
-        <id>https://status.twilio.com/incidents/kmr3p9p13jgd</id>
-        <link href="https://status.twilio.com/incidents/kmr3p9p13jgd"/>
-        <updated>2025-01-24T00:01:22.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 16:01 PST
-Completed - The scheduled maintenance has been completed.
-Jan 22, 12:01 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jan 21, 00:18 PST
-Scheduled - The Yota network in Russia is conducting a series of planned maintenances from 22 January 2025 at 12:00 PST until 22 January 2025 at 16:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to Yota Russia handsets.
-
-Note, the maintenance will be carried out on each of the following dates and times:
-
-23 January 2025 at 12:00 PST until 23 January 2025 at 13:00 PST]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - MegaFon]]></title>
-        <id>https://status.twilio.com/incidents/k1xwvgmlvnl4</id>
-        <link href="https://status.twilio.com/incidents/k1xwvgmlvnl4"/>
-        <updated>2025-01-24T00:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 16:00 PST
-Completed - The scheduled maintenance has been completed.
-Jan 22, 12:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jan 20, 19:04 PST
-Scheduled - The MegaFon network in Russia is conducting a series of planned maintenances from 22 January 2025 at 12:00 PST until 23 January 2025 at 16:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to MegaFon Russia handsets.
-
-Note, the maintenance will be carried out on each of the following dates and times:
-
-22 January 2025 at 12:00 PST until 22 January 2025 at 16:00 PST
-23 January 2025 at 12:00 PST until 23 January 2025 at 16:00 PST]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Notion Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -130,162 +365,14 @@ We apologize for the inconvenience and will share an update once we have more in
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[United Kingdom Account Security Carrier Partner Maintenance - EE]]></title>
-        <id>https://status.twilio.com/incidents/rs3mncyv776w</id>
-        <link href="https://status.twilio.com/incidents/rs3mncyv776w"/>
-        <updated>2025-01-23T22:02:21.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 14:02 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jan 22, 14:04 PST
-Scheduled - Our carrier partner EE United Kingdom is conducting a planned maintenance from 23 January 2025 at 14:00 PST until 23 January 2025 at 20:00 PST. During the maintenance window, there could be intermittent API request failures for EE United Kingdom customers.
-
-Impacted Products: Verify Silent Network Auth, Lookup Identity Match, Lookup SIM Swap,  Legacy Identity MatchAndAttributes
-
-We are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ukraine Voice Carrier Partner Maintenance - UkrTelecom]]></title>
-        <id>https://status.twilio.com/incidents/0zh40s6d5fcs</id>
-        <link href="https://status.twilio.com/incidents/0zh40s6d5fcs"/>
-        <updated>2025-01-23T22:01:21.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 14:01 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jan 21, 03:53 PST
-Scheduled - The UkrTelecom network in Ukraine is conducting a planned maintenance from 23 January 2025 at 14:00 PST until 23 January 2025 at 19:00 PST. During the maintenance window, there could be intermittent call disconnects or call failures from and to Twilio Ukraine phone numbers.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Malaysia SMS Carrier Maintenance - U Mobile]]></title>
-        <id>https://status.twilio.com/incidents/y6vmjtq1kyxd</id>
-        <link href="https://status.twilio.com/incidents/y6vmjtq1kyxd"/>
-        <updated>2025-01-23T22:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 14:00 PST
-Completed - The scheduled maintenance has been completed.
-Jan 22, 10:01 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jan 20, 23:39 PST
-Scheduled - The U Mobile network in Malaysia is conducting a series of planned maintenances from 22 January 2025 at 10:00 PST until 23 January 2025 at 14:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to U Mobile Malaysia handsets.
-
-Note, the maintenance will be carried out on each of the following dates and times:
-
-22 January 2025 at 10:00 PST until 22 January 2025 at 14:00 PST
-23 January 2025 at 10:00 PST until 23 January 2025 at 14:00 PST]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Incident with Actions]]></title>
         <id>https://www.githubstatus.com/incidents/gszmt35n7k20</id>
         <link href="https://www.githubstatus.com/incidents/gszmt35n7k20"/>
         <updated>2025-01-23T17:27:02.000Z</updated>
         <summary type="html"><![CDATA[Jan 23, 17:27 UTC
-Resolved - This incident has been resolved.
-Jan 23, 17:03 UTC
-Update - We are seeing recovery with the latest mitigation. Queue time for a very small percentage of larger runner jobs are still longer than expected so we are monitoring those for full recovery before going green.
-Jan 23, 16:25 UTC
-Update - We are actively applying mitigations to help improve larger runner start times. We are currently seeing delays starting about 25% of larger runner jobs.
-Jan 23, 15:33 UTC
-Update - We are still actively investigating a slowdown in larger runner assignment and are working to apply additional mitigations.
-Jan 23, 14:53 UTC
-Update - We're still applying mitigations to unblock queueing Actions in large runners. We are monitoring for full recovery.
-Jan 23, 14:17 UTC
-Update - We…]]></summary>
+Resolved - On January 23, 2025, between 9:49 and 17:00 UTC, the available capacity of large hosted runners was degraded.  On average, 26% of jobs requiring large runners had a >5min delay getting a runner assigned.  This was caused by the rollback of a configuration change and a latent bug in event processing, which was triggered by the mixed data shape that resulted from the rollback.  The processing would reprocess the same events unnecessarily and cause the background job that manages large runner creation and deletion to run out of resources.  It would automatically restart and continue processing, but the jobs were not able to keep up with production traffic.  We mitigated the impact by using a feature flag to bypass the problematic event processing logic.  While the…]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Conversations Outbound Message Delays]]></title>
-        <id>https://status.twilio.com/incidents/bqhg732m9lwj</id>
-        <link href="https://status.twilio.com/incidents/bqhg732m9lwj"/>
-        <updated>2025-01-23T13:41:47.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 05:41 PST
-Resolved - The issue affecting some Email and SMS outbound messages has been resolved, and the service is functioning normally at this time.
-Jan 23, 03:42 PST
-Update - We have started seeing recovery for delays in some Email and SMS outbound messages. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Jan 23, 01:49 PST
-Monitoring - We have started seeing recovery for delays in some Email and SMS outbound messages. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Jan 23, 00:28 PST
-Update - We have identified the issue causing delays in some Email and SMS outbound messages. New SMS Outbound Messages are no longer experiencing delays. We will provide another update within 4 hours or sooner if more information becomes available.
-Jan 23, 00:12 PST
-Update - We have identified the issue causing delays in some Email and SMS outbound messages. We will provide another update within 4 hours or sooner if more information becomes available.
-Jan 22, 22:15 PST
-Update - We have identified the issue causing delays in some Email and SMS outbound messages. We will provide another update within 2 hours or sooner if more information becomes available.
-Jan 22, 22:12 PST
-Identified - We have identified the issue causing delays in some Email and SMS outbound messages. We will provide another update within 2 hours or sooner if more information becomes available.
-Jan 22, 21:09 PST
-Update - We are currently investigating an issue causing delays in some Email and SMS outbound messages. We will provide another update within 1 hour or sooner if more information becomes available.
-Jan 22, 20:10 PST
-Investigating - Our monitoring systems have detected a potential issue with Conversation API. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mexico SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/872qnzhk1qjj</id>
-        <link href="https://status.twilio.com/incidents/872qnzhk1qjj"/>
-        <updated>2025-01-23T12:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 04:00 PST
-Completed - The scheduled maintenance has been completed.
-Jan 22, 22:02 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jan 15, 22:05 PST
-Scheduled - Our SMS carrier partner in Mexico is conducting a planned maintenance from 22 January 2025 at 22:00 PST until 23 January 2025 at 04:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from Mexico handsets via subset of Mexico short codes.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US SMS Carrier Maintenance - Small US Carriers]]></title>
-        <id>https://status.twilio.com/incidents/ggk5dhtvh0gf</id>
-        <link href="https://status.twilio.com/incidents/ggk5dhtvh0gf"/>
-        <updated>2025-01-23T11:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 03:00 PST
-Completed - The scheduled maintenance has been completed.
-Jan 22, 21:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jan 17, 22:47 PST
-Scheduled - A subset of small networks in the US are conducting a planned maintenance from 22 January 2025 at 21:00 PST until 23 January 2025 at 03:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US and Canada SMS and MMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/1y62cdsmxcw0</id>
-        <link href="https://status.twilio.com/incidents/1y62cdsmxcw0"/>
-        <updated>2025-01-23T08:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Jan 23, 00:00 PST
-Completed - The scheduled maintenance has been completed.
-Jan 22, 20:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Jan 10, 16:58 PST
-Scheduled - Our SMS and MMS carrier partner in US and Canada is conducting a planned maintenance from 22 January 2025 at 20:00 PST until 23 January 2025 at 00:00 PST. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from US and Canada handsets via subset of US and Canada long codes, short codes and toll free numbers.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: Customers attempting to start a direct message chat with a new contact from the Chat Web search bar may receive the error “Can’t start a direct message right now. Try again later.”
-Customers can attempt to start a new direct message using the "New Chat" button.
-Mitigation work is currently underway by our engineering team.
-We do not have an ETA for mitigation at this point.
-We will provide more information by Wednesday, 2025-01-22 12:00 US/Pacific.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/UTBmhHDLSGFN375e2t2j</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/UTBmhHDLSGFN375e2t2j"/>
-        <updated>2025-01-22T20:12:28.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2025-01-18 02:00</strong> and ended at <strong>2025-01-22 19:10</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><span>  The problem with Google Chat has been resolved. We apologize for the inconvenience and thank you for your patience and continued support.  </span><div> <p>Customers that are still experiencing errors when starting a direct message from the Chat Web search bar should refresh their browser page.</p>
-  </div><div> <p>Customers can attempt to start a new direct message using the &#34;New Chat&#34; button.</p>
-  </div></div><hr><p>Affected products: Google Chat</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
         </author>
     </entry>
     <entry>
@@ -358,16 +445,6 @@ Jan 14, 22:47 PST
 Investigating - Our team is currently performing maintenance of marketplace templates because of which template submissions are temporarily disabled. We will provide updates when submissions become available again.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users may be experiencing issues with their sidebar not being badged for new DMs and channel notifications.]]></title>
-        <id>https://slack-status.com/2025-01/ad1515e459cd6abc</id>
-        <link href="https://slack-status.com/2025-01/ad1515e459cd6abc"/>
-        <updated>2025-01-17T05:09:11.000Z</updated>
-        <summary type="html"><![CDATA[We have deployed a fix to resolve the badging issues and your notifications should now be functioning as expected. If you have any further trouble, please write to us at feedback@slack.com. Thank you for sticking with us while we worked on this. We very much appreciate your patience and understanding.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
