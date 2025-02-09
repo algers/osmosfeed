@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-08T00:27:24.553Z</id>
+    <id>urn:2025-02-09T00:30:39.547Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-08T00:27:24.553Z</updated>
+    <updated>2025-02-09T00:30:39.547Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -925,74 +925,6 @@ Thank you for your patience and we apologise for any inconvenience.
 Jan 11, 18:29 UTC
 Investigating - Our Engineering team is currently investigating an issue with Managed Kubernetes clusters. During this time, some users may experience delays when provisioning Kubernetes clusters, specifically version 1.31.1-5. 
 We apologize for the inconvenience and will provide an update as soon as we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues with Reservations API and Partner Portal Reservations Dashboard]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/qfqkytsx1jqm</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/qfqkytsx1jqm"/>
-        <updated>2025-01-10T01:12:38.000Z</updated>
-        <summary type="html"><![CDATA[Jan  9, 17:12 PST
-Resolved - This incident has been resolved.
-Jan  9, 12:59 PST
-Monitoring - We deployed a fix for this issue around 11:45AM (PT) and the issue has been resolved. We will keep monitoring the results.
-Jan  9, 06:22 PST
-Investigating - We are currently investigating issues with new reservations not populating in the Partner Portal Reservations Dashboard and also not being returned in the GET all reservations request response.
-Reservation confirmation webhooks are still being delivered as expected. You may still retrieve the specific reservation with a GET reservations request.
-We'll share further updates as soon as possible.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delays on queue processing]]></title>
-        <id>https://status.make.com/incidents/8vd0hbqwdxlp</id>
-        <link href="https://status.make.com/incidents/8vd0hbqwdxlp"/>
-        <updated>2025-01-09T20:38:25.000Z</updated>
-        <summary type="html"><![CDATA[Jan  9, 21:38 CET
-Resolved - This incident has been resolved
-Jan  8, 22:21 CET
-Monitoring - We have applied a fix and we are currently monitoring the zone.
-Jan  8, 19:13 CET
-Investigating - We are currently facing an issue where some of the users might experience a delay on the processing of the queues records on their scenarios. That does not affects all scenarios.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues with VNet Injected Larger Hosted Runners in East US 2]]></title>
-        <id>https://www.githubstatus.com/incidents/jbhcrj5xtggx</id>
-        <link href="https://www.githubstatus.com/incidents/jbhcrj5xtggx"/>
-        <updated>2025-01-09T20:00:26.000Z</updated>
-        <summary type="html"><![CDATA[Jan  9, 20:00 UTC
-Resolved - On January 9, 2025, larger hosted runners configured with Azure private networking in East US 2 were degraded, causing delayed job starts for ~2,300 jobs between 16:00 and 20:00 UTC.  There was also an earlier period of impact from 2025-01-08 22:00 UTC to 2025-01-09 4:10 UTC with 488 jobs impacted.  The cause of both these delays was an incident in East US 2 impacting provisioning and network connectivity of Azure resources.  More details on that incident are visible at https://azure.status.microsoft/en-us/status/history (Tracking ID: PLP3-1W8). Because these runners are reliant on private networking with networks in the East US 2 region, there were no immediate mitigations available other than restoring network connectivity.  Going forward, we will continue evaluating options to provide better resilience to 3rd party regional outages that affect private networking customers.
-Jan  9, 20:00 UTC
-Update - The impact to Large Runners has been mitigated.  The third party incident has not been fully mitigated but is being actively monitored at https://azure.status.microsoft/en-us/status in case of reoccurrence.
-Jan  9, 19:27 UTC
-Update - We are continuing to see improvements while still monitoring updates from the third party at https://azure.status.microsoft/en-us/status
-Jan  9, 18:53 UTC
-Update - We are still monitoring the third party networking updates via https://azure.status.microsoft/en-us/status. Multiple workstreams are in progress by the third party to mitigate the impact.
-Jan  9, 18:18 UTC
-Update - We are still monitoring the third party networking updates via https://azure.status.microsoft/en-us/status.  Multiple workstreams are in progress by the third party to mitigate the impact.
-Jan  9, 17:43 UTC
-Update - The underlying third party networking issues have been identified and are being work on. Ongoing updates can be found at https://azure.status.microsoft/en-us/status
-Jan  9, 17:12 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Retro - Multiple services and API]]></title>
-        <id>https://status.digitalocean.com/incidents/mvy3c2lxp1hs</id>
-        <link href="https://status.digitalocean.com/incidents/mvy3c2lxp1hs"/>
-        <updated>2025-01-09T18:01:30.000Z</updated>
-        <summary type="html"><![CDATA[Jan  9, 18:01 UTC
-Resolved - From 15:28 to 15:32 UTC, an internal service disruption may have resulted in users experiencing errors while using the Cloud Panel or API to manage Spaces Buckets, Apps, Managed Database Clusters, or Load Balancers as well as other actions due to impacted downstream services.
-If you continue to experience problems, please open a ticket with our support team. 
-Thank you and we apologize for any inconvenience.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
         </author>

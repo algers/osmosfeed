@@ -47,16 +47,6 @@
           "wordCount": 3863,
           "title": "Issues with Partner Portal Listings Dashboard and Overview",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://airbnbapi.statuspage.io/incidents/qfqkytsx1jqm",
-          "author": null,
-          "description": "Jan  9, 17:12 PST\nResolved - This incident has been resolved.\nJan  9, 12:59 PST\nMonitoring - We deployed a fix for this issue around 11:45AM (PT) and the issue has been resolved. We will keep monitoring the results.\nJan  9, 06:22 PST\nInvestigating - We are currently investigating issues with new reservations not populating in the Partner Portal Reservations Dashboard and also not being returned in the GET all reservations request response.\nReservation confirmation webhooks are still being delivered as expected. You may still retrieve the specific reservation with a GET reservations request.\nWe'll share further updates as soon as possible.",
-          "link": "https://airbnbapi.statuspage.io/incidents/qfqkytsx1jqm",
-          "publishedOn": "2025-01-10T01:12:38.000Z",
-          "wordCount": 3924,
-          "title": "Issues with Reservations API and Partner Portal Reservations Dashboard",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -189,16 +179,6 @@
           "publishedOn": "2025-01-11T21:12:49.000Z",
           "wordCount": 6300,
           "title": "Reconciling Kubernetes Clusters",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/mvy3c2lxp1hs",
-          "author": null,
-          "description": "Jan  9, 18:01 UTC\nResolved - From 15:28 to 15:32 UTC, an internal service disruption may have resulted in users experiencing errors while using the Cloud Panel or API to manage Spaces Buckets, Apps, Managed Database Clusters, or Load Balancers as well as other actions due to impacted downstream services.\nIf you continue to experience problems, please open a ticket with our support team. \nThank you and we apologize for any inconvenience.",
-          "link": "https://status.digitalocean.com/incidents/mvy3c2lxp1hs",
-          "publishedOn": "2025-01-09T18:01:30.000Z",
-          "wordCount": 6275,
-          "title": "Retro - Multiple services and API",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -427,16 +407,6 @@
           "publishedOn": "2025-01-14T00:28:58.000Z",
           "wordCount": 5528,
           "title": "Incident with Git Operations",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/jbhcrj5xtggx",
-          "author": null,
-          "description": "Jan  9, 20:00 UTC\nResolved - On January 9, 2025, larger hosted runners configured with Azure private networking in East US 2 were degraded, causing delayed job starts for ~2,300 jobs between 16:00 and 20:00 UTC.  There was also an earlier period of impact from 2025-01-08 22:00 UTC to 2025-01-09 4:10 UTC with 488 jobs impacted.  The cause of both these delays was an incident in East US 2 impacting provisioning and network connectivity of Azure resources.  More details on that incident are visible at https://azure.status.microsoft/en-us/status/history (Tracking ID: PLP3-1W8). Because these runners are reliant on private networking with networks in the East US 2 region, there were no immediate mitigations available other than restoring network connectivity.  Going forward, we will continue evaluating options to provide better resilience to 3rd party regional outages that affect private networking customers.\nJan  9, 20:00 UTC\nUpdate - The impact to Large Runners has been mitigated.  The third party incident has not been fully mitigated but is being actively monitored at https://azure.status.microsoft/en-us/status in case of reoccurrence.\nJan  9, 19:27 UTC\nUpdate - We are continuing to see improvements while still monitoring updates from the third party at https://azure.status.microsoft/en-us/status\nJan  9, 18:53 UTC\nUpdate - We are still monitoring the third party networking updates via https://azure.status.microsoft/en-us/status. Multiple workstreams are in progress by the third party to mitigate the impact.\nJan  9, 18:18 UTC\nUpdate - We are still monitoring the third party networking updates via https://azure.status.microsoft/en-us/status.  Multiple workstreams are in progress by the third party to mitigate the impact.\nJan  9, 17:43 UTC\nUpdate - The underlying third party networking issues have been identified and are being work on. Ongoing updates can be found at https://azure.status.microsoft/en-us/status\nJan  9, 17:12 UTC\nInvestigating - We are currently investigating this issue.",
-          "link": "https://www.githubstatus.com/incidents/jbhcrj5xtggx",
-          "publishedOn": "2025-01-09T20:00:26.000Z",
-          "wordCount": 5689,
-          "title": "Issues with VNet Injected Larger Hosted Runners in East US 2",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
@@ -711,16 +681,6 @@
           "publishedOn": "2025-01-14T08:20:32.000Z",
           "wordCount": 3863,
           "title": "Slow webhook and web page response",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/8vd0hbqwdxlp",
-          "author": null,
-          "description": "Jan  9, 21:38 CET\nResolved - This incident has been resolved\nJan  8, 22:21 CET\nMonitoring - We have applied a fix and we are currently monitoring the zone.\nJan  8, 19:13 CET\nInvestigating - We are currently facing an issue where some of the users might experience a delay on the processing of the queues records on their scenarios. That does not affects all scenarios.",
-          "link": "https://status.make.com/incidents/8vd0hbqwdxlp",
-          "publishedOn": "2025-01-09T20:38:25.000Z",
-          "wordCount": 3875,
-          "title": "Delays on queue processing",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
