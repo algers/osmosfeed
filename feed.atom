@@ -1,48 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-21T00:29:02.872Z</id>
+    <id>urn:2025-02-22T00:27:36.956Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-21T00:29:02.872Z</updated>
+    <updated>2025-02-22T00:27:36.956Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[United States SMS and MMS Carrier Maintenance - T-Mobile]]></title>
-        <id>https://status.twilio.com/incidents/bq3zdts45lyx</id>
-        <link href="https://status.twilio.com/incidents/bq3zdts45lyx"/>
-        <updated>2025-02-21T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Feb 21, 00:00 - 05:00 PST
-Feb 19, 22:10 PST
-Scheduled - The T-Mobile network in the United States is conducting an emergency maintenance from 21 February 2025 at 00:00 PST until 21 February 2025 at 05:00 PST. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile United States handsets when sending via subset of long codes and short codes.]]></summary>
+        <title type="html"><![CDATA[Incident: Custom emoji not loading]]></title>
+        <id>https://slack-status.com/2025-02/0a57df32942814ba</id>
+        <link href="https://slack-status.com/2025-02/0a57df32942814ba"/>
+        <updated>2025-02-21T00:31:53.000Z</updated>
+        <summary type="html"><![CDATA[From 2:00 PM PST on February 9, 2025, to 8:24 PM PST on February 11, 2025, some users experienced issues with custom emoji failing to load. A backend process responsible for handling custom emoji was experiencing an unexpected spike of requests, resulting in a backlog. This backlog primarily caused delays with recently added emoji. We made a change to restart emoji rendering jobs to help with request traffic, resolving the issue for all affected users.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Swaziland SMS Carrier Maintenance - MTN]]></title>
-        <id>https://status.twilio.com/incidents/6p211qcw3ypc</id>
-        <link href="https://status.twilio.com/incidents/6p211qcw3ypc"/>
-        <updated>2025-02-21T00:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Feb 20, 16:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Feb 13, 15:09 PST
-Scheduled - The MTN network in Swaziland is conducting a planned maintenance from 20 February 2025 at 16:00 PST until 20 February 2025 at 21:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to MTN Swaziland handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[France SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/19q2t23hv3q7</id>
-        <link href="https://status.twilio.com/incidents/19q2t23hv3q7"/>
-        <updated>2025-02-20T23:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Feb 20, 15:00 PST
-Completed - The scheduled maintenance has been completed.
-Feb 20, 13:00 PST
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Feb 18, 05:58 PST
-Scheduled - Our SMS carrier partner in France is conducting a planned maintenance from 20 February 2025 at 13:00 PST until 20 February 2025 at 15:00 PST. During the maintenance window, there could be intermittent delays delivering SMS to France handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
+            <name>Slack System Status</name>
         </author>
     </entry>
     <entry>
@@ -271,13 +241,16 @@ Identified - We have discovered an issue that is resulting in a higher number of
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Incident: Custom emoji not loading]]></title>
-        <id>https://slack-status.com/2025-02/0a57df32942814ba</id>
-        <link href="https://slack-status.com/2025-02/0a57df32942814ba"/>
-        <updated>2025-02-12T23:11:26.000Z</updated>
-        <summary type="html"><![CDATA[We resolved the issue users were experiencing with recently uploaded emoji loading in Slack. We apologize for any disruptions to your day and appreciate your patience as we sorted this out.]]></summary>
+        <title type="html"><![CDATA[[Retroactive] Incident with Migrations service]]></title>
+        <id>https://www.githubstatus.com/incidents/x07y6vhlvqg2</id>
+        <link href="https://www.githubstatus.com/incidents/x07y6vhlvqg2"/>
+        <updated>2025-02-13T07:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Feb 13, 07:30 UTC
+Resolved - Between Thursday 13th, 2025 19:30 UTC and Friday 14th, 2025 08:02 UTC the Migrations service was experiencing intermittent migration failures for some customers. This was caused by a code change that contained an edge case that erroneously failed some migrations.
+We mitigated the incident by rolling back the code change.
+We are working on improving our monitoring and deployment practices to reduce our time to detection and mitigation of issues like this one in the future.]]></summary>
         <author>
-            <name>Slack System Status</name>
+            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
     <entry>
