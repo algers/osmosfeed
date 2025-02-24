@@ -1,10 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-02-23T00:31:14.778Z</id>
+    <id>urn:2025-02-24T00:30:10.423Z</id>
     <title>osmos::feed</title>
-    <updated>2025-02-23T00:31:14.778Z</updated>
+    <updated>2025-02-24T00:30:10.423Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - AT&T]]></title>
+        <id>https://status.twilio.com/incidents/kn4nc5928gnn</id>
+        <link href="https://status.twilio.com/incidents/kn4nc5928gnn"/>
+        <updated>2025-02-24T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Feb 23, 21:00 PST  -  Feb 24, 05:00 PST
+Feb 21, 15:25 PST
+Scheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 23 February 2025 at 21:00 PST until 24 February 2025 at 05:00 PST. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.
+
+Impacted Product: Verify Silent Network Auth]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United States MMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/5hr8xnczsr12</id>
+        <link href="https://status.twilio.com/incidents/5hr8xnczsr12"/>
+        <updated>2025-02-24T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Feb 23, 21:00 PST  -  Feb 24, 03:00 PST
+Feb 14, 03:39 PST
+Scheduled - Our MMS carrier partner in the United States is conducting a planned maintenance from 23 February 2025 at 21:00 PST until 24 February 2025 at 03:00 PST. During the maintenance window, there could be intermittent delays delivering MMS to and from United States handsets via United States long codes.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United States SMS and MMS Carrier Maintenance - T-Mobile]]></title>
+        <id>https://status.twilio.com/incidents/qkt191kp3lfp</id>
+        <link href="https://status.twilio.com/incidents/qkt191kp3lfp"/>
+        <updated>2025-02-24T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Feb 23, 19:00 PST  -  Feb 24, 05:00 PST
+Feb 21, 12:12 PST
+Scheduled - The T-Mobile network in the United States is conducting a planned maintenance from 23 February 2025 at 19:00 PST until 24 February 2025 at 05:00 PST. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile United States handsets when sending via subset of long codes and short codes.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United Kingdom Account Security Carrier Partner Maintenance - Vodafone]]></title>
+        <id>https://status.twilio.com/incidents/nz2zpqp0nnby</id>
+        <link href="https://status.twilio.com/incidents/nz2zpqp0nnby"/>
+        <updated>2025-02-23T23:00:21.000Z</updated>
+        <summary type="html"><![CDATA[Feb 23, 15:00 PST
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Feb 20, 11:11 PST
+Scheduled - Our carrier partner Vodafone United Kingdom is conducting a planned maintenance from 23 February 2025 at 15:00 PST until 23 February 2025 at 20:30 PST. During the maintenance window, there could be intermittent API request failures for Vodafone United Kingdom customers.
+
+Impacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Custom emoji not loading]]></title>
         <id>https://slack-status.com/2025-02/0a57df32942814ba</id>
@@ -948,51 +1001,6 @@ We mitigated the issue by updating the credential internally.
 Mechanisms and automation will be implemented to detect and prevent this issue again in the future.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Users on the Free plan may experience issues uploading files to Notion.]]></title>
-        <id>https://status.notion.so/incidents/thgx901td8zy</id>
-        <link href="https://status.notion.so/incidents/thgx901td8zy"/>
-        <updated>2025-01-25T02:01:53.000Z</updated>
-        <summary type="html"><![CDATA[Jan 24, 18:01 PST
-Resolved - This incident has now been resolved and this issue should no longer be occurring.
-Jan 24, 17:26 PST
-Investigating - We are currently investigating an issue where users on our Free plan may experience an issue uploading a file to Notion pages. Files below the 5MB threshold may trigger the 5MB limit regardless of size.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Outage: Issues connecting to Slack]]></title>
-        <id>https://slack-status.com/2025-01/cdd30967ef34f359</id>
-        <link href="https://slack-status.com/2025-01/cdd30967ef34f359"/>
-        <updated>2025-01-25T01:49:15.000Z</updated>
-        <summary type="html"><![CDATA[On January 13, 2025 from 4:45 PM PST to 5:05 PM PST, users may have experienced brief issues with Slack, including connecting to Slack, sending and loading messages and threads, and running workflows.We made a planned changed to part of our infrastructure that inadvertently caused a problem on one of our database clusters, resulting in failures across a number of our API endpoints. Our automatic recovery systems stepped in and restarted the database cluster, restoring API success rates and resolving the issue for all impacted users.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users may be experiencing issues with their sidebar not being badged for new DMs and channel notifications.]]></title>
-        <id>https://slack-status.com/2025-01/ad1515e459cd6abc</id>
-        <link href="https://slack-status.com/2025-01/ad1515e459cd6abc"/>
-        <updated>2025-01-24T23:52:14.000Z</updated>
-        <summary type="html"><![CDATA[Beginning around November 22, 2024 until January 16, 2025, some users on the desktop versions of Slack experienced unexpected behavior with sidebar bolding & badging for direct messages (DMs), group DMs, and channels. This caused users to miss unread messages within these conversations.We initially were tracking reports from affected users, but on January 6, 2025, we noticed an unexpected increase of reports causing us to initiate our incident response processes.As an initial fix, we rolled out a change to the backend logic to correct the timestamp and store correct values so the client triggered the appropriate badging & bolding notifications. While this fix resolved the initial badging & bolding behavior, it unexpectedly caused an issue with badging counts, resulting in displaying an incorrect number of unread messages as well as not marking a channels read state correctly. We promptly reversed this change to avoid further impact.We continued our investigation efforts and discovered an additional cause within the backend logic checks related to how a message is routed to the client. This check ensures the client is fetching the proper information that triggers the notification badging & bolding. We adjusted the problematic logic within this check to ensure the proper data is fetched when triggering a notification, resolving the issue for affected users.Throughout this incident, we adjusted our strategy on how to best handle incoming reports from affected users, which impacted updates on our status site. As more users reported experiencing this issue, we then resumed our status site updates.We apologize for any confusion and disruptions to your work day and appreciate your patience as we worked to resolve this issue for all affected users.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spaces Access Keys]]></title>
-        <id>https://status.digitalocean.com/incidents/kpnt5493k1vh</id>
-        <link href="https://status.digitalocean.com/incidents/kpnt5493k1vh"/>
-        <updated>2025-01-24T14:21:55.000Z</updated>
-        <summary type="html"><![CDATA[Jan 24, 14:21 UTC
-Resolved - Our Engineering team has successfully resolved the issue affecting both the creation and regeneration of Spaces Access Keys. Between 13:05 UTC and 13:50 UTC, users may have faced intermittent errors when creating or regenerating Access Keys. All services are now fully restored and operating normally. 
-If you're still encountering any issues, please open a ticket with our support team. We apologize for any inconvenience caused.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>
