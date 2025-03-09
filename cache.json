@@ -41,7 +41,18 @@
       "title": "Security Bulletins on Tailscale",
       "feedUrl": "https://tailscale.com/security-bulletins/index.xml",
       "siteUrl": "https://tailscale.com/security-bulletins/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://tailscale.com/security-bulletins/#ts-2025-001",
+          "author": null,
+          "description": "Description: Potential for continued admin console access past inactivity timeout\nWhat happened?\nThe admin console session timeout works by recording tailnet-specific activity timestamps on login and from browser requests triggered by user activity. Previously the admin console also erroneously considered the act of switching between multiple tailnets to be a login and recorded a fresh timestamp for the user in the destination tailnet while switching.\nFor tailnets whose users were also members of other tailnets with less strict inactivity timeouts, these users may have been able to continue their access to the admin console for longer than expected if they switched between tailnets and did not time out of the less restrictive tailnet.\nThe issue was present since inactivity timeout was initially released in August 2024, and was fixed in production on March 7th, 2025. A user who switches to a tailnet in which their session has already expired will be logged out and redirected to the login page.\nWho was affected?\nTailnets with admin console session timeout configurations and users who are members of other tailnets with less strict session timeout configurations.\nWhat was the impact?\nUsers of tailnets with strict admin console session timeouts may have been able to continue their access to the admin console past expected timeouts by switching to and from other tailnets in the admin console whose console configurations were less strict.\nWhat do I need to do?\nNo action is required.",
+          "link": "https://tailscale.com/security-bulletins/#ts-2025-001",
+          "publishedOn": "2025-03-07T00:00:00.000Z",
+          "wordCount": 16957,
+          "title": "TS-2025-001",
+          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
+        }
+      ]
     },
     {
       "title": "Airbnb API Status - Incident History",
@@ -86,33 +97,13 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/bgnkrn4nq3p8",
+          "id": "https://status.twilio.com/incidents/kmmt4ggm43qk",
           "author": null,
-          "description": "Mar  7, 15:33 PST\nResolved - The issue affecting AccSec - US API Errors has been resolved, and the service is functioning normally at this time.\nMar  7, 14:58 PST\nUpdate - We continue seeing recovery for intermittent issues with AccSec - US API Errors. We will continue to monitor to ensure a full recovery. We expect to provide another update in 4 hours or as soon as more information becomes available.\nMar  7, 12:57 PST\nMonitoring - We have started seeing recovery for intermittent issues with AccSec - US API Errors for the last 60 minutes. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nMar  7, 11:58 PST\nUpdate - Our monitoring systems have detected a potential issue with AccSec - US API Errors. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.\nMar  7, 11:42 PST\nInvestigating - Our monitoring systems have detected a potential issue with some Account security products. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/bgnkrn4nq3p8",
-          "publishedOn": "2025-03-07T23:33:09.000Z",
-          "wordCount": 7721,
-          "title": "AccSec US API Issue",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/8g8k6gcfp4mt",
-          "author": null,
-          "description": "Mar  7, 14:41 PST\nResolved - We are no longer experiencing MMS/SMS delivery failures to a subset of Twilio's Israel Phone numbers. This incident has been resolved.\nMar  7, 12:40 PST\nMonitoring - We are observing successful SMS delivery to a subset of Twilio's Israel Phone numbers.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nMar  7, 11:38 PST\nInvestigating - We are experiencing SMS delivery failures to a subset of Twilio's Israel Phone numbers. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 60 minutes or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/8g8k6gcfp4mt",
-          "publishedOn": "2025-03-07T22:41:23.000Z",
-          "wordCount": 7661,
-          "title": "SMS Delivery Failures on a subset of Twilio's Israel Phone Numbers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/33ff8yd31cnm",
-          "author": null,
-          "description": "Mar  7, 11:44 PST\nResolved - We are no longer experiencing SMS delivery failures to Movicel in Angola. This incident has been resolved.\nMar  7, 09:57 PST\nMonitoring - We are observing successful SMS delivery to Movicel in Angola.  We will continue to monitor to ensure full service recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nMar  7, 06:21 PST\nUpdate - We are still experiencing SMS delivery delays when sending messages to Movicel in Angola. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMar  7, 04:21 PST\nUpdate - We are still experiencing SMS delivery delays when sending messages to Movicel in Angola. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMar  7, 03:27 PST\nInvestigating - We are experiencing SMS delivery delays when sending messages to Movicel in Angola. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/33ff8yd31cnm",
-          "publishedOn": "2025-03-07T19:44:02.000Z",
-          "wordCount": 7733,
-          "title": "SMS Delivery Failures in Angola",
+          "description": "THIS IS A SCHEDULED EVENT Mar 8, 16:30 - 22:00 PST\nMar  5, 07:35 PST\nScheduled - Our carrier partner Three United Kingdom is conducting a planned maintenance from 08 March 2025 at 16:30 PST until 08 March 2025 at 22:00 PST. During the maintenance window, there could be intermittent API request failures for Three United Kingdom customers.\n\nImpacted Products: Legacy Identity MatchAndAttributes, Lookup Identity Match, Lookup SIM Swap",
+          "link": "https://status.twilio.com/incidents/kmmt4ggm43qk",
+          "publishedOn": "2025-03-09T00:30:00.000Z",
+          "wordCount": 7598,
+          "title": "United Kingdom Account Security Carrier Partner Maintenance - Three",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -298,16 +289,6 @@
           "wordCount": 3316,
           "title": "Notion AI QnA inaccessible",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/ny4hfj7dg8jh",
-          "author": null,
-          "description": "Feb  6, 11:57 PST\nResolved - This issue has been resolved by our engineers. Please ensure you’re on the latest version of Notion app or hard refresh (https://www.notion.com/help/reset-notion) to see the change reflected. If database view is still missing, please follow the below instructions to restore:\n- Select the three dots (…) to the top right corner of the page\n- Version history\n- Restore to a previous version (please leave checkbox unchecked if a popup asks you to restore databases)\n- You might not see the fully restored version in version history. Please try restoring to a version and see if that restores the database view\nFeb  6, 10:20 PST\nInvestigating - Some users may encounter issues with database views. We are currently investigating this issue.",
-          "link": "https://status.notion.so/incidents/ny4hfj7dg8jh",
-          "publishedOn": "2025-02-06T19:57:58.000Z",
-          "wordCount": 3426,
-          "title": "Database views broken",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -350,6 +331,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/m7vl0x8k3j9c",
+          "author": null,
+          "description": "Mar  8, 18:11 UTC\nResolved - This incident has been resolved.\nMar  8, 18:11 UTC\nUpdate - Actions is operating normally.\nMar  8, 18:10 UTC\nUpdate - Actions run start delays are mitigated. Actions runs that failed will need to be re-run. Impacted Pages updates will need to re-run their deployments.\nMar  8, 18:00 UTC\nUpdate - Pages is operating normally.\nMar  8, 17:50 UTC\nUpdate - We are investigating impact to Actions run start delays, about 40% of runs are not starting within five minutes and Pages deployments are impacted for GitHub hosted runners.\nMar  8, 17:45 UTC\nInvestigating - We are investigating reports of degraded performance for Actions and Pages",
+          "link": "https://www.githubstatus.com/incidents/m7vl0x8k3j9c",
+          "publishedOn": "2025-03-08T18:11:56.000Z",
+          "wordCount": 5567,
+          "title": "Incident with Actions and Pages",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/lb0d8kp99f2v",
           "author": null,
@@ -605,16 +596,6 @@
           "publishedOn": "2025-02-07T21:27:40.000Z",
           "wordCount": 316,
           "title": "Incident: Some users may be having trouble with emojis.",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2025-02/cc2978035e4aca1e",
-          "author": null,
-          "description": "From 2:30 PM PST on February 6, 2025 to around 1:30 AM PST on February 7, 2025, some users experienced a \"Something went wrong\" error while searching in Slack when using filers. A recent code change was made which lead to the issue. As soon as this was identified, we rolled back to a previous version and worked a fix which resolved the problem for all impacted users.",
-          "link": "https://slack-status.com/2025-02/cc2978035e4aca1e",
-          "publishedOn": "2025-02-07T10:54:20.000Z",
-          "wordCount": 342,
-          "title": "Incident: Errors when using search filters",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
