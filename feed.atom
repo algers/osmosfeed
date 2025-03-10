@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-03-09T00:26:48.097Z</id>
+    <id>urn:2025-03-10T00:25:46.441Z</id>
     <title>osmos::feed</title>
-    <updated>2025-03-09T00:26:48.097Z</updated>
+    <updated>2025-03-10T00:25:46.441Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
-    <entry>
-        <title type="html"><![CDATA[United Kingdom Account Security Carrier Partner Maintenance - Three]]></title>
-        <id>https://status.twilio.com/incidents/kmmt4ggm43qk</id>
-        <link href="https://status.twilio.com/incidents/kmmt4ggm43qk"/>
-        <updated>2025-03-09T00:30:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 8, 16:30 - 22:00 PST
-Mar  5, 07:35 PST
-Scheduled - Our carrier partner Three United Kingdom is conducting a planned maintenance from 08 March 2025 at 16:30 PST until 08 March 2025 at 22:00 PST. During the maintenance window, there could be intermittent API request failures for Three United Kingdom customers.
-
-Impacted Products: Legacy Identity MatchAndAttributes, Lookup Identity Match, Lookup SIM Swap]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Incident with Actions and Pages]]></title>
         <id>https://www.githubstatus.com/incidents/m7vl0x8k3j9c</id>
@@ -1032,26 +1018,6 @@ Investigating - As of 08:32 UTC, our Engineering team is investigating an issue 
 We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Issue with switching between workspaces in the desktop app]]></title>
-        <id>https://slack-status.com/2025-02/b5b59b5e2da70ad1</id>
-        <link href="https://slack-status.com/2025-02/b5b59b5e2da70ad1"/>
-        <updated>2025-02-07T23:25:44.000Z</updated>
-        <summary type="html"><![CDATA[On February 5, 2025, from 6:42 PM PST until 7:13 PM PST, some users were unable to switch workspaces by clicking the icons in their sidebarA recent code change introduced an unexpected error to the workspace switcher logic. This caused an invalid persistent user state, preventing Slack from routing the user to the correct workspace.We rolled back the change to a healthy version, resolving the issue and restoring functionality. To capture the fix, users may have needed to close and re-launch their Slack app.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users may be having trouble with emojis.]]></title>
-        <id>https://slack-status.com/2025-02/38d400c2e6045702</id>
-        <link href="https://slack-status.com/2025-02/38d400c2e6045702"/>
-        <updated>2025-02-07T21:27:40.000Z</updated>
-        <summary type="html"><![CDATA[Starting around 8:00 AM PST until about 8:30 AM PST on February 6, 2025, some users experienced issues with emojis rendering properly in Slack, displaying only the emoji names.We traced this back to a scaling issue with a database service responsible for rendering emoji requests. We temporarily redirected incoming traffic away from the problematic database service to address the scaling issue. Once the issue was resolved, traffic was returned to the proper databases, restoring emoji rendering functionality for all affected users.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>

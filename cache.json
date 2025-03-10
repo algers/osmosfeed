@@ -95,18 +95,7 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": [
-        {
-          "id": "https://status.twilio.com/incidents/kmmt4ggm43qk",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Mar 8, 16:30 - 22:00 PST\nMar  5, 07:35 PST\nScheduled - Our carrier partner Three United Kingdom is conducting a planned maintenance from 08 March 2025 at 16:30 PST until 08 March 2025 at 22:00 PST. During the maintenance window, there could be intermittent API request failures for Three United Kingdom customers.\n\nImpacted Products: Legacy Identity MatchAndAttributes, Lookup Identity Match, Lookup SIM Swap",
-          "link": "https://status.twilio.com/incidents/kmmt4ggm43qk",
-          "publishedOn": "2025-03-09T00:30:00.000Z",
-          "wordCount": 7598,
-          "title": "United Kingdom Account Security Carrier Partner Maintenance - Three",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "DigitalOcean Status - Incident History",
@@ -576,26 +565,6 @@
           "publishedOn": "2025-02-14T01:27:11.000Z",
           "wordCount": 469,
           "title": "Incident: Trouble with adding or triggering steps in Workflow Builder",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2025-02/b5b59b5e2da70ad1",
-          "author": null,
-          "description": "On February 5, 2025, from 6:42 PM PST until 7:13 PM PST, some users were unable to switch workspaces by clicking the icons in their sidebarA recent code change introduced an unexpected error to the workspace switcher logic. This caused an invalid persistent user state, preventing Slack from routing the user to the correct workspace.We rolled back the change to a healthy version, resolving the issue and restoring functionality. To capture the fix, users may have needed to close and re-launch their Slack app.",
-          "link": "https://slack-status.com/2025-02/b5b59b5e2da70ad1",
-          "publishedOn": "2025-02-07T23:25:44.000Z",
-          "wordCount": 433,
-          "title": "Incident: Issue with switching between workspaces in the desktop app",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2025-02/38d400c2e6045702",
-          "author": null,
-          "description": "Starting around 8:00 AM PST until about 8:30 AM PST on February 6, 2025, some users experienced issues with emojis rendering properly in Slack, displaying only the emoji names.We traced this back to a scaling issue with a database service responsible for rendering emoji requests. We temporarily redirected incoming traffic away from the problematic database service to address the scaling issue. Once the issue was resolved, traffic was returned to the proper databases, restoring emoji rendering functionality for all affected users.",
-          "link": "https://slack-status.com/2025-02/38d400c2e6045702",
-          "publishedOn": "2025-02-07T21:27:40.000Z",
-          "wordCount": 316,
-          "title": "Incident: Some users may be having trouble with emojis.",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
