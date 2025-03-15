@@ -1,21 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-03-14T00:29:34.688Z</id>
+    <id>urn:2025-03-15T00:29:30.143Z</id>
     <title>osmos::feed</title>
-    <updated>2025-03-14T00:29:34.688Z</updated>
+    <updated>2025-03-15T00:29:30.143Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - MegaFon and Yota]]></title>
-        <id>https://status.twilio.com/incidents/qhq5j74nt6q8</id>
-        <link href="https://status.twilio.com/incidents/qhq5j74nt6q8"/>
-        <updated>2025-03-14T00:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Mar 13, 17:00 PDT
+        <title type="html"><![CDATA[Incident: Desktop app version 4.43.43 not loading for some users]]></title>
+        <id>https://slack-status.com/2025-03/4e6f4a0936c8eb2e</id>
+        <link href="https://slack-status.com/2025-03/4e6f4a0936c8eb2e"/>
+        <updated>2025-03-15T00:23:32.000Z</updated>
+        <summary type="html"><![CDATA[On March 14, 2025 from 2:15 PM PDT to 3:22 PM PDT, users attempting to log into the Slack Desktop client and some users signing into the web client were unable to complete sign-in, and were seeing a blank purple screen.We discovered that a recent code change relating to our sign-in process was causing an incorrect API call which resulted in the inability to log in. We rolled back this code change, fixed the code, and redeployed, resolving the issue for all affected users.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intermittent Outages or Failed API Requests with Dialing Permissions]]></title>
+        <id>https://status.twilio.com/incidents/88kt40n3p8tw</id>
+        <link href="https://status.twilio.com/incidents/88kt40n3p8tw"/>
+        <updated>2025-03-14T23:59:43.000Z</updated>
+        <summary type="html"><![CDATA[Mar 14, 16:59 PDT
+Monitoring - The intermittent outage or failures with Dialing Permissions in our Voice API is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.
+Mar 14, 15:08 PDT
+Update - We are continuing to investigate the intermittent outages or failed API requests with Dialing Permissions in our Voice API. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Mar 14, 14:10 PDT
+Update - We are investigating intermittent outages or failed API requests with Dialing Permissions in our Voice API. We expect to provide another update in 1 hour or as soon as more information becomes available
+Mar 14, 13:47 PDT
+Investigating - Our monitoring systems have detected a potential issue with our Programmable Voice Services. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Increased site latency detected]]></title>
+        <id>https://status.rippling.com/incidents/btwwft3v08w6</id>
+        <link href="https://status.rippling.com/incidents/btwwft3v08w6"/>
+        <updated>2025-03-14T23:48:23.000Z</updated>
+        <summary type="html"><![CDATA[Mar 14, 23:48 UTC
+Resolved - This incident has been resolved.
+Mar 14, 19:21 UTC
+Monitoring - A fix has been implemented and we are monitoring the results.
+Mar 14, 19:16 UTC
+Identified - The issue has been identified and a fix is being implemented.
+Mar 14, 17:32 UTC
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>Rippling Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - AT&T]]></title>
+        <id>https://status.twilio.com/incidents/wwhqjxpp1zcb</id>
+        <link href="https://status.twilio.com/incidents/wwhqjxpp1zcb"/>
+        <updated>2025-03-14T22:34:19.000Z</updated>
+        <summary type="html"><![CDATA[Mar 14, 15:34 PDT
 Completed - The scheduled maintenance has been completed.
-Mar 13, 13:01 PDT
+Mar 12, 21:01 PDT
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 11, 16:15 PDT
-Scheduled - The MegaFon and Yota networks in Russia are conducting a planned maintenance from 13 March 2025 at 13:00 PDT until 13 March 2025 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to MegaFon and Yota Russia handsets.]]></summary>
+Mar 12, 13:18 PDT
+Scheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 12 March 2025 at 21:00 PDT until 19 March 2025 at 22:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.
+
+Impacted Products: Verify Silent Network Auth, Lookup SIM Swap
+
+We are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SMS Delivery Report Delays to CAMTEL in Cameroon]]></title>
+        <id>https://status.twilio.com/incidents/2ktlw0bxlj22</id>
+        <link href="https://status.twilio.com/incidents/2ktlw0bxlj22"/>
+        <updated>2025-03-14T20:10:59.000Z</updated>
+        <summary type="html"><![CDATA[Mar 14, 13:10 PDT
+Resolved - We are no longer experiencing MMS/SMS delivery delays when sending messages to CAMTEL in Cameroon. This incident has been resolved.
+Mar 14, 11:11 PDT
+Monitoring - We are observing recovery in SMS Delivery Report Delays to CAMTEL in Cameroon. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Mar 14, 09:01 PDT
+Update - We continue to experience SMS Delivery Report Delays to CAMTEL in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Mar 14, 08:09 PDT
+Update - We are continuing to investigate this issue.
+Mar 14, 08:08 PDT
+Update - We are continuing to investigate this issue.
+Mar 14, 08:00 PDT
+Investigating - We are experiencing SMS Delivery Report Delays to CAMTEL in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United States MMS Carrier Maintenance - Verizon]]></title>
+        <id>https://status.twilio.com/incidents/qh2kg2t0fzcm</id>
+        <link href="https://status.twilio.com/incidents/qh2kg2t0fzcm"/>
+        <updated>2025-03-14T10:00:21.000Z</updated>
+        <summary type="html"><![CDATA[Mar 14, 03:00 PDT
+Completed - The scheduled maintenance has been completed.
+Mar 12, 19:02 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Mar 11, 14:56 PDT
+Scheduled - The Verizon network in the United States is conducting a planned maintenance from 12 March 2025 at 19:00 PDT until 14 March 2025 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from Verizon United States handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -31,78 +115,6 @@ Mar 13, 01:01 PDT
 Investigating - We have identified that certain members are unable to view teamspaces in their left side panel⁠. Our technical team is actively investigating this issue. We will provide updates on our progress and resolution timeline shortly.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Indonesia SMS Carrier Maintenance - XL Axiata]]></title>
-        <id>https://status.twilio.com/incidents/v9qvht6yq6pn</id>
-        <link href="https://status.twilio.com/incidents/v9qvht6yq6pn"/>
-        <updated>2025-03-13T20:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Mar 13, 13:00 PDT
-Completed - The scheduled maintenance has been completed.
-Mar 13, 11:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 12, 00:00 PDT
-Scheduled - The XL Axiata network in Indonesia is conducting a planned maintenance from 13 March 2025 at 11:00 PDT until 13 March 2025 at 13:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to XL Axiata Indonesia handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Telefonica in Chile]]></title>
-        <id>https://status.twilio.com/incidents/xn2mq70l97t0</id>
-        <link href="https://status.twilio.com/incidents/xn2mq70l97t0"/>
-        <updated>2025-03-13T16:56:13.000Z</updated>
-        <summary type="html"><![CDATA[Mar 13, 09:56 PDT
-Resolved - We are no longer experiencing SMS Delivery Delays to Telefonica in Chile. This incident has been resolved.
-Mar 13, 07:59 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Telefonica in Chile. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Mar 13, 07:02 PDT
-Investigating - We are still experiencing SMS Delivery Delays to Telefonica in Chile. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
-Mar 13, 04:57 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Telefonica in Chile. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Mar 13, 01:34 PDT
-Update - We are continuing to experience SMS Delivery Delays to Telefonica in Chile. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Mar 12, 22:34 PDT
-Update - We are continuing to experience SMS Delivery Delays to Telefonica in Chile. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Mar 12, 21:36 PDT
-Investigating - We are experiencing SMS Delivery Delays to Telefonica in Chile. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Algar Network In Brazil]]></title>
-        <id>https://status.twilio.com/incidents/zq9lt0y300d3</id>
-        <link href="https://status.twilio.com/incidents/zq9lt0y300d3"/>
-        <updated>2025-03-13T16:54:31.000Z</updated>
-        <summary type="html"><![CDATA[Mar 13, 09:54 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Algar Network In Brazil. This incident has been resolved.
-Mar 13, 07:54 PDT
-Monitoring - We are observing recovery in SMS Delivery Delays to Algar Network In Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Mar 12, 23:32 PDT
-Update - We continue to experience SMS delivery delays when sending messages to Algar Network In Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
-Mar 12, 19:33 PDT
-Update - We continue to experience SMS delivery delays when sending messages to Algar Network In Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Mar 12, 17:33 PDT
-Update - We continue to experience SMS delivery delays when sending messages to Algar Network In Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Mar 12, 16:39 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Algar Network In Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Untiered Account Generating High Traffic and Getting Rate Limited Could Impact Downstreams]]></title>
-        <id>https://status.twilio.com/incidents/gpbw9l32xwkb</id>
-        <link href="https://status.twilio.com/incidents/gpbw9l32xwkb"/>
-        <updated>2025-03-13T16:07:09.000Z</updated>
-        <summary type="html"><![CDATA[Mar 13, 09:07 PDT
-Resolved - We have fully investigated the untiered account generating high traffic and getting rate limited could impact downstreams issue triggered by our automated alert, and it was determined that there is no noticeable customer impact. All systems are operational.
-Mar 13, 08:24 PDT
-Investigating - We've become aware of a potential issue with Untiered account generating high traffic and getting rate limited could impact downstreams. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -134,66 +146,6 @@ Investigating - We've become aware of a potential issue with Untiered account ge
 </div><hr><p>Affected products: NotebookLM</p>]]></summary>
         <author>
             <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RESOLVED: We're investigating reports of an issue with NotebookLM. We will provide more information shortly. The affected users are unable to access NotebookLM.]]></title>
-        <id>https://www.google.com/appsstatus/dashboard/incidents/pJzo6KcR37eV8bCLdXgS</id>
-        <link href="https://www.google.com/appsstatus/dashboard/incidents/pJzo6KcR37eV8bCLdXgS"/>
-        <updated>2025-03-13T12:15:06.000Z</updated>
-        <summary type="html"><![CDATA[<p> Incident began at <strong>2025-03-10 10:50</strong> and ended at <strong>2025-03-10 13:30</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class="cBIRi14aVDP__status-update-text"><h1>Mini Incident Report</h1>
-<p>We apologize for the inconvenience this service disruption/outage may have caused. We would like to provide some information about this incident below. Please note, this information is based on our best knowledge at the time of posting and is subject to change as our investigation continues. If you have experienced impact outside of what is listed below, please reach out to Google Workspace Support using the help article <a href="https://support.google.com/a/answer/1047213">https://support.google.com/a/answer/1047213</a>.</p>
-<p>(All Times US/Pacific)</p>
-<p>Incident Start: 10 March 2025 03:50</p>
-<p>Incident End: 10 March 2025 06:30</p>
-<p>Duration: 2 hours, 40 minutes</p>
-<p>Affected Services and Features:</p>
-<ul>
-<li>Notebook LM</li>
-</ul>
-<p>Regions/Zones: Global</p>
-<p>Description:</p>
-<p>NotebookLM users were unable to use chat, upload sources, or use interactive audio globally for a duration of 2 hours and 40 minutes.</p>
-<p>The preliminary root cause of the issue was due to a recent change where a service was missing permissions to interact with another service. As a result of these missing permissions, we rejected incoming requests, leading to users being unable to use the affected features.</p>
-<p>Engineers identified the root cause within the permissions system, and implemented a code change to resolve the issue.</p>
-<p>We apologize for any inconvenience this may have caused. Google will complete a full Incident Report in the following days that will provide a full root cause analysis.</p>
-<p>Customer Impact:</p>
-<ul>
-<li>NotebookLM users were unable to use chat, upload sources, or interactive audio.</li>
-</ul>
-</div><hr><p>Affected products: NotebookLM</p>]]></summary>
-        <author>
-            <name>Google Workspace Status Dashboard Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United States SMS Carrier Maintenance - T-Mobile]]></title>
-        <id>https://status.twilio.com/incidents/3bzwbkt6xxb6</id>
-        <link href="https://status.twilio.com/incidents/3bzwbkt6xxb6"/>
-        <updated>2025-03-13T12:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Mar 13, 05:00 PDT
-Completed - The scheduled maintenance has been completed.
-Mar 12, 19:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar  6, 15:11 PST
-Scheduled - The T-Mobile network in the United States is conducting a planned maintenance from 12 March 2025 at 19:00 PDT until 13 March 2025 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile United States handsets when sending via long codes and short codes.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United States SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/0x277nf421vc</id>
-        <link href="https://status.twilio.com/incidents/0x277nf421vc"/>
-        <updated>2025-03-13T10:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Mar 13, 03:00 PDT
-Completed - The scheduled maintenance has been completed.
-Mar 12, 23:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar  7, 17:43 PST
-Scheduled - Our SMS carrier partner in the United States is conducting a planned maintenance from 12 March 2025 at 23:00 PDT until 13 March 2025 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from United States handsets via United States long codes and short codes.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1165,56 +1117,6 @@ Feb 11, 13:22 PST
 Identified - We have discovered an issue that is resulting in a higher number of 500 errors on the Listings API. Our team is actively working on a solution. This issue began on Feb 11 at approximately 10:00 AM (PT). We will provide further updates as soon as they become available.]]></summary>
         <author>
             <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Retroactive] Incident with Migrations service]]></title>
-        <id>https://www.githubstatus.com/incidents/x07y6vhlvqg2</id>
-        <link href="https://www.githubstatus.com/incidents/x07y6vhlvqg2"/>
-        <updated>2025-02-13T07:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Feb 13, 07:30 UTC
-Resolved - Between Thursday 13th, 2025 19:30 UTC and Friday 14th, 2025 08:02 UTC the Migrations service was experiencing intermittent migration failures for some customers. This was caused by a code change that contained an edge case that erroneously failed some migrations.
-We mitigated the incident by rolling back the code change.
-We are working on improving our monitoring and deployment practices to reduce our time to detection and mitigation of issues like this one in the future.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Claude Sonnet unavailable in GitHub Copilot]]></title>
-        <id>https://www.githubstatus.com/incidents/6g38m7fyc324</id>
-        <link href="https://www.githubstatus.com/incidents/6g38m7fyc324"/>
-        <updated>2025-02-12T23:10:48.000Z</updated>
-        <summary type="html"><![CDATA[Feb 12, 23:10 UTC
-Resolved - On February 12th, 2025, between 21:30 UTC and 23:10 UTC the Copilot service was degraded and all requests to Claude 3.5 Sonnet were failing. No other models were impacted. 
-This was due to an issue with our upstream provider which was detected within 12 minutes, at which point we raised the issue to our provider to remediate. GitHub is working with our provider to improve the resiliency of the service.
-Feb 12, 23:10 UTC
-Update - Claude Sonnet is fully available in GitHub Copilot again. If you used an alternate model during the outage, you can switch back to Claude Sonnet.
-Feb 12, 23:04 UTC
-Update - We are seeing a recovery with our Claude Sonnet model provider. We'll confirm once the problem is fully resolved.
-Feb 12, 22:54 UTC
-Update - Our Claude Sonnet provider acknowledged the issue. They will provide us with next update by 11:30 AM UTC / 3:30 PM PT. Claude Sonnet remains unavailable in GitHub Copilot, please use an alternate model.
-Feb 12, 22:41 UTC
-Update - We escalated the issue to our Claude Sonnet model provider. Claude Sonnet remains unavailable in GitHub Copilot, please use an alternate model.
-Feb 12, 21:59 UTC
-Update - Claude Sonnet is currently not working in GitHub Copilot. Please switch to an alternate model while we're working on resolving the issue.
-Feb 12, 21:52 UTC
-Update - Copilot is experiencing degraded performance. We are continuing to investigate.
-Feb 12, 21:51 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notion AI QnA inaccessible]]></title>
-        <id>https://status.notion.so/incidents/ymj8l8tb92kq</id>
-        <link href="https://status.notion.so/incidents/ymj8l8tb92kq"/>
-        <updated>2025-02-12T20:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Feb 12, 12:30 PST
-Resolved - Notion AI Qna was inaccessible between 12:35pm to 1:40pm PST.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
         </author>
     </entry>
 </feed>
