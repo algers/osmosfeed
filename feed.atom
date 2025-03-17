@@ -1,34 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-03-16T00:32:54.426Z</id>
+    <id>urn:2025-03-17T00:31:29.941Z</id>
     <title>osmos::feed</title>
-    <updated>2025-03-16T00:32:54.426Z</updated>
+    <updated>2025-03-17T00:31:29.941Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[United States and Canada Twilio SMS and MMS Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/t7m6tybwfj46</id>
-        <link href="https://status.twilio.com/incidents/t7m6tybwfj46"/>
-        <updated>2025-03-16T00:00:22.000Z</updated>
-        <summary type="html"><![CDATA[Mar 15, 17:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 10, 17:26 PDT
-Scheduled - Twilio is conducting planned maintenance over Silver Spring Datacenter from 15 March 2025 at 17:00 PDT until 15 March 2025 at 23:00 PDT. During the maintenance window, there could be intermittent delays or failures delivering SMS and MMS to and from United States and Canada handsets via subset long code and toll free numbers. There will be no service impact for customers connected via TLS and those connected to our Seattle Datacenter.]]></summary>
+        <title type="html"><![CDATA[SMS Delivery Delays to CAMTEL Network in Cameroon]]></title>
+        <id>https://status.twilio.com/incidents/bf8mb4td5bdy</id>
+        <link href="https://status.twilio.com/incidents/bf8mb4td5bdy"/>
+        <updated>2025-03-16T22:47:43.000Z</updated>
+        <summary type="html"><![CDATA[Mar 16, 15:47 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to CAMTEL Network in Cameroon. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Mar 16, 13:57 PDT
+Update - We are still experiencing SMS delivery delays when sending messages to CAMTEL Network in Cameroon. Our engineers are still working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+Mar 16, 12:07 PDT
+Update - We are still experiencing SMS delivery delays when sending messages to CAMTEL Network in Cameroon. Our engineers are still working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Mar 16, 11:12 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to CAMTEL Network in Cameroon. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[United Kingdom Account Security Carrier Partner Maintenance - Vodafone]]></title>
-        <id>https://status.twilio.com/incidents/sltqh98n5ch1</id>
-        <link href="https://status.twilio.com/incidents/sltqh98n5ch1"/>
-        <updated>2025-03-15T23:15:21.000Z</updated>
-        <summary type="html"><![CDATA[Mar 15, 16:15 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 13, 07:21 PDT
-Scheduled - Our carrier partner Vodafone United Kingdom is conducting a planned maintenance from 15 March 2025 at 16:15 PDT until 15 March 2025 at 21:00 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone United Kingdom customers.
-
-Impacted Products: Verify Silent Network Auth, Lookup Identity Match, Lookup SIM Swap, Legacy Identity MatchAndAttributes]]></summary>
+        <title type="html"><![CDATA[SMS Delivery Delays to AWN/AIS Networks in Thailand]]></title>
+        <id>https://status.twilio.com/incidents/1p2vn3vxt64f</id>
+        <link href="https://status.twilio.com/incidents/1p2vn3vxt64f"/>
+        <updated>2025-03-16T14:55:15.000Z</updated>
+        <summary type="html"><![CDATA[Mar 16, 07:55 PDT
+Resolved - During investigation by our engineers, message delivery to the AWN/AIS Networks in Thailand is confirmed to be operating as expected due to the routing of international long code numbers to numeric Sender IDs required. Pre-registration of Alphanumeric Sender ID is suggested to optimize delivery. This incident has been resolved.
+Mar 16, 07:39 PDT
+Update - We continue to experience SMS delivery delays when sending messages to AWN/AIS Networks in Thailand. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
+Mar 16, 06:39 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to AWN/AIS Networks in Thailand. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -37,8 +41,18 @@ Impacted Products: Verify Silent Network Auth, Lookup Identity Match, Lookup SIM
         <title type="html"><![CDATA[SMS Delivery Delay to Brisanet Network in Brazil]]></title>
         <id>https://status.twilio.com/incidents/sch45vfchxqj</id>
         <link href="https://status.twilio.com/incidents/sch45vfchxqj"/>
-        <updated>2025-03-15T22:57:02.000Z</updated>
-        <summary type="html"><![CDATA[Mar 15, 15:57 PDT
+        <updated>2025-03-16T10:28:39.000Z</updated>
+        <summary type="html"><![CDATA[Mar 16, 03:28 PDT
+Resolved - We are no longer experiencing SMS delivery delays when sending messages to Brisanet network in Brazil. This incident has been resolved.
+Mar 16, 01:14 PDT
+Update - We are observing recovery in SMS delivery delays when sending messages to the Brisanet network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Mar 15, 23:11 PDT
+Monitoring - We are observing recovery in SMS delivery delays when sending messages to the Brisanet network in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Mar 15, 21:45 PDT
+Update - We continue experiencing SMS delivery delays when sending messages to the Brisanet network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.
+Mar 15, 17:57 PDT
+Update - We continue experiencing SMS delivery delays when sending messages to Brisanet network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
+Mar 15, 15:57 PDT
 Update - We continue experiencing SMS delivery delays when sending messages to Brisanet network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
 Mar 15, 14:57 PDT
 Investigating - We are experiencing SMS delivery delays when sending messages to Brisanet network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
@@ -47,42 +61,33 @@ Investigating - We are experiencing SMS delivery delays when sending messages to
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Etisalat/Moov Network in Niger]]></title>
-        <id>https://status.twilio.com/incidents/m2216v82k7db</id>
-        <link href="https://status.twilio.com/incidents/m2216v82k7db"/>
-        <updated>2025-03-15T22:23:36.000Z</updated>
-        <summary type="html"><![CDATA[Mar 15, 15:23 PDT
-Resolved - We are no longer experiencing SMS delivery delays when sending messages to Etisalat/Moov Network in Niger. This incident has been resolved.
-Mar 15, 13:23 PDT
-Monitoring - We are observing recovery in SMS delivery delays when sending messages to Etisalat/Moov Network in Niger. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Mar 15, 12:25 PDT
-Update - We continue experiencing SMS delivery delays when sending messages to Etisalat/Moov Network in Niger. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.
-Mar 15, 10:24 PDT
-Update - We are experiencing SMS delivery delays when sending messages to Etisalat/Moov Network in Niger. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.
-Mar 15, 09:27 PDT
-Investigating - We are experiencing SMS delivery delays when sending messages to Etisalat/Moov Network in Niger. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <title type="html"><![CDATA[Whatsapp Messages Are Not Delivered With Error 63021]]></title>
+        <id>https://status.twilio.com/incidents/jzwq7b479081</id>
+        <link href="https://status.twilio.com/incidents/jzwq7b479081"/>
+        <updated>2025-03-16T06:50:23.000Z</updated>
+        <summary type="html"><![CDATA[Mar 15, 23:50 PDT
+Resolved - We are no longer experiencing issues where outbound WhatsApp messages with media are not being delivered with error 63021. This incident has been resolved.
+Mar 15, 23:15 PDT
+Monitoring - We are observing recovery for outbound WhatsApp messages with media not being delivered with error 63021. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
+Mar 15, 22:21 PDT
+Update - Our engineers have identified an issue where outbound WhatsApp messages with media are not delivered with error 63021. Also affects users of Conversations who are sending WhatsApp messages. We expect to provide another update in 2 hour or as soon as more information becomes available
+Mar 15, 21:26 PDT
+Identified - Our engineers have identified an issue where outbound WhatsApp messages with media are not delivered with error 63021. Also affects users of Conversations who are sending WhatsApp messages. We expect to provide another update in 1 hour or as soon as more information becomes available]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - AT&T]]></title>
-        <id>https://status.twilio.com/incidents/612lhf1b3fs5</id>
-        <link href="https://status.twilio.com/incidents/612lhf1b3fs5"/>
-        <updated>2025-03-15T15:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Mar 15, 08:00 PDT
+        <title type="html"><![CDATA[United States and Canada Twilio SMS and MMS Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/t7m6tybwfj46</id>
+        <link href="https://status.twilio.com/incidents/t7m6tybwfj46"/>
+        <updated>2025-03-16T06:00:21.000Z</updated>
+        <summary type="html"><![CDATA[Mar 15, 23:00 PDT
+Completed - The scheduled maintenance has been completed.
+Mar 15, 17:00 PDT
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 14, 16:06 PDT
-Scheduled - Our carrier partner AT&T United States is conducting planned maintenance from 15 March 2025 at 08:00 PDT until 17 March 2025 at 04:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.
-
-Impacted Product: Verify Silent Network Auth
-
-Note, the maintenance will be carried out on each of the following dates and times:
-
-15 March 2025 at 08:00 PDT until 16 March 2025 at 04:45 PDT
-16 March 2025 at 21:00 PDT until 17 March 2025 at 04:00 PDT
-
-We are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.]]></summary>
+Mar 10, 17:26 PDT
+Scheduled - Twilio is conducting planned maintenance over Silver Spring Datacenter from 15 March 2025 at 17:00 PDT until 15 March 2025 at 23:00 PDT. During the maintenance window, there could be intermittent delays or failures delivering SMS and MMS to and from United States and Canada handsets via subset long code and toll free numbers. There will be no service impact for customers connected via TLS and those connected to our Seattle Datacenter.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -1005,76 +1010,6 @@ Feb 16, 12:08 UTC
 Investigating - We are investigating reports of degraded performance for Actions, Codespaces, Git Operations, Issues and Webhooks]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
-        <id>https://www.githubstatus.com/incidents/zxtwqgc613rl</id>
-        <link href="https://www.githubstatus.com/incidents/zxtwqgc613rl"/>
-        <updated>2025-02-15T04:15:43.000Z</updated>
-        <summary type="html"><![CDATA[Feb 15, 04:15 UTC
-Resolved - On February 15, 2025, between 6:35 pm UTC and 4:15 am UTC the Codespaces service was degraded and users in various regions experienced intermittent connection failures. On average, the error rate was 50% and peaked at 65% of requests to the service. This was due to a service deployment.
-We mitigated the incident by completing the deployment to the impacted regions.
-The completion of this deployment should prevent future deployments of the service from negatively impacting Codespace connectivity.
-Feb 15, 04:15 UTC
-Update - We completed the rollout. GitHub Codespaces are healthy.
-Feb 15, 03:21 UTC
-Update - We continue the rollout in Central India, SE Asia, and Australia Codespaces regions. We are seeing a minimal number of connection failures across all regions at the moment.
-Feb 15, 01:47 UTC
-Update - We rolled out a fix to most of our Codespaces regions. Central India, SE Asia, and Australia are the remaining regions to be fixed. Customers in these remaining regions can be experiencing issues with Codespaces connectivity.
-Feb 14, 20:53 UTC
-Update - Some customers are continuing to see intermittent connection failures to their codespaces. We are monitoring closely to build a better idea of when impact should be mitigated. At this time, we expect the number of impacted users to remain low, and will update again when there is a development in our repair efforts.
-Feb 14, 20:22 UTC
-Update - Codespaces is experiencing degraded performance. We are continuing to investigate.
-Feb 14, 20:12 UTC
-Update - Some GitHub codespace users are experiencing intermittent connection failures. A deployment is underway to mitigate the problem, and US-based customers should see recovery soon. Full recovery is expected to take several hours. In the meantime, we advise customers experiencing issues to retry their connection attempts.
-Feb 14, 20:06 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[URL Mentions are crashing pages]]></title>
-        <id>https://status.notion.so/incidents/84xfy6c66wz4</id>
-        <link href="https://status.notion.so/incidents/84xfy6c66wz4"/>
-        <updated>2025-02-15T01:59:06.000Z</updated>
-        <summary type="html"><![CDATA[Feb 14, 17:59 PST
-Resolved - This issue has been resolved.
-Feb 14, 16:25 PST
-Investigating - We are currently investigating the issue.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The "Make for Google Sheets" add-on is currently unavailable on Google Workspace Marketplace]]></title>
-        <id>https://status.make.com/incidents/3v14j2512qfq</id>
-        <link href="https://status.make.com/incidents/3v14j2512qfq"/>
-        <updated>2025-02-14T16:18:05.000Z</updated>
-        <summary type="html"><![CDATA[Feb 14, 17:18 CET
-Monitoring - We have shared deployment instructions for the workaround with users and are actively working on a permanent solution.
-Feb 14, 14:19 CET
-Identified - We've identified a workaround and will provide users with clear instructions on how to proceed shortly.
-Feb 14, 09:17 CET
-Investigating - Our team is currently investigating the issue and working on restoring the add-on as soon as possible.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notion is down]]></title>
-        <id>https://status.notion.so/incidents/7vc64scwjdjg</id>
-        <link href="https://status.notion.so/incidents/7vc64scwjdjg"/>
-        <updated>2025-02-14T14:59:20.000Z</updated>
-        <summary type="html"><![CDATA[Feb 14, 06:59 PST
-Resolved - Notion has remained stable since the last update and we are now considering this incident resolved.
-Feb 14, 06:09 PST
-Monitoring - Notion should now be accessible once again. Our team are monitoring this closely at present.
-Feb 14, 05:55 PST
-Investigating - We are re-opening the incident reported earlier as we have received additional reports of Notion being inaccessible for users. Our engineers are investigating the issue at present.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
         </author>
     </entry>
 </feed>
