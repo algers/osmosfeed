@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-03-22T00:29:15.784Z</id>
+    <id>urn:2025-03-23T00:33:06.571Z</id>
     <title>osmos::feed</title>
-    <updated>2025-03-22T00:29:15.784Z</updated>
+    <updated>2025-03-23T00:33:06.571Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Twilio Conversations Affected]]></title>
-        <id>https://status.twilio.com/incidents/xrj22n6zqg5c</id>
-        <link href="https://status.twilio.com/incidents/xrj22n6zqg5c"/>
-        <updated>2025-03-21T23:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Mar 21, 16:30 PDT
-Resolved - Twilio Conversations was degraded for 7 minutes between 16:08 and 16:15 Pacific Time. During this period of time, customers may have received 500 Error Responses from Conversations API and potentially in the Conversations SDK. This issue has now been resolved.]]></summary>
+        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - T-Mobile US]]></title>
+        <id>https://status.twilio.com/incidents/5tvjfz9npm2b</id>
+        <link href="https://status.twilio.com/incidents/5tvjfz9npm2b"/>
+        <updated>2025-03-23T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Mar 22, 22:00 PDT  -  Mar 23, 05:00 PDT
+Mar 22, 07:48 PDT
+Scheduled - Our carrier partner T-Mobile US United States is conducting an emergency maintenance from 22 March 2025 at 22:00 PDT until 23 March 2025 at 05:00 PDT. During the maintenance window, there could be intermittent API request failures for T-Mobile US United States customers.
+
+Impacted Products: Verify Silent Network Auth, Lookup SIM Swap
+
+We are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -27,17 +32,6 @@ Mar 21, 12:03 PDT
 Investigating - For some users, when reordering 'Status' properties in the property settings menu for databases, options are getting deleted from the group. A fix for this will be out shortly.]]></summary>
         <author>
             <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twilio Alarms Affected]]></title>
-        <id>https://status.twilio.com/incidents/6dk7f8rw10x3</id>
-        <link href="https://status.twilio.com/incidents/6dk7f8rw10x3"/>
-        <updated>2025-03-21T18:44:37.000Z</updated>
-        <summary type="html"><![CDATA[Mar 21, 11:44 PDT
-Resolved - Twilio Alarms was degraded on 03/17/2025. During this period several alerted alarms were not delivered to customers. The issue has now been resolved.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -1368,16 +1362,6 @@ Feb 24, 16:08 UTC
 Investigating - We are investigating reports of degraded performance for Issues]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Custom emoji not loading]]></title>
-        <id>https://slack-status.com/2025-02/0a57df32942814ba</id>
-        <link href="https://slack-status.com/2025-02/0a57df32942814ba"/>
-        <updated>2025-02-21T00:31:53.000Z</updated>
-        <summary type="html"><![CDATA[From 2:00 PM PST on February 9, 2025, to 8:24 PM PST on February 11, 2025, some users experienced issues with custom emoji failing to load. A backend process responsible for handling custom emoji was experiencing an unexpected spike of requests, resulting in a backlog. This backlog primarily caused delays with recently added emoji. We made a change to restart emoji rendering jobs to help with request traffic, resolving the issue for all affected users.]]></summary>
-        <author>
-            <name>Slack System Status</name>
         </author>
     </entry>
 </feed>
