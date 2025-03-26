@@ -58,7 +58,7 @@
           "description": "Description: Potential for continued admin console access past inactivity timeout\nWhat happened?\nThe admin console session timeout works by recording tailnet-specific activity timestamps on login and from browser requests triggered by user activity. Previously the admin console also erroneously considered the act of switching between multiple tailnets to be a login and recorded a fresh timestamp for the user in the destination tailnet while switching.\nFor tailnets whose users were also members of other tailnets with less strict inactivity timeouts, these users may have been able to continue their access to the admin console for longer than expected if they switched between tailnets and did not time out of the less restrictive tailnet.\nThe issue was present since inactivity timeout was initially released in August 2024, and was fixed in production on March 7th, 2025. A user who switches to a tailnet in which their session has already expired will be logged out and redirected to the login page.\nWho was affected?\nTailnets with admin console session timeout configurations and users who are members of other tailnets with less strict session timeout configurations.\nWhat was the impact?\nUsers of tailnets with strict admin console session timeouts may have been able to continue their access to the admin console past expected timeouts by switching to and from other tailnets in the admin console whose console configurations were less strict.\nWhat do I need to do?\nNo action is required.",
           "link": "https://tailscale.com/security-bulletins/#ts-2025-001",
           "publishedOn": "2025-03-07T00:00:00.000Z",
-          "wordCount": 16957,
+          "wordCount": 16959,
           "title": "TS-2025-001",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -97,53 +97,113 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/8cv908s6hds3",
+          "id": "https://status.twilio.com/incidents/dl570335wqp4",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Mar 25, 04:00 - 04:45 PDT\nMar 24, 07:30 PDT\nScheduled - The Flex Team is conducting planned maintenance on Tuesday, March 25, 2025 at 04:00am UTC. The maintenance window is planned to take up to 45 minutes. This is a part of Taskrouter database planned module migration. The expected downtime would be around 10 seconds.",
-          "link": "https://status.twilio.com/incidents/8cv908s6hds3",
-          "publishedOn": "2025-03-25T11:00:00.000Z",
-          "wordCount": 7569,
-          "title": "Planned Maintenance for Flex",
+          "description": "THIS IS A SCHEDULED EVENT Mar 26, 01:00 - 03:00 PDT\nMar 12, 04:24 PDT\nScheduled - Our MMS carrier partner in the United States is conducting a planned maintenance from 26 March 2025 at 01:00 PDT until 26 March 2025 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from United States handsets via United States long codes and short codes.",
+          "link": "https://status.twilio.com/incidents/dl570335wqp4",
+          "publishedOn": "2025-03-26T08:00:00.000Z",
+          "wordCount": 7591,
+          "title": "United States MMS Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/x6y2w4v9qn2f",
+          "id": "https://status.twilio.com/incidents/cdzm1f830170",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Mar 24, 23:00 PDT  -  Mar 25, 01:30 PDT\nMar 21, 17:35 PDT\nScheduled - Our SMS carrier partner in Mexico, Peru, Colombia, Honduras, Guatemala, Nicaragua, El Salvador, Ecuador, Costa Rica, the Dominican Republic and Argentina is conducting an emergency maintenance from 24 March 2025 at 23:00 PDT until 25 March 2025 at 01:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Mexico, Peru, Colombia, Honduras, Guatemala, Nicaragua, El Salvador, Ecuador, Costa Rica, Dominican Republic and Argentina handsets.",
-          "link": "https://status.twilio.com/incidents/x6y2w4v9qn2f",
-          "publishedOn": "2025-03-25T06:00:00.000Z",
-          "wordCount": 7603,
-          "title": "Multiple Destination SMS Carrier Partner Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Mar 26, 00:00 - 04:00 PDT\nMar  7, 17:45 PST\nScheduled - Our SMS carrier partner in the United States is conducting a planned maintenance from 26 March 2025 at 00:00 PDT until 26 March 2025 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from United States handsets via United States long codes and short codes.",
+          "link": "https://status.twilio.com/incidents/cdzm1f830170",
+          "publishedOn": "2025-03-26T07:00:00.000Z",
+          "wordCount": 7591,
+          "title": "United States SMS Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/w8fc7by5rn6x",
+          "id": "https://status.twilio.com/incidents/8kpvdhhj974s",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Mar 24, 22:00 PDT  -  Mar 25, 03:00 PDT\nMar 23, 21:25 PDT\nScheduled - The AT&T network in Mexico is conducting a planned maintenance from 24 March 2025 at 22:00 PDT until 25 March 2025 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T Mexico handsets.\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
-          "link": "https://status.twilio.com/incidents/w8fc7by5rn6x",
-          "publishedOn": "2025-03-25T05:00:00.000Z",
-          "wordCount": 7595,
-          "title": "Mexico SMS Carrier Maintenance - AT&T",
+          "description": "THIS IS A SCHEDULED EVENT Mar 25, 23:00 PDT  -  Mar 26, 03:00 PDT\nMar 20, 19:38 PDT\nScheduled - Our SMS carrier partner in the United States is conducting a planned maintenance from 25 March 2025 at 23:00 PDT until 26 March 2025 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from United States handsets via United States short codes.",
+          "link": "https://status.twilio.com/incidents/8kpvdhhj974s",
+          "publishedOn": "2025-03-26T06:00:00.000Z",
+          "wordCount": 7586,
+          "title": "United States SMS Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/bn8p4cwxfzp4",
+          "id": "https://status.twilio.com/incidents/vqz0zv6gy9cr",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Mar 24, 22:00 - 23:00 PDT\nMar 11, 03:43 PDT\nScheduled - The Bouygues Telecom network in France is conducting a planned maintenance from 24 March 2025 at 22:00 PDT until 24 March 2025 at 23:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Bouygues Telecom France handsets.",
-          "link": "https://status.twilio.com/incidents/bn8p4cwxfzp4",
-          "publishedOn": "2025-03-25T05:00:00.000Z",
+          "description": "THIS IS A SCHEDULED EVENT Mar 25, 22:00 - 23:00 PDT\nMar 24, 00:42 PDT\nScheduled - The Bouygues Telecom network in France is conducting a planned maintenance from 25 March 2025 at 22:00 PDT until 25 March 2025 at 23:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Bouygues Telecom France handsets.",
+          "link": "https://status.twilio.com/incidents/vqz0zv6gy9cr",
+          "publishedOn": "2025-03-26T05:00:00.000Z",
           "wordCount": 7577,
           "title": "France SMS Carrier Maintenance - Bouygues Telecom",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/7jx1fb9xpsmf",
+          "id": "https://status.twilio.com/incidents/h8b2dp7tyc8h",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Mar 24, 21:00 PDT  -  Mar 27, 04:00 PDT\nMar  6, 18:26 PST\nScheduled - Our MMS carrier partner in the United States and Canada is conducting a series of planned maintenances from 24 March 2025 at 21:00 PDT until 27 March 2025 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from United States and Canada handsets.\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n24 March 2025 at 21:00 PDT until 25 March 2025 at 04:00 PDT\n25 March 2025 at 21:00 PDT until 26 March 2025 at 04:00 PDT\n26 March 2025 at 21:00 PDT until 27 March 2025 at 04:00 PDT",
-          "link": "https://status.twilio.com/incidents/7jx1fb9xpsmf",
-          "publishedOn": "2025-03-25T04:00:00.000Z",
-          "wordCount": 7658,
-          "title": "Multiple Destination MMS Carrier Partner Maintenance",
+          "description": "THIS IS A SCHEDULED EVENT Mar 25, 21:30 - 23:00 PDT\nMar 24, 06:43 PDT\nScheduled - The MTS network in Russia is conducting a planned maintenance from 25 March 2025 at 21:30 PDT until 25 March 2025 at 23:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to MTS Russia handsets.",
+          "link": "https://status.twilio.com/incidents/h8b2dp7tyc8h",
+          "publishedOn": "2025-03-26T04:30:00.000Z",
+          "wordCount": 7570,
+          "title": "Russia SMS Carrier Maintenance - MTS",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/t05pkxp0k5k8",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Mar 25, 19:00 PDT  -  Mar 26, 04:00 PDT\nMar 24, 20:24 PDT\nScheduled - The T-Mobile network in the United States is conducting an emergency maintenance from 25 March 2025 at 19:00 PDT until 26 March 2025 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile United States handsets.\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
+          "link": "https://status.twilio.com/incidents/t05pkxp0k5k8",
+          "publishedOn": "2025-03-26T02:00:00.000Z",
+          "wordCount": 7655,
+          "title": "United States SMS and MMS Carrier Maintenance - T-Mobile",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/4qlpfk7656qk",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Mar 25, 19:00 PDT  -  Mar 26, 04:00 PDT\nMar 24, 15:43 PDT\nScheduled - The T-Mobile network in the United States is conducting a planned maintenance from 25 March 2025 at 19:00 PDT until 26 March 2025 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile United States handsets when sending via long codes and short codes.",
+          "link": "https://status.twilio.com/incidents/4qlpfk7656qk",
+          "publishedOn": "2025-03-26T02:00:00.000Z",
+          "wordCount": 7597,
+          "title": "United States SMS Carrier Maintenance - T-Mobile",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/888bg22tjr89",
+          "author": null,
+          "description": "Mar 25, 17:26 PDT\nResolved - We are no longer experiencing a display issue with connected phone numbers not being visible in the UI for Studio Flows in Console. This incident has been resolved.\nMar 25, 16:39 PDT\nUpdate - We are still observing the display of connected phone numbers in the UI for Studio Flows in Console is now operating normally. We will continue to monitor for system stability. We'll provide another update in 2 hours or as soon as more information becomes available.\nMar 25, 16:09 PDT\nMonitoring - We are observing the display of connected phone numbers in the UI for Studio Flows in Console is now operating normally. We will continue to monitor for system stability. We'll provide another update in 30 minutes or as soon as more information becomes available.\nMar 25, 15:10 PDT\nUpdate - We are experiencing a display issue with connected phone numbers not being visible in the UI for Studio Flows in Console, functionality is not impacted. We will provide another update in 1 hour or as soon as more information becomes available.\nMar 25, 14:23 PDT\nInvestigating - Our monitoring systems have detected a potential issue with connected phone numbers missing for Studio Flows in Console. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/888bg22tjr89",
+          "publishedOn": "2025-03-26T00:26:20.000Z",
+          "wordCount": 7764,
+          "title": "Connected Phone Numbers not being Displayed for Studio Flows in Console",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/96xh41n8t2nh",
+          "author": null,
+          "description": "Mar 25, 17:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 24, 07:58 PDT\nScheduled - Our SMS carrier partner in Kuwait is conducting a planned maintenance from 25 March 2025 at 17:00 PDT until 25 March 2025 at 19:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Kuwait handsets.",
+          "link": "https://status.twilio.com/incidents/96xh41n8t2nh",
+          "publishedOn": "2025-03-26T00:01:21.000Z",
+          "wordCount": 7588,
+          "title": "Kuwait SMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/vtflbm3fsh2y",
+          "author": null,
+          "description": "Mar 25, 17:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 24, 20:32 PDT\nUpdate - This scheduled maintenance affects: MESSAGING, PHONE NUMBERS, PROGRAMMABLE VOICE (SIP Interface) and STUDIO.\n[Impact]:\n-Country impacted - Worldwide (Region - US1 directly affected, AU1/IE1 indirectly affected)\n[customer experience]:\n-There will be a brief general outage of the phone numbers database migration when the old database stops processing old requests and before the new database picks up the new requests.\n-There will be about 1 hour delay in regional communication between the databases and other distributed services. There is potential impact on Studio flows containing phone numbers with missing callback URL. All those issues should self-resolve upon conclusion of the window.\nMar 20, 20:00 PDT\nScheduled - This scheduled maintenance affects: MESSAGING, PHONE NUMBERS, PROGRAMMABLE VOICE (SIP Interface) and STUDIO.\n[Impact]:\n-Country impacted - Worldwide (Region - US1 directly affected, AU1/IE1 indirectly affected)\n[customer experience]:\n-There will be a brief general outage of the phone numbers database migration when the old database stops processing old requests and before the new database picks up the new requests.\n-There will be about 1 hour delay in regional communication between the databases and other distributed services. There is potential impact on Studio flows containing phone numbers with missing callback URL. All those issues should self-resolve upon conclusion of the window.",
+          "link": "https://status.twilio.com/incidents/vtflbm3fsh2y",
+          "publishedOn": "2025-03-26T00:00:22.000Z",
+          "wordCount": 7759,
+          "title": "Maintenance for the Primary Phone numbers Database",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/s79mhql3w1x5",
+          "author": null,
+          "description": "Mar 25, 15:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMar 25, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 21, 15:15 PDT\nScheduled - The MegaFon network in Russia is conducting a planned maintenance from 25 March 2025 at 13:00 PDT until 25 March 2025 at 15:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to MegaFon Russia handsets.",
+          "link": "https://status.twilio.com/incidents/s79mhql3w1x5",
+          "publishedOn": "2025-03-25T22:00:21.000Z",
+          "wordCount": 7598,
+          "title": "Russia SMS Carrier Maintenance - MegaFon",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -154,12 +214,22 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/gq2918sd92zp",
+          "author": null,
+          "description": "Mar 25, 07:30 UTC\nResolved - Our Engineering team has confirmed the full resolution of the issue with the Billing page for Teams on the Cloud Control Panel. Services should now be operating normally. \nThank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket right away.\nMar 25, 07:01 UTC\nMonitoring - Our Engineering team has now mitigated the issue that affected the Billing page for Teams on the Cloud Control Panel and is currently been monitored. Users should no longer see errors when attempting to access or perform actions within the Cloud Control Panel.\nWe will continue to monitor this at our end and will share an update once the problem is resolved completely.\nMar 25, 06:32 UTC\nIdentified - Our Engineering team has Identified the cause of the issue with Billing page on the Control Panel and is actively working on a fix. We will post an update as soon as the issue is fully resolved.\nMar 25, 06:06 UTC\nInvestigating - Our Engineering team is investigating an issue with the Billing page for Teams on the Cloud Control Panel. During this time, users may receive error messages when attempting to access or perform actions within the Cloud Control Panel. We apologize for the inconvenience and will share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/gq2918sd92zp",
+          "publishedOn": "2025-03-25T07:30:40.000Z",
+          "wordCount": 6429,
+          "title": "Cloud Control Panel Errors with Billing",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/mgqt0m5nh0gd",
           "author": null,
-          "description": "Mar 25, 00:14 UTC\nMonitoring - Our Engineering team is currently monitoring the issue which affected Cloud Control Panel logins and registrations for a brief window of time between 20:55 and 22:15 UTC.\nUsers should no longer see errors while trying to login Cloud Control Panel. New users should now be able to register in the Cloud Control Panel as normal.\nWe will continue to monitor this at our end and will share an update once the problem is resolved completely.\nMar 24, 22:23 UTC\nUpdate - Our Engineering team continues to investigate the root cause of the issue with our Cloud Control Panel, but has confirmed error rates are dropping. Most users should now be seeing recovery and be able to login and navigate the site. New users should be able to register.\nIf you continue to see errors, please reach out to us via https://www.digitalocean.com/company/contact/support\nMar 24, 21:39 UTC\nUpdate - Our Engineering team is continuing to investigate the issue with our Cloud Control Panel. At this time, users may experience errors while attempting to navigate any pages under https://cloud.digitalocean.com, which includes both login and registration attempts. If you need to contact our support team and are unable to do so from within your account, you can still reach us via https://www.digitalocean.com/company/contact/support\nMar 24, 21:23 UTC\nInvestigating - Our Engineering team is investigating an issue with our Cloud Control Panel. During this time, users may experience errors reaching https://cloud.digitalocean.com/login, issues while signing in there, as well as issues navigating the Cloud Control Panel.\nWe apologize for the inconvenience and will share an update once we have more information.",
+          "description": "Mar 25, 00:45 UTC\nResolved - Our Engineering team has confirmed the full resolution of the issue with Cloud Control Panel. \nThank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket right away.\nMar 25, 00:14 UTC\nMonitoring - Our Engineering team is currently monitoring the issue which affected Cloud Control Panel logins and registrations for a brief window of time between 20:55 and 22:15 UTC.\nUsers should no longer see errors while trying to login Cloud Control Panel. New users should now be able to register in the Cloud Control Panel as normal.\nWe will continue to monitor this at our end and will share an update once the problem is resolved completely.\nMar 24, 22:23 UTC\nUpdate - Our Engineering team continues to investigate the root cause of the issue with our Cloud Control Panel, but has confirmed error rates are dropping. Most users should now be seeing recovery and be able to login and navigate the site. New users should be able to register.\nIf you continue to see errors, please reach out to us via https://www.digitalocean.com/company/contact/support\nMar 24, 21:39 UTC\nUpdate - Our Engineering team is continuing to investigate the issue with our Cloud Control Panel. At this time, users may experience errors while attempting to navigate any pages under https://cloud.digitalocean.com, which includes both login and registration attempts. If you need to contact our support team and are unable to do so from within your account, you can still reach us via https://www.digitalocean.com/company/contact/support\nMar 24, 21:23 UTC\nInvestigating - Our Engineering team is investigating an issue with our Cloud Control Panel. During this time, users may experience errors reaching https://cloud.digitalocean.com/login, issues while signing in there, as well as issues navigating the Cloud Control Panel.\nWe apologize for the inconvenience and will share an update once we have more information.",
           "link": "https://status.digitalocean.com/incidents/mgqt0m5nh0gd",
-          "publishedOn": "2025-03-25T00:14:39.000Z",
-          "wordCount": 6459,
+          "publishedOn": "2025-03-25T00:45:06.000Z",
+          "wordCount": 6503,
           "title": "Cloud Control Panel Login/Registration",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -240,6 +310,16 @@
       "feedUrl": "https://status.notion.so/history.rss",
       "siteUrl": "https://status.notion.so",
       "articles": [
+        {
+          "id": "https://status.notion.so/incidents/191nrgjjzwm3",
+          "author": null,
+          "description": "Mar 25, 13:25 PDT\nMonitoring - A fix has been implemented and we are monitoring-- Will likely be up to 3 more hours until AI is fully operational for all users.\nMar 25, 11:28 PDT\nInvestigating - The core API remains stable and we are working to resolve these issues. We will provide updates as we have more information.",
+          "link": "https://status.notion.so/incidents/191nrgjjzwm3",
+          "publishedOn": "2025-03-25T20:25:58.000Z",
+          "wordCount": 3460,
+          "title": "We are currently investigating issues with our AI features where users may experience slower response times, timeouts, or errors due to third-party API rate limiting. Some AI features may fail to load or return errors.",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.notion.so/incidents/296t5kp4b7fw",
           "author": null,
@@ -365,13 +445,13 @@
       "siteUrl": "https://www.google.com/appsstatus/dashboard/",
       "articles": [
         {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/LJWrQTaxDnPkvZmyT1xW",
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/bmtU6Df9dGVrZXXBHW1F",
           "author": null,
-          "description": "<p> Incident began at <strong>2025-03-18 23:55</strong> and ended at <strong>2025-03-19 03:32</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>The issue with Google Drive has been resolved for all affected users as of Tuesday, 2025-03-18 20:32 US/Pacific.</p>\n<p>A recent change rolled out in the video player infrastructure inadvertently prevented the player from fully loading. Our engineering team performed a rollback of this change successfully to restore the player&#39;s loading functionality.</p>\n<p>We thank you for your patience while we worked on resolving the issue.</p>\n</div><hr><p>Affected products: Google Drive</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/LJWrQTaxDnPkvZmyT1xW",
-          "publishedOn": "2025-03-19T03:56:25.000Z",
-          "wordCount": 524,
-          "title": "RESOLVED: **Summary:**\nVideo Playbacks are failing for Google Drive Web.\n**Description**\nWe believe the issue with Google Drive is partially resolved.\nFull resolution is expected to complete by Tuesday, 2025-03-18 19:30 US/Pacific.\nWe will provide an update by Tuesday, 2025-03-18 21:00 US/Pacific with current details.\n**Diagnosis / Customer Symptoms:**\nGoogle Drive Web users would encounter an infinite spinner during playbacks of the videos. Mobile application users are not impacted.\n**Workaround**\nNone at this time.",
+          "description": "<p> Incident began at <strong>2025-03-25 18:00</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p>Calendar users in Chile&#39;s Aysén region need to update the time zone for all events taking place after 2025-04-05 which are impacted by the new DST rules.</p>\n<p>On 2025-03-20, Chile&#39;s Aysén region adopted a new time zone (IANA: &#34;America/Coyhaique”). This time zone will diverge from the continental Chile time zone “Chile Time” (IANA: “America/Santiago”) after 2025-04-05, by staying at UTC-03.</p>\n<p>Users in, or operating in, the Aysén region will be impacted: their events taking place after 2025-04-05 will be, by default, in the Chile time zone and will diverge by one hour compared to the new Aysén region local time.</p>\n<p>Impacted users are recommended to take 2 actions as soon as possible:</p>\n<ul>\n<li>Go to Calendar Settings &gt; General &gt; Time zone and set their Primary time zone to “Punta Arenas time” (IANA: &#34;America/Punta_Arenas”).</li>\n<li>Update all their events taking place after 2025-04-05 in this region to the “Punta Arenas time”.</li>\n</ul>\n<p>Additionally, we are working on introducing a new time zone for the Aysén region.</p>\n<p>We will post a communication update when it will be available in Calendar.</p>\n<p>We will provide an update by Friday, 2025-04-04 13:00 US/Pacific with current details.</p>\n<p>If impacted users don’t take action, after 2025-04-05 their calendar will:</p>\n<ul>\n<li>Show the wrong time with the “Now” red line on Calendar Web;</li>\n<li>Display all events shifted by one hour;</li>\n<li>Create new events in the wrong time zone.</li>\n</ul>\n</div><hr><p>Affected products: Google Calendar</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/bmtU6Df9dGVrZXXBHW1F",
+          "publishedOn": "2025-03-25T18:00:02.000Z",
+          "wordCount": 662,
+          "title": "UPDATE: Calendar users in Chile's Aysén region need to update the time zone for all events taking place after 2025-04-05 which are impacted by the new DST rules.\nOn 2025-03-20, Chile's Aysén region adopted a new time zone (IANA: \"America/Coyhaique”). This time zone will diverge from the continental Chile time zone “Chile Time” (IANA: “America/Santiago”) after 2025-04-05, by staying at UTC-03.\nUsers in, or operating in, the Aysén region will be impacted: their events taking place after 2025-04-05 will be, by default, in the Chile time zone and will diverge by one hour compared to the new Aysén region local time.\nImpacted users are recommended to take 2 actions as soon as possible:\n* Go to Calendar Settings > General > Time zone and set their Primary time zone to “Punta Arenas time” (IANA: \"America/Punta_Arenas”).\n* Update all their events taking place after 2025-04-05 in this region to the “Punta Arenas time”.\nAdditionally, we are working on introducing a new time zone for the Aysén region.\nWe will post a communication update when it will be available in Calendar.\nWe will provide an update by Friday, 2025-04-04 13:00 US/Pacific with current details.\nIf impacted users don’t take action, after 2025-04-05 their calendar will:\n* Show the wrong time with the “Now” red line on Calendar Web;\n* Display all events shifted by one hour;\n* Create new events in the wrong time zone.",
           "imageUrl": null
         }
       ]
