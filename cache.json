@@ -24,26 +24,6 @@
           "wordCount": 426,
           "title": "📲 Smily Mobile App – New Update!",
           "imageUrl": null
-        },
-        {
-          "id": "310491",
-          "author": "Basile, Product Manager",
-          "description": "New!\n  \nWe’re reaching out to inform you about an important change in how payments are processed for your Booking.com reservations through Smily. We have introduced a new multi-payment schedule to better align with Booking.com’s guidelines and ensure guests are charged accurately at the correct times.\nYou are impacted by this change only if you are not using payment by booking but using regular credit card payment with guests and whether you are in partial or full sync.\nWhat’s changing\nMultiple payments: In cases where your cancellation policy required 50 or 100% pre-payment (or was entirely non-refundable), our old process often took the entire amount up front (including fees and taxes). Now, for policies with partial refunds or partial pre-payments (e.g., a 50–50 split), we align fully w…",
-          "link": "https://changelog.bookingsync.com/important-update-new-multi-payment-schedule-for-your-booking-com-reservations-310491",
-          "publishedOn": "2025-02-27T10:48:38.000Z",
-          "wordCount": 806,
-          "title": "Important Update: New multi-Payment schedule for your Booking.com Reservations",
-          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/140/612-643a58c9056c9e315516791d6a4e31812493d3c1.png"
-        },
-        {
-          "id": "310488",
-          "author": "Basile, Product Manager",
-          "description": "New!\n  \nWe’re excited to announce our integration with a new Booking.com’s API, bringing you clearer insights into each reservation’s fees and taxes. \nThose new informations are available for all Property Managers using Payment by booking (with VCC and Bank transfer), whether you’re using partial or full sync with Booking.com.\nWhat’s New?\nDetailed price breakdown: You’ll now see clearer information on rental fees, cleaning fees, service charges, and city taxes directly in the reservation details as below; \n\n\n\nWithheld tax details: In regions where Booking.com withholds tax on your behalf, you’ll see exactly how much was withheld and paid to authorities.\n\n\nCurrent balance & VCC info: More visibility on the Virtual Credit Card (VCC) balance, plus its activation and expiration dates.\n\n\n    \nHow Does this affect you?\nDepending on how Booking.com handles the city tax for each reservation, you’ll see one of these scenarios:\n1- Booking.com collects and remits city tax directly to the authorities:\nYour payment bar will show two payments (one for the rental and one for the withheld tax).\n\nSince Booking.com pays the tax on your behalf, the payment bar will appear “complete.”\n2- Booking.com collects the city tax from the guest and includes it in the VCC; you are responsible for remitting the tax:\nThe city tax is included in your total payout, so the payment bar will also appear “complete.”\n\n\nDon’t forget to pay the tax to your local authorities.\n\n\n3- Booking.com does not collect the city tax; you must collect and remit it yourself:\nThe payment bar will show the rental amount only (city tax is missing).\n\n\nYou must collect the city tax from guests at check-in and pay it to the authorities.\n\n\nThe city tax is missing from the payment bar, you should collect it before/on check-in.\n\n\n-> Automatic payment link should be disabled in these cases, Booking.com does not include it in the payment because of regulations.\nIf you have any questions, please reach out to us 🙂\nYour Smily team!",
-          "link": "https://changelog.bookingsync.com/booking-com-introducing-clearer-fee-tax-breakdown-for-your-reservations-310488",
-          "publishedOn": "2025-02-27T10:29:06.000Z",
-          "wordCount": 565,
-          "title": "Booking.com - Introducing clearer fee & tax breakdown for your reservations",
-          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/140/609-248859a5f88b4281c1c141596e6edc86898d87c7.png"
         }
       ]
     },
@@ -58,7 +38,7 @@
           "description": "Description: Potential for continued admin console access past inactivity timeout\nWhat happened?\nThe admin console session timeout works by recording tailnet-specific activity timestamps on login and from browser requests triggered by user activity. Previously the admin console also erroneously considered the act of switching between multiple tailnets to be a login and recorded a fresh timestamp for the user in the destination tailnet while switching.\nFor tailnets whose users were also members of other tailnets with less strict inactivity timeouts, these users may have been able to continue their access to the admin console for longer than expected if they switched between tailnets and did not time out of the less restrictive tailnet.\nThe issue was present since inactivity timeout was initially released in August 2024, and was fixed in production on March 7th, 2025. A user who switches to a tailnet in which their session has already expired will be logged out and redirected to the login page.\nWho was affected?\nTailnets with admin console session timeout configurations and users who are members of other tailnets with less strict session timeout configurations.\nWhat was the impact?\nUsers of tailnets with strict admin console session timeouts may have been able to continue their access to the admin console past expected timeouts by switching to and from other tailnets in the admin console whose console configurations were less strict.\nWhat do I need to do?\nNo action is required.",
           "link": "https://tailscale.com/security-bulletins/#ts-2025-001",
           "publishedOn": "2025-03-07T00:00:00.000Z",
-          "wordCount": 16959,
+          "wordCount": 16961,
           "title": "TS-2025-001",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -97,42 +77,132 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
+          "id": "https://status.twilio.com/incidents/6xmw0jh4t9y2",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Mar 29, 00:00 PDT  -  Mar 30, 06:30 PDT\nMar 28, 16:37 PDT\nScheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 29 March 2025 at 00:00 PDT until 30 March 2025 at 06:30 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.\n\nImpacted Product: Verify Silent Network Auth\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
+          "link": "https://status.twilio.com/incidents/6xmw0jh4t9y2",
+          "publishedOn": "2025-03-29T07:00:00.000Z",
+          "wordCount": 7610,
+          "title": "United States Account Security Carrier Partner Maintenance - AT&T",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/yj1zs05p8f9c",
+          "author": null,
+          "description": "Mar 28, 17:23 PDT\nResolved - We continue to investigate the issue causing SMS delivery failures when sending messages from the AT&T Network in the US to a subset of Twilio's numbers.  Because we expect this issue may take some time to resolve, we have opted to reach out to impacted customers directly about this issue while we investigate and we'll continue to provide updates through that channel instead of our status page.  We will mark this incident resolved on the status page but will send any further updates through the direct communications channel.\nMar 28, 15:29 PDT\nUpdate - We are experiencing SMS delivery failures when sending messages from the AT&T Network in the US to a Subset of Twilio's Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nMar 28, 11:29 PDT\nUpdate - We are experiencing SMS delivery failures when sending messages from AT&T Network in the US to a Subset of Twilio's Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMar 28, 09:32 PDT\nUpdate - We are experiencing SMS delivery failures when sending messages from AT&T Network in the US to a Subset of Twilio's Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMar 28, 08:45 PDT\nInvestigating - Our monitoring systems have detected a potential issue with MO SMS from AT&T US failing to reach some Twilio numbers. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/yj1zs05p8f9c",
+          "publishedOn": "2025-03-29T00:23:25.000Z",
+          "wordCount": 7860,
+          "title": "SMS Delivery Failures from AT&T Network in the US to a Subset of Twilio's Numbers",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/993v4626qf24",
+          "author": null,
+          "description": "Mar 28, 15:47 PDT\nUpdate - We are experiencing SMS delivery delays and failures when sending messages to the Telma network in Madagascar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMar 28, 14:47 PDT\nInvestigating - During monitoring we have detected continued issues with SMS delivery delays and failures when sending messages to the Telma network in Madagascar. We are reverting the status of this incident back to investigating.  Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nMar 28, 10:47 PDT\nUpdate - We are observing recovery in SMS delivery delays to Telma in Madagascar. We will continue monitoring the service to ensure a full recovery. We will provide another update in 4 hours or as soon as more information becomes available\nMar 28, 08:30 PDT\nMonitoring - We are observing recovery in SMS delivery delays to Telma in Madagascar. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available\nMar 28, 06:28 PDT\nUpdate - We are experiencing SMS delivery delays and failures when sending messages to Telma in Madagascar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMar 28, 05:35 PDT\nInvestigating - We are experiencing SMS delivery delays and failures when sending messages to Telma in Madagascar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/993v4626qf24",
+          "publishedOn": "2025-03-28T22:47:20.000Z",
+          "wordCount": 7848,
+          "title": "SMS Delivery Delays and Failures to Telma in Madagascar",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/ggh1x265vrhk",
+          "author": null,
+          "description": "Mar 28, 15:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 26, 10:37 PDT\nScheduled - Our carrier partner Vodafone United Kingdom is conducting a planned maintenance from 28 March 2025 at 15:00 PDT until 28 March 2025 at 21:55 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone United Kingdom customers.\n\nImpacted Products: Lookup Identity Match, Lookup SIM Swap, Legacy Identity MatchAndAttributes",
+          "link": "https://status.twilio.com/incidents/ggh1x265vrhk",
+          "publishedOn": "2025-03-28T22:00:21.000Z",
+          "wordCount": 7616,
+          "title": "United Kingdom Account Security Carrier Partner Maintenance - Vodafone",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/ksn4gp75lmrq",
+          "author": null,
+          "description": "Mar 28, 14:45 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to the Telefonica network in Mexico. This incident has been resolved.\nMar 28, 12:45 PDT\nMonitoring - We are observing recovery in MMS/SMS delivery delays when sending messages to the Telefonica network in Mexico. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMar 28, 12:26 PDT\nUpdate - We are continuing to investigate the issue causing SMS delivery delays when sending messages to the Telefonica network in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMar 28, 11:26 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Telefonica in Mexico. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/ksn4gp75lmrq",
+          "publishedOn": "2025-03-28T21:45:42.000Z",
+          "wordCount": 7705,
+          "title": "SMS Delivery delays to Telefonica in Mexico",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/0pm52ldw47r2",
+          "author": null,
+          "description": "Mar 28, 14:07 PDT\nUpdate - We are experiencing SMS delivery report delays to the T-Mobile Network in United States of America via a subset of Toll Free numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMar 28, 12:07 PDT\nUpdate - We are experiencing SMS delivery report delays to the T-Mobile Network in United States of America via a subset of Toll Free numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMar 28, 11:07 PDT\nUpdate - We are experiencing SMS delivery report delays to T-Mobile Network in United States of America via Subset of Toll Free Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nMar 28, 10:57 PDT\nInvestigating - We are experiencing SMS delivery report delays to T-Mobile Network in United States of America via Subset of Toll Free Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/0pm52ldw47r2",
+          "publishedOn": "2025-03-28T21:07:03.000Z",
+          "wordCount": 7795,
+          "title": "SMS Delivery Reports Delays to T-Mobile Network in United States of America via Subset of Toll Free Numbers",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/z4x0ts34jfz4",
+          "author": null,
+          "description": "Mar 28, 10:37 PDT\nResolved - We are no longer experiencing SMS delivery delays when sending messages to Meteor Network in Ireland. This incident has been resolved.\nMar 28, 07:54 PDT\nMonitoring - We are observing recovery in SMS delivery delays to Meteor Network in Ireland. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available\nMar 28, 06:27 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Meteor Network in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMar 28, 05:32 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Meteor Network in Ireland. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/z4x0ts34jfz4",
+          "publishedOn": "2025-03-28T17:37:03.000Z",
+          "wordCount": 7697,
+          "title": "SMS Delivery Delays to Meteor Network in Ireland",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/f0sn7pk3bcjq",
+          "author": null,
+          "description": "Mar 28, 10:29 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nMar 28, 06:26 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMar 28, 04:24 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMar 28, 03:26 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to Myanmar. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/f0sn7pk3bcjq",
+          "publishedOn": "2025-03-28T17:32:30.000Z",
+          "wordCount": 7712,
+          "title": "SMS Delivery Delays to Multiple Networks in Myanmar",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/ft7dx2ww2077",
+          "author": null,
+          "description": "Mar 28, 09:05 PDT\nResolved - A short latency spike in Flex resulted in a few errors orchestrating tasks and meetings from 8:51am PST to 8:53 PST. Less than 20 errors were observed.",
+          "link": "https://status.twilio.com/incidents/ft7dx2ww2077",
+          "publishedOn": "2025-03-28T16:05:00.000Z",
+          "wordCount": 7533,
+          "title": "Flex Orchestrator Affected",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/mb47mdrjtz5q",
+          "author": null,
+          "description": "Mar 28, 04:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMar 27, 19:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 26, 16:22 PDT\nScheduled - The T-Mobile network in the United States is conducting a planned maintenance from 27 March 2025 at 19:00 PDT until 28 March 2025 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile United States handsets when sending via long codes and short codes.",
+          "link": "https://status.twilio.com/incidents/mb47mdrjtz5q",
+          "publishedOn": "2025-03-28T11:00:21.000Z",
+          "wordCount": 7622,
+          "title": "United States SMS Carrier Maintenance - T-Mobile",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.twilio.com/incidents/rw0nkf5f4jc3",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Mar 27, 21:00 PDT  -  Mar 28, 03:35 PDT\nMar 27, 14:45 PDT\nScheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 27 March 2025 at 21:00 PDT until 28 March 2025 at 03:35 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.\n\nImpacted Product: Verify Silent Network Auth\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
+          "description": "Mar 28, 03:35 PDT\nCompleted - The scheduled maintenance has been completed.\nMar 27, 21:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 27, 14:45 PDT\nScheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 27 March 2025 at 21:00 PDT until 28 March 2025 at 03:35 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.\n\nImpacted Product: Verify Silent Network Auth\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
           "link": "https://status.twilio.com/incidents/rw0nkf5f4jc3",
-          "publishedOn": "2025-03-28T04:00:00.000Z",
-          "wordCount": 7610,
+          "publishedOn": "2025-03-28T10:35:21.000Z",
+          "wordCount": 7635,
           "title": "United States Account Security Carrier Partner Maintenance - AT&T",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/hj1s46zjw8bf",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Mar 27, 20:00 PDT  -  Mar 28, 03:00 PDT\nMar 11, 00:01 PDT\nScheduled - Our SMS and MMS carrier partner in the United States and Canada is conducting a planned maintenance from 27 March 2025 at 20:00 PDT until 28 March 2025 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from United States and Canada handsets via United States and Canada long codes.",
+          "description": "Mar 28, 03:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMar 27, 20:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 11, 00:01 PDT\nScheduled - Our SMS and MMS carrier partner in the United States and Canada is conducting a planned maintenance from 27 March 2025 at 20:00 PDT until 28 March 2025 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from United States and Canada handsets via United States and Canada long codes.",
           "link": "https://status.twilio.com/incidents/hj1s46zjw8bf",
-          "publishedOn": "2025-03-28T03:00:00.000Z",
-          "wordCount": 7607,
+          "publishedOn": "2025-03-28T10:00:21.000Z",
+          "wordCount": 7632,
           "title": "Multiple Destination SMS and MMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/mb47mdrjtz5q",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT Mar 27, 19:00 PDT  -  Mar 28, 04:00 PDT\nMar 26, 16:22 PDT\nScheduled - The T-Mobile network in the United States is conducting a planned maintenance from 27 March 2025 at 19:00 PDT until 28 March 2025 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile United States handsets when sending via long codes and short codes.",
-          "link": "https://status.twilio.com/incidents/mb47mdrjtz5q",
-          "publishedOn": "2025-03-28T02:00:00.000Z",
-          "wordCount": 7597,
-          "title": "United States SMS Carrier Maintenance - T-Mobile",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
           "id": "https://status.twilio.com/incidents/hb95qkwtvk5f",
           "author": null,
-          "description": "Mar 27, 15:45 PDT\nUpdate - We are still experiencing SMS delivery report delays to subset of US small networks. Additionally, we have identified that this incident is also causing SMS delivery failures from US small networks to a subset of Twilio phone numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nMar 27, 13:10 PDT\nUpdate - We are still experiencing SMS delivery report delays to subset of US small networks. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nMar 27, 09:11 PDT\nUpdate - We are still experiencing SMS delivery report delays to subset of US Small Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMar 27, 07:12 PDT\nUpdate - We are still experiencing SMS delivery report delays to subset of US Small Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMar 27, 05:20 PDT\nUpdate - We are still experiencing SMS delivery report delays to subset of US Small Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nMar 27, 04:36 PDT\nInvestigating - We are experiencing SMS delivery report delays to subset of US Small Network. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "description": "Mar 27, 21:03 PDT\nResolved - We are no longer seeing SMS delivery report delays to subset of US small networks. This incident has been resolved.\nMar 27, 19:19 PDT\nMonitoring - We have observed a recovery from SMS delivery report delays to subset of US small networks. We are monitoring the service to ensure a full recovery, and we will provide another update in 2 hours or as soon as more information becomes available.\nMar 27, 15:45 PDT\nUpdate - We are still experiencing SMS delivery report delays to subset of US small networks. Additionally, we have identified that this incident is also causing SMS delivery failures from US small networks to a subset of Twilio phone numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or…",
           "link": "https://status.twilio.com/incidents/hb95qkwtvk5f",
-          "publishedOn": "2025-03-27T23:50:32.000Z",
-          "wordCount": 7872,
+          "publishedOn": "2025-03-28T04:03:22.000Z",
+          "wordCount": 7947,
           "title": "SMS Delivery Report Delays to Subset of US Small Network",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -145,136 +215,6 @@
           "wordCount": 7604,
           "title": "Email Channel of Twilio Verify Affected",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/fx7wvnb31jpv",
-          "author": null,
-          "description": "Mar 27, 09:37 PDT\nResolved - We experienced calls quality issue to a subset of Twilio Australia Toll free numbers starting at 5:00 PM PST March 26th and ending at 6:00 AM PST March 27th. Users may have experienced call quality issues during this time. The issue has now been resolved.",
-          "link": "https://status.twilio.com/incidents/fx7wvnb31jpv",
-          "publishedOn": "2025-03-27T16:37:22.000Z",
-          "wordCount": 7578,
-          "title": "Calls quality issue to a subset of Twilio Australia Toll free numbers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/1g8pt6ryy8qg",
-          "author": null,
-          "description": "Mar 27, 07:14 PDT\nResolved - We are no longer observing SMS delivery delays to BSNL Network in India. This incident has been confirmed as resolved.\nMar 27, 03:40 PDT\nMonitoring - We are observing recovery in SMS delivery delays to BSNL Network in India. We will continue monitoring the service to ensure a full recovery. We will provide another update in 4 hours or as soon as more information becomes available.\nMar 27, 00:00 PDT\nUpdate - We are continuing to investigate SMS delivery delays to BSNL Network in India. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 4 hours or as soon as more information becomes available.\nMar 26, 22:00 PDT\nUpdate - We are continuing to investigate SMS delivery delays to BSNL Network in India. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nMar 26, 21:00 PDT\nInvestigating - We are experiencing SMS delivery delays to BSNL Network in India. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/1g8pt6ryy8qg",
-          "publishedOn": "2025-03-27T14:14:23.000Z",
-          "wordCount": 7744,
-          "title": "SMS Delivery Delays to BSNL Network in India",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/zcdgnlrj6075",
-          "author": null,
-          "description": "Mar 27, 06:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMar 26, 21:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 26, 13:08 PDT\nScheduled - Our carrier partner AT&T United States is conducting a planned maintenance from 26 March 2025 at 21:00 PDT until 27 March 2025 at 06:00 PDT. During the maintenance window, there could be intermittent API request failures for AT&T United States customers.\n\nImpacted Products: Verify Silent Network Auth, Lookup SIM Swap\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
-          "link": "https://status.twilio.com/incidents/zcdgnlrj6075",
-          "publishedOn": "2025-03-27T13:00:23.000Z",
-          "wordCount": 7641,
-          "title": "United States Account Security Carrier Partner Maintenance - AT&T",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/7jx1fb9xpsmf",
-          "author": null,
-          "description": "Mar 27, 04:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMar 24, 21:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar  6, 18:26 PST\nScheduled - Our MMS carrier partner in the United States and Canada is conducting a series of planned maintenances from 24 March 2025 at 21:00 PDT until 27 March 2025 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from United States and Canada handsets.\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n24 March 2025 at 21:00 PDT until 25 March 2025 at 04:00 PDT\n25 March 2025 at 21:00 PDT until 26 March 2025 at 04:00 PDT\n26 March 2025 at 21:00 PDT until 27 March 2025 at 04:00 PDT",
-          "link": "https://status.twilio.com/incidents/7jx1fb9xpsmf",
-          "publishedOn": "2025-03-27T11:00:21.000Z",
-          "wordCount": 7683,
-          "title": "Multiple Destination MMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/2kdcs0x28yd8",
-          "author": null,
-          "description": "Mar 27, 03:20 PDT\nResolved - We are no longer experiencing API errors with Account Security towards Verizon Network in US. This incident has been resolved.\nMar 27, 01:56 PDT\nMonitoring - We have observed recovery on API errors with Account Security towards Verizon Network in US. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMar 27, 01:19 PDT\nUpdate - We are continuing to investigate this issue.\nMar 27, 01:06 PDT\nInvestigating - We are investigating API errors with Account Security towards Verizon Network in US. We expect to provide another update in 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/2kdcs0x28yd8",
-          "publishedOn": "2025-03-27T10:20:09.000Z",
-          "wordCount": 7652,
-          "title": "Account Security API Error to Verizon US",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/tzhlg7sg4df3",
-          "author": null,
-          "description": "Mar 27, 03:01 PDT\nCompleted - The scheduled maintenance has been completed.\nMar 26, 22:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 24, 15:44 PDT\nScheduled - The T-Mobile network in the United States is conducting a planned maintenance from 26 March 2025 at 22:00 PDT until 27 March 2025 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile United States handsets when sending via long codes and short codes.",
-          "link": "https://status.twilio.com/incidents/tzhlg7sg4df3",
-          "publishedOn": "2025-03-27T10:01:23.000Z",
-          "wordCount": 7622,
-          "title": "United States SMS Carrier Maintenance - T-Mobile",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/h93l5z2bl8lb",
-          "author": null,
-          "description": "Mar 27, 03:01 PDT\nCompleted - The scheduled maintenance has been completed.\nMar 26, 22:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 24, 20:25 PDT\nScheduled - The T-Mobile network in the United States is conducting an emergency maintenance from 26 March 2025 at 22:00 PDT until 27 March 2025 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile United States handsets.",
-          "link": "https://status.twilio.com/incidents/h93l5z2bl8lb",
-          "publishedOn": "2025-03-27T10:01:21.000Z",
-          "wordCount": 7661,
-          "title": "United States SMS and MMS Carrier Maintenance - T-Mobile",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/d0k83f7w1s97",
-          "author": null,
-          "description": "Mar 27, 03:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMar 26, 20:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 11, 00:00 PDT\nScheduled - Our SMS and MMS carrier partner in the United States and Canada is conducting a planned maintenance from 26 March 2025 at 20:00 PDT until 27 March 2025 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from United States and Canada handsets via United States and Canada long codes.",
-          "link": "https://status.twilio.com/incidents/d0k83f7w1s97",
-          "publishedOn": "2025-03-27T10:00:21.000Z",
-          "wordCount": 7632,
-          "title": "Multiple Destination SMS and MMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/bs9pywv17ss5",
-          "author": null,
-          "description": "Mar 27, 00:30 PDT\nCompleted - The scheduled maintenance has been completed.\nMar 26, 22:30 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 17, 07:04 PDT\nScheduled - Our carriers partners Drei Austria, Three United Kingdom and Wind Tre Italy are conducting a planned maintenance from 26 March 2025 at 22:30 PDT until 27 March 2025 at 00:30 PDT. During the maintenance window, there could be intermittent API request failures for Drei Austria, Three United Kingdom and Wind Tre Italy customers.\n\nImpacted Products: Verify Silent Network Auth, Lookup SIM Swap, Lookup Identity Match",
-          "link": "https://status.twilio.com/incidents/bs9pywv17ss5",
-          "publishedOn": "2025-03-27T07:30:21.000Z",
-          "wordCount": 7661,
-          "title": "Austria, United Kingdom and Italy Account Security Carriers Partners Maintenance - Drei, Three and Wind Tre",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/33lcxtshq15d",
-          "author": null,
-          "description": "Mar 27, 00:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMar  5, 20:00 PST\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar  5, 10:06 PST\nScheduled - Twilio is conducting a series of planned maintenances from 05 March 2025 at 20:00 PST until 27 March 2025 at 00:00 PDT. During the maintenance window, there could be intermittent delays or failures delivering SMS and MMS to and from United States and Canada handsets via subset of long codes, short codes and toll free numbers.\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n05 March 2025 at 20:00 PST until 06 March 2025 at 00:00 PST\n12 March 2025 at 20:00 PDT until 13 March 2025 at 00:00 PDT\n19 March 2025 at 20:00 PDT until 20 March 2025 at 00:00 PDT\n26 March 2025 at 20:00 PDT until 27 March 2025 at 00:00 PDT\n\nWe are aware of the short notice. We are working to provide earlier notification where possible.",
-          "link": "https://status.twilio.com/incidents/33lcxtshq15d",
-          "publishedOn": "2025-03-27T07:00:21.000Z",
-          "wordCount": 7748,
-          "title": "United States and Canada Twilio SMS and MMS Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/pctm9btqw0m0",
-          "author": null,
-          "description": "Mar 26, 23:15 PDT\nCompleted - The scheduled maintenance has been completed.\nMar 26, 21:45 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 24, 23:05 PDT\nScheduled - Maintenance activity: We would be updating the Proxy database version in the US1 region. There are pre and post activities around this maintenance and hence this longer maintenance window of 1.5 hours. The actual database version upgrade, however, is expected to be take approximately 3 minutes. \nMonitoring: Our team will closely watch the system performance during and after this maintenance window as well to ensure everything runs smoothly.\nContingency plan: In the unlikely event of encountering any issues, we are prepared to immediately revert the changes. Should a rollback be deemed necessary, then there could be a short downtime of approximately 5 minutes.",
-          "link": "https://status.twilio.com/incidents/pctm9btqw0m0",
-          "publishedOn": "2025-03-27T06:15:21.000Z",
-          "wordCount": 7650,
-          "title": "Proxy scheduled maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/nfm1ckcbrqww",
-          "author": null,
-          "description": "Mar 26, 23:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMar 26, 21:30 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 25, 13:37 PDT\nScheduled - The MTS network in Russia is conducting a planned maintenance from 26 March 2025 at 21:30 PDT until 26 March 2025 at 23:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to MTS Russia handsets.",
-          "link": "https://status.twilio.com/incidents/nfm1ckcbrqww",
-          "publishedOn": "2025-03-27T06:00:21.000Z",
-          "wordCount": 7598,
-          "title": "Russia SMS Carrier Maintenance - MTS",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/ngq9lcjpxjbg",
-          "author": null,
-          "description": "Mar 26, 19:20 PDT\nCompleted - The scheduled maintenance has been completed.\nMar 26, 16:10 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMar 26, 08:54 PDT\nScheduled - Our carrier partner Vodafone United Kingdom is conducting an emergency maintenance from 26 March 2025 at 16:10 PDT until 26 March 2025 at 19:20 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone United Kingdom customers.\n\nImpacted Products: Lookup SIM Swap, Lookup Identity Match\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
-          "link": "https://status.twilio.com/incidents/ngq9lcjpxjbg",
-          "publishedOn": "2025-03-27T02:20:23.000Z",
-          "wordCount": 7639,
-          "title": "United Kingdom Account Security Carrier Partner Maintenance - Vodafone",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -283,6 +223,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/ykgb52dj1wy2",
+          "author": null,
+          "description": "Mar 29, 00:01 UTC\nResolved - From 23:31 to 23:46 UTC, users may have experienced errors when trying to use the API or while accessing our Cloud Control Panel at https://cloud.digitalocean.com. CRUD operations for all products would have been unavailable, but deployed services continue running without issue.\nOur Engineering team has implemented a fix and confirmed full resolution of the issue. Users should be able to access the API and Cloud Control Panel without issue now.\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.",
+          "link": "https://status.digitalocean.com/incidents/ykgb52dj1wy2",
+          "publishedOn": "2025-03-29T00:01:56.000Z",
+          "wordCount": 6281,
+          "title": "Cloud Control Panel and API",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/n1thbjvytfqw",
           "author": null,
@@ -479,16 +429,6 @@
           "wordCount": 3352,
           "title": "Degraded performance with  Notion databases",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/ckn7ycrs9hts",
-          "author": null,
-          "description": "Feb 26, 23:14 PST\nResolved - Our engineering team has rolled out a fix for this and the issue has been resolved now.\nFeb 26, 22:43 PST\nInvestigating - We are currently experiencing an issue where some users may not be able to see the full list of their member list in the settings. Our engineering team is investigating the issue.",
-          "link": "https://status.notion.so/incidents/ckn7ycrs9hts",
-          "publishedOn": "2025-02-27T07:14:08.000Z",
-          "wordCount": 3379,
-          "title": "Unable to view Member's list via the Settings",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -542,12 +482,32 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/7s7z64qbl194",
+          "author": null,
+          "description": "Mar 28, 22:50 UTC\nResolved - Beginning at 21:24 UTC on March 28 and lasting until 21:50 UTC, some customers of github.com had issues with PR tracking refs not being updated due to processing delays and increased failure rates. We did not status before we completed the rollback, and the incident is currently resolved. We are sorry for the delayed post on githubstatus.com.",
+          "link": "https://www.githubstatus.com/incidents/7s7z64qbl194",
+          "publishedOn": "2025-03-28T22:50:53.000Z",
+          "wordCount": 5508,
+          "title": "[Retroactive] Disruption with Pull Request Ref Updates",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
+          "id": "https://www.githubstatus.com/incidents/vhzbr55p9jtx",
+          "author": null,
+          "description": "Mar 28, 18:14 UTC\nResolved - This incident was opened by mistake. Public services are currently functional.\nMar 28, 17:53 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/vhzbr55p9jtx",
+          "publishedOn": "2025-03-28T18:14:56.000Z",
+          "wordCount": 5470,
+          "title": "Disruption with some GitHub services",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/lnvht7g03czs",
           "author": null,
-          "description": "Mar 28, 00:20 UTC\nUpdate - We believe we have identified the source of the issue and are monitoring for recovery.\nMar 27, 23:52 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nMar 27, 23:49 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Mar 28, 01:40 UTC\nResolved - This incident has been resolved.\nMar 28, 01:40 UTC\nUpdate - This issue has been mitigated and we are operating normally.\nMar 28, 00:54 UTC\nUpdate - We are continuing to monitor for recovery.\nMar 28, 00:20 UTC\nUpdate - We believe we have identified the source of the issue and are monitoring for recovery.\nMar 27, 23:52 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nMar 27, 23:49 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/lnvht7g03czs",
-          "publishedOn": "2025-03-28T00:20:20.000Z",
-          "wordCount": 5505,
+          "publishedOn": "2025-03-28T01:40:38.000Z",
+          "wordCount": 5547,
           "title": "Disruption with Pull Request Ref Updates",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -710,26 +670,6 @@
           "wordCount": 5597,
           "title": "Elevated Request Latency for Write operations on github.com and api.github.com",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/3zss4vv50thx",
-          "author": null,
-          "description": "Feb 27, 12:22 UTC\nResolved - On February 27, 2025, between 11:30 UTC and 12:22 UTC, Actions experienced degraded performance, leading to delays in workflow runs. On average, 5% of Actions workflow runs were delayed by 31 minutes. The delays were caused by updates in a dependent service that led to failures in Redis connectivity in one region. We mitigated the incident by failing over the impacted service and re-routing the service’s traffic out of that region. We are working to improve monitoring and processes of failover to reduce our time to detection and mitigation of issues like this one in the future.\nFeb 27, 12:22 UTC\nUpdate - The team is confident that recovery is complete. Thank you for your patience as this issue was investigated.\nFeb 27, 12:16 UTC\nUpdate - Our mitigations have rolled out successfully and have seen recovery for all Actions run starts back within expected range. Users should see Actions runs working normally.\nWe will keep this incident open for a short time while we continue to validate these results.\nFeb 27, 12:01 UTC\nUpdate - We have identified the cause of the delays to starting Action runs.\nOur team is working to roll out mitigations and we hope to see recovery as these take effect in our systems over the next 10-20 minutes. \nFurther updates as we have more information.\nFeb 27, 11:39 UTC\nUpdate - We are seeing an increase in run start delays since 1104 UTC. This is impacting ~3% of Action runs at this time.\nThe team is working to understand the causes of this and to mitigate impact. We will continue to update as we have more information.\nFeb 27, 11:31 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nFeb 27, 11:28 UTC\nInvestigating - We are currently investigating this issue.",
-          "link": "https://www.githubstatus.com/incidents/3zss4vv50thx",
-          "publishedOn": "2025-02-27T12:22:34.000Z",
-          "wordCount": 5759,
-          "title": "Disruption with some GitHub services",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/2lxm4wb8wy3r",
-          "author": null,
-          "description": "Feb 26, 17:19 UTC\nResolved - On February 26, 2025, between 14:51 UTC and 17:19 UTC, GitHub Packages experienced a service degradation, leading to billing-related failures when uploading and downloading Packages. During this period, the billing usage and budget pages were also inaccessible. Initially, we reported that GitHub Actions was affected, but we later determined that the impact was limited to jobs interacting with Packages services, while jobs that did not upload or download Packages remained unaffected.\nThe incident occurred due to an error in newly introduced code, which caused containers to get into a bad state, ultimately leading to billing API calls failing with 503 errors. We mitigated the issue by rolling back the contributing change. In response to this incident, we are enhancing error handling, improving the resiliency of our billing API calls to minimize customer impact, and improving change rollout practices to catch these potential issues prior to deployment.\nFeb 26, 17:19 UTC\nUpdate - Actions and Packages are operating normally.\nFeb 26, 16:41 UTC\nUpdate - We're continuing our investigation into Billing interfaces and retrieval of packages causing Actions workflow run failures.\nFeb 26, 16:17 UTC\nUpdate - We’re investigating issues related to billing and the retrieval of packages that are causing Actions workflow run failures.\nFeb 26, 15:56 UTC\nUpdate - We're investigating issues related to the Billing interfaces and Packages downloads failing for enterprise customers.\nFeb 26, 15:51 UTC\nInvestigating - We are investigating reports of degraded performance for Actions and Packages",
-          "link": "https://www.githubstatus.com/incidents/2lxm4wb8wy3r",
-          "publishedOn": "2025-02-26T17:19:09.000Z",
-          "wordCount": 5702,
-          "title": "Incident with Actions and Packages",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -738,6 +678,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://slack-status.com",
       "articles": [
+        {
+          "id": "https://slack-status.com/2025-03/1dd1fa07d4ad94f7",
+          "author": null,
+          "description": "We're continuing to investigate the issue with email delivery. More updates to be shared as they're made available.Please add the proper Slack domains to any allowed lists and continue to check your spam/junk folders.",
+          "link": "https://slack-status.com/2025-03/1dd1fa07d4ad94f7",
+          "publishedOn": "2025-03-28T19:19:15.000Z",
+          "wordCount": 299,
+          "title": "Incident: Issues with some login emails",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://slack-status.com/2025-03/e5f6aca28f9e550c",
           "author": null,
@@ -913,26 +863,6 @@
           "publishedOn": "2025-03-06T19:03:54.000Z",
           "wordCount": 3918,
           "title": "Problems executing scenarios",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/hz5jhc7q84fc",
-          "author": null,
-          "description": "Feb 26, 21:22 CET\nResolved - This incident has been resolved.\nFeb 26, 20:55 CET\nMonitoring - A fix has been implemented and we are monitoring the results.\nFeb 26, 20:45 CET\nIdentified - The issue has been identified and a fix is being implemented.\nFeb 26, 19:44 CET\nInvestigating - We're encountering issues executing scenarios with datastore module on us1.make.celonis.com  Users may experience delays and errors when attempting to execute those scenarios. There are no other issues with scenario creation or general connectivity to Make. We're currently investigating this issue and will update this Statuspage within the next hour, or as more information comes to hand",
-          "link": "https://status.make.com/incidents/hz5jhc7q84fc",
-          "publishedOn": "2025-02-26T20:22:06.000Z",
-          "wordCount": 3918,
-          "title": "Problems executing scenarios",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/973qmprl4lr7",
-          "author": null,
-          "description": "Feb 26, 16:33 CET\nResolved - This incident has been resolved.\nFeb 26, 15:24 CET\nMonitoring - A fix has been implemented and we are monitoring the results.\nFeb 26, 15:02 CET\nUpdate - We are currently investigating an issue in us2.make.com where scenarios executions are being affected. We will provide an update within the next hour\nFeb 26, 14:55 CET\nUpdate - We are facing issue with Engines and scenarios in US2 zone.\nScenarios are not working properly\nFeb 26, 14:55 CET\nInvestigating - We are facing issue with Engines and scenarios in US2 zone.\nScenarios are not working properly",
-          "link": "https://status.make.com/incidents/973qmprl4lr7",
-          "publishedOn": "2025-02-26T15:33:58.000Z",
-          "wordCount": 3921,
-          "title": "Problem with Engines in US2 zone",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
