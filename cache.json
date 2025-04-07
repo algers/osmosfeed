@@ -66,12 +66,22 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
+          "id": "https://status.twilio.com/incidents/19wmtmqj5y48",
+          "author": null,
+          "description": "Apr  6, 09:16 PDT\nResolved - We are no longer experiencing MMS/SMS delivery delays when sending messages to MTN Network in Nigeria. This incident has been resolved.\nApr  6, 07:19 PDT\nMonitoring - We are observing recovery in MMS/SMS delivery delays when sending messages to MTN Network in Nigeria. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nApr  6, 05:14 PDT\nUpdate - We continue experiencing SMS delivery delays when sending messages to MTN Network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 2 hours or as soon as more information becomes available.\nApr  6, 04:27 PDT\nInvestigating - We are experiencing SMS delivery delays when sending messages to MTN Network in Nigeria. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/19wmtmqj5y48",
+          "publishedOn": "2025-04-06T16:16:39.000Z",
+          "wordCount": 7703,
+          "title": "SMS Delivery Delays to MTN Network in Nigeria",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.twilio.com/incidents/5df163pbrbkt",
           "author": null,
-          "description": "Apr  5, 14:55 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr  4, 05:29 PDT\nScheduled - Our carrier partner Vodafone United Kingdom is conducting a planned maintenance from 05 April 2025 at 14:55 PDT until 05 April 2025 at 21:15 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone United Kingdom customers.\n\nImpacted Products: Legacy Identity MatchAndAttributes, Lookup Identity Match",
+          "description": "Apr  5, 21:15 PDT\nCompleted - The scheduled maintenance has been completed.\nApr  5, 14:55 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr  4, 05:29 PDT\nScheduled - Our carrier partner Vodafone United Kingdom is conducting a planned maintenance from 05 April 2025 at 14:55 PDT until 05 April 2025 at 21:15 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone United Kingdom customers.\n\nImpacted Products: Legacy Identity MatchAndAttributes, Lookup Identity Match",
           "link": "https://status.twilio.com/incidents/5df163pbrbkt",
-          "publishedOn": "2025-04-05T21:55:21.000Z",
-          "wordCount": 7610,
+          "publishedOn": "2025-04-06T04:15:21.000Z",
+          "wordCount": 7620,
           "title": "United Kingdom Account Security Carrier Partner Maintenance - Vodafone",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -164,16 +174,6 @@
           "wordCount": 7672,
           "title": "Call Failures From Canadian Network Subscribers to a Subset of Twilio Toll Free Numbers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/5s690d7grmbs",
-          "author": null,
-          "description": "Apr  3, 15:39 PDT\nResolved - Twilio Console Sender IDs was degraded for 24 hours between 3:00pm, April 2nd  and 2:46 PM April 3rd Pacific Time During this period of time customers may have experienced not being able to select Business Profile when applying for a Sender ID. The issue has now been resolved.",
-          "link": "https://status.twilio.com/incidents/5s690d7grmbs",
-          "publishedOn": "2025-04-03T22:39:40.000Z",
-          "wordCount": 7581,
-          "title": "Customers Unable to Select Business Profile When Applying for a Sender ID",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -185,10 +185,10 @@
         {
           "id": "https://status.digitalocean.com/incidents/fz0wy87t17j0",
           "author": null,
-          "description": "Apr  5, 22:01 UTC\nUpdate - Our Engineering team is actively investigating the issue affecting Mongo 8 Database operations. \nWe apologize for the continued inconvenience. We will provide additional updates as soon as more information becomes available.\nApr  5, 19:54 UTC\nUpdate - Our Engineering team is continuing to investigate the cause of the issue with Mongo 8 Database creation in our AMS3 region and is taking action to resolve this issue. In addition to the database creation, users may see failures when scaling the instance or performing any control plane operations.\nWe will continue to share updates as soon as we have new information.\nApr  5, 16:52 UTC\nInvestigating - Our Engineering team is investigating an issue with Mongo 8 database creation in the AMS3 region. At this time, users may experience errors while attempting to create a new Mongo 8 database instance in the AMS3 region.\nWe apologize for the inconvenience and will provide another update as soon as possible.",
+          "description": "Apr  6, 01:01 UTC\nResolved - Our Engineering team has resolved the issue affecting Mongo 8 Database operations. Users should be able to create new Mongo 8 Databases, and other operations such as upgrading, scaling, and forking should complete successfully now. \nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nApr  5, 22:01 UTC\nUpdate - Our Engineering team is actively investigating the issue affecting Mongo 8 Database operations. \nWe apologize for the continued inconvenience. We will provide additional updates as soon as more information becomes available.\nApr  5, 19:54 UTC\nUpdate - Our Engineering team is continuing to investigate the cause of the issue with Mongo 8 Database creation in our AMS3 region and is taking action to resolve this issue. In addition to the database creation, users may see failures when scaling the instance or performing any control plane operations.\nWe will continue to share updates as soon as we have new information.\nApr  5, 16:52 UTC\nInvestigating - Our Engineering team is investigating an issue with Mongo 8 database creation in the AMS3 region. At this time, users may experience errors while attempting to create a new Mongo 8 database instance in the AMS3 region.\nWe apologize for the inconvenience and will provide another update as soon as possible.",
           "link": "https://status.digitalocean.com/incidents/fz0wy87t17j0",
-          "publishedOn": "2025-04-05T22:01:29.000Z",
-          "wordCount": 6351,
+          "publishedOn": "2025-04-06T01:01:11.000Z",
+          "wordCount": 6409,
           "title": "Mongo 8 Database Creation",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -414,13 +414,53 @@
       "siteUrl": "https://www.google.com/appsstatus/dashboard/",
       "articles": [
         {
-          "id": "https://www.google.com/appsstatus/dashboard/incidents/bmtU6Df9dGVrZXXBHW1F",
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/zPuCXFfb6pM1yftqcozU",
           "author": null,
-          "description": "<p> Incident began at <strong>2025-03-25 18:00</strong> and ended at <strong>2025-04-03 16:21</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary</strong></p>\n<p>Calendar users in Chile&#39;s Aysén region need to update the time zone for all events taking place after 2025-04-05 which are impacted by the new DST rules.</p>\n<p><strong>Description</strong></p>\n<p>The new timezone, &#34;Coyhaique”, introduced for Chile&#39;s Aysén region is now available in Calendar.</p>\n<p>On 2025-03-20, Chile&#39;s Aysén region adopted a new time zone (IANA: &#34;America/Coyhaique”). This time zone will diverge from the continental Chile time zone “Chile Time” (IANA: “America/Santiago”) after 2025-04-05, by staying at UTC-03.</p>\n<p>Users in, or operating in, the Aysén region that have not already switched to &#34;Punta Arenas time” will be impacted: their events taking place after 2025-04-05 will be, by default, in the Chile time zone and will diverge by one hour compared to the new Aysén region local time.</p>\n<p>Impacted users are recommended to take 2 actions as soon as possible:</p>\n<p><strong>1)</strong> Go to Calendar Settings &gt; General &gt; Time zone and set their Primary time zone to “Coyhaique” (IANA: &#34;America/Coyhaique”).</p>\n<p><strong>2)</strong> Update all their events taking place after 2025-04-05 in this region to the “Coyhaique” time zone.</p>\n<p>Users that have updated their settings to &#34;Punta Arenas time” should update to the new &#34;Coyhaique” to ensure that potential future changes to the local time are correctly applied.</p>\n<p>The name &#34;Coyhaique” for the new time zone is provisional and may change in the future.</p>\n<p>Calendar users on Android and iOS devices should use “Punta Arenas time” until their operating system is updated to have the new time zone.</p>\n<p><strong>Diagnosis</strong></p>\n<p>If impacted users don’t take action and are still using “Chile time”, after 2025-04-05 their calendar will:</p>\n<ul>\n<li>Show the wrong time with the “Now” red line on Calendar Web;</li>\n<li>Display all events shifted by one hour;</li>\n<li>Create new events in the wrong time zone.</li>\n</ul>\n<p>Users that updated to &#34;Punta Arenas time” should not see any disruption, but not updating to &#34;Coyhaique” would expose them to disruption should the two time zones diverge in the future.</p>\n<p><strong>Workaround</strong></p>\n<p>Impacted users that still use &#34;Chile time” should take the 2 actions described above. Impacted users that applied the previously suggested fix should update to &#34;Coyhaique” when convenient.</p>\n</div><hr><p>Affected products: Google Calendar</p>",
-          "link": "https://www.google.com/appsstatus/dashboard/incidents/bmtU6Df9dGVrZXXBHW1F",
-          "publishedOn": "2025-04-03T17:31:07.000Z",
-          "wordCount": 1021,
-          "title": "RESOLVED: Calendar users in Chile's Aysén region need to update the time zone for all events taking place after 2025-04-05 which are impacted by the new DST rules.\nOn 2025-03-20, Chile's Aysén region adopted a new time zone (IANA: \"America/Coyhaique”). This time zone will diverge from the continental Chile time zone “Chile Time” (IANA: “America/Santiago”) after 2025-04-05, by staying at UTC-03.\nUsers in, or operating in, the Aysén region will be impacted: their events taking place after 2025-04-05 will be, by default, in the Chile time zone and will diverge by one hour compared to the new Aysén region local time.\nImpacted users are recommended to take 2 actions as soon as possible:\n* Go to Calendar Settings > General > Time zone and set their Primary time zone to “Punta Arenas time” (IANA: \"America/Punta_Arenas”).\n* Update all their events taking place after 2025-04-05 in this region to the “Punta Arenas time”.\nAdditionally, we are working on introducing a new time zone for the Aysén region.\nWe will post a communication update when it will be available in Calendar.\nWe will provide an update by Friday, 2025-04-04 13:00 US/Pacific with current details.\nIf impacted users don’t take action, after 2025-04-05 their calendar will:\n* Show the wrong time with the “Now” red line on Calendar Web;\n* Display all events shifted by one hour;\n* Create new events in the wrong time zone.",
+          "description": "<p> Incident began at <strong>2025-04-06 04:04</strong> and ended at <strong>2025-04-06 10:30</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><span>  The problem with Google Workspace Support has been resolved. We apologize for the inconvenience and thank you for your patience and continued support.  </span></div><hr><p>Affected products: Google Workspace Support</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/zPuCXFfb6pM1yftqcozU",
+          "publishedOn": "2025-04-06T11:34:04.000Z",
+          "wordCount": 627,
+          "title": "RESOLVED: **Summary:**\nChat support functionality is degraded for Google Workspace Support customers.\n**Description:**\nWe are experiencing an issue with Google Workspace Support beginning on Saturday, 2025-04-05 21:04 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Sunday, 2025-04-06 01:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nCustomers will be unable to contact Google Workspace support via Chat support.\n**Workaround:** Impacted customers can create a support case for any assistance.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/zPuCXFfb6pM1yftqcozU",
+          "author": null,
+          "description": "<p> Incident began at <strong>2025-04-06 04:04</strong> and ended at <strong>2025-04-06 10:30</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong> Chat support functionality is currently unavailable for Google Workspace Support customers.</p>\n<p><strong>Description:</strong>\nOur engineering team is currently validating a fix that has been applied by the vendor partner.</p>\n<p>We do not have an ETA for mitigation at this point.</p>\n<p>We will provide more information by Sunday, 2025-04-06 05:00 US/Pacific.</p>\n<p><strong>Diagnosis:</strong> Customers will be unable to contact Google Workspace support via Chat support.</p>\n<p><strong>Workaround:</strong> Impacted customers can create a support case or utilize email support functionality for any assistance.</p>\n</div><hr><p>Affected products: Google Workspace Support</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/zPuCXFfb6pM1yftqcozU",
+          "publishedOn": "2025-04-06T11:34:04.000Z",
+          "wordCount": 627,
+          "title": "UPDATE: **Summary:**\nChat support functionality is degraded for Google Workspace Support customers.\n**Description:**\nWe are experiencing an issue with Google Workspace Support beginning on Saturday, 2025-04-05 21:04 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Sunday, 2025-04-06 01:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nCustomers will be unable to contact Google Workspace support via Chat support.\n**Workaround:** Impacted customers can create a support case for any assistance.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/zPuCXFfb6pM1yftqcozU",
+          "author": null,
+          "description": "<p> Incident began at <strong>2025-04-06 04:04</strong> and ended at <strong>2025-04-06 10:30</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong> Chat support functionality is currently unavailable for Google Workspace Support customers.</p>\n<p><strong>Description:</strong></p>\n<p>Our engineering team still continues to investigate the issue with vendor partner.</p>\n<p>We will provide an update by Sunday, 2025-04-06 04:00 US/Pacific with current details.</p>\n<p><strong>Diagnosis</strong>: Customers will be unable to contact Google Workspace support via Chat support.</p>\n<p><strong>Workaround:</strong> Impacted customers can create a support case or utilize email support functionality for any assistance.</p>\n</div><hr><p>Affected products: Google Workspace Support</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/zPuCXFfb6pM1yftqcozU",
+          "publishedOn": "2025-04-06T10:40:24.000Z",
+          "wordCount": 627,
+          "title": "UPDATE: **Summary:**\nChat support functionality is degraded for Google Workspace Support customers.\n**Description:**\nWe are experiencing an issue with Google Workspace Support beginning on Saturday, 2025-04-05 21:04 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Sunday, 2025-04-06 01:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nCustomers will be unable to contact Google Workspace support via Chat support.\n**Workaround:** Impacted customers can create a support case for any assistance.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/zPuCXFfb6pM1yftqcozU",
+          "author": null,
+          "description": "<p> Incident began at <strong>2025-04-06 04:04</strong> and ended at <strong>2025-04-06 10:30</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong> Chat support functionality is currently unavailable for Google Workspace Support customers.</p>\n<p><strong>Description:</strong>\nOur engineering team continues to investigate the issue with vendor partner.</p>\n<p>We will provide an update by Sunday, 2025-04-06 02:00 US/Pacific with current details.</p>\n<p><strong>Diagnosis:</strong> Customers will be unable to contact Google Workspace support via Chat support.</p>\n<p><strong>Workaround:</strong> Impacted customers can create a support case for any assistance.</p>\n</div><hr><p>Affected products: Google Workspace Support</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/zPuCXFfb6pM1yftqcozU",
+          "publishedOn": "2025-04-06T08:47:16.000Z",
+          "wordCount": 627,
+          "title": "UPDATE: **Summary:**\nChat support functionality is degraded for Google Workspace Support customers.\n**Description:**\nWe are experiencing an issue with Google Workspace Support beginning on Saturday, 2025-04-05 21:04 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Sunday, 2025-04-06 01:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nCustomers will be unable to contact Google Workspace support via Chat support.\n**Workaround:** Impacted customers can create a support case for any assistance.",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.google.com/appsstatus/dashboard/incidents/zPuCXFfb6pM1yftqcozU",
+          "author": null,
+          "description": "<p> Incident began at <strong>2025-04-06 04:04</strong> and ended at <strong>2025-04-06 10:30</strong> <span>(times are in <strong>Coordinated Universal Time (UTC)</strong>).</span></p><div class=\"cBIRi14aVDP__status-update-text\"><p><strong>Summary:</strong></p>\n<p>Chat support functionality is degraded for Google Workspace Support customers.</p>\n<p><strong>Description:</strong></p>\n<p>We are experiencing an issue with Google Workspace Support beginning on Saturday, 2025-04-05 21:04 US/Pacific.</p>\n<p>Our engineering team continues to investigate the issue.</p>\n<p>We will provide an update by Sunday, 2025-04-06 01:00 US/Pacific with current details.</p>\n<p>We apologize to all who are affected by the disruption.</p>\n<p><strong>Diagnosis:</strong></p>\n<p>Customers will be unable to contact Google Workspace support via Chat support.</p>\n<p><strong>Workaround:</strong> Impacted customers can create a support case for any assistance.</p>\n</div><hr><p>Affected products: Google Workspace Support</p>",
+          "link": "https://www.google.com/appsstatus/dashboard/incidents/zPuCXFfb6pM1yftqcozU",
+          "publishedOn": "2025-04-06T07:55:42.000Z",
+          "wordCount": 627,
+          "title": "UPDATE: **Summary:**\nChat support functionality is degraded for Google Workspace Support customers.\n**Description:**\nWe are experiencing an issue with Google Workspace Support beginning on Saturday, 2025-04-05 21:04 US/Pacific.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Sunday, 2025-04-06 01:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Diagnosis:**\nCustomers will be unable to contact Google Workspace support via Chat support.\n**Workaround:** Impacted customers can create a support case for any assistance.",
           "imageUrl": null
         }
       ]
