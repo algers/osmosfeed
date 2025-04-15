@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-04-14T00:33:42.801Z</id>
+    <id>urn:2025-04-15T00:31:52.115Z</id>
     <title>osmos::feed</title>
-    <updated>2025-04-14T00:33:42.801Z</updated>
+    <updated>2025-04-15T00:31:52.115Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Brazil SMS Carrier Maintenance - TIM]]></title>
-        <id>https://status.twilio.com/incidents/3qkcvqbqyz5w</id>
-        <link href="https://status.twilio.com/incidents/3qkcvqbqyz5w"/>
-        <updated>2025-04-14T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 13, 20:00 PDT  -  Apr 14, 02:00 PDT
-Apr 13, 06:37 PDT
-Scheduled - The TIM network in Brazil is conducting a planned maintenance from 13 April 2025 at 20:00 PDT until 14 April 2025 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to TIM Brazil handsets.
+        <title type="html"><![CDATA[United States SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/kvjsyx7p1kpd</id>
+        <link href="https://status.twilio.com/incidents/kvjsyx7p1kpd"/>
+        <updated>2025-04-15T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 14, 23:00 PDT  -  Apr 15, 03:00 PDT
+Apr 11, 15:02 PDT
+Scheduled - Our SMS carrier partner in the United States is conducting an emergency maintenance from 14 April 2025 at 23:00 PDT until 15 April 2025 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from United States handsets via United States short codes.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United States MMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/kjz3jf48rckk</id>
+        <link href="https://status.twilio.com/incidents/kjz3jf48rckk"/>
+        <updated>2025-04-15T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 14, 23:00 PDT  -  Apr 15, 03:00 PDT
+Apr  3, 22:03 PDT
+Scheduled - Our MMS carrier partner in the United States is conducting a planned maintenance from 14 April 2025 at 23:00 PDT until 15 April 2025 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to and from United States handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[United States Account Security Carrier Partner Maintenance - Verizon Wireless]]></title>
+        <id>https://status.twilio.com/incidents/rs3z76y5sf2g</id>
+        <link href="https://status.twilio.com/incidents/rs3z76y5sf2g"/>
+        <updated>2025-04-15T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 14, 21:00 PDT  -  Apr 15, 01:00 PDT
+Apr 14, 12:04 PDT
+Scheduled - Our carrier partner Verizon Wireless United States is conducting a planned maintenance from 14 April 2025 at 21:00 PDT until 15 April 2025 at 01:00 PDT. During the maintenance window, there could be intermittent API request failures for Verizon Wireless United States customers.
+
+Impacted Product: Verify Silent Network Auth
 
 We are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.]]></summary>
         <author>
@@ -20,60 +46,103 @@ We are aware of the short notice and are working with our Carrier Partners to pr
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AccSec-Identity AT&T | US API Errors]]></title>
-        <id>https://status.twilio.com/incidents/rnv62gm7j4bg</id>
-        <link href="https://status.twilio.com/incidents/rnv62gm7j4bg"/>
-        <updated>2025-04-13T23:03:17.000Z</updated>
-        <summary type="html"><![CDATA[Apr 13, 16:03 PDT
-Resolved - The issue causing errors with AccSec - US API has been resolved, and the service is functioning normally at this time.
-Apr 13, 14:13 PDT
-Update - We are still seeing recovery for intermittent errors with AccSec - US API. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 13, 12:20 PDT
-Monitoring - We have started seeing recovery for intermittent errors with AccSec - US API. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 13, 11:09 PDT
-Update - We are continuing to experience errors with the AccSec - US API. We expect to provide an update in 2 hours or as soon as more information is available.
-Apr 13, 10:10 PDT
-Investigating - We are experiencing errors with AccSec - US API. We expect to provide another update in 1 hour or as soon as more information becomes available.
-Apr 13, 08:09 PDT
-Monitoring - We have started seeing recovery for intermittent errors with the AccSec - US API over the past hour. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 13, 06:22 PDT
-Update - We are continuing to experience errors with the AccSec - US API. We expect to provide an update in 4 hours or as soon as more information is available.
-Apr 13, 04:22 PDT
-Update - We continue to experience errors with AccSec - US API. We expect to provide another update in 2 hours or as soon as more information becomes available.
-Apr 13, 03:29 PDT
-Investigating - We are experiencing errors with AccSec - US API. We expect to provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <title type="html"><![CDATA[Intermittent Meta Template Category Events Failing]]></title>
+        <id>https://status.twilio.com/incidents/cyw6bvvb2jsk</id>
+        <link href="https://status.twilio.com/incidents/cyw6bvvb2jsk"/>
+        <updated>2025-04-15T00:08:29.000Z</updated>
+        <summary type="html"><![CDATA[Apr 14, 17:08 PDT
+Resolved - The issue with Meta Content Template Category Events has been resolved.
+Apr 14, 16:16 PDT
+Monitoring - The issue with Meta Content Template Category Events has been resolved. We will be monitoring for the next 30 minutes to ensure that the issue has been properly corrected.
+Apr 14, 15:36 PDT
+Update - Our engineers have identified the issue with Meta Content Template Category Events and are working to deploy a fix. We expect to provide another update in 2 hours or as soon as more information becomes available.
+Apr 14, 14:34 PDT
+Identified - Our engineers have identified the issue with Meta Content Template Category Events and are working to deploy a fix. We expect to provide another update in 1 hour or as soon as more information becomes available.
+Apr 14, 13:28 PDT
+Update - We are investigating intermittent Meta Templates Category Events failing. We expect to provide another update in 1 hour or as soon as more information becomes available.
+Apr 14, 13:09 PDT
+Investigating - We've become aware of a potential issue with Meta Content Template Category Events. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[United Kingdom Account Security Carrier Partner Maintenance - EE]]></title>
-        <id>https://status.twilio.com/incidents/hc2vc4sbc5gj</id>
-        <link href="https://status.twilio.com/incidents/hc2vc4sbc5gj"/>
-        <updated>2025-04-13T21:00:22.000Z</updated>
-        <summary type="html"><![CDATA[Apr 13, 14:00 PDT
+        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - New Mobile Communications LLC]]></title>
+        <id>https://status.twilio.com/incidents/w79qncp6gj83</id>
+        <link href="https://status.twilio.com/incidents/w79qncp6gj83"/>
+        <updated>2025-04-15T00:01:21.000Z</updated>
+        <summary type="html"><![CDATA[Apr 14, 17:01 PDT
+Completed - The scheduled maintenance has been completed.
+Apr 14, 13:00 PDT
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Apr  9, 12:24 PDT
-Scheduled - Our carrier partner EE United Kingdom is conducting a planned maintenance from 13 April 2025 at 14:00 PDT until 13 April 2025 at 21:00 PDT. During the maintenance window, there could be intermittent API request failures for EE United Kingdom customers.
-
-Impacted Products: Verify Silent Network Auth, Lookup Identity Match, Lookup SIM Swap,  Legacy Identity MatchAndAttributes]]></summary>
+Apr 11, 07:01 PDT
+Scheduled - The New Mobile Communications LLC network in Russia is conducting a planned maintenance from 14 April 2025 at 13:00 PDT until 14 April 2025 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to New Mobile Communications LLC Russia handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[MMS delivery delays to multiple networks in Australia]]></title>
-        <id>https://status.twilio.com/incidents/y52v49wg7yh2</id>
-        <link href="https://status.twilio.com/incidents/y52v49wg7yh2"/>
-        <updated>2025-04-13T19:16:36.000Z</updated>
-        <summary type="html"><![CDATA[Apr 13, 12:16 PDT
-Resolved - We are no longer experiencing MMS delivery delays when sending messages to multiple networks in Australia. This incident has been resolved.
-Apr 13, 10:26 PDT
-Monitoring - We are observing recovery in MMS delivery delays when sending messages to multiple networks in Australia. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-Apr 13, 03:33 PDT
-Update - We continue to experience MMS delivery delays when sending messages to multiple network in Australia. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 24 hours or as soon as more information becomes available.
-Apr 12, 11:45 PDT
-Update - We continue t…]]></summary>
+        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - Beeline]]></title>
+        <id>https://status.twilio.com/incidents/3r9kbysqbs4k</id>
+        <link href="https://status.twilio.com/incidents/3r9kbysqbs4k"/>
+        <updated>2025-04-15T00:00:21.000Z</updated>
+        <summary type="html"><![CDATA[Apr 14, 17:00 PDT
+Completed - The scheduled maintenance has been completed.
+Apr 14, 14:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Apr 11, 07:55 PDT
+Scheduled - The Beeline network in Russia is conducting an emergency maintenance from 14 April 2025 at 14:00 PDT until 14 April 2025 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Beeline Russia handsets when sending via long codes and short codes.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Trouble loading some elements (images, files, & other media) on slack.com pages and on the Slack app]]></title>
+        <id>https://slack-status.com/2025-04/bbb10712f46a5ab5</id>
+        <link href="https://slack-status.com/2025-04/bbb10712f46a5ab5"/>
+        <updated>2025-04-14T23:50:39.000Z</updated>
+        <summary type="html"><![CDATA[On April 14, 2025, from 12:54 PM PDT to 3:32 PM PDT, users may have experienced issues with elements such as images, icons, buttons, and other media not loading properly or displaying incorrectly in Slack and on slack.com (including admin pages).We traced this back to a recent code change that unexpectedly introduced styling issues for certain web & client elements. We reverted the problematic code and rolled out a forward fix, resolving the issue for all affected users.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Delivery report delay to A1 network in Serbia via a subset of Alphanumeric sender ID's]]></title>
+        <id>https://status.twilio.com/incidents/834h0069s7nz</id>
+        <link href="https://status.twilio.com/incidents/834h0069s7nz"/>
+        <updated>2025-04-14T23:32:54.000Z</updated>
+        <summary type="html"><![CDATA[Apr 14, 16:32 PDT
+Investigating - We are experiencing SMS delivery delays when sending messages to A1 Network in Serbia Vi. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kuwait SMS Carrier Maintenance - Zain]]></title>
+        <id>https://status.twilio.com/incidents/y7w3114ml7gs</id>
+        <link href="https://status.twilio.com/incidents/y7w3114ml7gs"/>
+        <updated>2025-04-14T23:01:21.000Z</updated>
+        <summary type="html"><![CDATA[Apr 14, 16:01 PDT
+Completed - The scheduled maintenance has been completed.
+Apr 14, 14:01 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Apr 10, 14:52 PDT
+Scheduled - The Zain network in Kuwait is conducting a planned maintenance from 14 April 2025 at 14:00 PDT until 14 April 2025 at 16:01 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Zain Kuwait handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Japan SMS Carrier Maintenance - KDDI]]></title>
+        <id>https://status.twilio.com/incidents/jsmvwpv3s7qs</id>
+        <link href="https://status.twilio.com/incidents/jsmvwpv3s7qs"/>
+        <updated>2025-04-14T20:00:21.000Z</updated>
+        <summary type="html"><![CDATA[Apr 14, 13:00 PDT
+Completed - The scheduled maintenance has been completed.
+Apr 14, 12:00 PDT
+In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
+Apr  8, 05:04 PDT
+Scheduled - The KDDI network in Japan is conducting a planned maintenance from 14 April 2025 at 12:00 PDT until 14 April 2025 at 13:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from KDDI Japan handsets.]]></summary>
         <author>
             <name>Twilio Status - Incident History</name>
         </author>
@@ -82,8 +151,8 @@ Update - We continue t…]]></summary>
         <title type="html"><![CDATA[Incident: Issues receiving emails from Slack]]></title>
         <id>https://slack-status.com/2025-04/1e831a374b3ad5e9</id>
         <link href="https://slack-status.com/2025-04/1e831a374b3ad5e9"/>
-        <updated>2025-04-13T17:18:40.000Z</updated>
-        <summary type="html"><![CDATA[We’ve resolved the delivery issue and receiving emails from Slack is back to full functionality. Thank you very much for your patience while we worked on getting this fix out the door.]]></summary>
+        <updated>2025-04-14T04:31:27.000Z</updated>
+        <summary type="html"><![CDATA[From 11:00 PM PDT on April 12, 2025 to 9:20 AM PDT on April 13, 2025, some users may have had issues receiving emails from Slack, such as password reset or two-factor authentication (2FA) emails.Part of our email delivery infrastructure became temporarily overloaded. We restarted the impacted server and appointed a new server to handle delivery in its place. This restored normal email delivery rates, resolving the issue for all impacted users.]]></summary>
         <author>
             <name>Slack System Status</name>
         </author>
@@ -94,7 +163,7 @@ Update - We continue t…]]></summary>
         <link href="https://www.githubstatus.com/incidents/jfvgcls9swln"/>
         <updated>2025-04-12T20:00:00.000Z</updated>
         <summary type="html"><![CDATA[Apr 12, 20:00 UTC
-Resolved - Due to a configuration change with unintended impact, users that were not logged in who tried to visit GitHub.com from China were temporarily unable to access the site. For users already logged in, they could continue to access the site successfully. Impact started 2025/04/12 at 20:01 UTC. Impact was mitigated 2025/04/13 at 14:55 UTC.
+Resolved - Due to a configuration change with unintended impact, some users that were not logged in who tried to visit GitHub.com from China were temporarily unable to access the site. For users already logged in, they could continue to access the site successfully. Impact started 2025/04/12 at 20:01 UTC. Impact was mitigated 2025/04/13 at 14:55 UTC. During this time, up to 4% of all anonymous requests originating from China were unsuccessful.
 The configuration changes that caused this impact have been reversed and users should no longer see problems when trying to access GitHub.com.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
@@ -106,7 +175,8 @@ The configuration changes that caused this impact have been reversed and users s
         <link href="https://www.githubstatus.com/incidents/6kf8j273wf0l"/>
         <updated>2025-04-11T00:51:49.000Z</updated>
         <summary type="html"><![CDATA[Apr 11, 00:51 UTC
-Resolved - This incident has been resolved.
+Resolved - On April 11 from 3:05am UTC to 3:44am UTC, approximately 75% of Codespaces users faced create and start failures. These were caused by manual configuration changes to an internal dependency. We reverted the changes and immediately restored service health.
+We are working on safer mechanisms for testing and rolling out such configuration changes, and we expect no further disruptions.
 Apr 11, 00:50 UTC
 Update - We have reverted a problematic configuration change and are seeing recovery across starts and resumes
 Apr 11, 00:44 UTC
@@ -155,7 +225,11 @@ Investigating - Our team is currently investigating the issue and working on res
         <link href="https://www.githubstatus.com/incidents/vxfd5br11t6v"/>
         <updated>2025-04-10T00:39:04.000Z</updated>
         <summary type="html"><![CDATA[Apr 10, 00:39 UTC
-Resolved - This incident has been resolved.
+Resolved - On April 9, 2025, between 11:27 UTC and 12:39 UTC, the Pull Requests service was degraded and experienced delays in processing updates. At peak, approximately 1–1.5% of users were affected by delays in synchronizing pull requests. During this period, users may have seen a "Processing updates" message in their pull requests after pushing new commits, and the new commits did not appear in the Pull Request view as expected. The Pull Request synchronization process has automatic retries and most delays were automatically resolved. Any Pull Requests that were not resynchronized during this window were manually synchronized on Friday, April 11 at 14:23 UTC.
+This was due to a misconfigured GeoIP lookup file that our routine GitHub operations depended on and led to background job processing to fail. 
+We mitigated the incident by reverting to a known good version of the GeoIP lookup file on affected hosts.
+
+We are working to enhance our CI testing and automation by validating GeoIP metadata to reduce our time to detection and mitigation of issues like this one in the future.
 Apr 10, 00:36 UTC
 Update - Pull Requests is operating normally.
 Apr 10, 00:19 UTC
