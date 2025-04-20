@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-04-19T00:29:45.279Z</id>
+    <id>urn:2025-04-20T00:34:20.995Z</id>
     <title>osmos::feed</title>
-    <updated>2025-04-19T00:29:45.279Z</updated>
+    <updated>2025-04-20T00:34:20.995Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -793,136 +793,6 @@ Mar 21, 12:40 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intermittent GitHub Actions workflow failures]]></title>
-        <id>https://www.githubstatus.com/incidents/slgf0l5smt3j</id>
-        <link href="https://www.githubstatus.com/incidents/slgf0l5smt3j"/>
-        <updated>2025-03-21T09:34:23.000Z</updated>
-        <summary type="html"><![CDATA[Mar 21, 09:34 UTC
-Resolved - On March 21st, 2025, between 05:43 UTC and 08:49 UTC, the Actions service experienced degradation, leading to workflow run failures. During the incident, approximately 2.45% of workflow runs failed due to an infrastructure failure. This incident was caused by intermittent failures in communicating with an underlying service provider. We are working to improve our resilience to downtime in this service provider and to reduce the time to mitigate in any future recurrences.
-Mar 21, 09:34 UTC
-Update - Actions is operating normally.
-Mar 21, 09:05 UTC
-Update - We have made progress understanding the source of these errors and are working on a mitigation.
-Mar 21, 08:20 UTC
-Update - We're continuing to investigate elevated errors during GitHub Actions workflow runs. At this stage our monitoring indicates that these errors are impacting no more than 3% of all runs.
-Mar 21, 07:27 UTC
-Update - We're continuing to investigate intermittent failures with GitHub Actions workflow runs.
-Mar 21, 06:55 UTC
-Update - We're seeing errors reported with a subset of GitHub Actions workflow runs, and are continuing to investigate.
-Mar 21, 06:21 UTC
-Investigating - We are investigating reports of degraded performance for Actions]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scheduled infrastructure maintenance]]></title>
-        <id>https://status.make.com/incidents/ntmxwv137377</id>
-        <link href="https://status.make.com/incidents/ntmxwv137377"/>
-        <updated>2025-03-21T03:28:51.000Z</updated>
-        <summary type="html"><![CDATA[Mar 21, 04:28 CET
-Completed - The scheduled maintenance has been completed.
-Mar 21, 04:00 CET
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 13, 16:20 CET
-Scheduled - Dear customer,
-We are writing to inform you about an upcoming scheduled infrastructure maintenance on 21th March 2025. This maintenance will take place between 04:00-05:00, CEST.
-How will this impact your workload?
-We are updating one of our infrastructure components and do not expect any service interruptions, including scenario executions or app functionality.
-If you have any questions, please do not hesitate to reach out to our support team.
-Thank you very much.
-Kind regards,
-Your Make Team
-[Affected zones: "eu1.make.com","eu2.make.com","us1.make.com","us2.make.com","make.com","eu1.make.celonis.com","us1.make.celonis.com"]]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Codespaces]]></title>
-        <id>https://www.githubstatus.com/incidents/t1x87c1ntdcr</id>
-        <link href="https://www.githubstatus.com/incidents/t1x87c1ntdcr"/>
-        <updated>2025-03-21T03:08:45.000Z</updated>
-        <summary type="html"><![CDATA[Mar 21, 03:08 UTC
-Resolved - On March 21, 2025 between 01:00 UTC and 02:45 UTC, the Codespaces service was degraded and users in various regions experienced intermittent connection failures. The peak error error was 30% of connection attempts across 38% of Codespaces. This was due to a service deployment.
-The incident was mitigated by completing the deployment to the impacted regions. 
-We are working with the service team to identify the cause of the connection losses and perform necessary repairs to avoid future occurrences.
-Mar 21, 03:08 UTC
-Update - Codespaces is operating normally.
-Mar 21, 03:08 UTC
-Update - We have seen full recovery in the last 15 minutes for Codespaces connections. GitHub Codespaces are healthy. For users who are still seeing connection problems, restarting the Codespace may help resolve the issue.
-Mar 21, 02:53 UTC
-Update - We are continuing to investigate issues with failed connections to Codespaces. We are seeing recovery over the last 10 minutes.
-Mar 21, 02:19 UTC
-Update - Customers may be experiencing issues connecting to Codespaces on GitHub.com. We are currently investigating the underlying issue.
-Mar 21, 02:12 UTC
-Investigating - We are investigating reports of degraded performance for Codespaces]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scheduled Infrastructure Maintenance]]></title>
-        <id>https://status.make.com/incidents/3whx2wk4gk0l</id>
-        <link href="https://status.make.com/incidents/3whx2wk4gk0l"/>
-        <updated>2025-03-21T00:00:21.000Z</updated>
-        <summary type="html"><![CDATA[Mar 21, 01:00 CET
-Completed - The scheduled maintenance has been completed.
-Mar 20, 23:00 CET
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Mar 10, 09:46 CET
-Scheduled - Dear customer,
-We are writing to inform you about an upcoming scheduled infrastructure maintenance on 20th March 2025. This maintenance will take place between 23:00-01:00, CEST.
-How will this impact your workload?
-This maintenance, occurring at the database level and lasting up to one minute, is expected to cause delays in scenarios execution. This is because the webhooks will be affected and may be queued for a short period.
-We will inform you once the maintenance is completed.
-If you have any questions, please do not hesitate to reach out to our support team.
-Thank you very much.
-Kind regards,
-Your Make Team]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Pages]]></title>
-        <id>https://www.githubstatus.com/incidents/kpkc9bwsd42f</id>
-        <link href="https://www.githubstatus.com/incidents/kpkc9bwsd42f"/>
-        <updated>2025-03-20T20:54:07.000Z</updated>
-        <summary type="html"><![CDATA[Mar 20, 20:54 UTC
-Resolved - On March 20, 2025, between 19:24 UTC and 20:42 UTC the GitHub Pages experience was degraded and returned 503s for some customers. We saw an error rate of roughly 2% for Pages views, and new page builds were unable to complete successfully before timing out. 
-This was due to replication failure at the database layer between a write destination and read destination. We mitigated the incident by redirecting reads to the same destination as writes. 
-The error with replication occurred while in this transitory phase, as we are in the process of migrating the underlying data for Pages to new database infrastructure. Additionally our monitors failed to detect the error.
-We are addressing the underlying cause of the failed replication and telemetry. 
-
-Mar 20, 20:53 UTC
-Update - We have resolved the issue for Pages. If you're still experiencing issues with your GitHub Pages site, please rebuild.
-Mar 20, 20:38 UTC
-Update - Customers may not be able to create or make changes to their GitHub Pages sites. Customers who rely on webhook events from Pages builds might also experience a downgraded experience.
-Mar 20, 20:33 UTC
-Update - Webhooks is experiencing degraded performance. We are continuing to investigate.
-Mar 20, 20:04 UTC
-Investigating - We are investigating reports of degraded performance for Pages]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI features are impacted for a number of workspaces]]></title>
-        <id>https://status.notion.so/incidents/k1w5xjbs6lh6</id>
-        <link href="https://status.notion.so/incidents/k1w5xjbs6lh6"/>
-        <updated>2025-03-20T19:29:34.000Z</updated>
-        <summary type="html"><![CDATA[Mar 20, 12:29 PDT
-Resolved - This issue has been resolved.
-Mar 20, 08:59 PDT
-Update - We are continuing to investigate this issue.
-Mar 20, 06:38 PDT
-Investigating - AI features are impacted for a number of workspaces. We are investigating the issue]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
         </author>
     </entry>
 </feed>
