@@ -236,16 +236,6 @@
           "wordCount": 3472,
           "title": "We are currently investigating issues with our AI features where users may experience slower response times, timeouts, or errors due to third-party API rate limiting. Some AI features may fail to load or return errors.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/296t5kp4b7fw",
-          "author": null,
-          "description": "Mar 21, 13:13 PDT\nResolved - This issue has been resolved.\nMar 21, 12:03 PDT\nInvestigating - For some users, when reordering 'Status' properties in the property settings menu for databases, options are getting deleted from the group. A fix for this will be out shortly.",
-          "link": "https://status.notion.so/incidents/296t5kp4b7fw",
-          "publishedOn": "2025-03-21T20:13:01.000Z",
-          "wordCount": 3367,
-          "title": "Some user 'Status' properties deleted when reordering in database",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -455,16 +445,6 @@
           "publishedOn": "2025-03-23T18:00:00.000Z",
           "wordCount": 5509,
           "title": "[Retroactive] Incident with Migrations Submitted Via GitHub UI",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/kgjdbjz65clj",
-          "author": null,
-          "description": "Mar 21, 13:44 UTC\nResolved - On March 21st, 2025, between 11:45 UTC and 13:20 UTC, users were unable to interact with GitHub Copilot Chat in GitHub. The issue was caused by a recently deployed Ruby change that unintentionally overwrote a global value. This led to GitHub Copilot Chat in GitHub being misconfigured with an invalid URL, preventing it from connecting to our chat server. Other Copilot clients were not affected.\nWe mitigated the incident by identifying the source of the problematic query and rolling back the deployment.\nWe are reviewing our deployment tooling to reduce the time to mitigate similar incidents in the future. In parallel, we are also improving our test coverage for this category of error to prevent them from being deployed to production.\nMar 21, 13:44 UTC\nUpdate - Copilot is operating normally.\nMar 21, 13:43 UTC\nUpdate - Mitigation is complete and we are seeing full recovery for GitHub Copilot Chat in GitHub.\nMar 21, 13:16 UTC\nUpdate - We have identified the problem and have a mitigation in progress.\nMar 21, 13:00 UTC\nUpdate - Copilot is experiencing degraded performance. We are continuing to investigate.\nMar 21, 12:42 UTC\nUpdate - We are investigating issues with GitHub Copilot Chat in GitHub. We will continue to keep users updated on progress toward mitigation.\nMar 21, 12:40 UTC\nInvestigating - We are currently investigating this issue.",
-          "link": "https://www.githubstatus.com/incidents/kgjdbjz65clj",
-          "publishedOn": "2025-03-21T13:44:16.000Z",
-          "wordCount": 5683,
-          "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]

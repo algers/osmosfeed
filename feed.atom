@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-04-20T00:34:20.995Z</id>
+    <id>urn:2025-04-21T00:33:44.975Z</id>
     <title>osmos::feed</title>
-    <updated>2025-04-20T00:34:20.995Z</updated>
+    <updated>2025-04-21T00:33:44.975Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -753,44 +753,6 @@ We apologize for the inconvenience and will share an update once we have more in
         <updated>2025-03-23T18:00:00.000Z</updated>
         <summary type="html"><![CDATA[Mar 23, 18:00 UTC
 Resolved - Between 2024-03-23 18:10 UTC and 2024-03-24 16:10 UTC, migration jobs submitted through the GitHub UI experienced processing delays and increased failure rates. This issue only affected migrations initiated via the web interface. Migrations started through the API or the command line tool continued to function normally. We are sorry for the delayed post on githubstatus.com.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some user 'Status' properties deleted when reordering in database]]></title>
-        <id>https://status.notion.so/incidents/296t5kp4b7fw</id>
-        <link href="https://status.notion.so/incidents/296t5kp4b7fw"/>
-        <updated>2025-03-21T20:13:01.000Z</updated>
-        <summary type="html"><![CDATA[Mar 21, 13:13 PDT
-Resolved - This issue has been resolved.
-Mar 21, 12:03 PDT
-Investigating - For some users, when reordering 'Status' properties in the property settings menu for databases, options are getting deleted from the group. A fix for this will be out shortly.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
-        <id>https://www.githubstatus.com/incidents/kgjdbjz65clj</id>
-        <link href="https://www.githubstatus.com/incidents/kgjdbjz65clj"/>
-        <updated>2025-03-21T13:44:16.000Z</updated>
-        <summary type="html"><![CDATA[Mar 21, 13:44 UTC
-Resolved - On March 21st, 2025, between 11:45 UTC and 13:20 UTC, users were unable to interact with GitHub Copilot Chat in GitHub. The issue was caused by a recently deployed Ruby change that unintentionally overwrote a global value. This led to GitHub Copilot Chat in GitHub being misconfigured with an invalid URL, preventing it from connecting to our chat server. Other Copilot clients were not affected.
-We mitigated the incident by identifying the source of the problematic query and rolling back the deployment.
-We are reviewing our deployment tooling to reduce the time to mitigate similar incidents in the future. In parallel, we are also improving our test coverage for this category of error to prevent them from being deployed to production.
-Mar 21, 13:44 UTC
-Update - Copilot is operating normally.
-Mar 21, 13:43 UTC
-Update - Mitigation is complete and we are seeing full recovery for GitHub Copilot Chat in GitHub.
-Mar 21, 13:16 UTC
-Update - We have identified the problem and have a mitigation in progress.
-Mar 21, 13:00 UTC
-Update - Copilot is experiencing degraded performance. We are continuing to investigate.
-Mar 21, 12:42 UTC
-Update - We are investigating issues with GitHub Copilot Chat in GitHub. We will continue to keep users updated on progress toward mitigation.
-Mar 21, 12:40 UTC
-Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
