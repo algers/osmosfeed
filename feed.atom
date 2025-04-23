@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-04-22T00:31:32.683Z</id>
+    <id>urn:2025-04-23T00:31:26.361Z</id>
     <title>osmos::feed</title>
-    <updated>2025-04-22T00:31:32.683Z</updated>
+    <updated>2025-04-23T00:31:26.361Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Spaces Bucket Creates]]></title>
+        <id>https://status.digitalocean.com/incidents/58df09q6jxf6</id>
+        <link href="https://status.digitalocean.com/incidents/58df09q6jxf6"/>
+        <updated>2025-04-22T19:05:57.000Z</updated>
+        <summary type="html"><![CDATA[Apr 22, 19:05 UTC
+Resolved - From 16:54 to 18:17 UTC, users may have experienced issues creating Spaces from control panel due to the datacenter region options failing to list.
+Our Engineering team has implemented a fix and confirmed full resolution of the issue. Users should be able to create Spaces from Cloud Control Panel without issues now.
+If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+Apr 22, 18:30 UTC
+Monitoring - Our Engineering team has implemented a fix to resolve the issue impacting the creation of Spaces. Users should now be able to create Spaces without any issues.
+We are actively monitoring the situation and will post an update as soon as the issue is fully resolved.
+Apr 22, 18:08 UTC
+Identified - Our Engineering team has identified an issue with creating Spaces through the Cloud Control Panel. During this time, users are unable to create Spaces buckets due to the datacenter region options failing to list. Creating Spaces buckets through the API remains functional. All other Spaces functionality is unaffected.
+A fix is in progress and we will provide an update as soon as we have more information.
+Apr 22, 18:03 UTC
+Investigating - Our Engineering team is currently investigating an issue with creating Spaces through the Cloud Control Panel. During this time, users may experience difficulties when selecting the Data Center option, as it is not listing correctly. We apologize for the inconvenience and will provide an update as soon as we have more information.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Codespaces Scheduled Maintenance]]></title>
         <id>https://www.githubstatus.com/incidents/znhjr4vqqcdw</id>
         <link href="https://www.githubstatus.com/incidents/znhjr4vqqcdw"/>
-        <updated>2025-04-21T16:30:21.000Z</updated>
-        <summary type="html"><![CDATA[Apr 21, 16:30 UTC
+        <updated>2025-04-22T16:30:21.000Z</updated>
+        <summary type="html"><![CDATA[Apr 22, 16:30 UTC
+Completed - The scheduled maintenance has been completed.
+Apr 21, 16:30 UTC
 In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
 Apr 17, 15:30 UTC
 Scheduled - Codespaces will be undergoing global maintenance from 16:30 UTC on Monday, April 21 to 16:30 UTC on Tuesday, April 22. Maintenance will begin in our Europe, Asia, and Australia regions. Once it is complete, maintenance will start in our US regions. Each batch of regions will take approximately three to four hours to complete.
@@ -18,6 +41,23 @@ During this time period, users may experience intermittent connectivity issues w
 To avoid disruptions, ensure that any uncommitted changes are committed and pushed before the maintenance starts. Codespaces with uncommitted changes will remain accessible as usual after the maintenance is complete.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Problem with accessing Make web pages]]></title>
+        <id>https://status.make.com/incidents/pvs417tyhq6b</id>
+        <link href="https://status.make.com/incidents/pvs417tyhq6b"/>
+        <updated>2025-04-22T15:59:34.000Z</updated>
+        <summary type="html"><![CDATA[Apr 22, 17:59 CEST
+Resolved - The incident has been resolved. Some of the incoming webhooks were not accessible and weren't delivered for the affected zones.
+Apr 22, 17:24 CEST
+Monitoring - A fix has been implemented and we are monitoring the results.
+Apr 22, 17:15 CEST
+Identified - The issue has been identified and a fix is being implemented.
+Apr 22, 17:04 CEST
+Investigating - We are currently investigating an issue with incoming webhooks and Make web applicaton. Scheduled scenario executions are not affected. Users may receive error `ERR_SSL_VERSION_OR_CIPHER_MISMATCH`.]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -39,15 +79,9 @@ Investigating - We are currently investigating this issue.]]></summary>
         <link href="https://www.githubstatus.com/incidents/jmfzh1p2yrg2"/>
         <updated>2025-04-17T17:35:02.000Z</updated>
         <summary type="html"><![CDATA[Apr 17, 17:35 UTC
-Resolved - This incident has been resolved.
-Apr 17, 17:34 UTC
-Update - We have resolved issues with data inconsistency for Copilot Metrics API data as of April 17th 2025 1600 UTC. All data is now accurate.
-Apr 16, 22:44 UTC
-Update - We are continuing to work on correcting the Copilot Metrics API data from March 19th 2025 to April 14th 2025. Data from April 15 and later is accurate. Currently, the API returns about 10% lower usage numbers. Based on the current investigations we estimate to have a resolution by April 18th 0100 hrs UTC. We will provide an update if there is change in the ETA.
-Apr 16, 05:11 UTC
-Update - We have an updated ETA on correcting all Copilot metrics API data: 20 hours. We won't post more updates here unless the ETA changes.
-Apr 16, 01:46 UTC
-Update …]]></summary>
+Resolved - On April 15th during regular testing we found a bug in our Copilot Metrics Pipeline infrastructure causing some data used to aggregate Copilot usage for the Copilot Metrics API to not be ingested. As a result of the bug, customer metrics in the Copilot Metrics API would have indicated lower than expected Copilot usage for the previous 28 days.
+To mitigate the incident we resolved the bug so that all data from April 14th onwards would be accurately calculated and immediately began backfilling the previous 28 days with the correct data. All data has been corrected as of 2025-04-17 5:34PM UTC.
+We have added additional monitoring to catch similar pipeline failures in the future earlier and are working on enhancing our data validation to ensure that all metrics we p…]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
@@ -749,27 +783,6 @@ Investigating - Our Engineering team is investigating an issue with our Cloud Co
 We apologize for the inconvenience and will share an update once we have more information.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Some users on iOS may have trouble loading channels and messages.]]></title>
-        <id>https://slack-status.com/2025-03/e5f6aca28f9e550c</id>
-        <link href="https://slack-status.com/2025-03/e5f6aca28f9e550c"/>
-        <updated>2025-03-24T12:24:53.000Z</updated>
-        <summary type="html"><![CDATA[From 09:00 PDT on March 14th, 2025 to 12:43 PDT on March 20th, 2025, some users reported slowness or blank loading screens while accessing Slack channels on iOS devices. We investigated and found that a backend feature toggle had unexpected changes made to it which impacted users who were part of a large amount of channels. We made the necessary backend updates for those affected, which restored full functionality for all impacted users.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Retroactive] Incident with Migrations Submitted Via GitHub UI]]></title>
-        <id>https://www.githubstatus.com/incidents/cyf5mhwh42tt</id>
-        <link href="https://www.githubstatus.com/incidents/cyf5mhwh42tt"/>
-        <updated>2025-03-23T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Mar 23, 18:00 UTC
-Resolved - Between 2024-03-23 18:10 UTC and 2024-03-24 16:10 UTC, migration jobs submitted through the GitHub UI experienced processing delays and increased failure rates. This issue only affected migrations initiated via the web interface. Migrations started through the API or the command line tool continued to function normally. We are sorry for the delayed post on githubstatus.com.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>

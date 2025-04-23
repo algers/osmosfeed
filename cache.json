@@ -51,6 +51,16 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/58df09q6jxf6",
+          "author": null,
+          "description": "Apr 22, 19:05 UTC\nResolved - From 16:54 to 18:17 UTC, users may have experienced issues creating Spaces from control panel due to the datacenter region options failing to list.\nOur Engineering team has implemented a fix and confirmed full resolution of the issue. Users should be able to create Spaces from Cloud Control Panel without issues now.\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nApr 22, 18:30 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue impacting the creation of Spaces. Users should now be able to create Spaces without any issues.\nWe are actively monitoring the situation and will post an update as soon as the issue is fully resolved.\nApr 22, 18:08 UTC\nIdentified - Our Engineering team has identified an issue with creating Spaces through the Cloud Control Panel. During this time, users are unable to create Spaces buckets due to the datacenter region options failing to list. Creating Spaces buckets through the API remains functional. All other Spaces functionality is unaffected.\nA fix is in progress and we will provide an update as soon as we have more information.\nApr 22, 18:03 UTC\nInvestigating - Our Engineering team is currently investigating an issue with creating Spaces through the Cloud Control Panel. During this time, users may experience difficulties when selecting the Data Center option, as it is not listing correctly. We apologize for the inconvenience and will provide an update as soon as we have more information.",
+          "link": "https://status.digitalocean.com/incidents/58df09q6jxf6",
+          "publishedOn": "2025-04-22T19:05:57.000Z",
+          "wordCount": 6440,
+          "title": "Spaces Bucket Creates",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/0mnfmcry6qdt",
           "author": null,
           "description": "Apr  8, 18:51 UTC\nCompleted - The scheduled maintenance for our core networking infrastructure in the LON1 region, originally planned for April 8, 2025, from 20:00 UTC to 23:00 UTC, has been cancelled. No changes will be made at this time, and all services will continue to operate as usual.\nWe will provide an update when this maintenance has a new confirmed date. If you have any questions, please reach out to our support team via Cloud Support.\nThank you for your understanding.\nMar 30, 20:29 UTC\nScheduled - Start: 2025-04-08 20:00 UTC\nEnd: 2025-04-08 23:00 UTC\nDuring the above window, our Networking team will be making changes to the core networking infrastructure to improve performance and scalability in the LON1 region.\nExpected impact:\nDuring the maintenance window, users may experience delays or failures with event processing for a brief duration on Droplets and Droplet-based services, including Droplets, Managed Kubernetes, Load Balancers, Container Registry, and App Platform. We will endeavor to keep this to a minimum for the duration of the change.\nIf you have any questions related to this issue, please send us a ticket from your cloud support page. https://cloudsupport.digitalocean.com/s/createticket",
@@ -270,20 +280,20 @@
         {
           "id": "https://www.githubstatus.com/incidents/znhjr4vqqcdw",
           "author": null,
-          "description": "Apr 21, 16:30 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 17, 15:30 UTC\nScheduled - Codespaces will be undergoing global maintenance from 16:30 UTC on Monday, April 21 to 16:30 UTC on Tuesday, April 22. Maintenance will begin in our Europe, Asia, and Australia regions. Once it is complete, maintenance will start in our US regions. Each batch of regions will take approximately three to four hours to complete.\nDuring this time period, users may experience intermittent connectivity issues when creating new Codespaces or accessing existing ones.\nTo avoid disruptions, ensure that any uncommitted changes are committed and pushed before the maintenance starts. Codespaces with uncommitted changes will remain accessible as usual after the maintenance is complete.",
+          "description": "Apr 22, 16:30 UTC\nCompleted - The scheduled maintenance has been completed.\nApr 21, 16:30 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 17, 15:30 UTC\nScheduled - Codespaces will be undergoing global maintenance from 16:30 UTC on Monday, April 21 to 16:30 UTC on Tuesday, April 22. Maintenance will begin in our Europe, Asia, and Australia regions. Once it is complete, maintenance will start in our US regions. Each batch of regions will take approximately three to four hours to complete.\nDuring this time period, users may experience intermittent connectivity issues when creating new Codespaces or accessing existing ones.\nTo avoid disruptions, ensure that any uncommitted changes are committed and pushed before the maintenance starts. Codespaces with uncommitted changes will remain accessible as usual after the maintenance is complete.",
           "link": "https://www.githubstatus.com/incidents/znhjr4vqqcdw",
-          "publishedOn": "2025-04-21T16:30:21.000Z",
-          "wordCount": 5570,
+          "publishedOn": "2025-04-22T16:30:21.000Z",
+          "wordCount": 5580,
           "title": "Codespaces Scheduled Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
         {
           "id": "https://www.githubstatus.com/incidents/jmfzh1p2yrg2",
           "author": null,
-          "description": "Apr 17, 17:35 UTC\nResolved - This incident has been resolved.\nApr 17, 17:34 UTC\nUpdate - We have resolved issues with data inconsistency for Copilot Metrics API data as of April 17th 2025 1600 UTC. All data is now accurate.\nApr 16, 22:44 UTC\nUpdate - We are continuing to work on correcting the Copilot Metrics API data from March 19th 2025 to April 14th 2025. Data from April 15 and later is accurate. Currently, the API returns about 10% lower usage numbers. Based on the current investigations we estimate to have a resolution by April 18th 0100 hrs UTC. We will provide an update if there is change in the ETA.\nApr 16, 05:11 UTC\nUpdate - We have an updated ETA on correcting all Copilot metrics API data: 20 hours. We won't post more updates here unless the ETA changes.\nApr 16, 01:46 UTC\nUpdate …",
+          "description": "Apr 17, 17:35 UTC\nResolved - On April 15th during regular testing we found a bug in our Copilot Metrics Pipeline infrastructure causing some data used to aggregate Copilot usage for the Copilot Metrics API to not be ingested. As a result of the bug, customer metrics in the Copilot Metrics API would have indicated lower than expected Copilot usage for the previous 28 days.\nTo mitigate the incident we resolved the bug so that all data from April 14th onwards would be accurately calculated and immediately began backfilling the previous 28 days with the correct data. All data has been corrected as of 2025-04-17 5:34PM UTC.\nWe have added additional monitoring to catch similar pipeline failures in the future earlier and are working on enhancing our data validation to ensure that all metrics we p…",
           "link": "https://www.githubstatus.com/incidents/jmfzh1p2yrg2",
           "publishedOn": "2025-04-17T17:35:02.000Z",
-          "wordCount": 5888,
+          "wordCount": 6013,
           "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -446,16 +456,6 @@
           "wordCount": 5705,
           "title": "Disruption with Pull Request Ref Updates",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/cyf5mhwh42tt",
-          "author": null,
-          "description": "Mar 23, 18:00 UTC\nResolved - Between 2024-03-23 18:10 UTC and 2024-03-24 16:10 UTC, migration jobs submitted through the GitHub UI experienced processing delays and increased failure rates. This issue only affected migrations initiated via the web interface. Migrations started through the API or the command line tool continued to function normally. We are sorry for the delayed post on githubstatus.com.",
-          "link": "https://www.githubstatus.com/incidents/cyf5mhwh42tt",
-          "publishedOn": "2025-03-23T18:00:00.000Z",
-          "wordCount": 5509,
-          "title": "[Retroactive] Incident with Migrations Submitted Via GitHub UI",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -503,16 +503,6 @@
           "wordCount": 526,
           "title": "Incident: Issues with some login emails",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2025-03/e5f6aca28f9e550c",
-          "author": null,
-          "description": "From 09:00 PDT on March 14th, 2025 to 12:43 PDT on March 20th, 2025, some users reported slowness or blank loading screens while accessing Slack channels on iOS devices. We investigated and found that a backend feature toggle had unexpected changes made to it which impacted users who were part of a large amount of channels. We made the necessary backend updates for those affected, which restored full functionality for all impacted users.",
-          "link": "https://slack-status.com/2025-03/e5f6aca28f9e550c",
-          "publishedOn": "2025-03-24T12:24:53.000Z",
-          "wordCount": 304,
-          "title": "Incident: Some users on iOS may have trouble loading channels and messages.",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]
     },
@@ -521,6 +511,16 @@
       "feedUrl": "https://status.make.com/history.rss",
       "siteUrl": "https://status.make.com",
       "articles": [
+        {
+          "id": "https://status.make.com/incidents/pvs417tyhq6b",
+          "author": null,
+          "description": "Apr 22, 17:59 CEST\nResolved - The incident has been resolved. Some of the incoming webhooks were not accessible and weren't delivered for the affected zones.\nApr 22, 17:24 CEST\nMonitoring - A fix has been implemented and we are monitoring the results.\nApr 22, 17:15 CEST\nIdentified - The issue has been identified and a fix is being implemented.\nApr 22, 17:04 CEST\nInvestigating - We are currently investigating an issue with incoming webhooks and Make web applicaton. Scheduled scenario executions are not affected. Users may receive error `ERR_SSL_VERSION_OR_CIPHER_MISMATCH`.",
+          "link": "https://status.make.com/incidents/pvs417tyhq6b",
+          "publishedOn": "2025-04-22T15:59:34.000Z",
+          "wordCount": 3918,
+          "title": "Problem with accessing Make web pages",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.make.com/incidents/4gc81j8brchh",
           "author": null,
