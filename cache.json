@@ -51,6 +51,16 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/hkrt60rg0nz3",
+          "author": null,
+          "description": "Apr 24, 00:28 UTC\nMonitoring - Our Engineering team has confirmed the email delivery delays caused by an issue with an upstream provider has been mitigated. We are now seeing successful delivery of previously delayed emails, as well as normal flow of new messages.\nWe are currently monitoring the situation closely and will share an update as soon as the issue is fully resolved.\nApr 23, 22:34 UTC\nIdentified - Our Engineering team is aware of an issue with an upstream provider that is impacting the delivery of emails from DigitalOcean to DigitalOcean customers. \nBeginning 20:55 UTC, users may experience delays in receiving emails from DigitalOcean, including sign-in verification codes, sign-up verifications, maintenance notifications, and other transactional emails. \nOur team is closely monitoring the situation and has begun to see signs of recovery, with both delayed and recent emails starting to be delivered. \nWe will provide further updates as they are available.",
+          "link": "https://status.digitalocean.com/incidents/hkrt60rg0nz3",
+          "publishedOn": "2025-04-24T00:28:18.000Z",
+          "wordCount": 6340,
+          "title": "Delay in Transactional Emails",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/58df09q6jxf6",
           "author": null,
           "description": "Apr 22, 19:05 UTC\nResolved - From 16:54 to 18:17 UTC, users may have experienced issues creating Spaces from control panel due to the datacenter region options failing to list.\nOur Engineering team has implemented a fix and confirmed full resolution of the issue. Users should be able to create Spaces from Cloud Control Panel without issues now.\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nApr 22, 18:30 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue impacting the creation of Spaces. Users should now be able to create Spaces without any issues.\nWe are actively monitoring the situation and will post an update as soon as the issue is fully resolved.\nApr 22, 18:08 UTC\nIdentified - Our Engineering team has identified an issue with creating Spaces through the Cloud Control Panel. During this time, users are unable to create Spaces buckets due to the datacenter region options failing to list. Creating Spaces buckets through the API remains functional. All other Spaces functionality is unaffected.\nA fix is in progress and we will provide an update as soon as we have more information.\nApr 22, 18:03 UTC\nInvestigating - Our Engineering team is currently investigating an issue with creating Spaces through the Cloud Control Panel. During this time, users may experience difficulties when selecting the Data Center option, as it is not listing correctly. We apologize for the inconvenience and will provide an update as soon as we have more information.",
@@ -148,26 +158,6 @@
           "publishedOn": "2025-03-27T16:31:19.000Z",
           "wordCount": 6448,
           "title": "Managed Databases Metrics",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/gq2918sd92zp",
-          "author": null,
-          "description": "Mar 25, 07:30 UTC\nResolved - Our Engineering team has confirmed the full resolution of the issue with the Billing page for Teams on the Cloud Control Panel. Services should now be operating normally. \nThank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket right away.\nMar 25, 07:01 UTC\nMonitoring - Our Engineering team has now mitigated the issue that affected the Billing page for Teams on the Cloud Control Panel and is currently been monitored. Users should no longer see errors when attempting to access or perform actions within the Cloud Control Panel.\nWe will continue to monitor this at our end and will share an update once the problem is resolved completely.\nMar 25, 06:32 UTC\nIdentified - Our Engineering team has Identified the cause of the issue with Billing page on the Control Panel and is actively working on a fix. We will post an update as soon as the issue is fully resolved.\nMar 25, 06:06 UTC\nInvestigating - Our Engineering team is investigating an issue with the Billing page for Teams on the Cloud Control Panel. During this time, users may receive error messages when attempting to access or perform actions within the Cloud Control Panel. We apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/gq2918sd92zp",
-          "publishedOn": "2025-03-25T07:30:40.000Z",
-          "wordCount": 6429,
-          "title": "Cloud Control Panel Errors with Billing",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/mgqt0m5nh0gd",
-          "author": null,
-          "description": "Mar 25, 00:45 UTC\nResolved - Our Engineering team has confirmed the full resolution of the issue with Cloud Control Panel. \nThank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket right away.\nMar 25, 00:14 UTC\nMonitoring - Our Engineering team is currently monitoring the issue which affected Cloud Control Panel logins and registrations for a brief window of time between 20:55 and 22:15 UTC.\nUsers should no longer see errors while trying to login Cloud Control Panel. New users should now be able to register in the Cloud Control Panel as normal.\nWe will continue to monitor this at our end and will share an update once the problem is resolved completely.\nMar 24, 22:23 UTC\nUpdate - Our Engineering team continues to investigate the root cause of the issue with our Cloud Control Panel, but has confirmed error rates are dropping. Most users should now be seeing recovery and be able to login and navigate the site. New users should be able to register.\nIf you continue to see errors, please reach out to us via https://www.digitalocean.com/company/contact/support\nMar 24, 21:39 UTC\nUpdate - Our Engineering team is continuing to investigate the issue with our Cloud Control Panel. At this time, users may experience errors while attempting to navigate any pages under https://cloud.digitalocean.com, which includes both login and registration attempts. If you need to contact our support team and are unable to do so from within your account, you can still reach us via https://www.digitalocean.com/company/contact/support\nMar 24, 21:23 UTC\nInvestigating - Our Engineering team is investigating an issue with our Cloud Control Panel. During this time, users may experience errors reaching https://cloud.digitalocean.com/login, issues while signing in there, as well as issues navigating the Cloud Control Panel.\nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/mgqt0m5nh0gd",
-          "publishedOn": "2025-03-25T00:45:06.000Z",
-          "wordCount": 6503,
-          "title": "Cloud Control Panel Login/Registration",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -278,6 +268,26 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/7hdyxpt7sdzm",
+          "author": null,
+          "description": "Apr 23, 22:20 UTC\nResolved - This incident has been resolved.\nApr 23, 21:44 UTC\nUpdate - We are investigating issues with GitHub Enterprise Importer. We will continue to keep users updated on progress towards mitigation.\nApr 23, 21:38 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/7hdyxpt7sdzm",
+          "publishedOn": "2025-04-23T22:20:46.000Z",
+          "wordCount": 5491,
+          "title": "Disruption with some GitHub services",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
+          "id": "https://www.githubstatus.com/incidents/lrby2hyk80dh",
+          "author": null,
+          "description": "Apr 23, 08:00 UTC\nResolved - This incident has been resolved.\nApr 23, 07:47 UTC\nUpdate - A brief problem with one of our database clusters caused intermittent errors around 07:05 UTC for a few minutes. Our systems have recovered and we continue to monitor.\nApr 23, 07:43 UTC\nUpdate - Issues is operating normally.\nApr 23, 07:42 UTC\nUpdate - Actions is operating normally.\nApr 23, 07:42 UTC\nUpdate - Pages is operating normally.\nApr 23, 07:42 UTC\nUpdate - API Requests is operating normally.\nApr 23, 07:41 UTC\nUpdate - Codespaces is operating normally.\nApr 23, 07:23 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nApr 23, 07:22 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nApr 23, 07:17 UTC\nInvestigating - We are investigating reports of degraded performance for API Requests, Issues and Pages",
+          "link": "https://www.githubstatus.com/incidents/lrby2hyk80dh",
+          "publishedOn": "2025-04-23T08:00:06.000Z",
+          "wordCount": 5620,
+          "title": "Incident with Issues, API Requests and Pages",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/znhjr4vqqcdw",
           "author": null,
           "description": "Apr 22, 16:30 UTC\nCompleted - The scheduled maintenance has been completed.\nApr 21, 16:30 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 17, 15:30 UTC\nScheduled - Codespaces will be undergoing global maintenance from 16:30 UTC on Monday, April 21 to 16:30 UTC on Tuesday, April 22. Maintenance will begin in our Europe, Asia, and Australia regions. Once it is complete, maintenance will start in our US regions. Each batch of regions will take approximately three to four hours to complete.\nDuring this time period, users may experience intermittent connectivity issues when creating new Codespaces or accessing existing ones.\nTo avoid disruptions, ensure that any uncommitted changes are committed and pushed before the maintenance starts. Codespaces with uncommitted changes will remain accessible as usual after the maintenance is complete.",
@@ -300,10 +310,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/jhs2z7c69yfd",
           "author": null,
-          "description": "Apr 16, 17:26 UTC\nResolved - This incident has been resolved.\nApr 16, 17:26 UTC\nUpdate - Pull Requests is operating normally.\nApr 16, 17:13 UTC\nUpdate - The fix is rolling out and we're seeing recovery for users encountering 500 errors when viewing a pull request.\nApr 16, 16:17 UTC\nUpdate - The fix is currently being deployed, we anticipate this to be fully mitigated in approximately thirty minutes.\nApr 16, 15:55 UTC\nUpdate - Users may experience 500 errors when viewing a PR. Most of the impact is limited to anonymous access there is a small handful of logged in users who are also experiencing this. We have the fix prepared and it will be deployed soon.\nApr 16, 15:22 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests",
+          "description": "Apr 16, 17:26 UTC\nResolved - On April 16, 2025 between 3:22:36 PM UTC and  5:26:55 PM UTC the Pull Request service was degraded. On average, 0.7% of page views were affected. This primarily affected logged-out users, but some logged-in users were affected as well. \nThis was due to an error in how certain Pull Request timeline events were rendered, and we resolved the incident by updating the timeline event code.\nWe are enhancing test coverage to include additional scenarios and piloting new tools to prevent similar incidents in the future.\n\nApr 16, 17:26 UTC\nUpdate - Pull Requests is operating normally.\nApr 16, 17:13 UTC\nUpdate - The fix is rolling out and we're seeing recovery for users encountering 500 errors when viewing a pull request.\nApr 16, 16:17 UTC\nUpdate - The fix is currently being deployed, we anticipate this to be fully mitigated in approximately thirty minutes.\nApr 16, 15:55 UTC\nUpdate - Users may experience 500 errors when viewing a PR. Most of the impact is limited to anonymous access there is a small handful of logged in users who are also experiencing this. We have the fix prepared and it will be deployed soon.\nApr 16, 15:22 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests",
           "link": "https://www.githubstatus.com/incidents/jhs2z7c69yfd",
           "publishedOn": "2025-04-16T17:26:58.000Z",
-          "wordCount": 5586,
+          "wordCount": 5665,
           "title": "Incident with Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
