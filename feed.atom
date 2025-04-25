@@ -1,16 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-04-24T00:31:27.505Z</id>
+    <id>urn:2025-04-25T00:31:56.039Z</id>
     <title>osmos::feed</title>
-    <updated>2025-04-24T00:31:27.505Z</updated>
+    <updated>2025-04-25T00:31:56.039Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Issues Affecting the Partner Portal]]></title>
+        <id>https://airbnbapi.statuspage.io/incidents/72mhf5jszqq0</id>
+        <link href="https://airbnbapi.statuspage.io/incidents/72mhf5jszqq0"/>
+        <updated>2025-04-24T21:41:55.000Z</updated>
+        <summary type="html"><![CDATA[Apr 24, 14:41 PDT
+Monitoring - We deployed a fix for this issue today, April 24, at 10:00 AM (PDT), and we're currently monitoring the results.
+Apr 23, 19:33 PDT
+Identified - Our team has identified a problem where portions of the Partner Portal may not be loading correctly. We'll share further updates as soon as possible.]]></summary>
+        <author>
+            <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Issues accessing Rippling]]></title>
+        <id>https://status.rippling.com/incidents/ydrlvp6jcmr7</id>
+        <link href="https://status.rippling.com/incidents/ydrlvp6jcmr7"/>
+        <updated>2025-04-24T19:57:29.000Z</updated>
+        <summary type="html"><![CDATA[Apr 24, 19:57 UTC
+Resolved - This incident has been resolved.
+Apr 24, 15:53 UTC
+Identified - The issue has been identified and a fix is being implemented.
+Apr 24, 15:52 UTC
+Update - Rippling app is available. We are continuing to investigate the root cause of this issue.
+Apr 24, 15:50 UTC
+Update - We are continuing to investigate this issue.
+Apr 24, 15:36 UTC
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>Rippling Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Droplet Event Processing in Multiple regions]]></title>
+        <id>https://status.digitalocean.com/incidents/xhpv3h1dg1v7</id>
+        <link href="https://status.digitalocean.com/incidents/xhpv3h1dg1v7"/>
+        <updated>2025-04-24T16:31:32.000Z</updated>
+        <summary type="html"><![CDATA[Apr 24, 16:31 UTC
+Resolved - Our Engineering team has confirmed full resolution of the issue impacting event processing in the FRA1, AMS2, BLR1, SGP1, NYC1, and SYD1 regions. 
+If you continue to experience any problems, please open a ticket with our Support team. Thank you for your patience, and we apologize for any inconvenience.
+Apr 24, 15:53 UTC
+Monitoring - Our Engineering team has identified the cause of the issue causing delays in Droplet event processing in our FRA1 region, and has implemented a fix. 
+While investigating this issue, our Engineers also observed some events appearing to be stuck or delayed in the AMS2, BLR1, SGP1, NYC1, and SYD1 regions. As of now, the event processing rates have returned to normal in all these regions.
+We are currently monitoring the situation and will post an update as soon as the issue is fully resolved.
+Apr 24, 13:41 UTC
+Investigating - Our Engineering team is investigating an issue causing delays in Droplet event processing in our FRA1 region. 
+This includes operations such as creating, resizing, powering on/off, or deleting Droplets. These actions may take longer than usual to complete or may appear to be temporarily stalled.
+Our engineering team is actively working to identify the root cause and restore normal processing speeds as quickly as possible. We will continue to provide updates here as we make progress.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Delay in Transactional Emails]]></title>
         <id>https://status.digitalocean.com/incidents/hkrt60rg0nz3</id>
         <link href="https://status.digitalocean.com/incidents/hkrt60rg0nz3"/>
-        <updated>2025-04-24T00:28:18.000Z</updated>
-        <summary type="html"><![CDATA[Apr 24, 00:28 UTC
+        <updated>2025-04-24T04:41:58.000Z</updated>
+        <summary type="html"><![CDATA[Apr 24, 04:41 UTC
+Resolved - Our Engineering team has resolved the issue with the email delivery delays. Services should now be operating normally. 
+If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+Apr 24, 00:28 UTC
 Monitoring - Our Engineering team has confirmed the email delivery delays caused by an issue with an upstream provider has been mitigated. We are now seeing successful delivery of previously delayed emails, as well as normal flow of new messages.
 We are currently monitoring the situation closely and will share an update as soon as the issue is fully resolved.
 Apr 23, 22:34 UTC
@@ -28,7 +83,10 @@ We will provide further updates as they are available.]]></summary>
         <link href="https://www.githubstatus.com/incidents/7hdyxpt7sdzm"/>
         <updated>2025-04-23T22:20:46.000Z</updated>
         <summary type="html"><![CDATA[Apr 23, 22:20 UTC
-Resolved - This incident has been resolved.
+Resolved - Starting at 19:13:50 UTC, the service responsible for importing Git repositories began experiencing errors that impacted both GitHub Enterprise Importer migrations and the GitHub Importer which were restored at 22:11:00 UTC. At the time, 837 migrations across 57 organizations were affected. Impacted migrations would have shown the error message "Git source migration failed. Error message: An error occurred. Please contact support for further assistance." in the migration logs and required a retry.
+The root cause of the issue was a recent configuration change that caused our workers, responsible for syncing the Git repository, to lose the necessary access required for the migration. We were able to retrieve the needed access for the workers , and all dependent services resumed normal operation.
+We’ve identified and implemented additional safeguards to help prevent similar disruptions in the future.
+
 Apr 23, 21:44 UTC
 Update - We are investigating issues with GitHub Enterprise Importer. We will continue to keep users updated on progress towards mitigation.
 Apr 23, 21:38 UTC
@@ -776,34 +834,6 @@ While we are working to correct this issue as quickly as possible, we anticipate
 We apologize for the inconvenience. If you have any questions, please feel free to reach out to our Support team from within your account.]]></summary>
         <author>
             <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues accessing workspace for certain users]]></title>
-        <id>https://status.notion.so/incidents/7jpdcg0f3b90</id>
-        <link href="https://status.notion.so/incidents/7jpdcg0f3b90"/>
-        <updated>2025-03-26T06:20:34.000Z</updated>
-        <summary type="html"><![CDATA[Mar 25, 23:20 PDT
-Resolved - This incident has been resolved.
-Mar 25, 22:36 PDT
-Investigating - We're aware of an issue in product where some users may have issues accessing their workspace.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We are currently investigating issues with our AI features where users may experience slower response times, timeouts, or errors due to third-party API rate limiting. Some AI features may fail to load or return errors.]]></title>
-        <id>https://status.notion.so/incidents/191nrgjjzwm3</id>
-        <link href="https://status.notion.so/incidents/191nrgjjzwm3"/>
-        <updated>2025-03-26T00:36:16.000Z</updated>
-        <summary type="html"><![CDATA[Mar 25, 17:36 PDT
-Resolved - This issue has been resolved.
-Mar 25, 13:25 PDT
-Monitoring - A fix has been implemented and we are monitoring-- Will likely be up to 3 more hours until AI is fully operational for all users.
-Mar 25, 11:28 PDT
-Investigating - The core API remains stable and we are working to resolve these issues. We will provide updates as we have more information.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
         </author>
     </entry>
 </feed>

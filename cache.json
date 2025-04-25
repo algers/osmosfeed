@@ -18,6 +18,16 @@
       "siteUrl": "https://airbnbapi.statuspage.io",
       "articles": [
         {
+          "id": "https://airbnbapi.statuspage.io/incidents/72mhf5jszqq0",
+          "author": null,
+          "description": "Apr 24, 14:41 PDT\nMonitoring - We deployed a fix for this issue today, April 24, at 10:00 AM (PDT), and we're currently monitoring the results.\nApr 23, 19:33 PDT\nIdentified - Our team has identified a problem where portions of the Partner Portal may not be loading correctly. We'll share further updates as soon as possible.",
+          "link": "https://airbnbapi.statuspage.io/incidents/72mhf5jszqq0",
+          "publishedOn": "2025-04-24T21:41:55.000Z",
+          "wordCount": 3871,
+          "title": "Issues Affecting the Partner Portal",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://airbnbapi.statuspage.io/incidents/y6nl6f6z8zqg",
           "author": null,
           "description": "Apr  4, 08:02 PDT\nResolved - The issue has been identified, and a fix has been deployed.\nApr  3, 09:44 PDT\nInvestigating - Our team is currently investigating a problem where portions of the Partner Portal may not be loading correctly. We'll share further updates as soon as possible.",
@@ -51,12 +61,22 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/xhpv3h1dg1v7",
+          "author": null,
+          "description": "Apr 24, 16:31 UTC\nResolved - Our Engineering team has confirmed full resolution of the issue impacting event processing in the FRA1, AMS2, BLR1, SGP1, NYC1, and SYD1 regions. \nIf you continue to experience any problems, please open a ticket with our Support team. Thank you for your patience, and we apologize for any inconvenience.\nApr 24, 15:53 UTC\nMonitoring - Our Engineering team has identified the cause of the issue causing delays in Droplet event processing in our FRA1 region, and has implemented a fix. \nWhile investigating this issue, our Engineers also observed some events appearing to be stuck or delayed in the AMS2, BLR1, SGP1, NYC1, and SYD1 regions. As of now, the event processing rates have returned to normal in all these regions.\nWe are currently monitoring the situation and will post an update as soon as the issue is fully resolved.\nApr 24, 13:41 UTC\nInvestigating - Our Engineering team is investigating an issue causing delays in Droplet event processing in our FRA1 region. \nThis includes operations such as creating, resizing, powering on/off, or deleting Droplets. These actions may take longer than usual to complete or may appear to be temporarily stalled.\nOur engineering team is actively working to identify the root cause and restore normal processing speeds as quickly as possible. We will continue to provide updates here as we make progress.",
+          "link": "https://status.digitalocean.com/incidents/xhpv3h1dg1v7",
+          "publishedOn": "2025-04-24T16:31:32.000Z",
+          "wordCount": 6418,
+          "title": "Droplet Event Processing in Multiple regions",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/hkrt60rg0nz3",
           "author": null,
-          "description": "Apr 24, 00:28 UTC\nMonitoring - Our Engineering team has confirmed the email delivery delays caused by an issue with an upstream provider has been mitigated. We are now seeing successful delivery of previously delayed emails, as well as normal flow of new messages.\nWe are currently monitoring the situation closely and will share an update as soon as the issue is fully resolved.\nApr 23, 22:34 UTC\nIdentified - Our Engineering team is aware of an issue with an upstream provider that is impacting the delivery of emails from DigitalOcean to DigitalOcean customers. \nBeginning 20:55 UTC, users may experience delays in receiving emails from DigitalOcean, including sign-in verification codes, sign-up verifications, maintenance notifications, and other transactional emails. \nOur team is closely monitoring the situation and has begun to see signs of recovery, with both delayed and recent emails starting to be delivered. \nWe will provide further updates as they are available.",
+          "description": "Apr 24, 04:41 UTC\nResolved - Our Engineering team has resolved the issue with the email delivery delays. Services should now be operating normally. \nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nApr 24, 00:28 UTC\nMonitoring - Our Engineering team has confirmed the email delivery delays caused by an issue with an upstream provider has been mitigated. We are now seeing successful delivery of previously delayed emails, as well as normal flow of new messages.\nWe are currently monitoring the situation closely and will share an update as soon as the issue is fully resolved.\nApr 23, 22:34 UTC\nIdentified - Our Engineering team is aware of an issue with an upstream provider that is impacting the delivery of emails from DigitalOcean to DigitalOcean customers. \nBeginning 20:55 UTC, users may experience delays in receiving emails from DigitalOcean, including sign-in verification codes, sign-up verifications, maintenance notifications, and other transactional emails. \nOur team is closely monitoring the situation and has begun to see signs of recovery, with both delayed and recent emails starting to be delivered. \nWe will provide further updates as they are available.",
           "link": "https://status.digitalocean.com/incidents/hkrt60rg0nz3",
-          "publishedOn": "2025-04-24T00:28:18.000Z",
-          "wordCount": 6340,
+          "publishedOn": "2025-04-24T04:41:58.000Z",
+          "wordCount": 6381,
           "title": "Delay in Transactional Emails",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -216,26 +236,6 @@
           "wordCount": 3396,
           "title": "Issues with Database automations that are using Schedules.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/7jpdcg0f3b90",
-          "author": null,
-          "description": "Mar 25, 23:20 PDT\nResolved - This incident has been resolved.\nMar 25, 22:36 PDT\nInvestigating - We're aware of an issue in product where some users may have issues accessing their workspace.",
-          "link": "https://status.notion.so/incidents/7jpdcg0f3b90",
-          "publishedOn": "2025-03-26T06:20:34.000Z",
-          "wordCount": 3346,
-          "title": "Issues accessing workspace for certain users",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/191nrgjjzwm3",
-          "author": null,
-          "description": "Mar 25, 17:36 PDT\nResolved - This issue has been resolved.\nMar 25, 13:25 PDT\nMonitoring - A fix has been implemented and we are monitoring-- Will likely be up to 3 more hours until AI is fully operational for all users.\nMar 25, 11:28 PDT\nInvestigating - The core API remains stable and we are working to resolve these issues. We will provide updates as we have more information.",
-          "link": "https://status.notion.so/incidents/191nrgjjzwm3",
-          "publishedOn": "2025-03-26T00:36:16.000Z",
-          "wordCount": 3472,
-          "title": "We are currently investigating issues with our AI features where users may experience slower response times, timeouts, or errors due to third-party API rate limiting. Some AI features may fail to load or return errors.",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -243,7 +243,18 @@
       "title": "Rippling Status - Incident History",
       "feedUrl": "https://status.rippling.com/history.rss",
       "siteUrl": "https://status.rippling.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://status.rippling.com/incidents/ydrlvp6jcmr7",
+          "author": null,
+          "description": "Apr 24, 19:57 UTC\nResolved - This incident has been resolved.\nApr 24, 15:53 UTC\nIdentified - The issue has been identified and a fix is being implemented.\nApr 24, 15:52 UTC\nUpdate - Rippling app is available. We are continuing to investigate the root cause of this issue.\nApr 24, 15:50 UTC\nUpdate - We are continuing to investigate this issue.\nApr 24, 15:36 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://status.rippling.com/incidents/ydrlvp6jcmr7",
+          "publishedOn": "2025-04-24T19:57:29.000Z",
+          "wordCount": 5318,
+          "title": "Issues accessing Rippling",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/248858/rippling_favicoon.png"
+        }
+      ]
     },
     {
       "title": "Google Workspace Status Dashboard Updates",
@@ -270,10 +281,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/7hdyxpt7sdzm",
           "author": null,
-          "description": "Apr 23, 22:20 UTC\nResolved - This incident has been resolved.\nApr 23, 21:44 UTC\nUpdate - We are investigating issues with GitHub Enterprise Importer. We will continue to keep users updated on progress towards mitigation.\nApr 23, 21:38 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "Apr 23, 22:20 UTC\nResolved - Starting at 19:13:50 UTC, the service responsible for importing Git repositories began experiencing errors that impacted both GitHub Enterprise Importer migrations and the GitHub Importer which were restored at 22:11:00 UTC. At the time, 837 migrations across 57 organizations were affected. Impacted migrations would have shown the error message \"Git source migration failed. Error message: An error occurred. Please contact support for further assistance.\" in the migration logs and required a retry.\nThe root cause of the issue was a recent configuration change that caused our workers, responsible for syncing the Git repository, to lose the necessary access required for the migration. We were able to retrieve the needed access for the workers , and all dependent services resumed normal operation.\nWe’ve identified and implemented additional safeguards to help prevent similar disruptions in the future.\n\nApr 23, 21:44 UTC\nUpdate - We are investigating issues with GitHub Enterprise Importer. We will continue to keep users updated on progress towards mitigation.\nApr 23, 21:38 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/7hdyxpt7sdzm",
           "publishedOn": "2025-04-23T22:20:46.000Z",
-          "wordCount": 5491,
+          "wordCount": 5619,
           "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
