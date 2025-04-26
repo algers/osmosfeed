@@ -20,10 +20,10 @@
         {
           "id": "https://airbnbapi.statuspage.io/incidents/72mhf5jszqq0",
           "author": null,
-          "description": "Apr 24, 14:41 PDT\nMonitoring - We deployed a fix for this issue today, April 24, at 10:00 AM (PDT), and we're currently monitoring the results.\nApr 23, 19:33 PDT\nIdentified - Our team has identified a problem where portions of the Partner Portal may not be loading correctly. We'll share further updates as soon as possible.",
+          "description": "Apr 24, 23:30 PDT\nResolved - This incident has been resolved. Please create a new support case if you still encounter issues.\nApr 24, 14:41 PDT\nMonitoring - We deployed a fix for this issue today, April 24, at 10:00 AM (PDT), and we're currently monitoring the results.\nApr 23, 19:33 PDT\nIdentified - Our team has identified a problem where portions of the Partner Portal may not be loading correctly. We'll share further updates as soon as possible.",
           "link": "https://airbnbapi.statuspage.io/incidents/72mhf5jszqq0",
-          "publishedOn": "2025-04-24T21:41:55.000Z",
-          "wordCount": 3871,
+          "publishedOn": "2025-04-25T06:30:24.000Z",
+          "wordCount": 3891,
           "title": "Issues Affecting the Partner Portal",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
@@ -291,10 +291,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/lrby2hyk80dh",
           "author": null,
-          "description": "Apr 23, 08:00 UTC\nResolved - This incident has been resolved.\nApr 23, 07:47 UTC\nUpdate - A brief problem with one of our database clusters caused intermittent errors around 07:05 UTC for a few minutes. Our systems have recovered and we continue to monitor.\nApr 23, 07:43 UTC\nUpdate - Issues is operating normally.\nApr 23, 07:42 UTC\nUpdate - Actions is operating normally.\nApr 23, 07:42 UTC\nUpdate - Pages is operating normally.\nApr 23, 07:42 UTC\nUpdate - API Requests is operating normally.\nApr 23, 07:41 UTC\nUpdate - Codespaces is operating normally.\nApr 23, 07:23 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nApr 23, 07:22 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nApr 23, 07:17 UTC\nInvestigating - We are investigating reports of degraded performance for API Requests, Issues and Pages",
+          "description": "Apr 23, 08:00 UTC\nResolved - On April 23, 2025, between 07:00 UTC and 07:20 UTC, multiple GitHub services experienced degradation caused by resource contention on database hosts. The resulting error rates, which ranged from 2–5% of total requests, led to intermittent service disruption for users. The issue was triggered by heavy workloads on the database leading to connection saturation.\nThe incident mitigated when the database throttling activated which allowed the system to rebalance the connections. This restored the traffic flow to the database and restored service functionality. \nTo prevent similar issues in the future, we are reviewing the capacity of the database, improving monitoring and alerting systems, and implementing safeguards to reduce time to detection and mitigation.\nApr 23, 07:47 UTC\nUpdate - A brief problem with one of our database clusters caused intermittent errors around 07:05 UTC for a few minutes. Our systems have recovered and we continue to monitor.\nApr 23, 07:43 UTC\nUpdate - Issues is operating normally.\nApr 23, 07:42 UTC\nUpdate - Actions is operating normally.\nApr 23, 07:42 UTC\nUpdate - Pages is operating normally.\nApr 23, 07:42 UTC\nUpdate - API Requests is operating normally.\nApr 23, 07:41 UTC\nUpdate - Codespaces is operating normally.\nApr 23, 07:23 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nApr 23, 07:22 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nApr 23, 07:17 UTC\nInvestigating - We are investigating reports of degraded performance for API Requests, Issues and Pages",
           "link": "https://www.githubstatus.com/incidents/lrby2hyk80dh",
           "publishedOn": "2025-04-23T08:00:06.000Z",
-          "wordCount": 5620,
+          "wordCount": 5726,
           "title": "Incident with Issues, API Requests and Pages",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -533,6 +533,16 @@
       "siteUrl": "https://status.make.com",
       "articles": [
         {
+          "id": "https://status.make.com/incidents/3v14j2512qfq",
+          "author": null,
+          "description": "Apr 25, 08:08 CEST\nUpdate - We keep awaiting approval from Google about our Google Sheets marketplace add-on verification.\nApr 10, 14:20 CEST\nUpdate - We are continuously working with Google verification team to approve our Google Cloud Project and Google Sheets add-on.\nMar 19, 08:04 CET\nUpdate - We are working on review of new add-on for Google Sheets together with Google team.\nFeb 14, 17:18 CET\nMonitoring - We have shared deployment instructions for the workaround with users and are actively working on a permanent solution.\nFeb 14, 14:19 CET\nIdentified - We've identified a workaround and will provide users with clear instructions on how to proceed shortly.\nFeb 14, 09:17 CET\nInvestigating - Our team is currently investigating the issue and working on restoring the add-on as soon as possible.",
+          "link": "https://status.make.com/incidents/3v14j2512qfq",
+          "publishedOn": "2025-04-25T06:08:25.000Z",
+          "wordCount": 3984,
+          "title": "The \"Make for Google Sheets\" add-on is currently unavailable on Google Workspace Marketplace",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.make.com/incidents/pvs417tyhq6b",
           "author": null,
           "description": "Apr 22, 17:59 CEST\nResolved - The incident has been resolved. Some of the incoming webhooks were not accessible and weren't delivered for the affected zones.\nApr 22, 17:24 CEST\nMonitoring - A fix has been implemented and we are monitoring the results.\nApr 22, 17:15 CEST\nIdentified - The issue has been identified and a fix is being implemented.\nApr 22, 17:04 CEST\nInvestigating - We are currently investigating an issue with incoming webhooks and Make web applicaton. Scheduled scenario executions are not affected. Users may receive error `ERR_SSL_VERSION_OR_CIPHER_MISMATCH`.",
@@ -550,16 +560,6 @@
           "publishedOn": "2025-04-15T13:19:31.000Z",
           "wordCount": 3924,
           "title": "Google Sheets app returns error 429 - unusual traffic detected",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/3v14j2512qfq",
-          "author": null,
-          "description": "Apr 10, 14:20 CEST\nUpdate - We are continuously working with Google verification team to approve our Google Cloud Project and Google Sheets add-on.\nMar 19, 08:04 CET\nUpdate - We are working on review of new add-on for Google Sheets together with Google team.\nFeb 14, 17:18 CET\nMonitoring - We have shared deployment instructions for the workaround with users and are actively working on a permanent solution.\nFeb 14, 14:19 CET\nIdentified - We've identified a workaround and will provide users with clear instructions on how to proceed shortly.\nFeb 14, 09:17 CET\nInvestigating - Our team is currently investigating the issue and working on restoring the add-on as soon as possible.",
-          "link": "https://status.make.com/incidents/3v14j2512qfq",
-          "publishedOn": "2025-04-15T09:12:20.000Z",
-          "wordCount": 3963,
-          "title": "The \"Make for Google Sheets\" add-on is currently unavailable on Google Workspace Marketplace",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]

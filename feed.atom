@@ -1,21 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-04-25T00:31:56.039Z</id>
+    <id>urn:2025-04-26T00:30:50.708Z</id>
     <title>osmos::feed</title>
-    <updated>2025-04-25T00:31:56.039Z</updated>
+    <updated>2025-04-26T00:30:50.708Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[Issues Affecting the Partner Portal]]></title>
         <id>https://airbnbapi.statuspage.io/incidents/72mhf5jszqq0</id>
         <link href="https://airbnbapi.statuspage.io/incidents/72mhf5jszqq0"/>
-        <updated>2025-04-24T21:41:55.000Z</updated>
-        <summary type="html"><![CDATA[Apr 24, 14:41 PDT
+        <updated>2025-04-25T06:30:24.000Z</updated>
+        <summary type="html"><![CDATA[Apr 24, 23:30 PDT
+Resolved - This incident has been resolved. Please create a new support case if you still encounter issues.
+Apr 24, 14:41 PDT
 Monitoring - We deployed a fix for this issue today, April 24, at 10:00 AM (PDT), and we're currently monitoring the results.
 Apr 23, 19:33 PDT
 Identified - Our team has identified a problem where portions of the Partner Portal may not be loading correctly. We'll share further updates as soon as possible.]]></summary>
         <author>
             <name>Airbnb API Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The "Make for Google Sheets" add-on is currently unavailable on Google Workspace Marketplace]]></title>
+        <id>https://status.make.com/incidents/3v14j2512qfq</id>
+        <link href="https://status.make.com/incidents/3v14j2512qfq"/>
+        <updated>2025-04-25T06:08:25.000Z</updated>
+        <summary type="html"><![CDATA[Apr 25, 08:08 CEST
+Update - We keep awaiting approval from Google about our Google Sheets marketplace add-on verification.
+Apr 10, 14:20 CEST
+Update - We are continuously working with Google verification team to approve our Google Cloud Project and Google Sheets add-on.
+Mar 19, 08:04 CET
+Update - We are working on review of new add-on for Google Sheets together with Google team.
+Feb 14, 17:18 CET
+Monitoring - We have shared deployment instructions for the workaround with users and are actively working on a permanent solution.
+Feb 14, 14:19 CET
+Identified - We've identified a workaround and will provide users with clear instructions on how to proceed shortly.
+Feb 14, 09:17 CET
+Investigating - Our team is currently investigating the issue and working on restoring the add-on as soon as possible.]]></summary>
+        <author>
+            <name>Make Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -101,7 +124,9 @@ Investigating - We are currently investigating this issue.]]></summary>
         <link href="https://www.githubstatus.com/incidents/lrby2hyk80dh"/>
         <updated>2025-04-23T08:00:06.000Z</updated>
         <summary type="html"><![CDATA[Apr 23, 08:00 UTC
-Resolved - This incident has been resolved.
+Resolved - On April 23, 2025, between 07:00 UTC and 07:20 UTC, multiple GitHub services experienced degradation caused by resource contention on database hosts. The resulting error rates, which ranged from 2–5% of total requests, led to intermittent service disruption for users. The issue was triggered by heavy workloads on the database leading to connection saturation.
+The incident mitigated when the database throttling activated which allowed the system to rebalance the connections. This restored the traffic flow to the database and restored service functionality. 
+To prevent similar issues in the future, we are reviewing the capacity of the database, improving monitoring and alerting systems, and implementing safeguards to reduce time to detection and mitigation.
 Apr 23, 07:47 UTC
 Update - A brief problem with one of our database clusters caused intermittent errors around 07:05 UTC for a few minutes. Our systems have recovered and we continue to monitor.
 Apr 23, 07:43 UTC
@@ -285,25 +310,6 @@ Apr 15, 11:43 CEST
 Monitoring - Google Sheets app and modules are available again. We keep monitoring the situation.
 Apr 15, 11:12 CEST
 Investigating - We are currently experiencing an issue with the Google Sheets app and modules, which are resulting in error 429 - unusual traffic detected. Our team is investigating the issue and working to resolve it as quickly as possible. We will provide updates as soon as more information is available. Thank you for your patience.]]></summary>
-        <author>
-            <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The "Make for Google Sheets" add-on is currently unavailable on Google Workspace Marketplace]]></title>
-        <id>https://status.make.com/incidents/3v14j2512qfq</id>
-        <link href="https://status.make.com/incidents/3v14j2512qfq"/>
-        <updated>2025-04-15T09:12:20.000Z</updated>
-        <summary type="html"><![CDATA[Apr 10, 14:20 CEST
-Update - We are continuously working with Google verification team to approve our Google Cloud Project and Google Sheets add-on.
-Mar 19, 08:04 CET
-Update - We are working on review of new add-on for Google Sheets together with Google team.
-Feb 14, 17:18 CET
-Monitoring - We have shared deployment instructions for the workaround with users and are actively working on a permanent solution.
-Feb 14, 14:19 CET
-Identified - We've identified a workaround and will provide users with clear instructions on how to proceed shortly.
-Feb 14, 09:17 CET
-Investigating - Our team is currently investigating the issue and working on restoring the add-on as soon as possible.]]></summary>
         <author>
             <name>Make Status - Incident History</name>
         </author>
