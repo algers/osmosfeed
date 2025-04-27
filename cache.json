@@ -159,26 +159,6 @@
           "wordCount": 6281,
           "title": "Cloud Control Panel and API",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/n1thbjvytfqw",
-          "author": null,
-          "description": "Mar 27, 20:48 UTC\nResolved - Beginning at 17:56 UTC, users experienced issues with the using the Cloud Control Panel and the API. By 18:10 UTC, we started seeing signs of recovery and users would've been able to access the Cloud Control and API normally. \nWe noticed a brief recurrence of the issue at 18:58 UTC in which users would've experienced latency, with recovery starting at around 19:02 UTC. \nAt 19:02 UTC, our Engineering team has confirmed full resolution of the issue, the Cloud Control Panel and the API should be functioning normally now. \nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nMar 27, 19:34 UTC\nMonitoring - Our Engineering team has implemented a fix regarding the issue impacting our Cloud Control Pane…",
-          "link": "https://status.digitalocean.com/incidents/n1thbjvytfqw",
-          "publishedOn": "2025-03-27T20:48:22.000Z",
-          "wordCount": 6578,
-          "title": "Cloud Control Panel and API",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/r22g7bhs316q",
-          "author": null,
-          "description": "Mar 27, 16:31 UTC\nResolved - Our Engineering team has confirmed the full resolution of the issue affecting database engine metrics in the Cloud Control Panel for Managed Databases.\nUsers with PostgreSQL, MySQL, Kafka, OpenSearch, or Caching database clusters should now be able to see the metrics.\nThank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket right away.\nMar 27, 05:44 UTC\nMonitoring - Our Engineering team continues to monitor the issue affecting Database Engine metrics in the Cloud Control Panel for Managed Databases. The impact is mitigated and we are rolling out the update gradually during scheduled maintenance windows to avoid disruptions. \nWe will post another update once we confirm the full resolution. We apologize for the inconvenience and will share an update once we have more information.\nMar 26, 22:24 UTC\nIdentified - Our Engineering team has identified and is currently repairing an issue affecting database engine metrics in the Cloud Control Panel for Managed Databases.\nUsers with PostgreSQL, MySQL, Kafka, OpenSearch, or Caching database clusters may be unable to see metrics. Mongo database clusters are not impacted. Additionally, storage metrics and alerts are not impacted and continue to function normally.\nWhile we are working to correct this issue as quickly as possible, we anticipate that a resolution will take multiple days. We will post an update once we have a more definite ETA or additional information becomes available.\nWe apologize for the inconvenience. If you have any questions, please feel free to reach out to our Support team from within your account.",
-          "link": "https://status.digitalocean.com/incidents/r22g7bhs316q",
-          "publishedOn": "2025-03-27T16:31:19.000Z",
-          "wordCount": 6448,
-          "title": "Managed Databases Metrics",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -466,16 +446,6 @@
           "publishedOn": "2025-03-28T18:14:56.000Z",
           "wordCount": 5470,
           "title": "Disruption with some GitHub services",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/lnvht7g03czs",
-          "author": null,
-          "description": "Mar 28, 01:40 UTC\nResolved - Between March 27, 2025, 23:45 UTC and March 28, 2025, 01:40 UTC the Pull Requests service was degraded and failed to update refs for repositories with higher traffic activity. This was due to a large repository migration that resulted in a larger than usual number of enqueued jobs; while simultaneously impacting git fileservers where the problematic repository was hosted. This resulted in an increase in queue depth due to retries on failures to perform those jobs causing delays for non-migration sourced jobs.\nWe declared an incident once we confirmed that this issue was not isolated to the problematic migration and other repositories were also failing to process ref updates. \nWe mitigated the issue by stopping the migration and short circuiting the remaining jobs. Additionally, we increased the worker pool of this job to reduce the time required to recover. \nAs a result of this incident, we are revisiting our repository migration process and are working to isolate potentially problematic migration workloads from non-migration workloads. \n\nMar 28, 01:40 UTC\nUpdate - This issue has been mitigated and we are operating normally.\nMar 28, 00:54 UTC\nUpdate - We are continuing to monitor for recovery.\nMar 28, 00:20 UTC\nUpdate - We believe we have identified the source of the issue and are monitoring for recovery.\nMar 27, 23:52 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nMar 27, 23:49 UTC\nInvestigating - We are currently investigating this issue.",
-          "link": "https://www.githubstatus.com/incidents/lnvht7g03czs",
-          "publishedOn": "2025-03-28T01:40:38.000Z",
-          "wordCount": 5705,
-          "title": "Disruption with Pull Request Ref Updates",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]

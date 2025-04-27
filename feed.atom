@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-04-26T00:30:50.708Z</id>
+    <id>urn:2025-04-27T00:34:23.040Z</id>
     <title>osmos::feed</title>
-    <updated>2025-04-26T00:30:50.708Z</updated>
+    <updated>2025-04-27T00:34:23.040Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -778,68 +778,6 @@ Mar 28, 17:53 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disruption with Pull Request Ref Updates]]></title>
-        <id>https://www.githubstatus.com/incidents/lnvht7g03czs</id>
-        <link href="https://www.githubstatus.com/incidents/lnvht7g03czs"/>
-        <updated>2025-03-28T01:40:38.000Z</updated>
-        <summary type="html"><![CDATA[Mar 28, 01:40 UTC
-Resolved - Between March 27, 2025, 23:45 UTC and March 28, 2025, 01:40 UTC the Pull Requests service was degraded and failed to update refs for repositories with higher traffic activity. This was due to a large repository migration that resulted in a larger than usual number of enqueued jobs; while simultaneously impacting git fileservers where the problematic repository was hosted. This resulted in an increase in queue depth due to retries on failures to perform those jobs causing delays for non-migration sourced jobs.
-We declared an incident once we confirmed that this issue was not isolated to the problematic migration and other repositories were also failing to process ref updates. 
-We mitigated the issue by stopping the migration and short circuiting the remaining jobs. Additionally, we increased the worker pool of this job to reduce the time required to recover. 
-As a result of this incident, we are revisiting our repository migration process and are working to isolate potentially problematic migration workloads from non-migration workloads. 
-
-Mar 28, 01:40 UTC
-Update - This issue has been mitigated and we are operating normally.
-Mar 28, 00:54 UTC
-Update - We are continuing to monitor for recovery.
-Mar 28, 00:20 UTC
-Update - We believe we have identified the source of the issue and are monitoring for recovery.
-Mar 27, 23:52 UTC
-Update - Pull Requests is experiencing degraded performance. We are continuing to investigate.
-Mar 27, 23:49 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Control Panel and API]]></title>
-        <id>https://status.digitalocean.com/incidents/n1thbjvytfqw</id>
-        <link href="https://status.digitalocean.com/incidents/n1thbjvytfqw"/>
-        <updated>2025-03-27T20:48:22.000Z</updated>
-        <summary type="html"><![CDATA[Mar 27, 20:48 UTC
-Resolved - Beginning at 17:56 UTC, users experienced issues with the using the Cloud Control Panel and the API. By 18:10 UTC, we started seeing signs of recovery and users would've been able to access the Cloud Control and API normally. 
-We noticed a brief recurrence of the issue at 18:58 UTC in which users would've experienced latency, with recovery starting at around 19:02 UTC. 
-At 19:02 UTC, our Engineering team has confirmed full resolution of the issue, the Cloud Control Panel and the API should be functioning normally now. 
-If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
-Mar 27, 19:34 UTC
-Monitoring - Our Engineering team has implemented a fix regarding the issue impacting our Cloud Control Pane…]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managed Databases Metrics]]></title>
-        <id>https://status.digitalocean.com/incidents/r22g7bhs316q</id>
-        <link href="https://status.digitalocean.com/incidents/r22g7bhs316q"/>
-        <updated>2025-03-27T16:31:19.000Z</updated>
-        <summary type="html"><![CDATA[Mar 27, 16:31 UTC
-Resolved - Our Engineering team has confirmed the full resolution of the issue affecting database engine metrics in the Cloud Control Panel for Managed Databases.
-Users with PostgreSQL, MySQL, Kafka, OpenSearch, or Caching database clusters should now be able to see the metrics.
-Thank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket right away.
-Mar 27, 05:44 UTC
-Monitoring - Our Engineering team continues to monitor the issue affecting Database Engine metrics in the Cloud Control Panel for Managed Databases. The impact is mitigated and we are rolling out the update gradually during scheduled maintenance windows to avoid disruptions. 
-We will post another update once we confirm the full resolution. We apologize for the inconvenience and will share an update once we have more information.
-Mar 26, 22:24 UTC
-Identified - Our Engineering team has identified and is currently repairing an issue affecting database engine metrics in the Cloud Control Panel for Managed Databases.
-Users with PostgreSQL, MySQL, Kafka, OpenSearch, or Caching database clusters may be unable to see metrics. Mongo database clusters are not impacted. Additionally, storage metrics and alerts are not impacted and continue to function normally.
-While we are working to correct this issue as quickly as possible, we anticipate that a resolution will take multiple days. We will post an update once we have a more definite ETA or additional information becomes available.
-We apologize for the inconvenience. If you have any questions, please feel free to reach out to our Support team from within your account.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>

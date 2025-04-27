@@ -2143,126 +2143,6 @@ Investigating - We are currently investigating this issue.</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.githubstatus.com/incidents/lnvht7g03czs"
-                        open
-                      >
-                        <summary class="article-expander__title">Disruption with Pull Request Ref Updates</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.githubstatus.com/incidents/lnvht7g03czs">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Mar 28, 01:40 UTC
-Resolved - Between March 27, 2025, 23:45 UTC and March 28, 2025, 01:40 UTC the Pull Requests service was degraded and failed to update refs for repositories with higher traffic activity. This was due to a large repository migration that resulted in a larger than usual number of enqueued jobs; while simultaneously impacting git fileservers where the problematic repository was hosted. This resulted in an increase in queue depth due to retries on failures to perform those jobs causing delays for non-migration sourced jobs.
-We declared an incident once we confirmed that this issue was not isolated to the problematic migration and other repositories were also failing to process ref updates. 
-We mitigated the issue by stopping the migration and short circuiting the remaining jobs. Additionally, we increased the worker pool of this job to reduce the time required to recover. 
-As a result of this incident, we are revisiting our repository migration process and are working to isolate potentially problematic migration workloads from non-migration workloads. 
-
-Mar 28, 01:40 UTC
-Update - This issue has been mitigated and we are operating normally.
-Mar 28, 00:54 UTC
-Update - We are continuing to monitor for recovery.
-Mar 28, 00:20 UTC
-Update - We believe we have identified the source of the issue and are monitoring for recovery.
-Mar 27, 23:52 UTC
-Update - Pull Requests is experiencing degraded performance. We are continuing to investigate.
-Mar 27, 23:49 UTC
-Investigating - We are currently investigating this issue.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;19
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-03-27 datetime="2025-03-27T20:48:22.000Z">2025-03-27</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-03-27 datetime="2025-03-27T20:48:22.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >DigitalOcean Status - Incident History</button>
-                  <a class="source-heading__link" href="http://status.digitalocean.com">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/n1thbjvytfqw"
-                        open
-                      >
-                        <summary class="article-expander__title">Cloud Control Panel and API</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/n1thbjvytfqw">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Mar 27, 20:48 UTC
-Resolved - Beginning at 17:56 UTC, users experienced issues with the using the Cloud Control Panel and the API. By 18:10 UTC, we started seeing signs of recovery and users would&#x27;ve been able to access the Cloud Control and API normally. 
-We noticed a brief recurrence of the issue at 18:58 UTC in which users would&#x27;ve experienced latency, with recovery starting at around 19:02 UTC. 
-At 19:02 UTC, our Engineering team has confirmed full resolution of the issue, the Cloud Control Panel and the API should be functioning normally now. 
-If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
-Mar 27, 19:34 UTC
-Monitoring - Our Engineering team has implemented a fix regarding the issue impacting our Cloud Control Pane…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;22
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://status.digitalocean.com/incidents/r22g7bhs316q"
-                        open
-                      >
-                        <summary class="article-expander__title">Managed Databases Metrics</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://status.digitalocean.com/incidents/r22g7bhs316q">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Mar 27, 16:31 UTC
-Resolved - Our Engineering team has confirmed the full resolution of the issue affecting database engine metrics in the Cloud Control Panel for Managed Databases.
-Users with PostgreSQL, MySQL, Kafka, OpenSearch, or Caching database clusters should now be able to see the metrics.
-Thank you for your patience, and we apologize for any inconvenience. If you continue to experience any issues, please open a Support ticket right away.
-Mar 27, 05:44 UTC
-Monitoring - Our Engineering team continues to monitor the issue affecting Database Engine metrics in the Cloud Control Panel for Managed Databases. The impact is mitigated and we are rolling out the update gradually during scheduled maintenance windows to avoid disruptions. 
-We will post another update once we confirm the full resolution. We apologize for the inconvenience and will share an update once we have more information.
-Mar 26, 22:24 UTC
-Identified - Our Engineering team has identified and is currently repairing an issue affecting database engine metrics in the Cloud Control Panel for Managed Databases.
-Users with PostgreSQL, MySQL, Kafka, OpenSearch, or Caching database clusters may be unable to see metrics. Mongo database clusters are not impacted. Additionally, storage metrics and alerts are not impacted and continue to function normally.
-While we are working to correct this issue as quickly as possible, we anticipate that a resolution will take multiple days. We will post an update once we have a more definite ETA or additional information becomes available.
-We apologize for the inconvenience. If you have any questions, please feel free to reach out to our Support team from within your account.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;21
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -2270,8 +2150,8 @@ We apologize for the inconvenience. If you have any questions, please feel free 
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/14675770045">
-        <time id="build-timestamp" datetime="2025-04-26T00:30:50.689Z">2025-04-26T00:30:50.689Z</time>
+      <a class="footer-link" href="https://github.com/algers/osmosfeed/actions/runs/14686578141">
+        <time id="build-timestamp" datetime="2025-04-27T00:34:23.022Z">2025-04-27T00:34:23.022Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
