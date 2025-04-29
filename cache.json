@@ -61,6 +61,16 @@
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
         {
+          "id": "https://status.digitalocean.com/incidents/l5vd2wzv9ph9",
+          "author": null,
+          "description": "Apr 28, 11:17 UTC\nResolved - This incident has been resolved.\nApr 28, 11:14 UTC\nInvestigating - Between 09:58 UTC and 10:11 UTC, our Engineering team observed issues impacting DNS resolution in our LON1 region. During this time, some users may have experienced errors while trying to resolve domain names from within Digitalocean resources. \nOur team was able to take quick action to mitigate the impact and resolve the issue, and all services in the LON1 region are now functioning normally. Thank you for your patience, and we apologize for any inconvenience. \nIf you are still experiencing issues or have additional questions, please open a Support ticket right away.",
+          "link": "https://status.digitalocean.com/incidents/l5vd2wzv9ph9",
+          "publishedOn": "2025-04-28T11:17:10.000Z",
+          "wordCount": 6290,
+          "title": "Networking in LON1",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.digitalocean.com/incidents/xhpv3h1dg1v7",
           "author": null,
           "description": "Apr 24, 16:31 UTC\nResolved - Our Engineering team has confirmed full resolution of the issue impacting event processing in the FRA1, AMS2, BLR1, SGP1, NYC1, and SYD1 regions. \nIf you continue to experience any problems, please open a ticket with our Support team. Thank you for your patience, and we apologize for any inconvenience.\nApr 24, 15:53 UTC\nMonitoring - Our Engineering team has identified the cause of the issue causing delays in Droplet event processing in our FRA1 region, and has implemented a fix. \nWhile investigating this issue, our Engineers also observed some events appearing to be stuck or delayed in the AMS2, BLR1, SGP1, NYC1, and SYD1 regions. As of now, the event processing rates have returned to normal in all these regions.\nWe are currently monitoring the situation and will post an update as soon as the issue is fully resolved.\nApr 24, 13:41 UTC\nInvestigating - Our Engineering team is investigating an issue causing delays in Droplet event processing in our FRA1 region. \nThis includes operations such as creating, resizing, powering on/off, or deleting Droplets. These actions may take longer than usual to complete or may appear to be temporarily stalled.\nOur engineering team is actively working to identify the root cause and restore normal processing speeds as quickly as possible. We will continue to provide updates here as we make progress.",
@@ -249,6 +259,16 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/7lbnm9mg6549",
+          "author": null,
+          "description": "Apr 28, 11:09 UTC\nResolved - This incident has been resolved.\nApr 28, 10:35 UTC\nUpdate - We are seeing signs of recovery and continue to monitor latency.\nApr 28, 09:52 UTC\nUpdate - We continue to investigate impact to Issues and Pull Requests. Customers may see some timeouts as we work towards mitigation.\nApr 28, 08:58 UTC\nUpdate - We are continuing to investigate impact to Issues and Pull Requests. We will provide more updates as we have them.\nApr 28, 08:23 UTC\nUpdate - Users may see timeouts when viewing Pull Requests. We are still investigating the issues related to Issues and Pull Requests and will provide further updates as soon as we can\nApr 28, 08:21 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nApr 28, 08:05 UTC\nUpdate - Issues API is currently seeing elevated latency. We are investigating the issue and will provide further updates as soon as we have them.\nApr 28, 08:03 UTC\nInvestigating - We are investigating reports of degraded performance for API Requests, Git Operations and Issues",
+          "link": "https://www.githubstatus.com/incidents/7lbnm9mg6549",
+          "publishedOn": "2025-04-28T11:09:10.000Z",
+          "wordCount": 5655,
+          "title": "Incident with Git Operations, API Requests and Issues",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/7hdyxpt7sdzm",
           "author": null,
           "description": "Apr 23, 22:20 UTC\nResolved - Starting at 19:13:50 UTC, the service responsible for importing Git repositories began experiencing errors that impacted both GitHub Enterprise Importer migrations and the GitHub Importer which were restored at 22:11:00 UTC. At the time, 837 migrations across 57 organizations were affected. Impacted migrations would have shown the error message \"Git source migration failed. Error message: An error occurred. Please contact support for further assistance.\" in the migration logs and required a retry.\nThe root cause of the issue was a recent configuration change that caused our workers, responsible for syncing the Git repository, to lose the necessary access required for the migration. We were able to retrieve the needed access for the workers , and all dependent services resumed normal operation.\nWe’ve identified and implemented additional safeguards to help prevent similar disruptions in the future.\n\nApr 23, 21:44 UTC\nUpdate - We are investigating issues with GitHub Enterprise Importer. We will continue to keep users updated on progress towards mitigation.\nApr 23, 21:38 UTC\nInvestigating - We are currently investigating this issue.",
@@ -261,10 +281,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/lrby2hyk80dh",
           "author": null,
-          "description": "Apr 23, 08:00 UTC\nResolved - On April 23, 2025, between 07:00 UTC and 07:20 UTC, multiple GitHub services experienced degradation caused by resource contention on database hosts. The resulting error rates, which ranged from 2–5% of total requests, led to intermittent service disruption for users. The issue was triggered by heavy workloads on the database leading to connection saturation.\nThe incident mitigated when the database throttling activated which allowed the system to rebalance the connections. This restored the traffic flow to the database and restored service functionality. \nTo prevent similar issues in the future, we are reviewing the capacity of the database, improving monitoring and alerting systems, and implementing safeguards to reduce time to detection and mitigation.\nApr 23, 07:47 UTC\nUpdate - A brief problem with one of our database clusters caused intermittent errors around 07:05 UTC for a few minutes. Our systems have recovered and we continue to monitor.\nApr 23, 07:43 UTC\nUpdate - Issues is operating normally.\nApr 23, 07:42 UTC\nUpdate - Actions is operating normally.\nApr 23, 07:42 UTC\nUpdate - Pages is operating normally.\nApr 23, 07:42 UTC\nUpdate - API Requests is operating normally.\nApr 23, 07:41 UTC\nUpdate - Codespaces is operating normally.\nApr 23, 07:23 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nApr 23, 07:22 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nApr 23, 07:17 UTC\nInvestigating - We are investigating reports of degraded performance for API Requests, Issues and Pages",
+          "description": "Apr 23, 08:00 UTC\nResolved - On April 23, 2025, between 07:00 UTC and 07:20 UTC, multiple GitHub services experienced degradation caused by resource contention on database hosts. The resulting error rates, which ranged from 2–5% of total requests, led to intermittent service disruption for users. The issue was triggered by heavy workloads on the database leading to connection saturation.\nThe incident mitigated when the database throttling activated which allowed the system to rebalance the connections. This restored the traffic flow to the database and restored service functionality.\nTo prevent similar issues in the future, we are reviewing the capacity of the database, improving monitoring and alerting systems, and implementing safeguards to reduce time to detection and mitigation.\nApr 23, 07:47 UTC\nUpdate - A brief problem with one of our database clusters caused intermittent errors around 07:05 UTC for a few minutes. Our systems have recovered and we continue to monitor.\nApr 23, 07:43 UTC\nUpdate - Issues is operating normally.\nApr 23, 07:42 UTC\nUpdate - Actions is operating normally.\nApr 23, 07:42 UTC\nUpdate - Pages is operating normally.\nApr 23, 07:42 UTC\nUpdate - API Requests is operating normally.\nApr 23, 07:41 UTC\nUpdate - Codespaces is operating normally.\nApr 23, 07:23 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nApr 23, 07:22 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nApr 23, 07:17 UTC\nInvestigating - We are investigating reports of degraded performance for API Requests, Issues and Pages",
           "link": "https://www.githubstatus.com/incidents/lrby2hyk80dh",
           "publishedOn": "2025-04-23T08:00:06.000Z",
-          "wordCount": 5726,
+          "wordCount": 5725,
           "title": "Incident with Issues, API Requests and Pages",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -425,6 +445,16 @@
       "feedUrl": "https://status.slack.com/feed/rss",
       "siteUrl": "https://slack-status.com",
       "articles": [
+        {
+          "id": "https://slack-status.com/2025-04/fb75639d041029a5",
+          "author": null,
+          "description": "On April 28, 2025 between 12:48 PM PDT and 1:38 PM PDT, some users encountered an issue where they were unable to take action on member accounts via the ⋯ menu on the Manage Members page in the admin dashboard.A recent code change relating to the Manage Members page referenced a backend feature toggle that was disabled, resulting in the broken page functionality. We immediately corrected the code reference, resolving the issue for all affected users.",
+          "link": "https://slack-status.com/2025-04/fb75639d041029a5",
+          "publishedOn": "2025-04-28T22:04:55.000Z",
+          "wordCount": 318,
+          "title": "Incident: Cannot take action on the Manage Members page",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
         {
           "id": "https://slack-status.com/2025-04/2a537b16ac3fbcbf",
           "author": null,
