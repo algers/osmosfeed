@@ -1,10 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-04-29T00:32:00.232Z</id>
+    <id>urn:2025-04-30T00:31:58.386Z</id>
     <title>osmos::feed</title>
-    <updated>2025-04-29T00:32:00.232Z</updated>
+    <updated>2025-04-30T00:31:58.386Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[United States SMS Carrier Partner Maintenance]]></title>
+        <id>https://status.twilio.com/incidents/3s869gympx4z</id>
+        <link href="https://status.twilio.com/incidents/3s869gympx4z"/>
+        <updated>2025-04-30T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 29, 22:00 PDT  -  Apr 30, 03:00 PDT
+Apr 24, 08:10 PDT
+Scheduled - Our SMS carrier partner in the United States is conducting a planned maintenance from 29 April 2025 at 22:00 PDT until 30 April 2025 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from United States handsets via United States long codes and short codes.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US SMS Carrier Maintenance - Small US Carriers]]></title>
+        <id>https://status.twilio.com/incidents/91f14syvsllh</id>
+        <link href="https://status.twilio.com/incidents/91f14syvsllh"/>
+        <updated>2025-04-30T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 29, 20:00 PDT  -  Apr 30, 00:00 PDT
+Apr 27, 23:26 PDT
+Scheduled - A subset of small networks in the US are conducting an emergency maintenance from 29 April 2025 at 20:00 PDT until 30 April 2025 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.]]></summary>
+        <author>
+            <name>Twilio Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Managed Kubernetes Nodes Networking]]></title>
+        <id>https://status.digitalocean.com/incidents/f33pj4tq7pq1</id>
+        <link href="https://status.digitalocean.com/incidents/f33pj4tq7pq1"/>
+        <updated>2025-04-30T00:11:48.000Z</updated>
+        <summary type="html"><![CDATA[Apr 30, 00:11 UTC
+Resolved - Our Engineering team has confirmed full resolution of the network issue with new DOKS worker nodes in our SFO2 region.
+If you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.
+Apr 29, 23:49 UTC
+Monitoring - Our Engineering team identified the cause of the issue and has rolled out a fix to resolve the network issue with new DOKS worker nodes. At this time, all services should be operating normally. 
+We are actively monitoring the fix and will post an update as soon as the issue is fully resolved.
+Apr 29, 22:25 UTC
+Investigating - Our Engineering team is investigating an issue causing new DOKS worker nodes to have network issues in our SFO2 region. Operations such as creating new DOKS nodes, manually or autoscaled, will have network connectivity issues within the clusters they are added to during this time.
+Our Engineering team is actively working to identify the root cause and restore service as quickly as possible. We will continue to provide updates here as we make progress.]]></summary>
+        <author>
+            <name>DigitalOcean Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Forms view creation in existing database view is down, our team is investigating the issue.]]></title>
+        <id>https://status.notion.so/incidents/18g8kmp1j5hp</id>
+        <link href="https://status.notion.so/incidents/18g8kmp1j5hp"/>
+        <updated>2025-04-29T15:44:24.000Z</updated>
+        <summary type="html"><![CDATA[Apr 29, 08:44 PDT
+Resolved - The issue has been resolved, and users can now add forms to the existing database views.
+Apr 29, 04:50 PDT
+Investigating - Our engineering team is investigating the issue.]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Delays for web and email notification delivery]]></title>
+        <id>https://www.githubstatus.com/incidents/jvyb8cp9h0lh</id>
+        <link href="https://www.githubstatus.com/incidents/jvyb8cp9h0lh"/>
+        <updated>2025-04-29T12:52:28.000Z</updated>
+        <summary type="html"><![CDATA[Apr 29, 12:52 UTC
+Resolved - This incident has been resolved.
+Apr 29, 12:52 UTC
+Update - The notification delivery backlog has been processed and notifications are now being delivered as expected.
+Apr 29, 12:45 UTC
+Update - New notification deliveries are occuring in a timely manner and we have processed a significant portion of the backlog. Users may still notice delayed delivery of some older notifications.
+Apr 29, 11:57 UTC
+Update - Web and email notifications continue to be delivered successfully and the service is in a healthy state. We are processing the backlog of notification deliveries which are currently as much as 30-60 minutes delayed.
+Apr 29, 11:09 UTC
+Update - We are starting to see signals of recovery with delayed web/email notifications now being dispatched.
+The team continue to monitor recovery and ensure return to normal service.
+Apr 29, 10:37 UTC
+Update - We are seeing impact on both web and email notifications with most customers seeing delayed deliveries. 
+The last incident updated regarding impact on email notifications was incorrect. Email notifications have been experiencing the same delays as web notifications for duration of incident.
+We have applied changes to our system and are monitoring to see if these restore normal service. Updates to follow.
+Apr 29, 10:07 UTC
+Update - Web notifications are experiencing delivery delays for the majority of customers. We are working to mitigate impact and restore delivery times back within normal operating bounds.
+Email notifications remain unaffected and are delivering as normal.
+We will provide futher updates as we have more information.
+Apr 29, 10:05 UTC
+Investigating - We are currently investigating this issue.]]></summary>
+        <author>
+            <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Incident: Cannot take action on the Manage Members page]]></title>
         <id>https://slack-status.com/2025-04/fb75639d041029a5</id>
@@ -766,31 +851,6 @@ Mar 31, 16:27 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Managed Databases creation]]></title>
-        <id>https://status.digitalocean.com/incidents/7sr4m44gd75l</id>
-        <link href="https://status.digitalocean.com/incidents/7sr4m44gd75l"/>
-        <updated>2025-03-31T09:30:16.000Z</updated>
-        <summary type="html"><![CDATA[Mar 31, 09:30 UTC
-Resolved - From 00:13 UTC to 9:09 UTC, users may have experienced errors when attempting to create Managed Database Caching Clusters.
-Our Engineering team has confirmed the full resolution of the issue. Users should now be able to create Caching clusters normally.
-If you continue to experience issues, please open a support ticket from your Cloud Control Panel.
-Mar 31, 07:58 UTC
-Monitoring - Our Engineering team has implemented a fix to resolve the issues impacting the creation of Managed Database Clusters.
-Users should no longer see any errors while creating a Caching Database Cluster. 
-We are actively monitoring the situation and will post an update as soon as the issue is fully resolved.
-Mar 31, 05:41 UTC
-Identified - Our Engineering team has identified the root cause of the issue affecting the creation of Managed Database Clusters and is actively working on a fix.
-Users who already have a Caching Database Cluster in their account should be able to create a new Cluster. During this time, users without an existing caching cluster in their account may still see an error while creating a new cluster.
-We apologize for the inconvenience and will provide another update as soon as possible.
-Mar 31, 04:09 UTC
-Investigating - As of 00:13 UTC, our Engineering team is investigating an issue with creating Managed Database clusters.
-During this time, users may face issues creating caching clusters.
-We apologize for the inconvenience and will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
         </author>
     </entry>
 </feed>

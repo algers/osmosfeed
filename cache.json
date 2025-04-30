@@ -53,13 +53,44 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://status.twilio.com/incidents/3s869gympx4z",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Apr 29, 22:00 PDT  -  Apr 30, 03:00 PDT\nApr 24, 08:10 PDT\nScheduled - Our SMS carrier partner in the United States is conducting a planned maintenance from 29 April 2025 at 22:00 PDT until 30 April 2025 at 03:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from United States handsets via United States long codes and short codes.",
+          "link": "https://status.twilio.com/incidents/3s869gympx4z",
+          "publishedOn": "2025-04-30T05:00:00.000Z",
+          "wordCount": 7594,
+          "title": "United States SMS Carrier Partner Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/91f14syvsllh",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Apr 29, 20:00 PDT  -  Apr 30, 00:00 PDT\nApr 27, 23:26 PDT\nScheduled - A subset of small networks in the US are conducting an emergency maintenance from 29 April 2025 at 20:00 PDT until 30 April 2025 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.",
+          "link": "https://status.twilio.com/incidents/91f14syvsllh",
+          "publishedOn": "2025-04-30T03:00:00.000Z",
+          "wordCount": 7609,
+          "title": "US SMS Carrier Maintenance - Small US Carriers",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        }
+      ]
     },
     {
       "title": "DigitalOcean Status - Incident History",
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/f33pj4tq7pq1",
+          "author": null,
+          "description": "Apr 30, 00:11 UTC\nResolved - Our Engineering team has confirmed full resolution of the network issue with new DOKS worker nodes in our SFO2 region.\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nApr 29, 23:49 UTC\nMonitoring - Our Engineering team identified the cause of the issue and has rolled out a fix to resolve the network issue with new DOKS worker nodes. At this time, all services should be operating normally. \nWe are actively monitoring the fix and will post an update as soon as the issue is fully resolved.\nApr 29, 22:25 UTC\nInvestigating - Our Engineering team is investigating an issue causing new DOKS worker nodes to have network issues in our SFO2 region. Operations such as creating new DOKS nodes, manually or autoscaled, will have network connectivity issues within the clusters they are added to during this time.\nOur Engineering team is actively working to identify the root cause and restore service as quickly as possible. We will continue to provide updates here as we make progress.",
+          "link": "https://status.digitalocean.com/incidents/f33pj4tq7pq1",
+          "publishedOn": "2025-04-30T00:11:48.000Z",
+          "wordCount": 6368,
+          "title": "Managed Kubernetes Nodes Networking",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/l5vd2wzv9ph9",
           "author": null,
@@ -149,16 +180,6 @@
           "wordCount": 6326,
           "title": "GenAI Platform Agent",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/7sr4m44gd75l",
-          "author": null,
-          "description": "Mar 31, 09:30 UTC\nResolved - From 00:13 UTC to 9:09 UTC, users may have experienced errors when attempting to create Managed Database Caching Clusters.\nOur Engineering team has confirmed the full resolution of the issue. Users should now be able to create Caching clusters normally.\nIf you continue to experience issues, please open a support ticket from your Cloud Control Panel.\nMar 31, 07:58 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issues impacting the creation of Managed Database Clusters.\nUsers should no longer see any errors while creating a Caching Database Cluster. \nWe are actively monitoring the situation and will post an update as soon as the issue is fully resolved.\nMar 31, 05:41 UTC\nIdentified - Our Engineering team has identified the root cause of the issue affecting the creation of Managed Database Clusters and is actively working on a fix.\nUsers who already have a Caching Database Cluster in their account should be able to create a new Cluster. During this time, users without an existing caching cluster in their account may still see an error while creating a new cluster.\nWe apologize for the inconvenience and will provide another update as soon as possible.\nMar 31, 04:09 UTC\nInvestigating - As of 00:13 UTC, our Engineering team is investigating an issue with creating Managed Database clusters.\nDuring this time, users may face issues creating caching clusters.\nWe apologize for the inconvenience and will share an update once we have more information.",
-          "link": "https://status.digitalocean.com/incidents/7sr4m44gd75l",
-          "publishedOn": "2025-03-31T09:30:16.000Z",
-          "wordCount": 6430,
-          "title": "Managed Databases creation",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -167,6 +188,16 @@
       "feedUrl": "https://status.notion.so/history.rss",
       "siteUrl": "https://status.notion.so",
       "articles": [
+        {
+          "id": "https://status.notion.so/incidents/18g8kmp1j5hp",
+          "author": null,
+          "description": "Apr 29, 08:44 PDT\nResolved - The issue has been resolved, and users can now add forms to the existing database views.\nApr 29, 04:50 PDT\nInvestigating - Our engineering team is investigating the issue.",
+          "link": "https://status.notion.so/incidents/18g8kmp1j5hp",
+          "publishedOn": "2025-04-29T15:44:24.000Z",
+          "wordCount": 3375,
+          "title": "Forms view creation in existing database view is down, our team is investigating the issue.",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.notion.so/incidents/301bhjzfz7k8",
           "author": null,
@@ -258,6 +289,16 @@
       "feedUrl": "https://www.githubstatus.com/history.rss",
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
+        {
+          "id": "https://www.githubstatus.com/incidents/jvyb8cp9h0lh",
+          "author": null,
+          "description": "Apr 29, 12:52 UTC\nResolved - This incident has been resolved.\nApr 29, 12:52 UTC\nUpdate - The notification delivery backlog has been processed and notifications are now being delivered as expected.\nApr 29, 12:45 UTC\nUpdate - New notification deliveries are occuring in a timely manner and we have processed a significant portion of the backlog. Users may still notice delayed delivery of some older notifications.\nApr 29, 11:57 UTC\nUpdate - Web and email notifications continue to be delivered successfully and the service is in a healthy state. We are processing the backlog of notification deliveries which are currently as much as 30-60 minutes delayed.\nApr 29, 11:09 UTC\nUpdate - We are starting to see signals of recovery with delayed web/email notifications now being dispatched.\nThe team continue to monitor recovery and ensure return to normal service.\nApr 29, 10:37 UTC\nUpdate - We are seeing impact on both web and email notifications with most customers seeing delayed deliveries. \nThe last incident updated regarding impact on email notifications was incorrect. Email notifications have been experiencing the same delays as web notifications for duration of incident.\nWe have applied changes to our system and are monitoring to see if these restore normal service. Updates to follow.\nApr 29, 10:07 UTC\nUpdate - Web notifications are experiencing delivery delays for the majority of customers. We are working to mitigate impact and restore delivery times back within normal operating bounds.\nEmail notifications remain unaffected and are delivering as normal.\nWe will provide futher updates as we have more information.\nApr 29, 10:05 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/jvyb8cp9h0lh",
+          "publishedOn": "2025-04-29T12:52:28.000Z",
+          "wordCount": 5726,
+          "title": "Delays for web and email notification delivery",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
         {
           "id": "https://www.githubstatus.com/incidents/7lbnm9mg6549",
           "author": null,
