@@ -1,44 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-05-01T00:35:53.394Z</id>
+    <id>urn:2025-05-02T00:32:15.488Z</id>
     <title>osmos::feed</title>
-    <updated>2025-05-01T00:35:53.394Z</updated>
+    <updated>2025-05-02T00:32:15.488Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[Canada SMS Carrier Maintenance - Bell Mobility]]></title>
-        <id>https://status.twilio.com/incidents/7sr4h4zks0kt</id>
-        <link href="https://status.twilio.com/incidents/7sr4h4zks0kt"/>
-        <updated>2025-05-01T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT May 1, 04:00 - 06:30 PDT
-Apr 25, 14:14 PDT
-Scheduled - The Bell Mobility network in Canada is conducting a planned maintenance from 01 May 2025 at 04:00 PDT until 01 May 2025 at 06:30 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Bell Mobility Canada handsets.]]></summary>
+        <title type="html"><![CDATA[Issue Attachments Failing to Upload]]></title>
+        <id>https://www.githubstatus.com/incidents/9zmv2mqqxsbm</id>
+        <link href="https://www.githubstatus.com/incidents/9zmv2mqqxsbm"/>
+        <updated>2025-05-01T23:13:18.000Z</updated>
+        <summary type="html"><![CDATA[May  1, 23:13 UTC
+Resolved - This incident has been resolved.
+May  1, 23:13 UTC
+Update - We have identified the underlying cause of attachment upload failures to Issues and mitigated it by rolling back a feature flag. If you are still experiencing failures when uploading attachments to Issues, please reload your page.
+May  1, 22:29 UTC
+Update - We are investigating attachment upload failures on Issues. We will continue to keep users updated on progress towards mitigation.
+May  1, 22:28 UTC
+Investigating - We are investigating reports of degraded availability for Issues]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US SMS Carrier Maintenance - Small US Carriers]]></title>
-        <id>https://status.twilio.com/incidents/j4grhvg1nwsz</id>
-        <link href="https://status.twilio.com/incidents/j4grhvg1nwsz"/>
-        <updated>2025-05-01T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 30, 20:00 - 22:00 PDT
-Apr 28, 07:33 PDT
-Scheduled - A subset of small networks in the US are conducting a planned maintenance from 30 April 2025 at 20:00 PDT until 30 April 2025 at 22:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United States SMS Carrier Maintenance - T-Mobile]]></title>
-        <id>https://status.twilio.com/incidents/8df9gqn69zpl</id>
-        <link href="https://status.twilio.com/incidents/8df9gqn69zpl"/>
-        <updated>2025-05-01T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT Apr 30, 18:00 PDT  -  May 1, 05:00 PDT
-Apr 29, 15:04 PDT
-Scheduled - The T-Mobile network in the United States is conducting a planned maintenance from 30 April 2025 at 18:00 PDT until 01 May 2025 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from T-Mobile United States handsets when sending via long codes and short codes.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
+            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -864,55 +845,6 @@ Apr  2, 19:08 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GenAI Platform Agent]]></title>
-        <id>https://status.digitalocean.com/incidents/kpgl9791smng</id>
-        <link href="https://status.digitalocean.com/incidents/kpgl9791smng"/>
-        <updated>2025-04-02T04:46:20.000Z</updated>
-        <summary type="html"><![CDATA[Apr  2, 04:46 UTC
-Resolved - Our Engineering Team has implemented a fix to resolve the issues impacting GenAI platform agents. They have also confirmed that the issue has been fully resolved. Now, customers should be able to view and update their GenAI platform agents in the console. 
-If you continue to experience any problems, please reach out to our support team by opening a ticket from within your Cloud Control Panel.
-Apr  2, 03:26 UTC
-Investigating - Our Engineering Team is currently investigating an issue where some customers are unable to view their GenAI platform agent in the console. As a result, they are also unable to update their agent via the console. We are working to determine which types of agents are affected, including whether newly created agents are impacted.
-We apologize for the inconvenience and will provide another update as soon as possible.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issues with Database automations that are using Schedules.]]></title>
-        <id>https://status.notion.so/incidents/2z4cx1x0f6vj</id>
-        <link href="https://status.notion.so/incidents/2z4cx1x0f6vj"/>
-        <updated>2025-04-01T17:27:12.000Z</updated>
-        <summary type="html"><![CDATA[Apr  1, 10:27 PDT
-Resolved - This incident has been resolved.
-Apr  1, 09:10 PDT
-Identified - The issue has been identified and a fix is being implemented.
-Apr  1, 07:39 PDT
-Update - We are investigating this further and will provide updates as we have more information.
-Apr  1, 07:38 PDT
-Investigating - We are currently experiencing issues with database automations that use Schedules. We will provide updates as we have more information.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Issue affecting Host and listing connection]]></title>
-        <id>https://airbnbapi.statuspage.io/incidents/857nk3f90x6v</id>
-        <link href="https://airbnbapi.statuspage.io/incidents/857nk3f90x6v"/>
-        <updated>2025-04-01T12:45:42.000Z</updated>
-        <summary type="html"><![CDATA[Apr  1, 05:45 PDT
-Resolved - The issue has been resolved. If you are still encountering problems, please reach out to us through the Support Portal.
-Mar 31, 17:00 PDT
-Monitoring - We launched a fix for this issue on March 31 at 3:00 PM (PDT) and will monitor the results.
-The issue started on March 30 at 11:30 PM (PDT). It caused listings to stay API-connected after a Host disconnected from an application. You may have experienced this error when attempting to API-connect a listing, the error message says: "This listing is connected to a different API partner" when trying to API-connect a listing.
-If you still facing this error, please contact us through the Support Portal.
-Mar 31, 11:17 PDT
-Investigating - We are looking into reports that listings stay API-connected after a Host disconnects from an application. Our team is working on this issue and will share updates when we have more information.]]></summary>
-        <author>
-            <name>Airbnb API Status - Incident History</name>
         </author>
     </entry>
 </feed>
