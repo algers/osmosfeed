@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-05-03T00:30:57.651Z</id>
+    <id>urn:2025-05-04T00:35:49.159Z</id>
     <title>osmos::feed</title>
-    <updated>2025-05-03T00:30:57.652Z</updated>
+    <updated>2025-05-04T00:35:49.159Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
@@ -758,65 +758,6 @@ Apr  3, 09:44 PDT
 Investigating - Our team is currently investigating a problem where portions of the Partner Portal may not be loading correctly. We'll share further updates as soon as possible.]]></summary>
         <author>
             <name>Airbnb API Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident: Issues with some login emails]]></title>
-        <id>https://slack-status.com/2025-03/1dd1fa07d4ad94f7</id>
-        <link href="https://slack-status.com/2025-03/1dd1fa07d4ad94f7"/>
-        <updated>2025-04-04T01:46:12.000Z</updated>
-        <summary type="html"><![CDATA[From Tuesday, March 25, 2025 at 3:00 AM PDT to April 3, 2025 9:00 AM PDT, some users did not receive emails containing sign-in codes or magic links, or these emails were incorrectly routed to their spam folder.A third-party email provider made a change to their spam detection models that inadvertently affected these emails. The third-party provider assisted us by updating their spam detection models and all affected Slack emails are now being delivered correctly.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GenAI Platform]]></title>
-        <id>https://status.digitalocean.com/incidents/q07s549x72cy</id>
-        <link href="https://status.digitalocean.com/incidents/q07s549x72cy"/>
-        <updated>2025-04-03T23:10:13.000Z</updated>
-        <summary type="html"><![CDATA[Apr  3, 23:10 UTC
-Resolved - Our Engineering team has implemented a fix to resolve the issue with creating certain GenAI Platform agents. Users should now be able to create OpenAI and Llama 3.1 8B agents without issue. 
-If you continue to experience any problems, please reach out to our support team by opening a ticket from within your Cloud Control Panel.
-Apr  3, 21:06 UTC
-Investigating - Our Engineering team is investigating an issue affecting GenAI Platform. The GenAI platform is seeing errors creating agents with certain LLMs, specifically OpenAI and Llama 3.1 8B. The user is shown an agreement checkbox even though they have already accepted the agreement. If they try to accept the agreement, they will be thrown an error and prevented from creating the agent.
-We apologize for the inconvenience, we will share an update once we have more information.]]></summary>
-        <author>
-            <name>DigitalOcean Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
-        <id>https://www.githubstatus.com/incidents/6xn7r7hhrq72</id>
-        <link href="https://www.githubstatus.com/incidents/6xn7r7hhrq72"/>
-        <updated>2025-04-03T19:12:04.000Z</updated>
-        <summary type="html"><![CDATA[Apr  3, 19:12 UTC
-Resolved - On 2025-04-03, between 6:13:27 PM UTC and 7:12:00 PM UTC the docs.github.com service was degraded and errored. On average, the error rate was 8% and peaked at 20% of requests to the service. This was due to a misconfiguration and elevated requests.
-We mitigated the incident by correcting the misconfiguration.
-We are working to reduce our time to detection and mitigation of issues like this one in the future.
-Apr  3, 18:56 UTC
-Update - We are investigating and working on applying mitigations to intermittent unavailability of GitHub's Docs.
-Apr  3, 18:51 UTC
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scheduled Codespaces Maintenance]]></title>
-        <id>https://www.githubstatus.com/incidents/xb49wskhzrm2</id>
-        <link href="https://www.githubstatus.com/incidents/xb49wskhzrm2"/>
-        <updated>2025-04-03T17:00:22.000Z</updated>
-        <summary type="html"><![CDATA[Apr  3, 17:00 UTC
-Completed - The scheduled maintenance has been completed.
-Apr  2, 17:00 UTC
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-Apr  2, 16:11 UTC
-Scheduled - Codespaces will be undergoing maintenance in all regions starting from 17:00 UTC on Wednesday, April 2 to 17:00 UTC on Thursday, April 3. Maintenance will begin in Southeast Asia, Central India, Australia Central, and Australia East regions. Once it is complete, maintenance will start in UK South and West Europe, followed by East US, East US2, West US2, and West US3. Each batch of regions will take approximately three to four hours to complete.
-During this time period, users may experience connectivity issues with new and existing Codespaces.
-If you have uncommitted changes you may need during the maintenance window, you should verify they are committed and pushed before maintenance starts. Codespaces with any uncommitted changes will be accessible as usual once maintenance is complete.]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
