@@ -45,13 +45,13 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/f7jbf9vb3f3j",
+          "id": "https://status.twilio.com/incidents/kmbnsrvqxf17",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 6, 02:00 - 04:00 PDT\nApr 24, 12:55 PDT\nScheduled - A subset of small networks in the US are conducting a planned maintenance from 06 May 2025 at 02:00 PDT until 06 May 2025 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.",
-          "link": "https://status.twilio.com/incidents/f7jbf9vb3f3j",
-          "publishedOn": "2025-05-06T09:00:00.000Z",
-          "wordCount": 7606,
-          "title": "US SMS Carrier Maintenance - Small US Carriers",
+          "description": "THIS IS A SCHEDULED EVENT May 7, 01:00 - 04:00 PDT\nApr 10, 08:59 PDT\nScheduled - Our MMS carrier partner in the United States is conducting a planned maintenance from 07 May 2025 at 01:00 PDT until 07 May 2025 at 04:00 PDT. During the maintenance window, there could be intermittent delays delivering MMS to Twilio United States handsets via United States long codes and short codes.",
+          "link": "https://status.twilio.com/incidents/kmbnsrvqxf17",
+          "publishedOn": "2025-05-07T08:00:00.000Z",
+          "wordCount": 7590,
+          "title": "United States MMS Carrier Partner Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -61,6 +61,16 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/6n4g9yck5xqy",
+          "author": null,
+          "description": "May  6, 13:00 UTC\nInvestigating - Our Engineering team is currently investigating issues with certain Droplet metrics that are missing for the BLR1 region. Users may experience issues when accessing certain metrics on Droplets. \nWe apologize for the inconvenience, and we'll share an update once we have more information.",
+          "link": "https://status.digitalocean.com/incidents/6n4g9yck5xqy",
+          "publishedOn": "2025-05-06T13:00:11.000Z",
+          "wordCount": 6235,
+          "title": "Droplet Metrics in BLR1",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/0mbrttwszdbs",
           "author": null,
@@ -398,16 +408,6 @@
           "wordCount": 5638,
           "title": "Vision requests are unavailable for certain models on Copilot Chat on github.com",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/cjq2q04mfydp",
-          "author": null,
-          "description": "Apr  7, 02:31 UTC\nResolved - On April 7, 2025 between 2:15:37 AM UTC and 2:31:14 AM UTC, multiple GitHub services were degraded. Requests to these services returned 5xx errors at a high rate due to an internal database being exhausted by our Codespaces service. The incident mitigated on its own.\nWe have addressed the problematic queries from the Codespaces service, minimizing the risk of future reoccurrances.\nApr  7, 02:31 UTC\nUpdate - Pull Requests is operating normally.\nApr  7, 02:24 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nApr  7, 02:19 UTC\nInvestigating - We are currently investigating this issue.",
-          "link": "https://www.githubstatus.com/incidents/cjq2q04mfydp",
-          "publishedOn": "2025-04-07T02:31:17.000Z",
-          "wordCount": 5556,
-          "title": "Disruption with some GitHub services",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -419,11 +419,21 @@
         {
           "id": "https://slack-status.com/2025-05/54c54d26368bad5e",
           "author": null,
-          "description": "The issue with the Later tab on the desktop app and browser has been resolved. We appreciate your patience as we sorted this out and apologies for any disruption to your workday.",
+          "description": "On May 2, 2025 from 4:34 PM PDT to May 5th, 2025 at 12:24 PM PDT, users may have had trouble switching to the Archived or the Completed views of the Later tab, as well as problems marking their items as archived or completed.We made a code change that inadvertently prevented state changes for Later items. We rolled back this change, restoring full functionality to this feature.",
           "link": "https://slack-status.com/2025-05/54c54d26368bad5e",
-          "publishedOn": "2025-05-05T20:12:46.000Z",
-          "wordCount": 286,
+          "publishedOn": "2025-05-07T00:01:41.000Z",
+          "wordCount": 357,
           "title": "Incident: Some users may be having trouble with the Later tab on the desktop app and browser.",
+          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
+        },
+        {
+          "id": "https://slack-status.com/2025-05/aa733d73845b2faa",
+          "author": null,
+          "description": "On May 5, 2025 from 2:41 PM PDT until 10:31 PM PDT, users experienced issues affecting message sending and Threads functionality. The issues stemmed from a code change that incorrectly routed database queries to primary servers instead of replicas, causing instability in our database infrastructure.The incident was automatically detected when our database management system encountered issues with its operations. Our engineering teams identified the root cause and implemented a fix by reverting the problematic code change. Service was fully restored after the code reversion.We apologise for any disruption this may have caused.",
+          "link": "https://slack-status.com/2025-05/aa733d73845b2faa",
+          "publishedOn": "2025-05-06T09:35:26.000Z",
+          "wordCount": 596,
+          "title": "Incident: Issues sending messages and loading the Threads view",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         },
         {
