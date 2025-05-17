@@ -21,7 +21,18 @@
       "title": "Security Bulletins on Tailscale",
       "feedUrl": "https://tailscale.com/security-bulletins/index.xml",
       "siteUrl": "https://tailscale.com/security-bulletins/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://tailscale.com/security-bulletins/#ts-2025-002",
+          "author": null,
+          "description": "Description: Privilege escalation in proxy-to-grafana via header spoofing\nWhat happened?\nThe Tailscale Grafana proxy is a HTTP reverse proxy for Grafana that annotates requests with X-Webauth-* headers bearing the requesting user's whois-based Tailscale identity.\nThe Grafana proxy is intended to be used in combination with Grafana's session-based authentication using cookies issued in response to requests made to /login to authenticate subsequent requests to other endpoints.\nWhen configured to use session-based authentication, Grafana's /api/ routes will continue to accept X-Webauth-* headers for authentication. Previous versions of the Grafana proxy did not strip these X-Webauth-* headers from API requests allowing them to be forged by a malicious tailnet node.\nThe issue was present since the initial release of the Grafana proxy, and was patched on May 15th, 2025. The Grafana proxy now strips X-Webauth-* headers from all incoming requests.\nWho was affected?\nTailnets using Grafana in combination with the Grafana proxy to authenticate users.\nWhat was the impact?\nGrafana instances protected by the Grafana proxy would have been vulnerable to privilege escalation via HTTP request header forgery from members of their tailnet.\nWhat do I need to do?\nUpdate to the latest Grafana proxy by running go install tailscale.com/cmd/proxy-to-grafana@latest\nCredits\nThanks to Yeongrok Gim for reporting this issue.",
+          "link": "https://tailscale.com/security-bulletins/#ts-2025-002",
+          "publishedOn": "2025-05-15T00:00:00.000Z",
+          "wordCount": 17352,
+          "title": "TS-2025-002",
+          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
+        }
+      ]
     },
     {
       "title": "Airbnb API Status - Incident History",
@@ -64,98 +75,7 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": [
-        {
-          "id": "https://status.twilio.com/incidents/81tts8dx1m3y",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 15, 22:00 PDT  -  May 16, 01:00 PDT\nMay 15, 15:20 PDT\nScheduled - Our SMS carrier partner in the United States is conducting an emergency maintenance from 15 May 2025 at 22:00 PDT until 16 May 2025 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to United States handsets via United States long codes and short codes.\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
-          "link": "https://status.twilio.com/incidents/81tts8dx1m3y",
-          "publishedOn": "2025-05-16T05:00:00.000Z",
-          "wordCount": 7611,
-          "title": "United States SMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/g0zbdh6qhccs",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 15, 22:00 PDT  -  May 16, 00:00 PDT\nMay 13, 07:31 PDT\nScheduled - A subset of small networks in the US are conducting a planned maintenance from 15 May 2025 at 22:00 PDT until 16 May 2025 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.",
-          "link": "https://status.twilio.com/incidents/g0zbdh6qhccs",
-          "publishedOn": "2025-05-16T05:00:00.000Z",
-          "wordCount": 7609,
-          "title": "US SMS Carrier Maintenance - Small US Carriers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/99m32hjxhjyt",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 15, 18:00 PDT  -  May 16, 05:00 PDT\nMay 13, 04:03 PDT\nScheduled - The T-Mobile network in the United States is conducting a planned maintenance from 15 May 2025 at 18:00 PDT until 16 May 2025 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile United States handsets.",
-          "link": "https://status.twilio.com/incidents/99m32hjxhjyt",
-          "publishedOn": "2025-05-16T01:00:00.000Z",
-          "wordCount": 7636,
-          "title": "United States SMS and MMS Carrier Maintenance - T-Mobile",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/z32tfz208f9l",
-          "author": null,
-          "description": "May 15, 17:23 PDT\nUpdate - We are experiencing SMS delivery delays when sending messages to Telecall network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nMay 15, 17:16 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS delivery delays to Telecall network in Brazil. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/z32tfz208f9l",
-          "publishedOn": "2025-05-16T00:23:32.000Z",
-          "wordCount": 7620,
-          "title": "SMS Delivery Delays to Telecall Network in Brazil",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/hk9j5tgtpvc5",
-          "author": null,
-          "description": "May 15, 17:01 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 15, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 12, 15:18 PDT\nScheduled - The MegaFon and Yota networks in Russia are conducting a planned maintenance from 15 May 2025 at 13:00 PDT until 15 May 2025 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to MegaFon and Yota Russia handsets when sending via long codes and short codes.",
-          "link": "https://status.twilio.com/incidents/hk9j5tgtpvc5",
-          "publishedOn": "2025-05-16T00:01:21.000Z",
-          "wordCount": 7616,
-          "title": "Russia SMS Carrier Maintenance - MegaFon and Yota",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/mkfq840t5t3j",
-          "author": null,
-          "description": "May 15, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 15, 13:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay  5, 07:17 PDT\nScheduled - Our SMS carrier partner in France is conducting a planned maintenance from 15 May 2025 at 13:00 PDT until 15 May 2025 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from France handsets.",
-          "link": "https://status.twilio.com/incidents/mkfq840t5t3j",
-          "publishedOn": "2025-05-16T00:00:21.000Z",
-          "wordCount": 7597,
-          "title": "France SMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/h3t1rg4gl2v7",
-          "author": null,
-          "description": "May 15, 16:15 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 14, 09:54 PDT\nScheduled - Our carrier partner Vodafone United Kingdom is conducting an emergency maintenance from 15 May 2025 at 16:15 PDT until 15 May 2025 at 20:45 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone United Kingdom customers.\n\nImpacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes",
-          "link": "https://status.twilio.com/incidents/h3t1rg4gl2v7",
-          "publishedOn": "2025-05-15T23:15:21.000Z",
-          "wordCount": 7610,
-          "title": "United Kingdom Account Security Carrier Partner Maintenance - Vodafone",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/h94rf3vjk5ms",
-          "author": null,
-          "description": "May 15, 16:00 PDT\nMonitoring - We are observing recovery in SMS delivery delays and failures when sending to and from a subset of Twilio numbers in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 15, 14:59 PDT\nUpdate - We are experiencing SMS delivery delays and failures when sending to and from a subset of Twilio numbers in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nMay 15, 14:50 PDT\nInvestigating - Our monitoring systems have detected a potential issue with SMS delivery delays and failures to and from a subset of Twilio numbers in Brazil. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
-          "link": "https://status.twilio.com/incidents/h94rf3vjk5ms",
-          "publishedOn": "2025-05-15T23:00:36.000Z",
-          "wordCount": 7711,
-          "title": "SMS Delivery Delays and Failures To and From a Subset of Twilio Numbers in Brazil",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/04vz8shdzmx1",
-          "author": null,
-          "description": "May 15, 15:19 PDT\nResolved - The issue impacting the Indonesia Telkomsel API endpoint RegisterConsent has been resolved and the API endpoint is operating normally at this time.\nMay 15, 13:27 PDT\nUpdate - We are still observing a recovery in the Indonesia Telkomsel API endpoint RegisterConsent. We expect to provide another update in 2 hours or as soon as more information becomes available.\nMay 15, 11:28 PDT\nMonitoring - We are observing a recovery in the Indonesia Telkomsel API endpoint RegisterConsent. We expect to provide another update in 2 hours or as soon as more information becomes available.\nMay 15, 11:01 PDT\nUpdate - We are currently investigating an issue affecting the Indonesia Telkomsel API endpoint RegisterConsent. Our engineering team is actively working to identify the root cause and implement a solution. We will provide another update within 2 hours or as soon as more information becomes available.\nMay 15, 09:45 PDT\nInvestigating - We are currently investigating an issue affecting the Indonesia Telkomsel API endpoint RegisterConsent. Our engineering team is actively working to identify the root cause and implement a solution. We will provide another update within 1 hour or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/04vz8shdzmx1",
-          "publishedOn": "2025-05-15T22:19:44.000Z",
-          "wordCount": 7717,
-          "title": "Indonesia Telkomsel API Errors",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "DigitalOcean Status - Incident History",
@@ -401,6 +321,26 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/71tl7pkqysgw",
+          "author": null,
+          "description": "May 16, 22:33 UTC\nUpdate - We have identified the source of increased load and have started mitigation. Customers using the GitHub Enterprise Importer may still see extended wait times until recovery completes.\nMay 16, 20:36 UTC\nUpdate - Investigations on the incident impacting GitHub Enterprise Importer continue. An additional contributing cause has been identified, and we are working to ship additional mitigating measures.\nMay 16, 18:19 UTC\nUpdate - We have taken several steps to mitigate the incident impacting GitHub Enterprise Importer (GEI). We are seeing early indications of system recovery. However, customers may continue to experience longer migrations and extended queue times. The team is continuing to work on further mitigating efforts to speed up recovery.\nMay 16, 15:32 UTC\nUpdate - We are continuing to investigate issues with the GitHub Enterprise Importer. Customers may experience slower migration processes and extended wait times.\nMay 16, 14:06 UTC\nUpdate - We are investigating issues with the GitHub Enterprise Importer. Customers may experience slower migration processes and extended wait times.\nMay 16, 13:46 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/71tl7pkqysgw",
+          "publishedOn": "2025-05-16T22:33:28.000Z",
+          "wordCount": 5644,
+          "title": "GitHub Enterprise Importer (GEI) is experiencing degraded throughput",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
+          "id": "https://www.githubstatus.com/incidents/3nn1p9h5b76h",
+          "author": null,
+          "description": "May 16, 15:24 UTC\nResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.\nMay 16, 10:22 UTC\nUpdate - We are investigating issues with the audit log. Users querying Git audit log data may observe increased latencies and occasional timeouts.\nMay 16, 09:22 UTC\nInvestigating - We are currently investigating this issue.",
+          "link": "https://www.githubstatus.com/incidents/3nn1p9h5b76h",
+          "publishedOn": "2025-05-16T15:24:47.000Z",
+          "wordCount": 5519,
+          "title": "Disruption with some GitHub services",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/pzrqw1n5ynw3",
           "author": null,
           "description": "May 15, 22:58 UTC\nResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.\nMay 15, 22:57 UTC\nUpdate - The issues with our upstream model provider have been resolved, and Gemini 2.5 Pro is available again in Copilot Chat, VS Code, and other Copilot products.\nWe will continue monitoring to ensure stability, but mitigation is complete.\nMay 15, 22:20 UTC\nUpdate - We have started to gradually re-enable the Gemini 2.5 Pro model in Copilot Chat, VS Code, and other Copilot products.\nMay 15, 13:16 UTC\nUpdate - We have disabled the Gemini 2.5 Pro model in Copilot Chat, VS Code and other Copilot products due to an issue with an upstream model provider.\nUsers may still see these models as available for a brief period but we recommend switching to a different model. Other models are not impacted and are available.\nOnce our model provider has resolved the issues impacting Gemini 2.5 Pro, we will re-enable it.\nMay 15, 12:41 UTC\nInvestigating - We are currently investigating this issue.",
@@ -423,10 +363,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/hjylhb7b8zcq",
           "author": null,
-          "description": "May 15, 10:38 UTC\nResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.\nMay 15, 10:38 UTC\nUpdate - The issue preventing users from creating Personal Access Tokens (PATs) has been resolved. The root cause was identified and a change was reverted to restore functionality. PAT generation is now working as expected.\nMay 15, 09:56 UTC\nUpdate - We have identified the cause, and have a working fix. We will continue to update users.\nMay 15, 09:20 UTC\nUpdate - We are exploring the best path forward, but no new update at this stage.\nMay 15, 08:35 UTC\nUpdate - While we have found a possible cause, we have no update on mitigation steps at this stage. We will continue to keep users updated.\nMay 15, 07:44 UTC\nUpdate - We are investigating fine grained PAT creation failures. We will continue to keep users updated on progress towards mitigation. Existing FGP's are unaffected.\nMay 15, 07:00 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "May 15, 10:38 UTC\nResolved - On May 15, 2025, between 00:08 AM UTC and 10:21 AM UTC, customers were unable to create fine-grained Personal Access Tokens (PATs) on github.com. This incident was triggered by a recent code change to our front end that unintentionally affected the way certain pages loaded and prevented the PAT creation process from completing.\nWe mitigated the incident by reverting the problematic change. To reduce the likelihood of similar issues in the future, we are improving our monitoring for page load anomalies and PAT creation failures and improving our safe deployment practices.\nMay 15, 10:38 UTC\nUpdate - The issue preventing users from creating Personal Access Tokens (PATs) has been resolved. The root cause was identified and a change was reverted to restore functionality. PAT generation is now working as expected.\nMay 15, 09:56 UTC\nUpdate - We have identified the cause, and have a working fix. We will continue to update users.\nMay 15, 09:20 UTC\nUpdate - We are exploring the best path forward, but no new update at this stage.\nMay 15, 08:35 UTC\nUpdate - While we have found a possible cause, we have no update on mitigation steps at this stage. We will continue to keep users updated.\nMay 15, 07:44 UTC\nUpdate - We are investigating fine grained PAT creation failures. We will continue to keep users updated on progress towards mitigation. Existing FGP's are unaffected.\nMay 15, 07:00 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/hjylhb7b8zcq",
           "publishedOn": "2025-05-15T10:38:27.000Z",
-          "wordCount": 5640,
+          "wordCount": 5699,
           "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -503,10 +443,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/7lbnm9mg6549",
           "author": null,
-          "description": "Apr 28, 11:09 UTC\nResolved - This incident has been resolved.\nApr 28, 10:35 UTC\nUpdate - We are seeing signs of recovery and continue to monitor latency.\nApr 28, 09:52 UTC\nUpdate - We continue to investigate impact to Issues and Pull Requests. Customers may see some timeouts as we work towards mitigation.\nApr 28, 08:58 UTC\nUpdate - We are continuing to investigate impact to Issues and Pull Requests. We will provide more updates as we have them.\nApr 28, 08:23 UTC\nUpdate - Users may see timeouts when viewing Pull Requests. We are still investigating the issues related to Issues and Pull Requests and will provide further updates as soon as we can\nApr 28, 08:21 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nApr 28, 08:05 UTC\nUpdate - Issues API is currently seeing elevated latency. We are investigating the issue and will provide further updates as soon as we have them.\nApr 28, 08:03 UTC\nInvestigating - We are investigating reports of degraded performance for API Requests, Git Operations and Issues",
+          "description": "Apr 28, 11:09 UTC\nResolved - On April 28th, 2025, between 4AM and 11AM UTC, ~0.5% of customers experienced HTTP 500 or 429 responses for raw file access (via the GitHub website and APIs). Additionally, ~0.5% of customers may have seen slow pull request page loads and increased timeouts in the GraphQL API. \nThe incident was caused by queueing in serving systems due to a change in traffic patterns, specifically scraping activity targeting our API. We have adjusted limits and added flow control to systems in response to the changing traffic patterns to improve our ability to prevent future large queueing issues. We’ve additionally updated rate limiting unauthenticated requests to reduce overall load, more details are here:  \nhttps://github.blog/changelog/2025-05-08-updated-rate-limits-for-unauthenticated-requests/\nApr 28, 10:35 UTC\nUpdate - We are seeing signs of recovery and continue to monitor latency.\nApr 28, 09:52 UTC\nUpdate - We continue to investigate impact to Issues and Pull Requests. Customers may see some timeouts as we work towards mitigation.\nApr 28, 08:58 UTC\nUpdate - We are continuing to investigate impact to Issues and Pull Requests. We will provide more updates as we have them.\nApr 28, 08:23 UTC\nUpdate - Users may see timeouts when viewing Pull Requests. We are still investigating the issues related to Issues and Pull Requests and will provide further updates as soon as we can\nApr 28, 08:21 UTC\nUpdate - Pull Requests is experiencing degraded performance. We are continuing to investigate.\nApr 28, 08:05 UTC\nUpdate - Issues API is currently seeing elevated latency. We are investigating the issue and will provide further updates as soon as we have them.\nApr 28, 08:03 UTC\nInvestigating - We are investigating reports of degraded performance for API Requests, Git Operations and Issues",
           "link": "https://www.githubstatus.com/incidents/7lbnm9mg6549",
           "publishedOn": "2025-04-28T11:09:10.000Z",
-          "wordCount": 5655,
+          "wordCount": 5762,
           "title": "Incident with Git Operations, API Requests and Issues",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -548,16 +488,6 @@
           "publishedOn": "2025-04-17T17:35:02.000Z",
           "wordCount": 6013,
           "title": "Disruption with some GitHub services",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/jhs2z7c69yfd",
-          "author": null,
-          "description": "Apr 16, 17:26 UTC\nResolved - On April 16, 2025 between 3:22:36 PM UTC and  5:26:55 PM UTC the Pull Request service was degraded. On average, 0.7% of page views were affected. This primarily affected logged-out users, but some logged-in users were affected as well. \nThis was due to an error in how certain Pull Request timeline events were rendered, and we resolved the incident by updating the timeline event code.\nWe are enhancing test coverage to include additional scenarios and piloting new tools to prevent similar incidents in the future.\n\nApr 16, 17:26 UTC\nUpdate - Pull Requests is operating normally.\nApr 16, 17:13 UTC\nUpdate - The fix is rolling out and we're seeing recovery for users encountering 500 errors when viewing a pull request.\nApr 16, 16:17 UTC\nUpdate - The fix is currently being deployed, we anticipate this to be fully mitigated in approximately thirty minutes.\nApr 16, 15:55 UTC\nUpdate - Users may experience 500 errors when viewing a PR. Most of the impact is limited to anonymous access there is a small handful of logged in users who are also experiencing this. We have the fix prepared and it will be deployed soon.\nApr 16, 15:22 UTC\nInvestigating - We are investigating reports of degraded performance for Pull Requests",
-          "link": "https://www.githubstatus.com/incidents/jhs2z7c69yfd",
-          "publishedOn": "2025-04-16T17:26:58.000Z",
-          "wordCount": 5665,
-          "title": "Incident with Pull Requests",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
@@ -615,16 +545,6 @@
           "publishedOn": "2025-04-28T22:04:55.000Z",
           "wordCount": 318,
           "title": "Incident: Cannot take action on the Manage Members page",
-          "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
-        },
-        {
-          "id": "https://slack-status.com/2025-04/2a537b16ac3fbcbf",
-          "author": null,
-          "description": "We've determined the cause of the trouble with the Zoom integration in Slack is related to an upstream provider issue. Some users may be able to use the integration successfully once again. You can follow along for updates directly here: https://status.zoom.us/incidents/pw9r9vnq5rvk. Thank you for your patience.",
-          "link": "https://slack-status.com/2025-04/2a537b16ac3fbcbf",
-          "publishedOn": "2025-04-16T21:09:24.000Z",
-          "wordCount": 228,
-          "title": "Notice: Trouble with the Zoom integration in Slack",
           "imageUrl": "https://status.slack.com/img/v2_rebrand/slack_hash_256.png"
         }
       ]

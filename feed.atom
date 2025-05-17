@@ -1,119 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-05-16T00:32:57.500Z</id>
+    <id>urn:2025-05-17T00:31:51.537Z</id>
     <title>osmos::feed</title>
-    <updated>2025-05-16T00:32:57.500Z</updated>
+    <updated>2025-05-17T00:31:51.537Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[United States SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/81tts8dx1m3y</id>
-        <link href="https://status.twilio.com/incidents/81tts8dx1m3y"/>
-        <updated>2025-05-16T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT May 15, 22:00 PDT  -  May 16, 01:00 PDT
-May 15, 15:20 PDT
-Scheduled - Our SMS carrier partner in the United States is conducting an emergency maintenance from 15 May 2025 at 22:00 PDT until 16 May 2025 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to United States handsets via United States long codes and short codes.
-
-We are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.]]></summary>
+        <title type="html"><![CDATA[GitHub Enterprise Importer (GEI) is experiencing degraded throughput]]></title>
+        <id>https://www.githubstatus.com/incidents/71tl7pkqysgw</id>
+        <link href="https://www.githubstatus.com/incidents/71tl7pkqysgw"/>
+        <updated>2025-05-16T22:33:28.000Z</updated>
+        <summary type="html"><![CDATA[May 16, 22:33 UTC
+Update - We have identified the source of increased load and have started mitigation. Customers using the GitHub Enterprise Importer may still see extended wait times until recovery completes.
+May 16, 20:36 UTC
+Update - Investigations on the incident impacting GitHub Enterprise Importer continue. An additional contributing cause has been identified, and we are working to ship additional mitigating measures.
+May 16, 18:19 UTC
+Update - We have taken several steps to mitigate the incident impacting GitHub Enterprise Importer (GEI). We are seeing early indications of system recovery. However, customers may continue to experience longer migrations and extended queue times. The team is continuing to work on further mitigating efforts to speed up recovery.
+May 16, 15:32 UTC
+Update - We are continuing to investigate issues with the GitHub Enterprise Importer. Customers may experience slower migration processes and extended wait times.
+May 16, 14:06 UTC
+Update - We are investigating issues with the GitHub Enterprise Importer. Customers may experience slower migration processes and extended wait times.
+May 16, 13:46 UTC
+Investigating - We are currently investigating this issue.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
+            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[US SMS Carrier Maintenance - Small US Carriers]]></title>
-        <id>https://status.twilio.com/incidents/g0zbdh6qhccs</id>
-        <link href="https://status.twilio.com/incidents/g0zbdh6qhccs"/>
-        <updated>2025-05-16T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT May 15, 22:00 PDT  -  May 16, 00:00 PDT
-May 13, 07:31 PDT
-Scheduled - A subset of small networks in the US are conducting a planned maintenance from 15 May 2025 at 22:00 PDT until 16 May 2025 at 00:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from small US carriers handsets.]]></summary>
+        <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
+        <id>https://www.githubstatus.com/incidents/3nn1p9h5b76h</id>
+        <link href="https://www.githubstatus.com/incidents/3nn1p9h5b76h"/>
+        <updated>2025-05-16T15:24:47.000Z</updated>
+        <summary type="html"><![CDATA[May 16, 15:24 UTC
+Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+May 16, 10:22 UTC
+Update - We are investigating issues with the audit log. Users querying Git audit log data may observe increased latencies and occasional timeouts.
+May 16, 09:22 UTC
+Investigating - We are currently investigating this issue.]]></summary>
         <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United States SMS and MMS Carrier Maintenance - T-Mobile]]></title>
-        <id>https://status.twilio.com/incidents/99m32hjxhjyt</id>
-        <link href="https://status.twilio.com/incidents/99m32hjxhjyt"/>
-        <updated>2025-05-16T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[THIS IS A SCHEDULED EVENT May 15, 18:00 PDT  -  May 16, 05:00 PDT
-May 13, 04:03 PDT
-Scheduled - The T-Mobile network in the United States is conducting a planned maintenance from 15 May 2025 at 18:00 PDT until 16 May 2025 at 05:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS and MMS to and from T-Mobile United States handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays to Telecall Network in Brazil]]></title>
-        <id>https://status.twilio.com/incidents/z32tfz208f9l</id>
-        <link href="https://status.twilio.com/incidents/z32tfz208f9l"/>
-        <updated>2025-05-16T00:23:32.000Z</updated>
-        <summary type="html"><![CDATA[May 15, 17:23 PDT
-Update - We are experiencing SMS delivery delays when sending messages to Telecall network in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
-May 15, 17:16 PDT
-Investigating - Our monitoring systems have detected a potential issue with SMS delivery delays to Telecall network in Brazil. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia SMS Carrier Maintenance - MegaFon and Yota]]></title>
-        <id>https://status.twilio.com/incidents/hk9j5tgtpvc5</id>
-        <link href="https://status.twilio.com/incidents/hk9j5tgtpvc5"/>
-        <updated>2025-05-16T00:01:21.000Z</updated>
-        <summary type="html"><![CDATA[May 15, 17:01 PDT
-Completed - The scheduled maintenance has been completed.
-May 15, 13:00 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-May 12, 15:18 PDT
-Scheduled - The MegaFon and Yota networks in Russia are conducting a planned maintenance from 15 May 2025 at 13:00 PDT until 15 May 2025 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to MegaFon and Yota Russia handsets when sending via long codes and short codes.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[France SMS Carrier Partner Maintenance]]></title>
-        <id>https://status.twilio.com/incidents/mkfq840t5t3j</id>
-        <link href="https://status.twilio.com/incidents/mkfq840t5t3j"/>
-        <updated>2025-05-16T00:00:21.000Z</updated>
-        <summary type="html"><![CDATA[May 15, 17:00 PDT
-Completed - The scheduled maintenance has been completed.
-May 15, 13:01 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-May  5, 07:17 PDT
-Scheduled - Our SMS carrier partner in France is conducting a planned maintenance from 15 May 2025 at 13:00 PDT until 15 May 2025 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from France handsets.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[United Kingdom Account Security Carrier Partner Maintenance - Vodafone]]></title>
-        <id>https://status.twilio.com/incidents/h3t1rg4gl2v7</id>
-        <link href="https://status.twilio.com/incidents/h3t1rg4gl2v7"/>
-        <updated>2025-05-15T23:15:21.000Z</updated>
-        <summary type="html"><![CDATA[May 15, 16:15 PDT
-In progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.
-May 14, 09:54 PDT
-Scheduled - Our carrier partner Vodafone United Kingdom is conducting an emergency maintenance from 15 May 2025 at 16:15 PDT until 15 May 2025 at 20:45 PDT. During the maintenance window, there could be intermittent API request failures for Vodafone United Kingdom customers.
-
-Impacted Products: Lookup Identity Match, Legacy Identity MatchAndAttributes]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMS Delivery Delays and Failures To and From a Subset of Twilio Numbers in Brazil]]></title>
-        <id>https://status.twilio.com/incidents/h94rf3vjk5ms</id>
-        <link href="https://status.twilio.com/incidents/h94rf3vjk5ms"/>
-        <updated>2025-05-15T23:00:36.000Z</updated>
-        <summary type="html"><![CDATA[May 15, 16:00 PDT
-Monitoring - We are observing recovery in SMS delivery delays and failures when sending to and from a subset of Twilio numbers in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.
-May 15, 14:59 PDT
-Update - We are experiencing SMS delivery delays and failures when sending to and from a subset of Twilio numbers in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.
-May 15, 14:50 PDT
-Investigating - Our monitoring systems have detected a potential issue with SMS delivery delays and failures to and from a subset of Twilio numbers in Brazil. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
+            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -136,25 +61,6 @@ May 15, 12:41 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Indonesia Telkomsel API Errors]]></title>
-        <id>https://status.twilio.com/incidents/04vz8shdzmx1</id>
-        <link href="https://status.twilio.com/incidents/04vz8shdzmx1"/>
-        <updated>2025-05-15T22:19:44.000Z</updated>
-        <summary type="html"><![CDATA[May 15, 15:19 PDT
-Resolved - The issue impacting the Indonesia Telkomsel API endpoint RegisterConsent has been resolved and the API endpoint is operating normally at this time.
-May 15, 13:27 PDT
-Update - We are still observing a recovery in the Indonesia Telkomsel API endpoint RegisterConsent. We expect to provide another update in 2 hours or as soon as more information becomes available.
-May 15, 11:28 PDT
-Monitoring - We are observing a recovery in the Indonesia Telkomsel API endpoint RegisterConsent. We expect to provide another update in 2 hours or as soon as more information becomes available.
-May 15, 11:01 PDT
-Update - We are currently investigating an issue affecting the Indonesia Telkomsel API endpoint RegisterConsent. Our engineering team is actively working to identify the root cause and implement a solution. We will provide another update within 2 hours or as soon as more information becomes available.
-May 15, 09:45 PDT
-Investigating - We are currently investigating an issue affecting the Indonesia Telkomsel API endpoint RegisterConsent. Our engineering team is actively working to identify the root cause and implement a solution. We will provide another update within 1 hour or as soon as more information becomes available.]]></summary>
-        <author>
-            <name>Twilio Status - Incident History</name>
         </author>
     </entry>
     <entry>
@@ -203,7 +109,8 @@ To avoid disruptions, ensure that any uncommitted changes are committed and push
         <link href="https://www.githubstatus.com/incidents/hjylhb7b8zcq"/>
         <updated>2025-05-15T10:38:27.000Z</updated>
         <summary type="html"><![CDATA[May 15, 10:38 UTC
-Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+Resolved - On May 15, 2025, between 00:08 AM UTC and 10:21 AM UTC, customers were unable to create fine-grained Personal Access Tokens (PATs) on github.com. This incident was triggered by a recent code change to our front end that unintentionally affected the way certain pages loaded and prevented the PAT creation process from completing.
+We mitigated the incident by reverting the problematic change. To reduce the likelihood of similar issues in the future, we are improving our monitoring for page load anomalies and PAT creation failures and improving our safe deployment practices.
 May 15, 10:38 UTC
 Update - The issue preventing users from creating Personal Access Tokens (PATs) has been resolved. The root cause was identified and a change was reverted to restore functionality. PAT generation is now working as expected.
 May 15, 09:56 UTC
@@ -261,6 +168,29 @@ May 14, 14:39 UTC
 Investigating - We are currently investigating this issue.]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TS-2025-002]]></title>
+        <id>https://tailscale.com/security-bulletins/#ts-2025-002</id>
+        <link href="https://tailscale.com/security-bulletins/#ts-2025-002"/>
+        <updated>2025-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Description: Privilege escalation in proxy-to-grafana via header spoofing
+What happened?
+The Tailscale Grafana proxy is a HTTP reverse proxy for Grafana that annotates requests with X-Webauth-* headers bearing the requesting user's whois-based Tailscale identity.
+The Grafana proxy is intended to be used in combination with Grafana's session-based authentication using cookies issued in response to requests made to /login to authenticate subsequent requests to other endpoints.
+When configured to use session-based authentication, Grafana's /api/ routes will continue to accept X-Webauth-* headers for authentication. Previous versions of the Grafana proxy did not strip these X-Webauth-* headers from API requests allowing them to be forged by a malicious tailnet node.
+The issue was present since the initial release of the Grafana proxy, and was patched on May 15th, 2025. The Grafana proxy now strips X-Webauth-* headers from all incoming requests.
+Who was affected?
+Tailnets using Grafana in combination with the Grafana proxy to authenticate users.
+What was the impact?
+Grafana instances protected by the Grafana proxy would have been vulnerable to privilege escalation via HTTP request header forgery from members of their tailnet.
+What do I need to do?
+Update to the latest Grafana proxy by running go install tailscale.com/cmd/proxy-to-grafana@latest
+Credits
+Thanks to Yeongrok Gim for reporting this issue.]]></summary>
+        <author>
+            <name>Security Bulletins on Tailscale</name>
         </author>
     </entry>
     <entry>
@@ -775,7 +705,9 @@ If you are still experiencing issues or have additional questions, please open a
         <link href="https://www.githubstatus.com/incidents/7lbnm9mg6549"/>
         <updated>2025-04-28T11:09:10.000Z</updated>
         <summary type="html"><![CDATA[Apr 28, 11:09 UTC
-Resolved - This incident has been resolved.
+Resolved - On April 28th, 2025, between 4AM and 11AM UTC, ~0.5% of customers experienced HTTP 500 or 429 responses for raw file access (via the GitHub website and APIs). Additionally, ~0.5% of customers may have seen slow pull request page loads and increased timeouts in the GraphQL API. 
+The incident was caused by queueing in serving systems due to a change in traffic patterns, specifically scraping activity targeting our API. We have adjusted limits and added flow control to systems in response to the changing traffic patterns to improve our ability to prevent future large queueing issues. We’ve additionally updated rate limiting unauthenticated requests to reduce overall load, more details are here:  
+https://github.blog/changelog/2025-05-08-updated-rate-limits-for-unauthenticated-requests/
 Apr 28, 10:35 UTC
 Update - We are seeing signs of recovery and continue to monitor latency.
 Apr 28, 09:52 UTC
@@ -1015,40 +947,6 @@ Investigating - We are currently investigating this issue.]]></summary>
 Resolved - On April 15th during regular testing we found a bug in our Copilot Metrics Pipeline infrastructure causing some data used to aggregate Copilot usage for the Copilot Metrics API to not be ingested. As a result of the bug, customer metrics in the Copilot Metrics API would have indicated lower than expected Copilot usage for the previous 28 days.
 To mitigate the incident we resolved the bug so that all data from April 14th onwards would be accurately calculated and immediately began backfilling the previous 28 days with the correct data. All data has been corrected as of 2025-04-17 5:34PM UTC.
 We have added additional monitoring to catch similar pipeline failures in the future earlier and are working on enhancing our data validation to ensure that all metrics we p…]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notice: Trouble with the Zoom integration in Slack]]></title>
-        <id>https://slack-status.com/2025-04/2a537b16ac3fbcbf</id>
-        <link href="https://slack-status.com/2025-04/2a537b16ac3fbcbf"/>
-        <updated>2025-04-16T21:09:24.000Z</updated>
-        <summary type="html"><![CDATA[We've determined the cause of the trouble with the Zoom integration in Slack is related to an upstream provider issue. Some users may be able to use the integration successfully once again. You can follow along for updates directly here: https://status.zoom.us/incidents/pw9r9vnq5rvk. Thank you for your patience.]]></summary>
-        <author>
-            <name>Slack System Status</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Incident with Pull Requests]]></title>
-        <id>https://www.githubstatus.com/incidents/jhs2z7c69yfd</id>
-        <link href="https://www.githubstatus.com/incidents/jhs2z7c69yfd"/>
-        <updated>2025-04-16T17:26:58.000Z</updated>
-        <summary type="html"><![CDATA[Apr 16, 17:26 UTC
-Resolved - On April 16, 2025 between 3:22:36 PM UTC and  5:26:55 PM UTC the Pull Request service was degraded. On average, 0.7% of page views were affected. This primarily affected logged-out users, but some logged-in users were affected as well. 
-This was due to an error in how certain Pull Request timeline events were rendered, and we resolved the incident by updating the timeline event code.
-We are enhancing test coverage to include additional scenarios and piloting new tools to prevent similar incidents in the future.
-
-Apr 16, 17:26 UTC
-Update - Pull Requests is operating normally.
-Apr 16, 17:13 UTC
-Update - The fix is rolling out and we're seeing recovery for users encountering 500 errors when viewing a pull request.
-Apr 16, 16:17 UTC
-Update - The fix is currently being deployed, we anticipate this to be fully mitigated in approximately thirty minutes.
-Apr 16, 15:55 UTC
-Update - Users may experience 500 errors when viewing a PR. Most of the impact is limited to anonymous access there is a small handful of logged in users who are also experiencing this. We have the fix prepared and it will be deployed soon.
-Apr 16, 15:22 UTC
-Investigating - We are investigating reports of degraded performance for Pull Requests]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
