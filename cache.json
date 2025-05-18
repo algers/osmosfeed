@@ -268,16 +268,6 @@
           "wordCount": 3375,
           "title": "Forms view creation in existing database view is down, our team is investigating the issue.",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.notion.so/incidents/301bhjzfz7k8",
-          "author": null,
-          "description": "Apr 17, 19:47 PDT\nResolved - The issue has now been resolved, and users are able to use the Notion Calendar.\nApr 17, 19:24 PDT\nInvestigating - We are currently investigating this issue.",
-          "link": "https://status.notion.so/incidents/301bhjzfz7k8",
-          "publishedOn": "2025-04-18T02:47:45.000Z",
-          "wordCount": 3370,
-          "title": "Users are currently unable to use the calendar. Our team is investigating the issue.",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -323,10 +313,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/71tl7pkqysgw",
           "author": null,
-          "description": "May 16, 22:33 UTC\nUpdate - We have identified the source of increased load and have started mitigation. Customers using the GitHub Enterprise Importer may still see extended wait times until recovery completes.\nMay 16, 20:36 UTC\nUpdate - Investigations on the incident impacting GitHub Enterprise Importer continue. An additional contributing cause has been identified, and we are working to ship additional mitigating measures.\nMay 16, 18:19 UTC\nUpdate - We have taken several steps to mitigate the incident impacting GitHub Enterprise Importer (GEI). We are seeing early indications of system recovery. However, customers may continue to experience longer migrations and extended queue times. The team is continuing to work on further mitigating efforts to speed up recovery.\nMay 16, 15:32 UTC\nUpdate - We are continuing to investigate issues with the GitHub Enterprise Importer. Customers may experience slower migration processes and extended wait times.\nMay 16, 14:06 UTC\nUpdate - We are investigating issues with the GitHub Enterprise Importer. Customers may experience slower migration processes and extended wait times.\nMay 16, 13:46 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "May 17, 02:27 UTC\nResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.\nMay 17, 02:26 UTC\nUpdate - We continue to see signs of recovery for GitHub Enterprise Importer migrations. Queue depth is decreasing and migration duration is trending toward normal levels. We will continue to monitor improvements.\nMay 16, 22:33 UTC\nUpdate - We have identified the source of increased load and have started mitigation. Customers using the GitHub Enterprise Importer may still see extended wait times until recovery completes.\nMay 16, 20:36 UTC\nUpdate - Investigations on the incident impacting GitHub Enterprise Importer continue. An additional contributing cause has been identified, and we are working to ship additional mitigating measures.\nMay 16, 18:19 UTC\nUpdate - We have taken several steps to mitigate the incident impacting GitHub Enterprise Importer (GEI). We are seeing early indications of system recovery. However, customers may continue to experience longer migrations and extended queue times. The team is continuing to work on further mitigating efforts to speed up recovery.\nMay 16, 15:32 UTC\nUpdate - We are continuing to investigate issues with the GitHub Enterprise Importer. Customers may experience slower migration processes and extended wait times.\nMay 16, 14:06 UTC\nUpdate - We are investigating issues with the GitHub Enterprise Importer. Customers may experience slower migration processes and extended wait times.\nMay 16, 13:46 UTC\nInvestigating - We are currently investigating this issue.",
           "link": "https://www.githubstatus.com/incidents/71tl7pkqysgw",
-          "publishedOn": "2025-05-16T22:33:28.000Z",
-          "wordCount": 5644,
+          "publishedOn": "2025-05-17T02:27:01.000Z",
+          "wordCount": 5717,
           "title": "GitHub Enterprise Importer (GEI) is experiencing degraded throughput",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -478,16 +468,6 @@
           "publishedOn": "2025-04-22T16:30:21.000Z",
           "wordCount": 5580,
           "title": "Codespaces Scheduled Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/jmfzh1p2yrg2",
-          "author": null,
-          "description": "Apr 17, 17:35 UTC\nResolved - On April 15th during regular testing we found a bug in our Copilot Metrics Pipeline infrastructure causing some data used to aggregate Copilot usage for the Copilot Metrics API to not be ingested. As a result of the bug, customer metrics in the Copilot Metrics API would have indicated lower than expected Copilot usage for the previous 28 days.\nTo mitigate the incident we resolved the bug so that all data from April 14th onwards would be accurately calculated and immediately began backfilling the previous 28 days with the correct data. All data has been corrected as of 2025-04-17 5:34PM UTC.\nWe have added additional monitoring to catch similar pipeline failures in the future earlier and are working on enhancing our data validation to ensure that all metrics we p…",
-          "link": "https://www.githubstatus.com/incidents/jmfzh1p2yrg2",
-          "publishedOn": "2025-04-17T17:35:02.000Z",
-          "wordCount": 6013,
-          "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]

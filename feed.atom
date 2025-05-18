@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-05-17T00:31:51.537Z</id>
+    <id>urn:2025-05-18T00:35:33.586Z</id>
     <title>osmos::feed</title>
-    <updated>2025-05-17T00:31:51.537Z</updated>
+    <updated>2025-05-18T00:35:33.586Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
         <title type="html"><![CDATA[GitHub Enterprise Importer (GEI) is experiencing degraded throughput]]></title>
         <id>https://www.githubstatus.com/incidents/71tl7pkqysgw</id>
         <link href="https://www.githubstatus.com/incidents/71tl7pkqysgw"/>
-        <updated>2025-05-16T22:33:28.000Z</updated>
-        <summary type="html"><![CDATA[May 16, 22:33 UTC
+        <updated>2025-05-17T02:27:01.000Z</updated>
+        <summary type="html"><![CDATA[May 17, 02:27 UTC
+Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
+May 17, 02:26 UTC
+Update - We continue to see signs of recovery for GitHub Enterprise Importer migrations. Queue depth is decreasing and migration duration is trending toward normal levels. We will continue to monitor improvements.
+May 16, 22:33 UTC
 Update - We have identified the source of increased load and have started mitigation. Customers using the GitHub Enterprise Importer may still see extended wait times until recovery completes.
 May 16, 20:36 UTC
 Update - Investigations on the incident impacting GitHub Enterprise Importer continue. An additional contributing cause has been identified, and we are working to ship additional mitigating measures.
@@ -923,32 +927,6 @@ Apr 22, 17:04 CEST
 Investigating - We are currently investigating an issue with incoming webhooks and Make web applicaton. Scheduled scenario executions are not affected. Users may receive error `ERR_SSL_VERSION_OR_CIPHER_MISMATCH`.]]></summary>
         <author>
             <name>Make Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Users are currently unable to use the calendar. Our team is investigating the issue.]]></title>
-        <id>https://status.notion.so/incidents/301bhjzfz7k8</id>
-        <link href="https://status.notion.so/incidents/301bhjzfz7k8"/>
-        <updated>2025-04-18T02:47:45.000Z</updated>
-        <summary type="html"><![CDATA[Apr 17, 19:47 PDT
-Resolved - The issue has now been resolved, and users are able to use the Notion Calendar.
-Apr 17, 19:24 PDT
-Investigating - We are currently investigating this issue.]]></summary>
-        <author>
-            <name>Notion Status - Incident History</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disruption with some GitHub services]]></title>
-        <id>https://www.githubstatus.com/incidents/jmfzh1p2yrg2</id>
-        <link href="https://www.githubstatus.com/incidents/jmfzh1p2yrg2"/>
-        <updated>2025-04-17T17:35:02.000Z</updated>
-        <summary type="html"><![CDATA[Apr 17, 17:35 UTC
-Resolved - On April 15th during regular testing we found a bug in our Copilot Metrics Pipeline infrastructure causing some data used to aggregate Copilot usage for the Copilot Metrics API to not be ingested. As a result of the bug, customer metrics in the Copilot Metrics API would have indicated lower than expected Copilot usage for the previous 28 days.
-To mitigate the incident we resolved the bug so that all data from April 14th onwards would be accurately calculated and immediately began backfilling the previous 28 days with the correct data. All data has been corrected as of 2025-04-17 5:34PM UTC.
-We have added additional monitoring to catch similar pipeline failures in the future earlier and are working on enhancing our data validation to ensure that all metrics we p…]]></summary>
-        <author>
-            <name>GitHub Status - Incident History</name>
         </author>
     </entry>
 </feed>
