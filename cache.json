@@ -230,6 +230,16 @@
       "siteUrl": "https://status.notion.so",
       "articles": [
         {
+          "id": "https://status.notion.so/incidents/mxlmsj8smjp8",
+          "author": null,
+          "description": "May 19, 17:21 PDT\nResolved - This issue has been resolved.\nMay 19, 17:19 PDT\nInvestigating - Notion Calendar is down. We are currently investigating this issue and will share any further updates",
+          "link": "https://status.notion.so/incidents/mxlmsj8smjp8",
+          "publishedOn": "2025-05-20T00:21:00.000Z",
+          "wordCount": 3340,
+          "title": "Notion Calendar is down",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.notion.so/incidents/gxznwn0mbqr0",
           "author": null,
           "description": "May  7, 20:05 PDT\nResolved - This incident has been resolved.\nMay  7, 19:36 PDT\nUpdate - We are continuing to investigate this issue.\nMay  7, 19:25 PDT\nUpdate - We are continuing to investigate this issue.\nMay  7, 19:22 PDT\nInvestigating - The team is looking into the issue.",
@@ -313,10 +323,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/71tl7pkqysgw",
           "author": null,
-          "description": "May 17, 02:27 UTC\nResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.\nMay 17, 02:26 UTC\nUpdate - We continue to see signs of recovery for GitHub Enterprise Importer migrations. Queue depth is decreasing and migration duration is trending toward normal levels. We will continue to monitor improvements.\nMay 16, 22:33 UTC\nUpdate - We have identified the source of increased load and have started mitigation. Customers using the GitHub Enterprise Importer may still see extended wait times until recovery completes.\nMay 16, 20:36 UTC\nUpdate - Investigations on the incident impacting GitHub Enterprise Importer continue. An additional contributing cause has been identified, and we are working to ship additional mitigating measures.\nMay 16, 18:19 UTC\nUpdate - We have taken several steps to mitigate the incident impacting GitHub Enterprise Importer (GEI). We are seeing early indications of system recovery. However, customers may continue to experience longer migrations and extended queue times. The team is continuing to work on further mitigating efforts to speed up recovery.\nMay 16, 15:32 UTC\nUpdate - We are continuing to investigate issues with the GitHub Enterprise Importer. Customers may experience slower migration processes and extended wait times.\nMay 16, 14:06 UTC\nUpdate - We are investigating issues with the GitHub Enterprise Importer. Customers may experience slower migration processes and extended wait times.\nMay 16, 13:46 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "May 17, 02:27 UTC\nResolved - Between May 16, 2025, 1:21 PM UTC and May 17, 2025, 2:26 AM UTC, the GitHub Enterprise Importer service was degraded and experienced slow processing of customer migrations. Customers may have seen extended wait times for migrations to start or complete.\nThis incident was initially observed as a slowdown in migration processing. During our investigation, we identified that a recent change aimed at improving API query performance caused an increase in load signals, which triggered migration throttling. As a result, the performance of migrations was negatively impacted, and overall migration duration increased. In parallel, we identified a race condition that caused a specific migration to be repeatedly re-queued, further straining system resources and contributin…",
           "link": "https://www.githubstatus.com/incidents/71tl7pkqysgw",
           "publishedOn": "2025-05-17T02:27:01.000Z",
-          "wordCount": 5717,
+          "wordCount": 5849,
           "title": "GitHub Enterprise Importer (GEI) is experiencing degraded throughput",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },

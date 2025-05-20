@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-05-19T00:34:57.615Z</id>
+    <id>urn:2025-05-20T00:33:43.213Z</id>
     <title>osmos::feed</title>
-    <updated>2025-05-19T00:34:57.615Z</updated>
+    <updated>2025-05-20T00:33:43.213Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Notion Calendar is down]]></title>
+        <id>https://status.notion.so/incidents/mxlmsj8smjp8</id>
+        <link href="https://status.notion.so/incidents/mxlmsj8smjp8"/>
+        <updated>2025-05-20T00:21:00.000Z</updated>
+        <summary type="html"><![CDATA[May 19, 17:21 PDT
+Resolved - This issue has been resolved.
+May 19, 17:19 PDT
+Investigating - Notion Calendar is down. We are currently investigating this issue and will share any further updates]]></summary>
+        <author>
+            <name>Notion Status - Incident History</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub Enterprise Importer (GEI) is experiencing degraded throughput]]></title>
         <id>https://www.githubstatus.com/incidents/71tl7pkqysgw</id>
         <link href="https://www.githubstatus.com/incidents/71tl7pkqysgw"/>
         <updated>2025-05-17T02:27:01.000Z</updated>
         <summary type="html"><![CDATA[May 17, 02:27 UTC
-Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.
-May 17, 02:26 UTC
-Update - We continue to see signs of recovery for GitHub Enterprise Importer migrations. Queue depth is decreasing and migration duration is trending toward normal levels. We will continue to monitor improvements.
-May 16, 22:33 UTC
-Update - We have identified the source of increased load and have started mitigation. Customers using the GitHub Enterprise Importer may still see extended wait times until recovery completes.
-May 16, 20:36 UTC
-Update - Investigations on the incident impacting GitHub Enterprise Importer continue. An additional contributing cause has been identified, and we are working to ship additional mitigating measures.
-May 16, 18:19 UTC
-Update - We have taken several steps to mitigate the incident impacting GitHub Enterprise Importer (GEI). We are seeing early indications of system recovery. However, customers may continue to experience longer migrations and extended queue times. The team is continuing to work on further mitigating efforts to speed up recovery.
-May 16, 15:32 UTC
-Update - We are continuing to investigate issues with the GitHub Enterprise Importer. Customers may experience slower migration processes and extended wait times.
-May 16, 14:06 UTC
-Update - We are investigating issues with the GitHub Enterprise Importer. Customers may experience slower migration processes and extended wait times.
-May 16, 13:46 UTC
-Investigating - We are currently investigating this issue.]]></summary>
+Resolved - Between May 16, 2025, 1:21 PM UTC and May 17, 2025, 2:26 AM UTC, the GitHub Enterprise Importer service was degraded and experienced slow processing of customer migrations. Customers may have seen extended wait times for migrations to start or complete.
+This incident was initially observed as a slowdown in migration processing. During our investigation, we identified that a recent change aimed at improving API query performance caused an increase in load signals, which triggered migration throttling. As a result, the performance of migrations was negatively impacted, and overall migration duration increased. In parallel, we identified a race condition that caused a specific migration to be repeatedly re-queued, further straining system resources and contributin…]]></summary>
         <author>
             <name>GitHub Status - Incident History</name>
         </author>
