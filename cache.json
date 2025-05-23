@@ -6,6 +6,16 @@
       "siteUrl": "https://changelog.bookingsync.com",
       "articles": [
         {
+          "id": "315736",
+          "author": "Eduardo, Head of Product",
+          "description": "New!\n  \nWe’ve given the booking list a makeover — it’s now cleaner, lighter, and easier to scan with a table-style view and sortable columns for quick sorting.\n\nWhat’s new?\nA more readable layout to manage bookings at a glance\nStreamlined columns for faster actions and sorting\nLog in now to enjoy the updated design!\nWe’re keeping a close eye and welcome your feedback — small glitches won’t stand a chance. 💪\nLots more UI, UX, and feature upgrades coming in the next days & weeks — stay tuned!\n— The Smily Team 💙",
+          "link": "https://changelog.bookingsync.com/a-fresh-look-for-your-booking-list!-315736",
+          "publishedOn": "2025-05-22T07:48:55.000Z",
+          "wordCount": 324,
+          "title": "A Fresh Look for Your Booking List!",
+          "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/144/088-beb70fcbc90b1a68e5b7f2e33d6489c49c24d55d.png"
+        },
+        {
           "id": "314846",
           "author": "Eduardo, Head of Product",
           "description": "New!\n  \nImprovement\nWe’ve dramatically improved the loading speed of the Finance > Payouts tab—making it over 1,000x faster for some accounts. What previously took several minutes (and often failed to load after a very long wait) now loads in around 1 second.\n💡 What’s New?\nMassive performance boost: From over 4 minutes to just ~1 second—a smoother, near-instant experience.\nMore reliable access: No more long waits or failed loading when reviewing your payouts.\n📝 Please note:\nTo maintain this performance, payout data now refreshes every 6 hours. This means some very recent payouts may not appear immediately but will be updated automatically.\n✨ Available with SmilyPay only\nThe Finance section is only available for accounts using SmilyPay.\nNot using SmilyPay yet? Sign up directly from the Finance section to unlock seamless financial tracking and maximize your earnings!\nThis upgrade is part of our broader mission to make Smily faster, more stable, and more enjoyable for your day-to-day work.",
@@ -23,12 +33,22 @@
       "siteUrl": "https://tailscale.com/security-bulletins/",
       "articles": [
         {
+          "id": "https://tailscale.com/security-bulletins/#ts-2025-003",
+          "author": null,
+          "description": "Description: Insecure non-constant time comparison in DERP server mesh authentication\nWhat happened?\nTailscale's DERP (Designated Encrypted Relay for Packets) servers provide connectivity between Tailscale nodes in the event that they cannot mutually communicate due to network restrictions. DERP servers deployed in the same region communicate using a private mesh API to coordinate client connections amongst themselves. These private mesh connections authenticate using a pre-shared secret key.\nThe DERP servers previously used an insecure non-constant time comparison when verifying the mesh authentication secret. This would have allowed an attacker to discover the mesh secret by performing a side channel timing attack.\nThe issue was present since the introduction of DERP meshing and patched on May 21, 2025. We have updated all Tailscale-managed DERP servers and rotated their mesh secrets.\nWho was affected?\nAll Tailscale-operated DERP servers and Tailscale users who operate their own custom DERP servers with more than one server per region.\nWhat was the impact?\nAn attacker who discovered the mesh key could not see any plaintext traffic between nodes, since all traffic is end-to-end encrypted.\nAn attacker with mesh access would have been able to enumerate all peers connected to a DERP server, including their WireGuard public key and their source IP address and port.\nAn attacker with mesh access would have been able to perform a denial-of-service attack (DoS attack), prohibiting a node’s keys on any DERP servers by forcing disconnects of meshed DERP servers by using the ClosePeer API.\nWe have no evidence to indicate any abuse of this issue.\nWhat do I need to do?\nIf you operate your own custom DERP servers in a mesh setup, you should update to the latest version and rotate any mesh keys that were previously in use.",
+          "link": "https://tailscale.com/security-bulletins/#ts-2025-003",
+          "publishedOn": "2025-05-21T00:00:00.000Z",
+          "wordCount": 17922,
+          "title": "TS-2025-003",
+          "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
+        },
+        {
           "id": "https://tailscale.com/security-bulletins/#ts-2025-002",
           "author": null,
           "description": "Description: Privilege escalation in proxy-to-grafana via header spoofing\nWhat happened?\nThe Tailscale Grafana proxy is a HTTP reverse proxy for Grafana that annotates requests with X-Webauth-* headers bearing the requesting user's whois-based Tailscale identity.\nThe Grafana proxy is intended to be used in combination with Grafana's session-based authentication using cookies issued in response to requests made to /login to authenticate subsequent requests to other endpoints.\nWhen configured to use session-based authentication, Grafana's /api/ routes will continue to accept X-Webauth-* headers for authentication. Previous versions of the Grafana proxy did not strip these X-Webauth-* headers from API requests allowing them to be forged by a malicious tailnet node.\nThe issue was present since the initial release of the Grafana proxy, and was patched on May 15th, 2025. The Grafana proxy now strips X-Webauth-* headers from all incoming requests.\nWho was affected?\nTailnets using Grafana in combination with the Grafana proxy to authenticate users.\nWhat was the impact?\nGrafana instances protected by the Grafana proxy would have been vulnerable to privilege escalation via HTTP request header forgery from members of their tailnet.\nWhat do I need to do?\nUpdate to the latest Grafana proxy by running go install tailscale.com/cmd/proxy-to-grafana@latest\nCredits\nThanks to Yeongrok Gim for reporting this issue.",
           "link": "https://tailscale.com/security-bulletins/#ts-2025-002",
           "publishedOn": "2025-05-15T00:00:00.000Z",
-          "wordCount": 17352,
+          "wordCount": 17922,
           "title": "TS-2025-002",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -77,103 +97,93 @@
       "siteUrl": "https://status.twilio.com",
       "articles": [
         {
-          "id": "https://status.twilio.com/incidents/g6zbsr23h2d5",
+          "id": "https://status.twilio.com/incidents/pnl75046kss4",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 21, 22:30 PDT  -  May 22, 01:00 PDT\nMay 16, 03:02 PDT\nScheduled - The AT&T network in the United States is conducting a planned maintenance from 21 May 2025 at 22:30 PDT until 22 May 2025 at 01:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from AT&T United States handsets.",
-          "link": "https://status.twilio.com/incidents/g6zbsr23h2d5",
-          "publishedOn": "2025-05-22T05:30:00.000Z",
-          "wordCount": 7605,
-          "title": "United States SMS Carrier Maintenance - AT&T",
+          "description": "May 22, 17:01 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 22, 14:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 22, 07:05 PDT\nScheduled - The O! network in Kyrgyzstan is conducting an emergency maintenance from 22 May 2025 at 14:00 PDT until 22 May 2025 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to O! Kyrgyzstan handsets.\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
+          "link": "https://status.twilio.com/incidents/pnl75046kss4",
+          "publishedOn": "2025-05-23T00:01:21.000Z",
+          "wordCount": 7617,
+          "title": "Kyrgyzstan SMS Carrier Maintenance - O!",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/33bjy726jwdj",
+          "id": "https://status.twilio.com/incidents/c919mcbytg01",
           "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 21, 20:00 PDT  -  Jun 3, 22:00 PDT\nMay 21, 10:31 PDT\nScheduled - Multiple Networks in Iraq are conducting a series of planned maintenances from 21 May 2025 at 20:00 PDT until 03 June 2025 at 22:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to multiple networks Iraq handsets.\n\nNote, the maintenance will be carried out on each of the following dates and times:\n\n21 May 2025 at 20:00 PDT until 21 May 2025 at 22:00 PDT\n23 May 2025 at 20:00 PDT until 23 May 2025 at 22:00 PDT\n25 May 2025 at 20:00 PDT until 25 May 2025 at 22:00 PDT\n27 May 2025 at 20:00 PDT until 27 May 2025 at 22:00 PDT\n30 May 2025 at 20:00 PDT until 30 May 2025 at 22:00 PDT\n01 June 2025 at 20:00 PDT until 01 June 2025 at 22:00 PDT\n03 June 2025 at 20:00 PDT until 03 June 2025 at 22:00 PDT\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
-          "link": "https://status.twilio.com/incidents/33bjy726jwdj",
-          "publishedOn": "2025-05-22T03:00:00.000Z",
-          "wordCount": 7695,
-          "title": "Iraq SMS Carrier Maintenance - Multiple Networks",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/w05n2drkfjl1",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 21, 20:00 PDT  -  May 22, 02:00 PDT\nMay 21, 10:24 PDT\nScheduled - Our carrier partner Verizon Wireless United States is conducting a planned maintenance from 21 May 2025 at 20:00 PDT until 22 May 2025 at 02:00 PDT. During the maintenance window, there could be intermittent API request failures for Verizon Wireless United States customers.\n\nImpacted Products: Verify Silent Network Auth, Lookup SIM Swap, Legacy Identity MatchAndAttributes\n\nWe are aware of the short notice and are working with our Carrier Partners to provide earlier notification where possible.",
-          "link": "https://status.twilio.com/incidents/w05n2drkfjl1",
-          "publishedOn": "2025-05-22T03:00:00.000Z",
-          "wordCount": 7627,
-          "title": "United States Account Security Carrier Partner Maintenance - Verizon Wireless",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/h8qrh1mkz8q3",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 21, 20:00 PDT  -  May 22, 02:00 PDT\nMay 14, 09:55 PDT\nScheduled - A subset of small networks in the US are conducting a planned maintenance from 21 May 2025 at 20:00 PDT until 22 May 2025 at 02:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to small US carriers handsets.",
-          "link": "https://status.twilio.com/incidents/h8qrh1mkz8q3",
-          "publishedOn": "2025-05-22T03:00:00.000Z",
-          "wordCount": 7607,
-          "title": "US SMS Carrier Maintenance - Small US Carriers",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/8v81f821xdvq",
-          "author": null,
-          "description": "THIS IS A SCHEDULED EVENT May 21, 19:00 - 21:00 PDT\nMay 16, 08:44 PDT\nScheduled - Our SMS carrier partner in Singapore is conducting a planned maintenance from 21 May 2025 at 19:00 PDT until 21 May 2025 at 21:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to and from Singapore handsets.",
-          "link": "https://status.twilio.com/incidents/8v81f821xdvq",
-          "publishedOn": "2025-05-22T02:00:00.000Z",
-          "wordCount": 7569,
-          "title": "Singapore SMS Carrier Partner Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.twilio.com/incidents/b9y8t6c8s36z",
-          "author": null,
-          "description": "May 21, 17:01 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 21, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 20, 07:56 PDT\nScheduled - The MegaFon network in Russia is conducting a planned maintenance from 21 May 2025 at 13:00 PDT until 21 May 2025 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to MegaFon Russia handsets.",
-          "link": "https://status.twilio.com/incidents/b9y8t6c8s36z",
-          "publishedOn": "2025-05-22T00:01:21.000Z",
+          "description": "May 22, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 22, 13:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 20, 07:51 PDT\nScheduled - The MegaFon network in Russia is conducting a planned maintenance from 22 May 2025 at 13:00 PDT until 22 May 2025 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to MegaFon Russia handsets.",
+          "link": "https://status.twilio.com/incidents/c919mcbytg01",
+          "publishedOn": "2025-05-23T00:00:21.000Z",
           "wordCount": 7598,
           "title": "Russia SMS Carrier Maintenance - MegaFon",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/kjcvt37rvdys",
+          "id": "https://status.twilio.com/incidents/my3q5204ds6w",
           "author": null,
-          "description": "May 21, 17:01 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 21, 13:01 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 18, 23:27 PDT\nScheduled - The Gazprom Telekom network in Russia is conducting a planned maintenance from 21 May 2025 at 13:00 PDT until 21 May 2025 at 17:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Gazprom Telekom Russia handsets.",
-          "link": "https://status.twilio.com/incidents/kjcvt37rvdys",
-          "publishedOn": "2025-05-22T00:01:21.000Z",
+          "description": "May 22, 16:54 PDT\nUpdate - We are experiencing SMS delivery delays and failures when sending messages to MTN in Guinea-Bissau. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nMay 22, 16:43 PDT\nInvestigating - We've become aware of a potential issue with SMS Delivery Delays and Failures to MTN in Guinea-Bissau. Our engineering team has been alerted and is actively investigating. We will update as soon as we have more information.",
+          "link": "https://status.twilio.com/incidents/my3q5204ds6w",
+          "publishedOn": "2025-05-22T23:54:14.000Z",
+          "wordCount": 7626,
+          "title": "SMS Delivery Delays and Failures to MTN in Guinea-Bissau",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/dgptn17tlljz",
+          "author": null,
+          "description": "May 22, 16:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 22, 15:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 19, 16:10 PDT\nScheduled - The Orange network in Poland is conducting a planned maintenance from 22 May 2025 at 15:00 PDT until 22 May 2025 at 16:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Orange Poland handsets when sending via long codes and short codes.",
+          "link": "https://status.twilio.com/incidents/dgptn17tlljz",
+          "publishedOn": "2025-05-22T23:00:25.000Z",
+          "wordCount": 7606,
+          "title": "Poland SMS Carrier Maintenance - Orange",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/bcjtrx2kwmbj",
+          "author": null,
+          "description": "May 22, 15:08 PDT\nResolved - The Twilio Programmable Messaging API was partially degraded for 2 minutes on 05/22/2025 between 14:00:40 PST and 14:01:30 PST. During this period of time, customers sending a message may have received elevated volumes of 5xx's in API responses. This issue has now been resolved.\nMay 22, 14:36 PDT\nMonitoring - Our engineers are currently investigating the customer impact of a retroactive issue with the Twilio Programmable Messaging API. We will follow up and provide customer impact details within 2 hours.",
+          "link": "https://status.twilio.com/incidents/bcjtrx2kwmbj",
+          "publishedOn": "2025-05-22T22:08:14.000Z",
           "wordCount": 7603,
-          "title": "Russia SMS Carrier Maintenance - Gazprom Telekom",
+          "title": "5xx's in the Twilio Programmable Messaging API Responses",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/8lxw6mcws0lr",
+          "id": "https://status.twilio.com/incidents/j0j8b5dxkzj4",
           "author": null,
-          "description": "May 21, 17:00 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 21, 16:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 19, 09:01 PDT\nScheduled - Our documentation site is undergoing scheduled maintenance and will temporarily operate in static mode between 16:00 and 17:00 Pacific Time on 05/21/2025. During this time, some features may be unavailable, and pages requiring authentication will not be accessible. We appreciate your patience and apologize for any inconvenience this may cause.",
-          "link": "https://status.twilio.com/incidents/8lxw6mcws0lr",
-          "publishedOn": "2025-05-22T00:00:24.000Z",
-          "wordCount": 7602,
-          "title": "Twilio Docs - Maintenance",
+          "description": "May 22, 14:54 PDT\nResolved - Twilio phone numbers provisioning was degraded for 23 days, 8 hours, and 3 minutes between 2025-04-28 at 23:40:24 PDT and 2025-05-22 at 07:43:38 PDT. During this period of time, 18 Phone Numbers in our inventory were mistakenly made available for provisioning even if they couldn't be provisioned and for this reason some customers have experienced an HTTP 500 Server error. This incident has been resolved.\nMay 22, 14:04 PDT\nMonitoring - Our engineers are currently investigating the customer impact of a retroactive issue with phone numbers provisioning. We will follow up and provide customer impact details within 2 hours.",
+          "link": "https://status.twilio.com/incidents/j0j8b5dxkzj4",
+          "publishedOn": "2025-05-22T21:54:51.000Z",
+          "wordCount": 7619,
+          "title": "500 Errors for Twilio Phone Numbers Provisioning",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/4vdl91xpvpyx",
+          "id": "https://status.twilio.com/incidents/glq7qhtytpnc",
           "author": null,
-          "description": "May 21, 16:01 PDT\nCompleted - The scheduled maintenance has been completed.\nMay 21, 13:20 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 20, 01:37 PDT\nScheduled - The Sotovaja Svjaz MOTIV network in Russia is conducting a planned maintenance from 21 May 2025 at 13:20 PDT until 21 May 2025 at 16:00 PDT. During the maintenance window, there could be intermittent delays delivering SMS to Sotovaja Svjaz MOTIV Russia handsets.",
-          "link": "https://status.twilio.com/incidents/4vdl91xpvpyx",
-          "publishedOn": "2025-05-21T23:01:21.000Z",
-          "wordCount": 7608,
-          "title": "Russia SMS Carrier Maintenance - Sotovaja Svjaz MOTIV",
+          "description": "May 22, 14:48 PDT\nResolved - The issue affecting inbound calls to Denmark Twilio Phone Numbers has been resolved, and the service is functioning normally at this time.\nMay 22, 12:33 PDT\nMonitoring - We have started seeing recovery for inbound calls to Denmark Twilio phone numbers. We will continue to monitor to ensure a full recovery. We expect to provide another update in 2 hours or as soon as more information becomes available.\nMay 22, 11:30 PDT\nInvestigating - We have identified Call Failures From Subscribers To Denmark Twilio Phone Numbers. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/glq7qhtytpnc",
+          "publishedOn": "2025-05-22T21:48:30.000Z",
+          "wordCount": 7649,
+          "title": "Call Failures From Subscribers To Denmark Twilio Phone Numbers",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         },
         {
-          "id": "https://status.twilio.com/incidents/ldyb008j8s4p",
+          "id": "https://status.twilio.com/incidents/xm63npc3p3nx",
           "author": null,
-          "description": "May 21, 15:11 PDT\nResolved - We are no longer observing recovery with delays in receiving message delivery reports when sending to Vodacom in South Africa via Subset of Longcodes. This incident has been resolved.\nMay 21, 13:14 PDT\nMonitoring - We are observing recovery with delays in receiving message delivery reports when sending to Vodacom in South Africa via Subset of Longcodes. We will continue to monitor the situation to ensure a full recovery, and provide another update in 2 hours.\nMay 21, 11:21 PDT\nUpdate - We are experiencing delays in receiving message delivery reports when sending to Vodacom in South Africa via Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 2 hours or as soon as more information becomes available.\nMay 21, 10:19 PDT\nInvestigating - We are experiencing delays in receiving message delivery reports when sending to Vodacom in South Africa via Subset of Longcodes. Our engineers are working with our carrier partner to resolve the issue. We expect to provide another update in 1h or as soon as more information becomes available.",
-          "link": "https://status.twilio.com/incidents/ldyb008j8s4p",
-          "publishedOn": "2025-05-21T22:11:09.000Z",
-          "wordCount": 7734,
-          "title": "SMS Delivery Delays to Vodacom in South Africa via Subset of Longcodes",
+          "description": "May 22, 14:00 PDT\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 20, 08:46 PDT\nScheduled - Our carrier partner EE United Kingdom is conducting a planned maintenance from 22 May 2025 at 14:00 PDT until 22 May 2025 at 22:00 PDT. During the maintenance window, there could be intermittent API request failures for EE United Kingdom customers.\n\nImpacted Products: Verify Silent Network Auth, Lookup Identity Match, Lookup SIM Swap,  Legacy Identity MatchAndAttributes",
+          "link": "https://status.twilio.com/incidents/xm63npc3p3nx",
+          "publishedOn": "2025-05-22T21:00:21.000Z",
+          "wordCount": 7621,
+          "title": "United Kingdom Account Security Carrier Partner Maintenance - EE",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.twilio.com/incidents/y70gw010t98v",
+          "author": null,
+          "description": "May 22, 10:04 PDT\nResolved - We are no longer experiencing SMS Delivery Delays to Algar Telecom (CTBC) in Brazil. This incident has been resolved.\nMay 22, 08:02 PDT\nMonitoring - We are observing recovery in SMS delivery delays to Algar Telecom (CTBC) in Brazil. We will continue monitoring the service to ensure a full recovery. We will provide another update in 2 hours or as soon as more information becomes available.\nMay 22, 02:46 PDT\nUpdate - We are continuing to experience SMS delivery delays to Algar Telecom (CTBC) in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 8 hours or as soon as more information becomes available.\nMay 21, 23:02 PDT\nUpdate - We are continuing to experience SMS Delivery Delays to Algar Telecom (CTBC) in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 4 hours or as soon as more information becomes available.\nMay 21, 21:02 PDT\nUpdate - We are continuing to experience SMS Delivery Delays to Algar Telecom (CTBC) in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.\nMay 21, 20:20 PDT\nInvestigating - We are experiencing SMS Delivery Delays to Algar Telecom (CTBC) in Brazil. Our engineers are working with our carrier partner to resolve the issue. We will provide another update in 1 hour or as soon as more information becomes available.",
+          "link": "https://status.twilio.com/incidents/y70gw010t98v",
+          "publishedOn": "2025-05-22T17:04:57.000Z",
+          "wordCount": 7798,
+          "title": "SMS Delivery Delays to Algar Telecom (CTBC) in Brazil",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
@@ -183,6 +193,46 @@
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/qn8ch3xh6t23",
+          "author": null,
+          "description": "May 23, 00:28 UTC\nMonitoring - Our Engineering team has taken steps to mitigate the impact on the Managed Databases control plane that was causing delays in API calls, resulting in create and deploy errors for users. \nAt this time, services remain stable and users can create or deploy applications normally. \nWe will monitor the environment for an extended period to ensure full function continues. We will post another update by 14:00 UTC today, May 23 or as soon as we have any further information. \nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience\nMay 22, 22:21 UTC\nUpdate - Our Engineering team continues to investigate an issue with the Managed Databases control plane that is causing delays in the API calls. At this time, …",
+          "link": "https://status.digitalocean.com/incidents/qn8ch3xh6t23",
+          "publishedOn": "2025-05-23T00:28:40.000Z",
+          "wordCount": 6555,
+          "title": "Managed Databases and App Platform",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/70n13zgv8h7y",
+          "author": null,
+          "description": "May 22, 19:23 UTC\nResolved - Our Engineering has confirmed full resolution of the issue impacting Droplet creation in all regions. Users can now create Droplets and Droplet-based services, including Managed Kubernetes, Managed Databases, and Load Balancers without any issues. \nWe appreciate your patience while we worked to fix this issue. If you continue to experience any problems, please open a ticket from your account for further investigation.\nMay 22, 18:43 UTC\nMonitoring - Our Engineering team has identified the reason behind the failed Droplet creates and implemented a fix to resolve the issue. Users should now be able to create Droplets and Droplet-based services, including Managed Kubernetes, Managed Databases, and Load Balancers without any issues. Users should no longer see any er…",
+          "link": "https://status.digitalocean.com/incidents/70n13zgv8h7y",
+          "publishedOn": "2025-05-22T19:23:46.000Z",
+          "wordCount": 6566,
+          "title": "Droplet Creation in Multiple Regions",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/2ch98sc024vv",
+          "author": null,
+          "description": "May 22, 10:59 UTC\nResolved - From 07:19 UTC to 08:15 UTC, users may have experienced errors with app deployment via App Platform.\nOur Engineering team has now confirmed the resolution of the issue and app deployment should be working as expected.\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nMay 22, 08:35 UTC\nInvestigating - As of 07:19 UTC, our Engineering team is currently investigating an issue causing delays in the creation of apps deployed via App Platform. During this time, some users may see app deployment failing to complete. \nWe are actively working on identifying the root cause of issues and will post further updates as more information is available. We apologize for the inconvenience.",
+          "link": "https://status.digitalocean.com/incidents/2ch98sc024vv",
+          "publishedOn": "2025-05-22T10:59:04.000Z",
+          "wordCount": 6308,
+          "title": "App Platform Deployments",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
+          "id": "https://status.digitalocean.com/incidents/m2z0rxg8zlqm",
+          "author": null,
+          "description": "May 22, 09:26 UTC\nResolved - Our Engineering team has confirmed the complete resolution of the issue that was impacting Spaces, App Platform and Container Registry in our BLR1 region. Users should now see improved performance, and error rates have decreased. User should no longer experience errors while deploying their application in App Platform and uploading to Container Registry in the same region.\nWe appreciate your patience and understanding while we worked to restore normal service. \nIf you continue to experience any issues, please open a support ticket from within the Cloud Control Panel for further review.\nMay 22, 09:08 UTC\nMonitoring - Our Engineering team has implemented a fix with the issue affecting Spaces, App Platform and Container Registry in our BLR1 region. Users should now see improved performance, and error rates have decreased. User should no longer experience errors while deploying their application in App Platform and uploading to Container Registry in the same region.\nWe are continuing to monitor the situation closely to ensure stability. Thank you for your patience during the process and we will provide a final update once we confirm the issue is fully resolved.\nMay 22, 07:41 UTC\nInvestigating - As of 06:56 UTC, our Engineering team is currently investigating an issue affecting Spaces, App Platform and Container Registry in our BLR1 region. During this time, users may experience a high error rate when attempting to access objects in spaces in this region. Users may also experience errors while deploying their application in App Platform and uploading to Container Registry in the same region.\nWe are actively working on identifying the root cause and resolving the issue as quickly as possible. We understand the inconvenience this may cause and appreciate your patience. \nWe will provide further updates in due course.",
+          "link": "https://status.digitalocean.com/incidents/m2z0rxg8zlqm",
+          "publishedOn": "2025-05-22T09:26:35.000Z",
+          "wordCount": 6495,
+          "title": "Spaces, App Platform and Container Registry Availability in BLR1",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/q9c5j3z6b5ps",
           "author": null,
@@ -322,16 +372,6 @@
           "wordCount": 6381,
           "title": "Delay in Transactional Emails",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.digitalocean.com/incidents/58df09q6jxf6",
-          "author": null,
-          "description": "Apr 22, 19:05 UTC\nResolved - From 16:54 to 18:17 UTC, users may have experienced issues creating Spaces from control panel due to the datacenter region options failing to list.\nOur Engineering team has implemented a fix and confirmed full resolution of the issue. Users should be able to create Spaces from Cloud Control Panel without issues now.\nIf you continue to experience problems, please open a ticket with our support team. We apologize for any inconvenience.\nApr 22, 18:30 UTC\nMonitoring - Our Engineering team has implemented a fix to resolve the issue impacting the creation of Spaces. Users should now be able to create Spaces without any issues.\nWe are actively monitoring the situation and will post an update as soon as the issue is fully resolved.\nApr 22, 18:08 UTC\nIdentified - Our Engineering team has identified an issue with creating Spaces through the Cloud Control Panel. During this time, users are unable to create Spaces buckets due to the datacenter region options failing to list. Creating Spaces buckets through the API remains functional. All other Spaces functionality is unaffected.\nA fix is in progress and we will provide an update as soon as we have more information.\nApr 22, 18:03 UTC\nInvestigating - Our Engineering team is currently investigating an issue with creating Spaces through the Cloud Control Panel. During this time, users may experience difficulties when selecting the Data Center option, as it is not listing correctly. We apologize for the inconvenience and will provide an update as soon as we have more information.",
-          "link": "https://status.digitalocean.com/incidents/58df09q6jxf6",
-          "publishedOn": "2025-04-22T19:05:57.000Z",
-          "wordCount": 6440,
-          "title": "Spaces Bucket Creates",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
     },
@@ -340,6 +380,16 @@
       "feedUrl": "https://status.notion.so/history.rss",
       "siteUrl": "https://status.notion.so",
       "articles": [
+        {
+          "id": "https://status.notion.so/incidents/09b61mqmxthf",
+          "author": null,
+          "description": "May 22, 10:35 PDT\nResolved - We resolved an incident where some users were unable to log in to Notion Calendar using Google Authentication. It didn't affect already logged-in users.",
+          "link": "https://status.notion.so/incidents/09b61mqmxthf",
+          "publishedOn": "2025-05-22T17:35:43.000Z",
+          "wordCount": 3362,
+          "title": "Some Users Are Unable to Log In to Notion Calendar Using Google Authentication",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.notion.so/incidents/228z50jltt7g",
           "author": null,
@@ -452,6 +502,16 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/cbdzqm5fw0fm",
+          "author": null,
+          "description": "May 22, 09:17 UTC\nResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.\nMay 22, 09:17 UTC\nUpdate - We've applied a mitigation which has resolved these delays.\nMay 22, 08:47 UTC\nUpdate - Our investigation continues. At this stage GitHub Actions Jobs are being executed, albeit with delays to the start of execution in some cases.\nMay 22, 08:14 UTC\nUpdate - We are continuing to investigate these delays.\nMay 22, 07:43 UTC\nUpdate - We're investigating delays with the execution of queued GitHub Actions jobs.\nMay 22, 07:42 UTC\nInvestigating - We are investigating reports of degraded performance for Actions",
+          "link": "https://www.githubstatus.com/incidents/cbdzqm5fw0fm",
+          "publishedOn": "2025-05-22T09:17:56.000Z",
+          "wordCount": 5576,
+          "title": "Delayed GitHub Actions Jobs",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/89gkzpf9fc20",
           "author": null,
           "description": "May 21, 09:00 UTC\nResolved - A change to the webhooks UI removed the ability to add webhooks. The timeframe of this impact was between May 20th, 2025 20:40 UTC and May 21st, 2025 12:55 UTC. Existing webhooks, as well as adding webhooks via the API were unaffected. The issue has been fixed.",
@@ -534,10 +594,10 @@
         {
           "id": "https://www.githubstatus.com/incidents/kpv13bbn84n5",
           "author": null,
-          "description": "May 15, 01:02 UTC\nResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.\nMay 15, 01:02 UTC\nUpdate - We have received confirmation from our upstream provider that the issue has been resolved. We are seeing significant recovery. The Gemini 2.5 Pro model is now fully available in Copilot Chat, VS Code, and other Copilot products.\nMay 14, 21:18 UTC\nUpdate - We continue experiencing degraded availability for the Gemini 2.5 Pro model in Copilot Chat, VS Code and other Copilot products. We are working closely with our upstream provider to resolve this issue.\nMay 14, 16:46 UTC\nUpdate - We continue experiencing degraded availability for the Gemini 2.5 Pro model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.\nMay 14, 16:01 UTC\nUpdate - We are experiencing degraded availability for the Gemini 2.5 Pro model in Copilot Chat, VS Code and other Copilot products. This is due to an issue with an upstream model provider. We are working with them to resolve the issue.\nOther models are available and working as expected.\nMay 14, 15:14 UTC\nUpdate - We keep investigating issues with Gemini 2.5 Pro model which is in Public Preview. Users may see intermittent errors with this model.\nMay 14, 14:39 UTC\nInvestigating - We are currently investigating this issue.",
+          "description": "May 15, 01:02 UTC\nResolved - Between May 14, 2025 14:16 UTC and May 15, 2025 01:02 UTC the Copilot service was degraded and returned a high volume of internal server errors for requests targeting Gemini 2.5 Pro, a public preview model. On average, the error rate for Gemini 2.5 Pro was 19.6% and peaked at 41%. This was due to a high volume of internal server errors and rate limiting by the upstream model provider.\nWe mitigated the incident by temporarily disabling Gemini 2.5 Pro for all Copilot Chat experiences, and then worked with the model provider to ensure model health was sufficiently improved before re-enabling.\nWe are working with partners to improve communication speed and are planning to move to more resilient infrastructure to mitigate issues like this one in the future.\nMay 15, …",
           "link": "https://www.githubstatus.com/incidents/kpv13bbn84n5",
           "publishedOn": "2025-05-15T01:02:54.000Z",
-          "wordCount": 5711,
+          "wordCount": 5806,
           "title": "Disruption with Gemini 2.5 Pro model",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
@@ -620,26 +680,6 @@
           "wordCount": 5619,
           "title": "Disruption with some GitHub services",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/lrby2hyk80dh",
-          "author": null,
-          "description": "Apr 23, 08:00 UTC\nResolved - On April 23, 2025, between 07:00 UTC and 07:20 UTC, multiple GitHub services experienced degradation caused by resource contention on database hosts. The resulting error rates, which ranged from 2–5% of total requests, led to intermittent service disruption for users. The issue was triggered by heavy workloads on the database leading to connection saturation.\nThe incident mitigated when the database throttling activated which allowed the system to rebalance the connections. This restored the traffic flow to the database and restored service functionality.\nTo prevent similar issues in the future, we are reviewing the capacity of the database, improving monitoring and alerting systems, and implementing safeguards to reduce time to detection and mitigation.\nApr 23, 07:47 UTC\nUpdate - A brief problem with one of our database clusters caused intermittent errors around 07:05 UTC for a few minutes. Our systems have recovered and we continue to monitor.\nApr 23, 07:43 UTC\nUpdate - Issues is operating normally.\nApr 23, 07:42 UTC\nUpdate - Actions is operating normally.\nApr 23, 07:42 UTC\nUpdate - Pages is operating normally.\nApr 23, 07:42 UTC\nUpdate - API Requests is operating normally.\nApr 23, 07:41 UTC\nUpdate - Codespaces is operating normally.\nApr 23, 07:23 UTC\nUpdate - Codespaces is experiencing degraded performance. We are continuing to investigate.\nApr 23, 07:22 UTC\nUpdate - Actions is experiencing degraded performance. We are continuing to investigate.\nApr 23, 07:17 UTC\nInvestigating - We are investigating reports of degraded performance for API Requests, Issues and Pages",
-          "link": "https://www.githubstatus.com/incidents/lrby2hyk80dh",
-          "publishedOn": "2025-04-23T08:00:06.000Z",
-          "wordCount": 5725,
-          "title": "Incident with Issues, API Requests and Pages",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/znhjr4vqqcdw",
-          "author": null,
-          "description": "Apr 22, 16:30 UTC\nCompleted - The scheduled maintenance has been completed.\nApr 21, 16:30 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nApr 17, 15:30 UTC\nScheduled - Codespaces will be undergoing global maintenance from 16:30 UTC on Monday, April 21 to 16:30 UTC on Tuesday, April 22. Maintenance will begin in our Europe, Asia, and Australia regions. Once it is complete, maintenance will start in our US regions. Each batch of regions will take approximately three to four hours to complete.\nDuring this time period, users may experience intermittent connectivity issues when creating new Codespaces or accessing existing ones.\nTo avoid disruptions, ensure that any uncommitted changes are committed and pushed before the maintenance starts. Codespaces with uncommitted changes will remain accessible as usual after the maintenance is complete.",
-          "link": "https://www.githubstatus.com/incidents/znhjr4vqqcdw",
-          "publishedOn": "2025-04-22T16:30:21.000Z",
-          "wordCount": 5580,
-          "title": "Codespaces Scheduled Maintenance",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
     },
@@ -706,6 +746,16 @@
       "siteUrl": "https://status.make.com",
       "articles": [
         {
+          "id": "https://status.make.com/incidents/3v14j2512qfq",
+          "author": null,
+          "description": "May 22, 15:41 CEST\nUpdate - We are working on approval of marketplace add-on with Google team. Available workaround is documented and available - https://apps.make.com/google-sheets.\nApr 25, 08:08 CEST\nUpdate - We keep awaiting approval from Google about our Google Sheets marketplace add-on verification.\nApr 10, 14:20 CEST\nUpdate - We are continuously working with Google verification team to approve our Google Cloud Project and Google Sheets add-on.\nMar 19, 08:04 CET\nUpdate - We are working on review of new add-on for Google Sheets together with Google team.\nFeb 14, 17:18 CET\nMonitoring - We have shared deployment instructions for the workaround with users and are actively working on a permanent solution.\nFeb 14, 14:19 CET\nIdentified - We've identified a workaround and will provide users with clear instructions on how to proceed shortly.\nFeb 14, 09:17 CET\nInvestigating - Our team is currently investigating the issue and working on restoring the add-on as soon as possible.",
+          "link": "https://status.make.com/incidents/3v14j2512qfq",
+          "publishedOn": "2025-05-22T13:41:31.000Z",
+          "wordCount": 4011,
+          "title": "The \"Make for Google Sheets\" add-on is currently unavailable on Google Workspace Marketplace",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
+        {
           "id": "https://status.make.com/incidents/70qvpkmx3gzs",
           "author": null,
           "description": "May 14, 12:45 CEST\nResolved - This incident has been resolved.\nMay 14, 11:32 CEST\nMonitoring - A fix has been implemented and we are monitoring the results.\nMay 14, 11:32 CEST\nIdentified - The issue has been identified and a fix is being implemented.\nMay 14, 11:22 CEST\nInvestigating - Website Access make.com is currently unreachable via the homepage.\nHowever, customers can still log in directly using:  https://www.make.com/en/login\nOur team is investigating the issue and will provide updates shortly.",
@@ -713,26 +763,6 @@
           "publishedOn": "2025-05-14T10:45:52.000Z",
           "wordCount": 3885,
           "title": "Make.com website unreachable",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/3v14j2512qfq",
-          "author": null,
-          "description": "Apr 25, 08:08 CEST\nUpdate - We keep awaiting approval from Google about our Google Sheets marketplace add-on verification.\nApr 10, 14:20 CEST\nUpdate - We are continuously working with Google verification team to approve our Google Cloud Project and Google Sheets add-on.\nMar 19, 08:04 CET\nUpdate - We are working on review of new add-on for Google Sheets together with Google team.\nFeb 14, 17:18 CET\nMonitoring - We have shared deployment instructions for the workaround with users and are actively working on a permanent solution.\nFeb 14, 14:19 CET\nIdentified - We've identified a workaround and will provide users with clear instructions on how to proceed shortly.\nFeb 14, 09:17 CET\nInvestigating - Our team is currently investigating the issue and working on restoring the add-on as soon as possible.",
-          "link": "https://status.make.com/incidents/3v14j2512qfq",
-          "publishedOn": "2025-04-25T06:08:25.000Z",
-          "wordCount": 3984,
-          "title": "The \"Make for Google Sheets\" add-on is currently unavailable on Google Workspace Marketplace",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
-        },
-        {
-          "id": "https://status.make.com/incidents/pvs417tyhq6b",
-          "author": null,
-          "description": "Apr 22, 17:59 CEST\nResolved - The incident has been resolved. Some of the incoming webhooks were not accessible and weren't delivered for the affected zones.\nApr 22, 17:24 CEST\nMonitoring - A fix has been implemented and we are monitoring the results.\nApr 22, 17:15 CEST\nIdentified - The issue has been identified and a fix is being implemented.\nApr 22, 17:04 CEST\nInvestigating - We are currently investigating an issue with incoming webhooks and Make web applicaton. Scheduled scenario executions are not affected. Users may receive error `ERR_SSL_VERSION_OR_CIPHER_MISMATCH`.",
-          "link": "https://status.make.com/incidents/pvs417tyhq6b",
-          "publishedOn": "2025-04-22T15:59:34.000Z",
-          "wordCount": 3918,
-          "title": "Problem with accessing Make web pages",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
         }
       ]
