@@ -380,6 +380,16 @@
       "siteUrl": "https://www.githubstatus.com",
       "articles": [
         {
+          "id": "https://www.githubstatus.com/incidents/nwjwwhj118sf",
+          "author": null,
+          "description": "May 31, 04:30 UTC\nCompleted - The scheduled maintenance has been completed.\nMay 29, 21:30 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 29, 21:01 UTC\nScheduled - Codespaces will be undergoing global maintenance from May 29, 2025 21:30 UTC to May 31, 2025 4:30 UTC. Maintenance will begin in our Europe, Asia, and Australia regions. Once it is complete, maintenance will start in our US regions. Each batch of regions will take approximately three to four hours to complete.\nDuring this time period, users may experience intermittent connectivity issues when creating new Codespaces or accessing existing ones.\nTo avoid disruptions, ensure that any uncommitted changes are committed and pushed before the maintenance starts. Codespaces with uncommitted changes will remain accessible as usual after the maintenance is complete.",
+          "link": "https://www.githubstatus.com/incidents/nwjwwhj118sf",
+          "publishedOn": "2025-05-31T04:30:21.000Z",
+          "wordCount": 5578,
+          "title": "Codespaces Scheduled Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
+        },
+        {
           "id": "https://www.githubstatus.com/incidents/p1rf575rlqml",
           "author": null,
           "description": "May 30, 15:57 UTC\nResolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available.\nMay 30, 14:47 UTC\nUpdate - Our team is continuing to work to mitigate the source of the disruption affecting a small set of customers using the GitHub Microsoft Teams integration.\nMay 30, 12:29 UTC\nUpdate - We are experiencing a disruption with our Microsoft Teams integration. Investigations are underway and we will provide further updates as we progress.\nMay 30, 11:20 UTC\nInvestigating - We are currently investigating this issue.",
@@ -387,16 +397,6 @@
           "publishedOn": "2025-05-30T15:57:06.000Z",
           "wordCount": 5553,
           "title": "Disruption with some GitHub services",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/nwjwwhj118sf",
-          "author": null,
-          "description": "May 29, 21:30 UTC\nIn progress - Scheduled maintenance is currently in progress. We will provide updates as necessary.\nMay 29, 21:01 UTC\nScheduled - Codespaces will be undergoing global maintenance from May 29, 2025 21:30 UTC to May 31, 2025 4:30 UTC. Maintenance will begin in our Europe, Asia, and Australia regions. Once it is complete, maintenance will start in our US regions. Each batch of regions will take approximately three to four hours to complete.\nDuring this time period, users may experience intermittent connectivity issues when creating new Codespaces or accessing existing ones.\nTo avoid disruptions, ensure that any uncommitted changes are committed and pushed before the maintenance starts. Codespaces with uncommitted changes will remain accessible as usual after the maintenance is complete.",
-          "link": "https://www.githubstatus.com/incidents/nwjwwhj118sf",
-          "publishedOn": "2025-05-29T21:30:21.000Z",
-          "wordCount": 5568,
-          "title": "Codespaces Scheduled Maintenance",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         },
         {
@@ -597,16 +597,6 @@
           "publishedOn": "2025-05-08T16:27:56.000Z",
           "wordCount": 5646,
           "title": "Incident with Git Operations",
-          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
-        },
-        {
-          "id": "https://www.githubstatus.com/incidents/9zmv2mqqxsbm",
-          "author": null,
-          "description": "May  1, 23:13 UTC\nResolved - On May 1, 2025 from 22:09 UTC to 23:13 UTC, the Issues service was degraded and users weren't able to upload attachments. The root cause was identified to be a new feature which added a custom header to all client-side HTTP requests, causing a CORS errors when uploading attachments to our provider.\nWe mitigated the incident by rolling back the feature flag that added the new header at 22:56 UTC. In order to prevent this from happening again, we are adding new metrics to monitor and ensure the safe rollout of changes to client-side requests.\nMay  1, 23:13 UTC\nUpdate - We have identified the underlying cause of attachment upload failures to Issues and mitigated it by rolling back a feature flag. If you are still experiencing failures when uploading attachments to Issues, please reload your page.\nMay  1, 22:29 UTC\nUpdate - We are investigating attachment upload failures on Issues. We will continue to keep users updated on progress towards mitigation.\nMay  1, 22:28 UTC\nInvestigating - We are investigating reports of degraded availability for Issues",
-          "link": "https://www.githubstatus.com/incidents/9zmv2mqqxsbm",
-          "publishedOn": "2025-05-01T23:13:18.000Z",
-          "wordCount": 5631,
-          "title": "Issue Attachments Failing to Upload",
           "imageUrl": "https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png"
         }
       ]
