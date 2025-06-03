@@ -1,10 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2025-06-02T00:35:10.122Z</id>
+    <id>urn:2025-06-03T00:33:52.863Z</id>
     <title>osmos::feed</title>
-    <updated>2025-06-02T00:35:10.122Z</updated>
+    <updated>2025-06-03T00:33:52.863Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[Incident: Trouble connecting to Slack]]></title>
+        <id>https://slack-status.com/2025-06/8657f083c1928c8e</id>
+        <link href="https://slack-status.com/2025-06/8657f083c1928c8e"/>
+        <updated>2025-06-02T22:15:37.000Z</updated>
+        <summary type="html"><![CDATA[On June 1, 2025, beginning around 5:00 PM PDT until 6:29 PM PDT, some users experienced issues with connecting to or logging into Slack, sending or receiving messages including those that were scheduled, and trouble loading items such as 'Activity' view.We traced the issue to a backend caching system that began improperly serving traffic in one of our database regions. As a result, an increase in error rates occurred for many Slack features. An automated recovery system began shifting failed requests to healthy databases, allowing success for some users.To fully mitigate the impact, we temporarily rerouted traffic away from the affected backend service, allowing it to recover. After addressing the issue with the caching system, we directed traffic back to the service once it was functioning properly, resolving the issue for all affected users.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Incident: Some users may be experiencing issues with organizational dashboards not loading correctly.]]></title>
+        <id>https://slack-status.com/2025-06/dddd4cb1bad5c570</id>
+        <link href="https://slack-status.com/2025-06/dddd4cb1bad5c570"/>
+        <updated>2025-06-02T22:12:33.000Z</updated>
+        <summary type="html"><![CDATA[From Sunday June 1, 2025 at 11:30 PM PDT, to Monday June 2, 2025 at 1:09 PM PDT, some Org Owners/Admins were unable to see a complete list of their org workspaces from the admin dashboard. A recent code change relating to how workspaces are displayed on the admin dashboard was inadvertently hiding certain workspaces from view. We reverted this change, which fully resolved the issue.]]></summary>
+        <author>
+            <name>Slack System Status</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Smarter Booking Dialog in Calendar]]></title>
+        <id>316459</id>
+        <link href="https://changelog.bookingsync.com/smarter-booking-dialog-in-calendar-316459"/>
+        <updated>2025-06-02T14:53:00.000Z</updated>
+        <summary type="html"><![CDATA[New!
+  
+Click on any booking in Planning or Month view to open a brand-new dialog with superpowers.
+
+What’s New?
+See everything at a glance — Payment, Details, Notes, Guest
+Jump to sections instantly via tabs
+Key info always visible in a sticky card on the right
+It’s faster, clearer, and made to simplify your day. We are continuing on improvements thanks to your continuous feedback.
+Lots more UI, UX, and feature upgrades coming in the next days & weeks so stay tuned!
+Try it now from your calendar.
+— The Smily Team 💙]]></summary>
+        <author>
+            <name>Eduardo, Head of Product</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Run Your Business Like a Pro — With the New Multi-Rental Calendar]]></title>
+        <id>316452</id>
+        <link href="https://changelog.bookingsync.com/run-your-business-like-a-pro-with-the-new-multi-rental-calendar-316452"/>
+        <updated>2025-06-02T14:41:00.000Z</updated>
+        <summary type="html"><![CDATA[New!
+  
+We’re introducing a brand-new Multi-Rental Calendar — designed to help you manage 10–100 rentals with more clarity, speed, and control.
+
+What’s new?
+Smooth horizontal scrolling through dates
+Vertical browsing with up to 50 rentals at once
+Filters for rental, destination, tag, amenities & more
+A brand-new booking pill design with hover tooltips
+One-click opens a detailed modal — no more page switching
+Tabs for Details, Guest, Payment, and Notes – all in one place
+A button to create a new booking
+Bonus: We’ve added visual highlights, refined spacing, and sticky headers to make every interaction easier on the eyes (and brain).
+We’re already working on follow-ups like smarter availability indicators. 👀
+As always, we’re listening and iterating—send us your feedback and we’ll squash any glitches quickly.
+Lots more UI, UX, and feature upgrades are coming in the next days & weeks so stay tuned!
+— The Smily Team 💙]]></summary>
+        <author>
+            <name>Eduardo, Head of Product</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The New Rate Simulator Is Here — Clearer Prices, Faster Answers]]></title>
+        <id>316445</id>
+        <link href="https://changelog.bookingsync.com/the-new-rate-simulator-is-here-clearer-prices-faster-answers-316445"/>
+        <updated>2025-06-02T14:16:51.000Z</updated>
+        <summary type="html"><![CDATA[New!
+  
+We’ve just launched a brand-new Rate Simulator designed to give you complete visibility into nightly pricing—and the power to simulate booking quotes in just a few clicks.
+
+Whether you’re reviewing your pricing, planning special offers, or answering guest questions, you’ll now have the clarity you need—without switching tabs or tools.
+What’s new?
+A clean, monthly calendar view showing nightly base rates per rental
+Minimum stay rules displayed directly under each date (e.g. “7 ☾”)
+“No rates” clearly flagged with tooltips when pricing is missing
+An integrated Rate Simulator to test quotes based on:
+Stay dates
+Guest count
+Booking source (e.g. Direct, Airbnb)
+
+Simulate and see it all
+Use the simulator to get an instant breakdown of what makes up the initial price—including rate rules, channel markups, special offers, and rounding. You’ll immediately see how the price is built—and why.
+If something can’t be calculated, we’ll show you exactly what’s missing so you can fix it fast.
+This is just the beginning…
+We’re listening to your feedback and fine-tuning things continuously—bug fixes, improvements, and new features are on the way.
+— The Smily Team 💙]]></summary>
+        <author>
+            <name>Eduardo, Head of Product</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Codespaces Scheduled Maintenance]]></title>
         <id>https://www.githubstatus.com/incidents/nwjwwhj118sf</id>
