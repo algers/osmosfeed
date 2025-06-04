@@ -56,6 +56,16 @@
           "imageUrl": "https://cloud.headwayapp.co/changelogs_images/images/big/000/144/088-beb70fcbc90b1a68e5b7f2e33d6489c49c24d55d.png"
         },
         {
+          "id": "315345",
+          "author": "Maud , Partnership Manager",
+          "description": "New!\n  \nWe’re thrilled to announce our new partnership with SuiteOp, the all-in-one operations platform built by short-term rental operators — for short-term rental operators.\n📍 Born from real-world experience\nSuiteOp was created by the team behind Sosuite, who managed hundreds of units across Philadelphia. Faced with fragmented tech stacks and disconnected workflows, they built SuiteOp to eliminate these bottlenecks — and it’s changing the game.\n💡 What is SuiteOp?\nSuiteOp is a unified operations ecosystem that connects smart devices, guest portals, teams, and automation tools, processing hundreds of real-time events every second to streamline your hospitality operations.\n\n🔐 Fonctionnalités clés :\n\n\nSmart Device Management – Automate property tech (like locks, thermostats, sensors) and …",
+          "link": "https://changelog.bookingsync.com/suiteop-is-now-available-with-smily!-315345",
+          "publishedOn": "2025-05-15T11:13:05.000Z",
+          "wordCount": 602,
+          "title": "🆕 SuiteOp is now available with Smily!",
+          "imageUrl": null
+        },
+        {
           "id": "314846",
           "author": "Eduardo, Head of Product",
           "description": "New!\n  \nImprovement\nWe’ve dramatically improved the loading speed of the Finance > Payouts tab—making it over 1,000x faster for some accounts. What previously took several minutes (and often failed to load after a very long wait) now loads in around 1 second.\n💡 What’s New?\nMassive performance boost: From over 4 minutes to just ~1 second—a smoother, near-instant experience.\nMore reliable access: No more long waits or failed loading when reviewing your payouts.\n📝 Please note:\nTo maintain this performance, payout data now refreshes every 6 hours. This means some very recent payouts may not appear immediately but will be updated automatically.\n✨ Available with SmilyPay only\nThe Finance section is only available for accounts using SmilyPay.\nNot using SmilyPay yet? Sign up directly from the Finance section to unlock seamless financial tracking and maximize your earnings!\nThis upgrade is part of our broader mission to make Smily faster, more stable, and more enjoyable for your day-to-day work.",
@@ -78,7 +88,7 @@
           "description": "Description: Tailnets using shared public email providers\nWhat happened?\nOn May 22, 2025 our Reddit community gave us the necessary kick\nto address an issue with handling shared public email provider domains (\"shared\ndomains\"). We mitigated the risk for new tailnets being created on previously\nunknown shared domains by enabling user approval by\ndefault. This issue affects only a small portion of our user base, and this\nbulletin provides some background, mitigation steps, and our future plans.\nBackground\nTailscale users are mapped to tailnets by their email address domain (with a\nfew exceptions*). This means that user1@example.com and user2@example.com\ncan both log in to tailnet example.com. We chose this default behavior because\nit reduces onboarding friction for new users and tailnet admi…",
           "link": "https://tailscale.com/security-bulletins/#ts-2025-004",
           "publishedOn": "2025-05-27T00:00:00.000Z",
-          "wordCount": 20492,
+          "wordCount": 20490,
           "title": "TS-2025-004",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         },
@@ -88,7 +98,7 @@
           "description": "Description: Insecure non-constant time comparison in DERP server mesh authentication\nWhat happened?\nTailscale's DERP (Designated Encrypted Relay for Packets) servers provide connectivity between Tailscale nodes in the event that they cannot mutually communicate due to network restrictions. DERP servers deployed in the same region communicate using a private mesh API to coordinate client connections amongst themselves. These private mesh connections authenticate using a pre-shared secret key.\nThe DERP servers previously used an insecure non-constant time comparison when verifying the mesh authentication secret. This would have allowed an attacker to discover the mesh secret by performing a side channel timing attack.\nThe issue was present since the introduction of DERP meshing and patched on May 21, 2025. We have updated all Tailscale-managed DERP servers and rotated their mesh secrets.\nWho was affected?\nAll Tailscale-operated DERP servers and Tailscale users who operate their own custom DERP servers with more than one server per region.\nWhat was the impact?\nAn attacker who discovered the mesh key could not see any plaintext traffic between nodes, since all traffic is end-to-end encrypted.\nAn attacker with mesh access would have been able to enumerate all peers connected to a DERP server, including their WireGuard public key and their source IP address and port.\nAn attacker with mesh access would have been able to perform a denial-of-service attack (DoS attack), prohibiting a node’s keys on any DERP servers by forcing disconnects of meshed DERP servers by using the ClosePeer API.\nWe have no evidence to indicate any abuse of this issue.\nWhat do I need to do?\nIf you operate your own custom DERP servers in a mesh setup, you should update to the latest version and rotate any mesh keys that were previously in use.",
           "link": "https://tailscale.com/security-bulletins/#ts-2025-003",
           "publishedOn": "2025-05-21T00:00:00.000Z",
-          "wordCount": 20492,
+          "wordCount": 20490,
           "title": "TS-2025-003",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         },
@@ -98,7 +108,7 @@
           "description": "Description: Privilege escalation in proxy-to-grafana via header spoofing\nWhat happened?\nThe Tailscale Grafana proxy is a HTTP reverse proxy for Grafana that annotates requests with X-Webauth-* headers bearing the requesting user's whois-based Tailscale identity.\nThe Grafana proxy is intended to be used in combination with Grafana's session-based authentication using cookies issued in response to requests made to /login to authenticate subsequent requests to other endpoints.\nWhen configured to use session-based authentication, Grafana's /api/ routes will continue to accept X-Webauth-* headers for authentication. Previous versions of the Grafana proxy did not strip these X-Webauth-* headers from API requests allowing them to be forged by a malicious tailnet node.\nThe issue was present since the initial release of the Grafana proxy, and was patched on May 15th, 2025. The Grafana proxy now strips X-Webauth-* headers from all incoming requests.\nWho was affected?\nTailnets using Grafana in combination with the Grafana proxy to authenticate users.\nWhat was the impact?\nGrafana instances protected by the Grafana proxy would have been vulnerable to privilege escalation via HTTP request header forgery from members of their tailnet.\nWhat do I need to do?\nUpdate to the latest Grafana proxy by running go install tailscale.com/cmd/proxy-to-grafana@latest\nCredits\nThanks to Yeongrok Gim for reporting this issue.",
           "link": "https://tailscale.com/security-bulletins/#ts-2025-002",
           "publishedOn": "2025-05-15T00:00:00.000Z",
-          "wordCount": 20492,
+          "wordCount": 20490,
           "title": "TS-2025-002",
           "imageUrl": "https://cdn.sanity.io/images/w77i7m8x/production/8e0455b2d9b33c6151016afdf2ea81d7623c2f04-1200x628.png"
         }
@@ -135,13 +145,34 @@
       "title": "Twilio Status - Incident History",
       "feedUrl": "https://status.twilio.com/history.rss",
       "siteUrl": "https://status.twilio.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://status.twilio.com/incidents/fmgc6490p7tx",
+          "author": null,
+          "description": "THIS IS A SCHEDULED EVENT Jun 3, 22:00 PDT  -  Jun 4, 04:00 PDT\nMay 30, 16:12 PDT\nScheduled - We’re conducting a planned maintenance in the US between 06/03/2025 22:00 and 06/04/2025 04:00 Pacific Time. During the maintenance window, 10DLC numbers could experience delays with registration and\\or de-registration. While 10DLC numbers are pending a registration update, traffic sent to\\from those Twilio numbers could fail until their A2P provisioning completes.",
+          "link": "https://status.twilio.com/incidents/fmgc6490p7tx",
+          "publishedOn": "2025-06-04T05:00:00.000Z",
+          "wordCount": 7579,
+          "title": "Twilio Phone Numbers - Maintenance",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        }
+      ]
     },
     {
       "title": "DigitalOcean Status - Incident History",
       "feedUrl": "https://status.digitalocean.com/history.rss",
       "siteUrl": "http://status.digitalocean.com",
       "articles": [
+        {
+          "id": "https://status.digitalocean.com/incidents/910gxngf038g",
+          "author": null,
+          "description": "Jun  3, 19:20 UTC\nResolved - Our Engineering team has successfully resolved the issue that was impacting the DBaaS cluster logs. API responses should be successful without any error messages while retrieving logs, and the \"Recent Logs\" section is also working as expected. \nWe have continued to monitor the system and have observed stable performance. The issue is now fully resolved.\nThank you for your patience while we worked to address the issue. If you are still facing issues, please open a ticket from within your Cloud Control Panel for further review.\nJun  3, 18:29 UTC\nMonitoring - Our Engineering team has now mitigated the issue that affected the DBaaS cluster logs and is currently being monitored. Users should no longer see 500 errors when attempting to retrieve the logs via the API. The \"Recent Logs\" section in the Logs & Queries tab of the UI should now display logs as expected.\nWe are continuing to monitor the situation closely to ensure stability. Thank you for your patience during the process and we will provide a final update once we confirm the issue is fully resolved.\nJun  3, 16:26 UTC\nInvestigating - Our Engineering team is currently investigating an issue with fetching DBaaS cluster logs, affecting all non-MongoDB clusters.\nAffected users may encounter 500 errors when attempting to retrieve logs via the API, and no logs will appear in the Recent Logs tab.\nWe apologize for the inconvenience and will provide updates as soon as we have more information. Thank you for your patience.",
+          "link": "https://status.digitalocean.com/incidents/910gxngf038g",
+          "publishedOn": "2025-06-03T19:20:23.000Z",
+          "wordCount": 6434,
+          "title": "DBaaS Cluster Logs",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.digitalocean.com/incidents/bj6nfhyrh9j0",
           "author": null,
@@ -299,6 +330,16 @@
       "feedUrl": "https://status.notion.so/history.rss",
       "siteUrl": "https://status.notion.so",
       "articles": [
+        {
+          "id": "https://status.notion.so/incidents/vqfl9hw9129s",
+          "author": null,
+          "description": "Jun  3, 17:27 PDT\nUpdate - We are continuing to work on a fix for this issue.\nJun  3, 10:10 PDT\nInvestigating - Some iOS users on version 1.78.0 of Notion Calendar are not able to login with SSO. Our engineering team is actively working on identifying the issue.",
+          "link": "https://status.notion.so/incidents/vqfl9hw9129s",
+          "publishedOn": "2025-06-04T00:27:51.000Z",
+          "wordCount": 3375,
+          "title": "Unable to log into Notion Calendar iOS app via SSO",
+          "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"
+        },
         {
           "id": "https://status.notion.so/incidents/krszws4b74mc",
           "author": null,
